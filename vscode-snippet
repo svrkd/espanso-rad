@@ -1,0 +1,11 @@
+{
+  "Espanso match": {
+    "prefix": "ematch",
+    "body": [
+      "  - trigger: \"$1\"",
+      "    replace: \"$2\"",
+      "    word: true"
+    ],
+    "description": "Novo match para o Espanso"
+  }
+}
