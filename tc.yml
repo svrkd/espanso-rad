@@ -37,6 +37,18 @@ matches:
     word: true
     replace: Arco aórtico com calcificações parietais.
 
+  - trigger: "vbnl"
+    word: true
+    replace: Vesícula biliar tópica, sem particularidades tomográficas.
+
+  - trigger: "prostanl"
+    word: true
+    replace: Próstata de dimensões conservadas, contornos regulares e densidade homogênea.
+
+  - trigger: "alçanl"
+    word: true
+    replace: Alças intestinais de distribuição usual, sem sinais aparentes de anormalidades focais.
+
   - trigger: "aap"
     word: true
     replace: Arco aórtico proeminente.
