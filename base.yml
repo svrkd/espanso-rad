@@ -15,7 +15,46 @@ matches:
   - trigger: "redd"
     word: true
     replace: "site:reddit.com"
+    
+  - trigger: "codc"
+    replace: Correlacionar com dados clínicos.
+    word: true
 
+  - trigger: "colab"
+    replace: Correlacionar com dados clínicos e laboratoriais.
+    word: true
+
+  - trigger: "cocx"
+    replace: Correlacionar com histórico cirúrgico.
+    word: true
+
+  - trigger: "acrirm"
+    replace: A critério clínico, o estudo dirigido com ressonância magnética poderá trazer maiores subsídios diagnósticos.
+    word: true
+
+  - trigger: "acritc"
+    replace: A critério clínico, o estudo dirigido com tomografia computadorizada poderá trazer maiores subsídios diagnósticos.
+    word: true
+
+  - trigger: "acri1"
+    replace: A critério clínico, o estudo dirigido da região poderá trazer maiores subsídios diagnósticos.
+    word: true
+
+  - trigger: "rest"
+    replace: Restante do 
+    word: true
+
+  - trigger: "hx0"
+    replace: "Indicação clínica: não informada no pedido médico."
+    word: true
+
+  - trigger: "hx"
+    replace: "Indicação clínica: "
+    word: true
+
+  - trigger: "a/e"
+    replace: a esclarecer
+    word: true
 
   # But matches can also be dynamic:
 
