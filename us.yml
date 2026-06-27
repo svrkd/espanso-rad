@@ -1396,6 +1396,26 @@ matches:
     replace: Colecistectomia.
     word: true
 
+  - trigger: "vb1"
+    replace: Vesícula biliar normodistendida, com paredes finas e regulares, apresentando imagens ecogênicas no seu interior, formadoras de sombra acústica posterior, compatível com cálculos, móveis às mudanças de decúbito, medindo até x cm.
+    word: true
+
+  - trigger: "vb1c"
+    replace: "Colecistolitíase. "
+    word: true
+
+  - trigger: "vb10"
+    replace: Vesícula biliar hipodistendida (ausência de jejum?).
+    word: true
+
+  - trigger: "vb2"
+    replace: Vesícula biliar hiperdistendida, medindo x cm no seu diâmetro longitudinal (valor normal <10 cm) e x cm no seu diâmetro transversal (valor normal até 4 cm). Apresenta suas paredes espessadas (medindo x cm, normal < 0,4 cm), trilaminadas, com líquido livre perivesical. Nota-se imagens ecogênicas formadoras de sombra acústica posterior, compatível com cálculos, destacando-se um imóvel na sua porção infundibular, medindo x cm. Sinal de Murphy ultrassonográfico positivo.
+    word: true
+
+  - trigger: "vb2c"
+    replace: Sinais compatíveis com colecistite aguda.
+    word: true
+
   - trigger: "vb4"
     replace: Observa-se imagem hiperecogênica, sem efeitos sobre o feixe sonoro posterior, na parede da porção _, imóvel às mudanças de decúbito, medindo _ cm.
     word: true
