@@ -2,29 +2,8 @@ matches:
 
   - trigger: "4vnl"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
-      
-      Análise:
-      
-      Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária.
-      Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
-      Sistema ventricular com morfologia e dimensões normais.
-      Restante do parênquima cerebral com morfologia e coeficientes de atenuação normais.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Quarto ventrículo com morfologia e situação conservadas.
-      Estruturas da linha mediana sem desvios significativos.
-      Ateromatose das carótidas internas e vertebrais.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-      
-      Opinião:
-      Sinais de redução volumétrica encefálica difusa.
-      Microangiopatia/gliose.
-      Ateromatose de base de crânio.
-
+    replace: Quarto ventrículo com morfologia e situação conservadas.
+  
   - trigger: "aaa"
     word: true
     replace: "Aneurisma fusiforme da aorta abdominal infrarrenal, com calibre de x cm, e extensão craniocaudal de x cm."
@@ -71,96 +50,27 @@ matches:
 
   - trigger: "abscessocoxa"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DA COXA DIREITA C/C
-      
-      Técnica:
-      Foram obtidas imagens por aquisição volumétrica multislice, com a administração endovenosa de contraste, com reformatações multiplanares.
-      
-      Análise:
-      Coleções hipodensas, confluentes, com realce periférico pelo meio de contraste endovenoso, localizadas nos músculos vastos intermédio, lateral e cabeça longa do bíceps femoral, medindo em conjunto cerca de 21,0 x 9,3 x 7,0 cm, com volume aproximado de 714,9 cm³, sugerindo representar abscessos. Há ruptura da fáscia do vasto lateral, com extensão das coleções para a tela subcutânea, distando cerca de 0,4 cm da pele.
-      Espessamento difuso de pele e tecido celular subcutâneo sugerindo representar edema/celulite. Correlacionar com dados clínicos e laboratoriais.
-      Estruturas ósseas de forma conservada, sem sinais de fraturas.
-      Articulação fêmoro-acetabular de contornos regulares.
-      Pequeno derrame articular no joelho.
-      Tendões e ligamentos de avaliação limitada nesse estudo.
-      Aumento do número de linfonodos inguinofemorais esquerdos, sem caracterizar linfonodomegalias.
-      
-      Conclusão:
-      Coleções localizadas nos músculos vastos intermédio, lateral e cabeça longa do bíceps femoral, sugerindo representar abscessos. Há ruptura da fáscia do vasto lateral, com extensão das coleções para a tela subcutânea, distando cerca de 0,4 cm da pele.
-      Espessamento difuso de pele e tecido celular subcutâneo sugerindo representar edema/celulite. Correlacionar com dados clínicos e laboratoriais.
-      Pequeno derrame articular no joelho.
-      Aumento do número de linfonodos inguinofemorais esquerdos, sem caracterizar linfonodomegalias.
+    replace: Coleções hipodensas, confluentes, com realce periférico pelo meio de contraste endovenoso, localizadas nos músculos vastos intermédio, lateral e cabeça longa do bíceps femoral, medindo em conjunto cerca de _ x _ x _ cm, com volume aproximado de _ cm³, sugerindo representar abscessos. Há ruptura da fáscia do vasto lateral, com extensão das coleções para a tela subcutânea, distando cerca de 0,4 cm da pele.
 
+  - trigger: "tccelulite"
+    word: true
+    replace: Espessamento difuso de pele e tecido celular subcutâneo sugerindo representar edema/celulite. Correlacionar com dados clínicos e laboratoriais.
+    
   - trigger: "abscessofaringe"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO PESCOÇO C/C
-      
-      Técnica:
-      Imagens volumétricas obtidas com a administração intravenosa de meio de contraste iodado.
-      
-      Análise:
-      Coleções hidroaéreas dissecando os espaços sublinguiais, submandibulares, da mucosa da faringe, retrofaríngeo, cervical posterior e de Danger, estendendo-se ao mediastino posterior e às regiões infraclaviculares. A possibilidade de abscessos pode ser considerada dentre os diagnósticos diferenciais. Correlacionar com dados clínicos e laboratoriais.
-      Glândulas parótidas e submandibulares sem alterações.
-      Epiglote, pregas ariepiglóticas, bandas ventriculares e cordas vocais apresentando coeficientes de atenuação preservados.
-      Aumento do número de linfonodos cervicais, sem caracterizar linfonodomegalias.
-      Glândula tireoide sem particularidades.
-      Estruturas ósseas preservadas.
-      Sinusopatia crônica maxilar direita.
-      
-      Impressão:
-      Coleções hidroaéreas dissecando os espaços sublinguiais, submandibulares, da mucosa da faringe, retrofaríngeo, cervical posterior e de Danger, estendendo-se ao mediastino posterior e às regiões infraclaviculares. A possibilidade de abscessos pode ser considerada dentre os diagnósticos diferenciais. Correlacionar com dados clínicos e laboratoriais.
-      Aumento do número de linfonodos cervicais, sem caracterizar linfonodomegalias.
-      Sinusopatia crônica maxilar direita.
+    replace: Coleções hidroaéreas dissecando os espaços sublinguiais, submandibulares, da mucosa da faringe, retrofaríngeo, cervical posterior e de Danger, estendendo-se ao mediastino posterior e às regiões infraclaviculares. A possibilidade de abscessos pode ser considerada dentre os diagnósticos diferenciais. Correlacionar com dados clínicos e laboratoriais.
 
   - trigger: "abscessofaringeo"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO PESCOÇO C/C
-      
-      Técnica:
-      Imagens obtidas por aquisição volumétrica "multislice" após a administração intravenosa do meio de contraste iodado.
-      Materiais metálico em arcada dentária limitando avaliação de estruturas e reduzindo à acurácia pelo método.
-      
-      Análise:
-      Cânula traqueal.
-      Formação hipodensa, mal delimitada, medindo cerca de 6,5 x 4,7 x 3,5 cm, com discreto realce pelo meio de contraste endovenoso, localizada posteriormente no espaço da mucosa da faringe esquerdo, estendendo-se desde a altura da base da língua à laringe supraglótica, onde exerce efeito de massa promovendo redução do calibre da coluna aérea. Associa-se aumento do número de linfonodos cervicais à esquerda, sem caracterizar linfonodomegalias, bem como densificação de pele, tecido subcutâneo e planos mioadiposos adjacentes e espessamento do músculo platisma ipsilateral. Admite-se inicialmente a hipótese diagnóstica de processo inflamatório/infeccioso faringolaringeo com abscesso em organização. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de neoplasia.
-      Aumento volumétrico das glândulas parótida e submandibular esquerdas sugerindo representar, ao menos em parte, edema/processo inflamatório reacional.
-      Material com atenuação de partes moles contido na faringe e laringe, sugerindo muco/secreção.
-      Glândulas parótida e submandibular direitas sem alterações.
-      Tireoide heterogênea, melhor avaliada em estudo dirigido.
-      Estruturas ósseas preservadas.
-      
-      Impressão:
-      Formação hipodensa, mal delimitada, localizada posteriormente no espaço da mucosa da faringe esquerdo, estendendo-se desde a altura da base da língua à laringe supraglótica, onde exerce efeito de massa promovendo redução do calibre da coluna aérea. Associa-se aumento do número de linfonodos cervicais à esquerda, sem caracterizar linfonodomegalias, bem como densificação de pele, tecido subcutâneo e planos mioadiposos adjacentes e espessamento do músculo platisma ipsilateral. Admite-se inicialmente a hipótese diagnóstica de processo inflamatório/infeccioso faringolaringeo com abscesso em organização. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de neoplasia.
-      Demais achados pormenorizados no corpo do laudo.
-
+    replace: Formação hipodensa, mal delimitada, medindo cerca de _ x _ x _ cm, com discreto realce pelo meio de contraste endovenoso, localizada posteriormente no espaço da mucosa da faringe esquerdo, estendendo-se desde a altura da base da língua à laringe supraglótica, onde exerce efeito de massa promovendo redução do calibre da coluna aérea. Associa-se aumento do número de linfonodos cervicais à esquerda, sem caracterizar linfonodomegalias, bem como densificação de pele, tecido subcutâneo e planos mioadiposos adjacentes e espessamento do músculo platisma ipsilateral. Admite-se inicialmente a hipótese diagnóstica de processo inflamatório/infeccioso faringolaringeo com abscesso em organização. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de neoplasia.
+     
   - trigger: "abscessoodontogenico"
     word: true
     replace: "Aumento volumétrico e densificação de partes moles adjacentes ao corpo da mandíbula à direita. Associa-se espessamento e densificação de pele e tecido subcutâneo. Nota-se ainda, área de rarefação óssea junto à raiz do segundo dente molar inferior direito. Esse conjunto de achados, embora inespecífico, sugere a possibilidade de processo inflamatório/infeccioso regional (celulite com fleimão/abscesso em organização, com possível origem odontogênica. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos."
 
   - trigger: "abscessoretrofaringeo"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO PESCOÇO C/C
-      
-      Técnica:
-      Imagens obtidas por aquisição volumétrica "multislice" após a administração intravenosa do meio de contraste iodado.
-      
-      Análise:
-      Coleção hipodensa, com realce periférico pelo meio de contraste endovenoso, medindo 5,0 x 3,8 x 2,1 cm, com volume de 20,8 cm³, localizada no espaço retrofaríngeo esquerdo, na altura da oro e hipofaringe, sugerindo representar abscesso. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
-      Aumento volumétrico da glândula submandibular esquerda, sem evidências de coleções.
-      Aumento do número de linfonodos cervicais, com linfonodos medindo até 2,0 x 1,9 cm na cadeia IIa esquerda.
-      Glândulas parótidas e submandibular direita sem alterações.
-      Epiglote, pregas ariepiglóticas, bandas ventriculares e cordas vocais apresentando coeficientes de atenuação preservados.
-      Glândula tireoide sem particularidades.
-      Estruturas ósseas preservadas.
-      Espessamento de pele e tecido celular subcutâneo sugerindo representar edema/celulite. Correlacionar com dados clínicos e laboratoriais.
-      
-      Impressão:
-      Coleção localizada no espaço retrofaríngeo esquerdo, na altura da oro e hipofaringe, sugerindo representar abscesso. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: Coleção hipodensa, com realce periférico pelo meio de contraste endovenoso, medindo _ x _ x _ cm, com volume de _ cm³, localizada no espaço retrofaríngeo esquerdo, na altura da oro e hipofaringe, sugerindo representar abscesso. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
 
   - trigger: "aca"
     word: true
@@ -327,7 +237,7 @@ matches:
   - trigger: "aev"
     word: true
     replace: |
-      A análise comparativa com o exame realizado em  evidencia:
+      A análise comparativa com o exame realizado em _ evidencia:
       
       
       
@@ -336,7 +246,7 @@ matches:
   - trigger: "aevg"
     word: true
     replace: |
-      A análise comparativa com o exame realizado previamente em , guardadas as diferenças na metodologia empregada, evidencia:
+      A análise comparativa com o exame realizado previamente em _, guardadas as diferenças na metodologia empregada, evidencia:
       
       Permanecendo:
 
@@ -414,29 +324,7 @@ matches:
 
   - trigger: "aneurismadeaortatoracicaroto"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX C/C
-      
-      Técnica:
-      Imagens obtidas por aquisição volumétrica com a administração intravenosa de contraste iodado.
-      Avaliação de exame prejudicada por artefatos de movimentação respiratória.
-      
-      Análise:
-      Aumento do calibre do segmento ascendente da aorta torácica (5,7 x 5,2 cm).
-      Volumoso aneurisma do arco aórtico, iniciando-se na altura da emergência da artéria subclávia esquerda e estendendo-se junto ao terço proximal da aorta descendente. A lesão tem calibre de até 11,8 x 10,6 cm, exibe extenso trombo mural e apresenta sinais de rotura contida no saco aneurismático, caracterizados por sinal do crescente de alta atenuação (hematoma intraluminal), descontinuidade das calcificações parietais e fissuração do trombo com áreas de extravasamento do meio de contraste luminal para o interior do trombo.
-      Ateromatose aortocoronariana.
-      Cardiomegalia.
-      Ectasia do tronco e dos ramos direito e esquerdo da artéria pulmonar, inferindo certo grau de hipertensão pulmonar.
-      Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
-      Traqueia e brônquios centrais patentes, de calibre normal.
-      Estrias e bandas parenquimatosas esparsas.
-      Raros nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
-      Espaço pleural livre.
-      Alterações degenerativas do arcabouço ósseo torácico.
-      
-      Conclusão:
-      Volumoso aneurisma do arco aórtico, iniciando-se na altura da emergência da artéria subclávia esquerda e estendendo-se junto ao terço proximal da aorta descendente. A lesão tem calibre de até 11,8 x 10,6 cm, exibe extenso trombo mural e apresenta sinais de rotura contida no saco aneurismático, caracterizados por sinal do crescente de alta atenuação (hematoma intraluminal), descontinuidade das calcificações parietais e fissuração do trombo com áreas de extravasamento do meio de contraste luminal para o interior do trombo.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: Volumoso aneurisma do arco aórtico, iniciando-se na altura da emergência da artéria subclávia esquerda e estendendo-se junto ao terço proximal da aorta descendente. A lesão tem calibre de até _ x _ cm, exibe extenso trombo mural e apresenta sinais de rotura contida no saco aneurismático, caracterizados por sinal do crescente de alta atenuação (hematoma intraluminal), descontinuidade das calcificações parietais e fissuração do trombo com áreas de extravasamento do meio de contraste luminal para o interior do trombo.
 
   - trigger: "aneurismaesp"
     word: true
@@ -444,23 +332,7 @@ matches:
 
   - trigger: "aneurismaroto"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      Análise:
-      Extensa hemorragia subaracnoide (Fisher IV) ocupando sulcos corticais e cisternas basais, bem como promovendo inundação do sistema ventricular supra e infratentorial (hemoventrículo) com hidrocefalia. Nota-se maior componente na linha inter-hemisférica, na região da artéria comunicante anterior.
-      Redução difusa da densidade do parênquima encefálico com apagamento dos sulcos corticais e cisternas basais e perda da diferenciação entre as substâncias branca e cinzenta, sugerindo edema/alterações isquêmicas.
-      Ateromatose de vasos intracranianos.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Estruturas da linha mediana sem desvios significativos.
-      
-      Opinião:
-      Extensa hemorragia subaracnoide (Fisher IV) ocupando sulcos corticais e cisternas basais, bem como promovendo inundação do sistema ventricular supra e infratentorial (hemoventrículo) com hidrocefalia. Nota-se maior componente na linha inter-hemisférica, na região da artéria comunicante anterior. Aneurisma roto? Lesão de outra natureza? A critério clínico, se possível, o estudo dessa região por imagens de arteriografia digital poderá fornecer maiores subsídios diagnósticos.
-      Redução difusa da densidade do parênquima encefálico com apagamento dos sulcos corticais e cisternas basais e perda da diferenciação entre as substâncias branca e cinzenta, sugerindo edema/alterações isquêmicas.
-      Ateromatose de vasos intracranianos.
+    replace: Extensa hemorragia subaracnoide (Fisher IV) ocupando sulcos corticais e cisternas basais, bem como promovendo inundação do sistema ventricular supra e infratentorial (hemoventrículo) com hidrocefalia. Nota-se maior componente na linha inter-hemisférica, na região da artéria comunicante anterior.
 
   - trigger: "aneurismaroto1"
     word: true
@@ -470,11 +342,11 @@ matches:
 
   - trigger: "anev"
     word: true
-    replace: "A análise comparativa com o exame realizado em  não evidencia alterações significativas, permanecendo:"
+    replace: "A análise comparativa com o exame realizado em _ não evidencia alterações significativas, permanecendo:"
 
   - trigger: "anevg"
     word: true
-    replace: "A análise comparativa com o exame realizado em , guardadas as diferenças na metodologia empregada, não evidencia alterações significativas, permanecendo:"
+    replace: "A análise comparativa com o exame realizado em _, guardadas as diferenças na metodologia empregada, não evidencia alterações significativas, permanecendo:"
 
   - trigger: "angiocervical"
     word: true
@@ -492,97 +364,12 @@ matches:
       Ausência de estenoses hemodinamicamente significativas ou dilatações aneurismáticas.
       
       Opinião:
-      
       Estudo por imagens de angioressonância arterial cervical sem anormalidades evidentes.
 
   - trigger: "angiomav"
     word: true
     replace: "Angioma venoso no lobo frontal direito, variante anatômica da drenagem venosa normal."
-
-  - trigger: "angiomiolipomaus"
-    word: true
-    replace: |
-      ULTRASSONOGRAFIA DE ABDOME TOTAL
-      
-      ABDOME:
-      	Fígado de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima. Distribuição vascular preservada, sendo normal o calibre das veias porta e supra-hepáticas.
-      	Não há evidência de dilatação das vias biliares intra-hepáticas.
-      	Hepato colédoco sem alterações.
-      	Vesícula biliar de contornos e dimensões normais, paredes normo-espessas e sem imagem típica de cálculo.
-      	Pâncreas e aorta parcialmente visualizados devido a interposição de alças intestinais.
-      	Baço de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
-      	Rins de topografia, contornos e dimensões normais.
-      	Espessura córtico-medular conservada de ambos os rins, com ecotextura normal do parênquima bilateralmente.
-      	Ausência de dilatações dos sistemas pielocalicilares.
-      	Não se observam imagens de litíases.
-      	Imagem nodular hiperecogênica, de limites parcialmente definidos e cortornos regulares, sem fluxo ao estudo Doppler colorido, localizada no terço inferior do rim esquerdo, medindo 1,5 x 1,3 cm
-      	Não há líquido livre na cavidade abdominal.
-      	Bexiga com capacidade e distensibilidade normais, contornos regulares, paredes lisas e normo-espessas.
-      
-      OPINIÃO:
-      	Nódulo hiperecogênico no rim esquerdo. Embora a possibilidade de angiomiolipoma seja a mais prevalente, a ultrassonografia não afasta processos primários de outra natureza. Tomografia computadorizada ou ressonância magnética de abdome pode trazer mais informações.
-
-  - trigger: "angiorm1"
-    word: true
-    replace: |
-      ANGIORRESSONÂNCIA MAGNÉTICA ARTERIAL CEREBRAL S/C
-      
-      Técnica:
-      Exame realizado pela técnica "3D-TOF" com sequências sensíveis a fluxo e reconstrução tridimensional segundo intensidade máxima.
-      
-      Análise:
-      Segmentos intracranianos das artérias carótidas internas, artérias cerebrais anteriores, artérias cerebrais médias, segmentos intracranianos das artérias vertebrais, artéria basilar e artérias cerebrais posteriores de trajeto, calibre e fluxo preservados.
-      Não há evidência de dilatação aneurismática ou estenose significativa.
-      
-      Opinião:
-      Angioressonância arterial intracraniana dentro dos limites da normalidade.
-
-  - trigger: "angiorm2"
-    word: true
-    replace: |
-      ANGIORRESSONÂNCIA MAGNÉTICA ARTERIAL CEREBRAL S/C
-      
-      Técnica:
-      Exame realizado pela técnica "3D-TOF" com sequências sensíveis a fluxo e reconstrução tridimensional segundo intensidade máxima.
-      
-      Análise:
-      Segmentos intracranianos das artérias carótidas internas, artérias cerebrais anteriores, artérias cerebrais médias, segmentos intracranianos das artérias vertebrais, artéria basilar e artérias cerebrais posteriores de trajeto, calibre e fluxo preservados.
-      Não há evidência de dilatação aneurismática ou estenose significativa.
-      
-      Opinião:
-      Angiorressonância arterial intracraniana dentro dos limites da normalida
-
-  - trigger: "angiormcr"
-    word: true
-    replace: |
-      ANGIORESSONÂNCIA ARTERIAL ENCEFÁLICA S/C
-      
-      TÉCNICA:
-      Realizadas imagens de angio-ressonância pela técnica de 3D TOF - MOTSA com imagens de intensidade máxima (MIP) tridimensionais, com aquisições sensíveis a fluxo arterial.
-      
-      DESCRIÇÃO:
-      Artérias carótidas internas em sua porção intracraniana, artérias cerebrais anteriores,
-      médias, posteriores, basilar e vertebrais com calibre e fluxo preservados.
-      
-      OPINIÃO:
-      Estudo por imagens de angiorressonância arterial encefálica dentro dos parâmetros da normalidade.
-
-  - trigger: "angiormv4"
-    word: true
-    replace: |
-      ANGIORRESSONÂNCIA MAGNÉTICA ARTERIAL CEREBRAL S/C
-      
-      Técnica:
-      Exame realizado pela técnica "3D-TOF" com sequências sensíveis a fluxo e reconstrução tridimensional segundo intensidade máxima.
-      
-      Análise:
-      Segmentos intracranianos das artérias carótidas internas, artérias cerebrais anteriores, artérias cerebrais médias, segmentos intracranianos da artéria vertebral direita, artéria basilar e artérias cerebrais posteriores de trajeto, calibre e fluxo preservados.
-      Hipoplasia do segmento V4 da artéria vertebral esquerda (variação anatômica congênita).
-      Não há evidência de dilatação aneurismática ou estenose significativa.
-      
-      Opinião:
-      Angioressonância arterial intracraniana dentro dos limites da normalidade.
-
+    
   - trigger: "angiotcaortadetalhes"
     word: true
     replace: |
@@ -606,7 +393,7 @@ matches:
   - trigger: "angiotomovenosaabdominal"
     word: true
     replace: |
-      ANGIOTOMOGRAFIA VENOSA DE ABDOME SUPEIROR E INFERIOR C/C
+      ANGIOTOMOGRAFIA VENOSA DE ABDOME SUPERIOR E INFERIOR C/C
       
       Técnica:
       Cortes tomográficos axiais do abdome, antes e após a injeção do meio de contraste endovenoso.
@@ -690,7 +477,7 @@ matches:
 
   - trigger: "aortarompendo"
     word: true
-    replace: "Aorta abdominal pérvia, de trajeto discretamente tortuoso, apresentando ectasia desde o segmento torácico descendente (3,8 x 3,5 cm), destacando-se aneurisma fusiforme suprarrenal, com 3,8 x 3,6 cm de calibre e estendendo-se por cerca de 11,2 cm, apresentando trombose mural excêntrica. Destacan-se duas áreas ulceradas na altura dos corpos vertebrais de L1 e L2, medindo cada uma cerca de 1,5 x 0,6 cm e 1,3 x 0,5 cm, respectivamente. Associam-se perda da continuidade/deslocamento da calcificação parietal, onde o relacionada à parede lateral esquerda, bem como abaulamento parietal focal relacionado à parede na altura das ulcerações acima descritas, com amoldamento da aorta à coluna vertebral nesse nível, achados que podem representar instabilidade/sinais iminentes de ruptura."
+    replace: "Aorta abdominal pérvia, de trajeto discretamente tortuoso, apresentando ectasia desde o segmento torácico descendente (_ x _ cm), destacando-se aneurisma fusiforme suprarrenal, com _ x _ cm de calibre e estendendo-se por cerca de 11,2 cm, apresentando trombose mural excêntrica. Destacan-se duas áreas ulceradas na altura dos corpos vertebrais de L1 e L2, medindo cada uma cerca de 1,5 x 0,6 cm e 1,3 x 0,5 cm, respectivamente. Associam-se perda da continuidade/deslocamento da calcificação parietal, onde o relacionada à parede lateral esquerda, bem como abaulamento parietal focal relacionado à parede na altura das ulcerações acima descritas, com amoldamento da aorta à coluna vertebral nesse nível, achados que podem representar instabilidade/sinais iminentes de ruptura."
 
   - trigger: "aortasus"
     word: true
@@ -698,7 +485,7 @@ matches:
 
   - trigger: "apendicitegrau4"
     word: true
-    replace: "Apêndice cecal espessado com obliteração da gordura perivisceral e aumento do número de linfonodos regionais. Observam-se pequenas coleções periapendiculares, pneumoperitônio e mínima quantidade de líquido livre na cavidade pélvica.A possibilidade de processo inflamatório/infeccioso do apêndice cecal complicada com perfuração e abscessos periapendiculares pode ser considerada dentre os diagnósticos diferenciais, diante de um contexto clínico e laboratorial compatível."
+    replace: "Apêndice cecal espessado com obliteração da gordura perivisceral e aumento do número de linfonodos regionais. Observam-se pequenas coleções periapendiculares, pneumoperitônio e mínima quantidade de líquido livre na cavidade pélvica. A possibilidade de processo inflamatório/infeccioso do apêndice cecal complicado com perfuração e abscessos periapendiculares pode ser considerada dentre os diagnósticos diferenciais, diante de um contexto clínico e laboratorial compatível."
 
   - trigger: "apev"
     word: true
@@ -714,7 +501,7 @@ matches:
 
   - trigger: "apni1"
     word: true
-    replace: "Apêncide cecal não individualizado. Caso persista a indicação clínica, recomenda-se prosseguir a investigação."
+    replace: "Apêndice cecal não individualizado. Caso persista a indicação clínica, recomenda-se prosseguir a investigação."
 
   - trigger: "apnl"
     word: true
@@ -751,11 +538,7 @@ matches:
   - trigger: "aprisionamentoaereosegmentar"
     word: true
     replace: "Área de hiperinsuflação segmentar no lobo inferior direito com preservação da vasculatura regional, levando a hipoatenuação local. A possibilidade de estenose brônquica com aprisionamento aéreo segmentar pode ser considerada. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
-
-  - trigger: "areadepreserva"
-    word: true
-    replace: "Imagem ovalada hipoecoica, medindo cm, localizada na periferia do segmento lateral do lobo hepático esquerdo, indeterminada. Área de preservação focal em fígado esteatótico? Nódulo? A critério clínico, se possível, o estudo dessa região por imagens de tomografia computadorizada ou ressonância magnética poderá fornecer maiores subsídios diagnósticos."
-
+    
   - trigger: "artboca"
     word: true
     replace: "Material odontológico na cavidade oral, com densidade metálica, causando artefatos de endurecimento dos feixes de raios X, dificultando a avaliação anatômica das estruturas adjacentes."
@@ -784,41 +567,6 @@ matches:
     word: true
     replace: "Artefatos de endurecimento de feixe de raio-x promovidos por materiais metálicos de osteossíntese no  xxxx, prejudicando a avaliação de estruturas adjacentes."
 
-  - trigger: "arterialobs"
-    word: true
-    replace: |
-      DOPPLER COLORIDO ARTERIAL DE MEMBRO INFERIOR ESQUERDO
-      
-      
-      DESCRIÇÃO:
-      
-      Ateromatose difusa em todo o leito arterial avaliado.
-      
-      Artérias femoral comum e segmentos proximais das artérias femoral superficial e profunda com trajeto e calibre normais, paredes regulares, sendo que o padrão Doppler colorido e pulsado demonstra ondas com padrão habitual (trifásico) e velocidades dentro dos padrões da normalidade.
-      
-      Material hipoecoico intraluminal e ausência de imagem de fluxo nos segmentos médio e distal da artéria femoral superficial, inclusive no canal dos adutores, estendendo-se à artéria poplítea, representando obstrução crônica.
-      
-      Aneurisma de artéria poplítea, com calibre de 2,4 cm e extensão craniocaudal aproximada de 5,6 cm, trombosado, com calcificações parietais.
-      
-      Artéria tibial posterior irrigada por colaterais, apresentando padrão espectral monofásico (pós-estenótico).
-      
-      Artérias tibial anterior e fibular de avaliação prejudicada.
-      
-      
-      IMPRESSÃO DIAGNÓSTICA:
-      
-      Ateromatose difusa em todo o leito arterial avaliado.
-      
-      Artérias femoral comum e segmentos proximais das artérias femoral superficial e profunda com trajeto e calibre normais, paredes regulares, sendo que o padrão Doppler colorido e pulsado demonstra ondas com padrão habitual (trifásico) e velocidades dentro dos padrões da normalidade.
-      
-      Material hipoecoico intraluminal e ausência de imagem de fluxo nos segmentos médio e distal da artéria femoral superficial, inclusive no canal dos adutores, estendendo-se à artéria poplítea, representando obstrução crônica.
-      
-      Aneurisma de artéria poplítea, com calibre de 2,4 cm e extensão craniocaudal aproximada de 5,6 cm, trombosado, com calcificações parietais.
-      
-      Artéria tibial posterior irrigada por colaterais, apresentando padrão espectral monofásico (pós-estenótico).
-      
-      Artérias tibial anterior e fibular de avaliação prejudicada.
-
   - trigger: "artlu"
     word: true
     replace: "Artéria subclávia direita originando-se no arco aórtico após a emergência da artéria subclávia esquerda, com trajeto retroesofágico (variante da normalidade)."
@@ -831,25 +579,9 @@ matches:
     word: true
     replace: "Artefatos de susceptibilidade magnética no tecido subcutâneo da região frontal esquerda, presumivelmente representando pequena partícula metálica, degradando parte das imagens adjacentes. Caso persista a indicação clínica, recomenda-se estudo direcionado por imagens de radiografia ou tomografia computadorizada."
 
-  - trigger: "artrodeserm"
-    word: true
-    replace: "Artrodese bipedicular fixada em L4, L5 e S1, promovendo artefatos de susceptibilidade magnética, degradando parte das imagens adjacentes."
-
   - trigger: "artrosequadril"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO QUADRIL ESQUERDO S/C
-      
-      Técnica:
-      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
-      
-      Análise:
-      Redução do espaço articular femoroacetabular, notadamente no compartimento superior, com destruição das respectivas cartilagens de revestimento, esclerose/reação óssea hipertrófica marginal e formação de cistos subcorticais (geodos).
-      Demais estruturas ósseas de forma conservada, sem sinais de fraturas.
-      Planos musculares e tendíneos sem alterações tomográficas.
-      
-      Conclusão:
-      Sinais de osteoartrose avançada no quadril esquerdo.
+    replace: Redução do espaço articular femoroacetabular, notadamente no compartimento superior, com destruição das respectivas cartilagens de revestimento, esclerose/reação óssea hipertrófica marginal e formação de cistos subcorticais (geodos). Os achados sugerem Sinais de osteoartrose avançada no quadril esquerdo.
 
   - trigger: "asd"
     word: true
@@ -923,19 +655,8 @@ matches:
 
   - trigger: "atmartroseleve"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DAS ARTICULAÇÕES TÊMPORO-MANDIBULARES S/C
-      
-      Técnica:
-      Imagens obtidas por aquisição volumétrica "multislice" sem a administração intravenosa do meio de contraste iodado.
-      
-      Análise:
-      Discreta redução da porção anterior do espaço articular temporomandibular direito, com formação de osteófito marginal anterior no côndilo mandibular ipsilateral.
-      Excursão simétrica e adequada dos côndilos à abertura bucal.
-      
-      Impressão:
-      Discreta redução da porção anterior do espaço articular temporomandibular direito, com formação de osteófito marginal anterior no côndilo mandibular ipsilateral. Correlacionar com dados clínicos.
-
+    replace: Discreta redução da porção anterior do espaço articular temporomandibular direito, com formação de osteófito marginal anterior no côndilo mandibular ipsilateral.
+    
   - trigger: "attor"
     word: true
     replace: Ateromatose aórtica e coronariana.
@@ -979,29 +700,7 @@ matches:
       
       Cânula traqueal.
       Sonda nasal.
-      Hipoatenuação acometendo a substância branca profunda e corticossubcortical frontoparietal, insular e nucleocapsular  à esquerda, associado à edema de padrão citotóxico, com consequente apagamentos dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta.
-      Hiperdensidade da artéria cerebral média esquerda, sugerindo representar trombo/êmbolo.
-      Áreas com coeficiente de atenuação semelhante ao líquor localizadas nos lobos frontal direito e parietais (encefalomalácia / gliose).
-      Lesões de aspecto lacunar crônico em núcleos da base bilateralmente e no tálamo à direita.
-      Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
-      Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Quarto ventrículo com morfologia e situação conservadas.
-      Estruturas da linha mediana sem desvios significativos.
-      Ateromatose das carótidas internas e vertebrais.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-      Material com atenuação de partes moles em seios paranasais.
-      
-      Opinião:
-      
       Hipoatenuação acometendo a substância branca profunda e corticossubcortical frontoparietal, insular e nucleocapsular  à esquerda, associado à edema de padrão citotóxico, com consequente apagamentos dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. A possibilidade de lesão de natureza vascular isquêmica de início recente no território irrigado pela artéria cerebral média esquerda deve ser considerada.
-      Hiperdensidade da artéria cerebral média esquerda, sugerindo representar trombo/êmbolo.
-      Áreas com coeficiente de atenuação semelhante ao líquor localizadas nos lobos frontal direito e parietais (encefalomalácia / gliose).
-      Lesões de aspecto lacunar crônico em núcleos da base bilateralmente e no tálamo à direita.
-      Sinais de redução volumétrica encefálica difusa.
-      Microangiopatia/gliose.
-      Ateromatose de base de crânio.
-      Material com atenuação de partes moles em seios paranasais.
 
   - trigger: "avcindet"
     word: true
@@ -1041,41 +740,11 @@ matches:
 
   - trigger: "avcsubagudo"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      A análise comparativa com o exame realizado em  evidencia:
-      Lesões hipodensas, corticosubcorticais, localizadas nas regiões frontal, parietal, temporal, insular e nucleocapsular à esquerda, com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média de 0,5 cm. Associa-se hiperdensidade da artéria cerebral média ipsilateral, sugerindo representar trombo/êmbolo. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada.
-      
-      Permanecendo:
-      Cisternas encefálicas normais.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Ausência de calcificações patológicas.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-
+    replace: Lesões hipodensas, corticosubcorticais, localizadas nas regiões frontal, parietal, temporal, insular e nucleocapsular à esquerda, com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média de 0,5 cm. Associa-se hiperdensidade da artéria cerebral média ipsilateral, sugerindo representar trombo/êmbolo. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada.
+  
   - trigger: "avctrans"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      TÉCNICA:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      A análise comparativa com o exame realizado em 08/08/2021 evidencia:
-      Sonda nasal.
-      Acentuação da hipoatenuação corticossubcortical e da substância branca profunda localizada nos lobos frontal e parietal, bem como na ínsula e região nucleocapsular à direita, associado a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. Agora observa-se maior efeito de massa com desvio contralateral das estruturas da linha média de 1,1 cm. Nota-se ainda, surgimento de pequena área de sangramento em região nucleocapsular direita. O conjunto de achados é sugestivo de evento vascular isquêmico de evolução recente com área de tranformação hemorrágica no território irrigado pela artéria cerebral média direita.
-      Permanecendo:
-      Lesões de aspecto lacunar crônico em núcleos da base bilateralmente e centro semioval esquerdo.
-      Imagem ovalada cálcica localizada no giro reto direito (granuloma calcificado).
-      Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
-      Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia/gliose.
-      Tronco cerebral e cerebelo de aspecto conservado
-      Quarto ventrículo com morfologia e situação conservadas.
-      Ateromatose das carótidas internas e vertebrais.
-      Nota:
-      Cisto de retenção/pólipo no seio maxilar esquerdo.
+    replace: Acentuação da hipoatenuação corticossubcortical e da substância branca profunda localizada nos lobos frontal e parietal, bem como na ínsula e região nucleocapsular à direita, associado a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. Agora observa-se maior efeito de massa com desvio contralateral das estruturas da linha média de _ cm. Nota-se ainda, surgimento de pequena área de sangramento em região nucleocapsular direita. O conjunto de achados é sugestivo de evento vascular isquêmico de evolução recente com área de tranformação hemorrágica no território irrigado pela artéria cerebral média direita.
 
   - trigger: "avctrans1"
     word: true
@@ -1109,7 +778,7 @@ matches:
 
   - trigger: "bacao"
     word: true
-    replace: "Esplenomegalia homogênea discreta (volume de 470,3 cm³)."
+    replace: "Esplenomegalia homogênea (volume de _ cm³)."
 
   - trigger: "baciaid"
     word: true
@@ -1132,9 +801,11 @@ matches:
       Planos musculares e tendíneos sem alterações tomográficas.
       Entesopatia difusa.
 
+      Opinião:
+
   - trigger: "baker"
     word: true
-    replace: "Cisto de Baker com diâmetro longitudinal de 3,0 cm."
+    replace: "Cisto de Baker com diâmetro longitudinal de _ cm."
 
   - trigger: "balboa"
     word: true
@@ -1150,28 +821,8 @@ matches:
 
   - trigger: "bariatricacomp1"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE ABDOME TOTAL S/C
-      
-      Técnica:
-      Imagens volumétricas obtidas sem a administração intravenosa de meio de contraste iodado (pela indisponibilidade do mesmo), reduzindo a acurácia do método.
-      
-      Descrição:
-      Status pós gastroplastia redutora com anastomose gastrojejunal (bypass gástrico em Y de Roux anterocólico-anterogástrico). Observa-se distensão hidroaérea da alça eferente, com ingurgitamento da arcada vascular regional e densificação da gordura mesentérica adjacente. Hérnia interna? Brida? Estenose? Alterações isquêmicas?
-      Pequena quantidade de líquido livre na cavidade pélvica.
-      Fígado com dimensões, contornos e densidade normais.
-      Adrenais, baço e pâncreas sem particularidades.
-      Rins tópicos, com morfologia, dimensões e espessura do parênquima normais.
-      Não há sinais de dilatação dos sistemas coletores ou imagens sugestivas de cálculos.
-      Aorta e veia cava inferior com calibre e contornos normais.
-      Ausência de linfonodomegalias abdominais.
-      Bexiga pouco repleta, de avaliação prejudicada.
-      Solução de continuidade da parede abdominal anterior em região epigástrica, à esquerda da linha média, com colo de 0,9 x 0,7 cm, em trajeto de abordagem cirúrgica.
-      
-      Impressão:
-      Status pós gastroplastia redutora com anastomose gastrojejunal (bypass gástrico em Y de Roux anterocólico-anterogástrico). Observa-se distensão hidroaérea da alça eferente, com ingurgitamento da arcada vascular regional e densificação da gordura mesentérica adjacente. Hérnia interna? Brida? Estenose? Alterações isquêmicas?
-      Demais achados pormenorizados no corpo do laudo.
-
+    replace: Status pós gastroplastia redutora com anastomose gastrojejunal (bypass gástrico em Y de Roux anterocólico-anterogástrico). Observa-se distensão hidroaérea da alça eferente, com ingurgitamento da arcada vascular regional e densificação da gordura mesentérica adjacente. Hérnia interna? Brida? Estenose? Alterações isquêmicas?
+  
   - trigger: "batmovel"
     word: true
     replace: Fratura com colapso do corpo vertebral de L1 e retropulsão do muro posterior para o canal vertebral.
@@ -1291,7 +942,6 @@ matches:
     word: true
     replace: |
       Nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", esparsos pelos campos pulmonares. Associam-se bronquiectasias, com espessamento das paredes brônquicas. Embora tais achados sejam frequentemente observados em infecções bronquiolares (broncopneumonias, bronquiolites infecciosas e disseminação endobrônquica de tuberculose), o diagnóstico diferencial é mais amplo, compreendendo infecções bacterianas, fúngicas (aspergilose broncopulmonar alérgica) ou virais; assim como bronquiectasias; condições idiopáticas (bronquiolite obliterativa e panbronquiolite) ou congênitas (fibrose cística); aspiração ou inalação de substâncias estranhas; e doença vascular pulmonar periférica, especialmente por disseminação endovascular metastática de alguns tumores.
-      Demais achados pormenorizados no corpo do laudo.
 
   - trigger: "brota2"
     word: true
@@ -1336,15 +986,7 @@ matches:
   - trigger: "cabou2"
     word: true
     replace: "Imagens volumétricas obtidas sem a administração intravenosa de meio de contraste iodado, reduzindo a acurácia do método."
-
-  - trigger: "cacv1"
-    word: true
-    replace: "Calcificações projetadas à direita da coluna vertebral. Cálculos?"
-
-  - trigger: "cacv2"
-    word: true
-    replace: "Calcificações projetadas à esquerda da coluna vertebral. Cálculos?"
-
+    
   - trigger: "cage"
     word: true
     replace: "Dispositivo intersomático (\"cage\") no espaço discal . Associa-se esclerose óssea das placas terminais apostas."
@@ -1359,98 +1001,81 @@ matches:
 
   - trigger: "calcal"
     word: true
-    replace: "Cálculo em cálice médio do rim direito, medindo 0,6 cm, com densidade de UH, distando cm da pele da região lombar."
+    replace: "Cálculo em cálice _ do rim _, medindo _ cm, com densidade de _ UH, distando _ cm da pele da região lombar."
 
+  - trigger: "calcald"
+    word: true
+    replace: Cálculo em cálice _ do rim direito, medindo _ cm, com densidade de _ UH, distando _ cm da pele da região lombar.
+    
   - trigger: "calcale"
     word: true
-    replace: |
-      Cálculo em cálice médio do rim esquerdo, medindo 0,6 cm, com densidade de UH, distando cm da pele da região lombar.
-      .
+    replace: Cálculo em cálice _ do rim esquerdo, medindo _ cm, com densidade de _ UH, distando _ cm da pele da região lombar.
 
   - trigger: "calccoraliforme"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR E INFERIOR S/C
-      
-      Técnica:
-      Cortes tomográficos axiais do abdome, sem a injeção do meio de contraste endovenoso.
-      
-      Descrição:
-      Fígado com dimensões, contornos e densidade normais.
-      Vesícula biliar em topografia habitual.
-      Adrenais, baço e pâncreas sem particularidades.
-      Rim direito tópico, com morfologia, dimensões e espessura do parênquima normais.
-      Rim esquerdo com redução das suas dimensões, perda da morfologia habitual e caliectasias. Cálculos de aspecto coraliforme,  que se amoldam aos contornos do sistema coletor do rim, medindo até 3,2 cm, com densidade média de 1165,8 UH. Associa-se densificação dos planos gordurosos periureterais e perirrenais, assim como espessamento das fáscias pararrenais, achados indeterminados no estudo sem contraste, mas podendo estar relacionados à uropatia obstrutiva prévia ou processo inflamatório/infeccioso sobreposto (pielonefrite/pelveureterite).
-      Imagens ovaladas, hipodensas, na cortical do rim esquerdo, com finas calcificões parietais, medindo a maior 2,4 cm, indeterminadas no protocolo sem contraste, mas provavelmente representando cistos.
-      Imagem ovalada com conteúdo hiperdenso ( 68,0 UH), exofítica, no terço médio do rim esquerdo, medindo 1,8 cm, sugerindo cisto de conteúdo hemático/hiperprotéico.
-      Aorta e veia cava inferior com calibre e contornos normais.
-      Aumento do número de linfonodos na raiz do mesentério, porém sem caracterizar  linfonodomegalias.
-      Ausência de líquido livre na cavidade peritoneal.
-      Bexiga pouco repleta, de avaliação prejudicada.
-      Espondilose lombar.
-      Apêndice cecal visualizado, sem sinais inflamatórios.
-      Formação hipodensa no tecido subcutâneo profundo da região glútea esquerda, medindo 6,9 x 3,7 cm no plano axial, inespecífica no protocolo empregado. Coleção? Lesão de outra natureza?
-      Pequena hérnia diafragmática posterolateral esquerda, com conteúdo de gordura peritoneal.
-      
-      Impressão:
-      Nefropatia parenquimatosa crônica esquerda.
-      Sinais de processo inflamatório/infeccioso renal/pelveureteral esquerdo. Correlacionar com dados clínicos e laboratoriais.
-      Cálculos de aspecto coraliforme no rim esquerdo.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: Rim _ com redução das suas dimensões, perda da morfologia habitual e caliectasias. Cálculos de aspecto coraliforme,  que se amoldam aos contornos do sistema coletor do rim, medindo até _ cm, com densidade média de _ UH. Associa-se densificação dos planos gordurosos periureterais e perirrenais, assim como espessamento das fáscias pararrenais, achados indeterminados no estudo sem contraste, mas podendo estar relacionados à uropatia obstrutiva prévia ou processo inflamatório/infeccioso sobreposto (pielonefrite/pelveureterite).
 
   - trigger: "calcdistal"
     word: true
-    replace: "Cálculo no ureter distal esquerdo, distando cm da junção ureterovesical, medindo cm, com densidade de UH, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
+    replace: "Cálculo no ureter distal _, distando _ cm da junção ureterovesical, medindo _ cm, com densidade de _ UH, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
 
   - trigger: "calcdistald"
     word: true
-    replace: "Cálculo no ureter distal direito, distando cm da junção ureterovesical, medindo cm, com densidade de UH, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
+    replace: "Cálculo no ureter distal direito, distando _ cm da junção ureterovesical, medindo _ cm, com densidade de _ UH, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
+
+  - trigger: "calcdistale"
+    word: true
+    replace: "Cálculo no ureter distal esquerdo, distando _ cm da junção ureterovesical, medindo _ cm, com densidade de _ UH, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
 
   - trigger: "calcfoi"
     word: true
-    replace: "Discreta hidroureteronefrose à direita, sem caracterização de fator obstrutivo no presente estudo. Associa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados a passagem recente de cálculo, não podendo ser descartado processo inflamatório/infeccioso associado."
+    replace: "Discreta hidroureteronefrose à _, sem caracterização de fator obstrutivo no presente estudo. Associa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados a passagem recente de cálculo, não podendo ser descartado processo inflamatório/infeccioso associado."
 
   - trigger: "calcioio"
     word: true
     replace: |
-      Cálculo na pelve renal esquerda, medindo 1,2 cm, com densidade de 1.372,2 UH.
-      Ectasia e espessamento das paredes da pelve renal e do ureter proximal à esquerda, com realce pelo meio de contraste endovenoso, acompanhado de densificação da gordura adjacente. Admite-se inicialmente a possibilidade de pielonefrite com possível processo obstrutivo intermitente ocasionado pelo deslocamento do cálculo, devendo o diagnóstico diferencial ser feito com neoplasia de vias urinárias. Recomenda-se controle do estudo após a terapêutica estabelecida.
+      Cálculo na pelve renal _, medindo _ cm, com densidade de _ UH.
+      Ectasia e espessamento das paredes da pelve renal e do ureter proximal à _, com realce pelo meio de contraste endovenoso, acompanhado de densificação da gordura adjacente. Admite-se inicialmente a possibilidade de pielonefrite com possível processo obstrutivo intermitente ocasionado pelo deslocamento do cálculo, devendo o diagnóstico diferencial ser feito com neoplasia de vias urinárias. Recomenda-se controle do estudo após a terapêutica estabelecida.
 
   - trigger: "calcjup"
     word: true
-    replace: "Cálculo obstrutivo no ureter direito, medindo 0,8 cm, com densidade de 548,0 UH, distando 3,9 cm da junção ureteropiélica, promovendo discreta hidroureteronefrose. Há densificação da gordura perirrenal, achado que pode estar relacionado à obstrução, não podendo ser afastado processo inflamatório/infeccioso sobreposto."
+    replace: "Cálculo obstrutivo no ureter _, medindo _ cm, com densidade de _ UH, distando _ cm da junção ureteropiélica, promovendo discreta hidroureteronefrose. Há densificação da gordura perirrenal, achado que pode estar relacionado à obstrução, não podendo ser afastado processo inflamatório/infeccioso sobreposto."
 
   - trigger: "calcjuv"
     word: true
-    replace: "Cálculo na junção ureterovesical esquerda, medindo cm, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
+    replace: "Cálculo na junção ureterovesical _, medindo _ cm, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
 
   - trigger: "calcjuv1"
     word: true
-    replace: "Cálculo na junção ureterovesical/óstio ureteral à esquerda, medindo cm, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
+    replace: "Cálculo na junção ureterovesical/óstio ureteral à _, medindo _ cm, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
 
   - trigger: "calcnajup"
     word: true
-    replace: "Cálculo obstrutivo na junção ureteropiélica direita, medindo 0,8 cm, com densidade de 548,0 UH, promovendo discreta hidroureteronefrose. Há densificação da gordura perirrenal e periureteral, achado que pode estar relacionado à obstrução, não podendo ser afastado processo inflamatório/infeccioso sobreposto."
+    replace: "Cálculo obstrutivo na junção ureteropiélica _, medindo _ cm, com densidade de _ UH, promovendo discreta hidroureteronefrose. Há densificação da gordura perirrenal e periureteral, achado que pode estar relacionado à obstrução, não podendo ser afastado processo inflamatório/infeccioso sobreposto."
 
   - trigger: "calcoral"
     word: true
-    replace: "Cálculo obstrutivo, medindo 2,4 cm, com densidade de 865,3 UH, de aspecto coraliforme, localizado na junção ureteropiélica direita, promovendo discreta hidroureteronefrose."
+    replace: "Cálculo obstrutivo, medindo _ cm, com densidade de _ UH, de aspecto coraliforme, localizado na junção ureteropiélica _, promovendo discreta hidroureteronefrose."
+
+  - trigger: "calccoral"
+    word: true
+    replace: "Cálculo obstrutivo, medindo _ cm, com densidade de _ UH, de aspecto coraliforme, localizado na junção ureteropiélica _, promovendo discreta hidroureteronefrose."
 
   - trigger: "calcoral1"
     word: true
-    replace: "Cálculo coraliforme, medindo cm, com densidade de UH, amoldando-se à pelve e aos cálices do rim direito. Associa-se redução volumétrica e afilamento cortical renal, presumivelmente representando uropatia obstrutiva crônica."
+    replace: "Cálculo coraliforme, medindo _ cm, com densidade de _ UH, amoldando-se à pelve e aos cálices do rim _. Associa-se redução volumétrica e afilamento cortical renal, presumivelmente representando uropatia obstrutiva crônica."
 
   - trigger: "calcorali"
     word: true
-    replace: "Cálculo coraliforme ocupando a pelve e cálices renais à esquerda, medindo 6,2 cm em seu maior eixo, com densidade de 905,7 UH. Há densificação da gordura perirrenal e espessamento das paredes da pelve e ureter proximal, achado que pode estar relacionado à obstrução, não podendo ser afastado processo inflamatório/infeccioso sobreposto (pielonefrite/pelveureterite)."
+    replace: "Cálculo coraliforme ocupando a pelve e cálices renais à _, medindo _ cm em seu maior eixo, com densidade de _ UH. Há densificação da gordura perirrenal e espessamento das paredes da pelve e ureter proximal, achado que pode estar relacionado à obstrução, não podendo ser afastado processo inflamatório/infeccioso sobreposto (pielonefrite/pelveureterite)."
 
   - trigger: "calcpode"
     word: true
-    replace: "Calcificação na pelve à direita, medindo cerca de 0,4 cm, que, diante do contexto clínico e laboratorial, pode representar cálculo no ureter distal, próximo à junção ureterovesical.  Observa-se discreta hidronefrose e densificação da gordura perirrenal ipsilateral, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
+    replace: "Calcificação na pelve à _, medindo cerca de _ cm, que, diante do contexto clínico e laboratorial, pode representar cálculo no ureter distal, próximo à junção ureterovesical.  Observa-se discreta hidronefrose e densificação da gordura perirrenal ipsilateral, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
 
   - trigger: "calcpode1"
     word: true
-    replace: "Calcificação na pelve à direita, medindo cerca de 0,6 cm, que, diante do contexto clínico e laboratorial, pode representar cálculo no ureter distal, próximo à junção ureterovesical.  A critério clínico, se possível, a fase contrastada do exame poderá fornecer maiores subsídios diagnósticos na diferenciação de calcificação extra-ureteral."
+    replace: "Calcificação na pelve à _, medindo cerca de _ cm, que, diante do contexto clínico e laboratorial, pode representar cálculo no ureter distal, próximo à junção ureterovesical.  A critério clínico, se possível, a fase contrastada do exame poderá fornecer maiores subsídios diagnósticos na diferenciação de calcificação extra-ureteral."
 
   - trigger: "calcrd"
     word: true
@@ -1462,11 +1087,11 @@ matches:
 
   - trigger: "calculoduvidosojuv"
     word: true
-    replace: "Discreta hidroureteronefrose à direita. Associa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados a passagem recente de cálculo, não podendo ser descartado processo inflamatório/infeccioso associado. Nota-se ainda, calcificação na pelve à direita, na região da junção ureterovesical, medindo 0,2 cm. Caso persista a indicação clínica, recomenda-se a complementação com a fase contrastada do exame para a diferenciação entre flebólito e possível cálculo ureteral."
+    replace: "Discreta hidroureteronefrose à _. Associa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados a passagem recente de cálculo, não podendo ser descartado processo inflamatório/infeccioso associado. Nota-se ainda, calcificação na pelve à direita, na região da junção ureterovesical, medindo _ cm. Caso persista a indicação clínica, recomenda-se a complementação com a fase contrastada do exame para a diferenciação entre flebólito e possível cálculo ureteral."
 
   - trigger: "calculojuv"
     word: true
-    replace: "Cálculo no ureter distal esquerdo, medindo 0,7 cm, distando 3,9 cm da junção ureterovesical, promovendo discreta uretero-hidronefrose. Associa-se discreto aumento volumétrico renal com densificação dos planos gordurosos perirrenais, achado que pode estar relacionado ao processo obstrutivo, não se podendo descartar processo inflamatório/infeccioso associado."
+    replace: "Cálculo no ureter distal _, medindo _ cm, distando _ cm da junção ureterovesical, promovendo discreta uretero-hidronefrose. Associa-se discreto aumento volumétrico renal com densificação dos planos gordurosos perirrenais, achado que pode estar relacionado ao processo obstrutivo, não se podendo descartar processo inflamatório/infeccioso associado."
 
   - trigger: "calfig"
     word: true
@@ -1486,28 +1111,12 @@ matches:
 
   - trigger: "calo1"
     word: true
-    replace: "Pequena  imagem hipodensa na calota craniana, em região  , inespecífica."
+    replace: "Pequena imagem hipodensa na calota craniana, em região _, inespecífica."
 
   - trigger: "calotafina"
     word: true
     replace: "Adelgaçamento bilateral dos ossos parietais, sugerindo osteodistrofia biparietal."
-
-  - trigger: "calpro"
-    word: true
-    replace: "Calcificações projetadas à esquerda do corpo vertebral de L3. Cálculos?"
-
-  - trigger: "calpro1"
-    word: true
-    replace: Calcificação em projeção da loja renal direita.
-
-  - trigger: "calpro2"
-    word: true
-    replace: Calcificação em projeção da loja renal esquerda.
-
-  - trigger: "calpro3"
-    word: true
-    replace: Calcificações em projeção das lojas renais.
-
+    
   - trigger: "camama"
     word: true
     replace: "Nódulo mamário à esquerda, de contornos irregulares, medindo 3,5 cm, já submetido a estudo anatomopatológico com dignóstico de neoplasia."
@@ -1521,7 +1130,7 @@ matches:
 
   - trigger: "caovario"
     word: true
-    replace: "Lesão cística de paredes finas e regulares, medindo cerca de 16,7 x16,2 x 10,8 cm, com volume de cm³ e origem presumida em região ovariana direita. A possibilidade de neoplasia epitelial ovariana pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
+    replace: "Lesão cística de paredes finas e regulares, medindo cerca de _ x _ x _ cm, com volume de _ cm³ e origem presumida em região ovariana direita. A possibilidade de neoplasia epitelial ovariana pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
 
   - trigger: "capud"
     word: true
@@ -1546,21 +1155,6 @@ matches:
     word: true
     replace: "Acentuada quantidade de líquido livre na cavidade peritoneal, associada a nódulos e massas omentais e na superfície peritoneal, bem como espessamento nodular da raiz do mesentério. Esse conjunto de achados sugere representar carcinomatose peritoneal."
 
-  - trigger: "caro1"
-    word: true
-    replace: |
-      US DOPPLER DE CARÓTIDAS E VERTEBRAIS
-      
-      DESCRIÇÃO:
-      Placas ateromatosas hipoecogênicas e calcificadas difusas, predominando nos bulbos e emergências das carótidas internas, que não determinam aumento significativo na velocidade de pico sistólico.
-      Artérias carótidas comuns, internas e externas apresentando fluxo com velocidade e padrão espectral dentro dos padrões da normalidade.
-      Artérias vertebrais apresentando fluxo em sentido anterógrado, com velocidade e padrão espectral dentro dos padrões da normalidade.
-      Espessamento médio-intimal difuso das artérias carótidas comuns.
-      
-      IMPRESSÃO DIAGNÓSTICA:
-      Ateromatose carotídea bilateral, sem determinar estenoses significativas.
-      Espessamento médio-intimal difuso das artérias carótidas comuns.
-
   - trigger: "carotidaemilio"
     word: true
     replace: |
@@ -1584,13 +1178,6 @@ matches:
       Alterações degenerativas da coluna cervical.
       Tireoide heterogênea, melhor avaliada em estudo dirigido.
 
-  - trigger: "carotob"
-    word: true
-    replace: |
-      Observam-se áreas de adelgaçamento acentuado intercaladas com segmentos sem evidência de fluxo na artéria carótida interna esquerda.
-      
-      Conclusão: Achados sugestivos de estenoses críticas associadas a possíveis segmentos de oclusão na artéria carótida interna esquerda, sugerindo comprometimento hemodinâmico significativo. Correlacionar com dados clínicos e, se necessário, complementar com exame angiográfico.
-
   - trigger: "casoper"
     word: true
     replace: "Caso persista a indicação clínica, recomenda-se estudo direcionado."
@@ -1598,10 +1185,6 @@ matches:
   - trigger: "castor"
     word: true
     replace: Prolongamento do segmento lateral do lobo hepático esquerdo (variante anatômica).
-
-  - trigger: "cavernoma1"
-    word: true
-    replace: "Formação nodular localizada na região sublenticular direita, medindo cerca de 1,3 cm, apresentando sinal heterogêneo nas sequências ponderadas em T1 e T2, com áreas de diferentes intensidades compatíveis com produtos hemáticos em variados estágios evolutivos, circundada por halo hipointenso nas sequências sensíveis à susceptibilidade magnética (SWI/T2*), sem edema perilesional significativo ou efeito de massa relevante. A possibilidade de cavernoma pode ser considerada dentre os diagnósticos diferenciais."
 
   - trigger: "cc"
     word: true
