@@ -2704,15 +2704,6 @@ matches:
       Enfisema centrolobular e parasseptal no campo pulmonar esquerdo.
       Opacidades com atenuação em "vidro fosco" esparsas pelo campo pulmonar esquerdo. Esse conjunto de achados, diante do contexto, sugere a possibilidade de contusões pulmonares. Correlacionar com dados clínicos.
 
-  - trigger: "fraturameta"
-    word: true
-    replace: |
-      RADIOGRAFIA DO PÉ DIREITO
-      
-      Textura e morfologia óssea preservada.
-      Espaços articulares preservados.
-      Pequena calcificação de partes moles adjacentes a base do 5º metatarso, sugerindo placa epifisária. Recomenda-se estudo comparativo contralateral para a pesquisa de fratura.
-
   - trigger: "fraturapilao"
     word: true
     replace: |
@@ -2831,22 +2822,6 @@ matches:
     word: true
     replace: "Fratura com redução da altura do corpo vertebral de L1 e retropulsão do muro posterior para o canal vertebral, comprimindo o saco dural."
 
-  - trigger: "fz1"
-    word: true
-    replace: (Fazekas 1).
-
-  - trigger: "fz2"
-    word: true
-    replace: (Fazekas 2).
-
-  - trigger: "fz3"
-    word: true
-    replace: (Fazekas 3).
-
-  - trigger: "gad"
-    word: true
-    replace: antes e após a administração do meio de contraste endovenoso.
-
   - trigger: "galinho"
     word: true
     replace: Aumento de volume e densificação do tecido subcutâneo na região do olécrano sugerindo edema/hematoma. Correlacionar com dados clínicos.
@@ -2915,21 +2890,9 @@ matches:
     word: true
     replace: Hipertrofia dos cornetos nasais inferiores.
 
-  - trigger: "hemangi1"
-    word: true
-    replace: "Zona arredondada de alto sinal nas ponderações T1 e T2 localizada no corpo vertebral X, sugerindo representar hemangioma ou área de substituição adiposa."
-
-  - trigger: "hemangi2"
-    word: true
-    replace: "Zonas arredondadas de alto sinal em T1 e T2 esparsos pelos corpos vertebrais, sugerindo hemangiomas ou áreas de lipossubstituição."
-
   - trigger: "hemangiomapequenofígado"
     word: true
     replace: "Fígado com dimensões, contornos e densidade normais, exceto por imagem nodular hipodensa no segmento VI, medindo 1,1 cm, apresentando homogeneização tardia após a administração do meio de contraste endovenoso, inespecífico, porém sugestivo de hemangioma. Os diagnósticos diferenciais devem ser aplicados."
-
-  - trigger: "hemangis"
-    word: true
-    replace: "Zonas arredondadas de alto sinal em T1 e T2 esparsos pelos corpos vertebrais, sugerindo hemangiomas ou áreas de lipossubstituição."
 
   - trigger: "hematomaintramural"
     word: true
@@ -3016,26 +2979,6 @@ matches:
   - trigger: "herniaspieguel"
     word: true
     replace: "Hérnia de parede abdominal anterior na altura da linha semilunar direita, com colo de cm, através da qual há protrusão de gordura intra-abdominal  e alça ileal sob a aponeurose da musculatura regional. Não há sinais de obstrução intestinal no saco herniário."
-
-  - trigger: "herniasupraumbilical"
-    word: true
-    replace: |
-      ULTRASSONOGRAFIA DE PAREDE ABDOMINAL
-      
-      
-      DESCRIÇÃO:
-      
-      Exame realizado com transdutor linear .
-      
-      Planos musculares sem evidências de alterações.
-      
-      Ausência de imagens ecográficas sugestivas de cistos e/ou coleções.
-      
-      Protusão de conteúdo abdominal gorduroso, através de falha aponeurótica em região supraumbilical, observada/intensificada à manobra de Valsalva, com colo de 0,4 cm e medindo 0,8 cm.
-      
-      OPINIÂO:
-      
-      Pequena hérnia supraumbilical.
 
   - trigger: "herniaumb"
     word: true
@@ -3146,15 +3089,11 @@ matches:
 
   - trigger: "hiperport"
     word: true
-    replace: "Esplenomegalia homogênea (986,8 cm³), circulação colateral portossistêmica e ascite discreta, sinais indiretos de hipertensão portal."
+    replace: "Esplenomegalia homogênea (_ cm³), circulação colateral portossistêmica e ascite discreta, sinais indiretos de hipertensão portal."
 
   - trigger: "hipo4"
     word: true
     replace: "Pequena imagem hipodensa no segmento hepático IV, inespecífica no protocolo empregado."
-
-  - trigger: "hipo45"
-    word: true
-    replace: Hipo-hidratação discal dos níveis L4-L5 e L5-S1.
 
   - trigger: "hipoat"
     word: true
@@ -3168,11 +3107,7 @@ matches:
     word: true
     replace: "Hipocampos simétricos, com morfologia e sinal preservados."
 
-  - trigger: "hipod"
-    word: true
-    replace: Hipo-hidratação discal dos níveis lombares inferiores.
-
-  - trigger: "hipofi"
+   - trigger: "hipofi"
     word: true
     replace: "Imagens hipodensas no parênquima hepático, inespecíficas no protocolo empregado."
 
@@ -3182,7 +3117,7 @@ matches:
 
   - trigger: "hipofig1"
     word: true
-    replace: "Imagem hipodensa, subcentimétrica, localizada no segmento hepático  inespecífica no protocolo empregado."
+    replace: "Imagem hipodensa, subcentimétrica, localizada no segmento hepático _ inespecífica no protocolo empregado."
 
   - trigger: "hipofig2"
     word: true
@@ -3311,10 +3246,6 @@ matches:
     word: true
     replace: "Distensão hidroaérea da câmara gástrica e de alças intestinais delgadas à montante de alça ileal localizada no flanco e fossa ilíaca direitos, alça essa que apresenta sinais de fecalização do conteúdo. Associa-se ingurgitamento da arcada vascular mesentérica. Admite-se inicialmente a hipótese de íleo adinâmico/metabólico, não sendo possível afastar de forma inequívoca as hipóteses de abdome agudo obstrutivo (brida/hérnia interna) ou vascular."
 
-  - trigger: "imacal"
-    word: true
-    replace: "Imagem cálcica em projeção da loja renal esquerda, podendo representar cálculo."
-
   - trigger: "incid"
     word: true
     replace: "com frequência achado incidental, sem correlação clínica."
@@ -3383,23 +3314,11 @@ matches:
 
   - trigger: "inespo"
     word: true
-    replace: inespecífico no protocolo empregado
+    replace: inespecífico no protocolo empregado.
 
   - trigger: "infundi"
     word: true
     replace: obliterando o respectivo infundíbulo.
-
-  - trigger: "inj"
-    word: true
-    replace: Injúria ligamentar interespinhosa nos níveis de L4-L5 e L5-S1 por estiramento ou sobrecarga mecânica.
-
-  - trigger: "inj1"
-    word: true
-    replace: Injúria ligamentar interespinhosa no nível de L4-L5 por estiramento ou sobrecarga mecânica.
-
-  - trigger: "injt"
-    word: true
-    replace: "Injúria ligamentar interespinhosa nos níveis de L2-L3, L3-L4, L4-L5 e L5-S1 por estiramento ou sobrecarga mecânica."
 
   - trigger: "isomerismoesquerdo"
     word: true
@@ -3541,7 +3460,7 @@ matches:
 
   - trigger: "leiomi"
     word: true
-    replace: Nódulos calcificados no corpo uterino sugerindo leiomiomas
+    replace: Nódulos calcificados no corpo uterino sugerindo leiomiomas.
 
   - trigger: "lemor"
     word: true
@@ -3589,34 +3508,8 @@ matches:
 
   - trigger: "linfomaintestinal"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR E INFERIOR C/C
-      
-      Técnica:
-      Cortes tomográficos axiais do abdome, antes e após a injeção do meio de contraste endovenoso.
-      
-      Descrição:
-      Lesão promovendo espessamento parietal regular de segmento do intestino delgado, aparentemente no íleo, por extensão aproximada de 19,6 cm, com dilatação regional dessa alça. A lesão estende-se para o mesentério adjacente, com envolvimento de vasos regionais. Associam-se linfonomegalias mesentéricas, medindo até 3,0 x 1,6 cm, com densificação da gordura na raiz do mesentério. A possibilidade de linfoma intestinal e mesentérico pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
-      Fígado com dimensões, contornos e densidade normais.
-      Não há sinais de dilatação das vias biliares intra e extra-hepáticas.
-      Vesícula biliar em topografia habitual.
-      Adrenais, baço e pâncreas sem particularidades.
-      Rins tópicos, com morfologia, dimensões e espessura do parênquima normais.
-      Cistos renais corticais bilaterais, o maior à direita medindo 5,2 cm (Bosniak I).
-      Cálculo/calcificação em cálice médio do rim direito, medindo 0,7 cm, com densidade de 935,1 UH, distando 4,2cm da pele da região lombar.
-      Não há sinais de dilatação dos sistemas coletores.
-      Ateromatose de vasos intra-abdominais.
-      Aorta e veia cava inferior pérvias, com calibre e contornos normais.
-      Ausência de líquido livre na cavidade peritoneal.
-      Bexiga pouco repleta, de avaliação prejudicada.
-      Apêndice cecal visualizado, sem sinais inflamatórios.
-      Nódulos calcificados no corpo uterino, sugestivos de leiomiomas.
-      Afilamento da veia renal esquerda com subsequente ectasia da veia gonadal esquerda e varizes pélvicas ipsilaterais.
-      
-      Impressão:
-      Lesão promovendo espessamento parietal regular de segmento do intestino delgado, aparentemente no íleo, com dilatação regional dessa alça. A lesão estende-se para o mesentério adjacente, com envolvimento de vasos regionais. Associam-se linfonomegalias mesentéricas, com densificação da gordura na raiz do mesentério. A possibilidade de linfoma intestinal e mesentérico pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
-      Demais achados pormenorizados no corpo do laudo.
-
+    replace: Lesão promovendo espessamento parietal regular de segmento do intestino delgado, aparentemente no íleo, por extensão aproximada de 19,6 cm, com dilatação regional dessa alça. A lesão estende-se para o mesentério adjacente, com envolvimento de vasos regionais. Associam-se linfonomegalias mesentéricas, medindo até 3,0 x 1,6 cm, com densificação da gordura na raiz do mesentério. A possibilidade de linfoma intestinal e mesentérico pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
+     
   - trigger: "lipel"
     word: true
     replace: Mínima quantidade de líquido livre na cavidade pélvica.
@@ -3635,7 +3528,7 @@ matches:
 
   - trigger: "lireg"
     word: true
-    replace: "aumento do número de linfonodos regionais, sem caracterizar linfonodomegalias."
+    replace: "Aumento do número de linfonodos regionais, sem caracterizar linfonodomegalias."
 
   - trigger: "liret"
     word: true
@@ -3745,18 +3638,6 @@ matches:
       Demais estruturas ósseas de forma conservada, sem sinais de fraturas.
       Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma.
       Mínimo derrame articular glenoumeral.
-
-  - trigger: "m1"
-    word: true
-    replace: Alterações degenerativas do tipo Modic I (edema) dos platôs vertebrais no nível L5-S1.
-
-  - trigger: "m2"
-    word: true
-    replace: Alterações degenerativas do tipo Modic II (gordura) dos platôs vertebrais no nível L5-S1.
-
-  - trigger: "m3"
-    word: true
-    replace: Alterações degenerativas do tipo Modic III (esclerose óssea) dos platôs vertebrais no nível L2-L3.
 
   - trigger: "macampa"
     word: true
@@ -3891,21 +3772,7 @@ matches:
 
   - trigger: "mastoidecro"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE MASTOIDES S/C
-      
-      Técnica:
-      Imagens obtidas por aquisição volumétrica "multislice" sem a administração intravenosa do meio de contraste iodado.
-      
-      Análise:
-      Redução da aeração com esclerose das paredes ósseas e material com densidade de partes moles no interior da caixa timpânica e da mastoide à esquerda.
-      Caixa timpânica direita normoaerada.
-      Cadeias ossiculares sem alterações.
-      Cócleas, vestíbulos, canais semicirculares e condutos auditivos internos preservados.
-      Canais dos nervos faciais preservados.
-      
-      Impressão:
-      Sinais de otomastoidopatia crônica à esquerda.
+    replace: Redução da aeração com esclerose das paredes ósseas e material com densidade de partes moles no interior da caixa timpânica e da mastoide à esquerda, sugerindo otomastoidopatia crônica.
 
   - trigger: "matmu"
     word: true
@@ -4042,25 +3909,9 @@ matches:
   - trigger: "metacerebral"
     word: true
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      Análise:
-      Lesão expansiva de contornos irregulares, medindo 4,2 cm, localizada no lobo frontal direito, onde promove efeito de massa com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média. A possibilidade de metástase pode ser considerada dentre os diagnósticos diferenciais, diante do contexto clínico.
-      Hipodensidade do parênquima encefálico adjacente à lesão acima descrita sugerindo representar edema e/ou infiltração tumoral.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      IV ventrículo com morfologia e dimensões normais.
-      Ausência de calcificações patológicas.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-      Pequenas imagens hipodensas na calota craniana, inespecíficas.
-      
-      Opinião:
-      Lesão expansiva de contornos irregulares, medindo 4,2 cm, localizada no lobo frontal direito, onde promove efeito de massa com apagamento dos sulcos corticais regionais. compressão ventricular e desvio contralateral das estruturas da linha média. A possibilidade de metástase pode ser considerada dentre os diagnósticos diferenciais, diante do contexto clínico.
-      Hipodensidade do parênquima encefálico adjacente à lesão acima descrita sugerindo representar edema e/ou infiltração tumoral.
-      Pequenas imagens hipodensas na calota craniana, inespecíficas.
-
+	  Lesão expansiva de contornos irregulares, medindo 4,2 cm, localizada no lobo frontal direito, onde promove efeito de massa com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média. A possibilidade de metástase pode ser considerada dentre os diagnósticos diferenciais, diante do contexto clínico.
+	  Hipodensidade do parênquima encefálico adjacente à lesão acima descrita sugerindo representar edema e/ou infiltração tumoral.
+    
   - trigger: "metacerebral1"
     word: true
     replace: "Múltiplas lesões nodulares, de tamanhos variados, esparsas pelos parênquima cerebral, predominando na interface entre as substâncias branca e cinzenta, com realce de aspecto anelar/nodular pelo meio de contraste paramagnético endovenoso. Outra lesão semelhante é identificada no hemisfério cerebelar esquerdo. As maiores lesões encontram-se nos giros frontal médio e temporal superior esquerdos, medindo 1,5 cm e 1,1 cm, respectivamente, acompanhadas de edema no parênquima adjacente. A possibilidade de metástases pode ser considerada, dentro do contexto oncológico."
@@ -4072,10 +3923,6 @@ matches:
   - trigger: "metahepa1"
     word: true
     replace: "Lesão nodular medindo cm, com realce periférico pelo meio de contraste endovenoso, localizada no segmento hepático VII. A possibilidade de metástase pode ser considerada dentre os diagnósticos diferenciais."
-
-  - trigger: "metalica"
-    word: true
-    replace: Partícula com densidade metálica em projeção de partes moles
 
   - trigger: "metashemorragicas"
     word: true
@@ -4093,23 +3940,23 @@ matches:
 
   - trigger: "micro"
     word: true
-    replace: "Microcálculos renais bilaterais, menores que 0,5 cm, não obstrutivos."
+    replace: "Microcálculos renais bilaterais, menores que 0,3 cm, não obstrutivos."
 
   - trigger: "micro1"
     word: true
-    replace: "Microcálculo renal x, menor que 0,5 cm, não obstrutivo."
+    replace: "Microcálculo renal x, menor que 0,3 cm, não obstrutivo."
 
   - trigger: "micro1d"
     word: true
-    replace: "Microcálculo renal à direita, menor que 0,5 cm, não obstrutivo."
+    replace: "Microcálculo renal à direita, menor que 0,3 cm, não obstrutivo."
 
   - trigger: "micro1e"
     word: true
-    replace: "Microcálculo renal à esquerda, menor que 0,5 cm, não obstrutivo."
+    replace: "Microcálculo renal à esquerda, menor que 0,3 cm, não obstrutivo."
 
   - trigger: "micro3"
     word: true
-    replace: "Microcálculos renais bilaterais, menores que 0,5 cm, não obstrutivos."
+    replace: "Microcálculos renais bilaterais, menores que 0,3 cm, não obstrutivos."
 
   - trigger: "microadenoma1"
     word: true
@@ -4117,16 +3964,16 @@ matches:
 
   - trigger: "microd"
     word: true
-    replace: "Microcálculos renais à direita, menores que 0,5 cm, não obstrutivos."
+    replace: "Microcálculos renais à direita, menores que 0,3 cm, não obstrutivos."
 
   - trigger: "microe"
     word: true
-    replace: "Microcálculos renais à esquerda, menores que 0,5 cm, não obstrutivos."
+    replace: "Microcálculos renais à esquerda, menores que 0,3 cm, não obstrutivos."
 
   - trigger: "microta"
     word: true
     replace: |
-      Microcálculos renais bilaterais, menores que 0,5 cm, não obstrutivos.
+      Microcálculos renais bilaterais, menores que 0,3 cm, não obstrutivos.
       Não há sinais de dilatação dos sistemas coletores.
 
   - trigger: "mielograf"
@@ -4269,31 +4116,7 @@ matches:
   - trigger: "mosai"
     word: true
     replace: "Atenuação em mosaico difusa do parênquima pulmonar, compatível com alteração da relação ventilação-perfusão. Neste contexto, tal aspecto deve ser decorrente de áreas de aprisionamento aéreo, denotando alterações de pequenas vias aéreas."
-
-  - trigger: "msv"
-    word: true
-    replace: Materiais de suporte à vida.
-
-  - trigger: "mta0"
-    word: true
-    replace: "Hipocampos simétricos, com morfologia e sinal preservados. Pontuação MTA: 0 (escala de Scheltens)."
-
-  - trigger: "mta1"
-    word: true
-    replace: "Hipocampos simétricos, com morfologia e sinal preservados. Fissuras coroideias ligeiramente alargadas. Pontuação MTA: 1 (escala de Scheltens)."
-
-  - trigger: "mta2"
-    word: true
-    replace: "Alargamento moderado das fissuras coroideias, leve aumento dos cornos temporais e leve perda da altura dos hipocampos. Pontuação MTA: 2 (escala de Scheltens)."
-
-  - trigger: "mta3"
-    word: true
-    replace: "Alargamento acentuado das fissuras coroides, aumento moderado dos cornos temporais e perda moderada da altura dos hipocampos. Pontuação MTA: 3 (escala de Scheltens)."
-
-  - trigger: "mta4"
-    word: true
-    replace: "Alargamento acentuado das fissuras coroideias, aumento acentuado dos cornos temporais, e os hipocampos apresentam-se marcadamente atrofiados e com perda da estrutura interna. Pontuação MTA: 4 (escala de Scheltens)."
-
+	
   - trigger: "mucoviscidose"
     word: true
     replace: "Bronquiectasias cilíndricas difusas com espessamento de paredes brônquicas. Associam-se nódulos centrolobulares, por vezes assumindo aspecto em \"árvore em brotamento\", bem como pequenas opacidades consolidativas, esparsos pelos campos pulmonares. A possibilidade de processo inflamatório/infeccioso com disseminação endobrônquica e provável etiologia bacteriana pode ser considerada. Esclarecemos por oportuno que tais achados podem estar relacionados a fibrose cística. Os diagnósticos diferenciais devem ser aplicados."
@@ -4475,38 +4298,7 @@ matches:
 
   - trigger: "neogastrico"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR E INFERIOR C/C
-      
-      
-      Técnica:
-      Cortes tomográficos axiais do abdome, antes e após a injeção do meio de contraste endovenoso.
-      
-      Descrição:
-      Lesão expansiva, de aspecto infiltrativo, com limites parcialmente definidos, determinando espessamento irregular das paredes do fundo e corpo gástrico. A lesão estende-se além dos limites da serosa, comprometendo a gordura perivisceral com sinais de invasão do corpo e da cauda do pâncreas, sem nítidos planos de clivagem com pequeno segmento de alça jejunal. Há envolvimento circunferencial das artérias gástrica esquerda e esplênica. A possibilidade neoplasia primária gástrica pode ser considerada dentre os diagnósticos diferenciais.
-      Aumento do número de linfonodos gástricos, hilares hepáticos, celíacos, mesentéricos e retroperitoneais, com linfonodomegalias, a maior para-aórtica medindo 2,1 x 1,5 cm.
-      Moderada quantidade de líquido livre na cavidade peritoneal, associada a nódulos e massas omentais e na superfície peritoneal, bem como espessamento nodular da raiz do mesentério. Esse conjunto de achados sugere representar carcinomatose peritoneal.
-      Fígado apresentando múltiplas lesões nodulares de tamanhos variados, predominantemente hipovasculares, por vezes confluentes, com distribuição randômica pelo parênquima, as duas maiores localizadas no segmento VII, ambas medindo cerca de 3,8 cm, compatíveis com metástases.
-      Não há sinais de dilatação das vias biliares intra e extra-hepáticas.
-      Vesícula biliar em topografia habitual.
-      Adrenais e baço sem particularidades.
-      Rins tópicos, com morfologia, dimensões e espessura do parênquima normais.
-      Cistos renais corticaisà esquerda, o maior medindo 4,9 cm (Bosniak I).
-      Não há sinais de dilatação dos sistemas coletores ou imagens sugestivas de cálculos.
-      Ateromatose de vasos intra-abdominais.
-      Aorta e veia cava inferior pérvias, com calibre e contornos normais.
-      Bexiga com repleção parcial e conteúdo homogêneo.
-      Divertículos colônicos.
-      Espondilose lombossacra.
-      Pequeno derrameo pleural bilateral, à direita de aspecto loculado.
-      
-      Impressão:
-      Lesão expansiva, de aspecto infiltrativo, com limites parcialmente definidos, determinando espessamento irregular das paredes do fundo e corpo gástrico. A lesão estende-se além dos limites da serosa, comprometendo a gordura perivisceral com sinais de invasão do corpo e da cauda do pâncreas, sem nítidos planos de clivagem com pequeno segmento de alça jejunal. Há envolvimento circunferencial das artérias gástrica esquerda e esplênica. A possibilidade neoplasia primária gástrica pode ser considerada dentre os diagnósticos diferenciais.
-      Aumento do número de linfonodos gástricos, hilares hepáticos, celíacos, mesentéricos e retroperitoneais, com linfonodomegalias.
-      Moderada quantidade de líquido livre na cavidade peritoneal, associada a nódulos e massas omentais e na superfície peritoneal, bem como espessamento nodular da raiz do mesentério. Esse conjunto de achados sugere representar carcinomatose peritoneal.
-      Fígado apresentando múltiplas lesões nodulares de tamanhos variados, predominantemente hipovasculares, por vezes confluentes, com distribuição randômica pelo parênquima, compatíveis com metástases.
-      Pequeno derrameo pleural bilateral, à direita de aspecto loculado.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: Lesão expansiva, de aspecto infiltrativo, com limites parcialmente definidos, determinando espessamento irregular das paredes do fundo e corpo gástrico. A lesão estende-se além dos limites da serosa, comprometendo a gordura perivisceral com sinais de invasão do corpo e da cauda do pâncreas, sem nítidos planos de clivagem com pequeno segmento de alça jejunal. Há envolvimento circunferencial das artérias gástrica esquerda e esplênica. A possibilidade neoplasia primária gástrica pode ser considerada dentre os diagnósticos diferenciais.
 
   - trigger: "neopancreas"
     word: true
@@ -4514,90 +4306,15 @@ matches:
 
   - trigger: "neoplasiaepitelialovariana"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE ABDOME TOTAL C/C
-      
-      Técnica:
-      Cortes tomográficos axiais do abdome, antes e após a injeção do meio de contraste endovenoso.
-      
-      Descrição:
-      Lesão cística abdominopélvica, de paredes finas e conteúdo com densidade homogênea, apresentando epicentro presumido em ovário/anexo, de lateralidade indefinida, medindo 27, 1 x 26,9 x 15,0 cm (CC x LL x AP), com volume de 5,686,1 cm³.
-      Fígado com dimensões, contornos e densidade normais.
-      Não há sinais de dilatação das vias biliares intra e extra-hepáticas.
-      Vesícula biliar em topografia habitual.
-      Adrenais, baço e pâncreas sem particularidades.
-      Rins tópicos, com morfologia, dimensões e espessura do parênquima normais.
-      Microcálculos renais bilaterais, menores que 0,4 cm, não obstrutivos.
-      Cálculo em cálice superior do rim direito, medindo 0,7 cm, com densidade de 235,2 UH, distando 7,3 cm da pele da região lombar.
-      Não há sinais de dilatação dos sistemas coletores.
-      Aorta e veia cava inferior pérvias, com calibre e contornos normais.
-      Ateromatose de vasos intra-abdominais.
-      Ausência de linfonodomegalias.
-      Ausência de líquido livre na cavidade peritoneal.
-      Bexiga com repleção parcial e conteúdo homogêneo.
-      Apêndice cecal visualizado, sem sinais inflamatórios.
-      Espondilose lombar.
-      
-      Impressão:
-      Volumosa lesão cística cística abdominopélvica. A possibilidade de neoplasia epitelial ovariana pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: Lesão cística abdominopélvica, de paredes finas e conteúdo com densidade homogênea, apresentando epicentro presumido em ovário/anexo, de lateralidade indefinida, medindo _ x _ x _ cm (CC x LL x AP), com volume de _ cm³. A possibilidade de neoplasia epitelial ovariana pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
 
   - trigger: "neopulmao"
     word: true
-    replace: |
-      Volumosa massa pulmonar esquerda, com densidade heterogênea, acometendo predominantemente o lobo superior, apresentando íntimo contato e envolvendo estruturas mediastinais e hilares ipsilaterais, com amputação do feixe broncovascular. Há desvio ipsilateral das estruturas mediastinais. Não há sinais macroscópicos de invasão da parede torácica. Tal lesão mede cerca de 14,1 cm no eixo craniocaudal e 11,0 cm no maior eixo axial.
-      Linfonodomegalias atípicas supraclaviculares, mediastinais, hilares e no anel linfático do cárdia/frênico inferior, por vezes confluentes e formando massas, medindo até 4,5 x 3,0 cm.
-      Acentuado derrame pleural esquerdo.
-      Estrias e bandas parenquimatosas esparsas.
-      Nódulos de contornos regulares, não calcificados, indeterminados, os maiores assim distribuídos:
-      - medindo 0,6 cm, localizado no segmento basal lateral do lobo inferior direito;
-      - medindo 0,6 cm, localizado no lobo médio;
-      Nódulos pulmonares bilaterais, menores que 0,5 cm, alguns sem calcificações evidentes (incaracterísticos), outros difusamente calcificados (residuais).
-      Enfisema centrolobular e parasseptal notadamente nos campos pulmonares superiores.
-      Ectasia dos ramos direito e esquerdo da artéria pulmonar.
-      Demais estruturas vasculares do mediastino com calibre externo conservado.
-      Ateromatose aortocoronariana.
-      Espondilose torácica.
-      Pequenas calcificações no parênquima pancreático, de aspecto residual.
-      Nefrolitíase à esquerda.
-      
-      Impressão:
-      Volumosa massa pulmonar esquerda, com densidade heterogênea, acometendo predominantemente o lobo superior, apresentando íntimo contato e envolvendo estruturas mediastinais e hilares ipsilaterais, com amputação do feixe broncovascular. Há desvio ipsilateral das estruturas mediastinais. Não há sinais macroscópicos de invasão da parede torácica.
-      Linfonodomegalias atípicas supraclaviculares, mediastinais, hilares e no anel linfático do cárdia/frênico inferior, por vezes confluentes e formando massas.
-      Acentuado derrame pleural esquerdo.
-      Os achados acima descritos são compatíveis com processo neoplásico pulmonar primário com acometimento linfonodal.
-      Demais achados pormenorizados no corpo do laudo.
-
+    replace: Volumosa massa pulmonar esquerda, com densidade heterogênea, acometendo predominantemente o lobo superior, apresentando íntimo contato e envolvendo estruturas mediastinais e hilares ipsilaterais, com amputação do feixe broncovascular. Há desvio ipsilateral das estruturas mediastinais. Não há sinais macroscópicos de invasão da parede torácica. Tal lesão mede cerca de 14,1 cm no eixo craniocaudal e 11,0 cm no maior eixo axial.
+    
   - trigger: "neopulmao1"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      Avaliação prejudicada por artefatos de movimentação.
-      
-      Análise:
-      Massa com densidade de partes moles, de contornos irregulares e limites pouco definidos, localizada junto ao hilo pulmonar esquerdo, medindo cerca de 8,6 x 6,4 cm, sem nítidos planos de clivagem com o esôfago, o pericárdio, a carina, a aorta descendente e os vasos pulmonares ipsilaterais. Há sinais de invasão dos brônquios principal e segmentares desse lado, com afilamento dos mesmos.
-      Linfonodomegalias mediastinais, de aspecto metastático.
-      Espessamento de septos interlobulares e da fissura oblíqua no pulmão esquerdo, por vezes de configuração nodular e acompanhado de opacidade em vidro fosco, sugerindo linfangite carcinomatosa.
-      Material hipoatenuante no interior de brônquios para o pulmão esquerdo e da traqueia.
-      Espessamento difuso de paredes brônquicas.
-      Tênues nódulos centrolobulares com atenuação em vidro fosco com predomínio nos lobos superiores, compatíveis com bronquiolite respiratória relacionada ao tabagismo.
-      Tênue enfisema parasseptal nos campos pulmonares superiores.
-      Nódulos pulmonares bilaterais, menores que 0,5 cm, alguns sem calcificações evidentes (incaracterísticos), outros difusamente calcificados (residuais).
-      Aorta e artérias pulmonares de topografia e calibres normais.
-      Ateromatose aortocoronariana.
-      Área cardíaca normal, sem sinais de derrame pericárdico.
-      Ausência de derrame pleural.
-      Redução da altura dos corpos vertebrais de T4, T5 e T6, podendo representar fraturas.
-      Espondilose torácica.
-      
-      Impressão diagnóstica:
-      Massa com densidade de partes moles, de contornos irregulares e limites pouco definidos, localizada junto ao hilo pulmonar esquerdo, sem nítidos planos de clivagem com o esôfago, o pericárdio, a carina, a aorta descendente e os vasos pulmonares ipsilaterais. Há sinais de invasão dos brônquios principal e segmentares desse lado, com afilamento dos mesmos.  A possibilidade de neoplasia pulmonar primária pode ser considerada dentre os diagnósticos diferenciais.
-      Linfonodomegalias mediastinais, de aspecto metastático.
-      Espessamento de septos interlobulares e da fissura oblíqua no pulmão esquerdo, por vezes de configuração nodular e acompanhado de opacidade em vidro fosco, sugerindo linfangite carcinomatosa.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: Massa com densidade de partes moles, de contornos irregulares e limites pouco definidos, localizada junto ao hilo pulmonar esquerdo, medindo cerca de 8,6 x 6,4 cm, sem nítidos planos de clivagem com o esôfago, o pericárdio, a carina, a aorta descendente e os vasos pulmonares ipsilaterais. Há sinais de invasão dos brônquios principal e segmentares desse lado, com afilamento dos mesmos.
 
   - trigger: "neopulmaoescondida"
     word: true
@@ -4627,61 +4344,10 @@ matches:
     word: true
     replace: "Lesão expansiva, predominantemente exofítica, localiazada totalmente abaixo da linha polar inferior no rim esquerdo, medindo 3,5 x 3,2 x 3,2 cm nos maiores eixos (CC x LL x AP), distando 1,0 cm do sistema coletor ( pontuação de nefrometria RENAL 4 - baixa complexidade)."
 
-  - trigger: "neorreto12"
-    word: true
-    replace: |
-      RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
-      
-      TÉCNICA:
-      Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolíneo). Utilizado gel para distender o reto e o canal vaginal.
-      
-      INDICAÇÃO:
-      Estadiamento de neoplasia de reto/ canal anal.
-      
-      ANÁLISE:
-      Lesão expansiva de aspecto infiltrativo, determinando espessamento parietal irregular com redução luminal do reto, estendendo-se craniocaudalmente em cerca de 7,7 cm, exteriorizando-se para o canal anal e região perineal. Há extensão da lesão à gordura mesorretal com metástase em linfonodo local pararretal à direita, medindo 1,8 cm, com centro necrótico/liquefeito. Não há nítidos planos de clivagem entre a lesão e a parede vaginal posterior. Linfonodomegalias na cadeia obturatória direita, medindo 3,5 cm no maior eixo, em íntimo contato com a veia iliaca externa.
-      Conglomerado de linfonodomegalias metastáticas na cadeia inguinal superficial direita, em conjunto medindo 4,5 x 4,3 x 3,5 cm.
-      Bexiga com boa repleção, paredes finas e conteúdo de sinal homogêneo.
-      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais. Mede 5,5 x 4,3 x 2,9 cm, volume estimado em 35,8 cm³.
-      Zona juncional com intensidade de sinal e espessura mantidas.
-      Endométrio centrado e homogêneo, com espessura de 0,1 cm.
-      Espaço retrocervical e do septo retovaginal livres.
-      Ovários não visualizados.
-      
-      OPINIÃO:
-      Neoplasia retal localmente avançada invadindo a gordura mesorretal com metástases em linfonodos locais e distantes, exteriorizando-se para o canal anal e região perineal, bem como provável extensão para a parede vaginal posterior.
-      Demais achados pormenorizados no corpo do laudo.
-
   - trigger: "neotransverso"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR E INFERIOR C/C
-      Técnica:
-      Cortes tomográficos axiais do abdome, antes e após a injeção do meio de contraste endovenoso.
-      Descrição:
-      
-      Lesão expansiva de aspecto infiltrativo, limites mal definidos, com extensão aproximada de 11,9 cm, localizada no cólon transverso, adjacente à flexura esplênica, com invasão da gordura pericolônica.
-      Linfonodomegalia metastática adjacente à lesão acima descrita (paracólicos), bem como nas cadeias hilar hepática, celíaca e gástrica direita, medindo até 2,5 x 2,4 cm.
-      Aumento do número de linfonodos mesentéricos e retroperitoneais.
-      Fígado com forma, contornos e volume usuais, apresentando redução difusa do coeficiente de atenuação de seu parênquima, inferindo esteatose. Imagem nodular hipovascular localizada no segmento hepático II, medindo 1,9 cm, indeterminada. Notam-se ainda, diminutas imagens císticas isoladas pelo parênquima hepático.
-      Não há sinais de dilatação das vias biliares intra e extra-hepáticas.
-      Vesícula biliar em topografia habitual.
-      Adrenais, baço e pâncreas sem particularidades.
-      Rins tópicos, com morfologia, dimensões e espessura do parênquima normais.
-      Não há sinais de dilatação dos sistemas coletores ou imagens sugestivas de cálculos.
-      Cisto renal subcentimétrico à esquerda (Bosniak I).
-      Aorta e veia cava inferior pérvias, com calibre e contornos normais.
-      Ateromatose de vasos intra-abdominais.
-      Mínima quantidade de líquido livre na cavidade peritoneal.
-      Bexiga com boa repleção e conteúdo homogêneo.
-      Diminuta imagem esclerótica na asa ilíaca direita, sugestiva de enostose.
-      Impressão:
-      Lesão expansiva de aspecto infiltrativo, localizada no cólon transverso, compatível com neoplasia primária.
-      Linfonodomegalia metastática adjacente à lesão acima descrita (paracólicos), bem como nas cadeias hilar hepática, celíaca e gástrica direita.
-      Aumento do número de linfonodos mesentéricos e retroperitoneais.
-      Fígado apresentando redução difusa do coeficiente de atenuação de seu parênquima, inferindo esteatose. Imagem nodular hipovascular localizada no segmento hepático II, medindo 1,9 cm, indeterminada. Notam-se ainda, diminutas imagens císticas isoladas pelo parênquima hepático.
-      Demais achados pormenorizados no corpo do laudo.
-
+    replace: Lesão expansiva de aspecto infiltrativo, limites mal definidos, com extensão aproximada de 11,9 cm, localizada no cólon transverso, adjacente à flexura esplênica, com invasão da gordura pericolônica, compatível com neoplasia primária.
+    
   - trigger: "nicer"
     word: true
     replace: |
@@ -4743,24 +4409,6 @@ matches:
     word: true
     replace: "Nódulo de contornos regulares, não calcificado, medindo x cm, localizado x"
 
-  - trigger: "nodulomistotireoide"
-    word: true
-    replace: |
-      ULTRASSOM DE TIREOIDE
-      
-      Exame realizado com transdutor linear multifrequencial para estudo da tireoide.
-      A glândula tireoide apresenta-se com contornos regulares e dimensões normais.
-      Formação mista sólido-cística, de conteúdo hipoecogênico, mais larga que alta, de margens bem definidas, sem calcificações evidentes, localizada no polo inferior do lobo esquerdo, medindo 1,5 x 0,7 x 0,5 cm (TI-RADS 3).
-      Lobo direito medindo 2,8 x 1,0 x 0,9 cm nos seus maiores eixos.
-      Lobo esquerdo medindo 2,5 x 1,0 x 0,8 cm nos seus maiores eixos.
-      Istmo com espessura normal.
-      Volume total da glândula tireoide: 2,3 cm³.
-      Aumento do número de linfonodos cervicais, sem caracterizar linfonodomegalias.
-      
-      Opinião:
-      Formação mista sólido-cística, de conteúdo hipoecogênico, mais larga que alta, de margens bem definidas, sem calcificações evidentes, localizada no polo inferior do lobo esquerdo (TI-RADS 3).
-      Aumento do número de linfonodos cervicais, sem caracterizar linfonodomegalias.
-
   - trigger: "nomadir"
     word: true
     replace: "Nódulo mamário à direita, medindo 2,6 cm, melhor avaliado por estudo dirigido."
@@ -4820,17 +4468,11 @@ matches:
   - trigger: "notaorb"
     word: true
     replace: |
-      Nota:
-      
-      Avaliação limitada das estruturas orbitárias, recomendando-se ressonância magnética de órbitas dedicada se houver suspeita clínica específica.
+      Nota: avaliação limitada das estruturas orbitárias, recomendando-se ressonância magnética de órbitas dedicada se houver suspeita clínica específica.
 
   - trigger: "notartx"
     word: true
     replace: "Nota: a habilidade do exame de tomografia computadorizada na diferenciação entre lesão residual/recidivada e alterações actínicas é limitada, uma vez que a manifestação usual destas patologias pode ser semelhante do ponto de vista de imagem."
-
-  - trigger: "notasela"
-    word: true
-    replace: "A ausência de contraste intravenoso reduz a sensibilidade diagnóstica da ressonância magnética da sela túrcica para a detecção e caracterização de possíveis lesões, especialmente as de pequenas dimensões."
 
   - trigger: "novoneopancreas"
     word: true
@@ -4939,19 +4581,7 @@ matches:
   - trigger: "omcce"
     word: true
     replace: Sinais de mastoidopatia crônica à esquerda
-
-  - trigger: "omcrm1"
-    word: true
-    replace: "Material hiperintenso em T2 no interior de células da mastoide à direita, podendo corresponder a secreção residual / mastoidopatia."
-
-  - trigger: "omcrm2"
-    word: true
-    replace: "Material hiperintenso em T2 no interior de células da mastoide à esquerda, podendo corresponder a secreção residual / mastoidopatia."
-
-  - trigger: "omcrm3"
-    word: true
-    replace: "Material hiperintenso em T2 no interior de células da mastoide bilateralmente, podendo corresponder a secreção residual / mastoidopatia."
-
+	
   - trigger: "omcv1"
     word: true
     replace: Osteofitose marginal incipiente em corpos vertebrais.
@@ -4959,10 +4589,6 @@ matches:
   - trigger: "omcvi"
     word: true
     replace: Osteofitose marginal incipiente em corpos vertebrais.
-
-  - trigger: "omcvrm"
-    word: true
-    replace: "Os corpos vertebrais permanecem de altura e sinal da medular óssea conservados, apresentando osteófitos marginais."
 
   - trigger: "opa"
     word: true
