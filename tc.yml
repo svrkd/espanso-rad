@@ -1204,7 +1204,7 @@ matches:
 
   - trigger: "cct"
     word: true
-    replace: "Lesão isodensa e hipovascular, medindo 6,0 x 3,2 x 2,0 cm, localizada na pelve renal esquerda, na altura do terço médio e polo superior. A possibilidade de neoplasia primária, destacando-se a hipótese de carcinoma de células transicionais, pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
+    replace: "Lesão isodensa e hipovascular, medindo _ x _ x _ cm, localizada na pelve renal _, na altura do terço médio e polo superior. A possibilidade de neoplasia primária, destacando-se a hipótese de carcinoma de células transicionais, pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
 
   - trigger: "cdo1"
     word: true
@@ -1226,33 +1226,10 @@ matches:
     word: true
     replace: Ceco inferomedianizado.
 
-  - trigger: "cee"
-    word: true
-    replace: |
-      RADIOGRAFIA DE PUNHO ESQUERDO
-      
-      
-      Controle evolutivo evidencia ossos do punho contidos em material gessado de imobilização.
-      Comparar com exames anteriores
-
   - trigger: "celuliteperiorbitaria"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DAS ÓRBITAS S/C
+    replace: Aumento de volume e densificação de partes moles na região periorbitária direita. A possibilidade de processo inflamatório/infeccioso (celulite periorbitária pré-septal) pode ser considerada dentre os diagnósticos diferenciais.
       
-      Técnica:
-      Imagens obtidas por aquisição volumétrica "multislice" antes e após a administração intravenosa do meio de contraste iodado.
-      
-      Análise:
-      Aumento de volume e densificação de partes moles na região periorbitária direita.  A possibilidade de processo inflamatório/infeccioso (celulite periorbitária pré-septal) pode ser considerada dentre os diagnósticos diferenciais.
-      Estruturas ósseas sem alterações.
-      Globos oculares apresentando coeficientes de atenuação preservados.
-      Musculatura extrínseca, gordura orbitária intra e extra-conal e nervos ópticos preservados.
-      Glândulas lacrimais sem particularidades.
-      
-      Impressão:
-      Aumento de volume e densificação de partes moles na região periorbitária direita.  A possibilidade de processo inflamatório/infeccioso (celulite periorbitária pré-septal) pode ser considerada dentre os diagnósticos diferenciais.
-
   - trigger: "cerebd"
     word: true
     replace: hemisfério cerebelar direito
@@ -1268,10 +1245,6 @@ matches:
   - trigger: "cerva"
     word: true
     replace: "C1-C2, C2-C3, C3-C4, C4-C5, C5-C6 e C6-C7"
-
-  - trigger: "chems"
-    word: true
-    replace: Nódulos hiperecogênicos hepáticos compatíveis com hemangiomas.
 
   - trigger: "chila"
     word: true
@@ -1356,28 +1329,12 @@ matches:
   - trigger: "cirrosecomhcc"
     word: true
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR  C/C
-      Técnica:
-      Cortes tomográficos axiais do abdome, antes e após a injeção do meio de contraste endovenoso.
-      Descrição:
-      Fígado com dimensões reduzidas à custa do lobo direito, apresentando contornos serrilhados, bordas rombas, fissuras acentuadas e densidade do parênquima finamente heterogênea. Nota-se lesão expansiva, de limites parcialmente definidos, medindo cerca de 4,1 x 3,9 cm, localizada no segmento VIII, apresentando realce heterogêneo pelo meio de contraste endovenoso. Destaca-se ainda, imagem ovalada subcentimétrica, hipodensa, localizada no segmento VII, sugerindo cisto.
-      Aumento do calibre do sistema venoso esplenoportomesentérico com circulação colateral porto-sistêmica (fundo gástrico, esôfago distal,  hilo esplênico e perirretais, bem como recanalização das paraumbilicais) e esplenomegalia homogênea (volume de 1025,7 cm³), sinais indiretos de hipertensão portal.
-      Não há sinais de dilatação das vias biliares intra e extra-hepáticas.
-      Vesícula biliar em topografia habitual.
-      Espessamento nodular da adrenal direita.
-      Adrenal esquerda sem particularidades.
-      Pâncreas parcialmente lipossubstituído.
-      Rins tópicos, com morfologia, dimensões e espessura do parênquima normais.
-      Não há sinais de dilatação dos sistemas coletores ou imagens sugestivas de cálculos.
-      Cistos renais subcentimétricos bilaterais (Bosniak I).
-      Aorta e veia cava inferior pérvias, com calibre e contornos normais, nas porções passíveis de avaliação.
-      Ausência de linfonodomegalias e coleções.
-      Ausência de líquido livre na cavidade peritoneal.
-      Espondilose lombar.
+       Fígado com dimensões reduzidas à custa do lobo direito, apresentando contornos serrilhados, bordas rombas, fissuras acentuadas e densidade do parênquima finamente heterogênea. Nota-se lesão expansiva, de limites parcialmente definidos, medindo cerca de _ x _ cm, localizada no segmento _, apresentando realce heterogêneo pelo meio de contraste endovenoso.
+      Aumento do calibre do sistema venoso esplenoportomesentérico com circulação colateral porto-sistêmica (fundo gástrico, esôfago distal,  hilo esplênico e perirretais, bem como recanalização das paraumbilicais) e esplenomegalia homogênea (volume de _ cm³), sinais indiretos de hipertensão portal.
+			
       Impressão:
       Hepatopatia parenquimatosa crônica (aspecto cirrótico), com sinais indiretos de hipertensão portal, acima descritos.
       Lesão expansiva hepática. A possibilidade de neoplasia primária pode ser considerada dentre os diagnósticos diferenciais, especialmente diante de um contexto de marcadores tumorais elevados.
-      Demais achados pormenorizados no corpo do laudo.
 
   - trigger: "cistar"
     word: true
@@ -1405,48 +1362,27 @@ matches:
 
   - trigger: "cistoaracnoide"
     word: true
-    replace: "Formação cística extra-axial, com densidade idêntica à do líquor, localizada na fossa média esquerda, sugerindo cisto aracnoide, medindo"
+    replace: "Formação cística extra-axial, com densidade idêntica à do líquor, localizada na fossa média esquerda, sugerindo cisto aracnoide, medindo _ cm."
 
   - trigger: "cistoaracnoide2"
     word: true
-    replace: "Formação cística extra-axial, com densidade idêntica à do líquor, localizada na fossa posterior, retrocerebelar, sugerindo cisto aracnoide, medindo 4,1 cm."
+    replace: "Formação cística extra-axial, com densidade idêntica à do líquor, localizada na fossa posterior, retrocerebelar, sugerindo cisto aracnoide, medindo _ cm."
 
   - trigger: "cistoaracnoider"
     word: true
-    replace: "Formação cística extra-axial, com densidade idêntica à do líquor, localizada na fossa posterior, retrocerebelar, sugerindo cisto aracnoide, medindo 4,1 cm."
-
-  - trigger: "cistoaracnoiderm"
-    word: true
-    replace: "Cisto com sinal semelhante ao do líquor nas diversas sequências obtidas, medindo 5,5 x 4,6 x4,1 cm, localizado na fossa média direita, onde exerce impressão sobre o parênquima encefálico adjacente. A possibilidade de cisto aracnoide pode ser considerada dentre os diagnósticos diferencias."
+    replace: "Formação cística extra-axial, com densidade idêntica à do líquor, localizada na fossa posterior, retrocerebelar, sugerindo cisto aracnoide, medindo _ cm."
 
   - trigger: "cistobartholin"
     word: true
-    replace: "Formação cística no intróito vaginal à direita, medindo x cm. A possibilidade de cisto de Bartholin pode ser considerada dentre os diagnósticos diferenciais."
+    replace: "Formação cística no intróito vaginal à direita, medindo _ cm. A possibilidade de cisto de Bartholin pode ser considerada dentre os diagnósticos diferenciais."
 
   - trigger: "cistocoloide"
     word: true
-    replace: "Imagem hiperdensa, medindo 0,3 cm, localizada na parede anterior do III ventrículo. A possibilidade de cisto colóide pode ser considerada dentre os diagnósticos diferenciais."
+    replace: "Imagem hiperdensa, medindo _ cm, localizada na parede anterior do III ventrículo. A possibilidade de cisto colóide pode ser considerada dentre os diagnósticos diferenciais."
 
   - trigger: "cistodefissura"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      Análise:
-      Cisto de fissura coroide à direita, medindo 2,1 cm,  com frequência achado incidental, sem correlação clínica.
-      Sulcos e cisternas encefálicas normais.
-      Parênquima cerebral com morfologia e coeficientes de atenuação normais.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Sistema ventricular com morfologia e dimensões normais.
-      Estruturas da linha mediana sem desvios significativos.
-      Ausência de calcificações patológicas.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-      
-      Opinião:
-      Cisto de fissura coroide à direita, com frequência achado incidental, sem correlação clínica.
+    replace: Cisto de fissura coroide à direita, medindo _ cm, com frequência achado incidental, sem correlação clínica.
 
   - trigger: "cistofora"
     word: true
@@ -1466,63 +1402,31 @@ matches:
 
   - trigger: "cistoosseoaneurismatico"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO S/C
-      
-      Técnica:
-      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
-      
-      Análise:
-      Lesão expansiva, de aspecto insulflativo, multicameral/multiseptada, medindo 4,5 x 2,3 x 2,1 cm, localizada na metáfise umeral proximal, com espessamento periosteal e ruptura cortical (fratura patológica).
-      Hipodensidade de partes moles adjacentes ao sítio de fratura sugerindo representar, ao menos em parte, edema/hematoma.
-      Demais etruturas ósseas de forma conservada, sem sinais de fraturas.
-      Articulações glenoumeral e acromioclavicular de contornos regulares.
-      Derrame articular com focos gasosos de permeio.
-      Tendões e ligamentos de avaliação limitada nesse estudo.
-      
-      Conclusão:
-      Lesão expansiva, de aspecto insulflativo, multicameral/multiseptada localizada na metáfise umeral proximal, com espessamento periosteal e ruptura cortical (fratura patológica). Cisto ósseo aneurismático? Lesão de outra natureza? Recomenda-se prosseguir a investigação diagnóstica.
-      Hipodensidade de partes moles adjacentes ao sítio de fratura sugerindo representar, ao menos em parte, edema/hematoma.
-      Derrame articular com focos gasosos de permeio.
+    replace: Lesão expansiva, de aspecto insulflativo, multicameral/multiseptada, medindo _ x _ x _ cm, localizada na metáfise umeral proximal, com espessamento periosteal e ruptura cortical (fratura patológica). Cisto ósseo aneurismático? Lesão de outra natureza? Recomenda-se prosseguir a investigação diagnóstica.
 
   - trigger: "cistopericar"
     word: true
-    replace: "Imagem cística bem definido, medindo 2,9 cm, com atenuação interna média de 15,0 UH, localizado no ângulo cardiofrênico direito. A possibilidade de cisto pericárdico pode ser considerada dentre os diagnósticos diferenciais."
+    replace: "Imagem cística bem definido, medindo _ cm, com atenuação interna média de _ UH, localizado no ângulo cardiofrênico direito. A possibilidade de cisto pericárdico pode ser considerada dentre os diagnósticos diferenciais."
 
   - trigger: "cistopericar1"
     word: true
-    replace: "Imagem ovalada bem definida, medindo 2,9 cm, com atenuação interna média de 24,0 UH, localizado no ângulo cardiofrênico direito. Cisto pericárdico?"
+    replace: "Imagem ovalada bem definida, medindo _ cm, com atenuação interna média de _ UH, localizado no ângulo cardiofrênico direito. Cisto pericárdico?"
 
   - trigger: "cistopineal"
     word: true
-    replace: "Cisto de pineal, medindo 1,1 cm (com frequência achado incidental, sem correlação clínica)."
+    replace: "Cisto de pineal, medindo _ cm (com frequência achado incidental, sem correlação clínica)."
 
   - trigger: "cistoporencefalico"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      Análise:
-      Cisternas encefálicas normais.
-      Área com coeficiente de atenuação semelhante ao líquor localizada no lobos parietal e occipital direitos (encefalomalácia / gliose), com comunicação e alargamento subsequente do ventrículo lateral ipsilateral. Admite-se inicialmente a possibilidade de cisto porencefálico. Os diagnósticos diferenciais devem ser aplicados.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Estruturas da linha mediana sem desvios significativos.
-      Ausência de calcificações patológicas.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-      
-      Opinião:
-      Área com coeficiente de atenuação semelhante ao líquor localizada no lobos parietal e occipital direitos (encefalomalácia / gliose), com comunicação e alargamento subsequente do ventrículo lateral ipsilateral. Admite-se inicialmente a possibilidade de cisto porencefálico. Os diagnósticos diferenciais devem ser aplicados.
-
+    replace: Área com coeficiente de atenuação semelhante ao líquor localizada no lobos parietal e occipital direitos (encefalomalácia / gliose), com comunicação e alargamento subsequente do ventrículo lateral ipsilateral. Admite-se inicialmente a possibilidade de cisto porencefálico. Os diagnósticos diferenciais devem ser aplicados.
+   
   - trigger: "cistosdeplexo"
     word: true
     replace: "Cistos de plexo coroide nos átrios dos ventrículos laterais (xantogranulomas), com frequência achado incidental, sem correlação clínica."
 
   - trigger: "cistosinovial"
     word: true
-    replace: "Formação cística, medindo 0,7 x 0,7  x 0,4 cm, localizada em partes moles na face flexora do punho, próxima à artéria radial, na altura da articulação radiocarpal, com aparente comunicação com espaço articular subjacente. A possibilidade de cisto sinovial pode ser considerada dentre os diagnósticos diferencias."
+    replace: "Formação cística, medindo _ x _ x _ cm, localizada em partes moles na face flexora do punho, próxima à artéria radial, na altura da articulação radiocarpal, com aparente comunicação com espaço articular subjacente. A possibilidade de cisto sinovial pode ser considerada dentre os diagnósticos diferencias."
 
   - trigger: "cistotarlov"
     word: true
@@ -1530,15 +1434,19 @@ matches:
 
   - trigger: "cistouraco"
     word: true
-    replace: "Formação tecidual, com densidade de partes moles, medindo 10,7 x 7,0 x 5,3 cm, com volume de 206,4 cm³, localizada na parede abdominal anterior, em região peri e infraumbilical, paramediana direita, comprometendo o tecido subcutâneo profundo, o músculo reto abdominal direito e a cavidade abdominal (espaço de Retzius), deslocando as estruturas adjacentes. Há densificação dos planos gordurosos adjacentes. Admitem-se inicialmente as possibilidades de coleção de natureza inflamatória/infecciosa (fleimão/abscesso em organização) ou hematoma, entretanto, outros diagnósticos diferenciais devem ser aplicados. Cisto de úraco infectado? Lesão de outra natureza?"
+    replace: "Formação tecidual, com densidade de partes moles, medindo _ x _ x _ cm, com volume de _ cm³, localizada na parede abdominal anterior, em região peri e infraumbilical, paramediana direita, comprometendo o tecido subcutâneo profundo, o músculo reto abdominal direito e a cavidade abdominal (espaço de Retzius), deslocando as estruturas adjacentes. Há densificação dos planos gordurosos adjacentes. Admitem-se inicialmente as possibilidades de coleção de natureza inflamatória/infecciosa (fleimão/abscesso em organização) ou hematoma, entretanto, outros diagnósticos diferenciais devem ser aplicados. Cisto de úraco infectado? Lesão de outra natureza?"
 
   - trigger: "cistov"
     word: true
-    replace: "Imagem cística em região ovariana/ anexial esquerda, medindo 3,2 cm, melhor avaliada por estudo dirigido."
+    replace: "Imagem cística em região ovariana/ anexial _, medindo _ cm, melhor avaliada por estudo dirigido."
 
   - trigger: "cistovd"
     word: true
-    replace: "Imagem cística em região ovariana/ anexial direita, medindo 2,6 cm, melhor avaliada por estudo dirigido."
+    replace: "Imagem cística em região ovariana/ anexial direita, medindo _ cm, melhor avaliada por estudo dirigido."
+
+  - trigger: "cistove"
+    word: true
+    replace: "Imagem cística em região ovariana/ anexial esquerda, medindo _ cm, melhor avaliada por estudo dirigido."
 
   - trigger: "cistovs"
     word: true
@@ -1550,21 +1458,8 @@ matches:
 
   - trigger: "citomegalovirosecerebral"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      Análise:
-      Parênquima cerebral difusamente afilado com sulcos rasos e calcificações espessas com predomínio cortical, periventricular e em gânglios da base.  Associa-se ventriculomegalia.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Estruturas da linha mediana sem desvios significativos.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-      
-      Opinião:
-      Alterações encefálicas difusas, acima pormenorizadas, de aspecto sequelar. A possibilidade de lesões relacionadas a processo inflamatório/infeccioso congênito, destacando-se citomegalovirose, pode ser considerada. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
-
+    replace: Parênquima cerebral difusamente afilado com sulcos rasos e calcificações espessas com predomínio cortical, periventricular e em gânglios da base. Associa-se ventriculomegalia. A possibilidade de lesões relacionadas a processo inflamatório/infeccioso congênito, destacando-se citomegalovirose, pode ser considerada. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
+     
   - trigger: "clt"
     word: true
     replace: Colecistolitíase.
@@ -1577,26 +1472,13 @@ matches:
 
   - trigger: "coa"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO S/C
-      
-      Técnica:
-      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
-      
-      Análise:
-      Lesão expansiva, de aspecto insulflativo, multicameral/multiseptada, medindo 4,5 x 2,3 x 2,1 cm, localizada na metáfise umeral proximal, com espessamento periosteal e ruptura cortical (fratura patológica).
-      Hipodensidade de partes moles adjacentes ao sítio de fratura sugerindo representar, ao menos em parte, edema/hematoma.
-      Demais etruturas ósseas de forma conservada, sem sinais de fraturas.
-      Articulações glenoumeral e acromioclavicular de contornos regulares.
-      Derrame articular com focos gasosos de permeio.
-      Tendões e ligamentos de avaliação limitada nesse estudo.
-      
-      Conclusão:
-      Lesão expansiva, de aspecto insulflativo, multicameral/multiseptada localizada na metáfise umeral proximal, com espessamento periosteal e ruptura cortical (fratura patológica). Cisto ósseo aneurismático? Lesão de outra natureza? Recomenda-se prosseguir a investigação diagnóstica.
-      Hipodensidade de partes moles adjacentes ao sítio de fratura sugerindo representar, ao menos em parte, edema/hematoma.
-      Derrame articular com focos gasosos de permeio.
-
+    replace: Lesão expansiva, de aspecto insulflativo, multicameral/multiseptada, medindo _ x _ x _ cm, localizada na metáfise umeral proximal, com espessamento periosteal e ruptura cortical (fratura patológica). Cisto ósseo aneurismático? Lesão de outra natureza? Recomenda-se prosseguir a investigação diagnóstica.
+ 
   - trigger: "cocir"
+    word: true
+    replace: Correlacionar com dados cirúrgicos.
+
+  - trigger: "cocx"
     word: true
     replace: Correlacionar com dados cirúrgicos.
 
@@ -1698,139 +1580,6 @@ matches:
     word: true
     replace: "Opacidades em \"vidro fosco\" e focos de consolidação esparsas em ambos os pulmões, com predomínio nas regiões periféricas dos lobos inferiores. Associa-se moderado derrame pleural bilateral com atelectasia/consolidação do parênquima pulmonar adjacente e componente fissural à direita. Esse conjunto de achados pode estar relacionado a processo inflamatório/infeccioso, não sendo possível descartar congestão pulmonar sobreposta . Logo, achados tomográficos indeterminados para pneumonia viral (CO-RADS 3)."
 
-  - trigger: "congestaocovid"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      Contexto clínico:
-      Suspeita de pneumonia viral (Covid-19).
-      Análise:
-      Cânula traqueal.
-      Cateter venoso central.
-      Sonda gástrica
-      Opacidades com atenuação em "vidro fosco" associadas a espessamento septais, predominantemente centrais/peri-hilares. Nota-se pequeno derrame/espessamento pleural  bilateralmente, associado a atelectasia/consolidação do parênquima pulmonar adjacente.
-      Raros nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
-      Traquéia e brônquios fontes com diâmetros normais.
-      Aorta de topografia e calibres normais.
-      Ectasia dos ramos direito e esquerdo da artéria pulmonar.
-      Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
-      Cardiomegalia, sem sinais de derrame pericárdico.
-      Espondilose torácica.
-      Impressão diagnóstica:
-      Opacidades com atenuação em "vidro fosco" associadas a espessamento septais, predominantemente centrais/peri-hilares. Nota-se pequeno derrame/espessamento pleural  bilateralmente, associado a atelectasia/consolidação do parênquima pulmonar adjacente. Esse conjunto de achados pode estar relacionado a congestão pulmonar, não sendo possível descartar processo inflamatório/infeccioso sobreposto. Logo, achados tomográficos indeterminados para pneumonia viral (CO-RADS 3).
-      Demais achados pormenorizados no corpo do laudo.
-      Obs.: a tomografia de tórax pode não apresentar alterações, principalmente nas primeiras 48 horas após início dos sintomas de infecção viral. Correlacionar com dados clínicos e laboratoriais para considerar realização de novo estudo evolutivo.
-
-  - trigger: "congestaopul"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      Contexto clínico:
-      Suspeita de pneumonia viral (Covid-19).
-      Análise:
-      Cânula traqueal.
-      Cateter venoso central.
-      Sonda gástrica
-      Opacidades com atenuação em "vidro fosco" associadas a espessamento septais, predominantemente centrais/peri-hilares. Nota-se pequeno derrame/espessamento pleural  bilateralmente, associado a atelectasia/consolidação do parênquima pulmonar adjacente.
-      Raros nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
-      Traquéia e brônquios fontes com diâmetros normais.
-      Aorta de topografia e calibres normais.
-      Ectasia dos ramos direito e esquerdo da artéria pulmonar.
-      Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
-      Cardiomegalia, sem sinais de derrame pericárdico.
-      Espondilose torácica.
-      Impressão diagnóstica:
-      Opacidades com atenuação em "vidro fosco" associadas a espessamento septais, predominantemente centrais/peri-hilares. Nota-se pequeno derrame/espessamento pleural  bilateralmente, associado a atelectasia/consolidação do parênquima pulmonar adjacente. Esse conjunto de achados pode estar relacionado a congestão pulmonar, não sendo possível descartar processo inflamatório/infeccioso sobreposto. Logo, achados tomográficos indeterminados para pneumonia viral (CO-RADS 3).
-      Demais achados pormenorizados no corpo do laudo.
-      Obs.: a tomografia de tórax pode não apresentar alterações, principalmente nas primeiras 48 horas após início dos sintomas de infecção viral. Correlacionar com dados clínicos e laboratoriais para considerar realização de novo estudo evolutivo.
-
-  - trigger: "contraturacapsular"
-    word: true
-    replace: |
-      ULTRASSONOGRAFIA DAS MAMAS
-      
-      Próteses mamárias bilaterais, apresentando pregas radiais do invólucro e sinais de espessamento da cápsula fibrosa.
-      Pele e tecido subcutâneo de aspecto ecográfico preservado.
-      O tecido glandular mamário tem textura ecográfica homogênea.
-      Ausência de nódulos sólidos ou cistos.
-      Prolongamentos axilares, regiões retropapilares e para-esternais livres.
-      
-      CONCLUSÃO:
-      Próteses mamárias bilaterais, apresentando pregas radiais do invólucro e sinais de espessamento da cápsula fibrosa. Contratura capsular? Caso persista a indicação clínica, conveniente estudo direcionado com ressonância magnética das mamas.
-      
-      Classificação BI-RADS®: Categoria 2.
-
-  - trigger: "controcov"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      
-      Contexto clínico:
-      Controle de pneumonia viral, confirmada por RT-PCR (COVID-19).
-      
-      A análise comparativa com o exame realizado em 25/03/2021 evidencia:
-      Aumento da densidade das opacidades consolidativas, com atenuação em "vidro fosco" e reticulares associadas a espessamento septal, predominantemente periféricas. Associam-se bronquiectasias.
-      
-      Permanecendo:
-      Nódulos pulmonares bilaterais, menores que 0,5 cm, alguns sem calcificações evidentes (incaracterísticos), outros difusamente calcificados (residuais).
-      Enfisema centrolobular e parasseptal notadamente nos campos pulmonares superiores.
-      Estrias e bandas parenquimatosas esparsas.
-      Traquéia e brônquios fontes com diâmetros normais.
-      Espessamento difuso de paredes brônquicas.
-      Ateromatose coronariana.
-      Aumento do calibre dos ramos principais da artéria pulmonar.
-      Aorta de topografia e calibre normais.
-      Aumento do número de linfonodos mediastinais, sem linfonodomegalias.
-      Área cardíaca normal, sem sinais de derrame pericárdico.
-      Mínimo espessamento/derrame pleural bilateral.
-      Espondilose torácica.
-      
-      Impressão diagnóstica:
-      Alterações pulmonares bilaterais de aspecto inflamatório agudo, acometendo de forma moderada cerca de 50 % do parênquima pulmonar, compatível com pneumonia viral (CO-RADS 6).
-      Demais achados pormenorizados no corpo do laudo.
-
-  - trigger: "controlecovid"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      
-      Contexto clínico:
-      
-      Controle de pneumonia viral (Covid-19). Diagnóstico confirmado através de RT-PCR (CO-RADS 6).
-      
-      A análise comparativa com o exame realizado em 20/09/2020 evidencia:
-      
-      Redução significativa das opacidades consolidativas e com atenuação em "vidro fosco" associadas a espessamento septal, predominantemente periféricas, bem como das bronquiectasias.
-      Estrias e bandas parenquimatosas esparsas, algumas subpleurais.
-      
-      Permanecendo:
-      
-      Nódulos pulmonares bilaterais, menores que 0,5 cm, alguns sem calcificações evidentes (incaracterísticos), outros difusamente calcificados (residuais).
-      Traquéia e brônquios fontes com diâmetros normais.
-      Aumento do calibre dos ramos principais da artéria pulmonar.
-      Ateromatose aortocoronariana.
-      Ectasia da aorta ascendente medindo até 4,7 cm.
-      Aumento do número de linfonodos mediastinais.
-      Mediastino centrado, sem evidências de linfonodomegalias ou massas centrais.
-      Área cardíaca aumentada, sem sinais de derrame pericárdico.
-      Mínimo espessamento pleural bilateral.
-      Espondilose torácica.
-      Esteatose hepática.
-      Microcálculo renal esquerdo, menor que 0,3 cm, não obstrutivo.
-
   - trigger: "copel"
     word: true
     replace: conforme o prontuário eletrônico.
@@ -1888,257 +1637,6 @@ matches:
     word: true
     replace: Distensão aérea de alças intestinais.
 
-  - trigger: "coveio"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      Contexto clínico:
-      Suspeita de pneumonia viral (Covid-19).
-      Análise:
-      Raros diminutos nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
-      Ateromatose aortocoronariana.
-      Ectasia dos ramos direito e esquerdo da artéria pulmonar.
-      Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
-      Alterações degenerativas da coluna torácica.
-      Traquéia e brônquios fontes com diâmetros normais.
-      Aorta de topografia e calibre normais.
-      Área cardíaca normal, sem sinais de derrame pericárdico.
-      Ausência de derrame pleural.
-      
-      Impressão diagnóstica:
-      Achados tomográficos não relacionados a pneumonia viral (CO-RADS 1).
-       Demais achados pormenorizados no corpo do laudo.
-      Obs.: a tomografia de tórax pode não apresentar alterações, principalmente nas primeiras 48h após início dos sintomas de infecção viral. Correlacionar com dados clínicos e laboratoriais para considerar realização de novo estudo evolutivo.
-
-  - trigger: "covid"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      
-      Artefatos de movimentação prejudicando a avaliação de algumas estruturas.
-      
-      Contexto clínico:
-      Suspeita de pneumonia viral (Covid-19).
-      
-      Análise:
-      Opacidades consolidativas e com atenuação em "vidro fosco" associadas a espessamento septal, predominantemente periféricas. Associam-se bronquiectasias.
-      Diminutos nódulos pulmonares bilaterais, menores que 0,5 cm, alguns sem calcificações evidentes (incaracterísticos), outros difusamente calcificados (residuais).
-      Traquéia e brônquios fontes com diâmetros normais.
-      Aumento do calibre dos ramos principais da artéria pulmonar.
-      Ateromatose aortocoronariana.
-      Aorta de topografia e calibre normais.
-      Aumento do número de linfonodos mediastinais.
-      Mediastino centrado, sem evidências de linfonodomegalias ou massas centrais.
-      Área cardíaca com dimensões normais, sem sinais de derrame pericárdico.
-      Mínimo espessamento/derrame pleural bilateral.
-      Espondilose torácica.
-      Sinais de esteatose hepática.
-      
-      Comparação:
-      Exames anteriores não disponíveis.
-      
-      Impressão diagnóstica:
-      Alterações pulmonares bilaterais de aspecto inflamatório agudo, acometendo de forma grave mais de 50 % do parênquima pulmonar. Considerar a possibilidade de pneumonia viral. CO-RADS 5.
-      Demais achados pormenorizados no corpo do laudo.
-
-  - trigger: "covid1"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      
-      Artefatos de movimentação prejudicando a avaliação de algumas estruturas.
-      
-      Contexto clínico:
-      Suspeita de pneumonia viral (Covid-19).
-      
-      Análise:
-      Opacidades consolidativas e com atenuação em "vidro fosco" associadas a espessamento septal, esparsas pelos campos pulmonares. Associam-se bronquiectasias.
-      Nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
-      Traquéia e brônquios fontes com diâmetros normais.
-      Aumento do calibre dos ramos principais da artéria pulmonar.
-      Ateromatose aortocoronariana.
-      Aorta e artéria pulmonar de topografia e calibre normais.
-      Aumento do número de linfonodos mediastinais.
-      Mediastino centrado, sem evidências de linfonodomegalias ou massas centrais.
-      Área cardíaca com dimensões normais, com mínimo derrame pericárdico.
-      Pequeno derrame/espessamento pleural bilateral associado a atelectasia/consolidação do parênquima pulmonar adjacente.
-      Espondilose torácica incipiente.
-      
-      Comparação:
-      Exames anteriores não disponíveis.
-      
-      Impressão diagnóstica:
-      Alterações pulmonares bilaterais de aspecto inflamatório agudo, acometendo de forma grave mais de 50 % do parênquima pulmonar. Considerar a possibilidade de pneumonia viral. CO-RADS 5.
-      Demais achados pormenorizados no corpo do laudo.
-
-  - trigger: "covid19"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      
-      Contexto clínico:
-      Suspeita de pneumonia viral (Covid-19).
-      
-      Análise:
-      Opacidades em "vidro fosco" e focos de consolidação esparsas em ambos os pulmões, com predomínio nas regiões periféricas dos lobos inferiores.
-      Espessamento das paredes brônquicas, inferindo broncopatia.
-      Traquéia e brônquios fontes com diâmetros normais.
-      Aorta e artérias pulmonares de topografia e calibres normais.
-      Ateromatose aortocoronariana.
-      Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
-      Mediastino centrado, sem massas centrais.
-      Área cardíaca normal, sem sinais de derrame pericárdico.
-      Mínimo espessamento/ derrame pleural à direita.
-      Espondilose torácica.
-      
-      
-      Comparação:
-      Exames anteriores não disponíveis.
-      
-      Impressão diagnóstica:
-      Alterações pulmonares bilaterais de aspecto inflamatório agudo, acometendo de forma moderado de 25 a 50 % do parênquima pulmonar. Considerar a possibilidade de pneumonia viral.
-      Demais achados pormenorizados no corpo do laudo.
-      
-      
-      Nota:
-      Fígado com forma, contornos e volume usuais apresentando redução difusa do coeficiente de atenuação de seu parênquima, inferindo esteatose.
-
-  - trigger: "covid19."
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      
-      Contexto clínico:
-      Suspeita de pneumonia viral (Covid-19).
-      
-      Análise:
-      Opacidades consolidativas e com atenuação em "vidro fosco" associadas a espessamento septal, predominantemente periféricas. Associam-se bronquiectasias.
-      Diminutos nódulos pulmonares bilaterais, menores que 0,5 cm, alguns sem calcificações evidentes (incaracterísticos), outros difusamente calcificados (residuais).
-      Traquéia e brônquios fontes com diâmetros normais.
-      Aumento do calibre dos ramos principais da artéria pulmonar.
-      Ateromatose aortocoronariana.
-      Aorta de topografia e calibre normais.
-      Aumento do número de linfonodos mediastinais.
-      Mediastino centrado, sem evidências de linfonodomegalias ou massas centrais.
-      Área cardíaca normal, sem sinais de derrame pericárdico.
-      Mínimo espessamento/derrame pleural bilateral.
-      Espondilose torácica.
-      Sinais de esteatose hepática.
-      
-      Comparação:
-      Exames anteriores não disponíveis.
-      
-      Impressão diagnóstica:
-      Alterações pulmonares bilaterais de aspecto inflamatório agudo, acometendo de forma moderada de 25 à 50 % do parênquima pulmonar. Considerar a possibilidade de pneumonia viral. CORADS 5.
-      * Demais achados pormenorizados no corpo do laudo.
-
-  - trigger: "covidcomp"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      
-      Contexto clínico:
-      
-      Controle de pneumonia viral (Covid-19).
-      
-      A análise comparativa com exame realizado em 27/07/2020 evidencia as seguintes alterações:
-      
-      Aumento das opacidades em "vidro fosco" e focos de consolidação difusamente em ambos os pulmões,  de aspecto inflamatório agudo, acometendo agora de forma moderado de 25 à 50 % do parênquima pulmonar. PCR positivo para pneumonia viral (CORADS 6).
-      
-      Mínimo espessamento/ derrame pleural bilateral.
-      
-      Permanecendo:
-      
-      Espessamento das paredes brônquicas, inferindo broncopatia.
-      
-      Raros diminutos nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
-      
-      Traquéia e brônquios fontes com diâmetros normais.
-      
-      Aorta e artérias pulmonares de topografia e calibres normais.
-      
-      Ateromatose aortocoronariana.
-      
-      Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
-      
-      Mediastino centrado, sem evidências de linfonodomegalias ou massas centrais.
-      
-      Área cardíaca normal, sem sinais de derrame pericárdico.
-      
-      Leve espondilose torácica.
-
-  - trigger: "covidnl"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      Contexto clínico:
-      Suspeita de pneumonia viral (Covid-19).
-      Análise:
-      Nódulos pulmonares bilaterais, menores que 0,5 cm, alguns sem calcificações evidentes (incaracterísticos), outros difusamente calcificados (residuais).
-      Não foram caracterizados sinais de processos infecciosos pulmonares.
-      Traquéia e brônquios fontes com diâmetros normais.
-      Aorta e artérias pulmonares de topografia e calibres normais.
-      Mediastino centrado, sem evidências de linfonodomegalias ou massas centrais.
-      Área cardíaca normal, sem sinais de derrame pericárdico.
-      Ausência de derrame pleural.
-      Espondilose torácica.
-      
-      Impressão diagnóstica:
-      Achados tomográficos não relacionados a pneumonia viral (CO-RADS 1).
-      Demais achados pormenorizados no corpo do laudo.
-      
-      Obs.: a tomografia de tórax pode não apresentar alterações, principalmente nas primeiras 48 horas após início dos sintomas de infecção viral. Correlacionar com dados clínicos e laboratoriais para considerar realização de novo estudo evolutivo.
-
-  - trigger: "covidnormal"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
-      
-      Contexto clínico:
-      Suspeita de pneumonia viral (Covid-19).
-      
-      Análise:
-      Raros nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
-      Não foram caracterizados sinais de processos infecciosos pulmonares.
-      Traquéia e brônquios fontes com diâmetros normais.
-      Aorta e artérias pulmonares de topografia e calibres normais.
-      Mediastino centrado, sem evidências de linfonodomegalias ou massas centrais.
-      Área cardíaca normal, sem sinais de derrame pericárdico.
-      Ausência de derrame pleural.
-      Transição toracoabdominal sem alterações significativas.
-      Espondilose torácica.
-      
-      Impressão diagnóstica:
-      Achados tomográficos não relacionados a pneumonia viral (CO-RADS 1).
-      Demais achados pormenorizados no corpo do laudo.
-      
-      Obs.: a tomografia de tórax pode não apresentar alterações, principalmente nas primeiras 48 horas após início dos sintomas de infecção viral. Correlacionar com dados clínicos e laboratoriais para considerar realização de novo estudo evolutivo.
-
   - trigger: "cpb"
     word: true
     replace: Calcificações na pelve bilateralmente.
@@ -2171,28 +1669,6 @@ matches:
     word: true
     replace: Cateter pielovesical à esquerda.
 
-  - trigger: "craniomacampa"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      Análise:
-      Sulcos e cisternas encefálicas normais.
-      Parênquima cerebral com morfologia e coeficientes de atenuação normais.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Sistema ventricular com morfologia e dimensões normais.
-      Estruturas da linha mediana sem desvios significativos.
-      Ausência de calcificações patológicas.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-      Material com atenuação de partes moles em seios paranasais.
-      
-      Opinião:
-      Estudo tomográfico do crânio dentro dos limites da normalidade.
-      Material com atenuação de partes moles em seios paranasais.
-
   - trigger: "craniost"
     word: true
     replace: "Craniostomia parietal direita, através da qual foi introduzido cateter de derivação com extremidade no lobo frontal esquerdo. Associa-se área de encefalomalácia / gliose adjacente ao trajeto do catéter pelo lobo parietal direito."
@@ -2224,14 +1700,6 @@ matches:
   - trigger: "currarinoa"
     word: true
     replace: Ausência de fusão do arco posterior de C1 (Currarino A).
-
-  - trigger: "cus"
-    word: true
-    replace: "Obs: - Conveniente complementação com ultrassonografia."
-
-  - trigger: "cusfig10"
-    word: true
-    replace: Sinais de aumento do teor lipídico hepático em grau moderado.
 
   - trigger: "cvs"
     word: true
@@ -2285,10 +1753,6 @@ matches:
     word: true
     replace: Material de inclusão dentário no osso alveolar da maxila anterior esquerda.
 
-  - trigger: "depo"
-    word: true
-    replace: ", com depósitos de hemossiderina no interior."
-
   - trigger: "descart"
     word: true
     replace: não se podendo descartar processo inflamatório/infeccioso sobreposto.
@@ -2301,21 +1765,13 @@ matches:
     word: true
     replace: Discreto desvio escoliótico para a esquerda.
 
-  - trigger: "desi"
-    word: true
-    replace: "Desidratação dos discos intervertebrais L1-L2, L2-L3, L3-L4, L4-L5 e L5-S1, exibindo baixo sinal na ponderação T2."
-
-  - trigger: "desi1"
-    word: true
-    replace: "Desidratação do disco intervertebral L4-L5, exibindo baixo sinal na ponderação T2."
-
   - trigger: "desmu"
     word: true
     replace: Discreto espessamento mucoso dos seios
 
   - trigger: "dgi"
     word: true
-    replace: Degenerativo gasoso intradiscal em
+    replace: Degenerativo gasoso intradiscal em _.
 
   - trigger: "dgis"
     word: true
@@ -2335,7 +1791,7 @@ matches:
 
   - trigger: "dilatafu"
     word: true
-    replace: "Dilatação fusiforme focal da aorta abdominal infrarrenal, com calibre de 3,0 x 2,5 cm."
+    replace: "Dilatação fusiforme focal da aorta abdominal infrarrenal, com calibre de _ x _ cm."
 
   - trigger: "diplo"
     word: true
@@ -2392,7 +1848,7 @@ matches:
 
   - trigger: "diver"
     word: true
-    replace: Divertículos cólicos sem sinais inflamatórios.
+    replace: Divertículos cólicos, sem sinais inflamatórios.
 
   - trigger: "diver1"
     word: true
@@ -2468,47 +1924,7 @@ matches:
   - trigger: "domei"
     word: true
     replace: "Após a administração do meio de contraste endovenoso,"
-
-  - trigger: "doplersalvo"
-    word: true
-    replace: |
-      ULTRASSOM DOPPLER COLORIDO VENOSO DOS MEMBROS INFERIORES (SUPERFICIAL E PROFUNDO)
-      
-      
-      1) Sistema venoso profundo
-      Veias femorais comuns, femorais e femorais profundas, veias poplíteas, tibiais anteriores e tibiais posteriores, apresentam-se pérvias, com calibres preservados e fluxos fásicos durante os movimentos respiratórios, sem sinais de refluxos significativos durante as manobras de Valsalva e compressão muscular.
-      Não há sinais de trombose dos segmentos venosos analisados.
-      
-      2) Sistema venoso superficial direito
-      Junção safeno-femoral competente.
-      Veia safena magna pérvia, compressível, apresentando calibre preservado até o nível da prega poplítea onde se torna hipoplásica, sem sinais de refluxos significativos durante a realização das manobras de Valsalva e compressão muscular na porção avaliada.
-      Veia safena parva pérvia, compressível, apresentando calibre preservado, sem sinais de refluxos significativos durante a realização das manobras de Valsalva e compressão muscular.
-      Veia  safena parva apresentando extensão cranial, sem croça definida, drenando para veias nos planos musculares posteriores da coxa.
-      Não foram caracterizadas veias perfurantes incompetentes.
-      Não há sinais de trombose dos segmentos venosos analisados.
-      
-      Veia safena magna
-      Croça - 0,37 cm
-      Coxa - 0,38 cm
-      
-      Veia safena parva
-      Perna - 0,22 cm
-      
-      3) Sistema venoso superficial esquerdo
-      Junção safeno-femoral competente.
-      Veia safena magna pérvia, compressível, apresentando calibre preservado até cerca de 15,0 cm acima da prega poplítea onde se torna hipoplásica, sem sinais de refluxos significativos durante a realização das manobras de Valsalva e compressão muscular na porção avaliada.
-      Veia safena parva pérvia, compressível, apresentando calibre preservado, sem sinais de refluxos significativos durante a realização das manobras de Valsalva e compressão muscular.
-      Não foram caracterizadas veias perfurantes incompetentes.
-      Não há sinais de trombose dos segmentos venosos analisados.
-      
-      Veia safena magna
-      Croça - 0,63 cm
-      Coxa - 0,36 cm
-      
-      Veia safena parva
-      Croça - 0,45 cm
-      Perna - 0,16 cm
-
+		
   - trigger: "dorsi"
     word: true
     replace: "Massas com densidade de partes moles e limites mal definidos, localizadas nas regiões subescapulares bilateralmente, sugerindo elastofibroma dorsi."
@@ -2528,10 +1944,6 @@ matches:
   - trigger: "dpocfibro"
     word: true
     replace: "Enfisema centrolobular e parasseptal notadamente nos campos pulmonares superiores. Associam-se opacidades consolidativas e com atenuação em vidro fosco esparsas pelos campos pulmonares, com espessamento de septo interlobulares e bronquiectasias. Tais achados podem representar doença pulmonar obstrutiva crônica complicada com processo inflamatório/infeccioso, não sendo possível afastar de forma inequívoca certo grau de intersticiopatia."
-
-  - trigger: "draf"
-    word: true
-    replace: Laudado por Dra Fernanda Momente CRMSP 200014
 
   - trigger: "drenoto"
     word: true
@@ -2568,40 +1980,11 @@ matches:
   - trigger: "duvidosoespessamento"
     word: true
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR E INFERIOR C/C
-      
-      Técnica:
-      Cortes tomográficos axiais do abdome, antes e após a injeção do meio de contraste endovenoso.
-      
-      Descrição:
-      Fígado com forma, contornos e volume usuais apresentando acentuada redução difusa do coeficiente de atenuação de seu parênquima, representando esteatose.
-      Não há sinais de dilatação das vias biliares intra e extra-hepáticas.
-      Colecistectomia.
-      Adrenais, baço e pâncreas sem particularidades.
-      Rins tópicos, com morfologia, dimensões e espessura do parênquima normais.
-      Não há sinais de dilatação dos sistemas coletores ou imagens sugestivas de cálculos.
-      Ateromatose de vasos intra-abdominais.
-      Aorta e veia cava inferior pérvias, com calibre e contornos normais.
-      Ausência de linfonodomegalias.
-      Ausência de líquido livre na cavidade peritoneal.
-      Apêndice cecal visualizado, sem sinais inflamatórios.
-      Duvidoso espessamento parietal circunferencial não estenosante do colon descendente distal e transição descendente-sigmoide, podendo estar relacionado à processo neoplásico ou segmento espástico.
-      Espessamento submucoso do colon ascendente, com lipossubstituição, podendo estar relacionado à processo inflamatório crônico.
-      Raros divertículos colônicos sem sinais inflamatórios.
-      Bexiga com repleção parcial e conteúdo homogêneo.
-      Espondilose lombar.
-      Lise bilateral dos istmos de L5.
-      
-      Impressão:
-      Esteatose hepática difusa acentuada.
-      Duvidoso espessamento parietal circunferencial não estenosante do colon descendente distal e transição descendente-sigmoide, podendo estar relacionado à processo neoplásico ou segmento espástico. À critério clínico, correlacionar com colonoscopia.
-      Espessamento submucoso do colon ascendente, com lipossubstituição, podendo estar relacionado à processo inflamatório crônico.
-      Raros divertículos colônicos sem sinais inflamatórios.
-      *Demais achados pormenorizados no corpo do laudo.
+			Duvidoso espessamento parietal circunferencial não estenosante do colon descendente distal e transição descendente-sigmoide, podendo estar relacionado à processo neoplásico ou segmento espástico.
 
   - trigger: "eaa"
     word: true
-    replace: "Ectasia da aorta ascendente (4,3 cm)."
+    replace: "Ectasia da aorta ascendente (_ cm)."
 
   - trigger: "eagle1"
     word: true
@@ -2661,7 +2044,7 @@ matches:
 
   - trigger: "eglan"
     word: true
-    replace: "Espessamento difuso da glândula adrenal , inespecífico."
+    replace: "Espessamento difuso da glândula adrenal _, inespecífico."
 
   - trigger: "eglan1"
     word: true
@@ -2713,43 +2096,11 @@ matches:
 
   - trigger: "encefalopatiahipoxico"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      Análise:
-      Hipodensidade difusa do córtex cerebral e cerebelar, bem como dos núcleos da base de forma relativamente simétrica, com apagamento dos sulcos corticais e cisternas basais.
-      Tronco cerebral de aspecto conservado.
-      Sistema ventricular com morfologia e dimensões normais.
-      Estruturas da linha mediana sem desvios significativos.
-      Ausência de calcificações patológicas.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-      
-      Opinião:
-      Hipodensidade difusa do córtex cerebral e cerebelar, bem como dos núcleos da base de forma relativamente simétrica, com apagamento dos sulcos corticais e cisternas basais. A possibilidade de encefalopatia hipóxico-isquêmica pode ser considerada, diante do contexto clínico.
+    replace: Hipodensidade difusa do córtex cerebral e cerebelar, bem como dos núcleos da base de forma relativamente simétrica, com apagamento dos sulcos corticais e cisternas basais. A possibilidade de encefalopatia hipóxico-isquêmica pode ser considerada, diante do contexto clínico.
 
   - trigger: "endif"
     word: true
     replace: Entesopatia difusa.
-
-  - trigger: "endobo"
-    word: true
-    replace: |
-      RADIOGRAFIA DO JOELHO DIREITO
-      
-      Endobutton  e túneis ósseos no fêmur e na tíbia, achados habituais após reconstrução ligamentar. Correlacionar com dados clínicos.
-      
-      Aumento volumétrico de partes moles do joelho, com coleções intra-articulares.
-      
-      Textura e morfologia óssea preservada.
-      
-      Espaços articulares preservados.
-      
-      Patela centrada.
-      
-      Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "endobron"
     word: true
@@ -2916,36 +2267,6 @@ matches:
     word: true
     replace: Discreto espessamento/derrame pleural bilateral.
 
-  - trigger: "espectroscopianl"
-    word: true
-    replace: |
-      ESPECTROSCOPIA DE PRÓTONS POR RESSONÂNCIA MAGNÉTICA
-      
-      
-      TÉCNICA:
-      
-      Realizada espectroscopia de prótons do encéfalo com técnica PRESS (univoxel) e TE curto (30 ms) e longo (135 ms).
-      ANÁLISE:
-      Foram identificados os seguintes metabólitos na curva espectral:
-      - NAA (N-acetil-aspartato): marcador de densidade e viabilidade neuronal
-      - Cr (Creatina): envolvido na produção de ATP, reserva energética
-      - Cho (Colina): marcador de quebra de membranas e proliferação celular
-      - Ins (mioinositol): marcador de gliose e osmolaridade celular.
-      
-      DESCRIÇÃO:
-      
-      O estudo espectroscópico mostrou valores normais para os seguintes metabólitos:
-      
-      - NAA: 2,03/2,01
-      
-      - Cho: 3,24/3,22
-      
-      - Ins: 3,58/3,54
-      
-       OPINIÃO:
-      
-      Espectroscopia de prótons por ressonância magnática do encéfalo com a curva metabólica acima relacionada dentro dos parâmetros da normalidade.
-
   - trigger: "esplo"
     word: true
     replace: Espondilose lombar.
@@ -3001,40 +2322,9 @@ matches:
       Afilamento abrupto da junção ureteropélvica/ureter proximal à direita, acompanhado de acentuada hidronefrose com adelgaçamento significativo do córtex renal. A possibilidade de estenose de junção ureteropélvica pode ser considerada dentre os diagnósticos diferenciais.
       Não se observou contrastação do sistema coletor renal direito durante o estudo.
 
-  - trigger: "esternogancho"
-    word: true
-    replace: |
-      ULTRASSOM TORÁCICO EXTRACARDÍACO
-      
-      
-      A ultrassonografia foi realizada com transdutor linear multifrequencial, com ênfase do estudo para a região do esterno.
-      Processo xifoide do esterno apresentando inclinação anterior (variante anatômica).
-      Demais porções do esterno sem particularidades evidentes ao método.
-      Planos musculares regionais com morfologia e ecogenicidade preservadas.
-      Tecido subcutâneo com ecogenicidade habitual.
-      
-      Opinião:
-      Processo xifoide do esterno apresentando inclinação anterior (variante anatômica).
-
   - trigger: "estp"
     word: true
     replace: "Estrias pleuroapicais bilaterais, residuais."
-
-  - trigger: "estrei"
-    word: true
-    replace: |
-      ANGIORRESSONÂNCIA MAGNÉTICA ARTERIAL CEREBRAL S/C
-      
-      Técnica:
-      Exame realizado pela técnica "3D-TOF" com sequências sensíveis a fluxo e reconstrução tridimensional segundo intensidade máxima.
-      
-      Análise:
-      Estreitamentos e irregularidades parietais nos segmentos cavernosos da artérias carótidas internas.
-      Demais segmentos intracranianos das artérias carótidas internas, artérias cerebrais anteriores, artérias cerebrais médias, segmentos intracranianos das artérias vertebrais, artéria basilar e artérias cerebrais posteriores de trajeto, calibre e fluxo preservados.
-      Não há evidência de dilatação aneurismática ou estenose significativa.
-      
-      Opinião:
-      Estreitamentos e irregularidades parietais nos segmentos cavernosos da artérias carótidas internas.
 
   - trigger: "estrias"
     word: true
@@ -3095,59 +2385,6 @@ matches:
   - trigger: "extrux"
     word: true
     replace: "tecido discal extruso e migrado caudalmente cerca de 0,6 cm no canal vertebral, localizado no espaço epidural anterior, à esquerda da linha média, na altura do corpo de L1, comprimindo a face anterior do saco dural e a raiz nervosa de T12."
-
-  - trigger: "f1"
-    word: true
-    replace: "Pequenos focos de alto sinal em T2/FLAIR isolados na substância branca periventricular e subcortical bilateral, sem restrição à difusão, inespecíficos do ponto de vista de imagem, comumente associados a microangiopatia/gliose."
-
-  - trigger: "f11"
-    word: true
-    replace: |
-      Pequeno foco de alto sinal em T2/FLAIR isolado na substância branca do giro frontal médio esquerdo, sem restrição à difusão, inespecífico do ponto de vista de imagem, comumente associado a microangiopatia/gliose.
-      Restante do parênquima encefálico de morfologia e características de sinal conservadas.
-
-  - trigger: "f111"
-    word: true
-    replace: |
-      Pequenos focos de alto sinal em T2/FLAIR isolados na substância branca periventricular e subcortical bilateral, sem restrição à difusão, inespecíficos do ponto de vista de imagem, comumente associados a microangiopatia/gliose.
-      Restante do parênquima encefálico de morfologia e características de sinal conservadas.
-
-  - trigger: "faze1"
-    word: true
-    replace: "Focos de hipersinal na substância branca profunda e periventricular visualizadas nas sequências T2 e FLAIR, que não apresentam restrição à difusão, inespecíficos, mas provavelmente relacionados à microangiopatia ou gliose (Fazekas 1)."
-
-  - trigger: "fazekas"
-    word: true
-    replace: |
-      RESSONÂNCIA MAGNÉTICA DO CRÂNIO C/C
-      
-      Técnica:
-      
-       Exame de ressonância magnética de crânio realizado pela técnica de spin-eco pesada em T1, antes e após a administração do meio de contaste endovenoso, técnica de turbo spin-eco pesada em T2, técnica de FLAIR, técnica de gradiente eco pesada (SWI) e técnica de difusão; com aquisição multiplanar.
-      
-      
-      Análise:
-      
-      Pequenas imagens de alto sinal em T2 e FLAIR isoladas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, inespecíficas do ponto de vista de imagem, mas comumente associadas a microangiopatia/gliose nessa faixa etária.
-      Restante do parênquima encefálico de morfologia e características de sinal conservadas.
-      
-      Sistema ventricular de aspecto, dimensões e sinal normais.
-      
-      Cisternas basais, fissuras encefálicas e sulcos corticais de aspecto normal.
-      
-      Linha media centrada.
-      
-      Ausência de áreas com restrição à difusão.
-      
-      Ausência de áreas de realce anômalo pelo meio de contraste endovenoso.
-      
-      
-      Opinião:
-      Pequenas imagens de alto sinal em T2 e FLAIR isoladas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, inespecíficas do ponto de vista de imagem, mas comumente associadas a microangiopatia/gliose nessa faixa etária.
-
-  - trigger: "fazekas1"
-    word: true
-    replace: "Pequenas imagens de alto sinal em T2 e FLAIR isoladas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, inespecíficas do ponto de vista de imagem, mas comumente associadas a microangiopatia/gliose nessa faixa etária."
 
   - trigger: "fecaloma"
     word: true
@@ -3274,18 +2511,6 @@ matches:
     word: true
     replace: "Contrastação dos ureteres pelo meio de contraste endovenoso, permitindo a definição de cálculo no ureter distal direito, medindo 0,9 cm, com densidade de 787,0 UH, distando 7,3 cm da junção ureterovesical."
 
-  - trigger: "foc"
-    word: true
-    replace: Diminuto foco ecogênico no  terço inferior do rim com
-
-  - trigger: "foco1"
-    word: true
-    replace: "Foco hiperrefringente em cálice médio do rim direito, medindo 0,3 cm, que pode representar microcálculo ou interface vascular."
-
-  - trigger: "foco2"
-    word: true
-    replace: "Foco hiperrrefringente em cálice superior do rim direito, medindo 0,4 cm, sugerindo representar microcálculo ou interface vascular. Não há hidronefrose."
-
   - trigger: "fogg"
     word: true
     replace: "Relativo aumento da densidade das lesões nos lobos frontal e parietal esquerdos, com atenuação do edema, indicando a fase subaguda da área de isquemia (fenômeno fogging)."
@@ -3370,10 +2595,6 @@ matches:
     word: true
     replace: "Nota: a radiografia simples possui baixa sensibilidade na detecção de fraturas dos ossos da face. Na persistência de suspeita clínica, recomenda-se complementação diagnóstica com tomografia computadorizada."
 
-  - trigger: "frafin"
-    word: true
-    replace: "Imagem linear radiotransparente na extremidade distal da falange proximal do 1° dedo. Fratura?"
-
   - trigger: "frafra"
     word: true
     replace: Irregularidade cortical sugerindo fratura
@@ -3381,10 +2602,6 @@ matches:
   - trigger: "frafru"
     word: true
     replace: Irregularidade cortical
-
-  - trigger: "frafru1"
-    word: true
-    replace: "Irregularidade cortical na base da falange distal do terceiro dedo. Fratura?"
 
   - trigger: "frafrucox"
     word: true
@@ -3441,96 +2658,6 @@ matches:
       Discreto alargamento das articulações sacroilíacas.
       Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
       Derrame articular no quadril direito.
-
-  - trigger: "fraturacalcaneo"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO TORNOZELO DIREITO S/C
-      
-      Técnica:
-      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
-      
-      Análise:
-      Fratura cominutiva do calcâneo com extensão intra-articular.
-      Derrame articular talocalcâneo e calcaneocuboide.
-      Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma.
-      Tendões e ligamentos de avaliação limitada nesse estudo.
-      Entesófito posterior no calcâneo.
-      
-      Conclusão:
-      Fratura cominutiva do calcâneo com extensão intra-articular.
-      Derrame articular talocalcâneo e calcaneocuboide.
-      Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma.
-      Entesófito posterior no calcâneo
-
-  - trigger: "fraturacolofemur"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
-      
-      
-      Técnica:
-      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
-      
-      Análise:
-      Rarefação óssea difusa.
-      Fratura não desalinhada do colo do fêmur esquerdo, subcapital.
-      Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma.
-      Osteofitose marginal lateral nos tetos dos acetábulos, com cistos subcorticais.
-      Alterações degenerativas sacroilíacas e da sínfise púbica.
-      Entesopatia difusa.
-      Derrame articular no quadril esquerdo.
-      Tendões e ligamentos de avaliação limitada nesse estudo.
-      
-      Conclusão:
-      Rarefação óssea difusa.
-      Fratura não desalinhada do colo do fêmur esquerdo, subcapital.
-      Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma.
-      Osteofitose marginal lateral nos tetos dos acetábulos, com cistos subcorticais.
-      Alterações degenerativas sacroilíacas e da sínfise púbica.
-      Entesopatia difusa.
-      Derrame articular no quadril esquerdo.
-
-  - trigger: "fraturacolofemur1"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
-      
-      Técnica:
-      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
-      
-      Análise:
-      Fratura do colo do fêmur direito.
-      Alterações degenerativas sacroilíacas.
-      Cistos subcorticais, de aspecto degenerativo, nas margens acetabulares.
-      Entesopatia difusa.
-      Espondilose lombar.
-      Pequeno derrame articular, no quadril direito.
-      Tendões e ligamentos de avaliação limitada nesse estudo.
-      Divertículos colônicos sem sinais inflamatórios.
-      
-      Conclusão:
-      Fratura do colo do fêmur direito.
-      Demais achados pormenorizados no corpo do laudo.
-
-  - trigger: "fraturacotovelo"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO COTOVELO ESQUERDO S/C
-      
-      Técnica:
-      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
-      
-      Análise:
-      Fratura cominutiva multifragmentar metaepifisária distal do úmero com impactação/diastase dos fragmentos ósseos.
-      Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma. Associa-se enfisema de partes moles.
-      Derrame articular.
-      Tendões e ligamentos de avaliação limitada nesse estudo.
-      
-      Conclusão:
-      Fratura cominutiva multifragmentar metaepifisária distal do úmero com impactação/diastase dos fragmentos ósseos.
-      Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma. Associa-se enfisema de partes moles.
-      Derrame articular.
 
   - trigger: "fraturalivroaberto"
     word: true
