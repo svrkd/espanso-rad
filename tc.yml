@@ -1329,9 +1329,9 @@ matches:
   - trigger: "cirrosecomhcc"
     word: true
     replace: |
-       Fígado com dimensões reduzidas à custa do lobo direito, apresentando contornos serrilhados, bordas rombas, fissuras acentuadas e densidade do parênquima finamente heterogênea. Nota-se lesão expansiva, de limites parcialmente definidos, medindo cerca de _ x _ cm, localizada no segmento _, apresentando realce heterogêneo pelo meio de contraste endovenoso.
+      Fígado com dimensões reduzidas à custa do lobo direito, apresentando contornos serrilhados, bordas rombas, fissuras acentuadas e densidade do parênquima finamente heterogênea. Nota-se lesão expansiva, de limites parcialmente definidos, medindo cerca de _ x _ cm, localizada no segmento _, apresentando realce heterogêneo pelo meio de contraste endovenoso.
       Aumento do calibre do sistema venoso esplenoportomesentérico com circulação colateral porto-sistêmica (fundo gástrico, esôfago distal,  hilo esplênico e perirretais, bem como recanalização das paraumbilicais) e esplenomegalia homogênea (volume de _ cm³), sinais indiretos de hipertensão portal.
-			
+
       Impressão:
       Hepatopatia parenquimatosa crônica (aspecto cirrótico), com sinais indiretos de hipertensão portal, acima descritos.
       Lesão expansiva hepática. A possibilidade de neoplasia primária pode ser considerada dentre os diagnósticos diferenciais, especialmente diante de um contexto de marcadores tumorais elevados.
@@ -1924,7 +1924,7 @@ matches:
   - trigger: "domei"
     word: true
     replace: "Após a administração do meio de contraste endovenoso,"
-		
+
   - trigger: "dorsi"
     word: true
     replace: "Massas com densidade de partes moles e limites mal definidos, localizadas nas regiões subescapulares bilateralmente, sugerindo elastofibroma dorsi."
@@ -1979,8 +1979,7 @@ matches:
 
   - trigger: "duvidosoespessamento"
     word: true
-    replace: |
-			Duvidoso espessamento parietal circunferencial não estenosante do colon descendente distal e transição descendente-sigmoide, podendo estar relacionado à processo neoplásico ou segmento espástico.
+    replace: Duvidoso espessamento parietal circunferencial não estenosante do colon descendente distal e transição descendente-sigmoide, podendo estar relacionado à processo neoplásico ou segmento espástico.
 
   - trigger: "eaa"
     word: true
@@ -3103,11 +3102,7 @@ matches:
     word: true
     replace: "Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia/gliose."
 
-  - trigger: "hipocamp"
-    word: true
-    replace: "Hipocampos simétricos, com morfologia e sinal preservados."
-
-   - trigger: "hipofi"
+  - trigger: "hipofi"
     word: true
     replace: "Imagens hipodensas no parênquima hepático, inespecíficas no protocolo empregado."
 
@@ -3909,8 +3904,8 @@ matches:
   - trigger: "metacerebral"
     word: true
     replace: |
-	  Lesão expansiva de contornos irregulares, medindo 4,2 cm, localizada no lobo frontal direito, onde promove efeito de massa com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média. A possibilidade de metástase pode ser considerada dentre os diagnósticos diferenciais, diante do contexto clínico.
-	  Hipodensidade do parênquima encefálico adjacente à lesão acima descrita sugerindo representar edema e/ou infiltração tumoral.
+      Lesão expansiva de contornos irregulares, medindo 4,2 cm, localizada no lobo frontal direito, onde promove efeito de massa com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média. A possibilidade de metástase pode ser considerada dentre os diagnósticos diferenciais, diante do contexto clínico.
+      Hipodensidade do parênquima encefálico adjacente à lesão acima descrita sugerindo representar edema e/ou infiltração tumoral.
     
   - trigger: "metacerebral1"
     word: true
@@ -4116,7 +4111,7 @@ matches:
   - trigger: "mosai"
     word: true
     replace: "Atenuação em mosaico difusa do parênquima pulmonar, compatível com alteração da relação ventilação-perfusão. Neste contexto, tal aspecto deve ser decorrente de áreas de aprisionamento aéreo, denotando alterações de pequenas vias aéreas."
-	
+
   - trigger: "mucoviscidose"
     word: true
     replace: "Bronquiectasias cilíndricas difusas com espessamento de paredes brônquicas. Associam-se nódulos centrolobulares, por vezes assumindo aspecto em \"árvore em brotamento\", bem como pequenas opacidades consolidativas, esparsos pelos campos pulmonares. A possibilidade de processo inflamatório/infeccioso com disseminação endobrônquica e provável etiologia bacteriana pode ser considerada. Esclarecemos por oportuno que tais achados podem estar relacionados a fibrose cística. Os diagnósticos diferenciais devem ser aplicados."
@@ -4580,8 +4575,8 @@ matches:
 
   - trigger: "omcce"
     word: true
-    replace: Sinais de mastoidopatia crônica à esquerda
-	
+    replace: Sinais de mastoidopatia crônica à esquerda.
+
   - trigger: "omcv1"
     word: true
     replace: Osteofitose marginal incipiente em corpos vertebrais.
