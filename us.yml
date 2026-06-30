@@ -1055,7 +1055,7 @@ matches:
     word: true
 
   - trigger: "eh1c"
-    replace: Sinais ecográficos sugestivos de esteatose hepática leve (grau I).
+    replace: Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I).
     word: true
 
   - trigger: "eh1"
@@ -1067,7 +1067,7 @@ matches:
     word: true
 
   - trigger: "eh2c"
-    replace: Sinais ecográficos sugestivos de esteatose hepática moderada (grau II).
+    replace: Sinais ecográficos sugestivos de hepatopatia de depósito moderada (grau II).
     word: true
 
   - trigger: "eh3"
@@ -1075,11 +1075,11 @@ matches:
     word: true
 
   - trigger: "eh3c"
-    replace: Sinais ecográficos sugestivos de esteatose hepática acentuada (grau III).
+    replace: Sinais ecográficos sugestivos de hepatopatia de depósito acentuada (grau III).
     word: true
 
   - trigger: "fh1"
-    replace: Nota-se imagem cística no segmento x, de paredes finas e regulares, conteúdo anecoico, apresentando reforço acústico posterior, que mede x cm.
+    replace: Nota-se imagem cística no segmento _, de paredes finas e regulares, conteúdo anecoico, apresentando reforço acústico posterior, que mede _ cm.
     word: true
 
   - trigger: "fh1c"
