@@ -687,21 +687,6 @@ matches:
       Extensa lesão hemorrágica nucleocapsular e talâmica esquerda, medindo 4,4 x 4,2 x 3,1 cm, com inundação do sistema ventricular supra e infratentorial (hemoventrículo). Associa-se significativo efeito de massa com apagamento dos sulcos corticais e cisternas basais adjacentes, bem como desvio contralateral de 1,1 cm das estruturas da linha média.
       Hipodensidade do parênquima encefálico adjacente à lesão acima descrita sugerindo representar, ao menos em parte, edema vasogênico.
 
-  - trigger: "avci"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      
-      Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
-      
-      Análise:
-      
-      Cânula traqueal.
-      Sonda nasal.
-      Hipoatenuação acometendo a substância branca profunda e corticossubcortical frontoparietal, insular e nucleocapsular  à esquerda, associado à edema de padrão citotóxico, com consequente apagamentos dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. A possibilidade de lesão de natureza vascular isquêmica de início recente no território irrigado pela artéria cerebral média esquerda deve ser considerada.
-
   - trigger: "avcindet"
     word: true
     replace: "Lesão hipodensa no braço anterior da cápsula interna direita, que pode estar relacionada a evento vascular isquêmico, de cronicidade indeterminada nesse estudo. Os diagnósticos diferenciais devem ser aplicados. Caso persista a indicação clínica, recomenda-se estudo direcionado através de imagens de ressonância magnética, se possível."
@@ -6930,7 +6915,7 @@ matches:
 
   - trigger: "tcavc"
     word: true
-    replace: "Lesões hipodensas cortico-subcorticais, localizadas nos lobos frontal e parietal esquerdos, com apagamento dos sulcos corticais regionais. A possibilidade de lesões de natureza vascular isquêmica de início recente em parte do território irrigado pela artéria cerebral média esquerda pode ser considerada."
+    replace: "Lesões hipodensas corticossubcorticais, localizadas _, com apagamento dos sulcos corticais regionais. A possibilidade de lesões de natureza vascular isquêmica de início recente em parte do território irrigado pela artéria cerebral média esquerda pode ser considerada."
 
   - trigger: "tcavic"
     word: true
@@ -7243,7 +7228,7 @@ matches:
 
   - trigger: "tccera"
     word: true
-    replace: "Material com densidade de partes moles, localizado no conduto auditivo externo, sugerindo rolha de cerúmen."
+    replace: "Material com densidade de partes moles, localizado no conduto auditivo externo _, sugerindo rolha de cerúmen."
 
   - trigger: "tccharcot"
     word: true
@@ -7318,38 +7303,8 @@ matches:
   - trigger: "tccolpo"
     word: true
     replace: "Áreas com coeficiente de atenuação semelhante ao líquor localizadas nos lobos parietais e occipitais (encefalomalácia / gliose), com afilamento cortical e alargamento subsequente dos átrios e cornos posteriores dos ventrículos laterais (colpocefalia)."
-
+    
   - trigger: "tcconco"
-    word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-      
-      Técnica:
-      Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
-      Avaliação prejudicada por artefatos de movimentação.
-      
-      Análise:
-      Densificação difusa dos planos gordurosos mesentéricos e subcutâneos além de líquido livre na cavidade abdominal, achados que sugerem sobrecarga hídrica.
-      Cardiomegalia.
-      Ectasia do tronco e dos ramos direito e esquerdo da artéria pulmonar, inferindo certo grau de hipertensão pulmonar.
-      Espessamento liso de septos interlobulares.
-      Moderado derrame pleural bilateralmente associado a atelectasia/consolidação do parênquima pulmonar adjacente.
-      Ectasia da aorta ascendente (4,1 cm).
-      Ateromatose aortocoronariana.
-      Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
-      Alterações degenerativas do arcabouço ósseo torácico.
-      Hérnia gástrica hiatal.
-      
-      Impressão:
-      Densificação difusa dos planos gordurosos mesentéricos e subcutâneos além de líquido livre na cavidade abdominal, achados que sugerem sobrecarga hídrica.
-      Cardiomegalia.
-      Ectasia do tronco e dos ramos direito e esquerdo da artéria pulmonar, inferindo certo grau de hipertensão pulmonar.
-      Espessamento liso de septos interlobulares.
-      Moderado derrame pleural bilateralmente associado a atelectasia/consolidação do parênquima pulmonar adjacente.
-      O conjunto de achados acima descritos pode estar relacionado a congestão pulmonar, não podendo ser afastada a hipótese de processo inflamatório/infeccioso de forma concomitante.
-      Demais achados pormenorizados no corpo do laudo.
-
-  - trigger: "tcconco1"
     word: true
     replace: "Pequeno derrame/espessamento pleural bilateralmente associado a atelectasia/consolidação do parênquima pulmonar adjacente. Associa-se espessamento liso de septos interlobulares. Esse conjunto de achados pode estar relacionado a congestão pulmonar, não podendo ser afastada a hipótese de processo inflamatório/infeccioso de forma concomitante."
 
@@ -7373,7 +7328,6 @@ matches:
     word: true
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DA COXA DIREITA S/C
-      
       
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
@@ -7552,27 +7506,7 @@ matches:
 
   - trigger: "tcfogging"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      A análise comparativa com o exame realizado em 20/08/2023 evidencia:
-      Sonda nasal.
-      Hiperdensidades corticais em parte das lesões hipodensas, corticosubcorticais, localizadas no lobo parietal e na ínsula à esquerda, com apagamento dos sulcos corticais regionais. As possibilidades de lesão de natureza vascular isquêmica com pseudonormalização da densidade do parênquima (fenômeno "fogging") ou áreas de transformação hemorrágica podem ser consideradas. Os diagnósticos diferenciais devem ser aplicados.
-      
-      Permanecendo:
-      Cisternas encefálicas normais.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Sistema ventricular com morfologia e dimensões normais.
-      Estruturas da linha mediana sem desvios significativos.
-      Ausência de calcificações patológicas.
-      Imagem que sugere representar osteoma no seio etmoidal esquerdo, medindo 0,6 cm.
-
-  - trigger: "tcfuturo"
-    word: true
-    replace: futuro
+    replace: Hiperdensidades corticais em parte das lesões hipodensas, corticosubcorticais, localizadas _, com apagamento dos sulcos corticais regionais. As possibilidades de lesão de natureza vascular isquêmica com pseudonormalização da densidade do parênquima (fenômeno "fogging") ou áreas de transformação hemorrágica podem ser consideradas. Os diagnósticos diferenciais devem ser aplicados.
 
   - trigger: "tcgas"
     word: true
@@ -7581,19 +7515,7 @@ matches:
   - trigger: "tcgbm"
     word: true
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO C/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores, antes e após injeção endovenosa do meio de contraste iodado.
-      
-      Análise:
-      Lesão expansiva, de aspecto infiltrativo, limites mal definidos, com provável epicentro no lobo frontal direito, medindo cerca de 4,4 x 4,1 x 4,0 cm, exibindo realce predominantemente periférico e de aspecto anfractuoso pelo meio de contraste endovenoso. Essa lesão determina significativo efeito de massa com compressão ventricular e desvio contralateral das estrututras da linha média de 0,7 cm.
-      Hipodensidade do parênquima encefálico adjacente à lesão acima descrita, estendendo-se ao corpo caloso, com apagamento dos sulcos corticais regionais, sugerindo edema e/ou infiltração tumoral.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Ausência de coleções hemorrágicas intra ou extra axiais.
-      
-      Opinião:
-      Lesão expansiva, de aspecto infiltrativo, com provável epicentro no lobo frontal direito. A possibilidade de neoplasia glial de alto grau pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
+      Lesão expansiva, de aspecto infiltrativo, limites mal definidos, com provável epicentro no _, medindo cerca de _ x _ x _ cm, exibindo realce predominantemente periférico e de aspecto anfractuoso pelo meio de contraste endovenoso. Essa lesão determina significativo efeito de massa com compressão ventricular e desvio contralateral das estrututras da linha média de 0,7 cm. A possibilidade de neoplasia glial de alto grau pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
       Hipodensidade do parênquima encefálico adjacente à lesão acima descrita, estendendo-se ao corpo caloso, com apagamento dos sulcos corticais regionais, sugerindo edema e/ou infiltração tumoral.
 
   - trigger: "tcgeca"
@@ -7606,24 +7528,8 @@ matches:
 
   - trigger: "tcgliose"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      Técnica:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      Análise:
-      Sulcos e cisternas encefálicas normais.
-      Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia/gliose.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Sistema ventricular com morfologia e dimensões normais.
-      Estruturas da linha mediana sem desvios significativos.
-      Ausência de calcificações patológicas.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-      
-      Opinião:
-      Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia/gliose.
-
+    replace: Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia/gliose.
+     
   - trigger: "tcguiar"
     word: true
     replace: |
@@ -7644,33 +7550,7 @@ matches:
 
   - trigger: "tchernia"
     word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR E INFERIOR S/C
-      
-      Técnica:
-      Cortes tomográficos axiais do abdome, sem a injeção do meio de contraste endovenoso.
-      
-      Descrição:
-      Hérnia inguinoescrotal direita, através do qual há protrusão de gordura intra-abdominal e de segmento de alça ileal, sem evidências de obstrução. A lesão apresenta volume de 540,5 cm³ em repouso e de 733,8 cm³ durante a manobra de Valsava.
-      Hérnia umbilical, através do qual há protrusão de gordura intra-abdominal. A lesão apresenta volume de 16,2 cm³ em repouso e de 26,0 cm³ durante a manobra de Valsava.
-      Fígado com dimensões, contornos e densidade normais.
-      Adrenais, baço e pâncreas sem particularidades.
-      Rins tópicos, com morfologia, dimensões e espessura do parênquima normais.
-      Não há sinais de dilatação dos sistemas coletores ou imagens sugestivas de cálculos.
-      Ateromatose de vasos intra-abdominais.
-      Aorta e veia cava inferior com calibre e contornos normais.
-      Ausência de linfonodomegalias abdominais.
-      Ausência de líquido livre na cavidade peritoneal.
-      Bexiga com repleção parcial e conteúdo homogêneo.
-      Raros divertículos colônicos sem sinais inflamatórios.
-      Espondilose lombar.
-      Redução da altura do corpo vertebral de T11, podendo representar fratura.
-      Megapófise transversa unilateral esquerda em L5, articulando-se com o sacro.
-      
-      Impressão:
-      Hérnia inguinoescrotal direita, através do qual há protrusão de gordura intra-abdominal e de segmento de alça ileal, sem evidências de obstrução. A lesão apresenta volume de 540,5 cm³ em repouso e de 733,8 cm³ durante a manobra de Valsava.
-      Hérnia umbilical, através do qual há protrusão de gordura intra-abdominal. A lesão apresenta volume de 16,2 cm³ em repouso e de 26,0 cm³ durante a manobra de Valsava.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: Hérnia inguinoescrotal direita, através do qual há protrusão de gordura intra-abdominal e de segmento de alça ileal, sem evidências de obstrução. A lesão apresenta volume de _ cm³ em repouso e de _ cm³ durante a manobra de Valsava.
 
   - trigger: "tcherniaparede"
     word: true
@@ -9882,7 +9762,7 @@ matches:
 
   - trigger: "avci"
     word: true
-    replace: "Lesões hipodensas, corticosubcorticais, localizadas , com apagamento dos sulcos corticais regionais. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
+    replace: "Lesões hipodensas, corticosubcorticais, localizadas _, com apagamento dos sulcos corticais regionais. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
 
   - trigger: "avciop"
     word: true
