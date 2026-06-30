@@ -1,5 +1,13 @@
 matches:
 
+  - trigger: "r1"
+    replace: "radiopaedia"
+    word: true
+
+  - trigger: "r2"
+    replace: "site:radiopaedia.org"
+    word: true
+    
   - trigger: "redd"
     replace: "site:reddit.com"
     word: true
