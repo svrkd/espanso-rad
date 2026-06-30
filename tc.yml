@@ -6518,10 +6518,6 @@ matches:
     word: true
     replace: Sinais de manipulação cirúrgica gástrica e intestinal. Correlacionar com dados clínicos.
 
-  - trigger: "sime"
-    word: true
-    replace: "abaulamento discal simétrico que retifica a face ventral do saco dural que se estende para as bases foraminais reduzindo as suas amplitudes, porém sem conflitos radiculares evidentes."
-
   - trigger: "sime3"
     word: true
     replace: "abaulamento discal simétrico que retifica a face ventral do saco dural e se estende para as bases foraminais, reduzindo suas amplitudes, com impressão radicular bilateral."
@@ -9862,15 +9858,7 @@ matches:
 
   - trigger: "adi"
     word: true
-    replace: Alterações degenerativas interfacetárias
-
-  - trigger: "adir"
-    word: true
-    replace: à direita
-
-  - trigger: "aesq"
-    word: true
-    replace: à esquerda
+    replace: Alterações degenerativas interfacetárias.
 
   - trigger: "aiarap"
     word: true
