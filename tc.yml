@@ -5264,10 +5264,6 @@ matches:
     word: true
     replace: "Imagens arredondadas com densidade de partes moles, sugerindo representar cisto de retenção ou pólipo, localizadas nos seios maxilares."
 
-  - trigger: "porme"
-    word: true
-    replace: Demais achados pormenorizados no corpo do laudo.
-
   - trigger: "portocat"
     word: true
     replace: Dispositivo de infusão medicamentosa localizado no subcutâneo da região infraclavicular no hemitórax direito.
