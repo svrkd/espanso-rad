@@ -2,64 +2,64 @@ matches:
 
   - trigger: "r1"
     replace: "radiopaedia"
-    word: true
+    right_word: true
 
   - trigger: "r2"
     replace: "site:radiopaedia.org"
-    word: true
+    right_word: true
     
   - trigger: "redd"
     replace: "site:reddit.com"
-    word: true
+    right_word: true
 
   - trigger: "adir"
     replace: à direita
-    word: true
+    right_word: true
 
   - trigger: "aesq"
     replace: à esquerda
-    word: true
+    right_word: true
     
   - trigger: "codc"
     replace: Correlacionar com dados clínicos.
-    word: true
+    right_word: true
 
   - trigger: "colab"
     replace: Correlacionar com dados clínicos e laboratoriais.
-    word: true
+    right_word: true
 
   - trigger: "cocx"
     replace: Correlacionar com histórico cirúrgico.
-    word: true
+    right_word: true
 
   - trigger: "acrirm"
     replace: A critério clínico, o estudo dirigido com ressonância magnética poderá trazer maiores subsídios diagnósticos.
-    word: true
+    right_word: true
 
   - trigger: "acritc"
     replace: A critério clínico, o estudo dirigido com tomografia computadorizada poderá trazer maiores subsídios diagnósticos.
-    word: true
+    right_word: true
 
   - trigger: "acri1"
     replace: A critério clínico, o estudo dirigido da região poderá trazer maiores subsídios diagnósticos.
-    word: true
+    right_word: true
 
   - trigger: "rest"
     replace: Restante do 
-    word: true
+    right_word: true
 
   - trigger: "hx0"
     replace: "Indicação clínica: não informada em pedido médico."
-    word: true
+    right_word: true
 
   - trigger: "hx"
     replace: "Indicação clínica: "
-    word: true
+    right_word: true
 
   - trigger: "a/e"
     replace: a esclarecer
-    word: true
+    right_word: true
 
   - trigger: "porme"
     replace: Demais achados pormenorizados no corpo do laudo.
-    word: true
+    right_word: true
