@@ -11871,30 +11871,6 @@ matches:
       Acentuação dos sulcos entre os giros corticais, habitual para a faixa etária.
       Ateromatose de base de crânio.
 
-  - trigger: "tccrid"
-    right_word: true
-    replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-      
-      TÉCNICA:
-      Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
-      
-      ANÁLISE:
-      Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
-      Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia/gliose.
-      Restante do parênquima cerebral com morfologia e coeficientes de atenuação normais.
-      Tronco cerebral e cerebelo de aspecto conservado.
-      Quarto ventrículo com morfologia e situação conservadas.
-      Estruturas da linha mediana sem desvios significativos.
-      Ateromatose das carótidas internas e vertebrais.
-      Ausência de coleções hemorrágicas intra ou extra-axiais.
-      
-      
-      OPINIÃO:
-      Sinais de redução volumétrica encefálica difusa.
-      Microangiopatia/gliose.
-      Ateromatose de base de crânio.
-
   - trigger: "tcjoe"
     right_word: true
     replace: |
@@ -12267,10 +12243,6 @@ matches:
   - trigger: "prov"
     right_word: true
     replace: provável natureza inflamatório-infecciosa.
-
-  - trigger: "rest"
-    right_word: true
-    replace: Restante do
 
   - trigger: "rxtor21"
     right_word: true
