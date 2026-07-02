@@ -1,135 +1,135 @@
 matches:
 
   - trigger: "11"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo ortopédico segundo história clínica fornecida.
       Comparar com exames anteriores.
 
   - trigger: "1q"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo segundo história clínica fornecida.
       Comparar com exames anteriores.
 
   - trigger: "22"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo de fratura.
       Comparar com exames anteriores.
 
   - trigger: "2q"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo de fratura.
       Material gessado de imobilização contendo estruturas do
       Comparar com exames anteriores.
 
   - trigger: "33"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo evidencia:
       Material gessado de imobilização contendo estruturas do
       Comparar com exames anteriores.
 
   - trigger: "44"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo evidencia:
       Materiais metálicos de osteossíntese fixados.
       Comparar com exames anteriores.
 
   - trigger: "acentlomba"
-    word: true
+    right_word: true
     replace: Acentuação da lordose lombar fisiológica.
 
   - trigger: "acri1"
-    word: true
+    right_word: true
     replace: "À critério clínico, o estudo com imagens de tomografia computadorizada poderá fornecer maiores subsídios diagnósticos."
 
   - trigger: "alarg"
-    word: true
+    right_word: true
     replace: Sinais de alargamento mediastinal.
 
   - trigger: "albright"
-    word: true
+    right_word: true
     replace: "Encurtamento bilateral do 4º metacarpo, achado que pode ser encontrado em síndromes genéticas como pseudohipoparatireoidismo tipo Ia (osteodistrofia hereditária de Albright), entre outras causas congênitas. Correlacionar com dados clínicos."
 
   - trigger: "ancora"
-    word: true
+    right_word: true
     replace: Âncoras metálicas subcorticais no ..... para provável reparo/reconstrução do
 
   - trigger: "anel"
-    word: true
+    right_word: true
     replace: "Imagem radiopaca de formato circular, contornos regulares e densidade metálica (anel), projetando-se sobre a falange proximal do quarto quirodáctilo."
 
   - trigger: "apma"
-    word: true
+    right_word: true
     replace: "Aumento do volume de partes moles, adjacentes ao sítio de lesão."
 
   - trigger: "apmm"
-    word: true
+    right_word: true
     replace: Aumento de partes moles adjacentes ao sítio de fratura.
 
   - trigger: "aqrfai"
-    word: true
+    right_word: true
     replace: Moderada quantidade de resíduos fecais em alças intestinais.
 
   - trigger: "artro"
-    word: true
+    right_word: true
     replace: Artropatia degenerativa
 
   - trigger: "artroacg"
-    word: true
+    right_word: true
     replace: Artropatia degenerativa acromioclavicular e glenoumeral.
 
   - trigger: "artroap2"
-    word: true
+    right_word: true
     replace: Artropatia degenerativa das interapofisárias em níveis lombares inferiores.
 
   - trigger: "artrojoe"
-    word: true
+    right_word: true
     replace: "Artropatia degenerativa tricompartimental do joelho, caracterizado por osteofitose marginal, redução dos espaços articulares femorotibiais e patelotroclear, sobretudo no compartimento femorotibial medial com esclerose do platô tibial."
 
   - trigger: "artroq"
-    word: true
+    right_word: true
     replace: "Artropatia degenerativa dos quadris, caracterizado por redução predominante do espaço articular superior, esclerose do teto acetabular e osteófitos marginais no acetábulo e circunferenciais na cabeça femoral."
 
   - trigger: "ascite"
-    word: true
+    right_word: true
     replace: "Redução difusa da radiotransparência da cavidade abdominal, podendo corresponder a líquido livre."
 
   - trigger: "asub"
-    word: true
+    right_word: true
     replace: "Acentuação do espaço subacromial, podendo representar subluxação inferior."
 
   - trigger: "atj"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo evidencia:
       Artroplastia total do joelho.
       Comparar com exames anteriores.
 
   - trigger: "atqd"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo evidencia:
       Artroplastia total de quadril direito.
       Comparar com exames anteriores.
 
   - trigger: "atqe"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo evidencia:
       Artroplastia total de quadril esquerdo.
       Comparar com exames anteriores.
 
   - trigger: "atvp"
-    word: true
+    right_word: true
     replace: Acentuação da trama vascular pulmonar.
 
   - trigger: "avc"
-    word: true
+    right_word: true
     replace: |
       Exame de avaliação limitada devido a técnica empregada.
       Textura e morfologia óssea preservada.
@@ -139,11 +139,11 @@ matches:
       Silhueta cardíaca de avaliação limitada.
 
   - trigger: "baastrup"
-    word: true
+    right_word: true
     replace: Alterações degenerativas entre os processos espinhosos (Baastrup).
 
   - trigger: "baciaid"
-    word: true
+    right_word: true
     replace: |
       Redução da densidade óssea.
       Espondilose lombar.
@@ -153,23 +153,23 @@ matches:
       Flebólitos na pelve.
 
   - trigger: "bankart"
-    word: true
+    right_word: true
     replace: "Fratura/irregularidade cortical do aspecto anteroinferior da glenoide, sugerindo representar lesão de bankart."
 
   - trigger: "bico"
-    word: true
+    right_word: true
     replace: Proeminência óssea do polo inferior da patela.
 
   - trigger: "bll"
-    word: true
+    right_word: true
     replace: bilateralmente
 
   - trigger: "bolsa"
-    word: true
+    right_word: true
     replace: Sinais de ostomia à direita.
 
   - trigger: "boxe"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Fratura cominutiva na cabeça do 5º metacarpo com angulação volar do fragmento distal.
@@ -178,57 +178,57 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "bronqui"
-    word: true
+    right_word: true
     replace: "Presença de múltiplas imagens císticas de paredes espessas, distribuídas pelo pulmão direito, podendo representar bronquiectasias císticas."
 
   - trigger: "cabeçote"
-    word: true
+    right_word: true
     replace: "Luxação da artroplastia total do quadril direito, com deslocamento cranial do componente femoral da prótese."
 
   - trigger: "cagex"
-    word: true
+    right_word: true
     replace: Dispositivo expansível para substituição do corpo vertebral
 
   - trigger: "cajado"
-    word: true
+    right_word: true
     replace: |
       Fratura cominutiva no úmero proximal envolvendo os colos anatômico e cirúrgico, bem como extensão para articulação glenoumeral.
       Aumento e densificação de partes moles adjacentes ao sítio de fratura.
 
   - trigger: "calcsub"
-    word: true
+    right_word: true
     replace: "Calcificação de partes moles no espaço subacromial, sugerindo certo grau de tendinopatia, melhor avaliada por estudo ultrassonográfico."
 
   - trigger: "cam"
-    word: true
+    right_word: true
     replace: Retificação da porção anterossuperior da transição da cabeça – colo femoral.
 
   - trigger: "canoa"
-    word: true
+    right_word: true
     replace: Coalizão lunotriquetral.
 
   - trigger: "car"
-    word: true
+    right_word: true
     replace: Área cardíaca aumentada.
 
   - trigger: "carlimit"
-    word: true
+    right_word: true
     replace: Silhueta cardíaca de avaliação limitada devido a técnica empregada.
 
   - trigger: "carsup"
-    word: true
+    right_word: true
     replace: Silhueta cardíaca com área no limite superior da normalidade.
 
   - trigger: "casoper"
-    word: true
+    right_word: true
     replace: "Caso persista indicação clínica, o estudo com imagens de tomografia computadorizada poderá fornecer maiores subsídios diagnósticos."
 
   - trigger: "cave"
-    word: true
+    right_word: true
     replace: "Opacidades consolidativas e alveolares esparsas pelo parênquima pulmonar, sobretudo no lobo superior do pulmão esquerdo, por vezes associadas a área radiolucente de permeio, que pode corresponder a cavitação. Correlacionar com dados clínicos e laboratoriais."
 
   - trigger: "cc"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Transição crânio-vertebral preservada.
@@ -239,7 +239,7 @@ matches:
       Espaços discais preservados.
 
   - trigger: "ccid"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Transição crânio-vertebral preservada.
@@ -251,66 +251,66 @@ matches:
       Espaços discais preservados.
 
   - trigger: "ccu"
-    word: true
+    right_word: true
     replace: "Radiografia realizada para visualização de cateter umbilical, prejudicando estudo detalhado do tórax devido à técnica empregada."
 
   - trigger: "cdreno"
-    word: true
+    right_word: true
     replace: "Radiografia realizada para visualização de dreno torácico com extremidade distal no terço superior do pulmão direito, prejudicando estudo detalhado do tórax devido à técnica empregada."
 
   - trigger: "cef"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo de fratura.
       
       Comparar com exames anteriores.
 
   - trigger: "ceh"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo ortopédico segundo história clínica fornecida.
       Comparar com exames anteriores.
 
   - trigger: "cfemur"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo evidencia:
       Haste intramedular fixada em fêmur, sem sinais de soltura.
       Comparar com exames anteriores.
 
   - trigger: "chaste"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo evidencia:
       Haste cefalomedular bloqueada em fêmur, sem sinais de soltura.
       Comparar com exames anteriores.
 
   - trigger: "chems"
-    word: true
+    right_word: true
     replace: Nódulos hiperecogênicos hepáticos compatíveis com hemangiomas.
 
   - trigger: "chico"
-    word: true
+    right_word: true
     replace: "Distensão de alças intestinais medianizadas, associada à níveis hidroaéreos e visualização de válvulas coniventes sugerindo obstrução, melhor avaliada por estudo tomográfico."
 
   - trigger: "chifre"
-    word: true
+    right_word: true
     replace: Hipertrofia da tróclea fibular.
 
   - trigger: "chilaiditi"
-    word: true
+    right_word: true
     replace: "Imagem radiotransparente sob o hemidiafragma esquerdo, com visualização de pregas haustrais no interior e preservação do contorno diafragmático (interposição colônica subdiafragmática)."
 
   - trigger: "cifose"
-    word: true
+    right_word: true
     replace: Acentuação da cifose torácica.
 
   - trigger: "cistoosseo"
-    word: true
+    right_word: true
     replace: "Imagem translucida bem definidas, com margens escleróticas finas, localizada na diáfise distal do fêmur, podendo corresponder a cisto ósseo."
 
   - trigger: "clavi1"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Fratura cominutiva no terço médio da clavícula com desvios entre os fragmentos.
@@ -319,27 +319,27 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "claw"
-    word: true
+    right_word: true
     replace: Hiperextensão das metatarsofalangeanas associadas a hiperflexão das interfalangeanas.
 
   - trigger: "cmarcap"
-    word: true
+    right_word: true
     replace: "Radiografia realizada para visualização de marcapasso cardíaco em hemitórax direito, prejudicando estudo detalhado do tórax devido à técnica empregada"
 
   - trigger: "coco"
-    word: true
+    right_word: true
     replace: Coprostase.
 
   - trigger: "colab"
-    word: true
+    right_word: true
     replace: Correlacionar com dados clínicos e laboratoriais.
 
   - trigger: "colab1"
-    word: true
+    right_word: true
     replace: Correlacionar com dados clínicos.
 
   - trigger: "colles"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Fratura cominutiva metaepifisária distal do rádio com desvio posterior do segmento distal, bem com extensão para a articulação radiocarpal.
@@ -347,11 +347,11 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "comd"
-    word: true
+    right_word: true
     replace: com desvios entre os fragmentos.
 
   - trigger: "come"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Fratura cominutiva no maleolo medial com extensão para articulação tibiotalar.
@@ -360,85 +360,85 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "come1"
-    word: true
+    right_word: true
     replace: com extensão para a articulação
 
   - trigger: "come2"
-    word: true
+    right_word: true
     replace: com extensão para as articulações
 
   - trigger: "congesta"
-    word: true
+    right_word: true
     replace: Opacidades intersticiais esparsas pelo parênquima pulmonar.
 
   - trigger: "coroa"
-    word: true
+    right_word: true
     replace: Aparelho de Ilizarov estabilizando
 
   - trigger: "cotuba"
-    word: true
+    right_word: true
     replace: Distensão hidroaérea da câmara gástrica.
 
   - trigger: "ct"
-    word: true
+    right_word: true
     replace: Cânula traqueal.
 
   - trigger: "cu"
-    word: true
+    right_word: true
     replace: Cateter umbilical.
 
   - trigger: "cv"
-    word: true
+    right_word: true
     replace: corpo vertebal
 
   - trigger: "cvc"
-    word: true
+    right_word: true
     replace: Catéter venoso central à direita.
 
   - trigger: "cvs"
-    word: true
+    right_word: true
     replace: corpos vertebrais
 
   - trigger: "dd"
-    word: true
+    right_word: true
     replace: diáfise distal
 
   - trigger: "dedoid"
-    word: true
+    right_word: true
     replace: |
       Discreta artropatia degenerativa nas interfalangenas proximais e distais.
       Osteofitose nas superfícies articulares interfalangeanas distais.
 
   - trigger: "dente"
-    word: true
+    right_word: true
     replace: Artropatia da face articular anterior de C1 com o processo odontoide.
 
   - trigger: "derrame"
-    word: true
+    right_word: true
     replace: "Obliteração da gordura suprapatelar, por provável derrame articular."
 
   - trigger: "derrameb"
-    word: true
+    right_word: true
     replace: "Apagamento e elevação dos seios costofrênicos bilateralmente, devendo corresponder a derrame pleural associado a atelectasia do parênquima pulmonar adjacente."
 
   - trigger: "derramebd"
-    word: true
+    right_word: true
     replace: "Apagamento e elevação dos seios costofrênicos bilateralmente, mais evidente à direita, devendo corresponder a derrame pleural associado a atelectasia do parênquima pulmonar adjacente."
 
   - trigger: "derramebe"
-    word: true
+    right_word: true
     replace: "Apagamento e elevação dos seios costofrênicos bilateralmente, mais evidente à esquerda, devendo corresponder a derrame pleural."
 
   - trigger: "derramed"
-    word: true
+    right_word: true
     replace: "Apagamento e elevação do seio costofrênico direito, devendo corresponder a derrame pleural."
 
   - trigger: "derramee"
-    word: true
+    right_word: true
     replace: "Apagamento e elevação do seio costofrênico esquerdo, devendo corresponder a derrame pleural."
 
   - trigger: "desobstruir"
-    word: true
+    right_word: true
     replace: |
       Exame realizado para fins terapêuticos
       A radiografia simples do abdome realizada previamente, evidencia intensa dilatação de alças intestinais.
@@ -447,67 +447,67 @@ matches:
       Não foi observado progressão completa do contraste após 135 minutos.
 
   - trigger: "destrias"
-    word: true
+    right_word: true
     replace: Discretas estrias densas de aspecto atelectásico esparsas.
 
   - trigger: "dextro"
-    word: true
+    right_word: true
     replace: "Imagem cardíaca com ápice voltado para a direita, ocupando predominantemente o hemitórax direito, achado sugestivo de dextrocardia"
 
   - trigger: "dgai1"
-    word: true
+    right_word: true
     replace: Aumento da distribuição gasosa habitual.
 
   - trigger: "dgai2"
-    word: true
+    right_word: true
     replace: Distensão gasosa da câmara gástrica e de alças intestinais.
 
   - trigger: "dhs"
-    word: true
+    right_word: true
     replace: "Parafuso DHS determinando osteossíntese da região proximal do fêmur, normoposicionado e sem sinais de solturas."
 
   - trigger: "dir"
-    word: true
+    right_word: true
     replace: DIREITO
 
   - trigger: "displasiaq"
-    word: true
+    right_word: true
     replace: "Sinais de displasia acetabular à esquerda caracterizados por fossa acetabular rasa, cistos subcorticais no acetábulo e perda da esfericidade habitual da cabeça femoral."
 
   - trigger: "diu"
-    word: true
+    right_word: true
     replace: Dispositivo intrauterino em cavidade pélvica.
 
   - trigger: "diufora"
-    word: true
+    right_word: true
     replace: "Dispositivo intrauterino identificado em localização ectópica, projetado na cavidade pélvica à esquerda (topografia de fossa ilíaca esquerda), melhor avaliado por estudo dirigido."
 
   - trigger: "dlcld"
-    word: true
+    right_word: true
     replace: Desvio lateral da coluna lombar com convexidade para direita.
 
   - trigger: "dlcle"
-    word: true
+    right_word: true
     replace: Desvio lateral da coluna lombar com convexidade para esquerda.
 
   - trigger: "dlctd"
-    word: true
+    right_word: true
     replace: Desvio lateral da coluna torácica com convexidade para direita.
 
   - trigger: "dlcte"
-    word: true
+    right_word: true
     replace: Desvio lateral da coluna torácica com convexidade para esquerda.
 
   - trigger: "dm"
-    word: true
+    right_word: true
     replace: diáfise média
 
   - trigger: "dp"
-    word: true
+    right_word: true
     replace: diáfise proximal
 
   - trigger: "dpoc"
-    word: true
+    right_word: true
     replace: |
       Alterações degenerativas do arcabouço ósseo.
       Retificação do diafragma.
@@ -515,187 +515,187 @@ matches:
       Aumento do diâmetro anteroposterior do tórax.
 
   - trigger: "dreno"
-    word: true
+    right_word: true
     replace: Dreno torácico com extremidade distal no terço superior do pulmão direito. Associam-se enfisema de partes moles adjacentes.
 
   - trigger: "drenoa"
-    word: true
+    right_word: true
     replace: "Dreno mediastinal à direita, com inserção via parede torácica anterior."
 
   - trigger: "dseios"
-    word: true
+    right_word: true
     replace: Discreto apagamento dos seios costofrênicos bilateralmente.
 
   - trigger: "dsn1"
-    word: true
+    right_word: true
     replace: Desvio do septo nasal para a direita.
 
   - trigger: "dsn2"
-    word: true
+    right_word: true
     replace: Desvio do septo nasal para a esquerda.
 
   - trigger: "dtrama"
-    word: true
+    right_word: true
     replace: Discreta proeminência hilar e da trama vascular.
 
   - trigger: "duploj"
-    word: true
+    right_word: true
     replace: Cateter duplo J à XX com extremidade proximal na pelve renal e distal no interior da bexiga urinária.
 
   - trigger: "eap"
-    word: true
+    right_word: true
     replace: Espaços articulares preservados.
 
   - trigger: "ectasia"
-    word: true
+    right_word: true
     replace: |
       Ectasia do sistema pielocalicinal à direita e dilatação do respectivo ureter até o seu terço médio/distal.
       Retardo na eliminação do meio de contraste pelo rim direito.
 
   - trigger: "empro"
-    word: true
+    right_word: true
     replace: em processo de consolidação.
 
   - trigger: "enf1d"
-    word: true
+    right_word: true
     replace: Enfisema de partes moles em parede torácica direita.
 
   - trigger: "enf1e"
-    word: true
+    right_word: true
     replace: Enfisema de partes moles em parede torácica esquerda.
 
   - trigger: "enf2e"
-    word: true
+    right_word: true
     replace: Enfisema de partes moles em região cervical e em parede torácica esquerda.
 
   - trigger: "enostose"
-    word: true
+    right_word: true
     replace: "Imagem esclerótica intramedular, medindo cerca de 2,5 cm, sem sinais de agressividade (preservação cortical e ausência de reação periosteal), achado inespecífico, com aspecto sugestivo de alteração óssea benigna crônica, como enostose ou infarto ósseo crônico"
 
   - trigger: "enteso"
-    word: true
+    right_word: true
     replace: Entesopatia difusa.
 
   - trigger: "esca"
-    word: true
+    right_word: true
     replace: O membro inferior direito/esquerdo é XX cm menor que o membro inferior contralateral (encurtamento à custa das diferenças femorais/tibiais.)
 
   - trigger: "espl"
-    word: true
+    right_word: true
     replace: Espondilose lombar.
 
   - trigger: "esporaof"
-    word: true
+    right_word: true
     replace: Entesófito na topografia da inserção da fáscia plantar no calcâneo.
 
   - trigger: "esporaop"
-    word: true
+    right_word: true
     replace: Entesófito na tuberosidade posterior do calcâneo.
 
   - trigger: "esporaos"
-    word: true
+    right_word: true
     replace: Entesófito na topografia da inserção da fáscia plantar e na tuberosidade posterior do calcâneo.
 
   - trigger: "esq"
-    word: true
+    right_word: true
     replace: ESQUERDO
 
   - trigger: "est"
-    word: true
+    right_word: true
     replace: Espondilose torácica.
 
   - trigger: "estl"
-    word: true
+    right_word: true
     replace: Espondilose torácica leve.
 
   - trigger: "estrias"
-    word: true
+    right_word: true
     replace: Estrias densas de aspecto atelectásico esparsas.
 
   - trigger: "estriasb"
-    word: true
+    right_word: true
     replace: Estrias densas de aspecto atelectásico em bases pulmonares.
 
   - trigger: "ett"
-    word: true
+    right_word: true
     replace: Artropatia escafotrapeziotrapezoidea.
 
   - trigger: "fafa"
-    word: true
+    right_word: true
     replace: Presença de fabela.
 
   - trigger: "fc"
-    word: true
+    right_word: true
     replace: Fratura cominutiva
 
   - trigger: "fd"
-    word: true
+    right_word: true
     replace: falange distal
 
   - trigger: "fdesa"
-    word: true
+    right_word: true
     replace: Fratura desalinhada
 
   - trigger: "ferula"
-    word: true
+    right_word: true
     replace: Férula metálica no
 
   - trigger: "fios"
-    word: true
+    right_word: true
     replace: Fios de Kirschner determinando osteossíntese em
 
   - trigger: "fiss"
-    word: true
+    right_word: true
     replace: Espessamento da fissura horizontal.
 
   - trigger: "fixador"
-    word: true
+    right_word: true
     replace: Fixadores metálicos externos estabilizando o
 
   - trigger: "fm"
-    word: true
+    right_word: true
     replace: falange média
 
   - trigger: "fo"
-    word: true
+    right_word: true
     replace: Fratura oblíqua
 
   - trigger: "forca"
-    word: true
+    right_word: true
     replace: |
       Fratura transcervical em fêmur direito, com desvios entre os fragmentos.
       Aumento e densificação de partes moles adjacentes ao sítio de fratura.
 
   - trigger: "fp"
-    word: true
+    right_word: true
     replace: falange proximal
 
   - trigger: "fracolu"
-    word: true
+    right_word: true
     replace: "Redução da altura do corpo vertebral de XX, podendo representar fratura."
 
   - trigger: "fracolus"
-    word: true
+    right_word: true
     replace: "Redução da altura dos corpos vertebrais de XX, podendo representar fraturas."
 
   - trigger: "fracostb"
-    word: true
+    right_word: true
     replace: Fraturas consolidadas em arcos costais bilateralmente.
 
   - trigger: "fracostd"
-    word: true
+    right_word: true
     replace: Fraturas consolidadas em arcos costais à direita.
 
   - trigger: "fracoste"
-    word: true
+    right_word: true
     replace: Fraturas consolidadas em arcos costais à esquerda.
 
   - trigger: "ft"
-    word: true
+    right_word: true
     replace: Fratura transversa
 
   - trigger: "fuji"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Estruturas ósseas preservadas.
@@ -704,83 +704,83 @@ matches:
       Aplicando o modelo objetivo 110,119 × A/N, estima-se obstrução de aproximadamente 90%, sugerindo obstrução nasofaríngea significativa.
 
   - trigger: "grampo"
-    word: true
+    right_word: true
     replace: Grampos metálicos determinando ..... (osteossíntese; artrodese; epifisiodese)
 
   - trigger: "grato"
-    word: true
+    right_word: true
     replace: Favor fazer demais associações. Grato.
 
   - trigger: "haglund"
-    word: true
+    right_word: true
     replace: "Proeminência óssea no aspecto posterior-superior do calcâneo, sugerindo deformidade de Haglund."
 
   - trigger: "halux"
-    word: true
+    right_word: true
     replace: Hálux valgo.
 
   - trigger: "haste"
-    word: true
+    right_word: true
     replace: "Haste cefalomedular bloqueada em fêmur XX, sem sinais de soltura."
 
   - trigger: "hastei"
-    word: true
+    right_word: true
     replace: "Haste intramedular fixada em tibia, sem sinais de soltura."
 
   - trigger: "hems"
-    word: true
+    right_word: true
     replace: Nódulos hiperecogênicos circunscritos localizados nos segmentos VII ( cm)
 
   - trigger: "herniap"
-    word: true
+    right_word: true
     replace: "Imagem radiopaca projetando-se sobre o hemidiafragma direito, podendo corresponder a hérnia diafragmática anterior."
 
   - trigger: "hgh"
-    word: true
+    right_word: true
     replace: Hérnia gástrica hiatal.
 
   - trigger: "hill"
-    word: true
+    right_word: true
     replace: "Fratura/irregularidade cortical do aspecto posterolateral do terço superior da cabeça umeral, sugerindo representar sequela de lesão de Hill-Sachs."
 
   - trigger: "ht"
-    word: true
+    right_word: true
     replace: Hilos e trama vascular pulmonar normais.
 
   - trigger: "icb"
-    word: true
+    right_word: true
     replace: Redução da transparência pulmonar sobretudo em região peri-hilar e nas bases sugerindo certo grau de congestão.
 
   - trigger: "iesporaof"
-    word: true
+    right_word: true
     replace: Incipiente entesófito na topografia da inserção da fáscia plantar no calcâneo.
 
   - trigger: "iesporaop"
-    word: true
+    right_word: true
     replace: Incipiente entesófito na tuberosidade posterior do calcâneo.
 
   - trigger: "iesporaos"
-    word: true
+    right_word: true
     replace: Incipiente entesófito na topografia da inserção da fáscia plantar e na tuberosidade posterior do calcâneo.
 
   - trigger: "ilfc"
-    word: true
+    right_word: true
     replace: Inversão da lordose fisiológica cervical.
 
   - trigger: "iomcv"
-    word: true
+    right_word: true
     replace: Incipiente osteófitos marginais nos corpos vertebrais.
 
   - trigger: "itriceps"
-    word: true
+    right_word: true
     replace: Incipiente entesófito na inserção distal do tríceps no olécrano.
 
   - trigger: "jantou"
-    word: true
+    right_word: true
     replace: "Opacidades consolidativas e alveolares esparsas pelo parênquima pulmonar, notadamente nas bases, sobretudo á esquerda. Considerar a possibilidade de etiologia aspirativa."
 
   - trigger: "jj"
-    word: true
+    right_word: true
     replace: |
       Textura e morfologia óssea preservada.
       Espaços articulares preservados.
@@ -788,7 +788,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "jjid"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Artropatia degenerativa tricompartimental do joelho, caracterizada por osteofitose marginal, redução dos espaços articulares femorotibiais e patelotroclear, sobretudo no compartimento femorotibial medial com esclerose do platô tibial.
@@ -796,11 +796,11 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "joanete"
-    word: true
+    right_word: true
     replace: Artropatia degenerativa na I metatarsofalangeana e glenossesamoidea.
 
   - trigger: "joelhoid"
-    word: true
+    right_word: true
     replace: |
       Redução da densidade óssea.
       Artropatia degenerativa tricompartimental do joelho, caracterizado por redução do espaço articular femorotibial medial, esclerose do platô tibial medial e osteofitose marginal femorotibial e retropatelar.
@@ -808,33 +808,33 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "lais"
-    word: true
+    right_word: true
     replace: "Formação de tecido mole em continuidade com a borda lateral do 5º quirodáctilo, sem estrutura óssea ou articular associada, sugerindo com polidactilia rudimentar (apêndice cutâneo)."
 
   - trigger: "lca"
-    word: true
+    right_word: true
     replace: |
       Endobutton na região metafisária distal do fêmur e parafuso de interferência na região metafisária proximal da obia, para estabilização de reconstrução do ligamento cruzado
       anterior.
 
   - trigger: "ldlc"
-    word: true
+    right_word: true
     replace: "Leve desvio lateral da coluna lombar com convexidade para esquerda, na posição de estudo."
 
   - trigger: "lid"
-    word: true
+    right_word: true
     replace: lobo inferior do pulmão direito.
 
   - trigger: "lie"
-    word: true
+    right_word: true
     replace: lobo inferior do pulmão esquerdo.
 
   - trigger: "limbo"
-    word: true
+    right_word: true
     replace: "Pequeno fragmento ósseo triangular e bem corticado adjacente ao canto ântero-superior (ou póstero-superior) do corpo vertebral, com margens regulares e escleróticas, separado do corpo vertebral por um espaço nítido, compatível com vértebra em limbo."
 
   - trigger: "ll"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Bom alinhamento dos corpos vertebrais lombares.
@@ -844,7 +844,7 @@ matches:
       Espaços discais preservados.
 
   - trigger: "lombarid"
-    word: true
+    right_word: true
     replace: |
       Redução da densidade óssea.
       Desvio lateral da coluna lombar com convexidade para esquerda.
@@ -854,19 +854,19 @@ matches:
       Redução difusa dos espaços discais.
 
   - trigger: "lsd"
-    word: true
+    right_word: true
     replace: lobo superior do pulmão direito.
 
   - trigger: "lse"
-    word: true
+    right_word: true
     replace: lobo superior do pulmão esquerdo.
 
   - trigger: "luxou"
-    word: true
+    right_word: true
     replace: Perda da congruência articular
 
   - trigger: "luxouomb"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Articulação acromioclavicular sem alterações significativas.
@@ -874,14 +874,14 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "luxouombc"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo evidencia:
       Resolução da luxação anterior glenoumeral.
       Comparar com exames anteriores.
 
   - trigger: "luxoupatela"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Traços de fratura na faceta medial da patela e na faceta lateral da tróclea femoral, configurando padrão de impacto típico de evento de deslocamento lateral da patela
@@ -891,23 +891,23 @@ matches:
       Correlacionar com o quadro clínico e, se necessário, complementar com ressonância magnética para avaliação da extensão condral e partes moles.
 
   - trigger: "manguito"
-    word: true
+    right_word: true
     replace: Elevação da cabeça umeral associada a redução do espaço subacromial sugerindo lesão do manguito rotador.
 
   - trigger: "margensap"
-    word: true
+    right_word: true
     replace: por vezes com esclerose óssea das margens apostas.
 
   - trigger: "megapo"
-    word: true
+    right_word: true
     replace: "Megapófise transversa  à direita em L5, articulando-se com o sacro."
 
   - trigger: "mel"
-    word: true
+    right_word: true
     replace: melhor avaliado por estudo tomográfico.
 
   - trigger: "melao"
-    word: true
+    right_word: true
     replace: |
       Fios metálicos de esternorrafia.
       Catéter venoso central à direita.
@@ -919,63 +919,63 @@ matches:
       Área cardíaca aumentada.
 
   - trigger: "menisco"
-    word: true
+    right_word: true
     replace: "Calcificações de partes moles em topografia de meniscos, melhor avaliado por ressonância magnética."
 
   - trigger: "mid"
-    word: true
+    right_word: true
     replace: membro inferior direito.
 
   - trigger: "mie"
-    word: true
+    right_word: true
     replace: membro inferior esquerdo.
 
   - trigger: "milho"
-    word: true
+    right_word: true
     replace: "Múltiplos micronódulos difusos no parênquima pulmonar. Considerar, dentre os diagnósticos diferenciais, a possibilidade de tuberculose miliar."
 
   - trigger: "mioma"
-    word: true
+    right_word: true
     replace: "Imagem radiopaca em topografia pélvica, medindo 4,1 cm, com aspecto sugestivo de leiomioma calcificado."
 
   - trigger: "msd"
-    word: true
+    right_word: true
     replace: membro superior direito.
 
   - trigger: "mse"
-    word: true
+    right_word: true
     replace: membro superior esquerdo.
 
   - trigger: "mtc"
-    word: true
+    right_word: true
     replace: metacarpo
 
   - trigger: "mtt"
-    word: true
+    right_word: true
     replace: metatarso
 
   - trigger: "navi1"
-    word: true
+    right_word: true
     replace: Osso navicular acessório tipo 1.
 
   - trigger: "navi2"
-    word: true
+    right_word: true
     replace: Osso navicular acessório tipo 2.
 
   - trigger: "navi3"
-    word: true
+    right_word: true
     replace: Osso navicular acessório tipo 3.
 
   - trigger: "nec"
-    word: true
+    right_word: true
     replace: "Distensão gasosa difusa de alças intestinais, frequentemente com distribuição assimétrica, associada à presença de pneumoperitônio, achados que sugerem enterocolite necrosante."
 
   - trigger: "ney"
-    word: true
+    right_word: true
     replace: "Fratura transversa da base do 5º metatarso, sem desvios significativos."
 
   - trigger: "neymar"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Fratura transversa da base do 5º metatarso, sem desvios significativos.
@@ -984,11 +984,11 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "niveis"
-    word: true
+    right_word: true
     replace: "Distribuição gasosa de aspecto habitual, por vezes formando níveis hidroaéreos em alças intestinais."
 
   - trigger: "nn"
-    word: true
+    right_word: true
     replace: |
       Textura e morfologia óssea preservada.
       Estruturas ósseas preservadas.
@@ -996,25 +996,25 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "nodulop"
-    word: true
+    right_word: true
     replace: "Imagem radiopaca de aspecto nodular localizada no X, medindo X cm, inespecífica."
 
   - trigger: "nop"
-    word: true
+    right_word: true
     replace: |
       Opacidade radiopaca de configuração nodular localizada no lobo médio, medindo 0,6 cm, inespecífica.
       Restante do parênquima pulmonar com densidade preservada.
 
   - trigger: "obstruiu"
-    word: true
+    right_word: true
     replace: Acentuada dilatação do sistema pielocalicinal e da pelve renal à esquerda. Não se observa progressão do meio de contraste para o ureter ipsilateral sugerindo obstrução.
 
   - trigger: "oculta"
-    word: true
+    right_word: true
     replace: Aumento e densificação de partes moles em região anterior do cotovelo sugerindo fratura oculta.
 
   - trigger: "ole"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Fratura cominutiva no olécrano com desvios entre os fragmentos e extensão para a articulação ulnotroclear.
@@ -1023,7 +1023,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "ombroid"
-    word: true
+    right_word: true
     replace: |
       Redução da densidade óssea.
       Artropatia degenerativa acromioclavicular e glenoumeral.
@@ -1031,11 +1031,11 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "omtri"
-    word: true
+    right_word: true
     replace: Osteofitose marginal tricompartimental.
 
   - trigger: "oo"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Articulação acromioclavicular sem alterações significativas.
@@ -1043,47 +1043,47 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "opa"
-    word: true
+    right_word: true
     replace: Opacidades consolidativas/atelectásicas no lobo inferior do pulmão direito.
 
   - trigger: "opm"
-    word: true
+    right_word: true
     replace: Opacidades reticulares esparsas pelo parênquima pulmonar.
 
   - trigger: "opph"
-    word: true
+    right_word: true
     replace: Opacidades reticulares em regiões peri-hilares.
 
   - trigger: "opret"
-    word: true
+    right_word: true
     replace: Opacidades reticulares notadamente em ambas as bases pulmonares.
 
   - trigger: "osgood"
-    word: true
+    right_word: true
     replace: "Fragmento ósseo na inserção do tendão patelar na tuberosidade da tíbia associado a aumento e densificação de partes moles regionais, achados sugestivos de doença de Osgood-Schlatter."
 
   - trigger: "ossosupra"
-    word: true
+    right_word: true
     replace: "Calcificação de partes moles adjacente ao tubérculo maior, na topografia da inserção músculo supraespinhal, devendo corresponder a tendinopatia calcárea."
 
   - trigger: "osteomielite"
-    word: true
+    right_word: true
     replace: "Irregularidades corticais nas XXX associado a aumento e densificação de partes moles adjacentes. Os achados sugerem processo inflamatório/infecioso, correlacionar com dados clínicos e laboratoriais."
 
   - trigger: "ostjoe"
-    word: true
+    right_word: true
     replace: Osteofitose femorotibial
 
   - trigger: "ostri"
-    word: true
+    right_word: true
     replace: Os trigonum.
 
   - trigger: "ostsacra"
-    word: true
+    right_word: true
     replace: Osteofitose da porção inferior das articulações sacroilíacas.
 
   - trigger: "pato"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Fratura com avulsão do osso piramidal.
@@ -1092,27 +1092,27 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "pcaf"
-    word: true
+    right_word: true
     replace: podendo corresponder a fratura no contexto de trauma
 
   - trigger: "pcfx"
-    word: true
+    right_word: true
     replace: podendo corresponder a fratura no contexto de trauma
 
   - trigger: "pectus"
-    word: true
+    right_word: true
     replace: "Redução do diâmetro ântero-posterior do tórax, visível principalmente na incidência lateral, sugerindo pectus excavatum."
 
   - trigger: "pedra"
-    word: true
+    right_word: true
     replace: "Imagem radiopaca em topografia renal XX, medindo cerca de XX cm, podendo representar cálculo renal."
 
   - trigger: "pedras"
-    word: true
+    right_word: true
     replace: "Imagens radiopacas em topografia renal XX, a maior medindo cerca de XX cm, podendo representar cálculos renais."
 
   - trigger: "peid"
-    word: true
+    right_word: true
     replace: |
       Redução da densidade óssea.
       Sinais de artropatia degenerativa nas articulações interfalangeanas proximais e distais.
@@ -1122,11 +1122,11 @@ matches:
       Calcificações vasculares de partes moles.
 
   - trigger: "peplano"
-    word: true
+    right_word: true
     replace: "Sinais de pé plano; ângulo do pitch do calcâneo: º (VR: 20º-30º), ângulo de Meary: º (VR: 0º) e ângulo de Costa Bertani: º (VR: 120º a 130º)"
 
   - trigger: "pezin"
-    word: true
+    right_word: true
     replace: |
       Osteofitose nas superfícies articulares interfalangeanas distais.
       
@@ -1135,53 +1135,53 @@ matches:
       Discreta artropatia degenerativa nas interfalangenas proximais e distais.
 
   - trigger: "pfemur"
-    word: true
+    right_word: true
     replace: |
       Parafusos canulados determinando osteossíntese da região proximal do fêmur,
       normoposicionados e sem sinais de solturas.
 
   - trigger: "philar"
-    word: true
+    right_word: true
     replace: Proeminência hilar
 
   - trigger: "picc"
-    word: true
+    right_word: true
     replace: "Radiografia realizada para visualização de cateter venoso central de inserção periférica à direita, prejudicando estudo detalhado do tórax devido à técnica empregada."
 
   - trigger: "pincer"
-    word: true
+    right_word: true
     replace: "Recobrimento acetabular proeminente bilateralmente, achado que pode corresponder a variação morfológica. Avaliação por ressonância magnética pode ser considerada, caso haja suspeita clínica de impacto femoroacetabular."
 
   - trigger: "pinfe"
-    word: true
+    right_word: true
     replace: processo inflamatório/infeccioso
 
   - trigger: "pirineu"
-    word: true
+    right_word: true
     replace: Ossículo acessório adjacente ao cuboide.
 
   - trigger: "pirineus"
-    word: true
+    right_word: true
     replace: Ossículos acessórios adjacentes ao cuboide.
 
   - trigger: "placa"
-    word: true
+    right_word: true
     replace: Placa lâmina determinando osteossíntese da
 
   - trigger: "pneumo"
-    word: true
+    right_word: true
     replace: "Acentuado pneumotórax à esquerda promovendo atelectasia do parenquima pulmonar adjacente, bem como desvio das estruturas mediastinais para o lado contralateral."
 
   - trigger: "pneumomigue"
-    word: true
+    right_word: true
     replace: "Radioluscência na topografia da hemicúpula diafragmática direita, podendo corresponder a pneumoperitônio."
 
   - trigger: "podo"
-    word: true
+    right_word: true
     replace: pododáctilo.
 
   - trigger: "poli1"
-    word: true
+    right_word: true
     replace: |
       (204060095) RX - RADIOGRAFIA DE BACIA
       
@@ -1198,42 +1198,42 @@ matches:
       Silhueta cardíaca com área normal.
 
   - trigger: "pontes"
-    word: true
+    right_word: true
     replace: por vezes formando pontes ósseas.
 
   - trigger: "portocat"
-    word: true
+    right_word: true
     replace: Dispositivo de infusão medicamentosa localizado no hemitórax direito.
 
   - trigger: "pruim"
-    word: true
+    right_word: true
     replace: |
       Pulmões hipoexpandidos, prejudicando a avaliação.
       Seios costofrênicos de avaliação limitada.
       Silhueta cardíaca de avaliação limitada.
 
   - trigger: "qil"
-    word: true
+    right_word: true
     replace: quadrante inferolateral
 
   - trigger: "qim"
-    word: true
+    right_word: true
     replace: quadrante inferomedial
 
   - trigger: "qsl"
-    word: true
+    right_word: true
     replace: quadrante súpero-lateral
 
   - trigger: "qsm"
-    word: true
+    right_word: true
     replace: quadrante superomedial
 
   - trigger: "quadri"
-    word: true
+    right_word: true
     replace: Entesófito na inserção patelar do tendão do quadríceps.
 
   - trigger: "quadrilzuado"
-    word: true
+    right_word: true
     replace: |
       Redução da densidade óssea.
       Espondilose lombar.
@@ -1242,91 +1242,91 @@ matches:
       Artropatia degenerativa nas sacroilíacas e sínfise púbica.
 
   - trigger: "queijo"
-    word: true
+    right_word: true
     replace: "Múltiplas lesões líticas e escleróticas difusas pelo arcabouço ósseo, sugestivas de acometimento neoplásico secundário."
 
   - trigger: "queijop"
-    word: true
+    right_word: true
     replace: "Múltiplas opacidades nódulares difusas pelo parênquima pulmonar bilateralmente, sugestivos de acometimento neoplásico secundário."
 
   - trigger: "quiro"
-    word: true
+    right_word: true
     replace: quirodáctilo
 
   - trigger: "redu"
-    word: true
+    right_word: true
     replace: Redução da transparência pulmonar nos
 
   - trigger: "redub"
-    word: true
+    right_word: true
     replace: Redução da transparência pulmonar nas bases pulmonares.
 
   - trigger: "redud"
-    word: true
+    right_word: true
     replace: Redução da transparência pulmonar difusamente.
 
   - trigger: "redujoe"
-    word: true
+    right_word: true
     replace: Redução do espaço articular femorotibial medial.
 
   - trigger: "reduq1"
-    word: true
+    right_word: true
     replace: "Redução do espaço articular do quadril, associado a osteofitose e esclerose da borda acetabular."
 
   - trigger: "reduq2"
-    word: true
+    right_word: true
     replace: "Redução dos espaços articulares dos quadris, associado a osteofitose e esclerose das bordas acetabulares."
 
   - trigger: "redus"
-    word: true
+    right_word: true
     replace: "Redução da transparência aérea dos seios etmoidais, podendo representar espessamento mucoso."
 
   - trigger: "reduziu"
-    word: true
+    right_word: true
     replace: Redução difusa dos espaços discais.
 
   - trigger: "reduziu1"
-    word: true
+    right_word: true
     replace: Redução do espaço discal em L5-S1.
 
   - trigger: "reduziu2"
-    word: true
+    right_word: true
     replace: "Redução dos espaços discais de L4-L5 e de L5-S1, com esclerose óssea das margens apostas."
 
   - trigger: "ret"
-    word: true
+    right_word: true
     replace: Retificação da lordose fisiológica.
 
   - trigger: "ret1"
-    word: true
+    right_word: true
     replace: Retificação de arcos costais.
 
   - trigger: "ret2"
-    word: true
+    right_word: true
     replace: Retificação de arcos costais e do diafragma.
 
   - trigger: "retardo"
-    word: true
+    right_word: true
     replace: Retardo na eliminação de contraste pelo sistema coletor renal XXX.
 
   - trigger: "retd"
-    word: true
+    right_word: true
     replace: Retificação do diafragma.
 
   - trigger: "retlomba"
-    word: true
+    right_word: true
     replace: Retificação da lordose lombar fisiológica.
 
   - trigger: "retof"
-    word: true
+    right_word: true
     replace: Ossificação da origem proximal do músculo reto femoral esquerdo na espinha ilíaca ântero-inferior podendo representar tendinopatia crônica.
 
   - trigger: "rinzim"
-    word: true
+    right_word: true
     replace: Ausência de opacificação do rim esquerdo pelo meio de contraste sugerindo nefropatia parenquimatosa crônica. Correlacionar com dados clínicos e laboratoriais.
 
   - trigger: "roux"
-    word: true
+    right_word: true
     replace: |
       A radiografia simples realizada previamente não evidencia alterações radiológicas dignas de nota.
       Alterações anatômicas sugestivas de cirúrgia gastrointestinal, caracterizadas por pequeno reservatório gástrico proximal comunicando-se com alça jejunal, formando anastomose gastrojejunal.
@@ -1335,11 +1335,11 @@ matches:
       Ileo terminal e ceco sem anormalidade.
 
   - trigger: "rsub"
-    word: true
+    right_word: true
     replace: Redução do espaço subacromial.
 
   - trigger: "rxa"
-    word: true
+    right_word: true
     replace: |
       Alterações degenerativas do arcabouço ósseo.
       Hilos e trama vascular pulmonar normais.
@@ -1348,7 +1348,7 @@ matches:
       Silhueta cardíaca com área normal.
 
   - trigger: "rxatm"
-    word: true
+    right_word: true
     replace: |
       Cavidades articulares de contornos regulares.
       Côndilos mandibulares de morfologia preservada.
@@ -1357,7 +1357,7 @@ matches:
       Excursão reduzida dos côndilos mandibulares.
 
   - trigger: "rxbacia3"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE BACIA
 
@@ -1369,7 +1369,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxcar"
-    word: true
+    right_word: true
     replace: |
       Alterações degenerativas do arcabouço ósseo.
       Hilos e trama vascular pulmonar normais.
@@ -1378,27 +1378,27 @@ matches:
       Área cardíaca aumentada.
 
   - trigger: "rxcat"
-    word: true
+    right_word: true
     replace: "Radiografia realizada para visualização de dispositivo de infusão medicamentosa localizado no hemitórax direito, prejudicando estudo detalhado do tórax devido à técnica empregada."
 
   - trigger: "rxct"
-    word: true
+    right_word: true
     replace: "Radiografia realizada para visualização de cânula traqueal, prejudicando estudo detalhado do tórax devido à técnica empregada."
 
   - trigger: "rxcvc1"
-    word: true
+    right_word: true
     replace: "Radiografia realizada para visualização de catéter venoso central à direita, prejudicando estudo detalhado do tórax devido à técnica empregada."
 
   - trigger: "rxcvc2"
-    word: true
+    right_word: true
     replace: "Radiografia realizada para visualização de catéter venoso central à esquerda, prejudicando estudo detalhado do tórax devido à técnica empregada."
 
   - trigger: "rxcvc3"
-    word: true
+    right_word: true
     replace: "Radiografia realizada para visualização de catéter venoso central, prejudicando estudo detalhado do tórax devido à técnica empregada."
 
   - trigger: "rxdgai"
-    word: true
+    right_word: true
     replace: |
       Textura e morfologia óssea preservada.
       Visualização parcial das vísceras abdominais por interposição gasosa.
@@ -1407,7 +1407,7 @@ matches:
       Não há evidência de calcificações patológicas.
 
   - trigger: "rxlimit"
-    word: true
+    right_word: true
     replace: |
       Exame de avaliação limitada devido a técnica empregada.
       
@@ -1418,7 +1418,7 @@ matches:
       Silhueta cardíaca de avaliação limitada.
 
   - trigger: "rxt1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE TÓRAX
       
@@ -1435,47 +1435,47 @@ matches:
       Parênquima pulmonar sem sinais de consolidações.
 
   - trigger: "sd"
-    word: true
+    right_word: true
     replace: Sonda digestiva.
 
   - trigger: "seio1"
-    word: true
+    right_word: true
     replace: Apagamento do seio costofrênico direito.
 
   - trigger: "seio2"
-    word: true
+    right_word: true
     replace: Apagamento do seio costofrênico esquerdo.
 
   - trigger: "seios"
-    word: true
+    right_word: true
     replace: Apagamento dos seios costofrênicos bilateralmente.
 
   - trigger: "semd"
-    word: true
+    right_word: true
     replace: sem desvios significativos.
 
   - trigger: "sequela"
-    word: true
+    right_word: true
     replace: Alteração da morfologia óssea na asa ilíaca direita sugerindo sequela de fratura prévia. Correlacionar com dados clínicos.
 
   - trigger: "sesamoidebi"
-    word: true
+    right_word: true
     replace: Sesamóide medial bipartido na cabeça do 1º metatarso.
 
   - trigger: "sh1"
-    word: true
+    right_word: true
     replace: "Deslocamento e angulação medial da fise da fíbula distal, sem envolvimento de fratura da metáfise ou epífise (Salter-Harris tipo I)."
 
   - trigger: "sh2"
-    word: true
+    right_word: true
     replace: Fratura cominutiva na metáfise proximal da falanage proximal do 5º quirodáctilo sem acometer a fise de crescimento (Salter-Harris tipo II).
 
   - trigger: "sia"
-    word: true
+    right_word: true
     replace: Osteofitose marginal no aspecto anterior da articulação tibiotalar sugerindo síndrome do impacto anterior do tornozelo.
 
   - trigger: "sifilis"
-    word: true
+    right_word: true
     replace: |
       (204040019) RX - RADIOGRAFIA DE ANTEBRAÇO DIREITO
       
@@ -1528,7 +1528,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "sifilisnormal"
-    word: true
+    right_word: true
     replace: |
       (204040019) RX - RADIOGRAFIA DE ANTEBRAÇO DIREITO
       
@@ -1591,15 +1591,15 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "sitios"
-    word: true
+    right_word: true
     replace: Aumento e densificação de partes moles adjacentes aos sítios de fraturas.
 
   - trigger: "slimit"
-    word: true
+    right_word: true
     replace: Seios costofrênicos de avaliação limitada.
 
   - trigger: "smith"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Fratura cominutiva metaepifisária distal do rádio com desvio anterior do segmento distal, bem com extensão para a articulação radiocarpal.
@@ -1607,85 +1607,85 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "sobrepos"
-    word: true
+    right_word: true
     replace: "Sobreposição óssea promovendo limitação para avaliação da cabeça do rádio. Caso exista suspeita de fratura, recomenda-se estudo direcionado."
 
   - trigger: "solu"
-    word: true
+    right_word: true
     replace: Solução de continuidade de partes moles
 
   - trigger: "sonda"
-    word: true
+    right_word: true
     replace: "Radiografia realizada para visualização de sonda entérica, prejudicando estudo detalhado do abdome devido à técnica empregada."
 
   - trigger: "sss"
-    word: true
+    right_word: true
     replace: ", sem sinais de soltura."
 
   - trigger: "stieda"
-    word: true
+    right_word: true
     replace: Proeminência do processo posterior do tálus (processo Stieda).
 
   - trigger: "subcu"
-    word: true
+    right_word: true
     replace: Associa-se enfisema subcutâneo.
 
   - trigger: "sugere"
-    word: true
+    right_word: true
     replace: Sugere-se complementação com incidências adicionais ou imagens com tomografia computadorizada para melhor elucidação diagnóstica.
 
   - trigger: "tampa"
-    word: true
+    right_word: true
     replace: Fratura avulsiva do processo estilóide da ulna.
 
   - trigger: "terry"
-    word: true
+    right_word: true
     replace: Aumento do espaço escafolunar sugerindo lesão/ruptura ligamentar.
 
   - trigger: "teto"
-    word: true
+    right_word: true
     replace: Osteofitose marginal nas bordas acetabulares.
 
   - trigger: "teto1"
-    word: true
+    right_word: true
     replace: "Espaços articulares dos quadris preservados, associado a osteofitose marginal nas bordas acetabulares."
 
   - trigger: "topm"
-    word: true
+    right_word: true
     replace: Tênues opacidades reticulares esparsas pelo parênquima pulmonar.
 
   - trigger: "topph"
-    word: true
+    right_word: true
     replace: Tênues opacidades reticulares em regiões peri-hilares.
 
   - trigger: "topret"
-    word: true
+    right_word: true
     replace: Tênue opacidades reticulares em ambas as bases pulmonares.
 
   - trigger: "tor"
-    word: true
+    right_word: true
     replace: Textura óssea reduzida.
 
   - trigger: "trama"
-    word: true
+    right_word: true
     replace: Hilos e trama vascular pulmonar proeminentes.
 
   - trigger: "translaçao"
-    word: true
+    right_word: true
     replace: "Translação anterior da tibia, sugerindo instabilidade secundária a insuficiência do ligamento cruzado anterior."
 
   - trigger: "transtro"
-    word: true
+    right_word: true
     replace: |
       Fratura cominutiva transtrocantérica em fêmur direito, com desvios entre os fragmentos.
       Aumento e densificação de partes moles adjacentes ao sítio de fratura.
 
   - trigger: "traqueo"
-    word: true
+    right_word: true
     replace: Cânula de traqueostomia.
 
   - trigger: "tt"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Bom alinhamento dos corpos vertebrais torácicos.
@@ -1695,19 +1695,19 @@ matches:
       Espaços discais preservados.
 
   - trigger: "txnl"
-    word: true
+    right_word: true
     replace: Textura e morfologia óssea preservada.
 
   - trigger: "unco"
-    word: true
+    right_word: true
     replace: Artropatia interapofisárias e uncovertebrais.
 
   - trigger: "unha"
-    word: true
+    right_word: true
     replace: tuberosidade ungueal
 
   - trigger: "uretrocistomemb"
-    word: true
+    right_word: true
     replace: |
       Após a introdução do meio de contraste iodado via retrógrada, observou-se:
       Uretra anterior pérvia, de calibre e contornos normais.
@@ -1718,188 +1718,188 @@ matches:
       Pequeno resíduo vesical pós-miccional.
 
   - trigger: "vaso"
-    word: true
+    right_word: true
     replace: Calcificações vasculares.
 
   - trigger: "vba"
-    word: true
+    right_word: true
     replace: Clipes metálicos em topografia de hipocôndrio direito podendo estar associados a cirurgia prévia. Correlacionar com dados clínicos.
 
   - trigger: "vf"
-    word: true
+    right_word: true
     replace: Opacidades consolidativas e alveolares esparsas pelo parênquima pulmonar.
 
   - trigger: "volvo"
-    word: true
+    right_word: true
     replace: "Distensão gasosa de alças colônicas, notadamente no cólon sigmoide (medindo até 12,0 cm) com perda das haustrações, melhor avaliada por estudo tomográfico."
 
   - trigger: "zebra"
-    word: true
+    right_word: true
     replace: "Estrias hiperdensas nas diáfises proximal e distal do fêmur, da tíbia e da fíbula (sinal de listra de zebra)."
 
   - trigger: "DIR"
-    word: true
+    right_word: true
     replace: DIREITO
 
   - trigger: "ESQ"
-    word: true
+    right_word: true
     replace: ESQUERDO
 
   - trigger: "aac"
-    word: true
+    right_word: true
     replace: Arco aórtico com calcificações.
 
   - trigger: "aap"
-    word: true
+    right_word: true
     replace: Arco aórtico proeminente.
 
   - trigger: "aapc"
-    word: true
+    right_word: true
     replace: Arco aórtico proeminente e com placas de calcificações parietais.
 
   - trigger: "adac"
-    word: true
+    right_word: true
     replace: Artropatia degenerativa acromioclavicular.
 
   - trigger: "adao"
-    word: true
+    right_word: true
     replace: Alterações degenerativas do arcabouço ósseo.
 
   - trigger: "adq"
-    word: true
+    right_word: true
     replace: "Artropatia degenerativa dos quadris, caracterizada por redução predominante do espaço articular superior, esclerose do teto acetabular e osteófitos marginais no acetábulo e circunferenciais na cabeça femoral."
 
   - trigger: "adss"
-    word: true
+    right_word: true
     replace: Artropatia degenerativa das sacro-ilíacas e da sínfise púbica.
 
   - trigger: "adtj"
-    word: true
+    right_word: true
     replace: "Artropatia degenerativa tricompartimental dos joelhos, caracterizada por redução do espaço articular femorotibial medial, esclerose do platô tibial medial e osteofitose marginal femorotibial e retropatelar."
 
   - trigger: "agr"
-    word: true
+    right_word: true
     replace: Ausência de gás no reto.
 
   - trigger: "alom"
-    word: true
+    right_word: true
     replace: Acentuação da lordose lombar.
 
   - trigger: "anterolis"
-    word: true
+    right_word: true
     replace: Anterolistese grau I de
 
   - trigger: "anterolisl5"
-    word: true
+    right_word: true
     replace: Anterolistese (grau I) de L5 sobre S1.
 
   - trigger: "apenasuma"
-    word: true
+    right_word: true
     replace: Exame realizado em apenas uma incidência.
 
   - trigger: "arcoss"
-    word: true
+    right_word: true
     replace: Arcos costais visualizados integros.
 
   - trigger: "arqfai"
-    word: true
+    right_word: true
     replace: Acentuada quantidade de resíduos fecais em alças intestinais.
 
   - trigger: "artroac"
-    word: true
+    right_word: true
     replace: Artropatia degenerativa acromioclavicular.
 
   - trigger: "artroap"
-    word: true
+    right_word: true
     replace: Artropatia degenerativa das interapofisárias.
 
   - trigger: "artroapu"
-    word: true
+    right_word: true
     replace: "Artropatia degenerativa das interapofisárias, das uncovertebrais e da atlanto-axial."
 
   - trigger: "artrosisp"
-    word: true
+    right_word: true
     replace: Artropatia das sacroilíacas e da sínfise púbica.
 
   - trigger: "atec6"
-    word: true
+    right_word: true
     replace: Caracterizados corpos vertebrais até C6 na incidência em perfil.
 
   - trigger: "atrama"
-    word: true
+    right_word: true
     replace: Acentuação da trama vascular pulmonar.
 
   - trigger: "aumentorino"
-    word: true
+    right_word: true
     replace: "Aumento de partes moles da parede posterior da rinofaringe, determinando redução da coluna aérea."
 
   - trigger: "ausenciade"
-    word: true
+    right_word: true
     replace: Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "cage"
-    word: true
+    right_word: true
     replace: |
       Artrodese bipedicular fixando XXX.
       Clipe metálico intradiscal em XXX.
 
   - trigger: "calciv"
-    word: true
+    right_word: true
     replace: Calcificações vasculares.
 
   - trigger: "cee"
-    word: true
+    right_word: true
     replace: |
       Controle evolutivo evidencia:
       
       Comparar com exames anteriores.
 
   - trigger: "comcon"
-    word: true
+    right_word: true
     replace: com sinais de consolidação.
 
   - trigger: "comdi"
-    word: true
+    right_word: true
     replace: com dimensões aumentadas.
 
   - trigger: "controleartro"
-    word: true
+    right_word: true
     replace: "Controle de artroplastia tricompartimental, cimentada, com componentes tópicos, sem sinais de soltura / osteólise."
 
   - trigger: "dadss"
-    word: true
+    right_word: true
     replace: Discreta artropatia degenerativa nas sacro-ilíacas e sínfise púbica.
 
   - trigger: "dartroap"
-    word: true
+    right_word: true
     replace: Discreta artropatia das interapofisárias.
 
   - trigger: "deavali"
-    word: true
+    right_word: true
     replace: de avaliação limitada.
 
   - trigger: "deest"
-    word: true
+    right_word: true
     replace: de estudo prejudicado.
 
   - trigger: "desviolat"
-    word: true
+    right_word: true
     replace: Desvio lateral da coluna lombar com convexidade para a
 
   - trigger: "desviolatd"
-    word: true
+    right_word: true
     replace: Desvio da coluna lombar com convexidade para a direita (ângulo de Cobb menor que 10°).
 
   - trigger: "desviolate"
-    word: true
+    right_word: true
     replace: Desvio da coluna lombar com convexidade para a esquerda (ângulo de Cobb menor que 10°).
 
   - trigger: "dgai"
-    word: true
+    right_word: true
     replace: Distensão gasosa de alças intestinais.
 
   - trigger: "eeduodeno"
-    word: true
+    right_word: true
     replace: |
       ESOFAGO - ESTOMAGO E DUODENO
       
@@ -1918,15 +1918,15 @@ matches:
       Esôfago, estômago e duodeno radiologicamente normais.
 
   - trigger: "elevacu"
-    word: true
+    right_word: true
     replace: Elevação da cúpula diafragmática à direita.
 
   - trigger: "emce"
-    word: true
+    right_word: true
     replace: Eletrodos de monitorização cardíaca externa.
 
   - trigger: "enemaopaco"
-    word: true
+    right_word: true
     replace: |
       ENEMA OPACO
 
@@ -1948,63 +1948,63 @@ matches:
       Refluxo do meio de contraste para o íleo terminal de aspecto normal
 
   - trigger: "entedifu"
-    word: true
+    right_word: true
     replace: Entesopatia difusa.
 
   - trigger: "enteitc"
-    word: true
+    right_word: true
     replace: "Entesopatia nos ísquios, trocânteres maiores e crista ilíaca."
 
   - trigger: "entepat"
-    word: true
+    right_word: true
     replace: Entesófito no polo superior da patela.
 
   - trigger: "enteplan"
-    word: true
+    right_word: true
     replace: Entesófito no aspecto plantar do calcâneo.
 
   - trigger: "entepos"
-    word: true
+    right_word: true
     replace: Entesófito no aspecto posterior do calcâneo.
 
   - trigger: "entepp"
-    word: true
+    right_word: true
     replace: Entesófitos no aspecto plantar e posterior do calcâneo.
 
   - trigger: "entesofitopat"
-    word: true
+    right_word: true
     replace: Entesófito na inserção patelar do tendão do quadríceps.
 
   - trigger: "escoliose"
-    word: true
+    right_word: true
     replace: "Escoliose sigmoidea da coluna vertebral, com desvio para a direita do segmento torácico e para a esquerda do segmento lombar."
 
   - trigger: "espondil"
-    word: true
+    right_word: true
     replace: Espondilose lombar.
 
   - trigger: "espondit"
-    word: true
+    right_word: true
     replace: Espondilose torácica.
 
   - trigger: "eteto"
-    word: true
+    right_word: true
     replace: Esclerose do teto acetabular associada a osteofitose marginal.
 
   - trigger: "falhaf"
-    word: true
+    right_word: true
     replace: Falha de fusão do arco posterior
 
   - trigger: "fioesterno"
-    word: true
+    right_word: true
     replace: Fios metálicos de esternorrafia.
 
   - trigger: "fx"
-    word: true
+    right_word: true
     replace: fratura
 
   - trigger: "histero"
-    word: true
+    right_word: true
     replace: |
       HISTEROSSALPINGOGRAMA
       
@@ -2018,7 +2018,7 @@ matches:
       Histerossalpingograma normal.
 
   - trigger: "idadeossea"
-    word: true
+    right_word: true
     replace: |
       MAOS E PUNHOS PARA IDADE OSSEA
       
@@ -2032,43 +2032,43 @@ matches:
       A idade óssea do paciente é compatível com a idade cronológica referida segundo o método de Grewlich-Pyle.
 
   - trigger: "interap"
-    word: true
+    right_word: true
     replace: interapofisárias
 
   - trigger: "invagivert"
-    word: true
+    right_word: true
     replace: "Ápice do processo odontóide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação vertebrobasilar."
 
   - trigger: "iomcv"
-    word: true
+    right_word: true
     replace: Incipientes osteófitos marginais nos corpos vertebrais.
 
   - trigger: "ioretrop"
-    word: true
+    right_word: true
     replace: Incipiente osteofitose retropatelar.
 
   - trigger: "joelhore"
-    word: true
+    right_word: true
     replace: Redução do espaço articular femorotibial medial.
 
   - trigger: "l1"
-    word: true
+    right_word: true
     replace: "Exame realizado em apenas uma incidência, limitando a avaliação."
 
   - trigger: "l2"
-    word: true
+    right_word: true
     replace: Exame de avaliação limitada devido a técnica empregada.
 
   - trigger: "limit"
-    word: true
+    right_word: true
     replace: Exame de avaliação limitada devido a técnica empregada.
 
   - trigger: "limituma"
-    word: true
+    right_word: true
     replace: "Exame realizado em apenas uma incidência, limitando a avaliação."
 
   - trigger: "maozuada"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE MÃO
       
@@ -2076,147 +2076,147 @@ matches:
       Redução dos espaços articulares radiocárpicos, intercárpicos, carpometacárpicos, metacarpofalangeanos e interfalangenos. Associam-se esclerose das margens aposras, osteofitose marginal e perda da morfologia habitual das cabeças das falanges distais.
 
   - trigger: "marcap"
-    word: true
+    right_word: true
     replace: Marcapasso cardíaco subcutâneo em hemitórax
 
   - trigger: "mgi"
-    word: true
+    right_word: true
     replace: Material gessado de imobilização contendo estruturas do
 
   - trigger: "mmo"
-    word: true
+    right_word: true
     replace: Material metálico de osteossíntese fixado
 
   - trigger: "mmos"
-    word: true
+    right_word: true
     replace: Materiais metálicos de osteossíntese fixados
 
   - trigger: "mmsv"
-    word: true
+    right_word: true
     replace: Materiais de suporte à vida.
 
   - trigger: "mretrolis"
-    word: true
+    right_word: true
     replace: Mínima retrolistese de
 
   - trigger: "msv"
-    word: true
+    right_word: true
     replace: Materiais de suporte à vida.
 
   - trigger: "oalveolares"
-    word: true
+    right_word: true
     replace: Opacidades alveolares esparsas pelos campos pulmonares.
 
   - trigger: "oblipat"
-    word: true
+    right_word: true
     replace: "Obliteração da gordura suprapatelar, por provável derrame articular."
 
   - trigger: "ointersti"
-    word: true
+    right_word: true
     replace: Opacidades interticiais esparsas pelos campos pulmonares.
 
   - trigger: "ointerstia"
-    word: true
+    right_word: true
     replace: Opacidades intersticioalveolares esparsas pelos campos pulmonares.
 
   - trigger: "omcv"
-    word: true
+    right_word: true
     replace: Osteófitos marginais nos corpos vertebrais.
 
   - trigger: "oreticulo"
-    word: true
+    right_word: true
     replace: Opacidades reticulares esparsas pelos campos pulmonares.
 
   - trigger: "oreticulon"
-    word: true
+    right_word: true
     replace: Opacidades reticulonodulares esparsas pelos campos pulmonares.
 
   - trigger: "oretrop"
-    word: true
+    right_word: true
     replace: Osteofitose retropatelar.
 
   - trigger: "partesmoles"
-    word: true
+    right_word: true
     replace: "Aumento do volume de partes moles, adjacentes ao sítio de lesão."
 
   - trigger: "phipo"
-    word: true
+    right_word: true
     replace: "Pulmões hipoexpandidos, prejudicando a avaliação."
 
   - trigger: "pnv"
-    word: true
+    right_word: true
     replace: Psoas não visualizados.
 
   - trigger: "ppa"
-    word: true
+    right_word: true
     replace: Placa e parafusos metálicos determinando artrodese da
 
   - trigger: "ppos"
-    word: true
+    right_word: true
     replace: Placa e parafusos metálicos determinando osteossíntese de
 
   - trigger: "proemib"
-    word: true
+    right_word: true
     replace: Proeminência hilar bilateral.
 
   - trigger: "proemid"
-    word: true
+    right_word: true
     replace: Proeminência hilar à direita.
 
   - trigger: "proemie"
-    word: true
+    right_word: true
     replace: Proeminência hilar à esquerda.
 
   - trigger: "proemita"
-    word: true
+    right_word: true
     replace: Proeminência do processo posterior do tálus.
 
   - trigger: "quadrilre"
-    word: true
+    right_word: true
     replace: Redução do espaço articular do quadril associado a  osteofitose e esclerose da borda acetabular.
 
   - trigger: "rdo"
-    word: true
+    right_word: true
     replace: Redução da densidade óssea.
 
   - trigger: "redub"
-    word: true
+    right_word: true
     replace: Redução da transparência pulmonar nas bases.
 
   - trigger: "reduft"
-    word: true
+    right_word: true
     replace: Redução do espaço articular femorotibial medial.
 
   - trigger: "redufte"
-    word: true
+    right_word: true
     replace: Redução do espaço femorotibial medial associada a esclerose do platô tibial medial.
 
   - trigger: "reduid"
-    word: true
+    right_word: true
     replace: Redução do espaço articular interfalangeano distal.
 
   - trigger: "reduii"
-    word: true
+    right_word: true
     replace: "Redução do espaço articular interfalengeano, associado a irregularidade, osteofitose, esclerose e cistos subcorticais."
 
   - trigger: "reduqa"
-    word: true
+    right_word: true
     replace: Enter your replacement text here...
 
   - trigger: "retcer"
-    word: true
+    right_word: true
     replace: Retificação da lordose fisiológica cervical.
 
   - trigger: "retlom"
-    word: true
+    right_word: true
     replace: Retificação da lordose lombar.
 
   - trigger: "retrolis"
-    word: true
+    right_word: true
     replace: Retrolistese de
 
   - trigger: "rxcavum3"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE CAVUM
       
@@ -2225,7 +2225,7 @@ matches:
       Adenóides radiologicamente normais.
 
   - trigger: "rxombro1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO OMBRO
       
@@ -2235,67 +2235,67 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxsonda"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE TORAX
       
       Radiografia realizada para visualização de sonda entérica, prejudicando estudo detalhado do tórax devido à técnica empregada.
 
   - trigger: "rxsonda2"
-    word: true
+    right_word: true
     replace: Radiografia realizada para visualização de sonda entérica, prejudicando estudo detalhado do tórax devido à técnica empregada.
 
 
   - trigger: "samed"
-    word: true
+    right_word: true
     replace: Sinais de alargamento mediastinal.
 
   - trigger: "scda"
-    word: true
+    right_word: true
     replace: Silhueta cardíaca com dimensões aumentadas.
 
   - trigger: "scnl"
-    word: true
+    right_word: true
     replace: Silhueta cardíaca com dimensões aumentadas.
 
   - trigger: "seiod"
-    word: true
+    right_word: true
     replace: Seio costofrênico direito
 
   - trigger: "seiodo"
-    word: true
+    right_word: true
     replace: Seio costofrênico direito obliterado.
 
   - trigger: "seioe"
-    word: true
+    right_word: true
     replace: Seio costofrênico esquerdo
 
   - trigger: "seioeo"
-    word: true
+    right_word: true
     replace: Seio costofrênico esquerdo obliterado.
 
   - trigger: "seioi"
-    word: true
+    right_word: true
     replace: seio costofrênico ipsilateral.
 
   - trigger: "seiosc"
-    word: true
+    right_word: true
     replace: seios costofrênicos
 
   - trigger: "seiosl"
-    word: true
+    right_word: true
     replace: Seios costofrênicos livres.
 
   - trigger: "seioso"
-    word: true
+    right_word: true
     replace: Seios costofrênicos obliterados.
 
   - trigger: "seiosobli"
-    word: true
+    right_word: true
     replace: Seios costofrênicos obliterados.
 
   - trigger: "selaturcica"
-    word: true
+    right_word: true
     replace: |
       SELA TÚRCICA
       
@@ -2306,37 +2306,37 @@ matches:
       Sela Túrcica radiologicamente normal.
 
   - trigger: "semfx"
-    word: true
+    right_word: true
     replace: |
       Exame realizado em caráter de urgência.
       
       Ausência de imagem sugestiva de fratura nas incidências realizadas.
 
   - trigger: "semfx1"
-    word: true
+    right_word: true
     replace: |
       Exame realizado em caráter de urgência em apenas uma incidência.
       
       Ausência de imagem sugestiva de fratura na incidência realizada.
 
   - trigger: "sitio"
-    word: true
+    right_word: true
     replace: Aumento e densificação de partes moles adjacentes ao sítio de fratura.
 
   - trigger: "subo"
-    word: true
+    right_word: true
     replace: Exame de avaliação limitada devido a técnica empregada com condições técnicas subótimas para laudo.
 
   - trigger: "subotimo"
-    word: true
+    right_word: true
     replace: "* Exame de características subótimas para laudo"
 
   - trigger: "top"
-    word: true
+    right_word: true
     replace: Textura óssea preservada.
 
   - trigger: "transitointestinal"
-    word: true
+    right_word: true
     replace: |
       TRÂNSITO INTESTINAL
       
@@ -2350,7 +2350,7 @@ matches:
       Trânsito intestinal normal.
 
   - trigger: "uretrocisto"
-    word: true
+    right_word: true
     replace: |
       URETROCISTOGRAFIA
       
@@ -2365,11 +2365,11 @@ matches:
       Uretrocistografia dentro dos padrões normais.
 
   - trigger: "urgen"
-    word: true
+    right_word: true
     replace: Exame realizado em caráter de urgência.
 
   - trigger: "urografia"
-    word: true
+    right_word: true
     replace: |
       UROGRAFIA EXCRETORA
       
@@ -2383,31 +2383,31 @@ matches:
       Urograma normal.
 
   - trigger: "visuate"
-    word: true
+    right_word: true
     replace: Visualizado até corpo vertebra de C6 na incidência em perfil.
 
   - trigger: "vtt"
-    word: true
+    right_word: true
     replace: "Caracterizadas 6 vértebras com características lombares, sendo a última denominada vértebra de transição (VT)."
 
   - trigger: "vun"
-    word: true
+    right_word: true
     replace: Variância ulnar negativa.
 
   - trigger: "vup"
-    word: true
+    right_word: true
     replace: Variância ulnar positiva.
 
   - trigger: "adenoide"
-    word: true
+    right_word: true
     replace: "Aumento de partes moles da parede posterior da rinofaringe, determinando redução da coluna aérea."
 
   - trigger: "oparet"
-    word: true
+    right_word: true
     replace: Opacidades reticulares esparsas no parênquima pulmonar.
 
   - trigger: "rxabd"
-    word: true
+    right_word: true
     replace: |
       Textura e morfologia óssea preservada.
       Visualização parcial das vísceras abdominais por interposição gasosa.
@@ -2418,7 +2418,7 @@ matches:
       Não há evidência de calcificações patológicas.
 
   - trigger: "rxabd2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE ABDOME
       
@@ -2434,7 +2434,7 @@ matches:
       - Flebólitos em topografia pélvica.
 
   - trigger: "rxagudo"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE TÓRAX
       
@@ -2455,7 +2455,7 @@ matches:
       Não há evidência de calcificações patológicas.
 
   - trigger: "rxantebraço1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE ANTEBRAÇO
       
@@ -2465,7 +2465,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxantebraço2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE ANTEBRAÇO DIREITO / ESQUERDO
       
@@ -2478,7 +2478,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxantebraçod"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE ANTEBRAÇO DIREITO
       
@@ -2488,7 +2488,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxantebraçoe"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE ANTEBRAÇO ESQUERDO
       
@@ -2498,7 +2498,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxarcos1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE ARCOS COSTAIS
       
@@ -2506,7 +2506,7 @@ matches:
       Arcos costais visualizados íntegros.
 
   - trigger: "rxatm1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE ARTICULAÇÕES TEMPOROMANDIBULARES
       
@@ -2518,7 +2518,7 @@ matches:
       Excursão normal dos côndilos  mandibulares com a abertura da boca.
 
   - trigger: "rxatm2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE ARTICULAÇÕES TEMPOROMANDIBULARES
       
@@ -2535,7 +2535,7 @@ matches:
       - Hiperexcursão dos côndilos mandibulares com a abertura da boca, posicionando-se à frente das eminências articulares.
 
   - trigger: "rxbacia1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE BACIA
       
@@ -2544,7 +2544,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxb"
-    word: true
+    right_word: true
     replace: |
       Textura óssea preservada.
       Morfologia óssea preservada.
@@ -2552,7 +2552,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxbacia2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE BACIA
       
@@ -2574,7 +2574,7 @@ matches:
       - Calcificações heterotópica peritrocantérica.
 
   - trigger: "rxbraço1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE BRAÇO DIREITO / ESQUERDO
       
@@ -2584,7 +2584,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxbraço2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE BRAÇO DIREITO / ESQUERDO
       
@@ -2596,7 +2596,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxbraçod"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE BRAÇO DIREITO
       
@@ -2606,7 +2606,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxbraçoe"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE BRAÇO  ESQUERDO
       
@@ -2616,7 +2616,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxcalcaneo1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE CALCÂNEO DIREITO / ESQUERDO
       
@@ -2625,7 +2625,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxcalcaneo2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE CALCÂNEO DIREITO / ESQUERDO
       
@@ -2637,7 +2637,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxcalcaneod"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE CALCÂNEO DIREITO
       
@@ -2645,7 +2645,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxcalcaneoe"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE CALCÂNEO ESQUERDO
       
@@ -2653,7 +2653,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxcavum1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE CAVUM
       
@@ -2662,7 +2662,7 @@ matches:
       Partes moles sem alterações significativas.
 
   - trigger: "rxcavum2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE CAVUM
       
@@ -2673,7 +2673,7 @@ matches:
       Partes moles sem alterações significativas.
 
   - trigger: "rxcervical1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE COLUNA CERVICAL
       
@@ -2687,7 +2687,7 @@ matches:
       Ausência de costela cervical acessória.
 
   - trigger: "rxcervical2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE COLUNA CERVICAL
       
@@ -2712,7 +2712,7 @@ matches:
       Ausência de costela cervical acessória.
 
   - trigger: "rxclavi1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DA CLAVÍCULA DIREITA / ESQUERDA
       
@@ -2722,7 +2722,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxclavid"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DA CLAVÍCULA DIREITA
       
@@ -2731,7 +2731,7 @@ matches:
       Relação e espaço articular glenoumeral preservados.
 
   - trigger: "rxclavie"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DA CLAVÍCULA ESQUERDA
       
@@ -2740,7 +2740,7 @@ matches:
       Relação e espaço articular glenoumeral preservados.
 
   - trigger: "rxcoto1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE COTOVELO
       
@@ -2750,7 +2750,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxcoto2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE COTOVELO DIREITO / ESQUERDO
       
@@ -2763,7 +2763,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxcotod"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE COTOVELO DIREITO
       
@@ -2772,7 +2772,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxcotoe"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE COTOVELO ESQUERDO
       
@@ -2781,7 +2781,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxcoxa1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DA COXA
       
@@ -2791,7 +2791,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxcranio1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE CRÂNIO
       
@@ -2802,7 +2802,7 @@ matches:
       Mastóides com aeração preservada.
 
   - trigger: "rxcranio2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE CRÂNIO
       
@@ -2814,7 +2814,7 @@ matches:
       Mastóides com aeração preservada.
 
   - trigger: "rxdedo0"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO X DEDO DA MÃO DIREITA / ESQUERDA
       
@@ -2824,7 +2824,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdedo1d"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO PRIMEIRO DEDO DA MÃO DIREITA
       
@@ -2834,7 +2834,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdedo1e"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO PRIMEIRO DEDO DA MÃO ESQUERDA
       
@@ -2844,7 +2844,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdedo2d"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO SEGUNDO DEDO DA MÃO DIREITA
       
@@ -2854,7 +2854,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdedo2e"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO SEGUNDO DEDO DA MÃO ESQUERDO
       
@@ -2864,7 +2864,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdedo3d"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO TERCEIRO DEDO DA MÃO DIREITA
       
@@ -2874,7 +2874,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdedo3e"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO TERCEIRO DEDO DA MÃO ESQUERDA
       
@@ -2884,7 +2884,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdedo4d"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO QUARTO DEDO DA MÃO DIREITA
       
@@ -2894,7 +2894,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdedo4e"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO QUARTO DEDO DA MÃO ESQUERDO
       
@@ -2904,7 +2904,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdedo5d"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO QUINTO DEDO DA MÃO DIREITA
       
@@ -2914,7 +2914,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdedo5e"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO QUINTO DEDO DA MÃO ESQUERDO
       
@@ -2924,7 +2924,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxdorsal2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE COLUNA TORÁCICA
       
@@ -2944,7 +2944,7 @@ matches:
       - Demais espaços discais preservados.
 
   - trigger: "rxfemur2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE FÊMUR DIREITO / ESQUERDO
       
@@ -2959,7 +2959,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxfemurd"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE FÊMUR DIREITO
       
@@ -2969,7 +2969,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxfemure"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE FÊMUR ESQUERDO
       
@@ -2979,14 +2979,14 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxgeral"
-    word: true
+    right_word: true
     replace: |
       Textura óssea normal.
       Estruturas ósseas visualizadas íntegras.
       Espaços articulares conservados.
 
   - trigger: "rxjoelho1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO JOELHO DIREITO / ESQUERDO
       
@@ -2996,7 +2996,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxjoelho2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO JOELHO DIREITO/ESQUERDO
       
@@ -3017,7 +3017,7 @@ matches:
       - Controle de artroplastia tricompartimental, cimentada, com componentes tópicos, sem sinais de soltura / osteólise.
 
   - trigger: "rxjoelhod"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO JOELHO DIREITO
       
@@ -3027,7 +3027,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxjoelhoe"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO JOELHO ESQUERDO
       
@@ -3037,7 +3037,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxlombar1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE COLUNA LOMBAR
       
@@ -3049,7 +3049,7 @@ matches:
       Espaços discais preservados.
 
   - trigger: "rxlombar2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE COLUNA LOMBAR
       
@@ -3070,7 +3070,7 @@ matches:
       - Demais espaços discais preservados.
 
   - trigger: "rxmao1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DA MÃO DIREITA / ESQUERDA
       
@@ -3080,7 +3080,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxmao2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DA MÃO DIREITA / ESQUERDA
       
@@ -3095,7 +3095,7 @@ matches:
       - Distensão de partes moles.
 
   - trigger: "rxmaod"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DA MÃO DIREITA
       
@@ -3104,7 +3104,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxmaoe"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DA MÃO ESQUERDA
       
@@ -3113,7 +3113,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxmastoide1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE MASTÓIDES
       
@@ -3122,7 +3122,7 @@ matches:
       Aeração normal das mastóides.
 
   - trigger: "rxmastoide2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE MASTÓIDES
       
@@ -3134,7 +3134,7 @@ matches:
       - Hipopneumatização da mastóide .
 
   - trigger: "rxombro1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO OMBRO DIREITO / ESQUERDO
       
@@ -3144,7 +3144,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxombro2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO OMBRO DIREITO/ESQUERDO
       
@@ -3162,7 +3162,7 @@ matches:
       - Calcificação de partes moles adjacente ao trocanter maior, na topografia da inserção músculo supraespinhal, devendo corresponder a tendinopatia calcárea.
 
   - trigger: "rxombrod"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO OMBRO DIREITO
       
@@ -3171,7 +3171,7 @@ matches:
       Relação e espaço articular glenoumeral preservados.
 
   - trigger: "rxombroe"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO OMBRO ESQUERDO
       
@@ -3181,7 +3181,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxpanclavi"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA PANORÂMICA DAS CLAVÍCULAS
       
@@ -3190,7 +3190,7 @@ matches:
       Relação e espaços articulares glenoumerais preservados.
 
   - trigger: "rxpancol1"
-    word: true
+    right_word: true
     replace: |
       ESTUDO RADIOGRÁFICO PANORÂMICO DA COLUNA VERTEBRAL
       
@@ -3200,7 +3200,7 @@ matches:
       Corpos vertebrais com altura e alinhamento posterior preservados.
 
   - trigger: "rxpancol2"
-    word: true
+    right_word: true
     replace: |
       ESTUDO RADIOGRÁFICO PANORÂMICO DA COLUNA VERTEBRAL
       
@@ -3221,7 +3221,7 @@ matches:
       - Corpos vertebrais alinhamento posterior preservados.
 
   - trigger: "rxpanmmii1"
-    word: true
+    right_word: true
     replace: |
       ESTUDO RADIOGRÁFICO PANORÂMICO DOS MEMBROS INFERIORES
       
@@ -3231,7 +3231,7 @@ matches:
       Partes moles sem alterações.
 
   - trigger: "rxpanoramico1"
-    word: true
+    right_word: true
     replace: |
       ESTUDO RADIOGRÁFICO PANORÂMICO DOS MEMBROS INFERIORES
       
@@ -3241,7 +3241,7 @@ matches:
       Partes moles sem alterações.
 
   - trigger: "rxpe1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO PÉ DIREITO / ESQUERDO
       
@@ -3250,7 +3250,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxpe2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO PÉ DIREITO / ESQUERDO
       
@@ -3270,7 +3270,7 @@ matches:
       - Entesófito na tuberosidade posterior do calcâneo, bilateralmente.
 
   - trigger: "rxped"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO PÉ DIREITO
       
@@ -3279,7 +3279,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxpee"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO PÉ ESQUERDO
       
@@ -3288,7 +3288,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxperna1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE PERNA DIREITA / ESQUERDA
       
@@ -3297,7 +3297,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxperna2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE PERNA DIREITA / ESQUERDA
       
@@ -3308,7 +3308,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxpernad"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE PERNA DIREITA
       
@@ -3316,7 +3316,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxpernae"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE PERNA ESQUERDA
       
@@ -3324,7 +3324,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxpunho1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE PUNHO
       
@@ -3334,7 +3334,7 @@ matches:
       Ausência de calcificações de partes moles.
 
   - trigger: "rxpunho2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE PUNHO DIREITO / ESQUERDO
       
@@ -3347,7 +3347,7 @@ matches:
       - Calcificação de partes moles na topografia da cartilagem triangular do punho.
 
   - trigger: "rxpunhod"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE PUNHO DIREITO
       
@@ -3356,7 +3356,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxpunhoe"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE PUNHO ESQUERDO
       
@@ -3365,7 +3365,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxq1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO QUADRIL
       
@@ -3374,7 +3374,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxq2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO QUADRIL DIREITO / ESQUERDO / BILATERAL
       
@@ -3387,7 +3387,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxquadrild"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO QUADRIL DIREITO
       
@@ -3395,7 +3395,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxquadrile"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO QUADRIL ESQUERDO
       
@@ -3403,7 +3403,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxquiro1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DO QUIRODACTILO
       
@@ -3412,7 +3412,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxsacro"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DA COLUNA SACROCCOCÍGEA
       
@@ -3421,7 +3421,7 @@ matches:
       Angulação anterior das últimas peças coccígeas, com traço radiolucente, sugestivo de fratura.
 
   - trigger: "rxseio1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE SEIOS DA FACE
       
@@ -3431,7 +3431,7 @@ matches:
       Septo nasal sem desvios expressivos.
 
   - trigger: "rxseio2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE SEIOS DA FACE
       
@@ -3446,7 +3446,7 @@ matches:
       - Aumento de partes moles da parede posterior da rinofaringe.
 
   - trigger: "rxt1"
-    word: true
+    right_word: true
     replace: |
       Textura e morfologia óssea preservada.
       Hilos e trama vascular pulmonar normais.
@@ -3455,7 +3455,7 @@ matches:
       Silhueta cardíaca com área normal.
 
   - trigger: "rxtoabd"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE TÓRAX
       
@@ -3477,7 +3477,7 @@ matches:
       Presença de gás no reto.
 
   - trigger: "rxtoracica1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE COLUNA TORÁCICA
       
@@ -3489,7 +3489,7 @@ matches:
       Espaços discais preservados.
 
   - trigger: "rxt"
-    word: true
+    right_word: true
     replace: |
       Textura e morfologia óssea preservada.
       Hilos e trama vascular pulmonar normais.
@@ -3498,7 +3498,7 @@ matches:
       Silhueta cardíaca com área normal.
 
   - trigger: "rxtorax1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE TÓRAX
       
@@ -3509,7 +3509,7 @@ matches:
       Silhueta cardíaca com área normal.
 
   - trigger: "rxtorax2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE TÓRAX
       
@@ -3529,7 +3529,7 @@ matches:
       - Arco aórtico alongado e tortuoso com calcificações parietais.
 
   - trigger: "rxtorn1"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE TORNOZELO
       
@@ -3538,7 +3538,7 @@ matches:
       Ausência de calcificações de partes moles periarticulares.
 
   - trigger: "rxtorn2"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE TORNOZELO
       
@@ -3556,7 +3556,7 @@ matches:
       - Entesófito na tuberosidade posterior do calcâneo, bilateralmente.
 
   - trigger: "rxtornd"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE TORNOZELO DIREITO
       
@@ -3564,7 +3564,7 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "rxtorne"
-    word: true
+    right_word: true
     replace: |
       RADIOGRAFIA DE TORNOZELO ESQUERDO
       
@@ -3572,9 +3572,9 @@ matches:
       Espaços articulares preservados.
 
   - trigger: "scad"
-    word: true
+    right_word: true
     replace: Silhueta cardíaca com sinais de aumento de suas dimensões.
 
   - trigger: "traço"
-    word: true
+    right_word: true
     replace: Traço radiolucente XX podendo corresponder a fratura em contexto de trauma.
