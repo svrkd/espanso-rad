@@ -55,4 +55,4 @@
 # Desabilita o comportamento padrão em que pressionar Backspace imediatamente após uma expansão desfaz toda a expansão e restaura o trigger.
 undo_backspace: false
 
-backspace_limit: 0
+backspace_limit: 1
