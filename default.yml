@@ -56,3 +56,5 @@
 undo_backspace: false
 
 backspace_limit: 1
+
+word_separators: [" ", "\n", "\r"]
