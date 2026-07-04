@@ -3,11 +3,11 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DE ABDOME TOTAL
 
-      TÉCNICA:
-      Exame ultrassonográfico realizado utilizando sonda convexa de 3,5 MHz, dirigido para região abdominal, que evidenciou:
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, dirigido para região abdominal, que evidenciou:
 
-      DESCRIÇÃO:
-      Fígado de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima. 
+      Descrição:
+      Fígado de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
       Não há evidência de dilatação das vias biliares intra-hepáticas.
       Vesícula biliar de contornos e dimensões normais, paredes normo-espessas e sem imagem típica de cálculo.
       Pâncreas e aorta abdominal parcialmente visualizados devido interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
@@ -18,7 +18,7 @@ matches:
       Não se observam imagens de litíases.
       Bexiga com capacidade e distensibilidade normais, contornos regulares, paredes lisas e normoespessas.
 
-      CONCLUSÃO:
+      Conclusão:
       Órgãos e estruturas abdominais examinadas de aspecto ultrassonográfico normal.
     right_word: true
 
@@ -26,48 +26,48 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA DE ABDOME SUPERIOR
 
-      TÉCNICA:
-      Exame ultrassonográfico realizado utilizando sonda convexa de 3,5 MHz, dirigido para região abdominal superior, que evidenciou:
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, dirigido para região abdominal superior, que evidenciou:
 
-      DESCRIÇÃO:
-      Fígado de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima. 
+      Descrição:
+      Fígado de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
       Não há evidência de dilatação das vias biliares intra-hepáticas.
       Vesícula biliar de contornos e dimensões normais, paredes normo-espessas e sem imagem típica de cálculo.
       Pâncreas parcialmente visualizado devido interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
       Baço de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
 
-      CONCLUSÃO:
+      Conclusão:
       Aspecto ecográfico normal dos órgãos examinados.
     right_word: true
 
   - trigger: "usrv"
     replace: |-
       ULTRASSONOGRAFIA DOS RINS E VIAS URINÁRIAS
-       
-      TÉCNICA:
-      Exame ultrassonográfico realizado utilizando sonda convexa de 3,5 MHz, dirigido para região dos rins e das vias urinárias, que evidenciou:
-       
+
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, dirigido para região dos rins e das vias urinárias, que evidenciou:
+
       Rim direito:
       Morfologia, contornos e topografia habituais.
       Dimensões: _ cm. Espessura do parênquima: _ cm.
       Parênquima com espessura e diferenciação corticomedular preservada.
       Sistema pielocalicial compacto.
       Não visibilizado imagens compatíveis com cálculos no sistema pielocalicial.
-       
+
       Rim esquerdo:
       Morfologia, contornos e topografia habituais.
       Dimensões: _ cm. Espessura do parênquima: _ cm.
       Parênquima com espessura e diferenciação corticomedular preservada.
       Sistema pielocalicial compacto.
       Não visibilizado imagens compatíveis com cálculos no sistema pielocalicial.
-       
+
       Bexiga urinária:
       Normodistendida, com conteúdo anecóide e não apresentando cálculos.
       Parede vesical regular e de espessura normal.
-       
-      HIPÓTESE DIAGNÓSTICA:
+
+      Conclusão:
       Estudo ultrassonográfico sem evidentes anormalidades apreciáveis ao método.
-       
+
       Obs.: Cálculos renais menores que 4 mm podem não ser identificados devido a limitação inerente do método ecográfico.
     right_word: true
 
@@ -75,26 +75,72 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DE BOLSA ESCROTAL
 
-      DESCRIÇÃO:
-      Testículos com contornos regulares, apresentando textura sólida e homogênea, com dimensões normais.
-      Testículo direito medindo: X cm, nos seus maiores eixos, com volume de X cm³.
-      Testículo esquerdo medindo: X cm, nos seus maiores eixos, com volume de X cm³.
-      (Os testículos de adultos jovens normais medem aproximadamente 12,5 - 19 cm³. No entanto, o tamanho dos testículos diminui com a idade.)
-      Os epidídimos se encontram acolados a face posterior dos testículos e apresentando espessura normal.
-      Ao estudo Doppler, fluxo vascular preservado em ambos os testículos.
+      Descrição:
+      Exame ultra-sonográfico realizado com transdutor linear multifrequencial, sobre a região das bolsas testiculares.
 
-      OPINIÃO:
-      Testículos e epidídimos normais ao ultrassom.
+      Hemibolsa direita:
+      Pele e tecido celular subcutâneo de espessura normal.
+      Epidídimo e estruturas funiculares de dimensões normais e ecotextura habitual.
+      Testículo em topografia, morfologia e contornos normais.
+      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (VR 7-23 cm³).
+      Parênquima testicular com ecotextura homogênea e sem alterações.
+      Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
+      Ausência de dilatação venosa dos plexos pampiniformes.
+
+      Hemibolsa esquerda:
+      Pele e tecido celular subcutâneo de espessura normal.
+      Epidídimo e estruturas funiculares de dimensões normais e ecotextura habitual.
+      Testículo em topografia, morfologia e contornos normais.
+      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (VR 7-23 cm³).
+      Parênquima testicular com ecotextura homogênea e sem alterações.
+      Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
+      Ausência de dilatação venosa dos plexos pampiniformes.
+
+      Conclusão:
+      - Estudo ultrassonográfico sem evidentes anormalidades apreciáveis ao método.
+    right_word: true
+
+  - trigger: "usbolsad"
+    replace: |
+      ULTRASSONOGRAFIA DE BOLSA ESCROTAL COM DOPPLER
+
+      Descrição:
+      Exame ultra-sonográfico realizado com transdutor linear multifrequencial e com estudo Doppler, sobre a região das bolsas testiculares.
+
+      Hemibolsa direita:
+      Pele e tecido celular subcutâneo de espessura normal.
+      Epidídimo e estruturas funiculares de dimensões normais e ecotextura habitual.
+      Testículo em topografia, morfologia e contornos normais.
+      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (VR 7-23 cm³).
+      Parênquima testicular com ecotextura homogênea e sem alterações.
+      Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
+      Ausência de dilatação venosa dos plexos pampiniformes.
+      Fluxo vascular presente no testículo ao estudo Doppler.
+      Artéria testicular com fluxo de amplitude e velocidade normais, apresentando índice de resistência de _ (VR 0,45-0,78).
+
+      Hemibolsa esquerda:
+      Pele e tecido celular subcutâneo de espessura normal.
+      Epidídimo e estruturas funiculares de dimensões normais e ecotextura habitual.
+      Testículo em topografia, morfologia e contornos normais.
+      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (VR 7-23 cm³).
+      Parênquima testicular com ecotextura homogênea e sem alterações.
+      Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
+      Ausência de dilatação venosa dos plexos pampiniformes.
+      Fluxo vascular presente no testículo ao estudo Doppler.
+      Artéria testicular com fluxo de amplitude e velocidade normais, apresentando índice de resistência de _ (VR 0,45-0,78).
+
+      Conclusão:
+      - Estudo ultrassonográfico sem evidentes anormalidades apreciáveis ao método.
     right_word: true
 
   - trigger: "uscervical"
     replace: |
       ULTRASSOM DE CERVICAL
 
-      TÉCNICA:
-      Exame realizado em modo bidimensional com equipamento dinâmico linear na frequência de 11,0 Mhz.
+      Técnica:
+      Exame realizado em modo bidimensional com equipamento dinâmico linear multifrequencial.
 
-      DESCRIÇÃO:
+      Descrição:
       Pele lisa, regular e de espessura normal.
       Músculos pré-tireoideanos de textura homogênea e sem alterações acústicas.
       Artérias carótidas com calibre e pulsatilidades normais, paredes ecogênicas, lisas e conteúdo anecóico.
@@ -102,7 +148,7 @@ matches:
       Glândulas submandibulares e parótidas com ecogenicidade preservada.
       Não se observam linfonodomegalias.
 
-      CONCLUSÃO
+      Conclusão:
       Exame ecográfico da região cervical sem evidências de alterações.
     right_word: true
 
@@ -110,15 +156,15 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DAS PARTES MOLES / ESTRUTURAS SUPERFICIAIS
 
-      TÉCNICA:
-      Exame realizado com transdutor linear de 11,0 MHz e convexo de 5,0 MHZ na região de queixa do paciente (XXX).
+      Técnica:
+      Exame realizado com transdutor linear e convexo multifrequenciais, na região de queixa do paciente (XXX).
 
-      DESCRIÇÃO:
+      Descrição:
       Pele e tecido celular subcutâneo sem alterações.
       Planos musculares preservados.
       Não há evidência de nódulo ou coleção organizada no presente estudo.
 
-      CONCLUSÃO
+      Conclusão:
       Exame sem alterações significativas.
     right_word: true
 
@@ -126,15 +172,15 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA DE PAREDE ABDOMINAL
 
-      TÉCNICA:
-      Exame realizado com transdutor linear de 11,0 MHz e convexo de 5,0 MHZ
+      Técnica:
+      Exame realizado com transdutor linear e convexo multifrequenciais.
 
-      DESCRIÇÃO:
+      Descrição:
       Planos musculares sem evidências de alterações.
       Ausência de imagens ecográficas sugestivas de cistos e/ou coleções.
       Ausência de imagens sugestivas de herniação.
 
-      OPINIÂO:
+      Conclusão:
       Exame ecográfico sem alterações significativas.
     right_word: true
 
@@ -142,15 +188,15 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DE REGIÃO INGUINAL DIREITA
 
-      TÉCNICA:
-      Exame realizado com transdutor linear de 11,0 MHz para estudo da região inguinal direita.
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial para estudo da região inguinal direita.
 
-      DESCRIÇÃO:
+      Descrição:
       Aspecto ecográfico normal da região inguinal direita.
       Não foram observadas imagens nodulares sólidas ou císticas na região examinada.
-      Ausência de imagem sugestiva de hérnia no presente exame. 
+      Ausência de imagem sugestiva de hérnia no presente exame.
 
-      CONCLUSÃO
+      Conclusão:
       Aspecto ultrassonográfico normal da região inguinal direita.
     right_word: true
 
@@ -158,15 +204,15 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DE REGIÃO INGUINAL ESQUERDA
 
-      TÉCNICA:
-      Exame realizado com transdutor linear de 11,0 MHz para estudo da região inguinal esquerda.
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial para estudo da região inguinal esquerda.
 
-      DESCRIÇÃO:
+      Descrição:
       Aspecto ecográfico normal da região inguinal esquerda.
       Não foram observadas imagens nodulares sólidas ou císticas na região examinada.
-      Ausência de imagem sugestiva de hérnia no presente exame. 
+      Ausência de imagem sugestiva de hérnia no presente exame.
 
-      CONCLUSÃO
+      Conclusão:
       Aspecto ultrassonográfico normal da região inguinal esquerda.
     right_word: true
 
@@ -174,23 +220,21 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA TRANSVAGINAL
 
-      TÉCNICA:
-      Exame ultrassonográfico realizado com equipamento endocavitário de 7,5 MHz, por via transvaginal.
+      Técnica:
+      Exame ultrassonográfico realizado com equipamento endocavitário multifrequencial, por via transvaginal.
 
-      DESCRIÇÃO: 
-      Útero em ante /médio /retro versoflexão (AVF / MVF /RVF ), medindo _ cm nos seus maiores eixos longitudinal, látero-lateral e antero-posterior, respectivamente. 
+      Descrição:
+      Útero em ante versoflexão (AVF), medindo _ cm nos seus maiores eixos.
       Volume uterino de _ cm³.
       Formato uterino piriforme e contornos regulares.
       Ecotextura miometrial de aspecto homogêneo.
       Eco endometrial tênue e centrado, medindo _ cm de espessura.
-      Ovário direito em topografia, morfologia, contornos e dimensões normais.
-      Parênquima com ecotextura habitual.
+      Ovário direito em topografia, morfologia, contornos e dimensões normais. Parênquima com ecotextura habitual.
       Medidas do ovário direito: _ cm (volume: _ cm³).
-      Ovário esquerdo em topografia, morfologia, contornos e dimensões normais.
-      Parênquima com ecotextura habitual.
+      Ovário esquerdo em topografia, morfologia, contornos e dimensões normais. Parênquima com ecotextura habitual.
       Medidas do ovário esquerdo: _ cm (volume: _ cm³).
 
-      OPINIÃO:  
+      Conclusão:
       Achados ultrassonográficos dentro dos padrões da normalidade.
     right_word: true
 
@@ -198,18 +242,19 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA TRANSVAGINAL – 1° TRIMESTRE DE GESTAÇÃO
 
-      DESCRIÇÃO:  
-      Útero gravídico em ante/ médio/ retro versoflexão (AVF / MVF / RVF ), medindo _ cm, com volume de _ cm³, apresentando em sua região fúndica saco gestacional normoimplantado que mediu _ cm, com DMS de _ mm, contendo embrião único, ativo, cujo CCN foi de _ cm.
+      Técnica:
+      Exame ultrassonográfico realizado com equipamento endocavitário multifrequencial, por via transvaginal.
+
+      Descrição:
+      Útero gravídico em anteversoflexão (AVF), medindo _ cm, com volume de _ cm³, apresentando em sua região fúndica saco gestacional normoimplantado que mediu _ cm, com DMS de _ mm, contendo embrião único, ativo, cujo CCN foi de _ cm.
       Vesícula vitelínica visualizada.
       Frequência cardíaca em torno de _ batimentos por minuto (bpm).
-      Ovário direito em topografia, morfologia, contornos e dimensões normais.
-      Parênquima com ecotextura habitual.
+      Ovário direito em topografia, morfologia, contornos e dimensões normais. Parênquima com ecotextura habitual.
       Medidas do ovário direito: _ cm (volume: _ cm³).
-      Ovário esquerdo em topografia, morfologia, contornos e dimensões normais.
-      Parênquima com ecotextura habitual.
+      Ovário esquerdo em topografia, morfologia, contornos e dimensões normais. Parênquima com ecotextura habitual.
       Medidas do ovário esquerdo: _ cm (volume: _ cm³).
 
-      OPINIÃO:
+      Conclusão:
       Gestação tópica, única, compatível com _ semanas e _ dias, dado pelo CCN (erro de +/- _ dias).
 
       < ou = 8s + 6d - erro de 5 dias
@@ -223,20 +268,14 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA OBSTÉTRICA
 
-      DESCRIÇÃO: 
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, por via transabdominal em tempo real, com Modo B.
+
+      Descrição:
       Feto único, em situação longitudinal, com apresentação _ e dorso à _ da linha média.
       O feto apresenta sinais vitais presentes, representados por movimentação ativa e batimentos cardíacos presentes. Frequência cardíaca em torno de _ batimentos por minuto (bpm).
 
-      MORFOLOGIA FETAL:
-      Crânio íntegro, com caracterização de suas principais estruturas.
-      Face fetal sem alterações aparentes. Perfil de aspecto habitual.
-      Coluna fetal com imagem preservada.
-      Pulmões de ecogenicidade compatível com a fase de gestação.
-      Aparentemente preservadas as quatros câmaras cardíacas.
-      Estômago bem caracterizado. Rins e bexiga de estrutura mantida.
-      Membros fetais de aspecto normal.
-
-      BIOMETRIA FETAL:	
+      BIOMETRIA FETAL:
       Diâmetro biparietal medindo _ cm.
       Circunferência cefálica medindo _ cm.
       Circunferência abdominal medindo _ cm.
@@ -249,9 +288,12 @@ matches:
 
       Líquido amniótico em aspecto e quantidade normal (Maior bolsão vertical _ cm).
 
-      OPINIÃO:  
+      Conclusão:
       Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia, (erro +/- _ dias).
       Feto crescendo no percentil _ para a idade gestacional.
+
+      Obs.: A ultrassonografia obstétrica tem como finalidade a determinação do posicionamento fetal e da placenta, avaliação quantitativa do líquido amniótico e biometria fetal. O estudo da morfologia fetal é realizado na ultrassonografia morfológica.
+
 
       < ou = 8s + 6d - erro de 5 dias
       9sem até 15sem + 6d - erro 7 dias
@@ -269,21 +311,14 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA OBSTÉTRICA COM DOPPLER
 
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, por via transabdominal em tempo real, com Modo B, Doppler colorido e Doppler Triplex.
 
-      DESCRIÇÃO: 
+      Descrição:
       Feto único, em situação longitudinal, com apresentação _ e dorso à _ da linha média.
       O feto apresenta sinais vitais presentes, representados por movimentação ativa e batimentos cardíacos presentes. Frequência cardíaca em torno de _ batimentos por minuto (bpm).
 
-      MORFOLOGIA FETAL:
-      Crânio íntegro, com caracterização de suas principais estruturas.
-      Face fetal sem alterações aparentes. Perfil de aspecto habitual.
-      Coluna fetal com imagem preservada.
-      Pulmões de ecogenicidade compatível com a fase de gestação.
-      Aparentemente preservadas as quatros câmaras cardíacas.
-      Estômago bem caracterizado. Rins e bexiga de estrutura mantida.
-      Membros fetais de aspecto normal.
-
-      BIOMETRIA FETAL:	
+      BIOMETRIA FETAL:
       Diâmetro biparietal medindo _ cm.
       Circunferência cefálica medindo _ cm.
       Circunferência abdominal medindo _ cm.
@@ -301,11 +336,15 @@ matches:
           IR = _.         IP = _.
       Artérias umbilicais com onda de padrão normal e adequado fluxo diastólico para a fase da gestação:
           IR = _.         IP = _.
+      A relação cérebro-umbilical não evidencia fenômeno de centralização hemodinâmica fetal:
+          IPC / IPU = _.
 
-      OPINIÃO:  
+      Conclusão:
       Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia, (erro +/- _ dias).
       Feto crescendo no percentil _ para a idade gestacional.
       Estudo Doppler-sonográfico dentro da normalidade para a fase da gestação.
+
+      Obs.: A ultrassonografia obstétrica tem como finalidade a determinação do posicionamento fetal e da placenta, avaliação quantitativa do líquido amniótico e biometria fetal. O estudo da morfologia fetal é realizado na ultrassonografia morfológica.
 
       < ou = 8s + 6d - erro de 5 dias
       9sem até 15sem + 6d - erro 7 dias
@@ -329,7 +368,7 @@ matches:
       Prolongamentos axilares, regiões retropapilares e para-esternais livres.
 
 
-      CONCLUSÃO:
+      Conclusão:
       Mamas normais ao ultrassom.
 
 
@@ -340,10 +379,10 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DO COTOVELO DIREITO
 
-      TÉCNICA DO EXAME:
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Ausência de derrame articular significativo.
       Tendão comum dos extensores com espessura, ecogenicidade e ecotextura fibrilar preservada.
       Tendão comum dos flexores com espessura e ecogenicidade habitual.
@@ -351,7 +390,7 @@ matches:
       Nervo ulnar de aspecto ecográfico habitual.
       Ausência de bursite olecraniana.
 
-      OPINIÃO:
+      Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
     right_word: true
 
@@ -359,10 +398,10 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DO COTOVELO ESQUERDO
 
-      TÉCNICA DO EXAME:
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Ausência de derrame articular significativo.
       Tendão comum dos extensores com espessura, ecogenicidade e ecotextura fibrilar preservada.
       Tendão comum dos flexores com espessura e ecogenicidade habitual.
@@ -370,7 +409,7 @@ matches:
       Nervo ulnar de aspecto ecográfico habitual.
       Ausência de bursite olecraniana.
 
-      OPINIÃO:
+      Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
     right_word: true
 
@@ -378,10 +417,10 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DO JOELHO DIREITO
 
-      TÉCNICA DO EXAME:
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Ausência de derrame articular.
       Tendão quadríceps e ligamento patelar íntegros.
       Ligamentos colaterais preservados.
@@ -389,7 +428,7 @@ matches:
       Ventres musculares tróficos com arquitetura fibrilar preservada.
       Ausência de cisto poplíteo.
 
-      CONCLUSÃO:
+      Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
     right_word: true
 
@@ -397,10 +436,10 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA DO JOELHO ESQUERDO
 
-      TÉCNICA DO EXAME:
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Ausência de derrame articular.
       Tendão quadríceps e ligamento patelar íntegros.
       Ligamentos colaterais preservados.
@@ -408,41 +447,41 @@ matches:
       Ventres musculares tróficos com arquitetura fibrilar preservada.
       Ausência de cisto poplíteo.
 
-      CONCLUSÃO:
+      Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
     right_word: true
 
   - trigger: "usmaod"
     replace: |
       ULTRASSONOGRAFIA DA MÃO DIREITA
-       
-      TÉCNICA DO EXAME:
+
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Tendões flexores e extensores de aspecto ecográfico habitual.
       Não se observam sinais de sinovite.
       Ausência de formações expansivas na região examinada.
       Superfícies ósseas sem alterações detectáveis ao método.
 
-      OPINIÃO:
+      Conclusão:
       Exame ecográfico sem alterações significativas.
     right_word: true
 
   - trigger: "usmaoe"
     replace: |
       ULTRASSONOGRAFIA DA MÃO ESQUERDA
-       
-      TÉCNICA DO EXAME:
+
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Tendões flexores e extensores de aspecto ecográfico habitual.
       Não se observam sinais de sinovite.
       Ausência de formações expansivas na região examinada.
       Superfícies ósseas sem alterações detectáveis ao método.
 
-      OPINIÃO:
+      Conclusão:
       Exame ecográfico sem alterações significativas.
     right_word: true
 
@@ -450,16 +489,16 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DA COXA / PERNA / BRAÇO / ANTEBRAÇO
 
-      TÉCNICA DO EXAME:
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Pele e subcutâneo sem alterações significativas.
       Musculatura com morfologia habitual e arquitetura fibrilar preservada.
       Superfícies ósseas sem alterações ao método.
       Não se observa presença de coleções ou lesões expansivas na região examinada.
 
-      OPINIÃO:
+      Conclusão:
       Exame ecográfico sem alterações significativas.
     right_word: true
 
@@ -467,10 +506,10 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DO OMBRO DIREITO
 
-      TÉCNICA DO EXAME:
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Superfície superior da articulação acromioclavicular de contornos regulares.
       Tendão cabo longo do bíceps de calibre e ecotextura habituais, localizado anatomicamente no sulco intertuberositário, sem sinais de luxação, mesmo com a manobra de rotação externa.
       Tendões do manguito rotador (supraespinhal, infraespinhal, subescapular e redondo menor) apresentando espessura e padrão fibrilar preservados.
@@ -478,7 +517,7 @@ matches:
       Ventres musculares do supraespinhal, infraespinhal, redondo menor e deltoide sem particularidades ao método.
       Não foi observado derrame articular significativo nos recessos articulares visibilizados pelo método.
 
-      OPINIÃO:
+      Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
     right_word: true
 
@@ -486,10 +525,10 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DO OMBRO ESQUERDO
 
-      TÉCNICA DO EXAME:
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Superfície superior da articulação acromioclavicular de contornos regulares.
       Tendão cabo longo do bíceps de calibre e ecotextura habituais, localizado anatomicamente no sulco intertuberositário, sem sinais de luxação, mesmo com a manobra de rotação externa.
       Tendões do manguito rotador (supraespinhal, infraespinhal, subescapular e redondo menor) apresentando espessura e padrão fibrilar preservados.
@@ -497,141 +536,141 @@ matches:
       Ventres musculares do supraespinhal, infraespinhal, redondo menor e deltoide sem particularidades ao método.
       Não foi observado derrame articular significativo nos recessos articulares visibilizados pelo método.
 
-      OPINIÃO:
+      Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
     right_word: true
 
   - trigger: "uspunhod"
     replace: |
-      ULTRASSONOGRAFIA DO PUNHO DIREITO 
-       
-      TÉCNICA DO EXAME:
+      ULTRASSONOGRAFIA DO PUNHO DIREITO
+
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Tendões dos seis compartimentos extensores de espessura e ecogenicidade preservadas.
       Tendões flexores de aspecto ecográfico habitual.
       Nervo mediano não apresenta alterações ecográficas significativas.
       Área de secção transversa do nervo mediano ao nível do túnel do carpo proximal de XX mm².
       Não se observam inserções musculares anômalas ou imagens nodulares sólidas/císticas no túnel do carpo.
 
-      OPINIÃO:
+      Conclusão:
       Exame ecográfico do punho dentro dos padrões da normalidade.
     right_word: true
 
   - trigger: "uspunhoe"
     replace: |
       ULTRASSONOGRAFIA DO PUNHO ESQUERDO
-       
-      TÉCNICA DO EXAME:
+
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Tendões dos seis compartimentos extensores de espessura e ecogenicidade preservadas.
       Tendões flexores de aspecto ecográfico habitual.
       Nervo mediano não apresenta alterações ecográficas significativas.
       Área de secção transversa do nervo mediano ao nível do túnel do carpo proximal de XX mm².
       Não se observam inserções musculares anômalas ou imagens nodulares sólidas/císticas no túnel do carpo.
 
-      OPINIÃO:
+      Conclusão:
       Exame ecográfico do punho dentro dos padrões da normalidade.
     right_word: true
 
   - trigger: "usquadrild"
     replace: |
       ULTRASSONOGRAFIA DO QUADRIL DIREITO
-       
-      TÉCNICA DO EXAME:
+
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a face lateral do quadril.
 
-      DESCRIÇÃO:
+      Descrição:
       Ausência de derrame articular significativo.
       Tendões do glúteo médio e mínimo de aspecto ecográfico habitual.
       Bursa trocantérica sem distensão líquida significativa.
       Demais estruturas sem particularidades.
 
-      IMPRESSÃO DIAGNÓSTICA:
+      Conclusão:
       Exame ecográfico do quadril sem alterações significativas.
     right_word: true
 
   - trigger: "usquadrile"
     replace: |
       ULTRASSONOGRAFIA DO QUADRIL ESQUERDO
-       
-      TÉCNICA DO EXAME:
+
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a face lateral do quadril.
 
-      DESCRIÇÃO:
+      Descrição:
       Ausência de derrame articular significativo.
       Tendões do glúteo médio e mínimo de aspecto ecográfico habitual.
       Bursa trocantérica sem distensão líquida significativa.
       Demais estruturas sem particularidades.
 
-      IMPRESSÃO DIAGNÓSTICA:
+      Conclusão:
       Exame ecográfico do quadril sem alterações significativas.
     right_word: true
 
   - trigger: "ustornozelod"
     replace: |
       ULTRASSONOGRAFIA DO TORNOZELO DIREITO
-       
-      TÉCNICA DO EXAME:
+
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (face anterior / lateral / medial / posterior do tornozelo).
 
       Exame direcionado para a região álgica referida pelo paciente (região plantar do retropé).
 
-      DESCRIÇÃO:
+      Descrição:
       Ausência de derrame articular significativo.
       Tendão calcâneo e fáscia plantar com espessura e padrão fibrilar habitual.
       Tendões tibial anterior, tibial posterior, fibulares, extensores e flexores de espessura, continuidade e ecotextura preservadas.
       Ligamento talofibular anterior sem lesões significativas.
 
-      IMPRESSÃO DIAGNÓSTICA:
+      Conclusão:
       Exame ecográfico sem alterações significativas.
     right_word: true
 
   - trigger: "ustornozeloe"
     replace: |
       ULTRASSONOGRAFIA DO TORNOZELO ESQUERDO
-       
-      TÉCNICA DO EXAME:
+
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (face anterior / lateral / medial / posterior do tornozelo).
 
       Exame direcionado para a região álgica referida pelo paciente (região plantar do retropé).
 
-      DESCRIÇÃO:
+      Descrição:
       Ausência de derrame articular significativo.
       Tendão calcâneo e fáscia plantar com espessura e padrão fibrilar habitual.
       Tendões tibial anterior, tibial posterior, fibulares, extensores e flexores de espessura, continuidade e ecotextura preservadas.
       Ligamento talofibular anterior sem lesões significativas.
 
-      IMPRESSÃO DIAGNÓSTICA:
+      Conclusão:
       Exame ecográfico sem alterações significativas.
     right_word: true
 
   - trigger: "usped"
     replace: |
       ULTRASSONOGRAFIA DO PÉ DIREITO
-       
-      TÉCNICA DO EXAME:
+
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (antepé).
 
-      DESCRIÇÃO:
+      Descrição:
       Fáscia plantar com espessura e ecotextura habituais.
       Não há evidência de neuroma de Morton ao método.
       Não se observam formações expansivas na região examinada.
       Planos musculares adjacentes com morfologia habitual e arquitetura fibrilar preservada.
       Superfícies ósseas sem alterações ao método.
 
-      IMPRESSÃO DIAGNÓSTICA:
+      Conclusão:
       Exame ecográfico sem alterações significativas.
     right_word: true
 
   - trigger: "uspee"
     replace: |
       ULTRASSONOGRAFIA DO PÉ ESQUERDO
-       
-      TÉCNICA DO EXAME:
+
+      Técnica:
 
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
@@ -643,7 +682,7 @@ matches:
       Não se observam formações expansivas na região examinada.
       Planos musculares adjacentes com morfologia habitual e arquitetura fibrilar preservada.
       Superfícies ósseas sem alterações ao método.
-      IMPRESSÃO DIAGNÓSTICA:
+      Conclusão:
       Exame ecográfico sem alterações significativas.
     right_word: true
 
@@ -651,13 +690,13 @@ matches:
     replace: |
       ULTRASSOM DO APARELHO URINÁRIO
 
-      DESCRIÇÃO:
-      Rins tópicos, com contornos lobulados (lobulações fetais), hiperecogenicidade de seu parênquima e seio renal preservado. O conjunto descrito representa rins de aspecto habitual para o recém-nascido. 
+      Descrição:
+      Rins tópicos, com contornos lobulados (lobulações fetais), hiperecogenicidade de seu parênquima e seio renal preservado. O conjunto descrito representa rins de aspecto habitual para o recém-nascido.
       Bexiga urinária tópica, conteúdo anecóico e contornos regulares.
       Rim direito medindo: X cm.
       Rim esquerdo medindo: X cm.
 
-      OPINIÃO:
+      Conclusão:
       Bexiga e rins de aspecto habitual para o recém-nascido
     right_word: true
 
@@ -665,15 +704,15 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DO TÓRAX (EXTRACARDÍACO)
 
-      TÉCNICA:
+      Técnica:
       Estudo ultrassonográfico realizado com paciente na posição sentada, utilizando sondas linear, dirigido para região torácica.
 
-      DESCRIÇÃO:
+      Descrição:
       Pele e tecido celular subcutâneo de aspecto ecográfico habituais.
       Planos músculo-aponeuróticos de morfologia e ecotextura preservadas nas janelas acústicas avaliadas.
       Ausência de derrame pleural bilateralmente.
 
-      OPINIÃO:
+      Conclusão:
       Exame ecográfico do tórax dentro dos padrões da normalidade.
     right_word: true
 
@@ -681,13 +720,13 @@ matches:
     replace: |
       ULTRASSONOGRAFIA DE CRÂNIO
 
-      DESCRIÇÃO:
+      Descrição:
       Aspecto normal da ecogenicidade do parênquima cerebral.
       Sistema ventricular de topografia, morfologia e dimensões normais.
       Ausência de coleção intra e extra-axiais.
       Fossa posterior dentro dos limites normais.
 
-      CONCLUSÃO:
+      Conclusão:
       Exame ecográfico normal.
     right_word: true
 
@@ -695,9 +734,9 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA PÉLVICA GINECOLÓGICA
 
-      DESCRIÇÃO:
+      Descrição:
       Bexiga com capacidade e distensibilidade normais, contornos regulares, paredes lisas e normoespessas.
-      Útero em ante/ médio/ retro versoflexão (AVF /MVF /RVF ), medindo _ cm nos seus maiores eixos longitudinal, látero-lateral e antero-posterior, respectivamente. 
+      Útero em ante/ médio/ retro versoflexão (AVF /MVF /RVF ), medindo _ cm nos seus maiores eixos longitudinal, látero-lateral e antero-posterior, respectivamente.
       Volume uterino de _ cm³.
       Formato uterino piriforme e contornos regulares.
       Ecotextura miometrial de aspecto homogêneo.
@@ -709,7 +748,7 @@ matches:
       Parênquima com ecotextura habitual.
       Medidas do ovário esquerdo: _ cm (volume: _ cm³).
 
-      OPINIÃO:
+      Conclusão:
       Achados ultrassonográficos dentro dos padrões da normalidade.
     right_word: true
 
@@ -717,10 +756,10 @@ matches:
     replace: |-
       ULTRASSOM DE PRÓSTATA VIA ABDOMINAL
 
-      TÉCNICA:
-      Exame ultrassonográfico realizado utilizando sonda convexa de 3,5 MHz, por via transabdominal, que evidenciou:
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, por via transabdominal, que evidenciou:
 
-      DESCRIÇÃO:  
+      Descrição:
       Bexiga urinária com repleção hídrica adequada, contornos regulares, paredes normo-espessadas, sem ecos em seu interior.
       Resíduos pré-miccional em torno de _ ml.
       Resíduos pós-miccional em torno de _ ml.
@@ -729,7 +768,7 @@ matches:
       Índice de protrusão prostática intravesical (IPP): _ cm.
       Vesículas seminais de topografia, dimensões e ecotextura normais.
 
-      OPINIÃO: 
+      Conclusão:
       Próstata com situação, dimensões e contornos normais.
       Aumento volumétrico da próstata. Correlacionar com PSA.
 
@@ -749,8 +788,8 @@ matches:
   - trigger: "ustireoide"
     replace: |
       ULTRASSONOGRAFIA DA TIREOIDE
-       
-      TÉCNICA DO EXAME:
+
+      Técnica:
 
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
@@ -764,20 +803,20 @@ matches:
       (normal= 6,0 a 15,0 cm³)
       (normal= 0,40 a 1,40 cm³) - recém nascido, aumentando em cerca de 1,0 a 1,3 cm³ para cada 10kg.
 
-      Não há evidências de adenomegalias, ou linfonodos atípicos nas cadeias cervicais. 
+      Não há evidências de adenomegalias, ou linfonodos atípicos nas cadeias cervicais.
 
-      IMPRESSÃO DIAGNÓSTICA:
+      Conclusão:
       Exame ecográfico sem alterações significativas.
     right_word: true
 
   - trigger: "ustireoidedop"
     replace: |
-      ULTRASSONOGRAFIA DA TIREOIDE COM DOPPLER 
-       
-      TÉCNICA DO EXAME:
+      ULTRASSONOGRAFIA DA TIREOIDE COM DOPPLER
+
+      Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      DESCRIÇÃO:
+      Descrição:
       Tireoide tópica, dimensões normais, contornos nítidos, ecogenicidade preservada e ecotextura homogênea.
       Medidas:
       Lobo direito      :  mm, com volume de  cm³.
@@ -790,9 +829,9 @@ matches:
 
       Velocidade do pico sistólico das artérias tireoideanas dentro da normalidade.
 
-      Não há evidências de adenomegalias, ou linfonodos atípicos nas cadeias cervicais. 
+      Não há evidências de adenomegalias, ou linfonodos atípicos nas cadeias cervicais.
 
-      IMPRESSÃO DIAGNÓSTICA:
+      Conclusão:
       Exame ecográfico da tireoide com Doppler sem alterações significativas.
     right_word: true
 
@@ -800,13 +839,13 @@ matches:
     replace: |
       DUPLEX SCAN VENOSO SUPERFICIAL E PROFUNDO DO MEMBRO INFERIOR DIREITO
 
-      TÉCNICA:
-      Realizada avaliação do sistema venoso superficial e profundo do membro inferior direito, com transdutor linear de 7,5 MHZ, através do modo B, Doppler color e espectral. 
+      Técnica:
+      Realizada avaliação do sistema venoso superficial e profundo do membro inferior direito, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral.
 
-      DESCRIÇÃO:
+      Descrição:
       Veias compressíveis em toda sua extensão, sem trombos no seu interior.
 
-      IMPRESSÃO DIAGNÓSTICA: 
+      Conclusão:
       Duplex Scan venoso superficial e profundo do membro inferior direito dentro dos padrões da normalidade.
     right_word: true
 
@@ -814,13 +853,13 @@ matches:
     replace: |
       DUPLEX SCAN VENOSO SUPERFICIAL E PROFUNDO DO MEMBRO INFERIOR ESQUERDO
 
-      TÉCNICA:
-      Realizada avaliação do sistema venoso superficial e profundo do membro inferior esquerdo, com transdutor linear de 7,5 MHZ, através do modo B, Doppler color e espectral. 
+      Técnica:
+      Realizada avaliação do sistema venoso superficial e profundo do membro inferior esquerdo, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral.
 
-      DESCRIÇÃO:
+      Descrição:
       Veias compressíveis em toda sua extensão, sem trombos no seu interior.
 
-      IMPRESSÃO DIAGNÓSTICA: 
+      Conclusão:
       Duplex Scan venoso superficial e profundo do membro inferior esquerdo dentro dos padrões da normalidade.
     right_word: true
 
@@ -964,7 +1003,7 @@ matches:
 
   - trigger: "ca3"
     replace: |-
-      Massa hipo/hiperecogênica, localizada em íntimo contato com a cabeça do pâncreas, com/sem fluxo vascular ao estudo Doppler colorido, medindo x cm. Essa massa promove dilatação das vias biliares intra e extra hepáticas a montante. (calibre do colédoco de x cm; normal menor que 0,6 cm). 
+      Massa hipo/hiperecogênica, localizada em íntimo contato com a cabeça do pâncreas, com/sem fluxo vascular ao estudo Doppler colorido, medindo x cm. Essa massa promove dilatação das vias biliares intra e extra hepáticas a montante. (calibre do colédoco de x cm; normal menor que 0,6 cm).
       Vesícula biliar hiperdistendida, com paredes finas e regulares, sem imagem compatível com cálculos no seu interior.
     right_word: true
 
@@ -1111,7 +1150,7 @@ matches:
     right_word: true
 
   - trigger: "fh5"
-    replace: "Notam-se algumas/multiplas imagens nodulares heterogênas, predominantemente hipoecogênicas, algumas apresentando-se com halo, adquirindo aspecto \"em alvo\". Essas lesões apresentam limites parcialmente definidos e contornos irregulares, a maior deles no segmento x, medindo x cm. "
+    replace: 'Notam-se algumas/multiplas imagens nodulares heterogênas, predominantemente hipoecogênicas, algumas apresentando-se com halo, adquirindo aspecto "em alvo". Essas lesões apresentam limites parcialmente definidos e contornos irregulares, a maior deles no segmento x, medindo x cm. '
     right_word: true
 
   - trigger: "fh5c"
@@ -1302,14 +1341,14 @@ matches:
     replace: |-
       DUPLEX SCAN VENOSO SUPERFICIAL E PROFUNDO DO MEMBRO INFERIOR DIREITO
 
-      TÉCNICA:
-      Realizado avaliação do sistema venoso profundo e superficial do membro inferior direito, com transdutor linear de 7,5 MHZ, através do modo B, Doppler color e espectral, associado à manobras dinâmicas. 
+      Técnica:
+      Realizado avaliação do sistema venoso profundo e superficial do membro inferior direito, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado à manobras dinâmicas.
 
-      DESCRIÇÃO:
+      Descrição:
       Foram avaliadas as veias femoral comum, femoral, femoral profunda, poplítea, tibiais anteriores e posteriores e fibulares que se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
       As veias safenas magna e parva se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
 
-      CONCLUSÃO: 
+      Conclusão:
       Dupplex Scan venoso superficial e profundo do membro inferior direito dentro dos padrões da normalidade.
     right_word: true
 
@@ -1317,14 +1356,14 @@ matches:
     replace: |-
       DUPLEX SCAN VENOSO SUPERFICIAL E PROFUNDO DO MEMBRO INFERIOR ESQUERDO
 
-      TÉCNICA:
-      Realizado avaliação do sistema venoso profundo e superficial do membro inferior esquerdo, com transdutor linear de 7,5 MHZ, através do modo B, Doppler color e espectral, associado à manobras dinâmicas. 
+      Técnica:
+      Realizado avaliação do sistema venoso profundo e superficial do membro inferior esquerdo, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado à manobras dinâmicas.
 
-      DESCRIÇÃO:
+      Descrição:
       Foram avaliadas as veias femoral comum, femoral, femoral profunda, poplítea, tibiais anteriores e posteriores e fibulares que se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
       As veias safenas magna e parva se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
 
-      CONCLUSÃO: 
+      Conclusão:
       Dupplex Scan venoso superficial e profundo do membro inferior esquerdo dentro dos padrões da normalidade.
     right_word: true
 
@@ -1332,13 +1371,13 @@ matches:
     replace: |
       DUPLEX SCAN VENOSO DO MEMBRO SUPERIOR DIREITO
 
-      TÉCNICA:
-      Realizado avaliação do sistema venoso profundo e superficial do membro superior direito, com transdutor linear de 7,5 MHZ, através do modo B, Doppler color e espectral, associado à manobras dinâmicas. 
+      Técnica:
+      Realizado avaliação do sistema venoso profundo e superficial do membro superior direito, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado à manobras dinâmicas.
 
-      DESCRIÇÃO:
+      Descrição:
       Veias subclávia, axilar, braquial, radiais, ulnares, cefálica e basílica compressíveis em toda sua extensão, sem trombos no seu interior.
 
-      CONCLUSÃO: 
+      Conclusão:
       DupplexScan venoso do membro superior direito dentro dos padrões da normalidade.
     right_word: true
 
@@ -1346,13 +1385,13 @@ matches:
     replace: |
       DUPLEX SCAN VENOSO DO MEMBRO SUPERIOR ESQUERDO
 
-      TÉCNICA:
-      Realizado avaliação do sistema venoso profundo e superficial do membro superior esquerdo, com transdutor linear de 7,5 MHZ, através do modo B, Doppler color e espec-tral, associado à manobras dinâmicas. 
+      Técnica:
+      Realizado avaliação do sistema venoso profundo e superficial do membro superior esquerdo, com transdutor linear multifrequencial, através do modo B, Doppler color e espec-tral, associado à manobras dinâmicas.
 
-      DESCRIÇÃO:
+      Descrição:
       Veias subclávia, axilar, braquial, radiais, ulnares, cefálica e basílica compressíveis em toda sua extensão, sem trombos no seu interior.
 
-      CONCLUSÃO: 
+      Conclusão:
       DupplexScan venoso do membro superior esquerdo dentro dos padrões da normalidade.
     right_word: true
 
@@ -1536,7 +1575,7 @@ matches:
   - trigger: "rv1"
     replace: |-
       Rim tópico, com dimensões reduzidas e contornos lobulados.
-      Observa-se afilamento do parenquima renal e aumento de sua ecogenicidade, resultando em perda da diferenciação parenquimo-sinusal. 
+      Observa-se afilamento do parenquima renal e aumento de sua ecogenicidade, resultando em perda da diferenciação parenquimo-sinusal.
     right_word: true
 
   - trigger: "rv1c"
@@ -1714,7 +1753,7 @@ matches:
       Remanescente uterino  com forma, contornos e ecotextura normais,medindo _ cm e com volume de _ cm³.
       Ovários não caracterizados no presente estudo (os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais, modificações próprias do período climatério ou status pós-cirúrgico).
 
-      Opinião: 
+      Conclusão:
       Estudo ultra-sonográfico sem alterações significativas, considerando-se os antecedentes cirúrgicos.
     right_word: true
 
@@ -1834,7 +1873,7 @@ matches:
 
   - trigger: "ma3s"
     replace: |
-      Nódulos ovalados, circunscritos, hipoecoicos, maior eixo paralelo à pele, assim distribuídos: 
+      Nódulos ovalados, circunscritos, hipoecoicos, maior eixo paralelo à pele, assim distribuídos:
       - às hs da mama [esquerda/direita], medindo _ cm, distando _ cm da pele e _ cm da papila;
       - às hs da mama [esquerda/direita], medindo _ cm, distando _ cm da pele e _ cm da papila.
     right_word: true
