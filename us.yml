@@ -20,7 +20,7 @@ matches:
 
       Conclusão:
       Órgãos e estruturas abdominais examinadas de aspecto ultrassonográfico normal.
-    right_word: true
+    word: true
 
   - trigger: "usabdsup"
     replace: |-
@@ -38,7 +38,7 @@ matches:
 
       Conclusão:
       Aspecto ecográfico normal dos órgãos examinados.
-    right_word: true
+    word: true
 
   - trigger: "usrv"
     replace: |-
@@ -69,7 +69,7 @@ matches:
       Estudo ultrassonográfico sem evidentes anormalidades apreciáveis ao método.
 
       Obs.: Cálculos renais menores que 4 mm podem não ser identificados devido a limitação inerente do método ecográfico.
-    right_word: true
+    word: true
 
   - trigger: "usbolsa"
     replace: |
@@ -98,7 +98,7 @@ matches:
 
       Conclusão:
       - Estudo ultrassonográfico sem evidentes anormalidades apreciáveis ao método.
-    right_word: true
+    word: true
 
   - trigger: "usbolsad"
     replace: |
@@ -131,7 +131,7 @@ matches:
 
       Conclusão:
       - Estudo ultrassonográfico sem evidentes anormalidades apreciáveis ao método.
-    right_word: true
+    word: true
 
   - trigger: "uscervical"
     replace: |
@@ -150,7 +150,7 @@ matches:
 
       Conclusão:
       Exame ecográfico da região cervical sem evidências de alterações.
-    right_word: true
+    word: true
 
   - trigger: "usestsup"
     replace: |
@@ -166,7 +166,7 @@ matches:
 
       Conclusão:
       Exame sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "usparede"
     replace: |-
@@ -182,7 +182,7 @@ matches:
 
       Conclusão:
       Exame ecográfico sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "usinguinald"
     replace: |
@@ -198,7 +198,7 @@ matches:
 
       Conclusão:
       Aspecto ultrassonográfico normal da região inguinal direita.
-    right_word: true
+    word: true
 
   - trigger: "usinguinale"
     replace: |
@@ -214,7 +214,7 @@ matches:
 
       Conclusão:
       Aspecto ultrassonográfico normal da região inguinal esquerda.
-    right_word: true
+    word: true
 
   - trigger: "ustv"
     replace: |-
@@ -236,7 +236,7 @@ matches:
 
       Conclusão:
       Achados ultrassonográficos dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "usob1t"
     replace: |-
@@ -262,7 +262,7 @@ matches:
       16sem até 21sem + 6d - erro 10 dias
       22sem até 27sem + 6d - erro 14 dias
       > ou = 28sem - 21d - erro 21 dias
-    right_word: true
+    word: true
 
   - trigger: "usob"
     replace: |-
@@ -305,7 +305,7 @@ matches:
       Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
       Grau 2 entre a 30ª e 38ª semana, Placenta com calcificações na placa basal.
       Grau 3 por volta da 39ª semana,Placenta com calcificação da placa basal à coriônica.
-    right_word: true
+    word: true
 
   - trigger: "usobd"
     replace: |-
@@ -356,7 +356,7 @@ matches:
       Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
       Grau 2 entre a 30ª e 38ª semana, Placenta com calcificações na placa basal.
       Grau 3 por volta da 39ª semana,Placenta com calcificação da placa basal à coriônica.
-    right_word: true
+    word: true
 
   - trigger: "usmamas"
     replace: |
@@ -373,7 +373,7 @@ matches:
 
 
       Classificação Bi_Rads®: Categoria 1.
-    right_word: true
+    word: true
 
   - trigger: "uscotovelod"
     replace: |
@@ -392,7 +392,7 @@ matches:
 
       Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "uscotoveloe"
     replace: |
@@ -411,7 +411,7 @@ matches:
 
       Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "usjoelhod"
     replace: |
@@ -430,7 +430,7 @@ matches:
 
       Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "usjoelhoe"
     replace: |-
@@ -449,7 +449,7 @@ matches:
 
       Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "usmaod"
     replace: |
@@ -466,7 +466,7 @@ matches:
 
       Conclusão:
       Exame ecográfico sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "usmaoe"
     replace: |
@@ -483,7 +483,7 @@ matches:
 
       Conclusão:
       Exame ecográfico sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "usmsk"
     replace: |
@@ -500,7 +500,7 @@ matches:
 
       Conclusão:
       Exame ecográfico sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "usombrod"
     replace: |
@@ -519,7 +519,7 @@ matches:
 
       Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "usombroe"
     replace: |
@@ -538,7 +538,7 @@ matches:
 
       Conclusão:
       Exame ecográfico dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "uspunhod"
     replace: |
@@ -556,7 +556,7 @@ matches:
 
       Conclusão:
       Exame ecográfico do punho dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "uspunhoe"
     replace: |
@@ -574,7 +574,7 @@ matches:
 
       Conclusão:
       Exame ecográfico do punho dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "usquadrild"
     replace: |
@@ -591,7 +591,7 @@ matches:
 
       Conclusão:
       Exame ecográfico do quadril sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "usquadrile"
     replace: |
@@ -608,7 +608,7 @@ matches:
 
       Conclusão:
       Exame ecográfico do quadril sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "ustornozelod"
     replace: |
@@ -627,7 +627,7 @@ matches:
 
       Conclusão:
       Exame ecográfico sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "ustornozeloe"
     replace: |
@@ -646,7 +646,7 @@ matches:
 
       Conclusão:
       Exame ecográfico sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "usped"
     replace: |
@@ -664,7 +664,7 @@ matches:
 
       Conclusão:
       Exame ecográfico sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "uspee"
     replace: |
@@ -684,7 +684,7 @@ matches:
       Superfícies ósseas sem alterações ao método.
       Conclusão:
       Exame ecográfico sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "usrvrn"
     replace: |
@@ -698,7 +698,7 @@ matches:
 
       Conclusão:
       Bexiga e rins de aspecto habitual para o recém-nascido
-    right_word: true
+    word: true
 
   - trigger: "ustorax"
     replace: |
@@ -714,7 +714,7 @@ matches:
 
       Conclusão:
       Exame ecográfico do tórax dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "ustransfontanela"
     replace: |
@@ -728,7 +728,7 @@ matches:
 
       Conclusão:
       Exame ecográfico normal.
-    right_word: true
+    word: true
 
   - trigger: "uspelvica"
     replace: |-
@@ -750,7 +750,7 @@ matches:
 
       Conclusão:
       Achados ultrassonográficos dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "usprostata"
     replace: |-
@@ -783,7 +783,7 @@ matches:
       < 5 mm - IPP Grau I.
       5,1 – 10 mm - IPP Grau II.
       > 10 MM - IPP Grau III.
-    right_word: true
+    word: true
 
   - trigger: "ustireoide"
     replace: |
@@ -807,7 +807,7 @@ matches:
 
       Conclusão:
       Exame ecográfico sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "ustireoidedop"
     replace: |
@@ -833,7 +833,7 @@ matches:
 
       Conclusão:
       Exame ecográfico da tireoide com Doppler sem alterações significativas.
-    right_word: true
+    word: true
 
   - trigger: "usvenosod"
     replace: |
@@ -847,7 +847,7 @@ matches:
 
       Conclusão:
       Duplex Scan venoso superficial e profundo do membro inferior direito dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "usvenosoe"
     replace: |
@@ -861,31 +861,31 @@ matches:
 
       Conclusão:
       Duplex Scan venoso superficial e profundo do membro inferior esquerdo dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "an1"
     replace: Na região anexial esquerda/direita, nota-se imagem cística de aspecto simples, medindo x cm.
-    right_word: true
+    word: true
 
   - trigger: "an1c"
     replace: Cisto anexial simples à direita/esquerda.
-    right_word: true
+    word: true
 
   - trigger: "an2"
     replace: "Nota-se na região anexial direita/esquerda, imagem nodular/massa heterogênea, de limites parcialmente em topografia extra-ovariana, com/sem fluxo vascular ao estudo Doppler colorido, medindo cerca de x cm. "
-    right_word: true
+    word: true
 
   - trigger: "an2c"
     replace: Massa anexial à direita/esquerda. No contexto clínico laboratorial adequado, considerar a hipótese de gestação ectópica.
-    right_word: true
+    word: true
 
   - trigger: "an3"
     replace: Imagem cística de apecto serpiginoso na região anexial direita/esquerda, com conteúdo anecoico/hipoecogênico, medindo x cm
-    right_word: true
+    word: true
 
   - trigger: "an3c"
     replace: Imagem na região anexial esquerda compatível com hidrossalpinge.
-    right_word: true
+    word: true
 
   - trigger: "ap1"
     replace: |-
@@ -894,11 +894,11 @@ matches:
       Redução dos movimentos peristálticos
       Aumento da ecogenicidade da gordura pericecal, compatível com edema.
       Apêndice cecal caracterizado, incompressível, com calibre medindo x cm (normal < 0,7 cm).
-    right_word: true
+    word: true
 
   - trigger: "ap1c"
     replace: Sinais sugestivos de apendicite aguda.
-    right_word: true
+    word: true
 
   - trigger: "ap2"
     replace: |-
@@ -907,167 +907,167 @@ matches:
       Redução dos movimentos peristálticos
       Aumento da ecogenicidade da gordura pericecal, compatível com edema.
       Estrutura tubuliforme em fundo cego, com origem aparente no ceco, compatível com apêndice cecal, incompressível, com calibre medindo x cm.
-    right_word: true
+    word: true
 
   - trigger: "ap2c"
     replace: Sinais sugestivos de processo inflamatório/infeccioso do apêndice cecal.
-    right_word: true
+    word: true
 
   - trigger: "ba1"
     replace: Baço de topografia subcostal o que limita sua caracterização, com ecotextura e contornos normais nas janelas acústicas disponíveis.
-    right_word: true
+    word: true
 
   - trigger: "ba2"
     replace: Baço de dimensões aumentadas (índice esplênico de ; normal < 60), bordas rombas e ecotextura homogênea.
-    right_word: true
+    word: true
 
   - trigger: "ba2c"
     replace: Esplenomegalia homogênea.
-    right_word: true
+    word: true
 
   - trigger: "ba3"
     replace: Baço de dimensões aumetadas (índice esplênico de ; normal < 60), bordas rombas e ecotextura heterogênea, devido a múltiplos focos ecogênicos compatível com corpúsculos de Gamna Gandy.
-    right_word: true
+    word: true
 
   - trigger: "ba4"
     replace: Nota-se no hilo esplênico imagem nodular com ecotextura semelhante ao baço compatível com baço acessório.
-    right_word: true
+    word: true
 
   - trigger: "bx1"
     replace: Bexiga com pequena repleção o que prejudica a caracterização de suas paredes e conteúdo anecoico.
-    right_word: true
+    word: true
 
   - trigger: "bx2"
     replace: "Bexiga com boa repleção, apresentando paredes difusamentes espessadas, com alguns pseudodivertículos, o maior localizado na parede x, medindo x cm. "
-    right_word: true
+    word: true
 
   - trigger: "bx2c"
     replace: Sinais de bexiga de esforço.
-    right_word: true
+    word: true
 
   - trigger: "bx3"
     replace: Neobexiga de aspecto habitual, com conteúdo anecoico.
-    right_word: true
+    word: true
 
   - trigger: "bx3c"
     replace: Neobexiga de aspecto habitual.
-    right_word: true
+    word: true
 
   - trigger: "bx4"
     replace: Bexiga com boa repleção, apresentando área ecogênica junto à sua parede x, sem fluxo vascular ao estudo Doppler colorido, imóvel às mudanças de decúbito, medindo x cm. Restante de suas paredes finas. Observam-se ecos em suspensão.
-    right_word: true
+    word: true
 
   - trigger: "bx4c"
     replace: Material ecogênico imóvel e sem fluxo no interior da bexiga. No diferencial inclui-se processo primário/material hemático aderido à parede vesical.
-    right_word: true
+    word: true
 
   - trigger: "bx5"
     replace: Bexiga com boa repleção, apresentando massa ecogênica junto à sua parede x, medindo x cm, com fluxo vascular ao estudo Doppler colorido, imóvel às mudanças de decúbito. Restante de suas paredes finas. Observa-se ecos em suspensão.
-    right_word: true
+    word: true
 
   - trigger: "bx5c"
     replace: Massa com fluxo intravesical.
-    right_word: true
+    word: true
 
   - trigger: "bx6"
     replace: Bexiga com boa repleção, apresentando conteúdo ecogênica sem fluxo vascular ao estudo Doppler colorido, móvel às mudanças de decúbito. Observa-se também ecos em suspensão.
-    right_word: true
+    word: true
 
   - trigger: "bx6c"
     replace: Conteúdo ecogênico intravesical de provável natureza hemática.
-    right_word: true
+    word: true
 
   - trigger: "bx7"
     replace: com ecos em suspensão no seu interior.
-    right_word: true
+    word: true
 
   - trigger: "bx8"
     replace: Destaca-se balão de sonda vesical no seu interior.
-    right_word: true
+    word: true
 
   - trigger: "ca1"
     replace: Dilatação das vias biliares intra-hepáticas, bem como da porções proximais do colédoco, configurando o "sinal do duplo cano" (calibre do colédoco de x cm; normal menor que 0,6 cm). Não foi possível caracterizar o fator obstrutivo.
-    right_word: true
+    word: true
 
   - trigger: "ca1c"
     replace: Dilatação das vias biliares intra e extra-hepática sem a caracterização de fatores obstrutivos. Considerar prosseguir a investigação diagnóstica com ressonância magnética de abdome.
-    right_word: true
+    word: true
 
   - trigger: "ca2"
     replace: "Imagem ecogênica formadora de sombra acústica posterior, compatível com cálculo no terço proximal/médio/distal do colédoco, promovendo dilatação das vias biliares intra e extra hepáticas a montante. (calibre do colédoco de x cm; normal < 0,6 cm). "
-    right_word: true
+    word: true
 
   - trigger: "ca2c"
     replace: Cálculo no interior do colédoco, promovendo dilatação à montante.
-    right_word: true
+    word: true
 
   - trigger: "ca3"
     replace: |-
       Massa hipo/hiperecogênica, localizada em íntimo contato com a cabeça do pâncreas, com/sem fluxo vascular ao estudo Doppler colorido, medindo x cm. Essa massa promove dilatação das vias biliares intra e extra hepáticas a montante. (calibre do colédoco de x cm; normal menor que 0,6 cm).
       Vesícula biliar hiperdistendida, com paredes finas e regulares, sem imagem compatível com cálculos no seu interior.
-    right_word: true
+    word: true
 
   - trigger: "ca3c"
     replace: Massa em topografia periampular, promovendo dilatação das vias biliares a montante.
-    right_word: true
+    word: true
 
   - trigger: "ca4"
     replace: Vias biliares intra-hepáticas sem dilatações, destacando-se focos ecogênicos lineares no seu interior que promovem artefatos de sombra suja posterior.
-    right_word: true
+    word: true
 
   - trigger: "ca4c"
     replace: Focos ecogenicos no interior das vias biliares, compatíveis com aerobilia.
-    right_word: true
+    word: true
 
   - trigger: "ca5"
     replace: Vias bilares intra-hepáticas sem dilatações. Nota-se próximo a sua luz, algumas imagens ecogênicas, por vezes apresentando reverberação do feixe acústico posterior, medindo até x cm.
-    right_word: true
+    word: true
 
   - trigger: "ca5c"
     replace: Pequenas imagens ecogênicas de adjacente às vias biliares. considerar a hipótese de harmatomas de vias biliares (Complexo de Von Meyenburg).
-    right_word: true
+    word: true
 
   - trigger: "ca6"
     replace: |-
       Vias biliares intra-hepáticas sem dilatações.
       Nota-se dilatação focal do colédoco, com calibre de até x cm.
-    right_word: true
+    word: true
 
   - trigger: "ca6c"
     replace: Dilatação focal do colédoco, compatível com cisto de coledoco.
-    right_word: true
+    word: true
 
   - trigger: "ch1"
     replace: Fígado de apresentando dimensões preservadas, ecotextura finamente heterogênea e contornos finamente irregulares. Não são caracterizadas lesões hepáticas focais ao método.
-    right_word: true
+    word: true
 
   - trigger: "ch1c"
     replace: Sinais incipientes de hepatopatia parenquimatosa.
-    right_word: true
+    word: true
 
   - trigger: "ch2"
     replace: Fígado de dimensões difusamente reduzidas, exceto pelo seu lobo caudado, contornos serrilhados e ecotextura difusamente heterogênea, sem a caracterização de lesões focais ao método.
-    right_word: true
+    word: true
 
   - trigger: "ch2c"
     replace: Sinais de hepatopatia parenquimatosa.
-    right_word: true
+    word: true
 
   - trigger: "ch3"
     replace: Fígado de dimensões reduzidas à custa do lobo direito, contornos irregulares e ecotextura difusamente heterogênea. Associa-se hiperecogenicidade do espaço periportal. Não foram caracterizadas lesões focais ao método.
-    right_word: true
+    word: true
 
   - trigger: "ch3c"
     replace: Hepatopatia parenquimatosa associada a sinais de fibrose periportal.
-    right_word: true
+    word: true
 
   - trigger: "ch4"
     replace: Fígado de dimensões aumentadas, bordas rombas, ecotextura homogênea, e contornos regulares. Associa-se aumento do calibre das veias hepáticas e da veia cava inferior.
-    right_word: true
+    word: true
 
   - trigger: "ch4c"
     replace: Hepatomegalia, associado a ectasia da veia cava e suas principais tributárias e ascite. Esses achados, dentro do contexto clínico adequado, estão relacionados a congestão.
-    right_word: true
+    word: true
 
   - trigger: "dh0"
     replace: |-
@@ -1075,267 +1075,267 @@ matches:
       Veias hepáticas pérvias, com padrão de fluxo trifásico habitual.
       Veia esplênica pérvia, de calibre preservado (mede x cm, normal <0,9 cm) e fluxo hepatopetal.
       Artéria hepática com IR de x (normal entre 0,55 e 0,7).
-    right_word: true
+    word: true
 
   - trigger: "diu1"
     replace: Cavidade uterina virtual, apresentando em seu interior dispositivo intra-uterino (DIU) normoposicionado.
-    right_word: true
+    word: true
 
   - trigger: "diu1c"
     replace: Dispositivo intrauterino (DIU) em topografia habitual.
-    right_word: true
+    word: true
 
   - trigger: "diu2"
     replace: Dispositivo intrauterino (DIU) localizado no interior da cavidade uterina, atravessando o orifício interno do colo em direção ao canal endocervical.
-    right_word: true
+    word: true
 
   - trigger: "diu2c"
     replace: Dispositivo intrauterino (DIU) localizado no interior da cavidade uterina, atravesando o orifício interno do colo em direção ao canal endocervical.
-    right_word: true
+    word: true
 
   - trigger: "eh1c"
     replace: Sinais ecográficos sugestivos de esteatose hepática leve (grau I).
-    right_word: true
+    word: true
 
   - trigger: "eh1"
     replace: Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que atenua o feixe acústico posterior e diminui a sensibilidade para detecção de lesões focais.
-    right_word: true
+    word: true
 
   - trigger: "eh2"
     replace: Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que limita a caracterização de vasos intra-hepáticos e eventuais lesões focais.
-    right_word: true
+    word: true
 
   - trigger: "eh2c"
     replace: Sinais ecográficos sugestivos de esteatose hepática moderada (grau II).
-    right_word: true
+    word: true
 
   - trigger: "eh3"
     replace: Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que limita a caracterização de vasos intra-hepáticos, cúpulas diafragmáticas e eventuais lesões focais.
-    right_word: true
+    word: true
 
   - trigger: "eh3c"
     replace: Sinais ecográficos sugestivos de esteatose hepática acentuada (grau III).
-    right_word: true
+    word: true
 
   - trigger: "fh1"
     replace: Nota-se imagem cística no segmento x, de paredes finas e regulares, conteúdo anecoico, apresentando reforço acústico posterior, que mede x cm.
-    right_word: true
+    word: true
 
   - trigger: "fh1c"
     replace: Cisto hepático simples.
-    right_word: true
+    word: true
 
   - trigger: "fh2"
     replace: Notam-se algumas/múltiplas imagens císticas de  de paredes finas e regulares, conteúdo anecoico, apresentando reforço acústico posterior, a maior medindo x cm no segmento x.
-    right_word: true
+    word: true
 
   - trigger: "fh2c"
     replace: Cistos hepáticos com características simples.
-    right_word: true
+    word: true
 
   - trigger: "fh3"
     replace: Nota-se imagem nodular localizada no segmento x, hiperecogênica, de limites bem definidos e contornos regulares, sem fluxo evidente ao estudo Doppler colorido, que não promove artefatos ao feixe acústico posterior, medindo cerca de x cm.
-    right_word: true
+    word: true
 
   - trigger: "fh3c"
     replace: Nódulo hiperecogênico hepático, mais comumente associado a hemangioma.
-    right_word: true
+    word: true
 
   - trigger: "fh4"
     replace: Nota-se imagem nodular localizada no segmento x heterogênea, predominantemente hipoecogênica/isoecogênica, de limites parcialmente definidos e contornos irregulares, sem/com fluxo vascular ao estudo Doppler colorido, medindo cerca de x cm
-    right_word: true
+    word: true
 
   - trigger: "fh4c"
     replace: Nódulo hepático com as características acima descritas. Sugere-se prossegmento da investigação por tomografia/ressonância magnética de abdome.
-    right_word: true
+    word: true
 
   - trigger: "fh5"
     replace: 'Notam-se algumas/multiplas imagens nodulares heterogênas, predominantemente hipoecogênicas, algumas apresentando-se com halo, adquirindo aspecto "em alvo". Essas lesões apresentam limites parcialmente definidos e contornos irregulares, a maior deles no segmento x, medindo x cm. '
-    right_word: true
+    word: true
 
   - trigger: "fh5c"
     replace: Múltiplos nódulos hepáticos com as características acima descritas. Dentro do contexto clínico, considerar a hipótese de lesões secundárias.
-    right_word: true
+    word: true
 
   - trigger: "me1"
     replace: |-
       Estudo direcionado para a avaliação do tendão calcâneo à direita/esquerda, evidencia:
       Rotura completa do tendão calcâneo, com distância entre cotos (gap) de x cm e distando x cm da inserção distal do calcâneo. No espaço entre os cotos observa-se conteúdo heterogêneo, de provável natureza hemática.
-    right_word: true
+    word: true
 
   - trigger: "me2"
     replace: |-
       Estudo direcionado para a pesquisa de derrame articular no joelho e/d evidencia:
       Pequena/Moderada/Acentuada quantidade de líquido livre anecoico no recesso supra-patelar e/d.
-    right_word: true
+    word: true
 
   - trigger: "migue1"
     replace: nas janelas acústicas disponíveis.
-    right_word: true
+    word: true
 
   - trigger: "migue2"
     replace: nas porções caracterizadas.
-    right_word: true
+    word: true
 
   - trigger: "mm1"
     replace: Ecotextura miometrial de aspecto homogêneo, exceto por imagem nodular heterogênea, predominantemente hipoecogênica, de limites parcialmente definidos e contornos regulares, de localização x, medindo x cm.
-    right_word: true
+    word: true
 
   - trigger: "mm1c"
     replace: Nódulo miometrial mais comumente associado a leiomioma
-    right_word: true
+    word: true
 
   - trigger: "mm2"
     replace: |-
       Ecotextura miometrial de aspecto heterogênea, devido a algumas imagens nodulares heterogêneas, predominantemente hipoecogênicas, de limites parcialmente definidos e contornos regulares, as maiores assim localizadas:
       - parede x, intramural/subserosa/submucosa medindo x cm;
       - parede y, intramural/subserosa/submucosa medindo x cm;
-    right_word: true
+    word: true
 
   - trigger: "mm2c"
     replace: Nódulos miometrias mais comumente associados a leiomiomas.
-    right_word: true
+    word: true
 
   - trigger: "mm3"
     replace: Ecotextura miometrial de aspecto heterogênea, devido a múltiplas imagens nodulares heterogêneas, predominantemente hipoecogênicas, de limites parcialmente definidos e contornos regulares, a maior na parede x, intramural/subserosa/submucosa, medindo x cm.
-    right_word: true
+    word: true
 
   - trigger: "mm3c"
     replace: Útero miomatoso.
-    right_word: true
+    word: true
 
   - trigger: "ov1"
     replace: destacando-se imagem cística de paredes finas e regulares, com conteúdo espesso no seu interior, sem fluxo vascular interno no seu interior.
-    right_word: true
+    word: true
 
   - trigger: "ov1c"
     replace: |-
       Cisto de conteúdo espesso no ovário direito/esquerdo. Considerar as hipóteses de cisto hemorrágico/endometrioma. Sugere-se controle ultrassonográfico em 6 meses.
       OU
       Cisto de conteúdo espesso estável em relação ao estudo anterior. Considerar a hipótese de endometrioma.
-    right_word: true
+    word: true
 
   - trigger: "ov2"
     replace: destacando-se imagem cística no seu interior, de paredes finas e regulares e conteúdo anecoico, medindo x cm.
-    right_word: true
+    word: true
 
   - trigger: "ov2c"
     replace: Cisto simples no ovário direito/esquerdo.
-    right_word: true
+    word: true
 
   - trigger: "ov3"
     replace: ovários com dimensões aumentadas, notando-se aumento de sua ecogenicidade central e múltiplas imagens císticas periféricas menores de 0,8 cm.
-    right_word: true
+    word: true
 
   - trigger: "ov3c"
     replace: Ovários de aspecto micropolicístico. O diagnóstico de síndrome dos ovários policísticos não é apenas ultrassonográfico, sendo necessária a presença de critérios clínicos para o correto diagnóstico.
-    right_word: true
+    word: true
 
   - trigger: "ov4"
     replace: Destaca-se imagem nodular hiperecogênica, sem fluxo ao estudo Doppler colorido, apresentando sombra acústica posterior, medindo x cm.
-    right_word: true
+    word: true
 
   - trigger: "ov4c"
     replace: Nódulo hiperecogênico no ovário direito/esquerdo. No diagnóstico diferencial incluir a possibilidade de teratoma.
-    right_word: true
+    word: true
 
   - trigger: "ov5"
     replace: Destaca-se imagem cística de paredes finas e regulares e finos septos de permeio, sem fluxo vascular ao estudo Doppler colorido, medindo x cm.
-    right_word: true
+    word: true
 
   - trigger: "ov5c"
     replace: Cisto septado no ovário direito/esquerdo
-    right_word: true
+    word: true
 
   - trigger: "ov6"
     replace: Destaca-se imagem cística, com componente mural sólido de permeio/septos grosseiros, com/sem fluxo vascular ao estudo Doppler colorido. Cisto mede x cm, componente sólido mede x cm.
-    right_word: true
+    word: true
 
   - trigger: "ov6c"
     replace: Imagem cística complexa no ovário direito/esquerdo
-    right_word: true
+    word: true
 
   - trigger: "ov7"
     replace: Destaca-se imagem cística de paredes finas e regulares, com conteúdo hipoecogênico homogêneo no seu interior, sem fluxo vascular interno no seu interior.
-    right_word: true
+    word: true
 
   - trigger: "ov7c"
     replace: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma.
-    right_word: true
+    word: true
 
   - trigger: "ov8"
     replace: Destaca-se imagem cística de paredes finas e regulares, com finos septos de permeio e conteúdo espesso heterogêneo no seu interior, sem fluxo vascular interno no seu interior.
-    right_word: true
+    word: true
 
   - trigger: "ov8c"
     replace: Cisto ovariano com as características a cima descritas, mais comumente associado a cisto hemorrágico.
-    right_word: true
+    word: true
 
   - trigger: "pm1"
     replace: Protusão de conteúdo abdominal gorduroso/alças intestinais, através de falha aponeurótica, observada/intensificada à manobra de valsalva, com colo de x cm e medindo x cm.
-    right_word: true
+    word: true
 
   - trigger: "pm1c"
     replace: Hérnia abdominal.
-    right_word: true
+    word: true
 
   - trigger: "pm2"
     replace: Nota-se, no plano subcutâneo, imagem nodular de limites parcialmente definidos e ecogenicidade semelhante ao tecido adiposo adjacente, medindo x cm, compatível com processo de natureza lipomatosa.
-    right_word: true
+    word: true
 
   - trigger: "pm2c"
     replace: Imagem nodular de limites parcialmente definidos e ecogenicidade semelhante ao tecido adiposo adjacente, compatível com processo de natureza lipomatosa.
-    right_word: true
+    word: true
 
   - trigger: "pm3"
     replace: |-
       Nota-se no plano subcutâneo, imagem heterogênea, predominantemente hipoecogênica, de limites parcialmente definidos e contornos regulares, sem fluxo vascular ao estudo Doppler colorido, compatível com coleção medindo cerca de x cm, distando x cm da pele.
       Hiperecogenicidade do tecido adiposo adjacente, inferindo edema.
       Planos musculares preservados.
-    right_word: true
+    word: true
 
   - trigger: "pm3c"
     replace: |
       Imagem heterogênea, predominantemente hipoecogênica, de limites parcialmente definidos e contornos regulares, compatível com coleção.
       Hiperecogenicidade do tecido adiposo adjacente, inferindo edema.
-    right_word: true
+    word: true
 
   - trigger: "diastase1"
     replace: Afastamento patológico dos ventres do músculo reto abdominal ao nível do mesogástrio e hipogástrio, com distância transversa máxima de X cm entre as bordas mediais.
-    right_word: true
+    word: true
 
   - trigger: "diastase1c"
     replace: Diástase do músculo reto abdominal.
-    right_word: true
+    word: true
 
   - trigger: "gordoo"
     replace: Estudo de avaliação limitada devido à atenuação do feixe acústico em planos superficiais
-    right_word: true
+    word: true
 
   - trigger: "bicorno"
     replace: |
       Observa-se divisão do eco endometrial na porção fúndica do útero, achado comumente relacionado a alteração mulleriana (provável útero septado ou bicorno).
-    right_word: true
+    word: true
 
   - trigger: "bicornoc"
     replace: |+
       Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
 
-    right_word: true
+    word: true
 
   - trigger: "testectopico"
     replace: |
       Testículo XXX não visualizado na bolsa escrotal ipsilateral.
       Observa-se em região inguinal XXX, imagem ovalada, de contornos regulares, apresentando textura sólida e heterogênea, predominantemente hipoecogênica, medindo XXX cm, com volume de XXX cm³, podendo corresponder à testículo ectópico.
-    right_word: true
+    word: true
 
   - trigger: "utbicorno"
     replace: Eco endometrial apresentando-se aparentente bipartido em suas porções corporais/fúndicas, com septação entre eles de ecogenicidade semelhante ao miométrio adjacente.
-    right_word: true
+    word: true
 
   - trigger: "utbicornoc"
     replace: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração Mülleriana.
-    right_word: true
+    word: true
 
   - trigger: "ustvpmid"
     replace: |-
@@ -1350,7 +1350,7 @@ matches:
 
       Conclusão:
       Dupplex Scan venoso superficial e profundo do membro inferior direito dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "ustvpmie"
     replace: |-
@@ -1365,7 +1365,7 @@ matches:
 
       Conclusão:
       Dupplex Scan venoso superficial e profundo do membro inferior esquerdo dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "ustvpmsd"
     replace: |
@@ -1379,7 +1379,7 @@ matches:
 
       Conclusão:
       DupplexScan venoso do membro superior direito dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "ustvpmse"
     replace: |
@@ -1393,15 +1393,15 @@ matches:
 
       Conclusão:
       DupplexScan venoso do membro superior esquerdo dentro dos padrões da normalidade.
-    right_word: true
+    word: true
 
   - trigger: "tvp1"
     replace: Veia _ de calibre aumentado, com material hipoecogênico no seu interior, sugestivo de trombo, incompressível à manobra de estudo, avascular ao estudo Doppler.
-    right_word: true
+    word: true
 
   - trigger: "ustvpc"
     replace: Sinais ecográficos sugestivos de trombose venosa profunda.
-    right_word: true
+    word: true
 
   - trigger: "ovdnao"
     replace: |
@@ -1409,7 +1409,7 @@ matches:
       Parênquima com ecotextura habitual.
       Medidas do ovário esquerdo: _ cm (volume: _ cm³).
       Ovário direito não caracterizado. (Os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais ou modificações próprias do período climatérico ou status pós-cirúrgico).
-    right_word: true
+    word: true
 
   - trigger: "ovenao"
     replace: |
@@ -1417,232 +1417,232 @@ matches:
       Parênquima com ecotextura habitual.
       Medidas do ovário direito: _ cm (volume: _ cm³).
       Ovário esquerdo não caracterizado. (Os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais ou modificações próprias do período climatérico ou status pós-cirúrgico).
-    right_word: true
+    word: true
 
   - trigger: "ovbnao"
     replace: Ovários não caracterizados no presente estudo (os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais, modificações próprias do período climatério ou status pós-cirúrgico).
-    right_word: true
+    word: true
 
   - trigger: "usedema"
     replace: Espessamento e hiperecogenicidade da pele e do tecido celular subcutâneo, com lâminas anecoicas de permeio, inferindo edema.
-    right_word: true
+    word: true
 
   - trigger: "vb0"
     replace: Vesícula biliar não caracterizada (status pós-operatório).
-    right_word: true
+    word: true
 
   - trigger: "vb0c"
     replace: Colecistectomia.
-    right_word: true
+    word: true
 
   - trigger: "vb1"
     replace: Vesícula biliar normodistendida, com paredes finas e regulares, apresentando imagens ecogênicas no seu interior, formadoras de sombra acústica posterior, compatível com cálculos, móveis às mudanças de decúbito, medindo até x cm.
-    right_word: true
+    word: true
 
   - trigger: "vb1c"
     replace: "Colecistolitíase. "
-    right_word: true
+    word: true
 
   - trigger: "vb10"
     replace: Vesícula biliar hipodistendida (ausência de jejum?).
-    right_word: true
+    word: true
 
   - trigger: "vb2"
     replace: Vesícula biliar hiperdistendida, medindo x cm no seu diâmetro longitudinal (valor normal <10 cm) e x cm no seu diâmetro transversal (valor normal até 4 cm). Apresenta suas paredes espessadas (medindo x cm, normal < 0,4 cm), trilaminadas, com líquido livre perivesical. Nota-se imagens ecogênicas formadoras de sombra acústica posterior, compatível com cálculos, destacando-se um imóvel na sua porção infundibular, medindo x cm. Sinal de Murphy ultrassonográfico positivo.
-    right_word: true
+    word: true
 
   - trigger: "vb2c"
     replace: Sinais compatíveis com colecistite aguda.
-    right_word: true
+    word: true
 
   - trigger: "vb4"
     replace: Observa-se imagem hiperecogênica, sem efeitos sobre o feixe sonoro posterior, na parede da porção _, imóvel às mudanças de decúbito, medindo _ cm.
-    right_word: true
+    word: true
 
   - trigger: "vb4c"
     replace: Imagem compatível com pólipo de vesícula biliar.
-    right_word: true
+    word: true
 
   - trigger: "rv3"
     replace: |
       Nota-se no grupamento calicinal inferior/ médio/ superior do rim, imagem ecogênica formadora de sombra acústica posterior e artefato luminescente, compatível com cálculo, não obstrutivo, medindo _ cm.
-    right_word: true
+    word: true
 
   - trigger: "rv3c"
     replace: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente.
-    right_word: true
+    word: true
 
   - trigger: "rv4"
     replace: |-
       Notam-se multiplas imagens ecogênicas formadoras de sombra acústica posterior e artefato luminescente, compatíveis com cálculos, não obstrutivos, destacando-se as maiores:
        - Uma no grupamento calicinal superior/ médio/ inferior, medindo _ cm.
-    right_word: true
+    word: true
 
   - trigger: "tvppaulo"
     replace: |
       Foram avaliadas as veias femoral comum, femoral, femoral profunda, poplítea, tibiais anteriores e posteriores e fibulares que se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
       As veias safenas magna e parva se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
-    right_word: true
+    word: true
 
   - trigger: "papv"
     replace: Pâncreas e aorta abdominal parcialmente visualizados devido interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
-    right_word: true
+    word: true
 
   - trigger: "pm5"
     replace: Espessamento e hiperecogenicidade da pele e do tecido celular subcutâneo, com lâminas anecoicas de permeio, inferindo edema.
-    right_word: true
+    word: true
 
   - trigger: "diu3"
     replace: "Cavidade uterina virtual, apresentando em seu interior dispositivo intra-uterino (DIU), distando * cm da cavidade fúndica (VR <0,5 cm) e * cm da serosa fúndica (VR <2,0 cm). "
-    right_word: true
+    word: true
 
   - trigger: "diu3c"
     replace: DIU deslocado.
-    right_word: true
+    word: true
 
   - trigger: "diu4"
     replace: Cavidade uterina virtual, apresentando no seu interior dispositivo intra-uterino (DIU) em topografia baixa, próximo ao colo, distando * cm da cavidade fúndica (VR <0,5 cm) e * cm da serosa fúndica (VR <2,0 cm), alocado em região anticonceptiva desfavorável.
-    right_word: true
+    word: true
 
   - trigger: "diu4c"
     replace: DIU de inserção baixa.
-    right_word: true
+    word: true
 
   - trigger: "usfocos"
     replace: Focos hiperrefrigentes menores que 0,4 cm em ambos os rins, podendo corresponder a microcálculos ou interface vascular.
-    right_word: true
+    word: true
 
   - trigger: "usfocosc"
     replace: Focos hiperrefrigentes em ambos os rins, podendo corresponder a microcálculos ou interface vascular.
-    right_word: true
+    word: true
 
   - trigger: "istmocele1"
     replace: Área anecoica triangular na região da incisão cirúrgica, em "cunha", sugestiva de istmocele.
-    right_word: true
+    word: true
 
   - trigger: "usjuv1"
     replace: |
       Foco hiperrefringente produtor de tênue sombra acústica posterior, localizado em junção ureterovesical à direita, medindo até _ cm.
-    right_word: true
+    word: true
 
   - trigger: "usjuv2"
     replace: |
       Foco hiperrefringente produtor de tênue sombra acústica posterior, localizado em junção ureterovesical à esquerda, medindo até _ cm.
-    right_word: true
+    word: true
 
   - trigger: "limitgas"
     replace: "Estudo de avaliação prejudicada devido interposição gasosa de alças intestinais. "
-    right_word: true
+    word: true
 
   - trigger: "uslamina"
     replace: Fina lâmina anecóica no interior da cavidade uterina, podendo corresponder a muco e/ou sangue.
-    right_word: true
+    word: true
 
   - trigger: "pm4"
     replace: Nota-se no plano subcutâneo, imagem cística de conteúdo hipoecogênico, sem fluxo vascular interno ao estudo Doppler e aparente comunicação com a derme. Considerar a hipótese de cisto sebáceo.
-    right_word: true
+    word: true
 
   - trigger: "pm4c"
     replace: Imagem cística de conteúdo hipoecogênico, sem fluxo vascular interno ao estudo doppler colorido e aparente comunicação com a derme. Considerar a hipótese de cisto sebáceo.
-    right_word: true
+    word: true
 
   - trigger: "prostn"
     replace: "NOTA: Próstata com aumento de suas dimensões, e contornos lobulados, volume de _ cm³, com impressão no assoalho vesical."
-    right_word: true
+    word: true
 
   - trigger: "pv"
     replace: parcialmente visualizado devido à interposição gasosa de alças intestinais.
-    right_word: true
+    word: true
 
   - trigger: "usrestos"
     replace: Material heterogêneo, sem fluxo ao estudo Doppler, na transição do corpo e colo uterino, medindo _ cm, com volume de _ cm³, podendo corresponder a restos ovulares e/ou coágulos.
-    right_word: true
+    word: true
 
   - trigger: "usrestosc"
     replace: Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos ovulares e/ou coágulos.
-    right_word: true
+    word: true
 
   - trigger: "hretro"
     replace: |
       Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.
-    right_word: true
+    word: true
 
   - trigger: "hretroc"
     replace: |
       Imagem adjacente ao saco gestacional, com características sugestivas de hematoma retrocoriônico.
-    right_word: true
+    word: true
 
   - trigger: "rv1"
     replace: |-
       Rim tópico, com dimensões reduzidas e contornos lobulados.
       Observa-se afilamento do parenquima renal e aumento de sua ecogenicidade, resultando em perda da diferenciação parenquimo-sinusal.
-    right_word: true
+    word: true
 
   - trigger: "rv1c"
     replace: Sinais de nefropatia parenquimatosa crônica.
-    right_word: true
+    word: true
 
   - trigger: "rv2"
     replace: |-
       Rim tópico, com dimensões preservadas e contornos regulares.
       Observa-se afilamento do parenquima renal e aumento de sua ecogenicidade
-    right_word: true
+    word: true
 
   - trigger: "rv2c"
     replace: Sinais de nefropatia parenquimatosa em rins de dimensões preservadas.
-    right_word: true
+    word: true
 
   - trigger: "rv4c"
     replace: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente.
-    right_word: true
+    word: true
 
   - trigger: "rv5"
     replace: Leve/ Moderada/ Acentuada dilatação pielocalicinal (e do ureter proximal) sem a caracterização de fatores obstrutivos.
-    right_word: true
+    word: true
 
   - trigger: "rv5c"
     replace: Leve/ Moderada/ Acentuada dilatação do sistema coletor à direita/ esquerda.
-    right_word: true
+    word: true
 
   - trigger: "rv6"
     replace: Imagem ecogênica formadora de sombra acústica posterior, compatível com cálculo promovendo leve/ moderada/ acentuada dilatação à montante, localizado no segmento proximal/ médio/ distal do ureter direito/ esquerdo, distando _ cm da junção ureteropélvica (JUP)/ junção ureterovesical (JUV).
-    right_word: true
+    word: true
 
   - trigger: "rv6c"
     replace: Cálculo obstrutivo no segmento proximal/ médio/ distal do ureter direito/ esquerdo.
-    right_word: true
+    word: true
 
   - trigger: "rv7"
     replace: Imagem cística de paredes finas e regulares, conteúdo anecoico, compatível com cisto simples localizado no terço superior/ médio/ inferior do rim, medindo _ cm.
-    right_word: true
+    word: true
 
   - trigger: "rv7c"
     replace: Cisto renal cortical simples à direita/ esquerda.
-    right_word: true
+    word: true
 
   - trigger: "rv8"
     replace: Múltiplas imagens císticas simples corticais bilaterais, a maior delas no terço superior/ médio/ inferior do rim, medindo _ cm.
-    right_word: true
+    word: true
 
   - trigger: "rv8c"
     replace: Cistos renais corticais simples à direita/ esquerda/ bilaterais.
-    right_word: true
+    word: true
 
   - trigger: "rv9"
     replace: Cisto renal cortical de conteúdo anecoico, apresentando septos grosseiros de permeio/ componente sólido intracístico, com fluxo vascular ao estudo Doppler, medindo _ cm.
-    right_word: true
+    word: true
 
   - trigger: "rv9c"
     replace: Cisto renal com as características acima descritas. Conveniente prosseguir investigação diagnóstica.
-    right_word: true
+    word: true
 
   - trigger: "rv10"
     replace: Imagem nodular hiperecogênica, de limites bem/ parcialmente definidos e cortornos regulares, com/ sem fluxo ao estudo Doppler, apresentando halo periférico, localizada no terço superior/ médio/ inferior do rim, medindo _ cm
-    right_word: true
+    word: true
 
   - trigger: "rv10c"
     replace: Nódulo hiperecogênico no rim direito/ esquerdo. Embora a possibilidade de angiomiolipoma seja a mais prevalente, a ultrassonografia não afasta processos primários de outra natureza. Tomografia computadorizada ou ressonância magnética de abdome pode trazer maiores subsídios diagnósticos.
-    right_word: true
+    word: true
 
   - trigger: "rv11"
     replace: |-
@@ -1650,102 +1650,102 @@ matches:
       Parenquima renal hiperecogênico e com redução de sua espessura.
       (Destaca-se imagem cística de conteúdo espeço no terço superior/médio/inferior do rim direito/esquerdo, medindo _ cm, que dentro do contexto clínico pode corresponder a cisto com conteúdo hemático).
       Como achado adicional, nota-se múltiplos cistos hepáticos simples.
-    right_word: true
+    word: true
 
   - trigger: "rv11c"
     replace: |-
       Sinais de doença renal policística (forma dominante).
       Cisto de conteúdo espesso no rim direito/ esquerdo, que dentro do contexto clínico pode corresponder a conteúdo hemático.
-    right_word: true
+    word: true
 
   - trigger: "rv12"
     replace: Imagem cística de conteúdo anecoico no hilo renal, medindo _ cm.
-    right_word: true
+    word: true
 
   - trigger: "rv12c"
     replace: Cisto parapielico/caliectasia focal à direita/ esquerda.
-    right_word: true
+    word: true
 
   - trigger: "rv13"
     replace: Destaca-se aumento da ecogenicidade das piramides renais, sem efeito sonoro sobre o feixe acústico posterior.
-    right_word: true
+    word: true
 
   - trigger: "rv13c"
     replace: Sinais de nefrocalcinose medular à direita/ esquerda/ bilateralmente.
-    right_word: true
+    word: true
 
   - trigger: "rv14"
     replace: Imagem nodular heterogênea/ homogênea, cortical, predominantemente hipoecogênica, de contornos bem definidos, com fluxo vascular ao estudo Doppler, localizado no terço superior/ médio/ inferior do rim.
-    right_word: true
+    word: true
 
   - trigger: "rv14c"
     replace: Nódulo renal à direita/ esquerda. Sugere-se prosseguimento da investigação com tomografia/ ressonância magnética de abdome.
-    right_word: true
+    word: true
 
   - trigger: "rv15"
     replace: Nota-se na topografia do rim direito/esquerdo, volumosa formação cística  intercomunicante, com septos de permeio. Parênquima renal não caracterizado.
-    right_word: true
+    word: true
 
   - trigger: "rv15c"
     replace: Considerar a hipótese de acentuada dilatação pielocalicinal à direita/ esquerda.
-    right_word: true
+    word: true
 
   - trigger: "sop"
     replace: |
       Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas. A possibilidade da síndrome dos ovários policísticos deve ser considerada se dados clínicos e laboratoriais compatíveis.
-    right_word: true
+    word: true
 
   - trigger: "terat1"
     replace: Ovário com aumento de suas dimensões,  às custas de formação cística com nível líquido-líquido e foco gorduroso no interior, sem fluxo ao estudo Doppler, medindo cerca _ cm.
-    right_word: true
+    word: true
 
   - trigger: "tvp1c"
     replace: Sinais de trombose venosa de origem recente.
-    right_word: true
+    word: true
 
   - trigger: "tvp2"
     replace: Veia _ de calibre reduzido, com espessamento parietal e áreas com material ecogênico sub-oclusivo no seu interior, mantendo-se fluxo vascular ao estudo Doppler.
-    right_word: true
+    word: true
 
   - trigger: "tvp2c"
     replace: Sinais de cicatrização pós-trombótica crônica.
-    right_word: true
+    word: true
 
   - trigger: "ut1"
     replace: Eco endometrial espessado e heterogêneo, medindo até _ cm de espessura na sua porção fúndica.
-    right_word: true
+    word: true
 
   - trigger: "ut1c"
     replace: Eco endometrial espessado e heterogêneo.
-    right_word: true
+    word: true
 
   - trigger: "ut2"
     replace: Imagem nodular ecogenica no terço superior/ médio/ inferior do eco endometrial, com pedículo vascular evidente ao Doppler, medindo _ cm.
-    right_word: true
+    word: true
 
   - trigger: "ut2c"
     replace: Nódulo endometrial que pode estar associado a pólipo endometrial.
-    right_word: true
+    word: true
 
   - trigger: "ut3"
     replace: Ecotextura miometrial de aspecto heterogêneo devido a algumas imagens císticas, marcadamenta na sua porção submucosa, medindo até _ cm.
-    right_word: true
+    word: true
 
   - trigger: "ut3c"
     replace: Alteração ecotextural miometrial que pode estar associado a adenomiose.
-    right_word: true
+    word: true
 
   - trigger: "ut4"
     replace: Ectasia de vasos venosos uterinos.
-    right_word: true
+    word: true
 
   - trigger: "ut5"
     replace: Eco endometrial apresentando aparentente bipartido em suas porções corporais/ fúndicas, com septação entre eles de ecogenicidade semelhante ao miométrio adjacente.
-    right_word: true
+    word: true
 
   - trigger: "ut5c"
     replace: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração Mülleriana.
-    right_word: true
+    word: true
 
   - trigger: "ut6"
     replace: |-
@@ -1755,129 +1755,129 @@ matches:
 
       Conclusão:
       Estudo ultra-sonográfico sem alterações significativas, considerando-se os antecedentes cirúrgicos.
-    right_word: true
+    word: true
 
   - trigger: "utnc"
     replace: Útero não caracterizado no presente estudo (histerectomia prévia).
-    right_word: true
+    word: true
 
   - trigger: "vb3"
     replace: Destaca-se a presença de ecos em suspensão e conteúdo hipoecogênico no seu interior, formando nível líquido com o conteúdo anecoico, sem fluxo detectável ao estudo Doppler, compatível com barro biliar.
-    right_word: true
+    word: true
 
   - trigger: "vb3c"
     replace: Achados sugestivos de barro biliar.
-    right_word: true
+    word: true
 
   - trigger: "vb5"
     replace: Imagens ecogênicas aderidas à parede da vesícula biliar, promovendo reverberação do feixe acústico posterior (artefato em "cauda de cometa"). Esse achado é encontrado de forma difusa/ segmentar/ focal.
-    right_word: true
+    word: true
 
   - trigger: "vb5c"
     replace: Sinais sugestivos de colesterolose/adenomiomatose da vesícula biliar
-    right_word: true
+    word: true
 
   - trigger: "vb6"
     replace: "Vesícula biliar hipodistendida, a despeito do preparo adequado, apresentando espessamento difuso de suas paredes, apresentando múltiplas imagens ecogênicas, formadoras de sombra acústica posterior, compatível com cálculos, medindo até _ cm no seu interior. "
-    right_word: true
+    word: true
 
   - trigger: "vb6c"
     replace: Sinais de colecistopatia calculosa crônica.
-    right_word: true
+    word: true
 
   - trigger: "vb7"
     replace: Nota-se, na topografia da vesícula biliar, interface ecogenica produtora de forte sombra acústica posterior.
-    right_word: true
+    word: true
 
   - trigger: "vb7c"
     replace: Interface ecogênica na topografia da vesícula biliar. Considerar a hipótese de vesícula repleta de cálculos.
-    right_word: true
+    word: true
 
   - trigger: "vb8"
     replace: Vesícula biliar normodistendida, com paredes difusamente hiperecogênicas, sem imagem compatível com cálculos no seu interior.
-    right_word: true
+    word: true
 
   - trigger: "vb8c"
     replace: Paredes da vesícula biliar hiperecogênicas. Considerar a hipótese de vesícula em porcelana.
-    right_word: true
+    word: true
 
   - trigger: "vb9"
     replace: Vesícula biliar normodistendida, com paredes difusamente espessadas (achado provavelmente relacionado à ascite do paciente), sem imagem compatível com cálculos no seu interior.
-    right_word: true
+    word: true
 
   - trigger: "vbcole"
     replace: |-
       Vesícula biliar hidrópica, com paredes finas e regulares, apresentando imagens ecogênicas no seu interior, formadoras de sombra acústica posterior, compatível com cálculos, móveis às mudanças de decúbito.
       Sinais ecográficos de dilatação de vias biliares intra e extra-hepática, sem caracterização do fator obstrutivo, com hepato colédoco medindo _ cm, associado à dilatação do Wirsung, medindo _ cm. A critério clínico, se possível, a colangioressonância, poderá fornecer maiores subsídios diagnósticos.
-    right_word: true
+    word: true
 
   - trigger: "ut0"
     replace: "Útero não caracterizado (status pós-operatório). "
-    right_word: true
+    word: true
 
   - trigger: "ut0c"
     replace: Sinais de histerectomia total.
-    right_word: true
+    word: true
 
   - trigger: "usnaboth"
     replace: Colo uterino com ecotextura heterogênea, apresentando cisto de retenção, de contornos regulares e conteúdo anecóico (líquido) / hipoecóico (líquido espesso), medindo _ cm.
-    right_word: true
+    word: true
 
   - trigger: "usnabothc"
     replace: Cisto de Naboth.
-    right_word: true
+    word: true
 
   - trigger: "uslb"
     replace: Linfonodos de aspecto habitual nos prolongamentos axilares.
-    right_word: true
+    word: true
 
   - trigger: "usle"
     replace: Linfonodo de aspecto habitual no prolongamento axilar esquerdo.
-    right_word: true
+    word: true
 
   - trigger: "usld"
     replace: Linfonodo de aspecto habitual no prolongamento axilar direito.
-    right_word: true
+    word: true
 
   - trigger: "mms1"
     replace: Cistos subcentimétricos esparsos por ambas as mamas.
-    right_word: true
+    word: true
 
   - trigger: "ma3"
     replace: Nódulo ovalado, circunscrito, hipoecoico, maior eixo paralelo à pele, medindo _ cm, localizado às hs da mama [esquerda/direita], distando _ cm da pele e _ cm da papila.
-    right_word: true
+    word: true
 
   - trigger: "usnc"
     replace: Nódulo na mama [direita/esquerda] com as características acima descritas.
-    right_word: true
+    word: true
 
   - trigger: "usncs"
     replace: Nódulos na mama [direita/esquerda] com as características acima descritas.
-    right_word: true
+    word: true
 
   - trigger: "ma1"
     replace: Cistos subcentimétricos esparsos por ambas as mamas.
-    right_word: true
+    word: true
 
   - trigger: "ma11"
     replace: Cistos subcentimétricos esparsos pela mama direita.
-    right_word: true
+    word: true
 
   - trigger: "ma12"
     replace: Cistos subcentimétricos esparsos pela mama esquerda.
-    right_word: true
+    word: true
 
   - trigger: "ma3c"
     replace: Nódulo na mama [direita/esquerda] com as características acima descritas.
-    right_word: true
+    word: true
 
   - trigger: "ma3s"
     replace: |
       Nódulos ovalados, circunscritos, hipoecoicos, maior eixo paralelo à pele, assim distribuídos:
       - às hs da mama [esquerda/direita], medindo _ cm, distando _ cm da pele e _ cm da papila;
       - às hs da mama [esquerda/direita], medindo _ cm, distando _ cm da pele e _ cm da papila.
-    right_word: true
+    word: true
 
   - trigger: "ma3sc"
     replace: Nódulos na mama [direita/esquerda] com as características acima descritas.
-    right_word: true
+    word: true
