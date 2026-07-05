@@ -8297,7 +8297,7 @@ matches:
     word: true
     replace: tocando as raízes nervosas emergente de L5 e descendente de S1.
 
-  - trigger: "torid"
+  - trigger: "tctorid"
     word: true
     replace: |
       TOMOGAFIA COMPUTADORIZADA DE TÓRAX S/C
@@ -8912,18 +8912,6 @@ matches:
     word: true
     replace: "Fígado com forma, contornos e volume usuais apresentando redução difusa do coeficiente de atenuação de seu parênquima, representando esteatose."
 
-  - trigger: "esteatose1"
-    word: true
-    replace: "Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade."
-
-  - trigger: "esteatose2"
-    word: true
-    replace: "Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que atenua o feixe acústico posterior, dificultando a caracterização de eventuais lesões focais."
-
-  - trigger: "esteatose3"
-    word: true
-    replace: "Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que atenua o feixe acústico posterior, dificultando a caracterização de eventuais lesões focais e impedindo a adequada visualização dos vasos hepáticos e das vias biliares."
-
   - trigger: "fai"
     word: true
     replace: "Fratura em acunhamento/insuficiência do corpo vertebral de __ com redução de cerca de __%, de sua altura, porém sem retropulsão do muro posterior."
@@ -8931,14 +8919,6 @@ matches:
   - trigger: "fhpnd"
     word: true
     replace: formação hipoatenuantes de paredes não definidas
-
-  - trigger: "fhptsap"
-    word: true
-    replace: Foco hiperrefringente produtore de tênue sombra acústica posterior
-
-  - trigger: "fshspstsap"
-    word: true
-    replace: Focos hiperrefringentes produtores de tênue sombra acústica posterior
 
   - trigger: "gci"
     word: true
@@ -9186,22 +9166,6 @@ matches:
   - trigger: "opacdec"
     word: true
     replace: "Tênues opacidades em vidro fosco nos segmentos posteriores do pulmão  ..... , provavelmente atribuíveis ao decúbito."
-
-  - trigger: "ovdnc"
-    word: true
-    replace: "Ovário direito não caracterizado no presente estudo (o ovário pode não ser caracterizado em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais ou modificações próprias do período climatérico ou status pós-cirúrgico)."
-
-  - trigger: "ovenc"
-    word: true
-    replace: "Ovário esquerdo não caracterizado no presente estudo (o ovário pode não ser caracterizado em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais ou modificações próprias do período climatérico ou status pós-cirúrgico)."
-
-  - trigger: "ovsncs"
-    word: true
-    replace: "Ovários não caracterizados no presente estudo (os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais, modificações próprias do período climatério ou status pós-cirúrgico)."
-
-  - trigger: "papv"
-    word: true
-    replace: Pâncreas e aorta abdominal parcialmente visualizado devido a intensa sobreposição gasosa de alças intestinais.
 
   - trigger: "pcn"
     word: true
