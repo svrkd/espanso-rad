@@ -133,10 +133,6 @@ matches:
     word: true
     replace: Artropatia degenerativa acromioclavicular com hipertrofia osteocapsular.
 
-  - trigger: "adao"
-    word: true
-    replace: Alterações degenerativas do arcabouço ósseo torácico.
-
   - trigger: "adar"
     word: true
     replace: Alterações degenerativas do arcabouço ósseo regional.
@@ -281,7 +277,7 @@ matches:
     word: true
     replace: "Imagem hipodensa, corticossubcortical, localizada no giro pré-central esquerdo. Área de isquemia? Lesão de outra natureza?"
 
-  - trigger: "alarg"
+  - trigger: "alarg3"
     word: true
     replace: Alargamento dos canais inguinais por conteúdo adiposo.
 
