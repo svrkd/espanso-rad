@@ -554,8 +554,7 @@ matches:
 
   - trigger: "rv3"
     label: "Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo)"
-    replace: |-
-      Nota-se no grupamento calicinal inferior/ médio/ superior do rim, imagem ecogênica formadora de sombra acústica posterior e artefato luminescente, compatível com cálculo, não obstrutivo, medindo _ cm.
+    replace: Nota-se no grupamento calicinal inferior/ médio/ superior do rim, imagem ecogênica formadora de sombra acústica posterior e artefato luminescente, compatível com cálculo, não obstrutivo, medindo _ cm.
     word: true
 
   - trigger: "rv3c"
@@ -582,14 +581,12 @@ matches:
 
   - trigger: "usjuv1"
     label: "Ureter (JUV direita): Foco hiperrefringente produtor de tênue sombra acústica posterior, localizado em junção..."
-    replace: |-
-      Foco hiperrefringente produtor de tênue sombra acústica posterior, localizado em junção ureterovesical à direita, medindo até _ cm.
+    replace: Foco hiperrefringente produtor de tênue sombra acústica posterior, localizado em junção ureterovesical à direita, medindo até _ cm.
     word: true
 
   - trigger: "usjuv2"
     label: "Ureter (JUV esquerda): Foco hiperrefringente produtor de tênue sombra acústica posterior, localizado em junção..."
-    replace: |-
-      Foco hiperrefringente produtor de tênue sombra acústica posterior, localizado em junção ureterovesical à esquerda, medindo até _ cm.
+    replace: Foco hiperrefringente produtor de tênue sombra acústica posterior, localizado em junção ureterovesical à esquerda, medindo até _ cm.
     word: true
 
   - trigger: "prostn"
@@ -1083,13 +1080,12 @@ matches:
 
   - trigger: "bicorno"
     label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno) (achado descritivo)"
-    replace: |-
-      Observa-se divisão do eco endometrial na porção fúndica do útero, achado comumente relacionado a alteração mulleriana (provável útero septado ou bicorno).
+    replace: Observa-se divisão do eco endometrial na porção fúndica do útero, achado comumente relacionado a alteração mulleriana (provável útero septado ou bicorno).
     word: true
 
   - trigger: "bicornoc"
     label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno)"
-    replace: |
+    replace: |-
       Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
     word: true
 
@@ -1168,20 +1164,17 @@ matches:
 
   - trigger: "hretro"
     label: "Obstétrica: hematoma retrocoriônico (achado descritivo)"
-    replace: |-
-      Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.
+    replace: Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.
     word: true
 
   - trigger: "hretroc"
     label: "Obstétrica (hematoma retrocoriônico): Imagem adjacente ao saco gestacional, com características sugestivas de hematoma..."
-    replace: |-
-      Imagem adjacente ao saco gestacional, com características sugestivas de hematoma retrocoriônico.
+    replace: Imagem adjacente ao saco gestacional, com características sugestivas de hematoma retrocoriônico.
     word: true
 
   - trigger: "sop"
     label: "Ovário (síndrome dos ovários policísticos): Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas"
-    replace: |-
-      Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas. A possibilidade da síndrome dos ovários policísticos deve ser considerada se dados clínicos e laboratoriais compatíveis.
+    replace: Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas. A possibilidade da síndrome dos ovários policísticos deve ser considerada se dados clínicos e laboratoriais compatíveis.
     word: true
 
   - trigger: "terat1"
@@ -1706,6 +1699,236 @@ matches:
       Pequena/Moderada/Acentuada quantidade de líquido livre anecoico no recesso supra-patelar e/d.
     word: true
 
+  - trigger: "om1"
+    label: "Ombro: Sinais de tendinopatia do supraespinhal (achado descritivo)"
+    replace: Tendão do supraespinhal com espessura aumentada e hipoecogenicidade textural difusa, sem sinais de descontinuidade de fibras.
+    word: true
+
+  - trigger: "om1c"
+    label: "Ombro: Sinais de tendinopatia do supraespinhal"
+    replace: Sinais de tendinopatia do supraespinhal.
+    word: true
+
+  - trigger: "om2"
+    label: "Ombro: Ruptura parcial, não transfixante, do tendão do supraespinhal (achado descritivo)"
+    replace: Tendão do supraespinhal com área de descontinuidade parcial das fibras na projeção da zona crítica, medindo _ cm longitudinal por _ cm transversal, preservando fibras mais profundas/superficiais.
+    word: true
+
+  - trigger: "om2c"
+    label: "Ombro: Ruptura parcial, não transfixante, do tendão do supraespinhal"
+    replace: Ruptura parcial, não transfixante, do tendão do supraespinhal.
+    word: true
+
+  - trigger: "om3"
+    label: "Ombro: Ruptura transfixante do tendão do supraespinhal (achado descritivo)"
+    replace: Tendão do supraespinhal com descontinuidade transfixante na projeção da zona crítica, medindo _ cm longitudinal por _ cm transversal, com retração de cotos e cabeça umeral de contorno irregular.
+    word: true
+
+  - trigger: "om3c"
+    label: "Ombro: Ruptura transfixante do tendão do supraespinhal"
+    replace: Ruptura transfixante do tendão do supraespinhal.
+    word: true
+
+  - trigger: "om4"
+    label: "Ombro: Sinais de bursite subacromial-subdeltoidea à _ (achado descritivo)"
+    replace: Bursa subacromial-subdeltoidea distendida por líquido de aspecto anecoico e homogêneo, medindo cerca de _ cm de espessura.
+    word: true
+
+  - trigger: "om4c"
+    label: "Ombro: Sinais de bursite subacromial-subdeltoidea à _"
+    replace: Sinais de bursite subacromial-subdeltoidea à _.
+    word: true
+
+  - trigger: "om5"
+    label: "Ombro: Achados sugestivos de capsulite adesiva do ombro _ (achado descritivo)"
+    replace: Limitação do deslizamento do tendão do supraespinhal sob a cobertura acromial à manobra dinâmica de abdução do braço, sem sinais de ruptura tendínea associada.
+    word: true
+
+  - trigger: "om5c"
+    label: "Ombro: Achados sugestivos de capsulite adesiva do ombro _"
+    replace: Achados sugestivos de capsulite adesiva do ombro _.
+    word: true
+
+  - trigger: "co1"
+    label: "Cotovelo: Sinais de epicondilite lateral (cotovelo do tenista) à _ (achado descritivo)"
+    replace: Tendão comum dos extensores e sua inserção no epicôndilo lateral com espessura levemente aumentada e hipoecogenicidade textural difusa, associada a irregularidade da superfície óssea adjacente.
+    word: true
+
+  - trigger: "co1c"
+    label: "Cotovelo: Sinais de epicondilite lateral (cotovelo do tenista) à _"
+    replace: Sinais de epicondilite lateral (cotovelo do tenista) à _.
+    word: true
+
+  - trigger: "co2"
+    label: "Cotovelo: Sinais de epicondilite medial (cotovelo do golfista) à _ (achado descritivo)"
+    replace: Tendão comum dos flexores e sua inserção no epicôndilo medial com espessura levemente aumentada e hipoecogenicidade textural difusa.
+    word: true
+
+  - trigger: "co2c"
+    label: "Cotovelo: Sinais de epicondilite medial (cotovelo do golfista) à _"
+    replace: Sinais de epicondilite medial (cotovelo do golfista) à _.
+    word: true
+
+  - trigger: "co3"
+    label: "Cotovelo: Sinais de bursite olecraniana à _ (achado descritivo)"
+    replace: Bursa olecraniana distendida por líquido de aspecto anecoico e homogêneo, medindo cerca de _ cm.
+    word: true
+
+  - trigger: "co3c"
+    label: "Cotovelo: Sinais de bursite olecraniana à _"
+    replace: Sinais de bursite olecraniana à _.
+    word: true
+
+  - trigger: "co4"
+    label: "Cotovelo: Aumento do calibre do nervo ulnar na fossa cubital (achado descritivo)"
+    replace: Nervo ulnar na fossa cubital com calibre aumentado, medindo área de secção transversa de _ mm² (normal < 8 mm²), sem luxação à manobra de flexão do cotovelo.
+    word: true
+
+  - trigger: "co4c"
+    label: "Cotovelo: Aumento do calibre do nervo ulnar na fossa cubital"
+    replace: Aumento do calibre do nervo ulnar na fossa cubital. Considerar a hipótese de neuropatia compressiva.
+    word: true
+
+  - trigger: "pu1"
+    label: "Punho/mão: Sinais de tenossinovite dos flexores no túnel do carpo à _ (achado descritivo)"
+    replace: Tendões flexores dos dedos com calibre aumentado na topografia do túnel do carpo, associado a halo anecoico de edema sinovial difuso.
+    word: true
+
+  - trigger: "pu1c"
+    label: "Punho/mão: Sinais de tenossinovite dos flexores no túnel do carpo à _"
+    replace: Sinais de tenossinovite dos flexores no túnel do carpo à _.
+    word: true
+
+  - trigger: "pu2"
+    label: "Punho/mão: Sinais de tenossinovite estenosante de De Quervain à _ (achado descritivo)"
+    replace: Tendões do abdutor longo e do extensor curto do polegar com calibre aumentado no primeiro túnel extensor, associado a halo anecoico de edema sinovial, comprometendo cerca de _ cm longitudinal.
+    word: true
+
+  - trigger: "pu2c"
+    label: "Punho/mão: Sinais de tenossinovite estenosante de De Quervain à _"
+    replace: Sinais de tenossinovite estenosante de De Quervain à _.
+    word: true
+
+  - trigger: "pu3"
+    label: "Punho/mão: Cisto artrossinovial no punho _ (achado descritivo)"
+    replace: Formação cística lobulada, de conteúdo anecoico homogêneo, com colo de comunicação articular, adjacente à articulação _ do punho, medindo _ cm.
+    word: true
+
+  - trigger: "pu3c"
+    label: "Punho/mão: Cisto artrossinovial no punho _"
+    replace: Cisto artrossinovial no punho _.
+    word: true
+
+  - trigger: "pu4"
+    label: "Punho/mão: Sinais de tenossinovite estenosante do flexor do _ dedo (dedo em gatilho) (achado descritivo)"
+    replace: Tendão flexor do _ dedo com espessamento na topografia da primeira polia anular, associado a travamento à extensão do respectivo quirodáctilo à manobra dinâmica.
+    word: true
+
+  - trigger: "pu4c"
+    label: "Punho/mão: Sinais de tenossinovite estenosante do flexor do _ dedo (dedo em gatilho)"
+    replace: Sinais de tenossinovite estenosante do flexor do _ dedo (dedo em gatilho).
+    word: true
+
+  - trigger: "jo1"
+    label: "Joelho: Cisto de Baker íntegro à _ (achado descritivo)"
+    replace: Formação cística na fossa poplítea, de paredes finas e lobuladas, conteúdo anecoico homogêneo, com colo de comunicação articular entre o tendão do semimembranoso e o músculo gastrocnêmio medial, medindo _ cm.
+    word: true
+
+  - trigger: "jo1c"
+    label: "Joelho: Cisto de Baker íntegro à _"
+    replace: Cisto de Baker íntegro à _.
+    word: true
+
+  - trigger: "jo2"
+    label: "Joelho: Sinais de tendinopatia patelar à _ (achado descritivo)"
+    replace: Tendão patelar com calibre aumentado em sua inserção proximal/distal, associado a hipoecogenicidade textural local, sem sinais de descontinuidade de fibras.
+    word: true
+
+  - trigger: "jo2c"
+    label: "Joelho: Sinais de tendinopatia patelar à _"
+    replace: Sinais de tendinopatia patelar à _.
+    word: true
+
+  - trigger: "jo3"
+    label: "Joelho: Sinais sugestivos de ruptura meniscal do menisco _ à _. Sugiro complementar com ressonância... (achado descritivo)"
+    replace: Perda da arquitetura triangular ecogênica habitual do corno _ do menisco _, associada a hipoecogenicidade textural e área de descontinuidade estendendo-se à superfície articular.
+    word: true
+
+  - trigger: "jo3c"
+    label: "Joelho: Sinais sugestivos de ruptura meniscal do menisco _ à _. Sugiro complementar com ressonância..."
+    replace: Sinais sugestivos de ruptura meniscal do menisco _ à _. Sugiro complementar com ressonância magnética.
+    word: true
+
+  - trigger: "jo4"
+    label: "Joelho: Sinais de osteoartrose femorotibial à _ (achado descritivo)"
+    replace: Cartilagem articular femorotibial difusamente espessada, com borramento dos contornos, irregularidade da superfície óssea subcondral e osteófitos marginais.
+    word: true
+
+  - trigger: "jo4c"
+    label: "Joelho: Sinais de osteoartrose femorotibial à _"
+    replace: Sinais de osteoartrose femorotibial à _.
+    word: true
+
+  - trigger: "qd1"
+    label: "Quadril: Sinais de bursite trocantérica à _ (achado descritivo)"
+    replace: Bursa trocantérica distendida por líquido de aspecto anecoico e homogêneo, medindo _ cm de espessura.
+    word: true
+
+  - trigger: "qd1c"
+    label: "Quadril: Sinais de bursite trocantérica à _"
+    replace: Sinais de bursite trocantérica à _.
+    word: true
+
+  - trigger: "qd2"
+    label: "Quadril: Sinais ecográficos compatíveis com sinovite/derrame articular do quadril _ (achado descritivo)"
+    replace: Coleção líquida de aspecto anecoico e homogêneo no recesso anterior da cápsula articular do quadril _, com distância colo-cápsula de _ cm (normal < 0,7 cm ou assimetria > 0,2 cm em relação ao contralateral).
+    word: true
+
+  - trigger: "qd2c"
+    label: "Quadril: Sinais ecográficos compatíveis com sinovite/derrame articular do quadril _"
+    replace: Sinais ecográficos compatíveis com sinovite/derrame articular do quadril _.
+    word: true
+
+  - trigger: "pe1"
+    label: "Pé/tornozelo: Sinais de fascite plantar à _ (achado descritivo)"
+    replace: Fáscia plantar com espessura aumentada em sua inserção no calcâneo, medindo _ cm (normal < 0,4 cm), associada a hipoecogenicidade textural local.
+    word: true
+
+  - trigger: "pe1c"
+    label: "Pé/tornozelo: Sinais de fascite plantar à _"
+    replace: Sinais de fascite plantar à _.
+    word: true
+
+  - trigger: "pe2"
+    label: "Pé/tornozelo: Sinais de tendinopatia do calcâneo à _ (achado descritivo)"
+    replace: Tendão calcâneo com calibre aumentado, medindo _ cm de espessura na zona crítica, associado a hipoecogenicidade textural local, sem sinais de descontinuidade de fibras.
+    word: true
+
+  - trigger: "pe2c"
+    label: "Pé/tornozelo: Sinais de tendinopatia do calcâneo à _"
+    replace: Sinais de tendinopatia do calcâneo à _.
+    word: true
+
+  - trigger: "pe3"
+    label: "Pé/tornozelo: Imagem nodular entre o _º e _º metatarsos (achado descritivo)"
+    replace: Imagem nodular sólida, hipoecogênica, entre as cabeças metatarsais _ e _, na topografia do feixe vasculonervoso, extruindo-se à manobra de Mulder, medindo _ cm.
+    word: true
+
+  - trigger: "pe3c"
+    label: "Pé/tornozelo: Imagem nodular entre o _º e _º metatarsos"
+    replace: Imagem nodular entre o _º e _º metatarsos. Considerar a hipótese de neuroma de Morton.
+    word: true
+
+  - trigger: "pe4"
+    label: "Pé/tornozelo: Sinais de talalgia de impacto à _ (achado descritivo)"
+    replace: Aumento da ecogenicidade do coxim adiposo subcutâneo plantar do calcâneo, com hipoecogenicidade textural da superfície óssea adjacente, medindo _ cm de espessura (normal < 1,5 cm).
+    word: true
+
+  - trigger: "pe4c"
+    label: "Pé/tornozelo: Sinais de talalgia de impacto à _"
+    replace: Sinais de talalgia de impacto à _.
+    word: true
+
   # ==============================================================================
   # BOLSA ESCROTAL
   # ==============================================================================
@@ -1779,6 +2002,66 @@ matches:
     replace: |-
       Testículo _ não visualizado na bolsa escrotal ipsilateral.
       Observa-se em região inguinal _, imagem ovalada, de contornos regulares, apresentando textura sólida e heterogênea, predominantemente hipoecogênica, medindo _ cm, com volume de _ cm³, podendo corresponder à testículo ectópico.
+    word: true
+
+  - trigger: "te1"
+    label: "Testículo/bolsa escrotal: Ausência de fluxo vascular no testículo _, associada a alterações de textura parenquimatosa (achado descritivo)"
+    replace: Testículo _ com dimensões aumentadas, rodado sobre seu eixo, com parênquima heterogêneo e hipoecogênico em relação ao contralateral, associado a espessamento do funículo espermático adjacente e ausência de fluxo vascular ao estudo Doppler colorido.
+    word: true
+
+  - trigger: "te1c"
+    label: "Testículo/bolsa escrotal: Ausência de fluxo vascular no testículo _, associada a alterações de textura parenquimatosa"
+    replace: Ausência de fluxo vascular no testículo _, associada a alterações de textura parenquimatosa. Considerar a hipótese de torção testicular. Achado de urgência, com correlação clínica imediata recomendada.
+    word: true
+
+  - trigger: "te2"
+    label: "Testículo/bolsa escrotal: Sinais de varicocele à _ (achado descritivo)"
+    replace: Dilatação e tortuosidade de vasos do plexo pampiniforme à _, medindo em repouso _ cm (normal < 0,2-0,3 cm) e acentuando-se à manobra de Valsalva, associada a refluxo valvar ao estudo Doppler colorido.
+    word: true
+
+  - trigger: "te2c"
+    label: "Testículo/bolsa escrotal: Sinais de varicocele à _"
+    replace: Sinais de varicocele à _.
+    word: true
+
+  - trigger: "te3"
+    label: "Testículo/bolsa escrotal: Sinais sugestivos de orquiepididimite à _ (achado descritivo)"
+    replace: Epidídimo com dimensões aumentadas, ecotextura heterogênea e fluxo vascular aumentado ao estudo Doppler colorido, associado a testículo de dimensões e ecotextura preservadas/aumentado de volume e heterogêneo.
+    word: true
+
+  - trigger: "te3c"
+    label: "Testículo/bolsa escrotal: Sinais sugestivos de orquiepididimite à _"
+    replace: Sinais sugestivos de orquiepididimite à _.
+    word: true
+
+  - trigger: "te4"
+    label: "Testículo/bolsa escrotal: Hérnia inguinoescrotal à _, com sinais sugestivos de encarceramento (achado descritivo)"
+    replace: Herniação de conteúdo omental/intestinal através do canal inguinal _ até a bolsa escrotal, com pouca mobilidade às manobras de compressão e Valsalva, medindo cerca de _ cm.
+    word: true
+
+  - trigger: "te4c"
+    label: "Testículo/bolsa escrotal: Hérnia inguinoescrotal à _, com sinais sugestivos de encarceramento"
+    replace: Hérnia inguinoescrotal à _, com sinais sugestivos de encarceramento.
+    word: true
+
+  - trigger: "te5"
+    label: "Testículo/bolsa escrotal: Microlitíase testicular à _ (achado descritivo)"
+    replace: Parênquima testicular com ecotextura homogênea, exceto por múltiplos focos hiperecogênicos puntiformes, sem sombra acústica posterior, distribuídos difusamente, medindo entre 0,1 e 0,3 cm (mais de 5 focos por campo de imagem).
+    word: true
+
+  - trigger: "te5c"
+    label: "Testículo/bolsa escrotal: Microlitíase testicular à _"
+    replace: Microlitíase testicular à _.
+    word: true
+
+  - trigger: "te6"
+    label: "Testículo/bolsa escrotal: Coleção heterogênea adjacente ao testículo _, com hematocele associada (achado descritivo)"
+    replace: Imagem heterogênea, sem fluxo vascular ao estudo Doppler colorido, adjacente ao testículo _, associada a líquido livre na bolsa escrotal com debris de permeio.
+    word: true
+
+  - trigger: "te6c"
+    label: "Testículo/bolsa escrotal: Coleção heterogênea adjacente ao testículo _, com hematocele associada"
+    replace: Coleção heterogênea adjacente ao testículo _, com hematocele associada. Considerar a hipótese de hematoma pós-traumático.
     word: true
 
   # ==============================================================================
@@ -1994,6 +2277,56 @@ matches:
       Exame ecográfico da tireoide com Doppler sem alterações significativas.
     word: true
 
+  - trigger: "ti1"
+    label: "Tireoide (nódulo): Nódulo tireoidiano à _, com padrão de baixo risco ao Doppler (Chammas II) (achado descritivo)"
+    replace: Parênquima tireoidiano com ecotextura homogênea, exceto por imagem nodular sólida, de contornos regulares e bem definidos, conteúdo hipoecogênico homogêneo, sem calcificações, com fluxo somente periférico ao estudo Doppler colorido (Chammas II), no terço _ do lobo _, medindo _ cm.
+    word: true
+
+  - trigger: "ti1c"
+    label: "Tireoide (nódulo): Nódulo tireoidiano à _, com padrão de baixo risco ao Doppler (Chammas II)"
+    replace: Nódulo tireoidiano à _, com padrão de baixo risco ao Doppler (Chammas II).
+    word: true
+
+  - trigger: "ti2"
+    label: "Tireoide (nódulo): Nódulo tireoidiano à _, com características suspeitas ao método (Chammas III/IV) (achado descritivo)"
+    replace: Parênquima tireoidiano apresentando imagem nodular sólida, de contornos parcialmente irregulares, conteúdo hipoecogênico, com microcalcificações e fluxo predominantemente central ao estudo Doppler colorido (Chammas III/IV), no terço _ do lobo _, medindo _ cm.
+    word: true
+
+  - trigger: "ti2c"
+    label: "Tireoide (nódulo): Nódulo tireoidiano à _, com características suspeitas ao método (Chammas III/IV)"
+    replace: Nódulo tireoidiano à _, com características suspeitas ao método (Chammas III/IV). Sugiro complementar com punção aspirativa por agulha fina.
+    word: true
+
+  - trigger: "ti3"
+    label: "Tireoide (doença difusa): Tireoide difusamente heterogênea e hipervascularizada (achado descritivo)"
+    replace: Parênquima tireoidiano com ecotextura difusamente heterogênea, sem evidência de nódulos ou cistos, associado a fluxo vascular difusamente aumentado ao estudo Doppler colorido e dimensões glandulares aumentadas.
+    word: true
+
+  - trigger: "ti3c"
+    label: "Tireoide (doença difusa): Tireoide difusamente heterogênea e hipervascularizada"
+    replace: Tireoide difusamente heterogênea e hipervascularizada. Considerar a hipótese de tireoidopatia de Graves.
+    word: true
+
+  - trigger: "ti4"
+    label: "Tireoide (doença difusa): Tireoide difusamente heterogênea e de dimensões reduzidas (achado descritivo)"
+    replace: Parênquima tireoidiano com ecotextura difusamente heterogênea, sem evidência de nódulos ou cistos, associado a dimensões glandulares reduzidas e fluxo vascular discretamente aumentado ao estudo Doppler colorido.
+    word: true
+
+  - trigger: "ti4c"
+    label: "Tireoide (doença difusa): Tireoide difusamente heterogênea e de dimensões reduzidas"
+    replace: Tireoide difusamente heterogênea e de dimensões reduzidas. Considerar a hipótese de tireoidopatia de Hashimoto.
+    word: true
+
+  - trigger: "ti5"
+    label: "Linfonodo cervical: Linfonodomegalia cervical à _, com critérios morfológicos de atenção (achado descritivo)"
+    replace: Linfonodo na cadeia cervical _, de contornos bem definidos, hipoecogênico, com perda da relação córtico-hilar e ausência do hilo ecogênico central, medindo _ cm.
+    word: true
+
+  - trigger: "ti5c"
+    label: "Linfonodo cervical: Linfonodomegalia cervical à _, com critérios morfológicos de atenção"
+    replace: Linfonodomegalia cervical à _, com critérios morfológicos de atenção. Sugiro correlação clínica e, se pertinente, investigação complementar.
+    word: true
+
   # ==============================================================================
   # TÓRAX
   # ==============================================================================
@@ -2013,6 +2346,26 @@ matches:
 
       Conclusão:
       Exame ecográfico do tórax dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "tx1"
+    label: "Tórax (derrame pleural): Derrame pleural _ à _ (achado descritivo)"
+    replace: Quantidade _ de líquido livre na cavidade pleural _, com aspecto anecoico, sem debris ou septações, medindo cerca de _ cm de espessura no maior eixo.
+    word: true
+
+  - trigger: "tx1c"
+    label: "Tórax (derrame pleural): Derrame pleural _ à _"
+    replace: Derrame pleural _ à _.
+    word: true
+
+  - trigger: "tx2"
+    label: "Tórax (derrame pleural): Derrame pleural _ à _, com septações e atelectasia associada (achado descritivo)"
+    replace: Quantidade _ de líquido livre na cavidade pleural _, com debris e septações finas de permeio, associado a atelectasia passiva dos segmentos basais do lobo inferior adjacente.
+    word: true
+
+  - trigger: "tx2c"
+    label: "Tórax (derrame pleural): Derrame pleural _ à _, com septações e atelectasia associada"
+    replace: Derrame pleural _ à _, com septações e atelectasia associada.
     word: true
 
   # ==============================================================================
@@ -2160,6 +2513,110 @@ matches:
   - trigger: "tvp2c"
     label: "TVP (sequela crônica): Sinais de cicatrização pós-trombótica crônica"
     replace: Sinais de cicatrização pós-trombótica crônica.
+    word: true
+
+  # ==============================================================================
+  # VASCULAR — DOPPLER DE ARTÉRIAS CERVICAIS (CARÓTIDAS E VERTEBRAIS)
+  # ==============================================================================
+
+  - trigger: "dc1"
+    label: "Artéria carótida: Espessamento médio-intimal da artéria carótida comum à _, sem placas ateroscleróticas... (achado descritivo)"
+    replace: Artéria carótida comum com diâmetro preservado, associada a espessamento médio-intimal, medindo _ mm (percentil 75 para idade e sexo). Ao estudo Doppler, curva espectral de amplitude normal, sem turbulência ou aceleração.
+    word: true
+
+  - trigger: "dc1c"
+    label: "Artéria carótida: Espessamento médio-intimal da artéria carótida comum à _, sem placas ateroscleróticas..."
+    replace: Espessamento médio-intimal da artéria carótida comum à _, sem placas ateroscleróticas associadas.
+    word: true
+
+  - trigger: "dc2"
+    label: "Artéria carótida: Placa aterosclerótica não complicada em bulbo carotídeo à _, sem repercussão hemodinâmica... (achado descritivo)"
+    replace: Placa aterosclerótica calcificada, de superfície regular, no bulbo carotídeo/artéria carótida _ à _, promovendo redução luminal estimada em _ %.
+    word: true
+
+  - trigger: "dc2c"
+    label: "Artéria carótida: Placa aterosclerótica não complicada em bulbo carotídeo à _, sem repercussão hemodinâmica..."
+    replace: Placa aterosclerótica não complicada em bulbo carotídeo à _, sem repercussão hemodinâmica significativa.
+    word: true
+
+  - trigger: "dc3"
+    label: "Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecoico sugestivo... (achado descritivo)"
+    replace: Placa aterosclerótica heterogênea, com predomínio hipoecoico, superfície irregular e área anecoica central, no bulbo carotídeo/artéria carótida _ à _, promovendo redução luminal estimada em _ %.
+    word: true
+
+  - trigger: "dc3c"
+    label: "Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecoico sugestivo..."
+    replace: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecoico sugestivo de possível instabilidade.
+    word: true
+
+  - trigger: "dc4"
+    label: "Artéria carótida: Estenose inferior a 50% da artéria carótida interna à _ (achado descritivo)"
+    replace: Artéria carótida interna à _ com redução luminal por placa aterosclerótica, apresentando velocidade de pico sistólico de _ cm/s e razão VPS ACI/ACC de _ (parâmetros compatíveis com estenose inferior a 50%).
+    word: true
+
+  - trigger: "dc4c"
+    label: "Artéria carótida: Estenose inferior a 50% da artéria carótida interna à _"
+    replace: Estenose inferior a 50% da artéria carótida interna à _.
+    word: true
+
+  - trigger: "dc5"
+    label: "Artéria carótida: Estenose de 50 a 69% da artéria carótida interna à _ (achado descritivo)"
+    replace: Artéria carótida interna à _ com redução luminal por placa aterosclerótica, apresentando velocidade de pico sistólico de _ cm/s e razão VPS ACI/ACC de _ (parâmetros compatíveis com estenose entre 50 e 69%).
+    word: true
+
+  - trigger: "dc5c"
+    label: "Artéria carótida: Estenose de 50 a 69% da artéria carótida interna à _"
+    replace: Estenose de 50 a 69% da artéria carótida interna à _.
+    word: true
+
+  - trigger: "dc6"
+    label: "Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ (achado descritivo)"
+    replace: Artéria carótida interna à _ com acentuada redução luminal por placa aterosclerótica, apresentando velocidade de pico sistólico de _ cm/s e razão VPS ACI/ACC de _ (parâmetros compatíveis com estenose igual ou superior a 70%).
+    word: true
+
+  - trigger: "dc6c"
+    label: "Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _"
+    replace: Estenose igual ou superior a 70% da artéria carótida interna à _.
+    word: true
+
+  - trigger: "dc7"
+    label: "Artéria carótida: Achados compatíveis com oclusão da artéria carótida interna à _ (achado descritivo)"
+    replace: Artéria carótida interna à _ com preenchimento luminal por material hipoecogênico compatível com trombo, sem sinal Doppler detectável no vaso.
+    word: true
+
+  - trigger: "dc7c"
+    label: "Artéria carótida: Achados compatíveis com oclusão da artéria carótida interna à _"
+    replace: Achados compatíveis com oclusão da artéria carótida interna à _.
+    word: true
+
+  - trigger: "dv1"
+    label: "Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ (achado descritivo)"
+    replace: Artéria vertebral à _, avaliada em seu segmento interapofisário, com diâmetro difusamente reduzido, medindo _ mm, associada a fluxo de direção cefálica com curva de amplitude reduzida e padrão de resistência aumentada.
+    word: true
+
+  - trigger: "dv1c"
+    label: "Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _"
+    replace: Achados compatíveis com hipoplasia da artéria vertebral à _.
+    word: true
+
+  - trigger: "dv2"
+    label: "Artéria vertebral: Alterações de fluxo na artéria vertebral à _ compatíveis com fenômeno do roubo da subclávia (achado descritivo)"
+    replace: Artéria vertebral à _ com inversão do sentido de fluxo, de direção caudal, mais evidente à manobra de hiperemia reativa do membro superior ipsilateral.
+    word: true
+
+  - trigger: "dv2c"
+    label: "Artéria vertebral: Alterações de fluxo na artéria vertebral à _ compatíveis com fenômeno do roubo da subclávia"
+    replace: Alterações de fluxo na artéria vertebral à _ compatíveis com fenômeno do roubo da subclávia.
+    word: true
+
+  - trigger: "dv3"
+    label: "Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _ (achado descritivo)"
+    replace: Artéria vertebral à _ com placa aterosclerótica em sua origem, sem sinal Doppler detectável ao longo do segmento avaliado.
+    word: true
+
+  - trigger: "dv3c"
+    label: "Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _"
+    replace: Achados compatíveis com oclusão da artéria vertebral à _.
     word: true
 
   # ==============================================================================
