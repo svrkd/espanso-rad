@@ -24,6 +24,7 @@ This is **not** a software application — it's a personal [Espanso](https://esp
   - Run standalone, e.g. `python3 scripts/beeftext_to_espanso.py comboList.json ./out/`. Not invoked by CI or by each other.
 - `web/index.html` — a single self-contained static page (no build step) that lets you search/browse all triggers in a browser. It fetches raw YAML directly from GitHub (`raw.githubusercontent.com`) at load time and parses it client-side with `js-yaml`. **The list of files it indexes is hardcoded** in the `ALLOWED_PATHS` array near the top of the `<script>` block — currently `geral.yml`, `rx.yml`, `us.yml`, `tc.yml`, `legado.yml`. `mmg.yml` is not listed. When adding a new `match/*.yml` file (or renaming one), update `ALLOWED_PATHS` or it silently won't appear in the browser tool.
 - `.vscode/espanso-match.code-snippets` — VS Code snippet (prefix `ematch`) that scaffolds a new `trigger`/`replace`/`word: true` block.
+- `.claude/skills/add-espanso/SKILL.md` — the `/add-espanso` Claude Code skill: adds a new trigger/match entry to `match/*.yml` from a pasted report snippet, following `CONVENTIONS.md`. Must live here (project-scoped, committed) rather than only in a user's personal `~/.claude/skills/`, or it won't be available in fresh/remote sessions of this repo.
 - `.github/workflows/claude.yml` — wires up the Claude Code GitHub Action plus an automated changelog generator action; not a test/build pipeline.
 
 ## Match file conventions
