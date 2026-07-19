@@ -1,69 +1,86 @@
 matches:
 
   - trigger: "r1"
+    label: "Site: radiopaedia"
     replace: "radiopaedia"
     word: true
 
   - trigger: "r2"
+    label: "Busca Google: site radiopaedia.org"
     replace: "site:radiopaedia.org"
     word: true
-    
+
   - trigger: "redd"
+    label: "Busca Google: site reddit.com"
     replace: "site:reddit.com"
     word: true
 
   - trigger: "adir"
+    label: "à direita"
     replace: à direita
     word: true
 
   - trigger: "aesq"
+    label: "à esquerda"
     replace: à esquerda
     word: true
-    
+
   - trigger: "codc"
+    label: "Correlacionar com dados clínicos"
     replace: Correlacionar com dados clínicos.
     word: true
 
   - trigger: "colab"
+    label: "Correlacionar com dados clínicos e laboratoriais"
     replace: Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "cocx"
+    label: "Correlacionar com histórico cirúrgico"
     replace: Correlacionar com histórico cirúrgico.
     word: true
 
   - trigger: "acrirm"
+    label: "Sugestão de RM complementar"
     replace: A critério clínico, o estudo dirigido com ressonância magnética poderá trazer maiores subsídios diagnósticos.
     word: true
 
   - trigger: "acritc"
+    label: "Sugestão de TC complementar"
     replace: A critério clínico, o estudo dirigido com tomografia computadorizada poderá trazer maiores subsídios diagnósticos.
     word: true
 
   - trigger: "acri1"
+    label: "Sugestão de estudo dirigido complementar"
     replace: A critério clínico, o estudo dirigido da região poderá trazer maiores subsídios diagnósticos.
     word: true
 
   - trigger: "rest"
+    label: "Restante do (fragmento)"
     replace: Restante do 
     word: true
 
   - trigger: "hx0"
+    label: "Indicação clínica não informada"
     replace: "Indicação clínica: não informada em pedido médico."
     word: true
 
   - trigger: "hx"
+    label: "Indicação clínica (abre campo)"
     replace: "Indicação clínica: "
     word: true
 
   - trigger: "a/e"
+    label: "a esclarecer"
     replace: a esclarecer
     word: true
 
   - trigger: "porme"
+    label: "Achados pormenorizados no corpo do laudo"
     replace: Demais achados pormenorizados no corpo do laudo.
     word: true
 
   - trigger: "bll"
+    label: "bilateralmente"
     replace: bilateralmente
     word: true
