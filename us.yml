@@ -397,6 +397,13 @@ matches:
       Sinais ecográficos de dilatação de vias biliares intra e extra-hepática, sem caracterização do fator obstrutivo, com hepato colédoco medindo _ cm, associado à dilatação do Wirsung, medindo _ cm. A critério clínico, se possível, a colangioressonância, poderá fornecer maiores subsídios diagnósticos.
     word: true
 
+  - trigger: "vb11"
+    label: "Vesícula biliar: colecistolitíase com hidropsia | Vias biliares: dilatação sem fator obstrutivo definido"
+    replace: |-
+      Vesícula biliar hidrópica, com paredes finas e regulares, apresentando imagens ecogênicas no seu interior, formadoras de sombra acústica posterior, compatível com cálculos, móveis às mudanças de decúbito.
+      Sinais ecográficos de dilatação de vias biliares intra e extra-hepática, sem caracterização do fator obstrutivo, com hepato colédoco medindo _ cm, associado à dilatação do Wirsung, medindo _ cm. A critério clínico, se possível, a colangioressonância, poderá fornecer maiores subsídios diagnósticos.
+    word: true
+
   # ==============================================================================
   # RINS, VIAS URINÁRIAS, BEXIGA E PRÓSTATA
   # ==============================================================================
@@ -570,6 +577,16 @@ matches:
     word: true
 
   - trigger: "usfocosc"
+    label: "Rim (focos ecogênicos): Focos hiperrefringentes em ambos os rins, podendo corresponder a microcálculos ou..."
+    replace: Focos hiperrefringentes em ambos os rins, podendo corresponder a microcálculos ou interface vascular.
+    word: true
+
+  - trigger: "rv16"
+    label: "Rim (focos ecogênicos): Focos hiperrefringentes em ambos os rins, podendo corresponder a microcálculos ou... (achado descritivo)"
+    replace: Focos hiperrefringentes menores que 0,4 cm em ambos os rins, podendo corresponder a microcálculos ou interface vascular.
+    word: true
+
+  - trigger: "rv16c"
     label: "Rim (focos ecogênicos): Focos hiperrefringentes em ambos os rins, podendo corresponder a microcálculos ou..."
     replace: Focos hiperrefringentes em ambos os rins, podendo corresponder a microcálculos ou interface vascular.
     word: true
@@ -1084,12 +1101,33 @@ matches:
       Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
     word: true
 
+  - trigger: "ut7"
+    label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno) (achado descritivo)"
+    replace: Observa-se divisão do eco endometrial na porção fúndica do útero, achado comumente relacionado a alteração mulleriana (provável útero septado ou bicorno).
+    word: true
+
+  - trigger: "ut7c"
+    label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno)"
+    replace: |-
+      Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
+    word: true
+
   - trigger: "utbicorno"
     label: "Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo)"
     replace: Eco endometrial apresentando-se aparentente bipartido em suas porções corporais/fúndicas, com septação entre eles de ecogenicidade semelhante ao miométrio adjacente.
     word: true
 
   - trigger: "utbicornoc"
+    label: "Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração..."
+    replace: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração Mülleriana.
+    word: true
+
+  - trigger: "ut8"
+    label: "Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo)"
+    replace: Eco endometrial apresentando-se aparentente bipartido em suas porções corporais/fúndicas, com septação entre eles de ecogenicidade semelhante ao miométrio adjacente.
+    word: true
+
+  - trigger: "ut8c"
     label: "Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração..."
     replace: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração Mülleriana.
     word: true
@@ -1142,7 +1180,17 @@ matches:
     replace: "Área anecoica triangular na região da incisão cirúrgica, em \"cunha\", sugestiva de istmocele."
     word: true
 
+  - trigger: "ut9"
+    label: "Útero (istmocele): Área anecoica triangular na região da incisão cirúrgica, em \"cunha\", sugestiva de..."
+    replace: "Área anecoica triangular na região da incisão cirúrgica, em \"cunha\", sugestiva de istmocele."
+    word: true
+
   - trigger: "uslamina"
+    label: "Cavidade endometrial: Fina lâmina anecoica no interior da cavidade uterina, podendo corresponder a muco e/ou..."
+    replace: Fina lâmina anecoica no interior da cavidade uterina, podendo corresponder a muco e/ou sangue.
+    word: true
+
+  - trigger: "ut10"
     label: "Cavidade endometrial: Fina lâmina anecoica no interior da cavidade uterina, podendo corresponder a muco e/ou..."
     replace: Fina lâmina anecoica no interior da cavidade uterina, podendo corresponder a muco e/ou sangue.
     word: true
@@ -1157,6 +1205,16 @@ matches:
     replace: Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos ovulares e/ou coágulos.
     word: true
 
+  - trigger: "ut11"
+    label: "Cavidade uterina: restos ovulares/coágulos (achado descritivo)"
+    replace: Material heterogêneo, sem fluxo ao estudo Doppler, na transição do corpo e colo uterino, medindo _ cm, com volume de _ cm³, podendo corresponder a restos ovulares e/ou coágulos.
+    word: true
+
+  - trigger: "ut11c"
+    label: "Cavidade uterina (restos ovulares): Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos..."
+    replace: Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos ovulares e/ou coágulos.
+    word: true
+
   - trigger: "hretro"
     label: "Obstétrica: hematoma retrocoriônico (achado descritivo)"
     replace: Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.
@@ -1167,12 +1225,32 @@ matches:
     replace: Imagem adjacente ao saco gestacional, com características sugestivas de hematoma retrocoriônico.
     word: true
 
+  - trigger: "ut12"
+    label: "Obstétrica: hematoma retrocoriônico (achado descritivo)"
+    replace: Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.
+    word: true
+
+  - trigger: "ut12c"
+    label: "Obstétrica (hematoma retrocoriônico): Imagem adjacente ao saco gestacional, com características sugestivas de hematoma..."
+    replace: Imagem adjacente ao saco gestacional, com características sugestivas de hematoma retrocoriônico.
+    word: true
+
   - trigger: "sop"
     label: "Ovário (síndrome dos ovários policísticos): Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas"
     replace: Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas. A possibilidade da síndrome dos ovários policísticos deve ser considerada se dados clínicos e laboratoriais compatíveis.
     word: true
 
+  - trigger: "ov9"
+    label: "Ovário (síndrome dos ovários policísticos): Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas"
+    replace: Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas. A possibilidade da síndrome dos ovários policísticos deve ser considerada se dados clínicos e laboratoriais compatíveis.
+    word: true
+
   - trigger: "terat1"
+    label: "Ovário (teratoma): Ovário com aumento de suas dimensões, às custas de formação cística com nível..."
+    replace: Ovário com aumento de suas dimensões, às custas de formação cística com nível líquido-líquido e foco gorduroso no interior, sem fluxo ao estudo Doppler, medindo cerca _ cm.
+    word: true
+
+  - trigger: "ov10"
     label: "Ovário (teratoma): Ovário com aumento de suas dimensões, às custas de formação cística com nível..."
     replace: Ovário com aumento de suas dimensões, às custas de formação cística com nível líquido-líquido e foco gorduroso no interior, sem fluxo ao estudo Doppler, medindo cerca _ cm.
     word: true
@@ -1255,6 +1333,16 @@ matches:
     word: true
 
   - trigger: "usnabothc"
+    label: "Colo uterino (cisto de Naboth): Cisto de Naboth"
+    replace: Cisto de Naboth.
+    word: true
+
+  - trigger: "ut13"
+    label: "Colo uterino (cisto de Naboth): Cisto de Naboth (achado descritivo)"
+    replace: Colo uterino com ecotextura heterogênea, apresentando cisto de retenção, de contornos regulares e conteúdo anecoico (líquido) / hipoecóico (líquido espesso), medindo _ cm.
+    word: true
+
+  - trigger: "ut13c"
     label: "Colo uterino (cisto de Naboth): Cisto de Naboth"
     replace: Cisto de Naboth.
     word: true
@@ -1345,6 +1433,19 @@ matches:
     word: true
 
   - trigger: "ma3sc"
+    label: "Mama (nódulo): Nódulos na mama [direita/esquerda] com as características acima descritas"
+    replace: Nódulos na mama [direita/esquerda] com as características acima descritas.
+    word: true
+
+  - trigger: "ma4"
+    label: "Mama: múltiplos nódulos ovalados circunscritos (dois ou mais sítios)"
+    replace: |-
+      Nódulos ovalados, circunscritos, hipoecoicos, maior eixo paralelo à pele, assim distribuídos:
+      - às hs da mama [esquerda/direita], medindo _ cm, distando _ cm da pele e _ cm da papila;
+      - às hs da mama [esquerda/direita], medindo _ cm, distando _ cm da pele e _ cm da papila.
+    word: true
+
+  - trigger: "ma4c"
     label: "Mama (nódulo): Nódulos na mama [direita/esquerda] com as características acima descritas"
     replace: Nódulos na mama [direita/esquerda] com as características acima descritas.
     word: true
@@ -2000,6 +2101,13 @@ matches:
       Observa-se em região inguinal _, imagem ovalada, de contornos regulares, apresentando textura sólida e heterogênea, predominantemente hipoecogênica, medindo _ cm, com volume de _ cm³, podendo corresponder à testículo ectópico.
     word: true
 
+  - trigger: "te7"
+    label: "Testículo ectópico: Testículo _ não visualizado na bolsa escrotal ipsilateral"
+    replace: |-
+      Testículo _ não visualizado na bolsa escrotal ipsilateral.
+      Observa-se em região inguinal _, imagem ovalada, de contornos regulares, apresentando textura sólida e heterogênea, predominantemente hipoecogênica, medindo _ cm, com volume de _ cm³, podendo corresponder à testículo ectópico.
+    word: true
+
   - trigger: "te1"
     label: "Testículo/bolsa escrotal: Ausência de fluxo vascular no testículo _, associada a alterações de textura parenquimatosa (achado descritivo)"
     replace: Testículo _ com dimensões aumentadas, rodado sobre seu eixo, com parênquima heterogêneo e hipoecogênico em relação ao contralateral, associado a espessamento do funículo espermático adjacente e ausência de fluxo vascular ao estudo Doppler colorido.
@@ -2173,6 +2281,16 @@ matches:
     word: true
 
   - trigger: "diastase1c"
+    label: "Parede abdominal (diástase de retos): Diástase do músculo reto abdominal"
+    replace: Diástase do músculo reto abdominal.
+    word: true
+
+  - trigger: "pm6"
+    label: "Parede abdominal (diástase de retos): Diástase do músculo reto abdominal (achado descritivo)"
+    replace: Afastamento patológico dos ventres do músculo reto abdominal ao nível do mesogástrio e hipogástrio, com distância transversa máxima de _ cm entre as bordas mediais.
+    word: true
+
+  - trigger: "pm6c"
     label: "Parede abdominal (diástase de retos): Diástase do músculo reto abdominal"
     replace: Diástase do músculo reto abdominal.
     word: true
