@@ -42,10 +42,6 @@ matches:
     word: true
     replace: Acentuação da lordose lombar fisiológica.
 
-  - trigger: "acri1"
-    word: true
-    replace: "À critério clínico, o estudo com imagens de tomografia computadorizada poderá fornecer maiores subsídios diagnósticos."
-
   - trigger: "alarg"
     word: true
     replace: Sinais de alargamento mediastinal.
@@ -127,7 +123,7 @@ matches:
     word: true
     replace: Acentuação da trama vascular pulmonar.
 
-  - trigger: "avc"
+  - trigger: "xavc"
     word: true
     replace: |
       Exame de avaliação limitada devido a técnica empregada.
@@ -141,7 +137,7 @@ matches:
     word: true
     replace: Alterações degenerativas entre os processos espinhosos (Baastrup).
 
-  - trigger: "baciaid"
+  - trigger: "xbaciaid"
     word: true
     replace: |
       Redução da densidade óssea.
@@ -214,7 +210,7 @@ matches:
     word: true
     replace: Silhueta cardíaca com área no limite superior da normalidade.
 
-  - trigger: "casoper"
+  - trigger: "xcasoper"
     word: true
     replace: "Caso persista indicação clínica, o estudo com imagens de tomografia computadorizada poderá fornecer maiores subsídios diagnósticos."
 
@@ -222,7 +218,7 @@ matches:
     word: true
     replace: "Opacidades consolidativas e alveolares esparsas pelo parênquima pulmonar, sobretudo no lobo superior do pulmão esquerdo, por vezes associadas a área radiolucente de permeio, que pode corresponder a cavitação. Correlacionar com dados clínicos e laboratoriais."
 
-  - trigger: "cc"
+  - trigger: "xcc"
     word: true
     replace: |
       Textura óssea preservada.
@@ -296,7 +292,7 @@ matches:
     word: true
     replace: "Imagem radiotransparente sob o hemidiafragma esquerdo, com visualização de pregas haustrais no interior e preservação do contorno diafragmático (interposição colônica subdiafragmática)."
 
-  - trigger: "act"
+  - trigger: "xact"
     word: true
     replace: Acentuação da cifose torácica.
 
@@ -366,15 +362,15 @@ matches:
     word: true
     replace: Cateter umbilical.
 
-  - trigger: "cv"
+  - trigger: "xcv"
     word: true
     replace: corpo vertebal
 
-  - trigger: "cvc"
+  - trigger: "xcvc"
     word: true
     replace: Catéter venoso central à direita.
 
-  - trigger: "cvs"
+  - trigger: "xcvs"
     word: true
     replace: corpos vertebrais
 
@@ -396,7 +392,7 @@ matches:
     word: true
     replace: "Obliteração da gordura suprapatelar, por provável derrame articular."
 
-  - trigger: "derrameb"
+  - trigger: "xderrameb"
     word: true
     replace: "Apagamento e elevação dos seios costofrênicos bilateralmente, devendo corresponder a derrame pleural associado a atelectasia do parênquima pulmonar adjacente."
 
@@ -453,7 +449,7 @@ matches:
     word: true
     replace: "Sinais de displasia acetabular à esquerda caracterizados por fossa acetabular rasa, cistos subcorticais no acetábulo e perda da esfericidade habitual da cabeça femoral."
 
-  - trigger: "diu"
+  - trigger: "xdiu"
     word: true
     replace: Dispositivo intrauterino em cavidade pélvica.
 
@@ -485,7 +481,7 @@ matches:
     word: true
     replace: diáfise proximal
 
-  - trigger: "dpoc"
+  - trigger: "xdpoc"
     word: true
     replace: |
       Alterações degenerativas do arcabouço ósseo.
@@ -505,11 +501,11 @@ matches:
     word: true
     replace: Discreto apagamento dos seios costofrênicos bilateralmente.
 
-  - trigger: "dsn1"
+  - trigger: "xdsn1"
     word: true
     replace: Desvio do septo nasal para a direita.
 
-  - trigger: "dsn2"
+  - trigger: "xdsn2"
     word: true
     replace: Desvio do septo nasal para a esquerda.
 
@@ -517,11 +513,11 @@ matches:
     word: true
     replace: Discreta proeminência hilar e da trama vascular.
 
-  - trigger: "duploj"
+  - trigger: "xduploj"
     word: true
     replace: Cateter duplo J à XX com extremidade proximal na pelve renal e distal no interior da bexiga urinária.
 
-  - trigger: "eap"
+  - trigger: "xeap"
     word: true
     replace: Espaços articulares preservados.
 
@@ -551,7 +547,7 @@ matches:
     word: true
     replace: "Imagem esclerótica intramedular, medindo cerca de 2,5 cm, sem sinais de agressividade (preservação cortical e ausência de reação periosteal), achado inespecífico, com aspecto sugestivo de alteração óssea benigna crônica, como enostose ou infarto ósseo crônico"
 
-  - trigger: "enteso"
+  - trigger: "xenteso"
     word: true
     replace: Entesopatia difusa.
 
@@ -559,7 +555,7 @@ matches:
     word: true
     replace: O membro inferior direito/esquerdo é XX cm menor que o membro inferior contralateral (encurtamento à custa das diferenças femorais/tibiais.)
 
-  - trigger: "espl"
+  - trigger: "xespl"
     word: true
     replace: Espondilose lombar.
 
@@ -579,7 +575,7 @@ matches:
     word: true
     replace: ESQUERDO
 
-  - trigger: "est"
+  - trigger: "xest"
     word: true
     replace: Espondilose torácica.
 
@@ -587,7 +583,7 @@ matches:
     word: true
     replace: Espondilose torácica leve.
 
-  - trigger: "estrias"
+  - trigger: "xestrias"
     word: true
     replace: Estrias densas de aspecto atelectásico esparsas.
 
@@ -649,11 +645,11 @@ matches:
     word: true
     replace: falange proximal
 
-  - trigger: "fracolu"
+  - trigger: "xfracolu"
     word: true
     replace: "Redução da altura do corpo vertebral de XX, podendo representar fratura."
 
-  - trigger: "fracolus"
+  - trigger: "xfracolus"
     word: true
     replace: "Redução da altura dos corpos vertebrais de XX, podendo representar fraturas."
 
@@ -665,7 +661,7 @@ matches:
     word: true
     replace: Fraturas consolidadas em arcos costais à direita.
 
-  - trigger: "fracoste"
+  - trigger: "xfracoste"
     word: true
     replace: Fraturas consolidadas em arcos costais à esquerda.
 
@@ -706,7 +702,7 @@ matches:
     word: true
     replace: "Haste intramedular fixada em tibia, sem sinais de soltura."
 
-  - trigger: "hems"
+  - trigger: "xhems"
     word: true
     replace: Nódulos hiperecogênicos circunscritos localizados nos segmentos VII ( cm)
 
@@ -738,7 +734,7 @@ matches:
     word: true
     replace: Incipiente entesófito na topografia da inserção da fáscia plantar e na tuberosidade posterior do calcâneo.
 
-  - trigger: "ilfc"
+  - trigger: "xilfc"
     word: true
     replace: Inversão da lordose fisiológica cervical.
 
@@ -796,11 +792,11 @@ matches:
     word: true
     replace: "Leve desvio lateral da coluna lombar com convexidade para esquerda, na posição de estudo."
 
-  - trigger: "lid"
+  - trigger: "xlid"
     word: true
     replace: lobo inferior do pulmão direito.
 
-  - trigger: "lie"
+  - trigger: "xlie"
     word: true
     replace: lobo inferior do pulmão esquerdo.
 
@@ -865,11 +861,11 @@ matches:
     word: true
     replace: por vezes com esclerose óssea das margens apostas.
 
-  - trigger: "megapo"
+  - trigger: "xmegapo"
     word: true
     replace: "Megapófise transversa  à direita em L5, articulando-se com o sacro."
 
-  - trigger: "mel"
+  - trigger: "xmel"
     word: true
     replace: melhor avaliado por estudo tomográfico.
 
@@ -1009,7 +1005,7 @@ matches:
       Relação e espaço articular glenoumeral preservados.
       Ausência de calcificações de partes moles.
 
-  - trigger: "opa"
+  - trigger: "xopa"
     word: true
     replace: Opacidades consolidativas/atelectásicas no lobo inferior do pulmão direito.
 
@@ -1088,7 +1084,7 @@ matches:
       Presença de hálux valgo.
       Calcificações vasculares de partes moles.
 
-  - trigger: "peplano"
+  - trigger: "xpeplano"
     word: true
     replace: "Sinais de pé plano; ângulo do pitch do calcâneo: º (VR: 20º-30º), ângulo de Meary: º (VR: 0º) e ângulo de Costa Bertani: º (VR: 120º a 130º)"
 
@@ -1119,7 +1115,7 @@ matches:
     word: true
     replace: "Recobrimento acetabular proeminente bilateralmente, achado que pode corresponder a variação morfológica. Avaliação por ressonância magnética pode ser considerada, caso haja suspeita clínica de impacto femoroacetabular."
 
-  - trigger: "pinfe"
+  - trigger: "xpinfe"
     word: true
     replace: processo inflamatório/infeccioso
 
@@ -1168,7 +1164,7 @@ matches:
     word: true
     replace: por vezes formando pontes ósseas.
 
-  - trigger: "portocat"
+  - trigger: "xportocat"
     word: true
     replace: Dispositivo de infusão medicamentosa localizado no hemitórax direito.
 
@@ -1179,19 +1175,19 @@ matches:
       Seios costofrênicos de avaliação limitada.
       Silhueta cardíaca de avaliação limitada.
 
-  - trigger: "qil"
+  - trigger: "xqil"
     word: true
     replace: quadrante inferolateral
 
-  - trigger: "qim"
+  - trigger: "xqim"
     word: true
     replace: quadrante inferomedial
 
-  - trigger: "qsl"
+  - trigger: "xqsl"
     word: true
     replace: quadrante súpero-lateral
 
-  - trigger: "qsm"
+  - trigger: "xqsm"
     word: true
     replace: quadrante superomedial
 
@@ -1208,7 +1204,7 @@ matches:
       Entesopatia difusa.
       Artropatia degenerativa nas sacroilíacas e sínfise púbica.
 
-  - trigger: "queijo"
+  - trigger: "xqueijo"
     word: true
     replace: "Múltiplas lesões líticas e escleróticas difusas pelo arcabouço ósseo, sugestivas de acometimento neoplásico secundário."
 
@@ -1260,11 +1256,11 @@ matches:
     word: true
     replace: "Redução dos espaços discais de L4-L5 e de L5-S1, com esclerose óssea das margens apostas."
 
-  - trigger: "ret"
+  - trigger: "xret"
     word: true
     replace: Retificação da lordose fisiológica.
 
-  - trigger: "ret1"
+  - trigger: "xret1"
     word: true
     replace: Retificação de arcos costais.
 
@@ -1335,7 +1331,7 @@ matches:
       Concavidade da cabeça-colo femoral preservada bilateralmente.
       Ausência de calcificações de partes moles periarticulares.
 
-  - trigger: "rxcar"
+  - trigger: "rxcar2"
     word: true
     replace: |
       Alterações degenerativas do arcabouço ósseo.
@@ -1569,7 +1565,7 @@ matches:
     word: true
     replace: "Sobreposição óssea promovendo limitação para avaliação da cabeça do rádio. Caso exista suspeita de fratura, recomenda-se estudo direcionado."
 
-  - trigger: "solu"
+  - trigger: "xsolu"
     word: true
     replace: Solução de continuidade de partes moles
 
@@ -1585,7 +1581,7 @@ matches:
     word: true
     replace: Proeminência do processo posterior do tálus (processo Stieda).
 
-  - trigger: "subcu"
+  - trigger: "xsubcu"
     word: true
     replace: Associa-se enfisema subcutâneo.
 
@@ -1639,7 +1635,7 @@ matches:
       Fratura cominutiva transtrocantérica em fêmur direito, com desvios entre os fragmentos.
       Aumento e densificação de partes moles adjacentes ao sítio de fratura.
 
-  - trigger: "traqueo"
+  - trigger: "xtraqueo"
     word: true
     replace: Cânula de traqueostomia.
 
@@ -1680,11 +1676,11 @@ matches:
     word: true
     replace: Calcificações vasculares.
 
-  - trigger: "vba"
+  - trigger: "xvba"
     word: true
     replace: Clipes metálicos em topografia de hipocôndrio direito podendo estar associados a cirurgia prévia. Correlacionar com dados clínicos.
 
-  - trigger: "vf"
+  - trigger: "xvf"
     word: true
     replace: Opacidades consolidativas e alveolares esparsas pelo parênquima pulmonar.
 
@@ -1704,15 +1700,15 @@ matches:
     word: true
     replace: ESQUERDO
 
-  - trigger: "aac"
+  - trigger: "xaac"
     word: true
     replace: Arco aórtico com calcificações.
 
-  - trigger: "aap"
+  - trigger: "xaap"
     word: true
     replace: Arco aórtico proeminente.
 
-  - trigger: "aapc"
+  - trigger: "xaapc"
     word: true
     replace: Arco aórtico proeminente e com placas de calcificações parietais.
 
@@ -1796,7 +1792,7 @@ matches:
     word: true
     replace: Ausência de calcificações de partes moles periarticulares.
 
-  - trigger: "cage"
+  - trigger: "xcage"
     word: true
     replace: |
       Artrodese bipedicular fixando XXX.
@@ -1853,7 +1849,7 @@ matches:
     word: true
     replace: Desvio da coluna lombar com convexidade para a esquerda (ângulo de Cobb menor que 10°).
 
-  - trigger: "dgai"
+  - trigger: "xdgai"
     word: true
     replace: Distensão gasosa de alças intestinais.
 
@@ -1876,7 +1872,7 @@ matches:
 
       Esôfago, estômago e duodeno radiologicamente normais.
 
-  - trigger: "elevacu"
+  - trigger: "xelevacu"
     word: true
     replace: Elevação da cúpula diafragmática à direita.
 
@@ -1998,7 +1994,7 @@ matches:
     word: true
     replace: "Ápice do processo odontóide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação vertebrobasilar."
 
-  - trigger: "iomcv"
+  - trigger: "iomcv2"
     word: true
     replace: Incipientes osteófitos marginais nos corpos vertebrais.
 
@@ -2038,11 +2034,11 @@ matches:
     word: true
     replace: Marcapasso cardíaco subcutâneo em hemitórax
 
-  - trigger: "mgi"
+  - trigger: "xmgi"
     word: true
     replace: Material gessado de imobilização contendo estruturas do
 
-  - trigger: "mmo"
+  - trigger: "xmmo"
     word: true
     replace: Material metálico de osteossíntese fixado
 
@@ -2078,7 +2074,7 @@ matches:
     word: true
     replace: Opacidades intersticioalveolares esparsas pelos campos pulmonares.
 
-  - trigger: "omcv"
+  - trigger: "xomcv"
     word: true
     replace: Osteófitos marginais nos corpos vertebrais.
 
@@ -2102,7 +2098,7 @@ matches:
     word: true
     replace: "Pulmões hipoexpandidos, prejudicando a avaliação."
 
-  - trigger: "pnv"
+  - trigger: "xpnv"
     word: true
     replace: Psoas não visualizados.
 
@@ -2138,7 +2134,7 @@ matches:
     word: true
     replace: Redução da densidade óssea.
 
-  - trigger: "redub"
+  - trigger: "redub2"
     word: true
     replace: Redução da transparência pulmonar nas bases.
 
@@ -2170,7 +2166,7 @@ matches:
     word: true
     replace: Retificação da lordose lombar.
 
-  - trigger: "retrolis"
+  - trigger: "xretrolis"
     word: true
     replace: Retrolistese de
 
@@ -2277,7 +2273,7 @@ matches:
 
       Ausência de imagem sugestiva de fratura na incidência realizada.
 
-  - trigger: "subo"
+  - trigger: "xsubo"
     word: true
     replace: Exame de avaliação limitada devido a técnica empregada com condições técnicas subótimas para laudo.
 
@@ -2356,7 +2352,7 @@ matches:
     word: true
     replace: "Aumento de partes moles da parede posterior da rinofaringe, determinando redução da coluna aérea."
 
-  - trigger: "oparet"
+  - trigger: "xoparet"
     word: true
     replace: Opacidades reticulares esparsas no parênquima pulmonar.
 
@@ -3087,7 +3083,7 @@ matches:
       - Mastóides hipoaeradas.
       - Hipopneumatização da mastóide .
 
-  - trigger: "rxombro1"
+  - trigger: "rxombro12"
     word: true
     replace: |
       RADIOGRAFIA DO OMBRO DIREITO / ESQUERDO
@@ -3399,7 +3395,7 @@ matches:
       - Desvio do septo nasal para
       - Aumento de partes moles da parede posterior da rinofaringe.
 
-  - trigger: "rxt1"
+  - trigger: "rxt12"
     word: true
     replace: |
       Textura e morfologia óssea preservada.
@@ -3525,7 +3521,7 @@ matches:
       Textura e morfologia óssea preservada.
       Espaços articulares preservados.
 
-  - trigger: "scad"
+  - trigger: "xscad"
     word: true
     replace: Silhueta cardíaca com sinais de aumento de suas dimensões.
 

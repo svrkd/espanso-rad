@@ -215,12 +215,12 @@ matches:
     replace: Sinais ecográficos sugestivos de esteatose hepática leve (grau I).
     word: true
 
-  - trigger: "eh1"
+  - trigger: "useh1"
     label: "Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática leve (grau I) (achado descritivo)"
     replace: Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que atenua o feixe acústico posterior e diminui a sensibilidade para detecção de lesões focais.
     word: true
 
-  - trigger: "eh2"
+  - trigger: "useh2"
     label: "Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática moderada (grau II) (achado descritivo)"
     replace: Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que limita a caracterização de vasos intra-hepáticos e eventuais lesões focais.
     word: true
@@ -1866,7 +1866,7 @@ matches:
     replace: Sinais de epicondilite medial (cotovelo do golfista) à _.
     word: true
 
-  - trigger: "co3"
+  - trigger: "usco3"
     label: "Cotovelo: Sinais de bursite olecraniana à _ (achado descritivo)"
     replace: Bursa olecraniana distendida por líquido de aspecto anecoico e homogêneo, medindo cerca de _ cm.
     word: true
@@ -2762,7 +2762,7 @@ matches:
     replace: "Estudo de avaliação prejudicada devido interposição gasosa de alças intestinais. "
     word: true
 
-  - trigger: "pv"
+  - trigger: "uspv"
     label: "Frase auxiliar (interposição gasosa): parcialmente visualizado devido à interposição gasosa de alças intestinais"
     replace: parcialmente visualizado devido à interposição gasosa de alças intestinais.
     word: true

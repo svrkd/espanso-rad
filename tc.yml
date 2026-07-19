@@ -99,10 +99,6 @@ matches:
     word: true
     replace: "A critério clínico, se possível, a fase contrastada do exame poderá fornecer maiores subsídios diagnósticos."
 
-  - trigger: "acritc"
-    word: true
-    replace: "A critério clínico, se possível, o estudo dessa região por imagens de tomografia computadorizada poderá fornecer maiores subsídios diagnósticos."
-
   - trigger: "acrius"
     word: true
     replace: "A critério clínico, se possível, o estudo dessa região por imagens de ultrassonografia poderá fornecer maiores subsídios diagnósticos."
@@ -1436,10 +1432,6 @@ matches:
     word: true
     replace: Correlacionar com dados cirúrgicos.
 
-  - trigger: "cocx"
-    word: true
-    replace: Correlacionar com dados cirúrgicos.
-
   - trigger: "coco1"
     word: true
     replace: Coprostase.
@@ -1456,10 +1448,6 @@ matches:
       Demais achados pormenorizados no corpo do laudo.
 
       Obs.: a tomografia de tórax pode não apresentar alterações, principalmente nas primeiras 48 horas após início dos sintomas de infecção viral. Correlacionar com dados clínicos e laboratoriais para considerar realização de novo estudo evolutivo.
-
-  - trigger: "colab"
-    word: true
-    replace: Correlacionar com dados clínicos e laboratoriais.
 
   - trigger: "colab1"
     word: true
@@ -6777,7 +6765,7 @@ matches:
       Microangiopatia/gliose.
       Ateromatose de base de crânio.
 
-  - trigger: "tccelulite"
+  - trigger: "tccelulite2"
     word: true
     replace: Espessamento e densificação do tecido subcutâneo do pé e tornozelo sugerindo representar edema/celulite. Correlacionar com dados clínicos e laboratoriais.
 
@@ -8293,7 +8281,7 @@ matches:
     word: true
     replace: tocando as raízes nervosas emergente de L5 e descendente de S1.
 
-  - trigger: "tctorid"
+  - trigger: "tctorid2"
     word: true
     replace: |
       TOMOGAFIA COMPUTADORIZADA DE TÓRAX S/C
@@ -8721,7 +8709,7 @@ matches:
     word: true
     replace: atenuação de partes moles
 
-  - trigger: "artendu"
+  - trigger: "artendu2"
     word: true
     replace: Materiais com densidade metálica causando artefatos de endurecimento dos feixes de raios X dificultando a avaliação anatômica das estruturas adjacentes.
 
@@ -8812,7 +8800,7 @@ matches:
     word: true
     replace: "Imagem ovalada anecóica, sem ecos ou septos internos,"
 
-  - trigger: "cistpoli"
+  - trigger: "cistpoli2"
     word: true
     replace: "Imagem arredondada com densidade de partes moles, sugerindo representar cisto de retenção ou pólipo, localizada"
 
@@ -8832,11 +8820,11 @@ matches:
     word: true
     replace: consolidação parenquimatosa
 
-  - trigger: "cpd"
+  - trigger: "cpd2"
     word: true
     replace: campo pulmonar direito
 
-  - trigger: "cpe"
+  - trigger: "cpe2"
     word: true
     replace: campo pulmonar esquerdo
 
@@ -8852,10 +8840,6 @@ matches:
     word: true
     replace: Cateter venoso central.
 
-  - trigger: "cvs"
-    word: true
-    replace: corpos vertebrais
-
   - trigger: "dcssi"
     word: true
     replace: Divertículos colônicos sem sinais inflamatórios.
@@ -8868,11 +8852,11 @@ matches:
     word: true
     replace: distensão gasosa de alças intestinais
 
-  - trigger: "dpm"
+  - trigger: "dpm2"
     word: true
     replace: densidade de partes moles
 
-  - trigger: "drenotor"
+  - trigger: "drenotor2"
     word: true
     replace: Dreno de tórax com pertuido de entrada entre  o  xxx espaço intercostal esquerdo e extremidade distal no ápice do pulmão ipsilateral. Associa-sae focos de enfisema subcutâneos nos planos mioadiposos costais.
 
@@ -9040,7 +9024,7 @@ matches:
     word: true
     replace: lobo frontal esquerdo
 
-  - trigger: "lfs"
+  - trigger: "lfs2"
     word: true
     replace: lobos frontais
 
@@ -9195,7 +9179,7 @@ matches:
     word: true
     replace: Persistência do cavum vergae e do septopelucido.
 
-  - trigger: "pv"
+  - trigger: "pv2"
     word: true
     replace: parcialmente visualizado devido a intensa sobreposição gasosa de alças intestinais.
 
@@ -9829,7 +9813,7 @@ matches:
     word: true
     replace: Traqueostomia
 
-  - trigger: "vbc"
+  - trigger: "vbc2"
     word: true
     replace: Vesícula biliar contendo imagens sugestivos de cálculos.
 
@@ -9892,10 +9876,6 @@ matches:
   - trigger: "atrof"
     word: true
     replace: "Proeminência dos sulcos entre os giros corticais e fissuras sylvianas, com consequente ectasia do sistema ventricular supratentorial, compatível com redução volumétrica encefálica difusa."
-
-  - trigger: "avc"
-    word: true
-    replace: "Hipoatenuação acometendo a substância branca profunda e corticossubcortical occipitotemporal esquerda, associado à edema de padrão citotóxico, com consequente apagamentos dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta."
 
   - trigger: "ban"
     word: true
@@ -10131,7 +10111,7 @@ matches:
       Conclusão:
       Exame dentro dos parâmetros da normalidade.
 
-  - trigger: "tcabdsup"
+  - trigger: "tcabdsup2"
     word: true
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO ABDOME SUPERIOR S/C
@@ -10224,7 +10204,7 @@ matches:
       Conclusão:
       Exame dentro dos padrões da normalidade.
 
-  - trigger: "tccr"
+  - trigger: "tccr2"
     word: true
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
@@ -10245,7 +10225,7 @@ matches:
       Opinião:
       Estudo tomográfico dentro dos limites da normalidade.
 
-  - trigger: "tccrad"
+  - trigger: "tccrad2"
     word: true
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
@@ -10517,10 +10497,6 @@ matches:
     word: true
     replace: "Conteúdo hiperdenso no interior da vesícula biliar, sugerindo barro biliar/microcálculos. Correlacionar com achados ultrassonográficos."
 
-  - trigger: "vt"
-    word: true
-    replace: "Presença de seis corpos vertebrais com características lombares, sendo a última denominada vértebra de transição (VT)."
-
   - trigger: "EDEMA"
     word: true
     replace: "Apagamento difuso dos sulcos e giros encefálicos associado a perda da diferenciação corticossubcortical, podendo corresponder a edema cerebral."
@@ -10532,10 +10508,6 @@ matches:
   - trigger: "acess"
     word: true
     replace: relatado o resultado conforme solicitação clínica
-
-  - trigger: "aiarap"
-    word: true
-    replace: Alças intestinais e ampola retal de avaliação prejudicada por resíduos fecais.
 
   - trigger: "ao2"
     word: true
@@ -11003,11 +10975,11 @@ matches:
     word: true
     replace: "Placas pleurais bilaterais, muitas delas com calcificações, predominando nas regiões basais."
 
-  - trigger: "tt71"
+  - trigger: "tt712"
     word: true
     replace: Nódulo hipodenso de _ cm na adrenal _ com coeficientes de atenuação em torno de _ U.H. compatível com adenoma. Adrenal _ de aspecto preservado.
 
-  - trigger: "tt72"
+  - trigger: "tt722"
     word: true
     replace: "Nódulo hipodenso de _ cm na adrenal _ com coeficientes de atenuação em torno de _ U.H., de aspecto indeterminado. Adrenal _ de aspecto preservado."
 
@@ -11095,10 +11067,6 @@ matches:
     word: true
     replace: Aumento do calibre dos ramos principais da artéria pulmonar.
 
-  - trigger: "anlm"
-    word: true
-    replace: Aumento do número de linfonodos mediastinais.
-
   - trigger: "band"
     word: true
     replace: Bandas parenquimatosas pulmonares.
@@ -11138,7 +11106,7 @@ matches:
     word: true
     replace: Espondilose torácica.
 
-  - trigger: "estp"
+  - trigger: "estp2"
     word: true
     replace: Estrias pleuroapicais.
 
@@ -11146,15 +11114,11 @@ matches:
     word: true
     replace: ",guardadas as diferenças metodológicas, evidencia:"
 
-  - trigger: "hgh"
-    word: true
-    replace: Hérnia gástrica hiatal.
-
-  - trigger: "mdp"
+  - trigger: "mdp2"
     word: true
     replace: Mínimo espessamento/derrame pleural bilateral.
 
-  - trigger: "mosai"
+  - trigger: "mosai2"
     word: true
     replace: "Áreas com atenuação em mosaico esparsas pelo parênquima pulmonar bilateral, inferindo distúrbio de ventilação/perfusão."
 
