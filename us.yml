@@ -49,12 +49,7 @@ matches:
 
   - trigger: "ap1"
     label: "Apêndice cecal: Sinais sugestivos de apendicite aguda (achado descritivo)"
-    replace: |-
-      Pele e tecido celular subcutâneo sem alterações.
-      Planos musculares preservados.
-      Redução dos movimentos peristálticos.
-      Aumento da ecogenicidade da gordura pericecal, compatível com edema.
-      Apêndice cecal caracterizado, incompressível, com calibre medindo _ cm (normal < 0,7 cm).
+    replace: Apêndice cecal caracterizado em fossa ilíaca direita, incompressível, com calibre medindo _ cm (normal < 0,7 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
     word: true
 
   - trigger: "ap1c"
@@ -64,12 +59,7 @@ matches:
 
   - trigger: "ap2"
     label: "Apêndice cecal: Sinais sugestivos de processo inflamatório/infeccioso do apêndice cecal (achado descritivo)"
-    replace: |-
-      Pele e tecido celular subcutâneo sem alterações.
-      Planos musculares preservados.
-      Redução dos movimentos peristálticos.
-      Aumento da ecogenicidade da gordura pericecal, compatível com edema.
-      Estrutura tubuliforme em fundo cego, com origem aparente no ceco, compatível com apêndice cecal, incompressível, com calibre medindo _ cm.
+    replace: Estrutura tubuliforme em fundo cego, com origem aparente no ceco, compatível com apêndice cecal, incompressível, com com calibre medindo _ cm (normal < 0,7 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
     word: true
 
   - trigger: "ap2c"
@@ -78,7 +68,7 @@ matches:
     word: true
 
   - trigger: "ba1"
-    label: "Baço: Baço de topografia subcostal o que limita sua caracterização, com ecotextura e contornos..."
+    label: "Baço: Baço de topografia subcostal"
     replace: Baço de topografia subcostal o que limita sua caracterização, com ecotextura e contornos normais nas janelas acústicas disponíveis.
     word: true
 
@@ -93,28 +83,33 @@ matches:
     word: true
 
   - trigger: "ba3"
-    label: "Baço: Baço de dimensões aumentadas (índice esplênico de _; normal < 60), bordas rombas e..."
+    label: "Baço: Baço de dimensões aumentadas com corpúsculos de Gamna Gandy"
     replace: Baço de dimensões aumentadas (índice esplênico de _; normal < 60), bordas rombas e ecotextura heterogênea, devido a múltiplos focos ecogênicos compatível com corpúsculos de Gamna Gandy.
     word: true
 
   - trigger: "ba4"
-    label: "Baço: Nota-se no hilo esplênico imagem nodular com ecotextura semelhante ao baço compatível com..."
+    label: "Baço acessório"
     replace: Nota-se no hilo esplênico imagem nodular com ecotextura semelhante ao baço compatível com baço acessório.
     word: true
 
+  - trigger: "ba4c"
+    label: "Baço acessório"
+    replace: Provável baço acessório no hilo esplênico.
+    word: true
+
   - trigger: "ca1"
-    label: "Vias biliares/colédoco: Dilatação das vias biliares intra e extra-hepática sem a caracterização de fatores... (achado descritivo)"
+    label: "Dilatação das vias biliares intra e extra-hepática sem a caracterização de fatores obstrutivos (achado descritivo)"
     replace: "Dilatação das vias biliares intra-hepáticas, bem como da porções proximais do colédoco, configurando o \"sinal do duplo cano\" (calibre do colédoco de _ cm; normal menor que 0,6 cm). Não foi possível caracterizar o fator obstrutivo."
     word: true
 
   - trigger: "ca1c"
-    label: "Vias biliares/colédoco: Dilatação das vias biliares intra e extra-hepática sem a caracterização de fatores..."
+    label: "Dilatação das vias biliares intra e extra-hepática sem a caracterização de fatores obstrutivos (conclusão)"
     replace: Dilatação das vias biliares intra e extra-hepática sem a caracterização de fatores obstrutivos. Considerar prosseguir a investigação diagnóstica com ressonância magnética de abdome.
     word: true
 
   - trigger: "ca2"
     label: "Vias biliares/colédoco: Cálculo no interior do colédoco, promovendo dilatação à montante (achado descritivo)"
-    replace: "Imagem ecogênica formadora de sombra acústica posterior, compatível com cálculo no terço proximal/médio/distal do colédoco, promovendo dilatação das vias biliares intra e extra hepáticas a montante. (calibre do colédoco de _ cm; normal < 0,6 cm). "
+    replace: "Imagem ecogênica formadora de sombra acústica posterior, compatível com cálculo no terço proximal/médio/distal do colédoco, promovendo dilatação das vias biliares intra e extra hepáticas a montante. (calibre do colédoco de _ cm; normal < 0,6 cm)."
     word: true
 
   - trigger: "ca2c"
@@ -1230,12 +1225,13 @@ matches:
   - trigger: "ut6"
     label: "Útero/endométrio: Exame realizado em paciente com antecedente de histerectomia parcial"
     replace: |-
-      Exame realizado em paciente com antecedente de histerectomia parcial.
+      Útero parcialmente caracterizado (sinais de histerectomia parcial).
       Remanescente uterino com forma, contornos e ecotextura normais,medindo _ cm e com volume de _ cm³.
-      Ovários não caracterizados no presente estudo (os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais, modificações próprias do período climatério ou status pós-cirúrgico).
+    word: true
 
-      Conclusão:
-      Estudo ultra-sonográfico sem alterações significativas, considerando-se os antecedentes cirúrgicos.
+  - trigger: "ut6c"
+    label: "Útero/endométrio: Exame realizado em paciente com antecedente de histerectomia parcial"
+    replace: Sinais de histerectomia parcial.
     word: true
 
   - trigger: "utnc"
