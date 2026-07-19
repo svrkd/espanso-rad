@@ -7,7 +7,7 @@ matches:
   - trigger: "r2"
     replace: "site:radiopaedia.org"
     word: true
-    
+
   - trigger: "redd"
     replace: "site:reddit.com"
     word: true
@@ -19,7 +19,7 @@ matches:
   - trigger: "aesq"
     replace: à esquerda
     word: true
-    
+
   - trigger: "codc"
     replace: Correlacionar com dados clínicos.
     word: true

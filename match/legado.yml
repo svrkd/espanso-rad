@@ -1,0 +1,315 @@
+matches:
+
+  # ============================================================
+  # ORIGEM: rx.yml
+  # ============================================================
+
+  # substituído por "dir" em rx.yml
+  - trigger: "DIR"
+    replace: DIREITO
+    word: true
+
+  # substituído por "esq" em rx.yml
+  - trigger: "ESQ"
+    replace: ESQUERDO
+    word: true
+
+  # substituído por "cabecote" em rx.yml
+  - trigger: "cabeçote"
+    replace: "Luxação da artroplastia total do quadril direito, com deslocamento cranial do componente femoral da prótese."
+    word: true
+
+  # substituído por "rxantebraco1" em rx.yml
+  - trigger: "rxantebraço1"
+    replace: |
+      RADIOGRAFIA DE ANTEBRAÇO
+
+      Textura óssea preservada.
+      Estruturas ósseas preservadas.
+      Espaços articulares preservados.
+      Ausência de calcificações de partes moles.
+    word: true
+
+  # substituído por "rxantebraco2" em rx.yml
+  - trigger: "rxantebraço2"
+    replace: |
+      RADIOGRAFIA DE ANTEBRAÇO DIREITO / ESQUERDO
+
+      Partes moles sem alterações significativa.
+      Textura óssea preservada.
+      - Redução da densidade óssea.
+      Estruturas ósseas preservadas.
+      Espaços articulares preservados.
+      - Redução do espaço articular
+      Ausência de calcificações de partes moles.
+    word: true
+
+  # substituído por "rxantebracod" em rx.yml
+  - trigger: "rxantebraçod"
+    replace: |
+      RADIOGRAFIA DE ANTEBRAÇO DIREITO
+
+      Textura óssea preservada.
+      Estruturas ósseas preservadas.
+      Espaços articulares preservados.
+      Ausência de calcificações de partes moles.
+    word: true
+
+  # substituído por "rxantebracoe" em rx.yml
+  - trigger: "rxantebraçoe"
+    replace: |
+      RADIOGRAFIA DE ANTEBRAÇO ESQUERDO
+
+      Textura óssea preservada.
+      Estruturas ósseas preservadas.
+      Espaços articulares preservados.
+      Ausência de calcificações de partes moles.
+    word: true
+
+  # substituído por "rxbraco1" em rx.yml
+  - trigger: "rxbraço1"
+    replace: |
+      RADIOGRAFIA DE BRAÇO DIREITO / ESQUERDO
+
+      Textura óssea preservada.
+      Estruturas ósseas preservadas.
+      Espaços articulares preservados.
+      Ausência de calcificações de partes moles.
+    word: true
+
+  # substituído por "rxbraco2" em rx.yml
+  - trigger: "rxbraço2"
+    replace: |
+      RADIOGRAFIA DE BRAÇO DIREITO / ESQUERDO
+
+      Textura óssea preservada.
+      Estruturas ósseas preservadas.
+      - Redução da densidade óssea.
+      Espaços articulares preservados.
+      - Redução do espaço articular
+      Ausência de calcificações de partes moles.
+    word: true
+
+  # substituído por "rxbracod" em rx.yml
+  - trigger: "rxbraçod"
+    replace: |
+      RADIOGRAFIA DE BRAÇO DIREITO
+
+      Textura óssea preservada.
+      Estruturas ósseas preservadas.
+      Espaços articulares preservados.
+      Ausência de calcificações de partes moles.
+    word: true
+
+  # substituído por "rxbracoe" em rx.yml
+  - trigger: "rxbraçoe"
+    replace: |
+      RADIOGRAFIA DE BRAÇO  ESQUERDO
+
+      Textura óssea preservada.
+      Estruturas ósseas preservadas.
+      Espaços articulares preservados.
+      Ausência de calcificações de partes moles.
+    word: true
+
+  # substituído por "translacao" em rx.yml
+  - trigger: "translaçao"
+    replace: "Translação anterior da tibia, sugerindo instabilidade secundária a insuficiência do ligamento cruzado anterior."
+    word: true
+
+  # substituído por "traco" em rx.yml
+  - trigger: "traço"
+    replace: Traço radiolucente XX podendo corresponder a fratura em contexto de trauma.
+    word: true
+
+  # ============================================================
+  # ORIGEM: tc.yml
+  # ============================================================
+
+  # substituído por "dpaus" em tc.yml
+  - trigger: "DPAUS"
+    replace: |
+      DR. DIEGO ARAUJO
+      CRM: 166.879
+    word: true
+
+  # substituído por "edema" em tc.yml
+  - trigger: "EDEMA"
+    replace: "Apagamento difuso dos sulcos e giros encefálicos associado a perda da diferenciação corticossubcortical, podendo corresponder a edema cerebral."
+    word: true
+
+  # substituído por "tc1" em tc.yml
+  - trigger: "TC1"
+    replace: "Com o advento da nova geração de tomógrafos (multislice) houve um aumento na detecção de diminutos nódulos pulmonares. Em pacientes sem neoplasia conhecida, a maioria destes diminutos nódulos constitui achado benigno. Radiology 2003; 226:489-493."
+    word: true
+
+  # substituído por "tcbacia" em tc.yml
+  - trigger: "TCBACIA"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
+
+
+      Técnica:
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
+
+      Análise:
+      Estruturas ósseas de formato habitual, sem sinais de fraturas.
+      Articulações femoroacetabulares de contornos regulares.
+      Articulações sacro-ilíacas e sínfise púbica conservadas.
+      Não há sinais de derrame articular.
+      Planos musculares e tendíneos sem alterações tomográficas.
+
+      Conclusão:
+      Exame dentro dos padrões da normalidade.
+    word: true
+
+  # substituído por "alcanl" em tc.yml
+  - trigger: "alçanl"
+    replace: Alças intestinais de distribuição usual, sem sinais aparentes de anormalidades focais.
+    word: true
+
+  # substituído por "cabaco" em tc.yml
+  - trigger: "cabaço"
+    replace: "Pequenas calcificações no parênquima esplênico, de aspecto residual. Restante do parênquima esplênico sem particularidades."
+    word: true
+
+  # substituído por "cabaco1" em tc.yml
+  - trigger: "cabaço1"
+    replace: "Pequena calcificação no parênquima esplênico, de aspecto residual. Restante do parênquima esplênico sem particularidades."
+    word: true
+
+  # substituído por "cabaco1f" em tc.yml
+  - trigger: "cabaço1f"
+    replace: "Pequena calcificação no segmento hepático V, de aspecto residual."
+    word: true
+
+  # substituído por "cabacof" em tc.yml
+  - trigger: "cabaçof"
+    replace: "Pequenas calcificações no parênquima hepático, de aspecto residual."
+    word: true
+
+  # substituído por "cabacof1" em tc.yml
+  - trigger: "cabaçof1"
+    replace: "Pequena calcificação no parênquima hepático, de aspecto residual."
+    word: true
+
+  # substituído por "doencadefahr" em tc.yml
+  - trigger: "doençadefahr"
+    replace: "Calcificações comprometendo de forma bilateral e relativamente simétrica os núcleos da base, tálamos e parte da substância branca subcortical dos lobos frontais e temporais. Admitem-se inicialmente as possibilidades de doença de Fahr, alterações relacionadas a hipoparatireodismo/pseudo-hipoparatireodismo e distúrbios relacionados ao metabolismo do cálcio. Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
+    word: true
+
+  # substituído por "fraturaluxacaoombro" em tc.yml
+  - trigger: "fraturaluxaçãoombro"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DO OMBRO ESQUERDO S/C
+      Técnica:
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
+      Análise:
+      Fratura cominutiva da cabeça e do tubérculo maior do úmero com diástase dos principais fragmentos ósseos. Associa-se luxação anterior e inferior da cabeça do úmero.
+      Fratura da porção anteroinferior da glenóide (lesão de Bankart).
+      Derrame articular glenoumeral com conteúdo hemático.
+      Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
+      Aumento do espaço articular acromioclavicular sugerindo lesão/luxação.
+      Tendões e ligamentos de avaliação limitada nesse estudo.
+      Conclusão:
+      Fratura cominutiva da cabeça e do tubérculo maior do úmero com diástase dos principais fragmentos ósseos. Associa-se luxação anterior e inferior da cabeça do úmero.
+      Fratura da porção anteroinferior da glenóide (lesão de Bankart).
+      Derrame articular glenoumeral com conteúdo hemático.
+      Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
+      Aumento do espaço articular acromioclavicular sugerindo lesão/luxação.
+      Nota:
+      Enfisema centrolobular e parasseptal no campo pulmonar esquerdo.
+      Opacidades com atenuação em "vidro fosco" esparsas pelo campo pulmonar esquerdo. Esse conjunto de achados, diante do contexto, sugere a possibilidade de contusões pulmonares. Correlacionar com dados clínicos.
+    word: true
+
+  # substituído por "hemangiomapequenofigado" em tc.yml
+  - trigger: "hemangiomapequenofígado"
+    replace: "Fígado com dimensões, contornos e densidade normais, exceto por imagem nodular hipodensa no segmento VI, medindo 1,1 cm, apresentando homogeneização tardia após a administração do meio de contraste endovenoso, inespecífico, porém sugestivo de hemangioma. Os diagnósticos diferenciais devem ser aplicados."
+    word: true
+
+  # substituído por "luxacaocolunacervical" em tc.yml
+  - trigger: "luxaçaocolunacervical"
+    replace: "Subluxação anterior da coluna cervical caracterizada por anterolistese grau I de C5 sobre C6, deslocamento facetário bilateral, distância interespinhosa local aumentada, redução do respectivo espaço intervertebral e cifotização cervical. A possibilidade de lesão do complexo ligamentar posterior da coluna cervical por entorse com hiperflexão pode ser considerada. Os diagnósticos diferenciais devem ser aplicados. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos, inclusive na pesquisa de possível lesão na medula espinhal associada."
+    word: true
+
+  # substituído por "luxacaoombro" em tc.yml
+  - trigger: "luxaçãoombro"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO S/C
+      Técnica:
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
+
+      Análise:
+      Irregularidade cortical no aspecto posterolateral no topo da cabeça umeral, sugerindo fratura compressiva de Hill-Sachs.
+      Fratura no aspecto anteroinferior do labio glenoidal compatível com lesão de Bankart.
+      Demais estruturas ósseas de forma conservada, sem sinais de fraturas.
+      Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma.
+      Mínimo derrame articular glenoumeral.
+      Articulação acromioclavicular de contornos regulares.
+      Tendões e ligamentos de avaliação limitada nesse estudo.
+
+      Conclusão:
+      Irregularidade cortical no aspecto posterolateral no topo da cabeça umeral, sugerindo fratura compressiva de Hill-Sachs.
+      Fratura no aspecto anteroinferior do labio glenoidal compatível com lesão de Bankart.
+      Demais estruturas ósseas de forma conservada, sem sinais de fraturas.
+      Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma.
+      Mínimo derrame articular glenoumeral.
+    word: true
+
+  # substituído por "prostao" em tc.yml
+  - trigger: "prostão"
+    replace: Aparente aumento volumétrico da próstata.
+    word: true
+
+  # substituído por "recidivapescoco" em tc.yml
+  - trigger: "recidivapescoço"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DO PESCOÇO C/C
+
+      Técnica:
+      Imagens obtidas por aquisição volumétrica "multislice" após a administração intravenosa do meio de contraste iodado.
+      Avaliação prejudicada por artefatos de movimentação.
+
+      A análise comparativa com o exame realizado em 29/07/2024 evidencia:
+      Solução de continuidade de partes moles associadas a coleções hidroaéreas, confluentes, com realce periférico pelo meio de contraste endovenoso, localizadas na base da língua, bem como em planos subcutâneos e mioadiposos na parede anterior da hipofaringe e da laringe, medindo, em conjunto, cerca de 7,5 x 7,2 x 5,2 cm (AP x CC x LL), com volume aproximado de 146,0 cm³. As possibilidades de abscessos, neoplasia abscedada e/ou áreas de radionecrose podem ser consideradas.
+      Solução de continuidade do osso hioide.
+      Linfonodomegalias cervicais à direita, algumas com centro necrótico, a maior agora na cadeia IIa, medindo 1,9 x 1,5 cm.
+      Múltiplas lesões nodulares escavadas esparsas pelos campos pulmonares. A possibilidade de metástases deve ser considerada dentre os diagnósticos diferenciais.
+
+      Permanecendo:
+      Status pós pelveglossectomia parcial, esvaziamento cervical e submandibulectomia à direita (05/2024).
+      Formação heterogênea, de limites mal definidos, com realce periférico pelo meio de contraste endovenoso, localizada junto aos músculos milo-hióideo, genio-hióideo e digástrico à direita, com obliteração de partes moles adjacentes, de limites pouco definidos. Correlacionar com orolaringoscopia para diferenciação de processo inflamatório/infeccioso ou recidiva tumoral.
+      Glândulas parótidas e submandibular esquerda sem alterações.
+      Epiglote, pregas ariepiglóticas, bandas ventriculares e cordas vocais apresentando coeficientes de atenuação preservados.
+      Tireoide heterogênea, melhor avaliada em estudo dirigido.
+      Ateromatose.
+      Espondilose cervical.
+    word: true
+
+  # substituído por "tcbraco" em tc.yml
+  - trigger: "tcbraço"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DO BRAÇO ESQUERDO C/C
+
+      Técnica:
+      Foram obtidas imagens por aquisição volumétrica multislice, antes e após a administração endovenosa de contraste, com reformatações multiplanares.
+
+      Análise:
+      Estruturas ósseas de forma conservada, sem sinais de fraturas.
+      Planos musculares sem alterações tomográficas.
+      Após a administração endovenosa do meio de contraste, observou-se opacificação dos vasos arteriais e venosos do membro superior esquerdo.
+      Os maiores calibres observados foram:
+      - artéria subclávia: 0,50 cm;
+      - artéria axilar: 0,49 cm;
+      - artéria braquial: 0,50 cm;
+      - artéria radial: 0,20 cm;
+      - artéria ulnar: 0,19 cm.
+
+      Conclusão:
+      Exame dentro dos padrões da normalidade.
+    word: true
+
+  # substituído por "tcintussuscepcao" em tc.yml
+  - trigger: "tcintussuscepção"
+    replace: "Sinais de intussuscepção na região do cólon direito/ileocecal, com espessamento parietal local das alças intestinais e conteúdo com densidade de partes moles, sem determinar distensão de alças à montante.  Associam-se densificação do tecido adiposo adjacente, pequena quantidade de líquido na cavidade pélvica e aumento do número de linfonodos mesentéricos e ileocecais. O conjunto de achados sugere suboclusão intestinal por intussuscepção. Os diagnósticos diferenciais devem ser aplicados. Recomenda-se prosseguir a investigação para a pesquisa de possíveis patologias subjacentes, inclusive neoplasia."
+    word: true
