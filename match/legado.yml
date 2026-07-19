@@ -1,26 +1,28 @@
 matches:
 
-  # ============================================================
-  # ORIGEM: rx.yml
-  # ============================================================
-
-  # substituído por "dir" em rx.yml
   - trigger: "DIR"
+    label: "DIREITO (grafia legada maiúscula)"
     replace: DIREITO
     word: true
 
   # substituído por "esq" em rx.yml
+
   - trigger: "ESQ"
+    label: "ESQUERDO (grafia legada maiúscula)"
     replace: ESQUERDO
     word: true
 
   # substituído por "cabecote" em rx.yml
+
   - trigger: "cabeçote"
+    label: "Luxação de artroplastia de quadril"
     replace: "Luxação da artroplastia total do quadril direito, com deslocamento cranial do componente femoral da prótese."
     word: true
 
   # substituído por "rxantebraco1" em rx.yml
+
   - trigger: "rxantebraço1"
+    label: "Radiografia de antebraço — normal"
     replace: |
       RADIOGRAFIA DE ANTEBRAÇO
 
@@ -31,7 +33,9 @@ matches:
     word: true
 
   # substituído por "rxantebraco2" em rx.yml
+
   - trigger: "rxantebraço2"
+    label: "Radiografia de antebraço — normal/degenerativo (opções)"
     replace: |
       RADIOGRAFIA DE ANTEBRAÇO DIREITO / ESQUERDO
 
@@ -45,7 +49,9 @@ matches:
     word: true
 
   # substituído por "rxantebracod" em rx.yml
+
   - trigger: "rxantebraçod"
+    label: "Radiografia de antebraço direito — normal"
     replace: |
       RADIOGRAFIA DE ANTEBRAÇO DIREITO
 
@@ -56,7 +62,9 @@ matches:
     word: true
 
   # substituído por "rxantebracoe" em rx.yml
+
   - trigger: "rxantebraçoe"
+    label: "Radiografia de antebraço esquerdo — normal"
     replace: |
       RADIOGRAFIA DE ANTEBRAÇO ESQUERDO
 
@@ -67,7 +75,9 @@ matches:
     word: true
 
   # substituído por "rxbraco1" em rx.yml
+
   - trigger: "rxbraço1"
+    label: "Radiografia de braço — normal"
     replace: |
       RADIOGRAFIA DE BRAÇO DIREITO / ESQUERDO
 
@@ -78,7 +88,9 @@ matches:
     word: true
 
   # substituído por "rxbraco2" em rx.yml
+
   - trigger: "rxbraço2"
+    label: "Radiografia de braço — normal/degenerativo (opções)"
     replace: |
       RADIOGRAFIA DE BRAÇO DIREITO / ESQUERDO
 
@@ -91,7 +103,9 @@ matches:
     word: true
 
   # substituído por "rxbracod" em rx.yml
+
   - trigger: "rxbraçod"
+    label: "Radiografia de braço direito — normal"
     replace: |
       RADIOGRAFIA DE BRAÇO DIREITO
 
@@ -102,7 +116,9 @@ matches:
     word: true
 
   # substituído por "rxbracoe" em rx.yml
+
   - trigger: "rxbraçoe"
+    label: "Radiografia de braço esquerdo — normal"
     replace: |
       RADIOGRAFIA DE BRAÇO  ESQUERDO
 
@@ -113,12 +129,16 @@ matches:
     word: true
 
   # substituído por "translacao" em rx.yml
+
   - trigger: "translaçao"
+    label: "Translação anterior da tíbia (insuficiência do LCA)"
     replace: "Translação anterior da tibia, sugerindo instabilidade secundária a insuficiência do ligamento cruzado anterior."
     word: true
 
   # substituído por "traco" em rx.yml
+
   - trigger: "traço"
+    label: "Traço radiolucente sugerindo fratura"
     replace: Traço radiolucente XX podendo corresponder a fratura em contexto de trauma.
     word: true
 
@@ -127,24 +147,32 @@ matches:
   # ============================================================
 
   # substituído por "dpaus" em tc.yml
+
   - trigger: "DPAUS"
+    label: "Assinatura: Dr. Diego Araújo"
     replace: |
       DR. DIEGO ARAUJO
       CRM: 166.879
     word: true
 
   # substituído por "edema" em tc.yml
+
   - trigger: "EDEMA"
+    label: "Edema cerebral"
     replace: "Apagamento difuso dos sulcos e giros encefálicos associado a perda da diferenciação corticossubcortical, podendo corresponder a edema cerebral."
     word: true
 
   # substituído por "tc1" em tc.yml
+
   - trigger: "TC1"
+    label: "Nota: nódulos pulmonares diminutos (referência bibliográfica)"
     replace: "Com o advento da nova geração de tomógrafos (multislice) houve um aumento na detecção de diminutos nódulos pulmonares. Em pacientes sem neoplasia conhecida, a maioria destes diminutos nódulos constitui achado benigno. Radiology 2003; 226:489-493."
     word: true
 
   # substituído por "tcbacia" em tc.yml
+
   - trigger: "TCBACIA"
+    label: "TC de bacia — normal (grafia legada maiúscula)"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
 
@@ -164,42 +192,58 @@ matches:
     word: true
 
   # substituído por "alcanl" em tc.yml
+
   - trigger: "alçanl"
+    label: "Alças intestinais de distribuição usual"
     replace: Alças intestinais de distribuição usual, sem sinais aparentes de anormalidades focais.
     word: true
 
   # substituído por "cabaco" em tc.yml
+
   - trigger: "cabaço"
+    label: "Calcificações residuais no baço"
     replace: "Pequenas calcificações no parênquima esplênico, de aspecto residual. Restante do parênquima esplênico sem particularidades."
     word: true
 
   # substituído por "cabaco1" em tc.yml
+
   - trigger: "cabaço1"
+    label: "Calcificação residual no baço"
     replace: "Pequena calcificação no parênquima esplênico, de aspecto residual. Restante do parênquima esplênico sem particularidades."
     word: true
 
   # substituído por "cabaco1f" em tc.yml
+
   - trigger: "cabaço1f"
+    label: "Calcificação residual no segmento hepático V"
     replace: "Pequena calcificação no segmento hepático V, de aspecto residual."
     word: true
 
   # substituído por "cabacof" em tc.yml
+
   - trigger: "cabaçof"
+    label: "Calcificações residuais no fígado"
     replace: "Pequenas calcificações no parênquima hepático, de aspecto residual."
     word: true
 
   # substituído por "cabacof1" em tc.yml
+
   - trigger: "cabaçof1"
+    label: "Calcificação residual no fígado"
     replace: "Pequena calcificação no parênquima hepático, de aspecto residual."
     word: true
 
   # substituído por "doencadefahr" em tc.yml
+
   - trigger: "doençadefahr"
+    label: "Calcificações dos núcleos da base (doença de Fahr)"
     replace: "Calcificações comprometendo de forma bilateral e relativamente simétrica os núcleos da base, tálamos e parte da substância branca subcortical dos lobos frontais e temporais. Admitem-se inicialmente as possibilidades de doença de Fahr, alterações relacionadas a hipoparatireodismo/pseudo-hipoparatireodismo e distúrbios relacionados ao metabolismo do cálcio. Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
     word: true
 
   # substituído por "fraturaluxacaoombro" em tc.yml
+
   - trigger: "fraturaluxaçãoombro"
+    label: "TC de ombro — fratura-luxação com lesão de Bankart"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO OMBRO ESQUERDO S/C
       Técnica:
@@ -223,17 +267,23 @@ matches:
     word: true
 
   # substituído por "hemangiomapequenofigado" em tc.yml
+
   - trigger: "hemangiomapequenofígado"
+    label: "Pequeno hemangioma hepático"
     replace: "Fígado com dimensões, contornos e densidade normais, exceto por imagem nodular hipodensa no segmento VI, medindo 1,1 cm, apresentando homogeneização tardia após a administração do meio de contraste endovenoso, inespecífico, porém sugestivo de hemangioma. Os diagnósticos diferenciais devem ser aplicados."
     word: true
 
   # substituído por "luxacaocolunacervical" em tc.yml
+
   - trigger: "luxaçaocolunacervical"
+    label: "Subluxação anterior da coluna cervical (C5-C6)"
     replace: "Subluxação anterior da coluna cervical caracterizada por anterolistese grau I de C5 sobre C6, deslocamento facetário bilateral, distância interespinhosa local aumentada, redução do respectivo espaço intervertebral e cifotização cervical. A possibilidade de lesão do complexo ligamentar posterior da coluna cervical por entorse com hiperflexão pode ser considerada. Os diagnósticos diferenciais devem ser aplicados. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos, inclusive na pesquisa de possível lesão na medula espinhal associada."
     word: true
 
   # substituído por "luxacaoombro" em tc.yml
+
   - trigger: "luxaçãoombro"
+    label: "TC de ombro — luxação com lesão de Hill-Sachs/Bankart"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO S/C
       Técnica:
@@ -257,12 +307,16 @@ matches:
     word: true
 
   # substituído por "prostao" em tc.yml
+
   - trigger: "prostão"
+    label: "Aumento volumétrico da próstata"
     replace: Aparente aumento volumétrico da próstata.
     word: true
 
   # substituído por "recidivapescoco" em tc.yml
+
   - trigger: "recidivapescoço"
+    label: "TC de pescoço — recidiva tumoral pós-operatória"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO PESCOÇO C/C
 
@@ -287,7 +341,9 @@ matches:
     word: true
 
   # substituído por "tcbraco" em tc.yml
+
   - trigger: "tcbraço"
+    label: "TC de braço — normal (com contraste)"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO BRAÇO ESQUERDO C/C
 
@@ -310,6 +366,8 @@ matches:
     word: true
 
   # substituído por "tcintussuscepcao" em tc.yml
+
   - trigger: "tcintussuscepção"
+    label: "Sinais de intussuscepção intestinal"
     replace: "Sinais de intussuscepção na região do cólon direito/ileocecal, com espessamento parietal local das alças intestinais e conteúdo com densidade de partes moles, sem determinar distensão de alças à montante.  Associam-se densificação do tecido adiposo adjacente, pequena quantidade de líquido na cavidade pélvica e aumento do número de linfonodos mesentéricos e ileocecais. O conjunto de achados sugere suboclusão intestinal por intussuscepção. Os diagnósticos diferenciais devem ser aplicados. Recomenda-se prosseguir a investigação para a pesquisa de possíveis patologias subjacentes, inclusive neoplasia."
     word: true
