@@ -16,7 +16,7 @@ matches:
       Fígado de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
       Não há evidência de dilatação das vias biliares intra-hepáticas.
       Vesícula biliar de contornos e dimensões normais, paredes normoespessas e sem imagem típica de cálculo.
-      Pâncreas e aorta abdominal parcialmente visualizados devido interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
+      Pâncreas e aorta abdominal parcialmente visualizados devido à interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
       Baço de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
       Rins de topografia, contornos e dimensões normais.
       Espessura córtico-medular conservada de ambos os rins, com ecotextura normal do parênquima bilateralmente.
@@ -40,7 +40,7 @@ matches:
       Fígado de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
       Não há evidência de dilatação das vias biliares intra-hepáticas.
       Vesícula biliar de contornos e dimensões normais, paredes normoespessas e sem imagem típica de cálculo.
-      Pâncreas parcialmente visualizado devido interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
+      Pâncreas parcialmente visualizado devido à interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
       Baço de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
 
       Conclusão:
@@ -59,7 +59,7 @@ matches:
 
   - trigger: "ap2"
     label: "Apêndice cecal: Sinais sugestivos de processo inflamatório/infeccioso do apêndice cecal (achado descritivo)"
-    replace: Estrutura tubuliforme em fundo cego, com origem aparente no ceco, compatível com apêndice cecal, incompressível, com com calibre medindo _ cm (normal < 0,7 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
+    replace: Estrutura tubuliforme em fundo cego, com origem aparente no ceco, compatível com apêndice cecal, incompressível, com calibre medindo _ cm (normal < 0,7 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
     word: true
 
   - trigger: "ap2c"
@@ -69,7 +69,7 @@ matches:
 
   - trigger: "ba1"
     label: "Baço: Baço de topografia subcostal"
-    replace: Baço de topografia subcostal o que limita sua caracterização, com ecotextura e contornos normais nas janelas acústicas disponíveis.
+    replace: Baço de topografia subcostal, o que limita sua caracterização, com ecotextura e contornos normais nas janelas acústicas disponíveis.
     word: true
 
   - trigger: "ba2"
@@ -99,7 +99,7 @@ matches:
 
   - trigger: "ca1"
     label: "Dilatação das vias biliares intra e extra-hepática sem a caracterização de fatores obstrutivos (achado descritivo)"
-    replace: "Dilatação das vias biliares intra-hepáticas, bem como da porções proximais do colédoco, configurando o \"sinal do duplo cano\" (calibre do colédoco de _ cm; normal menor que 0,6 cm). Não foi possível caracterizar o fator obstrutivo."
+    replace: "Dilatação das vias biliares intra-hepáticas, bem como das porções proximais do colédoco, configurando o \"sinal do duplo cano\" (calibre do colédoco de _ cm; normal menor que 0,6 cm). Não foi possível caracterizar o fator obstrutivo."
     word: true
 
   - trigger: "ca1c"
@@ -130,35 +130,35 @@ matches:
     word: true
 
   - trigger: "ca4"
-    label: "Vias biliares/colédoco: Focos ecogenicos no interior das vias biliares, compatíveis com aerobilia (achado descritivo)"
+    label: "Vias biliares/colédoco: Focos ecogênicos no interior das vias biliares, compatíveis com aerobilia (achado descritivo)"
     replace: Vias biliares intra-hepáticas sem dilatações, destacando-se focos ecogênicos lineares no seu interior que promovem artefatos de sombra suja posterior.
     word: true
 
   - trigger: "ca4c"
-    label: "Vias biliares/colédoco: Focos ecogenicos no interior das vias biliares, compatíveis com aerobilia"
-    replace: Focos ecogenicos no interior das vias biliares, compatíveis com aerobilia.
+    label: "Vias biliares/colédoco: Focos ecogênicos no interior das vias biliares, compatíveis com aerobilia"
+    replace: Focos ecogênicos no interior das vias biliares, compatíveis com aerobilia.
     word: true
 
   - trigger: "ca5"
     label: "Vias biliares/colédoco: Pequenas imagens ecogênicas de adjacente às vias biliares (achado descritivo)"
-    replace: Vias bilares intra-hepáticas sem dilatações. Nota-se próximo a sua luz, algumas imagens ecogênicas, por vezes apresentando reverberação do feixe acústico posterior, medindo até _ cm.
+    replace: Vias biliares intra-hepáticas sem dilatações. Nota-se próximo à sua luz, algumas imagens ecogênicas, por vezes apresentando reverberação do feixe acústico posterior, medindo até _ cm.
     word: true
 
   - trigger: "ca5c"
     label: "Vias biliares/colédoco: Pequenas imagens ecogênicas de adjacente às vias biliares"
-    replace: Pequenas imagens ecogênicas de adjacente às vias biliares. considerar a hipótese de harmatomas de vias biliares (Complexo de Von Meyenburg).
+    replace: Pequenas imagens ecogênicas de adjacente às vias biliares. Considerar a hipótese de hamartomas de vias biliares (Complexo de Von Meyenburg).
     word: true
 
   - trigger: "ca6"
-    label: "Vias biliares/colédoco: Dilatação focal do colédoco, compatível com cisto de coledoco (achado descritivo)"
+    label: "Vias biliares/colédoco: Dilatação focal do colédoco, compatível com cisto de colédoco (achado descritivo)"
     replace: |-
       Vias biliares intra-hepáticas sem dilatações.
       Nota-se dilatação focal do colédoco, com calibre de até _ cm.
     word: true
 
   - trigger: "ca6c"
-    label: "Vias biliares/colédoco: Dilatação focal do colédoco, compatível com cisto de coledoco"
-    replace: Dilatação focal do colédoco, compatível com cisto de coledoco.
+    label: "Vias biliares/colédoco: Dilatação focal do colédoco, compatível com cisto de colédoco"
+    replace: Dilatação focal do colédoco, compatível com cisto de colédoco.
     word: true
 
   - trigger: "ch1"
@@ -192,13 +192,13 @@ matches:
     word: true
 
   - trigger: "ch4"
-    label: "Fígado (hepatopatia difusa): Hepatomegalia, associado a ectasia da veia cava e suas principais tributárias e ascite (achado descritivo)"
+    label: "Fígado (hepatopatia difusa): Hepatomegalia, associada a ectasia da veia cava e suas principais tributárias e ascite (achado descritivo)"
     replace: Fígado de dimensões aumentadas, bordas rombas, ecotextura homogênea, e contornos regulares. Associa-se aumento do calibre das veias hepáticas e da veia cava inferior.
     word: true
 
   - trigger: "ch4c"
     label: "Fígado: hepatomegalia congestiva | Vasos: ectasia de cava e tributárias/ascite"
-    replace: Hepatomegalia, associado a ectasia da veia cava e suas principais tributárias e ascite. Esses achados, dentro do contexto clínico adequado, estão relacionados a congestão.
+    replace: Hepatomegalia, associada a ectasia da veia cava e suas principais tributárias e ascite. Esses achados, dentro do contexto clínico adequado, estão relacionados à congestão.
     word: true
 
   - trigger: "dh0"
@@ -252,7 +252,7 @@ matches:
 
   - trigger: "fh2"
     label: "Fígado (lesão focal): Cistos hepáticos com características simples (achado descritivo)"
-    replace: Notam-se algumas/múltiplas imagens císticas de de paredes finas e regulares, conteúdo anecoico, apresentando reforço acústico posterior, a maior medindo _ cm no segmento _.
+    replace: Notam-se algumas/múltiplas imagens císticas de paredes finas e regulares, conteúdo anecoico, apresentando reforço acústico posterior, a maior medindo _ cm no segmento _.
     word: true
 
   - trigger: "fh2c"
@@ -272,7 +272,7 @@ matches:
 
   - trigger: "fh4"
     label: "Fígado (lesão focal): Nódulo hepático com as características acima descritas (achado descritivo)"
-    replace: Nota-se imagem nodular localizada no segmento _ heterogênea, predominantemente hipoecogênica/isoecogênica, de limites parcialmente definidos e contornos irregulares, sem/com fluxo vascular ao estudo Doppler colorido, medindo cerca de _ cm
+    replace: Nota-se imagem nodular localizada no segmento _ heterogênea, predominantemente hipoecogênica/isoecogênica, de limites parcialmente definidos e contornos irregulares, sem/com fluxo vascular ao estudo Doppler colorido, medindo cerca de _ cm.
     word: true
 
   - trigger: "fh4c"
@@ -282,7 +282,7 @@ matches:
 
   - trigger: "fh5"
     label: "Fígado (lesão focal): Múltiplos nódulos hepáticos com as características acima descritas (achado descritivo)"
-    replace: "Notam-se algumas/multiplas imagens nodulares heterogênas, predominantemente hipoecogênicas, algumas apresentando-se com halo, adquirindo aspecto \"em alvo\". Essas lesões apresentam limites parcialmente definidos e contornos irregulares, a maior deles no segmento _, medindo _ cm. "
+    replace: "Notam-se algumas/múltiplas imagens nodulares heterogêneas, predominantemente hipoecogênicas, algumas apresentando-se com halo, adquirindo aspecto \"em alvo\". Essas lesões apresentam limites parcialmente definidos e contornos irregulares, a maior delas no segmento _, medindo _ cm."
     word: true
 
   - trigger: "fh5c"
@@ -307,7 +307,7 @@ matches:
 
   - trigger: "vb1c"
     label: "Vesícula biliar: Colecistolitíase"
-    replace: "Colecistolitíase. "
+    replace: "Colecistolitíase."
     word: true
 
   - trigger: "vb10"
@@ -352,12 +352,12 @@ matches:
 
   - trigger: "vb5c"
     label: "Vesícula biliar: Sinais sugestivos de colesterolose/adenomiomatose da vesícula biliar"
-    replace: Sinais sugestivos de colesterolose/adenomiomatose da vesícula biliar
+    replace: Sinais sugestivos de colesterolose/adenomiomatose da vesícula biliar.
     word: true
 
   - trigger: "vb6"
     label: "Vesícula biliar: Sinais de colecistopatia calculosa crônica (achado descritivo)"
-    replace: "Vesícula biliar hipodistendida, a despeito do preparo adequado, apresentando espessamento difuso de suas paredes, apresentando múltiplas imagens ecogênicas, formadoras de sombra acústica posterior, compatível com cálculos, medindo até _ cm no seu interior. "
+    replace: "Vesícula biliar hipodistendida, a despeito do preparo adequado, apresentando espessamento difuso de suas paredes, apresentando múltiplas imagens ecogênicas, formadoras de sombra acústica posterior, compatível com cálculos, medindo até _ cm no seu interior."
     word: true
 
   - trigger: "vb6c"
@@ -367,7 +367,7 @@ matches:
 
   - trigger: "vb7"
     label: "Vesícula biliar: Interface ecogênica na topografia da vesícula biliar (achado descritivo)"
-    replace: Nota-se, na topografia da vesícula biliar, interface ecogenica produtora de forte sombra acústica posterior.
+    replace: Nota-se, na topografia da vesícula biliar, interface ecogênica produtora de forte sombra acústica posterior.
     word: true
 
   - trigger: "vb7c"
@@ -421,14 +421,14 @@ matches:
       Dimensões: _ cm. Espessura do parênquima: _ cm.
       Parênquima com espessura e diferenciação corticomedular preservada.
       Sistema pielocalicial compacto.
-      Não visibilizado imagens compatíveis com cálculos no sistema pielocalicial.
+      Não visibilizadas imagens compatíveis com cálculos no sistema pielocalicial.
 
       Rim esquerdo:
       Morfologia, contornos e topografia habituais.
       Dimensões: _ cm. Espessura do parênquima: _ cm.
       Parênquima com espessura e diferenciação corticomedular preservada.
       Sistema pielocalicial compacto.
-      Não visibilizado imagens compatíveis com cálculos no sistema pielocalicial.
+      Não visibilizadas imagens compatíveis com cálculos no sistema pielocalicial.
 
       Bexiga urinária:
       Normodistendida, com conteúdo anecoico e não apresentando cálculos.
@@ -452,7 +452,7 @@ matches:
       Rim esquerdo medindo: _ cm.
 
       Conclusão:
-      Bexiga e rins de aspecto habitual para o recém-nascido
+      Bexiga e rins de aspecto habitual para o recém-nascido.
     word: true
 
   - trigger: "usprostata"
@@ -468,7 +468,7 @@ matches:
       Resíduos pré-miccional em torno de _ ml.
       Resíduos pós-miccional em torno de _ ml.
       Próstata com situação, dimensões e contornos normais, medindo _ cm em seus maiores eixos, com volume de _ cm³ (normal até 30,0 cm³).
-      ## Próstata de dimensões aumentadas, contornos lobulados, determinando impressão no assoalho vesical, medindo _ cm em seus maiores eixos, com volume de _ cm³ (normal até 30,0 cm³).
+      Próstata de dimensões aumentadas, contornos lobulados, determinando impressão no assoalho vesical, medindo _ cm em seus maiores eixos, com volume de _ cm³ (normal até 30,0 cm³).
       Índice de protrusão prostática intravesical (IPP): _ cm.
       Vesículas seminais de topografia, dimensões e ecotextura normais.
 
@@ -476,7 +476,7 @@ matches:
       Próstata com situação, dimensões e contornos normais.
       Aumento volumétrico da próstata. Correlacionar com PSA.
 
-      Obs.: A avaliação da textura prostática é limitada pela via supra-púbica.
+      Obs.: A avaliação da textura prostática é limitada pela via suprapúbica.
 
 
       < 30 – Resíduo pós-miccional desprezível.
@@ -486,17 +486,17 @@ matches:
 
       < 5 mm - IPP Grau I.
       5,1 – 10 mm - IPP Grau II.
-      > 10 MM - IPP Grau III.
+      > 10 mm - IPP Grau III.
     word: true
 
   - trigger: "bx1"
-    label: "Bexiga: Bexiga com pequena repleção o que prejudica a caracterização de suas paredes e conteúdo..."
-    replace: Bexiga com pequena repleção o que prejudica a caracterização de suas paredes e conteúdo anecoico.
+    label: "Bexiga: Bexiga com pequena repleção, o que prejudica a caracterização de suas paredes e conteúdo..."
+    replace: Bexiga com pequena repleção, o que prejudica a caracterização de suas paredes e conteúdo anecoico.
     word: true
 
   - trigger: "bx2"
     label: "Bexiga: Sinais de bexiga de esforço (achado descritivo)"
-    replace: "Bexiga com boa repleção, apresentando paredes difusamentes espessadas, com alguns pseudodivertículos, o maior localizado na parede _, medindo _ cm. "
+    replace: "Bexiga com boa repleção, apresentando paredes difusamente espessadas, com alguns pseudodivertículos, o maior localizado na parede _, medindo _ cm."
     word: true
 
   - trigger: "bx2c"
@@ -526,7 +526,7 @@ matches:
 
   - trigger: "bx5"
     label: "Bexiga: Massa com fluxo intravesical (achado descritivo)"
-    replace: Bexiga com boa repleção, apresentando massa ecogênica junto à sua parede _, medindo _ cm, com fluxo vascular ao estudo Doppler colorido, imóvel às mudanças de decúbito. Restante de suas paredes finas. Observa-se ecos em suspensão.
+    replace: Bexiga com boa repleção, apresentando massa ecogênica junto à sua parede _, medindo _ cm, com fluxo vascular ao estudo Doppler colorido, imóvel às mudanças de decúbito. Restante de suas paredes finas. Observam-se ecos em suspensão.
     word: true
 
   - trigger: "bx5c"
@@ -536,7 +536,7 @@ matches:
 
   - trigger: "bx6"
     label: "Bexiga: Conteúdo ecogênico intravesical de provável natureza hemática (achado descritivo)"
-    replace: Bexiga com boa repleção, apresentando conteúdo ecogênica sem fluxo vascular ao estudo Doppler colorido, móvel às mudanças de decúbito. Observa-se também ecos em suspensão.
+    replace: Bexiga com boa repleção, apresentando conteúdo ecogênico sem fluxo vascular ao estudo Doppler colorido, móvel às mudanças de decúbito. Observam-se também ecos em suspensão.
     word: true
 
   - trigger: "bx6c"
@@ -567,7 +567,7 @@ matches:
   - trigger: "rv4"
     label: "Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo)"
     replace: |-
-      Notam-se multiplas imagens ecogênicas formadoras de sombra acústica posterior e artefato luminescente, compatíveis com cálculos, não obstrutivos, destacando-se as maiores:
+      Notam-se múltiplas imagens ecogênicas formadoras de sombra acústica posterior e artefato luminescente, compatíveis com cálculos, não obstrutivos, destacando-se as maiores:
        - Uma no grupamento calicinal superior/ médio/ inferior, medindo _ cm.
     word: true
 
@@ -610,7 +610,7 @@ matches:
     label: "Rim: Sinais de nefropatia parenquimatosa crônica (achado descritivo)"
     replace: |-
       Rim tópico, com dimensões reduzidas e contornos lobulados.
-      Observa-se afilamento do parenquima renal e aumento de sua ecogenicidade, resultando em perda da diferenciação parenquimo-sinusal.
+      Observa-se afilamento do parênquima renal e aumento de sua ecogenicidade, resultando em perda da diferenciação parenquimo-sinusal.
     word: true
 
   - trigger: "rv1c"
@@ -622,7 +622,7 @@ matches:
     label: "Rim: Sinais de nefropatia parenquimatosa em rins de dimensões preservadas (achado descritivo)"
     replace: |-
       Rim tópico, com dimensões preservadas e contornos regulares.
-      Observa-se afilamento do parenquima renal e aumento de sua ecogenicidade
+      Observa-se afilamento do parênquima renal e aumento de sua ecogenicidade.
     word: true
 
   - trigger: "rv2c"
@@ -687,7 +687,7 @@ matches:
 
   - trigger: "rv10"
     label: "Rim: Nódulo hiperecogênico no rim direito/ esquerdo (achado descritivo)"
-    replace: Imagem nodular hiperecogênica, de limites bem/ parcialmente definidos e cortornos regulares, com/ sem fluxo ao estudo Doppler, apresentando halo periférico, localizada no terço superior/ médio/ inferior do rim, medindo _ cm
+    replace: Imagem nodular hiperecogênica, de limites bem/ parcialmente definidos e contornos regulares, com/ sem fluxo ao estudo Doppler, apresentando halo periférico, localizada no terço superior/ médio/ inferior do rim, medindo _ cm.
     word: true
 
   - trigger: "rv10c"
@@ -699,8 +699,8 @@ matches:
     label: "Rim: Sinais de doença renal policística (forma dominante) (achado descritivo)"
     replace: |-
       Rim de dimensões aumentadas, destacando-se incontáveis imagens císticas, medindo até _ cm.
-      Parenquima renal hiperecogênico e com redução de sua espessura.
-      (Destaca-se imagem cística de conteúdo espeço no terço superior/médio/inferior do rim direito/esquerdo, medindo _ cm, que dentro do contexto clínico pode corresponder a cisto com conteúdo hemático).
+      Parênquima renal hiperecogênico e com redução de sua espessura.
+      (Destaca-se imagem cística de conteúdo espesso no terço superior/médio/inferior do rim direito/esquerdo, medindo _ cm, que dentro do contexto clínico pode corresponder a cisto com conteúdo hemático).
       Como achado adicional, nota-se múltiplos cistos hepáticos simples.
     word: true
 
@@ -723,7 +723,7 @@ matches:
 
   - trigger: "rv13"
     label: "Rim: Sinais de nefrocalcinose medular à direita/ esquerda/ bilateralmente (achado descritivo)"
-    replace: Destaca-se aumento da ecogenicidade das piramides renais, sem efeito sonoro sobre o feixe acústico posterior.
+    replace: Destaca-se aumento da ecogenicidade das pirâmides renais, sem efeito sonoro sobre o feixe acústico posterior.
     word: true
 
   - trigger: "rv13c"
@@ -764,7 +764,7 @@ matches:
       Exame ultrassonográfico realizado com equipamento endocavitário multifrequencial, por via transvaginal.
 
       Descrição:
-      Útero em ante versoflexão (AVF), medindo _ cm nos seus maiores eixos.
+      Útero em anteversoflexão (AVF), medindo _ cm nos seus maiores eixos.
       Volume uterino de _ cm³.
       Formato uterino piriforme e contornos regulares.
       Ecotextura miometrial de aspecto homogêneo.
@@ -846,7 +846,7 @@ matches:
       Grau 0 até à 18ª semana, Placenta homogênea e sem calcificação. 
       Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
       Grau 2 entre a 30ª e 38ª semana, Placenta com calcificações na placa basal.
-      Grau 3 por volta da 39ª semana,Placenta com calcificação da placa basal à coriônica.
+      Grau 3 por volta da 39ª semana, Placenta com calcificação da placa basal à coriônica.
     word: true
 
   - trigger: "usobd"
@@ -898,7 +898,7 @@ matches:
       Grau 0 até à 18ª semana, Placenta homogênea e sem calcificação. 
       Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
       Grau 2 entre a 30ª e 38ª semana, Placenta com calcificações na placa basal.
-      Grau 3 por volta da 39ª semana,Placenta com calcificação da placa basal à coriônica.
+      Grau 3 por volta da 39ª semana, Placenta com calcificação da placa basal à coriônica.
     word: true
 
   - trigger: "uspelvica"
@@ -936,7 +936,7 @@ matches:
 
   - trigger: "an2"
     label: "Anexos/região anexial: Massa anexial à direita/esquerda (achado descritivo)"
-    replace: "Nota-se na região anexial direita/esquerda, imagem nodular/massa heterogênea, de limites parcialmente em topografia extra-ovariana, com/sem fluxo vascular ao estudo Doppler colorido, medindo cerca de _ cm. "
+    replace: "Nota-se na região anexial direita/esquerda, imagem nodular/massa heterogênea, de limites parcialmente definidos, em topografia extra-ovariana, com/sem fluxo vascular ao estudo Doppler colorido, medindo cerca de _ cm."
     word: true
 
   - trigger: "an2c"
@@ -946,7 +946,7 @@ matches:
 
   - trigger: "an3"
     label: "Anexos/região anexial: Imagem na região anexial esquerda compatível com hidrossalpinge (achado descritivo)"
-    replace: Imagem cística de apecto serpiginoso na região anexial direita/esquerda, com conteúdo anecoico/hipoecogênico, medindo _ cm
+    replace: Imagem cística de aspecto serpiginoso na região anexial direita/esquerda, com conteúdo anecoico/hipoecogênico, medindo _ cm.
     word: true
 
   - trigger: "an3c"
@@ -981,7 +981,7 @@ matches:
 
   - trigger: "mm1c"
     label: "Miométrio (mioma): Nódulo miometrial mais comumente associado a leiomioma"
-    replace: Nódulo miometrial mais comumente associado a leiomioma
+    replace: Nódulo miometrial mais comumente associado a leiomioma.
     word: true
 
   - trigger: "mm2"
@@ -1009,7 +1009,7 @@ matches:
 
   - trigger: "ov1"
     label: "Ovário: Cisto de conteúdo espesso no ovário direito/esquerdo (achado descritivo)"
-    replace: destacando-se imagem cística de paredes finas e regulares, com conteúdo espesso no seu interior, sem fluxo vascular interno no seu interior.
+    replace: Destacando-se imagem cística de paredes finas e regulares, com conteúdo espesso no seu interior, sem fluxo vascular interno no seu interior.
     word: true
 
   - trigger: "ov1c"
@@ -1022,7 +1022,7 @@ matches:
 
   - trigger: "ov2"
     label: "Ovário: Cisto simples no ovário direito/esquerdo (achado descritivo)"
-    replace: destacando-se imagem cística no seu interior, de paredes finas e regulares e conteúdo anecoico, medindo _ cm.
+    replace: Destacando-se imagem cística no seu interior, de paredes finas e regulares e conteúdo anecoico, medindo _ cm.
     word: true
 
   - trigger: "ov2c"
@@ -1032,7 +1032,7 @@ matches:
 
   - trigger: "ov3"
     label: "Ovário: Ovários de aspecto micropolicístico (achado descritivo)"
-    replace: ovários com dimensões aumentadas, notando-se aumento de sua ecogenicidade central e múltiplas imagens císticas periféricas menores de 0,8 cm.
+    replace: Ovários com dimensões aumentadas, notando-se aumento de sua ecogenicidade central e múltiplas imagens císticas periféricas menores de 0,8 cm.
     word: true
 
   - trigger: "ov3c"
@@ -1057,7 +1057,7 @@ matches:
 
   - trigger: "ov5c"
     label: "Ovário: Cisto septado no ovário direito/esquerdo"
-    replace: Cisto septado no ovário direito/esquerdo
+    replace: Cisto septado no ovário direito/esquerdo.
     word: true
 
   - trigger: "ov6"
@@ -1067,7 +1067,7 @@ matches:
 
   - trigger: "ov6c"
     label: "Ovário: Imagem cística complexa no ovário direito/esquerdo"
-    replace: Imagem cística complexa no ovário direito/esquerdo
+    replace: Imagem cística complexa no ovário direito/esquerdo.
     word: true
 
   - trigger: "ov7"
@@ -1081,55 +1081,55 @@ matches:
     word: true
 
   - trigger: "ov8"
-    label: "Ovário: Cisto ovariano com as características a cima descritas, mais comumente associado a cisto... (achado descritivo)"
+    label: "Ovário: Cisto ovariano com as características acima descritas, mais comumente associado a cisto... (achado descritivo)"
     replace: Destaca-se imagem cística de paredes finas e regulares, com finos septos de permeio e conteúdo espesso heterogêneo no seu interior, sem fluxo vascular interno no seu interior.
     word: true
 
   - trigger: "ov8c"
-    label: "Ovário: Cisto ovariano com as características a cima descritas, mais comumente associado a cisto..."
-    replace: Cisto ovariano com as características a cima descritas, mais comumente associado a cisto hemorrágico.
+    label: "Ovário: Cisto ovariano com as características acima descritas, mais comumente associado a cisto..."
+    replace: Cisto ovariano com as características acima descritas, mais comumente associado a cisto hemorrágico.
     word: true
 
   - trigger: "bicorno"
-    label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno) (achado descritivo)"
-    replace: Observa-se divisão do eco endometrial na porção fúndica do útero, achado comumente relacionado a alteração mulleriana (provável útero septado ou bicorno).
+    label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno) (achado descritivo)"
+    replace: Observa-se divisão do eco endometrial na porção fúndica do útero, achado comumente relacionado à alteração Mülleriana (provável útero septado ou bicorno).
     word: true
 
   - trigger: "bicornoc"
-    label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno)"
+    label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno)"
     replace: |-
-      Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
+      Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
     word: true
 
   - trigger: "ut7"
-    label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno) (achado descritivo)"
-    replace: Observa-se divisão do eco endometrial na porção fúndica do útero, achado comumente relacionado a alteração mulleriana (provável útero septado ou bicorno).
+    label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno) (achado descritivo)"
+    replace: Observa-se divisão do eco endometrial na porção fúndica do útero, achado comumente relacionado à alteração Mülleriana (provável útero septado ou bicorno).
     word: true
 
   - trigger: "ut7c"
-    label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno)"
+    label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno)"
     replace: |-
-      Sinais ecográficos sugestivos de alteração mulleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
+      Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
     word: true
 
   - trigger: "utbicorno"
     label: "Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo)"
-    replace: Eco endometrial apresentando-se aparentente bipartido em suas porções corporais/fúndicas, com septação entre eles de ecogenicidade semelhante ao miométrio adjacente.
+    replace: Eco endometrial apresentando-se aparentemente bipartido em suas porções corporais/fúndicas, com septação entre elas de ecogenicidade semelhante ao miométrio adjacente.
     word: true
 
   - trigger: "utbicornoc"
     label: "Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração..."
-    replace: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração Mülleriana.
+    replace: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado à alteração Mülleriana.
     word: true
 
   - trigger: "ut8"
     label: "Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo)"
-    replace: Eco endometrial apresentando-se aparentente bipartido em suas porções corporais/fúndicas, com septação entre eles de ecogenicidade semelhante ao miométrio adjacente.
+    replace: Eco endometrial apresentando-se aparentemente bipartido em suas porções corporais/fúndicas, com septação entre elas de ecogenicidade semelhante ao miométrio adjacente.
     word: true
 
   - trigger: "ut8c"
     label: "Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração..."
-    replace: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração Mülleriana.
+    replace: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado à alteração Mülleriana.
     word: true
 
   - trigger: "ovdnao"
@@ -1152,12 +1152,12 @@ matches:
 
   - trigger: "ovbnao"
     label: "Ovário não caracterizado: Ovários não caracterizados no presente estudo (os ovários podem não ser caracterizados em..."
-    replace: Ovários não caracterizados no presente estudo (os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais, modificações próprias do período climatério ou status pós-cirúrgico).
+    replace: Ovários não caracterizados no presente estudo (os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais, modificações próprias do período climatérico ou status pós-cirúrgico).
     word: true
 
   - trigger: "diu3"
     label: "DIU: DIU deslocado (achado descritivo)"
-    replace: "Cavidade uterina virtual, apresentando em seu interior dispositivo intra-uterino (DIU), distando * cm da cavidade fúndica (VR <0,5 cm) e * cm da serosa fúndica (VR <2,0 cm). "
+    replace: "Cavidade uterina virtual, apresentando em seu interior dispositivo intra-uterino (DIU), distando * cm da cavidade fúndica (VR <0,5 cm) e * cm da serosa fúndica (VR <2,0 cm)."
     word: true
 
   - trigger: "diu3c"
@@ -1267,7 +1267,7 @@ matches:
 
   - trigger: "ut2"
     label: "Útero/endométrio: Nódulo endometrial que pode estar associado a pólipo endometrial (achado descritivo)"
-    replace: Imagem nodular ecogenica no terço superior/ médio/ inferior do eco endometrial, com pedículo vascular evidente ao Doppler, medindo _ cm.
+    replace: Imagem nodular ecogênica no terço superior/ médio/ inferior do eco endometrial, com pedículo vascular evidente ao Doppler, medindo _ cm.
     word: true
 
   - trigger: "ut2c"
@@ -1276,13 +1276,13 @@ matches:
     word: true
 
   - trigger: "ut3"
-    label: "Útero/endométrio: Alteração ecotextural miometrial que pode estar associado a adenomiose (achado descritivo)"
-    replace: Ecotextura miometrial de aspecto heterogêneo devido a algumas imagens císticas, marcadamenta na sua porção submucosa, medindo até _ cm.
+    label: "Útero/endométrio: Alteração ecotextural miometrial que pode estar associada a adenomiose (achado descritivo)"
+    replace: Ecotextura miometrial de aspecto heterogêneo devido a algumas imagens císticas, marcadamente na sua porção submucosa, medindo até _ cm.
     word: true
 
   - trigger: "ut3c"
-    label: "Útero/endométrio: Alteração ecotextural miometrial que pode estar associado a adenomiose"
-    replace: Alteração ecotextural miometrial que pode estar associado a adenomiose.
+    label: "Útero/endométrio: Alteração ecotextural miometrial que pode estar associada à adenomiose"
+    replace: Alteração ecotextural miometrial que pode estar associada à adenomiose.
     word: true
 
   - trigger: "ut4"
@@ -1292,19 +1292,19 @@ matches:
 
   - trigger: "ut5"
     label: "Útero/endométrio: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo)"
-    replace: Eco endometrial apresentando aparentente bipartido em suas porções corporais/ fúndicas, com septação entre eles de ecogenicidade semelhante ao miométrio adjacente.
+    replace: Eco endometrial apresentando aparentemente bipartido em suas porções corporais/ fúndicas, com septação entre elas de ecogenicidade semelhante ao miométrio adjacente.
     word: true
 
   - trigger: "ut5c"
     label: "Útero/endométrio: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração..."
-    replace: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração Mülleriana.
+    replace: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado à alteração Mülleriana.
     word: true
 
   - trigger: "ut6"
     label: "Útero/endométrio: Exame realizado em paciente com antecedente de histerectomia parcial"
     replace: |-
       Útero parcialmente caracterizado (sinais de histerectomia parcial).
-      Remanescente uterino com forma, contornos e ecotextura normais,medindo _ cm e com volume de _ cm³.
+      Remanescente uterino com forma, contornos e ecotextura normais, medindo _ cm e com volume de _ cm³.
     word: true
 
   - trigger: "ut6c"
@@ -1319,7 +1319,7 @@ matches:
 
   - trigger: "ut0"
     label: "Útero/endométrio: Sinais de histerectomia total (achado descritivo)"
-    replace: "Útero não caracterizado (status pós-operatório). "
+    replace: "Útero não caracterizado (status pós-operatório)."
     word: true
 
   - trigger: "ut0c"
@@ -1329,7 +1329,7 @@ matches:
 
   - trigger: "usnaboth"
     label: "Colo uterino (cisto de Naboth): Cisto de Naboth (achado descritivo)"
-    replace: Colo uterino com ecotextura heterogênea, apresentando cisto de retenção, de contornos regulares e conteúdo anecoico (líquido) / hipoecóico (líquido espesso), medindo _ cm.
+    replace: Colo uterino com ecotextura heterogênea, apresentando cisto de retenção, de contornos regulares e conteúdo anecoico (líquido) / hipoecoico (líquido espesso), medindo _ cm.
     word: true
 
   - trigger: "usnabothc"
@@ -1339,7 +1339,7 @@ matches:
 
   - trigger: "ut13"
     label: "Colo uterino (cisto de Naboth): Cisto de Naboth (achado descritivo)"
-    replace: Colo uterino com ecotextura heterogênea, apresentando cisto de retenção, de contornos regulares e conteúdo anecoico (líquido) / hipoecóico (líquido espesso), medindo _ cm.
+    replace: Colo uterino com ecotextura heterogênea, apresentando cisto de retenção, de contornos regulares e conteúdo anecoico (líquido) / hipoecoico (líquido espesso), medindo _ cm.
     word: true
 
   - trigger: "ut13c"
@@ -2036,7 +2036,7 @@ matches:
       ULTRASSONOGRAFIA DE BOLSA ESCROTAL
 
       Descrição:
-      Exame ultra-sonográfico realizado com transdutor linear multifrequencial, sobre a região das bolsas testiculares.
+      Exame ultrassonográfico realizado com transdutor linear multifrequencial, sobre a região das bolsas testiculares.
 
       Hemibolsa direita:
       Pele e tecido celular subcutâneo de espessura normal.
@@ -2066,7 +2066,7 @@ matches:
       ULTRASSONOGRAFIA DE BOLSA ESCROTAL COM DOPPLER
 
       Descrição:
-      Exame ultra-sonográfico realizado com transdutor linear multifrequencial e com estudo Doppler, sobre a região das bolsas testiculares.
+      Exame ultrassonográfico realizado com transdutor linear multifrequencial e com estudo Doppler, sobre a região das bolsas testiculares.
 
       Hemibolsa direita:
       Pele e tecido celular subcutâneo de espessura normal.
@@ -2098,14 +2098,14 @@ matches:
     label: "Testículo ectópico: Testículo _ não visualizado na bolsa escrotal ipsilateral"
     replace: |-
       Testículo _ não visualizado na bolsa escrotal ipsilateral.
-      Observa-se em região inguinal _, imagem ovalada, de contornos regulares, apresentando textura sólida e heterogênea, predominantemente hipoecogênica, medindo _ cm, com volume de _ cm³, podendo corresponder à testículo ectópico.
+      Observa-se em região inguinal _, imagem ovalada, de contornos regulares, apresentando textura sólida e heterogênea, predominantemente hipoecogênica, medindo _ cm, com volume de _ cm³, podendo corresponder a testículo ectópico.
     word: true
 
   - trigger: "te7"
     label: "Testículo ectópico: Testículo _ não visualizado na bolsa escrotal ipsilateral"
     replace: |-
       Testículo _ não visualizado na bolsa escrotal ipsilateral.
-      Observa-se em região inguinal _, imagem ovalada, de contornos regulares, apresentando textura sólida e heterogênea, predominantemente hipoecogênica, medindo _ cm, com volume de _ cm³, podendo corresponder à testículo ectópico.
+      Observa-se em região inguinal _, imagem ovalada, de contornos regulares, apresentando textura sólida e heterogênea, predominantemente hipoecogênica, medindo _ cm, com volume de _ cm³, podendo corresponder a testículo ectópico.
     word: true
 
   - trigger: "te1"
@@ -2356,7 +2356,7 @@ matches:
       Istmo: mm, com volume de cm³.
       Volume glandular total: cm³.
       (normal= 6,0 a 15,0 cm³)
-      (normal= 0,40 a 1,40 cm³) - recém nascido, aumentando em cerca de 1,0 a 1,3 cm³ para cada 10kg.
+      (normal= 0,40 a 1,40 cm³) - recém-nascido, aumentando em cerca de 1,0 a 1,3 cm³ para cada 10kg.
 
       Não há evidências de adenomegalias, ou linfonodos atípicos nas cadeias cervicais.
 
@@ -2541,7 +2541,7 @@ matches:
       DUPLEX SCAN VENOSO SUPERFICIAL E PROFUNDO DO MEMBRO INFERIOR DIREITO
 
       Técnica:
-      Realizado avaliação do sistema venoso profundo e superficial do membro inferior direito, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado à manobras dinâmicas.
+      Realizado avaliação do sistema venoso profundo e superficial do membro inferior direito, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado a manobras dinâmicas.
 
       Descrição:
       Foram avaliadas as veias femoral comum, femoral, femoral profunda, poplítea, tibiais anteriores e posteriores e fibulares que se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
@@ -2557,7 +2557,7 @@ matches:
       DUPLEX SCAN VENOSO SUPERFICIAL E PROFUNDO DO MEMBRO INFERIOR ESQUERDO
 
       Técnica:
-      Realizado avaliação do sistema venoso profundo e superficial do membro inferior esquerdo, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado à manobras dinâmicas.
+      Realizado avaliação do sistema venoso profundo e superficial do membro inferior esquerdo, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado a manobras dinâmicas.
 
       Descrição:
       Foram avaliadas as veias femoral comum, femoral, femoral profunda, poplítea, tibiais anteriores e posteriores e fibulares que se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
@@ -2573,7 +2573,7 @@ matches:
       DUPLEX SCAN VENOSO DO MEMBRO SUPERIOR DIREITO
 
       Técnica:
-      Realizado avaliação do sistema venoso profundo e superficial do membro superior direito, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado à manobras dinâmicas.
+      Realizado avaliação do sistema venoso profundo e superficial do membro superior direito, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado a manobras dinâmicas.
 
       Descrição:
       Veias subclávia, axilar, braquial, radiais, ulnares, cefálica e basílica compressíveis em toda sua extensão, sem trombos no seu interior.
@@ -2588,7 +2588,7 @@ matches:
       DUPLEX SCAN VENOSO DO MEMBRO SUPERIOR ESQUERDO
 
       Técnica:
-      Realizado avaliação do sistema venoso profundo e superficial do membro superior esquerdo, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado à manobras dinâmicas.
+      Realizado avaliação do sistema venoso profundo e superficial do membro superior esquerdo, com transdutor linear multifrequencial, através do modo B, Doppler color e espectral, associado a manobras dinâmicas.
 
       Descrição:
       Veias subclávia, axilar, braquial, radiais, ulnares, cefálica e basílica compressíveis em toda sua extensão, sem trombos no seu interior.
@@ -2749,17 +2749,17 @@ matches:
 
   - trigger: "gordoo"
     label: "Frase auxiliar (atenuação por panículo adiposo): Estudo de avaliação limitada devido à atenuação do feixe acústico em planos superficiais"
-    replace: Estudo de avaliação limitada devido à atenuação do feixe acústico em planos superficiais
+    replace: Estudo de avaliação limitada devido à atenuação do feixe acústico em planos superficiais.
     word: true
 
   - trigger: "papv"
-    label: "Frase auxiliar (pâncreas/aorta): Pâncreas e aorta abdominal parcialmente visualizados devido interposição gasosa de alças..."
-    replace: Pâncreas e aorta abdominal parcialmente visualizados devido interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
+    label: "Frase auxiliar (pâncreas/aorta): Pâncreas e aorta abdominal parcialmente visualizados devido à interposição gasosa de alças..."
+    replace: Pâncreas e aorta abdominal parcialmente visualizados devido à interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
     word: true
 
   - trigger: "limitgas"
-    label: "Frase auxiliar (limitação técnica): Estudo de avaliação prejudicada devido interposição gasosa de alças intestinais"
-    replace: "Estudo de avaliação prejudicada devido interposição gasosa de alças intestinais. "
+    label: "Frase auxiliar (limitação técnica): Estudo de avaliação prejudicada devido à interposição gasosa de alças intestinais"
+    replace: "Estudo de avaliação prejudicada devido à interposição gasosa de alças intestinais."
     word: true
 
   - trigger: "pv"
