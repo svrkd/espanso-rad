@@ -9,7 +9,7 @@ matches:
     replace: |
       SELA TÚRCICA
 
-      Clinóides anterior, posterior, dorso selar e assoalho  da sela túrcica de morfologia normais.
+      Clinoides anterior, posterior, dorso selar e assoalho da sela túrcica de morfologia normais.
       Ausência de imagens radiológicas sugestivas de calcificações patológicas.
 
       OPINIÃO:
@@ -360,7 +360,7 @@ matches:
 
   - trigger: "invagivert"
     label: "Invaginação vertebrobasilar (linha de Chamberlain)"
-    replace: "Ápice do processo odontóide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação vertebrobasilar."
+    replace: "Ápice do processo odontoide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação vertebrobasilar."
     word: true
 
   - trigger: "mretrolis"
@@ -453,7 +453,7 @@ matches:
   - trigger: "avc"
     label: "Radiografia de tórax — avaliação limitada"
     replace: |
-      Exame de avaliação limitada devido a técnica empregada.
+      Exame de avaliação limitada devido à técnica empregada.
       Textura e morfologia óssea preservada.
       Discreta proeminência hilar e da trama vascular.
       Pulmões hipoexpandidos.
@@ -473,7 +473,7 @@ matches:
 
   - trigger: "carlimit"
     label: "Silhueta cardíaca — avaliação limitada"
-    replace: Silhueta cardíaca de avaliação limitada devido a técnica empregada.
+    replace: Silhueta cardíaca de avaliação limitada devido à técnica empregada.
     word: true
 
   - trigger: "carsup"
@@ -523,7 +523,7 @@ matches:
 
   - trigger: "dextro"
     label: "Dextrocardia"
-    replace: "Imagem cardíaca com ápice voltado para a direita, ocupando predominantemente o hemitórax direito, achado sugestivo de dextrocardia"
+    replace: "Imagem cardíaca com ápice voltado para a direita, ocupando predominantemente o hemitórax direito, achado sugestivo de dextrocardia."
     word: true
 
   - trigger: "dpoc"
@@ -592,14 +592,14 @@ matches:
 
   - trigger: "jantou"
     label: "Opacidades sugestivas de aspiração"
-    replace: "Opacidades consolidativas e alveolares esparsas pelo parênquima pulmonar, notadamente nas bases, sobretudo á esquerda. Considerar a possibilidade de etiologia aspirativa."
+    replace: "Opacidades consolidativas e alveolares esparsas pelo parênquima pulmonar, notadamente nas bases, sobretudo à esquerda. Considerar a possibilidade de etiologia aspirativa."
     word: true
 
   - trigger: "melao"
     label: "Radiografia de tórax pós-operatório — múltiplos achados"
     replace: |
       Fios metálicos de esternorrafia.
-      Catéter venoso central à direita.
+      Cateter venoso central à direita.
       Alterações degenerativas do arcabouço ósseo.
       Hilos e trama vascular pulmonar proeminentes.
       Redução da transparência pulmonar nas bases.
@@ -652,7 +652,7 @@ matches:
 
   - trigger: "pneumo"
     label: "Pneumotórax hipertensivo à esquerda"
-    replace: "Acentuado pneumotórax à esquerda promovendo atelectasia do parenquima pulmonar adjacente, bem como desvio das estruturas mediastinais para o lado contralateral."
+    replace: "Acentuado pneumotórax à esquerda promovendo atelectasia do parênquima pulmonar adjacente, bem como desvio das estruturas mediastinais para o lado contralateral."
     word: true
 
   - trigger: "portocat"
@@ -711,7 +711,7 @@ matches:
   - trigger: "rxlimit"
     label: "Tórax de avaliação limitada (técnica)"
     replace: |
-      Exame de avaliação limitada devido a técnica empregada.
+      Exame de avaliação limitada devido à técnica empregada.
 
       Alterações degenerativas do arcabouço ósseo.
       Hilos e trama vascular pulmonar normais.
@@ -782,7 +782,7 @@ matches:
 
   - trigger: "arcoss"
     label: "Arcos costais íntegros"
-    replace: Arcos costais visualizados integros.
+    replace: Arcos costais visualizados íntegros.
     word: true
 
   - trigger: "atrama"
@@ -812,7 +812,7 @@ matches:
 
   - trigger: "ointersti"
     label: "Opacidades intersticiais esparsas"
-    replace: Opacidades interticiais esparsas pelos campos pulmonares.
+    replace: Opacidades intersticiais esparsas pelos campos pulmonares.
     word: true
 
   - trigger: "ointerstia"
@@ -946,7 +946,7 @@ matches:
 
   - trigger: "chico"
     label: "Sinais de obstrução intestinal"
-    replace: "Distensão de alças intestinais medianizadas, associada à níveis hidroaéreos e visualização de válvulas coniventes sugerindo obstrução, melhor avaliada por estudo tomográfico."
+    replace: "Distensão de alças intestinais medianizadas, associada a níveis hidroaéreos e visualização de válvulas coniventes sugerindo obstrução, melhor avaliada por estudo tomográfico."
     word: true
 
   - trigger: "chilaiditi"
@@ -1093,7 +1093,7 @@ matches:
 
       Bulbo e demais porções do arco duodenal e jejuno proximal sem alterações.
 
-      OPINIAO:
+      OPINIÃO:
 
       Esôfago, estômago e duodeno radiologicamente normais.
     word: true
@@ -1115,10 +1115,9 @@ matches:
       RADIOGRAFIA CLISTER OPACO COM DUPLO CONTRASTE
 
       Após introdução do meio de contraste baritado diluído e insuflação com ar através de sonda retal, observou-se:
-      Livre progressão do meio de contraste através dos diversos segmentos cólicos sem obstáculos orgânicos ou
-      funcionais.
+      Livre progressão do meio de contraste através dos diversos segmentos cólicos sem obstáculos orgânicos ou funcionais.
       Cólons apresentando calibre, contornos, haustrações e mucosa normais.
-      Refluxo do meio de contraste para o íleo terminal de aspecto normal
+      Refluxo do meio de contraste para o íleo terminal de aspecto normal.
     word: true
 
   - trigger: "histero"
@@ -1132,7 +1131,7 @@ matches:
       Trompas uterinas filiformes e permeáveis ao fluxo de contraste.
       Prova de Cotte positiva.
 
-      OPINIAO:
+      OPINIÃO:
       Histerossalpingograma normal.
     word: true
 
@@ -1142,10 +1141,10 @@ matches:
       TRÂNSITO INTESTINAL
 
       DESCRIÇÃO:
-      A radiografia simples realizada previamente não  evidencia alterações radiológicas dignas de nota.
+      A radiografia simples realizada previamente não evidencia alterações radiológicas dignas de nota.
       O trânsito delgado mostra as alças jejunais e ileais com morfologia, topografia, calibre e relevo mucoso conservados.
       O trânsito se processa em tempos fisiológicos.
-      Ileo terminal e ceco sem anormalidade.
+      Íleo terminal e ceco sem anormalidade.
 
       OPINIÃO:
       Trânsito intestinal normal.
@@ -1178,7 +1177,7 @@ matches:
       Árvores pielocaliciais e ureteres íntegros sem obstáculos ao fluxo de contraste.
       Bexiga com capacidade normal, sem defeitos de epleção ou sinais de compressão extrínseca, tendo contornos regulares e forma normal.
 
-      OPINIAO:
+      OPINIÃO:
       Urograma normal.
     word: true
 
@@ -1309,7 +1308,7 @@ matches:
 
   - trigger: "sh2"
     label: "Fratura Salter-Harris II (falange proximal)"
-    replace: Fratura cominutiva na metáfise proximal da falanage proximal do 5º quirodáctilo sem acometer a fise de crescimento (Salter-Harris tipo II).
+    replace: Fratura cominutiva na metáfise proximal da falange proximal do 5º quirodáctilo sem acometer a fise de crescimento (Salter-Harris tipo II).
     word: true
 
   - trigger: "smith"
@@ -1328,7 +1327,7 @@ matches:
 
   - trigger: "tampa"
     label: "Fratura avulsiva do processo estiloide da ulna"
-    replace: Fratura avulsiva do processo estilóide da ulna.
+    replace: Fratura avulsiva do processo estiloide da ulna.
     word: true
 
   - trigger: "adac"
@@ -1494,7 +1493,7 @@ matches:
 
   - trigger: "esca"
     label: "Discrepância de comprimento dos membros inferiores"
-    replace: O membro inferior direito/esquerdo é XX cm menor que o membro inferior contralateral (encurtamento à custa das diferenças femorais/tibiais.)
+    replace: O membro inferior direito/esquerdo é XX cm menor que o membro inferior contralateral (encurtamento à custa das diferenças femorais/tibiais).
     word: true
 
   - trigger: "esporaof"
@@ -1536,7 +1535,7 @@ matches:
 
   - trigger: "hastei"
     label: "Haste intramedular em tíbia"
-    replace: "Haste intramedular fixada em tibia, sem sinais de soltura."
+    replace: "Haste intramedular fixada em tíbia, sem sinais de soltura."
     word: true
 
   - trigger: "iesporaof"
@@ -1589,15 +1588,14 @@ matches:
   - trigger: "lca"
     label: "Reconstrução do ligamento cruzado anterior"
     replace: |
-      Endobutton na região metafisária distal do fêmur e parafuso de interferência na região metafisária proximal da obia, para estabilização de reconstrução do ligamento cruzado
-      anterior.
+      Endobutton na região metafisária distal do fêmur e parafuso de interferência na região metafisária proximal da tíbia, para estabilização de reconstrução do ligamento cruzado anterior.
     word: true
 
   - trigger: "luxoupatela"
     label: "Luxação lateral da patela"
     replace: |
       Textura óssea preservada.
-      Traços de fratura na faceta medial da patela e na faceta lateral da tróclea femoral, configurando padrão de impacto típico de evento de deslocamento lateral da patela
+      Traços de fratura na faceta medial da patela e na faceta lateral da tróclea femoral, configurando padrão de impacto típico de evento de deslocamento lateral da patela.
       Espaços articulares preservados.
       Patela alta de acordo com índice de Caton-Deschamp.
       Leve báscula lateral da patela.
@@ -1652,7 +1650,7 @@ matches:
 
   - trigger: "peplano"
     label: "Pé plano"
-    replace: "Sinais de pé plano; ângulo do pitch do calcâneo: º (VR: 20º-30º), ângulo de Meary: º (VR: 0º) e ângulo de Costa Bertani: º (VR: 120º a 130º)"
+    replace: "Sinais de pé plano; ângulo do pitch do calcâneo: º (VR: 20º-30º), ângulo de Meary: º (VR: 0º) e ângulo de Costa Bertani: º (VR: 120º a 130º)."
     word: true
 
   - trigger: "pezin"
@@ -1709,7 +1707,7 @@ matches:
 
   - trigger: "sesamoidebi"
     label: "Sesamoide bipartido do 1º metatarso"
-    replace: Sesamóide medial bipartido na cabeça do 1º metatarso.
+    replace: Sesamoide medial bipartido na cabeça do 1º metatarso.
     word: true
 
   - trigger: "sh1"
@@ -1739,7 +1737,7 @@ matches:
 
   - trigger: "translacao"
     label: "Instabilidade por insuficiência do ligamento cruzado anterior"
-    replace: "Translação anterior da tibia, sugerindo instabilidade secundária a insuficiência do ligamento cruzado anterior."
+    replace: "Translação anterior da tíbia, sugerindo instabilidade secundária a insuficiência do ligamento cruzado anterior."
     word: true
 
   - trigger: "transtro"
@@ -1821,7 +1819,7 @@ matches:
 
   - trigger: "quadrilre"
     label: "Redução do espaço articular do quadril"
-    replace: Redução do espaço articular do quadril associado a  osteofitose e esclerose da borda acetabular.
+    replace: Redução do espaço articular do quadril associado a osteofitose e esclerose da borda acetabular.
     word: true
 
   - trigger: "reduft"
@@ -1860,7 +1858,7 @@ matches:
 
   - trigger: "cmarcap"
     label: "Marcapasso cardíaco (avaliação limitada)"
-    replace: "Radiografia realizada para visualização de marcapasso cardíaco em hemitórax direito, prejudicando estudo detalhado do tórax devido à técnica empregada"
+    replace: "Radiografia realizada para visualização de marcapasso cardíaco em hemitórax direito, prejudicando estudo detalhado do tórax devido à técnica empregada."
     word: true
 
   - trigger: "picc"
@@ -1877,7 +1875,7 @@ matches:
       Espaços articulares dos quadris e articulações sacro-ilíacas preservados.
       Ausência de calcificações de partes moles periarticulares.
 
-      (204030137) RX - RADIOGRAFIA DE TORAX (AP)
+      (204030137) RX - RADIOGRAFIA DE TÓRAX (AP)
 
       Textura e morfologia óssea preservada.
       Hilos e trama vascular pulmonar normais.
@@ -1890,10 +1888,10 @@ matches:
     label: "Trânsito contrastado — cirurgia bariátrica (Y de Roux)"
     replace: |
       A radiografia simples realizada previamente não evidencia alterações radiológicas dignas de nota.
-      Alterações anatômicas sugestivas de cirúrgia gastrointestinal, caracterizadas por pequeno reservatório gástrico proximal comunicando-se com alça jejunal, formando anastomose gastrojejunal.
+      Alterações anatômicas sugestivas de cirurgia gastrointestinal, caracterizadas por pequeno reservatório gástrico proximal comunicando-se com alça jejunal, formando anastomose gastrojejunal.
       O contraste hidrossolúvel preenche adequadamente o reservatório gástrico e progride pela alça eferente sem evidência de extravasamento ou obstrução mecânica.
       O trânsito se processa em tempos fisiológicos.
-      Ileo terminal e ceco sem anormalidade.
+      Íleo terminal e ceco sem anormalidade.
     word: true
 
   - trigger: "rxbacia3"
@@ -1921,17 +1919,17 @@ matches:
 
   - trigger: "rxcvc1"
     label: "Cateter venoso central à direita (avaliação limitada)"
-    replace: "Radiografia realizada para visualização de catéter venoso central à direita, prejudicando estudo detalhado do tórax devido à técnica empregada."
+    replace: "Radiografia realizada para visualização de cateter venoso central à direita, prejudicando estudo detalhado do tórax devido à técnica empregada."
     word: true
 
   - trigger: "rxcvc2"
     label: "Cateter venoso central à esquerda (avaliação limitada)"
-    replace: "Radiografia realizada para visualização de catéter venoso central à esquerda, prejudicando estudo detalhado do tórax devido à técnica empregada."
+    replace: "Radiografia realizada para visualização de cateter venoso central à esquerda, prejudicando estudo detalhado do tórax devido à técnica empregada."
     word: true
 
   - trigger: "rxcvc3"
     label: "Cateter venoso central (avaliação limitada)"
-    replace: "Radiografia realizada para visualização de catéter venoso central, prejudicando estudo detalhado do tórax devido à técnica empregada."
+    replace: "Radiografia realizada para visualização de cateter venoso central, prejudicando estudo detalhado do tórax devido à técnica empregada."
     word: true
 
   - trigger: "rxsifilis"
@@ -1939,13 +1937,13 @@ matches:
     replace: |
       (204040019) RX - RADIOGRAFIA DE ANTEBRAÇO DIREITO
 
-      Transparência em metáfises proximais e distais do radio e ulna. Sugere-se controle.
+      Transparência em metáfises proximais e distais do rádio e ulna. Sugere-se controle.
       Espaços articulares preservados.
       Ausência de calcificações de partes moles.
 
       (204040019) RX - RADIOGRAFIA DE ANTEBRAÇO ESQUERDO
 
-      Transparência em metáfises proximais e distais do radio e ulna. Sugere-se controle.
+      Transparência em metáfises proximais e distais do rádio e ulna. Sugere-se controle.
       Espaços articulares preservados.
       Ausência de calcificações de partes moles.
 
@@ -1975,15 +1973,15 @@ matches:
 
       (204060168) RX - RADIOGRAFIA DE PERNA DIREITA
 
-      Exame de avaliação limitada devido a técnica empregada.
-      Transparência em metáfises proximais e distais da tibia e fíbula. Sugere-se controle.
+      Exame de avaliação limitada devido à técnica empregada.
+      Transparência em metáfises proximais e distais da tíbia e fíbula. Sugere-se controle.
       Espaços articulares preservados.
       Ausência de calcificações de partes moles.
 
       (204060168) RX - RADIOGRAFIA DE PERNA ESQUERDO
 
-      Exame de avaliação limitada devido a técnica empregada.
-      Transparência em metáfises proximais e distais da tibia e fíbula. Sugere-se controle.
+      Exame de avaliação limitada devido à técnica empregada.
+      Transparência em metáfises proximais e distais da tíbia e fíbula. Sugere-se controle.
       Espaços articulares preservados.
       Ausência de calcificações de partes moles.
     word: true
@@ -1993,7 +1991,7 @@ matches:
     replace: |
       (204040019) RX - RADIOGRAFIA DE ANTEBRAÇO DIREITO
 
-      Exame de avaliação limitada devido a técnica empregada.
+      Exame de avaliação limitada devido à técnica empregada.
       Textura óssea preservada.
       Estruturas ósseas preservadas.
       Espaços articulares preservados.
@@ -2001,7 +1999,7 @@ matches:
 
       (204040019) RX - RADIOGRAFIA DE ANTEBRAÇO ESQUERDO
 
-      Exame de avaliação limitada devido a técnica empregada.
+      Exame de avaliação limitada devido à técnica empregada.
       Textura óssea preservada.
       Estruturas ósseas preservadas.
       Espaços articulares preservados.
@@ -2037,7 +2035,7 @@ matches:
 
       (204060168) RX - RADIOGRAFIA DE PERNA DIREITA
 
-      Exame de avaliação limitada devido a técnica empregada.
+      Exame de avaliação limitada devido à técnica empregada.
       Textura óssea preservada.
       Estruturas ósseas preservadas.
       Espaços articulares preservados.
@@ -2045,7 +2043,7 @@ matches:
 
       (204060168) RX - RADIOGRAFIA DE PERNA ESQUERDO
 
-      Exame de avaliação limitada devido a técnica empregada.
+      Exame de avaliação limitada devido à técnica empregada.
       Textura óssea preservada.
       Estruturas ósseas preservadas.
       Espaços articulares preservados.
@@ -2068,7 +2066,7 @@ matches:
       RADIOGRAFIA DE MÃO
 
       Textura óssea reduzida.
-      Redução dos espaços articulares radiocárpicos, intercárpicos, carpometacárpicos, metacarpofalangeanos e interfalangenos. Associam-se esclerose das margens aposras, osteofitose marginal e perda da morfologia habitual das cabeças das falanges distais.
+      Redução dos espaços articulares radiocárpicos, intercárpicos, carpometacárpicos, metacarpofalangeanos e interfalangenos. Associam-se esclerose das margens apostas, osteofitose marginal e perda da morfologia habitual das cabeças das falanges distais.
     word: true
 
   - trigger: "rxcavum3"
@@ -2078,7 +2076,7 @@ matches:
 
       Estruturas ósseas visualizadas íntegras.
       Transparência normal da coluna aérea da rinofaringe.
-      Adenóides radiologicamente normais.
+      Adenoides radiologicamente normais.
     word: true
 
   - trigger: "rxombro1"
@@ -2095,7 +2093,7 @@ matches:
   - trigger: "rxsonda"
     label: "Radiografia de tórax — visualização de sonda entérica"
     replace: |
-      RADIOGRAFIA DE TORAX
+      RADIOGRAFIA DE TÓRAX
 
       Radiografia realizada para visualização de sonda entérica, prejudicando estudo detalhado do tórax devido à técnica empregada.
     word: true
@@ -2160,7 +2158,7 @@ matches:
     replace: |
       RADIOGRAFIA DE ANTEBRAÇO DIREITO / ESQUERDO
 
-      Partes moles sem alterações significativa.
+      Partes moles sem alterações significativas.
       Textura óssea preservada.
       - Redução da densidade óssea.
       Estruturas ósseas preservadas.
@@ -2207,10 +2205,10 @@ matches:
 
       Textura óssea preservada.
       Estruturas ósseas preservadas.
-      Cavidades glenóides com concavidade preservada.
+      Cavidades glenoides com concavidade preservada.
       Côndilos mandibulares com morfologia e contornos normais.
       Espaços articulares preservados.
-      Excursão normal dos côndilos  mandibulares com a abertura da boca.
+      Excursão normal dos côndilos mandibulares com a abertura da boca.
     word: true
 
   - trigger: "rxatm2"
@@ -2221,12 +2219,12 @@ matches:
       Textura óssea preservada.
       - Redução da densidade óssea.
       Estruturas ósseas preservadas.
-      Cavidades glenóides com concavidade preservada.
-      - Cavidades glenóides rasas.
+      Cavidades glenoides com concavidade preservada.
+      - Cavidades glenoides rasas.
       Côndilos mandibulares com morfologia e contornos normais.
       Espaços articulares preservados.
       - Redução do espaço articular temporomandibular.
-      Excursão normal dos côndilos  mandibulares com a abertura da boca.
+      Excursão normal dos côndilos mandibulares com a abertura da boca.
       - Hipoexcursão dos côndilos mandibulares com a abertura da boca, posicionando-se atrás das eminências articulares.
       - Hiperexcursão dos côndilos mandibulares com a abertura da boca, posicionando-se à frente das eminências articulares.
     word: true
@@ -2302,7 +2300,7 @@ matches:
   - trigger: "rxbracoe"
     label: "Radiografia de braço esquerdo — normal"
     replace: |
-      RADIOGRAFIA DE BRAÇO  ESQUERDO
+      RADIOGRAFIA DE BRAÇO ESQUERDO
 
       Textura óssea preservada.
       Estruturas ósseas preservadas.
@@ -2410,7 +2408,7 @@ matches:
       Espaços discais preservados.
       - Redução dos espaços discais xx
       - Demais espaços discais preservados.
-      - Ápice do processo odontóide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação vertebrobasilar.
+      - Ápice do processo odontoide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação vertebrobasilar.
       Ausência de costela cervical acessória.
     word: true
 
@@ -2508,7 +2506,7 @@ matches:
 
       Textura óssea preservada.
       Estruturas ósseas preservadas.
-      Sela turca com morfologia e dimensões preservadas.
+      Sela túrcica com morfologia e dimensões preservadas.
       Seios paranasais com aeração preservada.
       Mastóides com aeração preservada.
     word: true
@@ -2521,7 +2519,7 @@ matches:
       Textura óssea preservada.
       Estruturas ósseas preservadas.
       - Redução da densidade óssea.
-      Sela turca com morfologia e dimensões preservadas.
+      Sela túrcica com morfologia e dimensões preservadas.
       Seios paranasais com aeração preservada.
       Mastóides com aeração preservada.
     word: true
@@ -2784,7 +2782,7 @@ matches:
       Bom alinhamento dos corpos vertebrais lombares.
       - Acentuação da lordose lombar.
       - Desvio lateral da coluna lombar com convexidade para
-      - Anterolistese grau I de  xx
+      - Anterolistese grau I de xx
       - Retrolistese de xx
       Corpos vertebrais com morfologia normal.
       Pedículos, lâminas e processos transversos preservados.
@@ -2953,7 +2951,7 @@ matches:
       RADIOGRAFIA DO PÉ DIREITO
 
       Textura e morfologia óssea preservada.
-      Espaços articulares preservado
+      Espaços articulares preservados
       Ausência de calcificações de partes moles periarticulares.
     word: true
 
@@ -2963,7 +2961,7 @@ matches:
       RADIOGRAFIA DO PÉ ESQUERDO
 
       Textura e morfologia óssea preservada.
-      Espaços articulares preservado
+      Espaços articulares preservados
       Ausência de calcificações de partes moles periarticulares.
     word: true
 
@@ -3072,7 +3070,7 @@ matches:
       - Espondilopatia degenerativa lombar.
       - Desvio lateral da coluna lombar para
       - Flebólitos em topografia pélvica.
-      - Redução do espaço articular do quadril , associado a osteofitose e esclerose da borda acetabular.
+      - Redução do espaço articular do quadril, associado a osteofitose e esclerose da borda acetabular.
       Ausência de calcificações de partes moles periarticulares.
     word: true
 
@@ -3097,7 +3095,7 @@ matches:
   - trigger: "rxquiro1"
     label: "Radiografia de quirodáctilo — normal"
     replace: |
-      RADIOGRAFIA DO QUIRODACTILO
+      RADIOGRAFIA DO QUIRODÁCTILO
 
       Textura e morfologia óssea preservada.
       Espaços articulares preservados.
@@ -3107,10 +3105,10 @@ matches:
   - trigger: "rxsacro"
     label: "Radiografia de coluna sacrococcígea — fratura coccígea"
     replace: |
-      RADIOGRAFIA DA COLUNA SACROCCOCÍGEA
+      RADIOGRAFIA DA COLUNA SACROCOCCÍGEA
 
       Textura óssea normal.
-      Corposvertebrais normais.
+      Corpos vertebrais normais.
       Angulação anterior das últimas peças coccígeas, com traço radiolucente, sugestivo de fratura.
     word: true
 
@@ -3333,7 +3331,7 @@ matches:
 
   - trigger: "bankart"
     label: "Lesão de Bankart"
-    replace: "Fratura/irregularidade cortical do aspecto anteroinferior da glenoide, sugerindo representar lesão de bankart."
+    replace: "Fratura/irregularidade cortical do aspecto anteroinferior da glenoide, sugerindo representar lesão de Bankart."
     word: true
 
   - trigger: "rxbolsa"
@@ -3390,9 +3388,9 @@ matches:
     label: "Fratura cominutiva do maléolo medial"
     replace: |
       Textura óssea preservada.
-      Fratura cominutiva no maleolo medial com extensão para articulação tibiotalar.
+      Fratura cominutiva no maléolo medial com extensão para articulação tibiotalar.
       Aumento e densificação de partes moles adjacentes ao sítio de fratura.
-      Demais Espaços articulares preservados.
+      Demais espaços articulares preservados.
       Ausência de calcificações de partes moles.
     word: true
 
@@ -3418,12 +3416,12 @@ matches:
 
   - trigger: "cv"
     label: "Corpo vertebral"
-    replace: corpo vertebal
+    replace: corpo vertebral
     word: true
 
   - trigger: "cvc"
     label: "Cateter venoso central"
-    replace: Catéter venoso central à direita.
+    replace: Cateter venoso central à direita.
     word: true
 
   - trigger: "dd"
@@ -3605,7 +3603,7 @@ matches:
 
   - trigger: "megapo"
     label: "Megapófise transversa de L5"
-    replace: "Megapófise transversa  à direita em L5, articulando-se com o sacro."
+    replace: "Megapófise transversa à direita em L5, articulando-se com o sacro."
     word: true
 
   - trigger: "mel"
@@ -3669,7 +3667,7 @@ matches:
 
   - trigger: "rxosteomielite"
     label: "Sinais de osteomielite"
-    replace: "Irregularidades corticais nas XXX associado a aumento e densificação de partes moles adjacentes. Os achados sugerem processo inflamatório/infecioso, correlacionar com dados clínicos e laboratoriais."
+    replace: "Irregularidades corticais nas XXX associado a aumento e densificação de partes moles adjacentes. Os achados sugerem processo inflamatório/infeccioso, correlacionar com dados clínicos e laboratoriais."
     word: true
 
   - trigger: "ostri"
@@ -3934,12 +3932,12 @@ matches:
 
   - trigger: "l2"
     label: "Exame de avaliação limitada (técnica)"
-    replace: Exame de avaliação limitada devido a técnica empregada.
+    replace: Exame de avaliação limitada devido à técnica empregada.
     word: true
 
   - trigger: "limit"
     label: "Avaliação limitada por técnica"
-    replace: Exame de avaliação limitada devido a técnica empregada.
+    replace: Exame de avaliação limitada devido à técnica empregada.
     word: true
 
   - trigger: "limituma"
@@ -4030,7 +4028,7 @@ matches:
 
   - trigger: "subo"
     label: "Avaliação limitada — condições técnicas subótimas"
-    replace: Exame de avaliação limitada devido a técnica empregada com condições técnicas subótimas para laudo.
+    replace: Exame de avaliação limitada devido à técnica empregada com condições técnicas subótimas para laudo.
     word: true
 
   - trigger: "subotimo"
