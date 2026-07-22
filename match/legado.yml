@@ -39,7 +39,7 @@ matches:
     replace: |
       RADIOGRAFIA DE ANTEBRAÇO DIREITO / ESQUERDO
 
-      Partes moles sem alterações significativa.
+      Partes moles sem alterações significativas.
       Textura óssea preservada.
       - Redução da densidade óssea.
       Estruturas ósseas preservadas.
@@ -120,7 +120,7 @@ matches:
   - trigger: "rxbraçoe"
     label: "Radiografia de braço esquerdo — normal"
     replace: |
-      RADIOGRAFIA DE BRAÇO  ESQUERDO
+      RADIOGRAFIA DE BRAÇO ESQUERDO
 
       Textura óssea preservada.
       Estruturas ósseas preservadas.
@@ -132,7 +132,7 @@ matches:
 
   - trigger: "translaçao"
     label: "Translação anterior da tíbia (insuficiência do LCA)"
-    replace: "Translação anterior da tibia, sugerindo instabilidade secundária a insuficiência do ligamento cruzado anterior."
+    replace: "Translação anterior da tíbia, sugerindo instabilidade secundária a insuficiência do ligamento cruzado anterior."
     word: true
 
   # substituído por "traco" em rx.yml
@@ -237,7 +237,7 @@ matches:
 
   - trigger: "doençadefahr"
     label: "Calcificações dos núcleos da base (doença de Fahr)"
-    replace: "Calcificações comprometendo de forma bilateral e relativamente simétrica os núcleos da base, tálamos e parte da substância branca subcortical dos lobos frontais e temporais. Admitem-se inicialmente as possibilidades de doença de Fahr, alterações relacionadas a hipoparatireodismo/pseudo-hipoparatireodismo e distúrbios relacionados ao metabolismo do cálcio. Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
+    replace: "Calcificações comprometendo de forma bilateral e relativamente simétrica os núcleos da base, tálamos e parte da substância branca subcortical dos lobos frontais e temporais. Admitem-se inicialmente as possibilidades de doença de Fahr, alterações relacionadas a hipoparatireoidismo/pseudo-hipoparatireoidismo e distúrbios relacionados ao metabolismo do cálcio. Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
     word: true
 
   # substituído por "fraturaluxacaoombro" em tc.yml
@@ -250,14 +250,14 @@ matches:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
       Análise:
       Fratura cominutiva da cabeça e do tubérculo maior do úmero com diástase dos principais fragmentos ósseos. Associa-se luxação anterior e inferior da cabeça do úmero.
-      Fratura da porção anteroinferior da glenóide (lesão de Bankart).
+      Fratura da porção anteroinferior da glenoide (lesão de Bankart).
       Derrame articular glenoumeral com conteúdo hemático.
       Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
       Aumento do espaço articular acromioclavicular sugerindo lesão/luxação.
       Tendões e ligamentos de avaliação limitada nesse estudo.
       Conclusão:
       Fratura cominutiva da cabeça e do tubérculo maior do úmero com diástase dos principais fragmentos ósseos. Associa-se luxação anterior e inferior da cabeça do úmero.
-      Fratura da porção anteroinferior da glenóide (lesão de Bankart).
+      Fratura da porção anteroinferior da glenoide (lesão de Bankart).
       Derrame articular glenoumeral com conteúdo hemático.
       Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
       Aumento do espaço articular acromioclavicular sugerindo lesão/luxação.
@@ -291,7 +291,7 @@ matches:
 
       Análise:
       Irregularidade cortical no aspecto posterolateral no topo da cabeça umeral, sugerindo fratura compressiva de Hill-Sachs.
-      Fratura no aspecto anteroinferior do labio glenoidal compatível com lesão de Bankart.
+      Fratura no aspecto anteroinferior do lábio glenoidal compatível com lesão de Bankart.
       Demais estruturas ósseas de forma conservada, sem sinais de fraturas.
       Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma.
       Mínimo derrame articular glenoumeral.
@@ -300,7 +300,7 @@ matches:
 
       Conclusão:
       Irregularidade cortical no aspecto posterolateral no topo da cabeça umeral, sugerindo fratura compressiva de Hill-Sachs.
-      Fratura no aspecto anteroinferior do labio glenoidal compatível com lesão de Bankart.
+      Fratura no aspecto anteroinferior do lábio glenoidal compatível com lesão de Bankart.
       Demais estruturas ósseas de forma conservada, sem sinais de fraturas.
       Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma.
       Mínimo derrame articular glenoumeral.
@@ -369,5 +369,5 @@ matches:
 
   - trigger: "tcintussuscepção"
     label: "Sinais de intussuscepção intestinal"
-    replace: "Sinais de intussuscepção na região do cólon direito/ileocecal, com espessamento parietal local das alças intestinais e conteúdo com densidade de partes moles, sem determinar distensão de alças à montante.  Associam-se densificação do tecido adiposo adjacente, pequena quantidade de líquido na cavidade pélvica e aumento do número de linfonodos mesentéricos e ileocecais. O conjunto de achados sugere suboclusão intestinal por intussuscepção. Os diagnósticos diferenciais devem ser aplicados. Recomenda-se prosseguir a investigação para a pesquisa de possíveis patologias subjacentes, inclusive neoplasia."
+    replace: "Sinais de intussuscepção na região do cólon direito/ileocecal, com espessamento parietal local das alças intestinais e conteúdo com densidade de partes moles, sem determinar distensão de alças à montante. Associam-se densificação do tecido adiposo adjacente, pequena quantidade de líquido na cavidade pélvica e aumento do número de linfonodos mesentéricos e ileocecais. O conjunto de achados sugere suboclusão intestinal por intussuscepção. Os diagnósticos diferenciais devem ser aplicados. Recomenda-se prosseguir a investigação para a pesquisa de possíveis patologias subjacentes, inclusive neoplasia."
     word: true
