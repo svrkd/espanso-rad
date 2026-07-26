@@ -2569,44 +2569,405 @@ matches:
     replace: Sinais de instabilidade glenoumeral.
     word: true
 
-  - trigger: "co1"
-    label: "Cotovelo: Sinais de epicondilite lateral (cotovelo do tenista) à _ (achado descritivo)"
-    replace: Tendão comum dos extensores e sua inserção no epicôndilo lateral com espessura levemente aumentada e hipoecogenicidade textural difusa, associada a irregularidade da superfície óssea adjacente.
+  # --- Cotovelo: técnica ---
+
+  - trigger: "cot1"
+    label: "Cotovelo: Técnica — exame direcionado"
+    replace: Exame direcionado para a face lateral / medial / anterior / posterior do cotovelo (queixa álgica referida pelo paciente).
     word: true
 
-  - trigger: "co1c"
-    label: "Cotovelo: Sinais de epicondilite lateral (cotovelo do tenista) à _"
-    replace: Sinais de epicondilite lateral (cotovelo do tenista) à _.
+  # --- Cotovelo: derrame articular ---
+
+  - trigger: "cod1"
+    label: "Cotovelo: Sem derrame articular"
+    replace: Ausência de derrame articular.
     word: true
 
-  - trigger: "co2"
-    label: "Cotovelo: Sinais de epicondilite medial (cotovelo do golfista) à _ (achado descritivo)"
-    replace: Tendão comum dos flexores e sua inserção no epicôndilo medial com espessura levemente aumentada e hipoecogenicidade textural difusa.
+  - trigger: "cod2"
+    label: "Cotovelo: Discreto derrame articular"
+    replace: Pequena quantidade de líquido nos recessos articulares inferindo discreto derrame articular.
     word: true
 
-  - trigger: "co2c"
-    label: "Cotovelo: Sinais de epicondilite medial (cotovelo do golfista) à _"
-    replace: Sinais de epicondilite medial (cotovelo do golfista) à _.
+  - trigger: "cod2c"
+    label: "Cotovelo: Discreto derrame articular (conclusão)"
+    replace: Discreto derrame articular.
     word: true
 
-  - trigger: "co3"
-    label: "Cotovelo: Sinais de bursite olecraniana à _ (achado descritivo)"
-    replace: Bursa olecraniana distendida por líquido de aspecto anecoico e homogêneo, medindo cerca de _ cm.
+  - trigger: "cod3"
+    label: "Cotovelo: Moderado derrame articular"
+    replace: Moderado derrame articular.
     word: true
 
-  - trigger: "co3c"
-    label: "Cotovelo: Sinais de bursite olecraniana à _"
-    replace: Sinais de bursite olecraniana à _.
+  - trigger: "cod3c"
+    label: "Cotovelo: Moderado derrame articular (conclusão)"
+    replace: Moderado derrame articular.
     word: true
 
-  - trigger: "co4"
-    label: "Cotovelo: Aumento do calibre do nervo ulnar na fossa cubital (achado descritivo)"
-    replace: Nervo ulnar na fossa cubital com calibre aumentado, medindo área de secção transversa de _ mm² (normal < 8 mm²), sem luxação à manobra de flexão do cotovelo.
+  - trigger: "cod4"
+    label: "Cotovelo: Derrame acentuado com sinovite"
+    replace: Acentuado derrame articular com hipertrofia sinovial. Hipertrofia dos revestimentos sinoviais com vascularização ao Doppler indicando sinovite.
     word: true
 
-  - trigger: "co4c"
-    label: "Cotovelo: Aumento do calibre do nervo ulnar na fossa cubital"
-    replace: Aumento do calibre do nervo ulnar na fossa cubital. Considerar a hipótese de neuropatia compressiva.
+  - trigger: "cod4c"
+    label: "Cotovelo: Acentuado derrame articular com sinovite (conclusão)"
+    replace: Acentuado derrame articular com sinovite.
+    word: true
+
+  # --- Cotovelo: extensores / flexores (epicondilopatia) ---
+
+  - trigger: "coe1"
+    label: "Cotovelo: Extensores e flexores normais"
+    replace: Tendão comum dos extensores e flexores com espessura, ecogenicidade e ecotextura fibrilar preservada.
+    word: true
+
+  - trigger: "coe2"
+    label: "Cotovelo: Heterogeneidade incipiente dos extensores"
+    replace: Discreta heterogeneidade da origem comum dos extensores junto ao epicôndilo lateral, sem espessamentos ou roturas. Achado que, para ser valorizado como tendinopatia, deve ter estreita correlação com dados clínicos e exame físico.
+    word: true
+
+  - trigger: "coe2c"
+    label: "Cotovelo: Discreta heterogeneidade da origem comum dos extensores, a correlacionar clinicamente (conclusão)"
+    replace: Discreta heterogeneidade da origem comum dos extensores, a correlacionar clinicamente.
+    word: true
+
+  - trigger: "coe3"
+    label: "Cotovelo: Epicondilopatia lateral"
+    replace: Epicondilopatia lateral caracterizada por tendinopatia da origem comum dos extensores com espessamento e hipoecogenicidade de suas fibras, sem roturas.
+    word: true
+
+  - trigger: "coe3c"
+    label: "Cotovelo: Epicondilopatia lateral (conclusão)"
+    replace: Epicondilopatia lateral.
+    word: true
+
+  - trigger: "coe4"
+    label: "Cotovelo: Epicondilopatia lateral com fissuras"
+    replace: Epicondilopatia lateral caracterizada por tendinopatia da origem comum dos extensores, destacando-se focos de degeneração e fissuras intrassubstanciais, sem desinserções ou retrações.
+    word: true
+
+  - trigger: "coe4c"
+    label: "Cotovelo: Epicondilopatia lateral com degeneração e fissuras intrassubstanciais (conclusão)"
+    replace: Epicondilopatia lateral com degeneração e fissuras intrassubstanciais.
+    word: true
+
+  - trigger: "coe5"
+    label: "Cotovelo: Epicondilopatia lateral com finas roturas laminares"
+    replace: Epicondilopatia lateral caracterizada por tendinopatia da origem comum dos extensores com focos de degeneração, fissuras e finas roturas intrassubstanciais laminares, sem nítidas desinserções.
+    word: true
+
+  - trigger: "coe5c"
+    label: "Cotovelo: Epicondilopatia lateral com finas roturas laminares (conclusão)"
+    replace: Epicondilopatia lateral com finas roturas laminares.
+    word: true
+
+  - trigger: "coe6"
+    label: "Cotovelo: Epicondilopatia lateral com rotura parcial"
+    replace: Epicondilopatia lateral caracterizada por tendinopatia da origem comum dos extensores com focos de degeneração e fissuras intrassubstanciais, destacando-se rotura parcial medindo _ cm, sem nítidas desinserções completas.
+    word: true
+
+  - trigger: "coe6c"
+    label: "Cotovelo: Epicondilopatia lateral com rotura parcial (conclusão)"
+    replace: Epicondilopatia lateral com rotura parcial.
+    word: true
+
+  - trigger: "coe7"
+    label: "Cotovelo: Epicondilopatia lateral com rotura de alto grau"
+    replace: Epicondilopatia lateral caracterizada por tendinopatia da origem comum dos extensores com focos de degeneração e fissuras / finas roturas intrassubstanciais laminares, destacando-se rotura de alto grau com sinais de retração. Associam-se sinais de rotura de alto grau da inserção umeral do complexo ligamentar lateral.
+    word: true
+
+  - trigger: "coe7c"
+    label: "Cotovelo: Epicondilopatia lateral com rotura de alto grau e lesão do complexo ligamentar lateral (conclusão)"
+    replace: Epicondilopatia lateral com rotura de alto grau e lesão do complexo ligamentar lateral.
+    word: true
+
+  - trigger: "coe8"
+    label: "Cotovelo: Epicondilopatia lateral crônica (entesopatia)"
+    replace: Epicondilopatia lateral caracterizada por tendinopatia e entesopatia da origem comum dos extensores de aspecto crônico, sem roturas.
+    word: true
+
+  - trigger: "coe8c"
+    label: "Cotovelo: Epicondilopatia lateral crônica com entesopatia (conclusão)"
+    replace: Epicondilopatia lateral crônica com entesopatia.
+    word: true
+
+  - trigger: "coe9"
+    label: "Cotovelo: Tendinopatia calcária dos extensores"
+    replace: Tendinopatia calcária da origem comum dos extensores com focos de depósito cálcico, medindo _ cm.
+    word: true
+
+  - trigger: "coe9c"
+    label: "Cotovelo: Tendinopatia calcária da origem comum dos extensores (conclusão)"
+    replace: Tendinopatia calcária da origem comum dos extensores.
+    word: true
+
+  # --- Cotovelo: tríceps ---
+
+  - trigger: "cotr1"
+    label: "Cotovelo: Tríceps normal"
+    replace: Tendão do tríceps com espessura e ecotextura habitual.
+    word: true
+
+  - trigger: "cotr2"
+    label: "Cotovelo: Entesopatia insercional do tríceps"
+    replace: Entesopatia insercional do tríceps, sem tendinopatias relevantes ou roturas.
+    word: true
+
+  - trigger: "cotr2c"
+    label: "Cotovelo: Entesopatia insercional do tríceps (conclusão)"
+    replace: Entesopatia insercional do tríceps.
+    word: true
+
+  - trigger: "cotr3"
+    label: "Cotovelo: Tendinopatia e entesopatia do tríceps"
+    replace: Tendinopatia e entesopatia insercional do tríceps, caracterizada por espessamento e perda do padrão fibrilar com entesófitos insercionais, sem francas roturas.
+    word: true
+
+  - trigger: "cotr3c"
+    label: "Cotovelo: Tendinopatia e entesopatia insercional do tríceps (conclusão)"
+    replace: Tendinopatia e entesopatia insercional do tríceps.
+    word: true
+
+  # --- Cotovelo: bíceps distal ---
+
+  - trigger: "cob1"
+    label: "Cotovelo: Bíceps distal normal"
+    replace: Tendão do bíceps braquial com espessura e ecotextura normais.
+    word: true
+
+  - trigger: "cob2"
+    label: "Cotovelo: Tendinopatia do bíceps distal"
+    replace: Tendinopatia da inserção distal do bíceps braquial caracterizada por espessamento e perda do padrão fibrilar, sem roturas.
+    word: true
+
+  - trigger: "cob2c"
+    label: "Cotovelo: Tendinopatia da inserção distal do bíceps braquial (conclusão)"
+    replace: Tendinopatia da inserção distal do bíceps braquial.
+    word: true
+
+  - trigger: "cob3"
+    label: "Cotovelo: Tendinopatia do bíceps distal com degeneração"
+    replace: Tendinopatia da inserção distal do bíceps braquial caracterizada por espessamento e perda do padrão fibrilar com focos de degeneração intrassubstancial, sem nítidas roturas.
+    word: true
+
+  - trigger: "cob3c"
+    label: "Cotovelo: Tendinopatia da inserção distal do bíceps braquial com degeneração intrassubstancial (conclusão)"
+    replace: Tendinopatia da inserção distal do bíceps braquial com degeneração intrassubstancial.
+    word: true
+
+  - trigger: "cob4"
+    label: "Cotovelo: Rotura completa do bíceps distal (tuberosidade radial)"
+    replace: Rotura completa com desinserção distal do tendão do bíceps braquial. Coto tendíneo de aspecto degenerado e retraído a cerca de _ cm da tuberosidade radial, observando-se conteúdo líquido / hemático na área de rotura.
+    word: true
+
+  - trigger: "cob4c"
+    label: "Cotovelo: Rotura completa com desinserção distal do bíceps braquial (coto à tuberosidade radial) (conclusão)"
+    replace: Rotura completa com desinserção distal do bíceps braquial (coto à tuberosidade radial).
+    word: true
+
+  - trigger: "cob5"
+    label: "Cotovelo: Rotura completa do bíceps distal (prega cubital)"
+    replace: Rotura completa com desinserção distal do tendão do bíceps braquial. Coto tendíneo de aspecto degenerado e retraído a cerca de _ cm da prega cubital. Observa-se conteúdo líquido / hemático na área de rotura.
+    word: true
+
+  - trigger: "cob5c"
+    label: "Cotovelo: Rotura completa com desinserção distal do bíceps braquial (coto à prega cubital) (conclusão)"
+    replace: Rotura completa com desinserção distal do bíceps braquial (coto à prega cubital).
+    word: true
+
+  - trigger: "cob6"
+    label: "Cotovelo: Rotura de alto grau do bíceps distal"
+    replace: Má definição da inserção distal do bíceps braquial, inferindo rotura de alto grau. A correlação com a ressonância magnética poderá trazer informações adicionais (caso não haja contraindicações ao método).
+    word: true
+
+  - trigger: "cob6c"
+    label: "Cotovelo: Rotura de alto grau da inserção distal do bíceps braquial (conclusão)"
+    replace: Rotura de alto grau da inserção distal do bíceps braquial.
+    word: true
+
+  - trigger: "cob7"
+    label: "Cotovelo: Rotura parcial do bíceps distal"
+    replace: Rotura parcial do tendão distal do bíceps braquial com acentuado afilamento tendíneo insercional e retração focal das fibras em cerca de _ cm.
+    word: true
+
+  - trigger: "cob7c"
+    label: "Cotovelo: Rotura parcial da inserção distal do bíceps braquial (conclusão)"
+    replace: Rotura parcial da inserção distal do bíceps braquial.
+    word: true
+
+  - trigger: "cob8"
+    label: "Cotovelo: Rotura da aponeurose bicipital"
+    replace: Lâmina líquida na topografia da aponeurose bicipital inferindo rotura.
+    word: true
+
+  - trigger: "cob8c"
+    label: "Cotovelo: Rotura da aponeurose bicipital (conclusão)"
+    replace: Rotura da aponeurose bicipital.
+    word: true
+
+  - trigger: "cob9"
+    label: "Cotovelo: Bursite bicipitorradial"
+    replace: Associa-se distensão líquida da bursa bicipitorradial indicando bursite.
+    word: true
+
+  - trigger: "cob9c"
+    label: "Cotovelo: Bursite bicipitorradial (conclusão)"
+    replace: Bursite bicipitorradial.
+    word: true
+
+  # --- Cotovelo: nervo ulnar ---
+
+  - trigger: "cou1"
+    label: "Cotovelo: Nervo ulnar normal"
+    replace: Nervo ulnar com espessura e ecotextura habitual, sem compressões extrínsecas.
+    word: true
+
+  - trigger: "cou2"
+    label: "Cotovelo: Espessamento do nervo ulnar (túnel cubital)"
+    replace: Espessamento e hipoecogenicidade do nervo ulnar ao nível do túnel cubital. Conveniente correlação com os dados clínicos e eletroneuromiográficos para valorização do achado.
+    word: true
+
+  - trigger: "cou2c"
+    label: "Cotovelo: Espessamento do nervo ulnar no túnel cubital (conclusão)"
+    replace: Espessamento do nervo ulnar no túnel cubital.
+    word: true
+
+  - trigger: "cou3"
+    label: "Cotovelo: Espessamento do nervo ulnar com área de secção"
+    replace: Espessamento e hipoecogenicidade do nervo ulnar ao nível do túnel cubital. Área de secção transversa de _ mm². Apesar de não haver consenso na literatura, alguns autores consideram espessamento acima de 8 mm². Conveniente correlação com os dados clínicos e eletroneuromiográficos para valorização do achado.
+    word: true
+
+  - trigger: "cou3c"
+    label: "Cotovelo: Espessamento do nervo ulnar no túnel cubital, com área de secção transversa aumentada (conclusão)"
+    replace: Espessamento do nervo ulnar no túnel cubital, com área de secção transversa aumentada.
+    word: true
+
+  - trigger: "cou4"
+    label: "Cotovelo: Ancôneo epitroclear"
+    replace: Associa-se ventre muscular acessório superficialmente ao túnel cubital, compatível com ancôneo epitroclear.
+    word: true
+
+  - trigger: "cou4c"
+    label: "Cotovelo: Ancôneo epitroclear (conclusão)"
+    replace: Ancôneo epitroclear.
+    word: true
+
+  # --- Cotovelo: bursa olecraniana ---
+
+  - trigger: "cobo1"
+    label: "Cotovelo: Bursa olecraniana normal"
+    replace: Ausência de distensão líquida patológica da bursa olecraniana.
+    word: true
+
+  - trigger: "cobo2"
+    label: "Cotovelo: Bursite olecraniana"
+    replace: Distensão líquida e espessamento parietal da bursa olecraniana indicando bursite.
+    word: true
+
+  - trigger: "cobo2c"
+    label: "Cotovelo: Bursite olecraniana (conclusão)"
+    replace: Bursite olecraniana.
+    word: true
+
+  - trigger: "cobo3"
+    label: "Cotovelo: Bursite olecraniana com sinovite"
+    replace: Proeminente distensão líquida da bursa olecraniana com sinovite e espessamento parietal indicando bursite. Necessária correlação com os dados clínicos para definição etiológica.
+    word: true
+
+  - trigger: "cobo3c"
+    label: "Cotovelo: Bursite olecraniana com sinovite (conclusão)"
+    replace: Bursite olecraniana com sinovite.
+    word: true
+
+  - trigger: "cobo4"
+    label: "Cotovelo: Bursite olecraniana infecciosa"
+    replace: Proeminente distensão líquida da bursa olecraniana com sinovite e espessamento parietal com intensa vascularização ao Doppler indicando bursite. Associa-se edema difuso do tecido celular subcutâneo. À ectoscopia nota-se hiperemia local. Achados sugestivos de bursite de etiologia infecciosa.
+    word: true
+
+  - trigger: "cobo4c"
+    label: "Cotovelo: Bursite olecraniana de provável etiologia infecciosa (conclusão)"
+    replace: Bursite olecraniana de provável etiologia infecciosa.
+    word: true
+
+  - trigger: "cobo5"
+    label: "Cotovelo: Bursite olecraniana por microcristais"
+    replace: Proeminente distensão da bursa olecraniana com conteúdo espesso / ecogênico e espessamento parietal. Achados que podem corresponder a bursite por depósito de microcristais, sendo necessário correlação com os dados clínicos para definição etiológica.
+    word: true
+
+  - trigger: "cobo5c"
+    label: "Cotovelo: Bursite olecraniana por provável depósito de microcristais (conclusão)"
+    replace: Bursite olecraniana por provável depósito de microcristais.
+    word: true
+
+  # --- Cotovelo: demais / diversos ---
+
+  - trigger: "codi1"
+    label: "Cotovelo: Neuropatia do interósseo posterior"
+    replace: Neuropatia do interósseo posterior com sinais de compressão ao nível da arcada do supinador caracterizada por espessamento neural proximal na topografia. Associa-se feixe vascular recorrente radial. Sinais de atrofia e lipossubstituição dos músculos extensores curto e longo do polegar.
+    word: true
+
+  - trigger: "codi1c"
+    label: "Cotovelo: Neuropatia compressiva do interósseo posterior (arcada do supinador) (conclusão)"
+    replace: Neuropatia compressiva do interósseo posterior (arcada do supinador).
+    word: true
+
+  - trigger: "codi2"
+    label: "Cotovelo: Linfonodopatia (doença da arranhadura do gato)"
+    replace: Na região nodular referida pela paciente, face medial do cotovelo, observa-se imagem nodular alongada com hilo ecogênico do tecido celular subcutâneo, medindo _ cm. Achados provavelmente relacionados a linfonodopatia de origem infecciosa, devendo-se considerar entre as possibilidades a hipótese de doença da arranhadura do gato, não se podendo descartar outras etiologias.
+    word: true
+
+  - trigger: "codi2c"
+    label: "Cotovelo: Linfonodopatia de provável origem infecciosa (considerar doença da arranhadura do gato) (conclusão)"
+    replace: Linfonodopatia de provável origem infecciosa (considerar doença da arranhadura do gato).
+    word: true
+
+  - trigger: "codi3"
+    label: "Cotovelo: Lipoma"
+    replace: Na região nodular referida pelo paciente, face medial / lateral / anterior / posterior do cotovelo, observa-se imagem nodular alongada de contornos bem definidos com ecogenicidade semelhante à gordura, apresentando cápsula periférica e estrias ecogênicas de permeio. Os achados são compatíveis com nódulo de linhagem lipomatosa; aspecto de lipoma.
+    word: true
+
+  - trigger: "codi3c"
+    label: "Cotovelo: Nódulo de aspecto lipomatoso (lipoma) (conclusão)"
+    replace: Nódulo de aspecto lipomatoso (lipoma).
+    word: true
+
+  - trigger: "codi4"
+    label: "Cotovelo: Nódulo neural do nervo mediano"
+    replace: Imagem nodular sólida em continuidade com o nervo mediano ao nível do terço distal do braço, compatível com nódulo neural.
+    word: true
+
+  - trigger: "codi4c"
+    label: "Cotovelo: Nódulo neural do nervo mediano (conclusão)"
+    replace: Nódulo neural do nervo mediano.
+    word: true
+
+  - trigger: "codi5"
+    label: "Cotovelo: Artropatia inflamatória"
+    replace: Sinais de artropatia inflamatória caracterizada por derrame articular com hipertrofia difusa dos revestimentos sinoviais e vascularização ao Doppler indicando sinovite. Associam-se erosões ósseas marginais. Necessária correlação com os dados clínicos e laboratoriais para definição etiológica.
+    word: true
+
+  - trigger: "codi5c"
+    label: "Cotovelo: Artropatia inflamatória com sinovite e erosões marginais (conclusão)"
+    replace: Artropatia inflamatória com sinovite e erosões marginais.
+    word: true
+
+  - trigger: "codi6"
+    label: "Cotovelo: Artropatia degenerativa"
+    replace: Sinais de artropatia degenerativa caracterizada por reação osteofitária marginal, afilamento condral e derrame articular, observando-se corpos livres intra-articulares, medindo _ cm.
+    word: true
+
+  - trigger: "codi6c"
+    label: "Cotovelo: Artropatia degenerativa com corpos livres intra-articulares (conclusão)"
+    replace: Artropatia degenerativa com corpos livres intra-articulares.
+    word: true
+
+  - trigger: "codi7"
+    label: "Cotovelo: Pós-operatório do bíceps distal"
+    replace: Alterações pós-operatórias do tendão distal do bíceps braquial caracterizadas por espessamento, heterogeneidade e irregularidade de suas fibras com áreas ecogênicas de permeio (fios de sutura), não sendo caracterizadas retrações ou desinserções.
+    word: true
+
+  - trigger: "codi7c"
+    label: "Cotovelo: Alterações pós-operatórias do tendão distal do bíceps braquial (conclusão)"
+    replace: Alterações pós-operatórias do tendão distal do bíceps braquial.
     word: true
 
   - trigger: "pu1"
