@@ -1796,54 +1796,437 @@ matches:
       Pequena/Moderada/Acentuada quantidade de líquido livre anecoico no recesso supra-patelar e/d.
     word: true
 
-  - trigger: "om1"
-    label: "Ombro: Sinais de tendinopatia do supraespinhal (achado descritivo)"
-    replace: Tendão do supraespinhal com espessura aumentada e hipoecogenicidade textural difusa, sem sinais de descontinuidade de fibras.
+  # --- Ombro: técnica ---
+
+  - trigger: "omt1"
+    label: "Ombro: Técnica prejudicada — mobilidade articular"
+    replace: Técnica do exame prejudicada pela limitação da mobilidade articular do ombro.
     word: true
 
-  - trigger: "om1c"
-    label: "Ombro: Sinais de tendinopatia do supraespinhal"
-    replace: Sinais de tendinopatia do supraespinhal.
+  - trigger: "omt2"
+    label: "Ombro: Técnica — redução da mobilidade"
+    replace: Intensa redução da mobilidade do ombro, dificultando a realização das manobras dinâmicas.
     word: true
 
-  - trigger: "om2"
-    label: "Ombro: Ruptura parcial, não transfixante, do tendão do supraespinhal (achado descritivo)"
-    replace: Tendão do supraespinhal com área de descontinuidade parcial das fibras na projeção da zona crítica, medindo _ cm longitudinal por _ cm transversal, preservando fibras mais profundas/superficiais.
+  - trigger: "omt3"
+    label: "Ombro: Técnica — redução de frequência"
+    replace: Foi necessária redução da frequência para melhor caracterização das estruturas, diminuindo a sensibilidade do método.
     word: true
 
-  - trigger: "om2c"
-    label: "Ombro: Ruptura parcial, não transfixante, do tendão do supraespinhal"
-    replace: Ruptura parcial, não transfixante, do tendão do supraespinhal.
+  # --- Ombro: articulação acromioclavicular ---
+
+  - trigger: "omac1"
+    label: "Ombro: Articulação acromioclavicular normal"
+    replace: Superfície superior da articulação acromioclavicular de contornos regulares.
     word: true
 
-  - trigger: "om3"
-    label: "Ombro: Ruptura transfixante do tendão do supraespinhal (achado descritivo)"
-    replace: Tendão do supraespinhal com descontinuidade transfixante na projeção da zona crítica, medindo _ cm longitudinal por _ cm transversal, com retração de cotos e cabeça umeral de contorno irregular.
+  - trigger: "omac2"
+    label: "Ombro: Espessamento capsuloligamentar acromioclavicular discreto"
+    replace: Relação acromioclavicular preservada, com discreto espessamento capsuloligamentar superior.
     word: true
 
-  - trigger: "om3c"
-    label: "Ombro: Ruptura transfixante do tendão do supraespinhal"
-    replace: Ruptura transfixante do tendão do supraespinhal.
+  - trigger: "omac3"
+    label: "Ombro: Espessamento capsuloligamentar acromioclavicular / degenerativo"
+    replace: Espessamento capsuloligamentar da articulação acromioclavicular com tênues irregularidades da superfície articular, de provável origem mecânica / degenerativa.
     word: true
 
-  - trigger: "om4"
-    label: "Ombro: Sinais de bursite subacromial-subdeltoidea à _ (achado descritivo)"
-    replace: Bursa subacromial-subdeltoidea distendida por líquido de aspecto anecoico e homogêneo, medindo cerca de _ cm de espessura.
+  - trigger: "omac4"
+    label: "Ombro: Artropatia degenerativa acromioclavicular"
+    replace: Alterações degenerativas da articulação acromioclavicular caracterizadas por osteofitose marginal, irregularidades da superfície articular e espessamento capsuloligamentar.
     word: true
 
-  - trigger: "om4c"
-    label: "Ombro: Sinais de bursite subacromial-subdeltoidea à _"
-    replace: Sinais de bursite subacromial-subdeltoidea à _.
+  - trigger: "omac5"
+    label: "Ombro: Diástase acromioclavicular"
+    replace: Sinais de diástase da articulação acromioclavicular caracterizada por aumento do espaço articular quando comparada ao lado contralateral. Achado que pode estar relacionado à luxação acromioclavicular, sendo conveniente correlação radiográfica.
     word: true
 
-  - trigger: "om5"
-    label: "Ombro: Achados sugestivos de capsulite adesiva do ombro _ (achado descritivo)"
-    replace: Limitação do deslizamento do tendão do supraespinhal sob a cobertura acromial à manobra dinâmica de abdução do braço, sem sinais de ruptura tendínea associada.
+  - trigger: "omac6"
+    label: "Ombro: Cisto sinovial acromioclavicular"
+    replace: Artropatia degenerativa acromioclavicular com cisto sinovial, medindo _ cm, junto ao seu contorno superior.
     word: true
 
-  - trigger: "om5c"
-    label: "Ombro: Achados sugestivos de capsulite adesiva do ombro _"
-    replace: Achados sugestivos de capsulite adesiva do ombro _.
+  # --- Ombro: bursa subacromial-subdeltoidea ---
+
+  - trigger: "omb1"
+    label: "Ombro: Bursa normal"
+    replace: Ausência de bursite subacromial-subdeltoidea.
+    word: true
+
+  - trigger: "omb2"
+    label: "Ombro: Fina lâmina líquida na bursa (bilateral)"
+    replace: Fina lâmina líquida na bursa subacromial-subdeltoidea. Mesmo achado evidenciado do lado contralateral.
+    word: true
+
+  - trigger: "omb3"
+    label: "Ombro: Espessamento discreto da bursa (bilateral)"
+    replace: Discreto espessamento da bursa subacromial-subdeltoidea. Mesmo achado evidenciado do lado contralateral.
+    word: true
+
+  - trigger: "omb4"
+    label: "Ombro: Bursopatia"
+    replace: Discreto espessamento da bursa subacromial-subdeltoidea inferindo bursopatia.
+    word: true
+
+  - trigger: "omb5"
+    label: "Ombro: Bursite subacromial-subdeltoidea"
+    replace: Bursite subacromial-subdeltoidea caracterizada por distensão líquida e espessamento parietal.
+    word: true
+
+  - trigger: "omb6"
+    label: "Ombro: Bursite com sinovite"
+    replace: Bursite subacromial-subdeltoidea com proeminente espessamento parietal e sinovial denotando sinovite.
+    word: true
+
+  - trigger: "omb7"
+    label: "Ombro: Bursite subacromial e subcoracoide"
+    replace: Distensão líquida e espessamento parietal das bursas subacromial-subdeltoidea e subcoracoide denotando bursite.
+    word: true
+
+  # --- Ombro: tendão do cabo longo do bíceps ---
+
+  - trigger: "ombi1"
+    label: "Ombro: Cabo longo do bíceps normal"
+    replace: Tendão da cabeça longa do bíceps de calibre e ecotextura habituais, localizado anatomicamente no sulco intertuberositário, sem sinais de luxação, mesmo às manobras dinâmicas.
+    word: true
+
+  - trigger: "ombi2"
+    label: "Ombro: Tendinopatia do cabo longo do bíceps"
+    replace: Tendinopatia do segmento articular do cabo longo do bíceps caracterizada por espessamento e perda do padrão fibrilar associada à pequena distensão líquida de sua bainha. Não há sinais de luxação durante as manobras dinâmicas.
+    word: true
+
+  - trigger: "ombi3"
+    label: "Ombro: Tendinopatia acentuada do bíceps com derrame de bainha"
+    replace: Acentuada tendinopatia do segmento articular e deflexão do cabo longo do bíceps caracterizada por espessamento, perda do padrão fibrilar e degeneração intrassubstancial, associada à moderada / acentuada distensão líquida de sua bainha. Não há sinais de luxação durante as manobras de rotação externa.
+    word: true
+
+  - trigger: "ombi4"
+    label: "Ombro: Subluxação / luxação medial do bíceps"
+    replace: Sinais de subluxação / luxação medial do cabo longo do bíceps durante as manobras de rotação externa.
+    word: true
+
+  - trigger: "ombi5"
+    label: "Ombro: Rotura com desinserção proximal do bíceps"
+    replace: Rotura com desinserção proximal do tendão do cabo longo do bíceps braquial, com o coto tendíneo degenerado e retraído ao nível da inserção tendínea do peitoral maior. Observa-se derrame articular com líquido no recesso bicipital.
+    word: true
+
+  - trigger: "ombi6"
+    label: "Ombro: Bíceps não caracterizado (rotura?)"
+    replace: Tendão do cabo longo do bíceps não caracterizado em seu trajeto articular e no interior do sulco intertuberositário, podendo estar relacionado à rotura.
+    word: true
+
+  - trigger: "ombi7"
+    label: "Ombro: Bíceps mal definido (afilamento / rotura)"
+    replace: Má definição do tendão do cabo longo do bíceps, podendo estar relacionado a acentuado afilamento ou rotura.
+    word: true
+
+  - trigger: "ombi8"
+    label: "Ombro: Bíceps pós-operatório (rotura / tenotomia)"
+    replace: "Caso pós-operatório: tendão do cabo longo do bíceps não caracterizado em seu trajeto articular e no interior do sulco intertuberositário, podendo estar relacionado à rotura ou tenotomia."
+    word: true
+
+  # --- Ombro: manguito rotador — sem rotura ---
+
+  - trigger: "omm1"
+    label: "Ombro: Manguito rotador normal"
+    replace: Tendões do manguito rotador com espessura e ecotextura habituais.
+    word: true
+
+  - trigger: "omm2"
+    label: "Ombro: Heterogeneidade incipiente do supraespinhal"
+    replace: Discreta heterogeneidade do tendão do supraespinhal, sem espessamento ou roturas. Achado que, para ser valorizado como incipiente tendinopatia, deve ter estreita correlação com os dados clínicos.
+    word: true
+
+  - trigger: "omm3"
+    label: "Ombro: Tendinopatia do supraespinhal (bilateral)"
+    replace: Tendinopatia do supraespinhal caracterizada por espessamento e perda do padrão fibrilar, sem roturas. Mesmo achado evidenciado do lado contralateral.
+    word: true
+
+  - trigger: "omm4"
+    label: "Ombro: Tendinopatia sem roturas (tendão _)"
+    replace: Tendinopatia do _ caracterizada por espessamento e perda do padrão fibrilar, sem evidentes roturas.
+    word: true
+
+  - trigger: "omm5"
+    label: "Ombro: Tendinopatia com fissuras (tendão _)"
+    replace: Tendinopatia do _ com focos de fissuras e degeneração intrassubstancial, sem nítidas transfixações ou desinserções.
+    word: true
+
+  - trigger: "omm6"
+    label: "Ombro: Tendinopatia acentuada (tendão _)"
+    replace: Acentuada tendinopatia do _ caracterizada por espessamento, degeneração intrassubstancial e fissuras intratendíneas, sem nítidas transfixações ou desinserções.
+    word: true
+
+  - trigger: "omm7"
+    label: "Ombro: Demais tendões do manguito normais"
+    replace: Demais tendões do manguito rotador sem alterações significativas.
+    word: true
+
+  - trigger: "omm8"
+    label: "Ombro: Redondo menor normal"
+    replace: Tendão do redondo menor sem particularidades.
+    word: true
+
+  # --- Ombro: manguito rotador — com rotura ---
+
+  - trigger: "omr1"
+    label: "Ombro: Rotura laminar de baixo grau (transição supra/infra)"
+    replace: Acentuada tendinopatia do manguito rotador caracterizada por espessamento, degeneração intrassubstancial e fissuras / finas roturas laminares intratendíneas de baixo grau, predominando na transição entre os tendões do supraespinhal e infraespinhal, sem nítidas transfixações ou desinserções.
+    word: true
+
+  - trigger: "omr2"
+    label: "Ombro: Rotura parcial do supraespinhal (% da espessura)"
+    replace: Tendinopatia do supraespinhal com focos de degeneração e fissuras intrassubstanciais, destacando-se rotura parcial das fibras articulares / intrassubstanciais / bursais, acometendo cerca de _% da espessura tendínea, com extensão estimada de _ cm, sem evidentes transfixações.
+    word: true
+
+  - trigger: "omr3"
+    label: "Ombro: Rotura transfixante — coto degenerado e retraído"
+    replace: Rotura transfixante com desinserção do tendão do _, com extensão de _ cm. O coto tendíneo apresenta-se degenerado e afilado, retraído a cerca de _ cm da tuberosidade maior umeral.
+    word: true
+
+  - trigger: "omr4"
+    label: "Ombro: Rotura transfixante — coto não caracterizado"
+    replace: Rotura transfixante com desinserção do tendão do _, com extensão de _ cm. Coto tendíneo não caracterizado, com retração estimada acima de 3 cm.
+    word: true
+
+  - trigger: "omr5"
+    label: "Ombro: Rotura mal definida — afilamento junto à inserção"
+    replace: Tendinopatia do supraespinhal, destacando-se acentuado afilamento de suas fibras junto à inserção, provavelmente relacionado à rotura, cujas margens são mal definidas.
+    word: true
+
+  - trigger: "omr6"
+    label: "Ombro: Rotura parcial mal definida do supraespinhal"
+    replace: Acentuada tendinopatia com degeneração e fissuras intrassubstanciais do supraespinhal, com aparente foco de rotura parcial de baixo grau junto à inserção de suas fibras anteriores / médias / posteriores e bursais / intrassubstanciais / articulares, medindo cerca de _ x _ cm.
+    word: true
+
+  - trigger: "omr7"
+    label: "Ombro: Rotura de alto grau — feixe articular remanescente"
+    replace: Rotura de alto grau do supraespinhal, acometendo praticamente toda a espessura tendínea, com retração de cerca de _ cm e extensão estimada de _ cm, observando-se aparente fino feixe de fibras articulares remanescentes.
+    word: true
+
+  - trigger: "omr8"
+    label: "Ombro: Rotura de alto grau — transfixação"
+    replace: Rotura de alto grau do supraespinhal, acometendo praticamente toda a espessura tendínea, observando-se aparente transfixação, com retração de cerca de _ cm e extensão estimada de _ cm.
+    word: true
+
+  - trigger: "omr9"
+    label: "Ombro: Rotura de alto grau do subescapular"
+    replace: Tendinopatia do subescapular com má definição e afilamento das fibras médias e superiores, inferindo rotura de alto grau com fino feixe de fibras remanescentes da superfície articular em continuidade com o ligamento transverso.
+    word: true
+
+  - trigger: "omr10"
+    label: "Ombro: Sugerir correlação com ressonância magnética"
+    replace: A correlação com a ressonância magnética (caso não haja contraindicação) poderá trazer informações adicionais.
+    word: true
+
+  # --- Ombro: manguito rotador — tendinopatia calcária ---
+
+  - trigger: "omk1"
+    label: "Ombro: Focos ecogênicos / depósitos cálcicos"
+    replace: Tendinopatia do supraespinhal caracterizada por espessamento e perda do padrão fibrilar, com focos de degeneração e fissuras intrassubstanciais, destacando-se diminutos focos ecogênicos em seu interior, possivelmente relacionados a depósitos cálcicos.
+    word: true
+
+  - trigger: "omk2"
+    label: "Ombro: Calcificações justainsercionais (entesopatia)"
+    replace: Tendinopatia do supraespinhal, destacando-se diminutas calcificações lineares justainsercionais, inferindo entesopatia.
+    word: true
+
+  - trigger: "omk3"
+    label: "Ombro: Tendinopatia calcária com sombra acústica"
+    replace: Tendinopatia calcária do supraespinhal caracterizada por depósito cálcico, determinando sombra acústica posterior, localizada nas fibras bursais e posteriores, medindo cerca de _ x _ cm.
+    word: true
+
+  - trigger: "omk4"
+    label: "Ombro: Tendinopatia calcária em reabsorção (sem sombra)"
+    replace: Tendinopatia calcária do infraespinhal caracterizada por depósito cálcico, sem sombra acústica posterior, localizada nas fibras bursais e posteriores, medindo cerca de _ x _ cm. Achado que pode corresponder à tendinopatia calcária em fase de reabsorção.
+    word: true
+
+  - trigger: "omk5"
+    label: "Ombro: Migração calcária óssea"
+    replace: Associam-se sinais de migração calcária intraóssea caracterizada por descontinuidade focal da cortical óssea.
+    word: true
+
+  - trigger: "omk6"
+    label: "Ombro: Migração calcária bursal"
+    replace: Associam-se sinais de migração calcária intrabursal com focos ecogênicos no interior da bursa subacromial.
+    word: true
+
+  - trigger: "omk7"
+    label: "Ombro: Migração calcária muscular"
+    replace: Associam-se sinais de migração calcária junto à transição miotendínea com alterações inflamatórias circunjacentes.
+    word: true
+
+  # --- Ombro: manguito rotador — pós-operatório ---
+
+  - trigger: "omp1"
+    label: "Ombro: Pós-op do supraespinhal — heterogêneo"
+    replace: Alterações pós-operatórias do supraespinhal caracterizadas por ecotextura heterogênea e discretas irregularidades tendíneas, sem francas transfixações ou desinserções.
+    word: true
+
+  - trigger: "omp2"
+    label: "Ombro: Pós-op do supraespinhal — afilamento"
+    replace: Alterações pós-operatórias do supraespinhal, com irregularidade dos contornos e afilamento das fibras anteriores, sem nítidas transfixações ou desinserções.
+    word: true
+
+  - trigger: "omp3"
+    label: "Ombro: Pós-op do manguito — fios de sutura / âncora"
+    replace: Alterações pós-operatórias do manguito rotador caracterizadas por heterogeneidade dos tendões do supraespinhal e infraespinhal, com imagens ecogênicas de permeio (fios de sutura) e irregularidades da tuberosidade maior umeral; provável local de âncora de fixação. Ausência de transfixações ou desinserções.
+    word: true
+
+  - trigger: "omp4"
+    label: "Ombro: Pós-op do manguito — re-rotura"
+    replace: Alterações pós-operatórias do manguito rotador, não sendo caracterizados os tendões do supraespinhal e a transição com o infraespinhal, com extensão de _ cm, provavelmente relacionado a re-rotura.
+    word: true
+
+  # --- Ombro: músculos ---
+
+  - trigger: "oms1"
+    label: "Ombro: Ventres musculares normais"
+    replace: Ventres musculares com ecogenicidade habitual e arquitetura fibrilar preservada.
+    word: true
+
+  - trigger: "oms2"
+    label: "Ombro: Hipotrofia discreta do supraespinhal"
+    replace: Discreta hipotrofia do ventre muscular do supraespinhal com estrias adiposas de permeio.
+    word: true
+
+  - trigger: "oms3"
+    label: "Ombro: Hipotrofia e lipossubstituição (ventre _)"
+    replace: Sinais de hipotrofia e lipossubstituição do ventre muscular do _.
+    word: true
+
+  - trigger: "oms4"
+    label: "Ombro: Lipossubstituição do redondo menor (neuropatia axilar)"
+    replace: Hipotrofia e lipossubstituição do ventre muscular do redondo menor, podendo estar relacionado à denervação por neuropatia axilar.
+    word: true
+
+  - trigger: "oms5"
+    label: "Ombro: Coleção cística intramuscular (infraespinhal)"
+    replace: Líquido de permeio ao músculo do infraespinhal, adquirindo configuração cística, que se estende por cerca de _ cm, com espessura de _ cm.
+    word: true
+
+  # --- Ombro: derrame ---
+
+  - trigger: "omd1"
+    label: "Ombro: Sem derrame articular"
+    replace: Ausência de líquido nos recessos articulares visibilizados pelo método.
+    word: true
+
+  - trigger: "omd2"
+    label: "Ombro: Pequeno derrame articular"
+    replace: Pequena quantidade de líquido no recesso subescapular e bicipital, configurando pequeno derrame articular.
+    word: true
+
+  - trigger: "omd3"
+    label: "Ombro: Derrame articular glenoumeral"
+    replace: Derrame articular glenoumeral.
+    word: true
+
+  - trigger: "omd4"
+    label: "Ombro: Derrame com extensão às bursas (via rotura)"
+    replace: Sinais de derrame articular com extensão de líquido para as bursas subacromial-subdeltoidea e subcoracoide, através da rotura do manguito rotador descrita acima.
+    word: true
+
+  # --- Ombro: estruturas ósseas ---
+
+  - trigger: "omo1"
+    label: "Ombro: Irregularidades corticais da tuberosidade maior"
+    replace: Irregularidades corticais da tuberosidade maior.
+    word: true
+
+  - trigger: "omo2"
+    label: "Ombro: Cistos subcorticais da tuberosidade maior"
+    replace: Irregularidades corticais com cistos subcorticais na tuberosidade maior umeral.
+    word: true
+
+  - trigger: "omo3"
+    label: "Ombro: Cistos subcorticais (entesopatia)"
+    replace: Irregularidades corticais com cistos subcorticais na tuberosidade maior umeral, indicando entesopatia.
+    word: true
+
+  - trigger: "omo4"
+    label: "Ombro: Lesão de Hill-Sachs"
+    replace: Impactação óssea com irregularidades corticais no contorno posterolateral do terço superior da cabeça umeral, medindo cerca de _ x _ x _ cm (transverso x crânio-caudal x profundidade), compatível com lesão de Hill-Sachs.
+    word: true
+
+  - trigger: "omo5"
+    label: "Ombro: Fratura da tuberosidade maior"
+    replace: Sinais de descontinuidade da cortical óssea da tuberosidade maior umeral, provavelmente relacionado a fratura, sendo necessário prosseguimento da propedêutica.
+    word: true
+
+  - trigger: "omo6"
+    label: "Ombro: Artropatia degenerativa glenoumeral"
+    replace: Sinais de artropatia degenerativa glenoumeral com reação osteofitária marginal, afilamento condral e derrame articular.
+    word: true
+
+  # --- Ombro: artropatia do manguito rotador ---
+
+  - trigger: "omar1"
+    label: "Ombro: Redução do espaço subacromial"
+    replace: Importante redução do espaço subacromial.
+    word: true
+
+  - trigger: "omar2"
+    label: "Ombro: Achatamento do sulco bicipital"
+    replace: Proeminentes irregularidades corticais com achatamento do sulco bicipital e perda da morfologia habitual da tuberosidade maior umeral.
+    word: true
+
+  - trigger: "omar3"
+    label: "Ombro: Rotura completa supra + infra com hipotrofia"
+    replace: Rotura transfixante de extensão completa dos tendões do supraespinhal e infraespinhal com sinais de hipotrofia e lipossubstituição de seus ventres musculares. Cotos tendíneos não caracterizados.
+    word: true
+
+  - trigger: "omar4"
+    label: "Ombro: Artropatia degenerativa acromioclavicular e glenoumeral"
+    replace: Sinais de artropatia degenerativa acromioclavicular e glenoumeral com reação osteofitária marginal.
+    word: true
+
+  - trigger: "omar5"
+    label: "Ombro: Deltoide normal"
+    replace: Músculo deltoide com trofismo preservado.
+    word: true
+
+  - trigger: "omar6"
+    label: "Ombro: Lipossubstituição do deltoide"
+    replace: Sinais de hipotrofia e lipossubstituição do músculo deltoide.
+    word: true
+
+  - trigger: "omar7"
+    label: "Ombro: Deltoide — hipotrofia acentuada e deiscência"
+    replace: Importante hipotrofia e lipossubstituição do músculo deltoide, com acentuado afilamento da origem miotendínea na face lateral da espinha da escápula, observando-se ainda sinais de deiscência que se estende por _ cm.
+    word: true
+
+  # --- Ombro: capsulite ---
+
+  - trigger: "omcap1"
+    label: "Ombro: Limitação de rotação externa (capsulite adesiva)"
+    replace: Limitação da amplitude de movimento do ombro, principalmente da rotação externa, dificultando a avaliação do tendão do subescapular. Achados clínicos que podem corresponder à capsulite adesiva.
+    word: true
+
+  - trigger: "omcap2"
+    label: "Ombro: Limitação de passagem subacromial (capsulite)"
+    replace: Durante as manobras dinâmicas de abdução do braço foi observada limitação da passagem do tendão do supraespinhal pelo espaço subacromial. Achado que, apesar de inespecífico, pode estar relacionado a capsulite.
+    word: true
+
+  - trigger: "omcap3"
+    label: "Ombro: Espessamento do ligamento coracoumeral (capsulite)"
+    replace: Sinais de espessamento do ligamento coracoumeral. Achado que pode estar associado à capsulite adesiva.
+    word: true
+
+  # --- Ombro: instabilidade ---
+
+  - trigger: "omin1"
+    label: "Ombro: Cisto paralabral (incisura espinoglenoidal)"
+    replace: Imagem com características císticas localizada na incisura espinoglenoidal, com aparente colo de comunicação com o lábio glenoidal, medindo cerca de _ x _ x _ cm, provavelmente relacionado a cisto paralabral. Recomendável correlação com a ressonância magnética (caso não haja contraindicação) para melhor caracterização dos achados.
+    word: true
+
+  - trigger: "omin2"
+    label: "Ombro: Neuropatia compressiva do nervo supraescapular"
+    replace: Associam-se sinais de hipotrofia e lipossubstituição dos ventres musculares do supraespinhal e infraespinhal, podendo corresponder a neuropatia compressiva do nervo supraescapular.
+    word: true
+
+  - trigger: "omin3"
+    label: "Ombro: Instabilidade glenoumeral (manobra dinâmica)"
+    replace: Aumento da mobilidade da cabeça umeral em relação à glenoide durante as manobras dinâmicas, que pode corresponder a instabilidade glenoumeral.
     word: true
 
   - trigger: "co1"
