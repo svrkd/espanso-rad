@@ -1352,6 +1352,454 @@ matches:
     word: true
 
   # ==============================================================================
+  # OBSTÉTRICA — SNC FETAL
+  # ==============================================================================
+
+  - trigger: "ob3"
+    label: "Obstétrica — SNC: polo cefálico normal (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Estruturas intracranianas normais, não sendo evidenciadas dilatações do sistema ventricular.
+    word: true
+
+  - trigger: "ob3c"
+    label: "Obstétrica — SNC: polo cefálico normal (conclusão)"
+    replace: Polo cefálico de aspecto ecográfico habitual.
+    word: true
+
+  - trigger: "ob4"
+    label: "Obstétrica — SNC: hidranencefalia (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Presença de imagem cística ocupando a loja dos hemisférios cerebrais, não sendo caracterizado córtex cerebral ao presente exame. Foice cerebral localizada na linha média. Tálamos e estruturas da fossa posterior aparentemente de aspecto habitual.
+    word: true
+
+  - trigger: "ob4c"
+    label: "Obstétrica — SNC: hidranencefalia (conclusão)"
+    replace: Achados ecográficos compatíveis com hidranencefalia.
+    word: true
+
+  - trigger: "ob5"
+    label: "Obstétrica — SNC: teratoma intracraniano (achado descritivo)"
+    replace: A calota craniana foi visibilizada com forma e dimensões normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Presença de massa heterogênea de composição sólido-cística, deslocando e distorcendo a arquitetura cerebral normal, com fluxo vascular de permeio ao Doppler colorido.
+    word: true
+
+  - trigger: "ob5c"
+    label: "Obstétrica — SNC: teratoma intracraniano (conclusão)"
+    replace: Massa heterogênea intracraniana que pode corresponder a teratoma. Sugere-se complementação da investigação com ressonância magnética para melhor definição do achado.
+    word: true
+
+  - trigger: "ob6"
+    label: "Obstétrica — SNC: cisto aracnoide (linha média) (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Presença de imagem cística de contornos regulares, localizada na linha média inter-hemisférica, sem fluxo interno ao Doppler colorido, medindo _ x _ mm.
+    word: true
+
+  - trigger: "ob6c"
+    label: "Obstétrica — SNC: cisto aracnoide (linha média) (conclusão)"
+    replace: Cisto inter-hemisférico sugestivo de cisto aracnoide.
+    word: true
+
+  - trigger: "ob7"
+    label: "Obstétrica — SNC: espinha bífida com Chiari II (achado descritivo)"
+    replace: |-
+      Calota craniana atípica, com depressão bilateral em topografia correspondente à sutura coronal ("crânio em forma de limão"). Associa-se dilatação simétrica dos ventrículos laterais, com átrios medindo _ mm à direita e _ mm à esquerda. O cerebelo encontra-se herniado e rechaçado contra o forame magno e com forma alterada ("cerebelo em forma de banana"). A cisterna magna encontra-se obliterada. Observa-se disrafismo espinhal em região lombossacral.
+    word: true
+
+  - trigger: "ob7c"
+    label: "Obstétrica — SNC: espinha bífida com Chiari II (conclusão)"
+    replace: Achados ecográficos compatíveis com espinha bífida aberta (meningocele) associada a malformação de Chiari tipo II.
+    word: true
+
+  - trigger: "ob8"
+    label: "Obstétrica — SNC: cisto de plexo coroide (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Estruturas intracranianas normais, não sendo evidenciadas dilatações do sistema ventricular. No plexo coroide esquerdo observa-se formação cística única, compatível com cisto de plexo coroide, medindo cerca de _ mm.
+    word: true
+
+  - trigger: "ob8c"
+    label: "Obstétrica — SNC: cisto de plexo coroide (conclusão)"
+    replace: Cisto de plexo coroide à esquerda.
+    word: true
+
+  - trigger: "ob9"
+    label: "Obstétrica — SNC: aneurisma da veia de Galeno (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Na região da linha média supratentorial observa-se estrutura anecoica alongada, com fluxo vascular turbulento, de alta velocidade e baixa impedância acústica, deslocando estruturas adjacentes, medindo cerca de _ x _ mm na varredura axial.
+    word: true
+
+  - trigger: "ob9c"
+    label: "Obstétrica — SNC: aneurisma da veia de Galeno (conclusão)"
+    replace: Aneurisma da veia de Galeno.
+    word: true
+
+  - trigger: "ob10"
+    label: "Obstétrica — SNC: cisto aracnoide (convexidade) (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. No espaço subaracnóideo, na convexidade do hemisfério cerebral esquerdo, observa-se imagem anecoica simples, arredondada, sem fluxo interno ao Doppler colorido, medindo _ x _ mm e deslocando as estruturas adjacentes.
+    word: true
+
+  - trigger: "ob10c"
+    label: "Obstétrica — SNC: cisto aracnoide (convexidade) (conclusão)"
+    replace: Imagem cística adjacente ao hemisfério cerebral esquerdo sugestiva de cisto aracnoide.
+    word: true
+
+  - trigger: "ob11"
+    label: "Obstétrica — SNC: esquizencefalia (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Observa-se, em hemisfério cerebral direito/esquerdo, imagem anecoica em forma de fenda, medindo _ x _ mm, sem vascularização ao mapeamento com Doppler colorido.
+    word: true
+
+  - trigger: "ob11c"
+    label: "Obstétrica — SNC: esquizencefalia (conclusão)"
+    replace: Imagem cística em forma de fenda em hemisfério cerebral, compatível com esquizencefalia.
+    word: true
+
+  - trigger: "ob12"
+    label: "Obstétrica — SNC: holoprosencefalia semilobar (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Observa-se ventrículo cerebral único, com esboço de hemisférios cerebrais restritos à porção occipital do cérebro. Os tálamos têm aspecto pouco típico, aparentemente com fusão parcial. Pedúnculos cerebrais, ponte, bulbo e cerebelo têm aspectos normais.
+    word: true
+
+  - trigger: "ob12c"
+    label: "Obstétrica — SNC: holoprosencefalia semilobar (conclusão)"
+    replace: Achados ecográficos sugestivos de holoprosencefalia semilobar. Sugere-se, a critério clínico, prosseguimento da investigação com neurossonografia e ressonância magnética.
+    word: true
+
+  - trigger: "ob13"
+    label: "Obstétrica — SNC: holoprosencefalia alobar (achado descritivo)"
+    replace: "A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Observa-se ventrículo cerebral único, sem hemisférios cerebrais identificáveis. Os tálamos têm aspecto pouco típico, aparentemente com fusão parcial. Fossa posterior, pedúnculos cerebrais, ponte, bulbo e cerebelo têm aspectos normais. Alterações da face (podem estar presentes ou não): globo ocular único (ciclopia), narina única (probóscide) e descontinuidade mediana (ou bilateral) lábio-palatina."
+    word: true
+
+  - trigger: "ob13c"
+    label: "Obstétrica — SNC: holoprosencefalia alobar (conclusão)"
+    replace: Achados ecográficos compatíveis com holoprosencefalia alobar associada a ciclopia, probóscide e fenda lábio-palatina mediana/bilateral. Sugere-se, a critério clínico, prosseguimento da investigação com neurossonografia e ressonância magnética.
+    word: true
+
+  - trigger: "ob14"
+    label: "Obstétrica — SNC: agenesia do corpo caloso (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Nas varreduras axiais e coronais do crânio não foi caracterizado o cavum do septo pelúcido. Associa-se alargamento da fissura inter-hemisférica e afastamento dos cornos anteriores dos ventrículos laterais. Há leve dilatação dos ventrículos laterais, mais proeminente nos cornos posteriores, com átrios medindo _ mm à direita e _ mm à esquerda. Em corte sagital mediano do encéfalo, o corpo caloso não é visibilizado e, ao estudo complementar com Doppler, a artéria pericalosa não é caracterizada em seu trajeto habitual.
+    word: true
+
+  - trigger: "ob14c"
+    label: "Obstétrica — SNC: agenesia do corpo caloso (conclusão)"
+    replace: Achados ecográficos compatíveis com agenesia do corpo caloso. Sugere-se, a critério clínico, seguimento da investigação diagnóstica com ressonância magnética após 32 semanas de idade gestacional.
+    word: true
+
+  - trigger: "ob15"
+    label: "Obstétrica — SNC: megacisterna magna (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Estruturas intracranianas normais, não sendo evidenciadas dilatações significativas dos ventrículos laterais. Na fossa posterior observa-se cisterna magna com dimensões aumentadas (_ mm). Em corte sagital mediano do cérebro, observa-se tronco cerebral íntegro, com quarto ventrículo de aspecto ultrassonográfico normal e vérmis cerebelar com aspecto e dimensões normais.
+    word: true
+
+  - trigger: "ob15c"
+    label: "Obstétrica — SNC: megacisterna magna (conclusão)"
+    replace: Achados ecográficos compatíveis com megacisterna magna, sem alterações do vérmis cerebelar identificáveis no presente exame.
+    word: true
+
+  - trigger: "ob16"
+    label: "Obstétrica — SNC: cisto da bolsa de Blake (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Estruturas intracranianas normais, não sendo evidenciadas dilatações significativas dos ventrículos laterais. Na fossa posterior observa-se cisterna magna com dimensões normais e o cerebelo apresenta aspecto de fenda em corte axial. Na avaliação sagital, o vérmis cerebelar encontra-se aparentemente íntegro, porém com sua porção inferior discretamente rodada posterior e cranialmente.
+    word: true
+
+  - trigger: "ob16c"
+    label: "Obstétrica — SNC: cisto da bolsa de Blake (conclusão)"
+    replace: Cisto da bolsa de Blake.
+    word: true
+
+  - trigger: "ob17"
+    label: "Obstétrica — SNC: malformação de Dandy-Walker (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Estruturas intracranianas com dilatação significativa dos ventrículos laterais, com átrios medindo _ mm à direita e _ mm à esquerda. Na fossa posterior observa-se cisterna magna alargada (_ mm), associada a agenesia total do vérmis cerebelar, com dilatação cística do quarto ventrículo, ambos avaliados em cortes suboccipito-bregmático e sagital mediano do cérebro.
+    word: true
+
+  - trigger: "ob17c"
+    label: "Obstétrica — SNC: malformação de Dandy-Walker (conclusão)"
+    replace: Malformação de Dandy-Walker.
+    word: true
+
+  - trigger: "ob18"
+    label: "Obstétrica — SNC: agenesia do corpo caloso (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Cavum do septo pelúcido e corpo caloso não visibilizados, observando-se expansão dorsal do 3º ventrículo, formando pequeno cisto inter-hemisférico, e fissura inter-hemisférica alargada. Há leve dilatação dos ventrículos laterais, mais proeminente nos cornos posteriores (colpocefalia), com átrios medindo _ mm à direita e _ mm à esquerda. Em corte sagital mediano do encéfalo, o corpo caloso não é visibilizado.
+    word: true
+
+  - trigger: "ob18c"
+    label: "Obstétrica — SNC: agenesia do corpo caloso (conclusão)"
+    replace: Agenesia do corpo caloso.
+    word: true
+
+  - trigger: "ob19"
+    label: "Obstétrica — SNC: encefalocele occipital (achado descritivo)"
+    replace: Observa-se, em região occipital, descontinuidade da tábua óssea, medindo _ mm, através da qual protrui conteúdo encefálico. O sistema ventricular cerebral encontra-se dilatado, com átrios dos ventrículos laterais medindo _ mm à direita e _ mm à esquerda. A fronte fetal é achatada.
+    word: true
+
+  - trigger: "ob19c"
+    label: "Obstétrica — SNC: encefalocele occipital (conclusão)"
+    replace: Encefalocele occipital.
+    word: true
+
+  - trigger: "ob20"
+    label: "Obstétrica — SNC: anencefalia (achado descritivo)"
+    replace: A calota craniana e o encéfalo não são observados. Parênquima cerebral restrito à base do crânio, com completa desorganização estrutural.
+    word: true
+
+  - trigger: "ob20c"
+    label: "Obstétrica — SNC: anencefalia (conclusão)"
+    replace: Anencefalia.
+    word: true
+
+  - trigger: "ob21"
+    label: "Obstétrica — SNC: Chiari tipo II (achado descritivo)"
+    replace: |-
+      A calota craniana foi visibilizada com dimensões normais e sem solução de continuidade aparentes. Apresenta forma atípica, com depressão em topografia correspondente à sutura coronal ("crânio em forma de limão"). Sua ecogenicidade é própria para a atual idade gestacional. Observa-se dilatação simétrica dos ventrículos laterais, com átrio medindo aproximadamente _ mm. Na fossa posterior observa-se obliteração da cisterna magna e o cerebelo encontra-se rechaçado em direção ao forame magno ("cerebelo em forma de banana").
+    word: true
+
+  - trigger: "ob21c"
+    label: "Obstétrica — SNC: Chiari tipo II (conclusão)"
+    replace: Malformação de Chiari tipo II.
+    word: true
+
+  - trigger: "ob22"
+    label: "Obstétrica — SNC: ventriculomegalia (achado descritivo)"
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparentes. Sua ecogenicidade é própria para a atual idade gestacional. Observa-se dilatação simétrica dos ventrículos laterais, com o átrio direito medindo _ mm e o átrio esquerdo medindo _ mm. As demais estruturas intracranianas encontram-se aparentemente preservadas.
+    word: true
+
+  - trigger: "ob22c"
+    label: "Obstétrica — SNC: ventriculomegalia (conclusão)"
+    replace: Ventriculomegalia simétrica.
+    word: true
+
+  - trigger: "ob23"
+    label: "Obstétrica — SNC: anencefalia (2º trimestre) (achado descritivo)"
+    replace: Varreduras no plano coronal demonstram ausência de calota craniana e de parênquima cerebral identificável acima das órbitas.
+    word: true
+
+  - trigger: "ob23c"
+    label: "Obstétrica — SNC: anencefalia (2º trimestre) (conclusão)"
+    replace: Achados ecográficos compatíveis com anencefalia.
+    word: true
+
+  - trigger: "ob24"
+    label: "Obstétrica — SNC: lipoma pericaloso (achado descritivo)"
+    replace: Segmento cefálico apresentando formação hiperecogênica, sólida, bem delimitada, localizada na linha média inter-hemisférica, nas proximidades do corpo caloso, medindo _ x _ x _ cm.
+    word: true
+
+  - trigger: "ob24c"
+    label: "Obstétrica — SNC: lipoma pericaloso (conclusão)"
+    replace: Lipoma pericaloso.
+    word: true
+
+  # ==============================================================================
+  # OBSTÉTRICA — FACE E PESCOÇO FETAL
+  # ==============================================================================
+
+  - trigger: "ob25"
+    label: "Obstétrica — Face/Pescoço: fenda labial (achado descritivo)"
+    replace: Visualiza-se solução de continuidade do lábio superior esquerdo, sem aparente comprometimento do palato associado à lesão labial.
+    word: true
+
+  - trigger: "ob25c"
+    label: "Obstétrica — Face/Pescoço: fenda labial (conclusão)"
+    replace: Achados ecográficos compatíveis com fenda labial à esquerda, sem aparente comprometimento do palato.
+    word: true
+
+  - trigger: "ob26"
+    label: "Obstétrica — Face/Pescoço: dacriocistocele (achado descritivo)"
+    replace: Visualiza-se imagem cística na região medial da órbita esquerda, possivelmente associada a obstrução da via lacrimal, com subsequente dilatação do saco lacrimal, medindo _ mm.
+    word: true
+
+  - trigger: "ob26c"
+    label: "Obstétrica — Face/Pescoço: dacriocistocele (conclusão)"
+    replace: Achados ecográficos compatíveis com dacriocistocele à esquerda.
+    word: true
+
+  # ==============================================================================
+  # OBSTÉTRICA — TÓRAX FETAL
+  # ==============================================================================
+
+  - trigger: "ob27"
+    label: "Obstétrica — Tórax: hérnia diafragmática congênita à esquerda (achado descritivo)"
+    replace: Observa-se bolha gástrica e alças intestinais preenchendo o hemitórax esquerdo, promovendo desvio do mediastino e do eixo cardíaco para a direita. A área do pulmão direito, ao nível do corte de quatro câmaras cardíacas, é de _ mm². A relação pulmão/cabeça é de _. Observa-se / Não é observado derrame cavitário, espessamento de pele e subcutâneo.
+    word: true
+
+  - trigger: "ob27c"
+    label: "Obstétrica — Tórax: hérnia diafragmática congênita à esquerda (conclusão)"
+    replace: Hérnia diafragmática congênita aparentemente isolada à esquerda, contendo estômago e alças intestinais, com relação pulmão/cabeça de _.
+    word: true
+
+  - trigger: "ob28"
+    label: "Obstétrica — Tórax: hidrotórax unilateral (achado descritivo)"
+    replace: Hemitórax direito preenchido por acentuada quantidade de conteúdo anecoico, promovendo redução volumétrica do pulmão ipsilateral e desvio mediastinal e do eixo cardíaco, com compressão do pulmão contralateral. Associa-se edema de pele e da tela subcutânea.
+    word: true
+
+  - trigger: "ob28c"
+    label: "Obstétrica — Tórax: hidrotórax unilateral (conclusão)"
+    replace: Hidrotórax acentuado à direita associado a desvio mediastinal e edema subcutâneo.
+    word: true
+
+  - trigger: "ob29"
+    label: "Obstétrica — Tórax: hidrotórax bilateral (achado descritivo)"
+    replace: Hemitórax direito e esquerdo preenchidos por moderada quantidade de conteúdo anecoico, promovendo redução volumétrica dos pulmões. Associa-se edema de pele e da tela subcutânea.
+    word: true
+
+  - trigger: "ob29c"
+    label: "Obstétrica — Tórax: hidrotórax bilateral (conclusão)"
+    replace: Hidrotórax moderado bilateral associado a edema subcutâneo.
+    word: true
+
+  - trigger: "ob30"
+    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo III (achado descritivo)"
+    replace: Observa-se, em topografia de pulmão direito, massa ecogênica de aspecto sólido, sem cistos identificáveis ao exame, que promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da massa e a circunferência craniana (CC) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
+    word: true
+
+  - trigger: "ob30c"
+    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo III (conclusão)"
+    replace: Lesão pulmonar de aspecto sólido sugestiva de malformação adenomatoide cística (MAC), com relação MAC/CC de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
+    word: true
+
+  - trigger: "ob31"
+    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II (achado descritivo)"
+    replace: Observa-se, em topografia de pulmão esquerdo, massa heterogênea caracterizada por formação sólido-cística, com componente sólido ecogênico e cistos de permeio, medindo o maior cerca de _ x _ cm. A massa promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da massa e a circunferência craniana (CC) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
+    word: true
+
+  - trigger: "ob31c"
+    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II (conclusão)"
+    replace: Lesão pulmonar sólido-cística sugestiva de malformação adenomatoide cística (MAC), com relação MAC/CC de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
+    word: true
+
+  - trigger: "ob32"
+    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo I (achado descritivo)"
+    replace: Observa-se, em topografia de pulmão direito, massa heterogênea caracterizada por formação sólido-cística, com componente sólido ecogênico e cistos de permeio, medindo o maior cerca de _ x _ cm. A massa promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da massa e a circunferência craniana (CC) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
+    word: true
+
+  - trigger: "ob32c"
+    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo I (conclusão)"
+    replace: Lesão pulmonar sólido-cística sugestiva de malformação adenomatoide cística (MAC), com relação MAC/CC de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
+    word: true
+
+  # ==============================================================================
+  # OBSTÉTRICA — PRIMEIRO TRIMESTRE
+  # ==============================================================================
+
+  - trigger: "ob33"
+    label: "Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio) (achado descritivo)"
+    replace: Saco gestacional localizado em cavidade uterina, com contornos regulares e paredes bem formadas, medindo _ x _ x _ mm, com diâmetro médio de _ mm. Não se observam áreas de descolamento ovular ou hematomas subcoriais. Embrião não caracterizado ao presente exame. Presença de imagem cística anecoica no interior do saco gestacional, que pode representar vesícula vitelínica hidrópica ou âmnio vazio.
+    word: true
+
+  - trigger: "ob33c"
+    label: "Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio) (conclusão)"
+    replace: Gestação tópica, com idade gestacional estimada em _ semanas e _ dias pela biometria do saco gestacional, sem sinais de viabilidade gestacional.
+    word: true
+
+  - trigger: "ob34"
+    label: "Obstétrica — 1º trimestre: gestação inviável (embrião sem BCE) (achado descritivo)"
+    replace: No interior do saco gestacional observa-se embrião único, com comprimento cabeça-nádega (CCN) de _ mm. Atividade cardíaca ausente.
+    word: true
+
+  - trigger: "ob34c"
+    label: "Obstétrica — 1º trimestre: gestação inviável (embrião sem BCE) (conclusão)"
+    replace: Gestação tópica, com idade gestacional estimada em _ semanas e _ dias pela biometria do embrião (CCN), sem sinais de vitalidade embrionária (gestação inviável).
+    word: true
+
+  - trigger: "ob35"
+    label: "Obstétrica — 1º trimestre: gestação inviável (saco gestacional em expulsão) (achado descritivo)"
+    replace: Saco gestacional localizado em cavidade uterina, com contornos regulares e paredes bem formadas, ultrapassando o orifício interno do colo uterino e estendendo-se ao canal cervical. Mede _ x _ x _ mm, com diâmetro médio de _ mm. Não se observam áreas de descolamento ovular ou hematomas subcoriais. No interior do saco gestacional observa-se embrião único, com comprimento cabeça-nádega (CCN) de _ mm. Atividade cardíaca ausente. Vesícula vitelínica de aspecto não habitual.
+    word: true
+
+  - trigger: "ob35c"
+    label: "Obstétrica — 1º trimestre: gestação inviável (saco gestacional em expulsão) (conclusão)"
+    replace: Gestação única, com idade gestacional estimada em _ semanas e _ dias, sem sinais de vitalidade embrionária (gestação inviável).
+    word: true
+
+  - trigger: "ob36"
+    label: "Obstétrica — 1º trimestre: restos ovulares (produtos retidos da concepção) (achado descritivo)"
+    replace: Presença de material heterogêneo em cavidade uterina, predominantemente ecogênico, com espessura de até _ cm, que ao Doppler complementar apresenta fluxo vascular de permeio de alta velocidade e baixa impedância.
+    word: true
+
+  - trigger: "ob36c"
+    label: "Obstétrica — 1º trimestre: restos ovulares (produtos retidos da concepção) (conclusão)"
+    replace: Os achados ecográficos, em correlação com os dados clínicos, são compatíveis com produtos retidos da concepção.
+    word: true
+
+  - trigger: "ob37"
+    label: "Obstétrica — 1º trimestre: restos ovulares vs doença trofoblástica gestacional (achado descritivo)"
+    replace: Presença de material heterogêneo e amorfo em cavidade uterina, apresentando áreas císticas de permeio, com espessura de até _ cm, que ao Doppler complementar apresenta importante fluxo vascular de alta velocidade e baixa impedância.
+    word: true
+
+  - trigger: "ob37c"
+    label: "Obstétrica — 1º trimestre: restos ovulares vs doença trofoblástica gestacional (conclusão)"
+    replace: Os achados ecográficos, em correlação com os dados clínicos, admitem entre os diagnósticos diferenciais produtos retidos da concepção e doença trofoblástica gestacional.
+    word: true
+
+  - trigger: "ob38"
+    label: "Obstétrica — 1º trimestre: gestação ectópica tubária (achado descritivo)"
+    replace: Massa ecogênica em região anexial esquerda, localizada entre o útero e o ovário _, medindo cerca de _ x _ x _ cm, que ao estudo com Doppler complementar apresenta fluxo vascular anelar e baixa impedância ao Doppler espectral.
+    word: true
+
+  - trigger: "ob38c"
+    label: "Obstétrica — 1º trimestre: gestação ectópica tubária (conclusão)"
+    replace: Os achados ecográficos, em correlação com os dados clínicos e laboratoriais, são sugestivos de gestação ectópica à _.
+    word: true
+
+  - trigger: "ob39"
+    label: "Obstétrica — 1º trimestre: gestação ectópica em cicatriz de cesárea (achado descritivo)"
+    replace: Saco gestacional contendo embrião sem sinais de vitalidade, localizado em parede corporal anteroinferior do útero, projetado em mais da metade da espessura miometrial. O diâmetro médio do saco gestacional foi de _ mm e o CCN de _ mm. Cavidade uterina e canal cervical sem anormalidades.
+    word: true
+
+  - trigger: "ob39c"
+    label: "Obstétrica — 1º trimestre: gestação ectópica em cicatriz de cesárea (conclusão)"
+    replace: Os achados ecográficos são sugestivos de gestação ectópica em cicatriz de cesárea.
+    word: true
+
+  - trigger: "ob40"
+    label: "Obstétrica — 1º trimestre: gestação ectópica tubária rota (achado descritivo)"
+    replace: "Massa heterogênea em região anexial à _, medindo cerca de _ x _ x _ cm, que ao estudo com Doppler complementar apresenta fluxo vascular com baixa impedância (IR: _). Presença de moderada quantidade de líquido livre, com conteúdo espesso caracterizado por ecos de baixa amplitude em seu interior."
+    word: true
+
+  - trigger: "ob40c"
+    label: "Obstétrica — 1º trimestre: gestação ectópica tubária rota (conclusão)"
+    replace: Os achados ecográficos, em correlação com os dados clínicos e laboratoriais, são sugestivos de gestação ectópica à _ com hemoperitônio.
+    word: true
+
+  - trigger: "ob41"
+    label: "Obstétrica — 1º trimestre: gestação ectópica com embrião vivo (achado descritivo)"
+    replace: Sinais de gestação ectópica em região anexial à _, caracterizada por saco gestacional contendo vesícula vitelínica e embrião vivo, apresentando comprimento cabeça-nádega (CCN) de _ mm e batimentos cardíacos de _ bpm.
+    word: true
+
+  - trigger: "ob41c"
+    label: "Obstétrica — 1º trimestre: gestação ectópica com embrião vivo (conclusão)"
+    replace: Os achados ecográficos são compatíveis com gestação ectópica à esquerda, apresentando embrião com sinais de vitalidade. A idade gestacional estimada pelo CCN é de _ semanas e _ dias.
+    word: true
+
+  - trigger: "ob42"
+    label: "Obstétrica — 1º trimestre: gestação ectópica tubária (anel tubário) (achado descritivo)"
+    replace: Massa heterogênea em região anexial à _, caracterizada por espessamento ecogênico periférico associado a centro anecoico, medindo cerca de _ x _ x _ cm, que ao estudo com Doppler complementar apresenta fluxo vascular periférico.
+    word: true
+
+  - trigger: "ob42c"
+    label: "Obstétrica — 1º trimestre: gestação ectópica tubária (anel tubário) (conclusão)"
+    replace: Os achados ecográficos, em correlação com os dados clínicos e laboratoriais, são sugestivos de gestação ectópica à _.
+    word: true
+
+  - trigger: "ob43"
+    label: "Obstétrica — 1º trimestre: mola hidatiforme parcial (achado descritivo)"
+    replace: Saco gestacional localizado no fundo da cavidade uterina, com contornos regulares e paredes bem formadas, medindo _ x _ x _ mm. Não se observam áreas de descolamento ovular ou hematomas subcoriais. No interior do saco gestacional observa-se massa placentária amorfa e de volume aumentado, localizada em parede anterior, apresentando áreas císticas de permeio. Observa-se embrião único, com comprimento cabeça-nádega (CCN) de _ mm. Atividade cardíaca ausente.
+    word: true
+
+  - trigger: "ob43c"
+    label: "Obstétrica — 1º trimestre: mola hidatiforme parcial (conclusão)"
+    replace: Gestação tópica inicial de aproximadamente _ semanas e _ dias pela biometria embrionária. Ausência de vitalidade embrionária associada a aumento volumétrico e degeneração cística placentária. Tais achados, em conjunto, podem representar gestação molar.
+    word: true
+
+  - trigger: "ob44"
+    label: "Obstétrica — 1º trimestre: mola hidatiforme completa (achado descritivo)"
+    replace: Massa intrauterina complexa, medindo _ x _ x _ cm, formada por múltiplas pequenas imagens císticas de permeio.
+    word: true
+
+  - trigger: "ob44c"
+    label: "Obstétrica — 1º trimestre: mola hidatiforme completa (conclusão)"
+    replace: Os achados ecográficos, em correlação com os dados clínicos e laboratoriais, são sugestivos de mola hidatiforme completa.
+    word: true
+
+  - trigger: "ob45"
+    label: "Obstétrica — 1º trimestre: acrania/exencefalia (1º trimestre) (achado descritivo)"
+    replace: A calota craniana não é observada e o encéfalo é amorfo, desorganizado e rudimentar, flutuando no líquido amniótico.
+    word: true
+
+  - trigger: "ob45c"
+    label: "Obstétrica — 1º trimestre: acrania/exencefalia (1º trimestre) (conclusão)"
+    replace: Os achados ecográficos são compatíveis com sequência acrania/exencefalia.
+    word: true
+
+  # ==============================================================================
   # MAMAS E LINFONODOS AXILARES
   # ==============================================================================
 
