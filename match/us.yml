@@ -2569,6 +2569,360 @@ matches:
     replace: Sinais de instabilidade glenoumeral.
     word: true
 
+  # --- Mão: cistos gangliônicos ---
+
+  - trigger: "moc1"
+    label: "Mão: Cisto gangliônico junto à polia A2"
+    replace: Imagem arredondada / ovalada de contornos bem definidos, conteúdo anecoico e reforço acústico posterior, sem vascularização ao Doppler, com paredes finas e lisas, compatível com cisto gangliônico, medindo _ cm, localizada adjacente à polia A2 do _ dedo.
+    word: true
+
+  - trigger: "moc1c"
+    label: "Mão: Cisto gangliônico junto à polia A2 do _ dedo (conclusão)"
+    replace: Cisto gangliônico junto à polia A2 do _ dedo.
+    word: true
+
+  - trigger: "moc2"
+    label: "Mão: Cisto gangliônico dorsal (interfalângica)"
+    replace: Imagem com características císticas na região dorsal ao nível da falange distal do _ dedo, adjacente à articulação interfalângica, compatível com cisto gangliônico.
+    word: true
+
+  - trigger: "moc2c"
+    label: "Mão: Cisto gangliônico dorsal da interfalângica distal do _ dedo (conclusão)"
+    replace: Cisto gangliônico dorsal da interfalângica distal do _ dedo.
+    word: true
+
+  # --- Mão: tumores / nódulos ---
+
+  - trigger: "mot1"
+    label: "Mão: Tumor de células gigantes da bainha tendínea"
+    replace: Na região nodular referida pelo paciente, observa-se imagem nodular sólida de contornos lobulados e bem definidos, apresentando ecotextura finamente heterogênea, com discreta vascularização ao Doppler, medindo _ cm, em íntimo contato com a bainha dos tendões flexores do _ dedo, ao nível da face volar da falange _. Esta lesão determina discreto abaulamento sobre o feixe neural e vascular adjacente, sem nítidas compressões.
+    word: true
+
+  - trigger: "mot1c"
+    label: "Mão: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Conveniente prosseguimento da propedêutica e correlação histopatológica (conclusão)"
+    replace: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Conveniente prosseguimento da propedêutica e correlação histopatológica.
+    word: true
+
+  - trigger: "mot2"
+    label: "Mão: Nódulo inespecífico"
+    replace: Na região nodular referida pelo paciente, observa-se imagem nodular sólida de contornos lobulados e bem definidos, apresentando ecotextura heterogênea, medindo _ cm, localizada _. Esta lesão determina discreto abaulamento sobre o feixe neural e vascular adjacente, sem nítidas compressões.
+    word: true
+
+  - trigger: "mot2c"
+    label: "Mão: Imagem nodular sólida de características inespecíficas (conclusão)"
+    replace: Imagem nodular sólida de características inespecíficas.
+    word: true
+
+  - trigger: "mot3"
+    label: "Mão: Nódulo no trajeto do feixe neural (add-on)"
+    replace: Esta lesão está localizada no trajeto do feixe neural digital.
+    word: true
+
+  - trigger: "mot4"
+    label: "Mão: Nódulo envolvendo o feixe vascular (add-on)"
+    replace: Esta lesão determina envolvimento circunferencial do feixe vascular na região radial e volar do dedo.
+    word: true
+
+  - trigger: "mot5"
+    label: "Mão: Tumor glômico"
+    replace: Imagem nodular, hipoecogênica, de contornos regulares, com fluxo ao Doppler, medindo _ x _ cm, localizada no leito ungueal do _ dedo, associada a irregularidade óssea da falange distal.
+    word: true
+
+  - trigger: "mot5c"
+    label: "Mão: Imagem nodular no leito ungueal do _ dedo; considerar tumor glômico (conclusão)"
+    replace: Imagem nodular no leito ungueal do _ dedo; considerar tumor glômico.
+    word: true
+
+  - trigger: "mot6"
+    label: "Mão: Tumor glômico oculto"
+    replace: Na região dolorosa referida pelo paciente, observa-se discreta irregularidade óssea da falange distal do _ dedo quando comparada ao lado contralateral, não se podendo descartar diminuto tumor glômico na topografia.
+    word: true
+
+  - trigger: "mot6c"
+    label: "Mão: Irregularidade óssea da falange distal do _ dedo, não se podendo descartar diminuto tumor glômico (conclusão)"
+    replace: Irregularidade óssea da falange distal do _ dedo, não se podendo descartar diminuto tumor glômico.
+    word: true
+
+  # --- Mão: fibromatose palmar ---
+
+  - trigger: "mof1"
+    label: "Mão: Fibromatose palmar (Dupuytren)"
+    replace: Espessamento nodular hipoecogênico da aponeurose palmar ao nível do quarto metacarpo (região nodular referida pelo paciente), medindo _ cm, sugestivo de fibromatose palmar (Dupuytren).
+    word: true
+
+  - trigger: "mof1c"
+    label: "Mão: Fibromatose palmar (Dupuytren) (conclusão)"
+    replace: Fibromatose palmar (Dupuytren).
+    word: true
+
+  - trigger: "mof2"
+    label: "Mão: Fibromatose palmar com retração"
+    replace: Espessamento nodular hipoecogênico entre a pele e os tendões flexores, na topografia da aponeurose palmar ao nível do quarto metacarpo (região nodular referida pelo paciente), medindo _ cm, determinando retração com atitude em flexão do respectivo quirodáctilo, sugestivo de fibromatose palmar (Dupuytren).
+    word: true
+
+  - trigger: "mof2c"
+    label: "Mão: Fibromatose palmar (Dupuytren) com retração (conclusão)"
+    replace: Fibromatose palmar (Dupuytren) com retração.
+    word: true
+
+  # --- Mão: rizartrose ---
+
+  - trigger: "mor1"
+    label: "Mão: Rizartrose discreta"
+    replace: Discreta artropatia degenerativa carpometacarpal do primeiro dedo caracterizada por pequena osteofitose marginal.
+    word: true
+
+  - trigger: "mor1c"
+    label: "Mão: Sinais de rizartrose (conclusão)"
+    replace: Sinais de rizartrose.
+    word: true
+
+  - trigger: "mor2"
+    label: "Mão: Rizartrose acentuada"
+    replace: Acentuada artropatia degenerativa carpometacarpal do primeiro dedo caracterizada por osteofitose marginal, afilamento condral e derrame articular com sinovite.
+    word: true
+
+  - trigger: "mor2c"
+    label: "Mão: Sinais de rizartrose (conclusão)"
+    replace: Sinais de rizartrose.
+    word: true
+
+  # --- Mão: sinovite ---
+
+  - trigger: "mos1"
+    label: "Mão: Espessamento sinovial sem Doppler"
+    replace: Espessamento sinovial da articulação _, sem vascularização ao estudo Doppler.
+    word: true
+
+  - trigger: "mos1c"
+    label: "Mão: Espessamento sinovial da articulação _ (conclusão)"
+    replace: Espessamento sinovial da articulação _.
+    word: true
+
+  - trigger: "mos2"
+    label: "Mão: Sinovite com atividade ao Doppler"
+    replace: Espessamento sinovial da articulação _, indicando sinovite (GS _). Destaca-se a vascularização ao Power Doppler (PD _), inferindo atividade inflamatória.
+    word: true
+
+  - trigger: "mos2c"
+    label: "Mão: Sinovite da articulação _ (conclusão)"
+    replace: Sinovite da articulação _.
+    word: true
+
+  - trigger: "mos3"
+    label: "Mão: Artropatia inflamatória com erosões"
+    replace: Sinais de artropatia inflamatória da articulação _, caracterizada por erosões ósseas marginais e acentuado espessamento sinovial com vascularização ao estudo Doppler, indicando sinovite.
+    word: true
+
+  - trigger: "mos3c"
+    label: "Mão: Sinovite da articulação _ (conclusão)"
+    replace: Sinovite da articulação _.
+    word: true
+
+  # --- Mão: tenossinovite dos flexores ---
+
+  - trigger: "motn1"
+    label: "Mão: Tenossinovite dos flexores"
+    replace: Tenossinovite dos flexores do segundo dedo caracterizada por distensão líquida e espessamento parietal da bainha tendínea, sem alterações tendíneas significativas.
+    word: true
+
+  - trigger: "motn1c"
+    label: "Mão: Tenossinovite dos flexores (conclusão)"
+    replace: Tenossinovite dos flexores.
+    word: true
+
+  - trigger: "motn2"
+    label: "Mão: Tenossinovite e tendinopatia dos flexores"
+    replace: Tenossinovite e tendinopatia dos flexores do segundo dedo caracterizada por distensão líquida e espessamento da bainha tendínea associados a espessamento dos tendões, sem roturas.
+    word: true
+
+  - trigger: "motn2c"
+    label: "Mão: Tenossinovite e tendinopatia dos flexores, sem sinais de rotura (conclusão)"
+    replace: Tenossinovite e tendinopatia dos flexores, sem sinais de rotura.
+    word: true
+
+  # --- Mão: polia A1 / dedo em gatilho ---
+
+  - trigger: "mop1"
+    label: "Mão: Espessamento da polia A1"
+    replace: Mínimo espessamento da polia A1 (metacarpofalângica) do segundo dedo, quando comparada ao lado contralateral.
+    word: true
+
+  - trigger: "mop1c"
+    label: "Mão: Espessamento da polia A1 do segundo dedo. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)"
+    replace: Espessamento da polia A1 do segundo dedo. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico.
+    word: true
+
+  - trigger: "mop2"
+    label: "Mão: Dedo em gatilho"
+    replace: Espessamento da polia A1 (metacarpofalângica) do segundo dedo, com sinais de ressalto tendíneo neste nível durante as manobras de flexo-extensão do quirodáctilo.
+    word: true
+
+  - trigger: "mop2c"
+    label: "Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)"
+    replace: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico.
+    word: true
+
+  - trigger: "mop3"
+    label: "Mão: Dedo em gatilho com tenossinovite estenosante"
+    replace: Sinais de tenossinovite estenosante dos flexores do segundo dedo caracterizada por espessamento da polia A1 (metacarpofalângica), associado a tendinopatia e tenossinovite dos flexores, com sinais de ressalto durante as manobras dinâmicas de flexão-extensão.
+    word: true
+
+  - trigger: "mop3c"
+    label: "Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)"
+    replace: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico.
+    word: true
+
+  - trigger: "mop4"
+    label: "Mão: Dedo em gatilho com atitude em flexão"
+    replace: Atitude em flexão do polegar. Ao exame ultrassonográfico observa-se espessamento da polia A1 (metacarpofalângica).
+    word: true
+
+  - trigger: "mop4c"
+    label: "Mão: Sinais ecográficos de dedo em gatilho (conclusão)"
+    replace: Sinais ecográficos de dedo em gatilho.
+    word: true
+
+  # --- Mão: ligamento colateral ulnar do polegar ---
+
+  - trigger: "mol1"
+    label: "Mão: Estiramento do colateral ulnar do polegar"
+    replace: Discreto halo hipoecogênico circundando o ligamento colateral ulnar da metacarpofalângica do polegar, inferindo estiramento, sem transfixações ou desinserções.
+    word: true
+
+  - trigger: "mol2"
+    label: "Mão: Lesão parcial do colateral ulnar do polegar"
+    replace: Lesão parcial do ligamento colateral ulnar da metacarpofalângica do polegar caracterizada por espessamento e redução da ecogenicidade, sem transfixações ou desinserções. Associa-se edema das partes moles adjacentes.
+    word: true
+
+  - trigger: "mol3"
+    label: "Mão: Lesão de alto grau do colateral ulnar do polegar"
+    replace: Lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar, observando-se pequeno fragmento ósseo avulsivo, medindo _ cm, adjacente à falange proximal, não sendo caracterizada nítida interposição da aponeurose adutora junto à área de rotura.
+    word: true
+
+  - trigger: "mol3c"
+    label: "Mão: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar. A relevância desse achado depende da correlação com os dados clínicos e exame físico (conclusão)"
+    replace: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar. A relevância desse achado depende da correlação com os dados clínicos e exame físico.
+    word: true
+
+  - trigger: "mol4"
+    label: "Mão: Lesão de alto grau com interposição da aponeurose"
+    replace: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar, com aparente interposição parcial da aponeurose adutora.
+    word: true
+
+  - trigger: "mol4c"
+    label: "Mão: Sinais de lesão de alto grau do ligamento colateral ulnar do polegar, com interposição parcial da aponeurose adutora (conclusão)"
+    replace: Sinais de lesão de alto grau do ligamento colateral ulnar do polegar, com interposição parcial da aponeurose adutora.
+    word: true
+
+  - trigger: "mol5"
+    label: "Mão: Lesão de Stener"
+    replace: Sinais de rotura completa do ligamento colateral ulnar da metacarpofalângica do polegar, com desinserção falângica e retração proximal, destacando-se interposição da aponeurose adutora na área de rotura, compatível com lesão de Stener.
+    word: true
+
+  - trigger: "mol5c"
+    label: "Mão: Lesão de Stener (rotura do ligamento colateral ulnar do polegar) (conclusão)"
+    replace: Lesão de Stener (rotura do ligamento colateral ulnar do polegar).
+    word: true
+
+  # --- Mão: trauma do complexo extensor ---
+
+  - trigger: "moe1"
+    label: "Mão: Estiramento do complexo extensor"
+    replace: Edema circundando a banda central / terminal junto à inserção na falange média / distal do _ dedo, caracterizando estiramento, sem francas roturas.
+    word: true
+
+  - trigger: "moe1c"
+    label: "Mão: Sinais de estiramento do complexo extensor (conclusão)"
+    replace: Sinais de estiramento do complexo extensor.
+    word: true
+
+  - trigger: "moe2"
+    label: "Mão: Rotura parcial do complexo extensor"
+    replace: Rotura parcial da banda central / terminal junto à inserção na falange média / distal do _ dedo caracterizada por aumento da espessura e redução da ecogenicidade, sem nítidas transfixações ou desinserções.
+    word: true
+
+  - trigger: "moe2c"
+    label: "Mão: Sinais de rotura parcial do complexo extensor (conclusão)"
+    replace: Sinais de rotura parcial do complexo extensor.
+    word: true
+
+  - trigger: "moe3"
+    label: "Mão: Rotura completa do complexo extensor"
+    replace: Rotura completa com desinserção da banda central / terminal junto à inserção na falange média / distal do _ dedo, com retração proximal, medindo _ cm.
+    word: true
+
+  - trigger: "moe3c"
+    label: "Mão: Sinais de rotura completa do complexo extensor (conclusão)"
+    replace: Sinais de rotura completa do complexo extensor.
+    word: true
+
+  - trigger: "moe4"
+    label: "Mão: Rotura do complexo extensor com avulsão óssea"
+    replace: Sinais de rotura do complexo extensor do _ dedo caracterizada por espessamento e edema ao nível da banda central / terminal junto à inserção na falange média / distal do _ dedo, observando-se fragmento avulsivo, medindo _ cm.
+    word: true
+
+  - trigger: "moe4c"
+    label: "Mão: Sinais de rotura completa do complexo extensor, com avulsão óssea (conclusão)"
+    replace: Sinais de rotura completa do complexo extensor, com avulsão óssea.
+    word: true
+
+  # --- Mão: trauma dos flexores ---
+
+  - trigger: "mofx1"
+    label: "Mão: Rotura aguda do flexor superficial"
+    replace: Rotura transfixante do tendão flexor superficial do segundo dedo, estando o coto tendíneo proximal localizado ao nível do colo metacarpal e o coto tendíneo distal ao nível da interfalângica proximal, com gap / diástase tendínea estimada em _ cm.
+    word: true
+
+  - trigger: "mofx1c"
+    label: "Mão: Sinais de rotura transfixante aguda do tendão flexor superficial do segundo dedo (conclusão)"
+    replace: Sinais de rotura transfixante aguda do tendão flexor superficial do segundo dedo.
+    word: true
+
+  - trigger: "mofx2"
+    label: "Mão: Rotura crônica do flexor superficial"
+    replace: Rotura transfixante do tendão flexor superficial do segundo dedo, estando o coto tendíneo proximal localizado ao nível do colo metacarpal e o coto tendíneo distal ao nível da interfalângica proximal, com diástase estimada em _ cm, observando-se tecido fibrocicatricial irregular na área de rotura.
+    word: true
+
+  - trigger: "mofx2c"
+    label: "Mão: Sinais de rotura transfixante crônica do tendão flexor superficial do segundo dedo (conclusão)"
+    replace: Sinais de rotura transfixante crônica do tendão flexor superficial do segundo dedo.
+    word: true
+
+  # --- Mão: polia A2 / placa volar ---
+
+  - trigger: "mopv1"
+    label: "Mão: Rotura da polia A2"
+    replace: Sinais de rotura da polia A2 caracterizada por aumento da distância entre o tendão flexor e a cortical óssea durante a manobra de flexão.
+    word: true
+
+  - trigger: "mopv1c"
+    label: "Mão: Rotura da polia A2 (conclusão)"
+    replace: Rotura da polia A2.
+    word: true
+
+  - trigger: "mopv2"
+    label: "Mão: Rotura da placa volar"
+    replace: Sinais de rotura com má definição da inserção falangiana da placa volar da articulação interfalângica do segundo dedo, com retração proximal estimada em _ cm.
+    word: true
+
+  - trigger: "mopv2c"
+    label: "Mão: Rotura da placa volar da interfalângica do segundo dedo (conclusão)"
+    replace: Rotura da placa volar da interfalângica do segundo dedo.
+    word: true
+
+  # --- Mão: corpo estranho ---
+
+  - trigger: "moce1"
+    label: "Mão: Corpo estranho"
+    replace: Imagem linear hiperecogênica, medindo _ cm, localizada no tecido celular subcutâneo na região referida pelo paciente, com pequena quantidade de líquido circunjacente, provavelmente relacionado a corpo estranho, levando em consideração os dados da história clínica. Não foram caracterizadas lesões do tendão ou feixe neurovascular adjacente.
+    word: true
+
+  - trigger: "moce1c"
+    label: "Mão: Corpo estranho no tecido celular subcutâneo (conclusão)"
+    replace: Corpo estranho no tecido celular subcutâneo.
+    word: true
+
   # --- Cotovelo: técnica ---
 
   - trigger: "cot1"
