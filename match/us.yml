@@ -752,7 +752,7 @@ matches:
     word: true
 
   # ==============================================================================
-  # PÉLVICA GINECOLÓGICA, TRANSVAGINAL E OBSTÉTRICA
+  # PÉLVICA GINECOLÓGICA E TRANSVAGINAL
   # ==============================================================================
 
   - trigger: "ustv"
@@ -776,129 +776,6 @@ matches:
 
       Conclusão:
       Achados ultrassonográficos dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "usob1t"
-    label: Obstétrica, 1º trimestre — normal
-    replace: |-
-      ULTRASSONOGRAFIA TRANSVAGINAL – 1° TRIMESTRE DE GESTAÇÃO
-
-      Técnica:
-      Exame ultrassonográfico realizado com equipamento endocavitário multifrequencial, por via transvaginal.
-
-      Descrição:
-      Útero gravídico em anteversoflexão (AVF), medindo _ cm, com volume de _ cm³, apresentando em sua região fúndica saco gestacional normoimplantado que mediu _ cm, com DMS de _ mm, contendo embrião único, ativo, cujo CCN foi de _ cm.
-      Vesícula vitelínica visualizada.
-      Frequência cardíaca em torno de _ batimentos por minuto (bpm).
-      Ovário direito em topografia, morfologia, contornos e dimensões normais. Parênquima com ecotextura habitual.
-      Medidas do ovário direito: _ cm (volume: _ cm³).
-      Ovário esquerdo em topografia, morfologia, contornos e dimensões normais. Parênquima com ecotextura habitual.
-      Medidas do ovário esquerdo: _ cm (volume: _ cm³).
-
-      Conclusão:
-      Gestação tópica, única, compatível com _ semanas e _ dias, dado pelo CCN (erro de +/- _ dias).
-
-      < ou = 8s + 6d - erro de 5 dias
-      9sem até 15sem + 6d - erro 7 dias
-      16sem até 21sem + 6d - erro 10 dias
-      22sem até 27sem + 6d - erro 14 dias
-      > ou = 28sem - 21d - erro 21 dias
-    word: true
-
-  - trigger: "usob"
-    label: Obstétrica — normal
-    replace: |-
-      ULTRASSONOGRAFIA OBSTÉTRICA
-
-      Técnica:
-      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, por via transabdominal em tempo real, com Modo B.
-
-      Descrição:
-      Feto único, em situação longitudinal, com apresentação _ e dorso à _ da linha média.
-      O feto apresenta sinais vitais presentes, representados por movimentação ativa e batimentos cardíacos presentes. Frequência cardíaca em torno de _ batimentos por minuto (bpm).
-
-      BIOMETRIA FETAL:
-      Diâmetro biparietal medindo _ cm.
-      Circunferência cefálica medindo _ cm.
-      Circunferência abdominal medindo _ cm.
-      Comprimento femoral fetal medindo _ cm.
-      Peso fetal: _ gramas (variação de +/- 15%). Percentil _ para a idade gestacional.
-
-      Cordão umbilical contendo três vasos.
-
-      Placenta de inserção _, não se estendendo até o segmento inferior do útero. Grau _ de maturidade (Grannum).
-
-      Líquido amniótico em aspecto e quantidade normal (Maior bolsão vertical _ cm).
-
-      Conclusão:
-      Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia, (erro +/- _ dias).
-      Feto crescendo no percentil _ para a idade gestacional.
-
-      Obs.: A ultrassonografia obstétrica tem como finalidade a determinação do posicionamento fetal e da placenta, avaliação quantitativa do líquido amniótico e biometria fetal. O estudo da morfologia fetal é realizado na ultrassonografia morfológica.
-
-
-      < ou = 8s + 6d - erro de 5 dias
-      9sem até 15sem + 6d - erro 7 dias
-      16sem até 21sem + 6d - erro 10 dias
-      22sem até 27sem + 6d - erro 14 dias
-      > ou = 28sem - 21d - erro 21 dias
-
-      Grau 0 até à 18ª semana, Placenta homogênea e sem calcificação. 
-      Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
-      Grau 2 entre a 30ª e 38ª semana, Placenta com calcificações na placa basal.
-      Grau 3 por volta da 39ª semana, Placenta com calcificação da placa basal à coriônica.
-    word: true
-
-  - trigger: "usobd"
-    label: Obstétrica com Doppler — normal
-    replace: |-
-      ULTRASSONOGRAFIA OBSTÉTRICA COM DOPPLER
-
-      Técnica:
-      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, por via transabdominal em tempo real, com Modo B, Doppler colorido e Doppler Triplex.
-
-      Descrição:
-      Feto único, em situação longitudinal, com apresentação _ e dorso à _ da linha média.
-      O feto apresenta sinais vitais presentes, representados por movimentação ativa e batimentos cardíacos presentes. Frequência cardíaca em torno de _ batimentos por minuto (bpm).
-
-      BIOMETRIA FETAL:
-      Diâmetro biparietal medindo _ cm.
-      Circunferência cefálica medindo _ cm.
-      Circunferência abdominal medindo _ cm.
-      Comprimento femoral fetal medindo _ cm.
-      Peso fetal: _ gramas (variação de +/- 15%). Percentil _ para a idade gestacional.
-
-      Cordão umbilical com inserção fetal e placentária preservadas. Presença de 2 artérias e uma veia.
-
-      Placenta de inserção _, não se estendendo até o segmento inferior do útero. Grau _ de maturidade (Grannum).
-
-      Líquido amniótico com aspecto e quantidade normal (ILA = _ / Maior bolsão vertical _ cm).
-
-      DOPPLER OBSTÉTRICO:
-      As artérias cerebrais médias apresentam fluxo de padrão habitual para a fase da gestação, com:
-       IR = _. IP = _.
-      Artérias umbilicais com onda de padrão normal e adequado fluxo diastólico para a fase da gestação:
-       IR = _. IP = _.
-      A relação cérebro-umbilical não evidencia fenômeno de centralização hemodinâmica fetal:
-       IPC / IPU = _.
-
-      Conclusão:
-      Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia, (erro +/- _ dias).
-      Feto crescendo no percentil _ para a idade gestacional.
-      Estudo Doppler-sonográfico dentro da normalidade para a fase da gestação.
-
-      Obs.: A ultrassonografia obstétrica tem como finalidade a determinação do posicionamento fetal e da placenta, avaliação quantitativa do líquido amniótico e biometria fetal. O estudo da morfologia fetal é realizado na ultrassonografia morfológica.
-
-      < ou = 8s + 6d - erro de 5 dias
-      9sem até 15sem + 6d - erro 7 dias
-      16sem até 21sem + 6d - erro 10 dias
-      22sem até 27sem + 6d - erro 14 dias
-      > ou = 28sem - 21d - erro 21 dias
-
-      Grau 0 até à 18ª semana, Placenta homogênea e sem calcificação. 
-      Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
-      Grau 2 entre a 30ª e 38ª semana, Placenta com calcificações na placa basal.
-      Grau 3 por volta da 39ª semana, Placenta com calcificação da placa basal à coriônica.
     word: true
 
   - trigger: "uspelvica"
@@ -1195,46 +1072,6 @@ matches:
     replace: Fina lâmina anecoica no interior da cavidade uterina, podendo corresponder a muco e/ou sangue.
     word: true
 
-  - trigger: "usrestos"
-    label: "Cavidade uterina: restos ovulares/coágulos (achado descritivo)"
-    replace: Material heterogêneo, sem fluxo ao estudo Doppler, na transição do corpo e colo uterino, medindo _ cm, com volume de _ cm³, podendo corresponder a restos ovulares e/ou coágulos.
-    word: true
-
-  - trigger: "usrestosc"
-    label: "Cavidade uterina (restos ovulares): Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos..."
-    replace: Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos ovulares e/ou coágulos.
-    word: true
-
-  - trigger: "ut11"
-    label: "Cavidade uterina: restos ovulares/coágulos (achado descritivo)"
-    replace: Material heterogêneo, sem fluxo ao estudo Doppler, na transição do corpo e colo uterino, medindo _ cm, com volume de _ cm³, podendo corresponder a restos ovulares e/ou coágulos.
-    word: true
-
-  - trigger: "ut11c"
-    label: "Cavidade uterina (restos ovulares): Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos..."
-    replace: Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos ovulares e/ou coágulos.
-    word: true
-
-  - trigger: "hretro"
-    label: "Obstétrica: hematoma retrocoriônico (achado descritivo)"
-    replace: Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.
-    word: true
-
-  - trigger: "hretroc"
-    label: "Obstétrica (hematoma retrocoriônico): Imagem adjacente ao saco gestacional, com características sugestivas de hematoma..."
-    replace: Imagem adjacente ao saco gestacional, com características sugestivas de hematoma retrocoriônico.
-    word: true
-
-  - trigger: "ut12"
-    label: "Obstétrica: hematoma retrocoriônico (achado descritivo)"
-    replace: Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.
-    word: true
-
-  - trigger: "ut12c"
-    label: "Obstétrica (hematoma retrocoriônico): Imagem adjacente ao saco gestacional, com características sugestivas de hematoma..."
-    replace: Imagem adjacente ao saco gestacional, com características sugestivas de hematoma retrocoriônico.
-    word: true
-
   - trigger: "sop"
     label: "Ovário (síndrome dos ovários policísticos): Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas"
     replace: Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas. A possibilidade da síndrome dos ovários policísticos deve ser considerada se dados clínicos e laboratoriais compatíveis.
@@ -1345,6 +1182,173 @@ matches:
   - trigger: "ut13c"
     label: "Colo uterino (cisto de Naboth): Cisto de Naboth"
     replace: Cisto de Naboth.
+    word: true
+
+  # ==============================================================================
+  # OBSTÉTRICA
+  # ==============================================================================
+
+  - trigger: "usob1t"
+    label: Obstétrica, 1º trimestre — normal
+    replace: |-
+      ULTRASSONOGRAFIA TRANSVAGINAL – 1° TRIMESTRE DE GESTAÇÃO
+
+      Técnica:
+      Exame ultrassonográfico realizado com equipamento endocavitário multifrequencial, por via transvaginal.
+
+      Descrição:
+      Útero gravídico em anteversoflexão (AVF), medindo _ cm, com volume de _ cm³, apresentando em sua região fúndica saco gestacional normoimplantado que mediu _ cm, com DMS de _ mm, contendo embrião único, ativo, cujo CCN foi de _ cm.
+      Vesícula vitelínica visualizada.
+      Frequência cardíaca em torno de _ batimentos por minuto (bpm).
+      Ovário direito em topografia, morfologia, contornos e dimensões normais. Parênquima com ecotextura habitual.
+      Medidas do ovário direito: _ cm (volume: _ cm³).
+      Ovário esquerdo em topografia, morfologia, contornos e dimensões normais. Parênquima com ecotextura habitual.
+      Medidas do ovário esquerdo: _ cm (volume: _ cm³).
+
+      Conclusão:
+      Gestação tópica, única, compatível com _ semanas e _ dias, dado pelo CCN (erro de +/- _ dias).
+
+      < ou = 8s + 6d - erro de 5 dias
+      9sem até 15sem + 6d - erro 7 dias
+      16sem até 21sem + 6d - erro 10 dias
+      22sem até 27sem + 6d - erro 14 dias
+      > ou = 28sem - 21d - erro 21 dias
+    word: true
+
+  - trigger: "usob"
+    label: Obstétrica — normal
+    replace: |-
+      ULTRASSONOGRAFIA OBSTÉTRICA
+
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, por via transabdominal em tempo real, com Modo B.
+
+      Descrição:
+      Feto único, em situação longitudinal, com apresentação _ e dorso à _ da linha média.
+      O feto apresenta sinais vitais presentes, representados por movimentação ativa e batimentos cardíacos presentes. Frequência cardíaca em torno de _ batimentos por minuto (bpm).
+
+      BIOMETRIA FETAL:
+      Diâmetro biparietal medindo _ cm.
+      Circunferência cefálica medindo _ cm.
+      Circunferência abdominal medindo _ cm.
+      Comprimento femoral fetal medindo _ cm.
+      Peso fetal: _ gramas (variação de +/- 15%). Percentil _ para a idade gestacional.
+
+      Cordão umbilical contendo três vasos.
+
+      Placenta de inserção _, não se estendendo até o segmento inferior do útero. Grau _ de maturidade (Grannum).
+
+      Líquido amniótico em aspecto e quantidade normal (Maior bolsão vertical _ cm).
+
+      Conclusão:
+      Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia, (erro +/- _ dias).
+      Feto crescendo no percentil _ para a idade gestacional.
+
+      Obs.: A ultrassonografia obstétrica tem como finalidade a determinação do posicionamento fetal e da placenta, avaliação quantitativa do líquido amniótico e biometria fetal. O estudo da morfologia fetal é realizado na ultrassonografia morfológica.
+
+
+      < ou = 8s + 6d - erro de 5 dias
+      9sem até 15sem + 6d - erro 7 dias
+      16sem até 21sem + 6d - erro 10 dias
+      22sem até 27sem + 6d - erro 14 dias
+      > ou = 28sem - 21d - erro 21 dias
+
+      Grau 0 até à 18ª semana, Placenta homogênea e sem calcificação. 
+      Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
+      Grau 2 entre a 30ª e 38ª semana, Placenta com calcificações na placa basal.
+      Grau 3 por volta da 39ª semana, Placenta com calcificação da placa basal à coriônica.
+    word: true
+
+  - trigger: "usobd"
+    label: Obstétrica com Doppler — normal
+    replace: |-
+      ULTRASSONOGRAFIA OBSTÉTRICA COM DOPPLER
+
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, por via transabdominal em tempo real, com Modo B, Doppler colorido e Doppler Triplex.
+
+      Descrição:
+      Feto único, em situação longitudinal, com apresentação _ e dorso à _ da linha média.
+      O feto apresenta sinais vitais presentes, representados por movimentação ativa e batimentos cardíacos presentes. Frequência cardíaca em torno de _ batimentos por minuto (bpm).
+
+      BIOMETRIA FETAL:
+      Diâmetro biparietal medindo _ cm.
+      Circunferência cefálica medindo _ cm.
+      Circunferência abdominal medindo _ cm.
+      Comprimento femoral fetal medindo _ cm.
+      Peso fetal: _ gramas (variação de +/- 15%). Percentil _ para a idade gestacional.
+
+      Cordão umbilical com inserção fetal e placentária preservadas. Presença de 2 artérias e uma veia.
+
+      Placenta de inserção _, não se estendendo até o segmento inferior do útero. Grau _ de maturidade (Grannum).
+
+      Líquido amniótico com aspecto e quantidade normal (ILA = _ / Maior bolsão vertical _ cm).
+
+      DOPPLER OBSTÉTRICO:
+      As artérias cerebrais médias apresentam fluxo de padrão habitual para a fase da gestação, com:
+       IR = _. IP = _.
+      Artérias umbilicais com onda de padrão normal e adequado fluxo diastólico para a fase da gestação:
+       IR = _. IP = _.
+      A relação cérebro-umbilical não evidencia fenômeno de centralização hemodinâmica fetal:
+       IPC / IPU = _.
+
+      Conclusão:
+      Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia, (erro +/- _ dias).
+      Feto crescendo no percentil _ para a idade gestacional.
+      Estudo Doppler-sonográfico dentro da normalidade para a fase da gestação.
+
+      Obs.: A ultrassonografia obstétrica tem como finalidade a determinação do posicionamento fetal e da placenta, avaliação quantitativa do líquido amniótico e biometria fetal. O estudo da morfologia fetal é realizado na ultrassonografia morfológica.
+
+      < ou = 8s + 6d - erro de 5 dias
+      9sem até 15sem + 6d - erro 7 dias
+      16sem até 21sem + 6d - erro 10 dias
+      22sem até 27sem + 6d - erro 14 dias
+      > ou = 28sem - 21d - erro 21 dias
+
+      Grau 0 até à 18ª semana, Placenta homogênea e sem calcificação. 
+      Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
+      Grau 2 entre a 30ª e 38ª semana, Placenta com calcificações na placa basal.
+      Grau 3 por volta da 39ª semana, Placenta com calcificação da placa basal à coriônica.
+    word: true
+
+  - trigger: "usrestos"
+    label: "Cavidade uterina: restos ovulares/coágulos (achado descritivo)"
+    replace: Material heterogêneo, sem fluxo ao estudo Doppler, na transição do corpo e colo uterino, medindo _ cm, com volume de _ cm³, podendo corresponder a restos ovulares e/ou coágulos.
+    word: true
+
+  - trigger: "usrestosc"
+    label: "Cavidade uterina (restos ovulares): Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos..."
+    replace: Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos ovulares e/ou coágulos.
+    word: true
+
+  - trigger: "ob1"
+    label: "Cavidade uterina: restos ovulares/coágulos (achado descritivo)"
+    replace: Material heterogêneo, sem fluxo ao estudo Doppler, na transição do corpo e colo uterino, medindo _ cm, com volume de _ cm³, podendo corresponder a restos ovulares e/ou coágulos.
+    word: true
+
+  - trigger: "ob1c"
+    label: "Cavidade uterina (restos ovulares): Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos..."
+    replace: Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos ovulares e/ou coágulos.
+    word: true
+
+  - trigger: "hretro"
+    label: "Obstétrica: hematoma retrocoriônico (achado descritivo)"
+    replace: Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.
+    word: true
+
+  - trigger: "hretroc"
+    label: "Obstétrica (hematoma retrocoriônico): Imagem adjacente ao saco gestacional, com características sugestivas de hematoma..."
+    replace: Imagem adjacente ao saco gestacional, com características sugestivas de hematoma retrocoriônico.
+    word: true
+
+  - trigger: "ob2"
+    label: "Obstétrica: hematoma retrocoriônico (achado descritivo)"
+    replace: Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.
+    word: true
+
+  - trigger: "ob2c"
+    label: "Obstétrica (hematoma retrocoriônico): Imagem adjacente ao saco gestacional, com características sugestivas de hematoma..."
+    replace: Imagem adjacente ao saco gestacional, com características sugestivas de hematoma retrocoriônico.
     word: true
 
   # ==============================================================================
