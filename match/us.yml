@@ -1796,6 +1796,330 @@ matches:
       Pequena/Moderada/Acentuada quantidade de líquido livre anecoico no recesso supra-patelar e/d.
     word: true
 
+  # --- Lesões musculares: classificação por grau ---
+
+  - trigger: "lmg0"
+    label: "Lesão muscular: Exame normal (grau 0)"
+    replace: Ventres musculares com ecogenicidade e arquitetura fibrilar preservadas, sem sinais de lesão.
+    word: true
+
+  - trigger: "lmg1"
+    label: "Lesão muscular: Grau I (edema, sem descontinuidade)"
+    replace: O estudo ecográfico da coxa direita / esquerda demonstra, no terço médio do músculo _, no ventre muscular / plano miofascial / transição miotendínea, aumento da ecogenicidade fibrilar, acometendo _ cm no eixo longitudinal e _ cm no eixo transverso, sem descontinuidade macroscópica detectável ao método.
+    word: true
+
+  - trigger: "lmg1c"
+    label: "Lesão muscular: Sinais ecográficos de edema muscular, sugestivo de estiramento grau I (conclusão)"
+    replace: Sinais ecográficos de edema muscular, sugestivo de estiramento grau I.
+    word: true
+
+  - trigger: "lmg2"
+    label: "Lesão muscular: Grau I (estiramento)"
+    replace: Estiramento da transição miotendínea / plano miofascial / ventre muscular proximal / distal do músculo _, caracterizado por perda do padrão fibrilar habitual, sem nítidas roturas macroscópicas ou desinserções.
+    word: true
+
+  - trigger: "lmg2c"
+    label: "Lesão muscular: Estiramento muscular (grau I) (conclusão)"
+    replace: Estiramento muscular (grau I).
+    word: true
+
+  - trigger: "lmg3"
+    label: "Lesão muscular: Grau II (lesão parcial)"
+    replace: Lesão parcial da transição miotendínea / mioaponeurótica distal do _, caracterizada por área de descontinuidade, medindo cerca de _ x _, nos eixos longitudinal e transverso, respectivamente, acometendo aproximadamente mais / menos que 50% da área de secção transversa. Associa-se conteúdo líquido / hemático na área de rotura.
+    word: true
+
+  - trigger: "lmg3c"
+    label: "Lesão muscular: Lesão muscular parcial (grau II) (conclusão)"
+    replace: Lesão muscular parcial (grau II).
+    word: true
+
+  - trigger: "lmg4"
+    label: "Lesão muscular: Grau II (rotura parcial miofascial)"
+    replace: Rotura parcial do plano miofascial distal do _, caracterizada por área de descontinuidade que se estende por cerca de _ x _ cm, com espessura de _ cm, observando-se pequena coleção líquida / hemática na área de rotura. Associa-se edema das fibras musculares adjacentes e do tecido celular subcutâneo.
+    word: true
+
+  - trigger: "lmg4c"
+    label: "Lesão muscular: Rotura parcial do plano miofascial (grau II) (conclusão)"
+    replace: Rotura parcial do plano miofascial (grau II).
+    word: true
+
+  - trigger: "lmg5"
+    label: "Lesão muscular: Grau III (extensa)"
+    replace: Rotura extensa do músculo _ na transição miotendínea proximal, acometendo mais que 50% da área de secção transversa, com área de descontinuidade que se estende por cerca de _ x _ cm nos eixos longitudinal e transverso, com coleção líquida / hemática na rotura e edema das fibras musculares adjacentes e do tecido celular subcutâneo.
+    word: true
+
+  - trigger: "lmg5c"
+    label: "Lesão muscular: Rotura muscular extensa (grau III) (conclusão)"
+    replace: Rotura muscular extensa (grau III).
+    word: true
+
+  - trigger: "lmg6"
+    label: "Lesão muscular: Grau IV (completa)"
+    replace: Lesão completa com desinserção da origem / inserção dos tendões _, com extenso conteúdo líquido / hemático na área de rotura, estando o coto tendíneo retraído a cerca de _ da tuberosidade _.
+    word: true
+
+  - trigger: "lmg6c"
+    label: "Lesão muscular: Lesão muscular completa (grau IV) (conclusão)"
+    replace: Lesão muscular completa (grau IV).
+    word: true
+
+  - trigger: "lmg7"
+    label: "Lesão muscular: Sugerir correlação com RM"
+    replace: A correlação com a ressonância magnética (caso não haja contraindicação) poderá trazer informações adicionais.
+    word: true
+
+  # --- Lesões musculares: gastrocnêmio medial ---
+
+  - trigger: "lmgm1"
+    label: "Lesão muscular: Estiramento do gastrocnêmio medial"
+    replace: Perda do padrão fibrilar com diminuta descontinuidade focal do perimísio na transição mioaponeurótica distal do gastrocnêmio medial, medindo _ cm, sem coleções adjacentes.
+    word: true
+
+  - trigger: "lmgm1c"
+    label: "Lesão muscular: Estiramento da transição mioaponeurótica distal do gastrocnêmio medial (conclusão)"
+    replace: Estiramento da transição mioaponeurótica distal do gastrocnêmio medial.
+    word: true
+
+  - trigger: "lmgm2"
+    label: "Lesão muscular: Lesão parcial do gastrocnêmio medial"
+    replace: Lesão parcial da transição miotendínea / mioaponeurótica distal do gastrocnêmio medial, caracterizada por área de descontinuidade medindo cerca de _ x _, nos eixos longitudinal e transverso, respectivamente, associada a conteúdo líquido / hemático na área de rotura, além de lâmina líquida entre os planos miofasciais do solear e gastrocnêmio, que se estende até o terço distal da perna.
+    word: true
+
+  - trigger: "lmgm2c"
+    label: "Lesão muscular: Lesão parcial do gastrocnêmio medial (conclusão)"
+    replace: Lesão parcial do gastrocnêmio medial.
+    word: true
+
+  - trigger: "lmgm3"
+    label: "Lesão muscular: Rotura do gastrocnêmio medial"
+    replace: Rotura do gastrocnêmio medial com desinserção mioaponeurótica distal e retração proximal em cerca de _ cm. Associa-se extensa coleção hemática entre o gastrocnêmio medial e o solear, medindo _ x _ cm, nos eixos longitudinal e transverso, respectivamente, com espessura de _ cm.
+    word: true
+
+  - trigger: "lmgm3c"
+    label: "Lesão muscular: Rotura do gastrocnêmio medial com desinserção mioaponeurótica distal (conclusão)"
+    replace: Rotura do gastrocnêmio medial com desinserção mioaponeurótica distal.
+    word: true
+
+  # --- Lesões musculares: reto femoral ---
+
+  - trigger: "lmrf1"
+    label: "Lesão muscular: Rotura da origem do reto femoral"
+    replace: Rotura com desinserção da origem do tendão da cabeça direta / indireta do reto femoral, estando o coto tendíneo retraído a cerca de _ cm da espinha ilíaca anteroinferior / face lateral do acetábulo, com coleção líquida / hemática na área de rotura.
+    word: true
+
+  - trigger: "lmrf1c"
+    label: "Lesão muscular: Rotura com desinserção da origem do reto femoral (conclusão)"
+    replace: Rotura com desinserção da origem do reto femoral.
+    word: true
+
+  - trigger: "lmrf2"
+    label: "Lesão muscular: Estiramento proximal do reto femoral"
+    replace: Estiramento da transição miotendínea proximal do reto femoral com perda do padrão fibrilar na topografia, sem descontinuidade macroscópica.
+    word: true
+
+  - trigger: "lmrf2c"
+    label: "Lesão muscular: Estiramento proximal do reto femoral (conclusão)"
+    replace: Estiramento proximal do reto femoral.
+    word: true
+
+  - trigger: "lmrf3"
+    label: "Lesão muscular: Rotura parcial proximal do reto femoral"
+    replace: Rotura parcial da transição miotendínea proximal do reto femoral com área de descontinuidade que mede cerca de _ x _ cm nos eixos longitudinal e transverso, respectivamente.
+    word: true
+
+  - trigger: "lmrf3c"
+    label: "Lesão muscular: Rotura parcial proximal do reto femoral (conclusão)"
+    replace: Rotura parcial proximal do reto femoral.
+    word: true
+
+  - trigger: "lmrf4"
+    label: "Lesão muscular: Rotura de alto grau do reto femoral"
+    replace: Rotura de alto grau do complexo miotendíneo central do reto femoral com separação do componente bipenado em relação ao componente unipenado circunjacente, envolvendo 100% da circunferência com retração miotendínea central em cerca de _ cm. Coleção líquida / hemática na topografia (lesão em desenluvamento).
+    word: true
+
+  - trigger: "lmrf4c"
+    label: "Lesão muscular: Rotura de alto grau do reto femoral (lesão em desenluvamento) (conclusão)"
+    replace: Rotura de alto grau do reto femoral (lesão em desenluvamento).
+    word: true
+
+  # --- Lesões musculares: quadríceps ---
+
+  - trigger: "lmq1"
+    label: "Lesão muscular: Rotura parcial de alto grau do quadríceps"
+    replace: Rotura parcial de alto grau do tendão quadríceps, com desinserção das camadas superficial e intermédia, estando o coto tendíneo degenerado e retraído a cerca de _ cm do polo superior da patela. O tendão permanece contínuo por feixe de fibras da camada profunda. Associa-se rotura parcial da transição miotendínea distal dos vastos medial e lateral com perda da arquitetura fibrilar.
+    word: true
+
+  - trigger: "lmq1c"
+    label: "Lesão muscular: Rotura parcial de alto grau do tendão quadríceps (conclusão)"
+    replace: Rotura parcial de alto grau do tendão quadríceps.
+    word: true
+
+  # --- Lesões musculares: isquiotibiais ---
+
+  - trigger: "lmis1"
+    label: "Lesão muscular: Lesão completa da origem dos isquiotibiais"
+    replace: Lesão completa com desinserção da origem dos tendões isquiotibiais, com extenso conteúdo líquido / hemático na área de rotura, estando o coto tendíneo retraído a cerca de _ da tuberosidade isquiática.
+    word: true
+
+  - trigger: "lmis1c"
+    label: "Lesão muscular: Lesão completa da origem dos isquiotibiais (conclusão)"
+    replace: Lesão completa da origem dos isquiotibiais.
+    word: true
+
+  - trigger: "lmis2"
+    label: "Lesão muscular: Apofisite da tuberosidade isquiática"
+    replace: Irregularidades e edema da apófise da tuberosidade isquiática junto à topografia da origem comum dos isquiotibiais, quando comparado ao lado contralateral, inferindo apofisite de origem traumática, sem desinserções tendíneas ou franca avulsão óssea, sendo conveniente correlação radiográfica.
+    word: true
+
+  - trigger: "lmis2c"
+    label: "Lesão muscular: Apofisite traumática da tuberosidade isquiática (conclusão)"
+    replace: Apofisite traumática da tuberosidade isquiática.
+    word: true
+
+  # --- Lesões musculares: bíceps femoral ---
+
+  - trigger: "lmbf1"
+    label: "Lesão muscular: Rotura parcial do bíceps femoral"
+    replace: Rotura parcial do plano miofascial distal da cabeça curta do bíceps femoral, caracterizada por área de descontinuidade que se estende por cerca de _ x _ cm, com espessura de _ cm, com pequena coleção líquida / hemática na área de rotura. Associa-se edema das fibras musculares adjacentes e do tecido celular subcutâneo.
+    word: true
+
+  - trigger: "lmbf1c"
+    label: "Lesão muscular: Rotura parcial da cabeça curta do bíceps femoral (conclusão)"
+    replace: Rotura parcial da cabeça curta do bíceps femoral.
+    word: true
+
+  # --- Lesões musculares: adutores ---
+
+  - trigger: "lmad1"
+    label: "Lesão muscular: Rotura extensa do adutor longo"
+    replace: Rotura extensa do adutor longo na transição miotendínea proximal, acometendo mais que 50% da área de secção transversa, com área de descontinuidade que se estende por cerca de _ x _ cm nos eixos longitudinal e transverso, com coleção líquida / hemática na rotura e edema das fibras musculares adjacentes e do tecido celular subcutâneo.
+    word: true
+
+  - trigger: "lmad1c"
+    label: "Lesão muscular: Rotura extensa do adutor longo (conclusão)"
+    replace: Rotura extensa do adutor longo.
+    word: true
+
+  # --- Lesões musculares: bíceps braquial ---
+
+  - trigger: "lmb1"
+    label: "Lesão muscular: Rotura completa distal do bíceps braquial"
+    replace: Rotura completa com desinserção distal do tendão do bíceps braquial. Coto tendíneo de aspecto degenerado e retraído a cerca de _ cm da tuberosidade radial / prega cubital. Observa-se conteúdo líquido / hemático na área de rotura.
+    word: true
+
+  - trigger: "lmb1c"
+    label: "Lesão muscular: Rotura completa distal do bíceps braquial (conclusão)"
+    replace: Rotura completa distal do bíceps braquial.
+    word: true
+
+  - trigger: "lmb2"
+    label: "Lesão muscular: Rotura de alto grau do bíceps braquial distal"
+    replace: Má definição da inserção distal do bíceps braquial, inferindo rotura de alto grau. A correlação com a ressonância magnética poderá trazer informações adicionais.
+    word: true
+
+  - trigger: "lmb2c"
+    label: "Lesão muscular: Rotura de alto grau da inserção distal do bíceps braquial (conclusão)"
+    replace: Rotura de alto grau da inserção distal do bíceps braquial.
+    word: true
+
+  - trigger: "lmb3"
+    label: "Lesão muscular: Rotura parcial distal do bíceps braquial"
+    replace: Rotura parcial do tendão distal do bíceps braquial com acentuado afilamento tendíneo insercional e retração focal das fibras em cerca de _ cm.
+    word: true
+
+  - trigger: "lmb3c"
+    label: "Lesão muscular: Rotura parcial distal do bíceps braquial (conclusão)"
+    replace: Rotura parcial distal do bíceps braquial.
+    word: true
+
+  - trigger: "lmb4"
+    label: "Lesão muscular: Rotura da aponeurose bicipital"
+    replace: Lâmina líquida na topografia da aponeurose bicipital inferindo rotura.
+    word: true
+
+  - trigger: "lmb4c"
+    label: "Lesão muscular: Rotura da aponeurose bicipital (conclusão)"
+    replace: Rotura da aponeurose bicipital.
+    word: true
+
+  # --- Lesões musculares: peitoral maior ---
+
+  - trigger: "lmpm1"
+    label: "Lesão muscular: Estiramento do peitoral maior"
+    replace: Estiramento do ventre muscular do peitoral maior caracterizado por discreta perda do padrão fibrilar, sem descontinuidades macroscópicas.
+    word: true
+
+  - trigger: "lmpm1c"
+    label: "Lesão muscular: Estiramento do peitoral maior (conclusão)"
+    replace: Estiramento do peitoral maior.
+    word: true
+
+  - trigger: "lmpm2"
+    label: "Lesão muscular: Rotura parcial do peitoral maior"
+    replace: Rotura parcial da junção musculotendínea do peitoral maior associada a hematoma intramuscular.
+    word: true
+
+  - trigger: "lmpm2c"
+    label: "Lesão muscular: Rotura parcial do peitoral maior (conclusão)"
+    replace: Rotura parcial do peitoral maior.
+    word: true
+
+  - trigger: "lmpm3"
+    label: "Lesão muscular: Rotura de alto grau do peitoral maior"
+    replace: Rotura de alto grau da junção musculotendínea do peitoral maior com hematoma na área de rotura.
+    word: true
+
+  - trigger: "lmpm3c"
+    label: "Lesão muscular: Rotura de alto grau do peitoral maior (conclusão)"
+    replace: Rotura de alto grau do peitoral maior.
+    word: true
+
+  - trigger: "lmpm4"
+    label: "Lesão muscular: Rotura completa do peitoral maior"
+    replace: Rotura completa com desinserção do tendão peitoral maior, estando o coto tendíneo localizado a cerca de _ cm da inserção umeral, com lâmina líquida / hemática na área de rotura.
+    word: true
+
+  - trigger: "lmpm4c"
+    label: "Lesão muscular: Rotura completa do tendão peitoral maior (conclusão)"
+    replace: Rotura completa do tendão peitoral maior.
+    word: true
+
+  # --- Lesões musculares: controle ---
+
+  - trigger: "lmc1"
+    label: "Lesão muscular: Controle com redução da lesão"
+    replace: Controle de lesão muscular, sendo observada redução das dimensões da lesão em comparação com estudo anterior (datado de _). No entanto, observa-se ainda descontinuidade medindo _.
+    word: true
+
+  - trigger: "lmc2"
+    label: "Lesão muscular: Controle com tecido reparativo organizado"
+    replace: Controle de lesão muscular, observando-se tecido reparativo bem organizado na área de rotura, inclusive com septos de perimísio no interior da lesão, tanto no estudo estático quanto no dinâmico. As fibras são finas, porém inferem boa organização fibrilar.
+    word: true
+
+  # --- Lesões musculares: miosite ossificante ---
+
+  - trigger: "lmo1"
+    label: "Lesão muscular: Miosite ossificante"
+    replace: Imagem hiperecogênica produtora de sombra acústica posterior de permeio ao músculo _, medindo cerca de _ cm, com característica de calcificação / ossificação, podendo corresponder a miosite ossificante, sendo conveniente correlação com outros métodos de imagem para melhor caracterização.
+    word: true
+
+  - trigger: "lmo1c"
+    label: "Lesão muscular: Provável miosite ossificante (conclusão)"
+    replace: Provável miosite ossificante.
+    word: true
+
+  # --- Lesões musculares: alterações crônicas ---
+
+  - trigger: "lmcr1"
+    label: "Lesão muscular: Alterações crônicas fibrocicatriciais"
+    replace: Espessamento fibrocicatricial da transição miotendínea proximal e do terço distal do plano miofascial profundo do reto femoral, de aspecto crônico, sem edema circunjacente.
+    word: true
+
+  - trigger: "lmcr1c"
+    label: "Lesão muscular: Alterações crônicas fibrocicatriciais do reto femoral (conclusão)"
+    replace: Alterações crônicas fibrocicatriciais do reto femoral.
+    word: true
+
   # --- Ombro: técnica ---
 
   - trigger: "omt1"
