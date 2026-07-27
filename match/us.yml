@@ -3938,49 +3938,234 @@ matches:
     replace: Coleção líquida / hemática localizada entre a camada profunda do tecido celular subcutâneo e a fáscia muscular, na região peritrocantérica, medindo cerca de _ x _ x _ cm (longitudinal x transverso x espessura), que, associada aos dados clínicos, é compatível com coleção hemática pós-traumática (Morel-Lavallée).
     word: true
 
-  - trigger: "pe1"
-    label: "Pé/tornozelo: Sinais de fascite plantar à _ (achado descritivo)"
-    replace: Fáscia plantar com espessura aumentada em sua inserção no calcâneo, medindo _ cm (normal < 0,4 cm), associada a hipoecogenicidade textural local.
+  # --- Pé: derrame ---
+
+  - trigger: "pdd1"
+    label: "Pé: Sem derrame articular"
+    replace: Ausência de derrame articular.
     word: true
 
-  - trigger: "pe1c"
-    label: "Pé/tornozelo: Sinais de fascite plantar à _"
-    replace: Sinais de fascite plantar à _.
+  - trigger: "pdd2"
+    label: "Pé: Derrame metatarsofalângico"
+    replace: Pequeno / moderado / acentuado derrame articular na metatarsofalângica do _ dedo.
     word: true
 
-  - trigger: "pe2"
-    label: "Pé/tornozelo: Sinais de tendinopatia do calcâneo à _ (achado descritivo)"
-    replace: Tendão calcâneo com calibre aumentado, medindo _ cm de espessura na zona crítica, associado a hipoecogenicidade textural local, sem sinais de descontinuidade de fibras.
+  - trigger: "pdd2c"
+    label: "Pé: Derrame articular metatarsofalângico (conclusão)"
+    replace: Derrame articular metatarsofalângico.
     word: true
 
-  - trigger: "pe2c"
-    label: "Pé/tornozelo: Sinais de tendinopatia do calcâneo à _"
-    replace: Sinais de tendinopatia do calcâneo à _.
+  - trigger: "pdd3"
+    label: "Pé: Derrame metatarsofalângico com sinovite"
+    replace: Derrame articular com sinovite na metatarsofalângica do _ dedo.
     word: true
 
-  - trigger: "pe3"
-    label: "Pé/tornozelo: Imagem nodular entre o _º e _º metatarsos (achado descritivo)"
-    replace: Imagem nodular sólida, hipoecogênica, entre as cabeças metatarsais _ e _, na topografia do feixe vasculonervoso, extruindo-se à manobra de Mulder, medindo _ cm.
+  - trigger: "pdd3c"
+    label: "Pé: Derrame articular metatarsofalângico com sinovite (conclusão)"
+    replace: Derrame articular metatarsofalângico com sinovite.
     word: true
 
-  - trigger: "pe3c"
-    label: "Pé/tornozelo: Imagem nodular entre o _º e _º metatarsos"
-    replace: Imagem nodular entre o _º e _º metatarsos. Considerar a hipótese de neuroma de Morton.
+  # --- Pé: estruturas ósseas (artrose / Freiberg / fratura MT) ---
+
+  - trigger: "pdo1"
+    label: "Pé: Artrose da metatarsofalângica do hálux"
+    replace: Alterações degenerativas da articulação metatarsofalângica do hálux com osteofitose marginal, afilamento condral e derrame articular. Associa-se espessamento capsuloligamentar medial com alterações císticas subcorticais e irregularidades na face medial da cabeça metatarsal.
     word: true
 
-  - trigger: "pe4"
-    label: "Pé/tornozelo: Sinais de talalgia de impacto à _ (achado descritivo)"
-    replace: Aumento da ecogenicidade do coxim adiposo subcutâneo plantar do calcâneo, com hipoecogenicidade textural da superfície óssea adjacente, medindo _ cm de espessura (normal < 1,5 cm).
+  - trigger: "pdo1c"
+    label: "Pé: Artrose da metatarsofalângica do hálux (conclusão)"
+    replace: Artrose da metatarsofalângica do hálux.
     word: true
 
-  - trigger: "pe4c"
-    label: "Pé/tornozelo: Sinais de talalgia de impacto à _"
-    replace: Sinais de talalgia de impacto à _.
+  - trigger: "pdo2"
+    label: "Pé: Alterações degenerativas do mediopé"
+    replace: Alterações degenerativas do mediopé caracterizadas por osteofitose marginal dorsal.
     word: true
 
-  # ==============================================================================
-  # BOLSA ESCROTAL
-  # ==============================================================================
+  - trigger: "pdo2c"
+    label: "Pé: Alterações degenerativas do mediopé (conclusão)"
+    replace: Alterações degenerativas do mediopé.
+    word: true
+
+  - trigger: "pdo3"
+    label: "Pé: Irregularidades da cabeça do 2º metatarsal"
+    replace: Irregularidades corticais da cabeça metatarsal do segundo dedo, sendo conveniente correlação com estudo radiográfico.
+    word: true
+
+  - trigger: "pdo3c"
+    label: "Pé: Irregularidades corticais da cabeça do segundo metatarsal (correlação radiográfica) (conclusão)"
+    replace: Irregularidades corticais da cabeça do segundo metatarsal (correlação radiográfica).
+    word: true
+
+  - trigger: "pdo4"
+    label: "Pé: Freiberg (fratura subcondral)"
+    replace: Perda da circunferência habitual na região dorsal da cabeça metatarsal do segundo dedo, podendo corresponder a fratura subcondral (Freiberg). Associa-se derrame articular com sinovite e tenossinovite dos flexores.
+    word: true
+
+  - trigger: "pdo4c"
+    label: "Pé: Provável Freiberg (fratura subcondral) do segundo metatarsal (conclusão)"
+    replace: Provável Freiberg (fratura subcondral) do segundo metatarsal.
+    word: true
+
+  - trigger: "pdo5"
+    label: "Pé: Alteração por estresse do 2º metatarso"
+    replace: Edema do tecido celular subcutâneo da região dorsal do pé, destacando-se halo hipoecogênico adjacente à cortical do segundo metatarso ao nível da diáfise, podendo estar relacionado a alteração por estresse / hipersolicitação mecânica. A correlação com a ressonância magnética (caso não haja contraindicação clínica) poderá trazer informações adicionais.
+    word: true
+
+  - trigger: "pdo5c"
+    label: "Pé: Provável alteração por estresse do segundo metatarso (conclusão)"
+    replace: Provável alteração por estresse do segundo metatarso.
+    word: true
+
+  - trigger: "pdo6"
+    label: "Pé: Fratura por estresse do 2º metatarso"
+    replace: Edema do tecido celular subcutâneo da região dorsal do pé, destacando-se descontinuidade da cortical da região diafisária do segundo metatarso, provavelmente relacionado a fratura por estresse ou insuficiência, sendo recomendável correlação com ressonância magnética (caso não haja contraindicação clínica) e exame de densitometria óssea.
+    word: true
+
+  - trigger: "pdo6c"
+    label: "Pé: Provável fratura por estresse / insuficiência do segundo metatarso (conclusão)"
+    replace: Provável fratura por estresse / insuficiência do segundo metatarso.
+    word: true
+
+  # --- Pé: fáscia plantar ---
+
+  - trigger: "pdf1"
+    label: "Pé: Fáscia plantar normal"
+    replace: Fáscia plantar com espessura e ecotextura fibrilar preservada.
+    word: true
+
+  - trigger: "pdf2"
+    label: "Pé: Fasciíte plantar"
+    replace: Fasciíte plantar, caracterizada por espessamento (_ mm) do terço proximal e origem da banda central da fáscia plantar, sem roturas. Associa-se esporão calcâneo plantar.
+    word: true
+
+  - trigger: "pdf2c"
+    label: "Pé: Fasciíte plantar (conclusão)"
+    replace: Fasciíte plantar.
+    word: true
+
+  - trigger: "pdf3"
+    label: "Pé: Fasciopatia plantar crônica"
+    replace: Espessamento de aspecto crônico do terço proximal e origem da fáscia plantar, associado a esporão calcâneo plantar, sem roturas.
+    word: true
+
+  - trigger: "pdf3c"
+    label: "Pé: Fasciopatia plantar crônica (conclusão)"
+    replace: Fasciopatia plantar crônica.
+    word: true
+
+  - trigger: "pdf4"
+    label: "Pé: Fibroma / fibromatose plantar"
+    replace: Espessamento fusiforme da fáscia plantar ao nível do médio pé, junto à nodulação referida pelo paciente, apresentando discreta vascularização ao estudo Doppler, medindo cerca de _ x _ cm, sugestiva de fibroma / fibromatose plantar.
+    word: true
+
+  - trigger: "pdf4c"
+    label: "Pé: Fibroma / fibromatose plantar (conclusão)"
+    replace: Fibroma / fibromatose plantar.
+    word: true
+
+  # --- Pé: neuroma ---
+
+  - trigger: "pdn1"
+    label: "Pé: Sem neuroma digital"
+    replace: Não foram caracterizados neuromas digitais.
+    word: true
+
+  - trigger: "pdn2"
+    label: "Pé: Obliteração de gordura intermetatársica (inconclusivo)"
+    replace: Obliteração da gordura do segundo e terceiro espaços intermetatársicos distais, sem nítidas formações nodulares que permitam afirmar a presença de neuromas digitais. Caso persista a dúvida diagnóstica, é conveniente correlação com a ressonância magnética (caso não haja contraindicação clínica), que poderá trazer informações adicionais.
+    word: true
+
+  - trigger: "pdn3"
+    label: "Pé: Provável neuroma interdigital"
+    replace: Imagem de aspecto nodular no terceiro espaço intermetatársico distal, medindo _ x _ cm (longitudinal x transverso), provavelmente relacionado a neuroma interdigital. Necessária correlação com os dados clínicos para valorização deste achado.
+    word: true
+
+  - trigger: "pdn3c"
+    label: "Pé: Provável neuroma interdigital do terceiro espaço (conclusão)"
+    replace: Provável neuroma interdigital do terceiro espaço.
+    word: true
+
+  - trigger: "pdn4"
+    label: "Pé: Neuroma digital (Mulder positivo)"
+    replace: Neuroma digital no terceiro espaço intermetatársico distal caracterizado por imagem nodular hipoecogênica de contornos regulares, extruindo-se à manobra de Mulder, medindo _ x _ cm (longitudinal x transverso), localizada ao nível do feixe neural digital. Associa-se bursite no respectivo espaço.
+    word: true
+
+  - trigger: "pdn4c"
+    label: "Pé: Neuroma digital do terceiro espaço (Mulder positivo) (conclusão)"
+    replace: Neuroma digital do terceiro espaço (Mulder positivo).
+    word: true
+
+  # --- Pé: bursite intermetatársica ---
+
+  - trigger: "pdb1"
+    label: "Pé: Bursite intermetatarsiana"
+    replace: Imagem anecoica / hipoecoica no terceiro espaço intermetatarsiano distal, compressível, compatível com bursite intermetatarsiana.
+    word: true
+
+  - trigger: "pdb1c"
+    label: "Pé: Bursite intermetatarsiana (conclusão)"
+    replace: Bursite intermetatarsiana.
+    word: true
+
+  - trigger: "pdb2"
+    label: "Pé: Bursas intermetatársicas fisiológicas"
+    replace: Lâmina líquida de aspecto fisiológico (< 3 mm) nas bursas intermetatársicas.
+    word: true
+
+  # --- Pé: cisto ---
+
+  - trigger: "pdc1"
+    label: "Pé: Cisto gangliônico"
+    replace: Imagem com características císticas de contornos lobulados e finas septações de permeio, conteúdo anecoico, localizada junto à região nodular referida pelo paciente, medindo _ cm, adjacente à articulação _, compatível com cisto gangliônico.
+    word: true
+
+  - trigger: "pdc1c"
+    label: "Pé: Cisto gangliônico (conclusão)"
+    replace: Cisto gangliônico.
+    word: true
+
+  - trigger: "pdc2"
+    label: "Pé: Cisto sinovial"
+    replace: Artropatia _ associada a formação cística adjacente, medindo _, compatível com cisto sinovial.
+    word: true
+
+  - trigger: "pdc2c"
+    label: "Pé: Cisto sinovial (conclusão)"
+    replace: Cisto sinovial.
+    word: true
+
+  # --- Pé: placa plantar ---
+
+  - trigger: "pdp1"
+    label: "Pé: Placas plantares normais"
+    replace: Placas plantares sem sinais definidos de lesões.
+    word: true
+
+  - trigger: "pdp2"
+    label: "Pé: Rotura da placa plantar"
+    replace: Sinais de rotura da placa plantar da segunda metatarsofalângica junto à região lateral, caracterizada por desinserção com retração estimada em _ cm. Associa-se derrame articular metatarsofalângico e tenossinovite dos flexores de aspecto reacional.
+    word: true
+
+  - trigger: "pdp2c"
+    label: "Pé: Rotura da placa plantar da segunda metatarsofalângica (conclusão)"
+    replace: Rotura da placa plantar da segunda metatarsofalângica.
+    word: true
+
+  - trigger: "pdp3"
+    label: "Pé: Degeneração / rotura crônica da placa plantar"
+    replace: Má definição, heterogeneidade e irregularidades da placa plantar da segunda metatarsofalângica inferindo degeneração / rotura crônica.
+    word: true
+
+  - trigger: "pdp3c"
+    label: "Pé: Degeneração / rotura crônica da placa plantar (conclusão)"
+    replace: Degeneração / rotura crônica da placa plantar.
+    word: true
+
+  - trigger: "pdp4"
+    label: "Pé: Sugerir correlação com RM"
+    replace: A correlação com a ressonância magnética (caso não haja contraindicação clínica) poderá trazer informações adicionais.
+    word: true
 
   - trigger: "usbolsa"
     label: Bolsa escrotal — normal
