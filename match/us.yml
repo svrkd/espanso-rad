@@ -1789,6 +1789,572 @@ matches:
       Rotura completa do tendão calcâneo, com distância entre cotos (gap) de _ cm e distando _ cm da inserção distal do calcâneo. No espaço entre os cotos observa-se conteúdo heterogêneo, de provável natureza hemática.
     word: true
 
+  # --- Tornozelo: derrame ---
+
+  - trigger: "tzd1"
+    label: "Tornozelo: Sem derrame articular"
+    replace: Ausência de derrame articular.
+    word: true
+
+  - trigger: "tzd2"
+    label: "Tornozelo: Derrame tibiotalar"
+    replace: Pequeno / moderado / acentuado derrame articular tibiotalar.
+    word: true
+
+  - trigger: "tzd2c"
+    label: "Tornozelo: Derrame articular tibiotalar (conclusão)"
+    replace: Derrame articular tibiotalar.
+    word: true
+
+  - trigger: "tzd3"
+    label: "Tornozelo: Derrame na subtalar posterior"
+    replace: Pequeno / moderado / acentuado derrame articular na subtalar posterior.
+    word: true
+
+  - trigger: "tzd3c"
+    label: "Tornozelo: Derrame articular na subtalar posterior (conclusão)"
+    replace: Derrame articular na subtalar posterior.
+    word: true
+
+  - trigger: "tzd4"
+    label: "Tornozelo: Derrame talonavicular (configuração cística)"
+    replace: Pequeno derrame articular talonavicular que adquire configuração cística junto à região dorsolateral da cabeça do tálus.
+    word: true
+
+  - trigger: "tzd4c"
+    label: "Tornozelo: Derrame talonavicular com configuração cística (conclusão)"
+    replace: Derrame talonavicular com configuração cística.
+    word: true
+
+  - trigger: "tzd5"
+    label: "Tornozelo: Derrame com sinovite"
+    replace: Derrame articular com sinovite na articulação tibiotalar / subtalar / talonavicular.
+    word: true
+
+  - trigger: "tzd5c"
+    label: "Tornozelo: Derrame articular com sinovite (conclusão)"
+    replace: Derrame articular com sinovite.
+    word: true
+
+  # --- Tornozelo: tendão calcâneo ---
+
+  - trigger: "tzc1"
+    label: "Tornozelo: Tendão calcâneo normal"
+    replace: Tendão calcâneo com espessura e ecotextura dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "tzc2"
+    label: "Tornozelo: Entesopatia insercional do calcâneo"
+    replace: Entesopatia insercional do calcâneo, sem tendinopatias relevantes ou roturas.
+    word: true
+
+  - trigger: "tzc2c"
+    label: "Tornozelo: Entesopatia insercional do calcâneo (conclusão)"
+    replace: Entesopatia insercional do calcâneo.
+    word: true
+
+  - trigger: "tzc3"
+    label: "Tornozelo: Peritendinite do calcâneo"
+    replace: Fino halo anecoico circundando o tendão calcâneo, inferindo peritendinite, sem alterações tendíneas significativas.
+    word: true
+
+  - trigger: "tzc3c"
+    label: "Tornozelo: Peritendinite do calcâneo (conclusão)"
+    replace: Peritendinite do calcâneo.
+    word: true
+
+  - trigger: "tzc4"
+    label: "Tornozelo: Tendinopatia insercional do calcâneo"
+    replace: Tendinopatia e entesopatia insercional do calcâneo caracterizada por espessamento e perda do padrão fibrilar com entesófitos, sem roturas.
+    word: true
+
+  - trigger: "tzc4c"
+    label: "Tornozelo: Tendinopatia insercional do calcâneo (conclusão)"
+    replace: Tendinopatia insercional do calcâneo.
+    word: true
+
+  - trigger: "tzc5"
+    label: "Tornozelo: Tendinopatia insercional do calcâneo com fissuras"
+    replace: Tendinopatia e entesopatia insercional do calcâneo caracterizada por espessamento e perda do padrão fibrilar, destacando-se focos de degeneração e fissuras intrassubstanciais, sem francas roturas ou desinserções.
+    word: true
+
+  - trigger: "tzc5c"
+    label: "Tornozelo: Tendinopatia insercional do calcâneo com fissuras (conclusão)"
+    replace: Tendinopatia insercional do calcâneo com fissuras.
+    word: true
+
+  - trigger: "tzc6"
+    label: "Tornozelo: Tendinopatia insercional com bursite e Haglund"
+    replace: Tendinopatia e entesopatia insercional do calcâneo com focos de degeneração e fissuras intrassubstanciais associada a bursite retrocalcaneana profunda e proeminência do processo posterossuperior do osso calcâneo (Haglund).
+    word: true
+
+  - trigger: "tzc6c"
+    label: "Tornozelo: Tendinopatia insercional do calcâneo com bursite retrocalcaneana e Haglund (conclusão)"
+    replace: Tendinopatia insercional do calcâneo com bursite retrocalcaneana e Haglund.
+    word: true
+
+  - trigger: "tzc7"
+    label: "Tornozelo: Degeneração extensa do calcâneo (add-on)"
+    replace: Extensa área de degeneração tendínea acometendo _% da circunferência do tendão, com extensão longitudinal de _ cm.
+    word: true
+
+  - trigger: "tzc8"
+    label: "Tornozelo: Tendinopatia não insercional do calcâneo"
+    replace: Tendinopatia não insercional do calcâneo caracterizada por espessamento fusiforme do corpo tendíneo com focos de degeneração e fissuras intrassubstanciais, sem nítidas roturas.
+    word: true
+
+  - trigger: "tzc8c"
+    label: "Tornozelo: Tendinopatia não insercional do calcâneo (conclusão)"
+    replace: Tendinopatia não insercional do calcâneo.
+    word: true
+
+  - trigger: "tzc9"
+    label: "Tornozelo: Rotura completa do calcâneo (desinserção)"
+    replace: Rotura completa com desinserção do tendão calcâneo, estando o coto tendíneo degenerado e de contornos irregulares, retraído a cerca de _ cm do osso calcâneo, com conteúdo líquido / hemático na área de rotura.
+    word: true
+
+  - trigger: "tzc9c"
+    label: "Tornozelo: Rotura completa do tendão calcâneo (conclusão)"
+    replace: Rotura completa do tendão calcâneo.
+    word: true
+
+  - trigger: "tzc10"
+    label: "Tornozelo: Rotura completa do calcâneo (transfixação do corpo)"
+    replace: Rotura completa com transfixação do tendão calcâneo ao nível do corpo tendíneo, estando os cotos degenerados com diástase de _ cm. O coto tendíneo proximal localiza-se ao nível da transição miotendínea e o coto tendíneo distal localiza-se a cerca de _ cm da inserção.
+    word: true
+
+  - trigger: "tzc10c"
+    label: "Tornozelo: Rotura completa do tendão calcâneo (transfixação do corpo) (conclusão)"
+    replace: Rotura completa do tendão calcâneo (transfixação do corpo).
+    word: true
+
+  - trigger: "tzc11"
+    label: "Tornozelo: Rotura completa do calcâneo (com equino)"
+    replace: Tendão calcâneo apresentando descontinuidade total a aproximadamente _ mm de sua inserção no calcâneo, com distância entre os cotos tendíneos de cerca de _ mm em repouso e _ mm na posição em equino (_ graus) e preenchimento da área rota por efusão líquida hemorrágica. Na flexão plantar em 15 graus nota-se contato entre os cotos tendíneos.
+    word: true
+
+  - trigger: "tzc11c"
+    label: "Tornozelo: Rotura completa do tendão calcâneo (conclusão)"
+    replace: Rotura completa do tendão calcâneo.
+    word: true
+
+  - trigger: "tzc12"
+    label: "Tornozelo: Rotura parcial do calcâneo"
+    replace: Tendão calcâneo apresentando descontinuidade parcial das fibras mais profundas / superficiais / laterais / mediais a aproximadamente _ mm de sua inserção no calcâneo, medindo _ mm longitudinal x _ mm transversal e acometendo cerca de _% da circunferência tendínea.
+    word: true
+
+  - trigger: "tzc12c"
+    label: "Tornozelo: Rotura parcial do tendão calcâneo (conclusão)"
+    replace: Rotura parcial do tendão calcâneo.
+    word: true
+
+  - trigger: "tzc13"
+    label: "Tornozelo: Rotura crônica do calcâneo (fibrocicatricial)"
+    replace: Sinais de rotura pregressa do tendão calcâneo com extensas alterações fibrocicatriciais que se estendem por cerca de _ cm no eixo longitudinal.
+    word: true
+
+  - trigger: "tzc13c"
+    label: "Tornozelo: Rotura crônica do tendão calcâneo (conclusão)"
+    replace: Rotura crônica do tendão calcâneo.
+    word: true
+
+  - trigger: "tzc14"
+    label: "Tornozelo: Rotura crônica do calcâneo (fibrose)"
+    replace: Sinais de rotura crônica do tendão calcâneo com extensa fibrose e alterações cicatriciais de permeio.
+    word: true
+
+  - trigger: "tzc14c"
+    label: "Tornozelo: Rotura crônica do tendão calcâneo (conclusão)"
+    replace: Rotura crônica do tendão calcâneo.
+    word: true
+
+  - trigger: "tzc15"
+    label: "Tornozelo: Pós-operatório do calcâneo"
+    replace: Alterações pós-operatórias do tendão calcâneo com espessamento e irregularidades tendíneas difusas, de aspecto fibrocicatricial, sem nítidas áreas de transfixações ou desinserções. Achado habitual para o tempo pós-operatório.
+    word: true
+
+  - trigger: "tzc15c"
+    label: "Tornozelo: Alterações pós-operatórias do tendão calcâneo (conclusão)"
+    replace: Alterações pós-operatórias do tendão calcâneo.
+    word: true
+
+  # --- Tornozelo: tendão tibial anterior ---
+
+  - trigger: "tzta1"
+    label: "Tornozelo: Tibial anterior normal"
+    replace: Tendão tibial anterior com calibre e ecotextura fibrilar habituais.
+    word: true
+
+  - trigger: "tzta2"
+    label: "Tornozelo: Tendinopatia do tibial anterior"
+    replace: Tendinopatia do terço distal e inserção do tibial anterior com aumento da espessura tendínea e perda do padrão fibrilar, sem roturas.
+    word: true
+
+  - trigger: "tzta2c"
+    label: "Tornozelo: Tendinopatia do tibial anterior (conclusão)"
+    replace: Tendinopatia do tibial anterior.
+    word: true
+
+  - trigger: "tzta3"
+    label: "Tornozelo: Bursite do tibial anterior (add-on)"
+    replace: Associa-se bursite subjacente à inserção do tibial anterior.
+    word: true
+
+  - trigger: "tzta4"
+    label: "Tornozelo: Tenossinovite do tibial anterior"
+    replace: Tenossinovite do tibial anterior ao nível do tornozelo caracterizada por distensão líquida / espessamento de sua bainha tendínea.
+    word: true
+
+  - trigger: "tzta4c"
+    label: "Tornozelo: Tenossinovite do tibial anterior (conclusão)"
+    replace: Tenossinovite do tibial anterior.
+    word: true
+
+  - trigger: "tzta5"
+    label: "Tornozelo: Rotura completa do tibial anterior"
+    replace: Rotura completa do tendão tibial anterior, estando os cotos tendíneos espessados e discretamente degenerados com diástase de _ cm. O coto tendíneo proximal localiza-se ao nível da tíbia distal e o coto tendíneo distal localiza-se ao nível do navicular. Nota-se tecido fibrocicatricial irregular na área de rotura.
+    word: true
+
+  - trigger: "tzta5c"
+    label: "Tornozelo: Rotura completa do tibial anterior (conclusão)"
+    replace: Rotura completa do tibial anterior.
+    word: true
+
+  # --- Tornozelo: tendão tibial posterior ---
+
+  - trigger: "tztp1"
+    label: "Tornozelo: Tibial posterior normal"
+    replace: Tendão tibial posterior com espessura e ecotextura dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "tztp2"
+    label: "Tornozelo: Lâmina líquida fisiológica no tibial posterior"
+    replace: Fina lâmina líquida na bainha do tendão tibial posterior de aspecto fisiológico.
+    word: true
+
+  - trigger: "tztp3"
+    label: "Tornozelo: Tenossinovite do tibial posterior"
+    replace: Pequena distensão líquida da bainha do tendão tibial posterior indicando tenossinovite.
+    word: true
+
+  - trigger: "tztp3c"
+    label: "Tornozelo: Tenossinovite do tibial posterior (conclusão)"
+    replace: Tenossinovite do tibial posterior.
+    word: true
+
+  - trigger: "tztp4"
+    label: "Tornozelo: Tenossinovite e tendinopatia do tibial posterior"
+    replace: Tenossinovite e tendinopatia do tibial posterior caracterizada por distensão líquida de sua bainha e espessamento tendíneo, sem nítidas roturas.
+    word: true
+
+  - trigger: "tztp4c"
+    label: "Tornozelo: Tenossinovite e tendinopatia do tibial posterior (conclusão)"
+    replace: Tenossinovite e tendinopatia do tibial posterior.
+    word: true
+
+  - trigger: "tztp5"
+    label: "Tornozelo: Acentuada tenossinovite/tendinopatia do tibial posterior"
+    replace: Acentuada tenossinovite e tendinopatia do tibial posterior, predominando em seu terço distal, onde observam-se focos de degeneração e fissuras intrassubstanciais, sem nítidas desinserções.
+    word: true
+
+  - trigger: "tztp5c"
+    label: "Tornozelo: Acentuada tenossinovite e tendinopatia do tibial posterior (conclusão)"
+    replace: Acentuada tenossinovite e tendinopatia do tibial posterior.
+    word: true
+
+  - trigger: "tztp6"
+    label: "Tornozelo: Osso navicular acessório (add-on)"
+    replace: Associa-se osso navicular acessório tipo I / II / III.
+    word: true
+
+  # --- Tornozelo: tendões fibulares ---
+
+  - trigger: "tzf1"
+    label: "Tornozelo: Fibulares normais"
+    replace: Tendões fibulares com espessura e ecotextura habituais, sem roturas.
+    word: true
+
+  - trigger: "tzf2"
+    label: "Tornozelo: Tenossinovite dos fibulares"
+    replace: Distensão líquida da bainha comum dos fibulares caracterizando tenossinovite, sem roturas.
+    word: true
+
+  - trigger: "tzf2c"
+    label: "Tornozelo: Tenossinovite dos fibulares (conclusão)"
+    replace: Tenossinovite dos fibulares.
+    word: true
+
+  - trigger: "tzf3"
+    label: "Tornozelo: Tenossinovite e tendinopatia dos fibulares"
+    replace: Tenossinovite e tendinopatia dos fibulares caracterizada por distensão líquida da bainha comum e espessamento dos tendões, sem nítidas roturas.
+    word: true
+
+  - trigger: "tzf3c"
+    label: "Tornozelo: Tenossinovite e tendinopatia dos fibulares (conclusão)"
+    replace: Tenossinovite e tendinopatia dos fibulares.
+    word: true
+
+  - trigger: "tzf4"
+    label: "Tornozelo: Rotura longitudinal do fibular curto"
+    replace: Tenossinovite e tendinopatia dos fibulares, destacando-se rotura longitudinal do trajeto retro e inframaleolar do fibular curto, que se estende por cerca de _ cm, estando o fibular longo insinuado na área de rotura, sem nítido split de suas fibras.
+    word: true
+
+  - trigger: "tzf4c"
+    label: "Tornozelo: Rotura longitudinal do fibular curto (conclusão)"
+    replace: Rotura longitudinal do fibular curto.
+    word: true
+
+  - trigger: "tzf5"
+    label: "Tornozelo: Rotura longitudinal com split do fibular curto"
+    replace: Tenossinovite e tendinopatia dos fibulares, destacando-se rotura longitudinal com split do trajeto retro e inframaleolar do fibular curto, que se estende por cerca de _ cm, estando o fibular longo insinuado na área de rotura.
+    word: true
+
+  - trigger: "tzf5c"
+    label: "Tornozelo: Rotura longitudinal com split do fibular curto (conclusão)"
+    replace: Rotura longitudinal com split do fibular curto.
+    word: true
+
+  - trigger: "tzf6"
+    label: "Tornozelo: Tendinopatia do fibular longo (cuboide)"
+    replace: Tendinopatia e tenossinovite do fibular longo ao nível da deflexão junto à face lateral do cuboide, observando-se osso fibular acessório.
+    word: true
+
+  - trigger: "tzf6c"
+    label: "Tornozelo: Tendinopatia do fibular longo na deflexão do cuboide (conclusão)"
+    replace: Tendinopatia do fibular longo na deflexão do cuboide.
+    word: true
+
+  - trigger: "tzf7"
+    label: "Tornozelo: Sem luxação dos fibulares"
+    replace: Ausência de luxação tendínea durante a realização das manobras dinâmicas.
+    word: true
+
+  - trigger: "tzf8"
+    label: "Tornozelo: Luxação dos fibulares (insuficiência do retináculo)"
+    replace: Durante as manobras dinâmicas de flexão dorsal e eversão, nota-se luxação / subluxação dos tendões fibulares, inferindo insuficiência do retináculo fibular superior. Nota-se ainda convexidade do contorno posterior da fíbula.
+    word: true
+
+  - trigger: "tzf8c"
+    label: "Tornozelo: Luxação dos fibulares por insuficiência do retináculo fibular superior (conclusão)"
+    replace: Luxação dos fibulares por insuficiência do retináculo fibular superior.
+    word: true
+
+  - trigger: "tzf9"
+    label: "Tornozelo: Hipertrofia do tubérculo dos fibulares"
+    replace: Hipertrofia do tubérculo dos fibulares junto à parede lateral do calcâneo.
+    word: true
+
+  - trigger: "tzf9c"
+    label: "Tornozelo: Hipertrofia do tubérculo dos fibulares (conclusão)"
+    replace: Hipertrofia do tubérculo dos fibulares.
+    word: true
+
+  # --- Tornozelo: fáscia plantar ---
+
+  - trigger: "tzfp1"
+    label: "Tornozelo: Fáscia plantar normal"
+    replace: Fáscia plantar com espessura e ecotextura fibrilar preservada.
+    word: true
+
+  - trigger: "tzfp2"
+    label: "Tornozelo: Fasciíte plantar"
+    replace: Fasciíte plantar caracterizada por espessamento (_ mm) do terço proximal e origem da banda central da fáscia plantar. Associa-se esporão calcâneo plantar.
+    word: true
+
+  - trigger: "tzfp2c"
+    label: "Tornozelo: Fasciíte plantar (conclusão)"
+    replace: Fasciíte plantar.
+    word: true
+
+  - trigger: "tzfp3"
+    label: "Tornozelo: Espessamento crônico da fáscia plantar"
+    replace: Espessamento de aspecto crônico do terço proximal e origem da fáscia plantar associado a esporão calcâneo plantar.
+    word: true
+
+  - trigger: "tzfp3c"
+    label: "Tornozelo: Espessamento crônico da fáscia plantar (conclusão)"
+    replace: Espessamento crônico da fáscia plantar.
+    word: true
+
+  - trigger: "tzfp4"
+    label: "Tornozelo: Fasciopatia plantar crônica"
+    replace: Fasciopatia plantar de aspecto crônico com espessamento do terço proximal e origem da fáscia plantar.
+    word: true
+
+  - trigger: "tzfp4c"
+    label: "Tornozelo: Fasciopatia plantar crônica (conclusão)"
+    replace: Fasciopatia plantar crônica.
+    word: true
+
+  - trigger: "tzfp5"
+    label: "Tornozelo: Fibroma / fibromatose plantar"
+    replace: Espessamento fusiforme da fáscia plantar ao nível do médio pé, junto à nodulação referida pelo paciente, apresentando discreta vascularização ao estudo Doppler, medindo cerca de _ x _ cm, sugestiva de fibroma / fibromatose plantar.
+    word: true
+
+  - trigger: "tzfp5c"
+    label: "Tornozelo: Fibroma / fibromatose plantar (conclusão)"
+    replace: Fibroma / fibromatose plantar.
+    word: true
+
+  # --- Tornozelo: ligamentos (talofibular anterior) ---
+
+  - trigger: "tzl1"
+    label: "Tornozelo: Edema perimaleolar lateral"
+    replace: Edema do tecido celular subcutâneo na região perimaleolar lateral.
+    word: true
+
+  - trigger: "tzl2"
+    label: "Tornozelo: Talofibular anterior normal"
+    replace: Ligamento talofibular anterior sem alterações significativas.
+    word: true
+
+  - trigger: "tzl3"
+    label: "Tornozelo: Estiramento do talofibular anterior"
+    replace: Discreto halo hipoecogênico circundando o ligamento talofibular anterior, inferindo estiramento, sem transfixações ou desinserções.
+    word: true
+
+  - trigger: "tzl3c"
+    label: "Tornozelo: Estiramento do ligamento talofibular anterior (conclusão)"
+    replace: Estiramento do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl4"
+    label: "Tornozelo: Lesão parcial do talofibular anterior"
+    replace: Lesão parcial do ligamento talofibular anterior caracterizada por espessamento e perda do padrão fibrilar, com líquido e edema de permeio e nos planos adiposos adjacentes, sem nítidas transfixações ou desinserções.
+    word: true
+
+  - trigger: "tzl4c"
+    label: "Tornozelo: Lesão parcial do ligamento talofibular anterior (conclusão)"
+    replace: Lesão parcial do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl5"
+    label: "Tornozelo: Lesão completa do talofibular anterior"
+    replace: Sinais de lesão completa do ligamento talofibular anterior caracterizada por transfixação em seu terço médio associada a líquido e edema de permeio e extravasamento de líquido para os planos adiposos adjacentes.
+    word: true
+
+  - trigger: "tzl5c"
+    label: "Tornozelo: Lesão completa do ligamento talofibular anterior (conclusão)"
+    replace: Lesão completa do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl6"
+    label: "Tornozelo: Rotura completa do talofibular anterior (desinserção)"
+    replace: Rotura completa com desinserção talar do ligamento talofibular anterior com extensa quantidade de líquido circunjacente.
+    word: true
+
+  - trigger: "tzl6c"
+    label: "Tornozelo: Rotura completa do ligamento talofibular anterior (conclusão)"
+    replace: Rotura completa do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl7"
+    label: "Tornozelo: Lesão do talofibular anterior com avulsão óssea"
+    replace: Lesão do ligamento talofibular anterior caracterizada por espessamento e perda do padrão fibrilar associada a fragmento ósseo avulsivo junto à inserção fibular, estando o ligamento inserido neste fragmento.
+    word: true
+
+  - trigger: "tzl7c"
+    label: "Tornozelo: Lesão do ligamento talofibular anterior com avulsão óssea (conclusão)"
+    replace: Lesão do ligamento talofibular anterior com avulsão óssea.
+    word: true
+
+  - trigger: "tzl8"
+    label: "Tornozelo: Lesão de alto grau do talofibular anterior"
+    replace: Sinais de lesão de alto grau do ligamento talofibular anterior caracterizada por má definição com irregularidades de suas fibras, observando-se edema de permeio e periligamentar.
+    word: true
+
+  - trigger: "tzl8c"
+    label: "Tornozelo: Lesão de alto grau do ligamento talofibular anterior (conclusão)"
+    replace: Lesão de alto grau do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl9"
+    label: "Tornozelo: Sugerir correlação com exame físico (agudo)"
+    replace: A relevância desses achados dependerá de correlação com o exame físico.
+    word: true
+
+  - trigger: "tzl10"
+    label: "Tornozelo: Rotura crônica do talofibular anterior"
+    replace: Sinais de rotura crônica do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl10c"
+    label: "Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão)"
+    replace: Rotura crônica do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl11"
+    label: "Tornozelo: Talofibular anterior não caracterizado (rotura crônica)"
+    replace: Ligamento talofibular anterior não caracterizado, inferindo rotura crônica.
+    word: true
+
+  - trigger: "tzl11c"
+    label: "Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão)"
+    replace: Rotura crônica do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl12"
+    label: "Tornozelo: Talofibular anterior cicatricial"
+    replace: Espessamento e irregularidade de aspecto cicatricial do ligamento talofibular anterior, sem nítidas transfixações.
+    word: true
+
+  - trigger: "tzl12c"
+    label: "Tornozelo: Alterações cicatriciais do ligamento talofibular anterior (conclusão)"
+    replace: Alterações cicatriciais do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl13"
+    label: "Tornozelo: Afilamento cicatricial do talofibular anterior"
+    replace: Acentuado afilamento cicatricial do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl13c"
+    label: "Tornozelo: Afilamento cicatricial do ligamento talofibular anterior (conclusão)"
+    replace: Afilamento cicatricial do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl14"
+    label: "Tornozelo: Correlação para suficiência ligamentar (crônico)"
+    replace: Necessária correlação com o exame físico para avaliação da suficiência ligamentar.
+    word: true
+
+  - trigger: "tzl15"
+    label: "Tornozelo: Fragmento avulsivo no maléolo lateral (add-on)"
+    replace: Associa-se pequeno fragmento avulsivo adjacente ao maléolo lateral, medindo _ cm.
+    word: true
+
+  # --- Tornozelo: estruturas ósseas ---
+
+  - trigger: "tzo1"
+    label: "Tornozelo: Osteófitos anteriores da tibiotalar"
+    replace: Osteófitos marginais na região anterior da articulação tibiotalar.
+    word: true
+
+  - trigger: "tzo1c"
+    label: "Tornozelo: Osteófitos anteriores da articulação tibiotalar (conclusão)"
+    replace: Osteófitos anteriores da articulação tibiotalar.
+    word: true
+
+  - trigger: "tzo2"
+    label: "Tornozelo: Alterações degenerativas do mediopé"
+    replace: Alterações degenerativas do médiopé caracterizadas por osteofitose marginal dorsal.
+    word: true
+
+  - trigger: "tzo2c"
+    label: "Tornozelo: Alterações degenerativas do mediopé (conclusão)"
+    replace: Alterações degenerativas do mediopé.
+    word: true
+
+  - trigger: "tzo3"
+    label: "Tornozelo: Irregularidades ósseas (correlação radiográfica)"
+    replace: Irregularidades das superfícies ósseas junto à articulação tibiotalar / talonavicular / médio-pé, sendo conveniente correlação radiográfica para melhor caracterização.
+    word: true
+
+  - trigger: "tzo3c"
+    label: "Tornozelo: Irregularidades ósseas do retropé / mediopé (correlação radiográfica) (conclusão)"
+    replace: Irregularidades ósseas do retropé / mediopé (correlação radiográfica).
+    word: true
+
   - trigger: "me2"
     label: "Joelho (derrame articular): Estudo direcionado para a pesquisa de derrame articular no joelho e/d evidencia:"
     replace: |-
