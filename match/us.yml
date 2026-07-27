@@ -3050,24 +3050,252 @@ matches:
     replace: Sinais de osteoartrose femorotibial à _.
     word: true
 
-  - trigger: "qd1"
-    label: "Quadril: Sinais de bursite trocantérica à _ (achado descritivo)"
-    replace: Bursa trocantérica distendida por líquido de aspecto anecoico e homogêneo, medindo _ cm de espessura.
+  # --- Quadril: derrame articular ---
+
+  - trigger: "qdd1"
+    label: "Quadril: Sem derrame articular"
+    replace: Ausência de derrame articular.
     word: true
 
-  - trigger: "qd1c"
-    label: "Quadril: Sinais de bursite trocantérica à _"
-    replace: Sinais de bursite trocantérica à _.
+  - trigger: "qdd2"
+    label: "Quadril: Derrame articular"
+    replace: Sinais de pequeno / moderado / acentuado derrame articular.
     word: true
 
-  - trigger: "qd2"
-    label: "Quadril: Sinais ecográficos compatíveis com sinovite/derrame articular do quadril _ (achado descritivo)"
-    replace: Coleção líquida de aspecto anecoico e homogêneo no recesso anterior da cápsula articular do quadril _, com distância colo-cápsula de _ cm (normal < 0,7 cm ou assimetria > 0,2 cm em relação ao contralateral).
+  - trigger: "qdd2c"
+    label: "Quadril: Derrame articular (conclusão)"
+    replace: Derrame articular.
     word: true
 
-  - trigger: "qd2c"
-    label: "Quadril: Sinais ecográficos compatíveis com sinovite/derrame articular do quadril _"
-    replace: Sinais ecográficos compatíveis com sinovite/derrame articular do quadril _.
+  - trigger: "qdd3"
+    label: "Quadril: Derrame com sinovite"
+    replace: Derrame articular com hipertrofia sinovial, indicando sinovite.
+    word: true
+
+  - trigger: "qdd3c"
+    label: "Quadril: Derrame articular com sinovite (conclusão)"
+    replace: Derrame articular com sinovite.
+    word: true
+
+  - trigger: "qdd4"
+    label: "Quadril: Sinovite com atividade ao Doppler"
+    replace: Hipertrofia sinovial com vascularização ao Power Doppler, indicando sinovite com atividade inflamatória.
+    word: true
+
+  - trigger: "qdd4c"
+    label: "Quadril: Sinovite com atividade inflamatória ao Doppler (conclusão)"
+    replace: Sinovite com atividade inflamatória ao Doppler.
+    word: true
+
+  # --- Quadril: articulação coxofemoral ---
+
+  - trigger: "qda1"
+    label: "Quadril: Artropatia degenerativa coxofemoral"
+    replace: Osteófitos marginais na articulação coxofemoral, inferindo artropatia degenerativa. Conveniente correlação radiográfica.
+    word: true
+
+  - trigger: "qda1c"
+    label: "Quadril: Artropatia degenerativa coxofemoral (conclusão)"
+    replace: Artropatia degenerativa coxofemoral.
+    word: true
+
+  - trigger: "qda2"
+    label: "Quadril: Cisto paralabral"
+    replace: Imagem com características císticas, medindo _ cm, adjacente ao lábio acetabular, provavelmente relacionado a cisto paralabral, sendo conveniente correlação com a ressonância magnética (caso não haja contraindicação) para melhor caracterização dos achados.
+    word: true
+
+  - trigger: "qda2c"
+    label: "Quadril: Cisto paralabral (conclusão)"
+    replace: Cisto paralabral.
+    word: true
+
+  # --- Quadril: tendões dos glúteos ---
+
+  - trigger: "qdg1"
+    label: "Quadril: Tendões glúteos normais"
+    replace: Tendões dos glúteos médio e mínimo de aspecto ecográfico habitual.
+    word: true
+
+  - trigger: "qdg2"
+    label: "Quadril: Heterogeneidade do glúteo mínimo"
+    replace: Discreta heterogeneidade do tendão do glúteo mínimo, sem espessamento ou roturas; tal achado, para ser valorizado como tendinopatia, deve ter estreita correlação com os dados clínicos.
+    word: true
+
+  - trigger: "qdg2c"
+    label: "Quadril: Discreta heterogeneidade do glúteo mínimo, a correlacionar clinicamente (conclusão)"
+    replace: Discreta heterogeneidade do glúteo mínimo, a correlacionar clinicamente.
+    word: true
+
+  - trigger: "qdg3"
+    label: "Quadril: Tendinopatia insercional do glúteo mínimo"
+    replace: Tendinopatia insercional do glúteo mínimo caracterizada por espessamento e perda do padrão fibrilar, sem roturas.
+    word: true
+
+  - trigger: "qdg3c"
+    label: "Quadril: Tendinopatia insercional do glúteo mínimo (conclusão)"
+    replace: Tendinopatia insercional do glúteo mínimo.
+    word: true
+
+  - trigger: "qdg4"
+    label: "Quadril: Tendinopatia do glúteo mínimo e médio"
+    replace: Tendinopatia do glúteo mínimo e fibras anteriores do glúteo médio, caracterizada por espessamento e perda do padrão fibrilar, destacando-se focos de degeneração e fissuras intrassubstanciais, além de entesófitos no trocânter maior femoral, sem nítidas desinserções.
+    word: true
+
+  - trigger: "qdg4c"
+    label: "Quadril: Tendinopatia do glúteo mínimo e médio (conclusão)"
+    replace: Tendinopatia do glúteo mínimo e médio.
+    word: true
+
+  - trigger: "qdg5"
+    label: "Quadril: Glúteos com provável rotura de alto grau"
+    replace: Tendinopatia do glúteo mínimo e médio, com focos de degeneração e fissuras intrassubstanciais, destacando-se acentuado afilamento insercional do glúteo mínimo, podendo estar relacionado a rotura de alto grau. Associam-se entesófitos no trocânter maior femoral e sinais de hipotrofia com lipossubstituição do ventre muscular do glúteo mínimo.
+    word: true
+
+  - trigger: "qdg5c"
+    label: "Quadril: Tendinopatia do glúteo mínimo e médio com provável rotura de alto grau (conclusão)"
+    replace: Tendinopatia do glúteo mínimo e médio com provável rotura de alto grau.
+    word: true
+
+  - trigger: "qdg6"
+    label: "Quadril: Tendinopatia calcária do glúteo mínimo"
+    replace: Tendinopatia calcária do glúteo mínimo, caracterizada por foco de calcificação junto à inserção, medindo cerca de _ x _ cm.
+    word: true
+
+  - trigger: "qdg6c"
+    label: "Quadril: Tendinopatia calcária do glúteo mínimo (conclusão)"
+    replace: Tendinopatia calcária do glúteo mínimo.
+    word: true
+
+  - trigger: "qdg7"
+    label: "Quadril: Entesófitos no trocânter maior (add-on)"
+    replace: Associam-se entesófitos no trocânter maior femoral.
+    word: true
+
+  - trigger: "qdg8"
+    label: "Quadril: Bursite subglútea (add-on)"
+    replace: Associa-se distensão líquida da bursa subglútea mínima / média, indicando bursite.
+    word: true
+
+  # --- Quadril: demais tendões (adutores / isquiotibiais) ---
+
+  - trigger: "qdt1"
+    label: "Quadril: Tendinopatia dos adutores"
+    replace: Tendinopatia na origem comum dos adutores, caracterizada por espessamento e heterogeneidade, com focos de degeneração e fissuras intrassubstanciais, sem nítidas desinserções.
+    word: true
+
+  - trigger: "qdt1c"
+    label: "Quadril: Tendinopatia da origem comum dos adutores (conclusão)"
+    replace: Tendinopatia da origem comum dos adutores.
+    word: true
+
+  - trigger: "qdt2"
+    label: "Quadril: Tendinopatia dos isquiotibiais"
+    replace: Tendinopatia na origem comum dos isquiotibiais, com espessamento e perda do padrão fibrilar, associada a entesófitos na tuberosidade isquiática, sem nítidas roturas.
+    word: true
+
+  - trigger: "qdt2c"
+    label: "Quadril: Tendinopatia da origem comum dos isquiotibiais (conclusão)"
+    replace: Tendinopatia da origem comum dos isquiotibiais.
+    word: true
+
+  # --- Quadril: bursa trocantérica ---
+
+  - trigger: "qdb1"
+    label: "Quadril: Bursa trocantérica normal"
+    replace: Ausência de distensão líquida patológica da bursa trocantérica.
+    word: true
+
+  - trigger: "qdb2"
+    label: "Quadril: Bursite trocantérica"
+    replace: Distensão líquida e espessamento parietal da bursa trocantérica, indicando bursite.
+    word: true
+
+  - trigger: "qdb2c"
+    label: "Quadril: Bursite trocantérica (conclusão)"
+    replace: Bursite trocantérica.
+    word: true
+
+  # --- Quadril: músculos ---
+
+  - trigger: "qdm1"
+    label: "Quadril: Ventres musculares normais"
+    replace: Ventres musculares com arquitetura fibrilar preservada.
+    word: true
+
+  # --- Quadril: lesão muscular / rotura tendínea ---
+
+  - trigger: "qdl1"
+    label: "Quadril: Estiramento do reto femoral"
+    replace: Estiramento da transição miotendínea / plano miofascial / ventre muscular proximal / distal do _ reto femoral, caracterizado por perda do padrão fibrilar habitual, sem francas roturas ou desinserções.
+    word: true
+
+  - trigger: "qdl1c"
+    label: "Quadril: Estiramento do reto femoral (conclusão)"
+    replace: Estiramento do reto femoral.
+    word: true
+
+  - trigger: "qdl2"
+    label: "Quadril: Lesão parcial do gastrocnêmio medial"
+    replace: Lesão parcial da transição miotendínea / mioaponeurótica distal do gastrocnêmio medial, caracterizada por área de descontinuidade medindo cerca de _ x _, nos eixos longitudinal e transverso, respectivamente, associada a conteúdo líquido / hemático na área de rotura, além de lâmina líquida entre os planos miofasciais do solear e gastrocnêmio, que se estende até o terço distal da perna.
+    word: true
+
+  - trigger: "qdl2c"
+    label: "Quadril: Lesão parcial do gastrocnêmio medial (conclusão)"
+    replace: Lesão parcial do gastrocnêmio medial.
+    word: true
+
+  - trigger: "qdl3"
+    label: "Quadril: Lesão completa da origem dos isquiotibiais"
+    replace: Lesão completa com desinserção da origem dos tendões isquiotibiais, com extenso conteúdo líquido / hemático na área de rotura, estando o coto tendíneo retraído a cerca de _ cm da tuberosidade isquiática.
+    word: true
+
+  - trigger: "qdl3c"
+    label: "Quadril: Lesão completa da origem dos isquiotibiais (conclusão)"
+    replace: Lesão completa da origem dos isquiotibiais.
+    word: true
+
+  - trigger: "qdl4"
+    label: "Quadril: Sugerir correlação com RM"
+    replace: A correlação com a ressonância magnética (caso não haja contraindicação) poderá trazer informações adicionais.
+    word: true
+
+  # --- Quadril: ressaltos (banda iliotibial / iliopsoas) ---
+
+  - trigger: "qdr1"
+    label: "Quadril: Ressalto da banda iliotibial"
+    replace: Durante as manobras dinâmicas observa-se ressalto da banda iliotibial sobre o trocânter maior femoral. Não há bursite trocantérica ou espessamento da banda iliotibial.
+    word: true
+
+  - trigger: "qdr1c"
+    label: "Quadril: Ressalto da banda iliotibial (conclusão)"
+    replace: Ressalto da banda iliotibial.
+    word: true
+
+  - trigger: "qdr2"
+    label: "Quadril: ITB com espessamento e bursite (add-on)"
+    replace: Associa-se espessamento da banda iliotibial e bursite trocantérica.
+    word: true
+
+  - trigger: "qdr3"
+    label: "Quadril: Ressalto do tendão do iliopsoas"
+    replace: Durante as manobras dinâmicas observa-se ressalto do tendão do iliopsoas sobre a eminência iliopectínea. Não há espessamento tendíneo ou bursite do iliopsoas.
+    word: true
+
+  - trigger: "qdr3c"
+    label: "Quadril: Ressalto do tendão do iliopsoas (conclusão)"
+    replace: Ressalto do tendão do iliopsoas.
+    word: true
+
+  - trigger: "qdr4"
+    label: "Quadril: Bursite do iliopsoas (add-on)"
+    replace: Associa-se bursite do iliopsoas.
+    word: true
+
+  # --- Quadril: Morel-Lavallée ---
+
+  - trigger: "qdml1"
+    label: "Quadril: Morel-Lavallée"
+    replace: Coleção líquida / hemática localizada entre a camada profunda do tecido celular subcutâneo e a fáscia muscular, na região peritrocantérica, medindo cerca de _ x _ x _ cm (longitudinal x transverso x espessura), que, associada aos dados clínicos, é compatível com coleção hemática pós-traumática (Morel-Lavallée).
     word: true
 
   - trigger: "pe1"
