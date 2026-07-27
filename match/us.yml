@@ -2970,44 +2970,365 @@ matches:
     replace: Alterações pós-operatórias do tendão distal do bíceps braquial.
     word: true
 
-  - trigger: "pu1"
-    label: "Punho/mão: Sinais de tenossinovite dos flexores no túnel do carpo à _ (achado descritivo)"
-    replace: Tendões flexores dos dedos com calibre aumentado na topografia do túnel do carpo, associado a halo anecoico de edema sinovial difuso.
+  # --- Punho: compartimentos extensores / De Quervain / intersecções ---
+
+  - trigger: "pue1"
+    label: "Punho: Tendões extensores preservados"
+    replace: Tendões extensores ao nível dos compartimentos do punho preservados.
     word: true
 
-  - trigger: "pu1c"
-    label: "Punho/mão: Sinais de tenossinovite dos flexores no túnel do carpo à _"
-    replace: Sinais de tenossinovite dos flexores no túnel do carpo à _.
+  - trigger: "pue2"
+    label: "Punho: Tenossinovite do primeiro compartimento extensor"
+    replace: Tenossinovite do primeiro compartimento extensor caracterizada por espessamento e distensão líquida da bainha sinovial dos tendões abdutor longo e extensor curto do polegar, sem alterações tendíneas significativas.
     word: true
 
-  - trigger: "pu2"
-    label: "Punho/mão: Sinais de tenossinovite estenosante de De Quervain à _ (achado descritivo)"
-    replace: Tendões do abdutor longo e do extensor curto do polegar com calibre aumentado no primeiro túnel extensor, associado a halo anecoico de edema sinovial, comprometendo cerca de _ cm longitudinal.
+  - trigger: "pue2c"
+    label: "Punho: Tenossinovite do primeiro compartimento extensor (conclusão)"
+    replace: Tenossinovite do primeiro compartimento extensor.
     word: true
 
-  - trigger: "pu2c"
-    label: "Punho/mão: Sinais de tenossinovite estenosante de De Quervain à _"
-    replace: Sinais de tenossinovite estenosante de De Quervain à _.
+  - trigger: "pue3"
+    label: "Punho: Tenossinovite estenosante de De Quervain"
+    replace: Tenossinovite estenosante dos tendões abdutor longo do polegar e extensor curto do polegar no primeiro compartimento extensor (De Quervain) caracterizada por espessamento do retináculo com espessamento / distensão líquida da bainha sinovial. Associa-se tendinopatia com aumento do calibre tendíneo.
     word: true
 
-  - trigger: "pu3"
-    label: "Punho/mão: Cisto artrossinovial no punho _ (achado descritivo)"
-    replace: Formação cística lobulada, de conteúdo anecoico homogêneo, com colo de comunicação articular, adjacente à articulação _ do punho, medindo _ cm.
+  - trigger: "pue3c"
+    label: "Punho: Tenossinovite estenosante de De Quervain (conclusão)"
+    replace: Tenossinovite estenosante de De Quervain.
     word: true
 
-  - trigger: "pu3c"
-    label: "Punho/mão: Cisto artrossinovial no punho _"
-    replace: Cisto artrossinovial no punho _.
+  - trigger: "pue4"
+    label: "Punho: Tenossinovite do extensor curto do polegar (subcompartimentalização)"
+    replace: Tenossinovite isolada do extensor curto do polegar com espessamento da bainha tendínea e espessamento do retináculo inferindo septação com subcompartimentalização do primeiro compartimento extensor.
     word: true
 
-  - trigger: "pu4"
-    label: "Punho/mão: Sinais de tenossinovite estenosante do flexor do _ dedo (dedo em gatilho) (achado descritivo)"
-    replace: Tendão flexor do _ dedo com espessamento na topografia da primeira polia anular, associado a travamento à extensão do respectivo quirodáctilo à manobra dinâmica.
+  - trigger: "pue4c"
+    label: "Punho: Tenossinovite do extensor curto do polegar com subcompartimentalização (conclusão)"
+    replace: Tenossinovite do extensor curto do polegar com subcompartimentalização.
     word: true
 
-  - trigger: "pu4c"
-    label: "Punho/mão: Sinais de tenossinovite estenosante do flexor do _ dedo (dedo em gatilho)"
-    replace: Sinais de tenossinovite estenosante do flexor do _ dedo (dedo em gatilho).
+  - trigger: "pue5"
+    label: "Punho: Fissuras do abdutor longo do polegar (add-on)"
+    replace: O tendão abdutor longo do polegar apresenta fissuras intrassubstanciais longitudinais.
+    word: true
+
+  - trigger: "pue6"
+    label: "Punho: Tendões abdutores longos acessórios (add-on)"
+    replace: Destaca-se a presença de tendões abdutores longos do polegar acessórios, com aspecto multifasciculado.
+    word: true
+
+  - trigger: "pue7"
+    label: "Punho: Tendinopatia e tenossinovite do extensor ulnar do carpo"
+    replace: Sinais de tendinopatia e tenossinovite do extensor ulnar do carpo caracterizada por aumento de calibre, redução da ecogenicidade e espessamento com distensão líquida da bainha sinovial. Não há sinais de instabilidade durante as manobras dinâmicas de pronação e supinação.
+    word: true
+
+  - trigger: "pue7c"
+    label: "Punho: Tendinopatia e tenossinovite do extensor ulnar do carpo (conclusão)"
+    replace: Tendinopatia e tenossinovite do extensor ulnar do carpo.
+    word: true
+
+  - trigger: "pue8"
+    label: "Punho: Síndrome de intersecção proximal"
+    replace: Aumento das partes moles com edema peritendíneo adjacente ao tendão abdutor longo do polegar e transição miotendínea do extensor curto do polegar, junto à intersecção com os tendões extensores radiais longo e curto do carpo, ao nível do antebraço distal, quando comparada ao lado contralateral, inferindo síndrome de intersecção proximal.
+    word: true
+
+  - trigger: "pue8c"
+    label: "Punho: Síndrome de intersecção proximal (conclusão)"
+    replace: Síndrome de intersecção proximal.
+    word: true
+
+  - trigger: "pue9"
+    label: "Punho: Síndrome de intersecção distal"
+    replace: Espessamento / distensão líquida das bainhas sinoviais do extensor longo do polegar junto à intersecção com os tendões extensores radiais longo e curto do carpo, inferindo síndrome de intersecção distal.
+    word: true
+
+  - trigger: "pue9c"
+    label: "Punho: Síndrome de intersecção distal (conclusão)"
+    replace: Síndrome de intersecção distal.
+    word: true
+
+  # --- Punho: flexores ---
+
+  - trigger: "puf1"
+    label: "Punho: Tenossinovite do flexor radial do carpo"
+    replace: Distensão líquida e espessamento da bainha sinovial do tendão flexor radial do carpo caracterizando tenossinovite.
+    word: true
+
+  - trigger: "puf1c"
+    label: "Punho: Tenossinovite do flexor radial do carpo (conclusão)"
+    replace: Tenossinovite do flexor radial do carpo.
+    word: true
+
+  - trigger: "puf2"
+    label: "Punho: Bursite / tenossinovite da bursa ulnar"
+    replace: Proeminente distensão líquida da bursa ulnar, que se estende do antebraço distal até ao nível das bases metacarpais, envolvendo os tendões flexores, indicando bursite / tenossinovite. Necessário correlação clínica e laboratorial para definição etiológica.
+    word: true
+
+  - trigger: "puf2c"
+    label: "Punho: Bursite / tenossinovite da bursa ulnar (conclusão)"
+    replace: Bursite / tenossinovite da bursa ulnar.
+    word: true
+
+  # --- Punho: nervo mediano / túnel do carpo ---
+
+  - trigger: "pun1"
+    label: "Punho: Nervo mediano normal"
+    replace: Nervo mediano com calibre e aspecto ecográfico habitual.
+    word: true
+
+  - trigger: "pun2"
+    label: "Punho: Neuropatia do mediano (área de secção)"
+    replace: Nervo mediano com aumento de calibre, redução da ecogenicidade e perda do padrão fascicular. Área de secção transversa de _ mm² ao nível do túnel do carpo proximal.
+    word: true
+
+  - trigger: "pun2c"
+    label: "Punho: Sinais ecográficos de neuropatia do mediano (conclusão)"
+    replace: Sinais ecográficos de neuropatia do mediano.
+    word: true
+
+  - trigger: "pun3"
+    label: "Punho: Neuropatia do mediano (diferença de área)"
+    replace: Sinais de aumento de calibre do nervo mediano. Foram realizadas as medidas da área de secção transversa ao nível do túnel do carpo proximal e ao nível do antebraço distal, resultando diferença > 2 mm² (referência de Klauser AS, Radiology 2009;250:171).
+    word: true
+
+  - trigger: "pun3c"
+    label: "Punho: Aumento de calibre do nervo mediano pela diferença de área de secção, sugestivo de neuropatia (conclusão)"
+    replace: Aumento de calibre do nervo mediano pela diferença de área de secção, sugestivo de neuropatia.
+    word: true
+
+  - trigger: "pun4"
+    label: "Punho: Túnel do carpo sem lesões / variações"
+    replace: Não foram caracterizadas lesões expansivas ou variações anatômicas no interior do túnel do carpo.
+    word: true
+
+  - trigger: "pun5"
+    label: "Punho: Mediano bífido com artéria mediana persistente"
+    replace: Nervo mediano bífido no interior do túnel do carpo com persistência da artéria mediana (variante anatômica).
+    word: true
+
+  - trigger: "pun5c"
+    label: "Punho: Nervo mediano bífido com persistência da artéria mediana (variante anatômica) (conclusão)"
+    replace: Nervo mediano bífido com persistência da artéria mediana (variante anatômica).
+    word: true
+
+  - trigger: "pun6"
+    label: "Punho: Nervo mediano bífido (variante)"
+    replace: Nervo mediano bífido no interior do túnel do carpo (variante anatômica).
+    word: true
+
+  - trigger: "pun6c"
+    label: "Punho: Nervo mediano bífido (variante anatômica) (conclusão)"
+    replace: Nervo mediano bífido (variante anatômica).
+    word: true
+
+  - trigger: "pun7"
+    label: "Punho: Persistência da artéria mediana (variante)"
+    replace: Persistência da artéria mediana no interior do túnel do carpo (variante anatômica).
+    word: true
+
+  - trigger: "pun7c"
+    label: "Punho: Persistência da artéria mediana (variante anatômica) (conclusão)"
+    replace: Persistência da artéria mediana (variante anatômica).
+    word: true
+
+  - trigger: "pun8"
+    label: "Punho: Hipotrofia da musculatura tenar"
+    replace: Sinais de hipotrofia e lipossubstituição da musculatura da região tenar.
+    word: true
+
+  - trigger: "pun8c"
+    label: "Punho: Hipotrofia e lipossubstituição da musculatura tenar (conclusão)"
+    replace: Hipotrofia e lipossubstituição da musculatura tenar.
+    word: true
+
+  # --- Punho: túnel do carpo — pós-operatório ---
+
+  - trigger: "pupo1"
+    label: "Punho: Pós-op do túnel do carpo sem complicações"
+    replace: Sinais de ressecção do retináculo dos flexores, com aumento da amplitude ao nível do túnel do carpo. Durante as manobras dinâmicas não foram caracterizadas áreas de fibrose.
+    word: true
+
+  - trigger: "pupo1c"
+    label: "Punho: Alterações pós-operatórias com ressecção do retináculo dos flexores, sem complicações (conclusão)"
+    replace: Alterações pós-operatórias com ressecção do retináculo dos flexores, sem complicações.
+    word: true
+
+  - trigger: "pupo2"
+    label: "Punho: Pós-op — fibrose com compressão do mediano (tardia)"
+    replace: Espessamento fibrocicatricial do retináculo dos flexores ao nível do túnel do carpo proximal e/ou distal, com sinais de compressão do nervo mediano neste nível.
+    word: true
+
+  - trigger: "pupo2c"
+    label: "Punho: Espessamento fibrocicatricial do retináculo com compressão do nervo mediano (complicação tardia) (conclusão)"
+    replace: Espessamento fibrocicatricial do retináculo com compressão do nervo mediano (complicação tardia).
+    word: true
+
+  - trigger: "pupo3"
+    label: "Punho: Pós-op — compressão do mediano (recente)"
+    replace: Achatamento do nervo mediano ao nível do túnel do carpo distal, com aumento do calibre ao nível do carpo proximal, inferindo compressão local.
+    word: true
+
+  - trigger: "pupo3c"
+    label: "Punho: Compressão do nervo mediano no túnel do carpo (complicação recente) (conclusão)"
+    replace: Compressão do nervo mediano no túnel do carpo (complicação recente).
+    word: true
+
+  # --- Punho: cisto gangliônico ---
+
+  - trigger: "pug1"
+    label: "Punho: Cisto gangliônico dorsal"
+    replace: Imagem com características císticas na região dorsal do punho, superficialmente às estruturas capsuloligamentares da articulação escafossemilunar, medindo _ x _ x _ cm.
+    word: true
+
+  - trigger: "pug1c"
+    label: "Punho: Cisto gangliônico na região dorsal do punho (conclusão)"
+    replace: Cisto gangliônico na região dorsal do punho.
+    word: true
+
+  - trigger: "pug2"
+    label: "Punho: Cisto gangliônico dorsal (detalhado)"
+    replace: Imagem com características císticas de contornos bem definidos e lobulados, com conteúdo anecoide e finas septações em seu interior, apresentando reforço acústico posterior e ausência de vascularização ao estudo Doppler, localizada na região dorsal do punho, profundamente ao quarto compartimento extensor e adjacente aos ossos do carpo, com fino colo de comunicação com as estruturas capsuloligamentares das articulações escafossemilunar / radiocarpal, medindo _ x _ x _ cm.
+    word: true
+
+  - trigger: "pug2c"
+    label: "Punho: Cisto gangliônico na região dorsal do punho (conclusão)"
+    replace: Cisto gangliônico na região dorsal do punho.
+    word: true
+
+  - trigger: "pug3"
+    label: "Punho: Cisto gangliônico volar"
+    replace: Imagem com características císticas na região radial e volar do punho, superficialmente às estruturas capsuloligamentares das articulações radiocarpal / intercarpal, medindo _ x _ x _ cm.
+    word: true
+
+  - trigger: "pug3c"
+    label: "Punho: Cisto gangliônico na região radial volar do punho (conclusão)"
+    replace: Cisto gangliônico na região radial volar do punho.
+    word: true
+
+  - trigger: "pug4"
+    label: "Punho: Cisto gangliônico volar (detalhado)"
+    replace: Imagem com características císticas de contornos bem definidos e lobulados, com conteúdo anecoide e finas septações em seu interior, apresentando reforço acústico posterior e ausência de vascularização ao estudo Doppler, localizada na região radial e volar do punho, superficialmente e com fino colo de comunicação com as estruturas capsuloligamentares das articulações radiocarpal / intercarpal, medindo _ x _ x _ cm.
+    word: true
+
+  - trigger: "pug4c"
+    label: "Punho: Cisto gangliônico na região radial volar do punho (conclusão)"
+    replace: Cisto gangliônico na região radial volar do punho.
+    word: true
+
+  - trigger: "pug5"
+    label: "Punho: Cisto volar — abaulamento da artéria radial (add-on)"
+    replace: Determina abaulamento da artéria radial.
+    word: true
+
+  - trigger: "pug6"
+    label: "Punho: Cisto volar — envolve a artéria radial (add-on)"
+    replace: Envolve circunferencialmente a artéria radial.
+    word: true
+
+  # --- Punho: diversos (bossa carpal / trombose ulnar / nódulo neural) ---
+
+  - trigger: "pud1"
+    label: "Punho: Bossa carpal"
+    replace: Na região nodular referida pelo paciente, face dorsal do punho, nota-se proeminência óssea na região dorsal da base do terceiro / segundo metacarpo, sugestiva de bossa carpal.
+    word: true
+
+  - trigger: "pud1c"
+    label: "Punho: Bossa carpal (conclusão)"
+    replace: Bossa carpal.
+    word: true
+
+  - trigger: "pud2"
+    label: "Punho: Os styloideum"
+    replace: Na região nodular referida pelo paciente, face dorsal do punho, ossículo acessório (Os styloideum) na região dorsal da base do terceiro / segundo metacarpo.
+    word: true
+
+  - trigger: "pud2c"
+    label: "Punho: Ossículo acessório (Os styloideum) na base do metacarpo (conclusão)"
+    replace: Ossículo acessório (Os styloideum) na base do metacarpo.
+    word: true
+
+  - trigger: "pud3"
+    label: "Punho: Osteoartrite carpometacarpal dorsal"
+    replace: Na região nodular referida pelo paciente, face dorsal do punho, notam-se sinais de osteoartrite com reação osteofitária marginal dorsal da articulação carpometacarpal do terceiro / segundo dedos.
+    word: true
+
+  - trigger: "pud3c"
+    label: "Punho: Osteoartrite carpometacarpal dorsal (conclusão)"
+    replace: Osteoartrite carpometacarpal dorsal.
+    word: true
+
+  - trigger: "pud4"
+    label: "Punho: Trombose da artéria ulnar (martelo hipotenar)"
+    replace: Na região referida pelo paciente, face volar e ulnar do punho / mão, nota-se aumento do calibre com espessamento parietal e trombose da artéria ulnar (síndrome do martelo hipotenar).
+    word: true
+
+  - trigger: "pud4c"
+    label: "Punho: Trombose da artéria ulnar (síndrome do martelo hipotenar) (conclusão)"
+    replace: Trombose da artéria ulnar (síndrome do martelo hipotenar).
+    word: true
+
+  - trigger: "pud5"
+    label: "Punho: Nódulo neural do nervo radial"
+    replace: Na região referida pelo paciente, nota-se nódulo sólido de contornos regulares em continuidade com o nervo radial, medindo _ x _ x _ cm, compatível com nódulo de linhagem neural.
+    word: true
+
+  - trigger: "pud5c"
+    label: "Punho: Nódulo de linhagem neural do nervo radial (conclusão)"
+    replace: Nódulo de linhagem neural do nervo radial.
+    word: true
+
+  # --- Punho: rizartrose ---
+
+  - trigger: "pur1"
+    label: "Punho: Rizartrose incipiente"
+    replace: Artropatia degenerativa carpometacarpal do primeiro dedo caracterizada por pequena osteofitose marginal.
+    word: true
+
+  - trigger: "pur1c"
+    label: "Punho: Rizartrose incipiente (conclusão)"
+    replace: Rizartrose incipiente.
+    word: true
+
+  - trigger: "pur2"
+    label: "Punho: Rizartrose acentuada"
+    replace: Acentuada artropatia degenerativa carpometacarpal do primeiro dedo, com osteofitose marginal, afilamento condral, redução da interlinha articular e derrame articular com sinais de sinovite.
+    word: true
+
+  - trigger: "pur2c"
+    label: "Punho: Rizartrose acentuada com sinovite (conclusão)"
+    replace: Rizartrose acentuada com sinovite.
+    word: true
+
+  # --- Punho: sinovite ---
+
+  - trigger: "pus1"
+    label: "Punho: Sinovite com atividade ao Doppler"
+    replace: Espessamento sinovial da articulação _, indicando sinovite (GS _). Destaca-se vascularização ao Power Doppler (PD _), inferindo atividade inflamatória.
+    word: true
+
+  - trigger: "pus1c"
+    label: "Punho: Sinovite da articulação _ (com atividade ao Doppler) (conclusão)"
+    replace: Sinovite da articulação _ (com atividade ao Doppler).
+    word: true
+
+  - trigger: "pus2"
+    label: "Punho: Artropatia inflamatória com erosões"
+    replace: Sinais de artropatia inflamatória da articulação _, caracterizada por erosões ósseas marginais e acentuado espessamento sinovial com vascularização ao estudo Doppler, indicando sinovite.
+    word: true
+
+  - trigger: "pus2c"
+    label: "Punho: Artropatia inflamatória com erosões e sinovite (conclusão)"
+    replace: Artropatia inflamatória com erosões e sinovite.
+    word: true
+
+  - trigger: "pus3"
+    label: "Punho: Espessamento sinovial sem Doppler"
+    replace: Espessamento sinovial da articulação _, sem vascularização ao estudo Doppler.
+    word: true
+
+  - trigger: "pus3c"
+    label: "Punho: Espessamento sinovial da articulação _, sem atividade ao Doppler (conclusão)"
+    replace: Espessamento sinovial da articulação _, sem atividade ao Doppler.
     word: true
 
   # --- Joelho: técnica ---
