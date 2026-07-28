@@ -64,18 +64,6 @@ matches:
     replace: Dispositivo expansível para substituição do corpo vertebral
     word: true
 
-  - trigger: "cc"
-    label: "Radiografia de coluna cervical — normal"
-    replace: |
-      Textura óssea preservada.
-      Transição crânio-vertebral preservada.
-      Bom alinhamento dos corpos vertebrais cervicais.
-      Corpos vertebrais com morfologia normal.
-      Pedículos, laminas e processos transversos preservados.
-      Articulações interapofisárias e uncovertebrais sem alterações significativas.
-      Espaços discais preservados.
-    word: true
-
   - trigger: "ccid"
     label: "Radiografia de coluna cervical — alterações degenerativas"
     replace: |

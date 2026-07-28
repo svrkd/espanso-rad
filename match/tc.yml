@@ -10574,11 +10574,6 @@ matches:
     replace: "Caso persista a indicação clínica, recomenda-se estudo direcionado."
     word: true
 
-  - trigger: "cc"
-    label: "Após contraste, observa-se"
-    replace: "Após a administração do meio de contraste endovenoso, observa-se"
-    word: true
-
   - trigger: "cc1"
     label: "antes e após meio de contraste"
     replace: ", antes e após a administração do meio de contraste endovenoso."
