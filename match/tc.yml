@@ -3,15 +3,15 @@ matches:
   # ==========================================================================
   # TÉCNICA
   # ==========================================================================
-   - trigger: "sc"
-    label: "TC com contraste"
+  - trigger: "sc"
+    label: "TC sem contraste"
     replace: Imagens obtidas em aparelho multislice sem a administração intravenosa de meio de contraste iodado.
-    word: true 
-    
-   - trigger: "cc"
+    word: true
+
+  - trigger: "cc"
     label: "TC com contraste"
     replace: Imagens obtidas em aparelho multislice antes e após a administração intravenosa de meio de contraste iodado.
-    word: true 
+    word: true
 
   - trigger: "artboca"
     label: "Artefatos odontológicos (TC)"
@@ -6490,11 +6490,6 @@ matches:
   # TEMPLATES COMPLETOS / CABEÇALHOS DE EXAME / ASSINATURAS
   # ==========================================================================
 
-  - trigger: "acritc"
-    label: "Recomendação de complementação por TC"
-    replace: "A critério clínico, se possível, o estudo dessa região por imagens de tomografia computadorizada poderá fornecer maiores subsídios diagnósticos."
-    word: true
-
   - trigger: "acrius"
     label: "Recomendação de complementação por US"
     replace: "A critério clínico, se possível, o estudo dessa região por imagens de ultrassonografia poderá fornecer maiores subsídios diagnósticos."
@@ -10579,11 +10574,6 @@ matches:
     replace: "Caso persista a indicação clínica, recomenda-se estudo direcionado."
     word: true
 
-  - trigger: "cc"
-    label: "Após contraste, observa-se"
-    replace: "Após a administração do meio de contraste endovenoso, observa-se"
-    word: true
-
   - trigger: "cc1"
     label: "antes e após meio de contraste"
     replace: ", antes e após a administração do meio de contraste endovenoso."
@@ -10659,19 +10649,9 @@ matches:
     replace: Correlacionar com dados cirúrgicos.
     word: true
 
-  - trigger: "cocx"
-    label: "Correlacionar com dados cirúrgicos"
-    replace: Correlacionar com dados cirúrgicos.
-    word: true
-
   - trigger: "coco1"
     label: "Coprostase"
     replace: Coprostase.
-    word: true
-
-  - trigger: "colab"
-    label: "Correlacionar com dados clínicos e laboratoriais"
-    replace: Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "colab1"
