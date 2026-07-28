@@ -110,16 +110,6 @@ matches:
       Espaços discais preservados.
     word: true
 
-  - trigger: "act"
-    label: "Acentuação da cifose torácica"
-    replace: Acentuação da cifose torácica.
-    word: true
-
-  - trigger: "cvs"
-    label: "Corpos vertebrais"
-    replace: corpos vertebrais
-    word: true
-
   - trigger: "dente"
     label: "Artropatia C1-odontoide"
     replace: Artropatia da face articular anterior de C1 com o processo odontoide.
@@ -145,16 +135,6 @@ matches:
     replace: Desvio lateral da coluna torácica com convexidade para esquerda.
     word: true
 
-  - trigger: "espl"
-    label: "Espondilose lombar"
-    replace: Espondilose lombar.
-    word: true
-
-  - trigger: "est"
-    label: "Espondilose torácica"
-    replace: Espondilose torácica.
-    word: true
-
   - trigger: "estl"
     label: "Espondilose torácica leve"
     replace: Espondilose torácica leve.
@@ -178,11 +158,6 @@ matches:
       Aumento de partes moles da parede posterior da rinofaringe, determinando redução da coluna aérea.
       Na avaliação da tonsila faríngea observa-se índice A/N (Fujioka) de 0,82.
       Aplicando o modelo objetivo 110,119 × A/N, estima-se obstrução de aproximadamente 90%, sugerindo obstrução nasofaríngea significativa.
-    word: true
-
-  - trigger: "ilfc"
-    label: "Inversão da lordose cervical"
-    replace: Inversão da lordose fisiológica cervical.
     word: true
 
   - trigger: "iomcv"
@@ -923,11 +898,6 @@ matches:
       Parênquima pulmonar com densidade preservada.
       Seios costofrênicos livres.
       Silhueta cardíaca com área normal.
-    word: true
-
-  - trigger: "scad"
-    label: "Silhueta cardíaca com aumento de dimensões"
-    replace: Silhueta cardíaca com sinais de aumento de suas dimensões.
     word: true
 
   # ==========================================================================
@@ -3414,11 +3384,6 @@ matches:
     replace: Cateter umbilical.
     word: true
 
-  - trigger: "cv"
-    label: "Corpo vertebral"
-    replace: corpo vertebral
-    word: true
-
   - trigger: "cvc"
     label: "Cateter venoso central"
     replace: Cateter venoso central à direita.
@@ -3459,11 +3424,6 @@ matches:
   - trigger: "rxdreno"
     label: "Dreno torácico com enfisema de partes moles"
     replace: Dreno torácico com extremidade distal no terço superior do pulmão direito. Associam-se enfisema de partes moles adjacentes.
-    word: true
-
-  - trigger: "eap"
-    label: "Espaços articulares preservados"
-    replace: Espaços articulares preservados.
     word: true
 
   - trigger: "enf1d"
@@ -3569,11 +3529,6 @@ matches:
   - trigger: "grato"
     label: "Fecho de pedido de associações"
     replace: Favor fazer demais associações. Grato.
-    word: true
-
-  - trigger: "hems"
-    label: "Nódulos hiperecogênicos hepáticos (hemangiomas)"
-    replace: Nódulos hiperecogênicos circunscritos localizados nos segmentos VII ( cm)
     word: true
 
   - trigger: "hill"
@@ -3695,11 +3650,6 @@ matches:
     replace: podendo corresponder a fratura no contexto de trauma
     word: true
 
-  - trigger: "pinfe"
-    label: "Processo inflamatório/infeccioso"
-    replace: processo inflamatório/infeccioso
-    word: true
-
   - trigger: "pirineu"
     label: "Ossículo acessório do cuboide"
     replace: Ossículo acessório adjacente ao cuboide.
@@ -3718,26 +3668,6 @@ matches:
   - trigger: "pontes"
     label: "Pontes ósseas"
     replace: por vezes formando pontes ósseas.
-    word: true
-
-  - trigger: "qil"
-    label: "Quadrante inferolateral"
-    replace: quadrante inferolateral
-    word: true
-
-  - trigger: "qim"
-    label: "Quadrante inferomedial"
-    replace: quadrante inferomedial
-    word: true
-
-  - trigger: "qsl"
-    label: "Quadrante superolateral"
-    replace: quadrante súpero-lateral
-    word: true
-
-  - trigger: "qsm"
-    label: "Quadrante superomedial"
-    replace: quadrante superomedial
     word: true
 
   - trigger: "queijo"
@@ -3765,19 +3695,9 @@ matches:
     replace: Alteração da morfologia óssea na asa ilíaca direita sugerindo sequela de fratura prévia. Correlacionar com dados clínicos.
     word: true
 
-  - trigger: "solu"
-    label: "Solução de continuidade de partes moles"
-    replace: Solução de continuidade de partes moles
-    word: true
-
   - trigger: "sss"
     label: "sem sinais de soltura"
     replace: ", sem sinais de soltura."
-    word: true
-
-  - trigger: "subcu"
-    label: "Enfisema subcutâneo"
-    replace: Associa-se enfisema subcutâneo.
     word: true
 
   - trigger: "terry"
@@ -3813,11 +3733,6 @@ matches:
   - trigger: "aac"
     label: "Arco aórtico calcificado"
     replace: Arco aórtico com calcificações.
-    word: true
-
-  - trigger: "aap"
-    label: "Arco aórtico proeminente"
-    replace: Arco aórtico proeminente.
     word: true
 
   - trigger: "aapc"
