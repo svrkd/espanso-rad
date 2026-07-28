@@ -6490,11 +6490,6 @@ matches:
   # TEMPLATES COMPLETOS / CABEÇALHOS DE EXAME / ASSINATURAS
   # ==========================================================================
 
-  - trigger: "acritc"
-    label: "Recomendação de complementação por TC"
-    replace: "A critério clínico, se possível, o estudo dessa região por imagens de tomografia computadorizada poderá fornecer maiores subsídios diagnósticos."
-    word: true
-
   - trigger: "acrius"
     label: "Recomendação de complementação por US"
     replace: "A critério clínico, se possível, o estudo dessa região por imagens de ultrassonografia poderá fornecer maiores subsídios diagnósticos."
@@ -10659,19 +10654,9 @@ matches:
     replace: Correlacionar com dados cirúrgicos.
     word: true
 
-  - trigger: "cocx"
-    label: "Correlacionar com dados cirúrgicos"
-    replace: Correlacionar com dados cirúrgicos.
-    word: true
-
   - trigger: "coco1"
     label: "Coprostase"
     replace: Coprostase.
-    word: true
-
-  - trigger: "colab"
-    label: "Correlacionar com dados clínicos e laboratoriais"
-    replace: Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "colab1"

@@ -30,6 +30,11 @@ matches:
     replace: Correlacionar com dados clínicos.
     word: true
 
+  - trigger: "colab"
+    label: "Correlacionar com dados clínicos e laboratoriais"
+    replace: Correlacionar com dados clínicos e laboratoriais.
+    word: true
+
   - trigger: "cocx"
     label: "Correlacionar com histórico cirúrgico"
     replace: Correlacionar com histórico cirúrgico.

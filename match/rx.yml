@@ -25,16 +25,6 @@ matches:
     replace: "Encurtamento bilateral do 4º metacarpo, achado que pode ser encontrado em síndromes genéticas como pseudohipoparatireoidismo tipo Ia (osteodistrofia hereditária de Albright), entre outras causas congênitas. Correlacionar com dados clínicos."
     word: true
 
-  - trigger: "dsn1"
-    label: "Desvio de septo nasal à direita"
-    replace: Desvio do septo nasal para a direita.
-    word: true
-
-  - trigger: "dsn2"
-    label: "Desvio de septo nasal à esquerda"
-    replace: Desvio do septo nasal para a esquerda.
-    word: true
-
   - trigger: "redus"
     label: "Espessamento mucoso dos seios etmoidais"
     replace: "Redução da transparência aérea dos seios etmoidais, podendo representar espessamento mucoso."
@@ -67,17 +57,6 @@ matches:
   - trigger: "baastrup"
     label: "Doença de Baastrup"
     replace: Alterações degenerativas entre os processos espinhosos (Baastrup).
-    word: true
-
-  - trigger: "baciaid"
-    label: "Radiografia de bacia — alterações degenerativas (idoso)"
-    replace: |
-      Redução da densidade óssea.
-      Espondilose lombar.
-      Redução dos espaços articulares dos quadris, associado a osteofitose e esclerose das bordas acetabulares.
-      Entesopatia difusa.
-      Artropatia degenerativa nas sacroilíacas e sínfise púbica.
-      Flebólitos na pelve.
     word: true
 
   - trigger: "cagex"
@@ -138,16 +117,6 @@ matches:
   - trigger: "estl"
     label: "Espondilose torácica leve"
     replace: Espondilose torácica leve.
-    word: true
-
-  - trigger: "fracolu"
-    label: "Fratura vertebral (redução de altura)"
-    replace: "Redução da altura do corpo vertebral de XX, podendo representar fratura."
-    word: true
-
-  - trigger: "fracolus"
-    label: "Fraturas vertebrais (redução de altura)"
-    replace: "Redução da altura dos corpos vertebrais de XX, podendo representar fraturas."
     word: true
 
   - trigger: "fuji"
@@ -225,11 +194,6 @@ matches:
   - trigger: "reduziu2"
     label: "Redução dos espaços discais L4-L5 e L5-S1"
     replace: "Redução dos espaços discais de L4-L5 e de L5-S1, com esclerose óssea das margens apostas."
-    word: true
-
-  - trigger: "ret"
-    label: "Retificação da lordose"
-    replace: Retificação da lordose fisiológica.
     word: true
 
   - trigger: "retlomba"
@@ -343,11 +307,6 @@ matches:
     replace: Mínima retrolistese de
     word: true
 
-  - trigger: "omcv"
-    label: "Osteófitos marginais nos corpos vertebrais"
-    replace: Osteófitos marginais nos corpos vertebrais.
-    word: true
-
   - trigger: "retcer"
     label: "Retificação da lordose cervical"
     replace: Retificação da lordose fisiológica cervical.
@@ -356,11 +315,6 @@ matches:
   - trigger: "retlom"
     label: "Retificação da lordose lombar"
     replace: Retificação da lordose lombar.
-    word: true
-
-  - trigger: "retrolis"
-    label: "Retrolistese"
-    replace: Retrolistese de
     word: true
 
   - trigger: "visuate"
@@ -425,17 +379,6 @@ matches:
     replace: Acentuação da trama vascular pulmonar.
     word: true
 
-  - trigger: "avc"
-    label: "Radiografia de tórax — avaliação limitada"
-    replace: |
-      Exame de avaliação limitada devido à técnica empregada.
-      Textura e morfologia óssea preservada.
-      Discreta proeminência hilar e da trama vascular.
-      Pulmões hipoexpandidos.
-      Seios costofrênicos livres.
-      Silhueta cardíaca de avaliação limitada.
-    word: true
-
   - trigger: "bronqui"
     label: "Bronquiectasias císticas"
     replace: "Presença de múltiplas imagens císticas de paredes espessas, distribuídas pelo pulmão direito, podendo representar bronquiectasias císticas."
@@ -464,11 +407,6 @@ matches:
   - trigger: "congesta"
     label: "Opacidades intersticiais pulmonares"
     replace: Opacidades intersticiais esparsas pelo parênquima pulmonar.
-    word: true
-
-  - trigger: "derrameb"
-    label: "Derrame pleural bilateral"
-    replace: "Apagamento e elevação dos seios costofrênicos bilateralmente, devendo corresponder a derrame pleural associado a atelectasia do parênquima pulmonar adjacente."
     word: true
 
   - trigger: "derramebd"
@@ -501,15 +439,6 @@ matches:
     replace: "Imagem cardíaca com ápice voltado para a direita, ocupando predominantemente o hemitórax direito, achado sugestivo de dextrocardia."
     word: true
 
-  - trigger: "dpoc"
-    label: "Sinais de DPOC"
-    replace: |
-      Alterações degenerativas do arcabouço ósseo.
-      Retificação do diafragma.
-      Aumento dos espaços intercostais.
-      Aumento do diâmetro anteroposterior do tórax.
-    word: true
-
   - trigger: "drenoa"
     label: "Dreno mediastinal"
     replace: "Dreno mediastinal à direita, com inserção via parede torácica anterior."
@@ -530,11 +459,6 @@ matches:
     replace: em processo de consolidação.
     word: true
 
-  - trigger: "estrias"
-    label: "Estrias atelectásicas"
-    replace: Estrias densas de aspecto atelectásico esparsas.
-    word: true
-
   - trigger: "estriasb"
     label: "Estrias atelectásicas em bases pulmonares"
     replace: Estrias densas de aspecto atelectásico em bases pulmonares.
@@ -548,11 +472,6 @@ matches:
   - trigger: "fracostd"
     label: "Fraturas consolidadas de arcos costais à direita"
     replace: Fraturas consolidadas em arcos costais à direita.
-    word: true
-
-  - trigger: "fracoste"
-    label: "Fraturas consolidadas de arcos costais à esquerda"
-    replace: Fraturas consolidadas em arcos costais à esquerda.
     word: true
 
   - trigger: "ht"
@@ -595,11 +514,6 @@ matches:
       Restante do parênquima pulmonar com densidade preservada.
     word: true
 
-  - trigger: "opa"
-    label: "Opacidade consolidativa/atelectásica em lobo inferior direito"
-    replace: Opacidades consolidativas/atelectásicas no lobo inferior do pulmão direito.
-    word: true
-
   - trigger: "opm"
     label: "Opacidades reticulares pulmonares"
     replace: Opacidades reticulares esparsas pelo parênquima pulmonar.
@@ -630,11 +544,6 @@ matches:
     replace: "Acentuado pneumotórax à esquerda promovendo atelectasia do parênquima pulmonar adjacente, bem como desvio das estruturas mediastinais para o lado contralateral."
     word: true
 
-  - trigger: "portocat"
-    label: "Cateter port-a-cath"
-    replace: Dispositivo de infusão medicamentosa localizado no hemitórax direito.
-    word: true
-
   - trigger: "pruim"
     label: "Pulmões — avaliação limitada"
     replace: |
@@ -661,11 +570,6 @@ matches:
   - trigger: "redud"
     label: "Redução difusa da transparência pulmonar"
     replace: Redução da transparência pulmonar difusamente.
-    word: true
-
-  - trigger: "ret1"
-    label: "Retificação de arcos costais"
-    replace: Retificação de arcos costais.
     word: true
 
   - trigger: "ret2"
@@ -743,16 +647,6 @@ matches:
   - trigger: "trama"
     label: "Trama vascular pulmonar proeminente"
     replace: Hilos e trama vascular pulmonar proeminentes.
-    word: true
-
-  - trigger: "traqueo"
-    label: "Cânula de traqueostomia"
-    replace: Cânula de traqueostomia.
-    word: true
-
-  - trigger: "vf"
-    label: "Opacidades consolidativas e alveolares esparsas"
-    replace: Opacidades consolidativas e alveolares esparsas pelo parênquima pulmonar.
     word: true
 
   - trigger: "arcoss"
@@ -885,11 +779,6 @@ matches:
     replace: Seios costofrênicos obliterados.
     word: true
 
-  - trigger: "oparet"
-    label: "Opacidades reticulares esparsas no parênquima"
-    replace: Opacidades reticulares esparsas no parênquima pulmonar.
-    word: true
-
   - trigger: "rxt"
     label: "Tórax normal (bloco de achados)"
     replace: |
@@ -939,19 +828,9 @@ matches:
     replace: Distensão gasosa da câmara gástrica e de alças intestinais.
     word: true
 
-  - trigger: "diu"
-    label: "DIU em posição habitual"
-    replace: Dispositivo intrauterino em cavidade pélvica.
-    word: true
-
   - trigger: "diufora"
     label: "DIU em localização ectópica"
     replace: "Dispositivo intrauterino identificado em localização ectópica, projetado na cavidade pélvica à esquerda (topografia de fossa ilíaca esquerda), melhor avaliado por estudo dirigido."
-    word: true
-
-  - trigger: "duploj"
-    label: "Cateter duplo J"
-    replace: Cateter duplo J à XX com extremidade proximal na pelve renal e distal no interior da bexiga urinária.
     word: true
 
   - trigger: "rxectasia"
@@ -1041,11 +920,6 @@ matches:
   - trigger: "arqfai"
     label: "Resíduos fecais acentuados em alças intestinais"
     replace: Acentuada quantidade de resíduos fecais em alças intestinais.
-    word: true
-
-  - trigger: "dgai"
-    label: "Distensão gasosa de alças intestinais"
-    replace: Distensão gasosa de alças intestinais.
     word: true
 
   - trigger: "eeduodeno"
@@ -1618,11 +1492,6 @@ matches:
       Calcificações vasculares de partes moles.
     word: true
 
-  - trigger: "peplano"
-    label: "Pé plano"
-    replace: "Sinais de pé plano; ângulo do pitch do calcâneo: º (VR: 20º-30º), ângulo de Meary: º (VR: 0º) e ângulo de Costa Bertani: º (VR: 120º a 130º)."
-    word: true
-
   - trigger: "pezin"
     label: "Artropatia degenerativa do antepé"
     replace: |
@@ -1805,16 +1674,6 @@ matches:
   # ==========================================================================
   # TEMPLATES COMPLETOS / CABEÇALHOS DE EXAME / ASSINATURAS
   # ==========================================================================
-
-  - trigger: "acri1"
-    label: "Sugestão de complementação com TC"
-    replace: "À critério clínico, o estudo com imagens de tomografia computadorizada poderá fornecer maiores subsídios diagnósticos."
-    word: true
-
-  - trigger: "casoper"
-    label: "Sugestão de complementação com TC"
-    replace: "Caso persista indicação clínica, o estudo com imagens de tomografia computadorizada poderá fornecer maiores subsídios diagnósticos."
-    word: true
 
   - trigger: "ccu"
     label: "Cateter umbilical (avaliação limitada)"
@@ -3384,11 +3243,6 @@ matches:
     replace: Cateter umbilical.
     word: true
 
-  - trigger: "cvc"
-    label: "Cateter venoso central"
-    replace: Cateter venoso central à direita.
-    word: true
-
   - trigger: "dd"
     label: "Diáfise distal"
     replace: diáfise distal
@@ -3444,11 +3298,6 @@ matches:
   - trigger: "enostose"
     label: "Enostose (ilha óssea)"
     replace: "Imagem esclerótica intramedular, medindo cerca de 2,5 cm, sem sinais de agressividade (preservação cortical e ausência de reação periosteal), achado inespecífico, com aspecto sugestivo de alteração óssea benigna crônica, como enostose ou infarto ósseo crônico"
-    word: true
-
-  - trigger: "enteso"
-    label: "Entesopatia difusa"
-    replace: Entesopatia difusa.
     word: true
 
   - trigger: "esq"
@@ -3536,16 +3385,6 @@ matches:
     replace: "Fratura/irregularidade cortical do aspecto posterolateral do terço superior da cabeça umeral, sugerindo representar sequela de lesão de Hill-Sachs."
     word: true
 
-  - trigger: "lid"
-    label: "Lobo inferior do pulmão direito"
-    replace: lobo inferior do pulmão direito.
-    word: true
-
-  - trigger: "lie"
-    label: "Lobo inferior do pulmão esquerdo"
-    replace: lobo inferior do pulmão esquerdo.
-    word: true
-
   - trigger: "luxou"
     label: "Luxação articular"
     replace: Perda da congruência articular
@@ -3554,16 +3393,6 @@ matches:
   - trigger: "margensap"
     label: "Esclerose das margens apostas"
     replace: por vezes com esclerose óssea das margens apostas.
-    word: true
-
-  - trigger: "megapo"
-    label: "Megapófise transversa de L5"
-    replace: "Megapófise transversa à direita em L5, articulando-se com o sacro."
-    word: true
-
-  - trigger: "mel"
-    label: "Sugestão de complementação com TC"
-    replace: melhor avaliado por estudo tomográfico.
     word: true
 
   - trigger: "mid"
@@ -3670,11 +3499,6 @@ matches:
     replace: por vezes formando pontes ósseas.
     word: true
 
-  - trigger: "queijo"
-    label: "Metástases ósseas líticas e escleróticas"
-    replace: "Múltiplas lesões líticas e escleróticas difusas pelo arcabouço ósseo, sugestivas de acometimento neoplásico secundário."
-    word: true
-
   - trigger: "retd"
     label: "Retificação do diafragma"
     replace: Retificação do diafragma.
@@ -3725,21 +3549,6 @@ matches:
     replace: Calcificações vasculares.
     word: true
 
-  - trigger: "vba"
-    label: "Clipes metálicos em hipocôndrio direito"
-    replace: Clipes metálicos em topografia de hipocôndrio direito podendo estar associados a cirurgia prévia. Correlacionar com dados clínicos.
-    word: true
-
-  - trigger: "aac"
-    label: "Arco aórtico calcificado"
-    replace: Arco aórtico com calcificações.
-    word: true
-
-  - trigger: "aapc"
-    label: "Arco aórtico proeminente com placas calcificadas"
-    replace: Arco aórtico proeminente e com placas de calcificações parietais.
-    word: true
-
   - trigger: "adao"
     label: "Alterações degenerativas do arcabouço ósseo"
     replace: Alterações degenerativas do arcabouço ósseo.
@@ -3763,13 +3572,6 @@ matches:
   - trigger: "ausenciade"
     label: "Ausência de calcificações periarticulares"
     replace: Ausência de calcificações de partes moles periarticulares.
-    word: true
-
-  - trigger: "cage"
-    label: "Artrodese bipedicular com cage intradiscal"
-    replace: |
-      Artrodese bipedicular fixando XXX.
-      Clipe metálico intradiscal em XXX.
     word: true
 
   - trigger: "calciv"
@@ -3808,11 +3610,6 @@ matches:
   - trigger: "deest"
     label: "de estudo prejudicado"
     replace: de estudo prejudicado.
-    word: true
-
-  - trigger: "elevacu"
-    label: "Elevação da cúpula diafragmática direita"
-    replace: Elevação da cúpula diafragmática à direita.
     word: true
 
   - trigger: "entedifu"
@@ -3860,16 +3657,6 @@ matches:
     replace: "Exame realizado em apenas uma incidência, limitando a avaliação."
     word: true
 
-  - trigger: "mgi"
-    label: "Material gessado de imobilização"
-    replace: Material gessado de imobilização contendo estruturas do
-    word: true
-
-  - trigger: "mmo"
-    label: "Material metálico de osteossíntese"
-    replace: Material metálico de osteossíntese fixado
-    word: true
-
   - trigger: "mmos"
     label: "Materiais metálicos de osteossíntese"
     replace: Materiais metálicos de osteossíntese fixados
@@ -3888,11 +3675,6 @@ matches:
   - trigger: "partesmoles"
     label: "Aumento de partes moles adjacente à lesão"
     replace: "Aumento do volume de partes moles, adjacentes ao sítio de lesão."
-    word: true
-
-  - trigger: "pnv"
-    label: "Psoas não visualizados"
-    replace: Psoas não visualizados.
     word: true
 
   - trigger: "ppa"
@@ -3939,11 +3721,6 @@ matches:
       Exame realizado em caráter de urgência em apenas uma incidência.
 
       Ausência de imagem sugestiva de fratura na incidência realizada.
-    word: true
-
-  - trigger: "subo"
-    label: "Avaliação limitada — condições técnicas subótimas"
-    replace: Exame de avaliação limitada devido à técnica empregada com condições técnicas subótimas para laudo.
     word: true
 
   - trigger: "subotimo"
