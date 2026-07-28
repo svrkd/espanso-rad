@@ -6478,12 +6478,12 @@ matches:
 
   - trigger: "dc2"
     label: "Artéria carótida: Placa aterosclerótica não complicada em bulbo carotídeo à _, sem repercussão hemodinâmica... (achado descritivo)"
-    replace: Placa aterosclerótica calcificada, de superfície regular, no bulbo carotídeo/artéria carótida _ à _, promovendo redução luminal estimada em _ %.
+    replace: Placa aterosclerótica de ecotextura heterogênea, predominantemente ecogênica, de superfície lisa, medindo _ x _ mm no bulbo carotídeo/artéria carótida _ à _. Ao Doppler, fluxo laminar com velocidades normais.
     word: true
 
   - trigger: "dc2c"
     label: "Artéria carótida: Placa aterosclerótica não complicada em bulbo carotídeo à _, sem repercussão hemodinâmica..."
-    replace: Placa aterosclerótica não complicada em bulbo carotídeo à _, sem repercussão hemodinâmica significativa.
+    replace: Placa aterosclerótica sem características de instabilidade no bulbo carotídeo à _, sem repercussão hemodinâmica significativa.
     word: true
 
   - trigger: "dc3"
@@ -6498,7 +6498,7 @@ matches:
 
   - trigger: "dc4"
     label: "Artéria carótida: Estenose inferior a 50% da artéria carótida interna à _ (achado descritivo)"
-    replace: Artéria carótida interna à _ com redução luminal por placa aterosclerótica, apresentando velocidade de pico sistólico de _ cm/s e razão VPS ACI/ACC de _ (parâmetros compatíveis com estenose inferior a 50%).
+    replace: Placa aterosclerótica de ecotextura heterogênea, predominantemente ecogênica, de superfície lisa, medindo _ x _ mm na bifurcação carotídea/artéria carótida interna à _. Ao Doppler, fluxo laminar com velocidades normais (parâmetros compatíveis com estenose inferior a 50%).
     word: true
 
   - trigger: "dc4c"
@@ -6508,7 +6508,7 @@ matches:
 
   - trigger: "dc5"
     label: "Artéria carótida: Estenose de 50 a 69% da artéria carótida interna à _ (achado descritivo)"
-    replace: Artéria carótida interna à _ com redução luminal por placa aterosclerótica, apresentando velocidade de pico sistólico de _ cm/s e razão VPS ACI/ACC de _ (parâmetros compatíveis com estenose entre 50 e 69%).
+    replace: Placa aterosclerótica de ecotextura heterogênea, predominantemente hipoecogênica, de superfície lisa, medindo _ x _ mm na bifurcação carotídea/artéria carótida interna à _, apresentando ao Doppler fluxo turbulento com velocidade de pico sistólico de _ cm/s, velocidade diastólica final de _ cm/s e razão VPS ACI/ACC de _ (parâmetros compatíveis com estenose entre 50 e 69%).
     word: true
 
   - trigger: "dc5c"
@@ -6518,7 +6518,7 @@ matches:
 
   - trigger: "dc6"
     label: "Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ (achado descritivo)"
-    replace: Artéria carótida interna à _ com acentuada redução luminal por placa aterosclerótica, apresentando velocidade de pico sistólico de _ cm/s e razão VPS ACI/ACC de _ (parâmetros compatíveis com estenose igual ou superior a 70%).
+    replace: Placa aterosclerótica de ecotextura homogênea, predominantemente ecogênica, de superfície lisa, medindo _ x _ mm na artéria carótida interna à _, apresentando ao Doppler fluxo turbulento com velocidade de pico sistólico de _ cm/s, velocidade diastólica final de _ cm/s e razão VPS ACI/ACC de _ (parâmetros compatíveis com estenose igual ou superior a 70%).
     word: true
 
   - trigger: "dc6c"
@@ -6528,7 +6528,7 @@ matches:
 
   - trigger: "dc7"
     label: "Artéria carótida: Achados compatíveis com oclusão da artéria carótida interna à _ (achado descritivo)"
-    replace: Artéria carótida interna à _ com preenchimento luminal por material hipoecogênico compatível com trombo, sem sinal Doppler detectável no vaso.
+    replace: Artéria carótida comum à _ de diâmetro preservado, com fluxo de velocidade normal porém de alta resistência (IR de _). Artéria carótida interna à _ preenchida por material hipoecogênico em seu segmento proximal, sem sinal Doppler detectável no seu interior.
     word: true
 
   - trigger: "dc7c"
@@ -6536,9 +6536,55 @@ matches:
     replace: Achados compatíveis com oclusão da artéria carótida interna à _.
     word: true
 
+  - trigger: "dc8"
+    label: "Artéria carótida: Achados sugestivos de carotidínia à _ (achado descritivo)"
+    replace: Artéria carótida comum à _ com espessamento parietal excêntrico hipoecogênico, notadamente em seu segmento distal, sem redução luminal significativa. Ao Doppler, ausência de turbulência espectral e velocidades normais.
+    word: true
+
+  - trigger: "dc8c"
+    label: "Artéria carótida: Achados sugestivos de carotidínia à _"
+    replace: Achados ecográficos, em correlação com a clínica, sugestivos de carotidínia à _.
+    word: true
+
+  - trigger: "dc9"
+    label: "Artéria carótida: Nódulo em bifurcação carotídea à _, provável paraganglioma (achado descritivo)"
+    replace: Nódulo sólido hipoecoico em íntimo contato com a região da bifurcação carotídea à _, medindo _ x _ x _ mm, com moderado fluxo vascular ao Doppler colorido.
+    word: true
+
+  - trigger: "dc9c"
+    label: "Artéria carótida: Nódulo em bifurcação carotídea à _, provável paraganglioma"
+    replace: Nódulo sólido em bifurcação carotídea à _ (provável paraganglioma).
+    word: true
+
+  - trigger: "dc10"
+    label: "Artéria carótida: Estenose intrastent do stent carotídeo à _ (achado descritivo)"
+    replace: |-
+      Stent carotídeo em segmento distal da artéria carótida comum e proximal da artéria carótida interna à _, com morfologia preservada e sinais de hiperplasia neointimal (_ mm). Ao Doppler, fluxo turbulento e de velocidade aumentada (VPS: _ cm/s) em seu interior, compatível com estenose hemodinamicamente significativa (≥ _%).
+
+      Obs: A avaliação dopplerfluxométrica para pesquisa de estenose intrastent foi realizada utilizando-se os parâmetros do seguinte estudo: Stanziale, Stephen F., et al. "Determining in-stent stenosis of carotid arteries by duplex ultrasound criteria." Journal of Endovascular Therapy 12.3 (2005): 346-353.
+    word: true
+
+  - trigger: "dc10c"
+    label: "Artéria carótida: Estenose intrastent do stent carotídeo à _"
+    replace: Angioplastia com implante de stent carotídeo à _, com sinais de estenose intrastent superior a _%.
+    word: true
+
+  - trigger: "dc11"
+    label: "Artéria carótida: Stent carotídeo à _ sem estenose intrastent (achado descritivo)"
+    replace: |-
+      Stent carotídeo em segmento distal da artéria carótida comum e proximal da artéria carótida interna à _, com morfologia preservada. Ao Doppler, fluxo laminar com velocidades normais.
+
+      Obs: A avaliação dopplerfluxométrica para pesquisa de estenose intrastent foi realizada utilizando-se os parâmetros do seguinte estudo: Stanziale, Stephen F., et al. "Determining in-stent stenosis of carotid arteries by duplex ultrasound criteria." Journal of Endovascular Therapy 12.3 (2005): 346-353.
+    word: true
+
+  - trigger: "dc11c"
+    label: "Artéria carótida: Stent carotídeo à _ sem estenose intrastent"
+    replace: Angioplastia com implante de stent carotídeo à _, com aspectos morfológico e funcional normais.
+    word: true
+
   - trigger: "dv1"
     label: "Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ (achado descritivo)"
-    replace: Artéria vertebral à _, avaliada em seu segmento interapofisário, com diâmetro difusamente reduzido, medindo _ mm, associada a fluxo de direção cefálica com curva de amplitude reduzida e padrão de resistência aumentada.
+    replace: Artéria vertebral à _, avaliada em seu segmento interapofisário (V2), com diâmetro difusamente reduzido, medindo _ mm, associada a fluxo anterógrado de direção cefálica com padrão de alta resistência (IR de _).
     word: true
 
   - trigger: "dv1c"
@@ -6564,6 +6610,101 @@ matches:
   - trigger: "dv3c"
     label: "Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _"
     replace: Achados compatíveis com oclusão da artéria vertebral à _.
+    word: true
+
+  - trigger: "ds1"
+    label: "Roubo subclávio completo à _ (achado descritivo)"
+    replace: Artéria vertebral à _ de diâmetro preservado, com reversão completa do sentido de fluxo ao Doppler. O estudo complementar das artérias subclávia e braquial ipsilaterais demonstra fluxo monofásico, com redução de velocidade e aceleração lenta (tardus parvus), inferindo suboclusão a nível proximal.
+    word: true
+
+  - trigger: "ds1c"
+    label: "Roubo subclávio completo à _"
+    replace: Achados compatíveis com suboclusão proximal da artéria subclávia à _ (roubo subclávio completo).
+    word: true
+
+  - trigger: "ds2"
+    label: "Roubo subclávio latente tipo 1 à _ (achado descritivo)"
+    replace: Artéria vertebral à _ de diâmetro preservado, com fluxo apresentando incisura mesossistólica e velocidade de pico na mesossístole superior à velocidade diastólica final.
+    word: true
+
+  - trigger: "ds2c"
+    label: "Roubo subclávio latente tipo 1 à _"
+    replace: Achados ao Doppler sugestivos de estenose subclávia à _ hemodinamicamente significativa (roubo subclávio latente tipo 1).
+    word: true
+
+  - trigger: "ds3"
+    label: "Roubo subclávio latente tipo 2 à _ (achado descritivo)"
+    replace: Artéria vertebral à _ de diâmetro preservado, com fluxo apresentando incisura mesossistólica e velocidade de pico na mesossístole igual à velocidade diastólica final.
+    word: true
+
+  - trigger: "ds3c"
+    label: "Roubo subclávio latente tipo 2 à _"
+    replace: Achados ao Doppler sugestivos de estenose subclávia à _ hemodinamicamente significativa (roubo subclávio latente tipo 2).
+    word: true
+
+  - trigger: "ds4"
+    label: "Roubo subclávio latente tipo 3 à _ (achado descritivo)"
+    replace: Artéria vertebral à _ de diâmetro preservado, com fluxo apresentando incisura mesossistólica e velocidade de pico na mesossístole inferior à velocidade diastólica final. O estudo complementar da artéria subclávia à _ demonstra estenose hemodinamicamente significativa (~70%) de seu segmento proximal à emergência da vertebral.
+    word: true
+
+  - trigger: "ds4c"
+    label: "Roubo subclávio latente tipo 3 à _"
+    replace: Achados compatíveis com estenose hemodinamicamente significativa da artéria subclávia à _ (roubo subclávio latente tipo 3).
+    word: true
+
+  - trigger: "ds5"
+    label: "Roubo subclávio parcial tipo 4 à _ (achado descritivo)"
+    replace: Artéria vertebral à _ de diâmetro preservado, com fluxo bidirecional ao Doppler, apresentando sístole retrógrada e diástole anterógrada.
+    word: true
+
+  - trigger: "ds5c"
+    label: "Roubo subclávio parcial tipo 4 à _"
+    replace: Achados ao Doppler da artéria vertebral compatíveis com fenômeno de roubo subclávio parcial à _ (tipo 4).
+    word: true
+
+  # ==============================================================================
+  # VASCULAR — SÍNDROME DO DESFILADEIRO TORÁCICO (MMSS)
+  # ==============================================================================
+
+  - trigger: "sdt"
+    label: "Síndrome do desfiladeiro torácico arterial à _ (achado descritivo)"
+    replace: Padrão de fluxo pós-estenótico com posterior ausência de fluxo na artéria subclávia à _ durante a realização de manobras ativas de redução do espaço costoclavicular (abdução e extensão posterior do braço).
+    word: true
+
+  - trigger: "sdtc"
+    label: "Síndrome do desfiladeiro torácico arterial à _"
+    replace: Achados ecográficos sugestivos de síndrome do desfiladeiro torácico arterial à _.
+    word: true
+
+  # ==============================================================================
+  # VASCULAR — AORTA E ARTÉRIAS ILÍACAS
+  # ==============================================================================
+
+  - trigger: "di1"
+    label: "Estenose ilíaca à _ (achado descritivo)"
+    replace: |-
+      Ateromatose ilíaca bilateral com sinais de estenose importante na artéria ilíaca comum à _, caracterizada por fluxo filiforme com velocidades superiores a _ cm/s e razão sistólica > _, inferindo estenose grave (> 70%).
+      As curvas espectrais das artérias do membro inferior ipsilateral demonstram padrão de baixa amplitude e aceleração lenta (tardus parvus), decorrente do quadro estenótico.
+    word: true
+
+  - trigger: "di1c"
+    label: "Estenose ilíaca à _"
+    replace: Ateromatose difusa promovendo estenose grave em território ilíaco à _ (> 70%), determinando hipofluxo distal no membro inferior ipsilateral.
+    word: true
+
+  - trigger: "da1"
+    label: "Aneurisma + estenose aortoilíaca (achado descritivo)"
+    replace: |-
+      Aorta abdominal ateromatosa apresentando aneurisma fusiforme de seu segmento infrarrenal, com trombo mural excêntrico não obstrutivo, diâmetro de _ cm e luz residual de _ cm, com fluxo de baixa amplitude e padrão pré-estenótico em seu interior.
+      Estenose crítica no terço distal da aorta abdominal, junto à bifurcação aortoilíaca, com placas ateromatosas calcificadas grosseiras e circunferenciais promovendo fluxo filiforme com velocidades superiores a _ cm/s e razão sistólica > _, inferindo estenose grave (> 70%).
+      As curvas espectrais das artérias de ambos os membros inferiores demonstram padrão de baixa amplitude e aceleração lenta (tardus parvus), decorrente do quadro estenótico aortoilíaco.
+    word: true
+
+  - trigger: "da1c"
+    label: "Aneurisma + estenose aortoilíaca"
+    replace: |-
+      Estenose grave em território aortoilíaco (> 70%), determinando hipofluxo distal em ambos os membros inferiores.
+      Aneurisma de aorta abdominal.
     word: true
 
   # ==============================================================================
