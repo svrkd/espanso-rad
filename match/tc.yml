@@ -1,6 +1,54 @@
 matches:
 
   # ==========================================================================
+  # TÉCNICA
+  # ==========================================================================
+   - trigger: "sc"
+    label: "TC com contraste"
+    replace: Imagens obtidas em aparelho multislice sem a administração intravenosa de meio de contraste iodado.
+    word: true 
+    
+   - trigger: "cc"
+    label: "TC com contraste"
+    replace: Imagens obtidas em aparelho multislice antes e após a administração intravenosa de meio de contraste iodado.
+    word: true 
+
+  - trigger: "artboca"
+    label: "Artefatos odontológicos (TC)"
+    replace: "Material odontológico na cavidade oral, com densidade metálica, causando artefatos de endurecimento dos feixes de raios X, dificultando a avaliação anatômica das estruturas adjacentes."
+    word: true
+
+  - trigger: "artbocarm"
+    label: "Artefatos de susceptibilidade magnética (material oral)"
+    replace: "Artefatos de susceptibilidade magnética promovidos por materiais metálicos na cavidade oral, degradando parte das imagens adjacentes."
+    word: true
+
+  - trigger: "arteboca"
+    label: "Artefatos odontológicos (TC)"
+    replace: "Material odontológico na cavidade oral, com densidade metálica, causando artefatos de endurecimento dos feixes de raios X, dificultando a avaliação anatômica das estruturas adjacentes."
+    word: true
+
+  - trigger: "artebra"
+    label: "Artefatos por posicionamento dos braços"
+    replace: "Artefatos promovidos pelo posicionamento dos membros superiores do paciente junto ao abdome, limitando o estudo."
+    word: true
+
+  - trigger: "artendu"
+    label: "Artefatos de endurecimento por material metálico"
+    replace: Materiais com densidade metálica causando artefatos de endurecimento dos feixes de raios X dificultando a avaliação anatômica das estruturas adjacentes.
+    word: true
+
+  - trigger: "artlu"
+    label: "Artéria subclávia direita aberrante (lusória)"
+    replace: "Artéria subclávia direita originando-se no arco aórtico após a emergência da artéria subclávia esquerda, com trajeto retroesofágico (variante da normalidade)."
+    word: true
+
+  - trigger: "artmov"
+    label: "Artefatos de movimentação"
+    replace: Avaliação prejudicada por artefatos de movimentação.
+    word: true
+
+  # ==========================================================================
   # CRÂNIO / ENCÉFALO / SNC
   # ==========================================================================
 
@@ -10412,41 +10460,6 @@ matches:
   - trigger: "apopinfe1"
     label: "Possível PII (recomenda controle pós-terapêutico)"
     replace: A possibilidade de processo inflamatório/infeccioso pode ser inicialmente considerada dentre os diagnósticos diferenciais. Recomenda-se controle do estudo após a terapêutica estabelecida.
-    word: true
-
-  - trigger: "artboca"
-    label: "Artefatos odontológicos (TC)"
-    replace: "Material odontológico na cavidade oral, com densidade metálica, causando artefatos de endurecimento dos feixes de raios X, dificultando a avaliação anatômica das estruturas adjacentes."
-    word: true
-
-  - trigger: "artbocarm"
-    label: "Artefatos de susceptibilidade magnética (material oral)"
-    replace: "Artefatos de susceptibilidade magnética promovidos por materiais metálicos na cavidade oral, degradando parte das imagens adjacentes."
-    word: true
-
-  - trigger: "arteboca"
-    label: "Artefatos odontológicos (TC)"
-    replace: "Material odontológico na cavidade oral, com densidade metálica, causando artefatos de endurecimento dos feixes de raios X, dificultando a avaliação anatômica das estruturas adjacentes."
-    word: true
-
-  - trigger: "artebra"
-    label: "Artefatos por posicionamento dos braços"
-    replace: "Artefatos promovidos pelo posicionamento dos membros superiores do paciente junto ao abdome, limitando o estudo."
-    word: true
-
-  - trigger: "artendu"
-    label: "Artefatos de endurecimento por material metálico"
-    replace: Materiais com densidade metálica causando artefatos de endurecimento dos feixes de raios X dificultando a avaliação anatômica das estruturas adjacentes.
-    word: true
-
-  - trigger: "artlu"
-    label: "Artéria subclávia direita aberrante (lusória)"
-    replace: "Artéria subclávia direita originando-se no arco aórtico após a emergência da artéria subclávia esquerda, com trajeto retroesofágico (variante da normalidade)."
-    word: true
-
-  - trigger: "artmov"
-    label: "Artefatos de movimentação"
-    replace: Avaliação prejudicada por artefatos de movimentação.
     word: true
 
   - trigger: "asd"
