@@ -4,14 +4,14 @@ matches:
   # TÉCNICA
   # ==========================================================================
   - trigger: "sc"
-    label: "TC com contraste"
+    label: "TC sem contraste"
     replace: Imagens obtidas em aparelho multislice sem a administração intravenosa de meio de contraste iodado.
-    word: true 
-    
+    word: true
+
   - trigger: "cc"
     label: "TC com contraste"
     replace: Imagens obtidas em aparelho multislice antes e após a administração intravenosa de meio de contraste iodado.
-    word: true 
+    word: true
 
   - trigger: "artboca"
     label: "Artefatos odontológicos (TC)"
