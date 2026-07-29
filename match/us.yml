@@ -282,12 +282,12 @@ matches:
     word: true
 
   - trigger: "eh1c"
-    label: "Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática leve (grau I)"
+    label: "Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I)"
     replace: Sinais ecográficos sugestivos de esteatose hepática leve (grau I).
     word: true
 
   - trigger: "eh2c"
-    label: "Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática moderada (grau II)"
+    label: "Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito moderada (grau II)"
     replace: Sinais ecográficos sugestivos de esteatose hepática moderada (grau II).
     word: true
 
@@ -297,7 +297,7 @@ matches:
     word: true
 
   - trigger: "eh3c"
-    label: "Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática acentuada (grau III)"
+    label: "Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito acentuada (grau III)"
     replace: Sinais ecográficos sugestivos de esteatose hepática acentuada (grau III).
     word: true
 
