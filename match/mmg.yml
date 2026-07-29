@@ -1,5 +1,9 @@
 matches:
 
+  # ==============================================================================
+  # TEMPLATES COMPLETOS
+  # ==============================================================================
+
   - trigger: "mmg2"
     label: "Mamografia digital bilateral (template completo)"
     replace: |
@@ -53,4 +57,326 @@ matches:
       NOTA: No retorno trazer exames anteriores para comparação com os controles futuros.
 
       "Os achados negativos na mamografia não significam ausência de malignida-de. Na presença de nódulo palpável ou outra anormalidade clínica importante, o achado negativo não exclui a necessidade de prosseguir a investigação".
+    word: true
+
+  # ==============================================================================
+  # COMPOSIÇÃO / DENSIDADE DA MAMA (BI-RADS a–d)
+  # ==============================================================================
+
+  - trigger: "mgcompa"
+    label: "Mama (composição a): predominantemente adiposas"
+    replace: As mamas são predominantemente adiposas.
+    word: true
+
+  - trigger: "mgcompb"
+    label: "Mama (composição b): densidades fibroglandulares esparsas"
+    replace: As mamas apresentam densidades fibroglandulares esparsas.
+    word: true
+
+  - trigger: "mgcompc"
+    label: "Mama (composição c): heterogeneamente densas"
+    replace: As mamas são heterogeneamente densas, o que pode obscurecer pequenos nódulos.
+    word: true
+
+  - trigger: "mgcompd"
+    label: "Mama (composição d): extremamente densas"
+    replace: As mamas são extremamente densas, o que reduz a sensibilidade do método na detecção de nódulos.
+    word: true
+
+  # ==============================================================================
+  # NÓDULOS
+  # ==============================================================================
+
+  - trigger: "mgn1"
+    label: "Mama (nódulo): nódulo de aspecto benigno (ovalado, circunscrito, isodenso) (achado descritivo)"
+    replace: Nódulo ovalado, circunscrito, isodenso, medindo _ cm, localizado no quadrante _ da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mgn1c"
+    label: "Mama (nódulo): nódulo de aspecto benigno"
+    replace: Nódulo de aspecto benigno na mama [direita/esquerda].
+    word: true
+
+  - trigger: "mgn2"
+    label: "Mama (nódulo): nódulo provavelmente benigno (ovalado/redondo, circunscrito) (achado descritivo)"
+    replace: Nódulo [ovalado/redondo], de margens circunscritas, isodenso, medindo _ cm, localizado no quadrante _ da mama [direita/esquerda], a _ cm da papila, sem calcificações ou distorção arquitetural associadas.
+    word: true
+
+  - trigger: "mgn2c"
+    label: "Mama (nódulo): nódulo provavelmente benigno"
+    replace: Nódulo provavelmente benigno na mama [direita/esquerda], para o qual se sugere controle mamográfico em intervalo reduzido.
+    word: true
+
+  - trigger: "mgn3"
+    label: "Mama (nódulo): nódulo suspeito (irregular, espiculado, denso) (achado descritivo)"
+    replace: Nódulo de forma irregular, margens espiculadas e alta densidade, medindo _ cm, localizado no quadrante _ da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mgn3c"
+    label: "Mama (nódulo): nódulo de características suspeitas"
+    replace: Nódulo de características suspeitas na mama [direita/esquerda], sendo indicada avaliação histopatológica.
+    word: true
+
+  - trigger: "mgn4"
+    label: "Mama (nódulo): nódulo com densidade de gordura (hamartoma/linfonodo/cisto oleoso)"
+    replace: Nódulo circunscrito contendo densidade de gordura de permeio, medindo _ cm, localizado no quadrante _ da mama [direita/esquerda], de aspecto benigno.
+    word: true
+
+  - trigger: "mgns"
+    label: "Mama (nódulos): múltiplos nódulos circunscritos bilaterais (padrão benigno) (achado descritivo)"
+    replace: Múltiplos nódulos ovalados e circunscritos, isodensos, distribuídos por ambas as mamas, sem nódulo dominante ou de características suspeitas.
+    word: true
+
+  - trigger: "mgnsc"
+    label: "Mama (nódulos): múltiplos nódulos circunscritos bilaterais (padrão benigno)"
+    replace: Múltiplos nódulos circunscritos bilaterais, de aspecto benigno.
+    word: true
+
+  - trigger: "mgnt"
+    label: "Mama (nódulo): template parametrizado de nódulo (forma/margem/densidade)"
+    replace: Nódulo [ovalado/redondo/irregular], de margens [circunscritas/obscurecidas/microlobuladas/indistintas/espiculadas], [isodenso/hipodenso/hiperdenso], medindo _ cm, localizado no quadrante _ da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  # ==============================================================================
+  # CALCIFICAÇÕES
+  # ==============================================================================
+
+  - trigger: "mgk1"
+    label: "Mama (calcificações): puntiformes/redondas isoladas difusas (benignas)"
+    replace: Calcificações puntiformes e redondas, isoladas e difusas por ambas as mamas, de aspecto benigno.
+    word: true
+
+  - trigger: "mgk2"
+    label: "Mama (calcificações): vasculares (benignas)"
+    replace: Calcificações vasculares, com trajeto tubular paralelo, de aspecto benigno.
+    word: true
+
+  - trigger: "mgk3"
+    label: "Mama (calcificações): grosseiras em pipoca (fibroadenoma)"
+    replace: Calcificações grosseiras, com aspecto em pipoca, no quadrante _ da mama [direita/esquerda], compatíveis com fibroadenoma em involução.
+    word: true
+
+  - trigger: "mgk4"
+    label: "Mama (calcificações): em bastão/secretórias (benignas)"
+    replace: Calcificações grosseiras em forma de bastão, de distribuição ductal, compatíveis com calcificações secretórias, de aspecto benigno.
+    word: true
+
+  - trigger: "mgk5"
+    label: "Mama (calcificações): distróficas (benignas)"
+    replace: Calcificações distróficas grosseiras, de contornos irregulares, no quadrante _ da mama [direita/esquerda], de aspecto benigno.
+    word: true
+
+  - trigger: "mgk6"
+    label: "Mama (calcificações): leite de cálcio (benignas)"
+    replace: Calcificações com aspecto de leite de cálcio, exibindo sedimentação em nível na incidência em perfil, compatíveis com microcistos, de aspecto benigno.
+    word: true
+
+  - trigger: "mgk7"
+    label: "Mama (calcificações): cutâneas (benignas)"
+    replace: Calcificações cutâneas, com centro lucente, de aspecto benigno.
+    word: true
+
+  - trigger: "mgk8"
+    label: "Mama (calcificações): finas pleomórficas agrupadas (suspeitas) (achado descritivo)"
+    replace: Calcificações finas pleomórficas, com distribuição agrupada, no quadrante _ da mama [direita/esquerda], ocupando extensão de _ cm.
+    word: true
+
+  - trigger: "mgk8c"
+    label: "Mama (calcificações): finas pleomórficas agrupadas (suspeitas)"
+    replace: Calcificações agrupadas de morfologia suspeita na mama [direita/esquerda], sendo indicada avaliação histopatológica.
+    word: true
+
+  - trigger: "mgk9"
+    label: "Mama (calcificações): finas lineares/ramificadas segmentares (suspeitas) (achado descritivo)"
+    replace: Calcificações finas lineares e ramificadas, com distribuição segmentar, no quadrante _ da mama [direita/esquerda], sugestivas de acometimento ductal.
+    word: true
+
+  - trigger: "mgk9c"
+    label: "Mama (calcificações): finas lineares/ramificadas segmentares (suspeitas)"
+    replace: Calcificações de distribuição segmentar e morfologia suspeita na mama [direita/esquerda], sendo indicada avaliação histopatológica.
+    word: true
+
+  - trigger: "mgk10"
+    label: "Mama (calcificações): amorfas agrupadas (suspeitas) (achado descritivo)"
+    replace: Calcificações amorfas, com distribuição agrupada, no quadrante _ da mama [direita/esquerda], ocupando extensão de _ cm.
+    word: true
+
+  - trigger: "mgk10c"
+    label: "Mama (calcificações): amorfas agrupadas (suspeitas)"
+    replace: Calcificações amorfas agrupadas na mama [direita/esquerda], de significado indeterminado, sendo indicada avaliação complementar.
+    word: true
+
+  - trigger: "mgk11"
+    label: "Mama (calcificações): grosseiras heterogêneas (achado descritivo)"
+    replace: Calcificações grosseiras heterogêneas, com distribuição agrupada, no quadrante _ da mama [direita/esquerda].
+    word: true
+
+  - trigger: "mgkt"
+    label: "Mama (calcificações): template parametrizado (morfologia/distribuição)"
+    replace: Calcificações [puntiformes/redondas/amorfas/grosseiras heterogêneas/finas pleomórficas/finas lineares ramificadas], com distribuição [difusa/regional/agrupada/linear/segmentar], no quadrante _ da mama [direita/esquerda].
+    word: true
+
+  # ==============================================================================
+  # ASSIMETRIAS
+  # ==============================================================================
+
+  - trigger: "mga1"
+    label: "Mama (assimetria): assimetria (uma única incidência)"
+    replace: Assimetria de densidade no quadrante _ da mama [direita/esquerda], caracterizada em uma única incidência.
+    word: true
+
+  - trigger: "mga2"
+    label: "Mama (assimetria): assimetria global"
+    replace: Assimetria global de densidade acometendo mais de um quadrante da mama [direita/esquerda], sem nódulo, distorção arquitetural ou calcificações suspeitas associadas.
+    word: true
+
+  - trigger: "mga3"
+    label: "Mama (assimetria): assimetria focal (achado descritivo)"
+    replace: Assimetria focal de densidade no quadrante _ da mama [direita/esquerda], caracterizada em duas incidências, sem nódulo ou distorção arquitetural associados.
+    word: true
+
+  - trigger: "mga3c"
+    label: "Mama (assimetria): assimetria focal"
+    replace: Assimetria focal na mama [direita/esquerda], sugerindo-se avaliação complementar.
+    word: true
+
+  - trigger: "mga4"
+    label: "Mama (assimetria): assimetria em desenvolvimento (suspeita) (achado descritivo)"
+    replace: Assimetria focal no quadrante _ da mama [direita/esquerda], nova ou com aumento em relação ao exame anterior, caracterizando assimetria em desenvolvimento.
+    word: true
+
+  - trigger: "mga4c"
+    label: "Mama (assimetria): assimetria em desenvolvimento (suspeita)"
+    replace: Assimetria em desenvolvimento na mama [direita/esquerda], de caráter suspeito, sendo indicada investigação complementar.
+    word: true
+
+  # ==============================================================================
+  # DISTORÇÃO ARQUITETURAL
+  # ==============================================================================
+
+  - trigger: "mgda1"
+    label: "Mama (distorção arquitetural): (achado descritivo)"
+    replace: Distorção da arquitetura do parênquima no quadrante _ da mama [direita/esquerda], sem nódulo central definido, caracterizada por convergência de traves fibrosas.
+    word: true
+
+  - trigger: "mgda1c"
+    label: "Mama (distorção arquitetural): achado suspeito"
+    replace: Distorção arquitetural na mama [direita/esquerda], de caráter suspeito, sendo indicada avaliação histopatológica.
+    word: true
+
+  # ==============================================================================
+  # ACHADOS ASSOCIADOS
+  # ==============================================================================
+
+  - trigger: "mgaf1"
+    label: "Mama (achado associado): retração cutânea"
+    replace: Retração cutânea no quadrante _ da mama [direita/esquerda].
+    word: true
+
+  - trigger: "mgaf2"
+    label: "Mama (achado associado): retração papilar"
+    replace: Retração papilar na mama [direita/esquerda].
+    word: true
+
+  - trigger: "mgaf3"
+    label: "Mama (achado associado): espessamento cutâneo"
+    replace: Espessamento cutâneo no quadrante _ da mama [direita/esquerda].
+    word: true
+
+  - trigger: "mgaf4"
+    label: "Mama (achado associado): espessamento trabecular"
+    replace: Espessamento das traves fibrosas do parênquima da mama [direita/esquerda].
+    word: true
+
+  - trigger: "mgaf5"
+    label: "Mama (achado associado): linfonodo axilar de aspecto suspeito (achado descritivo)"
+    replace: Linfonodo no prolongamento axilar [direito/esquerdo] com aumento de dimensões e espessamento cortical, de aspecto suspeito.
+    word: true
+
+  - trigger: "mgaf5c"
+    label: "Mama (achado associado): linfonodo axilar de aspecto suspeito"
+    replace: Linfonodo axilar [direito/esquerdo] de aspecto suspeito.
+    word: true
+
+  - trigger: "mgaf6"
+    label: "Mama (achado associado): ducto solitário dilatado"
+    replace: Ducto solitário dilatado na região retroareolar da mama [direita/esquerda].
+    word: true
+
+  # ==============================================================================
+  # CASOS ESPECIAIS
+  # ==============================================================================
+
+  - trigger: "mgli"
+    label: "Mama (caso especial): linfonodo intramamário"
+    replace: Linfonodo intramamário no quadrante _ da mama [direita/esquerda], com hilo gorduroso, de aspecto habitual.
+    word: true
+
+  - trigger: "mges1"
+    label: "Mama (caso especial): esteatonecrose / cisto oleoso"
+    replace: Nódulo circunscrito com densidade de gordura e halo calcificado periférico no quadrante _ da mama [direita/esquerda], compatível com cisto oleoso / esteatonecrose.
+    word: true
+
+  - trigger: "mges2"
+    label: "Mama (caso especial): correlato mamográfico de cisto"
+    replace: Nódulo ovalado e circunscrito, isodenso, no quadrante _ da mama [direita/esquerda], que ao estudo ecográfico corresponde a formação cística de aspecto benigno.
+    word: true
+
+  # ==============================================================================
+  # CATEGORIAS BI-RADS E CONDUTA
+  # ==============================================================================
+
+  - trigger: "mgb0"
+    label: "BI-RADS 0: avaliação incompleta"
+    replace: "Categoria 0 (avaliação incompleta): necessária avaliação complementar por imagem e/ou comparação com exames anteriores."
+    word: true
+
+  - trigger: "mgb1"
+    label: "BI-RADS 1: negativo"
+    replace: "Categoria 1 (negativo): estudo mamográfico sem alterações. Recomenda-se controle mamográfico periódico de rotina."
+    word: true
+
+  - trigger: "mgb2"
+    label: "BI-RADS 2: achado benigno"
+    replace: "Categoria 2 (achado benigno): recomenda-se controle mamográfico periódico de rotina."
+    word: true
+
+  - trigger: "mgb3"
+    label: "BI-RADS 3: provavelmente benigno"
+    replace: "Categoria 3 (achado provavelmente benigno): recomenda-se controle mamográfico em intervalo reduzido (habitualmente 06 meses)."
+    word: true
+
+  - trigger: "mgb4"
+    label: "BI-RADS 4: suspeito"
+    replace: "Categoria 4 (achado suspeito): recomenda-se avaliação histopatológica."
+    word: true
+
+  - trigger: "mgb5"
+    label: "BI-RADS 5: altamente sugestivo de malignidade"
+    replace: "Categoria 5 (achado altamente sugestivo de malignidade): recomenda-se avaliação histopatológica."
+    word: true
+
+  - trigger: "mgb6"
+    label: "BI-RADS 6: malignidade comprovada por biópsia"
+    replace: "Categoria 6 (malignidade já confirmada por biópsia): exame realizado para acompanhamento de lesão com diagnóstico histopatológico prévio de malignidade."
+    word: true
+
+  - trigger: "mgcond1"
+    label: "Mama (conduta): controle periódico de rotina"
+    replace: Conveniente controle com mamografia periódica no espaço de 01 (um) ano.
+    word: true
+
+  - trigger: "mgcond2"
+    label: "Mama (conduta): controle em intervalo reduzido"
+    replace: Conveniente controle com mamografia periódica no espaço de 06 (seis) meses.
+    word: true
+
+  - trigger: "mgcond3"
+    label: "Mama (conduta): complementação ecográfica"
+    replace: A critério clínico, o estudo ecográfico complementar poderá fornecer maiores subsídios diagnósticos.
+    word: true
+
+  - trigger: "mgcond4"
+    label: "Mama (conduta): estudo histopatológico"
+    replace: Conveniente estudo histopatológico.
     word: true
