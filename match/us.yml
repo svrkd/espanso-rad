@@ -27,6 +27,9 @@ matches:
   #   ma  = mama (nódulo)             mms = mama (cistos)
   #
   # MÚSCULO-ESQUELÉTICO  (prefixo do segmento + letra da estrutura)
+  #   msk* = achados genéricos comuns, não ligados a um segmento específico, com
+  #          placeholder "_" para a articulação/estrutura (mskd derrame · msks sinovite ·
+  #          mskb bursa · mskt tendão — numeração alinhada à escada de cada grupo por segmento)
   #   co* = cotovelo (cob bíceps · cobo bursa olecraniana · cod derrame · codi nervos ·
   #                   coe extensores/flexores · cotr tríceps · cou nervo ulnar · cot técnica)
   #   jo* = joelho   (joa tendões · jod derrame · jol ligamentos · jom meniscos ·
@@ -2291,6 +2294,199 @@ matches:
     replace: |-
       Estudo direcionado para a avaliação do tendão calcâneo à direita/esquerda, evidencia:
       Rotura completa do tendão calcâneo, com distância entre cotos (gap) de _ cm e distando _ cm da inserção distal do calcâneo. No espaço entre os cotos observa-se conteúdo heterogêneo, de provável natureza hemática.
+    word: true
+
+  # --- MSK: derrame (genérico) ---
+
+  - trigger: "mskd1"
+    label: "MSK: Sem derrame articular"
+    replace: Ausência de derrame articular na articulação _.
+    word: true
+
+  - trigger: "mskd2"
+    label: "MSK: Pequeno derrame articular"
+    replace: Pequena quantidade de líquido no recesso articular da articulação _, configurando pequeno derrame articular.
+    word: true
+
+  - trigger: "mskd2c"
+    label: "MSK: Pequeno derrame articular (conclusão)"
+    replace: Pequeno derrame articular na articulação _.
+    word: true
+
+  - trigger: "mskd3"
+    label: "MSK: Moderado / acentuado derrame articular"
+    replace: Moderado / acentuado derrame articular na articulação _.
+    word: true
+
+  - trigger: "mskd3c"
+    label: "MSK: Moderado / acentuado derrame articular (conclusão)"
+    replace: Moderado / acentuado derrame articular na articulação _.
+    word: true
+
+  - trigger: "mskd4"
+    label: "MSK: Derrame articular com sinovite"
+    replace: Derrame articular com sinovite na articulação _.
+    word: true
+
+  - trigger: "mskd4c"
+    label: "MSK: Derrame articular com sinovite (conclusão)"
+    replace: Derrame articular com sinovite na articulação _.
+    word: true
+
+  # --- MSK: sinovite (genérico) ---
+
+  - trigger: "msks1"
+    label: "MSK: Espessamento sinovial sem Doppler"
+    replace: Espessamento sinovial da articulação _, sem vascularização ao estudo Doppler.
+    word: true
+
+  - trigger: "msks1c"
+    label: "MSK: Espessamento sinovial sem atividade ao Doppler (conclusão)"
+    replace: Espessamento sinovial da articulação _, sem atividade ao Doppler.
+    word: true
+
+  - trigger: "msks2"
+    label: "MSK: Sinovite com atividade ao Doppler"
+    replace: Espessamento sinovial da articulação _, indicando sinovite. Destaca-se vascularização ao Power Doppler, inferindo atividade inflamatória.
+    word: true
+
+  - trigger: "msks2c"
+    label: "MSK: Sinovite com atividade ao Doppler (conclusão)"
+    replace: Sinovite da articulação _ (com atividade ao Doppler).
+    word: true
+
+  - trigger: "msks3"
+    label: "MSK: Artropatia inflamatória com erosões"
+    replace: Sinais de artropatia inflamatória da articulação _, caracterizada por erosões ósseas marginais e acentuado espessamento sinovial com vascularização ao estudo Doppler, indicando sinovite.
+    word: true
+
+  - trigger: "msks3c"
+    label: "MSK: Artropatia inflamatória com erosões e sinovite (conclusão)"
+    replace: Artropatia inflamatória com erosões e sinovite da articulação _.
+    word: true
+
+  # --- MSK: bursa (genérico) ---
+
+  - trigger: "mskb1"
+    label: "MSK: Bursa normal"
+    replace: Bursa _ sem espessamento parietal ou distensão líquida.
+    word: true
+
+  - trigger: "mskb2"
+    label: "MSK: Lâmina líquida fisiológica na bursa"
+    replace: Fina lâmina líquida de aspecto fisiológico na bursa _.
+    word: true
+
+  - trigger: "mskb2c"
+    label: "MSK: Lâmina líquida fisiológica na bursa (conclusão)"
+    replace: Fina lâmina líquida fisiológica na bursa _.
+    word: true
+
+  - trigger: "mskb3"
+    label: "MSK: Espessamento / bursopatia"
+    replace: Discreto espessamento parietal da bursa _, compatível com bursopatia.
+    word: true
+
+  - trigger: "mskb3c"
+    label: "MSK: Bursopatia (conclusão)"
+    replace: Bursopatia da bursa _.
+    word: true
+
+  - trigger: "mskb4"
+    label: "MSK: Bursite"
+    replace: Distensão líquida da bursa _, compatível com bursite.
+    word: true
+
+  - trigger: "mskb4c"
+    label: "MSK: Bursite (conclusão)"
+    replace: Bursite da bursa _.
+    word: true
+
+  - trigger: "mskb5"
+    label: "MSK: Bursite com sinovite"
+    replace: Distensão líquida da bursa _ associada a espessamento sinovial adjacente, compatível com bursite com sinovite.
+    word: true
+
+  - trigger: "mskb5c"
+    label: "MSK: Bursite com sinovite (conclusão)"
+    replace: Bursite da bursa _ com sinovite.
+    word: true
+
+  # --- MSK: tendão (genérico) ---
+
+  - trigger: "mskt1"
+    label: "MSK: Tendão normal"
+    replace: Tendão _ com espessura, ecogenicidade e ecotextura fibrilar preservadas.
+    word: true
+
+  - trigger: "mskt2"
+    label: "MSK: Tendinopatia"
+    replace: Tendinopatia do tendão _, caracterizada por espessamento e perda do padrão fibrilar, sem roturas.
+    word: true
+
+  - trigger: "mskt2c"
+    label: "MSK: Tendinopatia (conclusão)"
+    replace: Tendinopatia do tendão _.
+    word: true
+
+  - trigger: "mskt3"
+    label: "MSK: Tenossinovite"
+    replace: Tenossinovite do tendão _, caracterizada por distensão líquida / espessamento de sua bainha tendínea.
+    word: true
+
+  - trigger: "mskt3c"
+    label: "MSK: Tenossinovite (conclusão)"
+    replace: Tenossinovite do tendão _.
+    word: true
+
+  - trigger: "mskt4"
+    label: "MSK: Tenossinovite e tendinopatia"
+    replace: Tenossinovite e tendinopatia do tendão _.
+    word: true
+
+  - trigger: "mskt4c"
+    label: "MSK: Tenossinovite e tendinopatia (conclusão)"
+    replace: Tenossinovite e tendinopatia do tendão _.
+    word: true
+
+  - trigger: "mskt5"
+    label: "MSK: Rotura parcial"
+    replace: Rotura parcial do tendão _, com afilamento tendíneo e retração focal das fibras em cerca de _ cm.
+    word: true
+
+  - trigger: "mskt5c"
+    label: "MSK: Rotura parcial (conclusão)"
+    replace: Rotura parcial do tendão _.
+    word: true
+
+  - trigger: "mskt6"
+    label: "MSK: Rotura completa"
+    replace: Rotura completa do tendão _, com coto tendíneo degenerado e retraído a cerca de _ cm, observando-se conteúdo líquido / hemático na área de rotura.
+    word: true
+
+  - trigger: "mskt6c"
+    label: "MSK: Rotura completa (conclusão)"
+    replace: Rotura completa do tendão _.
+    word: true
+
+  - trigger: "mskt7"
+    label: "MSK: Rotura crônica"
+    replace: Sinais de rotura crônica do tendão _, com alterações fibrocicatriciais.
+    word: true
+
+  - trigger: "mskt7c"
+    label: "MSK: Rotura crônica (conclusão)"
+    replace: Rotura crônica do tendão _.
+    word: true
+
+  - trigger: "mskt8"
+    label: "MSK: Pós-operatório"
+    replace: Alterações pós-operatórias do tendão _, sem sinais de re-rotura.
+    word: true
+
+  - trigger: "mskt8c"
+    label: "MSK: Pós-operatório (conclusão)"
+    replace: Alterações pós-operatórias do tendão _.
     word: true
 
   # --- Tornozelo: derrame ---
