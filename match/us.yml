@@ -1,6 +1,68 @@
 matches:
 
   # ==============================================================================
+  # ÍNDICE DE SIGLAS (prefixos dos triggers) — ultrassonografia
+  # Padrão: <sigla de órgão/estrutura> + número; sufixo "c" = frase-conclusão curta.
+  # Triggers iniciados por "us" = template completo do exame (ex.: usabdtotal, usmamas).
+  # ==============================================================================
+  #
+  # ABDOME
+  #   ap  = apêndice cecal            ba  = baço
+  #   ca  = vias biliares/colédoco    ch  = fígado (hepatopatia difusa)
+  #   eh  = fígado (esteatose)        fh  = fígado (lesão focal)
+  #   dh  = fígado (Doppler porta)    vb  = vesícula biliar
+  #
+  # RINS / VIAS URINÁRIAS / BEXIGA / PRÓSTATA
+  #   rv  = rins e vias urinárias     bx  = bexiga           prostn = próstata
+  #
+  # PÉLVICA GINECOLÓGICA / TRANSVAGINAL
+  #   ut/bicorno/utnc = útero         mm  = miométrio (mioma)   an  = anexos
+  #   ov/ovbnao/ovdnao/ovenao = ovário   sop = SOP   terat = teratoma
+  #   diu = DIU                       istmocele = istmocele
+  #
+  # OBSTÉTRICA
+  #   ob  = achados gestacionais/fetais    hretro = hematoma retrocoriônico
+  #
+  # MAMAS
+  #   ma  = mama (nódulo)             mms = mama (cistos)
+  #
+  # MÚSCULO-ESQUELÉTICO  (prefixo do segmento + letra da estrutura)
+  #   co* = cotovelo (cob bíceps · cobo bursa olecraniana · cod derrame · codi nervos ·
+  #                   coe extensores/flexores · cotr tríceps · cou nervo ulnar · cot técnica)
+  #   jo* = joelho   (joa tendões · jod derrame · jol ligamentos · jom meniscos ·
+  #                   jopa pata anserina · jopo cisto poplíteo)
+  #   mo* = mão      (moc cisto gangliônico · moce corpo estranho · moe extensores ·
+  #                   mof/mofx fáscia/flexores · mol colateral · mop/mopv polias ·
+  #                   mor rizartrose · mos sinovial · mot/motn tumor/tenossinovite)
+  #   om* = ombro    (omac acromioclavicular · omar espaço subacromial · omb bursa ·
+  #                   ombi cabo do bíceps · omcap capsulite · omd derrame · omin cisto paralabral ·
+  #                   omk depósitos cálcicos · omm manguito · omo cortical · omp pós-op ·
+  #                   omr rotura · oms ventres · omt técnica)
+  #   pd* = pé       (pdb bursite · pdc cisto · pdd derrame · pdf fáscia plantar ·
+  #                   pdn neuroma · pdo artrose · pdp placas plantares)
+  #   pu* = punho    (pud bossa/dorso · pue extensores · puf flexor radial · pug cisto gangliônico ·
+  #                   pun nervo mediano · pupo pós-op túnel · pur rizartrose · pus sinovite)
+  #   qd* = quadril  (qda degenerativa · qdb bursa · qdd derrame · qdg glúteos · qdl reto femoral ·
+  #                   qdm/qdml ventres/Morel-Lavallée · qdr ressalto · qdt adutores)
+  #   tz* = tornozelo(tzc tendão calcâneo · tzd derrame · tzf/tzfp fibulares/fáscia · tzl lateral ·
+  #                   tzo osteófitos · tzta/tztp tibial anterior/posterior)
+  #   lm* = lesão muscular (adutor, bíceps, gastrocnêmio, isquiotibiais, peitoral, quadríceps, reto femoral…)
+  #   me  = tendão calcâneo (rotura)
+  #
+  # PAREDE / PARTES MOLES / INGUINAL
+  #   pm  = parede abdominal/partes moles    diastase = diástase dos retos
+  #
+  # TIREOIDE / CERVICAL    ti = tireoide (nódulo)
+  # TÓRAX                  tx = tórax (derrame pleural)
+  # BOLSA ESCROTAL         te/testectopico = testículo ectópico
+  #
+  # VASCULAR
+  #   dc  = carótidas   dv = vertebral   ds = roubo subclávio   da = aorta/ilíaca
+  #   di  = estenose ilíaca   sdt = desfiladeiro torácico   tvp/tvppaulo = TVP/duplex venoso MI
+  #
+  # AUXILIARES / CURINGAS   papv · migue · gordoo · limitgas
+
+  # ==============================================================================
   # ABDOME TOTAL / SUPERIOR — FÍGADO, VIAS BILIARES, VESÍCULA BILIAR, BAÇO E APÊNDICE
   # ==============================================================================
 
