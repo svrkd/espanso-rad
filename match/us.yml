@@ -6588,6 +6588,131 @@ matches:
       Exame ecográfico normal.
     word: true
 
+  - trigger: "tf1"
+    label: "Crânio (transfontanela): Cavum do septo pelúcido"
+    replace: Presença de cavum do septo pelúcido, variante anatômica normal sem repercussão clínica.
+    word: true
+
+  - trigger: "tf2"
+    label: "Crânio (transfontanela): Cavum vergae"
+    replace: Presença de cavum vergae, extensão posterior do cavum do septo pelúcido, variante anatômica normal.
+    word: true
+
+  - trigger: "tf3"
+    label: "Crânio (transfontanela): Cavum septo pelúcido e vergae"
+    replace: Presença de cavum do septo pelúcido em continuidade com cavum vergae, variantes anatômicas normais, sem repercussão clínica.
+    word: true
+
+  - trigger: "tf4"
+    label: "Crânio (transfontanela): Cisto de plexo coroide"
+    replace: Imagem cística no plexo coroide à _, medindo até _ mm, achado incidental frequente e sem significado patológico na ausência de outros marcadores.
+    word: true
+
+  - trigger: "tf5"
+    label: "Crânio (transfontanela): Assimetria ventricular discreta"
+    replace: Discreta assimetria de dimensões entre os ventrículos laterais, sem sinais de dilatação, achado inespecífico e habitualmente sem significado patológico.
+    word: true
+
+  - trigger: "tfp1"
+    label: "Crânio (transfontanela): HPIV grau I (Papile) — achado"
+    replace: Imagem ecogênica na topografia da matriz germinativa subependimária à _, sem extensão para o sistema ventricular.
+    word: true
+
+  - trigger: "tfp1c"
+    label: "Crânio (transfontanela): HPIV grau I (Papile) — conclusão"
+    replace: Hemorragia peri-intraventricular grau I (Papile), restrita à matriz germinativa subependimária.
+    word: true
+
+  - trigger: "tfp2"
+    label: "Crânio (transfontanela): HPIV grau II (Papile) — achado"
+    replace: Conteúdo ecogênico no interior do ventrículo lateral _, ocupando menos de 50% do seu volume, sem dilatação ventricular associada.
+    word: true
+
+  - trigger: "tfp2c"
+    label: "Crânio (transfontanela): HPIV grau II (Papile) — conclusão"
+    replace: Hemorragia peri-intraventricular grau II (Papile), sem dilatação ventricular.
+    word: true
+
+  - trigger: "tfp3"
+    label: "Crânio (transfontanela): HPIV grau III (Papile) — achado"
+    replace: Conteúdo ecogênico ocupando mais de 50% do volume do ventrículo lateral _, associado a dilatação ventricular aguda.
+    word: true
+
+  - trigger: "tfp3c"
+    label: "Crânio (transfontanela): HPIV grau III (Papile) — conclusão"
+    replace: Hemorragia peri-intraventricular grau III (Papile), com dilatação ventricular associada.
+    word: true
+
+  - trigger: "tfp4"
+    label: "Crânio (transfontanela): HPIV grau IV (Papile) — achado"
+    replace: Hemorragia intraventricular à _ associada a extensão para o parênquima cerebral adjacente, compatível com infarto hemorrágico periventricular.
+    word: true
+
+  - trigger: "tfp4c"
+    label: "Crânio (transfontanela): HPIV grau IV (Papile) — conclusão"
+    replace: Hemorragia peri-intraventricular grau IV (Papile), com extensão parenquimatosa (infarto hemorrágico periventricular).
+    word: true
+
+  - trigger: "tf6"
+    label: "Crânio (transfontanela): Leucomalácia periventricular inicial"
+    replace: Hiperecogenicidade periventricular difusa, com ecogenicidade semelhante à do plexo coroide, achado compatível com leucomalácia periventricular em fase inicial.
+    word: true
+
+  - trigger: "tf7"
+    label: "Crânio (transfontanela): Leucomalácia periventricular cística"
+    replace: Múltiplas imagens císticas periventriculares, conferindo aspecto em "queijo suíço", compatíveis com leucomalácia periventricular em fase cística.
+    word: true
+
+  - trigger: "tf8"
+    label: "Crânio (transfontanela): Ventriculomegalia leve"
+    replace: Dilatação leve do sistema ventricular, com átrio ventricular medindo entre 10 e 12 mm, sem sinais de hipertensão liquórica.
+    word: true
+
+  - trigger: "tf9"
+    label: "Crânio (transfontanela): Ventriculomegalia moderada"
+    replace: Dilatação moderada do sistema ventricular, com átrio ventricular medindo entre 12,1 e 14,9 mm.
+    word: true
+
+  - trigger: "tf10"
+    label: "Crânio (transfontanela): Ventriculomegalia acentuada / hidrocefalia"
+    replace: Dilatação acentuada do sistema ventricular, com átrio ventricular medindo 15 mm ou mais, associada a abaulamento do terceiro ventrículo, compatível com hidrocefalia.
+    word: true
+
+  - trigger: "tf11"
+    label: "Crânio (transfontanela): Cisto subependimário"
+    replace: Imagem cística no ângulo externo do ventrículo lateral _, na topografia do sulco caudotalâmico, medindo até _ mm, compatível com cisto subependimário.
+    word: true
+
+  - trigger: "tf12"
+    label: "Crânio (transfontanela): Agenesia de corpo caloso — achado"
+    replace: Ausência de identificação do corpo caloso, com ventrículos laterais paralelos entre si e alargamento desproporcional dos cornos occipitais.
+    word: true
+
+  - trigger: "tf12c"
+    label: "Crânio (transfontanela): Agenesia de corpo caloso — conclusão"
+    replace: Agenesia de corpo caloso.
+    word: true
+
+  - trigger: "tf13"
+    label: "Crânio (transfontanela): Complexo de Dandy-Walker — achado"
+    replace: Agenesia/hipoplasia do vérmis do cerebelo associada a dilatação cística da fossa posterior em continuidade com o quarto ventrículo.
+    word: true
+
+  - trigger: "tf13c"
+    label: "Crânio (transfontanela): Complexo de Dandy-Walker — conclusão"
+    replace: Complexo de Dandy-Walker.
+    word: true
+
+  - trigger: "tf14"
+    label: "Crânio (transfontanela): Malformação de Chiari tipo II — achado"
+    replace: Fossa posterior de dimensões reduzidas, com deslocamento caudal do vérmis do cerebelo e do tronco encefálico através do forame magno.
+    word: true
+
+  - trigger: "tf14c"
+    label: "Crânio (transfontanela): Malformação de Chiari tipo II — conclusão"
+    replace: Malformação de Chiari tipo II.
+    word: true
+
   # ==============================================================================
   # QUADRIL INFANTIL (MÉTODO DE GRAF)
   # ==============================================================================
