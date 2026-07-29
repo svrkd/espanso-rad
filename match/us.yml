@@ -56,6 +56,12 @@ matches:
   # TÓRAX                  tx = tórax (derrame pleural)
   # BOLSA ESCROTAL         te/testectopico = testículo ectópico
   #
+  # QUADRIL INFANTIL (MÉTODO DE GRAF)
+  #   graf<tipo> = bloco de achados do tipo (graf1a graf1b graf2ap graf2am graf2b
+  #                graf2c grafd graf3a graf3b graf4);  graf<tipo>c = conclusão curta.
+  #   usquadrilinfantil = laudo normal completo · grafformula = fórmula geral (fill-in) ·
+  #   graflimit = limitação técnica por ossificação da epífise.
+  #
   # VASCULAR
   #   dc  = carótidas   dv = vertebral   ds = roubo subclávio   da = aorta/ilíaca
   #   di  = estenose ilíaca   sdt = desfiladeiro torácico   tvp/tvppaulo = TVP/duplex venoso MI
@@ -6384,6 +6390,251 @@ matches:
 
       Conclusão:
       Exame ecográfico normal.
+    word: true
+
+  # ==============================================================================
+  # QUADRIL INFANTIL (MÉTODO DE GRAF)
+  # ==============================================================================
+
+  - trigger: "graf1a"
+    label: Quadril infantil Graf Ia (quadril maduro)
+    replace: |-
+      Conformação do teto ósseo: boa.
+      Margem óssea lateral do acetábulo: angulada.
+      Cartilagem hialina do teto acetabular cobrindo a cabeça femoral.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão: Quadril tipo Ia (quadril maduro).
+    word: true
+
+  - trigger: "graf1ac"
+    label: Quadril infantil Graf Ia — conclusão
+    replace: Quadril tipo Ia (quadril maduro).
+    word: true
+
+  - trigger: "graf1b"
+    label: Quadril infantil Graf Ib (quadril maduro)
+    replace: |-
+      Conformação do teto ósseo: boa.
+      Margem óssea lateral do acetábulo: discretamente arredondada.
+      Cartilagem hialina do teto acetabular cobrindo a cabeça femoral.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão: Quadril tipo Ib (quadril maduro).
+    word: true
+
+  - trigger: "graf1bc"
+    label: Quadril infantil Graf Ib — conclusão
+    replace: Quadril tipo Ib (quadril maduro).
+    word: true
+
+  - trigger: "graf2ap"
+    label: Quadril infantil Graf IIa+ (apropriado para idade)
+    replace: |-
+      Conformação do teto ósseo: adequada.
+      Margem óssea lateral do acetábulo: arredondada.
+      Cartilagem hialina do teto acetabular cobrindo a cabeça femoral.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão: Quadril tipo IIa+ (apropriado para idade).
+    word: true
+
+  - trigger: "graf2apc"
+    label: Quadril infantil Graf IIa+ — conclusão
+    replace: Quadril tipo IIa+ (apropriado para idade).
+    word: true
+
+  - trigger: "graf2am"
+    label: Quadril infantil Graf IIa- (déficit de maturação)
+    replace: |-
+      Conformação do teto ósseo: deficiente.
+      Margem óssea lateral do acetábulo: arredondada.
+      Cartilagem hialina do teto acetabular cobrindo a cabeça femoral.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão: Quadril tipo IIa- (déficit de maturação).
+    word: true
+
+  - trigger: "graf2amc"
+    label: Quadril infantil Graf IIa- — conclusão
+    replace: Quadril tipo IIa- (déficit de maturação).
+    word: true
+
+  - trigger: "graf2b"
+    label: Quadril infantil Graf IIb (retardo de ossificação)
+    replace: |-
+      Conformação do teto ósseo: deficiente.
+      Margem óssea lateral do acetábulo: arredondada.
+      Cartilagem hialina do teto acetabular cobrindo a cabeça femoral.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão: Quadril tipo IIb (retardo de ossificação).
+    word: true
+
+  - trigger: "graf2bc"
+    label: Quadril infantil Graf IIb — conclusão
+    replace: Quadril tipo IIb (retardo de ossificação).
+    word: true
+
+  - trigger: "graf2c"
+    label: Quadril infantil Graf IIc (faixa crítica)
+    replace: |-
+      Conformação do teto ósseo: acentuadamente deficiente.
+      Margem óssea lateral do acetábulo: arredondada ou plana.
+      Cartilagem hialina do teto acetabular cobrindo parcialmente a cabeça femoral.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão: Quadril tipo IIc (faixa crítica para qualquer idade).
+    word: true
+
+  - trigger: "graf2cc"
+    label: Quadril infantil Graf IIc — conclusão
+    replace: Quadril tipo IIc (faixa crítica para qualquer idade).
+    word: true
+
+  - trigger: "grafd"
+    label: Quadril infantil Graf D (vias de descentralização)
+    replace: |-
+      Conformação do teto ósseo: acentuadamente deficiente.
+      Margem óssea lateral do acetábulo: arredondada ou plana.
+      Cartilagem hialina do teto acetabular deslocada.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão: Quadril tipo D (quadril em vias de descentralização).
+    word: true
+
+  - trigger: "grafdc"
+    label: Quadril infantil Graf D — conclusão
+    replace: Quadril tipo D (quadril em vias de descentralização).
+    word: true
+
+  - trigger: "graf3a"
+    label: Quadril infantil Graf IIIa (quadril excêntrico)
+    replace: |-
+      Conformação do teto ósseo: pobre.
+      Margem óssea lateral do acetábulo: plana.
+      Cartilagem hialina do teto acetabular deslocada para cima, sem alteração estrutural.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão: Quadril tipo IIIa (quadril excêntrico).
+    word: true
+
+  - trigger: "graf3ac"
+    label: Quadril infantil Graf IIIa — conclusão
+    replace: Quadril tipo IIIa (quadril excêntrico).
+    word: true
+
+  - trigger: "graf3b"
+    label: Quadril infantil Graf IIIb (quadril excêntrico)
+    replace: |-
+      Conformação do teto ósseo: pobre.
+      Margem óssea lateral do acetábulo: plana.
+      Cartilagem hialina do teto acetabular deslocada para cima, com alteração estrutural.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão: Quadril tipo IIIb (quadril excêntrico).
+    word: true
+
+  - trigger: "graf3bc"
+    label: Quadril infantil Graf IIIb — conclusão
+    replace: Quadril tipo IIIb (quadril excêntrico).
+    word: true
+
+  - trigger: "graf4"
+    label: Quadril infantil Graf IV (quadril luxado)
+    replace: |-
+      Conformação do teto ósseo: pobre.
+      Margem óssea lateral do acetábulo: plana.
+      Cartilagem hialina do teto acetabular deslocada inferiormente.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão: Quadril tipo IV (quadril luxado).
+    word: true
+
+  - trigger: "graf4c"
+    label: Quadril infantil Graf IV — conclusão
+    replace: Quadril tipo IV (quadril luxado).
+    word: true
+
+  - trigger: "usquadrilinfantil"
+    label: Quadril infantil (Graf) — laudo normal completo
+    replace: |-
+      ULTRASSONOGRAFIA DOS QUADRIS DIREITO E ESQUERDO (MÉTODO DE GRAF)
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução, utilizando-se o método de Graf.
+
+      Descrição:
+      Quadril direito:
+      Conformação do teto ósseo: boa.
+      Margem óssea lateral do acetábulo: angulada.
+      Cartilagem hialina do teto acetabular cobrindo a cabeça femoral.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Quadril esquerdo:
+      Conformação do teto ósseo: boa.
+      Margem óssea lateral do acetábulo: angulada.
+      Cartilagem hialina do teto acetabular cobrindo a cabeça femoral.
+      Ângulo do teto ósseo (alfa): ___°
+      Ângulo do teto cartilaginoso (beta): ___°
+
+      Conclusão:
+      Quadril direito tipo Ia (quadril maduro).
+      Quadril esquerdo tipo Ia (quadril maduro).
+    word: true
+
+  - trigger: "grafformula"
+    label: Quadril infantil (Graf) — fórmula geral (fill-in)
+    replace: |-
+      ULTRASSONOGRAFIA DOS QUADRIS
+
+      Idade: ___
+      Técnica:
+      Realizado exame dos quadris, utilizando-se o método de Graf.
+
+      Quadril ___ (direito / esquerdo):
+      Conformação do teto ósseo: ___ (boa / adequada / deficiente / acentuadamente deficiente / pobre).
+      Margem óssea lateral do acetábulo: ___ (angulada / discretamente arredondada / arredondada / plana / mal definida).
+      Ângulo do teto ósseo (alfa): ___° (≥ 60° / 50°- 59° / 43°- 49° / < 43°).
+      Cartilagem hialina do teto acetabular: ___ (cobrindo a cabeça femoral / cobrindo parcialmente a cabeça femoral / deslocada para cima, sem alteração estrutural / deslocada para cima, com alteração estrutural / deslocada inferiormente).
+      Ângulo do teto cartilaginoso (beta): ___° (< 55° / > 55° / 70°- 77° / > 77°).
+      Porcentagem de cobertura da cabeça femoral pelo teto ósseo estimada em ___%.
+      Manobra de pistonagem: ___ (sem / com) sinais de subluxação.
+
+      Conclusão:
+      Quadril ___ tipo ___ (Ia quadril maduro / Ib quadril maduro / IIa+ apropriado para idade / IIa- déficit de maturação / IIb retardo de ossificação / IIc faixa crítica / D vias de descentralização / IIIa excêntrico / IIIb excêntrico / IV luxado).
+    word: true
+
+  - trigger: "graflimit"
+    label: Quadril infantil — limitação técnica (ossificação da epífise)
+    replace: |-
+      ULTRASSONOGRAFIA DOS QUADRIS DIREITO E ESQUERDO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Descrição:
+      Ossificação da epífise femoral bilateral, prejudicando a caracterização da margem inferior do osso ilíaco ao nível da cartilagem trirradiada, impossibilitando a mensuração dos ângulos para utilização do método de Graf.
+      Cabeças femorais simétricas, sem nítidas luxações.
+      Ausência de derrame articular.
+      Planos musculares e tendíneos de aspecto ecográfico habitual.
+      Ausência de bursites.
+
+      Conclusão:
+      Exame ecográfico sem alterações significativas.
+      Ossificação da epífise femoral bilateral, prejudicando a caracterização da margem inferior do osso ilíaco ao nível da cartilagem trirradiada, impossibilitando a mensuração dos ângulos para utilização do método de Graf.
+      Recomendável correlação radiográfica.
     word: true
 
   # ==============================================================================
