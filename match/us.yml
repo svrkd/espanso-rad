@@ -2321,23 +2321,23 @@ matches:
     word: true
 
   - trigger: "tzd4"
-    label: "Tornozelo: Derrame talonavicular (configuração cística)"
-    replace: Pequeno derrame articular talonavicular que adquire configuração cística junto à região dorsolateral da cabeça do tálus.
-    word: true
-
-  - trigger: "tzd4c"
-    label: "Tornozelo: Derrame talonavicular com configuração cística (conclusão)"
-    replace: Derrame talonavicular com configuração cística.
-    word: true
-
-  - trigger: "tzd5"
     label: "Tornozelo: Derrame com sinovite"
     replace: Derrame articular com sinovite na articulação tibiotalar / subtalar / talonavicular.
     word: true
 
-  - trigger: "tzd5c"
+  - trigger: "tzd4c"
     label: "Tornozelo: Derrame articular com sinovite (conclusão)"
     replace: Derrame articular com sinovite.
+    word: true
+
+  - trigger: "tzd5"
+    label: "Tornozelo: Derrame talonavicular (configuração cística)"
+    replace: Pequeno derrame articular talonavicular que adquire configuração cística junto à região dorsolateral da cabeça do tálus.
+    word: true
+
+  - trigger: "tzd5c"
+    label: "Tornozelo: Derrame talonavicular com configuração cística (conclusão)"
+    replace: Derrame talonavicular com configuração cística.
     word: true
 
   # --- Tornozelo: tendão calcâneo ---
@@ -2413,43 +2413,43 @@ matches:
     word: true
 
   - trigger: "tzc9"
-    label: "Tornozelo: Rotura completa do calcâneo (desinserção)"
-    replace: Rotura completa com desinserção do tendão calcâneo, estando o coto tendíneo degenerado e de contornos irregulares, retraído a cerca de _ cm do osso calcâneo, com conteúdo líquido / hemático na área de rotura.
-    word: true
-
-  - trigger: "tzc9c"
-    label: "Tornozelo: Rotura completa do tendão calcâneo (conclusão)"
-    replace: Rotura completa do tendão calcâneo.
-    word: true
-
-  - trigger: "tzc10"
-    label: "Tornozelo: Rotura completa do calcâneo (transfixação do corpo)"
-    replace: Rotura completa com transfixação do tendão calcâneo ao nível do corpo tendíneo, estando os cotos degenerados com diástase de _ cm. O coto tendíneo proximal localiza-se ao nível da transição miotendínea e o coto tendíneo distal localiza-se a cerca de _ cm da inserção.
-    word: true
-
-  - trigger: "tzc10c"
-    label: "Tornozelo: Rotura completa do tendão calcâneo (transfixação do corpo) (conclusão)"
-    replace: Rotura completa do tendão calcâneo (transfixação do corpo).
-    word: true
-
-  - trigger: "tzc11"
-    label: "Tornozelo: Rotura completa do calcâneo (com equino)"
-    replace: Tendão calcâneo apresentando descontinuidade total a aproximadamente _ mm de sua inserção no calcâneo, com distância entre os cotos tendíneos de cerca de _ mm em repouso e _ mm na posição em equino (_ graus) e preenchimento da área rota por efusão líquida hemorrágica. Na flexão plantar em 15 graus nota-se contato entre os cotos tendíneos.
-    word: true
-
-  - trigger: "tzc11c"
-    label: "Tornozelo: Rotura completa do tendão calcâneo (conclusão)"
-    replace: Rotura completa do tendão calcâneo.
-    word: true
-
-  - trigger: "tzc12"
     label: "Tornozelo: Rotura parcial do calcâneo"
     replace: Tendão calcâneo apresentando descontinuidade parcial das fibras mais profundas / superficiais / laterais / mediais a aproximadamente _ mm de sua inserção no calcâneo, medindo _ mm longitudinal x _ mm transversal e acometendo cerca de _% da circunferência tendínea.
     word: true
 
-  - trigger: "tzc12c"
+  - trigger: "tzc9c"
     label: "Tornozelo: Rotura parcial do tendão calcâneo (conclusão)"
     replace: Rotura parcial do tendão calcâneo.
+    word: true
+
+  - trigger: "tzc10"
+    label: "Tornozelo: Rotura completa do calcâneo (desinserção)"
+    replace: Rotura completa com desinserção do tendão calcâneo, estando o coto tendíneo degenerado e de contornos irregulares, retraído a cerca de _ cm do osso calcâneo, com conteúdo líquido / hemático na área de rotura.
+    word: true
+
+  - trigger: "tzc10c"
+    label: "Tornozelo: Rotura completa do tendão calcâneo (conclusão)"
+    replace: Rotura completa do tendão calcâneo.
+    word: true
+
+  - trigger: "tzc11"
+    label: "Tornozelo: Rotura completa do calcâneo (transfixação do corpo)"
+    replace: Rotura completa com transfixação do tendão calcâneo ao nível do corpo tendíneo, estando os cotos degenerados com diástase de _ cm. O coto tendíneo proximal localiza-se ao nível da transição miotendínea e o coto tendíneo distal localiza-se a cerca de _ cm da inserção.
+    word: true
+
+  - trigger: "tzc11c"
+    label: "Tornozelo: Rotura completa do tendão calcâneo (transfixação do corpo) (conclusão)"
+    replace: Rotura completa do tendão calcâneo (transfixação do corpo).
+    word: true
+
+  - trigger: "tzc12"
+    label: "Tornozelo: Rotura completa do calcâneo (com equino)"
+    replace: Tendão calcâneo apresentando descontinuidade total a aproximadamente _ mm de sua inserção no calcâneo, com distância entre os cotos tendíneos de cerca de _ mm em repouso e _ mm na posição em equino (_ graus) e preenchimento da área rota por efusão líquida hemorrágica. Na flexão plantar em 15 graus nota-se contato entre os cotos tendíneos.
+    word: true
+
+  - trigger: "tzc12c"
+    label: "Tornozelo: Rotura completa do tendão calcâneo (conclusão)"
+    replace: Rotura completa do tendão calcâneo.
     word: true
 
   - trigger: "tzc13"
@@ -2500,28 +2500,28 @@ matches:
     word: true
 
   - trigger: "tzta3"
-    label: "Tornozelo: Bursite do tibial anterior (add-on)"
-    replace: Associa-se bursite subjacente à inserção do tibial anterior.
-    word: true
-
-  - trigger: "tzta4"
     label: "Tornozelo: Tenossinovite do tibial anterior"
     replace: Tenossinovite do tibial anterior ao nível do tornozelo caracterizada por distensão líquida / espessamento de sua bainha tendínea.
     word: true
 
-  - trigger: "tzta4c"
+  - trigger: "tzta3c"
     label: "Tornozelo: Tenossinovite do tibial anterior (conclusão)"
     replace: Tenossinovite do tibial anterior.
     word: true
 
-  - trigger: "tzta5"
+  - trigger: "tzta4"
     label: "Tornozelo: Rotura completa do tibial anterior"
     replace: Rotura completa do tendão tibial anterior, estando os cotos tendíneos espessados e discretamente degenerados com diástase de _ cm. O coto tendíneo proximal localiza-se ao nível da tíbia distal e o coto tendíneo distal localiza-se ao nível do navicular. Nota-se tecido fibrocicatricial irregular na área de rotura.
     word: true
 
-  - trigger: "tzta5c"
+  - trigger: "tzta4c"
     label: "Tornozelo: Rotura completa do tibial anterior (conclusão)"
     replace: Rotura completa do tibial anterior.
+    word: true
+
+  - trigger: "tzta5"
+    label: "Tornozelo: Bursite do tibial anterior (add-on)"
+    replace: Associa-se bursite subjacente à inserção do tibial anterior.
     word: true
 
   # --- Tornozelo: tendão tibial posterior ---
@@ -2599,33 +2599,33 @@ matches:
     word: true
 
   - trigger: "tzf4"
-    label: "Tornozelo: Rotura longitudinal do fibular curto"
-    replace: Tenossinovite e tendinopatia dos fibulares, destacando-se rotura longitudinal do trajeto retro e inframaleolar do fibular curto, que se estende por cerca de _ cm, estando o fibular longo insinuado na área de rotura, sem nítido split de suas fibras.
-    word: true
-
-  - trigger: "tzf4c"
-    label: "Tornozelo: Rotura longitudinal do fibular curto (conclusão)"
-    replace: Rotura longitudinal do fibular curto.
-    word: true
-
-  - trigger: "tzf5"
-    label: "Tornozelo: Rotura longitudinal com split do fibular curto"
-    replace: Tenossinovite e tendinopatia dos fibulares, destacando-se rotura longitudinal com split do trajeto retro e inframaleolar do fibular curto, que se estende por cerca de _ cm, estando o fibular longo insinuado na área de rotura.
-    word: true
-
-  - trigger: "tzf5c"
-    label: "Tornozelo: Rotura longitudinal com split do fibular curto (conclusão)"
-    replace: Rotura longitudinal com split do fibular curto.
-    word: true
-
-  - trigger: "tzf6"
     label: "Tornozelo: Tendinopatia do fibular longo (cuboide)"
     replace: Tendinopatia e tenossinovite do fibular longo ao nível da deflexão junto à face lateral do cuboide, observando-se osso fibular acessório.
     word: true
 
-  - trigger: "tzf6c"
+  - trigger: "tzf4c"
     label: "Tornozelo: Tendinopatia do fibular longo na deflexão do cuboide (conclusão)"
     replace: Tendinopatia do fibular longo na deflexão do cuboide.
+    word: true
+
+  - trigger: "tzf5"
+    label: "Tornozelo: Rotura longitudinal do fibular curto"
+    replace: Tenossinovite e tendinopatia dos fibulares, destacando-se rotura longitudinal do trajeto retro e inframaleolar do fibular curto, que se estende por cerca de _ cm, estando o fibular longo insinuado na área de rotura, sem nítido split de suas fibras.
+    word: true
+
+  - trigger: "tzf5c"
+    label: "Tornozelo: Rotura longitudinal do fibular curto (conclusão)"
+    replace: Rotura longitudinal do fibular curto.
+    word: true
+
+  - trigger: "tzf6"
+    label: "Tornozelo: Rotura longitudinal com split do fibular curto"
+    replace: Tenossinovite e tendinopatia dos fibulares, destacando-se rotura longitudinal com split do trajeto retro e inframaleolar do fibular curto, que se estende por cerca de _ cm, estando o fibular longo insinuado na área de rotura.
+    word: true
+
+  - trigger: "tzf6c"
+    label: "Tornozelo: Rotura longitudinal com split do fibular curto (conclusão)"
+    replace: Rotura longitudinal com split do fibular curto.
     word: true
 
   - trigger: "tzf7"
@@ -3760,12 +3760,12 @@ matches:
     replace: Derrame articular glenoumeral.
     word: true
 
-  - trigger: "omd4"
+  - trigger: "omd5"
     label: "Ombro: Derrame com extensão às bursas (via rotura)"
     replace: Sinais de derrame articular com extensão de líquido para as bursas subacromial-subdeltoidea e subcoracoide, através da rotura do manguito rotador descrita acima.
     word: true
 
-  - trigger: "omd4c"
+  - trigger: "omd5c"
     label: "Ombro: Derrame articular com extensão bursal (conclusão)"
     replace: Derrame articular com extensão bursal.
     word: true
@@ -4503,43 +4503,43 @@ matches:
     word: true
 
   - trigger: "cob4"
-    label: "Cotovelo: Rotura completa do bíceps distal (tuberosidade radial)"
-    replace: Rotura completa com desinserção distal do tendão do bíceps braquial. Coto tendíneo de aspecto degenerado e retraído a cerca de _ cm da tuberosidade radial, observando-se conteúdo líquido / hemático na área de rotura.
-    word: true
-
-  - trigger: "cob4c"
-    label: "Cotovelo: Rotura completa com desinserção distal do bíceps braquial (coto à tuberosidade radial) (conclusão)"
-    replace: Rotura completa com desinserção distal do bíceps braquial (coto à tuberosidade radial).
-    word: true
-
-  - trigger: "cob5"
-    label: "Cotovelo: Rotura completa do bíceps distal (prega cubital)"
-    replace: Rotura completa com desinserção distal do tendão do bíceps braquial. Coto tendíneo de aspecto degenerado e retraído a cerca de _ cm da prega cubital. Observa-se conteúdo líquido / hemático na área de rotura.
-    word: true
-
-  - trigger: "cob5c"
-    label: "Cotovelo: Rotura completa com desinserção distal do bíceps braquial (coto à prega cubital) (conclusão)"
-    replace: Rotura completa com desinserção distal do bíceps braquial (coto à prega cubital).
-    word: true
-
-  - trigger: "cob6"
-    label: "Cotovelo: Rotura de alto grau do bíceps distal"
-    replace: Má definição da inserção distal do bíceps braquial, inferindo rotura de alto grau. A correlação com a ressonância magnética poderá trazer informações adicionais (caso não haja contraindicações ao método).
-    word: true
-
-  - trigger: "cob6c"
-    label: "Cotovelo: Rotura de alto grau da inserção distal do bíceps braquial (conclusão)"
-    replace: Rotura de alto grau da inserção distal do bíceps braquial.
-    word: true
-
-  - trigger: "cob7"
     label: "Cotovelo: Rotura parcial do bíceps distal"
     replace: Rotura parcial do tendão distal do bíceps braquial com acentuado afilamento tendíneo insercional e retração focal das fibras em cerca de _ cm.
     word: true
 
-  - trigger: "cob7c"
+  - trigger: "cob4c"
     label: "Cotovelo: Rotura parcial da inserção distal do bíceps braquial (conclusão)"
     replace: Rotura parcial da inserção distal do bíceps braquial.
+    word: true
+
+  - trigger: "cob5"
+    label: "Cotovelo: Rotura de alto grau do bíceps distal"
+    replace: Má definição da inserção distal do bíceps braquial, inferindo rotura de alto grau. A correlação com a ressonância magnética poderá trazer informações adicionais (caso não haja contraindicações ao método).
+    word: true
+
+  - trigger: "cob5c"
+    label: "Cotovelo: Rotura de alto grau da inserção distal do bíceps braquial (conclusão)"
+    replace: Rotura de alto grau da inserção distal do bíceps braquial.
+    word: true
+
+  - trigger: "cob6"
+    label: "Cotovelo: Rotura completa do bíceps distal (tuberosidade radial)"
+    replace: Rotura completa com desinserção distal do tendão do bíceps braquial. Coto tendíneo de aspecto degenerado e retraído a cerca de _ cm da tuberosidade radial, observando-se conteúdo líquido / hemático na área de rotura.
+    word: true
+
+  - trigger: "cob6c"
+    label: "Cotovelo: Rotura completa com desinserção distal do bíceps braquial (coto à tuberosidade radial) (conclusão)"
+    replace: Rotura completa com desinserção distal do bíceps braquial (coto à tuberosidade radial).
+    word: true
+
+  - trigger: "cob7"
+    label: "Cotovelo: Rotura completa do bíceps distal (prega cubital)"
+    replace: Rotura completa com desinserção distal do tendão do bíceps braquial. Coto tendíneo de aspecto degenerado e retraído a cerca de _ cm da prega cubital. Observa-se conteúdo líquido / hemático na área de rotura.
+    word: true
+
+  - trigger: "cob7c"
+    label: "Cotovelo: Rotura completa com desinserção distal do bíceps braquial (coto à prega cubital) (conclusão)"
+    replace: Rotura completa com desinserção distal do bíceps braquial (coto à prega cubital).
     word: true
 
   - trigger: "cob8"
@@ -5050,33 +5050,33 @@ matches:
   # --- Punho: sinovite ---
 
   - trigger: "pus1"
-    label: "Punho: Sinovite com atividade ao Doppler"
-    replace: Espessamento sinovial da articulação _, indicando sinovite (GS _). Destaca-se vascularização ao Power Doppler (PD _), inferindo atividade inflamatória.
-    word: true
-
-  - trigger: "pus1c"
-    label: "Punho: Sinovite da articulação _ (com atividade ao Doppler) (conclusão)"
-    replace: Sinovite da articulação _ (com atividade ao Doppler).
-    word: true
-
-  - trigger: "pus2"
-    label: "Punho: Artropatia inflamatória com erosões"
-    replace: Sinais de artropatia inflamatória da articulação _, caracterizada por erosões ósseas marginais e acentuado espessamento sinovial com vascularização ao estudo Doppler, indicando sinovite.
-    word: true
-
-  - trigger: "pus2c"
-    label: "Punho: Artropatia inflamatória com erosões e sinovite (conclusão)"
-    replace: Artropatia inflamatória com erosões e sinovite.
-    word: true
-
-  - trigger: "pus3"
     label: "Punho: Espessamento sinovial sem Doppler"
     replace: Espessamento sinovial da articulação _, sem vascularização ao estudo Doppler.
     word: true
 
-  - trigger: "pus3c"
+  - trigger: "pus1c"
     label: "Punho: Espessamento sinovial da articulação _, sem atividade ao Doppler (conclusão)"
     replace: Espessamento sinovial da articulação _, sem atividade ao Doppler.
+    word: true
+
+  - trigger: "pus2"
+    label: "Punho: Sinovite com atividade ao Doppler"
+    replace: Espessamento sinovial da articulação _, indicando sinovite (GS _). Destaca-se vascularização ao Power Doppler (PD _), inferindo atividade inflamatória.
+    word: true
+
+  - trigger: "pus2c"
+    label: "Punho: Sinovite da articulação _ (com atividade ao Doppler) (conclusão)"
+    replace: Sinovite da articulação _ (com atividade ao Doppler).
+    word: true
+
+  - trigger: "pus3"
+    label: "Punho: Artropatia inflamatória com erosões"
+    replace: Sinais de artropatia inflamatória da articulação _, caracterizada por erosões ósseas marginais e acentuado espessamento sinovial com vascularização ao estudo Doppler, indicando sinovite.
+    word: true
+
+  - trigger: "pus3c"
+    label: "Punho: Artropatia inflamatória com erosões e sinovite (conclusão)"
+    replace: Artropatia inflamatória com erosões e sinovite.
     word: true
 
   # --- Joelho: técnica ---
@@ -5094,21 +5094,11 @@ matches:
     word: true
 
   - trigger: "jod2"
-    label: "Joelho: Líquido articular sem derrame significativo"
-    replace: Pequena quantidade de líquido articular, sem derrame em volume significativo.
-    word: true
-
-  - trigger: "jod2c"
-    label: "Joelho: Pequena quantidade de líquido articular, sem derrame significativo (conclusão)"
-    replace: Pequena quantidade de líquido articular, sem derrame significativo.
-    word: true
-
-  - trigger: "jod3"
     label: "Joelho: Pequeno derrame articular"
     replace: Pequeno derrame articular.
     word: true
 
-  - trigger: "jod3c"
+  - trigger: "jod2c"
     label: "Joelho: Pequeno derrame articular (conclusão)"
     replace: Pequeno derrame articular.
     word: true
@@ -5124,11 +5114,21 @@ matches:
     word: true
 
   - trigger: "jod5"
+    label: "Joelho: Líquido articular sem derrame significativo"
+    replace: Pequena quantidade de líquido articular, sem derrame em volume significativo.
+    word: true
+
+  - trigger: "jod5c"
+    label: "Joelho: Pequena quantidade de líquido articular, sem derrame significativo (conclusão)"
+    replace: Pequena quantidade de líquido articular, sem derrame significativo.
+    word: true
+
+  - trigger: "jod6"
     label: "Joelho: Derrame com corpo livre"
     replace: Derrame articular com sinovite, destacando-se imagem hiperecogênica produtora de sombra acústica posterior, medindo cerca de _ cm, sugestiva de corpo livre.
     word: true
 
-  - trigger: "jod5c"
+  - trigger: "jod6c"
     label: "Joelho: Derrame articular com sinovite e corpo livre intra-articular (conclusão)"
     replace: Derrame articular com sinovite e corpo livre intra-articular.
     word: true
@@ -5455,22 +5455,22 @@ matches:
     replace: Derrame articular.
     word: true
 
-  - trigger: "qdd3"
+  - trigger: "qdd4"
     label: "Quadril: Derrame com sinovite"
     replace: Derrame articular com hipertrofia sinovial, indicando sinovite.
     word: true
 
-  - trigger: "qdd3c"
+  - trigger: "qdd4c"
     label: "Quadril: Derrame articular com sinovite (conclusão)"
     replace: Derrame articular com sinovite.
     word: true
 
-  - trigger: "qdd4"
+  - trigger: "qdd5"
     label: "Quadril: Sinovite com atividade ao Doppler"
     replace: Hipertrofia sinovial com vascularização ao Power Doppler, indicando sinovite com atividade inflamatória.
     word: true
 
-  - trigger: "qdd4c"
+  - trigger: "qdd5c"
     label: "Quadril: Sinovite com atividade inflamatória ao Doppler (conclusão)"
     replace: Sinovite com atividade inflamatória ao Doppler.
     word: true
@@ -5703,12 +5703,12 @@ matches:
     replace: Derrame articular metatarsofalângico.
     word: true
 
-  - trigger: "pdd3"
+  - trigger: "pdd4"
     label: "Pé: Derrame metatarsofalângico com sinovite"
     replace: Derrame articular com sinovite na metatarsofalângica do _ dedo.
     word: true
 
-  - trigger: "pdd3c"
+  - trigger: "pdd4c"
     label: "Pé: Derrame articular metatarsofalângico com sinovite (conclusão)"
     replace: Derrame articular metatarsofalângico com sinovite.
     word: true
@@ -5847,18 +5847,18 @@ matches:
   # --- Pé: bursite intermetatársica ---
 
   - trigger: "pdb1"
+    label: "Pé: Bursas intermetatársicas fisiológicas"
+    replace: Lâmina líquida de aspecto fisiológico (< 3 mm) nas bursas intermetatársicas.
+    word: true
+
+  - trigger: "pdb2"
     label: "Pé: Bursite intermetatarsiana"
     replace: Imagem anecoica / hipoecoica no terceiro espaço intermetatarsiano distal, compressível, compatível com bursite intermetatarsiana.
     word: true
 
-  - trigger: "pdb1c"
+  - trigger: "pdb2c"
     label: "Pé: Bursite intermetatarsiana (conclusão)"
     replace: Bursite intermetatarsiana.
-    word: true
-
-  - trigger: "pdb2"
-    label: "Pé: Bursas intermetatársicas fisiológicas"
-    replace: Lâmina líquida de aspecto fisiológico (< 3 mm) nas bursas intermetatársicas.
     word: true
 
   # --- Pé: cisto ---
