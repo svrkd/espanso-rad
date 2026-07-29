@@ -1,6 +1,22 @@
 matches:
 
   # ==============================================================================
+  # ÍNDICE DE SIGLAS (prefixos dos triggers) — mamografia
+  # Padrão: <sigla> + número; sufixo "c" = frase-conclusão curta.
+  # ==============================================================================
+  #   mmg    = template completo de laudo
+  #   mgcomp = composição/densidade da mama (a–d)
+  #   mgn    = nódulo (mgnt = template parametrizado)
+  #   mgk    = calcificações (mgkt = template parametrizado)
+  #   mga    = assimetria
+  #   mgda   = distorção arquitetural
+  #   mgaf   = achado associado (retração, espessamento, linfonodo axilar, ducto)
+  #   mgli   = linfonodo intramamário
+  #   mges   = casos especiais (esteatonecrose/cisto oleoso, correlato de cisto)
+  #   mgb    = categoria BI-RADS (0–6)
+  #   mgcond = conduta/recomendação
+
+  # ==============================================================================
   # TEMPLATES COMPLETOS
   # ==============================================================================
 
