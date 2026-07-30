@@ -1,13 +1,6 @@
-# Cheat-sheet — Ultrassonografia (match/us.yml)
+# Cheat-sheet - Ultrassonografia / RADIOLOGIA CATANDUVA
 
-Referência rápida dos triggers de `match/us.yml`, para consulta e impressão.
-Pares achado/conclusão (`trigger`/`triggerc`) aparecem numa linha só. Modelos
-de laudo completo (trigger começando com `us...`) aparecem marcados como
-"(modelo)". Seção Músculo-esquelético traz só os códigos genéricos `msk*` —
-os triggers específicos por segmento (cotovelo, joelho, mão, ombro, pé,
-punho, quadril, tornozelo, lesão muscular) não entram aqui por volume.
-
-Fonte: `match/us.yml`. Gerado a partir dos campos `trigger`/`label`.
+Por ALOK :D
 
 ## Abdome — fígado, vias biliares, vesícula biliar, baço, apêndice
 
