@@ -68,6 +68,7 @@ matches:
   # VASCULAR
   #   dc  = carótidas   dv = vertebral   ds = roubo subclávio   da = aorta/ilíaca
   #   di  = estenose ilíaca   sdt = desfiladeiro torácico   tvp/tvppaulo = TVP/duplex venoso MI
+  #   dam = Doppler arterial de membros (MMSS/MMII)
   #
   # AUXILIARES / CURINGAS   papv · migue · gordoo · limitgas
 
@@ -6569,6 +6570,126 @@ matches:
     replace: Derrame pleural _ à _, com septações e atelectasia associada.
     word: true
 
+  - trigger: "tx3"
+    label: "Tórax (consolidação): Consolidação com broncograma aéreo dinâmico (achado descritivo)"
+    replace: Consolidação subpleural hipoecogênica, com aspecto hepatizado, associada a broncogramas aéreos dinâmicos (móveis à respiração) em seu interior.
+    word: true
+
+  - trigger: "tx3c"
+    label: "Tórax (consolidação): Consolidação com broncograma aéreo dinâmico"
+    replace: Consolidação pulmonar com broncograma aéreo dinâmico, sugestiva de processo pneumônico.
+    word: true
+
+  - trigger: "tx4"
+    label: "Tórax (consolidação): Consolidação com broncograma aéreo estático (achado descritivo)"
+    replace: Consolidação subpleural hipoecogênica, com aspecto hepatizado, associada a broncogramas aéreos estáticos (imóveis à respiração) em seu interior.
+    word: true
+
+  - trigger: "tx4c"
+    label: "Tórax (consolidação): Consolidação com broncograma aéreo estático"
+    replace: Consolidação pulmonar com broncograma aéreo estático, podendo corresponder a atelectasia ou a consolidação pneumônica extensa; sugere-se correlação clínica.
+    word: true
+
+  - trigger: "tx5"
+    label: "Tórax (consolidação): Consolidação sem broncograma aéreo (achado descritivo)"
+    replace: Consolidação subpleural hipoecogênica, com bordas irregulares e fragmentadas (sinal do retalho), sem broncogramas aéreos identificáveis em seu interior.
+    word: true
+
+  - trigger: "tx5c"
+    label: "Tórax (consolidação): Consolidação sem broncograma aéreo"
+    replace: Consolidação pulmonar sem broncograma aéreo, podendo corresponder a atelectasia obstrutiva ou a derrame pleural organizado; sugere-se correlação clínica.
+    word: true
+
+  - trigger: "tx6"
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural (achado descritivo)"
+    replace: Ausência de deslizamento pleural (lung sliding) no modo bidimensional, com padrão de linhas horizontais e paralelas (sinal do código de barras/estratosfera) ao modo M.
+    word: true
+
+  - trigger: "tx6c"
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural"
+    replace: Ausência de deslizamento pleural, achado compatível com pneumotórax.
+    word: true
+
+  - trigger: "tx7"
+    label: "Tórax (pneumotórax): Lung point (achado descritivo)"
+    replace: Identificação de ponto de transição entre área com deslizamento pleural preservado e área sem deslizamento (lung point) na topografia _.
+    word: true
+
+  - trigger: "tx7c"
+    label: "Tórax (pneumotórax): Lung point"
+    replace: Lung point identificado na topografia _, achado patognomônico de pneumotórax e indicativo da extensão do colabamento pulmonar.
+    word: true
+
+  - trigger: "tx8"
+    label: "Tórax (massa pleuropulmonar): Massa sólida com contato pleural (achado descritivo)"
+    replace: Massa/nódulo sólido de contornos irregulares, com amplo contato pleural, hipoecogênico, sem broncograma aéreo em seu interior, medindo _ x _ cm.
+    word: true
+
+  - trigger: "tx8c"
+    label: "Tórax (massa pleuropulmonar): Massa sólida com contato pleural"
+    replace: Massa pleuropulmonar de aspecto sólido, a esclarecer etiologia (considerar neoplasia primária ou secundária).
+    word: true
+
+  - trigger: "tx9"
+    label: "Tórax (massa pleuropulmonar): Nodularidade pleural associada a derrame (achado descritivo)"
+    replace: Espessamento/nodularidade da superfície pleural, associado a derrame pleural _ à _.
+    word: true
+
+  - trigger: "tx9c"
+    label: "Tórax (massa pleuropulmonar): Nodularidade pleural associada a derrame"
+    replace: Nodularidade pleural associada a derrame pleural _, achado que aumenta a probabilidade de acometimento neoplásico da pleura.
+    word: true
+
+  - trigger: "tx10"
+    label: "Tórax (linhas pleurais): Padrão de linhas A, normal (achado descritivo)"
+    replace: Padrão de linhas A horizontais, hiperecogênicas e equidistantes, associado a deslizamento pleural preservado.
+    word: true
+
+  - trigger: "tx10c"
+    label: "Tórax (linhas pleurais): Padrão de linhas A, normal"
+    replace: Padrão pulmonar normal (linhas A, com deslizamento pleural preservado).
+    word: true
+
+  - trigger: "tx11"
+    label: "Tórax (linhas pleurais): Linhas B focais (achado descritivo)"
+    replace: Linhas B focais, em número de até duas por espaço intercostal, de permeio ao padrão de linhas A.
+    word: true
+
+  - trigger: "tx11c"
+    label: "Tórax (linhas pleurais): Linhas B focais"
+    replace: Linhas B focais, achado inespecífico e frequentemente presente em pulmões normais.
+    word: true
+
+  - trigger: "tx12"
+    label: "Tórax (linhas pleurais): Síndrome intersticial, perfil B (achado descritivo)"
+    replace: Múltiplas linhas B difusas e bilaterais (três ou mais por espaço intercostal), com deslizamento pleural preservado (perfil B).
+    word: true
+
+  - trigger: "tx12c"
+    label: "Tórax (linhas pleurais): Síndrome intersticial, perfil B"
+    replace: Síndrome intersticial difusa e bilateral com deslizamento pleural preservado (perfil B), sugestiva de edema pulmonar cardiogênico.
+    word: true
+
+  - trigger: "tx13"
+    label: "Tórax (linhas pleurais): Síndrome intersticial, perfil B' (achado descritivo)"
+    replace: Múltiplas linhas B difusas e bilaterais, com deslizamento pleural ausente ou reduzido (perfil B').
+    word: true
+
+  - trigger: "tx13c"
+    label: "Tórax (linhas pleurais): Síndrome intersticial, perfil B'"
+    replace: Síndrome intersticial difusa e bilateral com deslizamento pleural reduzido/ausente (perfil B'), sugestiva de SDRA ou pneumonia extensa bilateral.
+    word: true
+
+  - trigger: "tx14"
+    label: "Tórax (linhas pleurais): Padrão assimétrico, perfil A/B (achado descritivo)"
+    replace: Padrão assimétrico, com áreas de linhas B focais entremeadas a áreas de linhas A, associado a pequena(s) consolidação(ões) subpleural(is) adjacente(s) (perfil A/B).
+    word: true
+
+  - trigger: "tx14c"
+    label: "Tórax (linhas pleurais): Padrão assimétrico, perfil A/B"
+    replace: Padrão assimétrico (perfil A/B), achado sugestivo de pneumonia.
+    word: true
+
   # ==============================================================================
   # CRÂNIO / TRANSFONTANELA (NEONATAL)
   # ==============================================================================
@@ -7084,6 +7205,190 @@ matches:
   - trigger: "tvp2c"
     label: "TVP (sequela crônica): Sinais de cicatrização pós-trombótica crônica"
     replace: Sinais de cicatrização pós-trombótica crônica.
+    word: true
+
+  # ==============================================================================
+  # VASCULAR — DOPPLER ARTERIAL DE MEMBROS (SUPERIORES/INFERIORES)
+  # ==============================================================================
+
+  - trigger: "dam1"
+    label: "Doppler arterial de membros: Ateromatose incipiente (achado descritivo)"
+    replace: Espessamento leve do complexo íntima-média associado a placas ateromatosas incipientes, não calcificadas, sem repercussão hemodinâmica, na artéria _.
+    word: true
+
+  - trigger: "dam1c"
+    label: "Doppler arterial de membros: Ateromatose incipiente"
+    replace: Ateromatose incipiente em território arterial de membro _, sem repercussão hemodinâmica.
+    word: true
+
+  - trigger: "dam2"
+    label: "Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral)"
+    replace: Espessamento leve do complexo íntima-média associado a placas ateromatosas incipientes, não calcificadas, em todos os segmentos arteriais avaliados, sem repercussão hemodinâmica.
+    word: true
+
+  - trigger: "dam2c"
+    label: "Doppler arterial de membros: Ateromatose incipiente em todos os segmentos"
+    replace: Ateromatose incipiente em todos os segmentos arteriais avaliados, sem repercussão hemodinâmica.
+    word: true
+
+  - trigger: "dam3"
+    label: "Doppler arterial de membros: Ateromatose difusa, sem estenose significativa (achado descritivo)"
+    replace: Placas ateromatosas difusas, de permeio a segmentos de calcificação parietal, ao longo do trajeto da artéria _, sem determinar estenose hemodinamicamente significativa.
+    word: true
+
+  - trigger: "dam3c"
+    label: "Doppler arterial de membros: Ateromatose difusa, sem estenose significativa"
+    replace: Ateromatose difusa em território arterial de membro _, sem estenose significativa.
+    word: true
+
+  - trigger: "dam4"
+    label: "Doppler arterial de membros: Ateromatose difusa em todos os segmentos (achado geral)"
+    replace: Placas ateromatosas difusas, calcificadas e não calcificadas, acometendo todos os segmentos arteriais avaliados, sem determinar estenose hemodinamicamente significativa em nenhum deles.
+    word: true
+
+  - trigger: "dam4c"
+    label: "Doppler arterial de membros: Ateromatose difusa em todos os segmentos"
+    replace: Ateromatose difusa em todos os segmentos arteriais avaliados, sem estenose significativa.
+    word: true
+
+  - trigger: "dam5"
+    label: "Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo)"
+    replace: Variação anatômica do trajeto/padrão de ramificação da artéria _, em relação à disposição habitual, sem repercussão hemodinâmica.
+    word: true
+
+  - trigger: "dam5c"
+    label: "Doppler arterial de membros: Variação anatômica comum do trajeto arterial"
+    replace: Variação anatômica do trajeto da artéria _, sem repercussão hemodinâmica.
+    word: true
+
+  - trigger: "dam6"
+    label: "Doppler arterial de membros: Estenose leve a moderada, onda bifásica (achado descritivo)"
+    replace: Placa ateromatosa focal na artéria _, determinando redução luminal estimada em _%, com curva espectral bifásica ao Doppler, sem critérios de estenose grave.
+    word: true
+
+  - trigger: "dam6c"
+    label: "Doppler arterial de membros: Estenose leve a moderada (< 50%)"
+    replace: Estenose leve a moderada (< 50%) da artéria _.
+    word: true
+
+  - trigger: "dam7"
+    label: "Doppler arterial de membros: Padrão de fluxo monofásico distal (achado descritivo)"
+    replace: Curvas espectrais monofásicas, de baixa amplitude e resistência reduzida, nas artérias distais ao segmento avaliado, sugerindo doença arterial obstrutiva em nível proximal.
+    word: true
+
+  - trigger: "dam7c"
+    label: "Doppler arterial de membros: Padrão de fluxo monofásico distal"
+    replace: Padrão de fluxo monofásico distal, sugestivo de doença arterial obstrutiva proximal.
+    word: true
+
+  - trigger: "dam8"
+    label: "Doppler arterial de membros: Estenose de 50 a 69% (achado descritivo)"
+    replace: Placa ateromatosa na artéria _, com fluxo turbulento, velocidade de pico sistólico de _ cm/s e razão de velocidades de _, compatível com estenose de 50 a 69%.
+    word: true
+
+  - trigger: "dam8c"
+    label: "Doppler arterial de membros: Estenose de 50 a 69%"
+    replace: Estenose de 50 a 69% da artéria _.
+    word: true
+
+  - trigger: "dam9"
+    label: "Doppler arterial de membros: Estenose grave (> 70%) (achado descritivo)"
+    replace: Placa ateromatosa calcificada na artéria _, com fluxo filiforme, velocidade de pico sistólico superior a _ cm/s e razão de velocidades > 4, inferindo estenose grave (> 70%).
+    word: true
+
+  - trigger: "dam9c"
+    label: "Doppler arterial de membros: Estenose grave (> 70%)"
+    replace: Estenose grave (> 70%) da artéria _.
+    word: true
+
+  - trigger: "dam10"
+    label: "Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo)"
+    replace: Stent/prótese endovascular metálico em topografia da artéria _, com boa expansão e aposição às paredes vasculares, fluxo laminar preservado em seu interior e ausência de coleções perienxerto.
+    word: true
+
+  - trigger: "dam10c"
+    label: "Doppler arterial de membros: Stent/prótese endovascular pérvio"
+    replace: Stent/prótese endovascular pérvio na artéria _, sem sinais de complicação.
+    word: true
+
+  - trigger: "dam11"
+    label: "Doppler arterial de membros: Oclusão arterial segmentar, com colaterais (achado descritivo)"
+    replace: Ausência de fluxo ao Doppler colorido e espectral em segmento da artéria _, com reconstituição distal por vasos colaterais, demonstrando padrão monofásico de baixa amplitude.
+    word: true
+
+  - trigger: "dam11c"
+    label: "Doppler arterial de membros: Oclusão arterial segmentar, com colaterais"
+    replace: Oclusão arterial segmentar da artéria _, com reconstituição distal por colaterais.
+    word: true
+
+  - trigger: "dam12"
+    label: "Doppler arterial de membros: Não caracterização de vaso (achado descritivo)"
+    replace: Não caracterização de fluxo ao Doppler colorido e espectral na artéria _ em toda a extensão avaliada, podendo corresponder a oclusão crônica, hipoplasia ou agenesia do vaso.
+    word: true
+
+  - trigger: "dam12c"
+    label: "Doppler arterial de membros: Não caracterização de vaso"
+    replace: Não caracterização da artéria _, a esclarecer oclusão crônica, hipoplasia ou agenesia.
+    word: true
+
+  - trigger: "dam13"
+    label: "Doppler arterial de membros: Oclusão arterial extensa e crônica (achado descritivo)"
+    replace: Ausência de fluxo ao Doppler colorido e espectral em extenso segmento da artéria _, associada a paredes irregulares e calcificadas, sem sinais de recanalização.
+    word: true
+
+  - trigger: "dam13c"
+    label: "Doppler arterial de membros: Oclusão arterial extensa e crônica"
+    replace: Oclusão arterial extensa e crônica da artéria _.
+    word: true
+
+  - trigger: "dam14"
+    label: "Doppler arterial de membros: Aneurisma arterial periférico (achado descritivo)"
+    replace: Dilatação fusiforme da artéria _, medindo _ cm no maior diâmetro (> 50% do diâmetro esperado para o segmento), com fluxo turbilhonado em seu interior, sem trombo mural significativo.
+    word: true
+
+  - trigger: "dam14c"
+    label: "Doppler arterial de membros: Aneurisma arterial periférico"
+    replace: Aneurisma da artéria _.
+    word: true
+
+  - trigger: "dam15"
+    label: "Doppler arterial de membros: Aneurisma parcialmente trombosado (achado descritivo)"
+    replace: Dilatação fusiforme da artéria _, medindo _ cm no maior diâmetro, com trombo mural excêntrico ocupando parte da luz e fluxo residual preservado em luz remanescente, compatível com aneurisma parcialmente trombosado.
+    word: true
+
+  - trigger: "dam15c"
+    label: "Doppler arterial de membros: Aneurisma parcialmente trombosado"
+    replace: Aneurisma parcialmente trombosado da artéria _.
+    word: true
+
+  - trigger: "dam16"
+    label: "Doppler arterial de membros: Aneurisma trombosado (achado descritivo)"
+    replace: Dilatação fusiforme da artéria _, medindo _ cm no maior diâmetro, com trombo mural ocupando totalmente a luz vascular e ausência de fluxo ao Doppler colorido e espectral em seu interior, compatível com aneurisma totalmente trombosado.
+    word: true
+
+  - trigger: "dam16c"
+    label: "Doppler arterial de membros: Aneurisma trombosado"
+    replace: Aneurisma trombosado da artéria _.
+    word: true
+
+  - trigger: "dam17"
+    label: "Doppler arterial de membros: Pseudoaneurisma (achado descritivo)"
+    replace: Coleção sacular adjacente à artéria _, com colo comunicante e fluxo de vaivém ("to-and-fro") ao Doppler espectral, medindo _ cm, achados compatíveis com pseudoaneurisma.
+    word: true
+
+  - trigger: "dam17c"
+    label: "Doppler arterial de membros: Pseudoaneurisma"
+    replace: Pseudoaneurisma da artéria _.
+    word: true
+
+  - trigger: "dam18"
+    label: "Doppler arterial de membros: Fístula arteriovenosa (achado descritivo)"
+    replace: Comunicação anômala entre a artéria _ e a veia adjacente, com fluxo arterializado de alta velocidade e baixa resistência na veia correspondente, achados compatíveis com fístula arteriovenosa.
+    word: true
+
+  - trigger: "dam18c"
+    label: "Doppler arterial de membros: Fístula arteriovenosa"
+    replace: Fístula arteriovenosa entre a artéria _ e a veia adjacente.
     word: true
 
   # ==============================================================================
