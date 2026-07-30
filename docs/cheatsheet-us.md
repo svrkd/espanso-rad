@@ -35,7 +35,6 @@ Por ALOK :D
 | fh5/fh5c | Múltiplos nódulos hepáticos (lesões secundárias?) |
 | vb0/vb0c | Colecistectomia |
 | vb1/vb1c | Colecistolitíase |
-| vb10 | Vesícula hipodistendida (sem jejum) |
 | vb2/vb2c | Colecistite aguda |
 | vb3/vb3c | Barro biliar |
 | vb4/vb4c | Pólipo de vesícula biliar |
@@ -44,6 +43,7 @@ Por ALOK :D
 | vb7/vb7c | Vesícula repleta de cálculos |
 | vb8/vb8c | Vesícula em porcelana |
 | vb9 | Paredes espessadas (provável ascite) |
+| vb10 | Vesícula hipodistendida (sem jejum) |
 | vbcole/vb11 | Colecistolitíase c/ hidropsia + dilatação biliar |
 
 ## Rins, vias urinárias, bexiga e próstata
@@ -61,13 +61,12 @@ Por ALOK :D
 | bx6/bx6c | Conteúdo hemático móvel |
 | bx7 | Ecos em suspensão |
 | bx8 | Balão de sonda vesical |
-| rv3/rv3c, rv4/rv4c | Nefrolitíase não obstrutiva |
-| usfocos/usfocosc, rv16/rv16c | Focos ecogênicos (microcálculos?) |
 | usjuv1 | Cálculo em JUV à direita |
 | usjuv2 | Cálculo em JUV à esquerda |
 | prostn | NOTA: aumento prostático c/ impressão vesical |
 | rv1/rv1c | Nefropatia parenquimatosa crônica |
 | rv2/rv2c | Nefropatia parenquimatosa (dimensões preservadas) |
+| rv3/rv3c, rv4/rv4c | Nefrolitíase não obstrutiva |
 | rv5/rv5c | Dilatação do sistema coletor sem fator obstrutivo |
 | rv6/rv6c | Cálculo obstrutivo ureteral |
 | rv7/rv7c | Cisto renal cortical simples |
@@ -79,6 +78,7 @@ Por ALOK :D
 | rv13/rv13c | Nefrocalcinose medular |
 | rv14/rv14c | Nódulo renal indeterminado |
 | rv15/rv15c | Dilatação pielocalicinal acentuada |
+| usfocos/usfocosc, rv16/rv16c | Focos ecogênicos (microcálculos?) |
 
 ## Pélvica ginecológica e transvaginal
 
@@ -106,19 +106,19 @@ Por ALOK :D
 | ov8/ov8c | Cisto ovariano heterogêneo (hemorrágico) |
 | ov9, sop | Síndrome dos ovários policísticos |
 | ov10, terat1 | Teratoma (nível líquido-líquido + gordura) |
-| bicorno/ut7, ut5/utbicorno/ut8 | Alteração Mülleriana (útero septado/bicorno) |
 | ovdnao | Ovário direito não caracterizado |
 | ovenao | Ovário esquerdo não caracterizado |
 | ovbnao | Ovários não caracterizados (ambos) |
-| istmocele1/ut9 | Istmocele |
-| uslamina/ut10 | Lâmina anecoica na cavidade (muco/sangue) |
+| ut0/ut0c | Histerectomia total |
 | ut1/ut1c | Endométrio espessado e heterogêneo |
 | ut2/ut2c | Nódulo endometrial (pólipo?) |
 | ut3/ut3c | Adenomiose |
 | ut4 | Ectasia de vasos venosos uterinos |
+| bicorno/ut7, ut5/utbicorno/ut8 | Alteração Mülleriana (útero septado/bicorno) |
 | ut6/ut6c | Histerectomia parcial |
 | utnc | Útero não caracterizado (histerectomia prévia) |
-| ut0/ut0c | Histerectomia total |
+| istmocele1/ut9 | Istmocele |
+| uslamina/ut10 | Lâmina anecoica na cavidade (muco/sangue) |
 | usnaboth/usnabothc, ut13/ut13c | Cisto de Naboth |
 
 ## Obstétrica
@@ -203,10 +203,10 @@ Por ALOK :D
 | usle | Linfonodo axilar esquerdo normal |
 | usld | Linfonodo axilar direito normal |
 | mms1, ma1 | Cistos subcentimétricos (ambas as mamas) |
-| ma11 | Cistos subcentimétricos (mama direita) |
-| ma12 | Cistos subcentimétricos (mama esquerda) |
 | ma3/usnc/ma3c | Nódulo mamário (único) |
 | ma3s/usncs/ma3sc, ma4/ma4c | Nódulos mamários múltiplos |
+| ma11 | Cistos subcentimétricos (mama direita) |
+| ma12 | Cistos subcentimétricos (mama esquerda) |
 
 ## Músculo-esquelético (códigos genéricos)
 
@@ -248,9 +248,9 @@ lesão muscular `lm*`), consultar `match/us.yml` diretamente.
 | pm1/pm1c | Hérnia abdominal |
 | pm2/pm2c | Nódulo lipomatoso subcutâneo |
 | pm3/pm3c | Coleção com edema adjacente |
-| diastase1, pm6 | Diástase do reto abdominal |
-| usedema, pm5 | Edema de pele/subcutâneo |
 | pm4/pm4c | Cisto sebáceo (provável) |
+| usedema, pm5 | Edema de pele/subcutâneo |
+| diastase1, pm6 | Diástase do reto abdominal |
 
 ## Tireoide e região cervical
 
