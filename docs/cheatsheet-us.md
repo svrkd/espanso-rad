@@ -279,12 +279,42 @@ lesão muscular `lm*`), consultar `match/us.yml` diretamente.
 | ustorax | Tórax extracardíaco (modelo) |
 | tx1/tx1c | Derrame pleural simples |
 | tx2/tx2c | Derrame pleural com septações e atelectasia |
+| tx3/tx3c | Consolidação com broncograma aéreo dinâmico |
+| tx4/tx4c | Consolidação com broncograma aéreo estático |
+| tx5/tx5c | Consolidação sem broncograma aéreo |
+| tx6/tx6c | Ausência de deslizamento pleural (pneumotórax) |
+| tx7/tx7c | Lung point |
+| tx8/tx8c | Massa pleuropulmonar sólida |
+| tx9/tx9c | Nodularidade pleural associada a derrame |
+| tx10/tx10c | Padrão de linhas A (normal) |
+| tx11/tx11c | Linhas B focais |
+| tx12/tx12c | Síndrome intersticial, perfil B (edema cardiogênico) |
+| tx13/tx13c | Síndrome intersticial, perfil B' (SDRA/pneumonia) |
+| tx14/tx14c | Padrão assimétrico A/B (pneumonia) |
 
 ## Crânio / transfontanela (neonatal)
 
 | Trigger | Achado |
 |---|---|
 | ustransfontanela | Crânio — transfontanela (modelo) |
+| tf1 | Cavum do septo pelúcido |
+| tf2 | Cavum vergae |
+| tf3 | Cavum septo pelúcido e vergae |
+| tf4 | Cisto de plexo coroide |
+| tf5 | Assimetria ventricular discreta |
+| tfp1/tfp1c | HPIV grau I (Papile) |
+| tfp2/tfp2c | HPIV grau II (Papile) |
+| tfp3/tfp3c | HPIV grau III (Papile) |
+| tfp4/tfp4c | HPIV grau IV (Papile) |
+| tf6 | Leucomalácia periventricular inicial |
+| tf7 | Leucomalácia periventricular cística |
+| tf8 | Ventriculomegalia leve |
+| tf9 | Ventriculomegalia moderada |
+| tf10 | Ventriculomegalia acentuada/hidrocefalia |
+| tf11 | Cisto subependimário |
+| tf12/tf12c | Agenesia de corpo caloso |
+| tf13/tf13c | Complexo de Dandy-Walker |
+| tf14/tf14c | Malformação de Chiari tipo II |
 
 ## Quadril infantil (método de Graf)
 
@@ -318,6 +348,29 @@ lesão muscular `lm*`), consultar `match/us.yml` diretamente.
 | ustvpc | TVP — conclusão genérica |
 | tvppaulo | Bloco descritivo (veias de MI sem trombose) |
 | tvp2/tvp2c | TVP crônica (sequela pós-trombótica) |
+
+## Vascular — Doppler arterial de membros (superiores/inferiores)
+
+| Trigger | Achado |
+|---|---|
+| dam1/dam1c | Ateromatose incipiente |
+| dam2/dam2c | Ateromatose incipiente (todos os segmentos) |
+| dam3/dam3c | Ateromatose difusa, sem estenose significativa |
+| dam4/dam4c | Ateromatose difusa (todos os segmentos) |
+| dam5/dam5c | Variação anatômica comum do trajeto arterial |
+| dam6/dam6c | Estenose leve a moderada (< 50%), onda bifásica |
+| dam7/dam7c | Padrão de fluxo monofásico distal |
+| dam8/dam8c | Estenose de 50 a 69% |
+| dam9/dam9c | Estenose grave (> 70%) |
+| dam10/dam10c | Stent/prótese endovascular pérvio |
+| dam11/dam11c | Oclusão arterial segmentar, com colaterais |
+| dam12/dam12c | Não caracterização de vaso |
+| dam13/dam13c | Oclusão arterial extensa e crônica |
+| dam14/dam14c | Aneurisma arterial periférico |
+| dam15/dam15c | Aneurisma parcialmente trombosado |
+| dam16/dam16c | Aneurisma trombosado |
+| dam17/dam17c | Pseudoaneurisma |
+| dam18/dam18c | Fístula arteriovenosa |
 
 ## Vascular — Doppler de artérias cervicais (carótidas e vertebrais)
 
