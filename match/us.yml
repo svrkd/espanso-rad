@@ -6570,6 +6570,126 @@ matches:
     replace: Derrame pleural _ à _, com septações e atelectasia associada.
     word: true
 
+  - trigger: "tx3"
+    label: "Tórax (consolidação): Consolidação com broncograma aéreo dinâmico (achado descritivo)"
+    replace: Consolidação subpleural hipoecogênica, com aspecto hepatizado, associada a broncogramas aéreos dinâmicos (móveis à respiração) em seu interior.
+    word: true
+
+  - trigger: "tx3c"
+    label: "Tórax (consolidação): Consolidação com broncograma aéreo dinâmico"
+    replace: Consolidação pulmonar com broncograma aéreo dinâmico, sugestiva de processo pneumônico.
+    word: true
+
+  - trigger: "tx4"
+    label: "Tórax (consolidação): Consolidação com broncograma aéreo estático (achado descritivo)"
+    replace: Consolidação subpleural hipoecogênica, com aspecto hepatizado, associada a broncogramas aéreos estáticos (imóveis à respiração) em seu interior.
+    word: true
+
+  - trigger: "tx4c"
+    label: "Tórax (consolidação): Consolidação com broncograma aéreo estático"
+    replace: Consolidação pulmonar com broncograma aéreo estático, podendo corresponder a atelectasia ou a consolidação pneumônica extensa; sugere-se correlação clínica.
+    word: true
+
+  - trigger: "tx5"
+    label: "Tórax (consolidação): Consolidação sem broncograma aéreo (achado descritivo)"
+    replace: Consolidação subpleural hipoecogênica, com bordas irregulares e fragmentadas (sinal do retalho), sem broncogramas aéreos identificáveis em seu interior.
+    word: true
+
+  - trigger: "tx5c"
+    label: "Tórax (consolidação): Consolidação sem broncograma aéreo"
+    replace: Consolidação pulmonar sem broncograma aéreo, podendo corresponder a atelectasia obstrutiva ou a derrame pleural organizado; sugere-se correlação clínica.
+    word: true
+
+  - trigger: "tx6"
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural (achado descritivo)"
+    replace: Ausência de deslizamento pleural (lung sliding) no modo bidimensional, com padrão de linhas horizontais e paralelas (sinal do código de barras/estratosfera) ao modo M.
+    word: true
+
+  - trigger: "tx6c"
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural"
+    replace: Ausência de deslizamento pleural, achado compatível com pneumotórax.
+    word: true
+
+  - trigger: "tx7"
+    label: "Tórax (pneumotórax): Lung point (achado descritivo)"
+    replace: Identificação de ponto de transição entre área com deslizamento pleural preservado e área sem deslizamento (lung point) na topografia _.
+    word: true
+
+  - trigger: "tx7c"
+    label: "Tórax (pneumotórax): Lung point"
+    replace: Lung point identificado na topografia _, achado patognomônico de pneumotórax e indicativo da extensão do colabamento pulmonar.
+    word: true
+
+  - trigger: "tx8"
+    label: "Tórax (massa pleuropulmonar): Massa sólida com contato pleural (achado descritivo)"
+    replace: Massa/nódulo sólido de contornos irregulares, com amplo contato pleural, hipoecogênico, sem broncograma aéreo em seu interior, medindo _ x _ cm.
+    word: true
+
+  - trigger: "tx8c"
+    label: "Tórax (massa pleuropulmonar): Massa sólida com contato pleural"
+    replace: Massa pleuropulmonar de aspecto sólido, a esclarecer etiologia (considerar neoplasia primária ou secundária).
+    word: true
+
+  - trigger: "tx9"
+    label: "Tórax (massa pleuropulmonar): Nodularidade pleural associada a derrame (achado descritivo)"
+    replace: Espessamento/nodularidade da superfície pleural, associado a derrame pleural _ à _.
+    word: true
+
+  - trigger: "tx9c"
+    label: "Tórax (massa pleuropulmonar): Nodularidade pleural associada a derrame"
+    replace: Nodularidade pleural associada a derrame pleural _, achado que aumenta a probabilidade de acometimento neoplásico da pleura.
+    word: true
+
+  - trigger: "tx10"
+    label: "Tórax (linhas pleurais): Padrão de linhas A, normal (achado descritivo)"
+    replace: Padrão de linhas A horizontais, hiperecogênicas e equidistantes, associado a deslizamento pleural preservado.
+    word: true
+
+  - trigger: "tx10c"
+    label: "Tórax (linhas pleurais): Padrão de linhas A, normal"
+    replace: Padrão pulmonar normal (linhas A, com deslizamento pleural preservado).
+    word: true
+
+  - trigger: "tx11"
+    label: "Tórax (linhas pleurais): Linhas B focais (achado descritivo)"
+    replace: Linhas B focais, em número de até duas por espaço intercostal, de permeio ao padrão de linhas A.
+    word: true
+
+  - trigger: "tx11c"
+    label: "Tórax (linhas pleurais): Linhas B focais"
+    replace: Linhas B focais, achado inespecífico e frequentemente presente em pulmões normais.
+    word: true
+
+  - trigger: "tx12"
+    label: "Tórax (linhas pleurais): Síndrome intersticial, perfil B (achado descritivo)"
+    replace: Múltiplas linhas B difusas e bilaterais (três ou mais por espaço intercostal), com deslizamento pleural preservado (perfil B).
+    word: true
+
+  - trigger: "tx12c"
+    label: "Tórax (linhas pleurais): Síndrome intersticial, perfil B"
+    replace: Síndrome intersticial difusa e bilateral com deslizamento pleural preservado (perfil B), sugestiva de edema pulmonar cardiogênico.
+    word: true
+
+  - trigger: "tx13"
+    label: "Tórax (linhas pleurais): Síndrome intersticial, perfil B' (achado descritivo)"
+    replace: Múltiplas linhas B difusas e bilaterais, com deslizamento pleural ausente ou reduzido (perfil B').
+    word: true
+
+  - trigger: "tx13c"
+    label: "Tórax (linhas pleurais): Síndrome intersticial, perfil B'"
+    replace: Síndrome intersticial difusa e bilateral com deslizamento pleural reduzido/ausente (perfil B'), sugestiva de SDRA ou pneumonia extensa bilateral.
+    word: true
+
+  - trigger: "tx14"
+    label: "Tórax (linhas pleurais): Padrão assimétrico, perfil A/B (achado descritivo)"
+    replace: Padrão assimétrico, com áreas de linhas B focais entremeadas a áreas de linhas A, associado a pequena(s) consolidação(ões) subpleural(is) adjacente(s) (perfil A/B).
+    word: true
+
+  - trigger: "tx14c"
+    label: "Tórax (linhas pleurais): Padrão assimétrico, perfil A/B"
+    replace: Padrão assimétrico (perfil A/B), achado sugestivo de pneumonia.
+    word: true
+
   # ==============================================================================
   # CRÂNIO / TRANSFONTANELA (NEONATAL)
   # ==============================================================================
