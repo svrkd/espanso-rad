@@ -86,7 +86,7 @@ BLOCOS = [
             ("5", "microlitíase testicular à _"),
             ("6", "coleção c/ hematocele pós-traumática à _"),
         ]),
-        ("triggers", ["testectopico", "te7"], "testículo/bolsa escrotal", "testículo ectópico (não visualizado na bolsa)"),
+        ("triggers", ["te7"], "testículo/bolsa escrotal", "testículo ectópico (não visualizado na bolsa)"),
     ]),
 
     ("PÉLVICA · TRANSVAGINAL", [
