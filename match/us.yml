@@ -282,14 +282,24 @@ matches:
       Artéria hepática com IR de x (normal entre 0,55 e 0,7).
     word: true
 
+  - trigger: "eh1"
+    label: "Fígado (esteatose): Sinais ecográficos sugestivos de estetose hepática leve (grau I) (achado descritivo)"
+    replace: Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que limita a caracterização de eventuais lesões focais.
+    word: true
+    
   - trigger: "eh1c"
     label: "Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I)"
-    replace: Sinais ecográficos sugestivos de esteatose hepática leve (grau I).
+    replace: Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I).
     word: true
 
+  - trigger: "eh2"
+    label: "Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática moderada (grau II) (achado descritivo)"
+    replace: Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que limita a caracterização de vasos intra-hepáticos e eventuais lesões focais.
+    word: true
+    
   - trigger: "eh2c"
     label: "Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito moderada (grau II)"
-    replace: Sinais ecográficos sugestivos de esteatose hepática moderada (grau II).
+    replace: Sinais ecográficos sugestivos de hepatopatia de depósito moderada (grau II).
     word: true
 
   - trigger: "eh3"
@@ -299,7 +309,7 @@ matches:
 
   - trigger: "eh3c"
     label: "Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito acentuada (grau III)"
-    replace: Sinais ecográficos sugestivos de esteatose hepática acentuada (grau III).
+    replace: Sinais ecográficos sugestivos de hepatopatia de depósito acentuada (grau III).
     word: true
 
   - trigger: "fh1"
@@ -616,6 +626,16 @@ matches:
     replace: Destaca-se balão de sonda vesical no seu interior.
     word: true
 
+  - trigger: "bx9"
+    label: "Bexiga: focos gasosos no seu interior"
+    replace: com focos hiperecogênicos com sombra acústica suja no seu interior, móveis com a mudança de decúbito.
+    word: true
+
+  - trigger: "bx9c"
+    label: "Bexiga: focos gasosos no seu interior"
+    replace: Gás intraluminal na bexiga.
+    word: true
+
   - trigger: "rv3"
     label: "Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo)"
     replace: Nota-se no grupamento calicinal inferior/ médio/ superior do rim, imagem ecogênica formadora de sombra acústica posterior e artefato luminescente, compatível com cálculo, não obstrutivo, medindo _ cm.
@@ -629,7 +649,8 @@ matches:
   - trigger: "rv4"
     label: "Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo)"
     replace: |-
-      Notam-se múltiplas imagens ecogênicas formadoras de sombra acústica posterior e artefato luminescente, compatíveis com cálculos, não obstrutivos, destacando-se as maiores:
+      Notam-se imagens ecogênicas formadoras de sombra acústica posterior e artefato luminescente, compatíveis com cálculos, não obstrutivos, destacando-se as maiores:
+       - Uma no grupamento calicinal superior/ médio/ inferior, medindo _ cm;
        - Uma no grupamento calicinal superior/ médio/ inferior, medindo _ cm.
     word: true
 
