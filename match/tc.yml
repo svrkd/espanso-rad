@@ -4343,17 +4343,17 @@ matches:
     replace: "Espessamento difuso das glândulas adrenais, inespecífico."
     word: true
 
-  - trigger: "eh"
+  - trigger: "esteatc"
     label: "Esteatose hepática"
     replace: Esteatose hepática.
     word: true
 
-  - trigger: "eh1"
+  - trigger: "esteat1c"
     label: "Esteatose hepática leve"
     replace: Esteatose hepática leve.
     word: true
 
-  - trigger: "eh2"
+  - trigger: "esteat2c"
     label: "Esteatose hepática acentuada"
     replace: Esteatose hepática acentuada.
     word: true
