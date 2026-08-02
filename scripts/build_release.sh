@@ -12,6 +12,8 @@
 #                                                       nenhum build standalone para macOS, só um .dmg para
 #                                                       /Applications que exige permissão de Acessibilidade)
 #   dist/espanso-rad-beeftext-portable-<version>.zip  (BeefText Portable Edition + comboList.json pré-gerado)
+#   dist/poster-us-<version>.pdf                      (pôster de parede de referência rápida — US, também
+#                                                       incluído dentro do pacote base)
 #
 # Uso:
 #   scripts/build_release.sh <version> [--with-portable]
@@ -36,16 +38,38 @@ mkdir -p "$DIST" "$STAGE"
 echo "==> Validando match/*.yml"
 python3 "$REPO_ROOT/scripts/check_matches.py"
 
-# --- pacote base: match/ + config/ ---
+# --- validação de deriva do pôster: aborta se poster_data.py e match/us.yml divergirem ---
+echo "==> Validando cobertura do pôster (docs/poster/poster_data.py x match/us.yml)"
+python3 "$REPO_ROOT/scripts/check_poster_coverage.py"
+
+# --- gera o pôster e renderiza o PDF ---
+echo "==> Gerando pôster de parede"
+python3 "$REPO_ROOT/scripts/gen_poster.py"
+python3 - "$REPO_ROOT/docs/poster-us.html" "$REPO_ROOT/docs/poster-us.pdf" <<'PYEOF'
+import sys
+from weasyprint import HTML
+html_path, pdf_path = sys.argv[1], sys.argv[2]
+doc = HTML(filename=html_path).render()
+doc.write_pdf(pdf_path)
+print(f"    -> {pdf_path} ({len(doc.pages)} página(s))")
+PYEOF
+
+# --- pacote base: match/ + config/ + pôster ---
 echo "==> Montando pacote base"
 BASE_STAGE="$STAGE/base"
 mkdir -p "$BASE_STAGE"
 cp -r "$REPO_ROOT/match" "$BASE_STAGE/match"
 cp -r "$REPO_ROOT/config" "$BASE_STAGE/config"
+cp "$REPO_ROOT/docs/poster-us.pdf" "$BASE_STAGE/poster-us.pdf"
 
 BASE_ZIP="$DIST/espanso-rad-${VERSION}.zip"
-(cd "$BASE_STAGE" && zip -rq "$BASE_ZIP" match config)
+(cd "$BASE_STAGE" && zip -rq "$BASE_ZIP" match config poster-us.pdf)
 echo "    -> $BASE_ZIP"
+
+# --- pôster também como asset solto, para download direto sem descompactar ---
+POSTER_PDF_OUT="$DIST/poster-us-${VERSION}.pdf"
+cp "$REPO_ROOT/docs/poster-us.pdf" "$POSTER_PDF_OUT"
+echo "    -> $POSTER_PDF_OUT"
 
 if [ "$WITH_PORTABLE" != "--with-portable" ]; then
     echo "==> Concluído (sem pacotes portáteis)"

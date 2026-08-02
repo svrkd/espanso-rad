@@ -30,10 +30,11 @@ jobs:
             exit 1
           fi
 
-      - name: Instalar dependências (zip/unzip/pyyaml)
+      - name: Instalar dependências (zip/unzip/pyyaml/weasyprint)
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq zip unzip
-          pip install pyyaml --break-system-packages -q
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq zip unzip libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b libffi-dev
+          pip install pyyaml weasyprint --break-system-packages -q
 
       - name: Build dos pacotes
         env:
@@ -59,4 +60,6 @@ jobs:
           tag_name: ${{ inputs.version }}
           name: ${{ inputs.version }}
           generate_release_notes: true
-          files: dist/*.zip
+          files: |
+            dist/*.zip
+            dist/*.pdf
