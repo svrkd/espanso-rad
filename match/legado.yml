@@ -371,3 +371,51 @@ matches:
     label: "Sinais de intussuscepção intestinal"
     replace: "Sinais de intussuscepção na região do cólon direito/ileocecal, com espessamento parietal local das alças intestinais e conteúdo com densidade de partes moles, sem determinar distensão de alças à montante.  Associam-se densificação do tecido adiposo adjacente, pequena quantidade de líquido na cavidade pélvica e aumento do número de linfonodos mesentéricos e ileocecais. O conjunto de achados sugere suboclusão intestinal por intussuscepção. Os diagnósticos diferenciais devem ser aplicados. Recomenda-se prosseguir a investigação para a pesquisa de possíveis patologias subjacentes, inclusive neoplasia."
     word: true
+
+  # ------------------------------------------------------------
+  # Movidos de tc.yml sem renomeação — triggers com pontuação,
+  # preservados como estão (não há grafia canônica substituta;
+  # o charset [a-z0-9] não se aplica a legado.yml).
+  # ------------------------------------------------------------
+
+  # movido de tc.yml sem renomeação (trigger com pontuação)
+
+  - trigger: "aneurisma?"
+    label: "Assimetria da bifurcação da ACM - possível aneurisma"
+    replace: "Assimetria da bifurcação das artérias cerebrais médias, mais saliente à direita, melhor avaliada por estudo dirigido. Aneurisma? A critério clínico, se possível, o estudo dessa região por imagens de angiorressonância magnética poderá fornecer maiores subsídios diagnósticos."
+    word: true
+
+  # movido de tc.yml sem renomeação (trigger com pontuação)
+
+  - trigger: "v/q"
+    label: "Atenuação em mosaico (distúrbio V/Q)"
+    replace: Áreas com atenuação em mosaico esparsas bilaterais podendo estar associadas a distúrbio de ventilação/perfusão.
+    word: true
+
+  # movido de tc.yml sem renomeação (trigger com pontuação)
+
+  - trigger: "c#"
+    label: "Comparação com exame anterior (template)"
+    replace: |
+      Análise comparativa com exame do dia 01/07/2020 evidencia:
+
+      Permanecendo:
+    word: true
+
+  # movido de tc.yml sem renomeação (trigger com pontuação)
+
+  - trigger: "c="
+    label: "Comparação sem alterações significativas (template)"
+    replace: "Análise comparativa com exame do dia 01/07/2020 não evidencia alterações significativas, permanecendo:"
+    word: true
+
+  # ============================================================
+  # ORIGEM: geral.yml
+  # ============================================================
+
+  # movido de geral.yml sem renomeação (trigger com pontuação)
+
+  - trigger: "a/e"
+    label: "a esclarecer"
+    replace: a esclarecer
+    word: true
