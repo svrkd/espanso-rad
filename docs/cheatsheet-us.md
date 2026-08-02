@@ -1114,8 +1114,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | pdp4 | Pé: Sugerir correlação com RM |
 | usbolsa | Bolsa escrotal — normal |
 | usbolsad | Bolsa escrotal com Doppler — normal |
-| testectopico | Testículo ectópico: Testículo _ não visualizado na bolsa escrotal ipsilateral |
-| te7 | Testículo ectópico: Testículo _ não visualizado na bolsa escrotal ipsilateral |
+| te7 | Testículo/bolsa escrotal: Testículo ectópico |
 | te1 | Testículo/bolsa escrotal: Ausência de fluxo vascular no testículo _, associada a alterações de textura parenquimatosa (achado descritivo) |
 | te1c | Testículo/bolsa escrotal: Ausência de fluxo vascular no testículo _, associada a alterações de textura parenquimatosa |
 | te2 | Testículo/bolsa escrotal: Sinais de varicocele à _ (achado descritivo) |
