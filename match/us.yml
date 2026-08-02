@@ -57,7 +57,7 @@ matches:
   #
   # TIREOIDE / CERVICAL    ti = tireoide (nódulo)
   # TÓRAX                  tx = tórax (derrame pleural)
-  # BOLSA ESCROTAL         te/testectopico = testículo ectópico
+  # BOLSA ESCROTAL         te  = bolsa escrotal (te7 = testículo ectópico)
   #
   # QUADRIL INFANTIL (MÉTODO DE GRAF)
   #   graf<tipo> = bloco de achados do tipo (graf1a graf1b graf2ap graf2am graf2b
@@ -6203,15 +6203,8 @@ matches:
       - Estudo ultrassonográfico sem evidentes anormalidades apreciáveis ao método.
     word: true
 
-  - trigger: "testectopico"
-    label: "Testículo ectópico: Testículo _ não visualizado na bolsa escrotal ipsilateral"
-    replace: |-
-      Testículo _ não visualizado na bolsa escrotal ipsilateral.
-      Observa-se em região inguinal _, imagem ovalada, de contornos regulares, apresentando textura sólida e heterogênea, predominantemente hipoecogênica, medindo _ cm, com volume de _ cm³, podendo corresponder a testículo ectópico.
-    word: true
-
   - trigger: "te7"
-    label: "Testículo ectópico: Testículo _ não visualizado na bolsa escrotal ipsilateral"
+    label: "Testículo/bolsa escrotal: Testículo ectópico"
     replace: |-
       Testículo _ não visualizado na bolsa escrotal ipsilateral.
       Observa-se em região inguinal _, imagem ovalada, de contornos regulares, apresentando textura sólida e heterogênea, predominantemente hipoecogênica, medindo _ cm, com volume de _ cm³, podendo corresponder a testículo ectópico.
