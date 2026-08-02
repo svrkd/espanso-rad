@@ -8,7 +8,7 @@ on:
         required: true
         type: string
       with_portable:
-        description: 'Incluir pacotes portáteis (Espanso Windows/Linux/macOS + BeefText)'
+        description: 'Incluir pacotes adicionais (Espanso Windows/Linux portáteis, pacote macOS, e BeefText)'
         required: false
         type: boolean
         default: true

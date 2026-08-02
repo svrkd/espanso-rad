@@ -3,16 +3,21 @@
 #
 # Gera:
 #   dist/espanso-rad-<version>.zip                    (só match/ + config/, uso com espanso já instalado)
-#   dist/espanso-rad-portable-win-<version>.zip       (match/ + config/ + espanso portátil Windows x64)
-#   dist/espanso-rad-portable-linux-<version>.zip     (idem, Linux)
-#   dist/espanso-rad-portable-mac-<version>.zip       (idem, macOS)
+#   dist/espanso-rad-portable-win-<version>.zip       (match/ + config/ + espanso Portable Edition Windows x64)
+#   dist/espanso-rad-portable-linux-<version>.zip     (match/ + config/ + Espanso-X11.AppImage — espanso não
+#                                                       tem build "portátil" oficial para Linux, o AppImage é
+#                                                       o equivalente mais próximo: executável único, chmod +x
+#                                                       e rodar, sem gerenciador de pacotes)
+#   dist/espanso-rad-mac-<version>.zip                (só match/ + config/ + instruções — espanso não distribui
+#                                                       nenhum build standalone para macOS, só um .dmg para
+#                                                       /Applications que exige permissão de Acessibilidade)
 #   dist/espanso-rad-beeftext-portable-<version>.zip  (BeefText Portable Edition + comboList.json pré-gerado)
 #
 # Uso:
 #   scripts/build_release.sh <version> [--with-portable]
 #
-# --with-portable baixa os binários portáteis do espanso/espanso e do xmichelo/Beeftext
-# (releases mais recentes) e monta os quatro zips adicionais. Requer GITHUB_TOKEN no
+# --with-portable baixa os binários do espanso/espanso (Windows Portable Edition + Linux AppImage) e do
+# xmichelo/Beeftext (releases mais recentes) e monta os quatro zips adicionais. Requer GITHUB_TOKEN no
 # ambiente para evitar rate limit da API do GitHub (o workflow do Actions já injeta isso).
 
 set -euo pipefail
@@ -80,11 +85,11 @@ curl -sSL "${AUTH_HEADER[@]}" \
 ESPANSO_VERSION="$(python3 -c "import json; print(json.load(open('$RELEASE_JSON'))['tag_name'])")"
 echo "    espanso ${ESPANSO_VERSION}"
 
-# Padrões observados no projeto espanso/espanso (podem mudar entre versões,
-# vale conferir manualmente após falha de match):
-#   Windows portable : Espanso-Win-Portable-x86_64.zip
-#   Linux            : fixado em .tar.gz genérico (ignora .deb/.rpm/.AppImage)
-#   macOS            : Espanso.app dentro de zip, ou Espanso-Mac.zip
+# Assets confirmados no pipeline de release do espanso/espanso (podem mudar
+# entre versões, vale conferir manualmente após falha de match):
+#   Windows : Espanso-Win-Portable-x86_64.zip (build "Portable Edition" real)
+#   Linux   : Espanso-X11.AppImage (executável único, sem instalação — não há .tar.gz)
+#   macOS   : não há build portátil oficial (só .dmg para /Applications) — ver build_mac_bundle()
 build_portable_zip() {
     local platform="$1"       # win | linux | mac
     local url_pattern="$2"
@@ -114,6 +119,7 @@ build_portable_zip() {
             ;;
         *)
             cp "$asset_file" "$platform_stage/$inner_dirname/"
+            chmod +x "$platform_stage/$inner_dirname/$(basename "$asset_file")"
             ;;
     esac
 
@@ -132,8 +138,38 @@ EOF
 }
 
 build_portable_zip "win"   'Win-Portable.*\.zip$' "espanso-win"
-build_portable_zip "linux" '\.tar\.gz$' "espanso-linux"
-build_portable_zip "mac"   '(Mac|Darwin|macos).*\.zip$' "espanso-mac"
+build_portable_zip "linux" '\.AppImage$' "espanso-linux"
+
+# macOS: espanso não publica nenhum build standalone (só um .dmg notarizado
+# para instalar em /Applications), então não há binário para baixar/empacotar.
+build_mac_bundle() {
+    echo "==> Montando pacote: mac (sem binário — espanso não tem build portátil para macOS)"
+    local mac_stage="$STAGE/mac_bundle"
+    mkdir -p "$mac_stage"
+    cp -r "$REPO_ROOT/match" "$mac_stage/match"
+    cp -r "$REPO_ROOT/config" "$mac_stage/config"
+
+    cat > "$mac_stage/LEIA-ME.txt" <<EOF
+espanso-rad ${VERSION} — pacote para macOS
+
+O espanso não distribui um build portátil para macOS — apenas um instalador
+(.dmg) que deve ser movido para /Applications, além de exigir permissão de
+Acessibilidade e registro do serviço do sistema operacional.
+
+1. Instale o espanso normalmente:
+   - via Homebrew: brew install espanso
+   - ou baixando o .dmg oficial em https://espanso.org/install/
+2. Com o espanso instalado e rodando ao menos uma vez, rode "espanso path"
+   no terminal para descobrir a pasta de configuração.
+3. Copie o conteúdo de match/ e config/ deste pacote para essa pasta.
+EOF
+
+    local out_zip="$DIST/espanso-rad-mac-${VERSION}.zip"
+    (cd "$mac_stage" && zip -rq "$out_zip" .)
+    echo "    -> $out_zip"
+}
+
+build_mac_bundle
 
 # Localiza (ou cria) o diretório Data/ da BeefText Portable Edition dentro de
 # $1, considerando que o zip pode extrair "achatado" ou dentro de uma única
