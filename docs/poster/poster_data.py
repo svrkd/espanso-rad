@@ -85,8 +85,8 @@ BLOCOS = [
             ("4", "hérnia inguinoescrotal encarcerada à _"),
             ("5", "microlitíase testicular à _"),
             ("6", "coleção c/ hematocele pós-traumática à _"),
+            ("7", "testículo ectópico (não visualizado na bolsa)"),
         ]),
-        ("triggers", ["testectopico", "te7"], "testículo/bolsa escrotal", "testículo ectópico (não visualizado na bolsa)"),
     ]),
 
     ("PÉLVICA · TRANSVAGINAL", [
