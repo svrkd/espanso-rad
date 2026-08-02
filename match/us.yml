@@ -949,12 +949,12 @@ matches:
     replace: |-
       Ecotextura miometrial de aspecto heterogênea, devido a algumas imagens nodulares heterogêneas, predominantemente hipoecogênicas, de limites parcialmente definidos e contornos regulares, as maiores assim localizadas:
       - parede _, intramural/subserosa/submucosa medindo _ cm;
-      - parede _, intramural/subserosa/submucosa medindo _ cm;
+      - parede _, intramural/subserosa/submucosa medindo _ cm.
     word: true
 
   - trigger: "mm2c"
     label: "Miométrio (mioma): Nódulos miometrias mais comumente associados a leiomiomas"
-    replace: Nódulos miometrias mais comumente associados a leiomiomas.
+    replace: Nódulos miometriais mais comumente associados a leiomiomas.
     word: true
 
   - trigger: "mm3"
@@ -969,7 +969,7 @@ matches:
 
   - trigger: "ov1"
     label: "Ovário: Cisto de conteúdo espesso no ovário direito/esquerdo (achado descritivo)"
-    replace: Destacando-se imagem cística de paredes finas e regulares, com conteúdo espesso no seu interior, sem fluxo vascular interno no seu interior.
+    replace: imagem cística de paredes finas e regulares, com conteúdo espesso no seu interior, sem fluxo vascular interno, medindo _ cm.
     word: true
 
   - trigger: "ov1c"
@@ -982,7 +982,7 @@ matches:
 
   - trigger: "ov2"
     label: "Ovário: Cisto simples no ovário direito/esquerdo (achado descritivo)"
-    replace: Destacando-se imagem cística no seu interior, de paredes finas e regulares e conteúdo anecoico, medindo _ cm.
+    replace: imagem cística no seu interior, de paredes finas e regulares e conteúdo anecoico, avascular ao estudo Doppler, medindo _ cm.
     word: true
 
   - trigger: "ov2c"
@@ -1002,7 +1002,7 @@ matches:
 
   - trigger: "ov4"
     label: "Ovário: Nódulo hiperecogênico no ovário direito/esquerdo (achado descritivo)"
-    replace: Destaca-se imagem nodular hiperecogênica, sem fluxo ao estudo Doppler colorido, apresentando sombra acústica posterior, medindo _ cm.
+    replace: imagem nodular hiperecogênica, avascular ao estudo Doppler, apresentando sombra acústica posterior, medindo _ cm.
     word: true
 
   - trigger: "ov4c"
@@ -1012,27 +1012,27 @@ matches:
 
   - trigger: "ov5"
     label: "Ovário: Cisto septado no ovário direito/esquerdo (achado descritivo)"
-    replace: Destaca-se imagem cística de paredes finas e regulares e finos septos de permeio, sem fluxo vascular ao estudo Doppler colorido, medindo _ cm.
+    replace: imagem cística de paredes finas e regulares e finos septos de permeio, avasculaar ao estudo Doppler, medindo _ cm.
     word: true
 
   - trigger: "ov5c"
     label: "Ovário: Cisto septado no ovário direito/esquerdo"
-    replace: Cisto septado no ovário direito/esquerdo.
+    replace: Cisto septado no ovário _.
     word: true
 
   - trigger: "ov6"
     label: "Ovário: Imagem cística complexa no ovário direito/esquerdo (achado descritivo)"
-    replace: Destaca-se imagem cística, com componente mural sólido de permeio/septos grosseiros, com/sem fluxo vascular ao estudo Doppler colorido. Cisto mede _ cm, componente sólido mede _ cm.
+    replace: imagem cística, com componente mural sólido de permeio/septos grosseiros, com/sem fluxo vascular ao estudo Doppler. Cisto mede _ cm, componente sólido mede _ cm.
     word: true
 
   - trigger: "ov6c"
     label: "Ovário: Imagem cística complexa no ovário direito/esquerdo"
-    replace: Imagem cística complexa no ovário direito/esquerdo.
+    replace: Imagem cística complexa no ovário _.
     word: true
 
   - trigger: "ov7"
     label: "Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma (achado descritivo)"
-    replace: Destaca-se imagem cística de paredes finas e regulares, com conteúdo hipoecogênico homogêneo no seu interior, sem fluxo vascular interno no seu interior.
+    replace: imagem cística de paredes finas e regulares, com conteúdo hipoecogênico homogêneo no seu interior, sem fluxo vascular interno no seu interior.
     word: true
 
   - trigger: "ov7c"
@@ -1042,7 +1042,7 @@ matches:
 
   - trigger: "ov8"
     label: "Ovário: Cisto ovariano com as características acima descritas, mais comumente associado a cisto... (achado descritivo)"
-    replace: Destaca-se imagem cística de paredes finas e regulares, com finos septos de permeio e conteúdo espesso heterogêneo no seu interior, sem fluxo vascular interno no seu interior.
+    replace: imagem cística de paredes finas e regulares, com finos septos de permeio e conteúdo espesso heterogêneo no seu interior, sem fluxo vascular interno no seu interior.
     word: true
 
   - trigger: "ov8c"
@@ -1057,8 +1057,7 @@ matches:
 
   - trigger: "bicornoc"
     label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno)"
-    replace: |-
-      Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
+    replace: Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
     word: true
 
   - trigger: "ut7"
@@ -1068,8 +1067,7 @@ matches:
 
   - trigger: "ut7c"
     label: "Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno)"
-    replace: |-
-      Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
+    replace: Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno). A critério clínico, o estudo com imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
     word: true
 
   - trigger: "utbicorno"
@@ -1094,20 +1092,12 @@ matches:
 
   - trigger: "ovdnao"
     label: "Ovário não caracterizado: Ovário esquerdo em topografia, morfologia, contornos e dimensões normais"
-    replace: |-
-      Ovário esquerdo em topografia, morfologia, contornos e dimensões normais.
-      Parênquima com ecotextura habitual.
-      Medidas do ovário esquerdo: _ cm (volume: _ cm³).
-      Ovário direito não caracterizado. (Os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais ou modificações próprias do período climatérico ou status pós-cirúrgico).
+    replace: Ovário direito não caracterizado. (Os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais ou modificações próprias do período climatérico ou status pós-cirúrgico).
     word: true
 
   - trigger: "ovenao"
     label: "Ovário não caracterizado: Ovário direito em topografia, morfologia, contornos e dimensões normais"
-    replace: |-
-      Ovário direito em topografia, morfologia, contornos e dimensões normais.
-      Parênquima com ecotextura habitual.
-      Medidas do ovário direito: _ cm (volume: _ cm³).
-      Ovário esquerdo não caracterizado. (Os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais ou modificações próprias do período climatérico ou status pós-cirúrgico).
+    replace: Ovário esquerdo não caracterizado. (Os ovários podem não ser caracterizados em um exame ultrassonográfico isolado, por condições próprias do indivíduo, como interposição gasosa intestinal nas regiões anexiais ou modificações próprias do período climatérico ou status pós-cirúrgico).
     word: true
 
   - trigger: "ovbnao"
