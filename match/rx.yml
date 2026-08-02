@@ -357,7 +357,7 @@ matches:
   # TÓRAX (PULMÃO, MEDIASTINO, CORAÇÃO, ARCOS COSTAIS)
   # ==========================================================================
 
-  - trigger: "alarg"
+  - trigger: "alargmed"
     label: "Alargamento mediastinal"
     replace: Sinais de alargamento mediastinal.
     word: true
