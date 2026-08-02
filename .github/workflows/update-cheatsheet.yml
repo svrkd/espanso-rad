@@ -1,0 +1,34 @@
+name: Atualizar cheat-sheet
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'match/us.yml'
+      - 'scripts/gen_cheatsheet.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cheatsheet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Regenerar docs/cheatsheet-us.md
+        run: python3 scripts/gen_cheatsheet.py
+
+      - name: Commitar se houver mudanças
+        run: |
+          if git diff --quiet -- docs/cheatsheet-us.md; then
+            echo "Sem mudanças no cheat-sheet."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/cheatsheet-us.md
+          git commit -m "Atualizar docs/cheatsheet-us.md"
+          git push
