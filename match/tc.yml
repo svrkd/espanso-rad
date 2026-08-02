@@ -5875,11 +5875,6 @@ matches:
     replace: "Imagem que sugere representar pequeno aneurisma na artéria esplênica, parcialmente calcificado."
     word: true
 
-  - trigger: "aneurisma?"
-    label: "Assimetria da bifurcação da ACM - possível aneurisma"
-    replace: "Assimetria da bifurcação das artérias cerebrais médias, mais saliente à direita, melhor avaliada por estudo dirigido. Aneurisma? A critério clínico, se possível, o estudo dessa região por imagens de angiorressonância magnética poderá fornecer maiores subsídios diagnósticos."
-    word: true
-
   - trigger: "aneurismadeaortatoracicaroto"
     label: "Aneurisma roto do arco aórtico"
     replace: Volumoso aneurisma do arco aórtico, iniciando-se na altura da emergência da artéria subclávia esquerda e estendendo-se junto ao terço proximal da aorta descendente. A lesão tem calibre de até _ x _ cm, exibe extenso trombo mural e apresenta sinais de rotura contida no saco aneurismático, caracterizados por sinal do crescente de alta atenuação (hematoma intraluminal), descontinuidade das calcificações parietais e fissuração do trombo com áreas de extravasamento do meio de contraste luminal para o interior do trombo.
@@ -12949,27 +12944,9 @@ matches:
     replace: Espessamento septal periférico sem distorção arquitetural localizado no lobo _.
     word: true
 
-  - trigger: "v/q"
-    label: "Atenuação em mosaico (distúrbio V/Q)"
-    replace: Áreas com atenuação em mosaico esparsas bilaterais podendo estar associadas a distúrbio de ventilação/perfusão.
-    word: true
-
   - trigger: "valv"
     label: "Calcificações valvares aórtica e mitral"
     replace: Calcificações valvares aórtica e mitral.
-    word: true
-
-  - trigger: "c#"
-    label: "Comparação com exame anterior (template)"
-    replace: |
-      Análise comparativa com exame do dia 01/07/2020 evidencia:
-
-      Permanecendo:
-    word: true
-
-  - trigger: "c="
-    label: "Comparação sem alterações significativas (template)"
-    replace: "Análise comparativa com exame do dia 01/07/2020 não evidencia alterações significativas, permanecendo:"
     word: true
 
   - trigger: "gadm"

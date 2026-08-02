@@ -70,11 +70,6 @@ matches:
     replace: "Indicação clínica: "
     word: true
 
-  - trigger: "a/e"
-    label: "a esclarecer"
-    replace: a esclarecer
-    word: true
-
   - trigger: "porme"
     label: "Achados pormenorizados no corpo do laudo"
     replace: Demais achados pormenorizados no corpo do laudo.
