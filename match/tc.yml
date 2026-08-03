@@ -11306,6 +11306,21 @@ matches:
     replace: Mastoidopatia à esquerda.
     word: true
 
+  - trigger: "mata1"
+    label: "Mastoidopatia à direita"
+    replace: Mastoidopatia à direita.
+    word: true
+
+  - trigger: "mata2"
+    label: "Mastoidopatia à esquerda"
+    replace: Mastoidopatia à esquerda.
+    word: true
+
+  - trigger: "mata3"
+    label: "Mastoidopatia bilateral"
+    replace: Mastoidopatia bilateral.
+    word: true
+
   - trigger: "mdd"
     label: "Medindo"
     replace: medindo
