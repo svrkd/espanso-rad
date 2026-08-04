@@ -7482,11 +7482,6 @@ matches:
     replace: "Redução do espaço entre a tuberosidade isquiática e o trocânter femoral menor, associada alteração do sinal do ventre muscular do quadrado femoral, sugerindo impacto isquiofemoral."
     word: true
 
-  - trigger: "laudado"
-    label: "Assinatura — Anabel Pagoto de Oliveira"
-    replace: "Laudado por: Anabel Pagoto de Oliveira - CRM:112.502"
-    word: true
-
   - trigger: "lcl"
     label: "Ligamento colateral lateral"
     replace: ligamento colateral lateral
@@ -7730,13 +7725,6 @@ matches:
   - trigger: "fshspstsap"
     label: "Focos hiperrefringentes produtores de tênue sombra acústica"
     replace: Focos hiperrefringentes produtores de tênue sombra acústica posterior
-    word: true
-
-  - trigger: "wnus"
-    label: "Assinatura — Wedlla Nathalia Araujo"
-    replace: |-
-      DRª WEDLLA NATHALIA ARAUJO
-      CRM: 166.880
     word: true
 
   - trigger: "silh"

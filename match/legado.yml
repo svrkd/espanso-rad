@@ -146,15 +146,6 @@ matches:
   # ORIGEM: tc.yml
   # ============================================================
 
-  # substituído por "dpaus" em tc.yml
-
-  - trigger: "DPAUS"
-    label: "Assinatura: Dr. Diego Araújo"
-    replace: |
-      DR. DIEGO ARAUJO
-      CRM: 166.879
-    word: true
-
   # substituído por "edema" em tc.yml
 
   - trigger: "EDEMA"
