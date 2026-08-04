@@ -113,8 +113,8 @@ matches:
       Textura óssea preservada.
       Estruturas ósseas preservadas.
       Aumento de partes moles da parede posterior da rinofaringe, determinando redução da coluna aérea.
-      Na avaliação da tonsila faríngea observa-se índice A/N (Fujioka) de 0,82.
-      Aplicando o modelo objetivo 110,119 × A/N, estima-se obstrução de aproximadamente 90%, sugerindo obstrução nasofaríngea significativa.
+      Na avaliação da tonsila faríngea observa-se índice A/N (Fujioka) de _.
+      Aplicando o modelo objetivo 110,119 × A/N, estima-se obstrução de aproximadamente _%, sugerindo obstrução nasofaríngea significativa.
     word: true
 
   - trigger: "iomcv"
@@ -347,7 +347,7 @@ matches:
       - Acentuação da cifose torácica.
       - Acentuação da lordose lombar.
       - Equilíbrio sagital positivo negativo.
-      - Ângulo de Cobb de 24,5º. Consideramos o platô superior de T4, platô inferior de T12 e vertebral apical T9.
+      - Ângulo de Cobb de _º. Consideramos o platô superior de T4, platô inferior de T12 e vertebral apical T9.
       - Alterações degenerativas da coluna vertebral.
       - Redução em cerca de 50% da altura do corpo vertebral de L1.
       - Corpos vertebrais alinhamento posterior preservados.
@@ -498,7 +498,7 @@ matches:
   - trigger: "rxnop"
     label: "Nódulo pulmonar inespecífico no lobo médio"
     replace: |
-      Opacidade radiopaca de configuração nodular localizada no lobo médio, medindo 0,6 cm, inespecífica.
+      Opacidade radiopaca de configuração nodular localizada no lobo médio, medindo _ cm, inespecífica.
       Restante do parênquima pulmonar com densidade preservada.
     word: true
 
@@ -808,7 +808,7 @@ matches:
       A radiografia simples do abdome realizada previamente, evidencia intensa dilatação de alças intestinais.
       Após a ingestão do meio de contraste positivo, destacam-se os seguintes aspectos:
       Progressão lenta do contraste até topografia de jejuno/íleo.
-      Não foi observado progressão completa do contraste após 135 minutos.
+      Não foi observado progressão completa do contraste após _ minutos.
     word: true
 
   - trigger: "dgai2"
@@ -835,7 +835,7 @@ matches:
 
   - trigger: "mioma"
     label: "Leiomioma calcificado"
-    replace: "Imagem radiopaca em topografia pélvica, medindo 4,1 cm, com aspecto sugestivo de leiomioma calcificado."
+    replace: "Imagem radiopaca em topografia pélvica, medindo _ cm, com aspecto sugestivo de leiomioma calcificado."
     word: true
 
   - trigger: "nec"
@@ -902,7 +902,7 @@ matches:
 
   - trigger: "volvo"
     label: "Distensão colônica sugestiva de volvo de sigmoide"
-    replace: "Distensão gasosa de alças colônicas, notadamente no cólon sigmoide (medindo até 12,0 cm) com perda das haustrações, melhor avaliada por estudo tomográfico."
+    replace: "Distensão gasosa de alças colônicas, notadamente no cólon sigmoide (medindo até _ cm) com perda das haustrações, melhor avaliada por estudo tomográfico."
     word: true
 
   - trigger: "arqfai"
@@ -3285,7 +3285,7 @@ matches:
 
   - trigger: "enostose"
     label: "Enostose (ilha óssea)"
-    replace: "Imagem esclerótica intramedular, medindo cerca de 2,5 cm, sem sinais de agressividade (preservação cortical e ausência de reação periosteal), achado inespecífico, com aspecto sugestivo de alteração óssea benigna crônica, como enostose ou infarto ósseo crônico"
+    replace: "Imagem esclerótica intramedular, medindo cerca de _ cm, sem sinais de agressividade (preservação cortical e ausência de reação periosteal), achado inespecífico, com aspecto sugestivo de alteração óssea benigna crônica, como enostose ou infarto ósseo crônico"
     word: true
 
   - trigger: "esq"
