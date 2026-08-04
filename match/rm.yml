@@ -46,7 +46,7 @@ matches:
 
   - trigger: "avcirm"
     label: "AVC isquêmico agudo extenso"
-    replace: "Lesões caracterizadas por alto sinal em T2/FLAIR, restrição à difusão e correspondência no mapa ADC, acometendo a substância branca profunda e corticossubcortical frontal, parietal, occipital, temporal, insular e nucleocapsular à esquerda, associadas a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta e discreto desvio contralateral da linha média em cerca de 0,4 cm. Outras lesões de menores dimensões e características semelhantes foram visualizadas nas regiões frontal, parietal e occipital à direita, pedúnculo cerebral e cerebelo à esquerda. A possibilidade de evento vascular isquêmico agudo deve ser considerada."
+    replace: "Lesões caracterizadas por alto sinal em T2/FLAIR, restrição à difusão e correspondência no mapa ADC, acometendo a substância branca profunda e corticossubcortical frontal, parietal, occipital, temporal, insular e nucleocapsular à esquerda, associadas a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta e discreto desvio contralateral da linha média em cerca de _ cm. Outras lesões de menores dimensões e características semelhantes foram visualizadas nas regiões frontal, parietal e occipital à direita, pedúnculo cerebral e cerebelo à esquerda. A possibilidade de evento vascular isquêmico agudo deve ser considerada."
     word: true
 
   - trigger: "balo"
@@ -61,17 +61,17 @@ matches:
 
   - trigger: "caretal"
     label: "Neoplasia retal infiltrativa"
-    replace: "Lesão expansiva de aspecto infiltrativo, determinando espessamento parietal irregular e redução luminal do reto médio, distando cerca de 6,7 cm da borda anal, com extensão craniocaudal de aproximadamente 5,5 cm. Há sinais de extensão da lesão para a cúpula vaginal posterior e alteração de sinal da gordura mesorretal, sugerindo invasão. Notam-se ainda neoangiogênese locorregional e linfonodos aumentados em número nas cadeias pararretal, retal superior e pré-sacral. O conjunto de achados é sugestivo de neoplasia retal primária infiltrativa com invasão local e linfonodal."
+    replace: "Lesão expansiva de aspecto infiltrativo, determinando espessamento parietal irregular e redução luminal do reto médio, distando cerca de _ cm da borda anal, com extensão craniocaudal de aproximadamente _ cm. Há sinais de extensão da lesão para a cúpula vaginal posterior e alteração de sinal da gordura mesorretal, sugerindo invasão. Notam-se ainda neoangiogênese locorregional e linfonodos aumentados em número nas cadeias pararretal, retal superior e pré-sacral. O conjunto de achados é sugestivo de neoplasia retal primária infiltrativa com invasão local e linfonodal."
     word: true
 
   - trigger: "chiari1"
     label: "Malformação de Chiari tipo I"
-    replace: "Insinuação caudal das tonsilas cerebelares através do forame magno em 0,5 cm, configurando malformação de Chiari tipo I, sem sinais de siringo-hidromielia."
+    replace: "Insinuação caudal das tonsilas cerebelares através do forame magno em _ cm, configurando malformação de Chiari tipo I, sem sinais de siringo-hidromielia."
     word: true
 
   - trigger: "chivas2"
     label: "Schwannoma do ângulo pontocerebelar"
-    replace: "Discreto aumento das dimensões da lesão expansiva extra-axial centrada na cisterna pontocerebelar esquerda, caracterizada por sinal heterogêneo em T1 e T2, sem restrição à difusão e impregnação heterogênea pelo gadolínio. O componente cisternal da lesão mede cerca de 1,8 x 1,2 x 1,2 cm e determina compressão do pedúnculo cerebelar médio esquerdo. A lesão estende-se lateralmente, com sinais de alargamento do poro acústico interno, mais proeminente que nos estudos de referência, e componente intracanalicular que apresenta extensão de cerca de 1,5 cm, além de impregnação anômala da espira basal da cóclea."
+    replace: "Discreto aumento das dimensões da lesão expansiva extra-axial centrada na cisterna pontocerebelar esquerda, caracterizada por sinal heterogêneo em T1 e T2, sem restrição à difusão e impregnação heterogênea pelo gadolínio. O componente cisternal da lesão mede cerca de _ cm e determina compressão do pedúnculo cerebelar médio esquerdo. A lesão estende-se lateralmente, com sinais de alargamento do poro acústico interno, mais proeminente que nos estudos de referência, e componente intracanalicular que apresenta extensão de cerca de _ cm, além de impregnação anômala da espira basal da cóclea."
     word: true
 
   - trigger: "chivas3"
@@ -81,7 +81,7 @@ matches:
 
   - trigger: "cistoarac"
     label: "Cisto aracnoide"
-    replace: "Imagem que sugere representar cisto aracnoide na fossa média esquerda, medindo 4,4 cm."
+    replace: "Imagem que sugere representar cisto aracnoide na fossa média esquerda, medindo _ cm."
     word: true
 
   - trigger: "cistoaracnoideespinhal"
@@ -125,7 +125,7 @@ matches:
 
   - trigger: "dva"
     label: "Imagem ovalada de marcado hipossinal na sequência"
-    replace: "Imagem ovalada de marcado hipossinal na sequência SWI, localizada na substância branca periventricular na alta convexidade frontal direita, medindo cerca de 0,7 cm. Associa-se discreto hipersinal em T2/FLAIR na substância branca subcortical adjacente, sem efeito atrófico ou expansivo local. O conjunto de achados sugere anomalia do desenvolvimento venoso."
+    replace: "Imagem ovalada de marcado hipossinal na sequência SWI, localizada na substância branca periventricular na alta convexidade frontal direita, medindo cerca de _ cm. Associa-se discreto hipersinal em T2/FLAIR na substância branca subcortical adjacente, sem efeito atrófico ou expansivo local. O conjunto de achados sugere anomalia do desenvolvimento venoso."
     word: true
 
   - trigger: "dva2"
@@ -168,7 +168,7 @@ matches:
     label: "Endometriose profunda com predomínio estromal fibrótico"
     replace: |-
       Formação tecidual com hipossinal em T2, de aspecto retrátil, infiltrando a região retrocervical, junto à inserção dos ligamentos uterossacros (tórus uterino), envolvendo também a cúpula vaginal posterior e os ovários, que se encontram medianizados.
-      Envolvimento da parede posterior do reto superior — envolve a serosa —, com extensão craniocaudal aproximada de 3 cm, distando 10 cm da borda anal.
+      Envolvimento da parede posterior do reto superior — envolve a serosa —, com extensão craniocaudal aproximada de _ cm, distando _ cm da borda anal.
       Esses achados são compatíveis com endometriose profunda com predomínio estromal fibrótico.
     word: true
 
@@ -198,13 +198,13 @@ matches:
 
   - trigger: "fistulaanal"
     label: "Fístula anal transesfinctérica"
-    replace: "Trajeto fistuloso transesfinctérico descendente, originando-se no canal anal às 04/05 horas, acometendo o espaço interesfinctérico lateral esquerdo, com trajeto descendente pela fossa isquioanal ipsilateral e extensão craniocaudal aproximada de 2,7 cm, com orifício de abertura na região glútea esquerda, lateralmente ao sulco interglúteo."
+    replace: "Trajeto fistuloso transesfinctérico descendente, originando-se no canal anal às 04/05 horas, acometendo o espaço interesfinctérico lateral esquerdo, com trajeto descendente pela fossa isquioanal ipsilateral e extensão craniocaudal aproximada de _ cm, com orifício de abertura na região glútea esquerda, lateralmente ao sulco interglúteo."
     word: true
 
   - trigger: "gbm"
     label: "Hipersinal nas sequências ponderadas"
     replace: |-
-      Formação expansiva, de características infiltrativas com epicentro no lobo frontal esquerdo, bem delimitada, apresentando impregnação heterogênea pelo agente de contraste paramagnético endovenoso, delimitando áreas de necrose/hemorragia central, medindo 5,2 x 4,8 x 4,2 cm. Apresenta-se circundada por extenso halo de edema/infiltração, caracterizado por hipersinal nas sequências ponderadas em T2/FLAIR, que se estende superiormente ao centro semioval homolateral e região periventricular frontal esquerda, promovendo apagamento dos sulcos corticais e desvio da linha mediana em cerca de 0,7 cm, com colapso do ventrículo lateral.
+      Formação expansiva, de características infiltrativas com epicentro no lobo frontal esquerdo, bem delimitada, apresentando impregnação heterogênea pelo agente de contraste paramagnético endovenoso, delimitando áreas de necrose/hemorragia central, medindo _ cm. Apresenta-se circundada por extenso halo de edema/infiltração, caracterizado por hipersinal nas sequências ponderadas em T2/FLAIR, que se estende superiormente ao centro semioval homolateral e região periventricular frontal esquerda, promovendo apagamento dos sulcos corticais e desvio da linha mediana em cerca de _ cm, com colapso do ventrículo lateral.
 
 
       Formação expansiva, de características infiltrativas com epicentro no lobo frontal esquerdo, bem delimitada, apresentando impregnação heterogênea pelo agente de contraste paramagnético endovenoso, delimitando áreas de necrose/hemorragia central. Apresenta-se circundada por extenso halo de edema/infiltração, caracterizado por hipersinal nas sequências ponderadas em T2/FLAIR, que se estende superiormente ao centro semioval homolateral e região periventricular frontal esquerda, promovendo apagamento dos sulcos corticais e desvio da linha mediana, com colapso do ventrículo lateral. A possibilidade de neoplasia glial de alto grau deve ser considerada.
@@ -233,12 +233,12 @@ matches:
 
   - trigger: "hematsub"
     label: "Hematoma subdural subagudo"
-    replace: "Coleções extra-axiais com morfologia subdural, caracterizadas por hipersinal em T1 e T2/FLAIR, localizadas na alta convexidade frontoparietal direita e frontotemporoparietal esquerda, determinando discreto efeito expansivo local, com espessura máxima de 0,8 cm e 1,4 cm, respectivamente, apresentando produtos de degradação da hemoglobina em diferentes fases. Não há desvio das estruturas centromedianas."
+    replace: "Coleções extra-axiais com morfologia subdural, caracterizadas por hipersinal em T1 e T2/FLAIR, localizadas na alta convexidade frontoparietal direita e frontotemporoparietal esquerda, determinando discreto efeito expansivo local, com espessura máxima de _ cm e _ cm, respectivamente, apresentando produtos de degradação da hemoglobina em diferentes fases. Não há desvio das estruturas centromedianas."
     word: true
 
   - trigger: "hernia1"
     label: "Fissura do ânulo fibroso acarretando em extrusão"
-    replace: "fissura do ânulo fibroso acarretando em extrusão discal posterocentral/subarticular esquerda com componente migrado caudalmente em cerca de 0,8 cm, obliterando a gordura epidural anterior até os recessos foraminais adjacentes, moldando de forma moderada / acentuada a face ventral do saco dural, tocando as raízes emergentes de L5 e comprimindo a descendente de S1 à esquerda, deslocando-a posteriormente. Reduz o diâmetro anteroposterior do canal vertebral com obliteração dos espaços liquóricos em maior agrupamento das raízes da cauda equina."
+    replace: "fissura do ânulo fibroso acarretando em extrusão discal posterocentral/subarticular esquerda com componente migrado caudalmente em cerca de _ cm, obliterando a gordura epidural anterior até os recessos foraminais adjacentes, moldando de forma moderada / acentuada a face ventral do saco dural, tocando as raízes emergentes de L5 e comprimindo a descendente de S1 à esquerda, deslocando-a posteriormente. Reduz o diâmetro anteroposterior do canal vertebral com obliteração dos espaços liquóricos em maior agrupamento das raízes da cauda equina."
     word: true
 
   - trigger: "herpet"
@@ -266,7 +266,7 @@ matches:
 
   - trigger: "hsubdural"
     label: "Hematoma subdural agudo"
-    replace: "Hematoma subdural agudo frontoparietoteporal direito, com espessura máxima de 1,5 cm, determinando compressão sobre o parênquima encefálico adjacente. Há desvio contralateral das estruturas da linha média de 2,1 cm."
+    replace: "Hematoma subdural agudo frontoparietoteporal direito, com espessura máxima de _ cm, determinando compressão sobre o parênquima encefálico adjacente. Há desvio contralateral das estruturas da linha média de _ cm."
     word: true
 
   - trigger: "lad"
@@ -297,7 +297,7 @@ matches:
   - trigger: "macroad"
     label: "Macroadenoma hipofisário"
     replace: |-
-      Cavidade selar de dimensões aumentadas à custa de formação expansiva, medindo cerca de 3,5 cm no maior eixo craniocaudal, caracterizada por isossinal em T1 e T2, com realce homogêneo pelo gadolínio, exceto por área cística de permeio, que determina abaulamento do diafragma selar, com crescimento suprasselar e parasselar. Tal lesão determina deslocamento da haste hipofisária para a direita, compressão do quiasma óptico e seio esfenoidal, envolvendo as porções intracavernosas das artérias carótidas internas em menos de 180°.
+      Cavidade selar de dimensões aumentadas à custa de formação expansiva, medindo cerca de _ cm no maior eixo craniocaudal, caracterizada por isossinal em T1 e T2, com realce homogêneo pelo gadolínio, exceto por área cística de permeio, que determina abaulamento do diafragma selar, com crescimento suprasselar e parasselar. Tal lesão determina deslocamento da haste hipofisária para a direita, compressão do quiasma óptico e seio esfenoidal, envolvendo as porções intracavernosas das artérias carótidas internas em menos de 180°.
 
       Lesão expansiva selar com componentes suprasselar e parasselar, sugestiva de macroadenoma hipofisário.
     word: true
@@ -305,7 +305,7 @@ matches:
   - trigger: "macroad2"
     label: "Conteúdo hiperproteico/hemático"
     replace: |-
-      Cavidade selar de dimensões aumentadas à custa de formação expansiva, medindo cerca de 2,2 x 2,1 x 1,9 cm de diâmetro, com alto sinal em T1 e T2, sugerindo conteúdo hiperproteico/hemático, que determina abaulamento do diafragma selar, com crescimento suprasselar ocupando a respectiva cisterna e determinando compressão do quiasma óptico, com deslocamento superior das artérias cerebrais anteriores. Lateralmente, mantém contato com as artérias carótidas internas, sem sinais de invasão dos seios cavernosos.
+      Cavidade selar de dimensões aumentadas à custa de formação expansiva, medindo cerca de _ cm de diâmetro, com alto sinal em T1 e T2, sugerindo conteúdo hiperproteico/hemático, que determina abaulamento do diafragma selar, com crescimento suprasselar ocupando a respectiva cisterna e determinando compressão do quiasma óptico, com deslocamento superior das artérias cerebrais anteriores. Lateralmente, mantém contato com as artérias carótidas internas, sem sinais de invasão dos seios cavernosos.
 
       ID:
       Cavidade selar de dimensões aumentadas à custa de formação expansiva caracterizada por alto sinal em T1 e T2, sugerindo conteúdo hiperproteico/hemático, que determina abaulamento do diafragma selar, com crescimento suprasselar ocupando a respectiva cisterna e determinando compressão do quiasma óptico. A possibilidade de macroadenoma com apoplexia pode ser incluída nos diagnósticos diferenciais.
@@ -329,7 +329,7 @@ matches:
   - trigger: "mav"
     label: "Malformação arteriovenosa encefálica"
     replace: |-
-      Malformação arteriovenosa parenquimatosa com epicentro no lobo frontal direito, cujo nidus mede cerca de 3,1 x 1,7 cm nos seus maiores eixos, apresentando nutrição por ramos da artéria cerebral média ipsilateral e drenagem venosa superficial através das veias corticais adjacentes, que se apresentam dilatadas, e pelo seio sagital superior.
+      Malformação arteriovenosa parenquimatosa com epicentro no lobo frontal direito, cujo nidus mede cerca de _ cm nos seus maiores eixos, apresentando nutrição por ramos da artéria cerebral média ipsilateral e drenagem venosa superficial através das veias corticais adjacentes, que se apresentam dilatadas, e pelo seio sagital superior.
 
       OPINIÃO:
       Malformação arteriovenosa com epicentro no lobo frontal direito, apresentando irrigação arterial por ramos da artéria cerebral média ipsilateral e drenagem preferencial através das veias corticais adjacentes e pelo seio sagital superior.
@@ -337,22 +337,22 @@ matches:
 
   - trigger: "meningioma2"
     label: "Meningioma"
-    replace: "Lesão expansiva extra-axial, com base de implantação dural e realce homogêneo pelo meio de contraste endovenoso, localizada na base do crânio à esquerda, com maior componente na cisterna do ângulo pontocerebelar, insinuando-se para o conduto auditivo interno, alargando o poro acústico e exercendo significativo efeito de massa sobre o tronco encefálico e cerebelo, com consequente alteração do sinal, comprimindo e deslocando a ponte, colabando o quarto ventrículo e promovendo dilatação do sistema ventricular supratentorial, com sinais de transudação ependimária. Tal lesão mede cerca de 5,4 x 4,1 x 3,9 cm e não apresenta nítidos planos de clivagem com o segmento intracavernoso da carótida interna esquerda. Há extensão da lesão para a fossa média e junto ao cavum de Meckel ipsilaterais, bem como para a cisterna pré-pontina, mantendo contato com estruturas vasculares e nervosas regionais. Considerar a possibilidade de neoplasia meningotelial (meningioma)."
+    replace: "Lesão expansiva extra-axial, com base de implantação dural e realce homogêneo pelo meio de contraste endovenoso, localizada na base do crânio à esquerda, com maior componente na cisterna do ângulo pontocerebelar, insinuando-se para o conduto auditivo interno, alargando o poro acústico e exercendo significativo efeito de massa sobre o tronco encefálico e cerebelo, com consequente alteração do sinal, comprimindo e deslocando a ponte, colabando o quarto ventrículo e promovendo dilatação do sistema ventricular supratentorial, com sinais de transudação ependimária. Tal lesão mede cerca de _ cm e não apresenta nítidos planos de clivagem com o segmento intracavernoso da carótida interna esquerda. Há extensão da lesão para a fossa média e junto ao cavum de Meckel ipsilaterais, bem como para a cisterna pré-pontina, mantendo contato com estruturas vasculares e nervosas regionais. Considerar a possibilidade de neoplasia meningotelial (meningioma)."
     word: true
 
   - trigger: "metacoluna"
     label: "Metástase vertebral com fratura patológica"
-    replace: "Lesão expansiva/infiltrativa acometendo os elementos posteriores de T9 e notadamente T10, com predomínio à esquerda, determinando fratura patológica do corpo vertebral de T10 e retropulsão do muro posterior, com extensão para as partes moles adjacentes. Tal lesão apresenta baixo sinal em T1 e alto em T2, bem como intensa impregnação pelo meio de contraste paramagnético, medindo 6,3 x 4,6 x 4,0 cm nos maiores eixos. Há extensão para o forame vertebral ipsilateral, invadindo o canal vertebral, determinando estenose, comprimindo e deslocando a medula e as raízes neurais nesta região. Destaca-se alteração de sinal da medula neste segmento, relacionada a mielopatia, bem como hiperrealce meníngeo."
+    replace: "Lesão expansiva/infiltrativa acometendo os elementos posteriores de T9 e notadamente T10, com predomínio à esquerda, determinando fratura patológica do corpo vertebral de T10 e retropulsão do muro posterior, com extensão para as partes moles adjacentes. Tal lesão apresenta baixo sinal em T1 e alto em T2, bem como intensa impregnação pelo meio de contraste paramagnético, medindo _ cm nos maiores eixos. Há extensão para o forame vertebral ipsilateral, invadindo o canal vertebral, determinando estenose, comprimindo e deslocando a medula e as raízes neurais nesta região. Destaca-se alteração de sinal da medula neste segmento, relacionada a mielopatia, bem como hiperrealce meníngeo."
     word: true
 
   - trigger: "microad"
-    label: "Lesão nodular medindo cerca de 0,5 cm"
-    replace: "Lesão nodular medindo cerca de 0,5 cm localizada à direita no parênquima da adeno-hipófise, caracterizada por impregnação menos intensa pelo meio de contraste endovenoso do que o restante da glândula."
+    label: "Microadenoma hipofisário"
+    replace: "Lesão nodular medindo cerca de _ cm localizada à direita no parênquima da adeno-hipófise, caracterizada por impregnação menos intensa pelo meio de contraste endovenoso do que o restante da glândula."
     word: true
 
   - trigger: "microad1"
     label: "Microadenoma"
-    replace: "Lesão nodular medindo cerca de 0,6 x 0,4 cm localizada centralmente no parênquima da adeno-hipófise, caracterizada por alto sinal na ponderação T1, sugerindo microadenoma com provável área de apoplexia."
+    replace: "Lesão nodular medindo cerca de _ cm localizada centralmente no parênquima da adeno-hipófise, caracterizada por alto sinal na ponderação T1, sugerindo microadenoma com provável área de apoplexia."
     word: true
 
   - trigger: "mta1"
@@ -378,7 +378,7 @@ matches:
   - trigger: "neomenin"
     label: "Meningioma parassagital"
     replace: |-
-      Lesão expansiva localizada em região parassagital frontal esquerda com base de implantação dural, caracterizada por isossinal em T1 e T2, sem restrição à difusão, com calcificações grosseiras de permeio, apresentando ávido realce pelo meio de contraste endovenoso, medindo 6,2 x 5,2 x 5,0 cm (CC x LL x AP) e volume estimado em 83,8 cm³. Tal lesão determina significativo efeito de massa, com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média em 1,4 cm. Associa-se importante edema vasogênico e hiperostose adjacente à lesão previamente descrita.
+      Lesão expansiva localizada em região parassagital frontal esquerda com base de implantação dural, caracterizada por isossinal em T1 e T2, sem restrição à difusão, com calcificações grosseiras de permeio, apresentando ávido realce pelo meio de contraste endovenoso, medindo _ cm (CC x LL x AP) e volume estimado em _ cm³. Tal lesão determina significativo efeito de massa, com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média em _ cm. Associa-se importante edema vasogênico e hiperostose adjacente à lesão previamente descrita.
 
       Opinião:
       Lesão expansiva localizada em região parassagital frontal esquerda com base de implantação dural, determinando significativo efeito de massa com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média. A possibilidade de neoplasia meningotelial (meningioma) pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
@@ -387,18 +387,18 @@ matches:
 
   - trigger: "neoretal"
     label: "Neoplasia retal primária infiltrativa"
-    replace: "Lesão expansiva de aspecto infiltrativo, determinando espessamento parietal irregular e redução luminal do reto médio, distando cerca de 6,7 cm da borda anal, com extensão craniocaudal de aproximadamente 5,5 cm. Há sinais de extensão da lesão para a cúpula vaginal posterior e alteração de sinal da gordura mesorretal, sugerindo invasão. Notam-se ainda neoangiogênese locorregional e linfonodos aumentados em número nas cadeias pararretal, retal superior e pré-sacral. O conjunto de achados é sugestivo de neoplasia retal primária infiltrativa com invasão local e linfonodal."
+    replace: "Lesão expansiva de aspecto infiltrativo, determinando espessamento parietal irregular e redução luminal do reto médio, distando cerca de _ cm da borda anal, com extensão craniocaudal de aproximadamente _ cm. Há sinais de extensão da lesão para a cúpula vaginal posterior e alteração de sinal da gordura mesorretal, sugerindo invasão. Notam-se ainda neoangiogênese locorregional e linfonodos aumentados em número nas cadeias pararretal, retal superior e pré-sacral. O conjunto de achados é sugestivo de neoplasia retal primária infiltrativa com invasão local e linfonodal."
     word: true
 
   - trigger: "neoreto5"
     label: "Neoplasia da transição retossigmoide"
-    replace: "Lesão expansiva polipoide, infiltrativa, subestenosante, localizada na transição retossigmoide, distando cerca de 12,9 cm da borda anal, com extensão craniocaudal de aproximadamente 7,6 cm, apresentando sinais de envolvimento da camada muscular própria na base do pólipo às 2 horas. Nota-se discreta intussuscepção do segmento colônico imediatamente acima da lesão. Associa-se alteração do sinal dos planos adiposos adjacentes e aumento do número e das dimensões de linfonodos regionais, o maior na cadeia ilíaca direita, medindo até 1,3 cm no menor eixo axial."
+    replace: "Lesão expansiva polipoide, infiltrativa, subestenosante, localizada na transição retossigmoide, distando cerca de _ cm da borda anal, com extensão craniocaudal de aproximadamente _ cm, apresentando sinais de envolvimento da camada muscular própria na base do pólipo às 2 horas. Nota-se discreta intussuscepção do segmento colônico imediatamente acima da lesão. Associa-se alteração do sinal dos planos adiposos adjacentes e aumento do número e das dimensões de linfonodos regionais, o maior na cadeia ilíaca direita, medindo até _ cm no menor eixo axial."
     word: true
 
   - trigger: "neotronco"
     label: "Tumor de tronco cerebral"
     replace: |-
-      Expansão do tronco cerebral, determinada por lesão tumoral centralizada no bulbo e porção inferior da ponte, caracterizada por baixo sinal na ponderação em T1, alto sinal na ponderação em T2, sem restrição à difusão ou realce pelo meio de contraste endovenoso. Tal lesão mede cerca de 5,3 x 4,6 x 3,3 cm e estende-se até o segmento medular cervical superior, onde determina estenose do forame magno e desloca as artérias vertebrais.
+      Expansão do tronco cerebral, determinada por lesão tumoral centralizada no bulbo e porção inferior da ponte, caracterizada por baixo sinal na ponderação em T1, alto sinal na ponderação em T2, sem restrição à difusão ou realce pelo meio de contraste endovenoso. Tal lesão mede cerca de _ cm e estende-se até o segmento medular cervical superior, onde determina estenose do forame magno e desloca as artérias vertebrais.
 
       Expansão do tronco cerebral, determinada por lesão tumoral centralizada no bulbo e porção inferior da ponte, caracterizada por baixo sinal na ponderação em T1, alto sinal na ponderação em T2, sem restrição à difusão ou realce pelo meio de contraste endovenoso. Tal lesão estende-se até o segmento medular cervical superior, onde determina estenose do forame magno e desloca as artérias vertebrais. A possibilidade de glioma de tronco deve ser incluída entre os diagnósticos diferenciais.
     word: true
@@ -417,7 +417,7 @@ matches:
     label: "Neurotoxoplasmose"
     replace: |-
       DESCRIÇÃO:
-      Múltiplas lesões expansivas nodulares esparsas com distribuição na transição corticossubcortical dos hemisférios cerebrais e cerebelares, bem como em núcleos da base e tálamo bilateralmente, com sinal heterogêneo em T1, hipersinal em T2 / FLAIR, apresentando impregnação anelar irregular pelo gadolínio, algumas com aspecto de “nódulo excêntrico”, as maiores localizadas nos lobos frontal esquerdo e occipital direito, medindo, respectivamente, 1,7 x 1,7 cm e 2,0 x 1,7 cm. Associa-se edema vasogênico perilesional, com efeito expansivo local, promovendo compressão nos ventrículos laterais e apagamento dos sulcos corticais regionais.
+      Múltiplas lesões expansivas nodulares esparsas com distribuição na transição corticossubcortical dos hemisférios cerebrais e cerebelares, bem como em núcleos da base e tálamo bilateralmente, com sinal heterogêneo em T1, hipersinal em T2 / FLAIR, apresentando impregnação anelar irregular pelo gadolínio, algumas com aspecto de “nódulo excêntrico”, as maiores localizadas nos lobos frontal esquerdo e occipital direito, medindo, respectivamente, _ cm e _ cm. Associa-se edema vasogênico perilesional, com efeito expansivo local, promovendo compressão nos ventrículos laterais e apagamento dos sulcos corticais regionais.
 
 
       OPINIÃO:
@@ -432,33 +432,33 @@ matches:
 
   - trigger: "rmavci1"
     label: "AVC isquêmico agudo extenso"
-    replace: "Lesões caracterizadas por alto sinal em T2/FLAIR, restrição à difusão e correspondência no mapa ADC, acometendo a substância branca profunda e corticossubcortical frontal, parietal, occipital, temporal, insular e nucleocapsular à esquerda, associadas a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta e discreto desvio contralateral da linha média em cerca de 0,4 cm. Outras lesões de menores dimensões e características semelhantes foram visualizadas nas regiões frontal, parietal e occipital à direita, pedúnculo cerebral e cerebelo à esquerda. A possibilidade de evento vascular isquêmico agudo deve ser considerada."
+    replace: "Lesões caracterizadas por alto sinal em T2/FLAIR, restrição à difusão e correspondência no mapa ADC, acometendo a substância branca profunda e corticossubcortical frontal, parietal, occipital, temporal, insular e nucleocapsular à esquerda, associadas a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta e discreto desvio contralateral da linha média em cerca de _ cm. Outras lesões de menores dimensões e características semelhantes foram visualizadas nas regiões frontal, parietal e occipital à direita, pedúnculo cerebral e cerebelo à esquerda. A possibilidade de evento vascular isquêmico agudo deve ser considerada."
     word: true
 
   - trigger: "rmcrepidermoide"
     label: "Cisto epidermoide"
-    replace: "Formação cística extra-axial localizada nas cisternas do ângulo pontocerebelar, pré-pontina e ambiens à direita, com extensão para as cisternas interpeduncular e suprasselar, medindo aproximadamente 5,3 x 5,0 x 2,3 cm (CC x AP x LL), apresentando hipersinal em T2, sinal heterogêneo em FLAIR e restrição à difusão. A lesão determina efeito de massa sobre o tronco encefálico. Os achados são sugestivos de cisto epidermoide."
+    replace: "Formação cística extra-axial localizada nas cisternas do ângulo pontocerebelar, pré-pontina e ambiens à direita, com extensão para as cisternas interpeduncular e suprasselar, medindo aproximadamente _ cm (CC x AP x LL), apresentando hipersinal em T2, sinal heterogêneo em FLAIR e restrição à difusão. A lesão determina efeito de massa sobre o tronco encefálico. Os achados são sugestivos de cisto epidermoide."
     word: true
 
   - trigger: "rmgbm"
     label: "Edema vasogênico e/ou infiltração tumoral"
-    replace: "Lesão expansiva/infiltrativa, medindo cerca de 5,0 x 4,8 x 4,7 cm, com epicentro no lobo temporal esquerdo, exibindo sinal e realce heterogêneos pelo meio de contraste endovenoso, delimitando área central de provável necrose/liquefação. Esta lesão determina significativo efeito de massa, com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média em 0,6 cm. Associa-se importante alteração do sinal do parênquima adjacente à lesão, que se estende para transições temporo-occipital, nucleocapsular, ínsula e coroa radiada homolaterais, podendo representar edema vasogênico e/ou infiltração tumoral. O conjunto de achados sugere processo neoplásico residual/recidivado."
+    replace: "Lesão expansiva/infiltrativa, medindo cerca de _ cm, com epicentro no lobo temporal esquerdo, exibindo sinal e realce heterogêneos pelo meio de contraste endovenoso, delimitando área central de provável necrose/liquefação. Esta lesão determina significativo efeito de massa, com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média em _ cm. Associa-se importante alteração do sinal do parênquima adjacente à lesão, que se estende para transições temporo-occipital, nucleocapsular, ínsula e coroa radiada homolaterais, podendo representar edema vasogênico e/ou infiltração tumoral. O conjunto de achados sugere processo neoplásico residual/recidivado."
     word: true
 
   - trigger: "rmhigroma"
     label: "Higroma x hematoma subdural crônico"
-    replace: "Aumento do espaço liquórico ao longo da convexidade cortical do hemisfério cerebral direito (frontoparietal), com espessura de 0,7 cm, que pode representar higroma ou hematoma subdural crônico."
+    replace: "Aumento do espaço liquórico ao longo da convexidade cortical do hemisfério cerebral direito (frontoparietal), com espessura de _ cm, que pode representar higroma ou hematoma subdural crônico."
     word: true
 
   - trigger: "rmmenin"
     label: "Meningioma"
-    replace: "Pequena lesão extra-axial na alta convexidade frontal à esquerda, junto à linha inter-hemisférica, caracterizada por isossinal nas ponderações T1 e T2, exibindo realce homogêneo pelo meio de contraste endovenoso, medindo cerca de 1,6 x 1,1 cm, mantendo contato com o seio sagital superior, sugerindo meningioma."
+    replace: "Pequena lesão extra-axial na alta convexidade frontal à esquerda, junto à linha inter-hemisférica, caracterizada por isossinal nas ponderações T1 e T2, exibindo realce homogêneo pelo meio de contraste endovenoso, medindo cerca de _ cm, mantendo contato com o seio sagital superior, sugerindo meningioma."
     word: true
 
   - trigger: "sch"
     label: "Schwannoma do conduto auditivo interno"
     replace: |-
-      Lesão de 0,5 cm com realce pelo meio de contraste, localizada no segmento intracanalicular do conduto auditivo interno esquerdo, promovendo discreta expansão do meato acústico. A possibilidade de Schwannoma pode ser considerada.
+      Lesão de _ cm com realce pelo meio de contraste, localizada no segmento intracanalicular do conduto auditivo interno esquerdo, promovendo discreta expansão do meato acústico. A possibilidade de Schwannoma pode ser considerada.
       Lesão expansiva intracanalicular do conduto auditivo interno esquerdo. A possibilidade de Schwannoma pode ser considerada.
     word: true
 
@@ -499,7 +499,7 @@ matches:
 
   - trigger: "xivas2"
     label: "Schwannoma do ângulo pontocerebelar"
-    replace: "Discreto aumento das dimensões da lesão expansiva extra-axial centrada na cisterna pontocerebelar esquerda, caracterizada por sinal heterogêneo em T1 e T2, sem restrição à difusão e impregnação heterogênea pelo gadolínio. O componente cisternal da lesão mede cerca de 1,8 x 1,2 x 1,2 cm e determina compressão do pedúnculo cerebelar médio esquerdo. A lesão estende-se lateralmente, com sinais de alargamento do poro acústico interno, mais proeminente que nos estudos de referência, e componente intracanalicular que apresenta extensão de cerca de 1,5 cm, além de impregnação anômala da espira basal da cóclea."
+    replace: "Discreto aumento das dimensões da lesão expansiva extra-axial centrada na cisterna pontocerebelar esquerda, caracterizada por sinal heterogêneo em T1 e T2, sem restrição à difusão e impregnação heterogênea pelo gadolínio. O componente cisternal da lesão mede cerca de _ cm e determina compressão do pedúnculo cerebelar médio esquerdo. A lesão estende-se lateralmente, com sinais de alargamento do poro acústico interno, mais proeminente que nos estudos de referência, e componente intracanalicular que apresenta extensão de cerca de _ cm, além de impregnação anômala da espira basal da cóclea."
     word: true
 
   - trigger: "avcih"
@@ -518,7 +518,7 @@ matches:
 
   - trigger: "coloboma"
     label: "Melhor avaliado por exame específico"
-    replace: "Descontinuidade na parede associada a abaulamento focal na parede posterior do globo ocular esquerdo em continuidade com o nervo óptico, medindo 8 x 5 mm, relacionada a coloboma (melhor avaliado por exame específico)."
+    replace: "Descontinuidade na parede associada a abaulamento focal na parede posterior do globo ocular esquerdo em continuidade com o nervo óptico, medindo _ mm, relacionada a coloboma (melhor avaliado por exame específico)."
     word: true
 
   - trigger: "esmupolrm"
@@ -543,7 +543,7 @@ matches:
 
   - trigger: "neorbita"
     label: "Isossinal nas ponderações T1 e T2"
-    replace: "Formação expansiva localizada na órbita direita, caracterizada por isossinal nas ponderações T1 e T2, com realce pelo gadolínio, centrada no espaço extraconal inferolateral, medindo 3,1 x 2,6 x 2,6 cm. Tal lesão desloca o globo ocular anteriormente (proptose) e mantém contato posteriormente com os músculos reto inferior e lateral, bem como o nervo óptico em seu segmento distal, obliterando parcialmente a gordura retrobulbar. O conjunto de achados acima descritos não é específico, mas favorece a possibilidade de lesão de natureza neoplásica primária."
+    replace: "Formação expansiva localizada na órbita direita, caracterizada por isossinal nas ponderações T1 e T2, com realce pelo gadolínio, centrada no espaço extraconal inferolateral, medindo _ cm. Tal lesão desloca o globo ocular anteriormente (proptose) e mantém contato posteriormente com os músculos reto inferior e lateral, bem como o nervo óptico em seu segmento distal, obliterando parcialmente a gordura retrobulbar. O conjunto de achados acima descritos não é específico, mas favorece a possibilidade de lesão de natureza neoplásica primária."
     word: true
 
   - trigger: "olhoruim"
@@ -664,7 +664,7 @@ matches:
 
   - trigger: "cavernoma"
     label: "Hemangioma cavernoso (cavernoma)"
-    replace: "Lesão ovalada, caracterizada por hipossinal em T1, hipersinal heterogêneo e halo de hipossinal nas sequências T2/FLAIR, além de marcado hipossinal na sequência S.W.I., localizada na região lateral direita da ponte, sem efeito expansivo local significativo, medindo 1,1 x 1,0 cm. O aspecto de imagem é compatível com hemangioma cavernoso (cavernoma). Outras lesões com as mesmas características de sinal, porém de menores dimensões, foram identificadas nos lobos temporal esquerdo e parietal direito."
+    replace: "Lesão ovalada, caracterizada por hipossinal em T1, hipersinal heterogêneo e halo de hipossinal nas sequências T2/FLAIR, além de marcado hipossinal na sequência S.W.I., localizada na região lateral direita da ponte, sem efeito expansivo local significativo, medindo _ cm. O aspecto de imagem é compatível com hemangioma cavernoso (cavernoma). Outras lesões com as mesmas características de sinal, porém de menores dimensões, foram identificadas nos lobos temporal esquerdo e parietal direito."
     word: true
 
   - trigger: "cdoa"
@@ -694,7 +694,7 @@ matches:
 
   - trigger: "cervicitecistica"
     label: "Lesão cística do colo uterino"
-    replace: "Lesão cística multisseptada, localizada na região cervical uterina, medindo 5,0 x 4,1 x 3,7 cm, ocupando e expandindo todo o colo, estendendo-se da endocérvice à exocérvice. Tal lesão é caracterizada por baixo sinal T1 e alto sinal T2, com realce parietal das septações, após a administração do meio de contraste endovenoso."
+    replace: "Lesão cística multisseptada, localizada na região cervical uterina, medindo _ cm, ocupando e expandindo todo o colo, estendendo-se da endocérvice à exocérvice. Tal lesão é caracterizada por baixo sinal T1 e alto sinal T2, com realce parietal das septações, após a administração do meio de contraste endovenoso."
     word: true
 
   - trigger: "charcot"
@@ -779,9 +779,9 @@ matches:
   - trigger: "endomet11"
     label: "Endometriose retrocervical"
     replace: |-
-      Tecido retrocervical com características endometrióticas, medindo x cm, acometendo os dois terços distais dos ligamentos uterossacros. Destaca-se relação com as seguintes estruturas:
-      - estende-se à parede pélvica lateral direita/esquerda, no trajeto do plexo nervoso sacral, e determina retração do ureter (distância mínima com o ureter é de cerca de x cm), sem dilatação a montante;
-      - acomete a fáscia mesorretal e estende-se à parede anterior do reto a cerca de x cm da borda anal, com sinais de infiltração profunda, invadindo cerca de x% da circunferência desta alça, com extensão aproximada de x cm.
+      Tecido retrocervical com características endometrióticas, medindo _ cm, acometendo os dois terços distais dos ligamentos uterossacros. Destaca-se relação com as seguintes estruturas:
+      - estende-se à parede pélvica lateral direita/esquerda, no trajeto do plexo nervoso sacral, e determina retração do ureter (distância mínima com o ureter é de cerca de _ cm), sem dilatação a montante;
+      - acomete a fáscia mesorretal e estende-se à parede anterior do reto a cerca de _ cm da borda anal, com sinais de infiltração profunda, invadindo cerca de _% da circunferência desta alça, com extensão aproximada de _ cm.
     word: true
 
   - trigger: "endomet13"
@@ -794,33 +794,33 @@ matches:
   - trigger: "endomet3"
     label: "Endometriose retrocervical fibrótica"
     replace: |-
-      Lesão endometriótica, de aspecto retrátil, com maior componente fibrótico, caracterizado por hipossinal na sequência ponderada em T2, localizada na região retrocervical uterina com componente na região paracervical lateral esquerda. Tal lesão mede cerca de 3,1 x 2,2 x 2,0 cm, estende-se posteriormente à parede anterior do reto, a cerca de 6,5 cm da borda anal, não se podendo descartar acometimento da camada muscular.
+      Lesão endometriótica, de aspecto retrátil, com maior componente fibrótico, caracterizado por hipossinal na sequência ponderada em T2, localizada na região retrocervical uterina com componente na região paracervical lateral esquerda. Tal lesão mede cerca de _ cm, estende-se posteriormente à parede anterior do reto, a cerca de _ cm da borda anal, não se podendo descartar acometimento da camada muscular.
 
       Espessamento dos ligamentos uterossacros junto à inserção uterina, notadamente à esquerda, devendo considerar tecido endometriótico. Há espessamento tecidual do tórus uterino, aderido ao ovário esquerdo, achados também relacionados a endometriose profunda.
 
-      Ovários medianizados na cavidade pélvica, à direita com volume de 11,0 cm³ e à esquerda com volume de 19,4 cm³. Existem múltiplos pequenos cistos distribuídos de forma periférica pelo parênquima de ambas as gônadas.
+      Ovários medianizados na cavidade pélvica, à direita com volume de _ cm³ e à esquerda com volume de _ cm³. Existem múltiplos pequenos cistos distribuídos de forma periférica pelo parênquima de ambas as gônadas.
     word: true
 
   - trigger: "endomet6"
     label: "Endometriose profunda"
     replace: |-
       Espessamento tecidual de aspecto retrátil com maior componente fibrótico de hipossinal em T2, localizado no espaço retrocervical posterior, determinando retração do reto médio/alto, sem sinais de infiltração nas camadas mais profundas deste segmento intestinal. Há contiguidade das traves aderenciais com as porções insercionais dos ligamentos uterossacros e com ambas as cápsulas ovarianas, determinando desvio medial e posterior do eixo dos ovários, sugerindo endometriose profunda.
-      Ovário direito mede 4,8 x 3,3 x 2,6 cm, com volume de 21,4 cm³, apresentando cisto com alto sinal em T1 e queda do sinal em T2 (“shading”) medindo cerca de 1,4 cm no maior eixo, compatível com endometrioma. Foram observadas também pequenas imagens subcentimétricas com alto sinal em T1, notadamente pericapsular, sugerindo focos de endometriose.
-      Ovário esquerdo mede 2,3 x 2,1 x 1,8 cm, com volume de 4,5 cm³, apresentando pequenas imagens subcentimétricas com alto sinal em T1, sugerindo focos de endometriose.
+      Ovário direito mede _ cm, com volume de _ cm³, apresentando cisto com alto sinal em T1 e queda do sinal em T2 (“shading”) medindo cerca de _ cm no maior eixo, compatível com endometrioma. Foram observadas também pequenas imagens subcentimétricas com alto sinal em T1, notadamente pericapsular, sugerindo focos de endometriose.
+      Ovário esquerdo mede _ cm, com volume de _ cm³, apresentando pequenas imagens subcentimétricas com alto sinal em T1, sugerindo focos de endometriose.
     word: true
 
   - trigger: "endomet7"
     label: "Endometriose retrocervical com acometimento retal"
-    replace: "Lesão endometriótica retrocervical que se estende ao fórnice vaginal posterior e à porção proximal dos ligamentos uterossacros, determinando processo aderencial com o reto/sigmoide. Há identificação de lesão parietal profunda neste segmento de alça intestinal, que se estende por cerca de x cm e dista cerca de x cm da borda anal."
+    replace: "Lesão endometriótica retrocervical que se estende ao fórnice vaginal posterior e à porção proximal dos ligamentos uterossacros, determinando processo aderencial com o reto/sigmoide. Há identificação de lesão parietal profunda neste segmento de alça intestinal, que se estende por cerca de _ cm e dista cerca de _ cm da borda anal."
     word: true
 
   - trigger: "endomet8"
     label: "Endometriose retrocervical"
     replace: |-
-      Tecido com características endometrióticas na região retrocervical, apresentando focos hemáticos de permeio, com extensão lateral de cerca de x cm e espessura de x cm. Apresenta relação com as seguintes estruturas:
+      Tecido com características endometrióticas na região retrocervical, apresentando focos hemáticos de permeio, com extensão lateral de cerca de _ cm e espessura de _ cm. Apresenta relação com as seguintes estruturas:
       - estende-se lateralmente ao ligamento uterossacro direito/esquerdo;
-      - estende-se lateralmente ao ligamento uterossacro x, notando-se nódulo endometriótico, medindo x cm. Este nódulo estende-se à parede pélvica lateral x, no trajeto dos vasos ilíacos internos;
-      - emite traves aderenciais em direção ao reto, a cerca de x cm da borda anal, sem sinais de infiltração profunda.
+      - estende-se lateralmente ao ligamento uterossacro _, notando-se nódulo endometriótico, medindo _ cm. Este nódulo estende-se à parede pélvica lateral _, no trajeto dos vasos ilíacos internos;
+      - emite traves aderenciais em direção ao reto, a cerca de _ cm da borda anal, sem sinais de infiltração profunda.
     word: true
 
   - trigger: "endometp"
@@ -832,7 +832,7 @@ matches:
     label: "Escara glútea com abscesso"
     replace: |-
       Análise:
-      Lesão de partes moles na região glútea direita, sob ponto de pressão junto à tuberosidade isquiática ipsilateral, medindo cerca de 7,8 x 5,3 x 4,6 cm, constituída por tecido de granulação, conteúdo gasoso e líquido, associada a alteração do sinal dos planos gordurosos adjacentes. Esta lesão comunica-se com a superfície cutânea através de segmento fistuloso com abertura na região glútea inferior. Nota-se trajeto secundário para a fossa isquioanal ipsilateral, sem atingir o períneo ou o reto. Há espessamento e irregularidade da cortical óssea da tuberosidade isquiática, inferindo osteomielite crônica, bem como alteração do sinal da medular óssea do ramo inferior do púbis, sugerindo atividade do processo inflamatório/infeccioso glúteo para o ramo púbico (osteomielite aguda).
+      Lesão de partes moles na região glútea direita, sob ponto de pressão junto à tuberosidade isquiática ipsilateral, medindo cerca de _ cm, constituída por tecido de granulação, conteúdo gasoso e líquido, associada a alteração do sinal dos planos gordurosos adjacentes. Esta lesão comunica-se com a superfície cutânea através de segmento fistuloso com abertura na região glútea inferior. Nota-se trajeto secundário para a fossa isquioanal ipsilateral, sem atingir o períneo ou o reto. Há espessamento e irregularidade da cortical óssea da tuberosidade isquiática, inferindo osteomielite crônica, bem como alteração do sinal da medular óssea do ramo inferior do púbis, sugerindo atividade do processo inflamatório/infeccioso glúteo para o ramo púbico (osteomielite aguda).
       Artropatia degenerativa coxofemoral, caracterizada por deformidade dos acetábulos e perda parcial da esfericidade das cabeças femorais.
       Afilamento das superfícies condrais femoroacetabulares.
       Pequeno derrame articular bilateral.
@@ -902,7 +902,7 @@ matches:
 
   - trigger: "hemangi1"
     label: "Hemangioma"
-    replace: "Zona arredondada de alto sinal em T1 e T2 no corpo vertebral de x, sugerindo hemangioma."
+    replace: "Zona arredondada de alto sinal em T1 e T2 no corpo vertebral de _, sugerindo hemangioma."
     word: true
 
   - trigger: "hemangi2"
@@ -937,7 +937,7 @@ matches:
 
   - trigger: "herniarenal"
     label: "Hérnia lombar de Grynfeltt-Lesshaft"
-    replace: "Sinais de manipulação cirúrgica com formação de hérnia na parede lombar superior direita (Grynfeltt-Lesshaft), com insinuação de vísceras abdominais e colo medindo cerca de 8,7 cm."
+    replace: "Sinais de manipulação cirúrgica com formação de hérnia na parede lombar superior direita (Grynfeltt-Lesshaft), com insinuação de vísceras abdominais e colo medindo cerca de _ cm."
     word: true
 
   - trigger: "hipod"
@@ -1058,7 +1058,7 @@ matches:
 
   - trigger: "navicular2"
     label: "Osso navicular acessório com edema"
-    replace: "Osso acessório de formato triangular medindo cerca de 0,9 cm, adjacente à tuberosidade posteromedial do osso navicular com conexão cartilaginosa entre eles, além de edema medular envolvendo tanto o ossículo acessório quanto o osso navicular."
+    replace: "Osso acessório de formato triangular medindo cerca de _ cm, adjacente à tuberosidade posteromedial do osso navicular com conexão cartilaginosa entre eles, além de edema medular envolvendo tanto o ossículo acessório quanto o osso navicular."
     word: true
 
   - trigger: "neocoloutero2"
@@ -1084,14 +1084,14 @@ matches:
   - trigger: "osteomielite"
     label: "Osteomielite crônica da tíbia com abscesso"
     replace: |-
-      Fratura antiga cominutiva da tíbia proximal, sem sinais de consolidação satisfatória, determinando perda da morfologia habitual da região metaepifisária, com alteração do sinal da medular óssea, identificando-se coleção intramedular que exibe realce periférico pelo meio de contraste paramagnético endovenoso, sugestiva de abscesso, medindo cerca de 3,9 x 1,9 x 1,9 cm, com volume de 7,3 cm³. Identifica-se ponto de rotura da cortical óssea por trajeto de drenagem (cloaca) que se comunica com a pele e o tecido celular subcutâneo na face anterior da perna. Associam-se áreas de hipossinal persistente ao redor da lesão, podendo representar sequestro ósseo, além de aumento volumétrico de partes moles adjacentes.
+      Fratura antiga cominutiva da tíbia proximal, sem sinais de consolidação satisfatória, determinando perda da morfologia habitual da região metaepifisária, com alteração do sinal da medular óssea, identificando-se coleção intramedular que exibe realce periférico pelo meio de contraste paramagnético endovenoso, sugestiva de abscesso, medindo cerca de _ cm, com volume de _ cm³. Identifica-se ponto de rotura da cortical óssea por trajeto de drenagem (cloaca) que se comunica com a pele e o tecido celular subcutâneo na face anterior da perna. Associam-se áreas de hipossinal persistente ao redor da lesão, podendo representar sequestro ósseo, além de aumento volumétrico de partes moles adjacentes.
       O conjunto de achados é sugestivo de alteração inflamatória infecciosa crônica na porção proximal da tíbia (osteomielite).
     word: true
 
   - trigger: "osteomielitecronicarm"
     label: "Osteomielite crônica da tíbia com abscesso"
     replace: |-
-      Fratura antiga cominutiva da tíbia proximal, sem sinais de consolidação satisfatória, determinando perda da morfologia habitual da região metaepifisária, com alteração do sinal da medular óssea, identificando-se coleção intramedular que exibe realce periférico pelo meio de contraste paramagnético endovenoso, sugestiva de abscesso, medindo cerca de 3,9 x 1,9 x 1,9 cm, com volume de 7,3 cm³. Identifica-se ponto de rotura da cortical óssea por trajeto de drenagem (cloaca) que se comunica com a pele e o tecido celular subcutâneo na face anterior da perna. Associam-se áreas de hipossinal persistente ao redor da lesão, podendo representar sequestro ósseo, além de aumento volumétrico de partes moles adjacentes.
+      Fratura antiga cominutiva da tíbia proximal, sem sinais de consolidação satisfatória, determinando perda da morfologia habitual da região metaepifisária, com alteração do sinal da medular óssea, identificando-se coleção intramedular que exibe realce periférico pelo meio de contraste paramagnético endovenoso, sugestiva de abscesso, medindo cerca de _ cm, com volume de _ cm³. Identifica-se ponto de rotura da cortical óssea por trajeto de drenagem (cloaca) que se comunica com a pele e o tecido celular subcutâneo na face anterior da perna. Associam-se áreas de hipossinal persistente ao redor da lesão, podendo representar sequestro ósseo, além de aumento volumétrico de partes moles adjacentes.
       O conjunto de achados é sugestivo de alteração inflamatória infecciosa crônica na porção proximal da tíbia (osteomielite).
     word: true
 
@@ -1104,12 +1104,12 @@ matches:
 
   - trigger: "osteonecrose"
     label: "Extensa área de osteonecrose na cabeça femoral"
-    replace: "Extensa área de osteonecrose na cabeça femoral, acometendo notadamente as regiões anterior e superior, medindo cerca de 4,4 x 1,8 cm (CC x LL), notando-se afundamento cortical nesta região, determinando perda de sua esfericidade habitual. Associam-se edema da medular óssea da cabeça e colo femoral adjacente à osteonecrose com derrame articular e sinovite, inferindo alterações inflamatórias reacionais."
+    replace: "Extensa área de osteonecrose na cabeça femoral, acometendo notadamente as regiões anterior e superior, medindo cerca de _ cm (CC x LL), notando-se afundamento cortical nesta região, determinando perda de sua esfericidade habitual. Associam-se edema da medular óssea da cabeça e colo femoral adjacente à osteonecrose com derrame articular e sinovite, inferindo alterações inflamatórias reacionais."
     word: true
 
   - trigger: "paragang"
     label: "Formação expansiva com sinal heterogêneo em T1"
-    replace: "Formação expansiva com sinal heterogêneo em T1 e T2, exibindo intenso realce pelo meio de contraste, com epicentro no forame jugular esquerdo medindo 3,0 x 2,7 x 2,5 cm. Há sinais de extensão da lesão para cavidade timpânica e para o promontório coclear e inferiormente ao espaço carotídeo. Determina estreitamento do bulbo jugular e rechaça anteriormente a artéria carótida interna."
+    replace: "Formação expansiva com sinal heterogêneo em T1 e T2, exibindo intenso realce pelo meio de contraste, com epicentro no forame jugular esquerdo medindo _ cm. Há sinais de extensão da lesão para cavidade timpânica e para o promontório coclear e inferiormente ao espaço carotídeo. Determina estreitamento do bulbo jugular e rechaça anteriormente a artéria carótida interna."
     word: true
 
   - trigger: "paraganglioma"
@@ -1148,7 +1148,7 @@ matches:
 
   - trigger: "polipoendocervical"
     label: "Pólipo endocervical"
-    replace: "Formação alongada, com hipossinal em T2, localizada no canal endocervical, com aparente impregnação, medindo cerca de x cm, sugestiva de pólipo."
+    replace: "Formação alongada, com hipossinal em T2, localizada no canal endocervical, com aparente impregnação, medindo cerca de _ cm, sugestiva de pólipo."
     word: true
 
   - trigger: "poscir"
@@ -1159,7 +1159,7 @@ matches:
   - trigger: "pott"
     label: "Nível T12-L1: lesões permeativas que determinam fraturas"
     replace: |-
-      Nível T12-L1: lesões permeativas que determinam fraturas patológicas com redução da altura e deformidade dos respectivos corpos vertebrais, notando-se retropulsão dos muros posteriores para o interior do canal vertebral com importante redução de sua amplitude e consequente compressão medular. Há grande componente de partes moles liquefeito/necrótico que se estende para o espaço epidural anterior com envolvimento foraminal bilateral e para os músculos psoas, notadamente à direita, onde mede cerca de 5,7 x 3,0 cm em seus maiores eixos.
+      Nível T12-L1: lesões permeativas que determinam fraturas patológicas com redução da altura e deformidade dos respectivos corpos vertebrais, notando-se retropulsão dos muros posteriores para o interior do canal vertebral com importante redução de sua amplitude e consequente compressão medular. Há grande componente de partes moles liquefeito/necrótico que se estende para o espaço epidural anterior com envolvimento foraminal bilateral e para os músculos psoas, notadamente à direita, onde mede cerca de _ cm em seus maiores eixos.
 
       * O conjunto dos achados, embora inespecíficos, pode estar relacionado a processo inflamatório/infeccioso com formação de abscessos, devendo-se considerar no diagnóstico diferencial processo neoplásico.
     word: true
@@ -1172,7 +1172,7 @@ matches:
   - trigger: "pseudoartrose"
     label: "Pseudoartrose"
     replace: |-
-      Fratura cominutiva não consolidada da diáfise proximal do fêmur, com desalinhamento e afastamento dos fragmentos proximais e distais em aproximadamente 3,5 cm, compatível com pseudoartrose. Nota-se tecido reparatório de granulação no sítio de fratura. A medular óssea dos elementos envolvidos na fratura apresenta sinal heterogêneo nas ponderações T1 e T2, bem como áreas de espessamento e irregularidade da cortical, associadas a sinais inflamatórios/edematosos de partes moles adjacentes, sem caracterização de coleções, sequestros, trajetos fistulosos ou invólucros.
+      Fratura cominutiva não consolidada da diáfise proximal do fêmur, com desalinhamento e afastamento dos fragmentos proximais e distais em aproximadamente _ cm, compatível com pseudoartrose. Nota-se tecido reparatório de granulação no sítio de fratura. A medular óssea dos elementos envolvidos na fratura apresenta sinal heterogêneo nas ponderações T1 e T2, bem como áreas de espessamento e irregularidade da cortical, associadas a sinais inflamatórios/edematosos de partes moles adjacentes, sem caracterização de coleções, sequestros, trajetos fistulosos ou invólucros.
       Hipotrofia/lipossubstituição dos grupamentos musculares da coxa, predominando no compartimento anterior.
     word: true
 
@@ -1215,7 +1215,7 @@ matches:
 
   - trigger: "rmpolipo"
     label: "Pólipo endocervical"
-    replace: "Formação alongada no canal endocervical caracterizada por hipossinal em T2 exibindo impregnação pelo meio de contraste endovenoso, medindo cerca de 3,3 cm, sugestiva de pólipo."
+    replace: "Formação alongada no canal endocervical caracterizada por hipossinal em T2 exibindo impregnação pelo meio de contraste endovenoso, medindo cerca de _ cm, sugestiva de pólipo."
     word: true
 
   - trigger: "rmtendili"
@@ -1393,7 +1393,7 @@ matches:
 
   - trigger: "fibroade"
     label: "Nódulo ovalado, circunscrito, com maior eixo paralelo"
-    replace: "Nódulo ovalado, circunscrito, com maior eixo paralelo à pele, medindo 0,8 x 0,7 x 0,4 cm, localizado no quadrante inferior medial da mama direita, distando 0,4 cm da pele."
+    replace: "Nódulo ovalado, circunscrito, com maior eixo paralelo à pele, medindo _ cm, localizado no quadrante inferior medial da mama direita, distando _ cm da pele."
     word: true
 
   - trigger: "infartotest"
@@ -1408,12 +1408,12 @@ matches:
 
   - trigger: "neopulmonar"
     label: "Necrose/liquefação de permeio"
-    replace: "Massa pulmonar expansiva, sólida e infiltrativa, de contornos irregulares com epicentro presumido no lobo médio, acometendo região hilar ipsilateral, determinando estenose do brônquio principal e da artéria pulmonar direitos, medindo cerca de 10,0 x 8,8 x 7,6 cm, apresentando áreas de hipersinal na ponderação T2, sugerindo necrose/liquefação de permeio. Notam-se ainda espessamento nodular irregular dos septos interlobulares adjacentes à massa, sugerindo linfangite carcinomatosa e nódulos satélites, o maior medindo 1,6 cm, localizado no segmento superior do lobo inferior direito. Não há nítidos planos de clivagem entre a lesão e a margem lateral direita do esôfago. O conjunto de achados é compatível com neoplasia pulmonar primária. A critério clínico, a avaliação por imagens de tomografia computadorizada de tórax com contraste poderá fornecer maiores subsídios diagnósticos."
+    replace: "Massa pulmonar expansiva, sólida e infiltrativa, de contornos irregulares com epicentro presumido no lobo médio, acometendo região hilar ipsilateral, determinando estenose do brônquio principal e da artéria pulmonar direitos, medindo cerca de _ cm, apresentando áreas de hipersinal na ponderação T2, sugerindo necrose/liquefação de permeio. Notam-se ainda espessamento nodular irregular dos septos interlobulares adjacentes à massa, sugerindo linfangite carcinomatosa e nódulos satélites, o maior medindo _ cm, localizado no segmento superior do lobo inferior direito. Não há nítidos planos de clivagem entre a lesão e a margem lateral direita do esôfago. O conjunto de achados é compatível com neoplasia pulmonar primária. A critério clínico, a avaliação por imagens de tomografia computadorizada de tórax com contraste poderá fornecer maiores subsídios diagnósticos."
     word: true
 
   - trigger: "nqsl"
-    label: "Nódulo de contornos regulares, medindo 2,8 cm"
-    replace: "Nódulo de contornos regulares, medindo 2,8 cm, localizado no quadrante superior lateral da mama direita."
+    label: "Nódulo mamário circunscrito"
+    replace: "Nódulo de contornos regulares, medindo _ cm, localizado no quadrante superior lateral da mama direita."
     word: true
 
   - trigger: "dv"
@@ -1427,7 +1427,7 @@ matches:
 
   - trigger: "abscessoperineal"
     label: "Abscesso perineal"
-    replace: "Coleção sugestiva de abscesso localizada em partes moles na região perineal anterior entre o esfíncter interno do ânus e o músculo puborretal (entre 11 e 01 hora), na junção entre o trígono urogenital e o trígono anal, medindo 3,2 x 2,6 x 2,1 cm, com volume estimado de 9,1 cm³. Associa-se alteração do sinal de partes moles adjacentes (fossa isquioanal), sugerindo processo inflamatório/infeccioso."
+    replace: "Coleção sugestiva de abscesso localizada em partes moles na região perineal anterior entre o esfíncter interno do ânus e o músculo puborretal (entre 11 e 01 hora), na junção entre o trígono urogenital e o trígono anal, medindo _ cm, com volume estimado de _ cm³. Associa-se alteração do sinal de partes moles adjacentes (fossa isquioanal), sugerindo processo inflamatório/infeccioso."
     word: true
 
   - trigger: "abscessotuboov"
@@ -1447,13 +1447,13 @@ matches:
 
   - trigger: "adenomrm"
     label: "Adenoma adrenal"
-    replace: "Nódulo na adrenal esquerda, medindo 0,9 cm, que apresentou queda do sinal na sequência out-of-phase, podendo representar pequeno adenoma."
+    replace: "Nódulo na adrenal esquerda, medindo _ cm, que apresentou queda do sinal na sequência out-of-phase, podendo representar pequeno adenoma."
     word: true
 
   - trigger: "adenomahepatico"
     label: "Adenoma hepático"
     replace: |-
-      Fígado de dimensões normais, contornos regulares e bordos finos. Parênquima com intensidade de sinal habitual, exceto por formação nodular circunscrita, discretamente hiperintensa na ponderação T2, exibindo queda de sinal na sequência out-of-phase e realce arterial precoce pelo meio de contraste endovenoso, tornando-se quase isointensa em relação ao fígado nas imagens tardias, localizada nos segmentos V e IVb. Esta lesão mede cerca de 7,4 x 7,2 cm, determina efeito compressivo sobre a vesícula biliar, duodeno e cabeça pancreática, mantendo plano de clivagem.
+      Fígado de dimensões normais, contornos regulares e bordos finos. Parênquima com intensidade de sinal habitual, exceto por formação nodular circunscrita, discretamente hiperintensa na ponderação T2, exibindo queda de sinal na sequência out-of-phase e realce arterial precoce pelo meio de contraste endovenoso, tornando-se quase isointensa em relação ao fígado nas imagens tardias, localizada nos segmentos V e IVb. Esta lesão mede cerca de _ cm, determina efeito compressivo sobre a vesícula biliar, duodeno e cabeça pancreática, mantendo plano de clivagem.
 
       HD:
       Volumosa formação nodular hepática que pode representar adenoma, hiperplasia nodular focal ou nódulo hepático hipervascular de outra natureza.
@@ -1494,7 +1494,7 @@ matches:
 
   - trigger: "bartolin"
     label: "Cisto de Bartholin"
-    replace: "Lesão cística na região perineal direita, medindo cerca de 2,3 cm, sugerindo cisto de Bartholin."
+    replace: "Lesão cística na região perineal direita, medindo cerca de _ cm, sugerindo cisto de Bartholin."
     word: true
 
   - trigger: "beijo"
@@ -1511,7 +1511,7 @@ matches:
   - trigger: "boca"
     label: "Recidiva em boca anastomótica colorretal"
     replace: |-
-      Lesão tumoral de aspecto vegetante, subestenosante, localizada na boca anastomótica colorretal, medindo cerca de 6,5 x 4,5 x 4,0 cm, exibindo sinais de neoangiogênese locorregional e linfonodos aumentados em número na gordura pericólica.
+      Lesão tumoral de aspecto vegetante, subestenosante, localizada na boca anastomótica colorretal, medindo cerca de _ cm, exibindo sinais de neoangiogênese locorregional e linfonodos aumentados em número na gordura pericólica.
       ID: Lesão tumoral de aspecto vegetante, subestenosante, localizada na boca anastomótica colorretal, sugerindo neoplasia residual/recidivada.
     word: true
 
@@ -1543,17 +1543,17 @@ matches:
 
   - trigger: "chron"
     label: "Doença de Crohn — ileíte terminal"
-    replace: "Espessamento parietal segmentar simétrico do íleo distal, com espessura de cerca de 0,8 cm e extensão aproximada de 5,2 cm, apresentando hiperrealce da mucosa, determinando redução luminal deste segmento intestinal. Associam-se aumento do número de linfonodos, sem caracterizar linfonodomegalias, bem como ingurgitamento da arcada vascular mesentérica regional. O conjunto de achados, diante do contexto clínico, sugere doença de Crohn em atividade."
+    replace: "Espessamento parietal segmentar simétrico do íleo distal, com espessura de cerca de _ cm e extensão aproximada de _ cm, apresentando hiperrealce da mucosa, determinando redução luminal deste segmento intestinal. Associam-se aumento do número de linfonodos, sem caracterizar linfonodomegalias, bem como ingurgitamento da arcada vascular mesentérica regional. O conjunto de achados, diante do contexto clínico, sugere doença de Crohn em atividade."
     word: true
 
   - trigger: "cistoadenomucinoso"
     label: "Cistoadenoma mucinoso"
-    replace: "Formação cística multiloculada, com finas septações e áreas de hipersinal na ponderação T1, sugerindo componentes hemáticos/hiperproteicos, que apresentaram realce pelo gadolínio, com origem presumida na região anexial direita, ocupando toda a cavidade pélvica, estendendo-se até a região epigástrica. Tal lesão determina efeito compressivo sobre as estruturas adjacentes, mantendo planos de clivagem, medindo cerca de 23,5 x 20,2 x 10,0 cm, com volume aproximado de 4.993,0 ml. A possibilidade de processo neoplásico primário ovariano, de provável natureza mucinosa, pode ser considerada dentre os diagnósticos diferenciais."
+    replace: "Formação cística multiloculada, com finas septações e áreas de hipersinal na ponderação T1, sugerindo componentes hemáticos/hiperproteicos, que apresentaram realce pelo gadolínio, com origem presumida na região anexial direita, ocupando toda a cavidade pélvica, estendendo-se até a região epigástrica. Tal lesão determina efeito compressivo sobre as estruturas adjacentes, mantendo planos de clivagem, medindo cerca de _ cm, com volume aproximado de _ ml. A possibilidade de processo neoplásico primário ovariano, de provável natureza mucinosa, pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
   - trigger: "colangite"
     label: "Dilatação de vias biliares intra e extra-hepáticas"
-    replace: "Dilatação de vias biliares intra e extra-hepáticas, com cálculo impactado no colédoco distal, medindo 1,6 cm. Destaca-se ainda espessamento parietal e realce pelo meio de contraste paramagnético endovenoso, achados que favorecem a possibilidade de colangite."
+    replace: "Dilatação de vias biliares intra e extra-hepáticas, com cálculo impactado no colédoco distal, medindo _ cm. Destaca-se ainda espessamento parietal e realce pelo meio de contraste paramagnético endovenoso, achados que favorecem a possibilidade de colangite."
     word: true
 
   - trigger: "colite"
@@ -1568,7 +1568,7 @@ matches:
 
   - trigger: "cron"
     label: "Espessamento parietal segmentar simétrico do íleo distal"
-    replace: "Espessamento parietal segmentar simétrico do íleo distal, com espessura de cerca de 0,8 cm e extensão aproximada de 5,2 cm, apresentando hiperrealce da mucosa, determinando redução luminal deste segmento intestinal. Associam-se aumento do número de linfonodos, sem caracterizar linfonodomegalias, bem como ingurgitamento da arcada vascular mesentérica regional. O conjunto de achados, diante do contexto clínico, sugere doença de Crohn em atividade."
+    replace: "Espessamento parietal segmentar simétrico do íleo distal, com espessura de cerca de _ cm e extensão aproximada de _ cm, apresentando hiperrealce da mucosa, determinando redução luminal deste segmento intestinal. Associam-se aumento do número de linfonodos, sem caracterizar linfonodomegalias, bem como ingurgitamento da arcada vascular mesentérica regional. O conjunto de achados, diante do contexto clínico, sugere doença de Crohn em atividade."
     word: true
 
   - trigger: "cusfig10"
@@ -1593,7 +1593,7 @@ matches:
 
   - trigger: "endeometrioma"
     label: "Endometriomas ovarianos"
-    replace: "Desvio medial/posterior do eixo do ovário esquerdo que apresenta aumento das dimensões (medindo 4,4 x 3,0 x 2,8 cm, com volume de 19,3 cm³) e sinal heterogêneo do parênquima, à custa de lesões císticas, algumas com sombreamento na ponderação T2, sugerindo endometriomas."
+    replace: "Desvio medial/posterior do eixo do ovário esquerdo que apresenta aumento das dimensões (medindo _ cm, com volume de _ cm³) e sinal heterogêneo do parênquima, à custa de lesões císticas, algumas com sombreamento na ponderação T2, sugerindo endometriomas."
     word: true
 
   - trigger: "endolig"
@@ -1604,7 +1604,7 @@ matches:
   - trigger: "endomet4"
     label: "Endometriose intestinal"
     replace: |-
-      Extensa lesão de aspecto retrátil, caracterizada por baixo sinal na ponderação T2, subestenosante, localizada no reto alto e no cólon sigmoide, distando cerca de 6,6 cm da borda anal, por extensão aproximada de 9,5 cm, com sinais de envolvimento parietal profundo destes segmentos intestinais, por vezes circunferencial (360 graus). Tal lesão assume aspecto espiculado em leque.
+      Extensa lesão de aspecto retrátil, caracterizada por baixo sinal na ponderação T2, subestenosante, localizada no reto alto e no cólon sigmoide, distando cerca de _ cm da borda anal, por extensão aproximada de _ cm, com sinais de envolvimento parietal profundo destes segmentos intestinais, por vezes circunferencial (360 graus). Tal lesão assume aspecto espiculado em leque.
 
       OPINIÃO:
       Lesão de aspecto retrátil localizada no reto alto e no cólon sigmoide, sugestiva de endometriose intestinal, diante do contexto clínico. Os diagnósticos diferenciais devem ser aplicados.
@@ -1612,12 +1612,12 @@ matches:
 
   - trigger: "endomet9"
     label: "Tecido com características endometrióticas no tórus uterino"
-    replace: "Tecido com características endometrióticas no tórus uterino e inserção uterina dos ligamentos uterossacros, com espessura de x cm e extensão de x cm. Emite ao menos x traves aderenciais em direção ao reto, a cerca de x cm da borda anal, sem sinais de infiltração profunda."
+    replace: "Tecido com características endometrióticas no tórus uterino e inserção uterina dos ligamentos uterossacros, com espessura de _ cm e extensão de _ cm. Emite ao menos _ traves aderenciais em direção ao reto, a cerca de _ cm da borda anal, sem sinais de infiltração profunda."
     word: true
 
   - trigger: "endometparede"
     label: "Subprodutos da hemoglobina"
-    replace: "Lesão nodular, relativamente bem definida, localizada na face superior do músculo reto abdominal direito infra-umbilical, estendendo-se para a aponeurose muscular e o plano subcutâneo, medindo 5,7 x 5,2 x 3,8 cm, distando cerca de 4,5 cm do púbis. Tal lesão é caracterizada por intensidade de sinal heterogênea nas ponderações T1 e T2 com áreas hiperintensas em T1 com \"fat sat\", sugerindo subprodutos da hemoglobina, além de realce pelo meio de contraste endovenoso."
+    replace: "Lesão nodular, relativamente bem definida, localizada na face superior do músculo reto abdominal direito infra-umbilical, estendendo-se para a aponeurose muscular e o plano subcutâneo, medindo _ cm, distando cerca de _ cm do púbis. Tal lesão é caracterizada por intensidade de sinal heterogênea nas ponderações T1 e T2 com áreas hiperintensas em T1 com \"fat sat\", sugerindo subprodutos da hemoglobina, além de realce pelo meio de contraste endovenoso."
     word: true
 
   - trigger: "endometrioma2"
@@ -1626,11 +1626,11 @@ matches:
     word: true
 
   - trigger: "estadp2"
-    label: "Próstata com volume aumentado (142,4 cm³), mostrando"
+    label: "Neoplasia prostática localmente avançada"
     replace: |-
-      Próstata com volume aumentado (142,4 cm³), mostrando sinal do parênquima difusamente heterogêneo, destacando-se lesão expansiva infiltrativa comprometendo todo o parênquima glandular, de limites mal definidos, com invasão capsular, estendendo-se para as vesículas seminais, gordura mesorretal, bexiga urinária e ureter distal à esquerda, promovendo moderada hidroureteronefrose. Não há nítidos planos de clivagem entre a lesão expansiva prostática e a porção proximal do reto.
+      Próstata com volume aumentado (_ cm³), mostrando sinal do parênquima difusamente heterogêneo, destacando-se lesão expansiva infiltrativa comprometendo todo o parênquima glandular, de limites mal definidos, com invasão capsular, estendendo-se para as vesículas seminais, gordura mesorretal, bexiga urinária e ureter distal à esquerda, promovendo moderada hidroureteronefrose. Não há nítidos planos de clivagem entre a lesão expansiva prostática e a porção proximal do reto.
       Bexiga com pequena repleção, de paredes difusamente espessadas e irregulares, contendo balonete de sonda.
-      Aumento numérico e volumétrico de linfonodos com características suspeitas para acometimento neoplásico secundário nas cadeias aórtica lateral, ilíacas e pararretais, os maiores medindo até 4,5 cm no maior eixo.
+      Aumento numérico e volumétrico de linfonodos com características suspeitas para acometimento neoplásico secundário nas cadeias aórtica lateral, ilíacas e pararretais, os maiores medindo até _ cm no maior eixo.
     word: true
 
   - trigger: "estenosejuprm"
@@ -1641,7 +1641,7 @@ matches:
   - trigger: "estriasreto"
     label: "Endometriose comprometendo o compartimento pélvico posterior"
     replace: |-
-      Estrias retráteis com baixo sinal em T2, no espaço retouterino, determinando processo aderencial com a parede anterior do reto, a cerca de 8,0 cm da borda anal, sem sinais de infiltração parietal profunda na alça intestinal, medindo 1,0 cm de extensão.
+      Estrias retráteis com baixo sinal em T2, no espaço retouterino, determinando processo aderencial com a parede anterior do reto, a cerca de _ cm da borda anal, sem sinais de infiltração parietal profunda na alça intestinal, medindo _ cm de extensão.
 
       Estrias retráteis com baixo sinal em T2, no espaço retouterino, determinando processo aderencial com a parede anterior do reto, sem sinais de infiltração parietal profunda na alça intestinal, sugerindo endometriose comprometendo o compartimento pélvico posterior.
     word: true
@@ -1657,13 +1657,13 @@ matches:
 
   - trigger: "fistula1"
     label: "Fístula perianal interesfinctérica"
-    replace: "Pequeno trajeto fistuloso linear simples, medindo cerca de 2,3 cm, acometendo o espaço interesfinctérico posterior mediano, com transecção do esfíncter externo na posição de 5/6 horas e orifício de drenagem na margem esquerda do sulco interglúteo, sem coleções organizadas."
+    replace: "Pequeno trajeto fistuloso linear simples, medindo cerca de _ cm, acometendo o espaço interesfinctérico posterior mediano, com transecção do esfíncter externo na posição de 5/6 horas e orifício de drenagem na margem esquerda do sulco interglúteo, sem coleções organizadas."
     word: true
 
   - trigger: "fistula2"
     label: "Tipo 4"
     replace: |-
-      Fístula transesfinctérica originando-se no canal anal às 11 horas, com trajeto de aproximadamente 16,0 cm pela fossa isquioanal direita, estendendo-se desde o períneo/base do escroto à borda anal ipsilateral, com orifícios de abertura no escroto e na região glútea direita, lateralmente ao sulco interglúteo.
+      Fístula transesfinctérica originando-se no canal anal às 11 horas, com trajeto de aproximadamente _ cm pela fossa isquioanal direita, estendendo-se desde o períneo/base do escroto à borda anal ipsilateral, com orifícios de abertura no escroto e na região glútea direita, lateralmente ao sulco interglúteo.
 
       OPINIÃO:
       Fístula transesfincteriana com formação de trajeto secundário na fossa isquioanal direita (tipo 4 na classificação do St. James’s University Hospital).
@@ -1676,13 +1676,13 @@ matches:
 
   - trigger: "focas"
     label: "Microcálculos ou interface vascular"
-    replace: "Focos hiperrefringentes no rim esquerdo, menores que 0,5 cm, sugerindo representar microcálculos ou interface vascular."
+    replace: "Focos hiperrefringentes no rim esquerdo, menores que _ cm, sugerindo representar microcálculos ou interface vascular."
     word: true
 
   - trigger: "gist"
     label: "Sinal heterogêneo nas ponderações T1 e T2"
     replace: |-
-      Lesão expansiva caracterizada por sinal heterogêneo nas ponderações T1 e T2, com realce após a administração do meio de contraste paramagnético, medindo 5,8 x 5,8 x 5,7 cm, localizada na região da pequena curvatura gástrica/antropilórica, aparentemente mural exofítica, com projeção intraluminal.
+      Lesão expansiva caracterizada por sinal heterogêneo nas ponderações T1 e T2, com realce após a administração do meio de contraste paramagnético, medindo _ cm, localizada na região da pequena curvatura gástrica/antropilórica, aparentemente mural exofítica, com projeção intraluminal.
 
       Conclusão:
       Lesão expansiva localizada na região da pequena curvatura gástrica/antropilórica, aparentemente mural exofítica, com projeção intraluminal. Considerar a possibilidade de neoplasia primária gástrica de origem mesenquimal (GIST). Os diagnósticos diferenciais devem ser aplicados.
@@ -1690,15 +1690,15 @@ matches:
 
   - trigger: "hamartoma"
     label: "Infiltração gordurosa"
-    replace: "Fígado de dimensões normais, contornos regulares e bordos finos, apresentando queda do sinal do parênquima na sequência \"out of phase\", sugerindo infiltração gordurosa. Destacam-se múltiplos pequenos cistos de distribuição difusa, medindo até 0,5 cm, que apresentam distribuição subcapsular predominando no lobo esquerdo, sem comunicação aparente com a árvore biliar. Dentre os diagnósticos diferenciais, considerar a possibilidade de hamartomas biliares."
+    replace: "Fígado de dimensões normais, contornos regulares e bordos finos, apresentando queda do sinal do parênquima na sequência \"out of phase\", sugerindo infiltração gordurosa. Destacam-se múltiplos pequenos cistos de distribuição difusa, medindo até _ cm, que apresentam distribuição subcapsular predominando no lobo esquerdo, sem comunicação aparente com a árvore biliar. Dentre os diagnósticos diferenciais, considerar a possibilidade de hamartomas biliares."
     word: true
 
   - trigger: "hcc"
     label: "Neoplasia primária"
     replace: |-
-      Fígado apresentando aumento das dimensões notadamente à custa do segmento lateral do lobo esquerdo, contornos irregulares e serrilhados, bordos rombos, com intensidade do sinal e impregnação difusamente heterogênea do parênquima, notadamente na fase arterial, sugerindo alterações perfusionais. Destacam-se duas lesões expansivas, heterogêneas, justapostas, envolvendo os segmentos VI, VII e VIII, que exibem áreas de hipervascularização de permeio e outras hipointensas, sugerindo necrose / degeneração cística, a maior medindo cerca de 9,5 x 9,0 x 8,6 cm, com áreas de clareamento na fase tardia (padrão de “nódulo dentro de nódulo”).
+      Fígado apresentando aumento das dimensões notadamente à custa do segmento lateral do lobo esquerdo, contornos irregulares e serrilhados, bordos rombos, com intensidade do sinal e impregnação difusamente heterogênea do parênquima, notadamente na fase arterial, sugerindo alterações perfusionais. Destacam-se duas lesões expansivas, heterogêneas, justapostas, envolvendo os segmentos VI, VII e VIII, que exibem áreas de hipervascularização de permeio e outras hipointensas, sugerindo necrose / degeneração cística, a maior medindo cerca de _ cm, com áreas de clareamento na fase tardia (padrão de “nódulo dentro de nódulo”).
       Líquido livre nos espaços peri-hepático, periesplênico, nas goteiras paracólicas, entre alças intestinais (ascite) e edema dos planos subcutâneos, sugerindo sobrecarga hídrica.
-      Baço de dimensões aumentadas (volume de 766,6 cm³), contornos regulares e intensidade de sinal preservada.
+      Baço de dimensões aumentadas (volume de _ cm³), contornos regulares e intensidade de sinal preservada.
       Circulação colateral de médio calibre no plexo gastroesofágico, no trajeto das veias gástricas curtas e esquerda, periesplênica, peripancreática e mesentérica.
       Veias hepáticas e ramos portais de calibre aumentado.
 
@@ -1729,7 +1729,7 @@ matches:
 
   - trigger: "istmocele"
     label: "Istmocele"
-    replace: "Defeito no local de cicatriz de cesariana, em forma de \"V\", com base na cavidade endometrial e ápice em direção à parede anterior do istmo, caracterizado por baixo sinal na ponderação em T1 e alto sinal em T2, medindo 1,0 cm, podendo corresponder a istmocele."
+    replace: "Defeito no local de cicatriz de cesariana, em forma de \"V\", com base na cavidade endometrial e ápice em direção à parede anterior do istmo, caracterizado por baixo sinal na ponderação em T1 e alto sinal em T2, medindo _ cm, podendo corresponder a istmocele."
     word: true
 
   - trigger: "jup1"
@@ -1739,7 +1739,7 @@ matches:
 
   - trigger: "kiss"
     label: "“kissing ovaries”"
-    replace: "Lesão retrátil com características endometrióticas na topografia do tórus uterino, determinando discreta retroflexão fúndica, medindo _ x _ cm, comprometendo a porção proximal dos ligamentos uterossacros e determinando processo aderencial com ambos os ovários, que se apresentam medianizados na cavidade pélvica (“kissing ovaries”)."
+    replace: "Lesão retrátil com características endometrióticas na topografia do tórus uterino, determinando discreta retroflexão fúndica, medindo _ cm, comprometendo a porção proximal dos ligamentos uterossacros e determinando processo aderencial com ambos os ovários, que se apresentam medianizados na cavidade pélvica (“kissing ovaries”)."
     word: true
 
   - trigger: "kissc"
@@ -1749,7 +1749,7 @@ matches:
 
   - trigger: "mario"
     label: "Infiltração da muscular própria"
-    replace: "Lesão nodular fusiforme comprometendo a parede anterior da transição retossigmoide, estendendo-se por 2,2 cm e apresentando espessura máxima de 1,4 cm, situada a aproximadamente 13,5 cm da borda anal. Demonstra espessamento assimétrico de hipossinal em T2, compatível com infiltração da muscular própria, com preservação da mucosa \"mushroom cap sign\", padrão típico de endometriose intestinal profunda."
+    replace: "Lesão nodular fusiforme comprometendo a parede anterior da transição retossigmoide, estendendo-se por _ cm e apresentando espessura máxima de _ cm, situada a aproximadamente _ cm da borda anal. Demonstra espessamento assimétrico de hipossinal em T2, compatível com infiltração da muscular própria, com preservação da mucosa \"mushroom cap sign\", padrão típico de endometriose intestinal profunda."
     word: true
 
   - trigger: "mediovs"
@@ -1773,8 +1773,8 @@ matches:
     label: "Ovários micropolicísticos"
     replace: |-
       Ovários contendo múltiplos pequenos cistos, distribuídos de forma periférica pelo parênquima gonadal.
-      Ovário direito medindo 3,1 x 2,9 x 2,4 cm, com volume de 11,2 cm³.
-      Ovário esquerdo medindo 3,3 x 2,5 x 2,3 cm, com volume de 9,8 cm³.
+      Ovário direito medindo _ cm, com volume de _ cm³.
+      Ovário esquerdo medindo _ cm, com volume de _ cm³.
       Bexiga com boa repleção, paredes finas e conteúdo de sinal homogêneo.
 
       OPINIÃO:
@@ -1796,14 +1796,14 @@ matches:
     replace: |-
       Miométrio com sinal heterogêneo à custa de nódulos uterinos sugestivos de leiomiomas, os maiores assim caracterizados:
 
-      - intramural com componente submucoso, corporal posterior, medindo 1,8 cm (FIGO 2-5);
+      - intramural com componente submucoso, corporal posterior, medindo _ cm (FIGO 2-5);
 
-      - intramural, corporal anterior, medindo 1,3 cm (FIGO 4).
+      - intramural, corporal anterior, medindo _ cm (FIGO 4).
     word: true
 
   - trigger: "mirizi"
     label: "Síndrome de Mirizzi"
-    replace: "Vesícula biliar normodistendida, contendo cálculos e barro biliar, observando-se anormalidade no fundo vesicular caracterizada por múltiplos espaços císticos associados a discreto espessamento e irregularidade parietal, aspecto que admite a possibilidade de adenomiomatose. Destaca-se cálculo na região do infundíbulo, adjacente ao ducto cístico, medindo cerca de 2,0 cm, determinando compressão extrínseca sobre o ducto hepático comum e consequente dilatação das vias biliares intra-hepáticas, conjunto de achados sugestivo de síndrome de Mirizzi."
+    replace: "Vesícula biliar normodistendida, contendo cálculos e barro biliar, observando-se anormalidade no fundo vesicular caracterizada por múltiplos espaços císticos associados a discreto espessamento e irregularidade parietal, aspecto que admite a possibilidade de adenomiomatose. Destaca-se cálculo na região do infundíbulo, adjacente ao ducto cístico, medindo cerca de _ cm, determinando compressão extrínseca sobre o ducto hepático comum e consequente dilatação das vias biliares intra-hepáticas, conjunto de achados sugestivo de síndrome de Mirizzi."
     word: true
 
   - trigger: "morton4"
@@ -1818,55 +1818,55 @@ matches:
 
   - trigger: "neobexiga"
     label: "Espessamento e irregularidade da parede do órgão"
-    replace: "Volumosa formação heterogênea, localizada no interior da bexiga urinária na região posterolateral esquerda, medindo cerca de 7,5 x 7,2 x 5,7 cm. Há sinais de extensão transmural, caracterizada por espessamento e irregularidade da parede do órgão, associado a alteração do sinal da gordura perivesical e encarceramento do ureter ipsilateral. Destacam-se linfonodomegalias retroperitoneais, ilíacas, obturatórias e retrovesicais, a maior na cadeia ilíaca esquerda, medindo 3,2 x 2,5 cm."
+    replace: "Volumosa formação heterogênea, localizada no interior da bexiga urinária na região posterolateral esquerda, medindo cerca de _ cm. Há sinais de extensão transmural, caracterizada por espessamento e irregularidade da parede do órgão, associado a alteração do sinal da gordura perivesical e encarceramento do ureter ipsilateral. Destacam-se linfonodomegalias retroperitoneais, ilíacas, obturatórias e retrovesicais, a maior na cadeia ilíaca esquerda, medindo _ cm."
     word: true
 
   - trigger: "neocoloutero"
     label: "Neoplasia de colo uterino"
-    replace: "Lesão expansiva no colo uterino, heterogênea, que exibe realce pelo meio de contraste paramagnético endovenoso, medindo 5,3 x 4,4 x 4,0 cm, com volume de 48,5 cm³, com sinais de invasão dos fórnices vaginais (que estão obliterados e espessados), do paramétrio bilateralmente, bem como da gordura retrovesical/parede posterior da bexiga e gordura retovaginal/parede anterior do reto, promovendo distensão hemática da cavidade uterina (hematométrio) e determinando acentuada hidroureteronefrose à esquerda. Associa-se aumento do número de linfonodos regionais. Tal lesão já foi submetida a biópsia, com diagnóstico anatomopatológico de carcinoma espinocelular moderadamente diferenciado."
+    replace: "Lesão expansiva no colo uterino, heterogênea, que exibe realce pelo meio de contraste paramagnético endovenoso, medindo _ cm, com volume de _ cm³, com sinais de invasão dos fórnices vaginais (que estão obliterados e espessados), do paramétrio bilateralmente, bem como da gordura retrovesical/parede posterior da bexiga e gordura retovaginal/parede anterior do reto, promovendo distensão hemática da cavidade uterina (hematométrio) e determinando acentuada hidroureteronefrose à esquerda. Associa-se aumento do número de linfonodos regionais. Tal lesão já foi submetida a biópsia, com diagnóstico anatomopatológico de carcinoma espinocelular moderadamente diferenciado."
     word: true
 
   - trigger: "neoendometrio"
     label: "Neoplasia primária endometrial"
-    replace: "Lesão expansiva no interior da cavidade uterina em região fúndica, apresentando restrição à difusão e realce pelo meio de contraste endovenoso, com sinais de invasão da zona juncional da parede corporal posterior, medindo cerca de 2,8 x 1,7 cm, compatível com neoplasia primária endometrial."
+    replace: "Lesão expansiva no interior da cavidade uterina em região fúndica, apresentando restrição à difusão e realce pelo meio de contraste endovenoso, com sinais de invasão da zona juncional da parede corporal posterior, medindo cerca de _ cm, compatível com neoplasia primária endometrial."
     word: true
 
   - trigger: "neopancreasrm"
     label: "Baixo sinal nas ponderações T1 e T2"
-    replace: "Formação nodular sólida, com pequenas áreas císticas de permeio, caracterizada por baixo sinal nas ponderações T1 e T2, restrição à difusão e hipovascular, medindo 3,7 x 3,1 cm, localizada no processo uncinado do pâncreas, mantendo contato com artéria mesentérica superior e o tronco portal. Há relativa atrofia parenquimatosa corpocaudal, sem sinais de dilatação do ducto pancreático principal. Observa-se ainda aumento numérico de linfonodos regionais e alteração do sinal da gordura perivisceral."
+    replace: "Formação nodular sólida, com pequenas áreas císticas de permeio, caracterizada por baixo sinal nas ponderações T1 e T2, restrição à difusão e hipovascular, medindo _ cm, localizada no processo uncinado do pâncreas, mantendo contato com artéria mesentérica superior e o tronco portal. Há relativa atrofia parenquimatosa corpocaudal, sem sinais de dilatação do ducto pancreático principal. Observa-se ainda aumento numérico de linfonodos regionais e alteração do sinal da gordura perivisceral."
     word: true
 
   - trigger: "neoperi"
     label: "Neoplasia periampular/colédoco distal"
-    replace: "Formação nodular hipovascular, de limites parcialmente definidos, medindo 2,8 x 2,6 x 2,2 cm, com epicentro presumível no colédoco distal, junto ao processo uncinado/cabeça do pâncreas, determinando leve dilatação das vias biliares extra e intra-hepáticas. Tal lesão é caracterizada por hipossinal em T1, restrição à difusão e realce centrípeto progressivo pelo meio de contraste endovenoso. Nota-se ainda aumento do número de linfonodos paracólicos e em flanco direito."
+    replace: "Formação nodular hipovascular, de limites parcialmente definidos, medindo _ cm, com epicentro presumível no colédoco distal, junto ao processo uncinado/cabeça do pâncreas, determinando leve dilatação das vias biliares extra e intra-hepáticas. Tal lesão é caracterizada por hipossinal em T1, restrição à difusão e realce centrípeto progressivo pelo meio de contraste endovenoso. Nota-se ainda aumento do número de linfonodos paracólicos e em flanco direito."
     word: true
 
   - trigger: "neoperi1"
     label: "Neoplasia da papila duodenal"
     replace: |-
-      Lesão expansiva de limites mal definidos, localizada adjacente à cabeça pancreática/região periampular, sem nítidos planos de clivagem com essas estruturas. Associa-se acentuada dilatação das vias biliares intra e extra-hepáticas (colédoco medindo até 2,3 cm), aumento do número de linfonodos hilares hepáticos, celíacos e mesentéricos, bem como discreta alteração do sinal do tecido gorduroso peripancreático. Observa-se relativa atrofia da cauda pancreática.
+      Lesão expansiva de limites mal definidos, localizada adjacente à cabeça pancreática/região periampular, sem nítidos planos de clivagem com essas estruturas. Associa-se acentuada dilatação das vias biliares intra e extra-hepáticas (colédoco medindo até _ cm), aumento do número de linfonodos hilares hepáticos, celíacos e mesentéricos, bem como discreta alteração do sinal do tecido gorduroso peripancreático. Observa-se relativa atrofia da cauda pancreática.
       Achados suspeitos para neoplasia primária da papila duodenal como principal consideração diagnóstica, tendo neoplasia de cabeça pancreática e colangiocarcinoma extra-hepático distal como diferenciais. A critério clínico, sugere-se estudo anatomopatológico através de ultrassonografia endoscópica.
     word: true
 
   - trigger: "neoreto3"
     label: "Neoplasia de reto médio/alto"
-    replace: "Lesão expansiva, de aspecto infiltrativo, subestenosante, determinando espessamento parietal circunferencial e irregular do reto médio/alto, com extensão em cerca de 13,6 cm, distando 11,0 cm da borda anal. A lesão estende-se para a gordura perirretal, invade a parede posterior da bexiga urinária e a próstata, comunicando as cavidades retal e vesical através de trajeto fistuloso. Associa-se aumento do número e dimensões de linfonodos pararretais, retais superiores e pré-sacrais, medindo até 1,1 cm no menor eixo."
+    replace: "Lesão expansiva, de aspecto infiltrativo, subestenosante, determinando espessamento parietal circunferencial e irregular do reto médio/alto, com extensão em cerca de _ cm, distando _ cm da borda anal. A lesão estende-se para a gordura perirretal, invade a parede posterior da bexiga urinária e a próstata, comunicando as cavidades retal e vesical através de trajeto fistuloso. Associa-se aumento do número e dimensões de linfonodos pararretais, retais superiores e pré-sacrais, medindo até _ cm no menor eixo."
     word: true
 
   - trigger: "neoreto6"
     label: "Neoplasia de reto baixo com invasão"
-    replace: "Formação expansiva/infiltrativa, estenosante no reto baixo/distal, com relativo baixo sinal em T2, estendendo-se e promovendo perda de continuidade da parede posterior do reto para a linha interglútea, com efeito infiltrativo local, determinando redução luminal e medindo cerca de 6,1 x 4,7 x 3,4 cm. Componente estenosante no interior do canal anal medindo cerca de 3,4 cm."
+    replace: "Formação expansiva/infiltrativa, estenosante no reto baixo/distal, com relativo baixo sinal em T2, estendendo-se e promovendo perda de continuidade da parede posterior do reto para a linha interglútea, com efeito infiltrativo local, determinando redução luminal e medindo cerca de _ cm. Componente estenosante no interior do canal anal medindo cerca de _ cm."
     word: true
 
   - trigger: "neoretroperitoneo"
     label: "Queda do sinal"
-    replace: "Massa retroperitoneal composta predominantemente por elementos de tecido adiposo, caracterizada por queda do sinal na ponderação T1 \"out of phase\" e realce pelo meio de contraste de alguns componentes vasculares/fibrosos, que determina defeito no parênquima renal na região polar inferior, medindo cerca de 19,2 x 10,9 x 10,4 cm, com volume de 1131,0 cm³, promovendo anteromedianização renal e desvio de estruturas adjacentes. Dentre os diagnósticos diferenciais devemos considerar angiomiolipoma renal exofítico, e de maneira mais remota, mielolipoma de adrenal ou neoplasia retroperitoneal primária."
+    replace: "Massa retroperitoneal composta predominantemente por elementos de tecido adiposo, caracterizada por queda do sinal na ponderação T1 \"out of phase\" e realce pelo meio de contraste de alguns componentes vasculares/fibrosos, que determina defeito no parênquima renal na região polar inferior, medindo cerca de _ cm, com volume de _ cm³, promovendo anteromedianização renal e desvio de estruturas adjacentes. Dentre os diagnósticos diferenciais devemos considerar angiomiolipoma renal exofítico, e de maneira mais remota, mielolipoma de adrenal ou neoplasia retroperitoneal primária."
     word: true
 
   - trigger: "neorreto3"
     label: "Plano interesfincteriano comprometido"
     replace: |-
-      Lesão sólida expansiva semi-anular no reto baixo e canal anal, projetando-se através da borda anal e estendendo-se superiormente até 3,6 cm acima do anel anorretal, com extensão total de 7,1 cm e borda proximal 5,0 cm abaixo da reflexão peritoneal.
+      Lesão sólida expansiva semi-anular no reto baixo e canal anal, projetando-se através da borda anal e estendendo-se superiormente até _ cm acima do anel anorretal, com extensão total de _ cm e borda proximal _ cm abaixo da reflexão peritoneal.
       A borda mais infiltrativa da lesão localiza-se das 02h às 09h e infiltra o esfíncter externo entre 06 e 08h (plano interesfincteriano comprometido).
     word: true
 
@@ -1878,7 +1878,7 @@ matches:
   - trigger: "neosigmoide"
     label: "Processo neoplásico intestinal"
     replace: |-
-      Espessamento parietal irregular subestenosante do cólon sigmoide, com extensão em cerca de 8,4 cm, distando cerca de 15,0 cm da borda anal, notando-se trajeto fistuloso medindo 3,0 cm, unindo a borda antimesentérica do cólon e a parede superior da bexiga urinária, que apresenta espessamento parietal irregular difuso e gás intraluminal. A lesão mantém íntimo contato com o fundo uterino e ovário esquerdo, sem nítidos planos de clivagem com segmento de alça ileal. Associam-se pequena quantidade de líquido livre na cavidade pélvica, alteração do sinal dos planos adiposos adjacentes, acentuada neoangiogenese e aumento do número e das dimensões de linfonodos regionais, o maior na cadeia ilíaca direita, medindo até 1,1 cm no menor eixo axial.
+      Espessamento parietal irregular subestenosante do cólon sigmoide, com extensão em cerca de _ cm, distando cerca de _ cm da borda anal, notando-se trajeto fistuloso medindo _ cm, unindo a borda antimesentérica do cólon e a parede superior da bexiga urinária, que apresenta espessamento parietal irregular difuso e gás intraluminal. A lesão mantém íntimo contato com o fundo uterino e ovário esquerdo, sem nítidos planos de clivagem com segmento de alça ileal. Associam-se pequena quantidade de líquido livre na cavidade pélvica, alteração do sinal dos planos adiposos adjacentes, acentuada neoangiogenese e aumento do número e das dimensões de linfonodos regionais, o maior na cadeia ilíaca direita, medindo até _ cm no menor eixo axial.
 
       OPINIÃO:
       O conjunto de achados é sugestivo de processo neoplásico intestinal com extensão locorregional, complicado com fístulas enterocólica e enterovesical.
@@ -1886,28 +1886,28 @@ matches:
 
   - trigger: "neoureter"
     label: "Lesão expansiva alongada no ureter distal direito"
-    replace: "Lesão expansiva alongada no ureter distal direito, medindo 6,5 x 3,4 x 2,9 cm, infiltrando os planos adiposos periureterais, projetando-se através da junção ureterovesical; na bexiga, apresenta componente vegetante medindo 2,7 x 2,4 x 2,4 cm que invade a musculatura detrusora."
+    replace: "Lesão expansiva alongada no ureter distal direito, medindo _ cm, infiltrando os planos adiposos periureterais, projetando-se através da junção ureterovesical; na bexiga, apresenta componente vegetante medindo _ cm que invade a musculatura detrusora."
     word: true
 
   - trigger: "neov"
-    label: "Formação expansiva predominantemente sólida, medindo 16,9 x"
-    replace: "Formação expansiva predominantemente sólida, medindo 16,9 x 15,5 x 12,3 cm, de sinal heterogêneo nas ponderações T1 e T2, com origem na região anexial direita, ocupando grande parte da cavidade pélvica e estendendo-se até a região mesogástrica, apresentando significativo realce pelo meio de contraste paramagnético endovenoso, com áreas de restrição à livre movimentação das moléculas de água, provavelmente relacionado a maior celularidade. Tal lesão mantém contato com o fundo uterino, envolve a raiz do mesentério, segmentos de alças intestinais delgadas e cólicas, notadamente em hemiabdome à direita, sem determinar sinais de oclusão no presente estudo. Há acentuada ascite com realce nodular do peritônio e nas goteiras paracólicas (\"omental cake\"). Considerar a possibilidade de processo neoplásico primário ovariano com disseminação omentoperitoneal."
+    label: "Neoplasia ovariana com disseminação omentoperitoneal"
+    replace: "Formação expansiva predominantemente sólida, medindo _ cm, de sinal heterogêneo nas ponderações T1 e T2, com origem na região anexial direita, ocupando grande parte da cavidade pélvica e estendendo-se até a região mesogástrica, apresentando significativo realce pelo meio de contraste paramagnético endovenoso, com áreas de restrição à livre movimentação das moléculas de água, provavelmente relacionado a maior celularidade. Tal lesão mantém contato com o fundo uterino, envolve a raiz do mesentério, segmentos de alças intestinais delgadas e cólicas, notadamente em hemiabdome à direita, sem determinar sinais de oclusão no presente estudo. Há acentuada ascite com realce nodular do peritônio e nas goteiras paracólicas (\"omental cake\"). Considerar a possibilidade de processo neoplásico primário ovariano com disseminação omentoperitoneal."
     word: true
 
   - trigger: "neovagina"
     label: "Infiltração tumoral"
     replace: |-
-      Lesão expansiva infiltrativa, com epicentro no canal vaginal onde apresenta grande componente vegetante que promove estenose luminal, medindo cerca de 6,1 x 5,3 x 5,3 cm, com volume estimado de 89,6 cm³. Essa lesão infiltra os planos mioadiposos da parede vaginal anterior, onde se identifica pedículo vascular.
+      Lesão expansiva infiltrativa, com epicentro no canal vaginal onde apresenta grande componente vegetante que promove estenose luminal, medindo cerca de _ cm, com volume estimado de _ cm³. Essa lesão infiltra os planos mioadiposos da parede vaginal anterior, onde se identifica pedículo vascular.
       Limites da lesão supracitada:
       - superiormente a massa mantém contato com o orifício externo do colo uterino, fórnices vaginais anterior e posterior;
       - anteriormente com a base/parede posterior da bexiga urinária onde há alteração do sinal da gordura do espaço vesicovaginal, sugerindo infiltração tumoral. Espaço uretrovaginal sem sinais aparentes de invasão.
       - lateralmente há sinais de extensão da lesão para o paramétrio à direita.
-      Aumento volumétrico e numérico de linfonodos nas cadeias retroperitoneal e inguinofemorais, com linfonodomegalia na cadeia femoral superficial esquerda, medindo 1,8 cm.
+      Aumento volumétrico e numérico de linfonodos nas cadeias retroperitoneal e inguinofemorais, com linfonodomegalia na cadeia femoral superficial esquerda, medindo _ cm.
     word: true
 
   - trigger: "osteocondrite1"
     label: "Lesão osteocondral do côndilo femoral medial"
-    replace: "Lesão osteocondral localizada na face interna do côndilo femoral medial, caracterizada por baixo sinal na ponderação T1, discreto hipersinal na ponderação T2, medindo cerca de 1,4 cm, sem caracterizar ruptura articular ou fragmento solto."
+    replace: "Lesão osteocondral localizada na face interna do côndilo femoral medial, caracterizada por baixo sinal na ponderação T1, discreto hipersinal na ponderação T2, medindo cerca de _ cm, sem caracterizar ruptura articular ou fragmento solto."
     word: true
 
   - trigger: "osteossarcoma"
@@ -1916,10 +1916,10 @@ matches:
     word: true
 
   - trigger: "ovm"
-    label: "Ovário direito mede 3,4 x 2,7 x"
+    label: "Medidas dos ovários — mede/volume"
     replace: |-
-      Ovário direito mede 3,4 x 2,7 x 2,4 cm com volume de _ cm³.
-      Ovário esquerdo mede 3,4 x 2,7 x 2,4 cm com volume de _ cm³.
+      Ovário direito mede _ cm com volume de _ cm³.
+      Ovário esquerdo mede _ cm com volume de _ cm³.
     word: true
 
   - trigger: "ovn"
@@ -1968,7 +1968,7 @@ matches:
 
   - trigger: "polipoendometrial"
     label: "Pólipo endometrial"
-    replace: "Lesão polipoide com hipossinal em T2, medindo cerca de 0,6 x 0,2 cm, é vista na cavidade uterina, mantendo contato com revestimento endometrial na parede anterior, exibindo impregnação pelo meio de contraste paramagnético endovenoso, podendo representar pólipo."
+    replace: "Lesão polipoide com hipossinal em T2, medindo cerca de _ cm, é vista na cavidade uterina, mantendo contato com revestimento endometrial na parede anterior, exibindo impregnação pelo meio de contraste paramagnético endovenoso, podendo representar pólipo."
     word: true
 
   - trigger: "poliporretal"
@@ -1977,10 +1977,10 @@ matches:
       INDICAÇÃO: lesão retal.
 
       DESCRIÇÃO:
-      Lesão polipoide de base séssil localizada no reto baixo, com início junto à linha pectínea, situada aproximadamente 2,5 cm da borda anal. A lesão projeta-se para o interior da luz retal, medindo cerca de 4,6 cm em extensão longitudinal, comprometendo aproximadamente 50% da circunferência luminal, sem evidência de estenose significativa. O ponto de implantação da lesão encontra-se na posição das 12 horas.
+      Lesão polipoide de base séssil localizada no reto baixo, com início junto à linha pectínea, situada aproximadamente _ cm da borda anal. A lesão projeta-se para o interior da luz retal, medindo cerca de _ cm em extensão longitudinal, comprometendo aproximadamente 50% da circunferência luminal, sem evidência de estenose significativa. O ponto de implantação da lesão encontra-se na posição das 12 horas.
       A lesão apresenta sinal discretamente hiperintenso em T2 com realce moderado e restrição à difusão nas sequências DWI/ADC, achado que pode estar associado a degeneração displásica. Não há evidências macroscópicas de invasão da muscular própria.
       A fáscia mesorretal encontra-se preservada. Não se observam linfonodos aumentados no mesorreto nem nas cadeias pélvicas.
-      Próstata com volume de 25,6 cm³ e intensidade de sinal preservada com gordura periprostática de aspecto habitual.
+      Próstata com volume de _ cm³ e intensidade de sinal preservada com gordura periprostática de aspecto habitual.
       Vesículas seminais de aspecto normal.
       As diversas porções visibilizadas de uretra apresentam-se de aspecto normal.
       Bexiga vazia, de avaliação limitada.
@@ -1993,13 +1993,13 @@ matches:
     word: true
 
   - trigger: "prenhezectopica"
-    label: "Lesão anexial esquerda, medindo 6,2 x 3,7"
+    label: "Prenhez ectópica anexial esquerda"
     replace: |-
-      Lesão anexial esquerda, medindo 6,2 x 3,7 x 3,5 cm, com volume de 41,7 cm³, exibindo sinal heterogêneo nas ponderações T1 e T2, com focos hemáticos internos. Após a administração do meio de contraste endovenoso, observa-se área de realce ovalada em seu interior, medindo 3,5 cm, com halo hipointenso em T2. Associa-se estrutura tubuliforme alongada contornando a lesão, presumivelmente representando a tuba uterina dilatada com conteúdo espesso/hemático.
+      Lesão anexial esquerda, medindo _ cm, com volume de _ cm³, exibindo sinal heterogêneo nas ponderações T1 e T2, com focos hemáticos internos. Após a administração do meio de contraste endovenoso, observa-se área de realce ovalada em seu interior, medindo _ cm, com halo hipointenso em T2. Associa-se estrutura tubuliforme alongada contornando a lesão, presumivelmente representando a tuba uterina dilatada com conteúdo espesso/hemático.
 
       OPINIÃO:
       Lesão anexial esquerda, exibindo sinal heterogêneo nas ponderações T1 e T2, com focos hemáticos internos. Após a administração do meio de contraste endovenoso, observa-se área de realce ovalada em seu interior, com halo hipointenso em T2. Associa-se estrutura tubuliforme alongada contornando a lesão, presumivelmente representando a tuba uterina dilatada com conteúdo espesso/hemático. Esse conjunto de achados sugere inicialmente a possibilidade de prenhez ectópica anexial esquerda. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
-      Corpo lúteo identificado no ovário esquerdo, medindo 1,3 cm.
+      Corpo lúteo identificado no ovário esquerdo, medindo _ cm.
       Pequena quantidade de líquido livre na cavidade pélvica.
     word: true
 
@@ -2012,10 +2012,10 @@ matches:
     label: "Espessamento parietal com estreitamento luminal no reto"
     replace: |-
       Espessamento parietal com estreitamento luminal no reto, apresentando realce heterogêneo pelo
-      meio de contraste endovenoso, com extensão de aproximadamente 5,3 cm. Associam-se aumento do número de linfonodos regionais e densificação dos planos adiposos adjacentes. Diante do contexto clínico, a possibilidade de retite actínica pode ser considerada, todavia, não podemos afastar de forma inequívoca neoplasia retal.
+      meio de contraste endovenoso, com extensão de aproximadamente _ cm. Associam-se aumento do número de linfonodos regionais e densificação dos planos adiposos adjacentes. Diante do contexto clínico, a possibilidade de retite actínica pode ser considerada, todavia, não podemos afastar de forma inequívoca neoplasia retal.
 
       Espessamento parietal com estreitamento luminal no reto, apresentando realce heterogêneo pelo
-      meio de contraste endovenoso, com extensão de aproximadamente 5,3 cm. Associam-se aumento do número de linfonodos regionais e densificação dos planos adiposos adjacentes. Diante do contexto clínico, a possibilidade de retite actínica pode ser considerada, todavia, não podemos afastar de forma inequívoca neoplasia retal.
+      meio de contraste endovenoso, com extensão de aproximadamente _ cm. Associam-se aumento do número de linfonodos regionais e densificação dos planos adiposos adjacentes. Diante do contexto clínico, a possibilidade de retite actínica pode ser considerada, todavia, não podemos afastar de forma inequívoca neoplasia retal.
     word: true
 
   - trigger: "retvb"
@@ -2030,7 +2030,7 @@ matches:
 
   - trigger: "rmmioma"
     label: "Adenomiose ou leiomioma"
-    replace: "Espessamento da zona juncional na parede uterina corporal anterior, de aspecto pseudonodular, medindo cerca de 1,7 cm, podendo representar adenomiose ou leiomioma."
+    replace: "Espessamento da zona juncional na parede uterina corporal anterior, de aspecto pseudonodular, medindo cerca de _ cm, podendo representar adenomiose ou leiomioma."
     word: true
 
   - trigger: "rotmen"
@@ -2051,7 +2051,7 @@ matches:
   - trigger: "rotquad"
     label: "Rotura do tendão do quadríceps"
     replace: |-
-      Ruptura completa de grande parte dos feixes mediais do tendão do quadríceps com feixes laterais apresentando fissuras intrassubstanciais, acima da junção osteotendínea (1,0 cm), com redundância e derrame articular no recesso sinovial suprapatelar. Há também lesão do retináculo patelar medial, bem como alterações edematosas/hemorragia dos músculos vasto medial, reto femoral e vasto lateral.
+      Ruptura completa de grande parte dos feixes mediais do tendão do quadríceps com feixes laterais apresentando fissuras intrassubstanciais, acima da junção osteotendínea (_ cm), com redundância e derrame articular no recesso sinovial suprapatelar. Há também lesão do retináculo patelar medial, bem como alterações edematosas/hemorragia dos músculos vasto medial, reto femoral e vasto lateral.
       Espessamento da pele e das fáscias intermusculares circunferencial do joelho, com hiperintensidade subcutânea reticular difusa, mal definida, tendendo a acumular-se na hipoderme, sugerindo representar edema/hemorragia.
     word: true
 
@@ -2062,13 +2062,13 @@ matches:
 
   - trigger: "scorenefro"
     label: "Neoplasia primária renal"
-    replace: "Lesão sólida-cística, com maior componente sólido, localizada no polo anterossuperior do rim direito, medindo 1,7 cm, de caráter endofítico, distando 0,5 cm do sistema coletor, acima da linha polar superior com realce hipervascular do componente sólido, sem componente hilar. Achados são sugestivos de neoplasia primária renal. Tal lesão é classificada como 8a (intermediário) segundo o escore nefrométrico (http://www.nephrometry.com/)."
+    replace: "Lesão sólida-cística, com maior componente sólido, localizada no polo anterossuperior do rim direito, medindo _ cm, de caráter endofítico, distando _ cm do sistema coletor, acima da linha polar superior com realce hipervascular do componente sólido, sem componente hilar. Achados são sugestivos de neoplasia primária renal. Tal lesão é classificada como 8a (intermediário) segundo o escore nefrométrico (http://www.nephrometry.com/)."
     word: true
 
   - trigger: "seroso"
     label: "Neoplasia de natureza serosa"
     replace: |-
-      Lesão expansiva cística, localizada no ovário direito, caracterizada por baixo sinal em T1, alto sinal em T2, sem restrição à difusão ou realce pelo meio de contraste endovenoso, apresentando finos septos internos de permeio, medindo 9,6 x 9,1 x 5,6 cm, com volume de 251,7 cm³. Tal lesão determina efeito compressivo sobre o útero e bexiga urinária, mantendo planos de clivagem.
+      Lesão expansiva cística, localizada no ovário direito, caracterizada por baixo sinal em T1, alto sinal em T2, sem restrição à difusão ou realce pelo meio de contraste endovenoso, apresentando finos septos internos de permeio, medindo _ cm, com volume de _ cm³. Tal lesão determina efeito compressivo sobre o útero e bexiga urinária, mantendo planos de clivagem.
 
 
       OPINIÃO:
@@ -2078,7 +2078,7 @@ matches:
   - trigger: "shad"
     label: "Endometriose do compartimento pélvico posterior"
     replace: |-
-      Ovário esquerdo mede 3,6 x 2,9 x 2,2 cm com volume de 11,9 cm³, apresentando cisto com alto sinal em T1 e queda do sinal em T2 (“shading”) medindo cerca de 2,0 cm no maior eixo, compatível com endometrioma.
+      Ovário esquerdo mede _ cm com volume de _ cm³, apresentando cisto com alto sinal em T1 e queda do sinal em T2 (“shading”) medindo cerca de _ cm no maior eixo, compatível com endometrioma.
       Discretas estrias fibroaderenciais na cápsula ovárica esquerda, determinando tênue retração do reto médio, sem sinais de infiltração nas camadas mais profundas intestinais, sugerindo endometriose do compartimento pélvico posterior.
     word: true
 
@@ -2089,7 +2089,7 @@ matches:
 
   - trigger: "teratomaov"
     label: "Teratoma e suas variantes histológicas"
-    replace: "Ovário esquerdo com dimensões aumentadas à custa de lesão expansiva heterogênea, com hipersinal em T1 (conteúdo lipídico), hipo/hipersinal em T2, exibindo septações internas, que não apresentaram realce significativo pelo meio de contraste paramagnético endovenoso, medindo 5,1 x 4,5 x 4,5 cm, com volume estimado de 57,3 cm³. O aspecto da lesão é compatível com tumor de células germinativas (teratoma e suas variantes histológicas)."
+    replace: "Ovário esquerdo com dimensões aumentadas à custa de lesão expansiva heterogênea, com hipersinal em T1 (conteúdo lipídico), hipo/hipersinal em T2, exibindo septações internas, que não apresentaram realce significativo pelo meio de contraste paramagnético endovenoso, medindo _ cm, com volume estimado de _ cm³. O aspecto da lesão é compatível com tumor de células germinativas (teratoma e suas variantes histológicas)."
     word: true
 
   - trigger: "tit"
@@ -2108,18 +2108,18 @@ matches:
     word: true
 
   - trigger: "tumorgine"
-    label: "Massa heterogênea, lobulada, medindo cerca de 23,4"
-    replace: "Massa heterogênea, lobulada, medindo cerca de 23,4 x 19,3 x 16,2 cm com volume de 3804,4 cm³, é observada surgindo da região fúndica uterina, estendendo-se até a região epigástrica, apresentando múltiplas áreas necróticas/liquefeitas, com realce significativo do componente sólido, determinando efeito compressivo sobre estruturas retroperitoneais, sem sinais de invasão. A lesão mantém contato com a aponeurose da musculatura do reto abdominal na região superior do abdome, notadamente à esquerda. Observam-se ainda volumosa ascite e implantes omentais nodulares, notadamente em topografia pélvica à direita. A possibilidade de neoplasia uterina (leiomiossarcoma) com disseminação neoplásica secundária omentoperitoneal (carcinomatose peritoneal) pode ser considerada dentre os diagnósticos diferenciais."
+    label: "Neoplasia uterina (leiomiossarcoma) com carcinomatose"
+    replace: "Massa heterogênea, lobulada, medindo cerca de _ cm com volume de _ cm³, é observada surgindo da região fúndica uterina, estendendo-se até a região epigástrica, apresentando múltiplas áreas necróticas/liquefeitas, com realce significativo do componente sólido, determinando efeito compressivo sobre estruturas retroperitoneais, sem sinais de invasão. A lesão mantém contato com a aponeurose da musculatura do reto abdominal na região superior do abdome, notadamente à esquerda. Observam-se ainda volumosa ascite e implantes omentais nodulares, notadamente em topografia pélvica à direita. A possibilidade de neoplasia uterina (leiomiossarcoma) com disseminação neoplásica secundária omentoperitoneal (carcinomatose peritoneal) pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
   - trigger: "urolit"
-    label: "Cálculo no ureter distal direito, medindo 0,6"
-    replace: "Cálculo no ureter distal direito, medindo 0,6 cm, localizado próximo à junção ureterovesical, promovendo discreta hidroureteronefrose."
+    label: "Cálculo em ureter distal com hidroureteronefrose"
+    replace: "Cálculo no ureter distal direito, medindo _ cm, localizado próximo à junção ureterovesical, promovendo discreta hidroureteronefrose."
     word: true
 
   - trigger: "uteromiomatoso"
     label: "Útero apresentando aumento difuso de suas dimensões"
-    replace: "Útero apresentando aumento difuso de suas dimensões como resultado da substituição quase completa do miométrio por inúmeros nódulos leiomiomatosos mal definidos e confluentes, alguns com sinais de sangramento/degeneração hialina, medindo em sua totalidade 21,4 x 17,8 x 12,3 cm, com volume estimado em 2436,3 cm³. Há sinais de arqueamento da cavidade uterina na região fúndica."
+    replace: "Útero apresentando aumento difuso de suas dimensões como resultado da substituição quase completa do miométrio por inúmeros nódulos leiomiomatosos mal definidos e confluentes, alguns com sinais de sangramento/degeneração hialina, medindo em sua totalidade _ cm, com volume estimado em _ cm³. Há sinais de arqueamento da cavidade uterina na região fúndica."
     word: true
 
   - trigger: "uteross"
@@ -2130,7 +2130,7 @@ matches:
   - trigger: "uva"
     label: "Imagem cística multiloculada localizada no corpo pancreático"
     replace: |-
-      Imagem cística multiloculada localizada no corpo pancreático, composta por múltiplos pequenos cistos coalescentes, alguns com hipersinal em T1, separados por finos septos. O conjunto mede aproximadamente 4,8 x 4,8 x 4,2 cm e apresenta realce parietal e septal após contraste paramagnético. A lesão mantém contato com o ducto pancreático principal, sem evidências claras de comunicação e determina atrofia do parênquima pancreático adjacente, com dilatação do ducto Wirsung, que atinge calibre máximo de 0,8 cm. Cabeça e processo uncinado pancreáticos apresentam morfologia e sinal preservados, sem dilatação ductal. A lesão mantém contato com a junção venosa esplenomesentérica, mantendo clivagem.
+      Imagem cística multiloculada localizada no corpo pancreático, composta por múltiplos pequenos cistos coalescentes, alguns com hipersinal em T1, separados por finos septos. O conjunto mede aproximadamente _ cm e apresenta realce parietal e septal após contraste paramagnético. A lesão mantém contato com o ducto pancreático principal, sem evidências claras de comunicação e determina atrofia do parênquima pancreático adjacente, com dilatação do ducto Wirsung, que atinge calibre máximo de _ cm. Cabeça e processo uncinado pancreáticos apresentam morfologia e sinal preservados, sem dilatação ductal. A lesão mantém contato com a junção venosa esplenomesentérica, mantendo clivagem.
 
       OPINIÃO:
       Lesão cística multiloculada no corpo pancreático, com maior probabilidade de tratar-se de cistoadenoma seroso.
@@ -2153,7 +2153,7 @@ matches:
 
   - trigger: "xats2"
     label: "Fratura do planalto tibial lateral"
-    replace: "Fratura cominutiva do planalto tibial lateral, com cisalhamento e depressão/infradesnivelamento ósseo de até 0,9 cm, desvio entre os fragmentos e extensão para a articulação tibiofibular proximal. Associam-se moderado derrame articular, aumento e densificação de partes moles adjacentes. O conjunto de achados sugere Schatzker tipo II."
+    replace: "Fratura cominutiva do planalto tibial lateral, com cisalhamento e depressão/infradesnivelamento ósseo de até _ cm, desvio entre os fragmentos e extensão para a articulação tibiofibular proximal. Associam-se moderado derrame articular, aumento e densificação de partes moles adjacentes. O conjunto de achados sugere Schatzker tipo II."
     word: true
 
   - trigger: "multiparametrica"
@@ -2254,7 +2254,7 @@ matches:
 
   - trigger: "glomico"
     label: "Lesão nodular bem delimitada na face dorsolateral"
-    replace: "Lesão nodular bem delimitada na face dorsolateral, da porção distal do quarto dedo, medindo aproximadamente 0,7 x 0,5 cm, em íntimo contato com o leito ungueal e determinando discreta impressão na cortical da falange distal adjacente. Apresenta hipossinal em T1, hipersinal em T2 com supressão de gordura e realce intenso e homogêneo após administração de contraste paramagnético. Admite-se a possibilidade de tumor glômico."
+    replace: "Lesão nodular bem delimitada na face dorsolateral, da porção distal do quarto dedo, medindo aproximadamente _ cm, em íntimo contato com o leito ungueal e determinando discreta impressão na cortical da falange distal adjacente. Apresenta hipossinal em T1, hipersinal em T2 com supressão de gordura e realce intenso e homogêneo após administração de contraste paramagnético. Admite-se a possibilidade de tumor glômico."
     word: true
 
   - trigger: "idtclb"
@@ -2274,7 +2274,7 @@ matches:
 
   - trigger: "lipomabraco"
     label: "Lesão de natureza lipomatosa"
-    replace: "Formação expansiva bem delimitada, com sinal semelhante ao da gordura em todas as sequências de pulso, localizada na porção proximal do ventre muscular do bíceps braquial, determinando abaulamento focal na porção proximal do ventre muscular do peitoral maior, mantendo planos de clivagem com o mesmo. Tal lesão apresenta alguns finos septos internos, exibindo discreta impregnação pelo agente de contraste paramagnético endovenoso, medindo cerca de 10,6 x 7,1 x 4,9 cm (CC x LL x AP). Tais achados são compatíveis com lesão de natureza lipomatosa."
+    replace: "Formação expansiva bem delimitada, com sinal semelhante ao da gordura em todas as sequências de pulso, localizada na porção proximal do ventre muscular do bíceps braquial, determinando abaulamento focal na porção proximal do ventre muscular do peitoral maior, mantendo planos de clivagem com o mesmo. Tal lesão apresenta alguns finos septos internos, exibindo discreta impregnação pelo agente de contraste paramagnético endovenoso, medindo cerca de _ cm (CC x LL x AP). Tais achados são compatíveis com lesão de natureza lipomatosa."
     word: true
 
   - trigger: "luxtclb"
@@ -2295,23 +2295,23 @@ matches:
   - trigger: "rmdendili2"
     label: "Tendinopatia e inflamação muscular adjacente"
     replace: |-
-      Importante edema/processo inflamatório comprometendo o tendão do iliopsoas junto à inserção no trocânter menor. Há alteração de sinal dos ventres musculares do pectíneo, vastos intermédio/medial e notadamente do iliopsoas, quando cruzam a articulação do quadril (acetábulo anterior), sugestivo de tendinopatia e inflamação muscular adjacente. Destaca-se ainda pequena coleção laminar junto à face medial da cortical da diáfise femoral proximal e o ventre muscular do vasto medial, estendendo-se por cerca de 5,8 cm com espessura máxima de 0,5 cm. Correlacionar com dados clínicos e laboratoriais.
+      Importante edema/processo inflamatório comprometendo o tendão do iliopsoas junto à inserção no trocânter menor. Há alteração de sinal dos ventres musculares do pectíneo, vastos intermédio/medial e notadamente do iliopsoas, quando cruzam a articulação do quadril (acetábulo anterior), sugestivo de tendinopatia e inflamação muscular adjacente. Destaca-se ainda pequena coleção laminar junto à face medial da cortical da diáfise femoral proximal e o ventre muscular do vasto medial, estendendo-se por cerca de _ cm com espessura máxima de _ cm. Correlacionar com dados clínicos e laboratoriais.
       Aumento do número de linfonodos inguinofemorais, sem caracterizar linfonodomegalias.
     word: true
 
   - trigger: "rmlipoma"
     label: "Lesão de natureza lipomatosa"
-    replace: "Formação expansiva, bem delimitada, com sinal semelhante ao da gordura em todas as sequências, localizada na região posterossuperior do ombro, medindo cerca de 9,0 x 4,0 cm, parcialmente caracterizada neste estudo, sugerindo lesão de natureza lipomatosa."
+    replace: "Formação expansiva, bem delimitada, com sinal semelhante ao da gordura em todas as sequências, localizada na região posterossuperior do ombro, medindo cerca de _ cm, parcialmente caracterizada neste estudo, sugerindo lesão de natureza lipomatosa."
     word: true
 
   - trigger: "rotbiceps"
     label: "Ruptura completa da porção proximal do tendão"
-    replace: "Ruptura completa da porção proximal do tendão da cabeça longa do bíceps braquial, com o componente retraído localizado na altura da diáfise umeral, existindo importante edema e hemoderivados preenchendo seu curso esperado. A separação entre os componentes do tendão é de cerca de 12,2 cm. Edema peritendinoso de tecidos moles também é observado ao longo dos feixes neurovasculares medianos e vasos braquiais."
+    replace: "Ruptura completa da porção proximal do tendão da cabeça longa do bíceps braquial, com o componente retraído localizado na altura da diáfise umeral, existindo importante edema e hemoderivados preenchendo seu curso esperado. A separação entre os componentes do tendão é de cerca de _ cm. Edema peritendinoso de tecidos moles também é observado ao longo dos feixes neurovasculares medianos e vasos braquiais."
     word: true
 
   - trigger: "rotbicepsdistal"
     label: "Ruptura completa da porção distal do tendão"
-    replace: "Ruptura completa da porção distal do tendão do bíceps braquial, com retração proximal do coto tendíneo, localizado ao nível da diáfise umeral distal. Observa-se preenchimento do trajeto habitual do tendão por edema e conteúdo hemático. A distância entre o coto proximal do tendão e seu leito de inserção na tuberosidade radial é de aproximadamente 6,8 cm. Há edema de partes moles adjacentes, incluindo a topografia da tuberosidade radial."
+    replace: "Ruptura completa da porção distal do tendão do bíceps braquial, com retração proximal do coto tendíneo, localizado ao nível da diáfise umeral distal. Observa-se preenchimento do trajeto habitual do tendão por edema e conteúdo hemático. A distância entre o coto proximal do tendão e seu leito de inserção na tuberosidade radial é de aproximadamente _ cm. Há edema de partes moles adjacentes, incluindo a topografia da tuberosidade radial."
     word: true
 
   - trigger: "rotmacica"
@@ -2331,12 +2331,12 @@ matches:
 
   - trigger: "rotsupra2"
     label: "Rotura parcial do tendão do supraespinhal, estendendo-se"
-    replace: "Rotura parcial do tendão do supraespinhal, estendendo-se às fibras transicionais do infraespinhal, associada à retração do coto tendíneo em aproximadamente 0,6 cm. Observam-se sinais de tendinopatia no segmento remanescente."
+    replace: "Rotura parcial do tendão do supraespinhal, estendendo-se às fibras transicionais do infraespinhal, associada à retração do coto tendíneo em aproximadamente _ cm. Observam-se sinais de tendinopatia no segmento remanescente."
     word: true
 
   - trigger: "rotsupra3"
     label: "Rotura transfixante do supraespinhal"
-    replace: "Rotura transfixante de toda a extensão do supraespinhal e de pequeno segmento de fibras superiores do infraespinhal, com retração de 1,8 cm do coto tendíneo. Tendinopatia das fibras remanescentes do infraespinhal. Associa-se moderada hipotrofia do ventre muscular do supraespinhal."
+    replace: "Rotura transfixante de toda a extensão do supraespinhal e de pequeno segmento de fibras superiores do infraespinhal, com retração de _ cm do coto tendíneo. Tendinopatia das fibras remanescentes do infraespinhal. Associa-se moderada hipotrofia do ventre muscular do supraespinhal."
     word: true
 
   - trigger: "rottclb"
@@ -2622,7 +2622,7 @@ matches:
 
   - trigger: "encon"
     label: "Encondroma"
-    replace: "Formação nodular lobulada sem sinais de agressividade, medindo aproximadamente 1,7 cm, localizada na região metaepifisária da tíbia, exibindo características de matriz condral, podendo corresponder a encondroma."
+    replace: "Formação nodular lobulada sem sinais de agressividade, medindo aproximadamente _ cm, localizada na região metaepifisária da tíbia, exibindo características de matriz condral, podendo corresponder a encondroma."
     word: true
 
   - trigger: "esplca"
@@ -2665,7 +2665,7 @@ matches:
 
   - trigger: "hemangiintramuscular"
     label: "Hemossiderina / calcificações"
-    replace: "Extensa formação expansiva de aspecto infiltrativo, centrada no ventre muscular do glúteo médio direito, estendendo-se para os ventres musculares do quadrado femoral, glúteo mínimo e parte da musculatura adutora ipsilaterais, caracterizada por marcado hipersinal em T2, isossinal em T1 com impregnação significativa pelo gadolínio, de difícil mensuração pelo método, com extensão de cerca de 20,0 cm. Observam-se ainda pequenos focos de baixo sinal em T2 no interior da lesão, sugestivos de hemossiderina / calcificações. Tal lesão mantém contato com o trajeto glúteo do nervo ciático, tendões isquiotibiais e do glúteo médio. Os achados não são específicos, mas a possibilidade de angiodisplasia deve ser considerada (possível hemangioma). Os diagnósticos diferenciais devem ser aplicados."
+    replace: "Extensa formação expansiva de aspecto infiltrativo, centrada no ventre muscular do glúteo médio direito, estendendo-se para os ventres musculares do quadrado femoral, glúteo mínimo e parte da musculatura adutora ipsilaterais, caracterizada por marcado hipersinal em T2, isossinal em T1 com impregnação significativa pelo gadolínio, de difícil mensuração pelo método, com extensão de cerca de _ cm. Observam-se ainda pequenos focos de baixo sinal em T2 no interior da lesão, sugestivos de hemossiderina / calcificações. Tal lesão mantém contato com o trajeto glúteo do nervo ciático, tendões isquiotibiais e do glúteo médio. Os achados não são específicos, mas a possibilidade de angiodisplasia deve ser considerada (possível hemangioma). Os diagnósticos diferenciais devem ser aplicados."
     word: true
 
   - trigger: "hipertalonavicular"
@@ -2760,7 +2760,7 @@ matches:
 
   - trigger: "morton1"
     label: "Neuroma de Morton"
-    replace: "Formação nodular no segundo espaço interdigital medindo 0,9 cm, insinuando-se sob as cabeças metatarsais, sugerindo neuroma de Morton."
+    replace: "Formação nodular no segundo espaço interdigital medindo _ cm, insinuando-se sob as cabeças metatarsais, sugerindo neuroma de Morton."
     word: true
 
   - trigger: "morton2"
@@ -2772,7 +2772,7 @@ matches:
 
   - trigger: "morton3"
     label: "Neuroma de Morton"
-    replace: "Obliteração da gordura subcutânea plantar do segundo espaço interdigital, identificando-se lesão nodular, projetando-se sob as cabeças metatarsais, medindo cerca de 1,0 cm, sugerindo neuroma de Morton."
+    replace: "Obliteração da gordura subcutânea plantar do segundo espaço interdigital, identificando-se lesão nodular, projetando-se sob as cabeças metatarsais, medindo cerca de _ cm, sugerindo neuroma de Morton."
     word: true
 
   - trigger: "navi2rm"
@@ -2802,14 +2802,14 @@ matches:
 
   - trigger: "osteocondroma1"
     label: "Bursa exostótica"
-    replace: "Pequeno osteocondroma na região metadiafisária medial da tíbia proximal, medindo cerca de 1,5 cm, de aspecto séssil, com margens bem definidas, apresentando delgado capuz cartilaginoso, medindo cerca de 0,3 cm, notando-se fina lâmina líquida margeando a lesão, compatível com bursa exostótica."
+    replace: "Pequeno osteocondroma na região metadiafisária medial da tíbia proximal, medindo cerca de _ cm, de aspecto séssil, com margens bem definidas, apresentando delgado capuz cartilaginoso, medindo cerca de _ cm, notando-se fina lâmina líquida margeando a lesão, compatível com bursa exostótica."
     word: true
 
   - trigger: "osteocondroma2"
     label: "Bursa exostótica"
     replace: |-
       Dois osteocondromas na região metadiafisária distal da tíbia, de aspecto séssil, com margens bem definidas, sem sinais de agressividade ou comprometimento cortical, apresentando delgado capuz cartilaginoso, assim distribuídos:
-      - no aspecto medial medindo cerca de 3,0 x 1,8 cm, notando-se fina lâmina líquida margeando a lesão, compatível com bursa exostótica;
+      - no aspecto medial medindo cerca de _ cm, notando-se fina lâmina líquida margeando a lesão, compatível com bursa exostótica;
     word: true
 
   - trigger: "osteomielitecronicarm1"
@@ -2895,12 +2895,12 @@ matches:
 
   - trigger: "rmhemangioma"
     label: "Hemangioma intramuscular"
-    replace: "Lesão nodular intramuscular lobulada, bem circunscrita, medindo cerca de 3,1 x 1,9 x 1,6 cm, localizada no ventre do músculo sóleo, na altura do terço médio da diáfise tibial, caracterizada por isossinal na ponderação T1, hiperintensa em T2/STIR. As sequências pós-contraste mostram realce progressivo e heterogêneo da lesão, existindo aparente comunicação de estrutura vascular de drenagem para as veias fibulares e tibial posterior."
+    replace: "Lesão nodular intramuscular lobulada, bem circunscrita, medindo cerca de _ cm, localizada no ventre do músculo sóleo, na altura do terço médio da diáfise tibial, caracterizada por isossinal na ponderação T1, hiperintensa em T2/STIR. As sequências pós-contraste mostram realce progressivo e heterogêneo da lesão, existindo aparente comunicação de estrutura vascular de drenagem para as veias fibulares e tibial posterior."
     word: true
 
   - trigger: "rotcalcaneo"
     label: "Tendinopatia do calcâneo, com área de descontinuidade"
-    replace: "Tendinopatia do calcâneo, com área de descontinuidade que se inicia a 3,2 cm de sua inserção, apresentando gap de 3,7 cm, inferindo rotura de alto grau. Existem poucas fibras íntegras no aspecto posterior e lateral do tendão. As extremidades dos cotos tendíneos apresentam-se com margens irregulares e alteração do sinal. Importante edema/hemorragia de tecidos moles adjacentes."
+    replace: "Tendinopatia do calcâneo, com área de descontinuidade que se inicia a _ cm de sua inserção, apresentando gap de _ cm, inferindo rotura de alto grau. Existem poucas fibras íntegras no aspecto posterior e lateral do tendão. As extremidades dos cotos tendíneos apresentam-se com margens irregulares e alteração do sinal. Importante edema/hemorragia de tecidos moles adjacentes."
     word: true
 
   - trigger: "rotcir"
@@ -2930,7 +2930,7 @@ matches:
 
   - trigger: "rotpatelar"
     label: "Ruptura completa do tendão patelar em sua"
-    replace: "Ruptura completa do tendão patelar em sua origem, estando o coto tendíneo retraído, com alteração do sinal, a cerca de 2,0 cm do polo inferior da patela. Como resultado, a patela está elevada (patela alta). Nenhuma fratura por avulsão óssea foi identificada. Nota-se hematoma em região infrapatelar com lesão intersticial do complexo retinacular medial."
+    replace: "Ruptura completa do tendão patelar em sua origem, estando o coto tendíneo retraído, com alteração do sinal, a cerca de _ cm do polo inferior da patela. Como resultado, a patela está elevada (patela alta). Nenhuma fratura por avulsão óssea foi identificada. Nota-se hematoma em região infrapatelar com lesão intersticial do complexo retinacular medial."
     word: true
 
   - trigger: "rotrad"
@@ -3008,7 +3008,7 @@ matches:
 
   - trigger: "aneu"
     label: "Aneurisma sacular de carótida interna"
-    replace: "Imagem sacular em adição ao segmento supraclinoide (C6) da artéria carótida interna esquerda, medindo 0,3 cm com colo de 0,3 cm, sugestiva de aneurisma."
+    replace: "Imagem sacular em adição ao segmento supraclinoide (C6) da artéria carótida interna esquerda, medindo _ cm com colo de _ cm, sugestiva de aneurisma."
     word: true
 
   - trigger: "atero"
@@ -3038,7 +3038,7 @@ matches:
 
   - trigger: "hemangiparede"
     label: "Pequenas áreas de substituição gordurosa"
-    replace: "Proeminência de estruturas vasculares com aspecto serpiginoso, centrada nos planos subcutâneos superficial e profundo em flanco esquerdo, caracterizada por pequenas áreas de substituição gordurosa, com focos de baixo sinal em todas as sequências de pulso, sugerindo hemossiderina/calcificações, exibindo realce de aspecto heterogêneo pelo meio de contraste endovenoso, apresentando vasos de drenagem para as veias femorais. A lesão mede 15,2 x 10,5 x 6,4 cm e mantém contato com a fáscia do músculo oblíquo externo ipsilateral, sem sinais de infiltração. Tais achados não são específicos, mas a possibilidade de angiodisplasia deve ser considerada (possível hemangioma)."
+    replace: "Proeminência de estruturas vasculares com aspecto serpiginoso, centrada nos planos subcutâneos superficial e profundo em flanco esquerdo, caracterizada por pequenas áreas de substituição gordurosa, com focos de baixo sinal em todas as sequências de pulso, sugerindo hemossiderina/calcificações, exibindo realce de aspecto heterogêneo pelo meio de contraste endovenoso, apresentando vasos de drenagem para as veias femorais. A lesão mede _ cm e mantém contato com a fáscia do músculo oblíquo externo ipsilateral, sem sinais de infiltração. Tais achados não são específicos, mas a possibilidade de angiodisplasia deve ser considerada (possível hemangioma)."
     word: true
 
   - trigger: "naogad"
@@ -3063,7 +3063,7 @@ matches:
 
   - trigger: "varicocele"
     label: "Dilatação e tortuosidade de vasos do plexo pampiniforme"
-    replace: "Dilatação e tortuosidade de vasos do plexo pampiniforme, que assumem aspecto serpiginoso, medindo em repouso 0,3 cm (VR < 0,2-0,3 cm) e acentuando-se com as manobras de Valsalva, resultando em calibre de até 0,4 cm, associadas a refluxo valvar por mais de 2 segundos, bilateralmente (grau IV), notadamente à esquerda."
+    replace: "Dilatação e tortuosidade de vasos do plexo pampiniforme, que assumem aspecto serpiginoso, medindo em repouso _ cm (VR < 0,2-0,3 cm) e acentuando-se com as manobras de Valsalva, resultando em calibre de até _ cm, associadas a refluxo valvar por mais de 2 segundos, bilateralmente (grau IV), notadamente à esquerda."
     word: true
 
   - trigger: "varizesglut"
@@ -3087,10 +3087,10 @@ matches:
       Tronco celíaco e artéria mesentérica superior pérvios, sem sinais de estenose.
       Artéria mesentérica inferior pérvia.
       Os maiores diâmetros dos seguintes segmentos vasculares medem:
-      Transição toracoabdominal aórtica: 2,3 x 2,2 cm.
-      Aorta abdominal na altura da emergência das artérias renais: 1,8 x 1,6 cm.
-      Segmento infrarrenal da aorta abdominal: 1,5 x 1,3 cm.
-      Artérias ilíacas comuns com trajeto e calibre normais, com calibre de 1,0 cm à direita e 1,0 cm à esquerda.
+      Transição toracoabdominal aórtica: _ cm.
+      Aorta abdominal na altura da emergência das artérias renais: _ cm.
+      Segmento infrarrenal da aorta abdominal: _ cm.
+      Artérias ilíacas comuns com trajeto e calibre normais, com calibre de _ cm à direita e _ cm à esquerda.
       Cada rim é irrigado por apenas uma artéria hilar principal, ambas pérvias.
       Artéria renal direita única, pérvia e sem evidências de estenose.
       Artéria renal esquerda única, pérvia e sem evidências de estenose.
@@ -3132,10 +3132,10 @@ matches:
       Análise:
       Não há sinais de formação aneurismática, lâmina de dissecção ou estenose na aorta abdominal.
       Os maiores diâmetros dos seguintes segmentos vasculares medem:
-      Transição toracoabdominal aórtica: 1,2 cm.
-      Aorta abdominal na altura da emergência das artérias renais: 1,0 cm.
-      Segmento infrarrenal da aorta abdominal: 1,0 cm.
-      Artérias ilíacas comuns com trajeto e calibre normais, com calibre de 0,7 cm à direita e 0,7 cm à esquerda.
+      Transição toracoabdominal aórtica: _ cm.
+      Aorta abdominal na altura da emergência das artérias renais: _ cm.
+      Segmento infrarrenal da aorta abdominal: _ cm.
+      Artérias ilíacas comuns com trajeto e calibre normais, com calibre de _ cm à direita e _ cm à esquerda.
       Rins em topografia habitual, com morfologia e intensidade de sinal parenquimatosa preservadas.
       Cada rim é irrigado por apenas uma artéria hilar principal, ambas pérvias.
       Não se observam vasos renais anômalos.
@@ -3198,8 +3198,8 @@ matches:
 
       Análise:
       Espessamento e alteração de sinal da pele e do tecido subcutâneo da região periorbital esquerda, com extensão à gordura dos espaços pré e pós-septais e comprometimento do compartimento extraconal da órbita ipsilateral, com intensa impregnação pelo meio de contraste paramagnético, podendo corresponder a celulite.
-      Coleção sugestiva de abscesso, com volume aproximado de 5,3 cm³, localizada no espaço extraconal do canto superolateral da órbita esquerda, com extensão ao tecido subcutâneo, determinando proptose. Nota-se ainda espessamento e impregnação pelo gadolínio do ventre muscular reto superior, porém sem sinais de comprometimento das estruturas intraconais.
-      Alteração do sinal da parte orbital do osso frontal esquerdo, com espessamento e realce paquimeníngeo, estendendo-se junto ao lobo frontal ipsilateral, identificando-se coleção laminar sugestiva de empiema, medindo 1,5 x 0,6 cm. Associa-se alteração do sinal do parênquima cerebral adjacente que pode corresponder a cerebrite.
+      Coleção sugestiva de abscesso, com volume aproximado de _ cm³, localizada no espaço extraconal do canto superolateral da órbita esquerda, com extensão ao tecido subcutâneo, determinando proptose. Nota-se ainda espessamento e impregnação pelo gadolínio do ventre muscular reto superior, porém sem sinais de comprometimento das estruturas intraconais.
+      Alteração do sinal da parte orbital do osso frontal esquerdo, com espessamento e realce paquimeníngeo, estendendo-se junto ao lobo frontal ipsilateral, identificando-se coleção laminar sugestiva de empiema, medindo _ cm. Associa-se alteração do sinal do parênquima cerebral adjacente que pode corresponder a cerebrite.
       Material de alto sinal em T2, preenchendo o seio frontal notadamente à esquerda, mantendo proximidade com a coleção periorbitária acima detalhada.
       Globo ocular direito, de contornos regulares apresentando sinal de aspecto normal.
       Nervos ópticos e gordura intraconal preservados.
@@ -3363,11 +3363,11 @@ matches:
       - topografia da inserção dos ligamentos uterossacros;
       - fossas ovarianas bilaterais com sinais de hematossalpinge à direita;
       - trajeto dos plexos hipogástricos;
-      - parede anterior do coto do retossigmoide com acometimento da camada muscular estimado em mais de 50% da circunferência, por cerca de 6,1 cm de extensão, iniciando-se a 7,5 cm da borda anal;
-      - apresenta contato com a parede posterossuperior da bexiga urinária, que se apresenta retraída posteriormente, exibindo paredes espessadas, destacando-se área nodular junto à junção ureterovesical esquerda, medindo cerca de 1,5 cm, com sinais de envolvimento do terço distal do ureter ipsilateral.
+      - parede anterior do coto do retossigmoide com acometimento da camada muscular estimado em mais de 50% da circunferência, por cerca de _ cm de extensão, iniciando-se a _ cm da borda anal;
+      - apresenta contato com a parede posterossuperior da bexiga urinária, que se apresenta retraída posteriormente, exibindo paredes espessadas, destacando-se área nodular junto à junção ureterovesical esquerda, medindo cerca de _ cm, com sinais de envolvimento do terço distal do ureter ipsilateral.
       Alças ileais insinuadas na pelve, junto ao tecido de aspecto retrátil acima descrito na loja uterina, podendo representar traves aderenciais e/ou endometriose.
-      Trajeto fistuloso iniciando-se na região retrocervical posterior que cursa superiormente à bexiga urinária e exterioriza-se na pele da região hipogástrica que pode representar fístula colocutânea. Descontinuidade da parede abdominal anterior hipogástrica, medindo cerca de 11,0 cm, com insinuação de alças intestinais delgadas, acoladas à superfície anterior do peritônio e em íntimo contato com a pele, sem componente obstrutivo.
-      Remanescente uterino medindo 6,0 x 5,1 x 4,0 cm, volume estimado em 64,0 cm³, centralizado, apresentando focos hiperintensos na ponderação T1 que podem representar endometriose ou conteúdo hemático.
+      Trajeto fistuloso iniciando-se na região retrocervical posterior que cursa superiormente à bexiga urinária e exterioriza-se na pele da região hipogástrica que pode representar fístula colocutânea. Descontinuidade da parede abdominal anterior hipogástrica, medindo cerca de _ cm, com insinuação de alças intestinais delgadas, acoladas à superfície anterior do peritônio e em íntimo contato com a pele, sem componente obstrutivo.
+      Remanescente uterino medindo _ cm, volume estimado em _ cm³, centralizado, apresentando focos hiperintensos na ponderação T1 que podem representar endometriose ou conteúdo hemático.
       Pequena quantidade de líquido livre na cavidade pélvica.
 
       OPINIÃO:
@@ -3377,10 +3377,10 @@ matches:
       - topografia da inserção dos ligamentos uterossacros;
       - fossas ovarianas bilaterais com sinais de hematossalpinge à direita;
       - trajeto dos plexos hipogástricos;
-      - parede anterior do coto do retossigmoide com acometimento da camada muscular estimado em mais de 50% da circunferência, por cerca de 6,1 cm de extensão, iniciando-se a 7,5 cm da borda anal;
-      - apresenta contato com a parede posterossuperior da bexiga urinária, que se apresenta retraída posteriormente, exibindo paredes espessadas, destacando-se área nodular junto à junção ureterovesical esquerda, medindo cerca de 1,5 cm, com sinais de envolvimento do terço distal do ureter ipsilateral.
+      - parede anterior do coto do retossigmoide com acometimento da camada muscular estimado em mais de 50% da circunferência, por cerca de _ cm de extensão, iniciando-se a _ cm da borda anal;
+      - apresenta contato com a parede posterossuperior da bexiga urinária, que se apresenta retraída posteriormente, exibindo paredes espessadas, destacando-se área nodular junto à junção ureterovesical esquerda, medindo cerca de _ cm, com sinais de envolvimento do terço distal do ureter ipsilateral.
       Alças ileais insinuadas na pelve, junto ao tecido de aspecto retrátil acima descrito na loja uterina, podendo representar traves aderenciais e/ou endometriose.
-      Trajeto fistuloso iniciando-se na região retrocervical posterior que cursa superiormente à bexiga urinária e exterioriza-se na pele da região hipogástrica que pode representar fístula colocutânea. Descontinuidade da parede abdominal anterior hipogástrica, medindo cerca de 11,0 cm, com insinuação de alças intestinais delgadas, acoladas à superfície anterior do peritônio e em íntimo contato com a pele, sem componente obstrutivo.
+      Trajeto fistuloso iniciando-se na região retrocervical posterior que cursa superiormente à bexiga urinária e exterioriza-se na pele da região hipogástrica que pode representar fístula colocutânea. Descontinuidade da parede abdominal anterior hipogástrica, medindo cerca de _ cm, com insinuação de alças intestinais delgadas, acoladas à superfície anterior do peritônio e em íntimo contato com a pele, sem componente obstrutivo.
       Remanescente uterino, apresentando focos hiperintensos na ponderação T1 que podem representar endometriose ou conteúdo hemático.
       Pequena quantidade de líquido livre na cavidade pélvica.
     word: true
@@ -3394,11 +3394,11 @@ matches:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel para distender o reto e o canal vaginal.
 
       ANÁLISE:
-      Estrias fibroaderenciais no espaço retrocervical posterior, determinando retração do reto médio, com sinais de infiltração nas camadas mais profundas deste segmento intestinal, medindo cerca de 2,7 cm, distando 10,5 cm da borda anal.
+      Estrias fibroaderenciais no espaço retrocervical posterior, determinando retração do reto médio, com sinais de infiltração nas camadas mais profundas deste segmento intestinal, medindo cerca de _ cm, distando _ cm da borda anal.
       Espessamento irregular das reflexões peritoneais no recesso vesicouterino, bem como dos ligamentos redondos e uterossacros, achados que podem estar relacionados a endometriose.
       Retrações capsulares ovarianas determinadas por traves aderenciais, destacando-se:
-      - lesão endometriótica, de aspecto retrátil, com maior componente fibrótico e hipossinal em T2, localizada na região anexial esquerda, com componente na região paracervical ipsilateral, medindo 2,2 x 2,0 cm, estende-se para a cápsula ovariana homolateral, onde determina desvio medial e posterior do eixo do ovário;
-      - lesão endometriótica, de aspecto retrátil, com maior componente fibrótico e hipossinal em T2, localizada na região anexial direita, medindo 2,5 x 2,3 cm, estende-se para a cápsula ovariana homolateral, bem como alguns segmentos de alças intestinais delgadas adjacentes.
+      - lesão endometriótica, de aspecto retrátil, com maior componente fibrótico e hipossinal em T2, localizada na região anexial esquerda, com componente na região paracervical ipsilateral, medindo _ cm, estende-se para a cápsula ovariana homolateral, onde determina desvio medial e posterior do eixo do ovário;
+      - lesão endometriótica, de aspecto retrátil, com maior componente fibrótico e hipossinal em T2, localizada na região anexial direita, medindo _ cm, estende-se para a cápsula ovariana homolateral, bem como alguns segmentos de alças intestinais delgadas adjacentes.
       Ovário direito mede _ cm com volume de _ cm³.
       Ovário esquerdo mede _ cm com volume de _ cm³.
       Bexiga com moderada repleção e conteúdo de sinal homogêneo.
@@ -3424,17 +3424,17 @@ matches:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel para distender o reto e o canal vaginal.
 
       ANÁLISE:
-      Lesão endometriótica, de aspecto retrátil, com maior componente fibrótico e hipossinal em T2, localizada no espaço retrocervical posterior, determinando retração do reto médio, com sinais de infiltração nas camadas mais profundas deste segmento intestinal, medindo cerca de 2,7 cm, distando 7,5 cm da borda anal.
+      Lesão endometriótica, de aspecto retrátil, com maior componente fibrótico e hipossinal em T2, localizada no espaço retrocervical posterior, determinando retração do reto médio, com sinais de infiltração nas camadas mais profundas deste segmento intestinal, medindo cerca de _ cm, distando _ cm da borda anal.
       Lesões endometrióticas, de aspecto retrátil, com maior componente fibrótico e hipossinal em T2, localizadas no recesso vesicouterino, cúpula vaginal posterior, bem como nos ligamentos redondos e uterossacros.
       Retrações capsulares ovarianas determinadas por traves aderenciais, promovendo desvio medial/posterior do eixo dos ovários.
-      Ovários de dimensões preservadas, com sinal heterogêneo do parênquima, à custa de lesões císticas, algumas com sombreamento na ponderação T2, sugerindo endometriomas, a maior à direita medindo 2,7 cm.
-      Ovário direito mede 3,0 x 3,0 x 2,7 cm com volume de 12,7 cm³.
-      Ovário esquerdo mede 2,8 x 2,5 x 2,5 cm com volume de 9,1 cm³.
+      Ovários de dimensões preservadas, com sinal heterogêneo do parênquima, à custa de lesões císticas, algumas com sombreamento na ponderação T2, sugerindo endometriomas, a maior à direita medindo _ cm.
+      Ovário direito mede _ cm com volume de _ cm³.
+      Ovário esquerdo mede _ cm com volume de _ cm³.
       Bexiga com boa repleção e conteúdo de sinal homogêneo.
-      Útero em anteversoflexão, centralizado, com dimensões habituais, apresentando duas lesões nodulares, na parede corporal posterior, sugestivas de leiomiomas, a maior medindo 1,1 cm.
-      Útero mede 6,7 x 5,4 x 4,3 cm, volume estimado em 81,3 cm³.
+      Útero em anteversoflexão, centralizado, com dimensões habituais, apresentando duas lesões nodulares, na parede corporal posterior, sugestivas de leiomiomas, a maior medindo _ cm.
+      Útero mede _ cm, volume estimado em _ cm³.
       Zona juncional com intensidade de sinal e espessura mantidas.
-      Endométrio centrado e homogêneo, com espessura de 0,2 cm.
+      Endométrio centrado e homogêneo, com espessura de _ cm.
       Pequena quantidade de líquido livre na cavidade pélvica.
       Ausência de linfonodomegalias na cavidade pélvica.
 
@@ -3508,7 +3508,7 @@ matches:
       Ausência de linfonodomegalias.
       Não há líquido livre na cavidade pélvica.
       Bexiga com boa repleção e conteúdo de sinal homogêneo.
-      Útero com dimensões e intensidade de sinal preservadas, com gordura periprostática de aspecto habitual.
+      Útero com dimensões e intensidade de sinal preservadas, com gordura periuterina de aspecto habitual.
       Cistos ovarianos bilaterais, com septos internos e aspecto sugestivo de neoplasia cística de origem epitelial, melhor avaliados por estudo direcionado.
       Ovários deslocados lateralmente.
       Cistos de Bartholin na região perineal.
@@ -3531,7 +3531,7 @@ matches:
       Estadiamento de neoplasia de próstata.
 
       DESCRIÇÃO:
-      Próstata de dimensões aumentadas, medindo 5,6 x 4,7 x 4,1 cm, com volume de 56,1 cm³, apresentando intensidade de sinal heterogênea do parênquima, com gordura periprostática de aspecto habitual. Há insinuação do lobo médio no assoalho vesical.
+      Próstata de dimensões aumentadas, medindo _ cm, com volume de _ cm³, apresentando intensidade de sinal heterogênea do parênquima, com gordura periprostática de aspecto habitual. Há insinuação do lobo médio no assoalho vesical.
       Vesículas seminais de aspecto normal.
       Bexiga em boa repleção, de paredes discretamente espessadas e irregulares, com conteúdo de sinal homogêneo. Gordura perivesical preservada.
       Não há evidências de linfonodomegalias.
@@ -3564,7 +3564,7 @@ matches:
 
       DESCRIÇÃO:
 
-      Próstata com volume aumentado (72,6 cm³), mostrando sinal do parênquima difusamente heterogêneo, destacando-se lesão nodular infiltrativa na zona periférica à direita, de limites mal definidos, com sinais de invasão capsular ipsilateral e extensão para a gordura adjacente, além de comprometimento do aspecto central das vesículas seminais.
+      Próstata com volume aumentado (_ cm³), mostrando sinal do parênquima difusamente heterogêneo, destacando-se lesão nodular infiltrativa na zona periférica à direita, de limites mal definidos, com sinais de invasão capsular ipsilateral e extensão para a gordura adjacente, além de comprometimento do aspecto central das vesículas seminais.
 
       Bexiga em boa repleção, de paredes espessadas e irregulares, com conteúdo de sinal homogêneo. Gordura perivesical preservada.
 
@@ -3603,7 +3603,7 @@ matches:
       Estadiamento de neoplasia de próstata.
 
       DESCRIÇÃO:
-      Próstata de dimensões normais, medindo 3,3 x 3,1 x 2,2 cm, com volume de 11,7 cm³, apresentando intensidade de sinal discretamente heterogênea do parênquima, com gordura periprostática de aspecto habitual.
+      Próstata de dimensões normais, medindo _ cm, com volume de _ cm³, apresentando intensidade de sinal discretamente heterogênea do parênquima, com gordura periprostática de aspecto habitual.
       Vesículas seminais de aspecto normal.
       Bexiga em boa repleção, de paredes discretamente espessadas e irregulares, com conteúdo de sinal homogêneo. Gordura perivesical preservada.
       Não há evidências de linfonodomegalias.
@@ -3636,7 +3636,7 @@ matches:
       Pequenos cistos ósseos na cabeça umeral, notadamente no tubérculo maior, relacionados à tração crônica.
       Artropatia glenoumeral incipiente.
       Demais estruturas ósseas com morfologia e sinal medular conservados.
-      Rotura transfixante em toda a extensão dos tendões supraespinhal e infraespinhal, com retração aproximada de 3,9 cm. Associam-se sinais de atrofia gordurosa dos respectivos ventres musculares.
+      Rotura transfixante em toda a extensão dos tendões supraespinhal e infraespinhal, com retração aproximada de _ cm. Associam-se sinais de atrofia gordurosa dos respectivos ventres musculares.
       Tendão subescapular espessado, com elevação do sinal, compatível com tendinopatia, notando-se pequenas fissuras laminares intrassubstanciais em suas fibras superiores.
       Tendão redondo menor de espessura e sinal preservados.
       Tendão do cabo longo do bíceps braquial centrado no sulco bicipital, preservado nos trajetos intra e extra-articular, com distensão líquida da bainha.
@@ -3665,7 +3665,7 @@ matches:
       Realizados cortes multiplanares com sequências ponderadas em T1, T2 e STIR.
 
       ANÁLISE:
-      Distorção focal e perda parcial do padrão fibrilar, com alteração de sinal em T2 e edema/hemorragia perifascial de grau moderado no terço médio do ventre muscular do reto femoral, estendendo-se por cerca de 7,6 x 2,4 x 2,2 cm, sem evidência de rotura tendínea.
+      Distorção focal e perda parcial do padrão fibrilar, com alteração de sinal em T2 e edema/hemorragia perifascial de grau moderado no terço médio do ventre muscular do reto femoral, estendendo-se por cerca de _ cm, sem evidência de rotura tendínea.
       Estruturas ósseas com morfologia e alinhamento dentro da normalidade.
       Restante das estruturas musculotendíneas com morfologia preservada.
       Feixes neurovasculares sem alterações.
@@ -3791,7 +3791,7 @@ matches:
 
       Artropatia degenerativa avançada femorotibial tricompartimental, caracterizada por redução dos espaços articulares, especialmente do compartimento lateral, associada a osteofitose marginal, hipertrofia das eminências tibiais, erosões subcondrais/cistos. Destaca-se ainda moderado derrame articular com espessamento sinovial, sugerindo processo inflamatório associado.
 
-      Imagem sugestiva de cisto ósseo na região diafisária do fêmur distal, medindo cerca de 2,0 cm.
+      Imagem sugestiva de cisto ósseo na região diafisária do fêmur distal, medindo cerca de _ cm.
 
       Alteração discreta do sinal da medular óssea na diáfise proximal da fíbula, inespecífica.
 
@@ -3811,7 +3811,7 @@ matches:
 
       Tendões quadricipital e patelar sem particularidades.
 
-      Cisto de Baker roto, dissecando a fáscia do gastrocnêmio medial, existindo corpo livre que mediu cerca de 1,0 cm.
+      Cisto de Baker roto, dissecando a fáscia do gastrocnêmio medial, existindo corpo livre que mediu cerca de _ cm.
 
       Tendinopatia da pata anserina e do gastrocnêmio medial.
 
@@ -3860,8 +3860,8 @@ matches:
 
       Análise:
 
-      Lesão hipovascular, de limites pouco definidos, apresentando realce progressivo pelo meio de contraste paramagnético endovenoso e restrição à difusão, medindo cerca de 4,5 x 4,4 x 4,1 cm, localizada junto à confluência dos ductos biliares, com amputação do sinal dos mesmos, promovendo dilatação das vias biliares intra-hepáticas. Há íntimo contato da lesão com a veia porta. Associa-se aumento do número e das dimensões de linfonodos mesentéricos, celíacos, retroperitoneais, com linfonodomegalia no hilo hepático, medindo até 1,1 cm no menor eixo.
-      Três pequenas imagens nodulares hepáticas hipovasculares, a maior localizada no segmento II, medindo 1,0 cm, sugestivas de implantes neoplásicos secundários.
+      Lesão hipovascular, de limites pouco definidos, apresentando realce progressivo pelo meio de contraste paramagnético endovenoso e restrição à difusão, medindo cerca de _ cm, localizada junto à confluência dos ductos biliares, com amputação do sinal dos mesmos, promovendo dilatação das vias biliares intra-hepáticas. Há íntimo contato da lesão com a veia porta. Associa-se aumento do número e das dimensões de linfonodos mesentéricos, celíacos, retroperitoneais, com linfonodomegalia no hilo hepático, medindo até _ cm no menor eixo.
+      Três pequenas imagens nodulares hepáticas hipovasculares, a maior localizada no segmento II, medindo _ cm, sugestivas de implantes neoplásicos secundários.
       Vesícula biliar hipodistendida.
       Pâncreas com dimensões, forma e sinal preservados. Não há dilatação do ducto pancreático principal.
       Baço, adrenais e rins sem particularidades.
@@ -3883,12 +3883,12 @@ matches:
 
       DESCRIÇÃO:
       Status pós-colecistectomia, com pequena quantidade de líquido no leito vesicular.
-      Discreta dilatação de vias biliares intra-hepáticas. Estenose abrupta do ducto hepático comum, cerca de 1,1 cm abaixo da confluência dos ductos biliares principais direito e esquerdo, estendendo-se por aproximadamente 3,0 cm.
+      Discreta dilatação de vias biliares intra-hepáticas. Estenose abrupta do ducto hepático comum, cerca de _ cm abaixo da confluência dos ductos biliares principais direito e esquerdo, estendendo-se por aproximadamente _ cm.
       Ducto pancreático principal com trajeto, calibre e intensidade de sinal preservados.
 
       OPINIÃO:
       Status pós-colecistectomia, com pequena quantidade de líquido no leito vesicular.
-      Discreta dilatação de vias biliares intra-hepáticas. Estenose abrupta do ducto hepático comum, cerca de 1,1 cm abaixo da confluência dos ductos biliares principais direito e esquerdo, estendendo-se por aproximadamente 3,0 cm, que pode corresponder a pequeno cálculo residual ou lesão de via biliar relacionada ao procedimento cirúrgico.
+      Discreta dilatação de vias biliares intra-hepáticas. Estenose abrupta do ducto hepático comum, cerca de _ cm abaixo da confluência dos ductos biliares principais direito e esquerdo, estendendo-se por aproximadamente _ cm, que pode corresponder a pequeno cálculo residual ou lesão de via biliar relacionada ao procedimento cirúrgico.
     word: true
 
   - trigger: "luxpat1"
@@ -4036,7 +4036,7 @@ matches:
       Técnica: cortes multiplanares adquiridos antes e após a injeção de meio de contraste intravenoso. Realizado protocolo dirigido para avaliação de tumor do reto / canal anal.
 
       Análise:
-      Lesão sólida expansiva semi-anular no reto baixo e canal anal, projetando-se através da borda anal e estendendo-se superiormente até 3,6 cm acima do anel anorretal, com extensão total de 7,1 cm e borda proximal 5,0 cm abaixo da reflexão peritoneal.
+      Lesão sólida expansiva semi-anular no reto baixo e canal anal, projetando-se através da borda anal e estendendo-se superiormente até _ cm acima do anel anorretal, com extensão total de _ cm e borda proximal _ cm abaixo da reflexão peritoneal.
       A borda mais infiltrativa da lesão localiza-se das 02h às 09h e infiltra o esfíncter externo entre 06 e 08h (plano interesfincteriano comprometido).
       A lesão é coincidente à fáscia mesorretal em seu aspecto superior (fáscia mesorretal comprometida).
       Não se caracterizam linfonodos acometidos nas cadeias inguinais/ilíacas externas/ilíacas internas e ilíacas comuns.
@@ -4055,16 +4055,16 @@ matches:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel para distender o reto e o canal vaginal.
 
       ANÁLISE:
-      Lesão expansiva neoplásica, de aspecto infiltrativo, distando cerca de 4,7 cm da borda anal, com maior componente no espaço pré-sacral, mesorreto e fossas isquioanais, comprometendo toda a extensão do reto com estenose luminal do mesmo. Tal lesão invade a parede posterior da vagina com obstrução da luz do órgão, mantendo contato com a parede posterior do colo e do corpo uterinos. A lesão projeta-se nos planos musculoadiposos da região glútea bilateralmente, acompanhada de múltiplas coleções, por vezes confluentes, predominando no subcutâneo, sugestivas de abscessos. Nota-se ainda aparente comprometimento das últimas peças coccígeas.
-      Associa-se aumento do número e dimensões de linfonodos pararretais, retais superiores e ilíacos, medindo até 1,9 cm no menor eixo.
+      Lesão expansiva neoplásica, de aspecto infiltrativo, distando cerca de _ cm da borda anal, com maior componente no espaço pré-sacral, mesorreto e fossas isquioanais, comprometendo toda a extensão do reto com estenose luminal do mesmo. Tal lesão invade a parede posterior da vagina com obstrução da luz do órgão, mantendo contato com a parede posterior do colo e do corpo uterinos. A lesão projeta-se nos planos musculoadiposos da região glútea bilateralmente, acompanhada de múltiplas coleções, por vezes confluentes, predominando no subcutâneo, sugestivas de abscessos. Nota-se ainda aparente comprometimento das últimas peças coccígeas.
+      Associa-se aumento do número e dimensões de linfonodos pararretais, retais superiores e ilíacos, medindo até _ cm no menor eixo.
       Bexiga com moderada repleção, paredes ligeiramente espessadas e conteúdo de sinal homogêneo.
-      Útero em anteversoflexão, centralizado, medindo 7,1 x 6,0 x 2,2 cm, com volume de 49,0 cm³, sem planos de clivagem com a lesão expansiva/infiltrativa acima detalhada.
-      Endométrio centrado e homogêneo, com espessura de 0,2 cm.
+      Útero em anteversoflexão, centralizado, medindo _ cm, com volume de _ cm³, sem planos de clivagem com a lesão expansiva/infiltrativa acima detalhada.
+      Endométrio centrado e homogêneo, com espessura de _ cm.
       Ovários não visibilizados.
       Alteração difusa do sinal dos planos gordurosos subcutâneos, além de líquido livre na cavidade abdominal, achados que sugerem sobrecarga hídrica.
 
       OPINIÃO:
-      Lesão expansiva neoplásica, de aspecto infiltrativo, distando cerca de 4,7 cm da borda anal, com maior componente no espaço pré-sacral, mesorreto e fossas isquioanais, comprometendo toda a extensão do reto com estenose luminal do mesmo. Tal lesão invade a parede posterior da vagina com obstrução da luz do órgão, mantendo contato com a parede posterior do colo e do corpo uterinos. A lesão projeta-se nos planos musculoadiposos da região glútea bilateralmente, acompanhada de múltiplas coleções, por vezes confluentes, predominando no subcutâneo, sugestivas de abscessos. Nota-se ainda aparente comprometimento das últimas peças coccígeas.
+      Lesão expansiva neoplásica, de aspecto infiltrativo, distando cerca de _ cm da borda anal, com maior componente no espaço pré-sacral, mesorreto e fossas isquioanais, comprometendo toda a extensão do reto com estenose luminal do mesmo. Tal lesão invade a parede posterior da vagina com obstrução da luz do órgão, mantendo contato com a parede posterior do colo e do corpo uterinos. A lesão projeta-se nos planos musculoadiposos da região glútea bilateralmente, acompanhada de múltiplas coleções, por vezes confluentes, predominando no subcutâneo, sugestivas de abscessos. Nota-se ainda aparente comprometimento das últimas peças coccígeas.
       Associa-se aumento do número e dimensões de linfonodos pararretais, retais superiores e ilíacos, suspeitos para acometimento neoplásico secundário.
     word: true
 
@@ -4077,7 +4077,7 @@ matches:
       Sequências multiplanares, ponderadas em T1 e T2, com contraste paramagnético endovenoso. Exame dirigido para a avaliação do reto.
 
       Relatório:
-      Lesão expansiva anular, sem conteúdo mucinoso, distando 10 cm da borda anal e cuja margem distal encontra-se 4 cm acima do anel anorretal. Estende-se por 6 cm e encontra-se acima da reflexão peritoneal.
+      Lesão expansiva anular, sem conteúdo mucinoso, distando _ cm da borda anal e cuja margem distal encontra-se _ cm acima do anel anorretal. Estende-se por _ cm e encontra-se acima da reflexão peritoneal.
 
       A borda infiltrativa da lesão é circunferencial. A lesão é restrita à camada muscular própria. Estádio T (RM): T2/T3a (< 1 mm).
 
@@ -4087,7 +4087,7 @@ matches:
 
       A menor margem de ressecção circunferencial é por disseminação direta do tumor localizada às 12 h.
 
-      A distância mínima do tumor à fáscia mesorretal é de 0,3 cm, e a margem de ressecção circunferencial está em risco.
+      A distância mínima do tumor à fáscia mesorretal é de _ cm, e a margem de ressecção circunferencial está em risco.
 
       Não há evidências de implantes peritoneais.
 
@@ -4113,11 +4113,11 @@ matches:
       Estadiamento de neoplasia de cólon sigmoide.
 
       DESCRIÇÃO:
-      Lesão expansiva sem conteúdo mucinoso, determinando espessamento parietal irregular subestenosante do cólon sigmoide, com borda infiltrativa circunferencial, extensão aproximada de 6,0 cm, distando cerca de 20,0 cm da borda anal. Há sinais de extensão da lesão de aproximadamente 0,6 cm além da camada muscular própria, bem como alteração do sinal dos planos adiposos adjacentes, com acentuada neoangiogênese.
+      Lesão expansiva sem conteúdo mucinoso, determinando espessamento parietal irregular subestenosante do cólon sigmoide, com borda infiltrativa circunferencial, extensão aproximada de _ cm, distando cerca de _ cm da borda anal. Há sinais de extensão da lesão de aproximadamente _ cm além da camada muscular própria, bem como alteração do sinal dos planos adiposos adjacentes, com acentuada neoangiogênese.
       Aumento do número de linfonodos adjacentes à lesão acima descrita, com ao menos 04 exibindo alteração de sinal em T2 e restrição à difusão, suspeitos para acometimento neoplásico secundário.
       Não há evidências de implantes peritoneais na região de estudo.
       Divertículos colônicos sem sinais inflamatórios.
-      Próstata medindo 5,2 x 3,6 x 2,9 cm, com volume de 28,2 cm³ e intensidade de sinal preservada, com gordura periprostática de aspecto habitual.
+      Próstata medindo _ cm, com volume de _ cm³ e intensidade de sinal preservada, com gordura periprostática de aspecto habitual.
       Vesículas seminais de aspecto normal.
       Bexiga em moderada repleção, de paredes lisas e regulares com conteúdo de sinal homogêneo. Gordura perivesical preservada.
       Musculatura do diafragma pélvico de aspecto habitual.
@@ -4145,7 +4145,7 @@ matches:
       Pequeno esporão acromial.
       Cabeça umeral de morfologia e sinal normais.
       Demais estruturas ósseas com morfologia e sinal medular conservados.
-      Rotura completa do tendão supraespinhal com extensão de 1,8 cm e retração de 1,8 cm. Ventre muscular com discreta lipossubstituição.
+      Rotura completa do tendão supraespinhal com extensão de _ cm e retração de _ cm. Ventre muscular com discreta lipossubstituição.
       Tendões subescapular e infraespinhal espessados, com elevação do sinal intrassubstancial, compatível com tendinopatia, sem sinais de roturas.
       Tendão redondo menor de espessura e sinal preservados.
       Tendão do cabo longo do bíceps braquial centrado no sulco bicipital, preservado nos trajetos intra e extra-articular com distensão líquida da bainha sinovial.
@@ -4269,7 +4269,7 @@ matches:
 
       RELATÓRIO:
 
-      Volumoso derrame articular glenoumeral com importante proliferação sinovial, destacando-se alguns corpos livres intra-articulares subcentimétricos, o maior deles medindo 0,4 cm no recesso axilar.
+      Volumoso derrame articular glenoumeral com importante proliferação sinovial, destacando-se alguns corpos livres intra-articulares subcentimétricos, o maior deles medindo _ cm no recesso axilar.
 
       Acentuada artropatia degenerativa acromioclavicular caracterizada por redução da interlinha articular, osteofitose marginal, espessamento capsuloligamentar e edema de ambos os componentes ósseos, determinando impressão sobre partes moles adjacentes. Observa-se ainda esporão acromial.
 
@@ -4322,7 +4322,7 @@ matches:
       Elevação da cabeça umeral em relação à cavidade glenoide, com redução do espaço subacromial.
       Demais estruturas ósseas com morfologia e sinal medular conservados.
       Rotura completa do tendão supraespinhal com coto proximal retraído na altura da glenoide. Lipossubstituição significativa do respectivo ventre muscular.
-      Rotura das fibras posteriores do tendão infraespinhal com extensão aproximada de 1,2 cm, permanecendo em continuidade por feixes de fibras remanescentes com tendinopatia.
+      Rotura das fibras posteriores do tendão infraespinhal com extensão aproximada de _ cm, permanecendo em continuidade por feixes de fibras remanescentes com tendinopatia.
       Tendão subescapular espessado com elevação do sinal, compatível com tendinopatia, notando-se pequenas fissuras intrassubstanciais.
       Adelgaçamento significativo associado a alteração de sinal da porção intra-articular/deflexão do tendão da cabeça longa do bíceps braquial.
       Estruturas do lábio glenoidal de contornos regulares e sinal preservado, sem lesões definidas.
@@ -4336,7 +4336,7 @@ matches:
       Alterações fibrocísticas na cabeça umeral e no acrômio.
       Elevação da cabeça umeral em relação à cavidade glenoide, com redução do espaço subacromial.
       Rotura completa do tendão supraespinhal com coto proximal retraído na altura da glenoide. Lipossubstituição significativa do respectivo ventre muscular.
-      Rotura das fibras posteriores do tendão infraespinhal com extensão aproximada de 1,2 cm, permanecendo em continuidade por feixes de fibras remanescentes com tendinopatia.
+      Rotura das fibras posteriores do tendão infraespinhal com extensão aproximada de _ cm, permanecendo em continuidade por feixes de fibras remanescentes com tendinopatia.
       Tendão subescapular espessado com elevação do sinal, compatível com tendinopatia, notando-se pequenas fissuras intrassubstanciais.
       Adelgaçamento significativo associado a alteração de sinal da porção intra-articular/deflexão do tendão da cabeça longa do bíceps braquial.
       Distensão líquida da bursa subacromial / subdeltoidea.
@@ -4426,7 +4426,7 @@ matches:
       Aorta e veia cava inferior com calibre e contornos normais.
       Bexiga com boa repleção, paredes finas e conteúdo de sinal homogêneo.
 
-      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais. Mede _ x _ x _ cm, volume estimado em _ cm³.
+      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais. Mede _ cm, volume estimado em _ cm³.
       Zona juncional com intensidade de sinal e espessura mantidas.
       Endométrio centrado e homogêneo, com espessura de _ mm.
       Espaço retrocervical e do septo retovaginal livres.
@@ -4533,7 +4533,7 @@ matches:
       Aorta e veia cava inferior com calibre e contornos normais.
       Bexiga com boa repleção, paredes finas e conteúdo de sinal homogêneo.
 
-      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais. Mede _ x _ x _ cm, volume estimado em _ cm³.
+      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais. Mede _ cm, volume estimado em _ cm³.
       Zona juncional com intensidade de sinal e espessura mantidas.
       Endométrio centrado e homogêneo, com espessura de _ mm.
       Espaço retrocervical e do septo retovaginal livres.
@@ -5854,7 +5854,7 @@ matches:
       Indicação clínica: [detecção de neoplasia prostática clinicamente significante]. [estadiamento de neoplasia da próstata] [pesquisa de recidiva local pós-prostatectomia].
 
       COMENTÁRIOS:
-      Dimensões da próstata: _ x _ x _ cm. Peso estimado em _ gramas.
+      Dimensões da próstata: _ cm. Peso estimado em _ gramas.
       Glândula central: heterogênea à custa de nódulos de provável hiperplasia.
       Zona periférica: sinal [homogêneo/heterogêneo] em T2.
       Quando houver lesão incluir:
@@ -6087,7 +6087,7 @@ matches:
 
       ANÁLISE:
       Bexiga com boa repleção, paredes finas e conteúdo de sinal homogêneo.
-      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais. Mede _ x _ x _ cm, volume estimado em _ cm³.
+      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais. Mede _ cm, volume estimado em _ cm³.
       Zona juncional com intensidade de sinal e espessura mantidas.
       Endométrio centrado e homogêneo, com espessura de _ mm.
       Espaço retrocervical e do septo retovaginal livres.
@@ -6687,7 +6687,7 @@ matches:
       Realizadas sequências multiplanares ponderadas em T1 e T2, antes e após a injeção intravenosa do meio de contraste paramagnético. Utilizado gel retal e vaginal.
 
       ANÁLISE:
-      Espessamento parietal segmentar de alça delgada em região do mesogástrio (provavelmente segmento ileal), à direita da linha média, com aspecto de intussuscepção, estendendo-se por cerca de 8,7 cm, acompanhado de discreta distensão hidroaérea de alças intestinais delgadas a montante. Associa-se aumento numérico de linfonodos pré-cecal e na raiz do mesentério.
+      Espessamento parietal segmentar de alça delgada em região do mesogástrio (provavelmente segmento ileal), à direita da linha média, com aspecto de intussuscepção, estendendo-se por cerca de _ cm, acompanhado de discreta distensão hidroaérea de alças intestinais delgadas a montante. Associa-se aumento numérico de linfonodos pré-cecal e na raiz do mesentério.
       Fígado de dimensões normais, contornos regulares e bordos finos. Parênquima com intensidade de sinal habitual. Ausência de lesões focais detectáveis.
       Veias hepáticas e ramos portais preservados.
       Não há dilatação das vias biliares intra ou extra-hepáticas.
@@ -6700,10 +6700,10 @@ matches:
       Ampola retal centrada, sem particularidades.
       Aorta e veia cava inferior com calibre e contornos normais.
       Bexiga com boa repleção, paredes finas e conteúdo de sinal homogêneo.
-      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais, com volume estimado em 62,3 cm³.
+      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais, com volume estimado em _ cm³.
       Istmocele.
       Zona juncional com intensidade de sinal e espessura mantidas.
-      Endométrio centrado e homogêneo, com espessura de 0,4 cm.
+      Endométrio centrado e homogêneo, com espessura de _ cm.
       Espaço retrocervical e do septo retovaginal livres.
       Ovários tópicos, com dimensões, contornos e sinal normais. Não se caracterizam cistos hemorrágicos.
       Pequena quantidade de líquido livre na cavidade pélvica.
@@ -6730,11 +6730,11 @@ matches:
 
       Permanecendo:
       Bexiga com boa repleção, paredes finas e conteúdo de sinal homogêneo.
-      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais. Mede 8,2 x 4,6 x 3,6 cm, volume estimado em 71,1 cm³.
+      Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais. Mede _ cm, volume estimado em _ cm³.
       Zona juncional com intensidade de sinal e espessura mantidas.
-      Endométrio centrado e homogêneo, com espessura de 0,5 cm.
-      Ovário direito mede 4,1 x 3,6 x 2,2 cm com volume de 16,9 cm³.
-      Ovário esquerdo mede 3,0 x 2,9 x 2,4 cm com volume de 10,9 cm³.
+      Endométrio centrado e homogêneo, com espessura de _ cm.
+      Ovário direito mede _ cm com volume de _ cm³.
+      Ovário esquerdo mede _ cm com volume de _ cm³.
       Ausência de linfonodomegalias na cavidade pélvica.
       Pequena quantidade de líquido livre na cavidade pélvica.
       Canal vaginal e ampola retal sem particularidades.
@@ -6844,9 +6844,9 @@ matches:
       Pâncreas com dimensões, forma e sinal preservados. Não há dilatação do ducto pancreático principal.
       Baço, adrenais e rins sem particularidades.
       Aorta abdominal com trajeto e calibre preservados.
-      Útero em _ com forma, contornos e dimensões normais. Medidas: _ x _ x _ cm. Volume estimado em _ cm³. Apresenta sinal miometrial característico e anatomia zonal mantida.
+      Útero em _ com forma, contornos e dimensões normais. Medidas: _ cm. Volume estimado em _ cm³. Apresenta sinal miometrial característico e anatomia zonal mantida.
       Endométrio centrado, homogêneo, com espessura de _ cm.
-      Ovários tópicos, com forma conservada e sinal habitual, medindo _ x _ x _ cm à direita e _ x _ x _ cm à esquerda (volumes de _ cm³ e _ cm³, respectivamente).
+      Ovários tópicos, com forma conservada e sinal habitual, medindo _ cm à direita e _ cm à esquerda (volumes de _ cm³ e _ cm³, respectivamente).
       Espaço vesicouterino livre.
       Regiões retrocervical uterina e do septo retovaginal e parede anterior do retossigmoide sem alterações.
       Não há ascite ou linfonodomegalias abdominopélvicas.
@@ -6957,7 +6957,7 @@ matches:
       Tendões patelar, bíceps femoral distal, trato iliotibial e tendões da pata de ganso sem particularidades.
       Sinais de edema do tecido adiposo entre o ligamento patelar e a tróclea femoral lateral, compatível com hoffite lateral.
       Pequeno derrame articular, com sinais de sinovite.
-      Cisto de Baker, medindo 8,6 cm.
+      Cisto de Baker, medindo _ cm.
       Edema subcutâneo pré-patelar.
 
       Conclusão:
@@ -7126,8 +7126,8 @@ matches:
       Análise:
       Bexiga urinária com morfologia conservada, paredes de espessura normal e conteúdo homogêneo.
       Espaço vesicouterino livre.
-      Útero em _ com forma, contornos e dimensões normais. Medidas: _ x _ x _ cm. Volume estimado em _ cm³. Apresenta sinal miometrial característico e anatomia zonal mantida. Endométrio centrado, homogêneo, com espessura de _ cm.
-      Ovários tópicos, com forma conservada e sinal habitual, medindo _ x _ x _ cm à direita e _ x _ x _ cm à esquerda (volumes de _ cm³ e _ cm³, respectivamente).
+      Útero em _ com forma, contornos e dimensões normais. Medidas: _ cm. Volume estimado em _ cm³. Apresenta sinal miometrial característico e anatomia zonal mantida. Endométrio centrado, homogêneo, com espessura de _ cm.
+      Ovários tópicos, com forma conservada e sinal habitual, medindo _ cm à direita e _ cm à esquerda (volumes de _ cm³ e _ cm³, respectivamente).
       Regiões retrocervical uterina e do septo retovaginal e parede anterior do retossigmoide sem alterações.
       Ausência de líquido livre na cavidade pélvica.
       Não há linfonodomegalias.
@@ -7142,7 +7142,7 @@ matches:
       Exame realizado pelas técnicas TSE e GRE com imagens multiplanares ponderadas em T1 e T2 antes e após a administração intravenosa de meio de contraste paramagnético (gadolínio).
 
       Análise:
-      Próstata de contornos regulares, medindo _ x _ x _ cm. Peso estimado em _ g.
+      Próstata de contornos regulares, medindo _ cm. Peso estimado em _ g.
       Glândula central heterogênea, com padrão nodular característico.
       Zona periférica com sinal normal.
       Cápsula prostática e tecido adiposo periprostático sem alterações.
@@ -7180,7 +7180,7 @@ matches:
 
       Análise:
       Bexiga urinária com forma conservada, paredes de espessura normal e conteúdo homogêneo.
-      Próstata de contornos regulares, medindo _ x _ x _ cm. Peso estimado em _ g.
+      Próstata de contornos regulares, medindo _ cm. Peso estimado em _ g.
       Glândula central heterogênea, com padrão nodular característico.
       Zona periférica com sinal normal.
       Cápsula prostática e tecido adiposo periprostático sem alterações.
@@ -7373,7 +7373,7 @@ matches:
 
   - trigger: "desmoidep"
     label: "Desmoide periosteal"
-    replace: "Lesão óssea, sem sinais de agressividade, de alto sinal em T2, localizada no aspecto posteromedial da metáfise femoral distal, medindo cerca de 2,0 cm, sugerindo desmoide periosteal."
+    replace: "Lesão óssea, sem sinais de agressividade, de alto sinal em T2, localizada no aspecto posteromedial da metáfise femoral distal, medindo cerca de _ cm, sugerindo desmoide periosteal."
     word: true
 
   - trigger: "desmoideperiosteal"
@@ -7431,7 +7431,7 @@ matches:
 
   - trigger: "focoss"
     label: "Microcálculos ou interface vascular"
-    replace: "Focos hiperrefringentes menores que 0,4 cm nos rins, podendo corresponder a microcálculos ou interface vascular."
+    replace: "Focos hiperrefringentes menores que _ cm nos rins, podendo corresponder a microcálculos ou interface vascular."
     word: true
 
   - trigger: "foss"
@@ -7446,7 +7446,7 @@ matches:
 
   - trigger: "gotoso"
     label: "Deposição de tecido"
-    replace: "Distensão líquida da bursa subcutânea do olécrano, que apresenta múltiplos pequenos focos com hipossinal na ponderação T2, medindo 3,8 x 3,6 x 2,0 cm, com volume de 14,2 cm³, sugerindo deposição de tecido com microcristais (relacionada a artropatia gotosa)."
+    replace: "Distensão líquida da bursa subcutânea do olécrano, que apresenta múltiplos pequenos focos com hipossinal na ponderação T2, medindo _ cm, com volume de _ cm³, sugerindo deposição de tecido com microcristais (relacionada a artropatia gotosa)."
     word: true
 
   - trigger: "hemartrose"
@@ -7521,7 +7521,7 @@ matches:
 
   - trigger: "p4"
     label: "Nódulo mal definido na zona periférica esquerda"
-    replace: "Nódulo mal definido na zona periférica esquerda, nas imagens ponderadas em T2, com restrição à difusão e correspondência no mapa de coeficiente de difusão aparente, exibindo hipervascularização precoce na sequência dinâmica pós-contraste, medindo 0,8 x 0,4 cm."
+    replace: "Nódulo mal definido na zona periférica esquerda, nas imagens ponderadas em T2, com restrição à difusão e correspondência no mapa de coeficiente de difusão aparente, exibindo hipervascularização precoce na sequência dinâmica pós-contraste, medindo _ cm."
     word: true
 
   - trigger: "part"
@@ -7675,8 +7675,8 @@ matches:
     word: true
 
   - trigger: "tn"
-    label: "Translucência nucal: 0,15 cm (normal < 0,2 cm)"
-    replace: "Translucência nucal: 0,15 cm (normal < 0,2 cm)"
+    label: "Translucência nucal: _ cm (normal < 0,2 cm)"
+    replace: "Translucência nucal: _ cm (normal < 0,2 cm)"
     word: true
 
   - trigger: "trup"
@@ -7686,7 +7686,7 @@ matches:
 
   - trigger: "tuca"
     label: "Extensa lesão com características expansivas e epicentro"
-    replace: "Extensa lesão com características expansivas e epicentro nos lobos frontal e parietal direitos, medindo cerca de 7,2 x 4,0 cm, associada a importante edema vasogênico, determinando efeito de massa sobre as estruturas adjacentes, com apagamento dos sulcos entre os giros corticais regionais e colabamento do ventrículo lateral desse lado, cursando com desvio contralateral das estruturas da linha média em cerca de 0,5 cm."
+    replace: "Extensa lesão com características expansivas e epicentro nos lobos frontal e parietal direitos, medindo cerca de _ cm, associada a importante edema vasogênico, determinando efeito de massa sobre as estruturas adjacentes, com apagamento dos sulcos entre os giros corticais regionais e colabamento do ventrículo lateral desse lado, cursando com desvio contralateral das estruturas da linha média em cerca de _ cm."
     word: true
 
   - trigger: "vara"
