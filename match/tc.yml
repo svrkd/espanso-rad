@@ -10452,18 +10452,6 @@ matches:
     replace: A possibilidade de processo inflamatório/infeccioso pode ser inicialmente considerada dentre os diagnósticos diferenciais. Recomenda-se controle do estudo após a terapêutica estabelecida.
     word: true
 
-  - trigger: "asd"
-    label: "Ana*9966"
-    replace: "Ana*9966"
-    word: true
-
-  - trigger: "ass"
-    label: "Assinatura do laudo"
-    replace: |
-      Exame laudado por Dr. Ernani Alves de Oliveira.
-      CRM/SP: 113.402
-    word: true
-
   - trigger: "avcindets"
     label: "AVC isquêmico de cronicidade indeterminada (múltiplo, direito)"
     replace: "Lesões hipodensas, corticossubcorticais, localizadas nos lobos frontal, parietal e temporal, bem como na ínsula à direita, com apagamento dos sulcos corticais regionais, que podem estar relacionadas a evento vascular isquêmico, de cronicidade indeterminada nesse estudo. Os diagnósticos diferenciais devem ser aplicados. Caso persista a indicação clínica, recomenda-se estudo direcionado através de imagens de ressonância magnética, se possível."
@@ -11869,11 +11857,6 @@ matches:
     replace: "Lesão hiperintensa na ponderação T2, com restrição à difusão e correspondência no mapa ADC, localizada na porção lateral direita do bulbo, compatível com área de isquemia recente."
     word: true
 
-  - trigger: "qw"
-    label: "Assinatura ernani.oliveira"
-    replace: ernani.oliveira
-    word: true
-
   - trigger: "radi1"
     label: "Impressão radicular direita"
     replace: com impressão radicular direita.
@@ -12368,13 +12351,6 @@ matches:
   - trigger: "ximor1"
     label: "Nódulo de Schmorl"
     replace: Nódulo de Schmorl em .
-    word: true
-
-  - trigger: "dpaus"
-    label: "Assinatura Dr. Diego Araújo"
-    replace: |
-      DR. DIEGO ARAUJO
-      CRM: 166.879
     word: true
 
   - trigger: "acriterio"

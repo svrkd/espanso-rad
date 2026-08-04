@@ -146,15 +146,6 @@ matches:
   # ORIGEM: tc.yml
   # ============================================================
 
-  # substituído por "dpaus" em tc.yml
-
-  - trigger: "DPAUS"
-    label: "Assinatura: Dr. Diego Araújo"
-    replace: |
-      DR. DIEGO ARAUJO
-      CRM: 166.879
-    word: true
-
   # substituído por "edema" em tc.yml
 
   - trigger: "EDEMA"
@@ -418,4 +409,117 @@ matches:
   - trigger: "a/e"
     label: "a esclarecer"
     replace: a esclarecer
+    word: true
+
+  # ============================================================
+  # ORIGEM: rm.yml
+  # ============================================================
+
+  # substituído por "bastrup" em rm.yml
+
+  - trigger: "Bastrup"
+    label: "Bursite interespinhosa inflamatória (Baastrup)"
+    replace: "Aproximação e contato das apófises espinhosas lombares, associada a áreas de edema de medula óssea adjacente, além de espessamento e hipersinal em T2/STIR da bursa interespinhosa, compatíveis com bursite interespinhosa inflamatória (Baastrup)."
+    word: true
+
+  # substituído por "actinica" em rm.yml
+
+  - trigger: "actínica"
+    label: "Neoplasia residual/recidivada x actínica"
+    replace: "A possibilidade de neoplasia residual/recidivada pode ser considerada, entretanto, a  habilidade do exame de ressonância magnética na diferenciação com alterações actínicas é limitada, uma vez que a manifestação usual dessas patologias pode ser semelhante do ponto de vista de imagem."
+    word: true
+
+  # substituído por "alcadebalde" em rm.yml
+
+  - trigger: "alçadebalde"
+    label: "Rotura meniscal em alça de balde"
+    replace: "Adelgaçamento do corpo do menisco medial sugerindo lesão/rotura. Parece existir pequeno fragmento meniscal, interposto na região da fossa intercondilar, sugerindo lesão em alça de balde."
+    word: true
+
+  # substituído por "disseccao" em rm.yml
+
+  - trigger: "dissecçao"
+    label: "Angio-RM de cervical — com contraste"
+    replace: |-
+      ANGIORESSONÂNCIA CERVICAL C/C
+      Técnica:
+      Realizado estudo por imagens de angiorressonância arterial cervical durante a injeção do meio de contraste endovenoso, com reconstruções tridimensionais.
+      Análise:
+      Afilamento significativo da artéria carótida interna direita comprometendo a transição dos segmentos C1/C2 (cervical/petroso), notadando-se sinal do crescente nas ponderações T1 e T2, sugestivo de dissecção.
+      Arco aórtico, tronco braquiocefálico e porções proximais das artérias subclávias com trajeto e calibre preservados.
+      Origem habitual dos vasos no arco aórtico.
+      Artérias carótidas comuns, segmento cervical da carótida interna esquerda e externas de calibre e contornos normais.
+      Segmentos cervicais das artérias vertebrais de trajeto, calibre e contornos normais.
+      Opinião:
+
+      Afilamento significativo da artéria carótida interna direita comprometendo a transição dos segmentos C1/C2 (cervical/petroso), notadando-se sinal do crescente nas ponderações T1 e T2, sugestivo de dissecção.
+    word: true
+
+  # substituído por "lipomabraco" em rm.yml
+
+  - trigger: "lipomabraço"
+    label: "Lesão de natureza lipomatosa"
+    replace: "Formação expansiva bem delimitada, com sinal semelhante ao da gordura em todas as sequências de pulso, localizada na porção proximal do ventre muscular do bíceps braquial, determinando abaulamento focal na porção proximal do ventre muscular do peitoral maior, mantendo planos de clivagem com o mesmo. Tal lesão  lesão apresenta alguns finos septos internos, exibindo discreta impregnação pelo agente de contraste paramagnético endovenoso, medindo cerca de 10,6 x 7,1 x 4,9 cm (CC x LL x AP). Tais achados são compatíveis com lesão de natureza lipomatosa."
+    word: true
+
+  # substituído por "osteomielitecronicarm1" em rm.yml
+
+  - trigger: "osteomielitecrônica"
+    label: "Reação periosteal difusa (invólucro)"
+    replace: "Fratura antiga na região diafisária média da tíbia, evidenciando-se sinais de osteomielite crônica, caracterizada por reação periosteal difusa (invólucro), com área de descontinuidade da cortical, destacando-se abscesso e sequestro ósseo, apresentando trajeto fistuloso (cloaca), drenando para a pele/tecido celular subcutâneo na região anterior da perna. O conjunto de achados sugere osteomielite crônica agudizada."
+    word: true
+
+  # substituído por "rmbraco" em rm.yml
+
+  - trigger: "rmbraço"
+    label: "RM de braço"
+    replace: |-
+      RESSONÂNCIA MAGNÉTICA DO BRAÇO XXXXXX
+
+      TÉCNICA
+      Realizados cortes multiplanares com sequências ponderadas em T1 e T2.
+
+      ANÁLISE
+      Estruturas ósseas com morfologia e alinhamento dentro da normalidade.
+      Estruturas musculotendíneas com morfologia preservada.
+      Feixes neurovasculares sem alterações.
+      Náo há evidência de formações com efeito expansivo no segmento analisado.
+
+      OPINIÃO
+      Exame dentro dos limites da normalidade.
+    word: true
+
+  # substituído por "rmpescoco" em rm.yml
+
+  - trigger: "rmpescoço"
+    label: "RM de pescoço — com contraste"
+    replace: |-
+      RESSONÂNCIA MAGNÉTICA DO PESCOÇO C/C
+
+      TÉCNICA:
+      Exame de ressonância magnética do pescoço realizado com aquisições multiplanares, pelas técnicas de spin-eco com seqüências pesadas em T1 antes e após a administração endovenosa de contraste paramagnético e técnica de fast spin-eco pesada em T2.
+
+      RELATÓRIO:
+      Faringe e laringe de aspecto preservado.
+      Glândulas parótidas e submandibulares sem alterações.
+      Glândula tireóide sem particularidades.
+      Não se evidenciam linfonodomegalias.
+      Não se observam realces anômalos focais.
+
+      OPINIÃO:
+      Estudo de ressonância magnética dentro dos limites da normalidade.
+    word: true
+
+  # substituído por "rotmacica" em rm.yml
+
+  - trigger: "rotmaciça"
+    label: "Rotura maciça crônica do manguito rotador"
+    replace: "Rotura maciça crônica dos tendões componentes do manguito rotador, caracterizada por acentuada retração dos cotos tendíneos até o nível da glenoide, associada a lipossubstituição dos respectivos ventres musculares, compatível com cronicidade."
+    word: true
+
+  # substituído por "multiparametrica" em rm.yml
+
+  - trigger: "Multiparametrica"
+    label: "Sugestão de RM multiparamétrica de próstata"
+    replace: "Nota: para pesquisa de neoplasia primária da próstata ou recidiva tumoral, a ressonância magnética do abdome inferior com protocolo adequado (multiparamétrica) poderá fornecer maiores subsídios diagnósticos."
     word: true

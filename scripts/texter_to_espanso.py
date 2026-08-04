@@ -74,7 +74,8 @@ def escape_yaml_scalar(value: str) -> str:
         indented = "\n".join("      " + line for line in lines)
         return "|\n" + indented
     needs_quotes = any(c in value for c in ':{}[]|>&*!,%@`"\'\\#?') \
-                   or value.startswith(" ") or value.endswith(" ")
+                   or value.startswith(" ") or value.endswith(" ") \
+                   or bool(re.match(r"[-?](\s|$)", value))
     if needs_quotes:
         escaped = value.replace("\\", "\\\\").replace('"', '\\"')
         return f'"{escaped}"'
