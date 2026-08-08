@@ -83,7 +83,7 @@ TÍTULO DO EXAME EM CAIXA ALTA
 Técnica:
 Exame realizado com...
 
-Descrição:
+Análise:
 Primeiro achado.
 Segundo achado.
 
@@ -92,7 +92,7 @@ Exame sem alterações significativas.
 ```
 
 - Exatamente **uma** linha em branco **antes** de cada cabeçalho; **nenhuma** depois — o conteúdo começa na linha seguinte.
-- `Descrição:` é o único nome da seção de achados. Não use `Análise:`, `Relatório:`, `Achados:` nem versões em CAIXA ALTA.
+- `Análise:` é o único nome da seção de achados. Não use `Descrição:`, `Relatório:`, `Achados:` nem versões em CAIXA ALTA.
 - `Conclusão:` é o único nome da seção final. Não use `Opinião:`, `Impressão:` nem `Impressão diagnóstica:`.
 - Cabeçalhos auxiliares padronizados: `Indicação:` e `Nota:` (isolados na linha, mesmas regras de espaçamento) e `Obs.:` (inline, tipicamente no fim do laudo).
 - O título do exame abre o bloco em CAIXA ALTA, **sem** `:`, seguido de uma linha em branco.
