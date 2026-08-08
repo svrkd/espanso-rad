@@ -199,7 +199,7 @@ BLOCOS = [
         ("triggers", ["ustvpc"], "venoso", "trombose venosa profunda (conclusão genérica)"),
         ("escada", "dc", "carótidas", [
             ("1", "EMI"), ("2", "placa"), ("3", "placa instável"), ("4", "<50%"),
-            ("5", "50–69%"), ("6", ">70%"), ("7", "suboclusão/oclusão ACI"),
+            ("5", "50–69%"), ("6", "≥70%"), ("7", "suboclusão/oclusão ACI"),
             ("8", "carotidínia"), ("9", "paraganglioma?"), ("10", "intrastent"),
             ("11", "stent sem estenose"), ("12", ">90%"), ("13", "acotovelamento"),
             ("14", "bifurcação alta"), ("15", "calcificações limitando"),

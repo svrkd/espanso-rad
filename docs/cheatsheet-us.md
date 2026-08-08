@@ -1334,8 +1334,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | dc4c | Artéria carótida: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _ |
 | dc5 | Artéria carótida: Estenose entre 50 e 69% da artéria carótida interna à _ (achado descritivo) |
 | dc5c | Artéria carótida: Estenose entre 50 e 69% da artéria carótida interna à _ |
-| dc6 | Artéria carótida: Estenose superior a 70% da artéria carótida interna à _ (achado descritivo) |
-| dc6c | Artéria carótida: Estenose superior a 70% da artéria carótida interna à _ |
+| dc6 | Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ (achado descritivo) |
+| dc6c | Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ |
 | dc7 | Artéria carótida: Sinais de suboclusão/oclusão da artéria carótida interna à _ (achado descritivo) |
 | dc7c | Artéria carótida: Sinais de suboclusão/oclusão da artéria carótida interna à _ |
 | dc8 | Artéria carótida: Achados sugestivos de carotidínia à _ (achado descritivo) |

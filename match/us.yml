@@ -7452,13 +7452,13 @@ matches:
     word: true
 
   - trigger: "dc6"
-    label: "Artéria carótida: Estenose superior a 70% da artéria carótida interna à _ (achado descritivo)"
-    replace: Placas ateromatosas parietais calcificadas e não calcificadas na bifurcação carotídea à _ e na emergência das artérias carótidas interna e externa. Ao Doppler, aumento do pico de velocidade sistólica da artéria carótida interna (_ cm/s), com razão VPS ACI/ACC superior a 4, compatível com estenose superior a 70%. Demais segmentos com padrão espectral habitual e velocidades dentro dos limites normais.
+    label: "Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ (achado descritivo)"
+    replace: Placas ateromatosas parietais calcificadas e não calcificadas na bifurcação carotídea à _ e na emergência das artérias carótidas interna e externa. Ao Doppler, aumento do pico de velocidade sistólica da artéria carótida interna (_ cm/s), com razão VPS ACI/ACC superior a 4, compatível com estenose igual ou superior a 70%. Demais segmentos com padrão espectral habitual e velocidades dentro dos limites normais.
     word: true
 
   - trigger: "dc6c"
-    label: "Artéria carótida: Estenose superior a 70% da artéria carótida interna à _"
-    replace: Estenose superior a 70% da artéria carótida interna à _.
+    label: "Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _"
+    replace: Estenose igual ou superior a 70% da artéria carótida interna à _.
     word: true
 
   - trigger: "dc7"
@@ -7549,7 +7549,7 @@ matches:
 
   - trigger: "dc15"
     label: "Artéria carótida: Extensas calcificações parietais impossibilitando graduar a estenose (achado descritivo)"
-    replace: Extensas placas ateromatosas calcificadas nas artérias carótidas comuns, nos bulbos carotídeos e nas artérias carótidas internas, impossibilitando a avaliação ao Doppler do grau de estenose nessas regiões. A análise espectral e ao Doppler colorido das regiões acessíveis demonstrou picos de velocidade dentro dos limites da normalidade. Artérias vertebrais com fluxo anterógrado conservado.
+    replace: Extensas placas ateromatosas calcificadas nas artérias carótidas comuns, nos bulbos carotídeos e nas artérias carótidas internas, impossibilitando a avaliação ao Doppler do grau de estenose nessas regiões. A análise espectral e ao Doppler colorido das regiões acessíveis demonstrou picos de velocidade dentro dos limites da normalidade.
     word: true
 
   - trigger: "dc15c"
