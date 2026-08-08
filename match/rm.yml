@@ -111,10 +111,10 @@ matches:
   - trigger: "dft"
     label: "Doença degenerativa cortical"
     replace: |-
-      DESCRIÇÃO:
+      Descrição:
       Acentuada atrofia cortical dos hemisférios cerebrais, com predomínio nos lobos frontais e temporais, acompanhada de dilatação compensatória desproporcional dos prolongamentos frontais dos ventrículos laterais. Observa-se afilamento cortical acentuado e perda da diferenciação corticossubcortical.
 
-      OPINIÃO:
+      Conclusão:
       Achados sugestivos de doença degenerativa cortical, sugerindo demência frontotemporal, forma com predomínio frontal. Correlacionar.
     word: true
 
@@ -331,7 +331,7 @@ matches:
     replace: |-
       Malformação arteriovenosa parenquimatosa com epicentro no lobo frontal direito, cujo nidus mede cerca de _ cm nos seus maiores eixos, apresentando nutrição por ramos da artéria cerebral média ipsilateral e drenagem venosa superficial através das veias corticais adjacentes, que se apresentam dilatadas, e pelo seio sagital superior.
 
-      OPINIÃO:
+      Conclusão:
       Malformação arteriovenosa com epicentro no lobo frontal direito, apresentando irrigação arterial por ramos da artéria cerebral média ipsilateral e drenagem preferencial através das veias corticais adjacentes e pelo seio sagital superior.
     word: true
 
@@ -380,7 +380,7 @@ matches:
     replace: |-
       Lesão expansiva localizada em região parassagital frontal esquerda com base de implantação dural, caracterizada por isossinal em T1 e T2, sem restrição à difusão, com calcificações grosseiras de permeio, apresentando ávido realce pelo meio de contraste endovenoso, medindo _ cm (CC x LL x AP) e volume estimado em _ cm³. Tal lesão determina significativo efeito de massa, com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média em _ cm. Associa-se importante edema vasogênico e hiperostose adjacente à lesão previamente descrita.
 
-      Opinião:
+      Conclusão:
       Lesão expansiva localizada em região parassagital frontal esquerda com base de implantação dural, determinando significativo efeito de massa com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média. A possibilidade de neoplasia meningotelial (meningioma) pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
       Demais achados pormenorizados no corpo do laudo.
     word: true
@@ -408,19 +408,17 @@ matches:
     replace: |-
       Múltiplas lesões nodulares esparsas pelo parênquima cerebral e cerebelar, caracterizadas por isossinal em T1, hipersinal em T2/FLAIR, apresentando impregnação anelar irregular pelo gadolínio, as maiores localizadas no giro reto e região nucleocapsular direitos, bem como na região mesial do lobo temporal e hemisfério cerebelar esquerdos. Associam-se edema vasogênico perilesional e realce leptomeníngeo perimesencefálico à esquerda, determinando discreto efeito expansivo local. Destaca-se ainda espessamento e hiperrealce da haste hipofisária.
 
-      OPINIÃO:
-
+      Conclusão:
       Múltiplas lesões nodulares esparsas pelo parênquima encefálico que, diante do contexto clínico, sugerem processo inflamatório/infeccioso granulomatoso, destacando-se a possibilidade de tuberculose, coexistindo sinais de leptomeningite. Os diagnósticos diferenciais devem ser aplicados.
     word: true
 
   - trigger: "neurotoxo"
     label: "Neurotoxoplasmose"
     replace: |-
-      DESCRIÇÃO:
+      Descrição:
       Múltiplas lesões expansivas nodulares esparsas com distribuição na transição corticossubcortical dos hemisférios cerebrais e cerebelares, bem como em núcleos da base e tálamo bilateralmente, com sinal heterogêneo em T1, hipersinal em T2 / FLAIR, apresentando impregnação anelar irregular pelo gadolínio, algumas com aspecto de “nódulo excêntrico”, as maiores localizadas nos lobos frontal esquerdo e occipital direito, medindo, respectivamente, _ cm e _ cm. Associa-se edema vasogênico perilesional, com efeito expansivo local, promovendo compressão nos ventrículos laterais e apagamento dos sulcos corticais regionais.
 
-
-      OPINIÃO:
+      Conclusão:
       Múltiplas lesões nodulares esparsas pelo parênquima encefálico, que podem decorrer de processo inflamatório / infeccioso oportunista, no contexto de imunodepressão. Admite-se inicialmente a possibilidade de neurotoxoplasmose como principal hipótese diagnóstica. O diagnóstico diferencial é mais amplo e deve ser aplicado em estreita correlação com dados clínicos e laboratoriais, inclusive com criptococose.
       Demais achados pormenorizados no corpo do laudo.
     word: true
@@ -700,7 +698,7 @@ matches:
   - trigger: "charcot"
     label: "Neuroartropatia de Charcot"
     replace: |-
-      Análise:
+      Descrição:
       Perda da morfologia habitual, com fusão entre ossos do tarso e base dos metatarsos, associada a áreas de fragmentação/reabsorção óssea que determinam instabilidade/desarranjo da articulação tarsometatársica (articulação de Charcot).
       Reabsorção/rarefação óssea na região anterior do calcâneo, cuboide e cuneiforme medial.
       Alteração de sinal confluente em T1, com realce pelo meio de contraste paramagnético endovenoso da medular óssea dos cuneiformes intermédio/lateral, parte anterior do tálus e calcâneo, bem como das porções proximais do 4° e 5° metatarsos, podendo representar edema e/ou processo inflamatório/infeccioso.
@@ -708,7 +706,7 @@ matches:
       Pequena quantidade de líquido preenchendo os espaços articulares entre ossos do tarso.
       Alteração de sinal de partes moles do mediopé com realce pelo meio de contraste paramagnético endovenoso, sugerindo edema e/ou celulite.
 
-      Opinião:
+      Conclusão:
       Os achados acima descritos sugerem artropatia diabética, com infecção sobreposta (osteomielite) e formação de microabscesso acima detalhado.
     word: true
 
@@ -831,7 +829,7 @@ matches:
   - trigger: "escara2"
     label: "Escara glútea com abscesso"
     replace: |-
-      Análise:
+      Descrição:
       Lesão de partes moles na região glútea direita, sob ponto de pressão junto à tuberosidade isquiática ipsilateral, medindo cerca de _ cm, constituída por tecido de granulação, conteúdo gasoso e líquido, associada a alteração do sinal dos planos gordurosos adjacentes. Esta lesão comunica-se com a superfície cutânea através de segmento fistuloso com abertura na região glútea inferior. Nota-se trajeto secundário para a fossa isquioanal ipsilateral, sem atingir o períneo ou o reto. Há espessamento e irregularidade da cortical óssea da tuberosidade isquiática, inferindo osteomielite crônica, bem como alteração do sinal da medular óssea do ramo inferior do púbis, sugerindo atividade do processo inflamatório/infeccioso glúteo para o ramo púbico (osteomielite aguda).
       Artropatia degenerativa coxofemoral, caracterizada por deformidade dos acetábulos e perda parcial da esfericidade das cabeças femorais.
       Afilamento das superfícies condrais femoroacetabulares.
@@ -842,7 +840,6 @@ matches:
       Alterações pós-cirúrgicas de artrodese lombossacra com haste e parafusos que determinam artefatos de susceptibilidade magnética, prejudicando a avaliação das imagens nesta região.
 
       Conclusão:
-
       Lesão de partes moles na região glútea à direita acima detalhada, com sinais de inflamação/infecção, que se estende para a tuberosidade isquiática e o ramo púbico inferior ipsilateral (osteomielite).
 
       Demais achados pormenorizados no corpo do laudo.
@@ -1469,7 +1466,7 @@ matches:
     replace: |-
       Espessamento e má definição da zona juncional, com espessura de (medida da espessura da zona juncional) mm. Pode-se observar pequenos focos de realce tardio após a administração do meio de contraste, o que é compatível com adenomiose. Não há evidências de massas ou nódulos intramiometriais.
 
-      OPINIÃO:
+      Conclusão:
       Achados de Ressonância Magnética compatíveis com adenomiose, caracterizada pela heterogeneidade do miométrio, espessamento e má definição da zona juncional, e realce tardio após a administração de contraste.
     word: true
 
@@ -1606,7 +1603,7 @@ matches:
     replace: |-
       Extensa lesão de aspecto retrátil, caracterizada por baixo sinal na ponderação T2, subestenosante, localizada no reto alto e no cólon sigmoide, distando cerca de _ cm da borda anal, por extensão aproximada de _ cm, com sinais de envolvimento parietal profundo destes segmentos intestinais, por vezes circunferencial (360 graus). Tal lesão assume aspecto espiculado em leque.
 
-      OPINIÃO:
+      Conclusão:
       Lesão de aspecto retrátil localizada no reto alto e no cólon sigmoide, sugestiva de endometriose intestinal, diante do contexto clínico. Os diagnósticos diferenciais devem ser aplicados.
     word: true
 
@@ -1665,7 +1662,7 @@ matches:
     replace: |-
       Fístula transesfinctérica originando-se no canal anal às 11 horas, com trajeto de aproximadamente _ cm pela fossa isquioanal direita, estendendo-se desde o períneo/base do escroto à borda anal ipsilateral, com orifícios de abertura no escroto e na região glútea direita, lateralmente ao sulco interglúteo.
 
-      OPINIÃO:
+      Conclusão:
       Fístula transesfincteriana com formação de trajeto secundário na fossa isquioanal direita (tipo 4 na classificação do St. James’s University Hospital).
     word: true
 
@@ -1702,7 +1699,7 @@ matches:
       Circulação colateral de médio calibre no plexo gastroesofágico, no trajeto das veias gástricas curtas e esquerda, periesplênica, peripancreática e mesentérica.
       Veias hepáticas e ramos portais de calibre aumentado.
 
-      OPINIÃO:
+      Conclusão:
       Fígado cirrótico apresentando defeitos perfusionais, além de duas lesões expansivas, heterogêneas, envolvendo os segmentos VI, VII e VIII, acima detalhadas, sugestivas de neoplasia primária.
       Ascite, esplenomegalia, circulação colateral, bem como aumento do calibre dos ramos portais, achados provavelmente relacionados a hipertensão portal decorrente da hepatopatia crônica.
     word: true
@@ -1777,7 +1774,7 @@ matches:
       Ovário esquerdo medindo _ cm, com volume de _ cm³.
       Bexiga com boa repleção, paredes finas e conteúdo de sinal homogêneo.
 
-      OPINIÃO:
+      Conclusão:
       Ovários de aspecto micropolicístico. O diagnóstico de síndrome dos ovários policísticos não é apenas baseado nos achados de imagem, sendo necessária a presença de critérios clínicos para o correto diagnóstico.
     word: true
 
@@ -1880,7 +1877,7 @@ matches:
     replace: |-
       Espessamento parietal irregular subestenosante do cólon sigmoide, com extensão em cerca de _ cm, distando cerca de _ cm da borda anal, notando-se trajeto fistuloso medindo _ cm, unindo a borda antimesentérica do cólon e a parede superior da bexiga urinária, que apresenta espessamento parietal irregular difuso e gás intraluminal. A lesão mantém íntimo contato com o fundo uterino e ovário esquerdo, sem nítidos planos de clivagem com segmento de alça ileal. Associam-se pequena quantidade de líquido livre na cavidade pélvica, alteração do sinal dos planos adiposos adjacentes, acentuada neoangiogenese e aumento do número e das dimensões de linfonodos regionais, o maior na cadeia ilíaca direita, medindo até _ cm no menor eixo axial.
 
-      OPINIÃO:
+      Conclusão:
       O conjunto de achados é sugestivo de processo neoplásico intestinal com extensão locorregional, complicado com fístulas enterocólica e enterovesical.
     word: true
 
@@ -1942,7 +1939,7 @@ matches:
     replace: |-
       Ovários contendo múltiplos pequenos cistos, distribuídos de forma periférica pelo parênquima gonadal.
 
-      OPINIÃO:
+      Conclusão:
       Ovários de aspecto micropolicístico. O diagnóstico de síndrome dos ovários policísticos não é apenas baseado nos achados de imagem, sendo necessária a presença de critérios clínicos para o correto diagnóstico.
     word: true
 
@@ -1951,7 +1948,7 @@ matches:
     replace: |-
       A zona periférica apresenta estrias lineares de hipossinal em T2, mais evidentes no hemitrígono esquerdo, padrão habitualmente associado a processo inflamatório crônico. Observam-se áreas focais com restrição à difusão das moléculas de água, acompanhadas de discreto realce após a administração endovenosa do agente paramagnético, sem características francamente agressivas.
 
-      CONCLUSÃO:
+      Conclusão:
       Achados na zona periférica, predominantes à esquerda, com aspectos sugestivos de alterações inflamatórias crônicas. Todavia, não é possível afastar completamente a presença de focos neoplásicos subjacentes.
       Classificação PI-RADS 3.
     word: true
@@ -1974,9 +1971,9 @@ matches:
   - trigger: "poliporretal"
     label: "Pólipo/adenoma retal"
     replace: |-
-      INDICAÇÃO: lesão retal.
+      Indicação: lesão retal.
 
-      DESCRIÇÃO:
+      Descrição:
       Lesão polipoide de base séssil localizada no reto baixo, com início junto à linha pectínea, situada aproximadamente _ cm da borda anal. A lesão projeta-se para o interior da luz retal, medindo cerca de _ cm em extensão longitudinal, comprometendo aproximadamente 50% da circunferência luminal, sem evidência de estenose significativa. O ponto de implantação da lesão encontra-se na posição das 12 horas.
       A lesão apresenta sinal discretamente hiperintenso em T2 com realce moderado e restrição à difusão nas sequências DWI/ADC, achado que pode estar associado a degeneração displásica. Não há evidências macroscópicas de invasão da muscular própria.
       A fáscia mesorretal encontra-se preservada. Não se observam linfonodos aumentados no mesorreto nem nas cadeias pélvicas.
@@ -1988,7 +1985,7 @@ matches:
       Vasos ilíacos de trajeto, calibre e fluxo mantidos.
       Não há líquido livre na cavidade pélvica.
 
-      OPINIÃO:
+      Conclusão:
       Lesão polipoide séssil no reto distal, com características morfológicas compatíveis com adenoma, porém com restrição à difusão, achado que pode indicar degeneração displásica. Recomenda-se correlação com histopatologia e consideração de conduta oncológica.
     word: true
 
@@ -1997,7 +1994,7 @@ matches:
     replace: |-
       Lesão anexial esquerda, medindo _ cm, com volume de _ cm³, exibindo sinal heterogêneo nas ponderações T1 e T2, com focos hemáticos internos. Após a administração do meio de contraste endovenoso, observa-se área de realce ovalada em seu interior, medindo _ cm, com halo hipointenso em T2. Associa-se estrutura tubuliforme alongada contornando a lesão, presumivelmente representando a tuba uterina dilatada com conteúdo espesso/hemático.
 
-      OPINIÃO:
+      Conclusão:
       Lesão anexial esquerda, exibindo sinal heterogêneo nas ponderações T1 e T2, com focos hemáticos internos. Após a administração do meio de contraste endovenoso, observa-se área de realce ovalada em seu interior, com halo hipointenso em T2. Associa-se estrutura tubuliforme alongada contornando a lesão, presumivelmente representando a tuba uterina dilatada com conteúdo espesso/hemático. Esse conjunto de achados sugere inicialmente a possibilidade de prenhez ectópica anexial esquerda. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
       Corpo lúteo identificado no ovário esquerdo, medindo _ cm.
       Pequena quantidade de líquido livre na cavidade pélvica.
@@ -2070,8 +2067,7 @@ matches:
     replace: |-
       Lesão expansiva cística, localizada no ovário direito, caracterizada por baixo sinal em T1, alto sinal em T2, sem restrição à difusão ou realce pelo meio de contraste endovenoso, apresentando finos septos internos de permeio, medindo _ cm, com volume de _ cm³. Tal lesão determina efeito compressivo sobre o útero e bexiga urinária, mantendo planos de clivagem.
 
-
-      OPINIÃO:
+      Conclusão:
       Lesão cística no ovário direito, sugerindo neoplasia de natureza serosa. Os diagnósticos diferenciais devem ser aplicados.
     word: true
 
@@ -2132,7 +2128,7 @@ matches:
     replace: |-
       Imagem cística multiloculada localizada no corpo pancreático, composta por múltiplos pequenos cistos coalescentes, alguns com hipersinal em T1, separados por finos septos. O conjunto mede aproximadamente _ cm e apresenta realce parietal e septal após contraste paramagnético. A lesão mantém contato com o ducto pancreático principal, sem evidências claras de comunicação e determina atrofia do parênquima pancreático adjacente, com dilatação do ducto Wirsung, que atinge calibre máximo de _ cm. Cabeça e processo uncinado pancreáticos apresentam morfologia e sinal preservados, sem dilatação ductal. A lesão mantém contato com a junção venosa esplenomesentérica, mantendo clivagem.
 
-      OPINIÃO:
+      Conclusão:
       Lesão cística multiloculada no corpo pancreático, com maior probabilidade de tratar-se de cistoadenoma seroso.
     word: true
 
@@ -2609,6 +2605,7 @@ matches:
     label: "Aumento volumétrico da cabeça medial do gastrocnêmio"
     replace: |-
       Aumento volumétrico da cabeça medial do gastrocnêmio, associado a alto sinal na ponderação T2, representando edema, sem perda do padrão fibrilar, identificando-se pequena quantidade de líquido perifascial. Não há sinais de ruptura muscular ou rompimento nas junções miotendinosas.
+
       Conclusão:
       Aumento volumétrico da cabeça medial do gastrocnêmio, associado a alto sinal na ponderação T2, representando edema, sem perda do padrão fibrilar, identificando-se pequena quantidade de líquido perifascial. Não há sinais de ruptura muscular ou rompimento nas junções miotendinosas. A possibilidade de distensão muscular grau I/II deve ser considerada diante do contexto clínico.
     word: true
@@ -2844,7 +2841,8 @@ matches:
     label: "Lesão ou rotura completa"
     replace: |-
       Ruptura da aponeurose entre o gastrocnêmio medial e o sóleo, associada a formação laminar hipointensa nas sequências ponderadas em T1 e T2, localizada entre os ventres musculares correspondentes, compatível com processo crônico ou área de fibrose residual. O tendão do músculo plantar não é nitidamente identificado, achado sugestivo de lesão ou rotura completa.
-      OPINIÃO:
+
+      Conclusão:
       Achados sugestivos de "tennis leg" em fase crônica, caracterizado por lesão da junção mioaponeurótica entre o gastrocnêmio medial e o sóleo, eventualmente associada à rotura do tendão do músculo plantar. Recomenda-se correlação com exame físico e histórico clínico.
     word: true
 
@@ -3082,7 +3080,8 @@ matches:
 
       Técnica:
       Realizadas imagens de angiorressonância pela técnica de 3D TOF - MOTSA com imagens de intensidade máxima (MIP) tridimensionais, com aquisições antes e após a administração do meio de contraste.
-      Análise:
+
+      Descrição:
       Não há sinais de formação aneurismática, lâmina de dissecção ou estenose na aorta abdominal.
       Tronco celíaco e artéria mesentérica superior pérvios, sem sinais de estenose.
       Artéria mesentérica inferior pérvia.
@@ -3095,7 +3094,7 @@ matches:
       Artéria renal direita única, pérvia e sem evidências de estenose.
       Artéria renal esquerda única, pérvia e sem evidências de estenose.
 
-      Impressão diagnóstica:
+      Conclusão:
       Avaliação por angiorressonância magnética da aorta abdominal e artérias renais sem anormalidades significativas.
     word: true
 
@@ -3105,19 +3104,16 @@ matches:
       ANGIORRESSONÂNCIA ARTERIAL CERVICAL - C/C
 
       Técnica:
-
       Realizado estudo por imagens de angiorressonância arterial cervical durante a injeção do meio de contraste endovenoso, com reconstruções tridimensionais.
 
-      Análise:
-
+      Descrição:
       Arco aórtico, tronco braquiocefálico e porções proximais das artérias subclávias com trajeto e calibre preservados.
       Origem habitual dos vasos no arco aórtico.
       Artérias carótidas comuns, segmentos cervicais das carótidas internas e externas de calibre e contornos normais.
       Segmentos cervicais das artérias vertebrais de trajeto, calibre e contornos normais.
       Ausência de estenoses hemodinamicamente significativas ou dilatações aneurismáticas.
 
-      Opinião:
-
+      Conclusão:
       Estudo por imagens de angiorressonância arterial cervical sem anormalidades evidentes.
     word: true
 
@@ -3129,7 +3125,7 @@ matches:
       Técnica:
       Realizadas imagens de angiorressonância pela técnica de 3D TOF - MOTSA com imagens de intensidade máxima (MIP) tridimensionais, com aquisições antes e após a administração do meio de contraste.
 
-      Análise:
+      Descrição:
       Não há sinais de formação aneurismática, lâmina de dissecção ou estenose na aorta abdominal.
       Os maiores diâmetros dos seguintes segmentos vasculares medem:
       Transição toracoabdominal aórtica: _ cm.
@@ -3142,7 +3138,7 @@ matches:
       Artéria renal direita única, pérvia e sem evidências de estenose.
       Artéria renal esquerda única, pérvia e sem evidências de estenose.
 
-      Impressão diagnóstica:
+      Conclusão:
       Avaliação por angiorressonância magnética da aorta abdominal e artérias renais sem anormalidades significativas.
     word: true
 
@@ -3151,17 +3147,14 @@ matches:
     replace: |-
       ANGIORRESSONÂNCIA ENCEFÁLICA - S/C
 
-      TÉCNICA:
-
+      Técnica:
       Realizadas imagens de angiorressonância pela técnica de 3D TOF - MOTSA com imagens de intensidade máxima (MIP) tridimensionais, com aquisições sensíveis a fluxo arterial.
 
-      DESCRIÇÃO:
-
+      Descrição:
       Artérias carótidas internas em sua porção intracraniana, artérias cerebrais anteriores,
       médias, posteriores, basilar e vertebrais com calibre e fluxo preservados.
 
-      OPINIÃO:
-
+      Conclusão:
       Estudo por imagens de angiorressonância arterial encefálica dentro dos parâmetros da normalidade.
     word: true
 
@@ -3170,10 +3163,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO C/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares antes e após a administração do meio de contraste endovenoso.
 
-      RELATÓRIO:
+      Descrição:
       Acentuado derrame articular com sinal heterogêneo, abaulando estruturas capsuloligamentares e os recessos medial e lateral da bolsa suprapatelar, com proliferação sinovial e realce pelo meio de contraste endovenoso, acometendo as articulações femorotibiais e patelofemoral. Há trajeto fistuloso ativo, comunicando o recesso suprapatelar lateral com o plano subcutâneo e a pele na face lateral do joelho.
       Báscula lateral da patela, com incisura da tróclea rasa.
       Adelgaçamento e irregularidade do revestimento condral do compartimento patelofemoral com edema ósseo subcondral.
@@ -3183,8 +3176,7 @@ matches:
       Sinais de edema do tecido adiposo entre o ligamento patelar e a tróclea femoral lateral, compatível com hoffite lateral.
       Espessamento da pele e das fáscias intermusculares em todo o membro inferior incluído nesse estudo, com hiperintensidade subcutânea reticular difusa, mal definida, tendendo a acumular-se na hipoderme, sugerindo representar edema/processo inflamatório diante do contexto clínico.
 
-      CONCLUSÃO:
-
+      Conclusão:
       O conjunto de achados acima detalhados é sugestivo de artrite séptica complicada com osteomielite femorotibial e patelofemoral.
     word: true
 
@@ -3196,7 +3188,7 @@ matches:
       Técnica:
       Exame de ressonância magnética das órbitas realizado com aquisições multiplanares pela técnica spin-eco pesada em T1 antes e após a administração endovenosa de contraste paramagnético (gadolínio) e técnica turbo spin-eco pesada em T2.
 
-      Análise:
+      Descrição:
       Espessamento e alteração de sinal da pele e do tecido subcutâneo da região periorbital esquerda, com extensão à gordura dos espaços pré e pós-septais e comprometimento do compartimento extraconal da órbita ipsilateral, com intensa impregnação pelo meio de contraste paramagnético, podendo corresponder a celulite.
       Coleção sugestiva de abscesso, com volume aproximado de _ cm³, localizada no espaço extraconal do canto superolateral da órbita esquerda, com extensão ao tecido subcutâneo, determinando proptose. Nota-se ainda espessamento e impregnação pelo gadolínio do ventre muscular reto superior, porém sem sinais de comprometimento das estruturas intraconais.
       Alteração do sinal da parte orbital do osso frontal esquerdo, com espessamento e realce paquimeníngeo, estendendo-se junto ao lobo frontal ipsilateral, identificando-se coleção laminar sugestiva de empiema, medindo _ cm. Associa-se alteração do sinal do parênquima cerebral adjacente que pode corresponder a cerebrite.
@@ -3206,7 +3198,7 @@ matches:
       Glândulas lacrimais de avaliação limitada.
       Quiasma óptico de aspecto normal.
 
-      OPINIÃO:
+      Conclusão:
       O conjunto de achados acima mencionado favorece a possibilidade de celulite periorbitária, com complicações intraorbitais, ósseas, meníngeas e encefálicas à esquerda, possivelmente secundária a sinusopatia frontal ipsilateral.
     word: true
 
@@ -3216,11 +3208,9 @@ matches:
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
       Técnica:
-
       Exame realizado pelas técnicas de fast spin echo e gradient echo com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares.
 
-      Análise:
-
+      Descrição:
       Transição craniovertebral sem alterações.
       Processo odontoide centrado, com contornos regulares, apresentando osteófitos marginais.
       Corpos vertebrais alinhados, com morfologia, altura e sinal da medular óssea conservados. Não há sinais de fraturas ou lesões ósseas focais.
@@ -3247,7 +3237,7 @@ matches:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em
       aquisições multiplanares, obtidas antes e após a administração do meio de contraste paramagnético por via endovenosa.
 
-      Análise:
+      Descrição:
       Retificação do arco plantar medial, configurando deformidade em pé plano.
       Hiperflexão das falanges.
       Alteração da morfologia e do sinal dos ossos do tarso e das bases dos metatarsos, com desarranjo arquitetural e estrutural, associada a colapso do navicular, dos cuneiformes e cuboide. Identificam-se alterações degenerativas avançadas das articulações do mediopé, com predomínio na articulação cuneonavicular e intercuneiformes, achados compatíveis com artropatia neuropática (pé de Charcot).
@@ -3270,10 +3260,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
-      TÉCNICA:
+      Técnica:
       Exame de Ressonância Magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, gradiente S.W.I., difusão e técnica de FLAIR, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Fossa posterior com dimensões reduzidas para seu conteúdo, com herniação de tonsilas cerebelares através do forame magno.
       Foice fenestrada com giros interdigitados.
       Disgenesia do corpo caloso com paralelismo dos cornos posteriores dos ventrículos laterais e alargamento dos átrios acompanhado de afilamento do parênquima cerebral nessa região (colpocefalia).
@@ -3285,7 +3275,7 @@ matches:
       Estruturas da linha média sem desvios significativos.
       Não se observa área de restrição na sequência difusão.
 
-      OPINIÃO:
+      Conclusão:
       Malformação encefálica complexa, acima descrita. A possibilidade de malformação de Chiari II pode ser considerada.
     word: true
 
@@ -3293,16 +3283,18 @@ matches:
     label: "Angio-RM de cervical — com contraste"
     replace: |-
       ANGIORRESSONÂNCIA CERVICAL C/C
+
       Técnica:
       Realizado estudo por imagens de angiorressonância arterial cervical durante a injeção do meio de contraste endovenoso, com reconstruções tridimensionais.
-      Análise:
+
+      Descrição:
       Afilamento significativo da artéria carótida interna direita comprometendo a transição dos segmentos C1/C2 (cervical/petroso), notando-se sinal do crescente nas ponderações T1 e T2, sugestivo de dissecção.
       Arco aórtico, tronco braquiocefálico e porções proximais das artérias subclávias com trajeto e calibre preservados.
       Origem habitual dos vasos no arco aórtico.
       Artérias carótidas comuns, segmento cervical da carótida interna esquerda e externas de calibre e contornos normais.
       Segmentos cervicais das artérias vertebrais de trajeto, calibre e contornos normais.
-      Opinião:
 
+      Conclusão:
       Afilamento significativo da artéria carótida interna direita comprometendo a transição dos segmentos C1/C2 (cervical/petroso), notando-se sinal do crescente nas ponderações T1 e T2, sugestivo de dissecção.
     word: true
 
@@ -3311,14 +3303,11 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame de Ressonância Magnética de crânio, realizado pela técnica de spin-eco pesada em T1, antes e após a administração endovenosa de contraste paramagnético, técnica de Turbo spin-eco pesada em T2
       e técnica de FLAIR, com aquisições multiplanares.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Lesões de alto sinal em T2/FLAIR, com discreta restrição à difusão, comprometendo predominantemente a substância branca supratentorial, confluente, bilateral e simétrica, com envolvimento de núcleos profundos, tronco cerebral e pedúnculos cerebelares. Após a administração do meio de contraste, não foi observado realce anômalo.
 
       Acentuação dos sulcos entre os giros corticais de forma difusa, das fissuras sylvianas e cisternas basais com discreta ectasia compensatória do sistema ventricular.
@@ -3333,9 +3322,7 @@ matches:
 
       Mastoidopatia à direita.
 
-
-      OPINIÃO:
-
+      Conclusão:
       Lesões de alto sinal em T2/FLAIR, com discreta restrição à difusão, comprometendo predominantemente a substância branca supratentorial, confluente, bilateral e simétrica, com envolvimento de núcleos profundos, tronco cerebral e pedúnculos cerebelares. Dentre as possibilidades diagnósticas, devemos considerar encefalite relacionada a doença de base como principal hipótese, não se podendo descartar a leucoencefalopatia multifocal progressiva (LEMP) ou encefalomielite disseminada aguda (ADEM).
 
       Acentuação dos sulcos entre os giros corticais de forma difusa, das fissuras sylvianas e cisternas basais com discreta ectasia compensatória do sistema ventricular.
@@ -3350,13 +3337,13 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
-      TÉCNICA:
+      Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel para distender o reto e o canal vaginal.
 
-      INDICAÇÃO:
+      Indicação:
       Endometriose profunda com tratamento cirúrgico evoluindo com fístulas colocutâneas.
 
-      ANÁLISE:
+      Descrição:
       Status pós-ooforectomia e salpingectomia à esquerda, histerectomia subtotal, colostomia à esquerda, ileotiflectomia com anastomose primária, segundo informações colhidas em prontuário eletrônico.
       Tecido de baixo sinal em T2 de aspecto retrátil e infiltrativo sugestivo de endometriose, localizado na loja uterina e estendendo-se à região retocervical acometendo:
       - parede posterior do remanescente do colo uterino, obliterando fundo de saco posterior e determinando elevação do fórnice vaginal posterior;
@@ -3370,7 +3357,7 @@ matches:
       Remanescente uterino medindo _ cm, volume estimado em _ cm³, centralizado, apresentando focos hiperintensos na ponderação T1 que podem representar endometriose ou conteúdo hemático.
       Pequena quantidade de líquido livre na cavidade pélvica.
 
-      OPINIÃO:
+      Conclusão:
       Status pós-ooforectomia e salpingectomia à esquerda, histerectomia subtotal, colostomia à esquerda, ileotiflectomia com anastomose primária, segundo informações colhidas em prontuário eletrônico.
       Tecido de baixo sinal em T2 de aspecto retrátil e infiltrativo sugestivo de endometriose, localizado na loja uterina e estendendo-se à região retocervical acometendo:
       - parede posterior do remanescente do colo uterino, obliterando fundo de saco posterior e determinando elevação do fórnice vaginal posterior;
@@ -3390,10 +3377,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
-      TÉCNICA:
+      Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel para distender o reto e o canal vaginal.
 
-      ANÁLISE:
+      Descrição:
       Estrias fibroaderenciais no espaço retrocervical posterior, determinando retração do reto médio, com sinais de infiltração nas camadas mais profundas deste segmento intestinal, medindo cerca de _ cm, distando _ cm da borda anal.
       Espessamento irregular das reflexões peritoneais no recesso vesicouterino, bem como dos ligamentos redondos e uterossacros, achados que podem estar relacionados a endometriose.
       Retrações capsulares ovarianas determinadas por traves aderenciais, destacando-se:
@@ -3407,9 +3394,7 @@ matches:
       Pequena quantidade de líquido livre na cavidade pélvica.
       Ausência de linfonodomegalias na cavidade pélvica.
 
-
-
-      OPINIÃO:
+      Conclusão:
       Alterações de aspecto endometriótico e/ou fibrocicatricial esparsas pela pelve, acima descritas.
       Aumento volumétrico do ovário esquerdo à custa de lesão cística simples.
       Pequena quantidade de líquido livre na cavidade pélvica.
@@ -3420,10 +3405,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
-      TÉCNICA:
+      Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel para distender o reto e o canal vaginal.
 
-      ANÁLISE:
+      Descrição:
       Lesão endometriótica, de aspecto retrátil, com maior componente fibrótico e hipossinal em T2, localizada no espaço retrocervical posterior, determinando retração do reto médio, com sinais de infiltração nas camadas mais profundas deste segmento intestinal, medindo cerca de _ cm, distando _ cm da borda anal.
       Lesões endometrióticas, de aspecto retrátil, com maior componente fibrótico e hipossinal em T2, localizadas no recesso vesicouterino, cúpula vaginal posterior, bem como nos ligamentos redondos e uterossacros.
       Retrações capsulares ovarianas determinadas por traves aderenciais, promovendo desvio medial/posterior do eixo dos ovários.
@@ -3438,7 +3423,7 @@ matches:
       Pequena quantidade de líquido livre na cavidade pélvica.
       Ausência de linfonodomegalias na cavidade pélvica.
 
-      OPINIÃO:
+      Conclusão:
       Lesão de aspecto retrátil comprometendo o reto médio, sugestiva de endometriose intestinal, diante do contexto clínico.
       Endometriomas ovarianos.
       Sinais de endometriose comprometendo o recesso vesicouterino, cúpula vaginal posterior, ligamentos redondos e uterossacros e o compartimento pélvico posterior.
@@ -3450,10 +3435,10 @@ matches:
     replace: |-
       ENTERORRESSONÂNCIA MAGNÉTICA
 
-      TÉCNICA:
+      Técnica:
       Realizadas sequências multiplanares ponderadas em T1 e T2, antes e após a injeção intravenosa do meio de contraste paramagnético. Realizada administração de solução hiperosmolar por via oral para distensão de alças intestinais.
 
-      ANÁLISE:
+      Descrição:
       Boa progressão do agente de contraste oral, sem definição de obstáculos ao trânsito.
       Alças intestinais de distribuição usual.
       Câmara gástrica com capacidade preservada.
@@ -3473,7 +3458,7 @@ matches:
       Ausência de linfonodomegalias ou de líquido livre na cavidade.
       Não há evidências de formações expansivas pélvicas.
 
-      OPINIÃO:
+      Conclusão:
       Exame de ressonância magnética dentro dos padrões da normalidade.
     word: true
 
@@ -3483,14 +3468,13 @@ matches:
       ENTERORRESSONÂNCIA MAGNÉTICA C/C
 
       Técnica:
-
       Realizadas sequências multiplanares ponderadas em T1 e T2, antes e após a injeção intravenosa do meio de contraste paramagnético. Realizada administração de solução hiperosmolar por via oral para distensão de alças intestinais.
       Estudo de avaliação prejudicada por artefatos de movimento.
 
       Indicação:
       Status pós-reconstrução do trânsito intestinal, com enterectomia segmentar, colectomia segmentar e retossigmoidectomia.
 
-      Análise:
+      Descrição:
       Boa progressão do agente de contraste oral, sem definição de obstáculos ao trânsito.
       Distensão hidroaérea da câmara gástrica, bem como de alças intestinais, sem fatores obstrutivos ao método.
       Pregueamento mucoso conservado.
@@ -3513,7 +3497,7 @@ matches:
       Ovários deslocados lateralmente.
       Cistos de Bartholin na região perineal.
 
-      OPINIÃO:
+      Conclusão:
       Status pós-reconstrução do trânsito intestinal, com enterectomia segmentar, colectomia segmentar e retossigmoidectomia.
       Cistos ovarianos bilaterais, com septos internos e aspecto sugestivo de neoplasia cística de origem epitelial, melhor avaliados por estudo direcionado.
       Demais achados pormenorizados no corpo do laudo.
@@ -3524,13 +3508,13 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
 
-      TÉCNICA:
+      Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio).
 
-      INDICAÇÃO:
+      Indicação:
       Estadiamento de neoplasia de próstata.
 
-      DESCRIÇÃO:
+      Descrição:
       Próstata de dimensões aumentadas, medindo _ cm, com volume de _ cm³, apresentando intensidade de sinal heterogênea do parênquima, com gordura periprostática de aspecto habitual. Há insinuação do lobo médio no assoalho vesical.
       Vesículas seminais de aspecto normal.
       Bexiga em boa repleção, de paredes discretamente espessadas e irregulares, com conteúdo de sinal homogêneo. Gordura perivesical preservada.
@@ -3543,7 +3527,7 @@ matches:
       Arcabouço ósseo sem evidência de lesões suspeitas para acometimento secundário.
       Alargamento adiposo dos canais inguinais.
 
-      OPINIÃO:
+      Conclusão:
       Próstata de dimensões aumentadas com sinal heterogêneo do parênquima.
       Sinais de bexiga de esforço.
       Alargamento adiposo dos canais inguinais.
@@ -3554,16 +3538,13 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
 
-      TÉCNICA:
-
+      Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel retal.
 
-      INDICAÇÃO:
-
+      Indicação:
       Estadiamento de neoplasia de próstata.
 
-      DESCRIÇÃO:
-
+      Descrição:
       Próstata com volume aumentado (_ cm³), mostrando sinal do parênquima difusamente heterogêneo, destacando-se lesão nodular infiltrativa na zona periférica à direita, de limites mal definidos, com sinais de invasão capsular ipsilateral e extensão para a gordura adjacente, além de comprometimento do aspecto central das vesículas seminais.
 
       Bexiga em boa repleção, de paredes espessadas e irregulares, com conteúdo de sinal homogêneo. Gordura perivesical preservada.
@@ -3582,8 +3563,7 @@ matches:
 
       Arcabouço ósseo sem evidências de alterações significativas.
 
-      OPINIÃO:
-
+      Conclusão:
       Próstata com volume aumentado, mostrando sinal do parênquima difusamente heterogêneo, destacando-se lesão nodular infiltrativa na zona periférica à direita, de limites mal definidos, com sinais de invasão capsular ipsilateral e extensão para a gordura adjacente, além de comprometimento do aspecto central das vesículas seminais.
 
       Bexiga de esforço.
@@ -3596,13 +3576,13 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
 
-      TÉCNICA:
+      Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel retal.
 
-      INDICAÇÃO:
+      Indicação:
       Estadiamento de neoplasia de próstata.
 
-      DESCRIÇÃO:
+      Descrição:
       Próstata de dimensões normais, medindo _ cm, com volume de _ cm³, apresentando intensidade de sinal discretamente heterogênea do parênquima, com gordura periprostática de aspecto habitual.
       Vesículas seminais de aspecto normal.
       Bexiga em boa repleção, de paredes discretamente espessadas e irregulares, com conteúdo de sinal homogêneo. Gordura perivesical preservada.
@@ -3615,7 +3595,7 @@ matches:
       Arcabouço ósseo sem evidência de lesões suspeitas para acometimento secundário.
       Ausência de linfonodomegalias.
 
-      OPINIÃO:
+      Conclusão:
       Próstata de dimensões normais.
       Sinal heterogêneo do parênquima prostático.
       Arcabouço ósseo sem evidência de lesões suspeitas para acometimento secundário.
@@ -3627,10 +3607,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Acentuada artropatia acromioclavicular, caracterizada por redução do espaço articular, osteofitose marginal, espessamento capsulossinovial, pequeno derrame articular e edema das faces articulares em aposição.
       Elevação da cabeça umeral, com redução do espaço subacromial.
       Pequenos cistos ósseos na cabeça umeral, notadamente no tubérculo maior, relacionados à tração crônica.
@@ -3645,7 +3625,7 @@ matches:
       Pequeno derrame articular glenoumeral.
       Restante dos ventres musculares com trofismo conservado.
 
-      OPINIÃO:
+      Conclusão:
       Acentuada artropatia acromioclavicular.
       Elevação da cabeça umeral, com redução do espaço subacromial.
       Artropatia glenoumeral incipiente.
@@ -3661,17 +3641,17 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COXA DIREITA S/C
 
-      TÉCNICA:
+      Técnica:
       Realizados cortes multiplanares com sequências ponderadas em T1, T2 e STIR.
 
-      ANÁLISE:
+      Descrição:
       Distorção focal e perda parcial do padrão fibrilar, com alteração de sinal em T2 e edema/hemorragia perifascial de grau moderado no terço médio do ventre muscular do reto femoral, estendendo-se por cerca de _ cm, sem evidência de rotura tendínea.
       Estruturas ósseas com morfologia e alinhamento dentro da normalidade.
       Restante das estruturas musculotendíneas com morfologia preservada.
       Feixes neurovasculares sem alterações.
       Não há evidência de formações com efeito expansivo no segmento analisado.
 
-      OPINIÃO:
+      Conclusão:
       Achados compatíveis com distensão muscular grau II no terço médio do ventre do músculo reto femoral.
     word: true
 
@@ -3681,11 +3661,9 @@ matches:
       RESSONÂNCIA MAGNÉTICA DO TORNOZELO DIREITO S/C
 
       Técnica:
-
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      Análise:
-
+      Descrição:
       Retificação do arco plantar medial, resultando em deformidade de pé plano.
       Obliteração da gordura do seio do tarso, hipertrofia osteocapsular talonavicular dorsal, bem como alteração do sinal da medular óssea na região anterior do calcâneo, achados que sugerem sobrecarga mecânica crônica.
       Espessamento e alteração do sinal do tendão tibial posterior, destacando-se pequena quantidade de líquido na bainha sinovial.
@@ -3703,7 +3681,6 @@ matches:
       Edema do subcutâneo nas regiões bimaleolares.
 
       Conclusão:
-
       Retificação do arco plantar medial, resultando em deformidade de pé plano.
       Obliteração da gordura do seio do tarso, hipertrofia osteocapsular talonavicular dorsal, bem como alteração do sinal da medular óssea na região anterior do calcâneo, achados que sugerem sobrecarga mecânica crônica.
       Tenossinovite do tibial posterior.
@@ -3718,10 +3695,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Derrame articular distendendo os recessos medial e lateral da bolsa suprapatelar, com sinais de sinovite.
       Osteofitose marginal tricompartimental.
       Adelgaçamento e irregularidade do revestimento condral do compartimento femorotibial medial com fissuras profundas, edema ósseo, notadamente na tíbia onde existe erosão subcondral.
@@ -3737,7 +3714,7 @@ matches:
       Sinais de edema do tecido adiposo entre o ligamento patelar e a tróclea femoral lateral, compatível com hoffite lateral.
       Pequeno cisto poplíteo.
 
-      OPINIÃO:
+      Conclusão:
       Derrame articular distendendo os recessos medial e lateral da bolsa suprapatelar, com sinais de sinovite.
       Osteofitose marginal tricompartimental.
       Condropatia avançada do compartimento femorotibial medial.
@@ -3753,12 +3730,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Túneis ósseos no fêmur e na tíbia com artefatos de susceptibilidade magnética, que são achados habituais após reconstrução cirúrgica do ligamento cruzado anterior. Não há sinais de rotura do enxerto ligamentar.
       Ligamento cruzado posterior e colaterais com continuidade, espessura e sinal conservados.
       Adelgaçamento significativo do menisco medial que, na ausência de ressecção cirúrgica, configura rotura.
@@ -3769,8 +3744,7 @@ matches:
       Tendões quadricipital e patelar sem particularidades.
       Derrame articular.
 
-      CONCLUSÃO:
-
+      Conclusão:
       Túneis ósseos no fêmur e na tíbia com artefatos de susceptibilidade magnética, que são achados habituais após reconstrução cirúrgica do ligamento cruzado anterior. Não há sinais de rotura do enxerto ligamentar.
       Adelgaçamento significativo do menisco medial que, na ausência de ressecção cirúrgica, configura rotura.
       Fissura condral profunda na tróclea femoral.
@@ -3783,12 +3757,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Artropatia degenerativa avançada femorotibial tricompartimental, caracterizada por redução dos espaços articulares, especialmente do compartimento lateral, associada a osteofitose marginal, hipertrofia das eminências tibiais, erosões subcondrais/cistos. Destaca-se ainda moderado derrame articular com espessamento sinovial, sugerindo processo inflamatório associado.
 
       Imagem sugestiva de cisto ósseo na região diafisária do fêmur distal, medindo cerca de _ cm.
@@ -3820,8 +3792,7 @@ matches:
       Edema do subcutâneo pré-patelar.
       Sinais de edema do tecido adiposo entre o ligamento patelar e a tróclea femoral lateral, compatível com hoffite lateral.
 
-      OPINIÃO:
-
+      Conclusão:
       Osteoartrite/osteoartrose.
 
       Imagem sugestiva de cisto ósseo na região diafisária do fêmur distal.
@@ -3855,11 +3826,9 @@ matches:
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR C/C
 
       Técnica:
-
       Exame realizado pelas técnicas TSE e GRE com imagens multiplanares ponderadas em T1 e T2 antes e após a administração intravenosa de meio de contraste paramagnético (gadolínio).
 
-      Análise:
-
+      Descrição:
       Lesão hipovascular, de limites pouco definidos, apresentando realce progressivo pelo meio de contraste paramagnético endovenoso e restrição à difusão, medindo cerca de _ cm, localizada junto à confluência dos ductos biliares, com amputação do sinal dos mesmos, promovendo dilatação das vias biliares intra-hepáticas. Há íntimo contato da lesão com a veia porta. Associa-se aumento do número e das dimensões de linfonodos mesentéricos, celíacos, retroperitoneais, com linfonodomegalia no hilo hepático, medindo até _ cm no menor eixo.
       Três pequenas imagens nodulares hepáticas hipovasculares, a maior localizada no segmento II, medindo _ cm, sugestivas de implantes neoplásicos secundários.
       Vesícula biliar hipodistendida.
@@ -3869,7 +3838,6 @@ matches:
       Aorta abdominal, parcialmente visualizada, com trajeto e calibre preservados.
 
       Conclusão:
-
       A possibilidade de neoplasia primária das vias biliares (colangiocarcinoma intra-hepático) pode ser considerada.
     word: true
 
@@ -3878,15 +3846,15 @@ matches:
     replace: |-
       COLANGIORRESSONÂNCIA MAGNÉTICA - S/C
 
-      TÉCNICA:
+      Técnica:
       Realizado estudo por imagens por ressonância magnética das vias biliares (colangio-RM) segundo a técnica T2 SPACE 3D com reconstruções multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Status pós-colecistectomia, com pequena quantidade de líquido no leito vesicular.
       Discreta dilatação de vias biliares intra-hepáticas. Estenose abrupta do ducto hepático comum, cerca de _ cm abaixo da confluência dos ductos biliares principais direito e esquerdo, estendendo-se por aproximadamente _ cm.
       Ducto pancreático principal com trajeto, calibre e intensidade de sinal preservados.
 
-      OPINIÃO:
+      Conclusão:
       Status pós-colecistectomia, com pequena quantidade de líquido no leito vesicular.
       Discreta dilatação de vias biliares intra-hepáticas. Estenose abrupta do ducto hepático comum, cerca de _ cm abaixo da confluência dos ductos biliares principais direito e esquerdo, estendendo-se por aproximadamente _ cm, que pode corresponder a pequeno cálculo residual ou lesão de via biliar relacionada ao procedimento cirúrgico.
     word: true
@@ -3896,10 +3864,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Sulco da tróclea femoral displásico no terço superior, à custa de hipoplasia da faceta medial.
       Patela alta, basculada e luxada lateralmente.
       Patela de morfologia tipo II de Wiberg.
@@ -3913,7 +3881,7 @@ matches:
       Tendões quadricipital e patelar sem particularidades.
       Mínimo derrame articular.
 
-      OPINIÃO:
+      Conclusão:
       Sulco da tróclea femoral displásico no terço superior, à custa de hipoplasia da faceta medial.
       Patela alta, basculada e luxada lateralmente.
       Patela de morfologia tipo II de Wiberg.
@@ -3927,22 +3895,13 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
-
-
-      INDICAÇÃO:
-
+      Indicação:
       Acompanhamento de doença desmielinizante.
 
-
-
-      TÉCNICA:
-
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, gradiente S.W.I., difusão e técnica de FLAIR, com aquisições multiplanares.
 
-
-
-      DESCRIÇÃO:
-
+      Descrição:
       Em comparação com o exame anterior de 10/07/2023, realizado em outro serviço, observa-se redução do número e da intensidade de sinal das pequenas lesões de alto sinal em T2 e FLAIR localizadas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, algumas com orientação perpendicular à linha ependimária, sugestivas de lesões com substrato desmielinizante.
 
       Restante do parênquima encefálico de morfologia e características de sinal conservadas.
@@ -3959,10 +3918,7 @@ matches:
 
       Após a administração do gadolínio não foi observado realce anômalo.
 
-
-
-      OPINIÃO:
-
+      Conclusão:
       Em comparação com o exame anterior de 10/07/2023, realizado em outro serviço, observa-se redução do número e da intensidade de sinal das pequenas lesões de alto sinal em T2 e FLAIR localizadas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, algumas com orientação perpendicular à linha ependimária, sugestivas de lesões com substrato desmielinizante.
 
       Ausência de novas lesões ativas neste controle.
@@ -3975,10 +3931,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Artefatos metálicos de susceptibilidade magnética na tíbia, promovidos por material de síntese, degradando a análise das imagens.
       Osteofitose marginal tricompartimental.
       Fissuras condrais profundas no vértice da patela e tróclea femoral.
@@ -3988,7 +3944,7 @@ matches:
       Restante do revestimento condral de avaliação limitada.
       Tendões quadricipital e patelar sem particularidades.
 
-      OPINIÃO:
+      Conclusão:
       Artefatos metálicos de susceptibilidade magnética na tíbia, promovidos por material de síntese, degradando a análise das imagens.
       Osteofitose marginal tricompartimental.
       Condropatia moderada da patela e tróclea femoral.
@@ -4001,15 +3957,11 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE HIPÓFISE - C/C
 
-
-      TÉCNICA:
-
+      Técnica:
       Exame de Ressonância Magnética de hipófise, realizado pela técnica de spin-eco pesada em T1,
       antes e após a administração endovenosa de contraste paramagnético (injeção dinâmica) e técnica Turbo spin-eco pesada em T2, com aquisições multiplanares.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Cavidade selar de forma e dimensões normais.
 
       Glândula hipofisária de dimensões conservadas e características de sinal normais.
@@ -4024,8 +3976,7 @@ matches:
 
       Quiasma óptico de aspecto normal.
 
-      OPINIÃO:
-
+      Conclusão:
       Exame de Ressonância Magnética de hipófise dentro dos padrões da normalidade.
     word: true
 
@@ -4035,14 +3986,14 @@ matches:
       RESSONÂNCIA MAGNÉTICA DA PELVE
       Técnica: cortes multiplanares adquiridos antes e após a injeção de meio de contraste intravenoso. Realizado protocolo dirigido para avaliação de tumor do reto / canal anal.
 
-      Análise:
+      Descrição:
       Lesão sólida expansiva semi-anular no reto baixo e canal anal, projetando-se através da borda anal e estendendo-se superiormente até _ cm acima do anel anorretal, com extensão total de _ cm e borda proximal _ cm abaixo da reflexão peritoneal.
       A borda mais infiltrativa da lesão localiza-se das 02h às 09h e infiltra o esfíncter externo entre 06 e 08h (plano interesfincteriano comprometido).
       A lesão é coincidente à fáscia mesorretal em seu aspecto superior (fáscia mesorretal comprometida).
       Não se caracterizam linfonodos acometidos nas cadeias inguinais/ilíacas externas/ilíacas internas e ilíacas comuns.
       Não se observam implantes peritoneais.
 
-      Opinião:
+      Conclusão:
       Lesão de reto baixo e canal anal, com comprometimento do plano interesfincteriano e fáscia mesorretal.
     word: true
 
@@ -4051,10 +4002,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
-      TÉCNICA:
+      Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel para distender o reto e o canal vaginal.
 
-      ANÁLISE:
+      Descrição:
       Lesão expansiva neoplásica, de aspecto infiltrativo, distando cerca de _ cm da borda anal, com maior componente no espaço pré-sacral, mesorreto e fossas isquioanais, comprometendo toda a extensão do reto com estenose luminal do mesmo. Tal lesão invade a parede posterior da vagina com obstrução da luz do órgão, mantendo contato com a parede posterior do colo e do corpo uterinos. A lesão projeta-se nos planos musculoadiposos da região glútea bilateralmente, acompanhada de múltiplas coleções, por vezes confluentes, predominando no subcutâneo, sugestivas de abscessos. Nota-se ainda aparente comprometimento das últimas peças coccígeas.
       Associa-se aumento do número e dimensões de linfonodos pararretais, retais superiores e ilíacos, medindo até _ cm no menor eixo.
       Bexiga com moderada repleção, paredes ligeiramente espessadas e conteúdo de sinal homogêneo.
@@ -4063,7 +4014,7 @@ matches:
       Ovários não visibilizados.
       Alteração difusa do sinal dos planos gordurosos subcutâneos, além de líquido livre na cavidade abdominal, achados que sugerem sobrecarga hídrica.
 
-      OPINIÃO:
+      Conclusão:
       Lesão expansiva neoplásica, de aspecto infiltrativo, distando cerca de _ cm da borda anal, com maior componente no espaço pré-sacral, mesorreto e fossas isquioanais, comprometendo toda a extensão do reto com estenose luminal do mesmo. Tal lesão invade a parede posterior da vagina com obstrução da luz do órgão, mantendo contato com a parede posterior do colo e do corpo uterinos. A lesão projeta-se nos planos musculoadiposos da região glútea bilateralmente, acompanhada de múltiplas coleções, por vezes confluentes, predominando no subcutâneo, sugestivas de abscessos. Nota-se ainda aparente comprometimento das últimas peças coccígeas.
       Associa-se aumento do número e dimensões de linfonodos pararretais, retais superiores e ilíacos, suspeitos para acometimento neoplásico secundário.
     word: true
@@ -4076,7 +4027,7 @@ matches:
       Técnica:
       Sequências multiplanares, ponderadas em T1 e T2, com contraste paramagnético endovenoso. Exame dirigido para a avaliação do reto.
 
-      Relatório:
+      Descrição:
       Lesão expansiva anular, sem conteúdo mucinoso, distando _ cm da borda anal e cuja margem distal encontra-se _ cm acima do anel anorretal. Estende-se por _ cm e encontra-se acima da reflexão peritoneal.
 
       A borda infiltrativa da lesão é circunferencial. A lesão é restrita à camada muscular própria. Estádio T (RM): T2/T3a (< 1 mm).
@@ -4093,7 +4044,7 @@ matches:
 
       Não se observam linfonodos laterais.
 
-      Impressão:
+      Conclusão:
       Estadiamento de neoplasia do reto pela RM: T2/T3a N2 Mx.
 
       Fáscia mesorretal em risco.
@@ -4106,13 +4057,13 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
 
-      TÉCNICA:
+      Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel retal.
 
-      INDICAÇÃO:
+      Indicação:
       Estadiamento de neoplasia de cólon sigmoide.
 
-      DESCRIÇÃO:
+      Descrição:
       Lesão expansiva sem conteúdo mucinoso, determinando espessamento parietal irregular subestenosante do cólon sigmoide, com borda infiltrativa circunferencial, extensão aproximada de _ cm, distando cerca de _ cm da borda anal. Há sinais de extensão da lesão de aproximadamente _ cm além da camada muscular própria, bem como alteração do sinal dos planos adiposos adjacentes, com acentuada neoangiogênese.
       Aumento do número de linfonodos adjacentes à lesão acima descrita, com ao menos 04 exibindo alteração de sinal em T2 e restrição à difusão, suspeitos para acometimento neoplásico secundário.
       Não há evidências de implantes peritoneais na região de estudo.
@@ -4126,8 +4077,7 @@ matches:
       Vasos ilíacos de trajeto, calibre e fluxo mantidos.
       Não há líquido livre na cavidade pélvica.
 
-
-      OPINIÃO:
+      Conclusão:
       Estadiamento de neoplasia primária de cólon sigmoide pela RM: T3c N2 Mx.
       Demais achados pormenorizados no corpo do laudo.
     word: true
@@ -4137,10 +4087,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Acentuada artropatia acromioclavicular, caracterizada por redução do espaço articular, osteofitose marginal, espessamento capsulossinovial, pequeno derrame articular e edema das faces articulares em aposição.
       Pequeno esporão acromial.
       Cabeça umeral de morfologia e sinal normais.
@@ -4154,7 +4104,7 @@ matches:
       Pequeno derrame articular glenoumeral.
       Ventres musculares com trofismo conservado.
 
-      OPINIÃO:
+      Conclusão:
     word: true
 
   - trigger: "ombroclassico"
@@ -4162,12 +4112,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Moderada artropatia acromioclavicular, caracterizada por osteofitose marginal e espessamento capsulossinovial.
       Leve inclinação inferolateral do acrômio.
       Alterações fibrocísticas no tubérculo maior do úmero.
@@ -4180,8 +4128,7 @@ matches:
       Pequena quantidade de líquido no recesso axilar.
       Ventres musculares com trofismo conservado.
 
-      OPINIÃO:
-
+      Conclusão:
       Moderada artropatia acromioclavicular, caracterizada por osteofitose marginal e espessamento capsulossinovial.
       Leve inclinação inferolateral do acrômio.
       Alterações fibrocísticas no tubérculo maior do úmero.
@@ -4195,12 +4142,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Acentuada artropatia acromioclavicular, caracterizada por osteofitose marginal, redução do espaço articular, cistos subcondrais, derrame articular e espessamento capsulossinovial.
       Elevação da cabeça umeral em relação à glenoide, com redução significativa do espaço subacromial.
       Alterações fibrocísticas na cabeça umeral.
@@ -4211,8 +4156,7 @@ matches:
       Mínima distensão líquida da bursa subacromial / subdeltoidea.
       Pequeno derrame articular glenoumeral.
 
-      OPINIÃO:
-
+      Conclusão:
       Acentuada artropatia acromioclavicular.
       Elevação da cabeça umeral em relação à glenoide, com redução significativa do espaço subacromial.
       Alterações fibrocísticas na cabeça umeral.
@@ -4229,12 +4173,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Moderada artropatia acromioclavicular, caracterizada por osteofitose marginal e espessamento capsulossinovial. Associa-se esporão acromial.
       Alterações fibrocísticas na cabeça umeral.
       Demais estruturas ósseas com morfologia e sinal medular conservados.
@@ -4246,8 +4188,7 @@ matches:
       Pequeno derrame articular glenoumeral.
       Ventres musculares com trofismo conservado.
 
-      OPINIÃO:
-
+      Conclusão:
       Moderada artropatia acromioclavicular, caracterizada por osteofitose marginal e espessamento capsulossinovial. Associa-se esporão acromial.
       Alterações fibrocísticas na cabeça umeral.
       Tendão supraespinhal e subescapular espessados com elevação do sinal, notadamente no supraespinhal, destacando-se fissuras intrassubstanciais, compatível com tendinopatia.
@@ -4260,15 +4201,12 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
       Exame realizado sem a administração do meio de contraste endovenoso mediante a solicitação da paciente.
 
-
-      RELATÓRIO:
-
+      Descrição:
       Volumoso derrame articular glenoumeral com importante proliferação sinovial, destacando-se alguns corpos livres intra-articulares subcentimétricos, o maior deles medindo _ cm no recesso axilar.
 
       Acentuada artropatia degenerativa acromioclavicular caracterizada por redução da interlinha articular, osteofitose marginal, espessamento capsuloligamentar e edema de ambos os componentes ósseos, determinando impressão sobre partes moles adjacentes. Observa-se ainda esporão acromial.
@@ -4288,9 +4226,7 @@ matches:
 
       Bursopatia subacromial/subdeltoidea e subcoracoide.
 
-
-      OPINIÃO:
-
+      Conclusão:
       Volumoso derrame articular glenoumeral com importante proliferação sinovial, destacando-se alguns corpos livres intra-articulares subcentimétricos.
 
       Acentuada artropatia degenerativa acromioclavicular e glenoumeral.
@@ -4311,12 +4247,10 @@ matches:
 
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Acentuada artropatia acromioclavicular, caracterizada por redução do espaço articular, osteofitose marginal com edema das faces articulares em aposição e espessamento capsulossinovial. Tais alterações determinam impacto no túnel do supraespinhal.
       Alterações fibrocísticas na cabeça umeral e no acrômio.
       Elevação da cabeça umeral em relação à cavidade glenoide, com redução do espaço subacromial.
@@ -4330,8 +4264,7 @@ matches:
       Derrame articular glenoumeral.
       Moderada lipossubstituição dos ventres musculares do subescapular e infraespinhal.
 
-      OPINIÃO:
-
+      Conclusão:
       Acentuada artropatia acromioclavicular, caracterizada por redução do espaço articular, osteofitose marginal com edema das faces articulares em aposição e espessamento capsulossinovial. Tais alterações determinam impacto no túnel do supraespinhal.
       Alterações fibrocísticas na cabeça umeral e no acrômio.
       Elevação da cabeça umeral em relação à cavidade glenoide, com redução do espaço subacromial.
@@ -4349,31 +4282,31 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA PERNA ESQUERDA C/C
 
-      TÉCNICA:
+      Técnica:
       Realizados cortes multiplanares com sequências ponderadas em T1, T2 e STIR, antes e após a administração do meio de contraste endovenoso.
 
-      ANÁLISE:
+      Descrição:
       Observa-se padrão trabecular grosseiro com espessamento cortical, expansão óssea e alteração do sinal da medular (sinal relativamente baixo em T1 e alto em T2, com áreas de realce pós-contraste), envolvendo a tíbia esquerda, estendendo-se até a região diafisária média.
       Restante das estruturas ósseas com morfologia e alinhamento dentro da normalidade.
       Estruturas musculotendíneas com morfologia preservada.
       Feixes neurovasculares sem alterações.
 
-      OPINIÃO:
+      Conclusão:
       Observa-se padrão trabecular grosseiro com espessamento cortical, expansão óssea e alteração do sinal da medular (sinal relativamente baixo em T1 e alto em T2 com áreas de realce pós-contraste), envolvendo a tíbia esquerda, estendendo-se até a região diafisária média. Admitem-se inicialmente as possibilidades de doença de Paget, displasia fibrosa e doença metastática diante do contexto clínico. Correlacionar com dados clínicos e laboratoriais.
 
 
       RESSONÂNCIA MAGNÉTICA DA PERNA ESQUERDA C/C
 
-      TÉCNICA:
+      Técnica:
       Realizados cortes multiplanares com sequências ponderadas em T1, T2 e STIR, antes e após a administração do meio de contraste endovenoso.
 
-      ANÁLISE:
+      Descrição:
       Observa-se padrão trabecular grosseiro com espessamento cortical, expansão óssea e alteração do sinal da medular (sinal relativamente baixo em T1 e alto em T2, com áreas de realce pós-contraste), envolvendo a tíbia esquerda, estendendo-se até a região diafisária média.
       Restante das estruturas ósseas com morfologia e alinhamento dentro da normalidade.
       Estruturas musculotendíneas com morfologia preservada.
       Feixes neurovasculares sem alterações.
 
-      OPINIÃO:
+      Conclusão:
       Observa-se padrão trabecular grosseiro com espessamento cortical, expansão óssea e alteração do sinal da medular (sinal relativamente baixo em T1 e alto em T2 com áreas de realce pós-contraste), envolvendo a tíbia esquerda, estendendo-se até a região diafisária média. Admitem-se inicialmente as possibilidades de doença de Paget, displasia fibrosa e doença metastática diante do contexto clínico. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
@@ -4385,8 +4318,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
-
+      Descrição:
       Alterações degenerativas femoroacetabulares, caracterizadas por afilamento condral das superfícies articulares em área de carga e reações osteo-hipertróficas marginais.
       Mínimo derrame articular.
       Lábio acetabular com morfologia e sinal conservados, sem evidências de lesão.
@@ -4399,7 +4331,6 @@ matches:
       Discreto edema da gordura entre a fáscia lata e o trocânter maior, compatível com atrito local.
 
       Conclusão:
-
       Alterações degenerativas femoroacetabulares, com mínimo derrame articular.
       Tendinopatia avançada do glúteo mínimo, com sinais inflamatórios dos tecidos moles adjacentes.
       Discreto edema da gordura entre a fáscia lata e o trocânter maior, compatível com atrito local.
@@ -4410,9 +4341,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR E INFERIOR C/C
 
-      TÉCNICA:
+      Técnica:
       Realizadas sequências multiplanares ponderadas em T1 e T2, antes e após a injeção intravenosa do meio de contraste paramagnético. Utilizado gel retal e vaginal.
-      ANÁLISE:
+
+      Descrição:
       Fígado de dimensões normais, contornos regulares e bordos finos. Parênquima com intensidade de sinal habitual. Ausência de lesões focais detectáveis.
       Veias hepáticas e ramos portais preservados.
       Não há dilatação das vias biliares intra ou extra-hepáticas.
@@ -4433,7 +4365,7 @@ matches:
       Ovários tópicos, com dimensões, contornos e sinal normais. Não se caracterizam cistos hemorrágicos.
       Ausência de líquido livre ou linfonodomegalias na cavidade abdominal.
 
-      OPINIÃO:
+      Conclusão:
       Exame de ressonância magnética dentro dos padrões da normalidade.
     word: true
 
@@ -4442,12 +4374,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME TOTAL C/C
 
-      TÉCNICA:
-
+      Técnica:
       Realizadas sequências multiplanares ponderadas em T1 e T2, antes e após a injeção intravenosa do meio de contraste paramagnético.
 
-      ANÁLISE:
-
+      Descrição:
       Fígado de dimensões normais, contornos regulares e bordos finos. Parênquima com intensidade de sinal habitual. Ausência de lesões focais detectáveis.
       Veias hepáticas e ramos portais preservados.
       Não há dilatação das vias biliares intra ou extra-hepáticas.
@@ -4463,8 +4393,7 @@ matches:
       Vesículas seminais simétricas, com contornos, dimensões e intensidade de sinal conservados.
       Ausência de linfonodomegalias ou de líquido livre na cavidade.
 
-      OPINIÃO:
-
+      Conclusão:
       Exame dentro dos padrões da normalidade.
     word: true
 
@@ -4472,10 +4401,11 @@ matches:
     label: "RM de abdome superior — com contraste"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR C/C
-      TÉCNICA:
 
+      Técnica:
       Realizadas sequências multiplanares ponderadas em T1 e T2, antes e após a injeção intravenosa do meio de contraste paramagnético.
-      ANÁLISE:
+
+      Descrição:
       Fígado de dimensões normais, contornos regulares e bordos finos. Parênquima com intensidade de sinal habitual. Ausência de lesões focais detectáveis.
       Veias hepáticas e ramos portais preservados.
       Não há dilatação das vias biliares intra ou extra-hepáticas.
@@ -4485,7 +4415,8 @@ matches:
       Rins tópicos, com contornos, dimensões e espessura do parênquima conservados. Existe concentração adequada do meio de contraste paramagnético. Não há sinais de dilatação pielocalicinal.
       Adrenais de morfologia, dimensões e sinal usuais.
       Ausência de linfonodomegalias ou de líquido livre na cavidade abdominal superior.
-      OPINIÃO:
+
+      Conclusão:
       Exame de ressonância magnética dentro dos padrões da normalidade.
     word: true
 
@@ -4493,10 +4424,11 @@ matches:
     label: "RM de abdome superior — com contraste"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR C/C
-      TÉCNICA:
 
+      Técnica:
       Realizadas sequências multiplanares ponderadas em T1 e T2, antes e após a injeção intravenosa do meio de contraste paramagnético.
-      ANÁLISE:
+
+      Descrição:
       Fígado de dimensões normais, contornos regulares e bordos finos. Parênquima com intensidade de sinal habitual. Ausência de lesões focais detectáveis.
       Veias hepáticas e ramos portais preservados.
       Não há dilatação das vias biliares intra ou extra-hepáticas.
@@ -4509,7 +4441,7 @@ matches:
       Aorta e veia cava inferior com calibre e contornos normais.
       Ausência de linfonodomegalias ou de líquido livre na cavidade abdominal superior.
 
-      OPINIÃO:
+      Conclusão:
       Exame de ressonância magnética dentro dos padrões da normalidade.
     word: true
 
@@ -4518,9 +4450,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR E INFERIOR C/C
 
-      TÉCNICA:
+      Técnica:
       Realizadas sequências multiplanares ponderadas em T1 e T2, antes e após a injeção intravenosa do meio de contraste paramagnético. Utilizado gel retal e vaginal.
-      ANÁLISE:
+
+      Descrição:
       Fígado de dimensões normais, contornos regulares e bordos finos. Parênquima com intensidade de sinal habitual. Ausência de lesões focais detectáveis.
       Veias hepáticas e ramos portais preservados.
       Não há dilatação das vias biliares intra ou extra-hepáticas.
@@ -4539,7 +4472,7 @@ matches:
       Espaço retrocervical e do septo retovaginal livres.
       Ovários tópicos, com dimensões, contornos e sinal normais. Não se caracterizam cistos hemorrágicos.
 
-      OPINIÃO:
+      Conclusão:
       Exame de ressonância magnética dentro dos padrões da normalidade.
     word: true
 
@@ -4549,19 +4482,15 @@ matches:
       ===============================================================
       ANGIOGRAFIA POR RM - S/C
       ===============================================================
-      TÉCNICA:
 
+      Técnica:
       Realizadas imagens de angiorressonância pela técnica de 3D TOF - MOTSA com imagens de intensidade máxima (MIP) tridimensionais, com aquisições sensíveis a fluxo arterial.
 
-
-      DESCRIÇÃO:
-
-
+      Descrição:
       Artérias carótidas internas em sua porção intracraniana, artérias cerebrais anteriores,
       médias, posteriores, basilar e vertebrais com calibre e fluxo preservados.
 
-      OPINIÃO:
-
+      Conclusão:
       Estudo por imagens de angiorressonância arterial encefálica dentro dos parâmetros da normalidade.
     word: true
 
@@ -4569,18 +4498,15 @@ matches:
     label: "Angio-RM de encéfalo — sem contraste"
     replace: |-
       ANGIORRESSONÂNCIA DO ENCÉFALO - S/C
-      TÉCNICA:
 
+      Técnica:
       Realizadas imagens de angiorressonância pela técnica de 3D TOF - MOTSA com imagens de intensidade máxima (MIP) tridimensionais, com aquisições sensíveis a fluxo arterial.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Artérias carótidas internas em sua porção intracraniana, artérias cerebrais anteriores,
       médias, posteriores, basilar e vertebrais com calibre e fluxo preservados.
 
-      OPINIÃO:
-
+      Conclusão:
       Estudo por imagens de angiorressonância arterial encefálica dentro dos parâmetros da normalidade.
     word: true
 
@@ -4589,19 +4515,15 @@ matches:
     replace: |-
       ANGIORRESSONÂNCIA ENCEFÁLICA - S/C
 
-      TÉCNICA:
-
+      Técnica:
       Realizadas imagens de angiorressonância pela técnica de 3D TOF - MOTSA com imagens de intensidade máxima (MIP) tridimensionais, com aquisições sensíveis a fluxo arterial.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Irregularidades parietais dos segmentos intracavernosos das artérias carótidas internas, sem áreas de estenose significativas, que podem estar relacionadas a doença ateromatosa.
 
       Artérias cerebrais anteriores, médias, posteriores, basilar e vertebrais com calibre e fluxo preservados.
 
-      OPINIÃO:
-
+      Conclusão:
       Irregularidades parietais dos segmentos intracavernosos das artérias carótidas internas, sem áreas de estenose significativas, que podem estar relacionadas a doença ateromatosa.
     word: true
 
@@ -4610,17 +4532,17 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DAS ARTICULAÇÕES TEMPOROMANDIBULARES S/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética das articulações temporomandibulares, realizado com a técnica de fast spin-eco, com cortes sagitais oblíquos e coronais pesados em T1, STIR e DP, com boca aberta e fechada.
 
-      RELATÓRIO:
+      Descrição:
       Cavidades articulares de contornos regulares, sem sinais de derrame ou proliferação sinovial.
       Côndilos mandibulares tópicos em repouso, com morfologia conservada, mobilidade habitual durante as manobras.
       Eminências temporais de superfície regular e morfologia preservada.
       Discos articulares tópicos e de morfologia habitual nas sequências em repouso e/ou com abertura máxima da boca.
       Não se observa deslocamento discal no eixo anteroposterior ou laterolateral.
 
-      OPINIÃO:
+      Conclusão:
       Estudo de ressonância magnética sem particularidades.
     word: true
 
@@ -4632,7 +4554,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Alterações degenerativas coxofemorais caracterizadas por afilamento condral das superfícies articulares em área de carga e reações osteo-hipertróficas marginais.
       Ausência de derrame articular.
       Fissura na base dos labruns anterossuperiores dos acetábulos, podendo corresponder a pequena lesão ou sulco sublabral.
@@ -4672,10 +4594,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, gradiente S.W.I., difusão e técnica de FLAIR, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Parênquima encefálico de morfologia e características de sinal conservadas.
       Distribuição e intensidade de sinal preservadas das substâncias branca e cinzenta.
       Sistema ventricular de morfologia e dimensões preservadas.
@@ -4684,7 +4606,7 @@ matches:
       Estruturas da linha média centradas.
       Não se observa área de restrição na sequência difusão.
 
-      OPINIÃO:
+      Conclusão:
       Exame de ressonância magnética de encéfalo dentro dos padrões da normalidade.
     word: true
 
@@ -4693,10 +4615,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, gradiente S.W.I., difusão e técnica de FLAIR, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Parênquima encefálico de morfologia e características de sinal conservadas.
       Distribuição e intensidade de sinal preservadas das substâncias branca e cinzenta.
       Sistema ventricular de morfologia e dimensões preservadas.
@@ -4705,7 +4627,7 @@ matches:
       Estruturas da linha média centradas.
       Não se observa área de restrição na sequência difusão.
 
-      OPINIÃO:
+      Conclusão:
       Exame de ressonância magnética de encéfalo dentro dos padrões da normalidade.
     word: true
 
@@ -4715,11 +4637,9 @@ matches:
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
       Técnica:
-
       Exame realizado pelas técnicas de fast spin echo e gradient echo com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares.
 
-      Análise:
-
+      Descrição:
       Retificação da lordose fisiológica cervical.
       Transição craniovertebral sem alterações.
       Processo odontoide centrado, com contornos regulares.
@@ -4733,7 +4653,6 @@ matches:
       Musculatura paravertebral sem alterações.
 
       Conclusão:
-
       Retificação da lordose fisiológica cervical.
       Alterações degenerativas da coluna cervical.
       Discopatias acima detalhadas.
@@ -4754,11 +4673,9 @@ matches:
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
       Técnica:
-
       Exame realizado pelas técnicas de fast spin echo e gradient echo com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares.
 
-      Análise:
-
+      Descrição:
       Transição craniovertebral sem alterações.
       Processo odontoide centrado, com contornos regulares.
       Corpos vertebrais de altura e sinal da medular óssea conservados, apresentando reações osteofitárias marginais. Não há sinais de fraturas.
@@ -4782,8 +4699,7 @@ matches:
       Técnica:
       Exame realizado pelas técnicas de fast spin echo e gradient echo com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares.
 
-      Análise:
-
+      Descrição:
       Retificação da lordose fisiológica.
       Transição craniovertebral sem alterações.
       Processo odontoide centrado, com contornos regulares.
@@ -4797,7 +4713,6 @@ matches:
       Musculatura paravertebral sem alterações.
 
       Conclusão:
-
       Exame dentro dos padrões da normalidade.
     word: true
 
@@ -4809,8 +4724,7 @@ matches:
       Técnica:
       Exame realizado pelas técnicas de fast spin echo e gradient echo com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares, antes e após a administração do meio de contraste endovenoso.
 
-      Análise:
-
+      Descrição:
       Retificação da lordose fisiológica.
       Transição craniovertebral sem alterações.
       Processo odontoide centrado, com contornos regulares.
@@ -4824,7 +4738,6 @@ matches:
       Musculatura paravertebral sem alterações.
 
       Conclusão:
-
       Exame dentro dos padrões da normalidade.
     word: true
 
@@ -4836,7 +4749,7 @@ matches:
       Técnica:
       Exame realizado pelas técnicas de fast spin echo e gradient echo com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Retificação da curvatura cervical fisiológica.
       Transição craniovertebral sem alterações.
       Processo odontoide centrado, com contornos regulares.
@@ -4887,7 +4800,7 @@ matches:
       Técnica:
       Exame realizado pelas técnicas de fast spin echo e gradient echo com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Retificação da curvatura cervical fisiológica.
       Transição craniovertebral sem alterações.
       Processo odontoide centrado, com contornos regulares.
@@ -4916,9 +4829,7 @@ matches:
       TÉCNICA
       Exame de Ressonância Magnética de coluna cervical, realizado com técnica de spin-eco e gradiente-eco, com sequências pesadas em T1, T2 e técnica STIR, com aquisições multiplanares.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Inversão da curvatura fisiológica do segmento.
       Desidratação e redução da altura dos discos intervertebrais cervicais inferindo processo degenerativo.
       Zonas de hipersinal nas ponderações T1 e T2, nos platôs vertebrais contíguos aos discos C4-C5, C5-C6 e C6-C7, correspondendo à substituição adiposa (MODIC II).
@@ -4933,8 +4844,7 @@ matches:
       Alterações degenerativas comprometendo a articulação atlantoaxial.
       Musculatura paravertebral cervical discretamente lipossubstituída.
 
-      Opinião:
-
+      Conclusão:
       Discopatias acima detalhadas, promovendo conflitos radiculares multissegmentares, com estenose do canal vertebral e mielopatia espondilótica.
       Espondilose cervical.
       Retificação da lordose fisiológica.
@@ -4946,11 +4856,9 @@ matches:
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
       Técnica:
-
       Exame realizado pelas técnicas de fast spin echo e gradient echo com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares.
 
-      Análise:
-
+      Descrição:
       Retificação da lordose fisiológica.
       Transição craniovertebral sem alterações.
       Processo odontoide centrado, com contornos regulares.
@@ -4966,7 +4874,6 @@ matches:
       Musculatura paravertebral sem alterações.
 
       Conclusão:
-
       Retificação da lordose fisiológica.
       Discopatias acima detalhadas sem conflitos radiculares.
     word: true
@@ -4976,12 +4883,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Lordose fisiológica lombar.
       Os corpos vertebrais permanecem de altura e sinal da medular óssea conservados.
       Articulações interfacetárias de contornos regulares.
@@ -4991,7 +4896,7 @@ matches:
       Raízes da cauda equina de distribuição anatômica no interior do saco dural.
       Musculatura paravertebral sem alterações.
 
-      OPINIÃO:
+      Conclusão:
       Exame dentro da normalidade.
     word: true
 
@@ -5000,16 +4905,16 @@ matches:
     replace: |-
       COLANGIORRESSONÂNCIA MAGNÉTICA - S/C
 
-      TÉCNICA:
+      Técnica:
       Realizado estudo por imagens por ressonância magnética das vias biliares (colangio-RM) segundo a técnica T2 SPACE 3D com reconstruções multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Vesícula biliar com dimensões preservadas, paredes lisas e normoespessas, sem evidências de cálculos detectáveis pelo método.
       Ducto cístico com calibre normal.
       Ductos biliares hepáticos direito e esquerdo, hepático comum e colédoco com forma, contornos e calibre normais. Não há dilatação da árvore biliar intra ou extra-hepática.
       Ducto pancreático principal com trajeto, calibre e intensidade de sinal preservados.
 
-      OPINIÃO:
+      Conclusão:
       Estudo por imagens de ressonância magnética das vias biliares (colangio-RM) dentro dos padrões da normalidade.
     word: true
 
@@ -5021,7 +4926,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Tendão comum dos extensores preservado em sua inserção no epicôndilo lateral.
       Tendão comum dos flexores preservado em sua inserção no epicôndilo medial.
@@ -5048,16 +4953,16 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COXA ESQUERDA S/C
 
-      TÉCNICA:
+      Técnica:
       Realizados cortes multiplanares com sequências ponderadas em T1, T2 e STIR.
 
-      ANÁLISE:
+      Descrição:
       Estruturas ósseas com morfologia e alinhamento dentro da normalidade.
       Estruturas musculotendíneas com morfologia preservada.
       Feixes neurovasculares sem alterações.
       Não há evidência de formações com efeito expansivo no segmento analisado.
 
-      OPINIÃO:
+      Conclusão:
       Exame dentro dos limites da normalidade.
     word: true
 
@@ -5066,16 +4971,16 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COXA DIREITA S/C
 
-      TÉCNICA:
+      Técnica:
       Realizados cortes multiplanares com sequências ponderadas em T1, T2 e STIR.
 
-      ANÁLISE:
+      Descrição:
       Estruturas ósseas com morfologia e alinhamento dentro da normalidade.
       Estruturas musculotendíneas com morfologia preservada.
       Feixes neurovasculares sem alterações.
       Não há evidência de formações com efeito expansivo no segmento analisado.
 
-      OPINIÃO:
+      Conclusão:
       Exame dentro dos limites da normalidade.
     word: true
 
@@ -5084,10 +4989,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, gradiente S.W.I., difusão e técnica de FLAIR, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Parênquima encefálico de morfologia e características de sinal conservadas.
       Distribuição e intensidade de sinal preservadas das substâncias branca e cinzenta.
       Sistema ventricular de morfologia e dimensões preservadas.
@@ -5096,7 +5001,7 @@ matches:
       Estruturas da linha média centradas.
       Não se observa área de restrição na sequência difusão.
 
-      OPINIÃO:
+      Conclusão:
       Exame de ressonância magnética de encéfalo dentro dos padrões da normalidade.
     word: true
 
@@ -5105,11 +5010,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, S.W.I., difusão e FLAIR, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Leve acentuação dos sulcos entre os giros corticais de forma difusa, das fissuras sylvianas e cisternas basais com ectasia compensatória do sistema ventricular, habitual para a faixa etária.
       Raras lesões hiperintensas na ponderação T2 localizadas na substância branca periventricular, sugerindo áreas de microangiopatia/gliose.
       Restante do parênquima encefálico de morfologia e características de sinal conservadas.
@@ -5117,7 +5021,7 @@ matches:
       Estruturas da linha média centradas.
       Não se observa área de restrição na sequência difusão.
 
-      OPINIÃO:
+      Conclusão:
       Sinais de redução volumétrica encefálica, habitual para a faixa etária.
       Raras lesões hiperintensas na ponderação T2 localizadas na substância branca periventricular, sugerindo áreas de microangiopatia/gliose.
     word: true
@@ -5127,13 +5031,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, S.W.I., difusão e FLAIR, com aquisições multiplanares, antes e após a administração do meio de contraste endovenoso.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Acentuação dos sulcos entre os giros corticais, habitual para a faixa etária.
 
       Raras lesões hiperintensas na ponderação T2 localizadas na substância branca periventricular, subcortical e nos centros semiovais, sugerindo áreas de microangiopatia/gliose.
@@ -5148,9 +5049,7 @@ matches:
 
       Após a administração do meio de contraste endovenoso não houve realce anômalo.
 
-
-      OPINIÃO:
-
+      Conclusão:
       Acentuação dos sulcos entre os giros corticais, habitual para a faixa etária.
 
       Raras lesões hiperintensas na ponderação T2 localizadas na substância branca periventricular, subcortical e nos centros semiovais, sugerindo áreas de microangiopatia/gliose.
@@ -5161,13 +5060,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, antes e após a administração endovenosa de contraste paramagnético, técnica de Turbo spin-eco pesada em T2 e técnica de FLAIR, com aquisições multiplanares.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Ausência de processo expansivo intracraniano, de lesão parenquimatosa focal ou de coleção extra-axial, acima e abaixo do tentório.
 
       Distribuição e intensidade de sinal preservadas das substâncias branca e cinzenta.
@@ -5186,9 +5082,7 @@ matches:
 
       Após administração do contraste paramagnético não foram visibilizadas áreas de realce patológico.
 
-
-      OPINIÃO:
-
+      Conclusão:
       Exame de ressonância magnética de encéfalo dentro dos padrões da normalidade.
     word: true
 
@@ -5197,10 +5091,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, antes e após a administração endovenosa de contraste paramagnético, técnica de Turbo spin-eco pesada em T2 e técnica de FLAIR, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Ausência de processo expansivo intracraniano, de lesão parenquimatosa focal ou de coleção extra-axial, acima e abaixo do tentório.
       Distribuição e intensidade de sinal preservadas das substâncias branca e cinzenta.
       Sistema ventricular de morfologia e dimensões preservadas.
@@ -5211,7 +5105,7 @@ matches:
       Não se observa área de restrição na sequência difusão.
       Após administração do contraste paramagnético não foram visibilizadas áreas de realce patológico.
 
-      OPINIÃO:
+      Conclusão:
       Exame de ressonância magnética de encéfalo dentro dos padrões da normalidade.
     word: true
 
@@ -5220,10 +5114,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, S.W.I., difusão e FLAIR, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Acentuação dos sulcos entre os giros corticais de forma difusa, das fissuras sylvianas e cisternas basais com ectasia compensatória do sistema ventricular.
       Lesões hiperintensas na ponderação T2 localizadas na substância branca periventricular, subcortical e nos centros semiovais, sugerindo áreas de microangiopatia/gliose.
       Restante do parênquima encefálico de morfologia e características de sinal conservadas.
@@ -5231,7 +5125,7 @@ matches:
       Estruturas da linha média centradas.
       Não se observa área de restrição na sequência difusão.
 
-      OPINIÃO:
+      Conclusão:
       Sinais de redução volumétrica encefálica.
       Lesões hiperintensas na ponderação T2 localizadas na substância branca periventricular, subcortical e nos centros semiovais, sugerindo áreas de microangiopatia/gliose.
     word: true
@@ -5240,13 +5134,11 @@ matches:
     label: "RM de encéfalo — sem contraste, idoso"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
-      TÉCNICA:
 
+      Técnica:
       Exame de Ressonância Magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, gradiente S.W.I., difusão e técnica de FLAIR, com aquisições multiplanares.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Pequenas imagens de alto sinal em T2 e FLAIR isoladas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, inespecíficas do ponto de vista de imagem, comumente associadas a microangiopatia/gliose nessa faixa etária.
 
       Restante do parênquima encefálico de morfologia e características de sinal conservadas.
@@ -5259,10 +5151,7 @@ matches:
 
       Não se observa área de restrição na sequência difusão.
 
-
-
-      OPINIÃO:
-
+      Conclusão:
       Pequenas imagens de alto sinal em T2 e FLAIR isoladas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, inespecíficas do ponto de vista de imagem, comumente associadas a microangiopatia/gliose nessa faixa etária.
 
       Redução volumétrica encefálica.
@@ -5273,10 +5162,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, S.W.I., difusão e FLAIR, com aquisições multiplanares, antes e após a administração do meio de contraste endovenoso.
 
-      DESCRIÇÃO:
+      Descrição:
       Acentuação dos sulcos entre os giros corticais de forma difusa, das fissuras sylvianas e cisternas basais com ectasia compensatória do sistema ventricular.
       Lesões hiperintensas na ponderação T2 localizadas na substância branca periventricular, subcortical e nos centros semiovais, sugerindo áreas de microangiopatia/gliose.
       Restante do parênquima encefálico de morfologia e características de sinal conservadas.
@@ -5285,7 +5174,7 @@ matches:
       Não se observa área de restrição na sequência difusão.
       Após a administração do gadolínio não foi observado realce anômalo.
 
-      OPINIÃO:
+      Conclusão:
       Sinais de redução volumétrica encefálica.
       Lesões hiperintensas na ponderação T2 localizadas na substância branca periventricular, subcortical e nos centros semiovais, sugerindo áreas de microangiopatia/gliose.
     word: true
@@ -5295,13 +5184,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, antes e após a administração endovenosa de contraste paramagnético, técnica de Turbo spin-eco pesada em T2, S.W.I., difusão e FLAIR, com aquisições multiplanares.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Acentuação dos sulcos entre os giros corticais de forma difusa, das fissuras sylvianas e cisternas basais com ectasia compensatória do sistema ventricular.
 
       Lesões hiperintensas na ponderação T2 localizadas na substância branca periventricular, subcortical e nos centros semiovais, sugerindo áreas de microangiopatia/gliose.
@@ -5316,9 +5202,7 @@ matches:
 
       Após administração do contraste paramagnético não foram visibilizadas áreas de realce patológico.
 
-
-
-      OPINIÃO:
+      Conclusão:
       Sinais de redução volumétrica encefálica.
 
       Lesões hiperintensas na ponderação T2 localizadas na substância branca periventricular, subcortical e nos centros semiovais, sugerindo áreas de microangiopatia/gliose.
@@ -5329,16 +5213,13 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame de Ressonância Magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, difusão e técnica de FLAIR, com aquisições multiplanares antes e após a administração do meio de contraste endovenoso.
 
-      INDICAÇÃO:
-
+      Indicação:
       Planejamento radioterápico.
 
-      DESCRIÇÃO:
-
+      Descrição:
       Parênquima encefálico de morfologia e características de sinal conservadas.
 
       Distribuição e intensidade de sinal preservadas das substâncias branca e cinzenta.
@@ -5353,9 +5234,7 @@ matches:
 
       Não se observa área de restrição na sequência difusão.
 
-
-      OPINIÃO:
-
+      Conclusão:
       Exame de Ressonância Magnética de encéfalo dentro dos padrões da normalidade.
     word: true
 
@@ -5367,7 +5246,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Acentuação da cifose torácica.
       Corpos vertebrais alinhados, de altura e sinal da medular óssea conservados, sem sinais de lesões ósseas focais, apresentando osteófitos marginais.
       Pedículos e estruturas do arco posterior íntegros.
@@ -5414,12 +5293,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR C/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Lesões erosivas nas placas terminais apostas dos corpos vertebrais de T9 e T10, com importante alteração do sinal e realce pós-contraste da medular óssea adjacente, evidenciando-se pequena coleção preenchendo o respectivo espaço intervertebral, insinuando-se para a região perivertebral. Há espessamento paquimeníngeo reativo às alterações acima mencionadas. Considerar a possibilidade de espondilodiscite.
       Anterolistese grau I de L4 sobre L5 de causa degenerativa.
       Osteofitose marginal difusa.
@@ -5434,8 +5311,7 @@ matches:
       Edema na topografia do ligamento interespinhoso de L4-L5 e L5-S1, podendo estar relacionado a estiramento ou sobrecarga mecânica.
       Edema de subcutâneo profundo na região lombar.
 
-      OPINIÃO:
-
+      Conclusão:
       Lesões erosivas nas placas terminais apostas dos corpos vertebrais de T9 e T10, com importante alteração do sinal e realce pós-contraste da medular óssea adjacente, evidenciando-se pequena coleção preenchendo o respectivo espaço intervertebral, insinuando-se para a região perivertebral. Há espessamento paquimeníngeo reativo às alterações acima mencionadas. Considerar a possibilidade de espondilodiscite.
       Espondilose lombar.
       Discopatias acima detalhadas.
@@ -5449,17 +5325,17 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ESTERNO S/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética do esterno realizado sem contraste intravenoso, incluindo sequências ponderadas em T1, T2 e STIR, em planos axial, coronal e sagital. Aquisição adequada, sem artefatos relevantes.
 
-      ACHADOS:
+      Descrição:
       As estruturas ósseas do esterno apresentam morfologia, contorno e intensidade de sinal preservados em todas as sequências.
       A medula óssea mostra padrão de sinal normal em T1 e T2, sem áreas de alteração focal ou difusa.
       As cartilagens esternocostais e articulações esternoclaviculares não apresentam alterações de sinal ou morfologia.
       Os tecidos moles adjacentes estão preservados, sem edema, massas ou coleções.
       A sequência STIR não evidencia áreas hiperintensas que sugiram inflamação ou edema ósseo.
 
-      CONCLUSÃO:
+      Conclusão:
       Ressonância magnética do esterno sem alterações estruturais ou de sinal. Exame sem particularidades.
     word: true
 
@@ -5468,10 +5344,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, gradiente S.W.I., difusão e técnica de FLAIR, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Pequenas imagens de alto sinal em T2 e FLAIR isoladas em substância branca periventricular e subcortical bilateral, sem restrição à difusão, inespecíficas, comumente associadas a microangiopatia/gliose nessa faixa etária.
       Restante do parênquima encefálico de morfologia e características de sinal conservadas.
       Sistema ventricular de morfologia e dimensões preservadas.
@@ -5480,7 +5356,7 @@ matches:
       Estruturas da linha média centradas.
       Não se observa área de restrição na sequência difusão.
 
-      OPINIÃO:
+      Conclusão:
       Pequenas imagens de alto sinal em T2 e FLAIR isoladas em substância branca periventricular e subcortical bilateral, sem restrição à difusão, inespecíficas, comumente associadas a microangiopatia/gliose nessa faixa etária.
     word: true
 
@@ -5489,13 +5365,11 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE HIPÓFISE - C/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame de ressonância magnética de hipófise, realizado pela técnica de spin-eco pesada em T1,
       antes e após a administração endovenosa de contraste paramagnético (injeção dinâmica) e técnica Turbo spin-eco pesada em T2, com aquisições multiplanares.
 
-      DESCRIÇÃO:
-
+      Descrição:
       Cavidade selar de forma e dimensões normais.
 
       Glândula hipofisária de dimensões conservadas e características de sinal normais.
@@ -5510,9 +5384,7 @@ matches:
 
       Quiasma óptico de aspecto normal.
 
-
-      OPINIÃO:
-
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -5540,12 +5412,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Superfícies condrais regulares, sem fissuras ou erosões evidentes.
       Meniscos com forma, contornos e sinal preservados, sem sinais de lesão.
@@ -5553,8 +5423,7 @@ matches:
       Tendões quadricipital e patelar sem particularidades.
       Ausência de derrame articular.
 
-      OPINIÃO:
-
+      Conclusão:
       Exame dentro dos padrões da normalidade.
 
       Edema da gordura infrapatelar lateral, compatível com atrito entre o tendão patelar e a tróclea femoral lateral.
@@ -5577,19 +5446,16 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Superfícies condrais regulares, sem fissuras ou erosões evidentes.
       Meniscos com forma, contornos e sinal preservados, sem sinais de lesão.
       Ligamentos cruzados e colaterais com continuidade, espessura e sinal conservados.
       Tendões quadricipital e patelar sem particularidades.
       Ausência de derrame articular.
-
 
       Conclusão:
       Exame dentro dos padrões da normalidade.
@@ -5614,10 +5480,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Osteofitose marginal tricompartimental, predominando no compartimento femorotibial medial.
       Adelgaçamento e irregularidade do revestimento condral do compartimento femorotibial medial com fissuras profundas e edema ósseo subcondral.
       Fissuras condrais profundas no vértice da patela e tróclea femoral.
@@ -5633,7 +5499,7 @@ matches:
       Edema do subcutâneo pré-patelar.
       Corpo livre subcentimétrico periarticular na fossa poplítea.
 
-      OPINIÃO:
+      Conclusão:
       Osteoartrose.
       Condropatia avançada do compartimento femorotibial medial.
       Condropatia moderada da patela e tróclea femoral.
@@ -5650,10 +5516,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Lordose fisiológica lombar.
       Os corpos vertebrais permanecem de altura e sinal da medular óssea conservados.
       Articulações interfacetárias de contornos regulares.
@@ -5662,8 +5528,6 @@ matches:
       Cone medular de forma e sinal normais na transição toracolombar.
       Raízes da cauda equina de distribuição anatômica no interior do saco dural.
       Musculatura paravertebral sem alterações.
-
-      OPINIÃO:
 
       Conclusão:
       Exame dentro dos padrões da normalidade.
@@ -5709,10 +5573,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Lordose fisiológica lombar.
       Os corpos vertebrais permanecem de altura e sinal da medular óssea conservados.
       Articulações interfacetárias de contornos regulares.
@@ -5721,8 +5585,6 @@ matches:
       Cone medular de forma e sinal normais na transição toracolombar.
       Raízes da cauda equina de distribuição anatômica no interior do saco dural.
       Musculatura paravertebral sem alterações.
-
-      OPINIÃO:
 
       Conclusão:
       Exame dentro dos padrões da normalidade.
@@ -5733,10 +5595,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Lordose fisiológica lombar.
       Os corpos vertebrais permanecem de altura e sinal da medular óssea conservados, apresentando osteófitos marginais.
       Artropatia das interfacetárias.
@@ -5754,8 +5616,7 @@ matches:
       Musculatura paravertebral sem alterações.
       Injúria ligamentar interespinhosa nos níveis de L4-L5 e L5-S1 por estiramento ou sobrecarga mecânica.
 
-
-      OPINIÃO:
+      Conclusão:
       Espondilose lombar.
       Discopatias acima detalhadas.
       Injúria ligamentar interespinhosa nos níveis de L4-L5 e L5-S1 por estiramento ou sobrecarga mecânica.
@@ -5766,10 +5627,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Lordose fisiológica lombar.
       Os corpos vertebrais permanecem de altura e sinal da medular óssea conservados, apresentando osteófitos marginais incipientes.
       Artropatia das interfacetárias nos níveis lombares inferiores.
@@ -5785,7 +5646,7 @@ matches:
       Musculatura paravertebral sem alterações.
       Injúria ligamentar interespinhosa no nível de L4-L5 por sobrecarga mecânica.
 
-      OPINIÃO:
+      Conclusão:
       Espondilose lombar.
       Discopatias acima detalhadas.
       Injúria ligamentar interespinhosa no nível de L4-L5 por sobrecarga mecânica.
@@ -5796,12 +5657,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Retificação da lordose fisiológica.
       Discreto desvio do eixo lombar para a esquerda.
       Os corpos vertebrais permanecem de altura e sinal da medular óssea conservados.
@@ -5813,8 +5672,7 @@ matches:
       Raízes da cauda equina de distribuição anatômica no interior do saco dural.
       Musculatura paravertebral sem alterações.
 
-      OPINIÃO:
-
+      Conclusão:
       Retificação da lordose fisiológica.
       Discreto desvio do eixo lombar para a esquerda.
       Discopatia acima detalhada.
@@ -5825,12 +5683,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA MÃO ESQUERDA S/C
 
-      TÉCNICA:
-
+      Técnica:
       Realizados cortes multiplanares com sequências ponderadas em T1 e T2, sem a administração do meio de contraste endovenoso.
 
-      ANÁLISE:
-
+      Descrição:
       Estruturas ósseas com morfologia e alinhamento dentro da normalidade.
       Espaços articulares mantidos.
       Estruturas ligamentares íntegras.
@@ -5839,8 +5695,7 @@ matches:
       Não há sinais de derrame articular ou de erosões ósseas subcondrais.
       Feixes neurovasculares sem alterações.
 
-      OPINIÃO:
-
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -5851,9 +5706,9 @@ matches:
 
       Sequências de alta resolução ponderadas em T2, difusão e perfusão em aparelho 1,5 Tesla.
 
-      Indicação clínica: [detecção de neoplasia prostática clinicamente significante]. [estadiamento de neoplasia da próstata] [pesquisa de recidiva local pós-prostatectomia].
+      Indicação: [detecção de neoplasia prostática clinicamente significante]. [estadiamento de neoplasia da próstata] [pesquisa de recidiva local pós-prostatectomia].
 
-      COMENTÁRIOS:
+      Descrição:
       Dimensões da próstata: _ cm. Peso estimado em _ gramas.
       Glândula central: heterogênea à custa de nódulos de provável hiperplasia.
       Zona periférica: sinal [homogêneo/heterogêneo] em T2.
@@ -5868,7 +5723,7 @@ matches:
       Bexiga: paredes regulares e conteúdo líquido homogêneo.
       Achados adicionais:
 
-      CONCLUSÃO:
+      Conclusão:
       Muito baixa probabilidade de neoplasia prostática clinicamente significante (PIRADS 1)*.
       Baixa probabilidade de neoplasia prostática clinicamente significante (PIRADS 2)*.
       Achados indeterminados para neoplasia prostática clinicamente significante (PIRADS 3)*. Caso uma biópsia seja indicada, recomenda-se a obtenção de fragmentos adicionais da(s) área(s) descrita(s).
@@ -5881,10 +5736,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO _ S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Leve / moderada artropatia acromioclavicular, caracterizada por osteofitose marginal e espessamento capsulossinovial.
       Cabeça umeral de morfologia e sinal normais.
       Demais estruturas ósseas com morfologia e sinal medular conservados.
@@ -5897,7 +5752,7 @@ matches:
       Não há derrame articular glenoumeral.
       Ventres musculares com trofismo conservado.
 
-      OPINIÃO:
+      Conclusão:
     word: true
 
   - trigger: "rmombnl"
@@ -5905,10 +5760,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Articulação acromioclavicular preservada.
       Relação glenoumeral mantida.
       Cabeça umeral de morfologia e sinal normais.
@@ -5920,7 +5775,7 @@ matches:
       Não há derrame articular glenoumeral.
       Ventres musculares com trofismo conservado.
 
-      OPINIÃO:
+      Conclusão:
       Exame dentro dos padrões da normalidade.
     word: true
 
@@ -5929,10 +5784,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Acentuada artropatia acromioclavicular, caracterizada por redução do espaço articular, osteofitose marginal, espessamento capsulossinovial, pequeno derrame articular e edema das faces articulares em aposição.
       Artropatia glenoumeral caracterizada por redução do espaço articular, osteofitose marginal.
       Pequenos cistos ósseos na cabeça umeral, notadamente no tubérculo maior, relacionados à tração crônica.
@@ -5945,7 +5800,7 @@ matches:
       Pequeno derrame articular glenoumeral.
       Ventres musculares com trofismo conservado.
 
-      OPINIÃO:
+      Conclusão:
       Acentuada artropatia acromioclavicular e glenoumeral.
       Pequenos cistos ósseos na cabeça umeral, notadamente no tubérculo maior, relacionados à tração crônica.
       Tendinopatia do supraespinhal, subescapular e infraespinhal, sem sinais de roturas.
@@ -5960,12 +5815,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Leve / moderada artropatia acromioclavicular, caracterizada por osteofitose marginal e espessamento capsulossinovial.
       Cabeça umeral de morfologia e sinal normais.
       Demais estruturas ósseas com morfologia e sinal medular conservados.
@@ -5977,8 +5830,7 @@ matches:
       Não há derrame articular glenoumeral.
       Ventres musculares com trofismo conservado.
 
-      OPINIÃO:
-
+      Conclusão:
       Exame dentro dos padrões da normalidade.
 
       Acromioclavicular
@@ -6020,20 +5872,17 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS C/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame de ressonância magnética das órbitas realizado com aquisições multiplanares pela técnica spin-eco pesada em T1 antes e após a administração endovenosa de contraste paramagnético (gadolínio) e técnica turbo spin-eco pesada em T2.
 
-      RELATÓRIO:
-
+      Descrição:
       Globos oculares de contornos regulares apresentando sinal de aspecto normal.
       Nervos ópticos, gordura intra e extraconais e musculatura extrínseca ocular preservados.
       Glândulas lacrimais sem particularidades.
       Não foram observados realces anômalos após a administração de contraste paramagnético.
       Quiasma óptico de aspecto normal.
 
-      OPINIÃO:
-
+      Conclusão:
       Estudo de ressonância magnética dentro dos limites da normalidade.
     word: true
 
@@ -6043,19 +5892,16 @@ matches:
       RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS C/C
 
       Técnica:
-
       Exame de ressonância magnética das órbitas realizado com aquisições multiplanares pela técnica spin-eco pesada em T1 antes e após a administração endovenosa de contraste paramagnético (gadolínio) e técnica turbo spin-eco pesada em T2.
 
-      Análise:
-
+      Descrição:
       Globos oculares de contornos regulares apresentando sinal de aspecto normal.
       Nervos ópticos, gordura intra e extraconais e musculatura extrínseca ocular preservados.
       Glândulas lacrimais sem particularidades.
       Não foram observados realces anômalos após a administração de contraste paramagnético.
       Quiasma óptico de aspecto normal.
 
-      Opinião:
-
+      Conclusão:
       Estudo das órbitas sem alterações significativas.
     word: true
 
@@ -6064,16 +5910,16 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE OUVIDO C/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética de ouvido, realizado pela técnica de spin-eco, com sequências pesadas em T1, antes e após a administração endovenosa de contraste paramagnético e técnica de Turbo spin-eco pesada em T2, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Feixes nervosos acústico-faciais simétricos e anatômicos.
       Ângulos pontocerebelares livres.
       Estruturas da fossa posterior sem alterações.
       Não houve realce anômalo pós-contraste.
 
-      OPINIÃO:
+      Conclusão:
       Exame de ressonância magnética de ouvido dentro dos limites da normalidade.
     word: true
 
@@ -6082,10 +5928,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
-      TÉCNICA:
+      Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel para distender o reto e o canal vaginal.
 
-      ANÁLISE:
+      Descrição:
       Bexiga com boa repleção, paredes finas e conteúdo de sinal homogêneo.
       Útero em anteversoflexão, centralizado, com dimensões, contornos e sinal miometrial habituais. Mede _ cm, volume estimado em _ cm³.
       Zona juncional com intensidade de sinal e espessura mantidas.
@@ -6094,7 +5940,7 @@ matches:
       Ovários tópicos, com dimensões, contornos e sinal normais. Não se caracterizam cistos hemorrágicos.
       Ausência de líquido livre e de linfonodomegalias na cavidade pélvica.
 
-      OPINIÃO:
+      Conclusão:
       Exame de ressonância magnética dentro dos padrões da normalidade.
     word: true
 
@@ -6103,10 +5949,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
 
-      TÉCNICA:
+      Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio).
 
-      DESCRIÇÃO:
+      Descrição:
       Próstata, medindo _ cm, de volume (_ cm³) e intensidade de sinal preservada com gordura periprostática de aspecto habitual.
       Vesículas seminais de aspecto normal.
       As diversas porções visibilizadas de uretra apresentam-se de aspecto normal.
@@ -6119,7 +5965,7 @@ matches:
       Não há líquido livre na cavidade pélvica.
       Após a injeção intravenosa do meio de contraste não observamos área de realce anormal.
 
-      OPINIÃO:
+      Conclusão:
     word: true
 
   - trigger: "rmperna"
@@ -6127,16 +5973,16 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA PERNA ESQUERDA S/C
 
-      TÉCNICA:
+      Técnica:
       Realizados cortes multiplanares com sequências ponderadas em T1, T2 e STIR.
 
-      ANÁLISE:
+      Descrição:
       Estruturas ósseas com morfologia e alinhamento dentro da normalidade.
       Estruturas musculotendíneas com morfologia preservada.
       Feixes neurovasculares sem alterações.
       Não há evidência de formações com efeito expansivo no segmento analisado.
 
-      OPINIÃO:
+      Conclusão:
       Exame dentro dos limites da normalidade.
     word: true
 
@@ -6145,17 +5991,17 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO PESCOÇO C/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética do pescoço realizado com aquisições multiplanares, pelas técnicas de spin-eco com sequências pesadas em T1 antes e após a administração endovenosa de contraste paramagnético e técnica de fast spin-eco pesada em T2.
 
-      RELATÓRIO:
+      Descrição:
       Faringe e laringe de aspecto preservado.
       Glândulas parótidas e submandibulares sem alterações.
       Glândula tireoide sem particularidades.
       Não se evidenciam linfonodomegalias.
       Não se observam realces anômalos focais.
 
-      OPINIÃO:
+      Conclusão:
       Estudo de ressonância magnética dentro dos limites da normalidade.
     word: true
 
@@ -6164,17 +6010,17 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO PESCOÇO C/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética do pescoço realizado com aquisições multiplanares, pelas técnicas de spin-eco com sequências pesadas em T1 antes e após a administração endovenosa de contraste paramagnético e técnica de fast spin-eco pesada em T2.
 
-      RELATÓRIO:
+      Descrição:
       Faringe e laringe de aspecto preservado.
       Glândulas parótidas e submandibulares sem alterações.
       Glândula tireoide sem particularidades.
       Não se evidenciam linfonodomegalias.
       Não se observam realces anômalos focais.
 
-      OPINIÃO:
+      Conclusão:
       Estudo de ressonância magnética dentro dos limites da normalidade.
     word: true
 
@@ -6183,10 +6029,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO PLEXO BRAQUIAL DIREITO S/C
 
-      TÉCNICA:
+      Técnica:
       Realizadas sequências ponderadas em T1 e T2, multiplanares.
 
-      ANÁLISE:
+      Descrição:
       Corpos vertebrais com alturas e alinhamento posterior preservados.
       Canal vertebral e forames intervertebrais sem estenoses definidas.
       Articulações interfacetárias e uncovertebrais de contornos regulares.
@@ -6198,7 +6044,7 @@ matches:
       Não há edema por denervação ou atrofia da musculatura da cintura escapular.
       Cabeça umeral aparentemente centrada na cavidade glenoide.
 
-      IMPRESSÃO DIAGNÓSTICA:
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -6210,7 +6056,7 @@ matches:
       Técnica:
       Exame realizado pelas técnicas de fast spin echo e gradiente echo, com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares, antes e após a administração venosa do meio de contraste paramagnético.
 
-      Análise:
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Alinhamento radioulnar distal e das fileiras cárpicas preservado.
       Superfícies condrais de contornos regulares.
@@ -6255,7 +6101,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Superfícies condrais de contornos regulares, sem evidências de lesões osteocondrais.
       Ausência de derrame articular.
@@ -6299,7 +6145,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Alterações degenerativas coxofemorais caracterizadas por afilamento condral das superfícies articulares em área de carga e reações osteo-hipertróficas marginais.
       Pequeno derrame articular.
       Lesão na base do labrum anterossuperior acetabular, sem destacamentos.
@@ -6325,13 +6171,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DAS ARTICULAÇÕES SACROILÍACAS - S/C
 
-      TÉCNICA:
-
+      Técnica:
       Realizado estudo por ressonância magnética das articulações sacroilíacas segundo a técnica spin-eco ponderada em T1, turbo spin-eco ponderada em T2 e STIR com aquisições multiplanares.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Gordura subcutânea da região do sacro-cóccix sem alterações.
 
       Os grupos musculares adjacentes ao sacro têm intensidade de sinal normal e são simétricos.
@@ -6342,9 +6185,7 @@ matches:
 
       Não há imagem óssea detectável de fratura.
 
-
-      OPINIÃO:
-
+      Conclusão:
       Estudo por imagens de ressonância magnética das articulações sacroilíacas dentro dos parâmetros da normalidade.
     word: true
 
@@ -6353,16 +6194,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DAS ARTICULAÇÕES SACROILÍACAS - S/C
 
-
-      TÉCNICA:
-
+      Técnica:
       Realizado estudo por ressonância magnética das articulações sacroilíacas segundo a técnica spin-eco ponderada em T1, turbo spin-eco ponderada em T2 e STIR com aquisições multiplanares.
 
-
-
-      DESCRIÇÃO:
-
-
+      Descrição:
       Gordura subcutânea da região do sacro-cóccix sem alterações.
 
       Os grupos musculares adjacentes ao sacro têm intensidade de sinal normal e são simétricos.
@@ -6373,9 +6208,7 @@ matches:
 
       Não há imagem óssea detectável de fratura.
 
-      OPINIÃO:
-
-
+      Conclusão:
       Estudo por imagens de ressonância magnética das articulações sacroilíacas dentro dos parâmetros da normalidade.
     word: true
 
@@ -6384,16 +6217,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DAS ARTICULAÇÕES SACROILÍACAS - S/C
 
-
-      TÉCNICA:
-
+      Técnica:
       Realizado estudo por ressonância magnética das articulações sacroilíacas segundo a técnica spin-eco ponderada em T1, turbo spin-eco ponderada em T2 e STIR com aquisições multiplanares.
 
-
-
-      DESCRIÇÃO:
-
-
+      Descrição:
       Gordura subcutânea da região do sacro-cóccix sem alterações.
 
       Os grupos musculares adjacentes ao sacro têm intensidade de sinal normal e são simétricos.
@@ -6404,9 +6231,7 @@ matches:
 
       Não há imagem óssea detectável de fratura.
 
-      OPINIÃO:
-
-
+      Conclusão:
       Estudo por imagens de ressonância magnética das articulações sacroilíacas dentro dos parâmetros da normalidade.
     word: true
 
@@ -6430,8 +6255,7 @@ matches:
       Não há evidências de deiscências das lâminas papiráceas, canais ópticos e canais carotídeos.
       Glândulas parótidas e submandibulares sem alterações.
 
-      OPINIÃO:
-
+      Conclusão:
       Estudo de ressonância magnética dentro dos limites da normalidade.
     word: true
 
@@ -6440,11 +6264,11 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE HIPÓFISE - C/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética de hipófise, realizado pela técnica de spin-eco pesada em T1,
       antes e após a administração endovenosa de contraste paramagnético (injeção dinâmica) e técnica Turbo spin-eco pesada em T2, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Cavidade selar de forma e dimensões normais.
       Glândula hipofisária de dimensões conservadas e características de sinal normais.
       Adeno-hipófise de dimensões conservadas e características de sinal normais.
@@ -6453,8 +6277,7 @@ matches:
       Cisterna suprasselar livre.
       Quiasma óptico de aspecto normal.
 
-
-      OPINIÃO:
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -6466,7 +6289,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Acentuação da cifose torácica.
       Corpos vertebrais alinhados, de altura e sinal da medular óssea conservados, sem sinais de lesões ósseas focais, apresentando osteófitos marginais.
       Pedículos e estruturas do arco posterior íntegros.
@@ -6491,7 +6314,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Retificação da curvatura fisiológica torácica.
       Corpos vertebrais alinhados, de altura e sinal da medular óssea conservados, sem sinais de lesões ósseas focais, apresentando osteófitos marginais.
       Herniação intrassomática (nódulo de Schmorl) na placa inferior de T8.
@@ -6531,7 +6354,7 @@ matches:
 
       OPINIÃO
       Exame dentro dos limites da normalidade.
-      Observação: A RM apresenta baixa sensibilidade para a avaliação de anormalidades pulmonares. A critério clínico, sugere-se complementação com TC de tórax.
+      Obs.: A RM apresenta baixa sensibilidade para a avaliação de anormalidades pulmonares. A critério clínico, sugere-se complementação com TC de tórax.
     word: true
 
   - trigger: "rmtorn"
@@ -6540,11 +6363,9 @@ matches:
       RESSONÂNCIA MAGNÉTICA DO TORNOZELO - S/C
 
       Técnica:
-
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      Análise:
-
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Superfícies condrais de contornos regulares, sem evidências de lesões osteocondrais.
       Ausência de derrame articular.
@@ -6557,7 +6378,6 @@ matches:
       Planos musculares anatômicos, sem evidências de lesão.
 
       Conclusão:
-
       Exame dentro dos padrões da normalidade.
 
 
@@ -6589,21 +6409,15 @@ matches:
     replace: |-
       VENORRESSONÂNCIA MAGNÉTICA DO ENCÉFALO - C/C
 
-
-      TÉCNICA:
-
+      Técnica:
       Realizadas imagens de venorressonância encefálica pela técnica de 3D TOF com imagens de intensidade máxima (M.I.P.) tridimensionais, após a injeção endovenosa do meio de contraste paramagnético.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Seios sagital superior, sagital inferior, reto, transversos e sigmoides, veias cerebrais internas e de Galeno com calibre preservado, exibindo opacificação satisfatória pelo meio de contraste paramagnético endovenoso.
 
       Porção visualizada das veias jugulares internas com calibre preservado.
 
-
-      OPINIÃO:
-
+      Conclusão:
       - Estudo por imagens de venorressonância magnética do encéfalo dentro dos padrões da normalidade.
     word: true
 
@@ -6612,12 +6426,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO C/C
 
-      Análise:
-
+      Descrição:
       Exame realizado para simulação de planejamento radioterápico.
 
-      Opinião:
-
+      Conclusão:
       Exame realizado para simulação de planejamento radioterápico.
     word: true
 
@@ -6629,10 +6441,10 @@ matches:
       Técnica:
       Exame de ressonância magnética de crânio realizado pela técnica de spin-eco pesada em T1 antes e após a administração endovenosa de contraste paramagnético (gadolínio), técnica de turbo spin-eco pesada em T2, com aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Exame para simulação de radioterapia.
 
-      Opinião:
+      Conclusão:
       Exame para simulação de radioterapia.
     word: true
 
@@ -6641,16 +6453,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ANTEPÉ DIREITO S/C
 
-
-
       Técnica:
-
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares, obtidas sem a administração do meio de contraste paramagnético por via endovenosa.
 
-
-
-      Análise:
-
+      Descrição:
       Sesamoide medial do hálux com morfologia bipartida, caracterizada por dois fragmentos ósseos bem corticalizados, de contornos regulares, sem sinais de fratura aguda. Observa-se hipersinal em T2/STIR e discreto hipossinal em T1 no interior dos fragmentos, associado a edema dos tecidos moles adjacentes, achados sugestivos de processo inflamatório (sesamoidite). Não se evidenciam desalinhamento significativo, colapso ósseo ou sinais de osteonecrose.
 
       Tendinopatia do flexor longo do hálux ao nível da passagem entre os sesamoides.
@@ -6669,10 +6475,7 @@ matches:
 
       Planos musculares anatômicos, sem evidências de lesão.
 
-
-
       Conclusão:
-
       Sesamoide medial bipartido do hálux, com sinais de sesamoidite associada, sem evidências de fratura aguda ou osteonecrose.
 
       Tendinopatia do flexor longo do hálux ao nível da passagem entre os sesamoides.
@@ -6683,10 +6486,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR E INFERIOR C/C
 
-      TÉCNICA:
+      Técnica:
       Realizadas sequências multiplanares ponderadas em T1 e T2, antes e após a injeção intravenosa do meio de contraste paramagnético. Utilizado gel retal e vaginal.
 
-      ANÁLISE:
+      Descrição:
       Espessamento parietal segmentar de alça delgada em região do mesogástrio (provavelmente segmento ileal), à direita da linha média, com aspecto de intussuscepção, estendendo-se por cerca de _ cm, acompanhado de discreta distensão hidroaérea de alças intestinais delgadas a montante. Associa-se aumento numérico de linfonodos pré-cecal e na raiz do mesentério.
       Fígado de dimensões normais, contornos regulares e bordos finos. Parênquima com intensidade de sinal habitual. Ausência de lesões focais detectáveis.
       Veias hepáticas e ramos portais preservados.
@@ -6709,7 +6512,7 @@ matches:
       Pequena quantidade de líquido livre na cavidade pélvica.
       Desvio do eixo da coluna lombar com convexidade para a esquerda.
 
-      OPINIÃO:
+      Conclusão:
       Espessamento parietal segmentar de alça delgada em região do mesogástrio (provavelmente segmento ileal), à direita da linha média, com aspecto de intussuscepção, acompanhado de discreta distensão hidroaérea de alças intestinais delgadas a montante. Associa-se aumento numérico de linfonodos na raiz do mesentério e pré-cecal. A possibilidade de neoplasia primária, destacando-se a hipótese de tumor carcinoide, pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
       Demais achados pormenorizados no corpo do laudo.
     word: true
@@ -6745,14 +6548,14 @@ matches:
     replace: |-
       VENORRESSONÂNCIA MAGNÉTICA DO ENCÉFALO - C/C
 
-      TÉCNICA:
+      Técnica:
       Realizadas imagens de venorressonância encefálica pela técnica de 3D TOF com imagens de intensidade máxima (M.I.P.) tridimensionais, após a injeção endovenosa do meio de contraste paramagnético.
 
-      DESCRIÇÃO:
+      Descrição:
       Seios sagital superior, sagital inferior, reto, transversos e sigmoides, veias cerebrais internas e de Galeno com calibre preservado, exibindo opacificação satisfatória pelo meio de contraste paramagnético endovenoso.
       Porção visualizada das veias jugulares internas com calibre preservado.
 
-      OPINIÃO:
+      Conclusão:
       Estudo por imagens de venorressonância magnética do encéfalo dentro dos padrões da normalidade.
     word: true
 
@@ -6761,10 +6564,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO S/C
 
-      TÉCNICA:
+      Técnica:
       Exame de Ressonância Magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, gradiente S.W.I., difusão e técnica de FLAIR, com aquisições multiplanares.
 
-      DESCRIÇÃO:
+      Descrição:
       Hiperintensidade T2 / FLAIR simétrica na substância branca peritrigonal bilateral, característica que favorece o diagnóstico de zonas terminais de mielinização. Sugere-se acompanhamento.
       Restante do parênquima encefálico de morfologia e características de sinal conservadas.
       Sistema ventricular de morfologia e dimensões preservadas.
@@ -6773,7 +6576,7 @@ matches:
       Estruturas da linha média centradas.
       Não se observa área de restrição na sequência difusão.
 
-      OPINIÃO:
+      Conclusão:
       Hiperintensidade T2 / FLAIR simétrica na substância branca peritrigonal bilateral, característica que favorece o diagnóstico de zonas terminais de mielinização. Sugere-se acompanhamento.
     word: true
 
@@ -6783,13 +6586,11 @@ matches:
       =======================================================================
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
       =======================================================================
-      TÉCNICA:
 
+      Técnica:
       Exame de Ressonância Magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, gradiente S.W.I., difusão e técnica de FLAIR, com aquisições multiplanares.
 
-
-      DESCRIÇÃO:
-
+      Descrição:
       Zonas de mielinização terminal adjacentes aos átrios dos ventrículos laterais (com frequência achado incidental nessa faixa etária, sem correlação clínica).
 
       Sistema ventricular de morfologia e dimensões preservadas.
@@ -6802,10 +6603,7 @@ matches:
 
       Não se observa área de restrição na sequência difusão.
 
-
-
-      OPINIÃO:
-
+      Conclusão:
       Zonas de mielinização terminal adjacentes aos átrios dos ventrículos laterais (com frequência achado incidental nessa faixa etária, sem correlação clínica).
     word: true
 
@@ -6817,14 +6615,14 @@ matches:
       Técnica:
       Exame realizado pela técnica "3D-TOF" com sequências sensíveis a fluxo e reconstrução tridimensional segundo intensidade máxima.
 
-      Análise:
+      Descrição:
       Segmentos intracranianos das artérias carótidas internas, artérias cerebrais anteriores, artérias cerebrais médias, segmentos intracranianos das artérias vertebrais, artéria basilar e artérias cerebrais posteriores de trajeto, calibre e fluxo preservados.
       -------- Padrão fetal da origem da artéria cerebral posterior
       -------- Redução do sinal de fluxo nos ramos distais.
       Não há evidência de dilatação aneurismática ou estenose significativa.
       --------- Demais artérias intracranianas detectadas por esta técnica apresentando trajeto, calibre e fluxo preservados.
 
-      Opinião:
+      Conclusão:
       Angiorressonância arterial intracraniana dentro dos limites da normalidade.
     word: true
 
@@ -6837,7 +6635,7 @@ matches:
       Exame realizado pelas técnicas TSE e GRE com imagens multiplanares ponderadas em T1 e T2 antes e após a administração intravenosa de meio de contraste paramagnético (gadolínio).
       ############Utilizado gel para distensão do canal vaginal.
 
-      Análise:
+      Descrição:
       Fígado com forma, contornos, dimensões e sinal normais.
       Arquitetura vascular hepática preservada.
       Ausência de dilatação das vias biliares intra- e extra-hepáticas.
@@ -6861,7 +6659,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Superfícies condrais femoroacetabulares de contornos regulares, sem evidências de lesões osteocondrais.
       Ausência de derrame articular.
@@ -6882,11 +6680,9 @@ matches:
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
       Técnica:
-
       Exame realizado pelas técnicas de fast spin echo e gradient echo com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares.
 
-      Análise:
-
+      Descrição:
       Transição craniovertebral sem alterações.
       Processo odontoide centrado, com contornos regulares.
       Corpos vertebrais alinhados, com morfologia, altura e sinal da medular óssea conservados. Não há sinais de fraturas ou lesões ósseas focais.
@@ -6899,7 +6695,6 @@ matches:
       Musculatura paravertebral sem alterações.
 
       Conclusão:
-
       Exame dentro dos padrões da normalidade.
     word: true
 
@@ -6911,7 +6706,7 @@ matches:
       Técnica:
       Realizadas sequências fortemente ponderadas em T2 para estudo da árvore ductal biliopancreática.
 
-      Análise:
+      Descrição:
       Ausência de dilatação das vias biliares intra- e extra-hepáticas.
       Ausência de imagens sugestivas de cálculos ou processos expansivos no interior das vias biliares.
     word: true
@@ -6924,7 +6719,7 @@ matches:
       Técnica:
       Exame de ressonância magnética de hipófise realizado pela técnica de spin-eco com sequências pesadas em T1 antes e após a administração endovenosa de contraste paramagnético (injeção dinâmica) e técnica fast spin-eco pesada em T2, com aquisição multiplanar.
 
-      Análise:
+      Descrição:
       Cavidade selar de forma e dimensões normais.
       Adeno-hipófise de dimensões conservadas e características de sinal normais.
       Neuro-hipófise tópica.
@@ -6933,7 +6728,7 @@ matches:
       Quiasma óptico de aspecto normal.
       Seios cavernosos livres.
 
-      Opinião:
+      Conclusão:
       Exame de ressonância magnética de hipófise dentro dos padrões da normalidade.
     word: true
 
@@ -6945,7 +6740,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Artropatia degenerativa femorotibial, caracterizada por osteófitos marginais e irregularidades condrais com fissuras esparsas, algumas profundas, uma delas com foco de edema ósseo subcondral no côndilo femoral medial.
       Alteração de sinal com irregularidades do revestimento condral da patela e da tróclea femoral, notadamente medial, com fissuras condrais esparsas, destacando-se fissuras profundas com edema ósseo subcondral no vértice da patela e na porção central da tróclea femoral.
       Heterogeneidade e alteração de sinal do retináculo medial da patela, podendo corresponder a rotura parcial/estiramento.
@@ -6978,10 +6773,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
-      TÉCNICA:
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e STIR, em aquisições multiplanares.
 
-      RELATÓRIO:
+      Descrição:
       Lordose fisiológica lombar.
       Corpos vertebrais com altura e alinhamento posterior mantidos.
       Articulações interfacetárias de contornos regulares.
@@ -6991,8 +6786,7 @@ matches:
       Raízes da cauda equina de distribuição anatômica no interior do saco dural.
       Musculatura paravertebral sem alterações.
 
-
-      OPINIÃO:
+      Conclusão:
       Estudo dentro dos limites da normalidade.
     word: true
 
@@ -7001,12 +6795,10 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
 
-      TÉCNICA:
-
+      Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      RELATÓRIO:
-
+      Descrição:
       Leve / moderada artropatia acromioclavicular, caracterizada por osteofitose marginal e espessamento capsulossinovial.
       Cabeça umeral de morfologia e sinal normais.
       Demais estruturas ósseas com morfologia e sinal medular conservados.
@@ -7019,8 +6811,7 @@ matches:
       Não há derrame articular glenoumeral.
       Ventres musculares com trofismo conservado.
 
-      OPINIÃO:
-
+      Conclusão:
       Exame dentro dos padrões da normalidade.
 
       Acromioclavicular
@@ -7065,14 +6856,14 @@ matches:
       Técnica:
       Exame de ressonância magnética das órbitas realizado com aquisições multiplanares pela técnica spin-eco pesada em T1 antes e após a administração endovenosa de contraste paramagnético (gadolínio) e técnica turbo spin-eco pesada em T2.
 
-      Análise:
+      Descrição:
       Globos oculares de contornos regulares apresentando sinal de aspecto normal.
       Nervos ópticos, gordura intra e extraconais e musculatura extrínseca ocular preservados.
       Glândulas lacrimais sem particularidades.
       Não foram observados realces anômalos após a administração de contraste paramagnético.
       Quiasma óptico de aspecto normal.
 
-      OPINIÃO:
+      Conclusão:
       Estudo das órbitas sem alterações significativas.
     word: true
 
@@ -7084,7 +6875,7 @@ matches:
       Técnica:
       Exame de ressonância magnética dos ossos temporais realizado com aquisições multiplanares pelas técnicas de spin-eco com sequências pesadas em T1 antes e após a administração endovenosa de contraste paramagnético, técnica de fast spin-eco pesada em T2, sequência de difusão, FLAIR e sequência CISS.
 
-      Análise:
+      Descrição:
       Estruturas do labirinto membranoso preservadas.
       Nervos vestibulococleares e faciais simétricos e anatômicos.
       Ângulos pontocerebelares livres.
@@ -7100,7 +6891,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares, obtidas antes e após a administração do meio de contraste paramagnético por via endovenosa.
 
-      Análise:
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Ausência de derrame articular.
       Tendões flexores e extensores com continuidade, espessura e sinal conservados.
@@ -7123,7 +6914,7 @@ matches:
       Exame realizado pelas técnicas TSE e GRE com imagens multiplanares ponderadas em T1 e T2 antes e após a administração intravenosa de meio de contraste paramagnético (gadolínio).
       ############Utilizado gel para distensão do canal vaginal.
 
-      Análise:
+      Descrição:
       Bexiga urinária com morfologia conservada, paredes de espessura normal e conteúdo homogêneo.
       Espaço vesicouterino livre.
       Útero em _ com forma, contornos e dimensões normais. Medidas: _ cm. Volume estimado em _ cm³. Apresenta sinal miometrial característico e anatomia zonal mantida. Endométrio centrado, homogêneo, com espessura de _ cm.
@@ -7141,7 +6932,7 @@ matches:
       Técnica:
       Exame realizado pelas técnicas TSE e GRE com imagens multiplanares ponderadas em T1 e T2 antes e após a administração intravenosa de meio de contraste paramagnético (gadolínio).
 
-      Análise:
+      Descrição:
       Próstata de contornos regulares, medindo _ cm. Peso estimado em _ g.
       Glândula central heterogênea, com padrão nodular característico.
       Zona periférica com sinal normal.
@@ -7159,7 +6950,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares, sem a administração do meio de contraste paramagnético por via endovenosa.
 
-      Análise:
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Não há sinais de fraturas.
       Planos musculares anatômicos, sem evidências de lesão ou atrofia.
@@ -7178,7 +6969,7 @@ matches:
       Técnica:
       Exame realizado pelas técnicas TSE e GRE com imagens multiplanares ponderadas em T1 e T2 antes e após a administração intravenosa de meio de contraste paramagnético (gadolínio).
 
-      Análise:
+      Descrição:
       Bexiga urinária com forma conservada, paredes de espessura normal e conteúdo homogêneo.
       Próstata de contornos regulares, medindo _ cm. Peso estimado em _ g.
       Glândula central heterogênea, com padrão nodular característico.
@@ -7197,7 +6988,7 @@ matches:
       Técnica:
       Exame realizado pelas técnicas de fast spin echo e gradiente echo, com imagens obtidas predominantemente em T1, T2 e T2*, em aquisições multiplanares, antes e após a administração venosa do meio de contraste paramagnético.
 
-      Análise:
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Alinhamento radioulnar distal e das fileiras cárpicas preservado.
       Superfícies condrais de contornos regulares.
@@ -7224,7 +7015,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Superfícies condrais de contornos regulares, sem evidências de lesões osteocondrais.
       Ausência de derrame articular.
@@ -7247,7 +7038,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas com morfologia e sinal medular conservados.
       Superfícies condrais de contornos regulares, sem evidências de lesões osteocondrais.
       Ausência de derrame articular.
@@ -7271,7 +7062,7 @@ matches:
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1 e T2, em aquisições multiplanares.
 
-      Análise:
+      Descrição:
       Corpos vertebrais alinhados, de altura e sinal da medular óssea conservados, sem sinais de lesões ósseas focais.
       Pedículos e estruturas do arco posterior íntegros.
       Discos intervertebrais de altura e hidratação habituais, sem abaulamentos ou protrusões significativas.

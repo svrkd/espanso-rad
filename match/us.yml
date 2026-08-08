@@ -1300,7 +1300,7 @@ matches:
       Feto único, em situação longitudinal, com apresentação _ e dorso à _ da linha média.
       O feto apresenta sinais vitais presentes, representados por movimentação ativa e batimentos cardíacos presentes. Frequência cardíaca em torno de _ batimentos por minuto (bpm).
 
-      BIOMETRIA FETAL:
+      Biometria fetal:
       Diâmetro biparietal medindo _ cm.
       Circunferência cefálica medindo _ cm.
       Circunferência abdominal medindo _ cm.
@@ -1344,7 +1344,7 @@ matches:
       Feto único, em situação longitudinal, com apresentação _ e dorso à _ da linha média.
       O feto apresenta sinais vitais presentes, representados por movimentação ativa e batimentos cardíacos presentes. Frequência cardíaca em torno de _ batimentos por minuto (bpm).
 
-      BIOMETRIA FETAL:
+      Biometria fetal:
       Diâmetro biparietal medindo _ cm.
       Circunferência cefálica medindo _ cm.
       Circunferência abdominal medindo _ cm.
@@ -1357,7 +1357,7 @@ matches:
 
       Líquido amniótico com aspecto e quantidade normal (ILA = _ / Maior bolsão vertical _ cm).
 
-      DOPPLER OBSTÉTRICO:
+      Doppler obstétrico:
       As artérias cerebrais médias apresentam fluxo de padrão habitual para a fase da gestação, com:
        IR = _. IP = _.
       Artérias umbilicais com onda de padrão normal e adequado fluxo diastólico para a fase da gestação:
@@ -1886,7 +1886,6 @@ matches:
       Ausência de nódulos sólidos ou cistos.
       Prolongamentos axilares, regiões retropapilares e para-esternais livres.
 
-
       Conclusão:
       Mamas normais ao ultrassom.
 
@@ -2292,17 +2291,15 @@ matches:
       ULTRASSONOGRAFIA DO PÉ ESQUERDO
 
       Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (antepé).
 
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Exame direcionado para a região álgica referida pelo paciente (antepé).
-
-      OS SEGUINTES ASPECTOS FORAM OBSERVADOS:
+      Descrição:
       Fáscia plantar com espessura e ecotextura habituais.
       Não há evidência de neuroma de Morton ao método.
       Não se observam formações expansivas na região examinada.
       Planos musculares adjacentes com morfologia habitual e arquitetura fibrilar preservada.
       Superfícies ósseas sem alterações ao método.
+
       Conclusão:
       Exame ecográfico sem alterações significativas.
     word: true
@@ -6437,11 +6434,11 @@ matches:
       ULTRASSONOGRAFIA DA TIREOIDE
 
       Técnica:
-
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
-      OS SEGUINTES ASPECTOS FORAM OBSERVADOS:
+      Descrição:
       Tireoide tópica, dimensões normais, contornos nítidos, ecogenicidade preservada e ecotextura homogênea.
+
       Medidas:
       Lobo direito: mm, com volume de cm³.
       Lobo esquerdo: mm, com volume de cm³.
@@ -6466,6 +6463,7 @@ matches:
 
       Descrição:
       Tireoide tópica, dimensões normais, contornos nítidos, ecogenicidade preservada e ecotextura homogênea.
+
       Medidas:
       Lobo direito: mm, com volume de cm³.
       Lobo esquerdo: mm, com volume de cm³.
@@ -7046,6 +7044,7 @@ matches:
       ULTRASSONOGRAFIA DOS QUADRIS
 
       Idade: ___
+
       Técnica:
       Realizado exame dos quadris, utilizando-se o método de Graf.
 
@@ -7160,7 +7159,7 @@ matches:
       Descrição:
       Veias subclávia, axilar, braquial, radiais e ulnares compressíveis em toda sua extensão, sem trombos no seu interior.
       Veias cefálica e basílica se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
-      
+
       Conclusão:
       Duplex Scan venoso do membro superior direito dentro dos padrões da normalidade.
     word: true
@@ -7496,7 +7495,7 @@ matches:
     replace: |-
       Stent carotídeo em segmento distal da artéria carótida comum e proximal da artéria carótida interna à _, com morfologia preservada e sinais de hiperplasia neointimal (_ mm). Ao Doppler, fluxo turbulento e de velocidade aumentada (VPS: _ cm/s) em seu interior, compatível com estenose hemodinamicamente significativa (≥ _%).
 
-      Obs: A avaliação dopplerfluxométrica para pesquisa de estenose intrastent foi realizada utilizando-se os parâmetros do seguinte estudo: Stanziale, Stephen F., et al. "Determining in-stent stenosis of carotid arteries by duplex ultrasound criteria." Journal of Endovascular Therapy 12.3 (2005): 346-353.
+      Obs.: A avaliação dopplerfluxométrica para pesquisa de estenose intrastent foi realizada utilizando-se os parâmetros do seguinte estudo: Stanziale, Stephen F., et al. "Determining in-stent stenosis of carotid arteries by duplex ultrasound criteria." Journal of Endovascular Therapy 12.3 (2005): 346-353.
     word: true
 
   - trigger: "dc10c"
@@ -7509,7 +7508,7 @@ matches:
     replace: |-
       Stent pérvio na artéria carótida à _, estendendo-se da porção distal da artéria carótida comum até a artéria carótida interna, com morfologia preservada e sem placas em seu interior. Ao Doppler, fluxo laminar com velocidades normais, não sendo caracterizada estenose hemodinamicamente significativa.
 
-      Obs: A avaliação dopplerfluxométrica para pesquisa de estenose intrastent foi realizada utilizando-se os parâmetros do seguinte estudo: Stanziale, Stephen F., et al. "Determining in-stent stenosis of carotid arteries by duplex ultrasound criteria." Journal of Endovascular Therapy 12.3 (2005): 346-353.
+      Obs.: A avaliação dopplerfluxométrica para pesquisa de estenose intrastent foi realizada utilizando-se os parâmetros do seguinte estudo: Stanziale, Stephen F., et al. "Determining in-stent stenosis of carotid arteries by duplex ultrasound criteria." Journal of Endovascular Therapy 12.3 (2005): 346-353.
     word: true
 
   - trigger: "dc11c"

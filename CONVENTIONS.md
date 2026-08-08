@@ -73,6 +73,31 @@ Taxonomia usada (mesma lista em ambos os arquivos, pulando seções vazias):
 
 A classificação é heurística (por palavras-chave no trigger/replace) e revisada por amostragem — não é perfeita. Fragmentos genéricos que não mencionam uma região específica (ex. "Fratura oblíqua", "Textura óssea preservada.") legitimamente ficam em "Gerais / Diversos".
 
+## Cabeçalhos de seção nos templates de laudo
+
+Todo template multi-linha que representa um laudo completo usa os mesmos três cabeçalhos, em Title Case e nesta ordem:
+
+```
+TÍTULO DO EXAME EM CAIXA ALTA
+
+Técnica:
+Exame realizado com...
+
+Descrição:
+Primeiro achado.
+Segundo achado.
+
+Conclusão:
+Exame sem alterações significativas.
+```
+
+- Exatamente **uma** linha em branco **antes** de cada cabeçalho; **nenhuma** depois — o conteúdo começa na linha seguinte.
+- `Descrição:` é o único nome da seção de achados. Não use `Análise:`, `Relatório:`, `Achados:` nem versões em CAIXA ALTA.
+- `Conclusão:` é o único nome da seção final. Não use `Opinião:`, `Impressão:` nem `Impressão diagnóstica:`.
+- Cabeçalhos auxiliares padronizados: `Indicação:` e `Nota:` (isolados na linha, mesmas regras de espaçamento) e `Obs.:` (inline, tipicamente no fim do laudo).
+- O título do exame abre o bloco em CAIXA ALTA, **sem** `:`, seguido de uma linha em branco.
+- Sub-cabeçalhos anatômicos ou de medida (`Medidas:`, `Lobo direito:`, `Nível L4-L5:`, `Zona periférica:`) são conteúdo da seção, não cabeçalho de seção — ficam livres da regra de espaçamento e mantêm o nome que fizer sentido clinicamente.
+
 ## Nomenclatura de triggers novos
 
 - **Código de órgão + número**, no estilo já usado em `us.yml` (`vb1`, `vb2`, `ba3`, `rv14`...): padrão recomendado para achados novos em qualquer arquivo, não só `us.yml`. O mesmo código de órgão é reaproveitado entre modalidades (ex. `vb` para vesícula biliar vale tanto para uma entrada nova em `us.yml` quanto em `tc.yml`).
