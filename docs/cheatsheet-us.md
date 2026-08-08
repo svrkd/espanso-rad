@@ -1324,44 +1324,59 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 
 | Trigger | Label |
 |---|---|
-| dc1 | Artéria carótida: Espessamento médio-intimal da artéria carótida comum à _, sem placas ateroscleróticas... (achado descritivo) |
-| dc1c | Artéria carótida: Espessamento médio-intimal da artéria carótida comum à _, sem placas ateroscleróticas... |
-| dc2 | Artéria carótida: Placa aterosclerótica não complicada em bulbo carotídeo à _, sem repercussão hemodinâmica... (achado descritivo) |
-| dc2c | Artéria carótida: Placa aterosclerótica não complicada em bulbo carotídeo à _, sem repercussão hemodinâmica... |
-| dc3 | Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecoico sugestivo... (achado descritivo) |
-| dc3c | Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecoico sugestivo... |
-| dc4 | Artéria carótida: Estenose inferior a 50% da artéria carótida interna à _ (achado descritivo) |
-| dc4c | Artéria carótida: Estenose inferior a 50% da artéria carótida interna à _ |
-| dc5 | Artéria carótida: Estenose de 50 a 69% da artéria carótida interna à _ (achado descritivo) |
-| dc5c | Artéria carótida: Estenose de 50 a 69% da artéria carótida interna à _ |
-| dc6 | Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ (achado descritivo) |
-| dc6c | Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ |
-| dc7 | Artéria carótida: Achados compatíveis com oclusão da artéria carótida interna à _ (achado descritivo) |
-| dc7c | Artéria carótida: Achados compatíveis com oclusão da artéria carótida interna à _ |
+| dc1 | Artéria carótida: Aumento da espessura médio-intimal das artérias carótidas (achado descritivo) |
+| dc1c | Artéria carótida: Aumento da espessura médio-intimal das artérias carótidas |
+| dc2 | Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica (achado descritivo) |
+| dc2c | Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica |
+| dc3 | Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecogênico sugestivo de instabilidade (achado descritivo) |
+| dc3c | Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecogênico sugestivo de instabilidade |
+| dc4 | Artéria carótida: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _ (achado descritivo) |
+| dc4c | Artéria carótida: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _ |
+| dc5 | Artéria carótida: Estenose entre 50 e 69% da artéria carótida interna à _ (achado descritivo) |
+| dc5c | Artéria carótida: Estenose entre 50 e 69% da artéria carótida interna à _ |
+| dc6 | Artéria carótida: Estenose superior a 70% da artéria carótida interna à _ (achado descritivo) |
+| dc6c | Artéria carótida: Estenose superior a 70% da artéria carótida interna à _ |
+| dc7 | Artéria carótida: Sinais de suboclusão/oclusão da artéria carótida interna à _ (achado descritivo) |
+| dc7c | Artéria carótida: Sinais de suboclusão/oclusão da artéria carótida interna à _ |
 | dc8 | Artéria carótida: Achados sugestivos de carotidínia à _ (achado descritivo) |
 | dc8c | Artéria carótida: Achados sugestivos de carotidínia à _ |
 | dc9 | Artéria carótida: Nódulo em bifurcação carotídea à _, provável paraganglioma (achado descritivo) |
 | dc9c | Artéria carótida: Nódulo em bifurcação carotídea à _, provável paraganglioma |
 | dc10 | Artéria carótida: Estenose intrastent do stent carotídeo à _ (achado descritivo) |
 | dc10c | Artéria carótida: Estenose intrastent do stent carotídeo à _ |
-| dc11 | Artéria carótida: Stent carotídeo à _ sem estenose intrastent (achado descritivo) |
-| dc11c | Artéria carótida: Stent carotídeo à _ sem estenose intrastent |
+| dc11 | Artéria carótida: Stent carotídeo à _ pérvio, sem estenose intrastent (achado descritivo) |
+| dc11c | Artéria carótida: Stent carotídeo à _ pérvio, sem estenose intrastent |
+| dc12 | Artéria carótida: Estenose superior a 90% em bifurcação carotídea à _ (achado descritivo) |
+| dc12c | Artéria carótida: Estenose superior a 90% em bifurcação carotídea à _ |
+| dc13 | Artéria carótida: Acotovelamento da artéria carótida interna à _, sem repercussão hemodinâmica (achado descritivo) |
+| dc13c | Artéria carótida: Acotovelamento da artéria carótida interna à _, sem repercussão hemodinâmica |
+| dc14 | Artéria carótida: Bifurcação carotídea alta à _ limitando a avaliação da carótida interna (achado descritivo) |
+| dc14c | Artéria carótida: Bifurcação carotídea alta à _ limitando a avaliação da carótida interna |
+| dc15 | Artéria carótida: Extensas calcificações parietais impossibilitando graduar a estenose (achado descritivo) |
+| dc15c | Artéria carótida: Extensas calcificações parietais impossibilitando graduar a estenose |
+| dc16 | Artéria carótida: Placa carotídea — descrição detalhada (preencher) |
+| dc17 | Artéria carótida: Placa na artéria carótida comum à _ |
+| dc18 | Artéria carótida: Placa na bifurcação carotídea à _ |
+| dc19 | Artéria carótida: Placa na origem da artéria carótida interna à _ |
+| dc20 | Artéria carótida: Placa na origem da artéria carótida externa à _ |
+| dc21 | Artéria carótida: Artérias carótidas normais |
 | dv1 | Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ (achado descritivo) |
 | dv1c | Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ |
-| dv2 | Artéria vertebral: Alterações de fluxo na artéria vertebral à _ compatíveis com fenômeno do roubo da subclávia (achado descritivo) |
-| dv2c | Artéria vertebral: Alterações de fluxo na artéria vertebral à _ compatíveis com fenômeno do roubo da subclávia |
+| dv2 | Artéria vertebral: Fluxo retrógrado na artéria vertebral à _ compatível com roubo da subclávia (achado descritivo) |
+| dv2c | Artéria vertebral: Fluxo retrógrado na artéria vertebral à _ compatível com roubo da subclávia |
 | dv3 | Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _ (achado descritivo) |
 | dv3c | Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _ |
-| ds1 | Roubo subclávio completo à _ (achado descritivo) |
-| ds1c | Roubo subclávio completo à _ |
-| ds2 | Roubo subclávio latente tipo 1 à _ (achado descritivo) |
-| ds2c | Roubo subclávio latente tipo 1 à _ |
-| ds3 | Roubo subclávio latente tipo 2 à _ (achado descritivo) |
-| ds3c | Roubo subclávio latente tipo 2 à _ |
-| ds4 | Roubo subclávio latente tipo 3 à _ (achado descritivo) |
-| ds4c | Roubo subclávio latente tipo 3 à _ |
-| ds5 | Roubo subclávio parcial tipo 4 à _ (achado descritivo) |
-| ds5c | Roubo subclávio parcial tipo 4 à _ |
+| dv4 | Artéria vertebral: Artérias vertebrais normais, com fluxo anterógrado conservado |
+| ds1 | Artéria subclávia: Roubo subclávio completo à _ (achado descritivo) |
+| ds1c | Artéria subclávia: Roubo subclávio completo à _ |
+| ds2 | Artéria subclávia: Roubo subclávio latente tipo 1 à _ (achado descritivo) |
+| ds2c | Artéria subclávia: Roubo subclávio latente tipo 1 à _ |
+| ds3 | Artéria subclávia: Roubo subclávio latente tipo 2 à _ (achado descritivo) |
+| ds3c | Artéria subclávia: Roubo subclávio latente tipo 2 à _ |
+| ds4 | Artéria subclávia: Roubo subclávio latente tipo 3 à _ (achado descritivo) |
+| ds4c | Artéria subclávia: Roubo subclávio latente tipo 3 à _ |
+| ds5 | Artéria subclávia: Roubo subclávio parcial tipo 4 à _ (achado descritivo) |
+| ds5c | Artéria subclávia: Roubo subclávio parcial tipo 4 à _ |
 
 ## Vascular — Síndrome Do Desfiladeiro Torácico (Mmss)
 

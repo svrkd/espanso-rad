@@ -7402,73 +7402,73 @@ matches:
   # ==============================================================================
 
   - trigger: "dc1"
-    label: "Artéria carótida: Espessamento médio-intimal da artéria carótida comum à _, sem placas ateroscleróticas... (achado descritivo)"
-    replace: Artéria carótida comum com diâmetro preservado, associada a espessamento médio-intimal, medindo _ mm (percentil 75 para idade e sexo). Ao estudo Doppler, curva espectral de amplitude normal, sem turbulência ou aceleração.
+    label: "Artéria carótida: Aumento da espessura médio-intimal das artérias carótidas (achado descritivo)"
+    replace: Artérias carótidas comum, interna e externa de trajeto preservado. Artéria carótida comum à _ com espessamento difuso do complexo médio-intimal em toda a sua extensão, medindo _ mm. Ausência de placas ateromatosas ou estenoses. Ao estudo Doppler espectral, velocidades de fluxo dentro dos limites da normalidade.
     word: true
 
   - trigger: "dc1c"
-    label: "Artéria carótida: Espessamento médio-intimal da artéria carótida comum à _, sem placas ateroscleróticas..."
-    replace: Espessamento médio-intimal da artéria carótida comum à _, sem placas ateroscleróticas associadas.
+    label: "Artéria carótida: Aumento da espessura médio-intimal das artérias carótidas"
+    replace: Aumento da espessura médio-intimal das artérias carótidas.
     word: true
 
   - trigger: "dc2"
-    label: "Artéria carótida: Placa aterosclerótica não complicada em bulbo carotídeo à _, sem repercussão hemodinâmica... (achado descritivo)"
-    replace: Placa aterosclerótica de ecotextura heterogênea, predominantemente ecogênica, de superfície lisa, medindo _ x _ mm no bulbo carotídeo/artéria carótida _ à _. Ao Doppler, fluxo laminar com velocidades normais.
+    label: "Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica (achado descritivo)"
+    replace: Placa aterosclerótica homogênea, de aspecto fibroso e superfície lisa, no bulbo carotídeo/artéria carótida _ à _, determinando comprometimento de cerca de _% da luz do vaso, aferido na área de secção transversa. Ao Doppler, ausência de turbulência espectral e velocidades normais.
     word: true
 
   - trigger: "dc2c"
-    label: "Artéria carótida: Placa aterosclerótica não complicada em bulbo carotídeo à _, sem repercussão hemodinâmica..."
-    replace: Placa aterosclerótica sem características de instabilidade no bulbo carotídeo à _, sem repercussão hemodinâmica significativa.
+    label: "Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica"
+    replace: Ateromatose carotídea à _, sem repercussão hemodinâmica.
     word: true
 
   - trigger: "dc3"
-    label: "Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecoico sugestivo... (achado descritivo)"
-    replace: Placa aterosclerótica heterogênea, com predomínio hipoecoico, superfície irregular e área anecoica central, no bulbo carotídeo/artéria carótida _ à _, promovendo redução luminal estimada em _ %.
+    label: "Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecogênico sugestivo de instabilidade (achado descritivo)"
+    replace: Placa aterosclerótica heterogênea, de aspecto lipídico, com predomínio hipoecogênico, superfície irregular e área anecoica central, no bulbo carotídeo/artéria carótida _ à _, determinando comprometimento de cerca de _% da luz do vaso, aferido na área de secção transversa.
     word: true
 
   - trigger: "dc3c"
-    label: "Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecoico sugestivo..."
-    replace: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecoico sugestivo de possível instabilidade.
+    label: "Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecogênico sugestivo de instabilidade"
+    replace: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecogênico sugestivo de possível instabilidade.
     word: true
 
   - trigger: "dc4"
-    label: "Artéria carótida: Estenose inferior a 50% da artéria carótida interna à _ (achado descritivo)"
-    replace: Placa aterosclerótica de ecotextura heterogênea, predominantemente ecogênica, de superfície lisa, medindo _ x _ mm na bifurcação carotídea/artéria carótida interna à _. Ao Doppler, fluxo laminar com velocidades normais (parâmetros compatíveis com estenose inferior a 50%).
+    label: "Artéria carótida: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _ (achado descritivo)"
+    replace: Placas ateromatosas parietais calcificadas, predominantemente nas bifurcações carotídeas e no terço proximal das artérias carótidas internas. Ao Doppler, ausência de turbulência espectral e velocidades normais, compatível com estenose inferior a 50% da luz do vaso.
     word: true
 
   - trigger: "dc4c"
-    label: "Artéria carótida: Estenose inferior a 50% da artéria carótida interna à _"
-    replace: Estenose inferior a 50% da artéria carótida interna à _.
+    label: "Artéria carótida: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _"
+    replace: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _.
     word: true
 
   - trigger: "dc5"
-    label: "Artéria carótida: Estenose de 50 a 69% da artéria carótida interna à _ (achado descritivo)"
-    replace: Placa aterosclerótica de ecotextura heterogênea, predominantemente hipoecogênica, de superfície lisa, medindo _ x _ mm na bifurcação carotídea/artéria carótida interna à _, apresentando ao Doppler fluxo turbulento com velocidade de pico sistólico de _ cm/s, velocidade diastólica final de _ cm/s e razão VPS ACI/ACC de _ (parâmetros compatíveis com estenose entre 50 e 69%).
+    label: "Artéria carótida: Estenose entre 50 e 69% da artéria carótida interna à _ (achado descritivo)"
+    replace: Placas ateromatosas parietais calcificadas na bifurcação carotídea à _ e na emergência das artérias carótidas interna e externa. Ao Doppler, aumento do pico de velocidade sistólica da artéria carótida interna (_ cm/s), com razão VPS ACI/ACC superior a 2, compatível com estenose entre 50 e 69%. Demais segmentos com padrão espectral habitual e velocidades dentro dos limites normais.
     word: true
 
   - trigger: "dc5c"
-    label: "Artéria carótida: Estenose de 50 a 69% da artéria carótida interna à _"
-    replace: Estenose de 50 a 69% da artéria carótida interna à _.
+    label: "Artéria carótida: Estenose entre 50 e 69% da artéria carótida interna à _"
+    replace: Estenose entre 50 e 69% da artéria carótida interna à _.
     word: true
 
   - trigger: "dc6"
-    label: "Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ (achado descritivo)"
-    replace: Placa aterosclerótica de ecotextura homogênea, predominantemente ecogênica, de superfície lisa, medindo _ x _ mm na artéria carótida interna à _, apresentando ao Doppler fluxo turbulento com velocidade de pico sistólico de _ cm/s, velocidade diastólica final de _ cm/s e razão VPS ACI/ACC de _ (parâmetros compatíveis com estenose igual ou superior a 70%).
+    label: "Artéria carótida: Estenose superior a 70% da artéria carótida interna à _ (achado descritivo)"
+    replace: Placas ateromatosas parietais calcificadas e não calcificadas na bifurcação carotídea à _ e na emergência das artérias carótidas interna e externa. Ao Doppler, aumento do pico de velocidade sistólica da artéria carótida interna (_ cm/s), com razão VPS ACI/ACC superior a 4, compatível com estenose superior a 70%. Demais segmentos com padrão espectral habitual e velocidades dentro dos limites normais.
     word: true
 
   - trigger: "dc6c"
-    label: "Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _"
-    replace: Estenose igual ou superior a 70% da artéria carótida interna à _.
+    label: "Artéria carótida: Estenose superior a 70% da artéria carótida interna à _"
+    replace: Estenose superior a 70% da artéria carótida interna à _.
     word: true
 
   - trigger: "dc7"
-    label: "Artéria carótida: Achados compatíveis com oclusão da artéria carótida interna à _ (achado descritivo)"
-    replace: Artéria carótida comum à _ de diâmetro preservado, com fluxo de velocidade normal porém de alta resistência (IR de _). Artéria carótida interna à _ preenchida por material hipoecogênico em seu segmento proximal, sem sinal Doppler detectável no seu interior.
+    label: "Artéria carótida: Sinais de suboclusão/oclusão da artéria carótida interna à _ (achado descritivo)"
+    replace: Placas ateromatosas parietais calcificadas predominantemente na bifurcação carotídea à _, determinando importante atenuação do feixe sonoro e limitando a sua avaliação. Conteúdo hipoecogênico na artéria carótida interna, sem fluxo detectável ao estudo Doppler, sugerindo suboclusão/oclusão. Demais segmentos analisados com picos de velocidade sistólica e diastólica dentro dos limites normais.
     word: true
 
   - trigger: "dc7c"
-    label: "Artéria carótida: Achados compatíveis com oclusão da artéria carótida interna à _"
-    replace: Achados compatíveis com oclusão da artéria carótida interna à _.
+    label: "Artéria carótida: Sinais de suboclusão/oclusão da artéria carótida interna à _"
+    replace: Sinais de suboclusão/oclusão da artéria carótida interna à _.
     word: true
 
   - trigger: "dc8"
@@ -7483,7 +7483,7 @@ matches:
 
   - trigger: "dc9"
     label: "Artéria carótida: Nódulo em bifurcação carotídea à _, provável paraganglioma (achado descritivo)"
-    replace: Nódulo sólido hipoecoico em íntimo contato com a região da bifurcação carotídea à _, medindo _ x _ x _ mm, com moderado fluxo vascular ao Doppler colorido.
+    replace: Nódulo sólido hipoecogênico em íntimo contato com a região da bifurcação carotídea à _, medindo _ x _ x _ mm, com moderado fluxo vascular ao Doppler colorido.
     word: true
 
   - trigger: "dc9c"
@@ -7505,21 +7505,91 @@ matches:
     word: true
 
   - trigger: "dc11"
-    label: "Artéria carótida: Stent carotídeo à _ sem estenose intrastent (achado descritivo)"
+    label: "Artéria carótida: Stent carotídeo à _ pérvio, sem estenose intrastent (achado descritivo)"
     replace: |-
-      Stent carotídeo em segmento distal da artéria carótida comum e proximal da artéria carótida interna à _, com morfologia preservada. Ao Doppler, fluxo laminar com velocidades normais.
+      Stent pérvio na artéria carótida à _, estendendo-se da porção distal da artéria carótida comum até a artéria carótida interna, com morfologia preservada e sem placas em seu interior. Ao Doppler, fluxo laminar com velocidades normais, não sendo caracterizada estenose hemodinamicamente significativa.
 
       Obs: A avaliação dopplerfluxométrica para pesquisa de estenose intrastent foi realizada utilizando-se os parâmetros do seguinte estudo: Stanziale, Stephen F., et al. "Determining in-stent stenosis of carotid arteries by duplex ultrasound criteria." Journal of Endovascular Therapy 12.3 (2005): 346-353.
     word: true
 
   - trigger: "dc11c"
-    label: "Artéria carótida: Stent carotídeo à _ sem estenose intrastent"
+    label: "Artéria carótida: Stent carotídeo à _ pérvio, sem estenose intrastent"
     replace: Angioplastia com implante de stent carotídeo à _, com aspectos morfológico e funcional normais.
+    word: true
+
+  - trigger: "dc12"
+    label: "Artéria carótida: Estenose superior a 90% em bifurcação carotídea à _ (achado descritivo)"
+    replace: Bulbo carotídeo à _ com placa ecogênica, de superfície regular, que se estende até o terço proximal das artérias carótidas interna e externa. Ao Doppler, importante turbulência espectral e aumento das velocidades sistólicas e diastólicas, compatível com estenose superior a 90% da luz do vaso.
+    word: true
+
+  - trigger: "dc12c"
+    label: "Artéria carótida: Estenose superior a 90% em bifurcação carotídea à _"
+    replace: Estenose superior a 90% em bifurcação carotídea à _.
+    word: true
+
+  - trigger: "dc13"
+    label: "Artéria carótida: Acotovelamento da artéria carótida interna à _, sem repercussão hemodinâmica (achado descritivo)"
+    replace: Acotovelamento no segmento proximal da artéria carótida interna à _, sem determinar estenose hemodinamicamente significativa.
+    word: true
+
+  - trigger: "dc13c"
+    label: "Artéria carótida: Acotovelamento da artéria carótida interna à _, sem repercussão hemodinâmica"
+    replace: Acotovelamento da artéria carótida interna à _, sem repercussão hemodinâmica.
+    word: true
+
+  - trigger: "dc14"
+    label: "Artéria carótida: Bifurcação carotídea alta à _ limitando a avaliação da carótida interna (achado descritivo)"
+    replace: Bifurcação carotídea alta à _, limitando a avaliação da artéria carótida interna, acessível apenas em pequeno segmento proximal. Conveniente complementação com angiotomografia ou angiorressonância magnética.
+    word: true
+
+  - trigger: "dc14c"
+    label: "Artéria carótida: Bifurcação carotídea alta à _ limitando a avaliação da carótida interna"
+    replace: Avaliação da artéria carótida interna à _ limitada por bifurcação carotídea alta, sendo conveniente complementação com angiotomografia ou angiorressonância magnética.
+    word: true
+
+  - trigger: "dc15"
+    label: "Artéria carótida: Extensas calcificações parietais impossibilitando graduar a estenose (achado descritivo)"
+    replace: Extensas placas ateromatosas calcificadas nas artérias carótidas comuns, nos bulbos carotídeos e nas artérias carótidas internas, impossibilitando a avaliação ao Doppler do grau de estenose nessas regiões. A análise espectral e ao Doppler colorido das regiões acessíveis demonstrou picos de velocidade dentro dos limites da normalidade. Artérias vertebrais com fluxo anterógrado conservado.
+    word: true
+
+  - trigger: "dc15c"
+    label: "Artéria carótida: Extensas calcificações parietais impossibilitando graduar a estenose"
+    replace: Avaliação do grau de estenose carotídea limitada por extensas calcificações parietais. O resultado pode estar subestimado, sendo recomendada complementação com angiotomografia ou angiorressonância magnética.
+    word: true
+
+  - trigger: "dc16"
+    label: "Artéria carótida: Placa carotídea — descrição detalhada (preencher)"
+    replace: Artéria carótida comum/bifurcação carotídea/artéria carótida interna/artéria carótida externa à _ com placa predominantemente hipoecogênica/hiperecogênica/isoecogênica/calcificada, heterogênea/homogênea, de aspecto lipídico/fibroso/fibrocálcico/cálcico (tipo I/II/III/IV/V), com superfície regular/irregular, sem nítidas ulcerações, estendendo-se por _ cm e com espessura de _ cm, determinando comprometimento de cerca de _% da luz do vaso, aferido na área de secção transversa. Há extensão para o terço proximal do ramo interno.
+    word: true
+
+  - trigger: "dc17"
+    label: "Artéria carótida: Placa na artéria carótida comum à _"
+    replace: Artéria carótida comum à _ com placa homogênea, de aspecto fibroso e superfície lisa, determinando comprometimento de cerca de _% da luz do vaso no plano de secção transversa. A placa se prolonga à bifurcação carotídea e não compromete os ramos interno e externo.
+    word: true
+
+  - trigger: "dc18"
+    label: "Artéria carótida: Placa na bifurcação carotídea à _"
+    replace: Bifurcação carotídea à _ com placa heterogênea, de aspecto fibrocálcico e superfície irregular (tipo III), sem extensão para os ramos interno e externo. Ao Doppler, ausência de turbulência espectral e velocidades normais.
+    word: true
+
+  - trigger: "dc19"
+    label: "Artéria carótida: Placa na origem da artéria carótida interna à _"
+    replace: Artéria carótida interna à _ com pequena placa em sua origem, proveniente da bifurcação carotídea, determinando comprometimento inferior a 30% da luz do vaso. Ao Doppler, ausência de turbulência espectral e velocidades normais.
+    word: true
+
+  - trigger: "dc20"
+    label: "Artéria carótida: Placa na origem da artéria carótida externa à _"
+    replace: Artéria carótida externa à _ com pequena placa em sua origem, determinando comprometimento de cerca de _% da luz do vaso ao corte transversal. Ao Doppler, ausência de turbulência espectral e velocidades normais.
+    word: true
+
+  - trigger: "dc21"
+    label: "Artéria carótida: Artérias carótidas normais"
+    replace: Artérias carótidas comum, interna e externa de trajeto preservado, com aspecto morfológico normal. Espessura médio-intimal de _ mm. Ao Doppler, ausência de turbulência espectral e velocidades dentro dos limites da normalidade.
     word: true
 
   - trigger: "dv1"
     label: "Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ (achado descritivo)"
-    replace: Artéria vertebral à _, avaliada em seu segmento interapofisário (V2), com diâmetro difusamente reduzido, medindo _ mm, associada a fluxo anterógrado de direção cefálica com padrão de alta resistência (IR de _).
+    replace: Artérias vertebrais visualizadas em suas porções proximal (V1) e interapofisária (V2), destacando-se dominância à _ e hipoplasia à _, esta com diâmetro difusamente reduzido, medindo _ mm, e fluxo anterógrado de direção cefálica com padrão de alta resistência (IR de _). Ao Doppler, ausência de turbulência espectral e velocidades normais.
     word: true
 
   - trigger: "dv1c"
@@ -7528,13 +7598,13 @@ matches:
     word: true
 
   - trigger: "dv2"
-    label: "Artéria vertebral: Alterações de fluxo na artéria vertebral à _ compatíveis com fenômeno do roubo da subclávia (achado descritivo)"
-    replace: Artéria vertebral à _ com inversão do sentido de fluxo, de direção caudal, mais evidente à manobra de hiperemia reativa do membro superior ipsilateral.
+    label: "Artéria vertebral: Fluxo retrógrado na artéria vertebral à _ compatível com roubo da subclávia (achado descritivo)"
+    replace: Artéria vertebral à _ com fluxo retrógrado, de direção caudal, mais evidente à manobra de hiperemia reativa do membro superior ipsilateral, que pode estar relacionado a estenose significativa (superior a 50%) na porção proximal da artéria subclávia ipsilateral (roubo da subclávia).
     word: true
 
   - trigger: "dv2c"
-    label: "Artéria vertebral: Alterações de fluxo na artéria vertebral à _ compatíveis com fenômeno do roubo da subclávia"
-    replace: Alterações de fluxo na artéria vertebral à _ compatíveis com fenômeno do roubo da subclávia.
+    label: "Artéria vertebral: Fluxo retrógrado na artéria vertebral à _ compatível com roubo da subclávia"
+    replace: Artéria vertebral à _ com fluxo retrógrado, que pode estar relacionado a estenose significativa na porção proximal da artéria subclávia ipsilateral (roubo da subclávia).
     word: true
 
   - trigger: "dv3"
@@ -7547,53 +7617,58 @@ matches:
     replace: Achados compatíveis com oclusão da artéria vertebral à _.
     word: true
 
+  - trigger: "dv4"
+    label: "Artéria vertebral: Artérias vertebrais normais, com fluxo anterógrado conservado"
+    replace: Artérias vertebrais visualizadas em suas porções proximal (V1) e interapofisária (V2), com fluxo anterógrado de direção cefálica conservado bilateralmente. Ao Doppler, ausência de turbulência espectral e velocidades normais.
+    word: true
+
   - trigger: "ds1"
-    label: "Roubo subclávio completo à _ (achado descritivo)"
-    replace: Artéria vertebral à _ de diâmetro preservado, com reversão completa do sentido de fluxo ao Doppler. O estudo complementar das artérias subclávia e braquial ipsilaterais demonstra fluxo monofásico, com redução de velocidade e aceleração lenta (tardus parvus), inferindo suboclusão a nível proximal.
+    label: "Artéria subclávia: Roubo subclávio completo à _ (achado descritivo)"
+    replace: Artéria vertebral à _ de diâmetro preservado, com reversão completa do sentido de fluxo ao Doppler. O estudo complementar das artérias subclávia e braquial ipsilaterais demonstra fluxo monofásico, com redução de velocidade e aceleração lenta (tardus parvus), sugerindo suboclusão proximal.
     word: true
 
   - trigger: "ds1c"
-    label: "Roubo subclávio completo à _"
+    label: "Artéria subclávia: Roubo subclávio completo à _"
     replace: Achados compatíveis com suboclusão proximal da artéria subclávia à _ (roubo subclávio completo).
     word: true
 
   - trigger: "ds2"
-    label: "Roubo subclávio latente tipo 1 à _ (achado descritivo)"
+    label: "Artéria subclávia: Roubo subclávio latente tipo 1 à _ (achado descritivo)"
     replace: Artéria vertebral à _ de diâmetro preservado, com fluxo apresentando incisura mesossistólica e velocidade de pico na mesossístole superior à velocidade diastólica final.
     word: true
 
   - trigger: "ds2c"
-    label: "Roubo subclávio latente tipo 1 à _"
-    replace: Achados ao Doppler sugestivos de estenose subclávia à _ hemodinamicamente significativa (roubo subclávio latente tipo 1).
+    label: "Artéria subclávia: Roubo subclávio latente tipo 1 à _"
+    replace: Achados ao Doppler sugestivos de estenose hemodinamicamente significativa da artéria subclávia à _ (roubo subclávio latente tipo 1).
     word: true
 
   - trigger: "ds3"
-    label: "Roubo subclávio latente tipo 2 à _ (achado descritivo)"
+    label: "Artéria subclávia: Roubo subclávio latente tipo 2 à _ (achado descritivo)"
     replace: Artéria vertebral à _ de diâmetro preservado, com fluxo apresentando incisura mesossistólica e velocidade de pico na mesossístole igual à velocidade diastólica final.
     word: true
 
   - trigger: "ds3c"
-    label: "Roubo subclávio latente tipo 2 à _"
-    replace: Achados ao Doppler sugestivos de estenose subclávia à _ hemodinamicamente significativa (roubo subclávio latente tipo 2).
+    label: "Artéria subclávia: Roubo subclávio latente tipo 2 à _"
+    replace: Achados ao Doppler sugestivos de estenose hemodinamicamente significativa da artéria subclávia à _ (roubo subclávio latente tipo 2).
     word: true
 
   - trigger: "ds4"
-    label: "Roubo subclávio latente tipo 3 à _ (achado descritivo)"
+    label: "Artéria subclávia: Roubo subclávio latente tipo 3 à _ (achado descritivo)"
     replace: Artéria vertebral à _ de diâmetro preservado, com fluxo apresentando incisura mesossistólica e velocidade de pico na mesossístole inferior à velocidade diastólica final. O estudo complementar da artéria subclávia à _ demonstra estenose hemodinamicamente significativa (~70%) de seu segmento proximal à emergência da vertebral.
     word: true
 
   - trigger: "ds4c"
-    label: "Roubo subclávio latente tipo 3 à _"
+    label: "Artéria subclávia: Roubo subclávio latente tipo 3 à _"
     replace: Achados compatíveis com estenose hemodinamicamente significativa da artéria subclávia à _ (roubo subclávio latente tipo 3).
     word: true
 
   - trigger: "ds5"
-    label: "Roubo subclávio parcial tipo 4 à _ (achado descritivo)"
+    label: "Artéria subclávia: Roubo subclávio parcial tipo 4 à _ (achado descritivo)"
     replace: Artéria vertebral à _ de diâmetro preservado, com fluxo bidirecional ao Doppler, apresentando sístole retrógrada e diástole anterógrada.
     word: true
 
   - trigger: "ds5c"
-    label: "Roubo subclávio parcial tipo 4 à _"
+    label: "Artéria subclávia: Roubo subclávio parcial tipo 4 à _"
     replace: Achados ao Doppler da artéria vertebral compatíveis com fenômeno de roubo subclávio parcial à _ (tipo 4).
     word: true
 
