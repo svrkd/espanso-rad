@@ -1722,7 +1722,7 @@ matches:
       Volume total da glândula tireoide: _ cm³ (normal de 5,0 cm³ a 15,0 cm³).
       Ausência de linfonodomegalia cervical regional.
 
-      Opinião:
+      Conclusão:
       Nódulo hipoecoico no lobo direito da tireoide (TI-RADS 4).
     word: true
 
@@ -2733,7 +2733,7 @@ matches:
       Fígado com dimensões reduzidas à custa do lobo direito, apresentando contornos serrilhados, bordas rombas, fissuras acentuadas e densidade do parênquima finamente heterogênea. Nota-se lesão expansiva, de limites parcialmente definidos, medindo cerca de _ cm, localizada no segmento _, apresentando realce heterogêneo pelo meio de contraste endovenoso.
       Aumento do calibre do sistema venoso esplenoportomesentérico com circulação colateral porto-sistêmica (fundo gástrico, esôfago distal, hilo esplênico e perirretais, bem como recanalização das paraumbilicais) e esplenomegalia homogênea (volume de _ cm³), sinais indiretos de hipertensão portal.
 
-      Impressão:
+      Conclusão:
       Hepatopatia parenquimatosa crônica (aspecto cirrótico), com sinais indiretos de hipertensão portal, acima descritos.
       Lesão expansiva hepática. A possibilidade de neoplasia primária pode ser considerada dentre os diagnósticos diferenciais, especialmente diante de um contexto de marcadores tumorais elevados.
     word: true
@@ -2758,7 +2758,7 @@ matches:
   - trigger: "coind"
     label: "Impressão CO-RADS 3 (indeterminado)"
     replace: |
-      Impressão diagnóstica:
+      Conclusão:
       Achados tomográficos indeterminados para pneumonia viral (CO-RADS 3).
       Demais achados pormenorizados no corpo do laudo.
 
@@ -2792,7 +2792,7 @@ matches:
   - trigger: "conega"
     label: "Impressão CO-RADS 1"
     replace: |
-      Impressão diagnóstica:
+      Conclusão:
       Achados tomográficos não relacionados a pneumonia viral (CO-RADS 1).
       Demais achados pormenorizados no corpo do laudo.
 
@@ -4493,7 +4493,7 @@ matches:
   - trigger: "herniafemoral"
     label: "Hérnia femoral encarcerada com obstrução"
     replace: |
-      Análise:
+      Descrição:
       Hérnia femoral direita com protrusão de conteúdo gorduroso e segmento de alça ileal, determinando estreitamento abrupto de calibre com distensão hidroaérea de alças delgadas e câmara gástrica. Associa-se densificação do tecido adiposo adjacente no saco herniário. Não se observam focos de pneumoperitonio.
     word: true
 
@@ -5562,6 +5562,7 @@ matches:
     label: "Fibroma não ossificante do fêmur"
     replace: |
       Lesão óssea radiolucente com margens escleróticas, medindo _ cm em seu maior eixo, de localização excêntrica na medular do aspecto posterior da metáfise distal do fêmur. Não há rotura cortical, reação periosteal ou componente de partes moles associados.
+
       Conclusão:
       Lesão na metáfise distal do fêmur com sinais de baixa agressividade. A possibilidade de fibroma não ossificante pode ser considerada dentre os diagnósticos diferenciais.
     word: true
@@ -5945,7 +5946,7 @@ matches:
       Espondilose lombar.
       Densificação do tecido adiposo em região perirretal, inespecífica.
 
-      Impressão:
+      Conclusão:
       Fígado apresentando nódulos esparsos pelo parênquima, com realce pelo meio de contraste endovenoso na única fase tardia realizada, inespecíficos no protocolo empregado.
       Ateromatose de vasos intra-abdominais.
       Raros divertículos cólicos esparsos, sem sinais inflamatórios associados.
@@ -6075,7 +6076,7 @@ matches:
       Técnica:
       Cortes tomográficos axiais do abdome, antes e após a injeção do meio de contraste endovenoso, com técnica de enterotomografia.
 
-      Análise:
+      Descrição:
       Segmentos intestinais avaliados com morfologia e distribuição habituais, não se observando áreas de estreitamento ou realce anômalo pelo meio de contraste endovenoso.
       Fígado com dimensões, contornos e densidade normais.
       Não há sinais de dilatação das vias biliares intra e extra-hepáticas.
@@ -6088,7 +6089,7 @@ matches:
       Ausência de líquido livre na cavidade abdominal.
       Bexiga com repleção parcial e conteúdo homogêneo.
 
-      Opinião:
+      Conclusão:
       Segmentos intestinais avaliados com morfologia e distribuição habituais, não se observando áreas de estreitamento ou realce anômalo pelo meio de contraste endovenoso.
       Aumento do número de linfonodos mesentéricos e retroperitoneais, sem caracterizar linfonodomegalias.
     word: true
@@ -6113,7 +6114,7 @@ matches:
       Técnica:
       Realizado estudo por imagens de angiotomografia arterial cervical durante a injeção do meio de contraste endovenoso.
 
-      Análise:
+      Descrição:
       Arco aórtico, tronco braquiocefálico e porções proximais das artérias subclávias com trajeto e calibre preservados.
       Origem habitual dos vasos no arco aórtico.
       Placas de calcificação nos bulbos carotídeos, sem estenose significativa.
@@ -6122,7 +6123,7 @@ matches:
       Artéria basilar de trajeto, calibre e contornos normais.
       Ausência de estenoses hemodinamicamente significativas ou dilatações aneurismáticas.
 
-      Opinião:
+      Conclusão:
       Placas de calcificação nos bulbos carotídeos, sem estenose significativa.
       Hipoplasia do segmento V4 da artéria vertebral esquerda.
     word: true
@@ -6135,7 +6136,7 @@ matches:
       Técnica:
       Realizado estudo por imagens de angiotomografia arterial cervical durante a injeção do meio de contraste endovenoso.
 
-      Análise:
+      Descrição:
       Arco aórtico, tronco braquiocefálico e porções proximais das artérias subclávias com trajeto e calibre preservados.
       Artéria carótida comum esquerda se originando no tronco braquiocefálico (variante da normalidade, achado sem repercussão clínica significativa).
       Artérias carótidas comuns, segmentos cervicais das carótidas interna esquerda e externas de calibre e contornos normais, exibindo opacificação satisfatória pelo meio de contraste endovenoso.
@@ -6143,7 +6144,7 @@ matches:
       Acotovelamento ("kinking") da artéria carótida comum esquerda logo abaixo da entrada no forame carotídeo ipsilateral.
       Segmentos cervicais das artérias vertebrais de trajeto, calibre e contornos normais.
 
-      Opinião:
+      Conclusão:
       Artéria carótida comum esquerda se originando no tronco braquiocefálico (variante da normalidade, achado sem repercussão clínica significativa).
       A despeito do protocolo empregado (técnica subótima com retardo na aquisição das imagens), não se observou opacificação da artéria carótida interna direita em toda a sua extensão pelo meio de contraste endovenoso, sugerindo oclusão.
       Acotovelamento ("kinking") da artéria carótida comum esquerda logo abaixo da entrada no forame carotídeo ipsilateral.
@@ -6224,7 +6225,7 @@ matches:
       Técnica:
       Realizado estudo por imagens de angiotomografia arterial cervical durante a injeção do meio de contraste endovenoso, com reconstruções tridimensionais.
 
-      Análise:
+      Descrição:
       Artéria subclávia direita originando-se após a emergência da artéria subclávia esquerda e apresentando trajeto retroesofágico, onde apresenta placa aterosclerótica parcialmente calcificada com pequena úlcera penetrante (_ cm).
       Arco aórtico com trajeto e calibre preservados.
       Placa ateromatosa calcificada, medindo _ cm, localizada no bulbo carotídeo/emergência da artéria carótida interna direita, determinando estenose acentuada/quase oclusão desse vaso com fluxo filiforme à jusante.
@@ -6232,7 +6233,7 @@ matches:
       Artérias carótidas comuns e segmentos cervicais das carótidas externas de calibre e contornos normais.
       Segmentos cervicais das artérias vertebrais de trajeto, calibre e contornos normais.
 
-      Opinião:
+      Conclusão:
       Artéria subclávia direita originando-se após a emergência da artéria subclávia esquerda e apresentando trajeto retroesofágico, onde apresenta placa aterosclerótica parcialmente calcificada com pequena úlcera penetrante (_ cm).
       Placa ateromatosa calcificada, medindo _ cm, localizada no bulbo carotídeo/emergência da artéria carótida interna direita, determinando estenose acentuada/quase oclusão desse vaso com fluxo filiforme à jusante.
       Placa ateromatosa parcialmente calcificada, medindo _ cm, localizada no bulbo carotídeo/emergência da artéria carótida interna esquerda, determinando estenose de aproximadamente 70% (NASCET).
@@ -6246,7 +6247,7 @@ matches:
       Técnica:
       Realizada aquisição axial por técnica helicoidal multislice durante a injeção do meio de contraste endovenoso, com reconstruções tridimensionais.
 
-      Análise:
+      Descrição:
       Arco aórtico, tronco braquiocefálico e porções proximais das artérias subclávias com trajeto e calibre preservados.
       Origem habitual dos vasos no arco aórtico.
       Ateromatose difusa, notadamente nas regiões de bulbos carotídeos e porções proximais das artérias carótidas internas.
@@ -6256,7 +6257,7 @@ matches:
       Segmentos cervicais das artérias vertebrais de trajeto e contornos normais.
       Ausência de dilatações aneurismáticas.
 
-      Opinião:
+      Conclusão:
     word: true
 
   - trigger: "tep"
@@ -6312,7 +6313,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Ateromatose aortocoronariana.
       Ectasia dos ramos direito (_ cm) e esquerdo (_ cm) da artéria pulmonar, inferindo certo grau de hipertensão pulmonar.
       Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
@@ -6320,7 +6321,7 @@ matches:
       Espaços pleurais virtuais.
       Espondilose torácica.
 
-      Impressão:
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -6354,10 +6355,10 @@ matches:
     replace: |
       ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA TORÁCICA
 
-      Método:
+      Técnica:
       Exame realizado com aquisição multislice, antes e após a injeção intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Aorta torácica tortuosa no seu segmento descendente e de contornos regulares.
       Ramos supra-aórticos com trajeto e calibre preservados.
       Diâmetros máximos:
@@ -6379,7 +6380,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice antes e após a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Aorta torácica e ramos supraórticos com calibre e contornos preservados.
       Arcabouço torácico íntegro.
       Estruturas vasculares mediastinais tópicas.
@@ -6406,10 +6407,11 @@ matches:
     label: "AngioTC de aorta abdominal — normal"
     replace: |
       ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA -------------------
+
       Técnica:
       Imagens obtidas em aparelho multislice com a administração intravenosa de meio de contraste iodado. Foram documentadas reconstruções 3D e multiplanares do leito vascular de interesse (vide filmes adicionais).
 
-      Análise:
+      Descrição:
       ########Segmento proximal dos troncos supra-aórticos pérvios, com anatomia habitual e calibre preservado.
       Aorta ######## pérvia, com trajeto e calibre preservados.
       ####Tronco celíaco, artérias mesentéricas superior e inferior pérvias e com calibre preservado.
@@ -6500,11 +6502,10 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
 
-
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Alterações degenerativas interfacetárias e sacroilíacas.
       Osteofitose marginal lateral nos acetábulos.
@@ -6516,7 +6517,7 @@ matches:
       Planos musculares e tendíneos sem alterações tomográficas.
       Entesopatia difusa.
 
-      Opinião:
+      Conclusão:
     word: true
 
   - trigger: "carotidaemilio"
@@ -6527,7 +6528,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" antes e após a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Origem habitual dos vasos no arco aórtico.
       Angiotomografia com limitação diagnóstica para avaliação do sistema arterial cervical, em decorrência de opacificação vascular inadequada relacionada ao tempo tardio de aquisição das imagens no protocolo realizado.
       Faringe apresentando coeficientes de atenuação preservados.
@@ -6537,7 +6538,7 @@ matches:
       Alterações degenerativas da coluna cervical.
       Tireoide heterogênea, melhor avaliada em estudo dirigido.
 
-      Opinião:
+      Conclusão:
       Angiotomografia com limitação diagnóstica para avaliação do sistema arterial cervical, em decorrência de opacificação vascular inadequada relacionada ao tempo tardio de aquisição das imagens no protocolo realizado.
       Alterações degenerativas da coluna cervical.
       Tireoide heterogênea, melhor avaliada em estudo dirigido.
@@ -6557,7 +6558,8 @@ matches:
       Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
       Contexto clínico:
       Suspeita de pneumonia viral (Covid-19).
-      Análise:
+
+      Descrição:
       Opacidades consolidativas e com atenuação em "vidro fosco" associadas a espessamento septais, esparsas pelos campos pulmonares.
       Raros nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
       Estrias e bandas parenquimatosas pulmonares esparsas.
@@ -6570,7 +6572,8 @@ matches:
       Espondilose torácica.
       Hérnia gástrica hiatal.
       Tireoide heterogênea, melhor avaliada em estudo dirigido.
-      Impressão diagnóstica:
+
+      Conclusão:
       Alterações pulmonares bilaterais de aspecto inflamatório agudo, acometendo de forma moderada de 25 a 50% do parênquima pulmonar. Considerar a possibilidade de pneumonia viral. CO-RADS 5.
     word: true
 
@@ -6582,7 +6585,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Osteofitose marginal nos corpos vertebrais.
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
@@ -6624,7 +6627,7 @@ matches:
       Apêndice cecal visualizado, sem sinais inflamatórios.
       Espondilose lombar.
 
-      Impressão:
+      Conclusão:
       O conjunto de achados acima descritos sugere a possibilidade de doença renal policística autossômica dominante, com envolvimento do parênquima hepático.
       Densificação da cápsula renal esquerda, inespecífica, porém sugestiva de pequeno sangramento presumivelmente oriundo de cisto roto. Os diagnósticos diferenciais devem ser aplicados.
       Calcificações subcapsulares no rim esquerdo, de aspecto residual.
@@ -6640,7 +6643,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica, sem a administração endovenosa de contraste.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Retificação da lordose lombar fisiológica.
       Quadratura dos corpos vertebrais.
@@ -6676,7 +6679,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Coleções hemáticas localizadas nos espaços retropúbico e pré-sacral, bem como na pelve/em torno da bexiga urinária (hematomas).
       Fratura cominutiva do corpo e da asa do ilíaco, bem como do teto e das paredes anterior e posterior do acetábulo à direita.
       Fratura minimamente desalinhada do corpo e da asa do ilíaco à esquerda.
@@ -6701,10 +6704,11 @@ matches:
     label: "TC de bacia S/C — fratura em livro aberto"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
+
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Pequena fratura marginal na asa sacral direita (zona 1 de Denis).
       Fratura marginal lateral das últimas peças sacrais e primeiras vértebras coccígeas direitas com avulsão de fragmentos ósseos.
       Fratura com diástase da articulação sacroilíaca direita.
@@ -6724,21 +6728,25 @@ matches:
     label: "TC de ombro S/C — fratura-luxação (Bankart/Hill-Sachs)"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO OMBRO ESQUERDO S/C
+
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
-      Análise:
+
+      Descrição:
       Fratura cominutiva da cabeça e do tubérculo maior do úmero com diástase dos principais fragmentos ósseos. Associa-se luxação anterior e inferior da cabeça do úmero.
       Fratura da porção anteroinferior da glenóide (lesão de Bankart).
       Derrame articular glenoumeral com conteúdo hemático.
       Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
       Aumento do espaço articular acromioclavicular sugerindo lesão/luxação.
       Tendões e ligamentos de avaliação limitada nesse estudo.
+
       Conclusão:
       Fratura cominutiva da cabeça e do tubérculo maior do úmero com diástase dos principais fragmentos ósseos. Associa-se luxação anterior e inferior da cabeça do úmero.
       Fratura da porção anteroinferior da glenóide (lesão de Bankart).
       Derrame articular glenoumeral com conteúdo hemático.
       Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
       Aumento do espaço articular acromioclavicular sugerindo lesão/luxação.
+
       Nota:
       Enfisema centrolobular e parasseptal no campo pulmonar esquerdo.
       Opacidades com atenuação em "vidro fosco" esparsas pelo campo pulmonar esquerdo. Esse conjunto de achados, diante do contexto, sugere a possibilidade de contusões pulmonares. Correlacionar com dados clínicos.
@@ -6752,7 +6760,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Fratura cominutiva dos maléolos medial e lateral da tíbia, com extensão intra-articular e diástase dos principais fragmentos ósseos.
       Fratura cominutiva/em espiral metadiafisária distal da fíbula, com diástase dos principais fragmentos ósseos.
       Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
@@ -6777,7 +6785,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Fratura cominutiva do aspecto posterior e do maléolo medial da tíbia distal, com extensão intra-articular.
       Fratura cominutiva da fíbula distal.
       Derrame articular.
@@ -6803,7 +6811,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Fratura cominutiva multifragmentar da extremidade distal do rádio, com extensão intrarticular e diástase dos principais fragmentos ósseos.
       Fratura com avulsão do processo estiloide da ulna.
       Fratura oblíqua completa da diáfise média do terceiro e quarto metacarpos.
@@ -6826,16 +6834,16 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO JOELHO ESQUERDO S/C
 
-
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Fratura cominutiva multifragmentar metaepifisária nos planaltos medial e, notadamente, lateral da tíbia onde há afundamento significativo (_ cm).
       Fratura não desalinhada do aspecto posterior da cabeça da fíbula.
       Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
       Derrame articular (lipo-hemartrose).
       Meniscos, ligamentos e cartilagens de avaliação limitada.
+
       Conclusão:
       Fratura da tíbia e fíbula, acima descritas.
     word: true
@@ -6844,9 +6852,11 @@ matches:
     label: "TC de ombro direito S/C — fratura do úmero proximal"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO S/C
+
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
-      Análise:
+
+      Descrição:
       Fratura cominutiva da cabeça e do colo do úmero com diástase dos principais fragmentos ósseos.
       Sinais de fratura da porção anteroinferior da glenóide (lesão de Bankart).
       Derrame articular glenoumeral.
@@ -6854,6 +6864,7 @@ matches:
       Sinais de osteoartrose glenoumeral e acromioclavicular.
       Espaço articular glenoumeral reduzido com indefinição das fibras do tendão supraespinhal podendo representar rotura.
       Demais tendões e ligamentos de avaliação limitada nesse estudo.
+
       Conclusão:
       Fratura cominutiva da cabeça e do colo do úmero com diástase dos principais fragmentos ósseos.
       Sinais de fratura da porção anteroinferior da glenóide (lesão de Bankart).
@@ -6881,7 +6892,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Leve aumento do espaço liquórico nas regiões frontoparietais. Associa-se discreto abaulamento da fontanela anterior. A possibilidade de hidrocefalia externa benigna pode ser considerada.
       Persistência dos cavuns do septo pelúcido e vergae.
       Sulcos e cisternas encefálicas normais.
@@ -6892,7 +6903,7 @@ matches:
       Ausência de calcificações patológicas.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Leve aumento do espaço liquórico nas regiões frontoparietais. Associa-se discreto abaulamento da fontanela anterior. A possibilidade de hidrocefalia externa benigna pode ser considerada.
       Persistência dos cavuns do septo pelúcido e vergae.
     word: true
@@ -6905,7 +6916,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Fratura de morfologia cuneiforme no aspecto posterolateral da cabeça umeral, com fragmento ósseo destacado posteriormente, sugerindo lesão de Hill-Sachs. Associa-se fratura cominutiva no aspecto anterior e inferior da glenoide (lesão de Bankart).
       Aumento de volume e densificação de planos mioadiposos adjacentes ao sítio de fratura sugerindo edema/hematoma.
       Hipertrofia osteocapsular acromioclavicular.
@@ -6927,7 +6938,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Luxação inferior e posterior da cabeça umeral, a qual encontra-se impactada sob a glenoide.
       Fratura de morfologia cuneiforme no aspecto posterolateral da cabeça umeral, sugerindo lesão de Hill-Sachs.
       Derrame articular glenoumeral.
@@ -6951,7 +6962,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
 
-      Análise:
+      Descrição:
       Acentuação dos sulcos e cisternas encefálicas, associada a dilatação desproporcional do sistema ventricular supratentorial com sinais discretos de transudação ependimária. As fissuras sylvianas encontram-se alargadas e os sulcos corticais apagados na alta convexidade.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
       Imagens ovaladas cálcicas localizadas nos hemisférios cerebrais (granulomas calcificados).
@@ -6963,7 +6974,7 @@ matches:
       Ausência de coleções hemorrágicas intra ou extra-axiais.
       Sinais de mastoidopatia crônica à direita.
 
-      Opinião:
+      Conclusão:
       Acentuação dos sulcos e cisternas encefálicas, associada a dilatação desproporcional do sistema ventricular supratentorial com sinais discretos de transudação ependimária. As fissuras sylvianas encontram-se alargadas e os sulcos corticais apagados na alta convexidade. Considerar a possibilidade de hidrocefalia de pressão normal.
       Imagens ovaladas cálcicas localizadas nos hemisférios cerebrais (granulomas calcificados).
       Microangiopatia/gliose.
@@ -6995,7 +7006,7 @@ matches:
       Bexiga com repleção parcial e conteúdo homogêneo.
       Apêndice cecal visualizado, sem sinais inflamatórios.
 
-      Impressão:
+      Conclusão:
       Drenagem direta das veias hepáticas para o átrio direito.
       Poliesplenia.
       Interrupção infra-hepática da veia cava inferior, logo após receber as veias renais, com continuação na veia ázigos.
@@ -7008,10 +7019,11 @@ matches:
     label: "TC de ombro direito S/C — Hill-Sachs e Bankart"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO S/C
+
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Irregularidade cortical no aspecto posterolateral no topo da cabeça umeral, sugerindo fratura compressiva de Hill-Sachs.
       Fratura no aspecto anteroinferior do labio glenoidal compatível com lesão de Bankart.
       Demais estruturas ósseas de forma conservada, sem sinais de fraturas.
@@ -7036,7 +7048,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
 
-      Análise:
+      Descrição:
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária.
       Sistema ventricular com dimensões normais.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
@@ -7047,7 +7059,7 @@ matches:
       Ateromatose das carótidas internas e vertebrais.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
       Ateromatose de base de crânio.
@@ -7061,7 +7073,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" após a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Arco aórtico, tronco braquiocefálico e porções proximais das artérias subclávias com trajeto e calibre preservados.
       Origem habitual dos vasos no arco aórtico.
       Artérias carótidas comuns, segmentos cervicais das carótidas internas e externas de calibre e contornos normais.
@@ -7074,7 +7086,7 @@ matches:
       Glândula tireoide sem particularidades.
       Alterações degenerativas da coluna cervical.
 
-      Impressão:
+      Conclusão:
       Placas ateromatosas calcificadas nos bulbos carotídeos e na origem das artérias carótidas internas que não determinam estenose significativa.
       Alterações degenerativas da coluna cervical.
     word: true
@@ -7087,7 +7099,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Sonda nasal.
       Cânula traqueal.
       Extensas áreas de hipoatenuação acometendo a substância branca profunda e corticossubcortical acometendo todas as regiões cerebrais, mesencéfalo e hemisfério cerebelar esquerdo, com consequente hiperatenuação do cerebelo em relação ao parênquima cerebral (sinal de reversão). Associa-se edema de padrão citotóxico difuso, com apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta, bem como redução do volume do sistema ventricular.
@@ -7096,7 +7108,7 @@ matches:
       Ausência de calcificações patológicas.
       Material com atenuação de partes moles no interior dos seios paranasais.
 
-      Opinião:
+      Conclusão:
       Sonda nasal.
       Cânula traqueal.
       Extensas áreas de hipoatenuação acometendo a substância branca profunda e corticossubcortical acometendo todas as regiões cerebrais, mesencéfalo e hemisfério cerebelar esquerdo, com consequente hiperatenuação do cerebelo em relação ao parênquima cerebral (sinal de reversão). Associa-se edema de padrão citotóxico difuso, com apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta, bem como redução do volume do sistema ventricular.
@@ -7112,14 +7124,14 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Sonda nasal.
       Cânula traqueal.
       Hipoatenuação difusa do parênquima cerebral, bem como do tronco e do cerebelo, com apagamento dos sulcos entre os giros corticais e das cisternas basais, perda da diferenciação das substâncias branca/cinzenta e colabamento do sistema ventricular.
       Estruturas da linha mediana sem desvios significativos.
       Ausência de calcificações patológicas.
 
-      Opinião:
+      Conclusão:
       Sonda nasal.
       Cânula traqueal.
       Hipoatenuação difusa do parênquima cerebral, bem como do tronco e do cerebelo, com apagamento dos sulcos entre os giros corticais e das cisternas basais, perda da diferenciação das substâncias branca/cinzenta e colabamento do sistema ventricular, sugerindo edema/alterações isquêmicas.
@@ -7133,13 +7145,13 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Sonda nasal.
       Hipoatenuação difusa do parênquima cerebral, bem como do tronco e do cerebelo, com apagamento dos sulcos entre os giros corticais e das cisternas basais, perda da diferenciação das substâncias branca/cinzenta e colabamento do sistema ventricular, achados inespecíficos, presumivelmente relacionados a edema cerebral e/ou lesões de natureza hipóxico-isquêmica.
       Estruturas da linha mediana sem desvios significativos.
       Ausência de calcificações patológicas.
 
-      Opinião:
+      Conclusão:
       Sonda nasal.
       Hipoatenuação difusa do parênquima cerebral, bem como do tronco e do cerebelo, com apagamento dos sulcos entre os giros corticais e das cisternas basais, perda da diferenciação das substâncias branca/cinzenta e colabamento do sistema ventricular, achados inespecíficos, presumivelmente relacionados a edema cerebral e/ou lesões de natureza hipóxico-isquêmica.
     word: true
@@ -7152,7 +7164,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Cânula traqueal.
       Sonda nasal.
       Redução difusa da densidade do parênquima encefálico, com perda da diferenciação entre as substâncias branca e cinzenta, apagamento dos sulcos corticais e cisternas basais e redução volumétrica/colabamento do sistema ventricular supratentorial, achados presumivelmente relacionados a edema/alterações hipóxico-isquêmicas.
@@ -7161,7 +7173,7 @@ matches:
       Ausência de calcificações patológicas.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Cânula traqueal.
       Sonda nasal.
       Redução difusa da densidade do parênquima encefálico, com perda da diferenciação entre as substâncias branca e cinzenta, apagamento dos sulcos corticais e cisternas basais e redução volumétrica/colabamento do sistema ventricular supratentorial, achados presumivelmente relacionados a edema/alterações hipóxico-isquêmicas.
@@ -7175,7 +7187,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" após a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Tênue ateromatose é identificada nos bulbos carotídeos e segmentos proximais das artérias carótidas internas e externas.
       Artérias carótidas comuns, internas e externas com calibre preservado, sem estenoses significativas.
       Artérias vertebrais e basilar com calibre preservado, exibindo opacificação satisfatória pelo meio de contraste endovenoso.
@@ -7187,7 +7199,7 @@ matches:
       Aumento do número de linfonodos cervicais, sem caracterizar linfonodomegalias.
       Alterações degenerativas da coluna cervical.
 
-      Opinião:
+      Conclusão:
       Tênue ateromatose é identificada nos bulbos carotídeos e segmentos proximais das artérias carótidas internas e externas.
       Aumento do número de linfonodos cervicais, sem caracterizar linfonodomegalias.
       Alterações degenerativas da coluna cervical.
@@ -7206,7 +7218,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Esclerose óssea dos ilíacos junto à articulação com o sacro. A possibilidade de osteíte condensante pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
       Forames sacrais livres.
@@ -7225,7 +7237,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Placa e parafusos metálicos fixando fratura na tíbia.
       Fraturas não consolidadas nas diáfises médias da tíbia e fíbula (pseudoartrose).
       Lesões osteolíticas no sítio de fratura da tíbia promovendo perda do padrão habitual do trabeculado da medular óssea, bem como espessamento cortical e periosteal, sinais de osteomielite crônica com formação de sequestro ósseo e cloaca. Associam-se coleções com densidade de partes moles e focos gasosos de permeio no sítio de fratura sugerindo abscesso(s), estendendo-se para a musculatura adjacente e aparentemente exteriorizando-se em lesão ulcerada cutânea na face anterior da perna.
@@ -7250,7 +7262,7 @@ matches:
       Técnica:
       Imagens volumétricas obtidas com a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Aumento volumétrico difuso do pâncreas, notadamente na porção da cabeça e processo uncinado, com densificação do tecido adiposo perivisceral, lâminas líquidas de permeio e aumento do número de linfonodos regionais. Associam-se duas coleções em organização peripancreáticas, uma junto à cabeça, medindo _ cm, com volume de _ cm³, e outra junto à cauda pancreática e pequena curvatura gástrica, medindo _ cm, com volume _ cm³.
       Pequena quantidade de líquido livre na cavidade pélvica.
       Fígado com dimensões normais, contornos regulares e atenuação preservada.
@@ -7268,7 +7280,6 @@ matches:
       Espondilose lombossacra.
       Pequeno derrame pleural bilateral associado a atelectasia/consolidação do parênquima pulmonar adjacente.
 
-
       Conclusão:
       Aumento volumétrico difuso do pâncreas, notadamente na porção da cabeça e processo uncinado, com densificação do tecido adiposo perivisceral, lâminas líquidas de permeio e aumento do número de linfonodos regionais. Associam-se duas coleções em organização peripancreáticas. A possibilidade de pancreatite exsudativa aguda pode ser considerada dentre os diagnósticos diferenciais (Balthazar E).
     word: true
@@ -7281,15 +7292,14 @@ matches:
       Técnica:
       Foi feito estudo volumétrico-multislice do pé esquerdo, com uso de meio de contraste endovenoso.
 
-
-      Análise:
+      Descrição:
       Lesões líticas localizadas na cabeça do segundo metatarso sugerindo osteomielite.
       Aumento volumétrico e densificação de planos subcutâneos e mioadiposos em torno terceiro e quarto pododáctilos, bem como das cabeças segundo, terceiro e quarto metatarsos sugerindo edema/celulite e fleimão. Observam-se coleções com gás de permeio e realce periférico pelo meio de contraste endovenoso, localizadas dorsalmente ao segundo e terceiro metatarsos, compatíveis com abscessos, exteriorizando-se na pele através de feridas ulceradas.
       Amputação do 2º pododáctilo esquerdo.
       Entesófitos nos aspectos plantar e posterior do calcâneo.
       Discreta hipotrofia/lipossubstituição da musculatura do pé e tornozelo direitos que podem estar associadas a desuso e/ou alterações neuropáticas.
 
-      Opinião:
+      Conclusão:
       Lesões líticas localizadas na cabeça do segundo metatarso sugerindo osteomielite.
       Aumento volumétrico e densificação de planos subcutâneos e mioadiposos em torno terceiro e quarto pododáctilos, bem como das cabeças segundo, terceiro e quarto metatarsos sugerindo edema/celulite e fleimão. Observam-se coleções com gás de permeio e realce periférico pelo meio de contraste endovenoso, localizadas dorsalmente ao segundo e terceiro metatarsos, compatíveis com abscessos, exteriorizando-se na pele através de feridas ulceradas.
       Amputação do 2º pododáctilo esquerdo.
@@ -7305,14 +7315,14 @@ matches:
       Técnica:
       Foi feito estudo volumétrico-multislice do pé direito, com fase antes e após administração do contraste endovenoso.
 
-      Análise:
+      Descrição:
       Lesões líticas promovendo destruição/reabsorção das falanges proximal e distal do quinto pododáctilo, bem como da falange proximal do quarto pododáctilo. Há rarefação óssea da cabeça do quinto metatarso. Associa-se aumento volumétrico de partes moles adjacentes e coleção hidroaérea com realce periférico pelo meio de contraste endovenoso dissecando planos mioadiposos e subcutâneos plantares nesse nível. A possibilidade de osteomielite aguda complicada com fleimão/abscesso deve ser considerada.
       Espessamento e densificação de pele e tecido subcutâneo do pé sugerindo edema/celulite, com lesões ulceradas na superfícies dorsal e plantar.
       Hipotrofia/lipossubstituição parcial da musculatura do pé presumivelmente relacionada à alteração neuropática promovida pela doença de base.
       Entesófitos plantar e posterior do calcâneo.
       Ateromatose de vasos do tornozelo e pé.
 
-      Opinião:
+      Conclusão:
       Lesões líticas promovendo destruição/reabsorção das falanges proximal e distal do quinto pododáctilo, bem como da falange proximal do quarto pododáctilo. Há rarefação óssea da cabeça do quinto metatarso. Associa-se aumento volumétrico de partes moles adjacentes e coleção hidroaérea com realce periférico pelo meio de contraste endovenoso dissecando planos mioadiposos e subcutâneos plantares nesse nível. A possibilidade de osteomielite aguda complicada com fleimão/abscesso deve ser considerada.
       Espessamento e densificação de pele e tecido subcutâneo do pé sugerindo edema/celulite, com lesões ulceradas na superfícies dorsal e plantar.
       Hipotrofia/lipossubstituição parcial da musculatura do pé presumivelmente relacionada à alteração neuropática promovida pela doença de base.
@@ -7324,7 +7334,6 @@ matches:
     label: "TC de pé direito — pé diabético com osteomielite crônica"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DE PÉ DIREITO S/C
-
 
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
@@ -7342,7 +7351,7 @@ matches:
       Entesofitose posterior do calcâneo.
       Ateromatose de vasos do pé.
 
-      Opinião:
+      Conclusão:
       Solução de continuidade de partes moles sob os metatarsos.
       Lesões osteolíticas promovendo alteração do padrão habitual da medular óssea/reabsorção parcial do cuneiforme medial e da base do primeiro metatarso, acompanhadas de aumento volumétrico e densificação de partes moles adjacentes, bem como pequenas coleções aéreas de permeio. Há amputação de parte do primeiro metatarso. A possibilidade de osteomielite em atividade complicada com fleimão/abscessos em organização pode ser considerada dentre os diagnósticos diferenciais.
       Destruição/reabsorção parcial do segundo, terceiro e quarto metatarsos, bem como da base da falange proximal do segundo dedo, com espessamento cortical e reação periosteal, achados sugestivos de osteomielite crônica.
@@ -7360,10 +7369,11 @@ matches:
     label: "TC de pé direito — osteomielite extensa multiossos"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO PÉ DIREITO S/C
+
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Deformidade, alteração do padrão habital do trabeculado da medular óssea, erosões/reabsorções teciduais e irregularidades corticais no calcâneo, tálus, navicular, cuboide, cuneiformes, bem como nas bases dos metatarsos e nas extremidades distais da tíbia e da fíbula. Tais achados sugerem a possibilidade de osteomielite.
       Amputação do terceiro dedo na altura da diáfise proximal do respectivo metatarso.
       Formações teciduais, com densidade de partes moles, por vezes com pequenas coleções gasosas de permeio, localizadas entre os ossos do mediopé e do retropé, bem como envolvendo de forma circunferencial o tornozelo, sugerindo celulite/fleimão.
@@ -7387,7 +7397,7 @@ matches:
       Técnica:
       Foi feito estudo volumétrico-multislice do pé direito, somente na fase sem uso de contraste endovenoso.
 
-      Análise:
+      Descrição:
       Aumento volumétrico de planos mioadiposos do antepé, observando-se coleções hipodensas, de limites pouco definidos, com gás de permeio, dissecando partes moles em torno das falanges do terceiro dedo, sugerindo fleimão/abscesso. Notam-se trajetos fistulosos entre essas coleções e lesões cutâneas ulceradas nas faces dorsal e plantar do antepé.
       Coleção gasosa intramedular na falange proximal do terceiro dedo indicando processo inflamatório/infeccioso (osteomielite).
       Fratura/fragmentação da falange proximal do hálux com perda do padrão habitual da medular óssea e reação periosteal. Tais achados, embora inespecíficos, podem representar osteomielite crônica.
@@ -7396,7 +7406,7 @@ matches:
       Ateromatose de vasos regionais.
       Espessamento difuso de pele e tecido celular subcutâneo sugerindo representar edema/celulite. Correlacionar com dados clínicos e laboratoriais.
 
-      Opinião:
+      Conclusão:
       Aumento volumétrico de planos mioadiposos do antepé, observando-se coleções hipodensas, de limites pouco definidos, com gás de permeio, dissecando partes moles em torno das falanges do terceiro dedo, sugerindo fleimão/abscesso. Notam-se trajetos fistulosos entre essas coleções e lesões cutâneas ulceradas nas faces dorsal e plantar do antepé.
       Coleção gasosa intramedular na falange proximal do terceiro dedo indicando processo inflamatório/infeccioso (osteomielite).
       Fratura/fragmentação da falange proximal do hálux com perda do padrão habitual da medular óssea e reação periosteal. Tais achados, embora inespecíficos, podem representar osteomielite crônica.
@@ -7410,14 +7420,17 @@ matches:
     label: "TC de seios paranasais — polipose nasossinusal"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DE SEIOS PARANASAIS S/C
+
       Técnica:
       Imagens adquiridas por aquisição volumétrica "multislice" sem administração venosa do meio de contraste iodado.
-      Análise:
+
+      Descrição:
       Material com densidade de partes moles no interior da cavidade nasal e das células etmoidais, seios maxilares, esfenoidais e frontal direito, obliterando os respectivos óstios de drenagem. Há relativo adelgaçamento das respectivas paredes ósseas.
       Cisto de retenção/pólipo no seio frontal esquerdo.
       Desvio de septo ósseo nasal para a esquerda, com esporão ósseo associado.
       Rinofaringe de contornos regulares.
-      Impressão:
+
+      Conclusão:
       Material com densidade de partes moles no interior da cavidade nasal e das células etmoidais, seios maxilares, esfenoidais e frontal direito, obliterando os respectivos óstios de drenagem. Há relativo adelgaçamento das respectivas paredes ósseas. A possibilidade de polipose nasossinusal pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
       Cisto de retenção/pólipo no seio frontal esquerdo.
       Desvio de septo ósseo nasal para a esquerda, com esporão ósseo associado.
@@ -7431,13 +7444,13 @@ matches:
       Técnica:
       Imagens adquiridas por aquisição volumétrica "multislice" sem administração venosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Septo nasal centrado.
       Fóveas etmoidais simétricas.
       Material com atenuação de partes moles em seios frontais, maxilares, etmoidais e esfenoidais, por vezes de aspecto polipoide, obliterando os respectivos óstios de drenagem e os meatos nasais superiores e médios. Há alargamento dos infundíbulos, notando-se hiperatenuação relativa do conteúdo do seio maxilar esquerdo. A possibilidade de polipose nasossinusal pode ser considerada, entretanto, os diagnósticos diferenciais devem ser aplicados, sendo recomendado prosseguir investigação diagnóstica.
       Rinofaringe de contornos regulares.
 
-      Impressão:
+      Conclusão:
       Material com atenuação de partes moles em seios frontais, maxilares, etmoidais e esfenoidais, por vezes de aspecto polipoide, obliterando os respectivos óstios de drenagem e os meatos nasais superiores e médios. Há alargamento dos infundíbulos, notando-se hiperatenuação relativa do conteúdo do seio maxilar esquerdo. A possibilidade de polipose nasossinusal pode ser considerada, entretanto, os diagnósticos diferenciais devem ser aplicados, sendo recomendado prosseguir investigação diagnóstica.
     word: true
 
@@ -7450,7 +7463,8 @@ matches:
       Exame realizado em aparelho de tomografia computadorizada, com colimação, filtros e reconstruções específicas para o segmento de interesse, sem a administração endovenosa do meio de contraste.
       Contexto clínico:
       Controle de pneumonia viral (Covid-19), segundo informações colhidas.
-      Análise:
+
+      Descrição:
       Tênues opacidades em "vidro fosco" isoladas em ambos os pulmões, com predomínio nas regiões periféricas.
       Traqueia e brônquios fontes com diâmetros normais.
       Aorta e artérias pulmonares de topografia e calibres normais.
@@ -7458,7 +7472,8 @@ matches:
       Área cardíaca normal, sem sinais de derrame pericárdico.
       Ausência de derrame pleural.
       Transição toracoabdominal sem alterações significativas.
-      Impressão diagnóstica:
+
+      Conclusão:
       Discretas alterações pulmonares bilaterais de aspecto inflamatório, acometendo de forma leve até 25% do parênquima pulmonar. Considerar a possibilidade dos achados estarem relacionados a pneumonia viral.
     word: true
 
@@ -7562,7 +7577,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Lesões hipodensas, corticossubcorticais, comprometendo de forma relativamente simétrica parte dos lobos parietais e occipitais.
       Tronco cerebral e cerebelo de aspecto conservado.
       Sistema ventricular com morfologia e dimensões normais.
@@ -7570,7 +7585,7 @@ matches:
       Ausência de calcificações patológicas.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Lesões hipodensas, corticossubcorticais, comprometendo de forma relativamente simétrica parte dos lobos parietais e occipitais. O conjunto de achados pode estar relacionado a síndrome da encefalopatia reversível posterior. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
     word: true
 
@@ -7582,7 +7597,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Prótese articular femorotibial bem articulada, sem sinais de soltura.
       Artefatos de endurecimento de feixe de raio-x promovidos pela prótese articular, prejudicando a avaliação de estruturas adjacentes.
       Osteofitose marginal no fêmur e no dorso da patela.
@@ -7604,7 +7619,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Craniectomia occipital.
       Coleção com densidade próxima à do liquor localizada em partes moles extracranianas da região suboccipital, em trajeto de abordagem cirúrgica, aparentemente comunicando-se com as membranas meníngeas e o tecido encefálico. As possibilidades de pseudomeningocele ou abscesso podem ser consideradas, diante do contexto clínico. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
       Lesão com densidade próxima à do liquor localizada na porção posteroinferior mediana do cerebelo, presumivelmente relacionada ao leito cirúrgico. Não dispomos de exames anteriores no momento para comparação.
@@ -7615,7 +7630,7 @@ matches:
       Estruturas da linha mediana sem desvios significativos.
       Ausência de calcificações patológicas.
 
-      Opinião:
+      Conclusão:
       Craniectomia occipital.
       Coleção com densidade próxima à do liquor localizada em partes moles extracranianas da região suboccipital, em trajeto de abordagem cirúrgica, aparentemente comunicando-se com as membranas meníngeas e o tecido encefálico. As possibilidades de pseudomeningocele ou abscesso podem ser consideradas, diante do contexto clínico. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
       Lesão com densidade próxima à do liquor localizada na porção posteroinferior mediana do cerebelo, presumivelmente relacionada ao leito cirúrgico. Não dispomos de exames anteriores no momento para comparação.
@@ -7633,7 +7648,7 @@ matches:
       Contexto clínico:
       Suspeita de pneumonia viral (Covid-19). Paciente usuário de crack há 15 anos.
 
-      Análise:
+      Descrição:
       Angiotomografia negativa para tromboembolismo pulmonar agudo em ramos principais da artéria pulmonar, não sendo possível avaliar ramos periféricos devido à contrastação inadequada no protocolo realizado (tempo de aquisição).
       Opacidades com atenuação em "vidro fosco" e consolidativas acompanhadas de nódulos centrolobulares, por vezes assumindo aspecto de "árvore em brotamento" esparsos em ambos os pulmões, com predomínio central/peri-hilar e no lobo inferior esquerdo, inespecíficos, podendo-se admitir, dentro do contexto clínico do paciente, as possibilidades de embolia gordurosa, processo inflamatório/infeccioso com componente aspirativo e/ou edema intersticial pulmonar agudo ("pulmão de crack"). Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
       Enfisema centrolobular e parasseptal notadamente nos campos pulmonares superiores.
@@ -7646,7 +7661,7 @@ matches:
       Deformidade de T7, T8 e T9 (hemivértebras?), com desvio escoliótico da coluna torácica para a direita.
       Espondilose torácica.
 
-      Impressão diagnóstica:
+      Conclusão:
       Angiotomografia negativa para tromboembolismo pulmonar agudo em ramos principais da artéria pulmonar, não sendo possível avaliar ramos periféricos devido à contrastação inadequada no protocolo realizado (tempo de aquisição).
       Opacidades com atenuação em "vidro fosco" e consolidativas acompanhadas de nódulos centrolobulares, por vezes assumindo aspecto de "árvore em brotamento" esparsos em ambos os pulmões, com predomínio central/peri-hilar e no lobo inferior esquerdo, inespecíficos, podendo-se admitir, dentro do contexto clínico do paciente, as possibilidades de embolia gordurosa, processo inflamatório/infeccioso com componente aspirativo e/ou edema intersticial pulmonar agudo ("pulmão de crack"). Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
       Achados tomográficos indeterminados para pneumonia viral (CO-RADS 3).
@@ -7661,7 +7676,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Alterações degenerativas da sacroilíaca direita e da sínfise púbica.
       Osteofitose marginal lateral acetabular.
       Demais estruturas ósseas de forma conservada, sem sinais de fraturas.
@@ -7686,7 +7701,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
 
-      Análise:
+      Descrição:
       Áreas com coeficiente de atenuação semelhante ao líquor localizadas nos lobos frontal e occipital direitos (encefalomalácia / gliose).
       Lesões de aspecto lacunar crônico nos núcleos da base e tálamo bilateralmente, bem como na ponte.
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
@@ -7698,7 +7713,7 @@ matches:
       Ausência de coleções hemorrágicas intra ou extra-axiais.
       Sinais de otite média crônica à esquerda.
 
-      Opinião:
+      Conclusão:
       Áreas com coeficiente de atenuação semelhante ao líquor localizadas nos lobos frontal e occipital direitos (encefalomalácia / gliose).
       Lesões de aspecto lacunar crônico nos núcleos da base, bilateralmente e na ponte.
       Sinais de redução volumétrica encefálica difusa.
@@ -7750,10 +7765,10 @@ matches:
       Técnica:
       Cortes tomográficos axiais, sem a injeção do meio de contraste endovenoso.
 
-      Análise:
+      Descrição:
       Exame realizado para simulação de planejamento radioterápico.
 
-      Opinião:
+      Conclusão:
       Exame realizado para simulação de planejamento radioterápico.
     word: true
 
@@ -7770,7 +7785,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
       Forames sacrais livres.
@@ -7786,11 +7801,10 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO JOELHO DIREITO S/C
 
-
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Fratura metadiafisária transversa da tíbia associada a fratura cominutiva nos planaltos medial e, notadamente, lateral da tíbia onde há afundamento significativo de _ cm (Schatzker VI).
       Aumento de volume e densificação de planos mioadiposos e subcutâneos adjacentes aos sítios de fratura sugerindo edema/hematoma.
       Derrame articular (lipo-hemartrose), com fragmentos ósseos e gás intra-articulares.
@@ -7812,7 +7826,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Acentuação da cifose torácica.
       Acunhamento anterior dos corpos vertebrais de T8 a T11.
       Nódulos de Schmorl em corpos vertebrais.
@@ -7832,9 +7846,11 @@ matches:
     label: "TC de abdome — situs inversus totalis"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DE ABDOME TOTAL S/C
+
       Técnica:
       Exame realizado em aparelho multislice, com aquisição de imagens helicoidais do abdome e pelve, sem administração intravenosa de contraste iodado, com reconstruções multiplanares.
-      Achados:
+
+      Descrição:
       "Situs inversus totalis", caracterizado por disposição em imagem especular das vísceras abdominais, com fígado localizado predominantemente no hipocôndrio esquerdo e baço no hipocôndrio direito.
       Fígado com dimensões preservadas, contornos regulares e atenuação homogênea.
       Vesícula biliar tópica em hipocôndrio esquerdo, de paredes finas, sem cálculos ou sinais inflamatórios. Vias biliares sem dilatação.
@@ -7876,7 +7892,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
 
-      Análise:
+      Descrição:
       Lesões de aspecto lacunar crônico em núcleos da base bilateralmente.
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
@@ -7887,7 +7903,7 @@ matches:
       Ateromatose das carótidas internas e vertebrais.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Lesões de aspecto lacunar crônico em núcleos da base bilateralmente.
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
@@ -7902,7 +7918,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
 
-      Análise:
+      Descrição:
       Lesões de aspecto lacunar crônico em núcleos da base e tálamo, bilateralmente.
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
@@ -7913,7 +7929,7 @@ matches:
       Ateromatose das carótidas internas e vertebrais.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Lesões de aspecto lacunar crônico em núcleos da base e tálamo, bilateralmente.
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
@@ -7928,7 +7944,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
 
-      Análise:
+      Descrição:
       Lesões de aspecto lacunar crônico em núcleos da base e tálamo, bilateralmente, bem como nos centros semiovais.
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
@@ -7939,7 +7955,7 @@ matches:
       Ateromatose das carótidas internas e vertebrais.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Lesões de aspecto lacunar crônico em núcleos da base e tálamo, bilateralmente, bem como nos centros semiovais.
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
@@ -7954,7 +7970,7 @@ matches:
       Técnica:
       Imagens obtidas em aparelho multislice com a administração intravenosa de meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Fígado com dimensões normais, contornos regulares e atenuação preservada.
       Veias porta e hepáticas pérvias.
       Ausência de dilatação das vias biliares.
@@ -7977,7 +7993,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Osteofitose marginal nos corpos vertebrais
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
@@ -8000,7 +8016,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas, apresentando pequenos osteófitos marginais.
       Nódulo de Schmorl no planalto inferior de T11.
@@ -8010,7 +8026,7 @@ matches:
       Diâmetros do canal vertebral e forames de conjugação normais.
       Musculatura paravertebral preservada.
 
-      Impressão:
+      Conclusão:
       Alterações degenerativas da coluna torácica.
     word: true
 
@@ -8019,10 +8035,10 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO ????????? S/C
 
-      Análise:
+      Descrição:
       Exame realizado para simulação de planejamento radioterápico.
 
-      Opinião:
+      Conclusão:
       Exame realizado para simulação de planejamento radioterápico.
     word: true
 
@@ -8031,10 +8047,10 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO ABDOME INFERIOR S/C
 
-      Análise:
+      Descrição:
       Exame realizado para simulação de planejamento radioterápico.
 
-      Opinião:
+      Conclusão:
       Exame realizado para simulação de planejamento radioterápico.
     word: true
 
@@ -8046,7 +8062,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Sulcos e cisternas encefálicas normais.
       Parênquima cerebral com morfologia e coeficientes de atenuação normais.
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -8055,7 +8071,7 @@ matches:
       Ateromatose de vasos intracranianos.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Ateromatose de vasos intracranianos.
     word: true
 
@@ -8067,7 +8083,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Alterações degenerativas sacroilíacas e da sínfise púbica.
       Cistos subcorticais, de aspecto degenerativo, nas margens acetabulares.
       Entesopatia difusa.
@@ -8093,7 +8109,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" sem a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Material com atenuação de partes moles nas caixas timpânicas e mastoides.
       Aumento volumétrico de partes moles extracranianas em região retroauricular direita.
       Cadeias ossiculares sem alterações.
@@ -8101,7 +8117,7 @@ matches:
       Canais dos nervos faciais preservados.
       Material com atenuação de partes moles em seios paranasais.
 
-      Impressão:
+      Conclusão:
       Sinais de otomastoidopatia inflamatória/infecciosa aguda bilateral, possivelmente complicada com infecção/abscesso de partes moles em organização retroauricular à direita. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
@@ -8128,7 +8144,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, antes e após a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de forma conservada, sem sinais de fraturas.
       Planos musculares sem alterações tomográficas.
       Após a administração endovenosa do meio de contraste, observou-se opacificação dos vasos arteriais e venosos do membro superior esquerdo.
@@ -8151,7 +8167,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Sulcos e cisternas encefálicas normais.
       Parênquima cerebral com morfologia e coeficientes de atenuação normais.
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -8162,7 +8178,7 @@ matches:
       Suturas cranianas sem particularidades evidentes para a faixa etária.
       Formato craniano de aspecto arredondado, com índice cefálico de _.
 
-      Opinião:
+      Conclusão:
       Formato craniano de aspecto arredondado, com índice cefálico de _, sugerindo braquicefalia. Correlacionar com dados clínicos.
     word: true
 
@@ -8174,7 +8190,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Formação tecidual com densidade de partes moles, medindo _ cm, com volume de _ cm³, localizada na região da bursa olecraniana. Admite-se inicialmente a possibilidade de bursite. Os diagnósticos diferenciais devem ser aplicados. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
       Entesófito no epicôndilo lateral, com espessamento focal do tendão comum dos extensores, sugerindo tendinopatia crônica.
       Estruturas ósseas de forma conservada, sem sinais de fraturas.
@@ -8195,7 +8211,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Retificação da lordose cervical fisiológica.
       Osteofitose marginal nos corpos vertebrais.
@@ -8217,7 +8233,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Osteofitose marginal nos corpos vertebrais.
       Alterações degenerativas interfacetárias, uncovertebrais e atlanto-axial.
       Espaços intervertebrais reduzidos.
@@ -8239,7 +8255,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -8248,7 +8264,7 @@ matches:
       Ateromatose de base de crânio.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
       Ateromatose de base de crânio.
@@ -8262,14 +8278,14 @@ matches:
       Técnica:
       Foram feitos estudo volumétrico-multislice do pé esquerdo, somente na fase sem uso de contraste endovenoso.
 
-      Análise:
+      Descrição:
       Destruição da articulação tarsometatarsal (Lisfranc), com subluxação do cuneiforme medial e do 3°, 4° e 5° metatarsos. Há desorganização/fragmentação com reabsorção parcial e perda do padrão habitual do trabeculado da medular óssea dos cuneiformes e do cuboide. Redução dos espaços articulares médio-tarsais e tarsometatarsais, com cistos/erosões subcorticais, erosão óssea marginal e destruição das respectivas cartilagens de revestimento. Admite-se inicialmente a hipótese de artropatia neuropática (Charcot), não podendo ser afastada a possibilidade de osteomielite de forma concomitante.
       Coleção hipodensa em tecidos moles sob o cuboide e o cuneiforme lateral sugerindo fleimão/abscesso, aparentemente exteriorizando-se em ferida ulcerada cutânea no aspecto plantar do pé.
       Espessamento e densificação de pele e tecido subcutâneo do pé sugerindo edema/celulite.
       Ateromatose de vasos do pé.
       Entesófitos plantar e posterior no calcâneo.
 
-      Opinião:
+      Conclusão:
       Destruição da articulação tarsometatarsal (Lisfranc), com subluxação do cuneiforme medial e do 3°, 4° e 5° metatarsos. Há desorganização/fragmentação com reabsorção parcial e perda do padrão habitual do trabeculado da medular óssea dos cuneiformes e do cuboide. Redução dos espaços articulares médio-tarsais e tarsometatarsais, com cistos/erosões subcorticais, erosão óssea marginal e destruição das respectivas cartilagens de revestimento. Admite-se inicialmente a hipótese de artropatia neuropática (Charcot), não podendo ser afastada a possibilidade de osteomielite de forma concomitante.
       Coleção hipodensa em tecidos moles sob o cuboide e o cuneiforme lateral sugerindo fleimão/abscesso, aparentemente exteriorizando-se em ferida ulcerada cutânea no aspecto plantar do pé.
       Espessamento e densificação de pele e tecido subcutâneo do pé sugerindo edema/celulite.
@@ -8285,7 +8301,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Fossa posterior com dimensões reduzidas para seu conteúdo, com herniação de tonsilas cerebelares através do forame magno.
       Foice fenestrada com giros interdigitados.
       Disgenesia do corpo caloso com paralelismo dos cornos posteriores dos ventrículos laterais e alargamento dos átrios acompanhado de afilamento do parênquima cerebral nessa região (colpocefalia).
@@ -8296,7 +8312,7 @@ matches:
       Tronco cerebral e hemisférios cerebelares com densidade preservada.
       Estruturas da linha média sem desvios significativos.
 
-      Opinião:
+      Conclusão:
       Malformação encefálica complexa, acima descrita. A possibilidade de malformação de Chiari II pode ser considerada.
     word: true
 
@@ -8308,7 +8324,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de formato habitual, sem sinais de fraturas.
       Articulação femoroacetabulares de contornos regulares.
       Planos musculares e tendíneos sem alterações tomográficas.
@@ -8325,7 +8341,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" antes e após a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Sinais de suboclusão crônica (quase completa) da artéria carótida interna direita, determinada por placa mista (parcialmente calcificada) localizada em sua origem, com extensão aproximada de _ cm, acompanhada de fluxo filiforme nos demais segmentos desse vaso (pseudo-oclusão, estenose superior a 95%).
       Placa parcialmente calcificada na origem da artéria carótida interna esquerda, com extensão aproximada de _ cm, promovendo estenose de 55% (NASCET).
       Trajeto tortuoso da artéria carótida interna esquerda.
@@ -8336,7 +8352,7 @@ matches:
       Tireoide heterogênea, melhor avaliada em estudo dirigido.
       Espondilose cervical.
 
-      Impressão:
+      Conclusão:
       Sinais de suboclusão crônica (quase completa) da artéria carótida interna direita, determinada por placa mista (parcialmente calcificada) localizada em sua origem, com extensão aproximada de _ cm, acompanhada de fluxo filiforme nos demais segmentos desse vaso (pseudo-oclusão, estenose superior a 95%).
       Placa parcialmente calcificada na origem da artéria carótida interna esquerda, com extensão aproximada de _ cm, promovendo estenose de 55% (NASCET).
       Trajeto tortuoso da artéria carótida interna esquerda.
@@ -8357,7 +8373,7 @@ matches:
       Descrição:
       Realizado tomografia para guiar procedimento de biópsia em região abdominal.
 
-      Impressão:
+      Conclusão:
       Realizado tomografia para guiar procedimento de biópsia em região abdominal.
     word: true
 
@@ -8369,7 +8385,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Sulcos e cisternas encefálicas normais.
       Imagens ovaladas cálcicas localizadas nos hemisférios cerebrais (granulomas calcificados).
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -8377,7 +8393,7 @@ matches:
       Estruturas da linha mediana sem desvios significativos.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Imagens ovaladas cálcicas localizadas nos hemisférios cerebrais (granulomas calcificados).
     word: true
 
@@ -8389,7 +8405,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Osteofitose marginal tricompartimental.
       Espaços articulares femorotibiais e femoropatelar reduzidos.
@@ -8414,7 +8430,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
 
-      Análise:
+      Descrição:
       Lesões de aspecto lacunar crônico em núcleos da base bilateralmente.
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
@@ -8425,7 +8441,7 @@ matches:
       Ateromatose das carótidas internas e vertebrais.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Lesões de aspecto lacunar crônico em núcleos da base bilateralmente.
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
@@ -8440,8 +8456,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica, sem a administração endovenosa de contraste.
 
-      Análise:
-
+      Descrição:
       Rarefação óssea difusa.
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
       Osteofitose marginal nos corpos vertebrais.
@@ -8454,7 +8469,6 @@ matches:
       Musculatura paravertebral parcialmente lipossubstituída.
 
       Conclusão:
-
       Alterações degenerativas da coluna lombar.
       Discopatias acima detalhadas.
     word: true
@@ -8467,7 +8481,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica, sem a administração endovenosa de contraste.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Fratura/colapso com retropulsão do corpo vertebral de L2.
       Osteofitose marginal nos corpos vertebrais.
@@ -8480,7 +8494,6 @@ matches:
       Musculatura paravertebral parcialmente lipossubstituída.
 
       Conclusão:
-
       Alterações degenerativas da coluna lombar.
       Discopatias acima detalhadas.
     word: true
@@ -8493,7 +8506,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
 
-      Análise:
+      Descrição:
       Áreas com coeficiente de atenuação semelhante ao líquor localizadas nos lobos frontal, parietal, temporal e occipital à direita (encefalomalácia / gliose).
       Lesões de aspecto lacunar crônico em núcleos da base e tálamo, bilateralmente.
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
@@ -8505,7 +8518,7 @@ matches:
       Ateromatose das carótidas internas e vertebrais.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Áreas com coeficiente de atenuação semelhante ao líquor localizadas nos lobos frontal, parietal, temporal e occipital à direita (encefalomalácia / gliose).
       Lesões de aspecto lacunar crônico em núcleos da base e tálamo, bilateralmente.
       Sinais de redução volumétrica encefálica difusa.
@@ -8521,14 +8534,14 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" sem a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Mastóides normopneumatizadas.
       Caixas timpânicas normoaeradas.
       Cadeias ossiculares sem alterações.
       Cócleas, vestíbulos, canais semicirculares e condutos auditivos internos preservados.
       Canais dos nervos faciais preservados.
 
-      Impressão:
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -8540,14 +8553,14 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" sem a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Redução da aeração com esclerose das paredes ósseas e conteúdo com densidade de partes moles em células da mastoide, bilateralmente.
       Caixas timpânicas normoaeradas.
       Cadeias ossiculares sem alterações.
       Cócleas, vestíbulos, canais semicirculares e condutos auditivos internos preservados.
       Canais dos nervos faciais preservados.
 
-      Impressão:
+      Conclusão:
       Sinais de otomastoidopatia crônica bilateral.
     word: true
 
@@ -8559,7 +8572,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Lesão nodular, medindo _ cm, localizada no giro frontal superior esquerdo. Associa-se hipodensidade desproporcional no lobo frontal esquerdo, com apagamento dos sulcos corticais regionais e compressão do ventrículo lateral ipsilateral.
       Lesão hipodensa no lobo parietal direito, de limites mal definidos, com apagamento dos sulcos corticais regionais.
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -8568,7 +8581,7 @@ matches:
       Ausência de calcificações patológicas.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Lesão nodular, medindo _ cm, localizada no giro frontal superior esquerdo. Associa-se hipodensidade desproporcional no lobo frontal esquerdo, com apagamento dos sulcos corticais regionais e compressão do ventrículo lateral ipsilateral.
       Lesão hipodensa no lobo parietal direito, de limites mal definidos, com apagamento dos sulcos corticais regionais.
       Embora inespecíficos, os achados acima descritos admitem inicialmente as possibilidades de doença metastática ou processo inflamatório/infeccioso. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
@@ -8582,7 +8595,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Cânula traqueal.
       Sonda nasal.
       Redução difusa da densidade do parênquima encefálico, com perda da diferenciação entre as substâncias branca e cinzenta, apagamento dos sulcos corticais e cisternas basais e redução volumétrica/colabamento do sistema ventricular supratentorial, achados presumivelmente relacionados a edema/alterações hipóxico-isquêmicas.
@@ -8591,7 +8604,7 @@ matches:
       Ausência de calcificações patológicas.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Cânula traqueal.
       Sonda nasal.
       Redução difusa da densidade do parênquima encefálico, com perda da diferenciação entre as substâncias branca e cinzenta, apagamento dos sulcos corticais e cisternas basais e redução volumétrica/colabamento do sistema ventricular supratentorial, achados presumivelmente relacionados a edema/alterações hipóxico-isquêmicas.
@@ -8605,7 +8618,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Sulcos e cisternas encefálicas normais.
       Parênquima cerebral com morfologia e coeficientes de atenuação normais.
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -8615,7 +8628,7 @@ matches:
       Ausência de coleções hemorrágicas intra ou extra-axiais.
       Espessamento mucoso de seios paranasais, por vezes de aspecto polipoide.
 
-      Opinião:
+      Conclusão:
       Estudo tomográfico do crânio dentro dos limites da normalidade.
       Espessamento mucoso de seios paranasais, por vezes de aspecto polipoide.
     word: true
@@ -8628,14 +8641,14 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" sem a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Redução da aeração com esclerose das paredes ósseas da mastoide esquerda com material hipoatenuante no interior.
       Caixas timpânicas e mastoide direita normoaeradas.
       Cadeias ossiculares sem alterações.
       Cócleas, vestíbulos, canais semicirculares e condutos auditivos internos preservados.
       Canais dos nervos faciais preservados.
 
-      Impressão:
+      Conclusão:
       Sinais de mastoidopatia crônica à esquerda.
     word: true
 
@@ -8647,7 +8660,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" sem a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Redução da aeração com esclerose das paredes ósseas da mastoide direita.
       Material com atenuação de partes moles na mastoide e na caixa timpânica direitas.
       Caixa timpânica e mastoide esquerdas normoaeradas.
@@ -8655,7 +8668,7 @@ matches:
       Cócleas, vestíbulos, canais semicirculares e condutos auditivos internos preservados.
       Canais dos nervos faciais preservados.
 
-      Impressão:
+      Conclusão:
       Sinais de otomastoidopatia crônica à direita.
     word: true
 
@@ -8667,7 +8680,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" sem a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Redução da aeração com esclerose das paredes ósseas da mastoide direita.
       Material hipoatenuante no interior da mastoide e da caixa timpânica à direita.
       Caixa timpânica e mastoide esquerdas normoaeradas.
@@ -8675,7 +8688,7 @@ matches:
       Cócleas, vestíbulos, canais semicirculares e condutos auditivos internos preservados.
       Canais dos nervos faciais preservados.
 
-      Impressão:
+      Conclusão:
       Sinais de otomastoidopatia crônica à direita.
     word: true
 
@@ -8687,7 +8700,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" sem a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Espessamento da membrana timpânica direita, com aparente descontinuidade focal, melhor avaliada por estudo dirigido.
       Redução da aeração com esclerose das paredes ósseas da mastoide direita.
       Caixas timpânicas e mastoide esquerda normoaeradas.
@@ -8696,7 +8709,7 @@ matches:
       Canais dos nervos faciais preservados.
       Espessamento mucoso dos seios maxilares e etmoidais, por vezes de aspecto polipoide.
 
-      Impressão:
+      Conclusão:
       Espessamento da membrana timpânica direita, com aparente descontinuidade focal, melhor avaliada por estudo dirigido.
       Sinais de mastoidopatia crônica à direita.
       Espessamento mucoso dos seios maxilares e etmoidais, por vezes de aspecto polipoide.
@@ -8706,7 +8719,6 @@ matches:
     label: "TC de pé direito — osteomielite multifocal com fleimão"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DE PÉ DIREITO S/C
-
 
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
@@ -8724,7 +8736,7 @@ matches:
       Entesofitose posterior do calcâneo.
       Ateromatose de vasos do pé.
 
-      Opinião:
+      Conclusão:
       Solução de continuidade de partes moles sob os metatarsos.
       Lesões osteolíticas promovendo alteração do padrão habitual da medular óssea/reabsorção parcial do cuneiforme medial e da base do primeiro metatarso, acompanhadas de aumento volumétrico e densificação de partes moles adjacentes, bem como pequenas coleções aéreas de permeio. Há amputação de parte do primeiro metatarso. A possibilidade de osteomielite em atividade complicada com fleimão/abscessos em organização pode ser considerada dentre os diagnósticos diferenciais.
       Destruição/reabsorção parcial do segundo, terceiro e quarto metatarsos, bem como da base da falange proximal do segundo dedo, com espessamento cortical e reação periosteal, achados sugestivos de osteomielite crônica.
@@ -8746,7 +8758,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Padrão de aspecto simplificado dos giros corticais cerebrais, que apresentam-se aparentemente largos com sulcos rasos. Há subsequente aumento do espaço liquórico junto à convexidade cortical dos lobos frontais. Nota-se discreto alargamento dos corpos dos ventrículos laterais, notadamente à direita.
       Cisternas encefálicas normais.
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -8754,7 +8766,7 @@ matches:
       Imagens ovaladas cálcicas localizadas no lobo frontal direito (granulomas calcificados).
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Padrão de aspecto simplificado dos giros corticais cerebrais, que apresentam-se aparentemente largos com sulcos rasos. Há subsequente aumento do espaço liquórico junto à convexidade cortical dos lobos frontais. Nota-se discreto alargamento dos corpos dos ventrículos laterais, notadamente à direita. Admitem-se inicialmente as possibilidades de paquigiria/lisencefalia ou microencefalia com padrão giral simplificado. Outros diagnósticos diferenciais devem ser aplicados. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
       Imagens ovaladas cálcicas localizadas no lobo frontal direito (granulomas calcificados).
     word: true
@@ -8773,7 +8785,7 @@ matches:
       Ausência de líquido livre na cavidade peritoneal.
       Bexiga com repleção parcial e conteúdo homogêneo.
 
-      Impressão:
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -8793,7 +8805,7 @@ matches:
       Estruturas vasculares pélvicas sem alterações relevantes ao método.
       Arcabouço ósseo da pelve sem evidências de lesões focais ou fraturas.
 
-      Impressão:
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -8828,7 +8840,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Estrias e bandas parenquimatosas pulmonares esparsas.
       Nódulos pulmonares bilaterais, menores que 0,5 cm, alguns sem calcificações evidentes (incaracterísticos), outros difusamente calcificados (residuais).
       Espaços pleurais virtuais.
@@ -8837,7 +8849,7 @@ matches:
       Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
       Espondilose torácica leve.
 
-      Impressão:
+      Conclusão:
       Estrias e bandas parenquimatosas pulmonares esparsas.
       Nódulos pulmonares bilaterais, menores que 0,5 cm, alguns sem calcificações evidentes (incaracterísticos), outros difusamente calcificados (residuais).
       Ateromatose aortocoronariana.
@@ -8854,7 +8866,7 @@ matches:
       Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
       Avaliação prejudicada por artefatos de movimentação.
 
-      Análise:
+      Descrição:
       Ectasia dos ramos direito e esquerdo da artéria pulmonar.
       Ateromatose aortocoronariana.
       Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
@@ -8866,7 +8878,7 @@ matches:
       Pequenas calcificações no parênquima esplênico, de aspecto residual.
       Distensão hidroaérea da câmara gástrica.
 
-      Impressão:
+      Conclusão:
       Opacidades com atenuação em "vidro fosco" acompanhadas de espessamento septais e bronquiectasias com predomínio central/peri-hilar bilateral. Notam-se raras opacidades consolidativas de permeio. A possibilidade de processo inflamatório/infeccioso, destacando-se a hipótese de pneumonia por Pneumocystis jirovecii pode ser considerada. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
       Demais achados pormenorizados no corpo do laudo.
     word: true
@@ -8879,7 +8891,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Redução do espaço articular femoroacetabular com cistos subcorticais, osteofitose marginal e esclerose óssea adjacente.
       Entesopatia difusa.
@@ -8901,7 +8913,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
       Forames sacrais livres.
       Articulações sacroilíacas de contornos regulares.
@@ -8919,7 +8931,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
       Forames sacrais livres.
@@ -8952,7 +8964,7 @@ matches:
       Apêndice cecal visualizado, sem sinais inflamatórios.
       Espondilose lombar.
 
-      Impressão:
+      Conclusão:
       Área de redução abrupta do calibre no íleo terminal, acompanhada de distensão hidroaérea de alças delgadas à montante. Há ingurgitamento da arcada vascular, bem como leve densificação da gordura regional. Observa-se conteúdo fecaloide e gasoso em alças colônicas, sugerindo suboclusão. Processo fibroaderencial? Distúrbio metabólico? Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
       Demais achados pormenorizados no corpo do laudo.
     word: true
@@ -8965,7 +8977,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Sulcos e cisternas encefálicas normais.
       Parênquima cerebral com morfologia e coeficientes de atenuação normais.
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -8975,7 +8987,7 @@ matches:
       Ausência de coleções hemorrágicas intra ou extra-axiais.
       Sinais de mastoidopatia crônica bilateralmente.
 
-      Opinião:
+      Conclusão:
       Estudo tomográfico do crânio dentro dos limites da normalidade.
       Sinais de mastoidopatia crônica bilateralmente.
     word: true
@@ -8988,7 +9000,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Lesão escavada, de paredes espessas e irregulares, com conteúdo hidroaéreo, medindo cm, localizada no segmento superior do lobo inferior esquerdo. Associa-se espessamento parietal e afilamento luminal do respectivo brônquio.
       Espessamento fissural e dos septos interlobulares, bem como bronquiectasias e nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", localizadas no lobo inferior esquerdo.
       Opacidades nodulares, de contornos irregulares, medindo _ cm e _ cm, localizadas no segmento superior do lobo inferior esquerdo.
@@ -8998,7 +9010,7 @@ matches:
       Ectasia dos ramos direito e esquerdo da artéria pulmonar.
       Espondilose torácica.
 
-      Impressão:
+      Conclusão:
       Lesão escavada, de paredes espessas e irregulares, com conteúdo hidroaéreo, medindo cm, localizada no segmento superior do lobo inferior esquerdo. Associa-se espessamento parietal e afilamento luminal do respectivo brônquio.
       Espessamento fissural e dos septos interlobulares, bem como bronquiectasias e nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", localizadas no lobo inferior esquerdo.
       Opacidades nodulares, de contornos irregulares, medindo _ cm e _ cm, localizadas no segmento superior do lobo inferior esquerdo.
@@ -9015,7 +9027,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Rarefação óssea difusa.
       Osteofitose marginal nos corpos vertebrais.
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
@@ -9038,14 +9050,14 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice com a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Estruturas vasculares do mediastino com calibre externo conservado.
       Demais estruturas mediastinais preservadas.
       Não se identificam linfonodomegalias mediastinais.
       Pulmões com atenuação normal.
       Espaços pleurais virtuais.
 
-      Impressão:
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -9057,7 +9069,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Múltiplas calcificações predominantemente nos gânglios da base, na junção corticomedular e, em menor extensão, nas regiões periventriculares. Esse achado está comumente relacionado a infecções congênitas do sistema nervoso central (S.T.O.R.C.H.). Correlacionar com dados clínicos e laboratoriais.
       Múltiplas áreas hipodensas, por vezes confluentes, distribuídas de forma difusa pela substância branca dos hemisférios cerebrais e cerebelares, indeterminadas.
       Sulcos e cisternas encefálicas normais.
@@ -9066,7 +9078,7 @@ matches:
       Estruturas da linha mediana sem desvios significativos.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Múltiplas calcificações predominantemente nos gânglios da base, na junção corticomedular e, em menor extensão, nas regiões periventriculares. Esse achado está comumente relacionado a infecções congênitas do sistema nervoso central (S.T.O.R.C.H.). Correlacionar com dados clínicos e laboratoriais.
       Múltiplas áreas hipodensas, por vezes confluentes, distribuídas de forma difusa pela substância branca dos hemisférios cerebrais e cerebelares, indeterminadas.
     word: true
@@ -9079,7 +9091,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Ateromatose aortocoronariana.
       Cardiomegalia.
       Estruturas vasculares do mediastino com calibre externo conservado.
@@ -9090,7 +9102,8 @@ matches:
       Restante do parênquima pulmonar com atenuação normal.
       Espaços pleurais virtuais.
       Espondilose torácica.
-      Impressão:
+
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -9102,7 +9115,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", predominando nos lobos superiores e inferior esquerdo. Associam-se opacidades consolidativas e espessamento de paredes brônquicas, por vezes com conteúdo brônquico. Notam-se duas lesões escavadas no pulmão esquerdo, de paredes espessas, uma no lobo superior esquerdo, medindo de _ cm, e outra no inferior do pulmão esquerdo, medindo _ cm. O conjunto de achados sugere processo inflamatório/infeccioso granulomatoso caseoso em atividade (tuberculose), dentre os diagnósticos diferenciais.
       Faixa atelectásica na língula, com bronquiectasias.
       Aumento do número de linfonodos mediastinais, com linfonodomegalias.
@@ -9111,7 +9124,7 @@ matches:
       Espaços pleurais virtuais.
       Alterações degenerativas do arcabouço ósseo torácico.
 
-      Impressão:
+      Conclusão:
       Nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", predominando nos lobos superiores e inferior esquerdo. Associam-se opacidades consolidativas e espessamento de paredes brônquicas, por vezes com conteúdo brônquico. Notam-se duas lesões escavadas no pulmão esquerdo, de paredes espessas, uma no lobo superior esquerdo, medindo de _ cm, e outra no inferior do pulmão esquerdo, medindo _ cm. O conjunto de achados sugere processo inflamatório/infeccioso granulomatoso caseoso em atividade (tuberculose), dentre os diagnósticos diferenciais.
       Demais achados pormenorizados no corpo do laudo.
     word: true
@@ -9124,7 +9137,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -9133,7 +9146,7 @@ matches:
       Ateromatose de base de crânio.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
       Ateromatose de base de crânio.
@@ -9147,7 +9160,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice com a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Angiotomografia negativa para tromboembolismo pulmonar agudo em ramos principais da artéria pulmonar, não sendo possível avaliar ramos periféricos de forma satisfatória devido à contrastação inadequada no protocolo realizado (tempo de aquisição).
       Após a administração do meio de contraste endovenoso, observou-se tênue falha de opacificação em parte da luz de ramo arterial segmentar basal posterior do lobo inferior direito, achado inespecífico no protocolo empregado, podendo representar diminuto trombo ou artefato inerente à contrastação inadequada no protocolo realizado (tempo de aquisição). Recomenda-se novo estudo com protocolo adequado.
       Estruturas mediastinais preservadas.
@@ -9155,7 +9168,7 @@ matches:
       Raros nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
       Espaços pleurais virtuais.
 
-      Impressão:
+      Conclusão:
       Angiotomografia negativa para tromboembolismo pulmonar agudo em ramos principais da artéria pulmonar, não sendo possível avaliar ramos periféricos de forma satisfatória devido à contrastação inadequada no protocolo realizado (tempo de aquisição).
       Após a administração do meio de contraste endovenoso, observou-se tênue falha de opacificação em parte da luz de ramo arterial segmentar basal posterior do lobo inferior direito, achado inespecífico no protocolo empregado, podendo representar diminuto trombo ou artefato inerente à contrastação inadequada no protocolo realizado (tempo de aquisição). Recomenda-se novo estudo com protocolo adequado.
       Raros nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
@@ -9266,7 +9279,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
 
-      Análise:
+      Descrição:
       Lesões de aspecto lacunar crônico em núcleos da base bilateralmente.
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia.
@@ -9277,7 +9290,7 @@ matches:
       Ateromatose das carótidas internas e vertebrais.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Lesões de aspecto lacunar crônico em núcleos da base bilateralmente.
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
@@ -9292,7 +9305,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Presença de seis corpos vertebrais com características lombares, sendo a última denominada vértebra de transição (VT).
       Desvio sinuoso da coluna vertebral com escoliose torácica sinistro convexa e lombar dextroconvexa.
       Acentuação da lordose lombar.
@@ -9325,7 +9338,7 @@ matches:
       Técnica:
       Imagens obtidas em aparelho multislice com a administração intravenosa de meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Fígado com dimensões normais, contornos regulares e atenuação preservada.
       Veias porta e hepáticas pérvias.
       Ausência de dilatação das vias biliares.
@@ -9363,7 +9376,7 @@ matches:
       Alças intestinais delgadas e cólicas com paredes normo-espessas e sem evidência de estenoses ou dilatações.
       Não há evidência de linfonodomegalias ou líquido livre na cavidade abdominal.
 
-      Opinião:
+      Conclusão:
       Estudo tomográfico computadorizado do abdome superior sem evidência de anormalidades.
     word: true
 
@@ -9376,8 +9389,7 @@ matches:
       Procedimento:
       Realizado estudo volumétrico-multislice em equipamento com 16 fileiras de detectores, a partir das cúpulas diafragmáticas até a crista ilíaca, antes e após a injeção endovenosa do meio de contraste iodado. Realizada reconstrução no plano coronal.
 
-
-      Análise:
+      Descrição:
       Fígado com dimensões normais, contornos regulares e atenuação preservada.
       Veias porta e hepáticas pérvias.
       Ausência de dilatação das vias biliares.
@@ -9414,7 +9426,7 @@ matches:
       Segmentos visibilizados da aorta abdominal e veia cava inferior de calibre anatômico.
       Não se observa líquido livre na cavidade abdominal superior.
 
-      Opinião:
+      Conclusão:
       Estudo tomográfico computadorizado do abdome superior sem evidência de anormalidades.
     word: true
 
@@ -9426,7 +9438,7 @@ matches:
       Técnica:
       Imagens obtidas em aparelho multislice com a administração intravenosa de meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Fígado com dimensões normais, contornos regulares e atenuação preservada.
       Veias porta e hepáticas pérvias.
       Vesícula biliar sem sinais de alterações ao método.
@@ -9451,7 +9463,7 @@ matches:
       Procedimento:
       Realizado estudo volumétrico-multislice em equipamento com 16 fileiras de detectores, a partir das cúpulas diafragmáticas até a sínfise púbica, antes e após a injeção endovenosa do meio de contraste iodado. Realizada reconstrução no plano coronal.
 
-      Achados:
+      Descrição:
       Fígado de volume, contornos e densidade normais, sem evidência de lesões focais.
       Veias porta e supra-hepáticas pérvias e de calibre preservado.
       Não se observa dilatação das vias biliares intra e extra-hepáticas.
@@ -9470,7 +9482,7 @@ matches:
       Ampola retal sem alterações.
       Não há evidência de linfonodomegalias ou líquido livre na cavidade abdominal.
 
-      Opinião:
+      Conclusão:
       Estudo tomográfico computadorizado do abdome total sem evidência de anormalidades.
     word: true
 
@@ -9482,7 +9494,7 @@ matches:
       Procedimento:
       Realizado estudo volumétrico-multislice em equipamento com 16 fileiras de detectores, a partir das cúpulas diafragmáticas até a sínfise púbica, somente na fase sem uso do meio de contraste iodado. Realizada reconstrução no plano coronal.
 
-      Análise:
+      Descrição:
       Fígado com dimensões normais, contornos regulares e atenuação preservada.
       Veias porta e hepáticas pérvias.
       Ausência de dilatação das vias biliares.
@@ -9506,7 +9518,7 @@ matches:
       Procedimento:
       Realizado estudo volumétrico-multislice em equipamento com 16 fileiras de detectores, a partir das cúpulas diafragmáticas até a sínfise púbica, somente na fase sem uso do meio de contraste iodado. Realizada reconstrução no plano coronal.
 
-      Achados:
+      Descrição:
       Fígado de volume, contornos e densidade normais, sem evidência de lesões focais.
       Vias biliares sem sinais evidentes de dilatação.
       Vesícula biliar sem sinais de alterações ao método.
@@ -9523,7 +9535,7 @@ matches:
       Ampola retal sem alterações.
       Não há evidência de líquido livre na cavidade abdominal.
 
-      Opinião:
+      Conclusão:
       Estudo tomográfico computadorizado do abdome total sem evidência de anormalidades.
     word: true
 
@@ -9536,8 +9548,7 @@ matches:
       Procedimento:
       Foi feito estudo volumétrico-multislice em equipamento com 16 fileiras de detectores, somente na fase sem uso de contraste endovenoso.
 
-
-      Achados:
+      Descrição:
       Estruturas ósseas de formato habitual, sem sinais de fraturas.
       Cortical e medular óssea de morfologia e densidade normais.
       Superfícies e espaços articulares íntegros, com relações articulares mantidas.
@@ -9545,7 +9556,7 @@ matches:
       Planos músculo-gordurosos íntegros.
       Não se observam massa ou coleções em partes moles adjacentes.
 
-      Opinião:
+      Conclusão:
       Estudo tomográfico computadorizado do calcâneo direito/esquerdo sem evidência de anormalidades.
     word: true
 
@@ -9555,11 +9566,9 @@ matches:
       TOMOGRAFIA COMPUTADORIZADA DA COLUNA CERVICAL S/C
 
       Técnica:
-
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-
-      Análise:
+      Descrição:
       Transição crânio-vertebral sem alterações.
       Processo odontóide centrado, com contornos regulares.
       Corpos vertebrais alinhados, de altura preservada, sem sinais de fraturas.
@@ -9578,11 +9587,10 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DA COLUNA LOMBAR S/C
 
-
       Técnica:
       Foram obtidas imagens por aquisição volumétrica, sem a administração endovenosa de contraste.
 
-      Análise:
+      Descrição:
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
       Pedículos e estruturas do arco posterior íntegros.
       Discos intervertebrais de altura preservada, sem abaulamentos ou protrusões significativas.
@@ -9603,7 +9611,7 @@ matches:
       Procedimento:
       Foi feito estudo volumétrico-multislice em equipamento com 16 fileiras de detectores, com fase antes e após a administração do contraste endovenoso.
 
-      Achados:
+      Descrição:
       Cortical e medular óssea de morfologia e densidade normais.
       Superfícies e espaços articulares íntegros. Relação gleno-umeral mantida.
       Não há derrame articular ou corpos livres intra-articulares.
@@ -9612,8 +9620,7 @@ matches:
       Não se observam massas ou coleções em partes moles adjacentes.
       Após a administração de contraste endovenoso (não se observou realce patológico/ou observou.....(?).
 
-
-      Opinião:
+      Conclusão:
       Estudo tomográfico computadorizado do cotovelo direito/esquerdo sem evidência de anormalidades.
     word: true
 
@@ -9625,7 +9632,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Sulcos e cisternas encefálicas normais.
       Parênquima cerebral com morfologia e coeficientes de atenuação normais.
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -9634,7 +9641,7 @@ matches:
       Ausência de calcificações patológicas.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Estudo tomográfico dentro dos limites da normalidade.
     word: true
 
@@ -9646,7 +9653,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Acentuação dos sulcos entre os giros corticais, habitual para a faixa etária.
       Calcificações parietais dos sistemas carotídeo e vertebrobasilar.
       Cisternas encefálicas normais.
@@ -9657,7 +9664,7 @@ matches:
       Ausência de calcificações patológicas.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Acentuação dos sulcos entre os giros corticais, habitual para a faixa etária.
       Ateromatose de base de crânio.
     word: true
@@ -9670,7 +9677,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia/gliose.
       Restante do parênquima cerebral com morfologia e coeficientes de atenuação normais.
@@ -9680,7 +9687,7 @@ matches:
       Ateromatose das carótidas internas e vertebrais.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
       Ateromatose de base de crânio.
@@ -9694,7 +9701,7 @@ matches:
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária.
       Sistema ventricular com dimensões preservadas.
       Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia/gliose.
@@ -9705,7 +9712,7 @@ matches:
       Ateromatose das carótidas internas e vertebrais.
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
-      Opinião:
+      Conclusão:
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
       Ateromatose de base de crânio.
@@ -9719,8 +9726,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-
-      Análise:
+      Descrição:
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
       Pedículos e estruturas do arco posterior íntegros.
       Discos intervertebrais de altura preservada, sem abaulamentos ou protrusões discais significativas.
@@ -9737,12 +9743,10 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DE PÉ DIREITO/ESQUERDO - C/C E S/C
 
-
       Técnica:
       Foi feito estudo volumétrico-multislice do pé direito/esquerdo, somente na fase sem uso de contraste endovenoso (com fase antes e após administração do contraste endovenoso).
 
-
-      Análise:
+      Descrição:
       Cortical e medular óssea de morfologia e densidade normais.
       Superfícies e espaços articulares íntegros, com relações articulares mantidas.
       Não se observa derrame articular.
@@ -9752,8 +9756,7 @@ matches:
 
       Após a administração de contraste endovenoso não se observou realce patológico/ou observou-se......(?).
 
-
-      Opinião:
+      Conclusão:
       Estudo tomográfico computadorizado do pé direito/esquerdo sem evidência de anormalidades.
     word: true
 
@@ -9765,7 +9768,7 @@ matches:
       Técnica:
       Imagens obtidas em aparelho multislice sem a administração intravenosa de meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Bexiga com boa repleção, paredes finas e regulares, conteúdo homogêneo.
       Útero com contornos e dimensões preservadas.
       Regiões anexiais livres.
@@ -9784,7 +9787,7 @@ matches:
       Técnica:
       Imagens obtidas em aparelho multislice sem a administração intravenosa de meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Bexiga com boa repleção, de morfologia e volume normais, sem falhas de repleção interna ou zonas de compressão extrínseca anormal.
       Próstata de volume e densidade usuais ao método.
       Vesículas seminais sem alterações apreciáveis.
@@ -9793,7 +9796,7 @@ matches:
       Não se observam coleções ou massas pélvicas.
       Estruturas ósseas regionais íntegras.
 
-      Opinião:
+      Conclusão:
       Estudo tomográfico computadorizado da pelve masculina sem evidência de anormalidades.
     word: true
 
@@ -9806,7 +9809,7 @@ matches:
       Procedimento:
       Foi feito estudo volumétrico-multislice em equipamento com 16 fileiras de detectores da perna direita/esquerda, somente na fase sem uso de contraste endovenoso (com fase antes e após administração do contraste endovenoso).
 
-      Achados:
+      Descrição:
       Cortical e medular óssea de morfologia e densidade normais.
       Não há derrame articular ou corpos livres intra-articulares.
       Planos musculares íntegros.
@@ -9814,7 +9817,7 @@ matches:
       Não se observam massas ou coleções em partes moles adjacentes.
       Após a administração de contraste endovenoso não se observou realce patológico/ou observou.....(?).
 
-      Opinião:
+      Conclusão:
       Estudo tomográfico computadorizado da perna direita/esquerda sem evidência de anormalidades.
     word: true
 
@@ -9826,7 +9829,7 @@ matches:
       Técnica:
       Imagens adquiridas por aquisição volumétrica "multislice" sem administração venosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Septo nasal centrado.
       Fóveas etmoidais simétricas.
       Cavidades paranasais normoaeradas.
@@ -9845,7 +9848,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Arcabouço torácico íntegro.
       Estruturas vasculares mediastinais tópicas, de calibre normal.
       Não há linfonodomegalias.
@@ -9865,7 +9868,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica, sem a administração endovenosa de contraste.
 
-      Análise:
+      Descrição:
       Fratura/impacção do aspecto posterolateral da cabeça umeral, com extensão de _ cm e impacção de _ cm. Fratura/avulsão da borda anteroinferior da glenoide, com discreto desalinhamento.
       Articulação acrômio-clavicular de contornos regulares.
       Não há sinais de derrame articular.
@@ -9883,7 +9886,7 @@ matches:
       Técnica:
       Imagens volumétricas obtidas sem a administração intravenosa de meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Fígado com dimensões normais, contornos regulares e atenuação preservada.
       Ausência de dilatação das vias biliares.
       Pâncreas com dimensões normais e atenuação habitual.
@@ -9906,7 +9909,7 @@ matches:
       Técnica:
       Imagens volumétricas obtidas antes e após a administração intravenosa de meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Fígado com dimensões normais, contornos regulares e atenuação preservada.
       Veias porta e hepáticas pérvias.
       Ausência de dilatação das vias biliares.
@@ -9941,7 +9944,7 @@ matches:
       Ausência de linfonodomegalias, massas ou coleções.
       Ausência de líquido livre na cavidade peritoneal.
 
-      Impressão:
+      Conclusão:
       Exame sem alterações significativas.
     word: true
 
@@ -9950,11 +9953,10 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
 
-
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de formato habitual, sem sinais de fraturas.
       Articulações femoroacetabulares de contornos regulares.
       Articulações sacro-ilíacas e sínfise púbica conservadas.
@@ -9973,7 +9975,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Transição crânio-vertebral sem alterações.
       Processo odontóide centrado, com contornos regulares.
       Corpos vertebrais alinhados, de altura preservada, sem sinais de fraturas.
@@ -9995,7 +9997,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de forma conservada, sem sinais de fraturas.
       Espaços articulares de contornos regulares.
       Não há sinais de derrame articular.
@@ -10010,11 +10012,10 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO JOELHO DIREITO/ESQUERDO S/C
 
-
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de forma conservada, sem sinais de fraturas.
       Espaços articulares femorotibiais e femoropatelar conservados.
       Não há sinais de derrame articular.
@@ -10032,7 +10033,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica, sem a administração endovenosa de contraste.
 
-      Análise:
+      Descrição:
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
       Pedículos e estruturas do arco posterior íntegros.
       Discos intervertebrais de altura preservada, sem abaulamentos ou protrusões significativas.
@@ -10052,7 +10053,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" sem a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Mastóides normopneumatizadas.
       Caixas timpânicas normoaeradas.
       Cadeias ossiculares sem alterações.
@@ -10072,7 +10073,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de forma conservada, sem sinais de fraturas.
       Articulações gleno-umeral e acrômio-clavicular de contornos regulares.
       Não há sinais de derrame articular.
@@ -10090,7 +10091,7 @@ matches:
       Técnica:
       Imagens volumétricas obtidas sem a administração intravenosa de meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Bexiga com boa repleção, paredes finas e regulares, conteúdo homogêneo.
       Útero com contornos e dimensões preservadas.
       Regiões anexiais livres.
@@ -10109,7 +10110,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica "multislice" após a administração intravenosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Faringe apresentando coeficientes de atenuação preservados.
       Glândulas parótidas e submandibulares sem alterações.
       Epiglote, pregas ariepiglóticas, bandas ventriculares e cordas vocais apresentando coeficientes de atenuação preservados.
@@ -10127,11 +10128,10 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO PUNHO DIREITO/ESQUERDO S/C
 
-
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de forma conservada, sem sinais de fraturas.
       Espaços articulares de contornos regulares.
       Alinhamento rádio-ulnar distal e das fileiras cárpicas preservado.
@@ -10150,7 +10150,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de forma conservada, sem sinais de fraturas.
       Articulação femoroacetabular de contornos regulares.
       Não há sinais de derrame articular.
@@ -10168,7 +10168,7 @@ matches:
       Técnica:
       Imagens adquiridas por aquisição volumétrica "multislice" sem administração venosa do meio de contraste iodado.
 
-      Análise:
+      Descrição:
       Septo nasal centrado.
       Fóveas etmoidais simétricas.
       Cavidades paranasais normoaeradas.
@@ -10187,7 +10187,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice com a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Angiotomografia negativa para tromboembolismo pulmonar agudo.
       Arcabouço torácico íntegro.
       Estruturas vasculares mediastinais tópicas, de calibre normal.
@@ -10208,7 +10208,7 @@ matches:
       Técnica:
       Imagens obtidas por aquisição volumétrica sem a administração intravenosa de contraste iodado.
 
-      Análise:
+      Descrição:
       Arcabouço torácico íntegro.
       Estruturas vasculares mediastinais tópicas, de calibre normal.
       Não há linfonodomegalias.
@@ -10228,7 +10228,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Corpos vertebrais alinhados no plano sagital, de altura preservada, sem sinais de fraturas.
       Pedículos e estruturas do arco posterior íntegros.
       Discos intervertebrais de altura preservada, sem abaulamentos ou protrusões discais significativas.
@@ -10248,7 +10248,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de formato habitual, sem sinais de fraturas.
       Espaços articulares de contornos regulares.
       Não há sinais de derrame articular.

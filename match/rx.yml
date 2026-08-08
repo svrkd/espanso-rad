@@ -12,7 +12,7 @@ matches:
       Clinoides anterior, posterior, dorso selar e assoalho da sela túrcica de morfologia normais.
       Ausência de imagens radiológicas sugestivas de calcificações patológicas.
 
-      OPINIÃO:
+      Conclusão:
       Sela Túrcica radiologicamente normal.
     word: true
 
@@ -915,8 +915,7 @@ matches:
     replace: |
       ESOFAGO - ESTOMAGO E DUODENO
 
-      DESCRIÇÃO.:
-
+      Descrição:
       Esôfago com forma, contornos e calibre normais, esvaziando-se em tempos fisiológicos.
 
       Ausência de hérnia de hiato e refluxo gastro-esofágico.
@@ -925,8 +924,7 @@ matches:
 
       Bulbo e demais porções do arco duodenal e jejuno proximal sem alterações.
 
-      OPINIÃO:
-
+      Conclusão:
       Esôfago, estômago e duodeno radiologicamente normais.
     word: true
 
@@ -935,12 +933,12 @@ matches:
     replace: |
       ENEMA OPACO
 
-      DESCRIÇÃO:
+      Descrição:
       A radiografia simples realizada previamente não evidencia alterações dignas de nota.
       O trânsito retrógrado se processou sem obstáculos, determinando opacificação com duplo meio de contraste de todo o intestino grosso.
       Alças cólicas com forma, contornos, calibre e haustrações normais.
 
-      OPINIÃO:
+      Conclusão:
       Enema opaco dentro dos padrões normais.
 
 
@@ -957,13 +955,13 @@ matches:
     replace: |
       HISTEROSSALPINGOGRAMA
 
-      DESCRIÇÃO:
+      Descrição:
       A radiografia simples não mostra alterações significativas.
       Após introdução retrógrada do contraste evidenciou-se útero em anteversoflexão com forma, contornos e dimensões normais.
       Trompas uterinas filiformes e permeáveis ao fluxo de contraste.
       Prova de Cotte positiva.
 
-      OPINIÃO:
+      Conclusão:
       Histerossalpingograma normal.
     word: true
 
@@ -972,13 +970,13 @@ matches:
     replace: |
       TRÂNSITO INTESTINAL
 
-      DESCRIÇÃO:
+      Descrição:
       A radiografia simples realizada previamente não evidencia alterações radiológicas dignas de nota.
       O trânsito delgado mostra as alças jejunais e ileais com morfologia, topografia, calibre e relevo mucoso conservados.
       O trânsito se processa em tempos fisiológicos.
       Íleo terminal e ceco sem anormalidade.
 
-      OPINIÃO:
+      Conclusão:
       Trânsito intestinal normal.
     word: true
 
@@ -987,14 +985,14 @@ matches:
     replace: |
       URETROCISTOGRAFIA
 
-      DESCRIÇÃO:
+      Descrição:
       A radiografia simples realizada previamente não evidencia alterações radiológicas dignas de nota.
       Bexiga com forma, contornos e dimensões normais.
       Ausência de refluxo vésico-ureteral.
       Uretra com forma, contornos e calibre normais.
       Ausência de resíduo vesical pós-miccional.
 
-      OPINIÃO:
+      Conclusão:
       Uretrocistografia dentro dos padrões normais.
     word: true
 
@@ -1003,13 +1001,13 @@ matches:
     replace: |
       UROGRAFIA EXCRETORA
 
-      DESCRIÇÃO:
+      Descrição:
       A radiografia simples realizada previamente não evidencia alterações radiológicas dignas de nota.
       Eliminação simultânea de contraste pelos rins que apresentam com forma, contornos e dimensões normais.
       Árvores pielocaliciais e ureteres íntegros sem obstáculos ao fluxo de contraste.
       Bexiga com capacidade normal, sem defeitos de epleção ou sinais de compressão extrínseca, tendo contornos regulares e forma normal.
 
-      OPINIÃO:
+      Conclusão:
       Urograma normal.
     word: true
 
@@ -1177,13 +1175,12 @@ matches:
     replace: |
       MAOS E PUNHOS PARA IDADE OSSEA
 
-      DESCRIÇÃO:
+      Descrição:
       Textura óssea normal.
       Estruturas ósseas visualizadas íntegras.
       Espaços articulares conservados.
 
-
-      OPINIÃO:
+      Conclusão:
       A idade óssea do paciente é compatível com a idade cronológica referida segundo o método de Grewlich-Pyle.
     word: true
 

@@ -167,11 +167,10 @@ matches:
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
 
-
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de formato habitual, sem sinais de fraturas.
       Articulações femoroacetabulares de contornos regulares.
       Articulações sacro-ilíacas e sínfise púbica conservadas.
@@ -237,21 +236,25 @@ matches:
     label: "TC de ombro — fratura-luxação com lesão de Bankart"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO OMBRO ESQUERDO S/C
+
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
-      Análise:
+
+      Descrição:
       Fratura cominutiva da cabeça e do tubérculo maior do úmero com diástase dos principais fragmentos ósseos. Associa-se luxação anterior e inferior da cabeça do úmero.
       Fratura da porção anteroinferior da glenóide (lesão de Bankart).
       Derrame articular glenoumeral com conteúdo hemático.
       Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
       Aumento do espaço articular acromioclavicular sugerindo lesão/luxação.
       Tendões e ligamentos de avaliação limitada nesse estudo.
+
       Conclusão:
       Fratura cominutiva da cabeça e do tubérculo maior do úmero com diástase dos principais fragmentos ósseos. Associa-se luxação anterior e inferior da cabeça do úmero.
       Fratura da porção anteroinferior da glenóide (lesão de Bankart).
       Derrame articular glenoumeral com conteúdo hemático.
       Aumento de volume e densificação de planos mioadiposos adjacentes aos sítios de fratura sugerindo edema/hematoma.
       Aumento do espaço articular acromioclavicular sugerindo lesão/luxação.
+
       Nota:
       Enfisema centrolobular e parasseptal no campo pulmonar esquerdo.
       Opacidades com atenuação em "vidro fosco" esparsas pelo campo pulmonar esquerdo. Esse conjunto de achados, diante do contexto, sugere a possibilidade de contusões pulmonares. Correlacionar com dados clínicos.
@@ -277,10 +280,11 @@ matches:
     label: "TC de ombro — luxação com lesão de Hill-Sachs/Bankart"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO S/C
+
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Irregularidade cortical no aspecto posterolateral no topo da cabeça umeral, sugerindo fratura compressiva de Hill-Sachs.
       Fratura no aspecto anteroinferior do labio glenoidal compatível com lesão de Bankart.
       Demais estruturas ósseas de forma conservada, sem sinais de fraturas.
@@ -341,7 +345,7 @@ matches:
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, antes e após a administração endovenosa de contraste, com reformatações multiplanares.
 
-      Análise:
+      Descrição:
       Estruturas ósseas de forma conservada, sem sinais de fraturas.
       Planos musculares sem alterações tomográficas.
       Após a administração endovenosa do meio de contraste, observou-se opacificação dos vasos arteriais e venosos do membro superior esquerdo.
@@ -442,16 +446,18 @@ matches:
     label: "Angio-RM de cervical — com contraste"
     replace: |-
       ANGIORESSONÂNCIA CERVICAL C/C
+
       Técnica:
       Realizado estudo por imagens de angiorressonância arterial cervical durante a injeção do meio de contraste endovenoso, com reconstruções tridimensionais.
-      Análise:
+
+      Descrição:
       Afilamento significativo da artéria carótida interna direita comprometendo a transição dos segmentos C1/C2 (cervical/petroso), notadando-se sinal do crescente nas ponderações T1 e T2, sugestivo de dissecção.
       Arco aórtico, tronco braquiocefálico e porções proximais das artérias subclávias com trajeto e calibre preservados.
       Origem habitual dos vasos no arco aórtico.
       Artérias carótidas comuns, segmento cervical da carótida interna esquerda e externas de calibre e contornos normais.
       Segmentos cervicais das artérias vertebrais de trajeto, calibre e contornos normais.
-      Opinião:
 
+      Conclusão:
       Afilamento significativo da artéria carótida interna direita comprometendo a transição dos segmentos C1/C2 (cervical/petroso), notadando-se sinal do crescente nas ponderações T1 e T2, sugestivo de dissecção.
     word: true
 
@@ -496,17 +502,17 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO PESCOÇO C/C
 
-      TÉCNICA:
+      Técnica:
       Exame de ressonância magnética do pescoço realizado com aquisições multiplanares, pelas técnicas de spin-eco com seqüências pesadas em T1 antes e após a administração endovenosa de contraste paramagnético e técnica de fast spin-eco pesada em T2.
 
-      RELATÓRIO:
+      Descrição:
       Faringe e laringe de aspecto preservado.
       Glândulas parótidas e submandibulares sem alterações.
       Glândula tireóide sem particularidades.
       Não se evidenciam linfonodomegalias.
       Não se observam realces anômalos focais.
 
-      OPINIÃO:
+      Conclusão:
       Estudo de ressonância magnética dentro dos limites da normalidade.
     word: true
 
