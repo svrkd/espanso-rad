@@ -1881,6 +1881,10 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA DAS MAMAS
 
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial.
+
+      Análise:
       Pele e tecido subcutâneo de aspecto ecográfico preservado.
       O tecido glandular mamário tem textura ecográfica homogênea.
       Ausência de nódulos sólidos ou cistos.
@@ -1889,21 +1893,20 @@ matches:
       Conclusão:
       Mamas normais ao ultrassom.
 
-
-      Classificação Bi_Rads®: Categoria 1.
+      Classificação BI-RADS®: Categoria 1.
     word: true
 
-  - trigger: "uslb"
+  - trigger: "axlb"
     label: "Mama (linfonodos axilares): Linfonodos de aspecto habitual nos prolongamentos axilares"
     replace: Linfonodos de aspecto habitual nos prolongamentos axilares.
     word: true
 
-  - trigger: "usle"
+  - trigger: "axle"
     label: "Mama (linfonodo axilar esquerdo): Linfonodo de aspecto habitual no prolongamento axilar esquerdo"
     replace: Linfonodo de aspecto habitual no prolongamento axilar esquerdo.
     word: true
 
-  - trigger: "usld"
+  - trigger: "axld"
     label: "Mama (linfonodo axilar direito): Linfonodo de aspecto habitual no prolongamento axilar direito"
     replace: Linfonodo de aspecto habitual no prolongamento axilar direito.
     word: true
