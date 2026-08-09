@@ -6437,39 +6437,36 @@ matches:
       Exame realizado com transdutor linear multifrequencial de alta resolução.
 
       Descrição:
-      Tireoide tópica, dimensões normais, contornos nítidos, ecogenicidade preservada e ecotextura homogênea.
+      Tireoide tópica, dimensões normais, contornos nítidos e ecotextura homogênea.
 
       Medidas:
-      Lobo direito: mm, com volume de cm³.
-      Lobo esquerdo: mm, com volume de cm³.
-      Istmo: mm, com volume de cm³.
-      Volume glandular total: cm³.
-      (normal= 6,0 a 15,0 cm³)
-      (normal= 0,40 a 1,40 cm³) - recém-nascido, aumentando em cerca de 1,0 a 1,3 cm³ para cada 10kg.
+      Lobo direito: _ cm, com volume de _ cm³.
+      Lobo esquerdo: _ cm, com volume de _ cm³.
+      Istmo: _ cm, com volume de _ cm³.
+      Volume glandular total: _ cm³. (normal= 6,0 a 15,0 cm³)
 
       Não há evidências de adenomegalias, ou linfonodos atípicos nas cadeias cervicais.
 
       Conclusão:
-      Exame ecográfico sem alterações significativas.
+      Exame ecográfico sem alterações significativas. 
     word: true
 
-  - trigger: "ustireoidedop"
+  - trigger: "ustireoided"
     label: Tireoide com Doppler — normal
     replace: |-
       ULTRASSONOGRAFIA DA TIREOIDE COM DOPPLER
 
       Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
+      Exame realizado com transdutor linear multifrequencial de alta resolução, com estudo Doppler.
 
       Descrição:
-      Tireoide tópica, dimensões normais, contornos nítidos, ecogenicidade preservada e ecotextura homogênea.
+      Tireoide tópica, dimensões normais, contornos nítidos e ecotextura homogênea.
 
       Medidas:
-      Lobo direito: mm, com volume de cm³.
-      Lobo esquerdo: mm, com volume de cm³.
-      Istmo: mm, com volume de cm³.
-      Volume glandular total: cm³.
-      (normal= 6,0 a 15,0 cm³)
+      Lobo direito: _ cm, com volume de _ cm³.
+      Lobo esquerdo: _ cm, com volume de _ cm³.
+      Istmo: _ cm, com volume de _ cm³.
+      Volume glandular total: _ cm³. (normal= 6,0 a 15,0 cm³)
 
       Vascularização da tireoide de aspecto habitual.
 
