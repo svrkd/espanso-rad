@@ -251,8 +251,8 @@ build_beeftext_portable() {
 
     echo "==> Gerando comboList.json a partir de match/*.yml"
     python3 "$REPO_ROOT/scripts/espanso_to_beeftext.py" \
-        "$REPO_ROOT/match/geral.yml" "$REPO_ROOT/match/us.yml" "$REPO_ROOT/match/tc.yml" \
-        "$REPO_ROOT/match/rx.yml" "$REPO_ROOT/match/rm.yml" "$REPO_ROOT/match/mmg.yml" \
+        "$REPO_ROOT/match/geral.yml" "$REPO_ROOT/match/us.yml" "$REPO_ROOT/match/tc_e.yml" \
+        "$REPO_ROOT/match/rx_h.yml" "$REPO_ROOT/match/rm_a.yml" "$REPO_ROOT/match/mmg.yml" \
         "$REPO_ROOT/match/legado.yml" \
         -o "$beeftext_root/comboList.json.tmp"
 

@@ -5,21 +5,21 @@ matches:
     replace: DIREITO
     word: true
 
-  # substituído por "esq" em rx.yml
+  # substituído por "esq" em rx_h.yml
 
   - trigger: "ESQ"
     label: "ESQUERDO (grafia legada maiúscula)"
     replace: ESQUERDO
     word: true
 
-  # substituído por "cabecote" em rx.yml
+  # substituído por "cabecote" em rx_h.yml
 
   - trigger: "cabeçote"
     label: "Luxação de artroplastia de quadril"
     replace: "Luxação da artroplastia total do quadril direito, com deslocamento cranial do componente femoral da prótese."
     word: true
 
-  # substituído por "rxantebraco1" em rx.yml
+  # substituído por "rxantebraco1" em rx_h.yml
 
   - trigger: "rxantebraço1"
     label: "Radiografia de antebraço — normal"
@@ -32,7 +32,7 @@ matches:
       Ausência de calcificações de partes moles.
     word: true
 
-  # substituído por "rxantebraco2" em rx.yml
+  # substituído por "rxantebraco2" em rx_h.yml
 
   - trigger: "rxantebraço2"
     label: "Radiografia de antebraço — normal/degenerativo (opções)"
@@ -48,7 +48,7 @@ matches:
       Ausência de calcificações de partes moles.
     word: true
 
-  # substituído por "rxantebracod" em rx.yml
+  # substituído por "rxantebracod" em rx_h.yml
 
   - trigger: "rxantebraçod"
     label: "Radiografia de antebraço direito — normal"
@@ -61,7 +61,7 @@ matches:
       Ausência de calcificações de partes moles.
     word: true
 
-  # substituído por "rxantebracoe" em rx.yml
+  # substituído por "rxantebracoe" em rx_h.yml
 
   - trigger: "rxantebraçoe"
     label: "Radiografia de antebraço esquerdo — normal"
@@ -74,7 +74,7 @@ matches:
       Ausência de calcificações de partes moles.
     word: true
 
-  # substituído por "rxbraco1" em rx.yml
+  # substituído por "rxbraco1" em rx_h.yml
 
   - trigger: "rxbraço1"
     label: "Radiografia de braço — normal"
@@ -87,7 +87,7 @@ matches:
       Ausência de calcificações de partes moles.
     word: true
 
-  # substituído por "rxbraco2" em rx.yml
+  # substituído por "rxbraco2" em rx_h.yml
 
   - trigger: "rxbraço2"
     label: "Radiografia de braço — normal/degenerativo (opções)"
@@ -102,7 +102,7 @@ matches:
       Ausência de calcificações de partes moles.
     word: true
 
-  # substituído por "rxbracod" em rx.yml
+  # substituído por "rxbracod" em rx_h.yml
 
   - trigger: "rxbraçod"
     label: "Radiografia de braço direito — normal"
@@ -115,7 +115,7 @@ matches:
       Ausência de calcificações de partes moles.
     word: true
 
-  # substituído por "rxbracoe" em rx.yml
+  # substituído por "rxbracoe" em rx_h.yml
 
   - trigger: "rxbraçoe"
     label: "Radiografia de braço esquerdo — normal"
@@ -128,14 +128,14 @@ matches:
       Ausência de calcificações de partes moles.
     word: true
 
-  # substituído por "translacao" em rx.yml
+  # substituído por "translacao" em rx_h.yml
 
   - trigger: "translaçao"
     label: "Translação anterior da tíbia (insuficiência do LCA)"
     replace: "Translação anterior da tibia, sugerindo instabilidade secundária a insuficiência do ligamento cruzado anterior."
     word: true
 
-  # substituído por "traco" em rx.yml
+  # substituído por "traco" em rx_h.yml
 
   - trigger: "traço"
     label: "Traço radiolucente sugerindo fratura"
@@ -143,24 +143,24 @@ matches:
     word: true
 
   # ============================================================
-  # ORIGEM: tc.yml
+  # ORIGEM: tc_e.yml
   # ============================================================
 
-  # substituído por "edema" em tc.yml
+  # substituído por "edema" em tc_e.yml
 
   - trigger: "EDEMA"
     label: "Edema cerebral"
     replace: "Apagamento difuso dos sulcos e giros encefálicos associado a perda da diferenciação corticossubcortical, podendo corresponder a edema cerebral."
     word: true
 
-  # substituído por "tc1" em tc.yml
+  # substituído por "tc1" em tc_e.yml
 
   - trigger: "TC1"
     label: "Nota: nódulos pulmonares diminutos (referência bibliográfica)"
     replace: "Com o advento da nova geração de tomógrafos (multislice) houve um aumento na detecção de diminutos nódulos pulmonares. Em pacientes sem neoplasia conhecida, a maioria destes diminutos nódulos constitui achado benigno. Radiology 2003; 226:489-493."
     word: true
 
-  # substituído por "tcbacia" em tc.yml
+  # substituído por "tcbacia" em tc_e.yml
 
   - trigger: "TCBACIA"
     label: "TC de bacia — normal (grafia legada maiúscula)"
@@ -181,56 +181,56 @@ matches:
       Exame dentro dos padrões da normalidade.
     word: true
 
-  # substituído por "alcanl" em tc.yml
+  # substituído por "alcanl" em tc_e.yml
 
   - trigger: "alçanl"
     label: "Alças intestinais de distribuição usual"
     replace: Alças intestinais de distribuição usual, sem sinais aparentes de anormalidades focais.
     word: true
 
-  # substituído por "cabaco" em tc.yml
+  # substituído por "cabaco" em tc_e.yml
 
   - trigger: "cabaço"
     label: "Calcificações residuais no baço"
     replace: "Pequenas calcificações no parênquima esplênico, de aspecto residual. Restante do parênquima esplênico sem particularidades."
     word: true
 
-  # substituído por "cabaco1" em tc.yml
+  # substituído por "cabaco1" em tc_e.yml
 
   - trigger: "cabaço1"
     label: "Calcificação residual no baço"
     replace: "Pequena calcificação no parênquima esplênico, de aspecto residual. Restante do parênquima esplênico sem particularidades."
     word: true
 
-  # substituído por "cabaco1f" em tc.yml
+  # substituído por "cabaco1f" em tc_e.yml
 
   - trigger: "cabaço1f"
     label: "Calcificação residual no segmento hepático V"
     replace: "Pequena calcificação no segmento hepático V, de aspecto residual."
     word: true
 
-  # substituído por "cabacof" em tc.yml
+  # substituído por "cabacof" em tc_e.yml
 
   - trigger: "cabaçof"
     label: "Calcificações residuais no fígado"
     replace: "Pequenas calcificações no parênquima hepático, de aspecto residual."
     word: true
 
-  # substituído por "cabacof1" em tc.yml
+  # substituído por "cabacof1" em tc_e.yml
 
   - trigger: "cabaçof1"
     label: "Calcificação residual no fígado"
     replace: "Pequena calcificação no parênquima hepático, de aspecto residual."
     word: true
 
-  # substituído por "doencadefahr" em tc.yml
+  # substituído por "doencadefahr" em tc_e.yml
 
   - trigger: "doençadefahr"
     label: "Calcificações dos núcleos da base (doença de Fahr)"
     replace: "Calcificações comprometendo de forma bilateral e relativamente simétrica os núcleos da base, tálamos e parte da substância branca subcortical dos lobos frontais e temporais. Admitem-se inicialmente as possibilidades de doença de Fahr, alterações relacionadas a hipoparatireodismo/pseudo-hipoparatireodismo e distúrbios relacionados ao metabolismo do cálcio. Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
     word: true
 
-  # substituído por "fraturaluxacaoombro" em tc.yml
+  # substituído por "fraturaluxacaoombro" em tc_e.yml
 
   - trigger: "fraturaluxaçãoombro"
     label: "TC de ombro — fratura-luxação com lesão de Bankart"
@@ -260,21 +260,21 @@ matches:
       Opacidades com atenuação em "vidro fosco" esparsas pelo campo pulmonar esquerdo. Esse conjunto de achados, diante do contexto, sugere a possibilidade de contusões pulmonares. Correlacionar com dados clínicos.
     word: true
 
-  # substituído por "hemangiomapequenofigado" em tc.yml
+  # substituído por "hemangiomapequenofigado" em tc_e.yml
 
   - trigger: "hemangiomapequenofígado"
     label: "Pequeno hemangioma hepático"
     replace: "Fígado com dimensões, contornos e densidade normais, exceto por imagem nodular hipodensa no segmento VI, medindo 1,1 cm, apresentando homogeneização tardia após a administração do meio de contraste endovenoso, inespecífico, porém sugestivo de hemangioma. Os diagnósticos diferenciais devem ser aplicados."
     word: true
 
-  # substituído por "luxacaocolunacervical" em tc.yml
+  # substituído por "luxacaocolunacervical" em tc_e.yml
 
   - trigger: "luxaçaocolunacervical"
     label: "Subluxação anterior da coluna cervical (C5-C6)"
     replace: "Subluxação anterior da coluna cervical caracterizada por anterolistese grau I de C5 sobre C6, deslocamento facetário bilateral, distância interespinhosa local aumentada, redução do respectivo espaço intervertebral e cifotização cervical. A possibilidade de lesão do complexo ligamentar posterior da coluna cervical por entorse com hiperflexão pode ser considerada. Os diagnósticos diferenciais devem ser aplicados. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos, inclusive na pesquisa de possível lesão na medula espinhal associada."
     word: true
 
-  # substituído por "luxacaoombro" em tc.yml
+  # substituído por "luxacaoombro" em tc_e.yml
 
   - trigger: "luxaçãoombro"
     label: "TC de ombro — luxação com lesão de Hill-Sachs/Bankart"
@@ -301,14 +301,14 @@ matches:
       Mínimo derrame articular glenoumeral.
     word: true
 
-  # substituído por "prostao" em tc.yml
+  # substituído por "prostao" em tc_e.yml
 
   - trigger: "prostão"
     label: "Aumento volumétrico da próstata"
     replace: Aparente aumento volumétrico da próstata.
     word: true
 
-  # substituído por "recidivapescoco" em tc.yml
+  # substituído por "recidivapescoco" em tc_e.yml
 
   - trigger: "recidivapescoço"
     label: "TC de pescoço — recidiva tumoral pós-operatória"
@@ -335,7 +335,7 @@ matches:
       Espondilose cervical.
     word: true
 
-  # substituído por "tcbraco" em tc.yml
+  # substituído por "tcbraco" em tc_e.yml
 
   - trigger: "tcbraço"
     label: "TC de braço — normal (com contraste)"
@@ -360,7 +360,7 @@ matches:
       Exame dentro dos padrões da normalidade.
     word: true
 
-  # substituído por "tcintussuscepcao" em tc.yml
+  # substituído por "tcintussuscepcao" em tc_e.yml
 
   - trigger: "tcintussuscepção"
     label: "Sinais de intussuscepção intestinal"
@@ -368,26 +368,26 @@ matches:
     word: true
 
   # ------------------------------------------------------------
-  # Movidos de tc.yml sem renomeação — triggers com pontuação,
+  # Movidos de tc_e.yml sem renomeação — triggers com pontuação,
   # preservados como estão (não há grafia canônica substituta;
   # o charset [a-z0-9] não se aplica a legado.yml).
   # ------------------------------------------------------------
 
-  # movido de tc.yml sem renomeação (trigger com pontuação)
+  # movido de tc_e.yml sem renomeação (trigger com pontuação)
 
   - trigger: "aneurisma?"
     label: "Assimetria da bifurcação da ACM - possível aneurisma"
     replace: "Assimetria da bifurcação das artérias cerebrais médias, mais saliente à direita, melhor avaliada por estudo dirigido. Aneurisma? A critério clínico, se possível, o estudo dessa região por imagens de angiorressonância magnética poderá fornecer maiores subsídios diagnósticos."
     word: true
 
-  # movido de tc.yml sem renomeação (trigger com pontuação)
+  # movido de tc_e.yml sem renomeação (trigger com pontuação)
 
   - trigger: "v/q"
     label: "Atenuação em mosaico (distúrbio V/Q)"
     replace: Áreas com atenuação em mosaico esparsas bilaterais podendo estar associadas a distúrbio de ventilação/perfusão.
     word: true
 
-  # movido de tc.yml sem renomeação (trigger com pontuação)
+  # movido de tc_e.yml sem renomeação (trigger com pontuação)
 
   - trigger: "c#"
     label: "Comparação com exame anterior (template)"
@@ -397,7 +397,7 @@ matches:
       Permanecendo:
     word: true
 
-  # movido de tc.yml sem renomeação (trigger com pontuação)
+  # movido de tc_e.yml sem renomeação (trigger com pontuação)
 
   - trigger: "c="
     label: "Comparação sem alterações significativas (template)"
@@ -416,31 +416,31 @@ matches:
     word: true
 
   # ============================================================
-  # ORIGEM: rm.yml
+  # ORIGEM: rm_a.yml
   # ============================================================
 
-  # substituído por "bastrup" em rm.yml
+  # substituído por "bastrup" em rm_a.yml
 
   - trigger: "Bastrup"
     label: "Bursite interespinhosa inflamatória (Baastrup)"
     replace: "Aproximação e contato das apófises espinhosas lombares, associada a áreas de edema de medula óssea adjacente, além de espessamento e hipersinal em T2/STIR da bursa interespinhosa, compatíveis com bursite interespinhosa inflamatória (Baastrup)."
     word: true
 
-  # substituído por "actinica" em rm.yml
+  # substituído por "actinica" em rm_a.yml
 
   - trigger: "actínica"
     label: "Neoplasia residual/recidivada x actínica"
     replace: "A possibilidade de neoplasia residual/recidivada pode ser considerada, entretanto, a  habilidade do exame de ressonância magnética na diferenciação com alterações actínicas é limitada, uma vez que a manifestação usual dessas patologias pode ser semelhante do ponto de vista de imagem."
     word: true
 
-  # substituído por "alcadebalde" em rm.yml
+  # substituído por "alcadebalde" em rm_a.yml
 
   - trigger: "alçadebalde"
     label: "Rotura meniscal em alça de balde"
     replace: "Adelgaçamento do corpo do menisco medial sugerindo lesão/rotura. Parece existir pequeno fragmento meniscal, interposto na região da fossa intercondilar, sugerindo lesão em alça de balde."
     word: true
 
-  # substituído por "disseccao" em rm.yml
+  # substituído por "disseccao" em rm_a.yml
 
   - trigger: "dissecçao"
     label: "Angio-RM de cervical — com contraste"
@@ -461,21 +461,21 @@ matches:
       Afilamento significativo da artéria carótida interna direita comprometendo a transição dos segmentos C1/C2 (cervical/petroso), notadando-se sinal do crescente nas ponderações T1 e T2, sugestivo de dissecção.
     word: true
 
-  # substituído por "lipomabraco" em rm.yml
+  # substituído por "lipomabraco" em rm_a.yml
 
   - trigger: "lipomabraço"
     label: "Lesão de natureza lipomatosa"
     replace: "Formação expansiva bem delimitada, com sinal semelhante ao da gordura em todas as sequências de pulso, localizada na porção proximal do ventre muscular do bíceps braquial, determinando abaulamento focal na porção proximal do ventre muscular do peitoral maior, mantendo planos de clivagem com o mesmo. Tal lesão  lesão apresenta alguns finos septos internos, exibindo discreta impregnação pelo agente de contraste paramagnético endovenoso, medindo cerca de 10,6 x 7,1 x 4,9 cm (CC x LL x AP). Tais achados são compatíveis com lesão de natureza lipomatosa."
     word: true
 
-  # substituído por "osteomielitecronicarm1" em rm.yml
+  # substituído por "osteomielitecronicarm1" em rm_a.yml
 
   - trigger: "osteomielitecrônica"
     label: "Reação periosteal difusa (invólucro)"
     replace: "Fratura antiga na região diafisária média da tíbia, evidenciando-se sinais de osteomielite crônica, caracterizada por reação periosteal difusa (invólucro), com área de descontinuidade da cortical, destacando-se abscesso e sequestro ósseo, apresentando trajeto fistuloso (cloaca), drenando para a pele/tecido celular subcutâneo na região anterior da perna. O conjunto de achados sugere osteomielite crônica agudizada."
     word: true
 
-  # substituído por "rmbraco" em rm.yml
+  # substituído por "rmbraco" em rm_a.yml
 
   - trigger: "rmbraço"
     label: "RM de braço"
@@ -495,7 +495,7 @@ matches:
       Exame dentro dos limites da normalidade.
     word: true
 
-  # substituído por "rmpescoco" em rm.yml
+  # substituído por "rmpescoco" em rm_a.yml
 
   - trigger: "rmpescoço"
     label: "RM de pescoço — com contraste"
@@ -516,14 +516,14 @@ matches:
       Estudo de ressonância magnética dentro dos limites da normalidade.
     word: true
 
-  # substituído por "rotmacica" em rm.yml
+  # substituído por "rotmacica" em rm_a.yml
 
   - trigger: "rotmaciça"
     label: "Rotura maciça crônica do manguito rotador"
     replace: "Rotura maciça crônica dos tendões componentes do manguito rotador, caracterizada por acentuada retração dos cotos tendíneos até o nível da glenoide, associada a lipossubstituição dos respectivos ventres musculares, compatível com cronicidade."
     word: true
 
-  # substituído por "multiparametrica" em rm.yml
+  # substituído por "multiparametrica" em rm_a.yml
 
   - trigger: "Multiparametrica"
     label: "Sugestão de RM multiparamétrica de próstata"
