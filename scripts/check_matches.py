@@ -13,7 +13,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 MATCH_DIR = REPO / "match"
-SECTIONED_FILES = {"rx.yml", "tc.yml", "us.yml", "rm.yml"}
+SECTIONED_FILES = {"rx_h.yml", "tc_e.yml", "us.yml", "rm_a.yml"}
 LEGADO_FILE = "legado.yml"
 
 
