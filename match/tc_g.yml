@@ -7,21 +7,12 @@ matches:
   - trigger: "tcneo1"
     label: "Metástases abdominais em estudo comparativo"
     replace: |-
-      A análise comparativa com o exame realizado em _, guardadas as diferenças na metodologia empregada, evidencia:
-      Status pós drenagem do abscesso de parede abdominal anterior (_).
-      Status pós retirada de corpo estranho da parede abdominal anterior, na altura do hipocôndrio direito (_).
       Aumento volumétrico das duas lesões nodulares na parede posterossuperior da bexiga urinária, com realce após a infusão de meio de contraste endovenoso, uma medindo _ cm e outra _ cm (ambas mediam _ cm em _).
       Lesão nodular hipodensa, com centro liquefeito/necrótico, de contornos irregulares, exibindo realce heterogêneo após a infusão de meio de contraste endovenoso, localizada na cavidade peritoneal, adjacente à flexura hepática, medindo _ cm, sugerindo metástase com invasão da parede abdominal.
       Formação nodular, medindo _ cm, com densidade de partes moles e realce heterogêneo após a infusão do meio de contraste endovenoso, localizada na parede abdominal adjacente à lesão supracitada, sem nítidos planos de clivagem com a mesma, sugerindo metástase.
-      Segmentectomia hepática (IVa/VIII), medindo _ cm.
       Lesão hipodensa, com realce após a infusão de meio de contraste endovenoso, localizada no segmento IVa/VIII, adjacente ao sítio de segmentectomia, medindo _ cm, sugerindo metástase com extensão extra-hepática e invasão da parede abdominal e do mediastino inferior.
-      Imagem ovalada hipodensa, subcentimétrica, localizada no segmento hepático II, sugerindo cisto.
       Lesão nodular de contornos irregulares, medindo _ cm, localizada na cavidade pélvica à direita, adjacente à anastomose intestinal nessa região, com sinais de invasão do ureter distal ipsilateral, promovendo acentuada dilatação do sistema coletor.
       Linfonodomegalias na cadeia retal superior, sendo que a maior permanece medindo cerca de _ cm.
-      Histerectomia total.
-      Sinais de salpingo-ooforectomia bilateral, reconstrução do trânsito intestinal e sigmoidectomia.
-      Diástase da aponeurose do reto abdominal com protrusão de alças cólicas no seu interior (provável hérnia incisional).
-      Medianização do ceco.
     word: true
 
   - trigger: "tcneo2"
@@ -60,9 +51,7 @@ matches:
   - trigger: "tcneo8"
     label: "Recidiva tumoral pélvica com metástases hepáticas e peritoneais"
     replace: |-
-      Status pós colectomia segmentar, histerectomia subtotal, salpingo-ooforectomia e cistectomia parcial.
       Formação heterogênea sólido-cística, localizada na cavidade pélvica, de limites parcialmente definidos, apresentando íntimo contato e sem planos de clivagem com alças intestinais colônicas e delgadas, parede da bexiga e ureteres, determinando pequena dilatação do sistema coletor renal à direita, medindo _ cm no maior eixo axial, podendo representar recidiva tumoral.
-      Fígado apresentando redução difusa do coeficiente de atenuação de seu parênquima, representando esteatose.
       Múltiplos nódulos hepáticos hipovasculares, de limites definidos, distribuídos difusamente por todo o parênquima, os dois maiores:
       - segmento VII, medindo _ cm;
       - segmento VIII, medindo _ cm.
@@ -479,7 +468,6 @@ matches:
     replace: |-
       Fígado com dimensões reduzidas à custa do lobo direito, apresentando contornos serrilhados, bordas rombas, fissuras acentuadas e densidade do parênquima heterogênea. Associam-se mínima quantidade de líquido livre na cavidade abdominal, com densificação do tecido adiposo mesentérico, circulação colateral portossistêmica e ectasia de vasos esplâncnicos.
       Destacam-se ainda afilamento e calcificações da veia porta, podendo corresponder a trombose crônica, relacionada à doença de base (esquistossomose).
-      Esplenectomia.
     word: true
 
   - trigger: "tcfig2"
@@ -626,7 +614,6 @@ matches:
     replace: |-
       Fígado de dimensões aumentadas e contornos lobulados, com múltiplos nódulos, alguns com realce pelo meio de contraste, notando-se retardo e heterogeneidade da contrastação do parênquima hepático, bem como dilatação das veias hepáticas, da cava inferior e do átrio direito, podendo corresponder a hepatopatia congestiva. Correlacionar com história clínica e estudo ecocardiográfico.
       Presença de circulação colateral portossistêmica e no hilo esplênico, bem como recanalização das paraumbilicais e varizes pélvicas, inferindo hipertensão portal. Associam-se ainda ascite, derrame pleural à direita e derrame pericárdico, todos de pequeno volume.
-      Espessamento parietal do corpo e do antro gástricos.
     word: true
 
   - trigger: "tcfig24"
@@ -968,7 +955,7 @@ matches:
 
   - trigger: "tcvb33"
     label: "Colangiocarcinoma extra-hepático de difícil definição"
-    replace: Pequena dilatação das vias biliares intra-hepáticas, notando-se discreta heterogeneidade junto à confluência dos ductos hepáticos, de difícil definição no presente estudo. Destacam-se múltiplas linfonodomegalias retroperitoneais, junto ao hilo hepático e retrocrurais, bem como pequena quantidade de líquido livre na cavidade abdominal. Observa-se também vesícula biliar de paredes irregularmente espessadas e com material denso no seu interior (prováveis cálculos), achados melhor avaliados por estudo ultrassonográfico. O conjunto sugere processo neoplásico (de vias biliares), devendo-se prosseguir investigação com colangiorressonância caso persista a indicação clínica.
+    replace: Pequena dilatação das vias biliares intra-hepáticas, notando-se discreta heterogeneidade junto à confluência dos ductos hepáticos, de difícil definição no presente estudo. Destacam-se múltiplas linfonodomegalias retroperitoneais, junto ao hilo hepático e retrocrurais, bem como pequena quantidade de líquido livre na cavidade abdominal. O conjunto sugere processo neoplásico (de vias biliares), devendo-se prosseguir investigação com colangiorressonância caso persista a indicação clínica.
     word: true
 
   - trigger: "tcvb34"
