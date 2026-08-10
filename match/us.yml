@@ -7400,6 +7400,25 @@ matches:
   # VASCULAR — DOPPLER DE ARTÉRIAS CERVICAIS (CARÓTIDAS E VERTEBRAIS)
   # ==============================================================================
 
+  - trigger: "uscv"
+    label: Carótidas e vertebrais c/ Doppler — normal
+    replace: |-
+      ULTRASSONOGRAFIA DE CARÓTIDAS E VERTEBRAIS COM DOPPLER
+
+      Técnica:
+      Avaliação das carótidas e vertebrais com transdutor linear multifrequencial, utilizando modos B, Doppler colorido e espectral.
+
+      Descrição:
+      Artérias carótidas comuns, internas e externas de calibre e trajeto conservados.
+      Artérias carótidas comuns apresentando espessura médio-intimal parietal à direita de _ mm e à esquerda de _ mm.
+      Ausência de placas calcificadas.
+      A análise espectral revelou fluxo de velocidade normal e janela sistólica preservada em artérias carótidas internas.
+      Artérias vertebrais com fluxo anterógrado e de velocidades normais.
+
+      Conclusão:
+      Não há evidências de estenoses significativas em artérias carótidas internas bilateralmente.
+    word: true
+
   - trigger: "dc1"
     label: "Artéria carótida: Aumento da espessura médio-intimal das artérias carótidas (achado descritivo)"
     replace: Artérias carótidas comum, interna e externa de trajeto preservado. Artéria carótida comum à _ com espessamento difuso do complexo médio-intimal em toda a sua extensão, medindo _ mm. Ausência de placas ateromatosas ou estenoses. Ao estudo Doppler espectral, velocidades de fluxo dentro dos limites da normalidade.

@@ -251,6 +251,7 @@ MODELOS = [
     (("usvenosod", "usvenosoe"), "duplex venoso MID/MIE"),
     (("ustvpmid", "ustvpmie"), "venoso MI completo"),
     (("ustvpmsd", "ustvpmse"), "venoso MS completo"),
+    (("uscv",), "carótidas e vertebrais c/ Doppler"),
     (("ustransfontanela",), "transfontanela"), (("usquadrilinfantil",), "quadril infantil (Graf)"),
     (("usrvrn",), "urinário neonatal"),
     (("uscotovelod", "uscotoveloe"), "cotovelo D/E — normal"),
