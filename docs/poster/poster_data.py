@@ -130,7 +130,7 @@ BLOCOS = [
             ("3", "nódulo único"),
         ]),
         ("triggers", ["ma3s", "ma4"], "mama", "múltiplos nódulos (≥2 sítios)"),
-        ("escada", "usl", "linfonodo axilar normal", [
+        ("escada", "axl", "linfonodo axilar normal", [
             ("b", "bilateral"), ("d", "direito"), ("e", "esquerdo"),
         ]),
         ("escada", "ti", "tireoide", [
@@ -244,13 +244,14 @@ MODELOS = [
     (("uspelvica",), "pélvica"), (("ustv",), "transvaginal"),
     (("usbolsa",), "bolsa escrotal"), (("usbolsad",), "bolsa escrotal c/ Doppler"),
     (("usob",), "obstétrica"), (("usobd",), "obstétrica c/ Doppler"), (("usob1t",), "obstétrica 1ºT"),
-    (("usmamas",), "mamas"), (("ustireoide",), "tireoide"), (("ustireoidedop",), "tireoide c/ Doppler"),
+    (("usmamas",), "mamas"), (("ustireoide",), "tireoide"), (("ustireoided",), "tireoide c/ Doppler"),
     (("uscervical",), "cervical"), (("ustorax",), "tórax"), (("usestsup",), "partes moles"),
     (("usparede",), "parede abdominal"),
     (("usinguinald", "usinguinale"), "inguinal D/E"),
     (("usvenosod", "usvenosoe"), "duplex venoso MID/MIE"),
     (("ustvpmid", "ustvpmie"), "venoso MI completo"),
     (("ustvpmsd", "ustvpmse"), "venoso MS completo"),
+    (("uscv",), "carótidas e vertebrais c/ Doppler"),
     (("ustransfontanela",), "transfontanela"), (("usquadrilinfantil",), "quadril infantil (Graf)"),
     (("usrvrn",), "urinário neonatal"),
     (("uscotovelod", "uscotoveloe"), "cotovelo D/E — normal"),

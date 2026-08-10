@@ -347,9 +347,9 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | Trigger | Label |
 |---|---|
 | usmamas | Mamas — normal (BI-RADS 1) |
-| uslb | Mama (linfonodos axilares): Linfonodos de aspecto habitual nos prolongamentos axilares |
-| usle | Mama (linfonodo axilar esquerdo): Linfonodo de aspecto habitual no prolongamento axilar esquerdo |
-| usld | Mama (linfonodo axilar direito): Linfonodo de aspecto habitual no prolongamento axilar direito |
+| axlb | Mama (linfonodos axilares): Linfonodos de aspecto habitual nos prolongamentos axilares |
+| axle | Mama (linfonodo axilar esquerdo): Linfonodo de aspecto habitual no prolongamento axilar esquerdo |
+| axld | Mama (linfonodo axilar direito): Linfonodo de aspecto habitual no prolongamento axilar direito |
 | mms1 | Mama (cistos): Cistos subcentimétricos esparsos por ambas as mamas |
 | ma3 | Mama (nódulo): Nódulo na mama [direita/esquerda] com as características acima descritas (achado descritivo) |
 | usnc | Mama (nódulo): Nódulo na mama [direita/esquerda] com as características acima descritas |
@@ -1157,7 +1157,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 |---|---|
 | uscervical | Região cervical — normal |
 | ustireoide | Tireoide — normal |
-| ustireoidedop | Tireoide com Doppler — normal |
+| ustireoided | Tireoide com Doppler — normal |
 | ti1 | Tireoide (nódulo): Nódulo tireoidiano à _, com padrão de baixo risco ao Doppler (Chammas II) (achado descritivo) |
 | ti1c | Tireoide (nódulo): Nódulo tireoidiano à _, com padrão de baixo risco ao Doppler (Chammas II) |
 | ti2 | Tireoide (nódulo): Nódulo tireoidiano à _, com características suspeitas ao método (Chammas III/IV) (achado descritivo) |
@@ -1324,6 +1324,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 
 | Trigger | Label |
 |---|---|
+| uscv | Carótidas e vertebrais c/ Doppler — normal |
 | dc1 | Artéria carótida: Aumento da espessura médio-intimal das artérias carótidas (achado descritivo) |
 | dc1c | Artéria carótida: Aumento da espessura médio-intimal das artérias carótidas |
 | dc2 | Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica (achado descritivo) |
