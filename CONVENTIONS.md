@@ -30,16 +30,16 @@ Todo trigger **novo** usa só `[a-z0-9]` — sem acento, maiúscula ou pontuaç�
 
 ## `match/legado.yml`
 
-Quando um trigger existente precisa ser renomeado para se adequar à convenção (tipicamente por charset), a grafia **antiga** não é apagada — ela é movida para `match/legado.yml`, com o mesmo `replace` do trigger canônico, preservando a memória muscular de quem já digita aquele mnemônico há anos. A grafia **nova**, em conformidade com o charset, passa a viver no arquivo de modalidade correto (`rx_h.yml`, `tc_e.yml`, etc.).
+Quando um trigger existente precisa ser renomeado para se adequar à convenção (tipicamente por charset), a grafia **antiga** não é apagada — ela é movida para `match/legado.yml`, com o mesmo `replace` do trigger canônico, preservando a memória muscular de quem já digita aquele mnemônico há anos. A grafia **nova**, em conformidade com o charset, passa a viver no arquivo de modalidade correto (`rx.yml`, `tc.yml`, etc.).
 
 `match/legado.yml` é organizado por comentários indicando o arquivo de origem e, acima de cada entrada, o trigger canônico correspondente:
 
 ```yaml
   # ============================================================
-  # ORIGEM: rx_h.yml
+  # ORIGEM: rx.yml
   # ============================================================
 
-  # substituído por "cabecote" em rx_h.yml
+  # substituído por "cabecote" em rx.yml
   - trigger: "cabeçote"
     label: "..."
     replace: "..."
@@ -50,7 +50,7 @@ Quando um trigger existente precisa ser renomeado para se adequar à convenção
 
 ## Seções temáticas
 
-Arquivos com muitas entradas (`rx_h.yml`, `tc_e.yml`) são organizados sob banners de comentário por região anatômica/sistema, no mesmo estilo já usado em `us.yml`:
+Arquivos com muitas entradas (`rx.yml`, `tc.yml`) são organizados sob banners de comentário por região anatômica/sistema, no mesmo estilo já usado em `us.yml`:
 
 ```yaml
   # ==========================================================================
@@ -100,7 +100,7 @@ Exame sem alterações significativas.
 
 ## Nomenclatura de triggers novos
 
-- **Código de órgão + número**, no estilo já usado em `us.yml` (`vb1`, `vb2`, `ba3`, `rv14`...): padrão recomendado para achados novos em qualquer arquivo, não só `us.yml`. O mesmo código de órgão é reaproveitado entre modalidades (ex. `vb` para vesícula biliar vale tanto para uma entrada nova em `us.yml` quanto em `tc_e.yml`).
+- **Código de órgão + número**, no estilo já usado em `us.yml` (`vb1`, `vb2`, `ba3`, `rv14`...): padrão recomendado para achados novos em qualquer arquivo, não só `us.yml`. O mesmo código de órgão é reaproveitado entre modalidades (ex. `vb` para vesícula biliar vale tanto para uma entrada nova em `us.yml` quanto em `tc.yml`).
 - **Par achado + conclusão** (`trigger` / `triggerc`): use quando o achado tiver uma versão descritiva longa (para o corpo do laudo) E uma frase-conclusão curta útil separadamente (para a seção de conclusão). Se não houver essa separação natural, não force o par.
 - **Sem prefixo de modalidade por padrão** (`rx`/`tc`/`us`). Prefixo só entra como válvula de escape para desambiguar uma colisão real entre modalidades — não é obrigatório em todo trigger novo.
 - Antes de adicionar um trigger novo, sempre grep em todos os `match/*.yml` para evitar colisão silenciosa:
