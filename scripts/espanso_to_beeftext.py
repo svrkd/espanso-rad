@@ -5,7 +5,7 @@ Converte um ou mais arquivos de matches do Espanso (match/*.yml) para um
 comboList.json importável no BeefText (fileFormatVersion 10).
 
 Cada arquivo de entrada vira um grupo do BeefText, nomeado a partir do nome
-base do arquivo (ex.: rx_h.yml -> grupo "rx_h"). Cada entrada de `matches:` vira
+base do arquivo (ex.: rx.yml -> grupo "rx"). Cada entrada de `matches:` vira
 um combo (`keyword` = trigger, `snippet` = replace). Os campos `label` e
 `word` do Espanso não têm equivalente no schema do BeefText e são
 descartados na conversão.

@@ -1,6 +1,6 @@
 ---
 name: add-espanso
-description: Adiciona um novo trigger/match ao repositório de configuração do Espanso (match/*.yml) a partir de um texto de "replace" fornecido pelo usuário. Use sempre que o usuário invocar `/add-espanso`, pedir para "adicionar um trigger novo", "criar um match", "adicionar esse texto ao espanso", "criar um snippet/atalho de laudo" ou colar um trecho de laudo (radiografia, tomografia, ultrassom, ressonância magnética, mamografia) pedindo para transformá-lo em atalho de texto. Também use quando o usuário mencionar `tc_e.yml`, `us.yml`, `rx_h.yml`, `rm_a.yml`, `mmg.yml` ou `geral.yml` no contexto de adicionar uma entrada nova.
+description: Adiciona um novo trigger/match ao repositório de configuração do Espanso (match/*.yml) a partir de um texto de "replace" fornecido pelo usuário. Use sempre que o usuário invocar `/add-espanso`, pedir para "adicionar um trigger novo", "criar um match", "adicionar esse texto ao espanso", "criar um snippet/atalho de laudo" ou colar um trecho de laudo (radiografia, tomografia, ultrassom, ressonância magnética, mamografia) pedindo para transformá-lo em atalho de texto. Também use quando o usuário mencionar `tc.yml`, `us.yml`, `rx.yml`, `rm.yml`, `mmg.yml` ou `geral.yml` no contexto de adicionar uma entrada nova.
 ---
 
 # Adicionar match ao Espanso (`/add-espanso`)
@@ -14,7 +14,7 @@ O objetivo é reduzir o trabalho manual de digitar a entrada certa no formato ce
 Tudo que vier depois de `/add-espanso` é, por padrão, o texto candidato ao `replace`. Mas antes de tratar o texto inteiro como `replace`, procure por indicações explícitas do próprio usuário sobre:
 
 - **trigger** — ex.: "trigger: vb3", "trigger vb3", "atalho vb3"
-- **arquivo/modalidade de destino** — ex.: "arquivo: tc_e.yml", "vai pro us.yml", "é de tomografia", "coloca no rx"
+- **arquivo/modalidade de destino** — ex.: "arquivo: tc.yml", "vai pro us.yml", "é de tomografia", "coloca no rx"
 
 Se o usuário já informou um desses diretamente no prompt, use o valor informado e **não pergunte de novo por ele** — pule direto para o próximo passo que ainda falta. O que sobrar do prompt depois de remover essas indicações é o `replace`.
 
@@ -38,12 +38,12 @@ Se já existir em qualquer arquivo, **não sobrescreva silenciosamente**: avise 
 
 Mesmo quando o conteúdo do `replace` parece deixar óbvia a modalidade (por exemplo, o texto menciona "tomografia" ou já começa com "RADIOGRAFIA DE TÓRAX"), **sempre confirme o arquivo de destino com o usuário por `AskUserQuestion`** — a menos que ele já tenha indicado isso diretamente no prompt. Não decida isso sozinho por inferência silenciosa: o objetivo é que o usuário veja e confirme onde a entrada vai parar.
 
-Opções da pergunta — apresente as que fizerem sentido, com a mais provável primeiro (baseado em palavras-chave do `replace`, ex. "tomografia"/"TC" → `tc_e.yml` primeiro; "ultrassom"/"USG" → `us.yml`; "radiografia"/"RX" → `rx_h.yml`; "ressonância"/"RM"/sinal em T1/T2 → `rm_a.yml`; "mamografia" → `mmg.yml`; texto genérico sem modalidade clara → `geral.yml`):
+Opções da pergunta — apresente as que fizerem sentido, com a mais provável primeiro (baseado em palavras-chave do `replace`, ex. "tomografia"/"TC" → `tc.yml` primeiro; "ultrassom"/"USG" → `us.yml`; "radiografia"/"RX" → `rx.yml`; "ressonância"/"RM"/sinal em T1/T2 → `rm.yml`; "mamografia" → `mmg.yml`; texto genérico sem modalidade clara → `geral.yml`):
 
-- `tc_e.yml` — Tomografia computadorizada
+- `tc.yml` — Tomografia computadorizada
 - `us.yml` — Ultrassonografia
-- `rx_h.yml` — Radiografia
-- `rm_a.yml` — Ressonância magnética
+- `rx.yml` — Radiografia
+- `rm.yml` — Ressonância magnética
 - `mmg.yml` — Mamografia
 - `geral.yml` — Geral (não específico de uma modalidade: siglas, conectores, frases de correlação clínica, atalhos de busca)
 
@@ -68,7 +68,7 @@ Edite o arquivo de destino diretamente como texto (com a ferramenta de edição)
 - Uma linha em branco separando a nova entrada das vizinhas.
 
 Onde inserir dentro do arquivo:
-- **`rx_h.yml` / `tc_e.yml` / `rm_a.yml`**: dentro do banner de seção temático apropriado (`# === NOME DA SEÇÃO ===`). A taxonomia de 10 categorias está em `CONVENTIONS.md` (Crânio/Encéfalo/SNC, Face/Órbitas/..., Coluna, Tórax, Abdome/Pelve, Membros Superiores, Membros Inferiores, Vascular, Templates completos/Cabeçalhos/Assinaturas, Gerais/Diversos). Insira no fim do bloco da seção correspondente.
+- **`rx.yml` / `tc.yml` / `rm.yml`**: dentro do banner de seção temático apropriado (`# === NOME DA SEÇÃO ===`). A taxonomia de 10 categorias está em `CONVENTIONS.md` (Crânio/Encéfalo/SNC, Face/Órbitas/..., Coluna, Tórax, Abdome/Pelve, Membros Superiores, Membros Inferiores, Vascular, Templates completos/Cabeçalhos/Assinaturas, Gerais/Diversos). Insira no fim do bloco da seção correspondente.
 - **`us.yml`**: dentro do banner de órgão/região correspondente (ex. fígado, rins, pélvica).
 - **`geral.yml` / `mmg.yml`**: não usam banners de seção — insira no fim do arquivo.
 
