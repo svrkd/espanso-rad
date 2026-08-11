@@ -79,3 +79,13 @@ matches:
     label: "bilateralmente"
     replace: bilateralmente
     word: true
+
+  - trigger: "us"
+    label: "ultrassonografia"
+    replace: ultrassonografia
+    word: true
+
+  - trigger: "tv"
+    label: "transvaginal"
+    replace: transvaginal
+    word: true
