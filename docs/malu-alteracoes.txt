@@ -75,6 +75,7 @@ classe é cada uma, e o subtotal por classe vem no fim da seção.
   3x  'clinica' -> 'clínica'   (acentuação) [correção de português]
   1x  'clinico' -> 'clínico'   (acentuação) [correção de português]
   1x  'clinicos' -> 'clínicos'   (acentuação) [correção de português]
+  3x  regra automática: colchete vazio uniformizado para _   [placeholder uniformizado para _]
   1x  'colunas anterior e medial' -> 'colunas anterior e posterior'   (anatomia/clínica corrigida a pedido do usuário) [anatomia/clínica corrigida a pedido do usuário]
   1x  'com com pequeno fragmento' -> 'com pequeno fragmento'   (palavra repetida) [correção de português]
   2x  'com intensidade de sinal normal. , exceto' -> 'com intensidade de sinal normal, exceto'   (pontuação espúria) [correção de português]
@@ -93,10 +94,10 @@ classe é cada uma, e o subtotal por classe vem no fim da seção.
   2x  'do ligamento iliofemoral.( se oblitera eh capsulite)' -> 'do ligamento iliofemoral.'   (nota de estudo removida) [nota de estudo removida]
   1x  'do tornozelo e médio' -> 'do tornozelo e mediopé'   (palavra truncada) [inferência de conteúdo a partir do contexto]
   1x  'dos ligamento acromioclaviculares' -> 'dos ligamentos acromioclaviculares'   (concordância) [correção de português]
-  2x  'dos limites da normalidade.]' -> 'dos limites da normalidade.'   (colchete do export) [artefato do export]
+  2x  'dos limites da normalidade.]' -> 'dos limites da normalidade.'   (colchete do export) [placeholder uniformizado para _]
   1x  'edema subcorticais junto a areas' -> 'Edemas subcorticais junto a áreas'   (concordância inferida: a fonte é ambígua entre singular e plural) [inferência de conteúdo a partir do contexto]
   1x  'eletroneuromiografia.F' -> 'eletroneuromiografia.'   (resíduo de rascunho) [resíduo de rascunho removido]
- 29x  regra automática: espaço antes de vírgula   [correção de português]
+ 28x  regra automática: espaço antes de vírgula   [correção de português]
   6x  regra automática: espaço antes do ponto final   [correção de português]
   6x  regra automática: espaço após ponto   [correção de português]
   9x  regra automática: espaço após vírgula   [correção de português]
@@ -108,6 +109,7 @@ classe é cada uma, e o subtotal por classe vem no fim da seção.
   1x  'estudo do mediopé evidência' -> 'estudo do mediopé evidencia'   (verbo x substantivo) [correção de português]
   2x  'evidência ruptura' -> 'evidencia ruptura'   (verbo x substantivo) [correção de português]
   1x  'exposição do osseo subcondral' -> 'exposição do osso subcondral'   (typo: o substantivo é osso, não o adjetivo ósseo) [correção de português]
+  1x  'extensor, medindo mm ,' -> 'extensor, medindo _ x _ x _ mm,'   (placeholder uniformizado para _) [placeholder uniformizado para _]
   1x  'fascia plamar' -> 'fáscia palmar'   (typo e acentuação) [correção de português]
   3x  'fibricicatricial' -> 'fibrocicatricial'   (typo) [correção de português]
   2x  'flexor radial longo do carpo' -> 'flexor radial do carpo'   (anatomia/clínica corrigida a pedido do usuário) [anatomia/clínica corrigida a pedido do usuário]
@@ -126,6 +128,8 @@ classe é cada uma, e o subtotal por classe vem no fim da seção.
   2x  'iprovavelmente' -> 'provavelmente'   (typo) [correção de português]
   2x  'junto a origem da cabeça do metatarso' -> 'junto a origem da cabeça do metacarpo'   (anatomia corrigida a pedido do usuário) [anatomia/clínica corrigida a pedido do usuário]
   2x  'junto à inserção na base da falange distal' -> 'junto à inserção na base da falange proximal'   (anatomia/clínica corrigida a pedido do usuário) [anatomia/clínica corrigida a pedido do usuário]
+  2x  regra automática: lacuna por ponto uniformizada para _   [placeholder uniformizado para _]
+  2x  regra automática: lacuna vazia uniformizada para _   [placeholder uniformizado para _]
   1x  'lipomatose→ aumento da gordua' -> 'Aumento da gordura'   (nota de estudo e typo) [nota de estudo removida]
   2x  'locorregionias' -> 'locorregionais'   (typo) [correção de português]
   2x  'medindo 1,2 mm (nl até 12mm)' -> 'medindo 1,2 cm (nl até 12mm)'   (anatomia/clínica corrigida a pedido do usuário) [anatomia/clínica corrigida a pedido do usuário]
@@ -145,6 +149,7 @@ classe é cada uma, e o subtotal por classe vem no fim da seção.
   3x  'osteossintese' -> 'osteossíntese'   (acentuação) [correção de português]
   1x  'parafuxo' -> 'parafuso'   (typo) [correção de português]
   2x  'parosteoal' -> 'parosteal'   (typo) [correção de português]
+ 34x  regra automática: placeholder numérico uniformizado para _   [placeholder uniformizado para _]
   2x  'polger' -> 'polegar'   (typo) [correção de português]
   6x  'porem' -> 'porém'   (acentuação) [correção de português]
   1x  'porçào' -> 'porção'   (acentuação) [correção de português]
@@ -159,6 +164,7 @@ classe é cada uma, e o subtotal por classe vem no fim da seção.
   1x  're  tificação' -> 'retificação'   (espaço espúrio) [correção de português]
   3x  'relacionadas a manipulação' -> 'relacionadas à manipulação'   (crase) [correção de português]
   3x  'relacionado a atrito.( id Sinais de impacto isquiofemoral)' -> 'relacionado a atrito.'   (nota de estudo removida) [nota de estudo removida]
+  1x  regra automática: reticências de preenchimento para _   [placeholder uniformizado para _]
   4x  'rotura parcial insercionais' -> 'rotura parcial insercional'   (concordância) [correção de português]
   2x  'sem retração.//// sobrecarga mecanica' -> 'sem retração.'   (resíduo de rascunho) [resíduo de rascunho removido]
   1x  'significaticas' -> 'significativas'   (typo) [correção de português]
@@ -179,22 +185,24 @@ classe é cada uma, e o subtotal por classe vem no fim da seção.
   1x  'tuberosidades isquiáticas .' -> 'tuberosidades isquiáticas.'   (espaço antes do ponto) [correção de português]
   1x  'técnica helicoidal/multislice com aquisições axiais e reconstruções multiplanares. Administrado meio de contraste paramagnético' -> 'técnica helicoidal/multislice com aquisições axiais e reconstruções multiplanares. Administrado meio de contraste iodado'   (anatomia/clínica corrigida a pedido do usuário) [anatomia/clínica corrigida a pedido do usuário]
   2x  'umero' -> 'úmero'   (acentuação) [correção de português]
+ 21x  regra automática: underline de preenchimento normalizado para _   [placeholder uniformizado para _]
   2x  'unocarpico' -> 'ulnocárpico'   (typo) [correção de português]
   2x  'veia axilar bilateral' -> 'veia subclávia bilateral'   (anatomia/clínica corrigida a pedido do usuário) [anatomia/clínica corrigida a pedido do usuário]
   1x  'volume de 2,3 cm³' -> 'volume de 0,2 cm³'   (anatomia/clínica corrigida a pedido do usuário) [anatomia/clínica corrigida a pedido do usuário]
   1x  'óssos' -> 'ossos'   (hipercorreção) [correção de português]
 
 por classe:
-  488x  correção de português
+  487x  correção de português
+   66x  placeholder uniformizado para _
    39x  anatomia/clínica corrigida a pedido do usuário
    33x  data de exame mascarada
    19x  resíduo de rascunho removido
    17x  nota de estudo removida
     9x  inferência de conteúdo a partir do contexto
-    3x  artefato do export
     1x  nome de colega removido
+    1x  artefato do export
 
-subtotal: 609 substituições, 157 regras ativas
+subtotal: 672 substituições, 164 regras ativas
 
 ------------------------------------------------------------
 2. ANOTAÇÕES REMOVIDAS DO TEXTO
@@ -320,5 +328,5 @@ por isso não exigem motivo individual:
   total de linhas não-vazias fora de toda faixa: 893
 
 ------------------------------------------------------------
-TOTAL: 609 substituições por regra (seção 1) + 90 anotações removidas (seção 2) + 41 linhas descartadas de dentro de máscara (seção 3)
+TOTAL: 672 substituições por regra (seção 1) + 90 anotações removidas (seção 2) + 41 linhas descartadas de dentro de máscara (seção 3)
        + 548 linhas da fonte deixadas de fora (seção 4)

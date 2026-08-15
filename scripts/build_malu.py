@@ -38,6 +38,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 # de refletir só o que de fato mudou.
 # --------------------------------------------------------------------------
 CORRECOES = [
+    # --- placeholders uniformizados para `_` (pedido do dono do repositório).
+    # Aqui só o caso multi-dimensional: lesão nodular, que ela mede sempre em
+    # três eixos ("medindo cerca de 0,8 x 1,3 x 0,6 cm"). O resto é regex.
+    ("extensor, medindo mm ,", "extensor, medindo _ x _ x _ mm,",
+     "placeholder uniformizado para _"),
     # --- revisão clínica, segunda leva (lotes pé/colunas e quadril/joelho).
     # Mesmas classes A e B já autorizadas.
     # laudo de antepé (II metatarsofalângica): fêmur não existe no campo.
@@ -467,6 +472,38 @@ def limpar(linhas: list[str], modo: str, contador: dict) -> str:
 PALAVRA = re.compile(r"^[0-9A-Za-zÀ-ÿ]+$")
 
 REGRAS_REGEX = [
+    # --- placeholders numéricos uniformizados para `_`.
+    # NÃO toca: `XX` usado como separador de alternativa ("normotróficos XX
+    # hipotróficos", "à direita XX esquerda"), data mascarada (XX/XX/XXXX),
+    # "raio-X", o `X` de eixo ("AP X LL") e os marcadores `#`/`###` de título.
+    # O gatilho é sempre a vizinhança numérica: unidade, verbo de medida ou
+    # campo "Medida:".
+    (re.compile(r"\bX{1,4}\b(?=\s*(?:mm|cm|ml|cm³|cc|º|%|graus)\b)"), "_",
+     "placeholder numérico uniformizado para _"),
+    (re.compile(r"((?:medindo|mede|estimad[ao] em|de at[ée]|calibre de|"
+                r"espessura de|volume de|retração de|afundamento estimado em)"
+                r"\s+(?:cerca de\s+)?)X{1,4}\b"), r"\1_",
+     "placeholder numérico uniformizado para _"),
+    (re.compile(r"((?:Medida|Ângulo|Índice|Intervalo)[^:\n]{0,70}:\s*)X{1,4}\b"),
+     r"\1_", "placeholder numérico uniformizado para _"),
+    (re.compile(r"(\"Glenoid Track\":\s*)X{1,4}\b"), r"\1_",
+     "placeholder numérico uniformizado para _"),
+    # linha de tabela de medida ("Direito: XX  Esquerdo: XX (Normal < 20 mm)")
+    (re.compile(r"\b(Direito|Esquerdo):\s*X{1,4}\b"), r"\1: _",
+     "placeholder numérico uniformizado para _"),
+    # posição no relógio do orifício da fístula
+    (re.compile(r"\bàs\s+X{1,4}\s+horas\b"), "às _ horas",
+     "placeholder numérico uniformizado para _"),
+    # lacuna vazia antes da unidade ("diâmetro proximal de  mm")
+    (re.compile(r"(\b(?:de|medindo|mede)\s)\s*(?=(?:mm|cm|ml)\b)"), r"\1_ ",
+     "lacuna vazia uniformizada para _"),
+    # formas de lacuna não-numérica que já eram underline/colchete: só o
+    # comprimento é normalizado, o campo continua sendo o mesmo
+    (re.compile(r"_{2,}"), "_", "underline de preenchimento normalizado para _"),
+    (re.compile(r"\[\s*\]"), "_", "colchete vazio uniformizado para _"),
+    (re.compile(r"\bde\s+\.{3,}"), "de _", "reticências de preenchimento para _"),
+    (re.compile(r"(discos intervertebrais de)\s+\."), r"\1 _.",
+     "lacuna por ponto uniformizada para _"),
     (re.compile(r"(?<=[a-zà-ÿ])\.(?=[A-ZÀ-Ý])"), ". ", "espaço após ponto"),
     (re.compile(r"(?<=[a-zà-ÿ]),(?=[A-Za-zÀ-ÿ])"), ", ", "espaço após vírgula"),
     # não colapsa a lacuna de preenchimento que antecede uma unidade
@@ -538,6 +575,9 @@ def _classe(nota: str) -> str:
     # que mexe em conteúdo, não como a que só limpa
     if any(x in nota for x in ("unidade faltante", "truncada", "reconstruíd", "inferida")):
         return "inferência de conteúdo a partir do contexto"
+    if "placeholder" in nota or "lacuna" in nota or "underline" in nota \
+            or "colchete" in nota or "reticências" in nota:
+        return "placeholder uniformizado para _"
     if "anatomia" in nota:
         return "anatomia/clínica corrigida a pedido do usuário"
     if "data de exame" in nota:
