@@ -186,7 +186,7 @@ AUTOR_TAGS = re.compile(
 )
 
 # Anotação composta: qualificador clínico + nome de quem passou o caso
-# ("(crônica jan)", "(recon guinel)"). Sai só o nome; o qualificador é achado
+# (qualificador + nome numa só anotação). Sai só o nome; o qualificador é achado
 # da autora e fica.
 NOME_EM_ANOT = re.compile(
     r"(?<=[（(])([^()）]*\S)\s+\b(?:yamada|yamda|tati|jan|guinel|neto|ikawa|"
@@ -264,7 +264,9 @@ def extrair(spec: str) -> list[str]:
     return linhas
 
 
-SETA = re.compile(r"^\s*[→@·\[]\s*")
+# `·` NÃO entra aqui: é marcador de lista de segundo nível da autora, não
+# marca de caderno. Sai só em modo bullet, junto com os outros marcadores.
+SETA = re.compile(r"^\s*[→@\[]\s*")
 MARCADOR = re.compile(r"^\s*(?:[-*·.]|\d+\.)\s+")
 
 # No caderno, título de tópico vem marcado com seta; achado, não. Como a
@@ -389,6 +391,23 @@ def aplicar_correcoes(texto: str, contador: dict) -> str:
         if n:
             contador[(nota, "")] = contador.get((nota, ""), 0) + n
     return texto
+
+
+# Nomes que o gerador remove do texto. Aparecem nos padrões acima porque sem o
+# literal o padrão não casa — mas não têm por que ser reimpressos no log, que é
+# saída de auditoria e não padrão de casamento.
+NOMES_NO_LOG = re.compile(
+    r"\b(?:yamada|yamda|tati|jan|guinel|neto|ikawa|bruno|samir|ivan|fais|ya|"
+    r"marco b|almir|kim|arthur|paulo|pedro|alfredo|hernani|paola|nilson|"
+    r"goulart|miquilino|nida|neide|paranavai|faissal|cedirp|santa catarina|"
+    r"rede dor|hap vida)\b",
+    re.IGNORECASE,
+)
+
+
+def _sem_nome(txt: str) -> str:
+    """Troca nome próprio por marcador antes de escrever no log."""
+    return NOMES_NO_LOG.sub("[identificação removida]", txt)
 
 
 def _classe(nota: str) -> str:
@@ -685,11 +704,9 @@ def main():
             classes[cl] = classes.get(cl, 0) + n
             if certo == "":
                 linhas_log.append(f"{n:3d}x  regra automática: {errado}   [{cl}]")
-            elif cl == "nome de colega removido":
-                # o log não repete o nome que a regra existe para tirar
-                linhas_log.append(f"{n:3d}x  [identificação removida] -> {certo!r}   ({nota}) [{cl}]")
             else:
-                linhas_log.append(f"{n:3d}x  {errado!r} -> {certo!r}   ({nota}) [{cl}]")
+                linhas_log.append(f"{n:3d}x  {_sem_nome(repr(errado))} -> "
+                                  f"{_sem_nome(repr(certo))}   ({nota}) [{cl}]")
         linhas_log += [
             "",
             "por classe:",
@@ -711,7 +728,7 @@ def main():
             "",
         ]
         for (rotulo, _), n in sorted(anot.items()):
-            linhas_log.append(f"{n:3d}x  {rotulo}")
+            linhas_log.append(f"{n:3d}x  {_sem_nome(rotulo)}")
         linhas_log += [
             "",
             f"subtotal: {sum(anot.values())} remoções, {len(anot)} anotações distintas",

@@ -26,9 +26,9 @@ EXCLUSOES = {
         87: 'rótulo de tópico do caderno',
            # Aorta Abdominal e Ilíacas
        128: 'link de referência',
-           # https://hapvida-login.pixeonkorus.com/
+           # [identificação removida]
        131: 'link de referência',
-           # https://hapvida-login.pixeonkorus.com/
+           # [identificação removida]
        132: 'link de referência',
            # https://radsource.us/common-intraosseous-cysts/
        182: 'rótulo de tópico do caderno',
@@ -42,7 +42,7 @@ EXCLUSOES = {
        305: 'nome de colega ou de paciente',
            # [identificação removida]
        373: 'rótulo de tópico do caderno',
-           # coluna rede
+           # [identificação removida]
        378: 'rótulo de tópico do caderno',
            # - Alinhamentos sagital e coronal:
        472: 'nota de estudo, anatomia ou valor de referência',
@@ -296,7 +296,7 @@ EXCLUSOES = {
       3687: 'nota de estudo, anatomia ou valor de referência',
            # O estabilizador ativo mais importante da patela é o músculo vasto medial oblíquo (VMO), 
       3718: 'título de máscara no caderno',
-           # JOELHO TAGT SANTA
+           # [identificação removida]
       3748: 'título de máscara no caderno',
            # JOELHO TAGT
       3783: 'rótulo de tópico do caderno',
@@ -872,7 +872,7 @@ EXCLUSOES = {
      10053: 'rótulo de tópico do caderno',
            # ct bacia paget
      10083: 'rótulo de tópico do caderno',
-           # ct quadril santa
+           # [identificação removida]
      10091: 'rótulo de tópico do caderno',
            # Infiltração medular?
      10094: 'rótulo de tópico do caderno',
