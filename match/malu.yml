@@ -1952,7 +1952,7 @@ matches:
 
   - trigger: "fct3"
     label: "Alteração pós-contusional da inserção ulnar da fibrocartilagem"
-    replace: "Alteração de sinal da inserção ulnar da fibrocartilagem triangular, que pode estar relacionado a alterações pós contusional, sem roturas."
+    replace: "Alteração de sinal da inserção ulnar da fibrocartilagem triangular, que pode estar relacionado a alterações pós contusional, sem roturas.( pos trauma)"
     word: true
 
   - trigger: "fct4"
@@ -5349,7 +5349,7 @@ matches:
 
   - trigger: "lcaroto7"
     label: "Rotura completa crônica do ligamento cruzado anterior"
-    replace: "Rotura completa do ligamento cruzado anterior, com fibras afiladas e mal caracterizadas no trajeto intra articular."
+    replace: "Rotura completa do ligamento cruzado anterior, com fibras afiladas e mal caracterizadas no trajeto intra articular. (crônica)"
     word: true
 
   - trigger: "lcaroto8"
@@ -6049,7 +6049,7 @@ matches:
 
   - trigger: "sitiodoador2"
     label: "Manipulação cirúrgica do tendão patelar com sinais de integração"
-    replace: "Manipulação cirúrgica no tendão patelar, relacionado a área doadora de enxerto ligamentar, com sinais de integração."
+    replace: "Manipulação cirúrgica no tendão patelar, relacionado a área doadora de enxerto ligamentar, com sinais de integração. (recon)"
     word: true
 
   - trigger: "sitiodoador3"
@@ -6346,7 +6346,7 @@ matches:
       Afilamento das fibras do ligamento cruzado anterior com leve alteração do sinal habitual, podendo estar relacionado a alteração degenerativa ou mesmo sequela de estiramento com rotura parcial, sendo conveniente correlacionar com exame físico para avaliação de sua suficiência.
       Rotura parcial de alto grau do ligamento cruzado posterior, predominando na banda póstero medial. A sua suficiência poderá ser melhor correlacionada com dados clínicos.
       Rotura parcial extensa do ligamento cruzado posterior com fino feixe de fibras proximal remanescente contínuo, sendo a sua suficiência melhor avaliada por correlação com exame clínico.
-      Rotura completa do ligamento cruzado anterior, com fibras afiladas e mal caracterizadas no trajeto intra articular.
+      Rotura completa do ligamento cruzado anterior, com fibras afiladas e mal caracterizadas no trajeto intra articular. (crônica)
       Ligamento cruzado posterior com alteração degenerativa/cicatricial das fibras no terço distal, sem roturas significativas.
       Rotura parcial do ligamento colateral medial, com irregularidade e alteração de sinal.
       Leve espessamento fibrocicatricial no terço proximal do ligamento colateral medial com edema periligamentar.
@@ -6501,7 +6501,7 @@ matches:
       Superfícies condrais sem anormalidades significativas.
       Não há evidências de fissuras ou erosões condrais profundas.
       Bifidez do tendão patelar, sugerindo sítio doador de enxerto ligamentar / Afilamento e irregularidade de contornos da porção distal dos tendões flexores, sugerindo sítio doador de enxerto ligamentar. Demais tendões musculares íntegros, com espessura e intensidade de sinal normais.
-      Manipulação cirúrgica no tendão patelar, relacionado a área doadora de enxerto ligamentar, com sinais de integração.
+      Manipulação cirúrgica no tendão patelar, relacionado a área doadora de enxerto ligamentar, com sinais de integração. (recon)
       Alteração pós cirúrgica com falha central do tendão patelar, sugerindo sítio doador de enxerto ligamentar.
       Afilamento e irregularidade de contornos da porção distal dos tendões do grácil e semitendinoso, sugerindo sítio doador de enxerto ligamentar. Demais tendões musculares íntegros, com espessura e intensidade de sinal normais
       Tendão quadríceps e ligamento patelar de aspecto normal.
@@ -13344,6 +13344,11 @@ matches:
   - trigger: "obstumorresid1"
     label: "Ressalva — sugerir RM com contraste para lesão tumoral residual cervical"
     replace: "À critério clínico sugere-se correlação com ressonância magnética com contraste para avaliação de lesão tumoral residual, das regiões de partes moles e vasos cervicais, devido a baixa sensibilidade na avaliação destas estruturas por este método."
+    word: true
+
+  - trigger: "demaisestrut1"
+    label: "Demais estruturas com morfologia preservada"
+    replace: "Demais estruturas com morfologia preservada."
     word: true
 
   - trigger: "artefatos1"
