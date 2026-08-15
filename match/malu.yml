@@ -606,7 +606,7 @@ matches:
 
   - trigger: "deltoide2"
     label: "Alterações cicatriciais do deltoide pós-cirúrgicas"
-    replace: "Alterações cicatriciais no deltóide relacionadas a manipulação cirúrgica."
+    replace: "Alterações cicatriciais no deltóide relacionadas à manipulação cirúrgica."
     word: true
 
   - trigger: "hillsachs4"
@@ -1013,7 +1013,7 @@ matches:
       Discreto afilamento condral na porção inferior da cabeça umeral.
       Não há evidências de derrame articular ou sinovite.
       Não se caracterizam fissuras ou erosões condrais profundas.
-      Alterações cicatriciais no deltóide relacionadas a manipulação cirúrgica.
+      Alterações cicatriciais no deltóide relacionadas à manipulação cirúrgica.
       Demais estruturas ósseas sem anormalidades significativas.
       Demais estruturas periarticulares sem anormalidades.
     word: true
@@ -2378,7 +2378,7 @@ matches:
 
   - trigger: "posoppunho1"
     label: "Alterações fibrocicatriciais volares com descontinuidade do retináculo"
-    replace: "Alterações fibrocicatriciais na face volar do punho possivelmente relacionadas a manipulação cirúrgica pregressa. Há ainda descontinuidade do retináculo dos flexores na região centro lateral."
+    replace: "Alterações fibrocicatriciais na face volar do punho possivelmente relacionadas à manipulação cirúrgica pregressa. Há ainda descontinuidade do retináculo dos flexores na região centro lateral."
     word: true
 
   - trigger: "sinovitepunho1"
@@ -2679,11 +2679,6 @@ matches:
   - trigger: "fxhamato1"
     label: "Fratura do hâmulo do hamato"
     replace: "Fratura do hâmulo do hamato, sem desvios significativos."
-    word: true
-
-  - trigger: "posoppunho2"
-    label: "Alterações fibrocicatriciais volares pós-cirúrgicas do punho"
-    replace: "Alterações fibrocicatriciais na face volar do punho possivelmente relacionadas à manipulação cirúrgica pregressa. Há ainda descontinuidade do retináculo dos flexores na região centro lateral"
     word: true
 
   - trigger: "miotendinpunhonl1"
@@ -4146,11 +4141,6 @@ matches:
     replace: "Ateromatose aorto-ilíaca."
     word: true
 
-  - trigger: "ateromatose2"
-    label: "TC — ateromatose aortoilíaca"
-    replace: "Ateromatose aortoilíaca."
-    word: true
-
   - trigger: "bexigarepleta1"
     label: "TC — bexiga urinária em acentuada repleção"
     replace: "Bexiga urinária em acentuada repleção."
@@ -4187,7 +4177,7 @@ matches:
     word: true
 
   - trigger: "rmquadril2"
-    label: "RM de quadril — normal"
+    label: "RM de quadril — modelo mestre com alternativas"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO QUADRIL
 
@@ -6295,7 +6285,7 @@ matches:
     word: true
 
   - trigger: "rmjoelho2"
-    label: "RM de joelho — normal"
+    label: "RM de joelho — modelo mestre com alternativas"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO
 
@@ -8944,7 +8934,7 @@ matches:
     word: true
 
   - trigger: "rmpe2"
-    label: "RM de pé — normal"
+    label: "RM de pé — modelo mestre com alternativas"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO PÉ
 
@@ -11499,7 +11489,7 @@ matches:
     word: true
 
   - trigger: "rmdorsal"
-    label: "RM de coluna dorsal — normal"
+    label: "RM de coluna dorsal — modelo mestre com alternativas"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA DORSAL
 
@@ -11686,7 +11676,7 @@ matches:
     word: true
 
   - trigger: "rmlombar7"
-    label: "RM de coluna lombossacra — normal com espondilose"
+    label: "RM de coluna lombossacra — modelo mestre com alternativas e lacunas a preencher"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBO-SACRA
 
