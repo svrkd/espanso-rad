@@ -569,6 +569,11 @@ matches:
     replace: "Pequeno derrame articular glenoumeral, com sinais de espessamento sinovial, denotando sinovite reacional."
     word: true
 
+  - trigger: "derramegle8"
+    label: "Pequeno derrame articular com discreta sinovite reacional"
+    replace: "Pequeno derrame articular, com sinais de discreta sinovite reacional."
+    word: true
+
   - trigger: "derramegle5"
     label: "Derrame glenoumeral com componente hemático"
     replace: "Pequeno derrame articular glenoumeral com focos de espessamento sinovial e componente hemático intra-articular. Destaca-se ainda pequena distensão líquida com focos hemáticos/sinoviais na bainha extra-articular do cabo longo do bíceps."
@@ -1272,6 +1277,8 @@ matches:
   - trigger: "tcombro"
     label: "TC de ombro — pós-osteossíntese do úmero proximal"
     replace: |-
+      TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO
+
       Técnica:
       Aquisição volumétrica sem contraste.
 
@@ -1302,6 +1309,8 @@ matches:
   - trigger: "tcombro2"
     label: "TC de ombro — osteossíntese não consolidada"
     replace: |-
+      TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO
+
       Técnica:
       Aquisição volumétrica sem contraste.
 
@@ -5108,6 +5117,8 @@ matches:
   - trigger: "rmperna3"
     label: "RM de perna — sequela do gastrocnêmio"
     replace: |-
+      RESSONÂNCIA MAGNÉTICA DA PERNA
+
       Método:
       Exame realizado com a sequência FSE com cortes multiplanares de 4,0 mm de espessura.
 
@@ -5120,6 +5131,8 @@ matches:
       Feixe vásculo-neural de aspecto normal.
       Não se caracterizam coleções ou abscessos.
       Demais estruturas na região das pernas sem anormalidades significativas.
+
+      Conclusão:
     word: true
 
   - trigger: "rmperna4"
@@ -9509,6 +9522,11 @@ matches:
     replace: "Leve alteração degenerativa difusa das articulações interfacetárias."
     word: true
 
+  - trigger: "interfacetcerv5"
+    label: "Alteração degenerativa difusa das interfacetárias"
+    replace: "Alteração degenerativa difusa das articulações interfacetárias."
+    word: true
+
   - trigger: "interfacetcerv2"
     label: "Processo inflamatório osteo-hipertrófico da interfacetária"
     replace: "Intenso processo inflamatório com componente osteo-hipertrófico inflamatório da interfacetária em C4-C5 à direita com edema ósseo das facetas articulares, perifacetário e inclusive com líquido intra-articular (sinovite)."
@@ -10638,6 +10656,11 @@ matches:
   - trigger: "desidratlomb2"
     label: "Desidratação discal difusa com redução em L3-L4"
     replace: "- Discos intervertebrais: desidratação discal difusa, com redução da altura em L3-L4."
+    word: true
+
+  - trigger: "desidratlomb4"
+    label: "Máscara — hipo-hidratação dos discos em (nível a preencher)"
+    replace: "Hipohidratação dos discos intervertebrais em"
     word: true
 
   - trigger: "desidratlomb3"
@@ -13364,6 +13387,11 @@ matches:
   - trigger: "semabscesso1"
     label: "Não se caracterizam coleções ou abscessos"
     replace: "Não se caracterizam coleções ou abscessos."
+    word: true
+
+  - trigger: "pormenorizado1"
+    label: "Demais aspectos pormenorizados no corpo do laudo"
+    replace: "Demais aspectos pormenorizados no corpo do laudo."
     word: true
 
   - trigger: "artefatos1"
