@@ -66,7 +66,7 @@ ENTRADAS = [
     ("rizart2", "Leve rizartrose com esboços osteofitários", "6789"),
     ("rizart3", "Rizartrose com derrame articular e sinovite", "6790"),
     ("rizart4", "Afilamento condral trapeziometacarpal", "6791"),
-    ("rizart5", "Mínimo afilamento condral entre o trapézio e a base do I metatarso (sic)", "6792"),
+    ("rizart5", "Mínimo afilamento condral entre o trapézio e a base do I metacarpo", "6792"),
     ("rizart6", "Rizartrose incipiente com pequeno derrame articular", "11843"),
     ("rizart7", "Derrame na trapézio-metacarpal com espessamento capsuloligamentar", "11901"),
     ("rizart8", "US — leve rizartrose", "11228"),

@@ -38,6 +38,19 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 # de refletir só o que de fato mudou.
 # --------------------------------------------------------------------------
 CORRECOES = [
+    # --- anatomia: lapsos da autora, corrigidos a pedido explícito do dono do
+    # repositório (radiologista). Fora do mandato original "só português e
+    # typo", por isso contam em classe própria no log, nunca como português.
+    # Rizartrose é a artrose trapeziometacarpal: o osso é o metacarpo.
+    ("trapézio e a base do primeiro metatarso",
+     "trapézio e a base do primeiro metacarpo",
+     "anatomia corrigida a pedido do usuário"),
+    # Metacarpofalângica do polegar: a própria frase, adiante, diz "inserção
+    # no metacarpo". O literal é longo porque "cabeça do metatarso" também
+    # ocorre num laudo de pé, onde está certo.
+    ("junto a origem da cabeça do metatarso",
+     "junto a origem da cabeça do metacarpo",
+     "anatomia corrigida a pedido do usuário"),
     # --- ombro ---
     ("Reção", "Reação", "typo"),
     ("DAS PERNAS E COXAS (miosite de hepatopata, reconversao/medula hematopoietica)", "DAS PERNAS E COXAS", "nota de estudo removida"),
@@ -417,6 +430,8 @@ def _classe(nota: str) -> str:
     # que mexe em conteúdo, não como a que só limpa
     if any(x in nota for x in ("unidade faltante", "truncada", "reconstruíd", "inferida")):
         return "inferência de conteúdo a partir do contexto"
+    if "anatomia" in nota:
+        return "anatomia corrigida a pedido do usuário"
     if "data de exame" in nota:
         return "data de exame mascarada"
     if "nota de estudo" in nota:
