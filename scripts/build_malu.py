@@ -679,6 +679,9 @@ def main():
             classes[cl] = classes.get(cl, 0) + n
             if certo == "":
                 linhas_log.append(f"{n:3d}x  regra automática: {errado}   [{cl}]")
+            elif cl == "nome de colega removido":
+                # o log não repete o nome que a regra existe para tirar
+                linhas_log.append(f"{n:3d}x  [identificação removida] -> {certo!r}   ({nota}) [{cl}]")
             else:
                 linhas_log.append(f"{n:3d}x  {errado!r} -> {certo!r}   ({nota}) [{cl}]")
         linhas_log += [

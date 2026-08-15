@@ -10,7 +10,7 @@ estar contida num replace maior não é o mesmo que a frase existir.
 
 EXCLUSOES = {
       4048: 'identificação de caso, paciente, data ou local',
-           # JOELHO PADRÃO CEDIRP
+           # [identificação removida]
       9838: 'título de máscara no caderno',
            # CT CÓCCIX
      10291: 'título de máscara no caderno',
@@ -20,9 +20,9 @@ EXCLUSOES = {
      10446: 'título de máscara no caderno',
            # CT BACIA - DISJUNÇÃO SACROILIACA
         30: 'identificação de caso, paciente, data ou local',
-           # po op manguito almir
+           # [identificação removida]
         67: 'identificação de caso, paciente, data ou local',
-           # kim
+           # [identificação removida]
         87: 'rótulo de tópico do caderno',
            # Aorta Abdominal e Ilíacas
        128: 'link de referência',
@@ -40,7 +40,7 @@ EXCLUSOES = {
        273: 'rótulo de tópico do caderno',
            # luxação
        305: 'nome de colega ou de paciente',
-           # dr arthur
+           # [identificação removida]
        373: 'rótulo de tópico do caderno',
            # coluna rede
        378: 'rótulo de tópico do caderno',
@@ -62,21 +62,21 @@ EXCLUSOES = {
        509: 'rótulo de tópico do caderno',
            # pediculo
        547: 'nome de colega ou de paciente',
-           # paulo
+           # [identificação removida]
        627: 'identificação de caso, paciente, data ou local',
-           # 30931199
+           # [identificação removida]
        647: 'nome de colega ou de paciente',
-           # faissal coluna
+           # [identificação removida]
        659: 'identificação de caso, paciente, data ou local',
-           # TELE 01/04 -34 WTT 8 mobile
+           # [identificação removida]
        664: 'identificação de caso, paciente, data ou local',
-           # casos osteomielite rede nilson goulart 27/03/2024
+           # [identificação removida]
        731: 'identificação de caso, paciente, data ou local',
-           # MARIA INES MIQUILINO DE CASTRO
+           # [identificação removida]
        862: 'rótulo de tópico do caderno',
            # musculatura interossea
        882: 'identificação de caso, paciente, data ou local',
-           # samir coluna
+           # [identificação removida]
        953: 'link de referência',
            # https://docs.google.com/presentation/d/F 1vmtGRCrCsdBYYZ0xZ7dbFOUyJz55dDPb/edit?usp=shar
        961: 'rótulo de tópico do caderno',
@@ -110,7 +110,7 @@ EXCLUSOES = {
       1424: 'título de máscara no caderno',
            # COXA
       1427: 'título ou nota do caderno (marcado com seta)',
-           # → lipodistrofia semicircular ( paranavai neide)
+           # [identificação removida]
       1517: 'título ou nota do caderno (marcado com seta)',
            # → hemangioma intramuscular
       1535: 'título ou nota do caderno (marcado com seta)',
@@ -136,7 +136,7 @@ EXCLUSOES = {
       1783: 'rótulo de tópico do caderno',
            # modic
       1784: 'identificação de caso, paciente, data ou local',
-           # COL CERVICAL SAMIR
+           # [identificação removida]
       1803: 'rótulo de tópico do caderno',
            # (acentuação)
       1837: 'anotação clínica solta, fora de qualquer frase',
@@ -162,11 +162,11 @@ EXCLUSOES = {
       2002: 'rótulo de tópico do caderno',
            # cirurgia
       2006: 'identificação de caso, paciente, data ou local',
-           # COL CERV CIRG SAMIR
+           # [identificação removida]
       2105: 'título de máscara no caderno',
            # COL DORSAL PADRÃO
       2140: 'identificação de caso, paciente, data ou local',
-           # COL DORSAL SAMIR
+           # [identificação removida]
       2213: 'rótulo de tópico do caderno',
            # col lombar admisional
       2279: 'rótulo de tópico do caderno',
@@ -226,7 +226,7 @@ EXCLUSOES = {
       3023: 'título ou nota do caderno (marcado com seta)',
            # → estresse/hipersolicitação mecanica
       3026: 'identificação de caso, paciente, data ou local',
-           # ikawa
+           # [identificação removida]
       3029: 'título ou nota do caderno (marcado com seta)',
            # → patela bipartida
       3031: 'título ou nota do caderno (marcado com seta)',
@@ -286,7 +286,7 @@ EXCLUSOES = {
       3647: 'título de máscara no caderno',
            # JOELHO LUXAÇÃO PATELA
       3652: 'identificação de caso, paciente, data ou local',
-           # kim
+           # [identificação removida]
       3668: 'nota de estudo, anatomia ou valor de referência',
            # ---- tele
       3680: 'rótulo de tópico do caderno',
@@ -324,13 +324,13 @@ EXCLUSOES = {
       4019: 'título de máscara no caderno',
            # RETROVERSAO QUADRIL
       4071: 'identificação de caso, paciente, data ou local',
-           # JOELHO ARTROSE CEDIRP
+           # [identificação removida]
       4101: 'identificação de caso, paciente, data ou local',
-           # JOELHO LCA ROTO CEDIRP:
+           # [identificação removida]
       4134: 'identificação de caso, paciente, data ou local',
-           # JOELHO LCA RECON CEDIRP
+           # [identificação removida]
       4165: 'identificação de caso, paciente, data ou local',
-           # JOELHO LUXAÇÃO CEDIRP:
+           # [identificação removida]
       4197: 'nota de estudo, anatomia ou valor de referência',
            # mão- tumor glomico
       4198: 'nota de estudo, anatomia ou valor de referência',
@@ -418,7 +418,7 @@ EXCLUSOES = {
       5020: 'título de máscara no caderno',
            # OMBRO HILL SACHS
       5023: 'nome de colega ou de paciente',
-           # → tati
+           # [identificação removida]
       5112: 'rótulo de tópico do caderno',
            # cálculos hill sachs:
       5117: 'título ou nota do caderno (marcado com seta)',
@@ -454,13 +454,13 @@ EXCLUSOES = {
       5294: 'rótulo de tópico do caderno',
            # sirio
       5411: 'identificação de caso, paciente, data ou local',
-           # OMBRO PADRÃO CEDIRP-
+           # [identificação removida]
       5440: 'identificação de caso, paciente, data ou local',
-           # OMBRO INSTABILIDADE CEDIRP
+           # [identificação removida]
       5471: 'identificação de caso, paciente, data ou local',
-           # OMBRO RUPTURA MACIÇA CEDIRP
+           # [identificação removida]
       5498: 'identificação de caso, paciente, data ou local',
-           # OMBRO TENDINOPATIA CEDIRP
+           # [identificação removida]
       5530: 'título de máscara no caderno',
            # PAREDE ABDOMINAL
       5581: 'título de máscara no caderno',
@@ -504,7 +504,7 @@ EXCLUSOES = {
       5985: 'rótulo de tópico do caderno',
            # gd
       5988: 'identificação de caso, paciente, data ou local',
-           # PE SANTA CATARINA
+           # [identificação removida]
       6087: 'título de máscara no caderno',
            # PEITORAL MAIOR
       6109: 'título de máscara no caderno',
@@ -686,7 +686,7 @@ EXCLUSOES = {
       7498: 'título de máscara no caderno',
            # QUADRIL OSTEONECROSE/FX
       7598: 'identificação de caso, paciente, data ou local',
-           # quadril protese rede dor
+           # [identificação removida]
       7650: 'título de máscara no caderno',
            # IMPLANTE GLÚTEO
       7651: 'nota de estudo, anatomia ou valor de referência',
@@ -696,9 +696,9 @@ EXCLUSOES = {
       7664: 'link de referência',
            # https://radiopaedia.org/cases/haemodialysis-induced-amyloid-arthropathy-of-hip
       7673: 'identificação de caso, paciente, data ou local',
-           # QUADRIL PADRÃO CEDIRP
+           # [identificação removida]
       7703: 'identificação de caso, paciente, data ou local',
-           # QUADRIL DEGENERATIVO CEDIRP:
+           # [identificação removida]
       7729: 'rótulo de tópico do caderno',
            # fx insuficiencia sacro
       7741: 'título ou nota do caderno (marcado com seta)',
@@ -710,7 +710,7 @@ EXCLUSOES = {
       7778: 'rótulo de tópico do caderno',
            # rm
       7804: 'identificação de caso, paciente, data ou local',
-           # dia 28/03 novo exame recidiva
+           # [identificação removida]
       7814: 'rótulo de tópico do caderno',
            # pos
       7815: 'título de máscara no caderno',
@@ -780,15 +780,15 @@ EXCLUSOES = {
       8850: 'nota de estudo, anatomia ou valor de referência',
            # ------ pe plano
       8881: 'identificação de caso, paciente, data ou local',
-           # TORNOZELO ARTROSA GEMA
+           # [identificação removida]
       8898: 'identificação de caso, paciente, data ou local',
-           # TORNOZELO PADRÃO CEDIRP
+           # [identificação removida]
       8925: 'rótulo de tópico do caderno',
            # kage
       8928: 'identificação de caso, paciente, data ou local',
-           # TORNOZELO HAGLUND CEDIRP
+           # [identificação removida]
       8959: 'identificação de caso, paciente, data ou local',
-           # TORNOZELO TALOFIBULAR CEDIRP
+           # [identificação removida]
       8993: 'rótulo de tópico do caderno',
            # osteomi
       8996: 'título de máscara no caderno',
@@ -846,13 +846,13 @@ EXCLUSOES = {
       9254: 'nota de estudo, anatomia ou valor de referência',
            # Não fala de raiz neural na tomo
       9255: 'identificação de caso, paciente, data ou local',
-           # CT CERVICAL (SAMIR)
+           # [identificação removida]
       9482: 'rótulo de tópico do caderno',
            # Cirurgia coluna
       9494: 'identificação de caso, paciente, data ou local',
-           # CT COL DORSAL(SAMIR)
+           # [identificação removida]
       9626: 'identificação de caso, paciente, data ou local',
-           # CT LOMBAR ( SAMIR)
+           # [identificação removida]
       9790: 'título de máscara no caderno',
            # CT COXA
       9834: 'título ou nota do caderno (marcado com seta)',
@@ -920,7 +920,7 @@ EXCLUSOES = {
      10410: 'título de máscara no caderno',
            # CT BACIA- LIVRO ABERTO COMINUTIVA
      10481: 'identificação de caso, paciente, data ou local',
-           # CT BACIA- PRÓTESE GLÚTEO ( gema)
+           # [identificação removida]
      10524: 'título de máscara no caderno',
            # CT PÉ COALIZÃO
      10551: 'título de máscara no caderno',
@@ -928,7 +928,7 @@ EXCLUSOES = {
      10587: 'título de máscara no caderno',
            # CT PUNHO TRAUMA
      10646: 'identificação de caso, paciente, data ou local',
-           # CT TORNOZELO SANTA CATARINA
+           # [identificação removida]
      10650: 'título de máscara no caderno',
            # - NAVICULAR
      10655: 'título de máscara no caderno',
@@ -946,9 +946,9 @@ EXCLUSOES = {
      10780: 'título ou nota do caderno (marcado com seta)',
            # → barra óssea ( antes de operar /mesmo paciente )antes de operar
      10812: 'identificação de caso, paciente, data ou local',
-           # versao acetabular rede dor
+           # [identificação removida]
      10878: 'identificação de caso, paciente, data ou local',
-           # versao femoral e tibial modelo hap vida
+           # [identificação removida]
      10905: 'rótulo de tópico do caderno',
            # Ângulos quadril
      10906: 'rótulo de tópico do caderno',
@@ -960,7 +960,7 @@ EXCLUSOES = {
      10915: 'nota de estudo, anatomia ou valor de referência',
            # normal ate 60 °
      10937: 'identificação de caso, paciente, data ou local',
-           # Versão femoral: 19,4 (antevertido)
+           # [identificação removida]
      10938: 'nota de estudo, anatomia ou valor de referência',
            # normal adulto: 8 a 15°
      10952: 'título de máscara no caderno',
@@ -982,7 +982,7 @@ EXCLUSOES = {
      11006: 'rótulo de tópico do caderno',
            # biceps femoral e semitendieo
      11009: 'identificação de caso, paciente, data ou local',
-           # nida oliveira da silva pereira
+           # [identificação removida]
      11010: 'título ou nota do caderno (marcado com seta)',
            # → pos op tumor
      11015: 'título ou nota do caderno (marcado com seta)',
@@ -1012,7 +1012,7 @@ EXCLUSOES = {
      11083: 'título de máscara no caderno',
            # AORTA E SACRO
      11098: 'identificação de caso, paciente, data ou local',
-           # tornozelo santa cat
+           # [identificação removida]
      11100: 'título de máscara no caderno',
            # - NAVICULAR
      11105: 'título de máscara no caderno',
@@ -1060,49 +1060,49 @@ EXCLUSOES = {
      11515: 'rótulo de tópico do caderno',
            # acondroplasia
      11570: 'identificação de caso, paciente, data ou local',
-           # rede dor arrumar
+           # [identificação removida]
      11653: 'nome de colega ou de paciente',
-           # marco b
+           # [identificação removida]
      11811: 'identificação de caso, paciente, data ou local',
-           # kim
+           # [identificação removida]
      11889: 'nome de colega ou de paciente',
-           # alfredo
+           # [identificação removida]
      11947: 'identificação de caso, paciente, data ou local',
-           # kim
+           # [identificação removida]
      11972: 'identificação de caso, paciente, data ou local',
-           # kim
+           # [identificação removida]
      11979: 'nome de colega ou de paciente',
-           # marco
+           # [identificação removida]
      12008: 'identificação de caso, paciente, data ou local',
-           # kim
+           # [identificação removida]
      12034: 'identificação de caso, paciente, data ou local',
-           # kim
+           # [identificação removida]
      12177: 'identificação de caso, paciente, data ou local',
-           # KIM
+           # [identificação removida]
      12178: 'título de máscara no caderno',
            # ARTRODESE
      12203: 'nome de colega ou de paciente',
-           # faissal
+           # [identificação removida]
      12217: 'nome de colega ou de paciente',
-           # faissa
+           # [identificação removida]
      12311: 'nome de colega ou de paciente',
-           # paola
+           # [identificação removida]
      12320: 'nome de colega ou de paciente',
-           # TOR KIM
+           # [identificação removida]
      12351: 'nome de colega ou de paciente',
-           # hernani
+           # [identificação removida]
      12373: 'nome de colega ou de paciente',
-           # paulo
+           # [identificação removida]
      12383: 'identificação de caso, paciente, data ou local',
-           # hemangioma intramuscular mao rede dor
+           # [identificação removida]
      12388: 'título de máscara no caderno',
            # ESSONÂNCIA MAGNÉTICA DA MÃO ESQUERDA
      12417: 'identificação de caso, paciente, data ou local',
-           # kim
+           # [identificação removida]
      12540: 'nome de colega ou de paciente',
-           # pedro
+           # [identificação removida]
      12547: 'identificação de caso, paciente, data ou local',
-           # kim
+           # [identificação removida]
      12569: 'rótulo de tópico do caderno',
            # retroversao
 }
