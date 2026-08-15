@@ -13351,6 +13351,21 @@ matches:
     replace: "Demais estruturas com morfologia preservada."
     word: true
 
+  - trigger: "demaisnl1"
+    label: "Demais estruturas sem particularidades"
+    replace: "Demais sem particularidades."
+    word: true
+
+  - trigger: "examedirigpe1"
+    label: "Abertura — exame direcionado para estudo do mediopé"
+    replace: "Exame direcionado para estudo do mediopé evidencia:"
+    word: true
+
+  - trigger: "semabscesso1"
+    label: "Não se caracterizam coleções ou abscessos"
+    replace: "Não se caracterizam coleções ou abscessos."
+    word: true
+
   - trigger: "artefatos1"
     label: "Exame prejudicado por artefatos de movimentação"
     replace: "Exame de avaliação prejudicada por artefatos de movimentação involuntária."
