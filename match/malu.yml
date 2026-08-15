@@ -386,7 +386,7 @@ matches:
 
   - trigger: "labroglen4"
     label: "Lesão de Bankart crônica e complexo de Buford"
-    replace: "Lábio da glenóide com alteração de sinal e borramento dos contornos na região anterossuperior, sugerindo lesão de Bankart crônica com alterações degenerativas associadas. Hipoplasia do lábio anterossuperior e hipertrofia do ligamento glenoumeral médio (complexo de Buford - variante da normalidade)."
+    replace: "Lábio da glenóide com alteração de sinal e borramento dos contornos na região anteroinferior, sugerindo lesão de Bankart crônica com alterações degenerativas associadas. Hipoplasia do lábio anterossuperior e hipertrofia do ligamento glenoumeral médio (complexo de Buford - variante da normalidade)."
     word: true
 
   - trigger: "labroglen5"
@@ -859,7 +859,7 @@ matches:
       Alteração degenerativa do lábio glenoidal, nas porções superior e anterossuperior, sem destacamentos/, com rotura junto à base do segmento anterossuperior.
       Alteração degenerativa do lábio glenoidal, com irregularidade junto a base do segmento superior, sem destacamentos.
       Alteração degenerativa do lábio da glenóide, com redução volumétrica do segmento anterior, sem destacamentos.
-      Lábio da glenóide com alteração de sinal e borramento dos contornos na região anterossuperior, sugerindo lesão de Bankart crônica com alterações degenerativas associadas. Hipoplasia do lábio anterossuperior e hipertrofia do ligamento glenoumeral médio (complexo de Buford - variante da normalidade).
+      Lábio da glenóide com alteração de sinal e borramento dos contornos na região anteroinferior, sugerindo lesão de Bankart crônica com alterações degenerativas associadas. Hipoplasia do lábio anterossuperior e hipertrofia do ligamento glenoumeral médio (complexo de Buford - variante da normalidade).
       Leve espessamento crônico capsuloligamentar glenoumeral, alterações inflamatórias pericapsulares.
       Leve edema e espessamento capsuloligamentar glenoumeral, sem roturas, podendo estar relacionado a estiramento pós-traumático.
       Espessamento capsuloligamentar glenoumeral de forma difusa, com obliteração e edema dos planos pericapsulares, mais evidente no recesso axilar, compatível com capsulite.
@@ -1598,7 +1598,7 @@ matches:
 
   - trigger: "colatmed4"
     label: "Rotura completa do complexo medial com subluxação do nervo ulnar"
-    replace: "Rotura completa do complexo ligamentar medial, com lesão do retináculo do túnel cubital, determinando subluxação posteromedial do nervo ulnar."
+    replace: "Rotura completa do complexo ligamentar medial, com lesão do retináculo do túnel cubital, determinando subluxação anterior do nervo ulnar."
     word: true
 
   - trigger: "colatuln1"
@@ -1885,7 +1885,7 @@ matches:
       - Edema ósseo medular de aspecto contusional no aspecto posterior do capítulo umeral.
       - Rotura parcial da origem tendínea comum dos flexores, com coleção hemática intramuscular no segmento proximal do flexor superficial dos dedos.
       - Lesão de alto grau da origem tendínea comum dos extensores, com área transfixante das fibras posteriores, apresentando retração do coto de 0,8 cm.
-      - Rotura completa do complexo ligamentar medial, com lesão do retináculo do túnel cubital, determinando subluxação posteromedial do nervo ulnar.
+      - Rotura completa do complexo ligamentar medial, com lesão do retináculo do túnel cubital, determinando subluxação anterior do nervo ulnar.
       Rotura de alto grau / completa do complexo ligamentar lateral (colateral radial, colateral lateral ulnar e anular).
       - Pequena lacerações da transição miotendínea do bíceps braquial, sem transfixação.
       - Rotura parcial do ventre muscular do braquial no seu segmento distal, medindo 2,6 x 0,9 x 2,0 cm (CC x AP x LL), com coleção hemática intramuscular e delaminações intrassubstanciais se estendendo à inserção tendínea.
@@ -2282,8 +2282,8 @@ matches:
     word: true
 
   - trigger: "interseccao1"
-    label: "Síndrome da intersecção do antebraço distal"
-    replace: "Junto ao local da queixa clínica demarcada pelo paciente, nota-se leve tenossinovite do I e II compartimentos extensores ao nível do terço distal do antebraço, com leve edema da musculatura, bem como edema da tela subcutânea adjacente, compatível com alteração por atrito local (síndrome da intersecção do antebraço distal)."
+    label: "Síndrome da intersecção proximal"
+    replace: "Junto ao local da queixa clínica demarcada pelo paciente, nota-se leve tenossinovite do I e II compartimentos extensores ao nível do terço distal do antebraço, com leve edema da musculatura, bem como edema da tela subcutânea adjacente, compatível com alteração por atrito local (síndrome da intersecção proximal)."
     word: true
 
   - trigger: "tenossinflex1"
@@ -2302,8 +2302,8 @@ matches:
     word: true
 
   - trigger: "tenossinflex4"
-    label: "Tenossinovite do flexor radial longo do carpo"
-    replace: "Tenossinovite do flexor radial longo do carpo, sem evidências de roturas."
+    label: "Tenossinovite do flexor radial do carpo"
+    replace: "Tenossinovite do flexor radial do carpo, sem evidências de roturas."
     word: true
 
   - trigger: "flexoruln1"
@@ -2558,7 +2558,7 @@ matches:
 
   - trigger: "ucpolegar2"
     label: "Rotura com desinserção do colateral radial da MCF do polegar"
-    replace: "Destaca-se ainda rotura com desinserção extensa do ligamento colateral radial da metacarpofalângica do polegar junto à inserção na base da falange distal com líquido e edema de permeio, sem transfixação completa ou retração."
+    replace: "Destaca-se ainda rotura com desinserção extensa do ligamento colateral radial da metacarpofalângica do polegar junto à inserção na base da falange proximal com líquido e edema de permeio, sem transfixação completa ou retração."
     word: true
 
   - trigger: "ucpolegar3"
@@ -2767,7 +2767,7 @@ matches:
       Tenossinovite do I e II compartimento dos extensores, sem lesão tendínea e sem roturas.
       Tendinopatia e tenossinovite do I e do VI compartimento extensor, sem roturas.
       Tenossinovite dos flexores dos dedos, predominando ao nível proximal do túnel do carpo e nos seus segmentos distais ao nível dos metacarpos, sem roturas.
-      Tenossinovite do flexor radial longo do carpo, sem evidências de roturas.
+      Tenossinovite do flexor radial do carpo, sem evidências de roturas.
       Demais planos musculares e tendíneas sem anormalidades significativas.
       Nervo mediano e canal de Guyon sem alterações.
       Alteração de sinal com edema do nervo mediano na entrada do túnel do carpo, associado a mínimo abaulamento do retináculo dos flexores, achado que pode estar relacionado a neuropatia a depender da correlação com dados clínicos e eletroneuromiografia.
@@ -2977,7 +2977,7 @@ matches:
       ANÁLISE:
       Exame direcionado para avaliação da metacarpofalângica do polegar.
       Destaca-se rotura com desinserção completa do ligamento colateral ulnar da metacarpofalângica na porção proximal junto a origem da cabeça do metacarpo, com retração de até 0,4 cm, com líquido e edema de permeio. Associa-se rotura das fibras proximais da placa volar da metacarpofalângica do polegar junto à inserção no metacarpo, com líquido e edema de permeio, além de edema da musculatura na face tênar, envolvendo a musculatura dos flexores com edema muscular, sem rotura significativa ou retração.
-      Destaca-se ainda rotura com desinserção extensa do ligamento colateral radial da metacarpofalângica do polegar junto à inserção na base da falange distal com líquido e edema de permeio, sem transfixação completa ou retração.
+      Destaca-se ainda rotura com desinserção extensa do ligamento colateral radial da metacarpofalângica do polegar junto à inserção na base da falange proximal com líquido e edema de permeio, sem transfixação completa ou retração.
       Derrame articular da metacarpofalângica do polegar, de aspecto pós-traumático.
       Apesar das extensas roturas capsuloligamentares da metacarpofalângica do polegar não há significativo desalinhamento ósseo, com mínima subluxação volar da base da falange proximal.
       Tenossinovite do flexor longo do polegar, com lâmina de líquido e edema na bainha, de aspecto pós-traumático, sem lesão tendínea.
@@ -3072,7 +3072,7 @@ matches:
     label: "RM de mão — artropatia inflamatória em atividade"
     replace: |-
       TÉCNICA DE EXAME:
-      Exame realizado com sequências FSE e Gradient echo, com cortes multiplanares de 2 e 3 mm de espessura.
+      Exame realizado com sequências FSE e Gradient echo, com cortes multiplanares de 2 e 3 mm de espessura. Administrado meio de contraste paramagnético por via intravenosa.
       Exame anterior: RM de mão de XX/XX/XXXX
 
       ANÁLISE:
@@ -3093,7 +3093,7 @@ matches:
       TOMOGRAFIA COMPUTADORIZADA DA MÃO DIREITA
 
       Método:
-      Estudo realizado com técnica helicoidal/multislice com aquisições axiais e reconstruções multiplanares. Administrado meio de contraste paramagnético por via intravenosa.
+      Estudo realizado com técnica helicoidal/multislice com aquisições axiais e reconstruções multiplanares. Administrado meio de contraste iodado por via intravenosa.
 
       Análise:
       Artropatia difusa dos ossos do carpo, carpometacarpal, radiocarpal e ulnocárpico, caracterizado por redução dos espaços articulares e extensas erosões ósseas corticais periarticulares, assim como na base do ll ao V metacarpo, associado a derrame articular com sinovite reacional.
@@ -3442,8 +3442,8 @@ matches:
     word: true
 
   - trigger: "bursasemimb1"
-    label: "Mínima bursite do semimembranoso"
-    replace: "Mínima bursite do semimembranoso."
+    label: "Mínima bursite isquioglútea"
+    replace: "Mínima bursite isquioglútea."
     word: true
 
   - trigger: "bursatroc1"
@@ -3888,12 +3888,12 @@ matches:
 
   - trigger: "fxbacia1"
     label: "TC — fratura cominutiva do ilíaco com extensão acetabular"
-    replace: "Fratura cominutiva e impactada no ilíaco esquerdo na junção com o ramo iliopúbico superior, com traços de fratura que envolvem as colunas anterior e medial do acetábulo e com extensão para a superfície articular, com desvio superior e medial do ramo pubico superior esquerdo em cerca de 1,0 cm, destacando-se ainda fragmento ósseo de 2,9 cm deslocado medial. Há ainda extensão do traço de fratura superiormente pela borda medial do ilíaco até seu terço superior sem acometimento da articulação sacroilíaca."
+    replace: "Fratura cominutiva e impactada no ilíaco esquerdo na junção com o ramo iliopúbico superior, com traços de fratura que envolvem as colunas anterior e posterior do acetábulo e com extensão para a superfície articular, com desvio superior e medial do ramo pubico superior esquerdo em cerca de 1,0 cm, destacando-se ainda fragmento ósseo de 2,9 cm deslocado medial. Há ainda extensão do traço de fratura superiormente pela borda medial do ilíaco até seu terço superior sem acometimento da articulação sacroilíaca."
     word: true
 
   - trigger: "fxbacia2"
-    label: "TC — fratura completa do ramo iliopúbico inferior"
-    replace: "Fratura completa do terço anterior do ramo iliopúbico inferior com desvio medial de 0,7 cm do fragmento anterior. Nota-se também outro traço de fratura no terço posterior do ramo iliopúbico inferior sem desvios significativos."
+    label: "TC — fratura completa do ramo isquiopúbico"
+    replace: "Fratura completa do terço anterior do ramo isquiopúbico com desvio medial de 0,7 cm do fragmento anterior. Nota-se também outro traço de fratura no terço posterior do ramo isquiopúbico sem desvios significativos."
     word: true
 
   - trigger: "fxbacia3"
@@ -4190,7 +4190,7 @@ matches:
       Não há evidências de derrame articular ou sinovite.
       Lábio acetabular com morfologia e sinal dentro da normalidade.
       Ligamentos intrínsecos e extrínsecos do quadril sem anormalidades.
-      Mínima bursite do semimembranoso.
+      Mínima bursite isquioglútea.
       Discreta tendinopatia do semimembranoso, junto à tuberosidade isquiática.
       Não há evidências de fissuras ou erosões condrais.
       Planos musculares e tendíneos periarticulares sem anormalidades.
@@ -4749,7 +4749,7 @@ matches:
 
   - trigger: "retofem7"
     label: "Lesão fibrocicatricial da transição miotendínea da cabeça direta"
-    replace: "Nota-se outra pequena lesão fibrocicatricial na transição miotendínea proximal da cabeça direita do retofemoral, com discreta lipossubstituição do ventre muscular adjacente."
+    replace: "Nota-se outra pequena lesão fibrocicatricial na transição miotendínea proximal da cabeça direta do retofemoral, com discreta lipossubstituição do ventre muscular adjacente."
     word: true
 
   - trigger: "desenluv1"
@@ -5041,7 +5041,7 @@ matches:
       Análise:
       - Estruturas ósseas: de morfologia e sinal medular conservados. Ausência de fraturas ou de lesões ósseas focais de aspecto agressivo.
       - Estruturas musculotendíneas: Lesão completa na transição miotendínea proximal da cabeça indireta do retofemoral com rotura do tendão central apresentando gap entre os cotos tendíneos de cerca de 2,1 cm, associado a edema intersticial do ventre muscular adjacente, relacionado a estiramento.
-      Nota-se outra pequena lesão fibrocicatricial na transição miotendínea proximal da cabeça direita do retofemoral, com discreta lipossubstituição do ventre muscular adjacente.
+      Nota-se outra pequena lesão fibrocicatricial na transição miotendínea proximal da cabeça direta do retofemoral, com discreta lipossubstituição do ventre muscular adjacente.
       - Feixes neurovasculares: sem alterações significativas.
       - Planos superficiais: sem alterações significativas.
 
@@ -5050,7 +5050,7 @@ matches:
 
       Conclusão:
       - Lesão completa na transição miotendínea proximal da cabeça indireita do retofemoral, com pequeno gap entre os cotos do tendão central.
-      - Lesão parcial fibrocicatricial / sequelar na transição miotendínea proximal da cabeça direita do retofemoral.
+      - Lesão parcial fibrocicatricial / sequelar na transição miotendínea proximal da cabeça direta do retofemoral.
     word: true
 
   - trigger: "rmcoxa5"
@@ -8375,7 +8375,7 @@ matches:
 
   - trigger: "fibromatplant2"
     label: "Fibromatose plantar — espessamento nodular com realce"
-    replace: "No local do marcador cutâneo nota-se espessamento de aspecto nodular da banda central da fáscia palmar, com realce pelo contraste, medindo cerca de 1,1 x 0,5 x 0,9 cm, aspecto sugestivo de fibromatose plantar"
+    replace: "No local do marcador cutâneo nota-se espessamento de aspecto nodular da banda central da fáscia plantar, com realce pelo contraste, medindo cerca de 1,1 x 0,5 x 0,9 cm, aspecto sugestivo de fibromatose plantar"
     word: true
 
   - trigger: "charcotpe1"
@@ -8440,7 +8440,7 @@ matches:
 
   - trigger: "pioartritemtf1"
     label: "Pioartrite e osteomielite da II metatarsofalângica"
-    replace: "Destaca-se derrame articular com importante sinovite e conteúdo espesso intra-articular na II metatarsofalângica, com provável componente inflamatório/infeccioso (pioartrite), associado a intenso edema/hiperemia óssea na base da falange proximal e em praticamente toda a extensão do II metatarso, associado a fraturas e impactações subcondrais, determinando achatamento da cabeça femoral. Há pequena imagem sugestiva de micro-abscesso intramedular na cabeça do II metatarso. Estas alterações são compatíveis com osteomielite. Associa-se edema difuso dos planos musculares no I e II interespaços."
+    replace: "Destaca-se derrame articular com importante sinovite e conteúdo espesso intra-articular na II metatarsofalângica, com provável componente inflamatório/infeccioso (pioartrite), associado a intenso edema/hiperemia óssea na base da falange proximal e em praticamente toda a extensão do II metatarso, associado a fraturas e impactações subcondrais, determinando achatamento da cabeça do II metatarso. Há pequena imagem sugestiva de micro-abscesso intramedular na cabeça do II metatarso. Estas alterações são compatíveis com osteomielite. Associa-se edema difuso dos planos musculares no I e II interespaços."
     word: true
 
   - trigger: "maduromicose1"
@@ -9654,7 +9654,7 @@ matches:
 
   - trigger: "abaulcerv16"
     label: "C5-C6 — componente extruso com migração caudal"
-    replace: "C5-C6: Abaulamento disco-osteofitário difuso, com componente extruso póstero-central, com pequena migração caudal, comprimindo a face ventral da medula, que associado a uncoartrose e alterações degenerativas interfacetárias reduz a dimensão dos forames intervertebrais, comprimindo a raiz emergente foraminal a direita, e tocando a raiz emergente foraminal a esquerda. A associação com espessamento do ligamento amarelos determina pequeno espessamento do canal vertebral."
+    replace: "C5-C6: Abaulamento disco-osteofitário difuso, com componente extruso póstero-central, com pequena migração caudal, comprimindo a face ventral da medula, que associado a uncoartrose e alterações degenerativas interfacetárias reduz a dimensão dos forames intervertebrais, comprimindo a raiz emergente foraminal a direita, e tocando a raiz emergente foraminal a esquerda. A associação com espessamento do ligamento amarelos determina pequeno estreitamento do canal vertebral."
     word: true
 
   - trigger: "abaulcerv17"
@@ -9664,7 +9664,7 @@ matches:
 
   - trigger: "abaulcerv18"
     label: "C6-C7 — protruso póstero-central tocando a medula"
-    replace: "C6-C7: Abaulamento disco-osteofitário difuso, com componente protruso póstero-central, comprimindo a face ventral do saco dural e tocando a face ventral medula, que associado a uncoartrose e alterações degenerativas das interfacetárias reduz a dimensão dos forames intervertebrais, principalmente à esquerda tocando a raiz emergente foraminal deste lado. A associação com espessamento do ligamento amarelos determina pequeno espessamento do canal vertebral."
+    replace: "C6-C7: Abaulamento disco-osteofitário difuso, com componente protruso póstero-central, comprimindo a face ventral do saco dural e tocando a face ventral medula, que associado a uncoartrose e alterações degenerativas das interfacetárias reduz a dimensão dos forames intervertebrais, principalmente à esquerda tocando a raiz emergente foraminal deste lado. A associação com espessamento do ligamento amarelos determina pequeno estreitamento do canal vertebral."
     word: true
 
   - trigger: "abaulcerv19"
@@ -10880,7 +10880,7 @@ matches:
 
   - trigger: "abaullomb11"
     label: "L5-S1 — protrusão centrolateral esquerda com contato radicular"
-    replace: "L5-S1: protrusão discal centrolateral esquerda, obliterando a gordura epidural anterior, tocando a raiz emergente esquerda de S1."
+    replace: "L5-S1: protrusão discal centrolateral esquerda, obliterando a gordura epidural anterior, tocando a raiz descendente esquerda de S1."
     word: true
 
   - trigger: "abaullomb12"
@@ -10990,7 +10990,7 @@ matches:
 
   - trigger: "abaullomb33"
     label: "L3-L4 — abaulamento com contato radicular foraminal"
-    replace: "L3-L4: Abaulamento discal difuso que toca a face ventral do saco dural, que associado a alterações degenerativas das interfacetárias reduz as dimensões dos forames intervertebrais, principalmente à direita, em íntimo contato com a raiz emergente foraminal de L4 deste lado, sem compressões significativas."
+    replace: "L3-L4: Abaulamento discal difuso que toca a face ventral do saco dural, que associado a alterações degenerativas das interfacetárias reduz as dimensões dos forames intervertebrais, principalmente à direita, em íntimo contato com a raiz emergente foraminal de L3 deste lado, sem compressões significativas."
     word: true
 
   - trigger: "abaullomb34"
@@ -11280,7 +11280,7 @@ matches:
 
   - trigger: "poscirurglomb6"
     label: "Tecido fibrocicatricial com realce e diminuta coleção"
-    replace: "Alterações pós-cirúrgicas com tecido fibrocicatricial, edema e realce dos planos paravertebrais à direita no nível de L5-S1, com extensão do edema até a gordura epidural e adjacente a raiz emergente de L5 à direita, com aparente área sem realce pelo meio de contraste, adjacente ao local de facetectomia, que pode representar diminuta coleção/acumulo líquido, medindo 1,1 x 0,8 x 05 cm (volume de 2,3 cm³)."
+    replace: "Alterações pós-cirúrgicas com tecido fibrocicatricial, edema e realce dos planos paravertebrais à direita no nível de L5-S1, com extensão do edema até a gordura epidural e adjacente a raiz emergente de L5 à direita, com aparente área sem realce pelo meio de contraste, adjacente ao local de facetectomia, que pode representar diminuta coleção/acumulo líquido, medindo 1,1 x 0,8 x 05 cm (volume de 0,2 cm³)."
     word: true
 
   - trigger: "poscirurglomb7"
@@ -12292,7 +12292,7 @@ matches:
 
   - trigger: "obliteracaoplexo1"
     label: "Obliteração das estruturas do plexo no espaço interescalênico"
-    replace: "Destaca-se que há obliteração com edema de permeio às estruturas neurais do plexo braquial no espaço interescalênico esquerdo, com má delimitação das raízes no espaço interescalênico, com obliteração das estruturas do plexo braquial até a região do espaço costoclavicular envolvendo troncos e os fascículos, sem retração ou transfixação neural evidente na região do espaço costoclavicular direito."
+    replace: "Destaca-se que há obliteração com edema de permeio às estruturas neurais do plexo braquial no espaço interescalênico esquerdo, com má delimitação das raízes no espaço interescalênico, com obliteração das estruturas do plexo braquial até a região do espaço costoclavicular envolvendo troncos e os fascículos, sem retração ou transfixação neural evidente na região do espaço costoclavicular esquerdo."
     word: true
 
   - trigger: "denervparaverteb1"
@@ -12332,7 +12332,7 @@ matches:
 
   - trigger: "manobradesfil2"
     label: "Redução do calibre da veia axilar após a manobra"
-    replace: "Após a realização da manobra para pesquisa de síndrome do desfiladeiro torácico se observou redução do calibre de aproximadamente xxx 50% da veia axilar bilateral no espaço costoclavicular."
+    replace: "Após a realização da manobra para pesquisa de síndrome do desfiladeiro torácico se observou redução do calibre de aproximadamente xxx 50% da veia subclávia bilateral no espaço costoclavicular."
     word: true
 
   - trigger: "manobradesfil3"
@@ -12681,7 +12681,7 @@ matches:
       Material metálico na clavícula que gera artefatos de susceptibilidade magnética que prejudica a avaliação das estruturas locorregionais.
       Sinais de avulsão da raiz pre ganglionar esquerda de C7 com formação de pseudomeningocele ao redor da raiz de C7 no forame esquerdo de C6-C7, com edema que estende para a região do espaço interescalênico.
       Sinais de estiramento das raízes de C6 e C8
-      Destaca-se que há obliteração com edema de permeio às estruturas neurais do plexo braquial no espaço interescalênico esquerdo, com má delimitação das raízes no espaço interescalênico, com obliteração das estruturas do plexo braquial até a região do espaço costoclavicular envolvendo troncos e os fascículos, sem retração ou transfixação neural evidente na região do espaço costoclavicular direito.
+      Destaca-se que há obliteração com edema de permeio às estruturas neurais do plexo braquial no espaço interescalênico esquerdo, com má delimitação das raízes no espaço interescalênico, com obliteração das estruturas do plexo braquial até a região do espaço costoclavicular envolvendo troncos e os fascículos, sem retração ou transfixação neural evidente na região do espaço costoclavicular esquerdo.
       Associa-se leve edema da musculatura paravertebral posterior paramediana à direita, podendo estar relacionado à denervação muscular inicial.
       Não há sinais de avulsão nas demais raízes intracanais.
       Associa-se alteração do sinal da medula espinhal, topografia centrolateral esquerda, na altura das vértebras de C6-C7, indicando mielopatia pós-traumática pela avulsão radicular, sem descontinuidade ou área cística evidente no presente estudo.
@@ -12747,7 +12747,7 @@ matches:
       Método: Exame realizado com a sequência FSE com cortes multiplanares de 3,0 e 4,0 mm de espessura.
 
       Análise:
-      Após a realização da manobra para pesquisa de síndrome do desfiladeiro torácico se observou redução do calibre de aproximadamente xxx 50% da veia axilar bilateral no espaço costoclavicular.
+      Após a realização da manobra para pesquisa de síndrome do desfiladeiro torácico se observou redução do calibre de aproximadamente xxx 50% da veia subclávia bilateral no espaço costoclavicular.
       Estruturas do plexo braquial incluindo raízes, troncos, ramos e fascículos com morfologia, sinal e trajetos preservados.
       Não há sinais de compressões ao nível dos espaços interescalênicos, retroclavicular ou retropeitoral menor.
       Ventres musculares com morfologia e trofismo habitual, simétricos em relação ao lado contralateral.
@@ -12956,7 +12956,7 @@ matches:
 
   - trigger: "tcgdedo1"
     label: "Lesão nodular do dedo — tumor de células gigantes"
-    replace: "Lesão nodular sólida com realce pelo contraste, junto ao bordo ulnar da cabeça e colo da falange proximal do II dedo, em contato com o ligamento colateral ulnar da interfalângica proximal estendendo-se junto ao aparelho tendíneo extensor, medindo mm, sugerindo lesão tumoral (tumor de células gigantes?). Sugere-se correlação com biópsia excisional anatomopatológica."
+    replace: "Lesão nodular sólida com realce pelo contraste, junto ao bordo ulnar da cabeça e colo da falange proximal do II dedo, em contato com o ligamento colateral ulnar da interfalângica proximal estendendo-se junto ao aparelho tendíneo extensor, medindo mm, sugerindo lesão tumoral (tumor de células gigantes da bainha tendínea?). Sugere-se correlação com biópsia excisional anatomopatológica."
     word: true
 
   - trigger: "linfoma1"
@@ -13164,7 +13164,7 @@ matches:
   - trigger: "dopplerporta1"
     label: "Doppler portal — veia porta, supra-hepáticas e esplênica"
     replace: |-
-      Veia porta de calibre normal, medindo 1,2 mm (nl até 12mm), com fluxo hepatopetal de 15,5 cm/s (nl ≥ 15cm/s).
+      Veia porta de calibre normal, medindo 1,2 cm (nl até 12mm), com fluxo hepatopetal de 15,5 cm/s (nl ≥ 15cm/s).
       Veias supra-hepáticas pérvias com fluxo fásico e variável.
       Veia esplênica 7,3 mm (nl até 9mm).
     word: true
@@ -13201,7 +13201,7 @@ matches:
       ULTRASSONOGRAFIA DE ABDOME TOTAL
       Fígado: com contornos serrilhados, bordas rombas e alteração ecotextural difusa.
       Doppler:
-      Veia porta de calibre normal, medindo 1,2 mm (nl até 12mm), com fluxo hepatopetal de 15,5 cm/s (nl ≥ 15cm/s).
+      Veia porta de calibre normal, medindo 1,2 cm (nl até 12mm), com fluxo hepatopetal de 15,5 cm/s (nl ≥ 15cm/s).
       Veias supra-hepáticas pérvias com fluxo fásico e variável.
       Veia esplênica 7,3 mm (nl até 9mm).
       Vesícula biliar: com forma, contornos e dimensões normais, sem evidências de cálculos no interior. Paredes espessadas, secundário a ascite.
@@ -13211,7 +13211,6 @@ matches:
       Aorta e veia cava inferior: com calibre e pulsatilidade normais, sem evidências de adenomegalia ao redor.
       Rins: com forma, contornos, dimensões e relações corticomedulares preservadas.
       Bexiga: cheia conteúdo anecoide, com forma e contornos regulares.
-      Ausência de líquido ascítico.
       Ascite de grande volume.
 
       Opinião:
@@ -13328,9 +13327,9 @@ matches:
       TI-RADS 3
       PAAF ≥ 2,5cm US ≥1,5cm – 1 / 3 / 5 anos.
       TI-RADS 4
-      PAAF ≥ 1,5cm US ≥1,0cm – 1 / 3 / 5 anos.
+      PAAF ≥ 1,5cm US ≥1,0cm – 1 / 2 / 3 / 5 anos.
       TI-RADS 5
-      PAAF ≥ 1,0cm US ≥0,5cm – 1 / 3 / 5 anos.
+      PAAF ≥ 1,0cm US ≥0,5cm – anual por até 5 anos.
     word: true
 
   # ==========================================================================

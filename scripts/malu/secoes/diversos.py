@@ -59,7 +59,7 @@ ENTRADAS = [
     ("baco1", "Esplenomegalia", "792"),
     ("ascite1", "Ascite de grande volume", "804"),
     ("hipertensaoportal1", "Opinião — hepatopatia crônica com hipertensão portal", "807-812"),
-    ("usabdome", "US de abdome total — hepatopatia crônica com hipertensão portal", "779-812"),
+    ("usabdome", "US de abdome total — hepatopatia crônica com hipertensão portal", "779-812 !802"),
     ("esteatoseus1", "Fígado com ecogenicidade difusamente aumentada", "11322"),
     ("esteatoseus2", "Aumento difuso da ecogenicidade hepática (esteatose)", "11323"),
     ("fistulaperianal1", "Máscara — fístula perianal com classificação e trajeto", "11426", "bullet"),

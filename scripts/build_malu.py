@@ -38,6 +38,107 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 # de refletir só o que de fato mudou.
 # --------------------------------------------------------------------------
 CORRECOES = [
+    # --- revisão clínica, segunda leva (lotes pé/colunas e quadril/joelho).
+    # Mesmas classes A e B já autorizadas.
+    # laudo de antepé (II metatarsofalângica): fêmur não existe no campo.
+    ("achatamento da cabeça femoral", "achatamento da cabeça do II metatarso",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # em L5-S1 a emergente é L5; S1 é a descendente. As outras ~30 entradas
+    # dela usam a convenção certa.
+    ("tocando a raiz emergente esquerda de S1", "tocando a raiz descendente esquerda de S1",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # no forame L3-L4 emerge L3; abaullomb3 e abaullomb25, mesmo nível, dizem
+    # "emergente de L3".
+    ("raiz emergente foraminal de L4", "raiz emergente foraminal de L3",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # fibromatose plantar: a fáscia é plantar, e o resto do bloco é antepé.
+    ("banda central da fáscia palmar", "banda central da fáscia plantar",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # 1,1 x 0,8 x 0,5 cm pela elipsoide (0,52·a·b·c) dá 0,2 cm³, não 2,3 —
+    # e "diminuta" contradizia o valor. As outras duas entradas com volume
+    # declarado batem com a mesma fórmula.
+    ("volume de 2,3 cm³", "volume de 0,2 cm³",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # "iliopúbico" designa o ramo púbico superior; o inferior é o
+    # isquiopúbico, como ela escreve em fxisquiopubico1 e ulceragluteo1.
+    ("ramo iliopúbico inferior", "ramo isquiopúbico",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # Judet-Letournel: as colunas acetabulares são anterior e posterior.
+    ("colunas anterior e medial", "colunas anterior e posterior",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # canal não espessa: as frases gêmeas (abaulcerv14, 15, abaulcervtc4)
+    # terminam em "estreitamento do canal vertebral".
+    ("determina pequeno espessamento do canal vertebral",
+     "determina pequeno estreitamento do canal vertebral",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # --- revisão clínica: níveis A e B, autorizados pelo dono do repositório
+    # (radiologista) depois da revisão de 2026-08. Mudam conteúdo clínico, o
+    # que o mandato original proibia, por isso contam em classe própria.
+    #
+    # Nível A — a própria máscara prova o erro.
+    # gadolínio é contraste de RM; esta máscara é TC da mão.
+    ("técnica helicoidal/multislice com aquisições axiais e reconstruções multiplanares. Administrado meio de contraste paramagnético",
+     "técnica helicoidal/multislice com aquisições axiais e reconstruções multiplanares. Administrado meio de contraste iodado",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # os colaterais da metacarpofalângica inserem na base da falange proximal;
+    # o próprio laudo diz "subluxação volar da base da falange proximal".
+    ("junto à inserção na base da falange distal",
+     "junto à inserção na base da falange proximal",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # não existe: o "longo" é do extensor radial longo do carpo. Ela escreve
+    # "flexor radial do carpo" corretamente em outras duas entradas.
+    ("flexor radial longo do carpo", "flexor radial do carpo",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # o par anatômico do reto femoral é direta/indireta; "direita" ainda punha
+    # lateralidade direita dentro de uma RM de coxa esquerda.
+    ("cabeça direita do retofemoral", "cabeça direta do retofemoral",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # veia porta de 1,2 mm é impossível, e a referência da própria frase diz
+    # "nl até 12mm".
+    ("medindo 1,2 mm (nl até 12mm)", "medindo 1,2 cm (nl até 12mm)",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # o achado inteiro é à esquerda (interescalênico esquerdo, duas vezes).
+    ("espaço costoclavicular direito", "espaço costoclavicular esquerdo",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    #
+    # Nível B — coerente consigo mesmo, mas contraria a literatura.
+    # ACR TI-RADS: TR3 = 1/3/5 anos (correto na máscara), TR4 = 1/2/3/5,
+    # TR5 = anual por até 5 anos. Só os intervalos estavam errados.
+    ("US ≥1,0cm – 1 / 3 / 5 anos", "US ≥1,0cm – 1 / 2 / 3 / 5 anos",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    ("US ≥0,5cm – 1 / 3 / 5 anos", "US ≥0,5cm – anual por até 5 anos",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # Bankart é lesão do lábio ântero-inferior; a frase seguinte descreve
+    # separadamente a variante ântero-superior (complexo de Buford).
+    ("na região anterossuperior, sugerindo lesão de Bankart",
+     "na região anteroinferior, sugerindo lesão de Bankart",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # com retináculo insuficiente o ulnar subluxa anteriormente, por sobre o
+    # epicôndilo medial; posteromedial é a posição normal dele no túnel.
+    ("subluxação posteromedial do nervo ulnar", "subluxação anterior do nervo ulnar",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # I sobre II compartimento é a intersecção proximal; a distal é III sobre
+    # II, no tubérculo de Lister.
+    ("síndrome da intersecção do antebraço distal", "síndrome da intersecção proximal",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # no espaço costoclavicular o vaso é a subclávia; a axilar só existe
+    # lateral à borda lateral da primeira costela.
+    ("veia axilar bilateral", "veia subclávia bilateral",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # nódulo justatendíneo de dedo: o epônimo é o da bainha tendínea. Ela
+    # escreve a forma completa corretamente em outras duas entradas.
+    ("sugerindo lesão tumoral (tumor de células gigantes?)",
+     "sugerindo lesão tumoral (tumor de células gigantes da bainha tendínea?)",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # a bursa do semimembranoso é do joelho; na origem isquiática é a
+    # isquioglútea.
+    ("Mínima bursite do semimembranoso", "Mínima bursite isquioglútea",
+     "anatomia/clínica corrigida a pedido do usuário"),
+    # a técnica não declarava gadolínio, mas a análise descreve realce em três
+    # pontos.
+    ("Exame realizado com sequências FSE e Gradient echo, com cortes multiplanares de 2 e 3 mm de espessura.",
+     "Exame realizado com sequências FSE e Gradient echo, com cortes multiplanares de 2 e 3 mm de espessura. Administrado meio de contraste paramagnético por via intravenosa.",
+     "anatomia/clínica corrigida a pedido do usuário"),
     # --- anatomia: lapsos da autora, corrigidos a pedido explícito do dono do
     # repositório (radiologista). Fora do mandato original "só português e
     # typo", por isso contam em classe própria no log, nunca como português.
@@ -431,7 +532,7 @@ def _classe(nota: str) -> str:
     if any(x in nota for x in ("unidade faltante", "truncada", "reconstruíd", "inferida")):
         return "inferência de conteúdo a partir do contexto"
     if "anatomia" in nota:
-        return "anatomia corrigida a pedido do usuário"
+        return "anatomia/clínica corrigida a pedido do usuário"
     if "data de exame" in nota:
         return "data de exame mascarada"
     if "nota de estudo" in nota:
