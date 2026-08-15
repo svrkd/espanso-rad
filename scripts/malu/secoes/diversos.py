@@ -21,7 +21,7 @@ ENTRADAS = [
     ("infartomedular1", "Alteração da medular óssea umeral — provável infarto medular", "11025"),
     ("posoptumor2", "Conclusão — controle pós-operatório de ressecção", "11038"),
     ("lipossarcoma1", "Formação expansiva adiposa do braço — lipoma x lipossarcoma", "11055"),
-    ("tcgdedo1", "Lesão nodular do dedo — tumor de células gigantes", "11061"),
+    ("tcgdedo1", "Lesão nodular do dedo — tumor de células gigantes da bainha tendínea", "11061"),
     ("linfoma1", "Formação expansiva pré-vertebral com extensão foraminal (linfoma?)", "11071"),
 
     ("ressectumor2", "Alteração fibrocicatricial da tela subcutânea pós-cirúrgica", "11021"),

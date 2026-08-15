@@ -12331,7 +12331,7 @@ matches:
     word: true
 
   - trigger: "manobradesfil2"
-    label: "Redução do calibre da veia axilar após a manobra"
+    label: "Redução do calibre da veia subclávia após a manobra"
     replace: "Após a realização da manobra para pesquisa de síndrome do desfiladeiro torácico se observou redução do calibre de aproximadamente xxx 50% da veia subclávia bilateral no espaço costoclavicular."
     word: true
 
@@ -12955,7 +12955,7 @@ matches:
     word: true
 
   - trigger: "tcgdedo1"
-    label: "Lesão nodular do dedo — tumor de células gigantes"
+    label: "Lesão nodular do dedo — tumor de células gigantes da bainha tendínea"
     replace: "Lesão nodular sólida com realce pelo contraste, junto ao bordo ulnar da cabeça e colo da falange proximal do II dedo, em contato com o ligamento colateral ulnar da interfalângica proximal estendendo-se junto ao aparelho tendíneo extensor, medindo mm, sugerindo lesão tumoral (tumor de células gigantes da bainha tendínea?). Sugere-se correlação com biópsia excisional anatomopatológica."
     word: true
 

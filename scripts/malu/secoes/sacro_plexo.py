@@ -56,7 +56,7 @@ ENTRADAS = [
     ("denervsupraesc1", "Edema do subescapular e supraespinhal por denervação aguda", "6612"),
     ("materialclavicula1", "Material metálico na clavícula com artefatos", "6575"),
     ("manobradesfil1", "Manobra dinâmica com compressão da subclávia", "6631", "bullet"),
-    ("manobradesfil2", "Redução do calibre da veia axilar após a manobra", "6662"),
+    ("manobradesfil2", "Redução do calibre da veia subclávia após a manobra", "6662"),
     ("manobradesfil3", "ID — redução de 50% da veia axilar após a manobra", "6678"),
 
     ("#", "TRONCO: ESCÁPULA, PEITORAL, PAREDE ABDOMINAL E ARCOS COSTAIS"),

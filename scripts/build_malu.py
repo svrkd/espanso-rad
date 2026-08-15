@@ -346,6 +346,13 @@ def _norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]", "", "".join(c for c in s if not unicodedata.combining(c)))
 
 
+def _norm_tok(s: str) -> list[str]:
+    """Tokens sem acento e sem pontuação, para comparar label com replace."""
+    s = unicodedata.normalize("NFKD", s.lower())
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.findall(r"[a-z]+", s)
+
+
 def _faixas(txt: str):
     for parte in txt.split(","):
         parte = parte.strip()
@@ -565,6 +572,7 @@ def main():
     contador = {}
     vistos = {}
     textos = {}
+    entradas_para_guarda: list[tuple[str, str, str]] = []
     blocos = ["matches:\n"]
     n_entradas = 0
 
@@ -588,6 +596,7 @@ def main():
         vistos[trigger] = spec
 
         texto = limpar(extrair(spec), modo, contador)
+        entradas_para_guarda.append((trigger, label, texto))
         if texto.count("]") > texto.count("["):
             texto = texto.rstrip()
             if texto.endswith("]"):
@@ -746,6 +755,48 @@ def main():
     colisoes = sorted(set(vistos) & existentes)
     if colisoes:
         sys.exit(f"ERRO: {len(colisoes)} colisão(ões) com triggers existentes: {colisoes}")
+
+    # label descrevendo o texto PRÉ-correção. `label` não é comentário: é o
+    # campo indexado por web/index.html e o que o espanso mostra na busca, então
+    # um label desatualizado devolve o erro que a correção tirou do replace.
+    # Escopo por regra: só as entradas que aquela regra de fato tocou, senão
+    # vocabulário comum ("medial", "distal") acusa label correto.
+    rotulos = []
+    for errado, certo, nota in CORRECOES:
+        if not certo or "anatomia" not in nota:
+            continue
+        # bigrama, não token solto: a sequência que a correção desfez. Token
+        # isolado acusa label correto ("longo" de "flexor longo do polegar"
+        # contra a regra do flexor radial).
+        te, tc = _norm_tok(errado), _norm_tok(certo)
+        # bigrama âncora+alterado: o 2º token é o que a correção tirou, o 1º
+        # é compartilhado com a versão certa. "radial longo" pega o defeito;
+        # "longo do" pegaria "flexor longo do polegar", que está correto.
+        so_velho = {f"{a} {b}" for a, b in zip(te, te[1:])
+                    if b not in tc and a in tc}
+        # correção aditiva (o certo só acrescenta ao errado): não há token
+        # removido para ancorar, então o teste é o literal curto sem o longo.
+        aditiva = _norm(errado) in _norm(certo)
+        if not so_velho and not aditiva:
+            continue
+        for trig, lab, rep in entradas_para_guarda:
+            if _norm(certo) not in _norm(rep):
+                continue
+            nlab = " ".join(_norm_tok(lab))
+            if aditiva:
+                # o literal da regra carrega contexto que o label não tem, então
+                # compara-se âncora (últimos tokens do errado) + complemento.
+                anc = [w for w in te if len(w) > 3][-2:]
+                add = [w for w in tc if w not in te and len(w) > 3]
+                if anc and add and " ".join(anc) in nlab and \
+                        not any(w in nlab for w in add):
+                    rotulos.append(f"{trig} (label sem {' '.join(add)!r})")
+                continue
+            resto = sorted(b for b in so_velho if b in nlab)
+            if resto:
+                rotulos.append(f"{trig} (label mantém {resto})")
+    if rotulos:
+        sys.exit(f"ERRO: {len(rotulos)} label com texto pré-correção: {rotulos[:8]}")
 
     # Regra que nunca casa é erro — e a checagem tem de rodar ANTES de escrever,
     # senão o arquivo do repositório já foi sobrescrito quando o processo aborta.
