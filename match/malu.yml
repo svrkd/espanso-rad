@@ -2229,7 +2229,7 @@ matches:
     word: true
 
   - trigger: "rizart5"
-    label: "Mínimo afilamento condral entre trapézio e I metacarpo"
+    label: "Mínimo afilamento condral entre o trapézio e a base do I metatarso (sic)"
     replace: "Mínimo afilamento condral entre o trapézio e a base do primeiro metatarso."
     word: true
 
@@ -2615,7 +2615,7 @@ matches:
 
   - trigger: "tcgbainha1"
     label: "Nódulo junto à bainha dos flexores — tumor de células gigantes"
-    replace: "-Presença de imagem nodular sólida lobulada e bem delimitada, localizada nos planos subcutâneos profundos do rebordo palmar radial do II dedo na altura da articulação interfalangeana distal junto a bainha dos tendões flexores, apresentando realce pelo meio de contraste paramagnético, medindo cerca de 0,8 x 1,3 x 0,6 cm, de aspecto inespecífico, sendo necessário prosseguir investigação diagnóstica. A possibilidade de tumor de células gigantes deve ser considerada dentre as principais hipóteses diagnósticas"
+    replace: "-Presença de imagem nodular sólida lobulada e bem delimitada, localizada nos planos subcutâneos profundos do rebordo palmar radial do II dedo na altura da articulação interfalangeana distal junto a bainha dos tendões flexores, apresentando realce pelo meio de contraste paramagnético, medindo cerca de 0,8 x 1,3 x 0,6 cm, de aspecto inespecífico, sendo necessário prosseguir investigação diagnóstica. A possibilidade de tumor de células gigantes deve ser considerada dentre as principais hipóteses diagnósticas sendo conveniente correlacionar com dados clínicos e laboratoriais."
     word: true
 
   - trigger: "tcgbainha2"
@@ -2671,6 +2671,36 @@ matches:
   - trigger: "fxhamato1"
     label: "Fratura do hâmulo do hamato"
     replace: "Fratura do hâmulo do hamato, sem desvios significativos."
+    word: true
+
+  - trigger: "posoppunho2"
+    label: "Alterações fibrocicatriciais volares pós-cirúrgicas do punho"
+    replace: "Alterações fibrocicatriciais na face volar do punho possivelmente relacionadas à manipulação cirúrgica pregressa. Há ainda descontinuidade do retináculo dos flexores na região centro lateral"
+    word: true
+
+  - trigger: "miotendinpunhonl1"
+    label: "Demais estruturas musculotendíneas com morfologia e sinal preservados"
+    replace: "Demais estruturas musculotendíneas com morfologia e sinal preservados."
+    word: true
+
+  - trigger: "ligpunhonl1"
+    label: "Estruturas ligamentares intrínsecas e extrínsecas do punho normais"
+    replace: "Estruturas ligamentares intrínsecas e extrínsecos do punho sem alterações."
+    word: true
+
+  - trigger: "ligcarponl1"
+    label: "Ligamentos intrínsecos e extrínsecos do carpo de aspecto normal"
+    replace: "Demais/  Ligamentos intrínsecos e extrínsecos do carpo de aspecto normal."
+    word: true
+
+  - trigger: "cistopunho4"
+    label: "US — formação cística volar radiocárpica artrossinovial"
+    replace: "Formação cística volar radiocárpical, de provável origem artrossinovial."
+    word: true
+
+  - trigger: "tenossinext6"
+    label: "US — leve tenossinovite dos compartimentos extensores"
+    replace: "Leve tenossinovite dos compartimentos extensores, sem alterações tendíneas."
     word: true
 
   - trigger: "rmpunho2"
@@ -3343,7 +3373,7 @@ matches:
 
   - trigger: "iliofemoral1"
     label: "Espessamento crônico do ligamento iliofemoral"
-    replace: "Espessamento crônico do ligamento iliofemoral.( se oblitera eh capsulite)"
+    replace: "Espessamento crônico do ligamento iliofemoral."
     word: true
 
   - trigger: "hernsinovial1"
@@ -3981,6 +4011,126 @@ matches:
     replace: "Demais estruturas ósseas e demais planos miotendíneos preservados na região avaliada da sínfise púbica."
     word: true
 
+  - trigger: "entesofitos4"
+    label: "TC — entesófitos nas cristas ilíacas, trocânteres e ísquios"
+    replace: "Entesófitos nas cristas ilíacas, trocanteres femorais e tuberosidades isquiáticas."
+    word: true
+
+  - trigger: "osseasnl1"
+    label: "TC — demais estruturas ósseas preservadas, sem outras fraturas"
+    replace: "Demais estruturas ósseas preservadas, sem evidência de outras fraturas."
+    word: true
+
+  - trigger: "atrofiagluteo2"
+    label: "TC — discreta hipotrofia e lipossubstituição da glútea"
+    replace: "Discreta hipotrofia e lipossubstituição da musculatura glútea"
+    word: true
+
+  - trigger: "atrofiagluteo3"
+    label: "TC — hipotrofia com lipossubstituição parcial da glútea"
+    replace: "Hipotrofia com lipossubstituição parcial da musculatura glútea."
+    word: true
+
+  - trigger: "atrofiagluteo4"
+    label: "TC — sem atrofia significativa dos músculos avaliados"
+    replace: "Não há atrofia significativa dos músculos avaliados."
+    word: true
+
+  - trigger: "artrosacro8"
+    label: "TC — esclerose subcondral das sacroilíacas"
+    replace: "Esclerose subcondral nas porções avaliadas da articulação sacroilíaca."
+    word: true
+
+  - trigger: "artrosacro9"
+    label: "TC — alterações degenerativas incipientes das sacroilíacas"
+    replace: "Alterações degenerativas incipientes nas articulações sacroilíacas."
+    word: true
+
+  - trigger: "artrosacro10"
+    label: "TC — alterações da sínfise e sacroilíaca esquerda"
+    replace: "Alterações degenerativas na sínfise púbica e porções identificadas da articulação sacroilíaca esquerda. Espessamento capsuloligamentar na sínfise púbica."
+    word: true
+
+  - trigger: "artrosacro11"
+    label: "TC — alterações da sínfise e terço inferior das sacroilíacas"
+    replace: "Alterações degenerativas na sínfise púbica e no terço inferior das articulações sacroilíacas."
+    word: true
+
+  - trigger: "artrosacro12"
+    label: "TC — alterações da sínfise e da coluna lombar"
+    replace: "Alterações degenerativas na sínfise púbica e porções visibilizadas da coluna lombar."
+    word: true
+
+  - trigger: "artrosacro13"
+    label: "TC — alterações da sínfise, sacroilíacas e coluna lombar"
+    replace: "Alterações degenerativas na sínfise púbica, terço inferior das articulações sacroilíacas e porções identificadas da coluna lombar."
+    word: true
+
+  - trigger: "esclerosecabeca1"
+    label: "TC — esclerose subcondral das porções superiores da cabeça femoral"
+    replace: "Área de esclerose subcondral nas porções superiores da cabeça femoral."
+    word: true
+
+  - trigger: "tetoacet2"
+    label: "TC — esclerose subcondral e osteófito no teto acetabular"
+    replace: "Esclerose subcondral e osteófito marginal no teto acetabular."
+    word: true
+
+  - trigger: "tetoacet3"
+    label: "TC — reação osteo-hipertrófica no trocânter maior"
+    replace: "Reação ósteo-hipertrófica no trocanter maior femoral."
+    word: true
+
+  - trigger: "camfemoral6"
+    label: "TC — retificação da porção anterior da transição cabeça/colo"
+    replace: "Retificação da porção anterior da transição cabeça / colo femoral."
+    word: true
+
+  - trigger: "camfemoral7"
+    label: "TC — discreta perda da concavidade da transição cabeça/colo"
+    replace: "Discreta perda da concavidade na porçào anterior da  transição cabeça / colo femoral."
+    word: true
+
+  - trigger: "artroquadril10"
+    label: "TC — artropatia do quadril direito com esclerose do teto"
+    replace: "Artropatia degenerativa no quadril direito, caracterizada por reação osteofitária marginal, redução do espaço articular na área de carga e discreta esclerose subcondral do teto acetabular."
+    word: true
+
+  - trigger: "ossificacaotroc1"
+    label: "TC — ossificações nas partes moles adjacentes ao trocânter"
+    replace: "Associam-se extensas ossificações nas partes moles adjacentes ao trocanter maior."
+    word: true
+
+  - trigger: "entesofitos5"
+    label: "TC — entesófito no trocânter maior e tuberosidades isquiáticas"
+    replace: "Entesófito no trocânter maior direito e tuberosidades isquiáticas ."
+    word: true
+
+  - trigger: "ossificacaofx1"
+    label: "TC — diminuta ossificação superior ao traço de fratura"
+    replace: "Diminuta ossificação, medindo 0,6 cm, localizada superiormente ao traço de fratura."
+    word: true
+
+  - trigger: "granulomagluteo1"
+    label: "TC — granuloma calcificado na região glútea"
+    replace: "Granuloma calcificado na região glútea esquerda."
+    word: true
+
+  - trigger: "fiosmetalicos1"
+    label: "TC — fios metálicos na topografia do reto"
+    replace: "Fios metálicos na topografia do reto (correlacionar com dados cirúrgicos)."
+    word: true
+
+  - trigger: "obliteracaogluteo1"
+    label: "TC — obliteração do subcutâneo glúteo por edema ou hematoma"
+    replace: "Obliteração do subcutâneo da região glútea direita provavelmente por edema ou hematoma."
+    word: true
+
+  - trigger: "miotendinnl2"
+    label: "TC — musculotendíneas normais, com ressalva do método"
+    replace: "Estruturas musculotendíneas com morfologia e coeficientes de atenuação normais, salientando-se a limitação do método na detecção de lesões intrassubstanciais."
+    word: true
+
   - trigger: "rmquadril2"
     label: "RM de quadril — normal"
     replace: |-
@@ -4019,8 +4169,6 @@ matches:
       Exame realizado com a sequência FSE com cortes multiplanares de 4,0 mm de espessura. Administrado meio de contraste paramagnético por via intravenosa.
 
       Análise:
-      osteocondroplastoia
-      ancoras metalicas
       Displasia acetabular caracterizada por verticalização do teto e deficiência da cobertura da porção anterior e lateral.
       Coxa valga com aumento do ângulo cervicodiafisário.
       Remodelamento da porção superior da cabeça femoral com retificação dos contornos.
@@ -4043,7 +4191,7 @@ matches:
       Indefinição do ligamento redondo na cabeça femoral, por rotura crônica ou constitucional.
       Leve afilamento degenerativo do ligamento redondo da cabeça femoral junto da fóvea, com pequenos osteófitos centrais.
       Degeneração e afilamento do ligamento redondo.
-      Espessamento crônico do ligamento iliofemoral.( se oblitera eh capsulite)
+      Espessamento crônico do ligamento iliofemoral.
       Não há evidências de derrame articular ou sinovite.
       Leve tendinopatia e peritendinite insercional dos glúteos médio e mínimo, no trocânter maior femoral, sem roturas. //com fissuras intrassubstanciais junto da inserção do glúteo mínimo, sem desinserção.
       Tendinopatia e peritendinite dos glúteos médio e mínimo bilateral apresentando irregularidade e alteração do sinal dos tendões com halo de edema peritendíneo, sem roturas.
@@ -4349,7 +4497,7 @@ matches:
       Em relação ao exame de [ ] não se observam alterações significativas.
 
       Conclusão:
-      Exame dentro dos limites da normalidade.]
+      Exame dentro dos limites da normalidade.
 
       Referências:
       1. Cyteval et al. J Comput Assist Tomogr. 2003; 27(2):183—8.
@@ -4695,7 +4843,7 @@ matches:
     word: true
 
   - trigger: "fxestresse2"
-    label: "Fratura incompleta da tíbia proximal por estresse"
+    label: "Fratura incompleta da cortical medial da tíbia proximal"
     replace: "Fino traço de fratura incompleto na região metafisária proximal da tíbia direita junto a cortical medial, por provável estresse/sobrecarga mecânica."
     word: true
 
@@ -5472,7 +5620,7 @@ matches:
 
   - trigger: "luxpatela3"
     label: "Conclusão — episódio recente de luxação lateral da patela"
-    replace: "id ?: O conjunto das lesões descritas acima é compatível com episódio recente de luxação lateral da patela."
+    replace: "O conjunto das lesões descritas acima é compatível com episódio recente de luxação lateral da patela."
     word: true
 
   - trigger: "luxpatela4"
@@ -5682,7 +5830,7 @@ matches:
 
   - trigger: "cistoroto4"
     label: "Rotura de cisto artrossinovial com edema pericapsular"
-    replace: "Edema com discreta lâmina líquida no plano adiposo pericapsular posterossuperolateral, sem coleções locais, por possível rotura de cisto artrossinovial.fratura"
+    replace: "Edema com discreta lâmina líquida no plano adiposo pericapsular posterossuperolateral, sem coleções locais, por possível rotura de cisto artrossinovial."
     word: true
 
   - trigger: "cistoganglionar1"
@@ -5877,7 +6025,7 @@ matches:
 
   - trigger: "protjoelhoinf4"
     label: "Derrame com espessamento e realce sinovial"
-    replace: "Pequeno derrame articular com sinais de espessamento e realce pós-contraste sinovial difuso, inferindo sinovite.artrite"
+    replace: "Pequeno derrame articular com sinais de espessamento e realce pós-contraste sinovial difuso, inferindo sinovite."
     word: true
 
   - trigger: "protjoelhoinf5"
@@ -6036,7 +6184,7 @@ matches:
     word: true
 
   - trigger: "patelastc1"
-    label: "TC — patelas centradas na flexão de 15º e 30º"
+    label: "TC — patelas lateralizadas em extensão e centradas na flexão"
     replace: |-
       Com o joelho em extensão, as patelas encontram-se lateralizadas e com báscula lateral.
       Aos 15 graus e 30 graus de flexão as patelas apresentam-se centradas, sem báscula ou desalinhamento.
@@ -6051,6 +6199,16 @@ matches:
   - trigger: "flapcondral1"
     label: "Imagem alongada no contorno da faceta medial (flap condral?)"
     replace: "Imagem alongada, medindo 0,6 cm, no nível do contorno inferior do início da faceta medial da patela (flap condral?)."
+    word: true
+
+  - trigger: "erosaopatelar1"
+    label: "Erosão condral do vértice patelar"
+    replace: "Erosão condral no vértice patelar, medindo aproximadamente 0,6 x 0,4 cm."
+    word: true
+
+  - trigger: "fragmentocondral2"
+    label: "Fragmento osteocondral deslocado para o intercôndilo"
+    replace: "Fragmento osteocondral medindo 1,4 cm deslocado para região intercondilar anterior /média."
     word: true
 
   - trigger: "rmjoelho2"
@@ -6162,7 +6320,7 @@ matches:
       Tendinopatia com leve peritendinite junto à origem do gastrocnêmio medial, com cistos intra e peritendíneos lobulado , medindo até 1,3 cm.
       Moderada tendinopatia do gastrocnêmio medial, que se encontra espessado e com pequena rotura parcial/delaminação intrassubstancial junto da inserção femoral, com até 0,9 cm, sem lesões transfixantes. Associa-se edema ósseo e pequenos cistos subcorticais junto da inserção femoral, denotando entesopatia.
       Distensão líquida da bainha do poplíteo, com corpos livres no seu interior, medindo até cerca de 0,5 cm.
-      Edema com discreta lâmina líquida no plano adiposo pericapsular posterossuperolateral, sem coleções locais, por possível rotura de cisto artrossinovial.fratura
+      Edema com discreta lâmina líquida no plano adiposo pericapsular posterossuperolateral, sem coleções locais, por possível rotura de cisto artrossinovial.
       Fina lâmina de líquido na bolsa do gastrocnêmio medial/semimembranoso.
       Cisto poplíteo (Baker) com finas septações e sinais de rotura parcial com líquido nas partes moles adjacentes
       Cisto poplíteo (Baker), com alteração inflamatória parietal e extravasamento de líquido para os planos musculares e adiposos adjacentes, denotando rotura parietal.
@@ -6327,7 +6485,6 @@ matches:
       Não há sinais cisto poplíteo.
       Traves cicatriciais conta cicatricial da gordura de Hoffa com tendinopatia discreta do patelar distal, sem rotura ou retração.
       Demais planos musculares e tendíneos sem anormalidades.
-      ]
     word: true
 
   - trigger: "rmjoelho8"
@@ -6671,7 +6828,7 @@ matches:
   - trigger: "rmjoelho21"
     label: "RM de joelho — controle evolutivo pós-meniscectomia"
     replace: |-
-      RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO (MARCO B)
+      RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO
 
       Técnica:
       Sequências ponderadas em T1, T2, em aquisições multiplanares, sem contraste.
@@ -6945,7 +7102,7 @@ matches:
       Estudos anteriores não disponíveis para análise comparativa.
 
       Conclusão:
-      Exame dentro dos limites da normalidade.]
+      Exame dentro dos limites da normalidade.
     word: true
 
   - trigger: "tcjoelho6"
@@ -7298,7 +7455,7 @@ matches:
 
   - trigger: "tibialpost5"
     label: "Fissura longitudinal do tibial posterior na inserção navicular"
-    replace: "Tendinopatia do tibial posterior e inframaleolar, com fissura longitudinal intra-tendínea junto a inserção navicular, onde há ossículo navicular acessório, com irregularidade e edema ósseo entre o ossículo e o navicular, indicando componente inflamatório local de origem mecânica, sem desalinhamentos e sem retração.//// sobrecarga mecanica"
+    replace: "Tendinopatia do tibial posterior e inframaleolar, com fissura longitudinal intra-tendínea junto a inserção navicular, onde há ossículo navicular acessório, com irregularidade e edema ósseo entre o ossículo e o navicular, indicando componente inflamatório local de origem mecânica, sem desalinhamentos e sem retração."
     word: true
 
   - trigger: "tibialpost6"
@@ -7322,7 +7479,7 @@ matches:
     word: true
 
   - trigger: "tibialpost10"
-    label: "Leve tendinopatia insercional do tibial posterior"
+    label: "Leve tendinopatia insercional do tibial posterior com lâmina líquida"
     replace: "Leve tendinopatia insercional do tibial posterior, sem roturas, com fina lâmina líquida na sua bainha sinovial."
     word: true
 
@@ -7738,7 +7895,7 @@ matches:
 
   - trigger: "impactosubtalar1"
     label: "Impacto subtalar do processo lateral do tálus"
-    replace: "Nota-se ainda alterações degenerativas entre o processo talar lateral e o calcâneo adjacente com edema ósseo e esclerose óssea, podendo representar impacto subtalar.(Impacto subtalar processo lateral do talus com a margem do calcâneo adjacente ) tem que tem desvio de eixo do pe para ter impacto"
+    replace: "Nota-se ainda alterações degenerativas entre o processo talar lateral e o calcâneo adjacente com edema ósseo e esclerose óssea, podendo representar impacto subtalar."
     word: true
 
   - trigger: "navicacess1"
@@ -7903,7 +8060,7 @@ matches:
 
   - trigger: "sesamoide5"
     label: "Sesamoide medial bipartido com sesamoidite"
-    replace: "Sesamoide medial do hálux bipartido, com edema medular de origem mecânica (sesamoidite).l"
+    replace: "Sesamoide medial do hálux bipartido, com edema medular de origem mecânica (sesamoidite)."
     word: true
 
   - trigger: "artrohalux1"
@@ -8202,7 +8359,7 @@ matches:
     word: true
 
   - trigger: "maduromicose1"
-    label: "Lesão nodular do antepé — processo fúngico (maduromicose)"
+    label: "Lesão nodular do antepé — maduromicose"
     replace: "Espessamento da pele com edema da tela subcutânea na região dorsal do antepé, ao nível das articulações metatarsofalangianas do I e II dedos, observando-se área de aspecto nodular, de contornos lobulados, localizada na tela subcutânea profunda, com pequenas formações de aspecto cístico de permeio, com halo de baixo sinal, bem como com pequenos focos de baixo sinal no seu interior, medindo cerca de 2,9 x 2,1 x 1,7 cm em seus maiores eixos, devendo-se considerar dentre as hipóteses diagnósticas a possibilidade de processo inflamatório/infeccioso fúndico (maduromicose), sendo conveniente prosseguir investigação com estudo anatomopatológico/biópsia e cultura de fragmento."
     word: true
 
@@ -8244,6 +8401,21 @@ matches:
   - trigger: "gotape6"
     label: "Conclusão — gota tofácea com componente cístico"
     replace: "Sinais de gota tofácea, com componente cístico no maior tofo na face lateral dorsolateral da transição do médio e ante pé,  não sendo possível descartar bursite adventícia ou cisto sinovial associado."
+    word: true
+
+  - trigger: "gotape7"
+    label: "TC — erosões na base dos metatarsais e ossos do tarso"
+    replace: "Associam-se erosões na base de alguns metatarsais e ossos do tarso, bilateralmente."
+    word: true
+
+  - trigger: "gotape8"
+    label: "Demais articulações regulares, sem derrame articular"
+    replace: "Demais articulações: de contornos regulares. Ausência de derrame articular."
+    word: true
+
+  - trigger: "miotendinpenl1"
+    label: "Demais planos musculares e tendíneos sem anormalidades"
+    replace: "Demais planos musculares e tendíneos sem anormalidades significativas."
     word: true
 
   - trigger: "rmtornozelo"
@@ -8314,10 +8486,8 @@ matches:
 
       Análise:
       Leve  espessamento capsuloligamentar talonavicular dorsal, de natureza mecânica.
-      Pé plano/ cavo
       Presença de osso trígono, com edema da medular óssea junto à sincondrose, de natureza mecânica.
       Sinais de pé plano e retropé valgo, melhor avaliado no estudo radiográfico com carga.
-      osso
       Osso trígono, com leve edema da medular óssea junto a sincondrose, de natureza mecânica.
       Proeminência bordo posterior medial do navicular (ossículo navicular acessório tipo III).
       Osteófitos talonaviculares dorsais, naviculocuneiformes e tarsometatársicas.
@@ -8334,7 +8504,6 @@ matches:
       Edema de natureza pós-contusional no maléolo medial e no rebordo lateral da epífise distal da tíbia, bem como no aspecto anterior e lateral do domus talar, sem traços de fraturas ou desalinhamentos corticais.
       Leve edema da medular óssea junto a região metafisária distal da tibia, sem fraturas, por provável sobrecarga mecânica.
       Edema da medular óssea do muro lateral do domus tálus, sem traços de fraturas
-      síndrome de Muller-Weiss.
       Alteração morfológica de aspecto crônico/sequelar do navicular, com afilamento ântero-posterior da sua porção lateral. Observa-se afilamento condral talonavicular e nas naviculocuneiformes, com edema ósseo e cistos subcondrais predominando junto a talonavicular. Nota-se ainda reação osteofitária marginal e pequenas fraturas subcondrais na porção lateral do navicular, com significativo edema ósseo, sem franca fragmentação. Tais achados sugerem quadro de síndrome de Muller-Weiss.
       Alterações morfológicas de aspecto crônico/sequelar do navicular, com afilamento ântero-posterior da sua porção lateral, com subluxação paramedial do navicular em relação à cabeça do tálus. Associa-se artrose entre a cabeça do tálus e o remanescente do navicular, bem como a cabeça do tálus, cuneiforme lateral e o cuboide, com osteófitos marginais e erosões condrais difusas, com impactação, cistos e edema ósseo, sobretudo na cabeça do tálus e no cuboide. Tais achados sugerem síndrome de Muller-Weiss.
       Artropatia calcaneocuboide, com osteófitos marginais e afilamento condral difuso, com focos de edema e cistos subcondrais, notando-se ainda, pequena subluxação medial do cuboide pela deformidade óssea.
@@ -8351,24 +8520,19 @@ matches:
 
       Conclusão:
       Alterações sequelares à síndrome de Muller-Weiss, com alteração morfoestrutural do navicular e artrose secundária entre a cabeça do tálus, navicular, cuneiforme lateral e cuboide, bem como artropatia calcaneocuboide, com foco de edema e cistos subcondrais, além de pequeno derrame articular com sinovite reacional, com achados pormenorizados no laudo acima.
-      Acessorios:
       Osso navicular acessório com tênue edema junto à sincondrose, de natureza mecânica.
       Presença de os peroneum no interior do tendão fibular longo.
       Lesão osteocondral no anulo centro medial do domus talar medindo 1,1 x 0,8 cm com fragmento ósseo destacado com lâmina líquida adjacente, com edema e cistos ósseos subcondrais.
       Remodelação da cortical óssea de aspecto crônico/sequelar na região diafisária distal da fibula e extremidade do maléolo lateral, com pequenos artefatos de susceptibilidade magnética, podendo  estar relacionado a manipulação cirúrgica  pregressa.
       Edema e cistos subcortical no aspecto interno do maleolo lateral, junto a inserção do ligamento talofibular posterior.
-      Nota-se ainda alterações degenerativas entre o processo talar lateral e o calcâneo adjacente com edema ósseo e esclerose óssea, podendo representar impacto subtalar.(Impacto subtalar processo lateral do talus com a margem do calcâneo adjacente ) tem que tem desvio de eixo do pe para ter impacto
-      Coalizão
+      Nota-se ainda alterações degenerativas entre o processo talar lateral e o calcâneo adjacente com edema ósseo e esclerose óssea, podendo representar impacto subtalar.
       Sinais de coalizão fibrocartilaginosa talocalcaneana junto da porção medial da subtalar, com edema da medular óssea junto da interface, por provável sobrecarga mecânica.
       Coalizão fibrocartilaginosa talocalcaneana medial, envolvendo a subtalar média e transição com a subtalar posterior, com leve edema ósseo e irregularidade cortical de origem mecânica.
       Sinais de coalizão fibrocartilaginosa calcaneonavicular, caracterizado por proeminência óssea do rebordo superior do processo anterior do calcâneo, que mantém íntimo contato com o aspecto lateral do navicular, notando-se irregularidade cortical e edema junto a interface dessas estruturas, inferindo instabilidade local.
       Sinais de coalizão fibrocartilaginosa talocalcaneana na porção posterior da subtalar medial, com edema da medular óssea junto da interface, por provável sobrecarga mecânica.
-      impacto posterior
       Presença de os trigonum com irregularidade da cortical óssea notadamente da face articular, com leve edema da medular assim como da sincondrose inferindo instabilidade, achado este que pode estar relacionado a síndrome do impacto posterior dentro de um contexto clínico adequado.
-      impacto subfibular
       Aparente valgismo do retropé melhor avaliado por estudo radiográfico com carga, notando-se um tênue edema da medular óssea na face lateral do corpo do calcâneo ao nível da extremidade do maléolo lateral, com edema do plano gorduroso interposto, devendo-se considerar a possibilidade de um  impacto subfibular.
       Demais/ Estruturas ósseas e superfícies condrais com morfologia e sinal preservados.
-      ligamentos talofibular
       Rotura completa do ligamento fibulotalar anterior. Sequela de fratura/avulsão na sua inserção talar com fragmento ósseo de 1,1 cm, associado a esclerose, irregularidade cortical e edema ósseo na interface com o tálus, relacionado a sobrecarga mecânica/lesão.
       Rotura parcial extensa dos ligamentos fibulotalar anterior e fibulocalcâneo, associado com edema ósseo por provável avulsão na inserção talar e maleolar lateral.
       - Edema ósseo por tração / avulsão no tálus e maléolo lateral e edema contusional no maléolo medial e no tálus.
@@ -8380,7 +8544,6 @@ matches:
       Espessamento crônico cicatricial do ligamento talofibular anterior e afilamento irregular do calcâneo fibular.
       Espessamento cicatricial do ligamento talofibular anterior, compatível com sequela de rotura parcial pregressa.
       Afilamento e irregularidade cicatricial do ligamento talofibular anterior sugestivo de sequela de rotura parcial pregressa. Notam-se pequenos cistos de natureza artrossinovial de permeio ás fibras ligamentares remanescentes medindo até 0,9 cm.
-      deltóide
       Estiramento dos folhetos profundos do ligamento deltóide, com edema periligamentar, sem descontinuidades.
       Rotura parcial das fibras posteriores e profundas do deltóide, com edema de permeio e irregularidade, sem transfixação completa.
       Rotura parcial dos componentes profundos do complexo ligamentar deltoide, junto à inserção no maleolo tibial, sem transfixações evidentes.
@@ -8390,7 +8553,6 @@ matches:
       Alteração fibrocicatricial difusa do deltóide, com espessamento e desinserção parcial das fibras superficiais na inserção no maleolo medial, com edema de permeio, além de proeminência  com irregularidade cortical do maleolo medial, com edema ósseo subcortical, sem transfixação completa das fibras.
       Alterações cicatriciais no complexo ligamentar deltóide, sobretudo nas fibras profundas, sem descontinuidades evidentes
       Demais/Estruturas ligamentares íntegras.
-      tendão fibular
       Tendinopatia e tenossinovite dos fibulares na região perimaleolar, sem roturas.
       Tendinopatia e tenossinovite do fibular longo, apresentando espessamento e alteração do sinal tendíneo com pequena quantidade de líquido em sua bainha, sem roturas.
       Lâmina de líquido na bainha tendínea comum dos fibulares no trajeto deflexional, denotando tenossinovite, sem alteração tendínea significativa.
@@ -8399,14 +8561,12 @@ matches:
       Acentuada tenossinovite dos fibulares com sinais de tendinopatia do fibular curto predominando no segmento inframaleolar, ao nível do tubérculo/tróclea dos fibulares calcaneano, que apresenta-se proeminente e com edema da medular óssea subcortical. Destaca-se fissura longitudinal do fibular curto neste segmento, sem transfixação.
       Presença do fibular IV.
       Presença de pequeno tuberoculo dos fibulares com irregularidade cortical e intenso edema da medular óssea adjacente, de natureza mecânica. Associa-se ainda acentuada tendinopatia e tenossinovite dos fibulares com espessamento e alteração do sinal habitual, com fissura intrassubstancial no segmento inframaleolar do fibular longo, sem transfixações.
-      tibial
       Tenossinovite distal do tibial posterior, sem alteração tendínea significativa.
       Tendinopatia insercional do tibial posterior com espessamento e alteração do sinal habitual, sem roturas.
       Tendinopatia do tibial posterior inframaleolar sobretudo justa insercional ao navicular com aparente ruptura parcial.
-      Tendinopatia do tibial posterior e inframaleolar, com fissura longitudinal intra-tendínea junto a inserção navicular, onde há ossículo navicular acessório, com irregularidade e edema ósseo entre o ossículo e o navicular, indicando componente inflamatório local de origem mecânica, sem desalinhamentos e sem retração.//// sobrecarga mecanica
+      Tendinopatia do tibial posterior e inframaleolar, com fissura longitudinal intra-tendínea junto a inserção navicular, onde há ossículo navicular acessório, com irregularidade e edema ósseo entre o ossículo e o navicular, indicando componente inflamatório local de origem mecânica, sem desalinhamentos e sem retração.
       Fissura intra-tendínea do tibial posterior se estende até a região retromaleolar, sem transfixação ou retração, e com pequena distensão líquida da bainha e edema indicando tenossinovite.
       Importante tendinopatia e tenossinovite do tibial posterior, com espessamento e alteração do sinal habitual predominando ao nível justa maleolar, sem roturas. Nota-se ainda edema ósseo subcortical junto a deflexão no maléolo medial, de aspecto reacional .
-      flexores
       Tenossinovite do flexor longo do hálux no trajeto retromaleolar, com distensão líquida de sua bainha, sem alterações intratendíneas.
       Atrofia com lipossubstituição parcial do ventre muscular do abdutor do V dedo, compatível com neuropatia de Baxter.
       Tendão calcâneo e fáscia plantar de aspecto normal.
@@ -8415,7 +8575,6 @@ matches:
       Sinais de fasciíte plantar apresentando espessamento fusiforme da banda central da fáscia plantar no terço proximal, com edema e alterações inflamatórias perifasciais, destacando-se rotura transfixante completa na fáscia plantar no seu terço proximal, distando cerca de 2,5 cm a sua origem no calcâneo.
       Espessamento de aspecto crônico da banda central da fáscia plantar, sem alterações inflamatórias no presente estudo.
       Fáscia plantar íntegra e de espessura normal, com leve edema dos planos circunjacentes junto à origem.
-      faceta acessoria
       Presença de faceta talar anterolateral acessória com edema ósseo subcondral.
       Tendinopatia do calcâneo distal//  do segmento médio do calcâneo, com entesófitos justainsercionais e peritendíneo, sem roturas.
       Tendinopatia e peritendinite do calcâneo no terço distal, com foco de degeneração/fissura nas fibras justa-insercionais e mediais, sem transfixação ou retração.
@@ -8430,7 +8589,6 @@ matches:
       Não há evidências de fissuras ou erosões condrais profundas.
       Não há evidências de derrame articular de volume significativo.
       Demais estruturas miotendíneas de aspecto preservado.
-      Cistos:
       Pequeno cisto lobulado e septado junto aos planos capsuloligamentares dorsais cuneo-naviculares, subjacente ao tendão tibial anterior medindo cerca de 2,2 cm de natureza artrossinovial.
       Não há formações expansivas.
 
@@ -9036,7 +9194,6 @@ matches:
       -Estiramento crônico e/ou degenerativo intraligamentar do calcaneofibular.
       -Lesão crônica do ligamento talofibular anterior.
       -Tendinopatia do Aquiles.
-      -Tendinopatia com fissuras nas porções retro e justainfra
     word: true
 
   - trigger: "rmtornozelo14"
@@ -9156,7 +9313,7 @@ matches:
 
   - trigger: "osteofitoscerv3"
     label: "TC — osteófitos marginais anteriores e posteriores"
-    replace: "Osteófitos marginais anteriores e posteriores.calci"
+    replace: "Osteófitos marginais anteriores e posteriores."
     word: true
 
   - trigger: "hemangiomacerv1"
@@ -9261,9 +9418,7 @@ matches:
 
   - trigger: "interfacetcerv2"
     label: "Processo inflamatório osteo-hipertrófico da interfacetária"
-    replace: |-
-      Intenso processo inflamatório com componente osteo-hipertrófico inflamatório
-      da interfacetária em C4-C5 à direita  com edema ósseo das facetas articulares, perifacetário e inclusive com líquido intra-articular (sinovite).
+    replace: "Intenso processo inflamatório com componente osteo-hipertrófico inflamatório da interfacetária em C4-C5 à direita  com edema ósseo das facetas articulares, perifacetário e inclusive com líquido intra-articular (sinovite)."
     word: true
 
   - trigger: "artrointerfacet1"
@@ -9582,7 +9737,7 @@ matches:
     word: true
 
   - trigger: "desidratacerv3"
-    label: "Desidratação discal cervical com redução em C4-C5 a C6-C7"
+    label: "Desidratação discal cervical com redução em C5-C6, C6-C7 e C7-T1"
     replace: "Desidratação dos discos intervertebrais cervicais, de aspecto degenerativo, com leve redução da altura dos discos em C5-C6 , C6-C7 e C7-T1."
     word: true
 
@@ -9802,7 +9957,7 @@ matches:
       Demais corpos vertebrais com altura e alinhamento posterior preservados.
       Retificação da curvatura cervical com tendência à inversão.
       Leve acentuação da lordose cervical fisiológica na posição de decúbito.
-      Osteófitos marginais anteriores e posteriores.calci
+      Osteófitos marginais anteriores e posteriores.
       Calcificação na topografia do ligamento alar bilateral.
       Calcificação do ligamento longitudinal anterior em C5-C6 e C6-C7.
       Alteração degenerativa na articulação atlanto dental média, com esclerose óssea entre o odontóide e o arco anterior de C1.
@@ -9973,10 +10128,7 @@ matches:
 
   - trigger: "fxt10"
     label: "Fratura de T10 com desalinhamento dos fragmentos"
-    replace: |-
-      Fratura do corpo vertebral de T10, com desalinhamento dos fragmentos, observando-se desvio
-      anterossuperior dos fragmentos, com extensão deste traço de fratura para o muro anterior e para o
-      platô superior, com consequente redução da altura deste corpo vertebral.
+    replace: "Fratura do corpo vertebral de T10, com desalinhamento dos fragmentos, observando-se desvio anterossuperior dos fragmentos, com extensão deste traço de fratura para o muro anterior e para o platô superior, com consequente redução da altura deste corpo vertebral."
     word: true
 
   - trigger: "fxcronicas1"
@@ -10255,10 +10407,7 @@ matches:
 
   - trigger: "osteofitosepontes1"
     label: "Osteofitose marginal com pontes ósseas anterolaterais"
-    replace: |-
-      Osteofitose marginal difusa nos níveis torácicos e lombares, com formação de extensa fusão com
-      formação de pontes ósseas junto ao aspecto anterolateral dos corpos vertebrais torácicos, com
-      fratura acompanhando a fratura do corpo vertebral de T10 acima descrita.
+    replace: "Osteofitose marginal difusa nos níveis torácicos e lombares, com formação de extensa fusão com formação de pontes ósseas junto ao aspecto anterolateral dos corpos vertebrais torácicos, com fratura acompanhando a fratura do corpo vertebral de T10 acima descrita."
     word: true
 
   - trigger: "schmorl1"
@@ -10503,10 +10652,7 @@ matches:
 
   - trigger: "interapofis2"
     label: "Alterações degenerativas das interapofisárias torácicas e lombares"
-    replace: |-
-      Alterações degenerativas das articulações interapofisárias nos níveis torácicos e lombares,
-      destacando-se comprometimento de L4-L5 e L5-S1, onde se observa acentuada hipertrofia facetária
-      e osteofitose marginal.
+    replace: "Alterações degenerativas das articulações interapofisárias nos níveis torácicos e lombares, destacando-se comprometimento de L4-L5 e L5-S1, onde se observa acentuada hipertrofia facetária e osteofitose marginal."
     word: true
 
   - trigger: "cistointerfacet1"
@@ -11207,11 +11353,6 @@ matches:
   - trigger: "corposdorsolomb1"
     label: "Demais corpos vertebrais com alinhamento e alturas preservados"
     replace: "Demais corpos vertebrais torácicos e lombares com alinhamento posterior e alturas preservados."
-    word: true
-
-  - trigger: "obsrmcontraste1"
-    label: "Obs. — sugerir RM com contraste para lesão residual"
-    replace: "À critério clínico sugere-se correlação com ressonância magnética com contraste para avaliação de lesão tumoral residual, das regiões de partes moles e vasos cervicais , devido a baixa fratura do cosensibilidade na avaliação destas estruturas por este método."
     word: true
 
   - trigger: "rmdorsal"
@@ -12596,9 +12737,7 @@ matches:
 
   - trigger: "osteomielite1"
     label: "Cavidade intraóssea com sequestro e trajeto fistuloso"
-    replace: |-
-      Importante irregularidade e espessamento córtico-periosteal do terço médio e distal do fêmur, de natureza sequelar, notando-se ainda sinais de sequela de fratura com consolidação viciosa. Destaca-se presença de cavidade intra-óssea irregular e alongada na região diafisária média, estendendo-se por cerca de 78 mm, preenchida por líquido heterogêneo e focos de ossificação
-      (sequestro ósseo), medindo até 6 mm. Nota-se extensa área de descontinuidade da cortical óssea lateral desta coleção, medindo cerca de 51 mm, determinando comunicação do líquido intra-ósseo com os planos musculares e subcutâneos profundos da face lateral da coxa, delimitando coleções irregulares que se estendem para a pele e subcutâneo através de trajeto fistuloso.
+    replace: "Importante irregularidade e espessamento córtico-periosteal do terço médio e distal do fêmur, de natureza sequelar, notando-se ainda sinais de sequela de fratura com consolidação viciosa. Destaca-se presença de cavidade intra-óssea irregular e alongada na região diafisária média, estendendo-se por cerca de 78 mm, preenchida por líquido heterogêneo e focos de ossificação (sequestro ósseo), medindo até 6 mm. Nota-se extensa área de descontinuidade da cortical óssea lateral desta coleção, medindo cerca de 51 mm, determinando comunicação do líquido intra-ósseo com os planos musculares e subcutâneos profundos da face lateral da coxa, delimitando coleções irregulares que se estendem para a pele e subcutâneo através de trajeto fistuloso."
     word: true
 
   - trigger: "osteomielite2"
@@ -12684,6 +12823,11 @@ matches:
   - trigger: "sequelacondilos1"
     label: "Alteração morfoestrutural sequelar dos côndilos femorais"
     replace: "Alteração morfoestrutural sequelar dos côndilos femorais, que a critério clínico poderá ser melhor avaliado por estudo dirigido do joelho."
+    word: true
+
+  - trigger: "miotendinnl3"
+    label: "Demais planos musculares, tendíneos e aponeuróticos sem anormalidades"
+    replace: "Demais planos musculares, tendíneos e aponeuróticos sem anormalidades."
     word: true
 
   # ==========================================================================
@@ -12808,10 +12952,7 @@ matches:
 
   - trigger: "aneurismaaorta3"
     label: "Aorta com dilatação aneurismática infrarrenal (medidas)"
-    replace: |-
-      - Aorta: diâmetro proximal de  mm; presença de dilatação aneurismática da aorta infrarrenal e extensão até a bifurcação, medindo:  77,1 mm ( antero-posterior),
-      94,1 mm ( latero-lateral ) e 129,7 mm ( extensão ). Presença de trombo aderido a parede, sem
-      sinais de dissecção. Fluxos satisfatórios ao Color-Doppler.
+    replace: "- Aorta: diâmetro proximal de  mm; presença de dilatação aneurismática da aorta infrarrenal e extensão até a bifurcação, medindo:  77,1 mm ( antero-posterior), 94,1 mm ( latero-lateral ) e 129,7 mm ( extensão ). Presença de trombo aderido a parede, sem sinais de dissecção. Fluxos satisfatórios ao Color-Doppler."
     word: true
 
   - trigger: "usaorta"
@@ -12962,7 +13103,7 @@ matches:
 
   - trigger: "pbmicose1"
     label: "Opacidades em vidro fosco — DPOC e/ou paracoccidioidomicose"
-    replace: "Opacidades com atenuação em \"vidro fosco\", de aspecto nodular e distribuição randômica pelos campos pulmonares. Associam-se espessamento de septos interlobulares, espessamento de paredes brônquicas com bronquiectasias,  distorção arquitetural, áreas de aprisionamento aéreo, bandas parenquimatosas e estrias pleuroapicais. Nota-se ainda, acentuado enfisema centrolobular e parasseptal difuso nos campos pulmonares. Tais achados, embora inespecíficos, podem estar relacionados a doença pulmonar obstrutiva crônica e/ou paracoccidiomicose, conforme a suspeita clínica. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.]"
+    replace: "Opacidades com atenuação em \"vidro fosco\", de aspecto nodular e distribuição randômica pelos campos pulmonares. Associam-se espessamento de septos interlobulares, espessamento de paredes brônquicas com bronquiectasias,  distorção arquitetural, áreas de aprisionamento aéreo, bandas parenquimatosas e estrias pleuroapicais. Nota-se ainda, acentuado enfisema centrolobular e parasseptal difuso nos campos pulmonares. Tais achados, embora inespecíficos, podem estar relacionados a doença pulmonar obstrutiva crônica e/ou paracoccidiomicose, conforme a suspeita clínica. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
     word: true
 
   - trigger: "tctorax2"
