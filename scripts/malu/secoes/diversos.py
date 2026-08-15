@@ -33,7 +33,7 @@ ENTRADAS = [
     ("feixevascnl1", "Feixe vásculo-neural livre", "9182"),
     
     ("corticalnl1", "Sem sinais de rotura da cortical ou componente extraósseo", "11014"),
-    ("comparacao5", "Comparação — análise comparativa com estudo de data fixa", "11017"),
+    ("comparacao5", "Comparação — análise comparativa, com a data a preencher", "11017"),
     ("metodosefse1", "Técnica — SE e FSE multiplanares de 4 mm com contraste", "9139"),
     
     ("#", "MEDIDAS E ÂNGULOS ORTOPÉDICOS"),

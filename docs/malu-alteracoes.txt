@@ -10,8 +10,10 @@ e mais nenhuma:
   - linhas em branco internas ao bloco são descartadas, e no modo de laudo
     completo uma linha em branco é INSERIDA antes de cada cabeçalho de seção
     (Técnica:, Análise:, Conclusão: ...);
-  - marcadores de lista e setas do caderno (-, *, ·, ., →, @, [, 1.) saem do
-    início da linha; colchete órfão de fechamento do export é descartado;
+  - setas e colchete de abertura (→, @, [) saem do início da linha em
+    qualquer entrada; os marcadores de lista (-, *, ·, ., 1.) só saem nas 182
+    entradas em modo bullet — nas demais o marcador é preservado; colchete
+    órfão de fechamento do export é descartado;
   - em 7 entradas curtas, linhas-fonte consecutivas são unidas numa só frase
     (a quebra de linha vira espaço);
   - caracteres invisíveis do export (ZWNJ U+200C, BOM) são removidos e o
@@ -74,7 +76,7 @@ classe é cada uma, e o subtotal por classe vem no fim da seção.
   1x  'coonente' -> 'componente'   (typo) [correção de português]
   1x  'cronica' -> 'crônica'   (acentuação) [correção de português]
   3x  'curvatuva' -> 'curvatura'   (typo) [correção de português]
- 32x  regra automática: data de exame mascarada   [data de exame mascarada]
+ 33x  regra automática: data de exame mascarada   [data de exame mascarada]
   2x  'de generativa' -> 'degenerativa'   (espaço espúrio) [correção de português]
   2x  'denervação., sem' -> 'denervação, sem'   (pontuação espúria) [correção de português]
   1x  'devido a baixa fratura do cosensibilidade' -> 'devido a baixa sensibilidade'   (palavra reconstruída: pedaço de outra frase colado no meio dela) [inferência de conteúdo a partir do contexto]
@@ -159,14 +161,14 @@ classe é cada uma, e o subtotal por classe vem no fim da seção.
 
 por classe:
   488x  correção de português
-   32x  data de exame mascarada
+   33x  data de exame mascarada
    19x  resíduo de rascunho removido
    17x  nota de estudo removida
     9x  inferência de conteúdo a partir do contexto
     3x  artefato do export
     1x  nome de colega removido
 
-subtotal: 569 substituições, 132 regras ativas
+subtotal: 570 substituições, 132 regras ativas
 
 ------------------------------------------------------------
 2. ANOTAÇÕES REMOVIDAS DO TEXTO
@@ -291,5 +293,5 @@ por isso não exigem motivo individual:
   total de linhas não-vazias fora de toda faixa: 893
 
 ------------------------------------------------------------
-TOTAL: 569 substituições por regra (seção 1) + 90 anotações removidas (seção 2) + 40 linhas descartadas de dentro de máscara (seção 3)
+TOTAL: 570 substituições por regra (seção 1) + 90 anotações removidas (seção 2) + 40 linhas descartadas de dentro de máscara (seção 3)
        + 548 linhas da fonte deixadas de fora (seção 4)

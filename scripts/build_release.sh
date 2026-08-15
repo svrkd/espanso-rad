@@ -269,6 +269,13 @@ espanso-rad ${VERSION} — pacote portátil BeefText (beeftext ${BEEFTEXT_VERSIO
 3. O comboList.json já vem pré-carregado com todos os combos de match/*.yml,
    organizados em grupos por arquivo de origem (geral, us, tc, tc_abd, rx, rm,
    mmg, malu, legado).
+
+ATENÇÃO — diferença em relação ao espanso: o BeefText não tem equivalente do
+"word: true", e a conversão descarta esse campo. No espanso o gatilho só
+dispara delimitado por espaço ou quebra de linha; aqui ele pode disparar no
+meio de uma palavra. Os gatilhos foram escolhidos para não colidirem com
+palavras de laudo, mas se algum disparar sozinho onde não devia, desative-o
+pelo próprio BeefText.
 EOF
 
     local out_zip="$DIST/espanso-rad-beeftext-portable-${VERSION}.zip"

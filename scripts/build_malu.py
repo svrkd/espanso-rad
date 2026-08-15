@@ -363,6 +363,10 @@ REGRAS_REGEX = [
     (re.compile(r"\b\d{1,2}/\d{1,2}/\d{4}\b"), "XX/XX/XXXX", "data de exame mascarada"),
     (re.compile(r"\b\d{1,2}/\d{1,2}/\d{2}\b"), "XX/XX/XX", "data de exame mascarada"),
     (re.compile(r"\b\d{1,2}/\d{4}\b"), "XX/XXXX", "data de exame mascarada"),
+    # por extenso: as três acima só veem data numérica
+    (re.compile(r"\bde (?:janeiro|fevereiro|março|abril|maio|junho|julho|agosto|"
+                r"setembro|outubro|novembro|dezembro) de \d{4}\b", re.I),
+     "de XX/XXXX", "data de exame mascarada"),
 ]
 
 
@@ -655,8 +659,10 @@ def main():
             "  - linhas em branco internas ao bloco são descartadas, e no modo de laudo",
             "    completo uma linha em branco é INSERIDA antes de cada cabeçalho de seção",
             "    (Técnica:, Análise:, Conclusão: ...);",
-            "  - marcadores de lista e setas do caderno (-, *, ·, ., →, @, [, 1.) saem do",
-            "    início da linha; colchete órfão de fechamento do export é descartado;",
+            "  - setas e colchete de abertura (→, @, [) saem do início da linha em",
+            "    qualquer entrada; os marcadores de lista (-, *, ·, ., 1.) só saem nas 182",
+            "    entradas em modo bullet — nas demais o marcador é preservado; colchete",
+            "    órfão de fechamento do export é descartado;",
             "  - em 7 entradas curtas, linhas-fonte consecutivas são unidas numa só frase",
             "    (a quebra de linha vira espaço);",
             "  - caracteres invisíveis do export (ZWNJ U+200C, BOM) são removidos e o",
