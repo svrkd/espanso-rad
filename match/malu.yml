@@ -4608,8 +4608,6 @@ matches:
   - trigger: "tcbacia2"
     label: "TC de bacia — trauma com fratura da crista ilíaca"
     replace: |-
-      CT BACIATRAUMA
-
       Método:
       Exame realizado com técnica helicoidal/multislice, com aquisições axiais e reconstruções multiplanares.
 
@@ -4634,7 +4632,6 @@ matches:
   - trigger: "tcbacia3"
     label: "TC de bacia — artropatia degenerativa dos quadris e sacroilíacas"
     replace: |-
-      CTBACIA
       Artropatia degenerativa dos quadris, com osteófitos marginais, redução da interlinha articular, com cistos e esclerose subcondral, com deformidade e retificação da superfícies articulares principalmente na porção anterior da cabeça femoral à direita(sequela de fratura subcondral?)
       Artropatia degenerativa das sacroilíacas, com osteófitos marginais e redução da interlinha articular, assim como leve esclerose subcondral mais evidente no terço inferior.
       Calcificação heterotópica na topografia do ventre muscular adutor magno/quadrado femoral à esquerda, medindo 3,3 x 0,9 cm.
@@ -4679,7 +4676,6 @@ matches:
   - trigger: "tcbacia5"
     label: "TC de bacia — sequela de disjunção sacroilíaca"
     replace: |-
-      CT BACIA - DISJUNÇÃO SACROILIACA
       Sinais de manipulação cirúrgica com haste intramedular no fêmur esquerdo, parcialmente caracterizado neste estudo, íntegra e sem sinais de soltura.
       Sinais de manipulação cirúrgica para osteossíntese da sínfise púbica, fixada com placa e parafusos metálicos íntegros e sem sinais de solturas. O material metálico determina artefatos de endurecimento dos feixes de raio-x, prejudicando a avaliação das estruturas adjacentes. Há ainda diástase da sínfise púbica em cerca de 1,7 cm, com ossificações/calcificações periarticulares, de aspecto sequelar.
       Sequela de fratura consolidada no terço médio do ramo púbico inferior direito, sem desalinhamentos.
@@ -6586,8 +6582,6 @@ matches:
   - trigger: "rmjoelho8"
     label: "RM de joelho — modelo CEDIRP, normal"
     replace: |-
-      JOELHO PADRÃO CEDIRP
-
       Relatório:
       Medula óssea com intensidade de sinal normal.
       Patela com altura dentro dos limites da normalidade. Tróclea femoral sem evidências de displasia.
@@ -9300,6 +9294,7 @@ matches:
       -Estiramento crônico e/ou degenerativo intraligamentar do calcaneofibular.
       -Lesão crônica do ligamento talofibular anterior.
       -Tendinopatia do Aquiles.
+      -Tendinopatia com fissuras nas porções retro e justainfra
     word: true
 
   - trigger: "rmtornozelo14"
@@ -9700,6 +9695,11 @@ matches:
   - trigger: "abaulcerv23"
     label: "C5-C6 — protrusão centrolateral direita com fissura do ânulo"
     replace: "C5-C6: Protrusão discal posterior centrolateral direita com fissura do ânulo fibroso, associado com incipiente uncoartrose bilateral, formando complexos disco-osteofitários que determinam leve redução dos forames intervertebrais e tocando a face ventral da medula espinal, sem compressões neurais e sem sinais de mielopatia."
+    word: true
+
+  - trigger: "abaulcerv30"
+    label: "C6-C7 — protrusão discal posterior central (linha truncada na fonte)"
+    replace: "C6-C7: Protrusão discal posterior centr"
     word: true
 
   - trigger: "abaulcerv24"
@@ -12854,8 +12854,6 @@ matches:
   - trigger: "tccoccix"
     label: "TC de cóccix — sequela de fratura"
     replace: |-
-      CT CÓCCIX
-
       Método:
       Realizadas aquisições com cortes axiais em aparelho multislice com posteriores reconstruções multiplanares.
 
