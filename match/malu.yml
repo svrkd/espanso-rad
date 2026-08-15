@@ -2092,7 +2092,7 @@ matches:
 
   - trigger: "varianteulnar1"
     label: "Variação ulnar positiva com hipoplasia da epífise do rádio"
-    replace: "Variação ulnar positiva e hipoplasia da porção medial da epífise do rádio, notando-se insinuação do semilunar nesta região, de aspecto congênito."
+    replace: "Variação ulnar positiva e hipoplasia da porção medial da epífise do rádio, notando-se insinuação do semilunar nesta região, de aspecto congênito. ( quase madelung)"
     word: true
 
   - trigger: "varianteulnar2"
@@ -3274,7 +3274,7 @@ matches:
 
   - trigger: "pincer1"
     label: "Acetábulo profundo com ampla cobertura da cabeça femoral"
-    replace: "Acetábulo profundo com ampla cobertura da cabeça femoral."
+    replace: "Acetábulo profundo com ampla cobertura da cabeça femoral.( pincer)"
     word: true
 
   - trigger: "hipertrofnl1"
@@ -3354,7 +3354,7 @@ matches:
 
   - trigger: "labroacet3"
     label: "Ossificação na base do lábio póstero-superior"
-    replace: "Lábio acetabular com alterações degenerativas com pequena ossificação na base do segmento póstero superior com tênue edema ósseo no rebordo acetabular subjacente."
+    replace: "Lábio acetabular com alterações degenerativas com pequena ossificação na base do segmento póstero superior com tênue edema ósseo no rebordo acetabular subjacente. ( indício de pince)"
     word: true
 
   - trigger: "ligredondo1"
@@ -4238,11 +4238,11 @@ matches:
       Proeminência da transição cabeça/colo femoral, com alteração cística subcortical na região anterior
       Perda do acinturamento habitual da transição cabeça/colo femoral bilateral sem proeminências ósseas significativas.
       Proeminência óssea na região ântero superior da transição cabeça/colo femoral bilateral, que pode predispor a impacto femoroacetabular tipo CAME.
-      Acetábulo profundo com ampla cobertura da cabeça femoral.
+      Acetábulo profundo com ampla cobertura da cabeça femoral.( pincer)
       Lábio acetabular com morfologia e sinal dentro da normalidade.
       Alteração degenerativa do lábio acetabular ântero-superior, sem roturas.
       Alteração degenerativa do lábio acetabular, com rotura junto da base do segmento ântero-superior.
-      Lábio acetabular com alterações degenerativas com pequena ossificação na base do segmento póstero superior com tênue edema ósseo no rebordo acetabular subjacente.
+      Lábio acetabular com alterações degenerativas com pequena ossificação na base do segmento póstero superior com tênue edema ósseo no rebordo acetabular subjacente. ( indício de pince)
       Ligamentos intrínsecos e extrínsecos do quadril sem anormalidades.
       Indefinição do ligamento redondo na cabeça femoral, por rotura crônica ou constitucional.
       Leve afilamento degenerativo do ligamento redondo da cabeça femoral junto da fóvea, com pequenos osteófitos centrais.
@@ -5774,7 +5774,7 @@ matches:
 
   - trigger: "osgood1"
     label: "Sequela de Osgood-Schlatter — osteo-hipertrofia da tuberosidade"
-    replace: "Osteo-hipertrofia na tuberosidade anterior da tíbia, na inserção distal do ligamento patelar, de aspecto sequelar crônico, sem edema ou fragmentação."
+    replace: "Osteo-hipertrofia na tuberosidade anterior da tíbia, na inserção distal do ligamento patelar, de aspecto sequelar crônico, sem edema ou fragmentação.( osgood)"
     word: true
 
   - trigger: "osgood2"
@@ -13339,6 +13339,11 @@ matches:
   - trigger: "edemainsercional1"
     label: "Edemas subcorticais em inserções ligamentares e tendíneas — artropatia inflamatória"
     replace: "Edemas subcorticais junto a áreas de inserção ligamentar e tendíneas destacando-se … sugestivo de natureza inflamatória/artropatia inflamatória, conveniente prosseguir investigação."
+    word: true
+
+  - trigger: "obstumorresid1"
+    label: "Ressalva — sugerir RM com contraste para lesão tumoral residual cervical"
+    replace: "À critério clínico sugere-se correlação com ressonância magnética com contraste para avaliação de lesão tumoral residual, das regiões de partes moles e vasos cervicais, devido a baixa sensibilidade na avaliação destas estruturas por este método."
     word: true
 
   - trigger: "artefatos1"
