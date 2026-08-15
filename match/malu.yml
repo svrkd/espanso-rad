@@ -359,11 +359,6 @@ matches:
     replace: "Discreta irregularidade com cistos subcorticais subjacentes às tuberosidades maior e menor do úmero, de provável entesopatia degenerativa."
     word: true
 
-  - trigger: "cistoumeral1"
-    label: "Alterações fibrocísticas na cabeça umeral"
-    replace: "Alterações fibrocísticas na cabeça umeral."
-    word: true
-
   - trigger: "migrasup1"
     label: "Migração superior da cabeça umeral"
     replace: "Migração superior da cabeça umeral em relação à glenóide, notando-se redução do espaço subacromial."
@@ -1024,7 +1019,7 @@ matches:
     word: true
 
   - trigger: "rmombro9"
-    label: "RM de ombro — modelo curto, normal"
+    label: "RM de ombro — normal (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO / ESQUERDO
 
@@ -1045,7 +1040,7 @@ matches:
     word: true
 
   - trigger: "rmombro10"
-    label: "RM de ombro — modelo curto, instabilidade"
+    label: "RM de ombro — instabilidade (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO / ESQUERDO
 
@@ -1070,7 +1065,7 @@ matches:
     word: true
 
   - trigger: "rmombro11"
-    label: "RM de ombro — modelo curto, ruptura maciça"
+    label: "RM de ombro — ruptura maciça (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO / ESQUERDO
 
@@ -1093,7 +1088,7 @@ matches:
     word: true
 
   - trigger: "rmombro12"
-    label: "RM de ombro — modelo curto, tendinopatia do manguito"
+    label: "RM de ombro — tendinopatia do manguito (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO / ESQUERDO
 
@@ -4166,11 +4161,6 @@ matches:
     replace: "Calcificações parietais vasculares."
     word: true
 
-  - trigger: "calcvasculares2"
-    label: "TC — calcificações vasculares"
-    replace: "Calcificações vasculares."
-    word: true
-
   - trigger: "flebolitos1"
     label: "TC — flebólitos na escavação pélvica"
     replace: "Flebólitos na escavação pélvica."
@@ -4189,11 +4179,6 @@ matches:
   - trigger: "derramequadril3"
     label: "TC — pequeno/moderado derrame articular"
     replace: "Pequeno / moderado derrame articular."
-    word: true
-
-  - trigger: "espondiloselombtc1"
-    label: "TC — espondilose lombossacra"
-    replace: "Espondilose lombossacra."
     word: true
 
   - trigger: "atrofiagluteo5"
@@ -4344,7 +4329,7 @@ matches:
     word: true
 
   - trigger: "rmquadril5"
-    label: "RM de quadril — modelo curto, normal"
+    label: "RM de quadril — normal (modelo Relatório/I.D.)"
     replace: |-
       QUADRIL - RESSONÂNCIA MAGNÉTICA DO QUADRIL DIREITO / ESQUERDO
 
@@ -4368,7 +4353,7 @@ matches:
     word: true
 
   - trigger: "rmquadril6"
-    label: "RM de quadril — modelo curto, degenerativo"
+    label: "RM de quadril — degenerativo (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO QUADRIL DIREITO / ESQUERDO
 
@@ -4978,7 +4963,7 @@ matches:
     word: true
 
   - trigger: "denervfibular1"
-    label: "Atrofia com edema do compartimento anterior por denervação"
+    label: "Atrofia com edema do compartimento anterior por denervação (frase interrompida na fonte)"
     replace: "Associa-se ainda atrofia com edema da musculatura no compartimento anterior da perna e mais discreto de fibras do solear e do músculo tibial posterior, podendo estar relacionado a denervação no trajeto do fibular comum,"
     word: true
 
@@ -6585,7 +6570,7 @@ matches:
     word: true
 
   - trigger: "rmjoelho8"
-    label: "RM de joelho — modelo curto, normal"
+    label: "RM de joelho — normal (modelo Relatório/I.D.)"
     replace: |-
       Relatório:
       Medula óssea com intensidade de sinal normal.
@@ -6604,7 +6589,7 @@ matches:
     word: true
 
   - trigger: "rmjoelho9"
-    label: "RM de joelho — modelo curto, artrose"
+    label: "RM de joelho — artrose (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO
 
@@ -6630,7 +6615,7 @@ matches:
     word: true
 
   - trigger: "rmjoelho10"
-    label: "RM de joelho — modelo curto, rotura do LCA"
+    label: "RM de joelho — rotura do LCA (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO
 
@@ -6656,7 +6641,7 @@ matches:
     word: true
 
   - trigger: "rmjoelho11"
-    label: "RM de joelho — modelo curto, reconstrução do LCA"
+    label: "RM de joelho — reconstrução do LCA (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO
 
@@ -6677,7 +6662,7 @@ matches:
     word: true
 
   - trigger: "rmjoelho12"
-    label: "RM de joelho — modelo curto, luxação patelar"
+    label: "RM de joelho — luxação patelar (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO
 
@@ -8736,7 +8721,7 @@ matches:
     word: true
 
   - trigger: "rmtornozelo5"
-    label: "RM de tornozelo — modelo curto, normal"
+    label: "RM de tornozelo — normal (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO TORNOZELO DIREITO / ESQUERDO
 
@@ -8759,7 +8744,7 @@ matches:
     word: true
 
   - trigger: "rmtornozelo6"
-    label: "RM de tornozelo — modelo curto, síndrome de Haglund"
+    label: "RM de tornozelo — síndrome de Haglund (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO TORNOZELO DIREITO / ESQUERDO
 
@@ -8782,7 +8767,7 @@ matches:
     word: true
 
   - trigger: "rmtornozelo7"
-    label: "RM de tornozelo — modelo curto, lesão do talofibular anterior"
+    label: "RM de tornozelo — lesão do talofibular anterior (modelo Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO TORNOZELO DIREITO / ESQUERDO
 
@@ -9762,11 +9747,6 @@ matches:
     replace: "Espondilose cervical moderada."
     word: true
 
-  - trigger: "espondilosecerv2"
-    label: "Espondilose cervical"
-    replace: "Espondilose cervical."
-    word: true
-
   - trigger: "discopatiacerv1"
     label: "Discopatia multissegmentar com contato radicular"
     replace: "Discopatia multissegmentar, mantendo contato com a raiz emergente esquerda de C6-C7."
@@ -10491,11 +10471,6 @@ matches:
   - trigger: "vertebralimbo1"
     label: "Irregularidade do bordo ântero-superior de L5 (vértebra em limbo)"
     replace: "Irregularidade do bordo anterossuperior do corpo vertebral de L5 com fragmento destacado adjacente, que pode estar relacionado a fratura ou mesmo fusão incompleta dos centros de ossificação. ( vértebra em limbos)"
-    word: true
-
-  - trigger: "rarefacaoossea1"
-    label: "Rarefação óssea difusa"
-    replace: "Rarefação óssea difusa."
     word: true
 
   - trigger: "enostose1"
