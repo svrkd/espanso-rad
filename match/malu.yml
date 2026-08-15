@@ -1019,7 +1019,7 @@ matches:
     word: true
 
   - trigger: "rmombro9"
-    label: "RM de ombro — normal (modelo Relatório/I.D.)"
+    label: "RM de ombro — modelo mestre com alternativas (Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO / ESQUERDO
 
@@ -4329,7 +4329,7 @@ matches:
     word: true
 
   - trigger: "rmquadril5"
-    label: "RM de quadril — normal (modelo Relatório/I.D.)"
+    label: "RM de quadril — modelo mestre com alternativas (Relatório/I.D.)"
     replace: |-
       QUADRIL - RESSONÂNCIA MAGNÉTICA DO QUADRIL DIREITO / ESQUERDO
 
@@ -6570,7 +6570,7 @@ matches:
     word: true
 
   - trigger: "rmjoelho8"
-    label: "RM de joelho — normal (modelo Relatório/I.D.)"
+    label: "RM de joelho — modelo mestre com alternativas (Relatório/I.D.)"
     replace: |-
       Relatório:
       Medula óssea com intensidade de sinal normal.
@@ -7083,6 +7083,21 @@ matches:
       Direito: XX graus Esquerdo: XX graus (Normal ≤ 145)
       Altura patelar pelo método de Caton-Deschamps modificado (em flexão de 30º):
       Direito: XX Esquerdo: XX (Normal: 0.8 – 1.2)
+    word: true
+
+  - trigger: "tcjoelho9"
+    label: "TC dinâmica dos joelhos — tabela de tilt e subluxação patelar (células do export)"
+    replace: |-
+      DIREITO
+      ESQUERDO
+      Extensão
+      Flexão 30º
+      Extensão
+      Flexão 30º
+      Tilt patelar
+      em graus
+      Subluxação patelar
+      em mm
     word: true
 
   - trigger: "tcjoelho3"
@@ -8721,7 +8736,7 @@ matches:
     word: true
 
   - trigger: "rmtornozelo5"
-    label: "RM de tornozelo — normal (modelo Relatório/I.D.)"
+    label: "RM de tornozelo — modelo mestre com alternativas (Relatório/I.D.)"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO TORNOZELO DIREITO / ESQUERDO
 
@@ -13111,11 +13126,6 @@ matches:
   - trigger: "aneurismaaorta1"
     label: "Aneurisma fusiforme da aorta abdominal com trombo mural"
     replace: "Aorta: Aneurisma fusiforme da aorta abdominal, originando-se logo abaixo da emergência das artérias renais e estendendo-se até o segmento proximal da arteria ilíaca comum direita, apresentando calibre máximo de 8,2 x 9,4 cm (antero-posterior x latero-lateral), extensão craniocaudal de 12,9 cm, com trombo mural aderido a parede, sem sinais de dissecção. Fluxos satisfatórios ao Color-Doppler."
-    word: true
-
-  - trigger: "aneurismaaorta2"
-    label: "Máscara — aneurisma fusiforme da aorta abdominal"
-    replace: "Aneurisma fusiforme da aorta abdominal, originando-se cm abaixo da emergência da artéria renal esquerda e estendendo-se até à bifurcação das artérias ilíacas comuns, apresentando calibre máximo de cm, extensão craniocaudal de cm e trombos murais."
     word: true
 
   - trigger: "aneurismaaorta3"
