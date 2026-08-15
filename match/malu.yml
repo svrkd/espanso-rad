@@ -31,12 +31,12 @@ matches:
 
   - trigger: "supra6"
     label: "Rotura parcial insercional articular do supraespinhal (> 50%)"
-    replace: "Tendinopatia do supraespinhal e do infraespinhal, caracterizada por aumento da espessura tendínea e alteração do sinal habitual, com rotura parcial insercional nas fibras articulares posteriores do supraespinhal e superiores do infraespinhal, medindo cerca de 1,2 cm no transversal e retração de 0,8 cm, acometendo um pouco mais de 50% da espessura tendínea, sem transfixações."
+    replace: "Tendinopatia do supraespinhal e do infraespinhal, caracterizada por aumento da espessura tendínea e alteração do sinal habitual, com rotura parcial insercional nas fibras articulares posteriores do supraespinhal e superiores do infraespinhal, medindo cerca de 1,2  cm no transversal e retração de 0,8 cm, acometendo um pouco mais de 50% da espessura tendínea, sem transfixações."
     word: true
 
   - trigger: "supra7"
     label: "Rotura parcial do contorno bursal/articular do terço médio do supraespinhal"
-    replace: "Tendinopatia do supraespinhal e do infraespinhal, com espessamento e alteração de sinal tendíneo, destacando-se rotura parcial das fibras do contorno bursal//articular do terço medio do supraespinhal, medindo 0,4 cm, acometendo menos de 50% da espessura tendinea, sem transfixações."
+    replace: "Tendinopatia do supraespinhal e do infraespinhal, com espessamento e alteração de sinal tendíneo, destacando-se rotura parcial das fibras do contorno bursal//articular do terço medio do supraespinhal, medindo 0,4 cm, acometendo menos de 50% da espessura tendínea, sem transfixações."
     word: true
 
   - trigger: "supra8"
@@ -801,6 +801,7 @@ matches:
       Lábio da glenoide com morfologia e sinal dentro da normalidade.
       Não há evidências de derrame articular ou sinovite.
       Demais estruturas periarticulares sem anormalidades.
+
       Conclusão:
       Ressonância magnética do ombro esquerdo dentro dos padrões da normalidade.
     word: true
@@ -829,8 +830,8 @@ matches:
       Tendões que compõem o manguito rotador e cabo longo do bíceps de aspecto normal.
       Tendinopatia do supraespinhal e fibras superiores do infraespinhal, com espessamento e alteração de sinal tendíneo, sem roturas/ com focos de degeneração/fissuras intrassubstanciais na região de transição entre esses tendões, sem lesão transfixante. //pequenas fissuras intrassubstanciais junto à inserção na transição de ambos os tendões, sem lesão transfixante.
       Tendinopatia do supraespinhal e do infraespinhal, caracterizada por aumento da espessura tendínea e alteração do sinal habitual, com rotura parcial intrassubstancial no supraespinhal, medindo cerca de 0,7 cm acometendo menos de 50% da espessura tendínea, sem transfixações.
-      Tendinopatia do supraespinhal e do infraespinhal, caracterizada por aumento da espessura tendínea e alteração do sinal habitual, com rotura parcial insercional nas fibras articulares posteriores do supraespinhal e superiores do infraespinhal, medindo cerca de 1,2 cm no transversal e retração de 0,8 cm, acometendo um pouco mais de 50% da espessura tendínea, sem transfixações.
-      Tendinopatia do supraespinhal e do infraespinhal, com espessamento e alteração de sinal tendíneo, destacando-se rotura parcial das fibras do contorno bursal//articular do terço medio do supraespinhal, medindo 0,4 cm, acometendo menos de 50% da espessura tendinea, sem transfixações.
+      Tendinopatia do supraespinhal e do infraespinhal, caracterizada por aumento da espessura tendínea e alteração do sinal habitual, com rotura parcial insercional nas fibras articulares posteriores do supraespinhal e superiores do infraespinhal, medindo cerca de 1,2  cm no transversal e retração de 0,8 cm, acometendo um pouco mais de 50% da espessura tendínea, sem transfixações.
+      Tendinopatia do supraespinhal e do infraespinhal, com espessamento e alteração de sinal tendíneo, destacando-se rotura parcial das fibras do contorno bursal//articular do terço medio do supraespinhal, medindo 0,4 cm, acometendo menos de 50% da espessura tendínea, sem transfixações.
       Tendinopatia do supraespinhal e do infraespinhal, apresentando espessamento e alteração de sinal tendíneo, com rotura transfixante junto à inserção das fibras médias e superiores do infraespinhal, medindo cerca de 1,0 cm, com retração do coto tendíneo estimado em 1,5 cm, com fissuras longitudinais intrassubstanciais que determinam delaminação das fibras tendíneas do infraespinhal.
       Moderada tendinopatia do supraespinhal, com espessamento e alteração de sinal tendíneo, destacando-se rotura extensa insercional nas fibras anteriores e médias, medindo 0,7 x 0,4 cm ( AP x LL), com aparente transfixação para fibras bursais e articulares, sem retração significativa.
       Tendinopatia do supraespinhal e infraespinhal, com espessamento e alteração de sinal tendíneo, destacando-se pequena rotura parcial das fibras articulares anteriores justa insercionais do supraespinhal, medindo cerca de 0,6 cm no eixo longitudinal e 0,3 cm no eixo transversal, acometendo menos de 50% da espessura tendínea, sem transfixações.
@@ -2343,7 +2344,7 @@ matches:
 
   - trigger: "nervomediano3"
     label: "Nervo mediano espessado no túnel do carpo"
-    replace: "nervo mediano espessado e com aumento de sinal no interior do túnel do carpo, achado que pode estar relacionado a neuropatia a depender da correlação com dados clínicos e eletroneuromiografia. F"
+    replace: "nervo mediano espessado e com aumento de sinal no interior do túnel do carpo, achado que pode estar relacionado a neuropatia a depender da correlação com dados clínicos e eletroneuromiografia."
     word: true
 
   - trigger: "nervomediano4"
@@ -2688,7 +2689,7 @@ matches:
 
   - trigger: "ligcarponl1"
     label: "Ligamentos intrínsecos e extrínsecos do carpo de aspecto normal"
-    replace: "Demais/ Ligamentos intrínsecos e extrínsecos do carpo de aspecto normal."
+    replace: "Ligamentos intrínsecos e extrínsecos do carpo de aspecto normal."
     word: true
 
   - trigger: "cistopunho4"
@@ -4848,7 +4849,7 @@ matches:
 
   - trigger: "estiramgastroc3"
     label: "Rotura completa do gastrocnêmio medial (lesão grau III)"
-    replace: "Rotura completa das fibras do ventre medial do músculo gastrocnêmio, com retração de cerca de cm de suas fibras e coleção líquida de provável natureza hemática interposta (lesão grau III)."
+    replace: "Rotura completa das fibras do ventre medial do músculo gastrocnêmio, com retração de cerca de  cm de suas fibras e coleção líquida de provável natureza hemática interposta (lesão grau III)."
     word: true
 
   - trigger: "colecserohem1"
@@ -4989,6 +4990,11 @@ matches:
   - trigger: "tvpperna1"
     label: "Trombose venosa profunda da veia tibial posterior"
     replace: "No nível do marcador nota-se ectasia e alteração de sinal de veia tibial posterior no terço médio da perna direita, com alteração do sinal luminal e edema da gordura perivascular, estendendo-se por cerca de 8,5 cm no eixo craniocaudal, podendo estar relacionado a trombose venosa profunda. Sugere-se correlação com estudo ultrassonográfico com doppler."
+    word: true
+
+  - trigger: "grupamentosnl1"
+    label: "Demais grupamentos musculotendíneos de morfologia e sinal habitual"
+    replace: "Demais grupamentos musculotendíneos de morfologia, contornos e sinal habitual."
     word: true
 
   - trigger: "rmcoxa2"
@@ -5934,7 +5940,7 @@ matches:
 
   - trigger: "lcarecon1"
     label: "Abordagem cirúrgica para reconstrução do LCA com materiais de síntese"
-    replace: "Sinais de abordagem cirúrgica para reconstrução do ligamento cruzado anterior, notando-se materiais de síntese/ parafusos no terço distal do fêmur e proximal da tíbia. Estes materiais manipulação geram artefatos de susceptibilidade magnética que degradam a qualidade das imagens e limitam a interpretação do estudo. Túneis ósseos com orientação habitual."
+    replace: "Sinais de abordagem cirúrgica para reconstrução do ligamento cruzado anterior, notando-se materiais de síntese/ parafusos no terço distal do fêmur e proximal da tíbia. Estes materiais geram artefatos de susceptibilidade magnética que degradam a qualidade das imagens e limitam a interpretação do estudo. Túneis ósseos com orientação habitual."
     word: true
 
   - trigger: "lcarecon2"
@@ -6265,6 +6271,11 @@ matches:
     replace: "Fragmento osteocondral medindo 1,4 cm deslocado para região intercondilar anterior /média."
     word: true
 
+  - trigger: "feixesjoelhonl1"
+    label: "Demais feixes neurovasculares sem particularidades"
+    replace: "Demais feixes neurovasculares sem particularidades."
+    word: true
+
   - trigger: "rmjoelho2"
     label: "RM de joelho — normal"
     replace: |-
@@ -6449,8 +6460,9 @@ matches:
 
       Método:
       Exame realizado com a sequência FSE com cortes multiplanares de 3,0 e 4,0 mm de espessura.
+
       Análise:
-      Sinais de abordagem cirúrgica para reconstrução do ligamento cruzado anterior, notando-se materiais de síntese/ parafusos no terço distal do fêmur e proximal da tíbia. Estes materiais manipulação geram artefatos de susceptibilidade magnética que degradam a qualidade das imagens e limitam a interpretação do estudo. Túneis ósseos com orientação habitual.
+      Sinais de abordagem cirúrgica para reconstrução do ligamento cruzado anterior, notando-se materiais de síntese/ parafusos no terço distal do fêmur e proximal da tíbia. Estes materiais geram artefatos de susceptibilidade magnética que degradam a qualidade das imagens e limitam a interpretação do estudo. Túneis ósseos com orientação habitual.
       Sinais de manipulação cirúrgica para reconstrução do ligamento cruzado anterior, com material cirúrgico gerando artefatos de susceptibilidade magnética, com túneis ósseos sem particularidades, estando o neoligamento íntegro, sem evidências de roturas.
       Sinais de manipulação cirúrgica para reconstrução do ligamento cruzado anterior, com rerrotura completa do enxerto ligamentar. Túneis ósseos de amplitude preservada, com material cirúrgico.
       Sinais de manipulação cirúrgica para reconstrução do ligamento cruzado anterior, com túneis ósseos sem particularidades, estando o neoligamento íntegro, sem evidências de roturas. Nota-se pequeno tecido fibrocicatricial adjacente à porção anterior e distal ao neoligamento, medindo até 0,7 cm.
@@ -6510,8 +6522,6 @@ matches:
       Peritendinite distal da pata anserina, sem roturas.
       Demais planos miotendíneos sem alterações.
       Feixes neurovasculares com trajetos livres.
-
-      Conclusão:
 
       Conclusão:
       Reconstrução pregressa do ligamento cruzado anterior, com rotura completa do neoligamento.
@@ -7669,7 +7679,7 @@ matches:
 
   - trigger: "lesaoosteocond1"
     label: "Lesão osteocondral do domus talar com artropatia tibiotalar"
-    replace: "Artropatia degenerativa tibiotalar, com osteófitos marginais e afilamento condral, destacando-se lesão osteocondral no ângulo medial do domus talar, estendendo-se desde seu terço anterior ao posterior, medindo 2,5 x 1,4 cm ( AP x LL) e profundidade de 1,5 cm, onde há remodelação da cortical óssea com esclerose e cistos subcondrais, sem fragmentos destacados."
+    replace: "Artropatia degenerativa tibiotalar, com osteófitos marginais e afilamento condral, destacando-se lesão osteocondral no ângulo medial do domus talar, estendendo-se desde seu terço anterior ao posterior, medindo 2,5 x 1,4  cm ( AP x LL) e profundidade de 1,5 cm, onde há remodelação da cortical óssea com esclerose e cistos subcondrais, sem fragmentos destacados."
     word: true
 
   - trigger: "lesaoosteocond2"
@@ -8477,6 +8487,11 @@ matches:
     replace: "Superfícies condrais preservadas."
     word: true
 
+  - trigger: "sindactilia1"
+    label: "Fusão da pele e planos mioadiposos do quarto e quinto dedos"
+    replace: "Fusão da pele e planos mioadiposos do quarto e quinto dedos"
+    word: true
+
   - trigger: "rmtornozelo"
     label: "RM de tornozelo — normal"
     replace: |-
@@ -8551,7 +8566,7 @@ matches:
       Proeminência bordo posterior medial do navicular (ossículo navicular acessório tipo III).
       Osteófitos talonaviculares dorsais, naviculocuneiformes e tarsometatársicas.
       Reação osteo-hipertrófica talonavicular dorsal associada a espessamento e edema capsuloligamentar, de provável origem mecânica.
-      Artropatia degenerativa tibiotalar, com osteófitos marginais e afilamento condral, destacando-se lesão osteocondral no ângulo medial do domus talar, estendendo-se desde seu terço anterior ao posterior, medindo 2,5 x 1,4 cm ( AP x LL) e profundidade de 1,5 cm, onde há remodelação da cortical óssea com esclerose e cistos subcondrais, sem fragmentos destacados.
+      Artropatia degenerativa tibiotalar, com osteófitos marginais e afilamento condral, destacando-se lesão osteocondral no ângulo medial do domus talar, estendendo-se desde seu terço anterior ao posterior, medindo 2,5 x 1,4  cm ( AP x LL) e profundidade de 1,5 cm, onde há remodelação da cortical óssea com esclerose e cistos subcondrais, sem fragmentos destacados.
       (quando o T1 está muito escuro pode dar lesão osteocondral e esse osso já era) ou coloca plug ou protese.
       Leve afilamento condral tibiotalar com pequenas irregularidades condrais profundas na região central de ambos os componentes, associado a edema e cisto ósseo subcondrais, sem desalinhamento ósseo ou fragmento instável. Associa-se a esboços osteofitários marginais/ com pequeno derrame articular e sinovite associada na subtalar.
       Leve artropatia degenerativa tibiotalar, com osteófitos marginais e erosão difusa da cartilagem, com ampla exposição óssea, remodelamento subcondral com cistos, esclerose e edema subcondral, com afundamento da superfície articular na epífise tibial, na porção central, de até cerca de 0,3 cm.
@@ -9353,7 +9368,7 @@ matches:
 
   - trigger: "tonsilas1"
     label: "Insinuação das tonsilas cerebelares pelo forame magno"
-    replace: "Insinuação das tonsilas cerebelares através do forame magno em cerca de XX cm (normal de 0,3 a 0,6- passo de 0,6 é chiare antes da insinuação)"
+    replace: "Insinuação das tonsilas cerebelares através do forame magno em cerca de XX cm (normal de 0,3 a 0,6 cm)"
     word: true
 
   - trigger: "osteofitoscerv1"
@@ -11417,6 +11432,26 @@ matches:
     replace: "Demais corpos vertebrais torácicos e lombares com alinhamento posterior e alturas preservados."
     word: true
 
+  - trigger: "discosnl1"
+    label: "Demais discos intervertebrais sem protrusões significativas"
+    replace: ". Demais discos intervertebrais: sem protrusões significativas."
+    word: true
+
+  - trigger: "canalforamesnl1"
+    label: "Canal vertebral e forames neurais de amplitude normal"
+    replace: "Canal vertebral e os demais forames neurais: de amplitude normal."
+    word: true
+
+  - trigger: "liticasnl1"
+    label: "TC — não são observadas lesões líticas ou blásticas"
+    replace: "Não são observadas lesões líticas ou blásticas."
+    word: true
+
+  - trigger: "estudolombar1"
+    label: "Realizado estudo da coluna lombar de L3 a S1"
+    replace: "Realizado estudo da coluna lombar de L3 a S1."
+    word: true
+
   - trigger: "rmdorsal"
     label: "RM de coluna dorsal — normal"
     replace: |-
@@ -12920,6 +12955,21 @@ matches:
     replace: "Feixe vásculo-neural livre."
     word: true
 
+  - trigger: "corticalnl1"
+    label: "Sem sinais de rotura da cortical ou componente extraósseo"
+    replace: "sem sinais de rotura da cortical ou componente extra ósseo"
+    word: true
+
+  - trigger: "comparacao5"
+    label: "Realizada análise comparativa com estudo anterior"
+    replace: "Realizada análise comparativa com estudo do dia 13/07/2023."
+    word: true
+
+  - trigger: "metodoosteomielite1"
+    label: "Técnica — SE e FSE multiplanares com contraste"
+    replace: "Exame realizado com as sequências SE e FSE com cortes multiplanares de 4,0 mm de espessura. Administrado meio de contraste paramagnético por via intravenosa."
+    word: true
+
   # ==========================================================================
   # MEDIDAS E ÂNGULOS ORTOPÉDICOS
   # ==========================================================================
@@ -13041,7 +13091,7 @@ matches:
 
   - trigger: "aneurismaaorta3"
     label: "Aorta com dilatação aneurismática infrarrenal (medidas)"
-    replace: "- Aorta: diâmetro proximal de mm; presença de dilatação aneurismática da aorta infrarrenal e extensão até a bifurcação, medindo: 77,1 mm ( antero-posterior), 94,1 mm ( latero-lateral ) e 129,7 mm ( extensão ). Presença de trombo aderido a parede, sem sinais de dissecção. Fluxos satisfatórios ao Color-Doppler."
+    replace: "- Aorta: diâmetro proximal de  mm; presença de dilatação aneurismática da aorta infrarrenal e extensão até a bifurcação, medindo: 77,1 mm ( antero-posterior), 94,1 mm ( latero-lateral ) e 129,7 mm ( extensão ). Presença de trombo aderido a parede, sem sinais de dissecção. Fluxos satisfatórios ao Color-Doppler."
     word: true
 
   - trigger: "usaorta"
@@ -13053,7 +13103,7 @@ matches:
       Velocidade = 81,4 cm/seg.
       - Ilíaca Comum Esquerda: fluxos normais ao Color-Doppler.
       - Ilíaca Externa Esquerda: fluxos satisfatórios ao Color-Doppler.
-      Velocidade = 59,3 cm/seg.
+      Velocidade = 59,3  cm/seg.
     word: true
 
   - trigger: "trombosejugular1"
