@@ -252,8 +252,8 @@ build_beeftext_portable() {
     echo "==> Gerando comboList.json a partir de match/*.yml"
     python3 "$REPO_ROOT/scripts/espanso_to_beeftext.py" \
         "$REPO_ROOT/match/geral.yml" "$REPO_ROOT/match/us.yml" "$REPO_ROOT/match/tc.yml" \
-        "$REPO_ROOT/match/rx.yml" "$REPO_ROOT/match/rm.yml" "$REPO_ROOT/match/mmg.yml" \
-        "$REPO_ROOT/match/legado.yml" \
+        "$REPO_ROOT/match/tc_abd.yml" "$REPO_ROOT/match/rx.yml" "$REPO_ROOT/match/rm.yml" \
+        "$REPO_ROOT/match/mmg.yml" "$REPO_ROOT/match/malu.yml" "$REPO_ROOT/match/legado.yml" \
         -o "$beeftext_root/comboList.json.tmp"
 
     local data_dir
@@ -267,7 +267,8 @@ espanso-rad ${VERSION} — pacote portátil BeefText (beeftext ${BEEFTEXT_VERSIO
 1. Extraia este zip em qualquer pasta.
 2. Rode o executável do BeefText dentro da pasta extraída.
 3. O comboList.json já vem pré-carregado com todos os combos de match/*.yml,
-   organizados em grupos por arquivo de origem (geral, us, tc, rx, mmg, legado).
+   organizados em grupos por arquivo de origem (geral, us, tc, tc_abd, rx, rm,
+   mmg, malu, legado).
 EOF
 
     local out_zip="$DIST/espanso-rad-beeftext-portable-${VERSION}.zip"
