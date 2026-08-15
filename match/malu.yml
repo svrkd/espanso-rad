@@ -2596,6 +2596,11 @@ matches:
     replace: "Espessamento irregular difuso da fáscia palmar, mais evidente no nível do carpo e do quarto e quinto metacarpos, onde há algumas formações nodulariformes de permeio, achados sugestivos de fibromatose palmar (Dupuytren)."
     word: true
 
+  - trigger: "fascpalmar1"
+    label: "Alteração fibrocicatricial da face volar repuxando as placas palmares"
+    replace: "irregularidade e alteração fibrocicatriciais na face volar que se estende para a fáscia palmar, origem por traumática? que esta repuxando as placas palmares"
+    word: true
+
   - trigger: "atitudeflex1"
     label: "Atitude em flexão das metacarpofalangeanas"
     replace: "Atitude em flexão das metacarpofalangeanas do segundo ao quinto dedos."
