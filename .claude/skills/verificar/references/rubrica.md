@@ -48,7 +48,7 @@ Os tetos resolvem o caso grave. Abaixo deles a soma ainda precisa de calibraçã
 - **Achado substantivo confirmado** — entre um terço e metade do peso da dimensão. Dois achados substantivos na mesma dimensão praticamente a zeram; não some descontos até passar do peso, use zero como piso.
 - **Achado menor confirmado** — até um quinto do peso.
 - **Cosmético ou preferência** — no máximo 1 ponto, e só em Execução e adequação. Não desconte estilo em Correção.
-- **Alegação não verificada** — desconte em Evidência verificável, nunca em Correção. Não saber se algo está certo não é o mesmo que saber que está errado, e confundir os dois faz o refutador punir a própria falta de alcance como se fosse defeito do artefato.
+- **Alegação não verificada** — desconte em Evidência verificável, nunca em Correção. Não saber se algo está certo não é o mesmo que saber que está errado, e confundir os dois faz o refutador punir a própria falta de alcance como se fosse defeito do artefato. Central sem teste também aciona o teto de 85 ou de 80; periférica sem teste só desconta aqui, e o que ficou fora vai descrito na seção COBERTURA nos dois casos.
 
 Escreva o desconto ao lado de cada dimensão, com o achado que o motivou. Dimensão com desconto e sem achado nomeado é nota inventada.
 
@@ -56,11 +56,24 @@ Escreva o desconto ao lado de cada dimensão, com o achado que o motivou. Dimens
 
 Não são regras — são âncoras, para que 70 signifique a mesma coisa entre refutadores diferentes.
 
-- **90-100** — nenhuma refutação de pé, cobertura ampla, o refutador rodou os testes que derrubariam o trabalho e eles não derrubaram. Sobrou no máximo preferência de estilo.
-- **86-89** — nenhum `REFUTADO` de pé e as alegações centrais foram alcançadas; sobrou um detalhe de execução ou uma alegação periférica sem teste. Passa. Note que "um canto central sem teste" não mora nesta faixa: isso é o teto de 85, e desce.
-- **70-85** — nada catastrófico, mas há buraco real: achado menor confirmado, alegação central não verificada, cobertura que não alcançou o essencial. Nova rodada.
+- **89-100** — nenhum `REFUTADO` não cosmético de pé e as alegações centrais foram todas alcançadas. Passa. Dentro da faixa: 100 é cobertura ampla sem nenhuma ressalva; descontos em Evidência verificável (alegação periférica que ficou sem teste) e o desconto cosmético de Execução puxam para baixo até 89.
+- **70-85** — há buraco real: qualquer `REFUTADO` não cosmético confirmado, alegação central não verificada, ou cobertura que não alcançou o essencial. Nova rodada.
 - **40-69** — requisito ausente ou regressão confirmada. O trabalho não faz o que foi pedido, ou quebrou algo ao fazer.
 - **0-39** — resultado errado sendo entregue como certo. O caso mais grave, porque parece pronto.
+
+**Não existe faixa 86-88, e isso é consequência do desenho, não descuido.** Para ficar acima do portão é preciso não ter nenhum `REFUTADO` não cosmético (senão o guarda-chuva trava em 85), nenhuma alegação central sem teste (85) e nenhuma tentada sem sucesso (80). Sobram então só dois descontos possíveis, Evidência verificável (até 10) e o cosmético de Execução (até 1), e o piso deles é 89. Não force uma nota em 86, 87 ou 88: se você chegou lá, algum desconto seu não tem achado nomeado por trás, ou você aplicou em Correção o que devia ir em Evidência.
+
+Vale dizer com todas as letras o que isso significa: **acima do portão a nota é grossa de propósito.** A escada fina de descontos em Correção, Completude e Integridade só entra em operação nos casos que já estão travados em 85 ou menos, onde a granularidade serve para ordenar gravidade e orientar a rodada seguinte. Acima de 85 a única pergunta que importa já foi respondida — não sobrou refutação — e a nota vira quase binária. Se você está caprichando na terceira casa de uma nota 94, está gastando esforço onde ele não muda nenhuma decisão.
+
+## Cosmético, e por que a fronteira importa
+
+O portão inteiro se apoia numa distinção: `REFUTADO` cosmético não trava a nota, qualquer outro trava em 85. Se essa fronteira ficar solta, o teto guarda-chuva vira letra morta — basta chamar o defeito de cosmético.
+
+**É cosmético** o achado que não muda nem o resultado que o trabalho produz, nem o que um leitor conclui dele, nem o que acontece quando alguém o usa: preferência de redação, ordem de parágrafos, nome de variável, formatação, sinônimo mais feliz, verbosidade.
+
+**Não é cosmético**, por mais que pareça pequeno: qualquer coisa que muda o resultado, mesmo que raramente; qualquer coisa que torna falsa uma afirmação do artefato, mesmo que lateral; violação de convenção do lugar, porque convenção existe para ser executável por terceiros; contradição interna, porque quem executar o documento vai parar nela; erro de português que altera o sentido, e em laudo qualquer erro de português.
+
+Na dúvida, não é cosmético. O custo de errar para o lado severo é uma rodada a mais; o custo de errar para o outro lado é defeito confirmado entregue como aprovado, que é o resultado que esta rubrica inteira existe para tornar impossível.
 
 ## Agregação entre refutadores da mesma rodada
 
@@ -92,4 +105,4 @@ O refutador de rodada 3 recebe uma única dimensão e é instruído a olhar só 
 
 ## O que a nota não é
 
-Não é avaliação do esforço, do tamanho da mudança nem da dificuldade da tarefa. Uma correção de uma linha, certa e testada, tira 95. Uma refatoração de dois mil arquivos com uma regressão confirmada tira 60. A rubrica mede o estado do artefato, não a jornada até ele.
+Não é avaliação do esforço, do tamanho da mudança nem da dificuldade da tarefa. Uma correção de uma linha, certa, testada e integralmente coberta, tira 100 — não há desconto a fazer quando não há achado a nomear, e inventar um arredondamento para baixo por modéstia é tão errado quanto inventar um para cima. Uma refatoração de dois mil arquivos com uma regressão confirmada tira 60. A rubrica mede o estado do artefato, não a jornada até ele.

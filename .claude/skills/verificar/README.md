@@ -66,7 +66,8 @@ A skill também se aciona sozinha quando você está prestes a alegar que algo e
 
 ## Como ela se comporta
 
-- Monta um dossiê cego: pedido original literal, artefato extraído por ferramenta, caminhos para o estado real, e um registro de alegações com a evidência de cada uma. Nada do raciocínio do executor entra.
+- Monta um dossiê cego com três seções e nada mais: pedido original literal, artefato colado inteiro, caminhos para o estado real. Nada do raciocínio, do resumo ou da autoavaliação do executor entra.
+- Escreve à parte um registro das próprias alegações, com a evidência de cada uma, que **não** vai ao refutador — uma lista de alegações de sucesso redigida pelo auditado enviesaria a busca. Ele serve ao relatório final, para mostrar quais alegações a verificação nunca tocou.
 - Abre um subagente refutador com contexto limpo, que precisa declarar o predicado antes de rodar o teste e só pode responder `REFUTADO` ou `NÃO REFUTADO` — nunca "aprovado".
 - Lê a nota. Acima de 85 entrega; 85 ou menos corrige e roda de novo, com três refutadores em paralelo na rodada 2 e refutadores focados na rodada 3.
 - Antes de corrigir qualquer achado, reproduz a falha descrita. O que não reproduz vira `CONTESTADO` e não é "corrigido".

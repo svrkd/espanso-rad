@@ -2,6 +2,8 @@
 
 Quem executa não dá a nota. Toda alegação de conclusão passa por um subagente refutador cuja tarefa é derrubá-la, não confirmá-la.
 
+> **Implementação executável.** A skill `/verificar` (`.claude/skills/verificar/`) executa esta política como procedimento, com rubrica de nota de 0 a 100, portão em 85 e até 3 rodadas de fan-out. Preferir invocá-la a improvisar o ciclo. Ela estende este documento em dois pontos e só nestes: achado puramente cosmético não força rodada nova, e achado que não reproduz vira `CONTESTADO` documentado em vez de correção. O prompt de refutador desta regra, mais abaixo, é a versão curta; o de `references/prompt-refutador.md` é a estendida e prevalece quando a skill está em uso.
+
 ## Gatilho
 
 Aplicar antes de qualquer uma destas:

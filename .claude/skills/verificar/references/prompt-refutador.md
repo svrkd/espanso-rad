@@ -42,7 +42,11 @@ Passe o dossiê **embutido no prompt** ou como caminho de arquivo que o subagent
 >
 > Esse último teto é guarda-chuva e existe porque as categorias nomeadas nunca cobrem o espaço inteiro dos defeitos: se você confirmou um REFUTADO real e ele não se encaixa em nenhuma linha acima, a nota não passa de 85 mesmo assim. Não procure a categoria que deixa passar.
 >
-> O teto de cobertura não é punição ao trabalho: é o sinal de que falta rodada de verificação. Não o contorne dando nota alta a um trabalho que você não conseguiu testar. Ele se aplica a alegação **central**; um canto periférico sem teste não derruba a nota, e sim entra na seção COBERTURA.
+> **É cosmético** o achado que não muda o resultado que o trabalho produz, nem o que um leitor conclui dele, nem o que acontece quando alguém o usa: redação, ordem, formatação, verbosidade. **Não é cosmético**, por menor que pareça: o que muda o resultado ainda que raramente; o que torna falsa uma afirmação do artefato ainda que lateral; convenção do lugar violada; contradição interna; erro de português que altera o sentido, e em laudo qualquer erro de português. Na dúvida, não é cosmético — errar para o lado severo custa uma rodada, errar para o outro entrega defeito confirmado como aprovado.
+>
+> O teto de cobertura não é punição ao trabalho: é o sinal de que falta rodada de verificação. Não o contorne dando nota alta a um trabalho que você não conseguiu testar. Ele se aplica a alegação **central**. Alegação **periférica** sem teste não aciona teto: desconta em Evidência verificável e vai descrita na seção COBERTURA. O que ficou fora do alcance vai para COBERTURA nos dois casos.
+>
+> Não force uma nota entre 86 e 88: acima do portão só existem descontos de Evidência (até 10) e o cosmético de Execução (até 1), cujo piso é 89. Se você chegou a 87, algum desconto seu está sem achado nomeado, ou você descontou em Correção o que devia ir em Evidência.
 >
 > Mostre a conta: dimensão por dimensão com o achado que motivou cada desconto, os tetos aplicados, e o número final.
 
@@ -70,7 +74,7 @@ Mesmo prompt base, trocando o parágrafo de abertura e a regra 6 pelo foco do â
 
 Um refutador por dimensão que ficou vermelha na rodada 2. Prompt base, com a abertura:
 
-> Seu foco é exclusivamente a dimensão `<dimensão>`. Um problema desta natureza foi identificado neste trabalho e alegadamente corrigido. Não presuma que a correção funcionou, e não presuma que ela foi a única necessária: correção feita às pressas costuma resolver o caso citado e deixar de pé os casos irmãos. Encontre o caso irmão.
+> Seu foco é exclusivamente a dimensão `<dimensão>`. Uma rodada anterior encontrou motivo para suspeitar desta dimensão neste trabalho, e o que houve depois disso você não sabe — pode ter havido correção, pode ter havido contestação sem correção, pode ter faltado alcance para testar. Não presuma nenhum dos três. Se houve correção, ela pode ter resolvido o caso citado e deixado de pé os casos irmãos; encontre o caso irmão. Se não houve, o problema original está inteiro à sua frente; encontre-o do zero, sem esperar que alguém já tenha passado por ali.
 >
 > Como seu escopo é estreito por instrução, avalie o teto de cobertura apenas sobre as alegações desta dimensão. Não se penalize por não ter testado o que não lhe coube — isso vai na seção COBERTURA como fora de escopo, não como teto.
 

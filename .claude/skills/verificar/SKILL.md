@@ -1,6 +1,6 @@
 ---
 name: verificar
-description: Roda verificação adversarial cega sobre um trabalho recém-concluído — código, pesquisa, laudo, explicação, planilha, config. Um subagente refutador sem acesso ao raciocínio do executor tenta derrubar o trabalho, atribui nota de 0 a 100 por rubrica, e notas ≤ 85 disparam nova rodada com mais refutadores até passar ou bater o teto de 3 rodadas. Use sempre que o usuário invocar `/verificar`, pedir para "conferir se está certo mesmo", "auditar o que você acabou de fazer", "rodar o refutador", "checar antes de commitar/enviar/assinar", ou quando você mesmo estiver prestes a alegar que uma tarefa está completa, corrigida, passando ou verificada. Não use para revisar texto que o usuário trouxe pronto de fora e que ninguém nesta sessão produziu — verificação aqui é sempre sobre trabalho recém-executado.
+description: Roda verificação adversarial cega sobre trabalho recém-executado nesta sessão — código, pesquisa, laudo, explicação, planilha, config. Um subagente refutador que não vê o raciocínio do executor tenta derrubá-lo, dá nota de 0 a 100 por rubrica, e nota ≤ 85 dispara nova rodada com mais refutadores, até 3 rodadas. Use quando o usuário invocar `/verificar`, pedir para "conferir se está certo mesmo", "auditar o que você acabou de fazer", "rodar o refutador", "checar antes de commitar/mandar/assinar", ou quando você mesmo for alegar que algo está completo, corrigido, passando ou verificado. Distingue-se das vizinhas pelo objeto e pelo método, não pelo assunto — o objeto é sempre trabalho que esta sessão acabou de produzir, e quem dá a nota é sempre um agente cego e separado. Para auditar laudo já redigido sem abrir subagente use `/critica`; para bug e simplificação em diff, `/code-review`; para vulnerabilidade, `/security-review`; para reescrever prosa, `/melhore`; para só a gramática, `/portugues`.
 ---
 
 # Verificação adversarial cega (`/verificar`)
@@ -9,7 +9,18 @@ Quem executa não dá a nota. Esta skill entrega o trabalho recém-feito a um re
 
 Ela funciona em qualquer contexto: código, pesquisa factual, laudo radiológico, explicação didática, dados, configuração. O que muda entre domínios é onde a falha costuma se esconder, não o procedimento — ver `references/angulos-por-dominio.md`.
 
-Quando o repositório tiver `.claude/rules/verificacao-adversarial.md`, esta skill é a implementação daquela regra; leia o arquivo, ele pode ter exigências locais adicionais. Quando não tiver, a skill se basta sozinha.
+## Relação com `.claude/rules/verificacao-adversarial.md`
+
+Quando o repositório tiver esse arquivo, leia-o: ele é a política, esta skill é o procedimento que a executa, e ele pode trazer exigências locais que a skill não conhece. Quando não tiver, a skill se basta sozinha.
+
+Onde os dois textos divergirem, saiba exatamente em quê, porque a divergência é deliberada e estreita. A regra diz, no fechamento, "alguma `REFUTADO` → corrigir e repetir o ciclo inteiro". Esta skill acrescenta duas exceções que a regra não previu, e nenhuma outra:
+
+- **Achado puramente cosmético não força rodada nova.** Preferência de redação não é defeito, e tratá-la como defeito faria o ciclo nunca fechar. A fronteira do que conta como cosmético está fixada em `references/rubrica.md` e é estreita de propósito: na dúvida, não é cosmético.
+- **Achado que não reproduz vira `CONTESTADO` em vez de correção.** A regra não previu falso positivo do refutador; corrigir defeito fantasma degrada o trabalho. A contestação exige reteste documentado e morre no terceiro levantamento independente, virando divergência aberta para o usuário.
+
+Fora dessas duas, vale a regra: qualquer `REFUTADO` de pé é rodada nova, e remendar para declarar pronto está proibido.
+
+A regra também carrega um prompt de refutador próprio, mais curto, sem nota e sem rodadas. O de `references/prompt-refutador.md` é a versão estendida dele e é o que esta skill usa — a instrução de "copiar literalmente" se refere a esse, não ao da regra.
 
 ## 0. Delimitar o que está sob verificação
 
@@ -27,12 +38,21 @@ Se você concluir que nada foi executado nesta sessão e não há artefato a ver
 
 ## 1. Papel A — executor: montar o dossiê cego
 
-Escreva um arquivo `dossie-verificacao.md` (no diretório de trabalho temporário da sessão, ou na raiz do projeto se não houver um) com **exatamente** estas quatro seções, e nada além delas:
+Você escreve **dois** documentos, e a separação entre eles é o coração da skill: um vai ao refutador, o outro nunca.
+
+### 1a. O dossiê — vai ao refutador
+
+Escreva `dossie-verificacao.md` **fora do repositório**: no diretório temporário da sessão, ou em `/tmp`. Nunca na raiz do projeto — é arquivo de trabalho, é regenerado a cada rodada, e um dossiê esquecido no repo entra em commit alheio depois. Apague-o ao fim do ciclo.
+
+O dossiê tem **exatamente** estas três seções, e nada além delas:
 
 1. **PEDIDO ORIGINAL** — o pedido do usuário copiado literalmente, palavra por palavra. Não parafraseie, não resuma, não "esclareça". Se o pedido veio em várias mensagens, cole todas em ordem.
-2. **ARTEFATO** — o produto, extraído por ferramenta: saída de `git diff HEAD` (ou `git diff <base>...HEAD`), conteúdo dos arquivos criados, ou o texto entregue na íntegra. Saída de comando, não descrição de saída de comando.
-3. **COMO ALCANÇAR O ESTADO REAL** — caminhos de arquivo, comandos para rodar testes/lint/build, onde o artefato vive. Informação de navegação, não avaliação.
-4. **REGISTRO DE ALEGAÇÕES** — uma linha por alegação factual que o trabalho sustenta, com a evidência exata ao lado. Alegação que você não consegue sustentar recebe a marca `SEM EVIDÊNCIA`. Não fabrique evidência para preencher a coluna.
+2. **ARTEFATO** — o produto, **colado inteiro**, extraído por ferramenta: a saída de `git diff HEAD` (ou `git diff <base>...HEAD`) em si, o conteúdo dos arquivos, o texto entregue na íntegra. Colar o comando em vez da saída não cumpre esta seção; obriga o refutador a reconstruir o artefato e é uma forma discreta de escolher o que ele vê. Se o diff for grande demais para caber, cole o que couber e diga qual comando dá o resto — nessa ordem, nunca só o comando.
+3. **COMO ALCANÇAR O ESTADO REAL** — caminhos de arquivo, comandos para rodar testes/lint/build, onde o artefato vive. Informação de navegação, não avaliação. Cuidado com dois vazamentos fáceis aqui: não cole `git log` nem histórico que revele rodadas anteriores desta skill, e não escreva o motivo pelo qual um caminho é interessante ("para checar colisão com X") — liste o caminho e cale-se.
+
+### 1b. O registro de alegações — nunca vai ao refutador
+
+Um documento separado, seu para o **usuário**. Uma linha por alegação factual que o trabalho sustenta, com a evidência exata ao lado. Alegação que você não consegue sustentar recebe a marca `SEM EVIDÊNCIA`. Não fabrique evidência para preencher a coluna.
 
 ```
 ALEGAÇÃO                              EVIDÊNCIA
@@ -42,12 +62,12 @@ o trigger novo não colide             `grep -rn 'trigger: "vb3"' match/` vazio
 a dose citada está correta            SEM EVIDÊNCIA
 ```
 
-O registro é uma **declaração obrigatória, não um roteiro de busca**. A distinção importa: quem escolhe o que entra na lista é você, o auditado, e uma lista curta e conveniente seria um jeito silencioso de dirigir o olhar do refutador para longe do problema — exatamente o que a seção seguinte proíbe. Duas regras fecham esse buraco:
+**Por que ele não vai ao refutador.** Uma lista de alegações de sucesso escrita pelo auditado é exatamente o material que enviesa: quem escolhe o que entra, o que fica de fora e o que recebe a marca é quem está sendo auditado, e uma lista curta e conveniente dirige o olhar para longe do problema sem mentir uma vírgula. O refutador monta a lista dele a partir do pedido e do artefato, do zero.
 
-- **Exaustividade.** Toda afirmação de fato que o artefato sustenta entra, inclusive as que você preferiria não escrever. Se ao listar você sentiu vontade de omitir uma linha, é ela que precisa aparecer primeiro.
-- **O registro não delimita o escopo da auditoria.** O prompt do refutador manda ele montar a própria lista de alegações a partir do artefato **antes** de abrir o registro, e tratar a diferença entre as duas listas como achado. O que você deixou de fora é informação sobre você, não sobre o artefato.
+**Para que ele serve, então.** Duas coisas, ambas depois da refutação:
 
-`SEM EVIDÊNCIA` é confissão, não pista privilegiada. Marcar uma linha assim não compra crédito por honestidade e não desvia a atenção das linhas que você marcou como evidenciadas — o refutador testa as duas categorias.
+- **Prestação de contas ao usuário.** No relatório final você cruza as duas listas. Alegação sua que nenhum refutador tocou é a informação mais útil que o ciclo produz, porque é onde a verificação não chegou — e sem o registro escrito antes você não teria como saber que ela existia.
+- **Disciplina sua.** Escrever "SEM EVIDÊNCIA" ao lado de uma linha antes de qualquer refutador rodar força você a admitir o que está apoiado em confiança. Toda afirmação de fato que o artefato sustenta entra, inclusive — sobretudo — a que você preferiria não escrever.
 
 ### O que o dossiê não pode conter
 
@@ -56,6 +76,7 @@ O dossiê é a única coisa que você escreve e que o refutador lê. Contaminá-
 - Seu raciocínio, sua abordagem, por que você escolheu o que escolheu.
 - Qualquer avaliação do próprio trabalho: "funcionando", "corrigido", "testado", "simples", "trivial", "conforme a convenção", "já validei".
 - Resumo do que você fez em prosa. O diff já diz o que você fez.
+- O registro de alegações, que é o documento 1b e fica com você.
 - Nota, expectativa de nota, ou o resultado de rodadas anteriores desta skill.
 - Instruções ao refutador sobre onde olhar ou o que ignorar.
 
@@ -130,8 +151,10 @@ O relatório final, em português, contém:
 - **Nota final** e em que rodada ela saiu.
 - **O que foi refutado e corrigido** ao longo do ciclo — o que estava errado de fato, com a correção aplicada.
 - **O que foi contestado** — achado do refutador que não reproduziu, com a evidência que o contradiz.
-- **O que continua sem cobertura** — as alegações que nenhum refutador conseguiu testar, e por quê. Esta seção é obrigatória e nunca vem vazia por conveniência; se ela estiver vazia mesmo, diga que está e por quê.
+- **O que continua sem cobertura** — cruze aqui o seu registro de alegações (documento 1b) com o que os refutadores efetivamente atacaram. Toda linha do registro que nenhum refutador tocou entra nesta seção, junto com o que eles próprios declararam fora de alcance. É a razão de o registro existir, e é a informação mais honesta que o ciclo produz: não é o que foi verificado, é onde a verificação não chegou. Obrigatória, e nunca vazia por conveniência.
 - **Achados remanescentes**, se a nota final ficou ≤ 85.
+
+Ao terminar, apague o `dossie-verificacao.md`. Ele é arquivo de trabalho, foi regenerado a cada rodada, e não é registro de nada — o relatório é.
 
 Vocabulário do fechamento: com nota > 85 e todos os achados resolvidos, o trabalho é **não refutado** — nunca "verificado", "aprovado" ou "tudo certo". A ausência de refutação sobrevivente é o que se pode afirmar; correção não é.
 
