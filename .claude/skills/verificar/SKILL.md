@@ -1,6 +1,6 @@
 ---
 name: verificar
-description: Roda verificação adversarial cega sobre trabalho recém-executado nesta sessão — código, pesquisa, laudo, explicação, planilha, config. Um subagente refutador que não vê o raciocínio do executor tenta derrubá-lo, dá nota de 0 a 100 por rubrica, e nota ≤ 85 dispara nova rodada com mais refutadores, até 3 rodadas. Use quando o usuário invocar `/verificar`, pedir para "conferir se está certo mesmo", "auditar o que você acabou de fazer", "rodar o refutador", "checar antes de commitar/mandar/assinar", ou quando você mesmo for alegar que algo está completo, corrigido, passando ou verificado. Distingue-se das vizinhas pelo objeto e pelo método, não pelo assunto — o objeto é sempre trabalho que esta sessão acabou de produzir, e quem dá a nota é sempre um agente cego e separado. Para auditar laudo já redigido sem abrir subagente use `/critica`; para bug e simplificação em diff, `/code-review`; para vulnerabilidade, `/security-review`; para reescrever prosa, `/melhore`; para só a gramática, `/portugues`.
+description: Roda verificação adversarial cega sobre trabalho recém-executado nesta sessão — código, pesquisa, laudo, explicação, planilha, config. Um subagente refutador que não vê o raciocínio do executor tenta derrubá-lo, dá nota de 0 a 100 por rubrica, e nota igual ou menor que 85 dispara nova rodada com mais refutadores, até 3 rodadas. Use quando o usuário invocar `/verificar`, pedir para "conferir se está certo mesmo", "auditar o que você acabou de fazer", "rodar o refutador", "checar antes de commitar/mandar/assinar", ou quando você mesmo for alegar que algo está completo, corrigido, passando ou verificado. Distingue-se das vizinhas pelo objeto e pelo método, não pelo assunto — o objeto é sempre trabalho que esta sessão acabou de produzir, e quem dá a nota é sempre um agente cego e separado. Para auditar laudo já redigido sem abrir subagente use `/critica`; para reescrever prosa, `/melhore`; para só a gramática, `/portugues`.
 ---
 
 # Verificação adversarial cega (`/verificar`)
@@ -13,12 +13,13 @@ Ela funciona em qualquer contexto: código, pesquisa factual, laudo radiológico
 
 Quando o repositório tiver esse arquivo, leia-o: ele é a política, esta skill é o procedimento que a executa, e ele pode trazer exigências locais que a skill não conhece. Quando não tiver, a skill se basta sozinha.
 
-Onde os dois textos divergirem, saiba exatamente em quê, porque a divergência é deliberada e estreita. A regra diz, no fechamento, "alguma `REFUTADO` → corrigir e repetir o ciclo inteiro". Esta skill acrescenta duas exceções que a regra não previu, e nenhuma outra:
+Onde os dois textos divergirem, saiba exatamente em quê, porque a divergência é deliberada e estreita. São **três** pontos, e nenhum outro:
 
-- **Achado puramente cosmético não força rodada nova.** Preferência de redação não é defeito, e tratá-la como defeito faria o ciclo nunca fechar. A fronteira do que conta como cosmético está fixada em `references/rubrica.md` e é estreita de propósito: na dúvida, não é cosmético.
+- **Achado puramente cosmético não força rodada nova.** A regra manda repetir o ciclo diante de qualquer `REFUTADO`. Preferência de redação não é defeito, e tratá-la como defeito faria o ciclo nunca fechar. A fronteira do cosmético está fixada em `references/rubrica.md` e é estreita de propósito: na dúvida, não é cosmético.
 - **Achado que não reproduz vira `CONTESTADO` em vez de correção.** A regra não previu falso positivo do refutador; corrigir defeito fantasma degrada o trabalho. A contestação exige reteste documentado e morre no terceiro levantamento independente, virando divergência aberta para o usuário.
+- **O registro de alegações não vai ao refutador.** Aqui a skill inverte a regra, não a estende: o Papel A dela diz que alegação marcada `SEM EVIDÊNCIA` "passa ao refutador como suspeita prioritária", e o prompt dela manda atacar essas marcas primeiro. Esta skill mantém o registro com o executor (documento 1b) porque uma lista de alegações de sucesso redigida pelo auditado dirige o olhar de quem audita, ainda que sem mentir uma palavra. Onde os dois se contradizem neste ponto, **prevalece a skill**.
 
-Fora dessas duas, vale a regra: qualquer `REFUTADO` de pé é rodada nova, e remendar para declarar pronto está proibido.
+Fora dessas três, vale a regra: qualquer `REFUTADO` de pé é rodada nova, e remendar para declarar pronto está proibido.
 
 A regra também carrega um prompt de refutador próprio, mais curto, sem nota e sem rodadas. O de `references/prompt-refutador.md` é a versão estendida dele e é o que esta skill usa — a instrução de "copiar literalmente" se refere a esse, não ao da regra.
 
@@ -136,7 +137,11 @@ Regenere o dossiê do zero a partir do estado corrigido. Os refutadores da rodad
 - **Requisitos e omissão** — o que o pedido exigia e não aparece em lugar nenhum?
 - **Efeito colateral e regressão** — o que mais quebrou, contradisse ou sobrescreveu?
 
-**Rodada 3** — refutadores focados só nas dimensões que ficaram vermelhas na rodada 2, um por dimensão. Como o escopo deles é estreito de propósito, o teto de cobertura na rodada 3 se avalia só sobre a dimensão que coube a cada um; avaliá-lo sobre todas as alegações centrais reprovaria a rodada por construção e o ciclo nunca fecharia.
+**Rodada 3** — um refutador por dimensão vermelha, **mais um generalista** sobre o artefato inteiro. **Vermelha** é a dimensão que perdeu um terço ou mais do seu peso na rodada 2, ou que recebeu qualquer achado substantivo confirmado; desconto menor isolado não pinta a dimensão de vermelho.
+
+O generalista não é opcional e não é redundância. Sem ele, a rodada 3 examina só as dimensões que já estavam ruins, enquanto o artefato mudou desde a rodada 2 — você corrigiu coisas — e a cobertura das dimensões verdes atesta uma versão que não existe mais. No limite em que só uma dimensão ficou vermelha, um único refutador de escopo estreito não acharia nada, assinaria 100, e o portão abriria com um quinto do artefato reexaminado depois da correção. Cobertura não se herda através de uma mudança.
+
+Como o escopo dos focados é estreito por instrução, o teto de cobertura deles se avalia só sobre a dimensão que lhes coube; o do generalista se avalia normalmente, sobre todas as alegações centrais.
 
 **Agregação de uma rodada com vários refutadores:** siga os três passos de `references/rubrica.md` — (1) recompor cada nota individual, derrubando o teto de cobertura que outro refutador da mesma rodada desmentiu; (2) descontar contestações reconhecidas e retestadas; (3) só então tirar o **mínimo** entre as notas recompostas, nunca a média. Os achados são a **união**: um defeito encontrado por um só continua sendo um defeito.
 
@@ -174,7 +179,7 @@ Faça o seguinte: monte o dossiê normalmente, monte o prompt do refutador com e
 | "O subagente disse que passou" | Relatório de subagente é alegação, não evidência |
 | "Rodar de novo é desperdício" | O ciclo custa segundos; a regressão silenciosa custa a confiança |
 | "Só falta uma coisinha" | Então não está completo. Diga isso |
-| "A nota deu 84, arredonda" | O portão é 85. 84 é uma rodada nova |
+| "A nota deu 85, arredonda" | O portão é acima de 85. 85 é uma rodada nova |
 
 ## Arquivos de referência
 
