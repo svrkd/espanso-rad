@@ -43,10 +43,12 @@ Versionada junto com o projeto, o que também a torna disponível em sessões re
 Gere o zip e faça o upload em **Settings → Capabilities → Skills → Upload skill**:
 
 ```bash
-cd .claude/skills && zip -r verificar-skill.zip verificar/
+cd .claude/skills && zip -r /tmp/verificar-skill.zip verificar/
 ```
 
-O zip precisa conter a pasta `verificar/` na raiz, com o `SKILL.md` dentro dela — não o `SKILL.md` solto na raiz do zip.
+O zip precisa conter a pasta `verificar/` na raiz, com o `SKILL.md` dentro dela — não o `SKILL.md` solto na raiz do zip. Confira com `unzip -l /tmp/verificar-skill.zip` antes de subir.
+
+O destino é `/tmp` de propósito: o zip é artefato gerado, reconstruível a qualquer momento a partir da pasta versionada, e não deve ser commitado.
 
 ## Verificar se instalou
 

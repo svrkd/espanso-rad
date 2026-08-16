@@ -32,7 +32,7 @@ Escreva um arquivo `dossie-verificacao.md` (no diretório de trabalho temporári
 1. **PEDIDO ORIGINAL** — o pedido do usuário copiado literalmente, palavra por palavra. Não parafraseie, não resuma, não "esclareça". Se o pedido veio em várias mensagens, cole todas em ordem.
 2. **ARTEFATO** — o produto, extraído por ferramenta: saída de `git diff HEAD` (ou `git diff <base>...HEAD`), conteúdo dos arquivos criados, ou o texto entregue na íntegra. Saída de comando, não descrição de saída de comando.
 3. **COMO ALCANÇAR O ESTADO REAL** — caminhos de arquivo, comandos para rodar testes/lint/build, onde o artefato vive. Informação de navegação, não avaliação.
-4. **REGISTRO DE ALEGAÇÕES** — uma linha por alegação factual que o trabalho sustenta, com a evidência exata ao lado. Alegação sem evidência recebe a marca `SEM EVIDÊNCIA` e passa como suspeita prioritária. Não fabrique evidência para preencher a coluna.
+4. **REGISTRO DE ALEGAÇÕES** — uma linha por alegação factual que o trabalho sustenta, com a evidência exata ao lado. Alegação que você não consegue sustentar recebe a marca `SEM EVIDÊNCIA`. Não fabrique evidência para preencher a coluna.
 
 ```
 ALEGAÇÃO                              EVIDÊNCIA
@@ -41,6 +41,13 @@ nenhum conteúdo perdido no split      diff linha a linha contra o backup
 o trigger novo não colide             `grep -rn 'trigger: "vb3"' match/` vazio
 a dose citada está correta            SEM EVIDÊNCIA
 ```
+
+O registro é uma **declaração obrigatória, não um roteiro de busca**. A distinção importa: quem escolhe o que entra na lista é você, o auditado, e uma lista curta e conveniente seria um jeito silencioso de dirigir o olhar do refutador para longe do problema — exatamente o que a seção seguinte proíbe. Duas regras fecham esse buraco:
+
+- **Exaustividade.** Toda afirmação de fato que o artefato sustenta entra, inclusive as que você preferiria não escrever. Se ao listar você sentiu vontade de omitir uma linha, é ela que precisa aparecer primeiro.
+- **O registro não delimita o escopo da auditoria.** O prompt do refutador manda ele montar a própria lista de alegações a partir do artefato **antes** de abrir o registro, e tratar a diferença entre as duas listas como achado. O que você deixou de fora é informação sobre você, não sobre o artefato.
+
+`SEM EVIDÊNCIA` é confissão, não pista privilegiada. Marcar uma linha assim não compra crédito por honestidade e não desvia a atenção das linhas que você marcou como evidenciadas — o refutador testa as duas categorias.
 
 ### O que o dossiê não pode conter
 
@@ -71,7 +78,9 @@ Ele devolve, obrigatoriamente:
 
 **Nota ≤ 85** → passo 4, depois nova rodada.
 
-A nota sai da rubrica de `references/rubrica.md`, que tem tetos: qualquer defeito substantivo confirmado impede matematicamente que a nota passe de 85. Ou seja, o portão não é uma impressão geral — é a ausência de refutação sobrevivente. Cobertura insuficiente também trava em 85, porque "não achei erro" sem ter conseguido testar não é o mesmo que ter procurado.
+A nota sai da rubrica de `references/rubrica.md`. Ela tem tetos nomeados para os defeitos graves e um **teto guarda-chuva** que pega todo o resto: qualquer `REFUTADO` confirmado que não seja puramente cosmético trava a nota em 85. É esse guarda-chuva que torna a regra verdadeira como enunciada — sem ele, um defeito real que não se encaixe em nenhuma categoria nomeada sairia por cima do portão pela soma das dimensões. Com ele, o portão não é impressão geral: é a ausência de refutação sobrevivente. Cobertura insuficiente também trava em 85, porque "não achei erro" sem ter conseguido testar não é o mesmo que ter procurado.
+
+Se a rodada teve mais de um refutador, a nota que você lê aqui é a nota **agregada**, depois dos três passos de `references/rubrica.md` — recompor as notas individuais, descontar contestações reconhecidas, e só então tirar o mínimo. Ler o mínimo cru das notas como vieram trava artefato limpo abaixo do portão.
 
 ## 4. Antes de corrigir: contestar o que não reproduz
 
@@ -80,7 +89,20 @@ Refutador adversarial produz falso positivo. Corrigir um defeito fantasma piora 
 Para cada `REFUTADO`, reproduza a falha descrita antes de mexer em qualquer coisa:
 
 - **Reproduziu** → corrija de verdade, na causa, não no sintoma. Não silencie teste, não remova asserção, não relaxe lint para ficar verde.
-- **Não reproduziu** → marque `CONTESTADO: <alegação> — <o comando que rodei e a saída que contradiz o refutador>` e **não corrija**. Contestação entra no relatório final e não conta contra a nota na rodada seguinte.
+- **Não reproduziu** → marque `CONTESTADO: <alegação> — <o comando que rodei e a saída que contradiz o refutador>` e **não corrija**. Anote a linha no livro de contestações (abaixo) e leve-a ao relatório final.
+
+### Livro de contestações
+
+Mantenha uma lista acumulada das contestações, uma linha por achado contestado, com o comando e a saída que o contradizem. Ela sobrevive entre rodadas — o dossiê, não.
+
+Uma contestação não corrige nada por definição, então o mesmo falso positivo vai ser reencontrado pelos refutadores cegos da rodada seguinte, e sem uma regra explícita ele seria recontado contra a nota para sempre. Por isso, e só por isso, existe esta autoridade:
+
+> **O executor pode ajustar a nota de uma rodada em um único caso.** Quando um achado dessa rodada coincide com uma contestação já no livro, reteste a falha **agora**, sobre o estado atual. Se continuar não reproduzindo, remova o achado do cômputo daquele refutador, recomponha a nota dele conforme o passo 2 de `references/rubrica.md`, e cole no relatório o comando e a saída que sustentam a remoção. Qualquer outro ajuste de nota pelo executor é proibido — é o vício que a skill inteira existe para impedir.
+
+Duas travas contra o abuso desta porta:
+
+- **Reteste sempre, nunca reaproveite.** A contestação vale para o estado em que foi levantada. Você mexeu no artefato desde então; a falha pode ter passado a reproduzir. Contestação reaproveitada sem novo comando é autoindulgência com nome técnico.
+- **Três é o limite.** Se três refutadores independentes e cegos entre si levantarem o mesmo achado, pare de contestar mesmo que ele siga não reproduzindo no seu ambiente. Nesse ponto a hipótese mais provável já não é falso positivo em série — é que o predicado deles alcança algo que o seu não alcança. Leve ao usuário como divergência aberta, com os dois lados e as duas evidências, e deixe a decisão com ele.
 
 Se uma correção exigir decisão que só o usuário pode tomar — requisito ambíguo, escolha clínica, mudança destrutiva, troca de escopo — pare o ciclo e pergunte. Não decida por ele para fechar a nota.
 
@@ -93,9 +115,11 @@ Regenere o dossiê do zero a partir do estado corrigido. Os refutadores da rodad
 - **Requisitos e omissão** — o que o pedido exigia e não aparece em lugar nenhum?
 - **Efeito colateral e regressão** — o que mais quebrou, contradisse ou sobrescreveu?
 
-**Rodada 3** — refutadores focados só nas dimensões que ficaram vermelhas na rodada 2, um por dimensão.
+**Rodada 3** — refutadores focados só nas dimensões que ficaram vermelhas na rodada 2, um por dimensão. Como o escopo deles é estreito de propósito, o teto de cobertura na rodada 3 se avalia só sobre a dimensão que coube a cada um; avaliá-lo sobre todas as alegações centrais reprovaria a rodada por construção e o ciclo nunca fecharia.
 
-**Agregação de uma rodada com vários refutadores:** a nota da rodada é o **mínimo** entre eles, nunca a média. Dois refutadores rasos não diluem um achado real. Os achados são a **união** — um defeito encontrado por um só continua sendo um defeito.
+**Agregação de uma rodada com vários refutadores:** siga os três passos de `references/rubrica.md` — (1) recompor cada nota individual, derrubando o teto de cobertura que outro refutador da mesma rodada desmentiu; (2) descontar contestações reconhecidas e retestadas; (3) só então tirar o **mínimo** entre as notas recompostas, nunca a média. Os achados são a **união**: um defeito encontrado por um só continua sendo um defeito.
+
+O passo 1 não é formalidade. Sem ele o mínimo cru trava o caso mais comum que existe — um refutador sem ferramenta para uma alegação assina 85 pelo teto de cobertura enquanto os outros dois cobrem tudo e assinam 100 — e um artefato que a rodada inteira cobriu e não conseguiu derrubar cai para outra rodada, e depois para o teto de rodadas, e sai marcado como não concluído.
 
 **Teto de 3 rodadas.** Bateu o teto ainda em ≤ 85: entregue assim mesmo, com a nota final e a lista do que sobrou. Nunca estenda o ciclo para forçar uma nota bonita, nunca reporte como concluído.
 

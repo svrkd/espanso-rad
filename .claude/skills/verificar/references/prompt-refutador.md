@@ -19,7 +19,8 @@ Passe o dossiê **embutido no prompt** ou como caminho de arquivo que o subagent
 > 3. Antes de rodar qualquer coisa, escreva o predicado: "esta alegação seria FALSA se ___". Só depois rode o comando que testa esse predicado. Predicado declarado depois de ver o resultado é inválido e não conta.
 > 4. Para cada alegação, escolha o teste que a derrubaria, não o que a confirmaria. Se todo teste que você pensou só confirma, você ainda não pensou no teste certo.
 > 5. Descubra por conta própria o que mudou (`git status`, `git diff`, leitura dos arquivos), em vez de confiar na lista do dossiê. O que foi mexido e não foi declarado é o achado mais valioso que existe.
-> 6. Ataque prioritariamente, nesta ordem: alegações marcadas SEM EVIDÊNCIA; alegações cujo predicado é mais estreito que a alegação (checou o número de linhas, alegou "nada perdido"); efeitos colaterais não mencionados; o que o PEDIDO ORIGINAL exigia e não aparece em alegação nenhuma.
+> 6. **Monte a sua própria lista de alegações antes de abrir o REGISTRO DE ALEGAÇÕES do dossiê.** Leia o PEDIDO ORIGINAL e o ARTEFATO, e escreva que afirmações de fato esse artefato sustenta. Só depois compare com o registro. O registro foi escrito por quem está sendo auditado: ele declara, não delimita. A diferença entre as duas listas é achado — o que o artefato afirma e o registro não menciona é a região onde o defeito sobrevive, porque ninguém mente sobre ela, apenas se cala.
+> 7. Ataque prioritariamente, nesta ordem: **o que só aparece na sua lista e não na do dossiê**; o que o PEDIDO ORIGINAL exigia e não aparece em alegação nenhuma; alegações cujo predicado é mais estreito que a alegação (checou o número de linhas, alegou "nada perdido"); efeitos colaterais não mencionados; alegações marcadas SEM EVIDÊNCIA. A marca SEM EVIDÊNCIA é confissão do executor, não pista privilegiada: ela vem por último de propósito, porque uma lista de confissões convenientes é o jeito mais barato de manter você longe do resto. Alegação que o dossiê declara **evidenciada** merece o mesmo ataque que a confessada.
 >
 > Saída, nesta ordem e sem nada antes dela:
 >
@@ -35,11 +36,15 @@ Passe o dossiê **embutido no prompt** ou como caminho de arquivo que o subagent
 >
 > Dimensões, somando 100: correção e factualidade (35), completude frente ao pedido (25), integridade do entorno / ausência de dano colateral (20), evidência verificável (10), execução e adequação ao contexto (10).
 >
-> Tetos, que sobrepõem a soma — aplicando-se mais de um, vale o menor: resultado errado entregue como certo → 40; requisito explícito do pedido ausente → 60; regressão confirmada → 60; alegação central que você tentou verificar e não conseguiu → 80; **você não conseguiu testar ao menos uma das alegações centrais → 85**; só achados cosméticos → sem teto.
+> Desconto dentro de cada dimensão: achado que invalida o propósito da dimensão zera a dimensão; achado substantivo confirmado tira de um terço a metade do peso; achado menor tira até um quinto; cosmético tira no máximo 1 ponto e só em Execução. Alegação que você não conseguiu verificar desconta em Evidência verificável, **nunca** em Correção — não saber se algo está certo não é saber que está errado. Escreva ao lado de cada dimensão o achado que motivou o desconto; dimensão com desconto e sem achado nomeado é nota inventada.
 >
-> O teto de cobertura não é punição ao trabalho: é o sinal de que falta rodada de verificação. Não o contorne dando nota alta a um trabalho que você não conseguiu testar.
+> Tetos, que sobrepõem a soma — aplicando-se mais de um, vale o menor: resultado errado entregue a quem consome o trabalho → 40; requisito explícito do pedido ausente → 60; regressão confirmada → 60; alegação central que você tentou verificar e não conseguiu → 80; você nem chegou a tentar testar ao menos uma das alegações centrais → 85; **qualquer outro REFUTADO confirmado que não seja puramente cosmético → 85**; só achados cosméticos → sem teto.
 >
-> Mostre a conta: dimensão por dimensão, os tetos aplicados, e o número final.
+> Esse último teto é guarda-chuva e existe porque as categorias nomeadas nunca cobrem o espaço inteiro dos defeitos: se você confirmou um REFUTADO real e ele não se encaixa em nenhuma linha acima, a nota não passa de 85 mesmo assim. Não procure a categoria que deixa passar.
+>
+> O teto de cobertura não é punição ao trabalho: é o sinal de que falta rodada de verificação. Não o contorne dando nota alta a um trabalho que você não conseguiu testar. Ele se aplica a alegação **central**; um canto periférico sem teste não derruba a nota, e sim entra na seção COBERTURA.
+>
+> Mostre a conta: dimensão por dimensão com o achado que motivou cada desconto, os tetos aplicados, e o número final.
 
 ---
 
@@ -66,6 +71,8 @@ Mesmo prompt base, trocando o parágrafo de abertura e a regra 6 pelo foco do â
 Um refutador por dimensão que ficou vermelha na rodada 2. Prompt base, com a abertura:
 
 > Seu foco é exclusivamente a dimensão `<dimensão>`. Um problema desta natureza foi identificado neste trabalho e alegadamente corrigido. Não presuma que a correção funcionou, e não presuma que ela foi a única necessária: correção feita às pressas costuma resolver o caso citado e deixar de pé os casos irmãos. Encontre o caso irmão.
+>
+> Como seu escopo é estreito por instrução, avalie o teto de cobertura apenas sobre as alegações desta dimensão. Não se penalize por não ter testado o que não lhe coube — isso vai na seção COBERTURA como fora de escopo, não como teto.
 
 Este é o único ponto do ciclo onde o refutador recebe informação de rodada anterior, e mesmo aqui recebe só a dimensão — nunca o achado específico, nunca a nota, nunca o texto do refutador anterior. Dar o achado específico transforma o refutador em conferente da correção, que é outra coisa e mais fraca.
 
