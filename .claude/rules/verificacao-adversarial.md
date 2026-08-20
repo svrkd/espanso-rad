@@ -2,6 +2,14 @@
 
 Quem executa não dá a nota. Toda alegação de conclusão passa por um subagente refutador cuja tarefa é derrubá-la, não confirmá-la.
 
+> **Implementação executável.** A skill `/verificar` (`.claude/skills/verificar/`) executa esta política como procedimento, com rubrica de nota de 0 a 100, portão acima de 85 e até 3 rodadas de fan-out. Preferir invocá-la a improvisar o ciclo. Ela diverge deste documento em três pontos e só nestes, todos declarados na seção "Relação com" do `SKILL.md`, e em todos eles prevalece a skill quando ela está em uso:
+>
+> 1. Achado puramente cosmético não força rodada nova.
+> 2. Achado que não reproduz vira `CONTESTADO` documentado em vez de correção.
+> 3. O registro de alegações do Papel A **não** vai ao refutador. Isto inverte o que este documento diz mais abaixo — "passa ao refutador como suspeita prioritária" e o item 5 do prompt daqui —, porque uma lista de alegações de sucesso escrita pelo auditado dirige o olhar de quem audita. Na skill, o registro fica com o executor e serve ao relatório final.
+>
+> O prompt de refutador deste arquivo, mais abaixo, é a versão curta; o de `.claude/skills/verificar/references/prompt-refutador.md` é a estendida e prevalece quando a skill está em uso.
+
 ## Gatilho
 
 Aplicar antes de qualquer uma destas:
