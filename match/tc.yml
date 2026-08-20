@@ -1019,7 +1019,7 @@ matches:
 
   - trigger: "malhemo"
     label: "Encefalomalácia com transformação hemorrágica (sequela de AVC)"
-    replace: "Área com sinal semelhante ao líquor acometendo a substância branca profunda e corticossubcortical dos giros frontal inferior, longo da ínsula e supramarginal esquerdos, associada a consequente efeito atrófico sobre a substância cinzenta adjacente, discreto efeito ex vacuo sobre o ventrículo lateral ipsilateral, gliose circunjacente e focos de hemossiderina, compatível com encefalomalácia por acidente vascular encefálico isquêmico crônico, com complicação hemorrágica associada."
+    replace: "Área com atenuação semelhante ao líquor acometendo a substância branca profunda e corticossubcortical dos giros frontal inferior, longo da ínsula e supramarginal esquerdos, associada a consequente efeito atrófico sobre a substância cinzenta adjacente, discreto efeito ex vacuo sobre o ventrículo lateral ipsilateral, gliose circunjacente e focos de hemossiderina, compatível com encefalomalácia por acidente vascular encefálico isquêmico crônico, com complicação hemorrágica associada."
     word: true
 
   - trigger: "microrm"
@@ -4278,7 +4278,7 @@ matches:
 
   - trigger: "diverticulocalicinal"
     label: "Divertículo calicinal com cálculo/leite de cálcio"
-    replace: 'Calcificação alongada, medindo _ cm, localizada junto à grupamento calicinar médio do rim esquerdo, onde observa-se formação cística que mediu _ cm. Após a administração do meio de contraste endovenoso, observa-se opacificação parcial dessa formação cística pelo mesmo. Divertículo calicinal contendo cálculo ou "leite de cálcio"?'
+    replace: 'Calcificação alongada, medindo _ cm, localizada junto ao grupamento calicinar médio do rim esquerdo, onde observa-se formação cística que mediu _ cm. Após a administração do meio de contraste endovenoso, observa-se opacificação parcial dessa formação cística pelo mesmo. Divertículo calicinal contendo cálculo ou "leite de cálcio"?'
     word: true
 
   - trigger: "diverticulutedemeckel"
@@ -5822,7 +5822,7 @@ matches:
 
   - trigger: "joe"
     label: "Osteoartrose femorotibial medial"
-    replace: "Redução do espaço articular femorotibial medial (área de carga), associado à incipientes osteófitos marginais."
+    replace: "Redução do espaço articular femorotibial medial (área de carga), associado a incipientes osteófitos marginais."
     word: true
 
   - trigger: "morton"
