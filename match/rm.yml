@@ -2474,6 +2474,11 @@ matches:
     replace: Borramento hiperintenso na ponderação T2 associado a má definição das fibras proximais do ligamento cruzado anterior.
     word: true
 
+  - trigger: "cruzant"
+    label: "Lesão parcial do ligamento cruzado anterior"
+    replace: "Hipersinal e perda do padrão fibrilar do ligamento cruzado anterior, associados a edema ósseo da sua inserção tibial. Esses achados podem corresponder à rotura parcial, devendo-se correlacionar com exame físico para avaliação de sua suficiência."
+    word: true
+
   - trigger: "c1"
     label: "Condropatia inicial do compartimento femorotibial medial"
     replace: Condropatia inicial do compartimento femorotibial medial.

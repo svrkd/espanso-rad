@@ -454,6 +454,11 @@ matches:
     replace: "Áreas com sinal semelhante ao líquor localizadas nos lobos frontal e parietal direitos (encefalomalácia / gliose), com depósitos de hemossiderina no interior."
     word: true
 
+  - trigger: "masto"
+    label: "Conteúdo em células mastoideas (achado inespecífico)"
+    replace: "Conteúdo com atenuação de partes moles preenchendo as células mastoideas bilateralmente, sem sinais de agressividade ou complicações intracranianas. Achado inespecífico."
+    word: true
+
   - trigger: "mcal"
     label: "Meningioma calcificado frontal"
     replace: "Calcificação extra-axial junto à tábua óssea interna em região frontal direita, medindo _ cm, podendo corresponder a meningioma calcificado."
@@ -769,6 +774,16 @@ matches:
   - trigger: "transfor1"
     label: "AVC isquêmico com transformação hemorrágica"
     replace: "Acentuação das lesões hipodensas, corticossubcorticais, localizadas no lobo parietal e na ínsula à esquerda, com apagamento dos sulcos corticais regionais. Notam-se imagens hiperdensas no córtex do lobo parietal esquerdo. A possibilidade de lesões de natureza vascular isquêmica recentes com áreas de transformação hemorrágica pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
+    word: true
+
+  - trigger: "trigemionl"
+    label: "Nervos trigêmeos e pares cranianos preservados"
+    replace: "Nervos trigêmeos e demais pares de nervos cranianos incluídos nesse estudo com trajeto e espessura preservados, sem evidências de compressão ou realce anômalo pelo meio de contraste."
+    word: true
+
+  - trigger: "tron"
+    label: "Tronco cerebral e cerebelo preservados"
+    replace: Tronco cerebral e cerebelo de aspecto conservado.
     word: true
 
   - trigger: "tt10"
@@ -4817,6 +4832,11 @@ matches:
   - trigger: "novoneopancreas"
     label: "Neoplasia do corpo do pâncreas com invasão vascular"
     replace: "Formação expansiva infiltrativa, heterogênea, localizada no corpo pancreático, promovendo mínima dilatação do ducto pancreático principal e atrofia relativa da cauda do pâncreas. A lesão envolve circunferencialmente o tronco celíaco e porção proximal da artéria mesentérica superior, promovendo afilamento na origem da artéria hepática comum, da artéria esplênica, bem como do terço proximal da artéria mesentérica superior e importante afilamento da porção proximal da artéria gástrica esquerda. Nota-se envolvimento circunferencial, com importante afilamento da porção distal da veia mesentérica superior. Observam-se ainda colaterais venosas perigástricas."
+    word: true
+
+  - trigger: "ovariopolicistico"
+    label: "Ovários com aspecto policístico"
+    replace: "Ovários na topografia habitual, de dimensões aumentadas (VR > 10 cm³), apresentando múltiplas formações císticas, menores que 0,9 cm, de localização predominantemente periférica, assumindo aspecto policístico."
     word: true
 
   - trigger: "ovn3"
@@ -12359,6 +12379,11 @@ matches:
   - trigger: "cfnb"
     label: "Calcificações fisiológicas dos núcleos da base"
     replace: Calcificações fisiológicas dos núcleos da base.
+    word: true
+
+  - trigger: "cistosimples"
+    label: "Cisto simples"
+    replace: "Imagem ovalada com densidade líquida (hipodensa), sem septos ou componentes sólidos internos,"
     word: true
 
   - trigger: "cistpolis"
