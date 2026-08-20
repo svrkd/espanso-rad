@@ -6001,6 +6001,11 @@ matches:
     replace: Ateromatose notadamente nas regiões de bulbos carotídeos e porções proximais das artérias carótidas internas.
     word: true
 
+  - trigger: "atsa"
+    label: "Ateromatose aórtica, supra-aórtica e coronariana"
+    replace: Ateromatose da aorta, das emergências de seus ramos supra-aórticos e das artérias coronárias.
+    word: true
+
   - trigger: "attor"
     label: "Ateromatose aórtica e coronariana"
     replace: Ateromatose aórtica e coronariana.
