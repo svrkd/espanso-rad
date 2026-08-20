@@ -454,11 +454,6 @@ matches:
     replace: "Áreas com sinal semelhante ao líquor localizadas nos lobos frontal e parietal direitos (encefalomalácia / gliose), com depósitos de hemossiderina no interior."
     word: true
 
-  - trigger: "masto"
-    label: "Conteúdo em células mastoideas (achado inespecífico)"
-    replace: "Conteúdo com hipersinal em T2 nas células mastoideas bilateralmente, sem sinais de agressividade ou complicações intracranianas. Achado inespecífico."
-    word: true
-
   - trigger: "mcal"
     label: "Meningioma calcificado frontal"
     replace: "Calcificação extra-axial junto à tábua óssea interna em região frontal direita, medindo _ cm, podendo corresponder a meningioma calcificado."
@@ -774,16 +769,6 @@ matches:
   - trigger: "transfor1"
     label: "AVC isquêmico com transformação hemorrágica"
     replace: "Acentuação das lesões hipodensas, corticossubcorticais, localizadas no lobo parietal e na ínsula à esquerda, com apagamento dos sulcos corticais regionais. Notam-se imagens hiperdensas no córtex do lobo parietal esquerdo. A possibilidade de lesões de natureza vascular isquêmica recentes com áreas de transformação hemorrágica pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
-    word: true
-
-  - trigger: "trigemionl"
-    label: "Nervos trigêmeos e pares cranianos preservados"
-    replace: "Nervos trigêmeos e demais pares de nervos cranianos incluídos nesse estudo com trajeto, espessura e sinal preservados, sem evidências de compressão ou realce anômalo."
-    word: true
-
-  - trigger: "tron"
-    label: "Tronco cerebral e cerebelo preservados"
-    replace: Tronco cerebral e cerebelo com sinal preservado.
     word: true
 
   - trigger: "tt10"
@@ -1707,23 +1692,6 @@ matches:
   - trigger: "tcponta"
     label: "Abaulamento discal L5-S1 com impressão radicular e osteófitos"
     replace: "Nível L5-S1: abaulamento discal simétrico que retifica a face ventral do saco dural e se estende para as bases foraminais, reduzindo suas amplitudes, com impressão radicular bilateral, em associação a osteófitos marginais posterolaterais."
-    word: true
-
-  - trigger: "tirads4"
-    label: "US de tireoide — nódulo TI-RADS 4"
-    replace: |
-      ULTRASSOM DE TIREOIDE
-
-      Exame realizado com transdutor linear multifrequencial para estudo da tireoide.
-      A glândula tireoide apresenta-se com contornos regulares, dimensões normais e ecotextura sólida e homogênea, exceto por nódulo hipoecoico no lobo direito, mais largo do que alto, medindo _ cm.
-      Lobo direito medindo _ cm nos seus maiores eixos.
-      Lobo esquerdo medindo _ cm nos seus maiores eixos.
-      Istmo com espessura normal.
-      Volume total da glândula tireoide: _ cm³ (normal de 5,0 cm³ a 15,0 cm³).
-      Ausência de linfonodomegalia cervical regional.
-
-      Conclusão:
-      Nódulo hipoecoico no lobo direito da tireoide (TI-RADS 4).
     word: true
 
   - trigger: "tire"
@@ -4851,11 +4819,6 @@ matches:
     replace: "Formação expansiva infiltrativa, heterogênea, localizada no corpo pancreático, promovendo mínima dilatação do ducto pancreático principal e atrofia relativa da cauda do pâncreas. A lesão envolve circunferencialmente o tronco celíaco e porção proximal da artéria mesentérica superior, promovendo afilamento na origem da artéria hepática comum, da artéria esplênica, bem como do terço proximal da artéria mesentérica superior e importante afilamento da porção proximal da artéria gástrica esquerda. Nota-se envolvimento circunferencial, com importante afilamento da porção distal da veia mesentérica superior. Observam-se ainda colaterais venosas perigástricas."
     word: true
 
-  - trigger: "ovariopolicistico"
-    label: "Ovários com aspecto policístico"
-    replace: "Ovários na topografia habitual, de dimensões aumentadas (VR &lt; 10 cm³), apresentando múltiplas formações císticas, menores que 0,9 cm, de localização predominantemente periférica, com aumento da ecogenicidade do estroma central, assumindo aspecto policístico."
-    word: true
-
   - trigger: "ovn3"
     label: "Ovários não visualizados (interposição gasosa)"
     replace: Ovários não visualizados por interposição gasosa intestinal.
@@ -5830,11 +5793,6 @@ matches:
   - trigger: "cal"
     label: "Entesófitos calcâneos"
     replace: Entesófito nos calcâneos posterior e plantar.
-    word: true
-
-  - trigger: "cruzant"
-    label: "Lesão parcial do ligamento cruzado anterior"
-    replace: "Hipersinal e perda do padrão fibrilar do ligamento cruzado anterior, associados a edema ósseo da sua inserção tibial. Esses achados podem corresponder à rotura parcial, devendo-se correlacionar com exame físico para avaliação de sua suficiência."
     word: true
 
   - trigger: "hoffite"
@@ -9623,7 +9581,7 @@ matches:
       Planos musculares íntegros.
       Não há sinais de fratura ou lesões ósseas destrutivas.
       Não se observam massas ou coleções em partes moles adjacentes.
-      Após a administração de contraste endovenoso (não se observou realce patológico/ou observou.....(?).
+      Após a administração de contraste endovenoso, não se observou realce patológico.
 
       Conclusão:
       Estudo tomográfico computadorizado do cotovelo direito/esquerdo sem evidência de anormalidades.
@@ -9759,7 +9717,7 @@ matches:
       Ausência de sinais de fraturas ou lesões ósseas destrutivas.
       Não se observam massa ou coleções em partes moles adjacentes.
 
-      Após a administração de contraste endovenoso não se observou realce patológico/ou observou-se......(?).
+      Após a administração de contraste endovenoso, não se observou realce patológico.
 
       Conclusão:
       Estudo tomográfico computadorizado do pé direito/esquerdo sem evidência de anormalidades.
@@ -9820,7 +9778,7 @@ matches:
       Planos musculares íntegros.
       Não há sinais de fratura ou lesões ósseas destrutivas.
       Não se observam massas ou coleções em partes moles adjacentes.
-      Após a administração de contraste endovenoso não se observou realce patológico/ou observou.....(?).
+      Após a administração de contraste endovenoso, não se observou realce patológico.
 
       Conclusão:
       Estudo tomográfico computadorizado da perna direita/esquerda sem evidência de anormalidades.
@@ -12380,7 +12338,7 @@ matches:
 
   - trigger: "avciop"
     label: "AVC isquêmico em território arterial (template)"
-    replace: "Lesões hipodensas cortico-subcorticais, localizadas no _ à _ com apagamento dos sulcos corticais regionais. A possibilidade de evento vascular isquêmico em parte do território irrigado pela artéria _ deve ser considerada."
+    replace: "Lesões hipodensas corticossubcorticais, localizadas no _ à _ com apagamento dos sulcos corticais regionais. A possibilidade de evento vascular isquêmico em parte do território irrigado pela artéria _ deve ser considerada."
     word: true
 
   - trigger: "bca"
@@ -12401,11 +12359,6 @@ matches:
   - trigger: "cfnb"
     label: "Calcificações fisiológicas dos núcleos da base"
     replace: Calcificações fisiológicas dos núcleos da base.
-    word: true
-
-  - trigger: "cistosimples"
-    label: "Cisto simples"
-    replace: "Imagem ovalada anecoica, sem ecos ou septos internos,"
     word: true
 
   - trigger: "cistpolis"
@@ -12555,7 +12508,7 @@ matches:
 
   - trigger: "opacdec"
     label: "Opacidades em vidro fosco por decúbito"
-    replace: "Tênues opacidades em vidro fosco nos segmentos posteriores do pulmão....., provavelmente atribuíveis ao decúbito."
+    replace: "Tênues opacidades em vidro fosco nos campos pulmonares posteriores, provavelmente atribuíveis ao decúbito."
     word: true
 
   - trigger: "proem"
