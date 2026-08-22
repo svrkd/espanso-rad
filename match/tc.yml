@@ -18,11 +18,6 @@ matches:
     replace: "Material odontológico na cavidade oral, com densidade metálica, causando artefatos de endurecimento dos feixes de raios X, dificultando a avaliação anatômica das estruturas adjacentes."
     word: true
 
-  - trigger: "artbocarm"
-    label: "Artefatos de susceptibilidade magnética (material oral)"
-    replace: "Artefatos de susceptibilidade magnética promovidos por materiais metálicos na cavidade oral, degradando parte das imagens adjacentes."
-    word: true
-
   - trigger: "arteboca"
     label: "Artefatos odontológicos (TC)"
     replace: "Material odontológico na cavidade oral, com densidade metálica, causando artefatos de endurecimento dos feixes de raios X, dificultando a avaliação anatômica das estruturas adjacentes."
@@ -95,11 +90,6 @@ matches:
   - trigger: "angiomav"
     label: "Angioma venoso (variante anatômica)"
     replace: "Angioma venoso no lobo frontal direito, variante anatômica da drenagem venosa normal."
-    word: true
-
-  - trigger: "artbocarm1"
-    label: "Artefatos de susceptibilidade magnética (material odontológico, RM)"
-    replace: "Material odontológico na cavidade oral, promovendo artefatos de susceptibilidade magnética, prejudicando a aquisição das imagens e limitando a avaliação do parênquima encefálico em parte das sequências adquiridas."
     word: true
 
   - trigger: "avcd"
@@ -429,11 +419,6 @@ matches:
     replace: "Aumento de volume de partes moles extracraniano nas regiões frontal, periorbitária e malar à esquerda, sugerindo hematoma."
     word: true
 
-  - trigger: "malaglirm"
-    label: "Encefalomalácia/gliose (RM)"
-    replace: Área com sinal semelhante ao líquor localizada _ (encefalomalácia / gliose).
-    word: true
-
   - trigger: "malaglis"
     label: "Encefalomalácia/gliose (múltiplas)"
     replace: Áreas com coeficiente de atenuação semelhante ao líquor localizadas _ (encefalomalácia / gliose).
@@ -442,16 +427,6 @@ matches:
   - trigger: "malaglis1"
     label: "Encefalomalácia/gliose lobar"
     replace: Áreas com coeficiente de atenuação semelhante ao líquor (encefalomalácia / gliose) localizadas nos lobos
-    word: true
-
-  - trigger: "malaglisrm"
-    label: "Encefalomalácia/gliose (RM)"
-    replace: Áreas com sinal semelhante ao líquor localizadas _ (encefalomalácia / gliose).
-    word: true
-
-  - trigger: "malaglisrm1"
-    label: "Encefalomalácia/gliose com hemossiderina (frontoparietal direita)"
-    replace: "Áreas com sinal semelhante ao líquor localizadas nos lobos frontal e parietal direitos (encefalomalácia / gliose), com depósitos de hemossiderina no interior."
     word: true
 
   - trigger: "masto"
@@ -1022,11 +997,6 @@ matches:
     replace: "Área com atenuação semelhante ao líquor acometendo a substância branca profunda e corticossubcortical dos giros frontal inferior, longo da ínsula e supramarginal esquerdos, associada a consequente efeito atrófico sobre a substância cinzenta adjacente, discreto efeito ex vacuo sobre o ventrículo lateral ipsilateral, gliose circunjacente e focos de hemossiderina, compatível com encefalomalácia por acidente vascular encefálico isquêmico crônico, com complicação hemorrágica associada."
     word: true
 
-  - trigger: "microrm"
-    label: "Microangiopatia/gliose (achados de RM)"
-    replace: "Focos de hipersinal na substância branca profunda e periventricular visualizadas nas sequências T2 e FLAIR, que não apresentam restrição à difusão ou realce pelo meio de contraste, inespecíficos, mas provavelmente relacionados à microangiopatia ou gliose."
-    word: true
-
   - trigger: "microtc"
     label: "Microangiopatia (hipoatenuação periventricular)"
     replace: "Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia."
@@ -1522,11 +1492,6 @@ matches:
   - trigger: "quebrazoio"
     label: "Fratura de blowout orbitário (assoalho/paredes)"
     replace: "Fratura do teto e das paredes anterior e posterolateral do seio maxilar direito. Associa-se hemossinus, bem como hematoma e enfisema de partes moles da face e no assoalho da órbita ipsilateral."
-    word: true
-
-  - trigger: "rbola2"
-    label: "Cisto de retenção/pólipo em seio maxilar esquerdo (RM)"
-    replace: "Imagem arredondada com hipersinal na ponderação T2, sugerindo representar cisto de retenção ou pólipo, localizada no seio maxilar esquerdo."
     word: true
 
   - trigger: "redumax1"
@@ -3896,14 +3861,6 @@ matches:
     replace: "Pequena imagem hiperdensa no córtex renal direito, inespecífica no protocolo empregado, podendo corresponder a cisto com conteúdo hiperproteico/hemático ou nódulo."
     word: true
 
-  - trigger: "bolat2"
-    label: "Lesões hiperintensas hepática e renal (RM, indeterminadas)"
-    replace: |
-      Imagem ovalada hiperintensa em T2, medindo _ cm, localizada no lobo hepático direito, melhor avaliada por estudo dirigido.
-
-      Imagem ovalada hiperintensa em T2, medindo _ cm, localizada no rim direito, melhor avaliada por estudo dirigido.
-    word: true
-
   - trigger: "bostao"
     label: "Fecaloma/resíduos fecais acentuados"
     replace: Acentuada quantidade de resíduos fecais em alças intestinais.
@@ -5555,11 +5512,6 @@ matches:
     replace: Aumento de volume e densificação do tecido subcutâneo na região do olécrano sugerindo edema/hematoma. Correlacionar com dados clínicos.
     word: true
 
-  - trigger: "habilirm"
-    label: "Limitação da RM (recidiva x radionecrose)"
-    replace: "A habilidade do exame de ressonância magnética convencional na diferenciação entre lesão residual/recidivada e alterações actínicas (radionecrose/leucopatia pós-radiação) é limitada, uma vez que a manifestação usual dessas patologias pode ser semelhante do ponto de vista de imagem."
-    word: true
-
   - trigger: "hcac"
     label: "Hipertrofia capsular acromioclavicular"
     replace: Hipertrofia capsular acromioclavicular.
@@ -6473,11 +6425,6 @@ matches:
   - trigger: "acrius"
     label: "Recomendação de complementação por US"
     replace: "A critério clínico, se possível, o estudo dessa região por imagens de ultrassonografia poderá fornecer maiores subsídios diagnósticos."
-    word: true
-
-  - trigger: "artrm"
-    label: "Artefato de susceptibilidade magnética frontal (partícula metálica)"
-    replace: "Artefatos de susceptibilidade magnética no tecido subcutâneo da região frontal esquerda, presumivelmente representando pequena partícula metálica, degradando parte das imagens adjacentes. Caso persista a indicação clínica, recomenda-se estudo direcionado por imagens de radiografia ou tomografia computadorizada."
     word: true
 
   - trigger: "baciaid"
@@ -10445,16 +10392,6 @@ matches:
     replace: "Lesões hipodensas nos lobos frontal direito e parietal esquerdo, que podem estar relacionadas a eventos vasculares isquêmicos, de cronicidade indeterminada nesse estudo. Os diagnósticos diferenciais devem ser aplicados. Caso persista a indicação clínica, recomenda-se estudo direcionado através de imagens de ressonância magnética, se possível."
     word: true
 
-  - trigger: "avcrm"
-    label: "AVC isquêmico agudo têmporo-occipital direito (RM)"
-    replace: "Lesões hiperintensas na ponderação T2, corticossubcorticais, com restrição à difusão e correspondência no mapa ADC, localizadas nos lobos temporal e occipital à direita, com apagamento dos sulcos corticais regionais. A possibilidade de lesões de natureza vascular isquêmica com início recente pode ser considerada dentre os diagnósticos diferenciais."
-    word: true
-
-  - trigger: "avcrm1"
-    label: "AVC isquêmico agudo na ponte (RM)"
-    replace: "Lesão hiperintensa na ponderação T2, com restrição à difusão e correspondência no mapa ADC, localizada na ponte à direita. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada dentre os diagnósticos diferenciais."
-    word: true
-
   - trigger: "avu"
     label: "Aumento volumétrico"
     replace: Aumento volumétrico
@@ -11835,11 +11772,6 @@ matches:
     replace: "Placa parcialmente calcificada, com extensão de _ cm, localizada na origem da artéria carótida interna esquerda, promovendo quase oclusão da mesma, com fluxo filiforme à montante."
     word: true
 
-  - trigger: "quemia"
-    label: "Isquemia bulbar recente (RM)"
-    replace: "Lesão hiperintensa na ponderação T2, com restrição à difusão e correspondência no mapa ADC, localizada na porção lateral direita do bulbo, compatível com área de isquemia recente."
-    word: true
-
   - trigger: "radi1"
     label: "Impressão radicular direita"
     replace: com impressão radicular direita.
@@ -11959,16 +11891,6 @@ matches:
     replace: "Material hiperdenso no globo ocular direito, de provável natureza hemática (hemorragia intraocular)."
     word: true
 
-  - trigger: "sbranco"
-    label: "Depósito de hemossiderina/calcificação (SWI)"
-    replace: "Pequena imagem de hipersinal na sequência S.W.I. sugerindo depósito de hemossiderina ou calcificação, localizada no"
-    word: true
-
-  - trigger: "sbrancos"
-    label: "Depósitos de hemossiderina/calcificações (SWI)"
-    replace: "Pequenas imagens de hipersinal na sequência S.W.I. sugerindo depósitos de hemossiderina ou calcificações, localizadas no"
-    word: true
-
   - trigger: "semais"
     label: "Ausência de fraturas pós-traumáticas"
     replace: Exame sem alterações pós-traumáticas significativas (ausência de fraturas).
@@ -12039,16 +11961,6 @@ matches:
     replace: Solução de continuidade de partes moles
     word: true
 
-  - trigger: "spreto"
-    label: "Calcificação (hipossinal SWI)"
-    replace: "Pequena imagem de hipossinal na sequência S.W.I. sugerindo representar calcificação, localizada no"
-    word: true
-
-  - trigger: "spretos"
-    label: "Calcificações (hipossinal SWI)"
-    replace: "Pequenas imagens de hipossinal na sequência S.W.I. sugerindo calcificações, localizadas no"
-    word: true
-
   - trigger: "subcu"
     label: "Enfisema subcutâneo"
     replace: Associa-se enfisema subcutâneo.
@@ -12067,11 +11979,6 @@ matches:
   - trigger: "supi"
     label: "Superior e inferior C/C (fragmento)"
     replace: SUPERIOR E INFERIOR C/C
-    word: true
-
-  - trigger: "swi1"
-    label: "Calcificação no núcleo caudado (SWI)"
-    replace: "Foco hipointenso na sequência S.W.I. localizado na cabeça do núcleo caudado à direita, sugerindo representar calcificação."
     word: true
 
   - trigger: "tc14"

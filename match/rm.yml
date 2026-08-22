@@ -326,6 +326,86 @@ matches:
     replace: Lesões com sinal semelhante ao líquor localizadas no córtex insular e no lobo frontal à esquerda compatíveis com encefalomalácia / gliose. Existem áreas de hipossinal na sequência S.W.I. no lobo frontal esquerdo que sugerem representar subprodutos de degradação da hemoglobina.
     word: true
 
+  - trigger: "artbocarm1"
+    label: "Artefatos de susceptibilidade magnética (material odontológico, RM)"
+    replace: "Material odontológico na cavidade oral, promovendo artefatos de susceptibilidade magnética, prejudicando a aquisição das imagens e limitando a avaliação do parênquima encefálico em parte das sequências adquiridas."
+    word: true
+
+  - trigger: "artbocarm"
+    label: "Artefatos de susceptibilidade magnética (material oral)"
+    replace: "Artefatos de susceptibilidade magnética promovidos por materiais metálicos na cavidade oral, degradando parte das imagens adjacentes."
+    word: true
+
+  - trigger: "artrm"
+    label: "Artefato de susceptibilidade magnética frontal (partícula metálica)"
+    replace: "Artefatos de susceptibilidade magnética no tecido subcutâneo da região frontal esquerda, presumivelmente representando pequena partícula metálica, degradando parte das imagens adjacentes. Caso persista a indicação clínica, recomenda-se estudo direcionado por imagens de radiografia ou tomografia computadorizada."
+    word: true
+
+  - trigger: "malaglirm"
+    label: "Encefalomalácia/gliose (RM)"
+    replace: Área com sinal semelhante ao líquor localizada _ (encefalomalácia / gliose).
+    word: true
+
+  - trigger: "malaglisrm"
+    label: "Encefalomalácia/gliose (RM)"
+    replace: Áreas com sinal semelhante ao líquor localizadas _ (encefalomalácia / gliose).
+    word: true
+
+  - trigger: "malaglisrm1"
+    label: "Encefalomalácia/gliose com hemossiderina (frontoparietal direita)"
+    replace: "Áreas com sinal semelhante ao líquor localizadas nos lobos frontal e parietal direitos (encefalomalácia / gliose), com depósitos de hemossiderina no interior."
+    word: true
+
+  - trigger: "microrm"
+    label: "Microangiopatia/gliose (achados de RM)"
+    replace: "Focos de hipersinal na substância branca profunda e periventricular visualizadas nas sequências T2 e FLAIR, que não apresentam restrição à difusão ou realce pelo meio de contraste, inespecíficos, mas provavelmente relacionados à microangiopatia ou gliose."
+    word: true
+
+  - trigger: "habilirm"
+    label: "Limitação da RM (recidiva x radionecrose)"
+    replace: "A habilidade do exame de ressonância magnética convencional na diferenciação entre lesão residual/recidivada e alterações actínicas (radionecrose/leucopatia pós-radiação) é limitada, uma vez que a manifestação usual dessas patologias pode ser semelhante do ponto de vista de imagem."
+    word: true
+
+  - trigger: "avcrm"
+    label: "AVC isquêmico agudo têmporo-occipital direito (RM)"
+    replace: "Lesões hiperintensas na ponderação T2, corticossubcorticais, com restrição à difusão e correspondência no mapa ADC, localizadas nos lobos temporal e occipital à direita, com apagamento dos sulcos corticais regionais. A possibilidade de lesões de natureza vascular isquêmica com início recente pode ser considerada dentre os diagnósticos diferenciais."
+    word: true
+
+  - trigger: "avcrm1"
+    label: "AVC isquêmico agudo na ponte (RM)"
+    replace: "Lesão hiperintensa na ponderação T2, com restrição à difusão e correspondência no mapa ADC, localizada na ponte à direita. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada dentre os diagnósticos diferenciais."
+    word: true
+
+  - trigger: "quemia"
+    label: "Isquemia bulbar recente (RM)"
+    replace: "Lesão hiperintensa na ponderação T2, com restrição à difusão e correspondência no mapa ADC, localizada na porção lateral direita do bulbo, compatível com área de isquemia recente."
+    word: true
+
+  - trigger: "sbranco"
+    label: "Depósito de hemossiderina/calcificação (SWI)"
+    replace: "Pequena imagem de hipersinal na sequência S.W.I. sugerindo depósito de hemossiderina ou calcificação, localizada no"
+    word: true
+
+  - trigger: "sbrancos"
+    label: "Depósitos de hemossiderina/calcificações (SWI)"
+    replace: "Pequenas imagens de hipersinal na sequência S.W.I. sugerindo depósitos de hemossiderina ou calcificações, localizadas no"
+    word: true
+
+  - trigger: "spreto"
+    label: "Calcificação (hipossinal SWI)"
+    replace: "Pequena imagem de hipossinal na sequência S.W.I. sugerindo representar calcificação, localizada no"
+    word: true
+
+  - trigger: "spretos"
+    label: "Calcificações (hipossinal SWI)"
+    replace: "Pequenas imagens de hipossinal na sequência S.W.I. sugerindo calcificações, localizadas no"
+    word: true
+
+  - trigger: "swi1"
+    label: "Calcificação no núcleo caudado (SWI)"
+    replace: "Foco hipointenso na sequência S.W.I. localizado na cabeça do núcleo caudado à direita, sugerindo representar calcificação."
+    word: true
+
   - trigger: "mav"
     label: "Malformação arteriovenosa encefálica"
     replace: |-
@@ -569,6 +649,11 @@ matches:
     replace: |-
       Espessamento mucoso das cavidades paranasais, destacando-se formações nodulares, algumas apresentando realce pelo meio de contraste paramagnético endovenoso, sugestivas com pólipos/cistos de retenção no seio maxilar direito, células etmoidais e seio esfenoidal, que determinam discreto efeito expansivo, caracterizado por abaulamento das paredes destas cavidades, além de descontinuidades ósseas, melhor avaliados por estudo tomográfico realizado em outro serviço. Nota-se extensão material para os recessos esfenoetmoidais, notadamente à direita. Formações polipoides semelhantes são observadas nas fossas nasais, principalmente entre o septo nasal e as conchas nasais superiores e médias, sendo maiores e mais numerosas à direita, reduzindo a coluna aérea e obliterando os meatos nasais. O conjunto dos achados é compatível com polipose nasossinusal.
       Material hiperintenso na ponderação T2, sem realce significativo pelo meio de contraste, preenchendo o seio frontal direito, podendo representar mucocele.
+    word: true
+
+  - trigger: "rbola2"
+    label: "Cisto de retenção/pólipo em seio maxilar esquerdo (RM)"
+    replace: "Imagem arredondada com hipersinal na ponderação T2, sugerindo representar cisto de retenção ou pólipo, localizada no seio maxilar esquerdo."
     word: true
 
   # ==========================================================================
@@ -1445,6 +1530,14 @@ matches:
   - trigger: "adenomrm"
     label: "Adenoma adrenal"
     replace: "Nódulo na adrenal esquerda, medindo _ cm, que apresentou queda do sinal na sequência out-of-phase, podendo representar pequeno adenoma."
+    word: true
+
+  - trigger: "bolat2"
+    label: "Lesões hiperintensas hepática e renal (RM, indeterminadas)"
+    replace: |
+      Imagem ovalada hiperintensa em T2, medindo _ cm, localizada no lobo hepático direito, melhor avaliada por estudo dirigido.
+
+      Imagem ovalada hiperintensa em T2, medindo _ cm, localizada no rim direito, melhor avaliada por estudo dirigido.
     word: true
 
   - trigger: "adenomahepatico"
