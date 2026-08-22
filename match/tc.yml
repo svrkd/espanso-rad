@@ -4124,8 +4124,8 @@ matches:
     word: true
 
   - trigger: "cistov"
-    label: "Imagem cística ovariana/anexial (template genérico)"
-    replace: "Imagem cística em região ovariana/ anexial _, medindo _ cm, melhor avaliada por estudo dirigido."
+    label: "Imagem hipodensa ovariana/anexial (template genérico)"
+    replace: "Imagem hipodensa em região ovariana/ anexial _, medindo _ cm, melhor avaliada por estudo dirigido."
     word: true
 
   - trigger: "cistovd"
