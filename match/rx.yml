@@ -1864,16 +1864,6 @@ matches:
       Ausência de calcificações de partes moles.
     word: true
 
-  - trigger: "sonda"
-    label: "Radiografia para visualização de sonda entérica"
-    replace: "Radiografia realizada para visualização de sonda entérica, prejudicando estudo detalhado do abdome devido à técnica empregada."
-    word: true
-
-  - trigger: "sugere"
-    label: "Sugestão de complementação diagnóstica"
-    replace: Sugere-se complementação com incidências adicionais ou imagens com tomografia computadorizada para melhor elucidação diagnóstica.
-    word: true
-
   - trigger: "maozuada"
     label: "Radiografia de mão — artropatia deformante"
     replace: |
