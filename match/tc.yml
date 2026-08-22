@@ -18,11 +18,6 @@ matches:
     replace: "Material odontológico na cavidade oral, com densidade metálica, causando artefatos de endurecimento dos feixes de raios X, dificultando a avaliação anatômica das estruturas adjacentes."
     word: true
 
-  - trigger: "artbocarm"
-    label: "Artefatos de susceptibilidade magnética (material oral)"
-    replace: "Artefatos de susceptibilidade magnética promovidos por materiais metálicos na cavidade oral, degradando parte das imagens adjacentes."
-    word: true
-
   - trigger: "arteboca"
     label: "Artefatos odontológicos (TC)"
     replace: "Material odontológico na cavidade oral, com densidade metálica, causando artefatos de endurecimento dos feixes de raios X, dificultando a avaliação anatômica das estruturas adjacentes."
@@ -97,11 +92,6 @@ matches:
     replace: "Angioma venoso no lobo frontal direito, variante anatômica da drenagem venosa normal."
     word: true
 
-  - trigger: "artbocarm1"
-    label: "Artefatos de susceptibilidade magnética (material odontológico, RM)"
-    replace: "Material odontológico na cavidade oral, promovendo artefatos de susceptibilidade magnética, prejudicando a aquisição das imagens e limitando a avaliação do parênquima encefálico em parte das sequências adquiridas."
-    word: true
-
   - trigger: "avcd"
     label: "Isquemia/lesão giro pré-central direito"
     replace: "Imagem hipodensa localizada no giro pré-central direito. Área de isquemia? Lesão de outra natureza? A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos."
@@ -121,7 +111,7 @@ matches:
 
   - trigger: "avcis"
     label: "AVC isquêmico agudo (território da ACP esquerda)"
-    replace: "Hipoatenuação acometendo a substância branca profunda e corticossubcortical occipitotemporal e talâmica esquerda, associado à edema de padrão citotóxico, com consequente apagamentos dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. A possibilidade de evento vascular isquêmico de início recente no território irrigado pela artéria cerebral posterior esquerda pode ser considerada dentre os diagnósticos diferenciais."
+    replace: "Hipoatenuação acometendo a substância branca profunda e corticossubcortical occipitotemporal e talâmica esquerda, associada a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. A possibilidade de evento vascular isquêmico de início recente no território irrigado pela artéria cerebral posterior esquerda pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
   - trigger: "avcpost"
@@ -131,7 +121,7 @@ matches:
 
   - trigger: "avctrans"
     label: "AVC isquêmico com transformação hemorrágica"
-    replace: Acentuação da hipoatenuação corticossubcortical e da substância branca profunda localizada nos lobos frontal e parietal, bem como na ínsula e região nucleocapsular à direita, associado a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. Agora observa-se maior efeito de massa com desvio contralateral das estruturas da linha média de _ cm. Nota-se ainda, surgimento de pequena área de sangramento em região nucleocapsular direita. O conjunto de achados é sugestivo de evento vascular isquêmico de evolução recente com área de tranformação hemorrágica no território irrigado pela artéria cerebral média direita.
+    replace: Acentuação da hipoatenuação corticossubcortical e da substância branca profunda localizada nos lobos frontal e parietal, bem como na ínsula e região nucleocapsular à direita, associada a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. Agora observa-se maior efeito de massa com desvio contralateral das estruturas da linha média de _ cm. Nota-se ainda surgimento de pequena área de sangramento em região nucleocapsular direita. O conjunto de achados é sugestivo de evento vascular isquêmico de evolução recente com área de transformação hemorrágica no território irrigado pela artéria cerebral média direita.
     word: true
 
   - trigger: "avctrans2"
@@ -429,11 +419,6 @@ matches:
     replace: "Aumento de volume de partes moles extracraniano nas regiões frontal, periorbitária e malar à esquerda, sugerindo hematoma."
     word: true
 
-  - trigger: "malaglirm"
-    label: "Encefalomalácia/gliose (RM)"
-    replace: Área com sinal semelhante ao líquor localizada _ (encefalomalácia / gliose).
-    word: true
-
   - trigger: "malaglis"
     label: "Encefalomalácia/gliose (múltiplas)"
     replace: Áreas com coeficiente de atenuação semelhante ao líquor localizadas _ (encefalomalácia / gliose).
@@ -444,19 +429,9 @@ matches:
     replace: Áreas com coeficiente de atenuação semelhante ao líquor (encefalomalácia / gliose) localizadas nos lobos
     word: true
 
-  - trigger: "malaglisrm"
-    label: "Encefalomalácia/gliose (RM)"
-    replace: Áreas com sinal semelhante ao líquor localizadas _ (encefalomalácia / gliose).
-    word: true
-
-  - trigger: "malaglisrm1"
-    label: "Encefalomalácia/gliose com hemossiderina (frontoparietal direita)"
-    replace: "Áreas com sinal semelhante ao líquor localizadas nos lobos frontal e parietal direitos (encefalomalácia / gliose), com depósitos de hemossiderina no interior."
-    word: true
-
   - trigger: "masto"
     label: "Conteúdo em células mastoideas (achado inespecífico)"
-    replace: "Conteúdo com hipersinal em T2 nas células mastoideas bilateralmente, sem sinais de agressividade ou complicações intracranianas. Achado inespecífico."
+    replace: "Conteúdo com atenuação de partes moles preenchendo as células mastoideas bilateralmente, sem sinais de agressividade ou complicações intracranianas. Achado inespecífico."
     word: true
 
   - trigger: "mcal"
@@ -683,7 +658,7 @@ matches:
   - trigger: "tcgbm"
     label: "Neoplasia glial de alto grau (glioblastoma)"
     replace: |
-      Lesão expansiva, de aspecto infiltrativo, limites mal definidos, com provável epicentro no _, medindo cerca de _ cm, exibindo realce predominantemente periférico e de aspecto anfractuoso pelo meio de contraste endovenoso. Essa lesão determina significativo efeito de massa com compressão ventricular e desvio contralateral das estrututras da linha média de _ cm. A possibilidade de neoplasia glial de alto grau pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
+      Lesão expansiva, de aspecto infiltrativo, limites mal definidos, com provável epicentro no _, medindo cerca de _ cm, exibindo realce predominantemente periférico e de aspecto anfractuoso pelo meio de contraste endovenoso. Essa lesão determina significativo efeito de massa com compressão ventricular e desvio contralateral das estruturas da linha média de _ cm. A possibilidade de neoplasia glial de alto grau pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
       Hipodensidade do parênquima encefálico adjacente à lesão acima descrita, estendendo-se ao corpo caloso, com apagamento dos sulcos corticais regionais, sugerindo edema e/ou infiltração tumoral.
     word: true
 
@@ -778,12 +753,12 @@ matches:
 
   - trigger: "trigemionl"
     label: "Nervos trigêmeos e pares cranianos preservados"
-    replace: "Nervos trigêmeos e demais pares de nervos cranianos incluídos nesse estudo com trajeto, espessura e sinal preservados, sem evidências de compressão ou realce anômalo."
+    replace: "Nervos trigêmeos e demais pares de nervos cranianos incluídos nesse estudo com trajeto e espessura preservados, sem evidências de compressão ou realce anômalo pelo meio de contraste."
     word: true
 
   - trigger: "tron"
     label: "Tronco cerebral e cerebelo preservados"
-    replace: Tronco cerebral e cerebelo com sinal preservado.
+    replace: Tronco cerebral e cerebelo de aspecto conservado.
     word: true
 
   - trigger: "tt10"
@@ -823,7 +798,7 @@ matches:
 
   - trigger: "avc"
     label: "AVC isquêmico agudo occipitotemporal esquerdo"
-    replace: "Hipoatenuação acometendo a substância branca profunda e corticossubcortical occipitotemporal esquerda, associado a edema de padrão citotóxico, com consequente apagamentos dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta."
+    replace: "Hipoatenuação acometendo a substância branca profunda e corticossubcortical occipitotemporal esquerda, associada a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta."
     word: true
 
   - trigger: "avcmal"
@@ -936,12 +911,12 @@ matches:
 
   - trigger: "malaglinovo"
     label: "Encefalomalácia occipital esquerda (isquemia crônica)"
-    replace: "Área com atenuação semelhante ao liquor acometendo a substância branca profunda e corticossubcortical occipital esquerda, com consequente efeito atrófico sobre a substância cinzenta adjacente e efeito ex-vacum sobre o ventrículo lateral ipsilateral, compatível com evento isquêmico crônico (encefalomalácia)."
+    replace: "Área com atenuação semelhante ao líquor acometendo a substância branca profunda e corticossubcortical occipital esquerda, com consequente efeito atrófico sobre a substância cinzenta adjacente e efeito ex vacuo sobre o ventrículo lateral ipsilateral, compatível com evento isquêmico crônico (encefalomalácia)."
     word: true
 
   - trigger: "malanovo"
     label: "Encefalomalácia (evento isquêmico crônico)"
-    replace: "Área com atenuação semelhante ao líquor acometendo a substância branca profunda e corticossubcortical, localizada _, com consequente efeito atrófico sobre a substância cinzenta adjacente, sugestivo com evento isquêmico crônico (encefalomalácia)."
+    replace: "Área com atenuação semelhante ao líquor acometendo a substância branca profunda e corticossubcortical, localizada _, com consequente efeito atrófico sobre a substância cinzenta adjacente, sugestivo de evento isquêmico crônico (encefalomalácia)."
     word: true
 
   - trigger: "menigiomadesc"
@@ -967,7 +942,7 @@ matches:
   - trigger: "neometa"
     label: "Metástases cerebrais (implantes secundários)"
     replace: |
-      Lesões nodulares com realce periférico pelo meio de contraste endovenoso localizadas no giro pré central e na insula/opérculo frontal à esquerda onde determinam efeito de massa com apagamento dos sulcos corticais regionais.
+      Lesões nodulares com realce periférico pelo meio de contraste endovenoso localizadas no giro pré-central e na ínsula/opérculo frontal à esquerda onde determinam efeito de massa com apagamento dos sulcos corticais regionais.
       Hipodensidade do parênquima encefálico adjacente às lesões acima descritas sugerindo representar, ao menos em parte, edema.
       A possibilidade de implantes secundários pode ser considerada como principal hipótese diagnóstica. Os diagnósticos diferenciais devem ser aplicados.
     word: true
@@ -1019,12 +994,7 @@ matches:
 
   - trigger: "malhemo"
     label: "Encefalomalácia com transformação hemorrágica (sequela de AVC)"
-    replace: "Área com sinal semelhante ao líquor acometendo a substância branca profunda e corticossubcortical dos giros frontal inferior, longo da ínsula e supramarginal esquerdos, associado a consequente efeito atrófico sobre a substância cinzenta adjacente, discreto efeito ex-vacum sobre o ventrículo lateral ipsilateral, gliose circunjacente e focos de hemossiderina, compatível com encefalomalácia por acidente vascular encefálico isquêmico crônico, com complicação hemorrágica associada."
-    word: true
-
-  - trigger: "microrm"
-    label: "Microangiopatia/gliose (achados de RM)"
-    replace: "Focos de hipersinal na substância branca profunda e periventricular visualizadas nas sequências T2 e FLAIR, que não apresentam restrição à difusão ou realce pelo meio de contraste, inespecíficos, mas provavelmente relacionados à microangiopatia ou gliose."
+    replace: "Área com atenuação semelhante ao líquor acometendo a substância branca profunda e corticossubcortical dos giros frontal inferior, longo da ínsula e supramarginal esquerdos, associada a consequente efeito atrófico sobre a substância cinzenta adjacente, discreto efeito ex vacuo sobre o ventrículo lateral ipsilateral, gliose circunjacente e focos de hemossiderina, compatível com encefalomalácia por acidente vascular encefálico isquêmico crônico, com complicação hemorrágica associada."
     word: true
 
   - trigger: "microtc"
@@ -1048,7 +1018,7 @@ matches:
 
   - trigger: "abscessoodontogenico"
     label: "Abscesso odontogênico mandibular"
-    replace: "Aumento volumétrico e densificação de partes moles adjacentes ao corpo da mandíbula à direita. Associa-se espessamento e densificação de pele e tecido subcutâneo. Nota-se ainda, área de rarefação óssea junto à raiz do segundo dente molar inferior direito. Esse conjunto de achados, embora inespecífico, sugere a possibilidade de processo inflamatório/infeccioso regional (celulite com fleimão/abscesso em organização, com possível origem odontogênica). Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos."
+    replace: "Aumento volumétrico e densificação de partes moles adjacentes ao corpo da mandíbula à direita. Associa-se espessamento e densificação de pele e tecido subcutâneo. Nota-se ainda área de rarefação óssea junto à raiz do segundo dente molar inferior direito. Esse conjunto de achados, embora inespecífico, sugere a possibilidade de processo inflamatório/infeccioso regional (celulite com fleimão/abscesso em organização, com possível origem odontogênica). Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos."
     word: true
 
   - trigger: "abscessoretrofaringeo"
@@ -1195,7 +1165,7 @@ matches:
 
   - trigger: "cistosinovial"
     label: "Cisto sinovial do punho"
-    replace: "Formação cística, medindo _ cm, localizada em partes moles na face flexora do punho, próxima à artéria radial, na altura da articulação radiocarpal, com aparente comunicação com espaço articular subjacente. A possibilidade de cisto sinovial pode ser considerada dentre os diagnósticos diferencias."
+    replace: "Formação cística, medindo _ cm, localizada em partes moles na face flexora do punho, próxima à artéria radial, na altura da articulação radiocarpal, com aparente comunicação com espaço articular subjacente. A possibilidade de cisto sinovial pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
   - trigger: "dadosacinariz"
@@ -1225,7 +1195,7 @@ matches:
 
   - trigger: "diverduvida"
     label: "Diverticulite/colite cecal (dúvida diagnóstica)"
-    replace: "Densificação de planos gordurosos adjacentes à face mesocólica do ceco com obliteração dos contornos de divertículo nessa região, aumento do número de linfonodos adjacentes e ingurgitamento da arcada vascular regional. Há espessamento parietal do ceco. A possibilidade de diverticulite (Hinchey Ia)/colite pode ser inicialmente considerada dentre os diagnósticos diferencias, se dados clínicos e laboratoriais compatíveis. Recomenda-se controle do estudo após a terapêutica estabelecida."
+    replace: "Densificação de planos gordurosos adjacentes à face mesocólica do ceco com obliteração dos contornos de divertículo nessa região, aumento do número de linfonodos adjacentes e ingurgitamento da arcada vascular regional. Há espessamento parietal do ceco. A possibilidade de diverticulite (Hinchey Ia)/colite pode ser inicialmente considerada dentre os diagnósticos diferenciais, se dados clínicos e laboratoriais compatíveis. Recomenda-se controle do estudo após a terapêutica estabelecida."
     word: true
 
   - trigger: "dsime"
@@ -1285,7 +1255,7 @@ matches:
 
   - trigger: "extru2"
     label: "Extrusão discal em L5-S1 com compressão radicular"
-    replace: "Extrusão discal posterior paramediana direita em L5-S1 migrada caudalmente _ cm no canal veretebral, comprimindo a face anterior do saco dural e a raiz nervosa descendente de S1 no recesso lateral ipsilateral."
+    replace: "Extrusão discal posterior paramediana direita em L5-S1 migrada caudalmente _ cm no canal vertebral, comprimindo a face anterior do saco dural e a raiz nervosa descendente de S1 no recesso lateral ipsilateral."
     word: true
 
   - trigger: "fov1"
@@ -1524,11 +1494,6 @@ matches:
     replace: "Fratura do teto e das paredes anterior e posterolateral do seio maxilar direito. Associa-se hemossinus, bem como hematoma e enfisema de partes moles da face e no assoalho da órbita ipsilateral."
     word: true
 
-  - trigger: "rbola2"
-    label: "Cisto de retenção/pólipo em seio maxilar esquerdo (RM)"
-    replace: "Imagem arredondada com hipersinal na ponderação T2, sugerindo representar cisto de retenção ou pólipo, localizada no seio maxilar esquerdo."
-    word: true
-
   - trigger: "redumax1"
     label: "Redução de transparência do seio maxilar direito"
     replace: Redução da transparência do seio maxilar direito.
@@ -1669,13 +1634,13 @@ matches:
 
   - trigger: "tcdiverticulite"
     label: "Diverticulite sigmoide (Hinchey Ia)"
-    replace: "Densificação de planos gordurosos adjacentes à face mesocólica do sigmoide com obliteração dos contornos de divertículo nessa região, aumento do número de linfonodos adjacentes e ingurgitamento da arcada vascular regional. A possibilidade de diverticulite (Hinchey Ia) pode ser considerada dentre os diagnósticos diferencias, se dados clínicos e laboratoriais compatíveis."
+    replace: "Densificação de planos gordurosos adjacentes à face mesocólica do sigmoide com obliteração dos contornos de divertículo nessa região, aumento do número de linfonodos adjacentes e ingurgitamento da arcada vascular regional. A possibilidade de diverticulite (Hinchey Ia) pode ser considerada dentre os diagnósticos diferenciais, se dados clínicos e laboratoriais compatíveis."
     word: true
 
   - trigger: "tcdiverticulite1"
     label: "Diverticulite sigmoide (Hinchey Ia) com demais divertículos"
     replace: |
-      Densificação de planos gordurosos adjacentes à face mesocólica do sigmoide com obliteração dos contornos de divertículo nessa região, aumento do número de linfonodos adjacentes e ingurgitamento da arcada vascular regional. A possibilidade de diverticulite (Hinchey Ia) pode ser considerada dentre os diagnósticos diferencias, se dados clínicos e laboratoriais compatíveis.
+      Densificação de planos gordurosos adjacentes à face mesocólica do sigmoide com obliteração dos contornos de divertículo nessa região, aumento do número de linfonodos adjacentes e ingurgitamento da arcada vascular regional. A possibilidade de diverticulite (Hinchey Ia) pode ser considerada dentre os diagnósticos diferenciais, se dados clínicos e laboratoriais compatíveis.
       Demais divertículos colônicos sem sinais inflamatórios.
     word: true
 
@@ -1709,23 +1674,6 @@ matches:
     replace: "Nível L5-S1: abaulamento discal simétrico que retifica a face ventral do saco dural e se estende para as bases foraminais, reduzindo suas amplitudes, com impressão radicular bilateral, em associação a osteófitos marginais posterolaterais."
     word: true
 
-  - trigger: "tirads4"
-    label: "US de tireoide — nódulo TI-RADS 4"
-    replace: |
-      ULTRASSOM DE TIREOIDE
-
-      Exame realizado com transdutor linear multifrequencial para estudo da tireoide.
-      A glândula tireoide apresenta-se com contornos regulares, dimensões normais e ecotextura sólida e homogênea, exceto por nódulo hipoecoico no lobo direito, mais largo do que alto, medindo _ cm.
-      Lobo direito medindo _ cm nos seus maiores eixos.
-      Lobo esquerdo medindo _ cm nos seus maiores eixos.
-      Istmo com espessura normal.
-      Volume total da glândula tireoide: _ cm³ (normal de 5,0 cm³ a 15,0 cm³).
-      Ausência de linfonodomegalia cervical regional.
-
-      Conclusão:
-      Nódulo hipoecoico no lobo direito da tireoide (TI-RADS 4).
-    word: true
-
   - trigger: "tire"
     label: "Tireoide heterogênea"
     replace: "Tireoide heterogênea, melhor avaliada por estudo dirigido."
@@ -1743,7 +1691,7 @@ matches:
 
   - trigger: "wallup"
     label: "Mastoidectomia tipo Wall Up (achados pós-operatórios)"
-    replace: 'Sinais de manipulação cirúrgica da mastoide direita ("Wall Up"), porém com persistência de trabeculado mastoideo contendo material com atenuação de partes moles, que extende-se para o epi/meso/hipotímpanos, porém sem evidências de erosão ou luxação dos ossículos internos. Não foi observado realce pelo meio de contraste nessa topografia.'
+    replace: 'Sinais de manipulação cirúrgica da mastoide direita ("Wall Up"), porém com persistência de trabeculado mastoideo contendo material com atenuação de partes moles, que se estende para o epi/meso/hipotímpanos, porém sem evidências de erosão ou luxação dos ossículos internos. Não foi observado realce pelo meio de contraste nessa topografia.'
     word: true
 
   - trigger: "cdo"
@@ -1937,17 +1885,17 @@ matches:
 
   - trigger: "cage"
     label: "Dispositivo intersomático (cage)"
-    replace: 'Dispositivo intersomático ("cage") no espaço discal . Associa-se esclerose óssea das placas terminais apostas.'
+    replace: 'Dispositivo intersomático ("cage") no espaço discal _. Associa-se esclerose óssea das placas terminais apostas.'
     word: true
 
   - trigger: "cage1"
     label: "Dispositivo intersomático (cage)"
-    replace: 'Dispositivo intersomático ("cage") no espaço discal . Associa-se esclerose óssea das placas terminais apostas.'
+    replace: 'Dispositivo intersomático ("cage") no espaço discal _. Associa-se esclerose óssea das placas terminais apostas.'
     word: true
 
   - trigger: "cages"
     label: "Dispositivos intersomáticos (cages) em múltiplos níveis"
-    replace: 'Dispositivos intersomáticos ("cage") nos espaços discais . Associa-se esclerose óssea das placas terminais apostas.'
+    replace: 'Dispositivos intersomáticos ("cage") nos espaços discais _. Associa-se esclerose óssea das placas terminais apostas.'
     word: true
 
   - trigger: "calcal"
@@ -2326,7 +2274,7 @@ matches:
 
   - trigger: "tcespondilodiscite1"
     label: "Espondilodiscite T12-L1 com abscesso epidural"
-    replace: "Lesões erosivas e irregularidades corticais nas placas terminais apostas dos corpos vertebrais T12 e L1, determinando redução da suas alturas, associadas a aumento volumétrico dos planos mioadiposos perivertebrais. Destaca-se ainda, coleção preenchendo o respectivo espaço intervertebral, que se estende para o espaço epidural, comprimindo o saco dural e a medula torácica, determinando estenose do canal vertebral. O conjunto de achados pode estar associado a espondilodiscite dentre os diagnósticos diferenciais. Correlacionar com dados clínicos e laboratoriais."
+    replace: "Lesões erosivas e irregularidades corticais nas placas terminais apostas dos corpos vertebrais T12 e L1, determinando redução da suas alturas, associadas a aumento volumétrico dos planos mioadiposos perivertebrais. Destaca-se ainda coleção preenchendo o respectivo espaço intervertebral, que se estende para o espaço epidural, comprimindo o saco dural e a medula torácica, determinando estenose do canal vertebral. O conjunto de achados pode estar associado a espondilodiscite dentre os diagnósticos diferenciais. Correlacionar com dados clínicos e laboratoriais."
     word: true
 
   - trigger: "tcfacada4"
@@ -2565,7 +2513,7 @@ matches:
 
   - trigger: "abdcovid"
     label: "Pneumonia viral (COVID-19)"
-    replace: "Opacidades em vidro fosco com distribuição predominantemente periférica pelos campos pulmonares. Considerar a possibilidade de pneumonia viral (COVID-19) dentre os diagnósticos diferencias, diante do contexto de pandemia."
+    replace: "Opacidades em vidro fosco com distribuição predominantemente periférica pelos campos pulmonares. Considerar a possibilidade de pneumonia viral (COVID-19) dentre os diagnósticos diferenciais, diante do contexto de pandemia."
     word: true
 
   - trigger: "aca"
@@ -2859,7 +2807,7 @@ matches:
 
   - trigger: "dpocfibro"
     label: "DPOC com processo inflamatório/infeccioso sobreposto"
-    replace: "Enfisema centrolobular e parasseptal notadamente nos campos pulmonares superiores. Associam-se opacidades consolidativas e com atenuação em vidro fosco esparsas pelos campos pulmonares, com espessamento de septo interlobulares e bronquiectasias. Tais achados podem representar doença pulmonar obstrutiva crônica complicada com processo inflamatório/infeccioso, não sendo possível afastar de forma inequívoca certo grau de intersticiopatia."
+    replace: "Enfisema centrolobular e parasseptal notadamente nos campos pulmonares superiores. Associam-se opacidades consolidativas e com atenuação em vidro fosco esparsas pelos campos pulmonares, com espessamento dos septos interlobulares e bronquiectasias. Tais achados podem representar doença pulmonar obstrutiva crônica complicada com processo inflamatório/infeccioso, não sendo possível afastar de forma inequívoca certo grau de intersticiopatia."
     word: true
 
   - trigger: "embogor"
@@ -3235,7 +3183,7 @@ matches:
 
   - trigger: "sequelacovid"
     label: "Sequela pulmonar pós-COVID-19"
-    replace: "Opacidades com atenuação em vidro fosco esparsas pelos campos pulmonares, acompanhadas de espessamento septais, linhas subpleurais e bronquiectasias. Esse conjunto de achados pode estar relacionado a infecção prévia por pneumonia viral (COVID-19)."
+    replace: "Opacidades com atenuação em vidro fosco esparsas pelos campos pulmonares, acompanhadas de espessamento septal, linhas subpleurais e bronquiectasias. Esse conjunto de achados pode estar relacionado a infecção prévia por pneumonia viral (COVID-19)."
     word: true
 
   - trigger: "sequelapulmo"
@@ -3290,7 +3238,7 @@ matches:
   - trigger: "tcempiema"
     label: "Pneumonia complicada com empiema/fístula broncopleural"
     replace: |
-      Consolidação/atelectasia com broncogramas aéreos de permeio no segmento superior do lobo inferior esquerdo, de provável natureza inflamatório-infecciosa. Associa-se moderado derrame pleural à esquerda de aspecto loculado, com componente fissural e nivel hidroaéreo, achados que sugerem complicações parapneumônicas como empiema pleural e/ou fistula broncopleural como considerações diagnósticas, melhor avaliados com uso de meio de contraste intravenoso.
+      Consolidação/atelectasia com broncogramas aéreos de permeio no segmento superior do lobo inferior esquerdo, de provável natureza inflamatório-infecciosa. Associa-se moderado derrame pleural à esquerda de aspecto loculado, com componente fissural e nível hidroaéreo, achados que sugerem complicações parapneumônicas como empiema pleural e/ou fístula broncopleural como considerações diagnósticas, melhor avaliados com uso de meio de contraste intravenoso.
       Mínimo derrame pleural à direita.
     word: true
 
@@ -3454,7 +3402,7 @@ matches:
 
   - trigger: "hipertudo"
     label: "Hipertensão pulmonar (artéria pulmonar e ramos)"
-    replace: "Aumento do calibre da artéria pulmonar ( cm), e de seus ramos direito ( cm) e esquerdo ( cm), inferindo certo grau de hipertensão pulmonar."
+    replace: "Aumento do calibre da artéria pulmonar (_ cm), e de seus ramos direito (_ cm) e esquerdo (_ cm), inferindo certo grau de hipertensão pulmonar."
     word: true
 
   - trigger: "tot"
@@ -3541,7 +3489,7 @@ matches:
 
   - trigger: "hiperpul"
     label: "Aumento do calibre da artéria pulmonar"
-    replace: "Aumento do calibre do tronco da artéria pulmonar e de seus ramos principais, medindo à direita cm e à esquerda cm."
+    replace: "Aumento do calibre do tronco da artéria pulmonar e de seus ramos principais, medindo à direita _ cm e à esquerda _ cm."
     word: true
 
   - trigger: "linfomed"
@@ -3913,14 +3861,6 @@ matches:
     replace: "Pequena imagem hiperdensa no córtex renal direito, inespecífica no protocolo empregado, podendo corresponder a cisto com conteúdo hiperproteico/hemático ou nódulo."
     word: true
 
-  - trigger: "bolat2"
-    label: "Lesões hiperintensas hepática e renal (RM, indeterminadas)"
-    replace: |
-      Imagem ovalada hiperintensa em T2, medindo _ cm, localizada no lobo hepático direito, melhor avaliada por estudo dirigido.
-
-      Imagem ovalada hiperintensa em T2, medindo _ cm, localizada no rim direito, melhor avaliada por estudo dirigido.
-    word: true
-
   - trigger: "bostao"
     label: "Fecaloma/resíduos fecais acentuados"
     replace: Acentuada quantidade de resíduos fecais em alças intestinais.
@@ -4040,7 +3980,7 @@ matches:
 
   - trigger: "calculoduvidosojuv"
     label: "Hidroureteronefrose com calcificação duvidosa (flebólito vs cálculo)"
-    replace: "Discreta hidroureteronefrose à _. Associa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados a passagem recente de cálculo, não podendo ser descartado processo inflamatório/infeccioso associado. Nota-se ainda, calcificação na pelve à direita, na região da junção ureterovesical, medindo _ cm. Caso persista a indicação clínica, recomenda-se a complementação com a fase contrastada do exame para a diferenciação entre flebólito e possível cálculo ureteral."
+    replace: "Discreta hidroureteronefrose à _. Associa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados a passagem recente de cálculo, não podendo ser descartado processo inflamatório/infeccioso associado. Nota-se ainda calcificação na pelve à direita, na região da junção ureterovesical, medindo _ cm. Caso persista a indicação clínica, recomenda-se a complementação com a fase contrastada do exame para a diferenciação entre flebólito e possível cálculo ureteral."
     word: true
 
   - trigger: "calculojuv"
@@ -4160,7 +4100,7 @@ matches:
 
   - trigger: "cibosx"
     label: "Cistos renais corticais bilaterais (template genérico)"
-    replace: "Cistos renais corticais bilaterais, o maior medindo cm, localizado à _ (Bosniak I)."
+    replace: "Cistos renais corticais bilaterais, o maior medindo _ cm, localizado à _ (Bosniak I)."
     word: true
 
   - trigger: "cirros"
@@ -4295,7 +4235,7 @@ matches:
 
   - trigger: "diverticulocalicinal"
     label: "Divertículo calicinal com cálculo/leite de cálcio"
-    replace: 'Calcificação alongada, medindo _ cm, localizada junto à grupamento calicinar médio do rim esquerdo, onde observa-se formação cística que mediu _ cm. Após a administração do meio de contraste endovenoso, observa-se opacificação parcial dessa formação cística pelo mesmo. Divertículo calicinal contendo cálculo ou "leite de cálcio"?'
+    replace: 'Calcificação alongada, medindo _ cm, localizada junto ao grupamento calicinar médio do rim esquerdo, onde observa-se formação cística que mediu _ cm. Após a administração do meio de contraste endovenoso, observa-se opacificação parcial dessa formação cística pelo mesmo. Divertículo calicinal contendo cálculo ou "leite de cálcio"?'
     word: true
 
   - trigger: "diverticulutedemeckel"
@@ -4397,7 +4337,7 @@ matches:
 
   - trigger: "figocis"
     label: "Cistos hepáticos múltiplos"
-    replace: "Múltiplos císticos hepáticos, o maior localizado no segmento, medindo cm."
+    replace: "Múltiplos cistos hepáticos, o maior localizado no segmento _, medindo _ cm."
     word: true
 
   - trigger: "finesp"
@@ -4699,7 +4639,7 @@ matches:
 
   - trigger: "metahepa1"
     label: "Metástase hepática (nódulo único)"
-    replace: "Lesão nodular medindo cm, com realce periférico pelo meio de contraste endovenoso, localizada no segmento hepático VII. A possibilidade de metástase pode ser considerada dentre os diagnósticos diferenciais."
+    replace: "Lesão nodular medindo _ cm, com realce periférico pelo meio de contraste endovenoso, localizada no segmento hepático VII. A possibilidade de metástase pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
   - trigger: "micro"
@@ -4833,7 +4773,7 @@ matches:
 
   - trigger: "nonatripa2"
     label: "Obstrução intestinal no íleo terminal (etiologia indeterminada)"
-    replace: "Acentuada distensão hidroaérea de alças intestinais delgadas, da câmara gástrica e do esôfago, com aparente ponto de obstrução na região do íleo terminal. Associa-se densificação da gordura mesentérica na fossa ilíaca direita, com ingurgitamento da arcada vascular regional/rotação de vasos mesentéricos e aumento do número de linfonodos regionais, sem caracterizar linfonodomegalias. Nota-se ainda, pequena quantidade de líquido livre na cavidade abdominal. Brida/aderência? Processo inflamatório/infeccioso regional complicado com obstrução intestinal? Lesão de outra natureza? Recomenda-se prosseguir a investigação diagnóstica."
+    replace: "Acentuada distensão hidroaérea de alças intestinais delgadas, da câmara gástrica e do esôfago, com aparente ponto de obstrução na região do íleo terminal. Associa-se densificação da gordura mesentérica na fossa ilíaca direita, com ingurgitamento da arcada vascular regional/rotação de vasos mesentéricos e aumento do número de linfonodos regionais, sem caracterizar linfonodomegalias. Nota-se ainda pequena quantidade de líquido livre na cavidade abdominal. Brida/aderência? Processo inflamatório/infeccioso regional complicado com obstrução intestinal? Lesão de outra natureza? Recomenda-se prosseguir a investigação diagnóstica."
     word: true
 
   - trigger: "nonatripa3"
@@ -4848,12 +4788,12 @@ matches:
 
   - trigger: "novoneopancreas"
     label: "Neoplasia do corpo do pâncreas com invasão vascular"
-    replace: "Formação expansiva infiltrativa, heterogênea, localizada no corpo pancreático, promovendo mínima dilatação do ducto pancreático principal e atrofia relativa da cauda do pâncreas. A lesão envolve circunferencialmente o tronco celíaco e porção proximal da artéria mesentérica superior, promovendo afilamento na origem da artéria hepática comum, da artéria esplênica, bem como do terço proximal da artéria mesentérica superior e importante afilamento da porção proximal da artéria gástrica esquerda. Nota-se envolvimento circunferencial, com importante afilamento da porção distal da veia mesentérica superior. Observam-se ainda, colaterais venosas perigástricas."
+    replace: "Formação expansiva infiltrativa, heterogênea, localizada no corpo pancreático, promovendo mínima dilatação do ducto pancreático principal e atrofia relativa da cauda do pâncreas. A lesão envolve circunferencialmente o tronco celíaco e porção proximal da artéria mesentérica superior, promovendo afilamento na origem da artéria hepática comum, da artéria esplênica, bem como do terço proximal da artéria mesentérica superior e importante afilamento da porção proximal da artéria gástrica esquerda. Nota-se envolvimento circunferencial, com importante afilamento da porção distal da veia mesentérica superior. Observam-se ainda colaterais venosas perigástricas."
     word: true
 
   - trigger: "ovariopolicistico"
     label: "Ovários com aspecto policístico"
-    replace: "Ovários na topografia habitual, de dimensões aumentadas (VR &lt; 10 cm³), apresentando múltiplas formações císticas, menores que 0,9 cm, de localização predominantemente periférica, com aumento da ecogenicidade do estroma central, assumindo aspecto policístico."
+    replace: "Ovários na topografia habitual, de dimensões aumentadas (VR > 10 cm³), apresentando múltiplas formações císticas, menores que 0,9 cm, de localização predominantemente periférica, assumindo aspecto policístico."
     word: true
 
   - trigger: "ovn3"
@@ -4893,7 +4833,7 @@ matches:
 
   - trigger: "pbe"
     label: "Peritonite bacteriana espontânea com coleções"
-    replace: "Espessamento peritoneal liso e difuso, com realce pelo meio de contraste, associado a espessamento omental, densificação difusa da gordura mesentérica, linfonodos peritoneais proeminentes. Destaca-se ainda, áreas liquefeitas organizadas (coleções) periantral e no omento maior, medindo _ e _ cm. O conjunto de achados, no contexto de hepatopatia e ascite descritos é compatível com processo inflamatório/infeccioso peritôneo-omental (peritonite bacteriana espontânea) com coleções inflamatórias associadas."
+    replace: "Espessamento peritoneal liso e difuso, com realce pelo meio de contraste, associado a espessamento omental, densificação difusa da gordura mesentérica, linfonodos peritoneais proeminentes. Destacam-se ainda áreas liquefeitas organizadas (coleções) periantral e no omento maior, medindo _ e _ cm. O conjunto de achados, no contexto de hepatopatia e ascite descritos é compatível com processo inflamatório/infeccioso peritôneo-omental (peritonite bacteriana espontânea) com coleções inflamatórias associadas."
     word: true
 
   - trigger: "pcnv"
@@ -4918,7 +4858,7 @@ matches:
 
   - trigger: "pelveinflamada"
     label: "Processo inflamatório em fossa ilíaca direita (íleo terminal/ceco)"
-    replace: "Densificação de planos gordurosos mesentéricos, notadamente na fossa ilíaca direita, com ingurgitamento da arcada vascular e aumento do número de linfonodos regionais. Associa-se hiperrealce mucoso de alças intestinais, notadamente na região do íleo terminal e ceco. Nota-se ainda, mínima quantidade de líquido livre na cavidade pélvica. Esse conjunto de achados, embora inespecífico, sugere a possibilidade de processo inflamatório regional. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
+    replace: "Densificação de planos gordurosos mesentéricos, notadamente na fossa ilíaca direita, com ingurgitamento da arcada vascular e aumento do número de linfonodos regionais. Associa-se hiperrealce mucoso de alças intestinais, notadamente na região do íleo terminal e ceco. Nota-se ainda mínima quantidade de líquido livre na cavidade pélvica. Esse conjunto de achados, embora inespecífico, sugere a possibilidade de processo inflamatório regional. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
     word: true
 
   - trigger: "pelveureteritecomplicada"
@@ -4998,7 +4938,7 @@ matches:
 
   - trigger: "pseudocistoounecrosemurada"
     label: "Pseudocisto/necrose pancreática encapsulada"
-    replace: "Pâncreas de volume aumentado, impregnando-se homogeneamente pelo meio de contraste, sem sinais de necrose, dilatação ductal ou calcificações parenquimatosas. Observa-se aumento volumétrico das coleções heterogêneas, predominantemente peripancreáticas, confluentes, com realce parietal após a administração do meio de contraste, que estendem-se desde a junção esofagogástrica/hipocôndrio esquerdo até a fossa ilíaca esquerda, medindo em conjunto, cerca de _ cm, com volume estimado de _ cm³. As possibilidades de pseudocistos ou necrose encapsulada peripancreática podem ser consideradas, em estreita correlação com dados clínicos e laboratoriais. Associam-se áreas de espessamento e realce do peritôneo adjacentes às coleções, de aspecto reacional."
+    replace: "Pâncreas de volume aumentado, impregnando-se homogeneamente pelo meio de contraste, sem sinais de necrose, dilatação ductal ou calcificações parenquimatosas. Observa-se aumento volumétrico das coleções heterogêneas, predominantemente peripancreáticas, confluentes, com realce parietal após a administração do meio de contraste, que se estendem desde a junção esofagogástrica/hipocôndrio esquerdo até a fossa ilíaca esquerda, medindo em conjunto, cerca de _ cm, com volume estimado de _ cm³. As possibilidades de pseudocistos ou necrose encapsulada peripancreática podem ser consideradas, em estreita correlação com dados clínicos e laboratoriais. Associam-se áreas de espessamento e realce do peritôneo adjacentes às coleções, de aspecto reacional."
     word: true
 
   - trigger: "pseudolipoma"
@@ -5184,7 +5124,7 @@ matches:
 
   - trigger: "tccolecistite"
     label: "Colecistite aguda calculosa"
-    replace: "Vesícula biliar hidrópica, de paredes espessas, contendo cálculos e apresentando densificação da gordura perivisceral. A possibilidade de colecistite aguda pode ser considerada. Os diagnósticos diferencias devem ser aplicados."
+    replace: "Vesícula biliar hidrópica, de paredes espessas, contendo cálculos e apresentando densificação da gordura perivisceral. A possibilidade de colecistite aguda pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
     word: true
 
   - trigger: "tccolite"
@@ -5306,7 +5246,7 @@ matches:
 
   - trigger: "tcpseudomixoma"
     label: "Carcinomatose peritoneal com pseudomixoma peritoneal"
-    replace: "Aumento volumétrico dos nódulos peritoneais, o maior no flanco esquerdo, medindo agora _ cm (média _ cm), associados a pequena quantidade de líquido livre na pelve, achados que no contexto neoplásico primário conhecido, sugerem disseminação neoplásica secundária omentoperitoneal (carcinomatose peritoneal). Associa-se ainda, ascite espessa determinando impressão/lobulação junto à borda do lobo hepático direito, sugerindo pseudomixoma peritoneal."
+    replace: "Aumento volumétrico dos nódulos peritoneais, o maior no flanco esquerdo, medindo agora _ cm (média _ cm), associados a pequena quantidade de líquido livre na pelve, achados que no contexto neoplásico primário conhecido, sugerem disseminação neoplásica secundária omentoperitoneal (carcinomatose peritoneal). Associa-se ainda ascite espessa determinando impressão/lobulação junto à borda do lobo hepático direito, sugerindo pseudomixoma peritoneal."
     word: true
 
   - trigger: "tcrertocolite"
@@ -5321,7 +5261,7 @@ matches:
 
   - trigger: "tcteratoma"
     label: "Teratoma ovariano"
-    replace: "Lesão ovalada, medindo cm, com densidade heterogênea, predominantemente com componente de gordura, localizada em região ovariana/anexial esquerda. A possibilidade de teratoma pode ser considerada dentre os diagnósticos diferenciais."
+    replace: "Lesão ovalada, medindo _ cm, com densidade heterogênea, predominantemente com componente de gordura, localizada em região ovariana/anexial esquerda. A possibilidade de teratoma pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
   - trigger: "tcxanto"
@@ -5511,7 +5451,7 @@ matches:
 
   - trigger: "tt84"
     label: "Achado incidental — litíase renal"
-    replace: "Obs: As imagens do abdômen superior evidenciam cálculo renais de até _ cm."
+    replace: "Obs: As imagens do abdômen superior evidenciam cálculos renais de até _ cm."
     word: true
 
   - trigger: "tt85"
@@ -5570,11 +5510,6 @@ matches:
   - trigger: "galinho"
     label: "Edema/hematoma no olécrano"
     replace: Aumento de volume e densificação do tecido subcutâneo na região do olécrano sugerindo edema/hematoma. Correlacionar com dados clínicos.
-    word: true
-
-  - trigger: "habilirm"
-    label: "Limitação da RM (recidiva x radionecrose)"
-    replace: "A habilidade do exame de ressonância magnética convencional na diferenciação entre lesão residual/recidivada e alterações actínicas (radionecrose/leucopatia pós-radiação) é limitada, uma vez que a manifestação usual dessas patologias pode ser semelhante do ponto de vista de imagem."
     word: true
 
   - trigger: "hcac"
@@ -5643,7 +5578,7 @@ matches:
 
   - trigger: "artrosequadril"
     label: "Osteoartrose avançada do quadril"
-    replace: Redução do espaço articular femoroacetabular, notadamente no compartimento superior, com destruição das respectivas cartilagens de revestimento, esclerose/reação óssea hipertrófica marginal e formação de cistos subcorticais (geodos). Os achados sugerem Sinais de osteoartrose avançada no quadril esquerdo.
+    replace: Redução do espaço articular femoroacetabular, notadamente no compartimento superior, com destruição das respectivas cartilagens de revestimento, esclerose/reação óssea hipertrófica marginal e formação de cistos subcorticais (geodos). Sinais de osteoartrose avançada no quadril esquerdo.
     word: true
 
   - trigger: "baker"
@@ -5832,11 +5767,6 @@ matches:
     replace: Entesófito nos calcâneos posterior e plantar.
     word: true
 
-  - trigger: "cruzant"
-    label: "Lesão parcial do ligamento cruzado anterior"
-    replace: "Hipersinal e perda do padrão fibrilar do ligamento cruzado anterior, associado à edema ósseo da sua inserção tibial. Esses achados podem corresponder à rotura parcial, devendo-se correlacionar com exame físico para avaliação de sua suficiência."
-    word: true
-
   - trigger: "hoffite"
     label: "Hoffite lateral do joelho"
     replace: "Sinais de edema do tecido adiposo entre o ligamento patelar e a tróclea femoral lateral, compatível com Hoffite lateral."
@@ -5844,7 +5774,7 @@ matches:
 
   - trigger: "joe"
     label: "Osteoartrose femorotibial medial"
-    replace: "Redução do espaço articular femorotibial medial (área de carga), associado à incipientes osteófitos marginais."
+    replace: "Redução do espaço articular femorotibial medial (área de carga), associado a incipientes osteófitos marginais."
     word: true
 
   - trigger: "morton"
@@ -5863,12 +5793,12 @@ matches:
 
   - trigger: "aaa1"
     label: "Aneurisma da aorta abdominal com trombo mural"
-    replace: "Aneurisma fusiforme da aorta abdominal, originando-se cm abaixo da emergência da artéria renal esquerda e estendendo-se até à bifurcação das artérias ilíacas comuns, apresentando calibre máximo de _ cm, extensão craniocaudal de _ cm e trombos murais."
+    replace: "Aneurisma fusiforme da aorta abdominal, originando-se _ cm abaixo da emergência da artéria renal esquerda e estendendo-se até a bifurcação das artérias ilíacas comuns, apresentando calibre máximo de _ cm, extensão craniocaudal de _ cm e trombos murais."
     word: true
 
   - trigger: "acmhiper"
     label: "AVC isquêmico agudo (ACM direita)"
-    replace: "Hipoatenuação acometendo a substância branca profunda e corticossubcortical frontal, parietal, temporal, insular e nucleocapsular direita, associada a edema de padrão citotóxico, com consequente apagamentos dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. Associa-se hiperdensidade da artéria cerebral média ipsilateral, sugerindo representar trombo/êmbolo. A possibilidade de evento vascular isquêmico agudo deve ser considerada."
+    replace: "Hipoatenuação acometendo a substância branca profunda e corticossubcortical frontal, parietal, temporal, insular e nucleocapsular direita, associada a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. Associa-se hiperdensidade da artéria cerebral média ipsilateral, sugerindo representar trombo/êmbolo. A possibilidade de evento vascular isquêmico agudo deve ser considerada."
     word: true
 
   - trigger: "aneuesp"
@@ -6028,13 +5958,13 @@ matches:
 
   - trigger: "avcsubagudo"
     label: "AVC isquêmico subagudo com efeito de massa"
-    replace: Lesões hipodensas, corticosubcorticais, localizadas nas regiões frontal, parietal, temporal, insular e nucleocapsular à esquerda, com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média de _ cm. Associa-se hiperdensidade da artéria cerebral média ipsilateral, sugerindo representar trombo/êmbolo. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada.
+    replace: Lesões hipodensas, corticossubcorticais, localizadas nas regiões frontal, parietal, temporal, insular e nucleocapsular à esquerda, com apagamento dos sulcos corticais regionais, compressão ventricular e desvio contralateral das estruturas da linha média de _ cm. Associa-se hiperdensidade da artéria cerebral média ipsilateral, sugerindo representar trombo/êmbolo. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada.
     word: true
 
   - trigger: "avctrans1"
     label: "AVC extenso com possível transformação hemorrágica"
     replace: |
-      Hipoatenuação acometendo a substância branca profunda e corticossubcortical frontal, parietal, temporal, insular e nucleocapsular direita, associada a edema de padrão citotóxico, com consequente apagamentos dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta, sugerindo evento vascular encefálico. Associa-se hiperdensidade da artéria cerebral média ipsilateral, podendo representar trombo/êmbolo.
+      Hipoatenuação acometendo a substância branca profunda e corticossubcortical frontal, parietal, temporal, insular e nucleocapsular direita, associada a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta, sugerindo evento vascular encefálico. Associa-se hiperdensidade da artéria cerebral média ipsilateral, podendo representar trombo/êmbolo.
       Hiperdensidade relativa putaminopalidal direita. Sangramento? Área de parênquima preservada? A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
     word: true
 
@@ -6050,7 +5980,7 @@ matches:
 
   - trigger: "bifur"
     label: "Proeminência da bifurcação da ACM - possível aneurisma"
-    replace: "Proeminência da bifurcação da artéria cerebaral média esquerda, melhor avaliada por estudo dirigido. Aneurisma?"
+    replace: "Proeminência da bifurcação da artéria cerebral média esquerda, melhor avaliada por estudo dirigido. Aneurisma?"
     word: true
 
   - trigger: "cistoosseoaneurismatico"
@@ -6497,11 +6427,6 @@ matches:
     replace: "A critério clínico, se possível, o estudo dessa região por imagens de ultrassonografia poderá fornecer maiores subsídios diagnósticos."
     word: true
 
-  - trigger: "artrm"
-    label: "Artefato de susceptibilidade magnética frontal (partícula metálica)"
-    replace: "Artefatos de susceptibilidade magnética no tecido subcutâneo da região frontal esquerda, presumivelmente representando pequena partícula metálica, degradando parte das imagens adjacentes. Caso persista a indicação clínica, recomenda-se estudo direcionado por imagens de radiografia ou tomografia computadorizada."
-    word: true
-
   - trigger: "baciaid"
     label: "TOMOGRAFIA COMPUTADORIZADA DA BACIA - template completo"
     replace: |
@@ -6565,7 +6490,7 @@ matches:
       Suspeita de pneumonia viral (Covid-19).
 
       Descrição:
-      Opacidades consolidativas e com atenuação em "vidro fosco" associadas a espessamento septais, esparsas pelos campos pulmonares.
+      Opacidades consolidativas e com atenuação em "vidro fosco" associadas a espessamento septal, esparsas pelos campos pulmonares.
       Raros nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
       Estrias e bandas parenquimatosas pulmonares esparsas.
       Traqueia e brônquios fontes com diâmetros normais.
@@ -7500,7 +7425,7 @@ matches:
       Coleções hemáticas no ventrículos laterais (hemoventrículo).
 
       Permanecendo:
-      Fratura dos ossos próprios do nariz e do septo ósseo nasal. Associa-se aumento de volume e densificação de partes moles adjacentes ao sítio de fratura sugerindo edema/hematoma. Nota-se ainda, solução de continuidade de pele e tecido subcutâneo.
+      Fratura dos ossos próprios do nariz e do septo ósseo nasal. Associa-se aumento de volume e densificação de partes moles adjacentes ao sítio de fratura sugerindo edema/hematoma. Nota-se ainda solução de continuidade de pele e tecido subcutâneo.
       Fratura cominutiva com luxação do côndilo mandibular esquerdo.
       Desvio sinuoso do septo ósseo nasal.
       Hemorragia subaracnoide ocupando sulcos corticais dos hemisférios cerebrais.
@@ -7626,8 +7551,8 @@ matches:
 
       Descrição:
       Craniectomia occipital.
-      Coleção com densidade próxima à do liquor localizada em partes moles extracranianas da região suboccipital, em trajeto de abordagem cirúrgica, aparentemente comunicando-se com as membranas meníngeas e o tecido encefálico. As possibilidades de pseudomeningocele ou abscesso podem ser consideradas, diante do contexto clínico. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
-      Lesão com densidade próxima à do liquor localizada na porção posteroinferior mediana do cerebelo, presumivelmente relacionada ao leito cirúrgico. Não dispomos de exames anteriores no momento para comparação.
+      Coleção com densidade próxima à do líquor localizada em partes moles extracranianas da região suboccipital, em trajeto de abordagem cirúrgica, aparentemente comunicando-se com as membranas meníngeas e o tecido encefálico. As possibilidades de pseudomeningocele ou abscesso podem ser consideradas, diante do contexto clínico. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
+      Lesão com densidade próxima à do líquor localizada na porção posteroinferior mediana do cerebelo, presumivelmente relacionada ao leito cirúrgico. Não dispomos de exames anteriores no momento para comparação.
       Aumento dos diâmetros anteroposterior e laterolateral do bulbo. Processo expansivo?
       Sulcos e cisternas encefálicas normais.
       Parênquima cerebral com morfologia e coeficientes de atenuação normais.
@@ -7637,8 +7562,8 @@ matches:
 
       Conclusão:
       Craniectomia occipital.
-      Coleção com densidade próxima à do liquor localizada em partes moles extracranianas da região suboccipital, em trajeto de abordagem cirúrgica, aparentemente comunicando-se com as membranas meníngeas e o tecido encefálico. As possibilidades de pseudomeningocele ou abscesso podem ser consideradas, diante do contexto clínico. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
-      Lesão com densidade próxima à do liquor localizada na porção posteroinferior mediana do cerebelo, presumivelmente relacionada ao leito cirúrgico. Não dispomos de exames anteriores no momento para comparação.
+      Coleção com densidade próxima à do líquor localizada em partes moles extracranianas da região suboccipital, em trajeto de abordagem cirúrgica, aparentemente comunicando-se com as membranas meníngeas e o tecido encefálico. As possibilidades de pseudomeningocele ou abscesso podem ser consideradas, diante do contexto clínico. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
+      Lesão com densidade próxima à do líquor localizada na porção posteroinferior mediana do cerebelo, presumivelmente relacionada ao leito cirúrgico. Não dispomos de exames anteriores no momento para comparação.
       Aumento dos diâmetros anteroposterior e laterolateral do bulbo. Processo expansivo?
     word: true
 
@@ -8764,7 +8689,7 @@ matches:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
 
       Descrição:
-      Padrão de aspecto simplificado dos giros corticais cerebrais, que apresentam-se aparentemente largos com sulcos rasos. Há subsequente aumento do espaço liquórico junto à convexidade cortical dos lobos frontais. Nota-se discreto alargamento dos corpos dos ventrículos laterais, notadamente à direita.
+      Padrão de aspecto simplificado dos giros corticais cerebrais, que se apresentam aparentemente largos com sulcos rasos. Há subsequente aumento do espaço liquórico junto à convexidade cortical dos lobos frontais. Nota-se discreto alargamento dos corpos dos ventrículos laterais, notadamente à direita.
       Cisternas encefálicas normais.
       Tronco cerebral e cerebelo de aspecto conservado.
       Estruturas da linha mediana sem desvios significativos.
@@ -8772,7 +8697,7 @@ matches:
       Ausência de coleções hemorrágicas intra ou extra-axiais.
 
       Conclusão:
-      Padrão de aspecto simplificado dos giros corticais cerebrais, que apresentam-se aparentemente largos com sulcos rasos. Há subsequente aumento do espaço liquórico junto à convexidade cortical dos lobos frontais. Nota-se discreto alargamento dos corpos dos ventrículos laterais, notadamente à direita. Admitem-se inicialmente as possibilidades de paquigiria/lisencefalia ou microencefalia com padrão giral simplificado. Outros diagnósticos diferenciais devem ser aplicados. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
+      Padrão de aspecto simplificado dos giros corticais cerebrais, que se apresentam aparentemente largos com sulcos rasos. Há subsequente aumento do espaço liquórico junto à convexidade cortical dos lobos frontais. Nota-se discreto alargamento dos corpos dos ventrículos laterais, notadamente à direita. Admitem-se inicialmente as possibilidades de paquigiria/lisencefalia ou microencefalia com padrão giral simplificado. Outros diagnósticos diferenciais devem ser aplicados. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
       Imagens ovaladas cálcicas localizadas no lobo frontal direito (granulomas calcificados).
     word: true
 
@@ -8823,7 +8748,7 @@ matches:
       Realizada aquisição volumétrica em equipamento com multidetectores, sem a injeção endovenosa do meio de contraste.
 
       A análise comparativa com o exame realizado em 22/11/2021 evidencia:
-      Acentuação da hipoatenuação acometendo a substância branca profunda e corticossubcortical frontal, parietal e insular à esquerda, com aumento do edema de padrão citotóxico, com consequente apagamentos dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. Associa-se hiperdensidade da artéria cerebral média ipsilateral, sugerindo representar trombo/êmbolo. A possibilidade de evento vascular isquêmico agudo deve ser considerada. Nota-se hiperdensidade do parênquima próxima a sulcos no interior da lesão podendo estar relacionada a transformação hemorrágica ou a áreas de parênquima preservado. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
+      Acentuação da hipoatenuação acometendo a substância branca profunda e corticossubcortical frontal, parietal e insular à esquerda, com aumento do edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. Associa-se hiperdensidade da artéria cerebral média ipsilateral, sugerindo representar trombo/êmbolo. A possibilidade de evento vascular isquêmico agudo deve ser considerada. Nota-se hiperdensidade do parênquima próxima a sulcos no interior da lesão podendo estar relacionada a transformação hemorrágica ou a áreas de parênquima preservado. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
 
       Permanecendo:
       Acentuação dos sulcos e cisternas encefálicas, habitual para a faixa etária, associada a dilatação compensatória do sistema ventricular supratentorial.
@@ -8875,7 +8800,7 @@ matches:
       Ectasia dos ramos direito e esquerdo da artéria pulmonar.
       Ateromatose aortocoronariana.
       Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias.
-      Opacidades com atenuação em "vidro fosco" acompanhadas de espessamento septais e bronquiectasias com predomínio central/peri-hilar bilateral. Notam-se raras opacidades consolidativas de permeio.
+      Opacidades com atenuação em "vidro fosco" acompanhadas de espessamento septal e bronquiectasias com predomínio central/peri-hilar bilateral. Notam-se raras opacidades consolidativas de permeio.
       Estrias e bandas parenquimatosas esparsas.
       Raros nódulos pulmonares sem calcificações evidentes (incaracterísticos), menores que 0,5 cm, esparsos.
       Espaços pleurais virtuais.
@@ -8884,7 +8809,7 @@ matches:
       Distensão hidroaérea da câmara gástrica.
 
       Conclusão:
-      Opacidades com atenuação em "vidro fosco" acompanhadas de espessamento septais e bronquiectasias com predomínio central/peri-hilar bilateral. Notam-se raras opacidades consolidativas de permeio. A possibilidade de processo inflamatório/infeccioso, destacando-se a hipótese de pneumonia por Pneumocystis jirovecii pode ser considerada. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
+      Opacidades com atenuação em "vidro fosco" acompanhadas de espessamento septal e bronquiectasias com predomínio central/peri-hilar bilateral. Notam-se raras opacidades consolidativas de permeio. A possibilidade de processo inflamatório/infeccioso, destacando-se a hipótese de pneumonia por Pneumocystis jirovecii pode ser considerada. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
       Demais achados pormenorizados no corpo do laudo.
     word: true
 
@@ -9006,7 +8931,7 @@ matches:
       Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
 
       Descrição:
-      Lesão escavada, de paredes espessas e irregulares, com conteúdo hidroaéreo, medindo cm, localizada no segmento superior do lobo inferior esquerdo. Associa-se espessamento parietal e afilamento luminal do respectivo brônquio.
+      Lesão escavada, de paredes espessas e irregulares, com conteúdo hidroaéreo, medindo _ cm, localizada no segmento superior do lobo inferior esquerdo. Associa-se espessamento parietal e afilamento luminal do respectivo brônquio.
       Espessamento fissural e dos septos interlobulares, bem como bronquiectasias e nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", localizadas no lobo inferior esquerdo.
       Opacidades nodulares, de contornos irregulares, medindo _ cm e _ cm, localizadas no segmento superior do lobo inferior esquerdo.
       Aumento do número de linfonodos mediastinais, com linfonodo pré-carinal medindo _ cm no menor eixo.
@@ -9016,7 +8941,7 @@ matches:
       Espondilose torácica.
 
       Conclusão:
-      Lesão escavada, de paredes espessas e irregulares, com conteúdo hidroaéreo, medindo cm, localizada no segmento superior do lobo inferior esquerdo. Associa-se espessamento parietal e afilamento luminal do respectivo brônquio.
+      Lesão escavada, de paredes espessas e irregulares, com conteúdo hidroaéreo, medindo _ cm, localizada no segmento superior do lobo inferior esquerdo. Associa-se espessamento parietal e afilamento luminal do respectivo brônquio.
       Espessamento fissural e dos septos interlobulares, bem como bronquiectasias e nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", localizadas no lobo inferior esquerdo.
       Opacidades nodulares, de contornos irregulares, medindo _ cm e _ cm, localizadas no segmento superior do lobo inferior esquerdo.
       Aumento do número de linfonodos mediastinais, com linfonodo pré-carinal medindo _ cm no menor eixo.
@@ -9121,7 +9046,7 @@ matches:
       Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
 
       Descrição:
-      Nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", predominando nos lobos superiores e inferior esquerdo. Associam-se opacidades consolidativas e espessamento de paredes brônquicas, por vezes com conteúdo brônquico. Notam-se duas lesões escavadas no pulmão esquerdo, de paredes espessas, uma no lobo superior esquerdo, medindo de _ cm, e outra no inferior do pulmão esquerdo, medindo _ cm. O conjunto de achados sugere processo inflamatório/infeccioso granulomatoso caseoso em atividade (tuberculose), dentre os diagnósticos diferenciais.
+      Nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", predominando nos lobos superiores e inferior esquerdo. Associam-se opacidades consolidativas e espessamento de paredes brônquicas, por vezes com conteúdo brônquico. Notam-se duas lesões escavadas no pulmão esquerdo, de paredes espessas, uma no lobo superior esquerdo, medindo _ cm, e outra no inferior do pulmão esquerdo, medindo _ cm. O conjunto de achados sugere processo inflamatório/infeccioso granulomatoso caseoso em atividade (tuberculose), dentre os diagnósticos diferenciais.
       Faixa atelectásica na língula, com bronquiectasias.
       Aumento do número de linfonodos mediastinais, com linfonodomegalias.
       Ateromatose aortocoronariana.
@@ -9130,7 +9055,7 @@ matches:
       Alterações degenerativas do arcabouço ósseo torácico.
 
       Conclusão:
-      Nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", predominando nos lobos superiores e inferior esquerdo. Associam-se opacidades consolidativas e espessamento de paredes brônquicas, por vezes com conteúdo brônquico. Notam-se duas lesões escavadas no pulmão esquerdo, de paredes espessas, uma no lobo superior esquerdo, medindo de _ cm, e outra no inferior do pulmão esquerdo, medindo _ cm. O conjunto de achados sugere processo inflamatório/infeccioso granulomatoso caseoso em atividade (tuberculose), dentre os diagnósticos diferenciais.
+      Nódulos centrolobulares, por vezes assumindo aspecto em "árvore em brotamento", predominando nos lobos superiores e inferior esquerdo. Associam-se opacidades consolidativas e espessamento de paredes brônquicas, por vezes com conteúdo brônquico. Notam-se duas lesões escavadas no pulmão esquerdo, de paredes espessas, uma no lobo superior esquerdo, medindo _ cm, e outra no inferior do pulmão esquerdo, medindo _ cm. O conjunto de achados sugere processo inflamatório/infeccioso granulomatoso caseoso em atividade (tuberculose), dentre os diagnósticos diferenciais.
       Demais achados pormenorizados no corpo do laudo.
     word: true
 
@@ -9623,7 +9548,7 @@ matches:
       Planos musculares íntegros.
       Não há sinais de fratura ou lesões ósseas destrutivas.
       Não se observam massas ou coleções em partes moles adjacentes.
-      Após a administração de contraste endovenoso (não se observou realce patológico/ou observou.....(?).
+      Após a administração de contraste endovenoso, não se observou realce patológico.
 
       Conclusão:
       Estudo tomográfico computadorizado do cotovelo direito/esquerdo sem evidência de anormalidades.
@@ -9759,7 +9684,7 @@ matches:
       Ausência de sinais de fraturas ou lesões ósseas destrutivas.
       Não se observam massa ou coleções em partes moles adjacentes.
 
-      Após a administração de contraste endovenoso não se observou realce patológico/ou observou-se......(?).
+      Após a administração de contraste endovenoso, não se observou realce patológico.
 
       Conclusão:
       Estudo tomográfico computadorizado do pé direito/esquerdo sem evidência de anormalidades.
@@ -9820,7 +9745,7 @@ matches:
       Planos musculares íntegros.
       Não há sinais de fratura ou lesões ósseas destrutivas.
       Não se observam massas ou coleções em partes moles adjacentes.
-      Após a administração de contraste endovenoso não se observou realce patológico/ou observou.....(?).
+      Após a administração de contraste endovenoso, não se observou realce patológico.
 
       Conclusão:
       Estudo tomográfico computadorizado da perna direita/esquerda sem evidência de anormalidades.
@@ -10467,16 +10392,6 @@ matches:
     replace: "Lesões hipodensas nos lobos frontal direito e parietal esquerdo, que podem estar relacionadas a eventos vasculares isquêmicos, de cronicidade indeterminada nesse estudo. Os diagnósticos diferenciais devem ser aplicados. Caso persista a indicação clínica, recomenda-se estudo direcionado através de imagens de ressonância magnética, se possível."
     word: true
 
-  - trigger: "avcrm"
-    label: "AVC isquêmico agudo têmporo-occipital direito (RM)"
-    replace: "Lesões hiperintensas na ponderação T2, corticossubcorticais, com restrição à difusão e correspondência no mapa ADC, localizadas nos lobos temporal e occiptal à direita, com apagamento dos sulcos corticais regionais. A possibilidade de lesões de natureza vascular isquêmica com início recente pode ser considerada dentre os diagnósticos diferenciais."
-    word: true
-
-  - trigger: "avcrm1"
-    label: "AVC isquêmico agudo na ponte (RM)"
-    replace: "Lesão hiperintensa na ponderação T2, com restrição à difusão e correspondência no mapa ADC, localizada na ponte à direita. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada dentre os diagnósticos diferenciais."
-    word: true
-
   - trigger: "avu"
     label: "Aumento volumétrico"
     replace: Aumento volumétrico
@@ -10514,7 +10429,7 @@ matches:
 
   - trigger: "bolasurpresa"
     label: "Lesão indeterminada (template genérico)"
-    replace: "Imagem ovalada com densidade de partes moles, medindo cm, localizada, indeterminada."
+    replace: "Imagem ovalada com densidade de partes moles, medindo _ cm, localizada, indeterminada."
     word: true
 
   - trigger: "borrou"
@@ -11024,12 +10939,12 @@ matches:
 
   - trigger: "fola"
     label: "Formação ovalada hiperdensa"
-    replace: "Formação ovalada hiperdensa, medindo cm no plano axial, localizada"
+    replace: "Formação ovalada hiperdensa, medindo _ cm no plano axial, localizada"
     word: true
 
   - trigger: "fote"
     label: "Formação tecidual de partes moles"
-    replace: "Formação tecidual, com densidade de partes moles, medindo cm, localizada"
+    replace: "Formação tecidual, com densidade de partes moles, medindo _ cm, localizada"
     word: true
 
   - trigger: "fracost1"
@@ -11078,8 +10993,8 @@ matches:
     word: true
 
   - trigger: "hems"
-    label: "Nódulos hiperecogênicos hepáticos"
-    replace: Nódulos hiperecogênicos circunscritos localizados nos segmentos VII ( cm)
+    label: "Nódulos hiperdensos hepáticos"
+    replace: Nódulos hiperdensos circunscritos localizados no segmento VII, medindo _ cm.
     word: true
 
   - trigger: "herniainci"
@@ -11104,7 +11019,7 @@ matches:
 
   - trigger: "hillsachs3"
     label: "Luxação do ombro com Hill-Sachs e Bankart"
-    replace: "Fratura de morfologia cuneiforme no aspecto posterolateral da cabeça umeral, com fragmento ósseo destacado posteriormente, sugerindo lesão de Hill-Sachs. Associa-se luxação anterior e inferior da cabeça umeral, a qual encontra-se impactada no aspecto anterior da glenoide. Nota-se ainda, fragmento ósseo destacado do lábio anterior da glenoide (lesão de Bankart)."
+    replace: "Fratura de morfologia cuneiforme no aspecto posterolateral da cabeça umeral, com fragmento ósseo destacado posteriormente, sugerindo lesão de Hill-Sachs. Associa-se luxação anterior e inferior da cabeça umeral, a qual encontra-se impactada no aspecto anterior da glenoide. Nota-se ainda fragmento ósseo destacado do lábio anterior da glenoide (lesão de Bankart)."
     word: true
 
   - trigger: "hmi"
@@ -11139,7 +11054,7 @@ matches:
 
   - trigger: "humbi"
     label: "Hérnia umbilical (colo e conteúdo gorduroso)"
-    replace: Hérnia umbilical com colo de c cm e conteúdo de gordura.
+    replace: Hérnia umbilical com colo de _ cm e conteúdo de gordura.
     word: true
 
   - trigger: "incid"
@@ -11659,7 +11574,7 @@ matches:
 
   - trigger: "opanod"
     label: "Opacidade consolidativa nodular pulmonar"
-    replace: "Opacidade consolidativa, de configuração nodular, medindo cm, localizada"
+    replace: "Opacidade consolidativa, de configuração nodular, medindo _ cm, localizada"
     word: true
 
   - trigger: "opanop"
@@ -11857,11 +11772,6 @@ matches:
     replace: "Placa parcialmente calcificada, com extensão de _ cm, localizada na origem da artéria carótida interna esquerda, promovendo quase oclusão da mesma, com fluxo filiforme à montante."
     word: true
 
-  - trigger: "quemia"
-    label: "Isquemia bulbar recente (RM)"
-    replace: "Lesão hiperintensa na ponderação T2, com restrição à difusão e correspondência no mapa ADC, localizada na porção lateral direita do bulbo, compatível com área de isquemia recente."
-    word: true
-
   - trigger: "radi1"
     label: "Impressão radicular direita"
     replace: com impressão radicular direita.
@@ -11981,16 +11891,6 @@ matches:
     replace: "Material hiperdenso no globo ocular direito, de provável natureza hemática (hemorragia intraocular)."
     word: true
 
-  - trigger: "sbranco"
-    label: "Depósito de hemossiderina/calcificação (SWI)"
-    replace: "Pequena imagem de hipersinal na sequência S.W.I. sugerindo depósito de hemossiderina ou calcificação, localizada no"
-    word: true
-
-  - trigger: "sbrancos"
-    label: "Depósitos de hemossiderina/calcificações (SWI)"
-    replace: "Pequenas imagens de hipersinal na sequência S.W.I. sugerindo depósitos de hemossiderina ou calcificações, localizadas no"
-    word: true
-
   - trigger: "semais"
     label: "Ausência de fraturas pós-traumáticas"
     replace: Exame sem alterações pós-traumáticas significativas (ausência de fraturas).
@@ -12061,16 +11961,6 @@ matches:
     replace: Solução de continuidade de partes moles
     word: true
 
-  - trigger: "spreto"
-    label: "Calcificação (hipossinal SWI)"
-    replace: "Pequena imagem de hipossinal na sequência S.W.I. sugerindo representar calcificação, localizada no"
-    word: true
-
-  - trigger: "spretos"
-    label: "Calcificações (hipossinal SWI)"
-    replace: "Pequenas imagens de hipossinal na sequência S.W.I. sugerindo calcificações, localizadas no"
-    word: true
-
   - trigger: "subcu"
     label: "Enfisema subcutâneo"
     replace: Associa-se enfisema subcutâneo.
@@ -12089,11 +11979,6 @@ matches:
   - trigger: "supi"
     label: "Superior e inferior C/C (fragmento)"
     replace: SUPERIOR E INFERIOR C/C
-    word: true
-
-  - trigger: "swi1"
-    label: "Calcificação no núcleo caudado (SWI)"
-    replace: "Foco hipointenso na sequência S.W.I. localizado na cabeça do núcleo caudado à direita, sugerindo representar calcificação."
     word: true
 
   - trigger: "tc14"
@@ -12163,7 +12048,7 @@ matches:
 
   - trigger: "tcfogging"
     label: "AVC isquêmico com fenômeno de fogging"
-    replace: Hiperdensidades corticais em parte das lesões hipodensas, corticosubcorticais, localizadas _, com apagamento dos sulcos corticais regionais. As possibilidades de lesão de natureza vascular isquêmica com pseudonormalização da densidade do parênquima (fenômeno "fogging") ou áreas de transformação hemorrágica podem ser consideradas. Os diagnósticos diferenciais devem ser aplicados.
+    replace: Hiperdensidades corticais em parte das lesões hipodensas, corticossubcorticais, localizadas _, com apagamento dos sulcos corticais regionais. As possibilidades de lesão de natureza vascular isquêmica com pseudonormalização da densidade do parênquima (fenômeno "fogging") ou áreas de transformação hemorrágica podem ser consideradas. Os diagnósticos diferenciais devem ser aplicados.
     word: true
 
   - trigger: "tcgas"
@@ -12203,7 +12088,7 @@ matches:
 
   - trigger: "tcmetacerebral1"
     label: "Lesões cerebrais múltiplas — metástases vs infeccioso"
-    replace: "Lesões hipodensas, de limites mal definidos, localizadas nos hemisférios cerebrais, com apagamento dos sulcos corticais regionais. Nota-se ainda, lesão de aspecto lítico no osso frontal direito. Embora os achados sejam inespecíficos, admitem-se as possibilidades de metástases (diante do contexto clínico) ou, de forma mais remota, processo inflamatório/infeccioso. Outros diagnósticos diferenciais devem ser aplicados. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos."
+    replace: "Lesões hipodensas, de limites mal definidos, localizadas nos hemisférios cerebrais, com apagamento dos sulcos corticais regionais. Nota-se ainda lesão de aspecto lítico no osso frontal direito. Embora os achados sejam inespecíficos, admitem-se as possibilidades de metástases (diante do contexto clínico) ou, de forma mais remota, processo inflamatório/infeccioso. Outros diagnósticos diferenciais devem ser aplicados. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos."
     word: true
 
   - trigger: "tcmieloma"
@@ -12355,7 +12240,7 @@ matches:
 
   - trigger: "ximor1"
     label: "Nódulo de Schmorl"
-    replace: Nódulo de Schmorl em .
+    replace: Nódulo de Schmorl em _.
     word: true
 
   - trigger: "acriterio"
@@ -12375,12 +12260,12 @@ matches:
 
   - trigger: "avci"
     label: "AVC isquêmico recente (template)"
-    replace: "Lesões hipodensas, corticosubcorticais, localizadas _, com apagamento dos sulcos corticais regionais. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
+    replace: "Lesões hipodensas, corticossubcorticais, localizadas _, com apagamento dos sulcos corticais regionais. A possibilidade de lesão de natureza vascular isquêmica com início recente pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
     word: true
 
   - trigger: "avciop"
     label: "AVC isquêmico em território arterial (template)"
-    replace: "Lesões hipodensas cortico-subcorticais, localizadas no _ à _ com apagamento dos sulcos corticais regionais. A possibilidade de evento vascular isquêmico em parte do território irrigado pela artéria _ deve ser considerada."
+    replace: "Lesões hipodensas corticossubcorticais, localizadas no _ à _ com apagamento dos sulcos corticais regionais. A possibilidade de evento vascular isquêmico em parte do território irrigado pela artéria _ deve ser considerada."
     word: true
 
   - trigger: "bca"
@@ -12405,7 +12290,7 @@ matches:
 
   - trigger: "cistosimples"
     label: "Cisto simples"
-    replace: "Imagem ovalada anecoica, sem ecos ou septos internos,"
+    replace: "Imagem ovalada com densidade líquida (hipodensa), sem septos ou componentes sólidos internos,"
     word: true
 
   - trigger: "cistpolis"
@@ -12555,7 +12440,7 @@ matches:
 
   - trigger: "opacdec"
     label: "Opacidades em vidro fosco por decúbito"
-    replace: "Tênues opacidades em vidro fosco nos segmentos posteriores do pulmão....., provavelmente atribuíveis ao decúbito."
+    replace: "Tênues opacidades em vidro fosco nos campos pulmonares posteriores, provavelmente atribuíveis ao decúbito."
     word: true
 
   - trigger: "proem"
