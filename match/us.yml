@@ -1987,6 +1987,16 @@ matches:
     replace: Microcistos agrupados na mama _.
     word: true
 
+  - trigger: "ma6"
+    label: "Mama: Microcistos agrupados bilaterais (achado descritivo)"
+    replace: Microcistos agrupados em ambas as mamas, o maior conjunto localizado às _ horas da mama _, medindo _ cm.
+    word: true
+
+  - trigger: "ma6c"
+    label: "Mama: Microcistos agrupados bilaterais"
+    replace: Microcistos agrupados em ambas as mamas.
+    word: true
+
   # ==============================================================================
   # MÚSCULO-ESQUELÉTICO
   # ==============================================================================
