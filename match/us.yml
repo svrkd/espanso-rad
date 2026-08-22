@@ -1977,6 +1977,16 @@ matches:
     replace: Nódulos na mama [direita/esquerda] com as características acima descritas.
     word: true
 
+  - trigger: "ma5"
+    label: "Mama: Microcistos agrupados (achado descritivo)"
+    replace: Microcistos agrupados localizados às _ horas da mama _, medindo em seu conjunto _ cm, distando aproximadamente _ cm da papila e _ cm da pele.
+    word: true
+
+  - trigger: "ma5c"
+    label: "Mama: Microcistos agrupados"
+    replace: Microcistos agrupados na mama _.
+    word: true
+
   # ==============================================================================
   # MÚSCULO-ESQUELÉTICO
   # ==============================================================================
