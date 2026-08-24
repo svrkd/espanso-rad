@@ -529,3 +529,10 @@ matches:
     label: "Sugestão de RM multiparamétrica de próstata"
     replace: "Nota: para pesquisa de neoplasia primária da próstata ou recidiva tumoral, a ressonância magnética do abdome inferior com protocolo adequado (multiparamétrica) poderá fornecer maiores subsídios diagnósticos."
     word: true
+
+  # substituído por "rmbanda" em rm.yml
+
+  - trigger: "banda"
+    label: "Síndrome do trato iliotibial"
+    replace: "Hipersinal na ponderação T2 envolvendo os planos gordurosos entre a banda iliotibial e o côndilo femoral lateral, associado a mínimo fluido líquido nesta região, sem espessamento significativo da banda iliotibial, compatível com atrito local."
+    word: true
