@@ -352,6 +352,12 @@ CORRECOES = [
     ("desmóide", "desmoide", "acentuação (Acordo Ortográfico)"),
     ("xifóide", "xifoide", "acentuação (Acordo Ortográfico)"),
     ("estilóide", "estiloide", "acentuação (Acordo Ortográfico)"),
+    # composto sem hífen: "escafóide" some dentro de "rádioescafóide" para a
+    # regra de palavra inteira acima, então precisa de literal próprio. O
+    # label da mesma entrada já grafava "radioescafoide" (sem acento também
+    # no prefixo "radio-", como em radiocarpal/radioulnar já usados no
+    # arquivo) — o replace ficou atrás e alinha aqui.
+    ("rádioescafóide", "radioescafoide", "acentuação (Acordo Ortográfico)"),
 ]
 
 # Anotações que a autora deixou coladas na frase e que NÃO entram no texto do
