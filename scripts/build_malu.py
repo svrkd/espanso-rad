@@ -293,14 +293,23 @@ CORRECOES = [
      "palavra reconstruída: pedaço de outra frase colado no meio dela"),
 ]
 
-# Anotações que a autora deixou coladas na frase e que NÃO são conteúdo do
+# Anotações que a autora deixou coladas na frase e que NÃO entram no texto do
 # laudo: nome de quem passou o caso, dado do paciente, lembrete de técnica,
-# marca de origem do caso. Só entram aqui alternativas que de fato casam —
-# anotação CLÍNICA (pincer, indício de pince, quase madelung, osgood) fica no
-# texto, porque é achado da autora e sair dali seria mexer no conteúdo.
+# marca de origem do caso. Só entram aqui alternativas que de fato casam.
+#
+# As quatro últimas alternativas são anotação clínica da autora (pincer,
+# indício de pince, quase madelung, osgood) — antes ficavam no texto, por serem
+# achado dela; saem a pedido do dono do repositório, porque são rótulo de
+# raciocínio, não frase de laudo. A alternativa casa só quando ocupa o
+# parêntese inteiro, então "(sequela de Osgood-Schlatter)" continua intacto.
+# As variantes de grafia do caderno (pince/pincer, indicio sem acento,
+# madelung sem o "quase") entram na própria alternativa: sem a fonte aqui não
+# dá para saber qual grafia ela usou, e alternativa que não dispara passa
+# despercebida — o guarda de "regra sem uso" cobre CORRECOES, não AUTOR_TAGS.
 AUTOR_TAGS = re.compile(
     r"\s*[（(]\s*(?:yamada|yamda|tati|jan|guinel|neto|ikawa|bruno|samir|"
-    r"pcte 9 anos|tele|so ve no t1 sem fat)\s*[)）]",
+    r"pcte 9 anos|tele|so ve no t1 sem fat|"
+    r"pincer?|osgood|(?:quase\s+)?madelung|ind[íi]cio\s+de\s+pincer?)\s*[)）]",
     re.IGNORECASE,
 )
 
@@ -929,9 +938,9 @@ def main():
             "-" * 60,
             "",
             "Marginália que não é conteúdo do laudo: nome de quem passou o caso, dado do",
-            "paciente, lembrete de técnica, marca de origem. Anotação CLÍNICA da autora",
-            "— (pincer), (indício de pince), (quase madelung), (osgood) — NÃO é removida:",
-            "fica no texto, porque é achado dela.",
+            "paciente, lembrete de técnica, marca de origem. Também sai a anotação clínica",
+            "da autora — (pincer), (indício de pince), (quase madelung), (osgood) —, a",
+            "pedido do dono do repositório: é rótulo de raciocínio, não frase de laudo.",
             "",
         ]
         for (rotulo, _), n in sorted(anot.items()):
