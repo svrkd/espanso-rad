@@ -2096,7 +2096,7 @@ matches:
 
   - trigger: "varianteulnar1"
     label: "Variação ulnar positiva com hipoplasia da epífise do rádio"
-    replace: "Variação ulnar positiva e hipoplasia da porção medial da epífise do rádio, notando-se insinuação do semilunar nesta região, de aspecto congênito. ( quase madelung)"
+    replace: "Variação ulnar positiva e hipoplasia da porção medial da epífise do rádio, notando-se insinuação do semilunar nesta região, de aspecto congênito."
     word: true
 
   - trigger: "varianteulnar2"
@@ -3278,7 +3278,7 @@ matches:
 
   - trigger: "pincer1"
     label: "Acetábulo profundo com ampla cobertura da cabeça femoral"
-    replace: "Acetábulo profundo com ampla cobertura da cabeça femoral.( pincer)"
+    replace: "Acetábulo profundo com ampla cobertura da cabeça femoral."
     word: true
 
   - trigger: "hipertrofnl1"
@@ -3358,7 +3358,7 @@ matches:
 
   - trigger: "labroacet3"
     label: "Ossificação na base do lábio póstero-superior"
-    replace: "Lábio acetabular com alterações degenerativas com pequena ossificação na base do segmento póstero superior com tênue edema ósseo no rebordo acetabular subjacente. ( indício de pince)"
+    replace: "Lábio acetabular com alterações degenerativas com pequena ossificação na base do segmento póstero superior com tênue edema ósseo no rebordo acetabular subjacente."
     word: true
 
   - trigger: "ligredondo1"
@@ -4227,11 +4227,11 @@ matches:
       Proeminência da transição cabeça/colo femoral, com alteração cística subcortical na região anterior
       Perda do acinturamento habitual da transição cabeça/colo femoral bilateral sem proeminências ósseas significativas.
       Proeminência óssea na região ântero superior da transição cabeça/colo femoral bilateral, que pode predispor a impacto femoroacetabular tipo CAME.
-      Acetábulo profundo com ampla cobertura da cabeça femoral.( pincer)
+      Acetábulo profundo com ampla cobertura da cabeça femoral.
       Lábio acetabular com morfologia e sinal dentro da normalidade.
       Alteração degenerativa do lábio acetabular ântero-superior, sem roturas.
       Alteração degenerativa do lábio acetabular, com rotura junto da base do segmento ântero-superior.
-      Lábio acetabular com alterações degenerativas com pequena ossificação na base do segmento póstero superior com tênue edema ósseo no rebordo acetabular subjacente. ( indício de pince)
+      Lábio acetabular com alterações degenerativas com pequena ossificação na base do segmento póstero superior com tênue edema ósseo no rebordo acetabular subjacente.
       Ligamentos intrínsecos e extrínsecos do quadril sem anormalidades.
       Indefinição do ligamento redondo na cabeça femoral, por rotura crônica ou constitucional.
       Leve afilamento degenerativo do ligamento redondo da cabeça femoral junto da fóvea, com pequenos osteófitos centrais.
@@ -5763,7 +5763,7 @@ matches:
 
   - trigger: "osgood1"
     label: "Sequela de Osgood-Schlatter — osteo-hipertrofia da tuberosidade"
-    replace: "Osteo-hipertrofia na tuberosidade anterior da tíbia, na inserção distal do ligamento patelar, de aspecto sequelar crônico, sem edema ou fragmentação.( osgood)"
+    replace: "Osteo-hipertrofia na tuberosidade anterior da tíbia, na inserção distal do ligamento patelar, de aspecto sequelar crônico, sem edema ou fragmentação."
     word: true
 
   - trigger: "osgood2"
