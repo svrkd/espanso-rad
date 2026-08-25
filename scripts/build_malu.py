@@ -325,6 +325,20 @@ CORRECOES = [
     ("glenóide", "glenoide", "acentuação"),
     ("fibula", "fíbula", "acentuação"),
     ("troclea", "tróclea", "acentuação"),
+    # segunda leva da mesma revisão: a varredura de "colocação pronominal"
+    # tinha parado no literal "que apresenta(m)-se" e deixado de fora os
+    # demais atratores, e três erros objetivos vizinhos vieram junto.
+    ("não podendo-se", "não se podendo",
+     "colocação pronominal: próclise após o atrator"),
+    ("onde associa-se", "onde se associa",
+     "colocação pronominal: próclise após o relativo"),
+    ("onde nota-se", "onde se nota",
+     "colocação pronominal: próclise após o relativo"),
+    ("Associa-se ainda, derrame", "Associa-se ainda derrame",
+     "vírgula entre verbo e sujeito"),
+    ("signifcativa", "significativa", "typo"),
+    ("tomografico", "tomográfico", "acentuação"),
+    ("dissociação entres os fragmentos", "dissociação entre os fragmentos", "typo"),
 ]
 
 # Anotações que a autora deixou coladas na frase e que NÃO entram no texto do
