@@ -339,6 +339,19 @@ CORRECOES = [
     ("signifcativa", "significativa", "typo"),
     ("tomografico", "tomográfico", "acentuação"),
     ("dissociação entres os fragmentos", "dissociação entre os fragmentos", "typo"),
+    # terceira leva: a família "-óide" perdeu o acento agudo no Acordo
+    # Ortográfico (mesma classe de glenóide->glenoide, já corrigida acima).
+    # "Sesamóide" só ocorre capitalizada no caderno (início de frase); as
+    # outras sete só ocorrem minúsculas — cada uma é literal de palavra
+    # inteira e não toca as formas já corretas nem qualquer palavra vizinha.
+    ("deltóide", "deltoide", "acentuação (Acordo Ortográfico)"),
+    ("subdeltóidea", "subdeltoidea", "acentuação (Acordo Ortográfico)"),
+    ("escafóide", "escafoide", "acentuação (Acordo Ortográfico)"),
+    ("Sesamóide", "Sesamoide", "acentuação (Acordo Ortográfico)"),
+    ("discóide", "discoide", "acentuação (Acordo Ortográfico)"),
+    ("desmóide", "desmoide", "acentuação (Acordo Ortográfico)"),
+    ("xifóide", "xifoide", "acentuação (Acordo Ortográfico)"),
+    ("estilóide", "estiloide", "acentuação (Acordo Ortográfico)"),
 ]
 
 # Anotações que a autora deixou coladas na frase e que NÃO entram no texto do
