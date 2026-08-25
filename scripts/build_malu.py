@@ -302,10 +302,14 @@ CORRECOES = [
 # achado dela; saem a pedido do dono do repositório, porque são rótulo de
 # raciocínio, não frase de laudo. A alternativa casa só quando ocupa o
 # parêntese inteiro, então "(sequela de Osgood-Schlatter)" continua intacto.
+# As variantes de grafia do caderno (pince/pincer, indicio sem acento,
+# madelung sem o "quase") entram na própria alternativa: sem a fonte aqui não
+# dá para saber qual grafia ela usou, e alternativa que não dispara passa
+# despercebida — o guarda de "regra sem uso" cobre CORRECOES, não AUTOR_TAGS.
 AUTOR_TAGS = re.compile(
     r"\s*[（(]\s*(?:yamada|yamda|tati|jan|guinel|neto|ikawa|bruno|samir|"
     r"pcte 9 anos|tele|so ve no t1 sem fat|"
-    r"pincer|osgood|quase madelung|indício de pince)\s*[)）]",
+    r"pincer?|osgood|(?:quase\s+)?madelung|ind[íi]cio\s+de\s+pincer?)\s*[)）]",
     re.IGNORECASE,
 )
 
