@@ -291,6 +291,40 @@ CORRECOES = [
     ("estudo do mediopé evidência", "estudo do mediopé evidencia", "verbo x substantivo"),
     ("devido a baixa fratura do cosensibilidade", "devido a baixa sensibilidade",
      "palavra reconstruída: pedaço de outra frase colado no meio dela"),
+    # --- revisão de português pedida pelo dono do repositório a partir do
+    # supra1 ("Tendinopatia ... apresentam"), estendida às demais ocorrências
+    # do mesmo erro. Ficam no fim da lista de propósito: as regras 'próximo a
+    # raiz' e 'próximo a inserção' dependem de 'raíz'->'raiz' e
+    # 'inserçao'->'inserção', que são regras de palavra e rodam acima.
+    ("Tendinopatia do supra e infraespinhais apresentam leve espessamento e "
+     "alteração de sinal com",
+     "Tendinopatia do supraespinhal e do infraespinhal, caracterizada por leve "
+     "espessamento e alteração de sinal, com",
+     "concordância verbal: o sujeito é singular"),
+    ("com retração de cerca 0,4 cm", "com retração de cerca de 0,4 cm",
+     "preposição faltante"),
+    ("Fissuras intra-substanciais próximo à", "Fissuras intrassubstanciais próximas à",
+     "concordância nominal e grafia"),
+    ("a patela encontram-se lateralizada", "a patela encontra-se lateralizada",
+     "concordância verbal"),
+    ("a patela apresentam-se centrada", "a patela apresenta-se centrada",
+     "concordância verbal"),
+    ("que apresentam-se", "que se apresentam",
+     "colocação pronominal: próclise após o relativo"),
+    ("que apresenta-se", "que se apresenta",
+     "colocação pronominal: próclise após o relativo"),
+    ("próximo a fratura", "próximo à fratura", "crase"),
+    ("próximo a cabeça", "próximo à cabeça", "crase"),
+    ("próximo a raiz", "próximo à raiz", "crase"),
+    ("próximo a inserção", "próximo à inserção", "crase"),
+    # a forma majoritária no caderno é "intrassubstancial" (66 ocorrências)
+    ("intra-substanciais junto", "intrassubstanciais junto", "grafia"),
+    ("sinal intra substancial", "sinal intrassubstancial", "grafia"),
+    ("sinal intra-substancial,", "sinal intrassubstancial,", "grafia"),
+    # palavra inteira: não tocam glenoidal, fibular/talofibular, troclear
+    ("glenóide", "glenoide", "acentuação"),
+    ("fibula", "fíbula", "acentuação"),
+    ("troclea", "tróclea", "acentuação"),
 ]
 
 # Anotações que a autora deixou coladas na frase e que NÃO entram no texto do

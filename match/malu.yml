@@ -6,7 +6,7 @@ matches:
 
   - trigger: "supra1"
     label: "Tendinopatia do supra e infraespinhal com rotura focal insercional"
-    replace: "Tendinopatia do supra e infraespinhais apresentam leve espessamento e alteração de sinal com pequena rotura focal junto à inserção das fibras do contorno articular na transição de ambos os tendões, com retração de cerca 0,4 cm, comprometendo cerca de 50% da espessura dos tendões nesta topografia, sem lesões transfixantes. Fissuras intra-substanciais próximo à transição miotendínea do infraespinhal, também sem lesões transfixantes."
+    replace: "Tendinopatia do supraespinhal e do infraespinhal, caracterizada por leve espessamento e alteração de sinal, com pequena rotura focal junto à inserção das fibras do contorno articular na transição de ambos os tendões, com retração de cerca de 0,4 cm, comprometendo cerca de 50% da espessura dos tendões nesta topografia, sem lesões transfixantes. Fissuras intrassubstanciais próximas à transição miotendínea do infraespinhal, também sem lesões transfixantes."
     word: true
 
   - trigger: "supra2"
@@ -306,7 +306,7 @@ matches:
 
   - trigger: "luxac1"
     label: "Luxação acromioclavicular recente"
-    replace: "Sinais de evento recente de luxação acromioclavicular, caracterizada por edema pós-contusional na clavícula distal, com estiramento e rotura extensa dos planos capsuloligamentares acromioclaviculares, que apresentam-se irregulares e espessados, com intenso edema dos planos circunjacentes. Associa-se ainda, derrame articular acromioclavicular, com sinais de sinovite."
+    replace: "Sinais de evento recente de luxação acromioclavicular, caracterizada por edema pós-contusional na clavícula distal, com estiramento e rotura extensa dos planos capsuloligamentares acromioclaviculares, que se apresentam irregulares e espessados, com intenso edema dos planos circunjacentes. Associa-se ainda, derrame articular acromioclavicular, com sinais de sinovite."
     word: true
 
   - trigger: "luxac2"
@@ -361,7 +361,7 @@ matches:
 
   - trigger: "migrasup1"
     label: "Migração superior da cabeça umeral"
-    replace: "Migração superior da cabeça umeral em relação à glenóide, notando-se redução do espaço subacromial."
+    replace: "Migração superior da cabeça umeral em relação à glenoide, notando-se redução do espaço subacromial."
     word: true
 
   - trigger: "migrasup2"
@@ -381,12 +381,12 @@ matches:
 
   - trigger: "labroglen3"
     label: "Alteração degenerativa do lábio com redução volumétrica anterior"
-    replace: "Alteração degenerativa do lábio da glenóide, com redução volumétrica do segmento anterior, sem destacamentos."
+    replace: "Alteração degenerativa do lábio da glenoide, com redução volumétrica do segmento anterior, sem destacamentos."
     word: true
 
   - trigger: "labroglen4"
     label: "Lesão de Bankart crônica e complexo de Buford"
-    replace: "Lábio da glenóide com alteração de sinal e borramento dos contornos na região anteroinferior, sugerindo lesão de Bankart crônica com alterações degenerativas associadas. Hipoplasia do lábio anterossuperior e hipertrofia do ligamento glenoumeral médio (complexo de Buford - variante da normalidade)."
+    replace: "Lábio da glenoide com alteração de sinal e borramento dos contornos na região anteroinferior, sugerindo lesão de Bankart crônica com alterações degenerativas associadas. Hipoplasia do lábio anterossuperior e hipertrofia do ligamento glenoumeral médio (complexo de Buford - variante da normalidade)."
     word: true
 
   - trigger: "labroglen5"
@@ -406,7 +406,7 @@ matches:
 
   - trigger: "labroglen8"
     label: "Rotura do lábio posterior com avulsão capsuloperiosteal"
-    replace: "Rotura na base do lábio glenoidal posterior e póstero-inferior com sinais de avulsão capsuloperiosteal posterior, com edema periosteal e mínimo edema ósseo na borda posterior da glenóide, sem fragmento cortical destacado evidente. A rotura do lábio posterior se estende para a base do lábio superior com tênue fissura incompleta."
+    replace: "Rotura na base do lábio glenoidal posterior e póstero-inferior com sinais de avulsão capsuloperiosteal posterior, com edema periosteal e mínimo edema ósseo na borda posterior da glenoide, sem fragmento cortical destacado evidente. A rotura do lábio posterior se estende para a base do lábio superior com tênue fissura incompleta."
     word: true
 
   - trigger: "labroglen9"
@@ -436,7 +436,7 @@ matches:
 
   - trigger: "condralglen3"
     label: "Afilamento condral do rebordo posterior da glenoide"
-    replace: "Destaca-se ainda afilamento condral no rebordo posterior da glenóide próximo à área de impactação descrita."
+    replace: "Destaca-se ainda afilamento condral no rebordo posterior da glenoide próximo à área de impactação descrita."
     word: true
 
   - trigger: "condralglen4"
@@ -654,17 +654,17 @@ matches:
 
   - trigger: "bankart2"
     label: "Fratura da margem ântero-inferior da glenoide com perda de 20%"
-    replace: "Fratura da margem ântero inferior da glenóide com fragmento ósseo de 1,8 cm, com perda da área de superfície articular estimada em cerca de 20%."
+    replace: "Fratura da margem ântero inferior da glenoide com fragmento ósseo de 1,8 cm, com perda da área de superfície articular estimada em cerca de 20%."
     word: true
 
   - trigger: "bankart3"
     label: "Fratura da glenoide ântero-inferior com destacamento labral"
-    replace: "Fratura da margem ântero inferior da glenóide com fragmento ósseo laminar de 1,9 cm, com perda da área de superfície articular estimada em cerca de 20%. Nota-se ainda rotura com destacamento do lábio glenoidal ântero-inferior, estendendo-se por todo o lábio anterior, junto ao fragmento ósseo destacado descrito."
+    replace: "Fratura da margem ântero inferior da glenoide com fragmento ósseo laminar de 1,9 cm, com perda da área de superfície articular estimada em cerca de 20%. Nota-se ainda rotura com destacamento do lábio glenoidal ântero-inferior, estendendo-se por todo o lábio anterior, junto ao fragmento ósseo destacado descrito."
     word: true
 
   - trigger: "bankartrev1"
     label: "Bankart reverso — impactação da margem posterior da glenoide"
-    replace: "Sinais de impactação óssea na margem posterior da glenóide com irregularidade cortical e tênue edema da medular óssea adjacente, sem perda signifcativa da superfície articular, compatível com lesão de Bankart reverso. Não se caracterizam fragmentos ósseos destacados bem definidos, sendo conveniente a correlação com estudo radiográfico / tomografico."
+    replace: "Sinais de impactação óssea na margem posterior da glenoide com irregularidade cortical e tênue edema da medular óssea adjacente, sem perda signifcativa da superfície articular, compatível com lesão de Bankart reverso. Não se caracterizam fragmentos ósseos destacados bem definidos, sendo conveniente a correlação com estudo radiográfico / tomografico."
     word: true
 
   - trigger: "luxinvet1"
@@ -858,8 +858,8 @@ matches:
       Lábio da glenoide com morfologia e sinal dentro da normalidade.
       Alteração degenerativa do lábio glenoidal, nas porções superior e anterossuperior, sem destacamentos/, com rotura junto à base do segmento anterossuperior.
       Alteração degenerativa do lábio glenoidal, com irregularidade junto a base do segmento superior, sem destacamentos.
-      Alteração degenerativa do lábio da glenóide, com redução volumétrica do segmento anterior, sem destacamentos.
-      Lábio da glenóide com alteração de sinal e borramento dos contornos na região anteroinferior, sugerindo lesão de Bankart crônica com alterações degenerativas associadas. Hipoplasia do lábio anterossuperior e hipertrofia do ligamento glenoumeral médio (complexo de Buford - variante da normalidade).
+      Alteração degenerativa do lábio da glenoide, com redução volumétrica do segmento anterior, sem destacamentos.
+      Lábio da glenoide com alteração de sinal e borramento dos contornos na região anteroinferior, sugerindo lesão de Bankart crônica com alterações degenerativas associadas. Hipoplasia do lábio anterossuperior e hipertrofia do ligamento glenoumeral médio (complexo de Buford - variante da normalidade).
       Leve espessamento crônico capsuloligamentar glenoumeral, alterações inflamatórias pericapsulares.
       Leve edema e espessamento capsuloligamentar glenoumeral, sem roturas, podendo estar relacionado a estiramento pós-traumático.
       Espessamento capsuloligamentar glenoumeral de forma difusa, com obliteração e edema dos planos pericapsulares, mais evidente no recesso axilar, compatível com capsulite.
@@ -888,7 +888,7 @@ matches:
       Artrose acromioclavicular com afilamento condral, reação osteofitária marginal, espessamento cápsulo-ligamentar e edema do osso medular subcondral de ambos componentes. Associa-se esporão ósseo subacromial.
       Alterações císticas subcorticais na tuberosidade maior umeral por entesopatia mecânica/degenerativa.
       Alterações fibrocísticas na cabeça umeral.
-      Migração superior da cabeça umeral em relação à glenóide, notando-se redução do espaço subacromial.
+      Migração superior da cabeça umeral em relação à glenoide, notando-se redução do espaço subacromial.
       Elevação da cabeça umeral em relação a glenoide determinando redução do espaço subacromial, observando-se neoarticulação da cabeça umeral com a margem inferior do acrômio onde se observa extensas áreas de remodelação das corticais ósseas com focos de edema ósseo e alterações fibrocísticas subcondrais.
       Demais/Estruturas ósseas sem anormalidades significativas.
       Rotura transfixante completa em toda a extensão dos tendões do supraespinhal e infraespinhal, com tendinopatia dos cotos tendíneos e retração em cerca de 3,6 cm. Leve atrofia e lipossubstituição dos ventres musculares do supra e infraespinhal, predominado no supraespinhal (grau II de Goutallier). Nota-se leve edema na transição miotendínea de ambos os músculos, sugerindo componente de estiramento pós-traumático.
@@ -927,7 +927,7 @@ matches:
       Análise:
       Pequeno foco de impactação óssea posterossuperolateral na cabeça umeral, compatível com pequeno Hill-Sachs que mede até cerca de 1,2 x 1,0 cm, com profundidade menor que 0,3 cm, com edema da medular óssea, sem fragmento destacado.
       Sequela de fratura/impactação do rebordo póstero-superior da cabeça umeral (sequela de lesão de Hill-Sachs), medindo cerca de 2,4 x 1,7 cm (transversal x longitudinal), com afundamento de 0,3 cm.
-      Fratura da margem ântero inferior da glenóide com fragmento ósseo de 1,8 cm, com perda da área de superfície articular estimada em cerca de 20%.
+      Fratura da margem ântero inferior da glenoide com fragmento ósseo de 1,8 cm, com perda da área de superfície articular estimada em cerca de 20%.
       Glenoid track = 21,8 mm
       Intervalo Hill-Sachs = 31,0 mm
       Lesão com padrão on/ off-track
@@ -964,10 +964,10 @@ matches:
       Luxação inveterada posterior glenoumeral.
       Intenso edema ósseo com impactação ântero-superior medial da cabeça umeral, medindo até 1,4 x 1,0 cm com profundidade de 0,3 cm, compatível com Hill-Sachs reverso.
       Sinais de impactação óssea na margem anterio-medial da cabeça umeral medindo cerca de 1,8 x 1,2 cm com afundamento de 0,4 cm com tênue edema da medular óssea adjacente, compatível com sequela de lesão de Hill-Sachs reverso.
-      Sinais de impactação óssea na margem posterior da glenóide com irregularidade cortical e tênue edema da medular óssea adjacente, sem perda signifcativa da superfície articular, compatível com lesão de Bankart reverso. Não se caracterizam fragmentos ósseos destacados bem definidos, sendo conveniente a correlação com estudo radiográfico / tomografico.
+      Sinais de impactação óssea na margem posterior da glenoide com irregularidade cortical e tênue edema da medular óssea adjacente, sem perda signifcativa da superfície articular, compatível com lesão de Bankart reverso. Não se caracterizam fragmentos ósseos destacados bem definidos, sendo conveniente a correlação com estudo radiográfico / tomografico.
       Associa-se ainda sinais alteração fibrocicatricial do lábio glenoidal nos segmentos posteriores, com rotura junto à base do segmento posterior e póstero inferior.
-      Destaca-se ainda afilamento condral no rebordo posterior da glenóide próximo à área de impactação descrita.
-      Rotura na base do lábio glenoidal posterior e póstero-inferior com sinais de avulsão capsuloperiosteal posterior, com edema periosteal e mínimo edema ósseo na borda posterior da glenóide, sem fragmento cortical destacado evidente. A rotura do lábio posterior se estende para a base do lábio superior com tênue fissura incompleta.
+      Destaca-se ainda afilamento condral no rebordo posterior da glenoide próximo à área de impactação descrita.
+      Rotura na base do lábio glenoidal posterior e póstero-inferior com sinais de avulsão capsuloperiosteal posterior, com edema periosteal e mínimo edema ósseo na borda posterior da glenoide, sem fragmento cortical destacado evidente. A rotura do lábio posterior se estende para a base do lábio superior com tênue fissura incompleta.
       Associa-se ainda alteração fibrocicatricial com fissura na base do lábio glenoidal ântero-inferior.
       Pequeno derrame articular glenoumeral com focos de espessamento sinovial e componente hemático intra-articular. Destaca-se ainda pequena distensão líquida com focos hemáticos/sinoviais na bainha extra-articular do cabo longo do bíceps.
       Afilamento e irregularidade condral no bordo anterior da cabeça umeral junto da área de contusão óssea acima descrita.
@@ -1032,7 +1032,7 @@ matches:
       Alterações degenerativas da articulação acrômio-clavicular. Articulação glenoumeral sem alterações.
       Tendões do manguito rotador e do bíceps (cabeça longa) com espessura e intensidade de sinal preservados.
       Lábio da glenoide normoposicionado, com morfologia e sinal preservados. Complexo bíceps-labral de aspecto preservado.
-      Lábio da glenóide normoposicionado, porém de contornos irregulares e com intensidade de sinal heterogênea, notadamente nas porções superior e anterossuperior, de aspecto degenerativo. Complexo bíceps-labral heterogêneo.
+      Lábio da glenoide normoposicionado, porém de contornos irregulares e com intensidade de sinal heterogênea, notadamente nas porções superior e anterossuperior, de aspecto degenerativo. Complexo bíceps-labral heterogêneo.
       Intervalo do manguito rotador sem alterações.
       Musculatura da cintura escapular de dimensões e intensidade de sinal normal.
       Líquido livre intra-articular em quantidade fisiológica. Ausência de líquido em bursas peri-articulares. Discreta distensão líquida da bursa subacromial-subdeltóidea.
@@ -1049,7 +1049,7 @@ matches:
 
       Relatório:
       Deformidade com impactação óssea na região posterossuperior da cabeça umeral, medindo cerca de _ mm com afundamento estimado em _ mm. Nota-se padrão de edema e alterações fibrocísticas na medular óssea regional
-      Lábio fibrocartilaginoso da glenóide irregular e heterogêneo, apresentando avulsão extensa, envolvendo toda a margem anterior, aproximadamente entre 1 hora e 6 horas. Notam-se ainda sinais de espessamento e elevação do periósteo anteroinferior da glenóide, além de padrão de edema pericapsular. Não há perda óssea significativa na glenóide.
+      Lábio fibrocartilaginoso da glenoide irregular e heterogêneo, apresentando avulsão extensa, envolvendo toda a margem anterior, aproximadamente entre 1 hora e 6 horas. Notam-se ainda sinais de espessamento e elevação do periósteo anteroinferior da glenoide, além de padrão de edema pericapsular. Não há perda óssea significativa na glenoide.
       Articulação glenoumeral e acromioclavicular sem alterações.
       Tendões do manguito rotador e do bíceps (cabeça longa) com espessura e intensidade de sinal preservados.
       Intervalo do manguito rotador sem alterações.
@@ -1074,7 +1074,7 @@ matches:
 
       Relatório:
       Alterações degenerativas hipertróficas da articulação acrômio-clavicular com padrão de edema nas margens.
-      Migração superior da cabeça umeral em relação à glenóide, notando-se neoarticulação acrômio-umeral / redução do espaço subacromial. Irregularidade de contornos e alteração de sinal das cartilagens glenoumerais, associado a osteófitos marginais. Irregularidade de contornos das tuberosidades umerais.
+      Migração superior da cabeça umeral em relação à glenoide, notando-se neoarticulação acrômio-umeral / redução do espaço subacromial. Irregularidade de contornos e alteração de sinal das cartilagens glenoumerais, associado a osteófitos marginais. Irregularidade de contornos das tuberosidades umerais.
       Ruptura maciça dos tendões do manguito rotador, notando-se algumas fibras remanescentes do infraespinhal e do subescapular, difusamente heterogêneas e irregulares. Há retração dos cotos do supraespinhal/infraespinhal, estimada em até 4 cm da tuberosidade umeral.
       Tendão do bíceps (cabeça longa) não identificado, sugerindo ruptura completa com retração distal do coto.
       Tendão do bíceps (cabeça longa) espessado e heterogêneo em sua porção intra-articular, notando-se ainda distensão líquida de sua bainha sinovial.
@@ -1353,7 +1353,7 @@ matches:
   - trigger: "tcombro4"
     label: "TC de ombro — fratura cominutiva do colo umeral"
     replace: |-
-      Fratura cominutiva do colo anatômico e cirúrgico do úmero que se estende até a diáfise proximal, com importante fragmentação, desvio e dissociação entres os fragmentos. Nota-se migração proximal da diáfise umeral, e desvio rotacional e com discreta subluxação inferior da cabeça umeral em relação à glenóide. Também há fragmentos junto ao foco de fratura, destacando-se um fragmento cortical medindo cerca de 3,1 x 1,6 cm, deslocado medialmente cerca de 1,6 cm.
+      Fratura cominutiva do colo anatômico e cirúrgico do úmero que se estende até a diáfise proximal, com importante fragmentação, desvio e dissociação entres os fragmentos. Nota-se migração proximal da diáfise umeral, e desvio rotacional e com discreta subluxação inferior da cabeça umeral em relação à glenoide. Também há fragmentos junto ao foco de fratura, destacando-se um fragmento cortical medindo cerca de 3,1 x 1,6 cm, deslocado medialmente cerca de 1,6 cm.
       Obliteração dos planos musculares e gordurosos adjacentes.
       Derrame articular glenoumeral.
       Artropatia degenerativa acromioclavicular caracterizada por redução e irregularidade do espaço articular associado a osteófitos marginais e leve esclerose subcondral de ambos os componentes.
@@ -1389,7 +1389,7 @@ matches:
 
       Análise:
       Sequela de fratura da extremidade distal da clavícula, com a alargamento e perda da relação articular acrômio-clavicular, com tecido fibrocicatricial pericapsular indicando sequela de ruptura do ligamento acrômio-clavicular superior.
-      Rotura extensa e transfixante do tendão do supraespinhal e fibras transicionais superiores do infraespinhal, com o coto tendíneo retraído situando-se próximo à margem da glenóide. Nota-se ainda acentuada tendinopatia do remanescente do infraespinhal apresentando espessamento e alteração ecotextural com irregularidade dos contornos da superfície articular associado a fissuras longitudinais.
+      Rotura extensa e transfixante do tendão do supraespinhal e fibras transicionais superiores do infraespinhal, com o coto tendíneo retraído situando-se próximo à margem da glenoide. Nota-se ainda acentuada tendinopatia do remanescente do infraespinhal apresentando espessamento e alteração ecotextural com irregularidade dos contornos da superfície articular associado a fissuras longitudinais.
       Rotura transfixante do segmento superior e médio do tendão do subescapular, com retração do coto tendíneo em aproximadamente 1,7 cm.
       Importante tendinopatia da cabeça longa do bíceps que apresenta irregularidade e alteração ecotextural, com luxação medial em relação ao seu sulco, situando-se no compartimento anterior intrarticular e anteriormente ao segmento remanescente do tendão do subescapular no seu segmento distal extrarticular.
       Hipotrofia e lipossubstituição dos ventres musculares do supraespinhal e do terço médio / superior do subescapular (grau III).
@@ -1568,7 +1568,7 @@ matches:
 
   - trigger: "colatrad1"
     label: "Estiramento da origem do ligamento colateral radial"
-    replace: "-Sinais de leve estiramento na origem do ligamento colateral radial, bem como dos planos capsuloligamentares anteriores radiocapitulares, que apresentam-se levemente afilados e com edema periligamentar, porém sem roturas transfixantes ou desinserções."
+    replace: "-Sinais de leve estiramento na origem do ligamento colateral radial, bem como dos planos capsuloligamentares anteriores radiocapitulares, que se apresentam levemente afilados e com edema periligamentar, porém sem roturas transfixantes ou desinserções."
     word: true
 
   - trigger: "colatrad2"
@@ -1793,7 +1793,7 @@ matches:
       -Incipiente tendinopatia insercional do tríceps, com espessamento e alteração do sinal habitual
       - Tendinopatia insercional do tríceps com fissuras intrínsecas. Associa-se edema ósseo no olécrano e focos de baixo sinal, provavelmente relacionados ao depósito de microcristais. Considerar a possibilidade de hidroxiapatita de cálcio (tendinopatia calcária) e, menos provavelmente, urato monossódico (gota).
       -estiramento
-      -Sinais de leve estiramento na origem do ligamento colateral radial, bem como dos planos capsuloligamentares anteriores radiocapitulares, que apresentam-se levemente afilados e com edema periligamentar, porém sem roturas transfixantes ou desinserções.
+      -Sinais de leve estiramento na origem do ligamento colateral radial, bem como dos planos capsuloligamentares anteriores radiocapitulares, que se apresentam levemente afilados e com edema periligamentar, porém sem roturas transfixantes ou desinserções.
       -cicatricial/crônico
       -Afilamento cicatricial crônico do complexo ligamentar colateral medial, denotando rotura parcial pregressa.
       Há também, afilamento cicatricial do ligamento colateral radial. Extensa rotura crônica dos ligamentos colaterais medial e lateral.
@@ -3433,7 +3433,7 @@ matches:
 
   - trigger: "isquiotib6"
     label: "Rotura parcial extensa da origem dos isquiotibiais"
-    replace: "Tendinopatia e peritendinite junto à origem dos isquiotibiais, destacando-se rotura parcial extensa à esquerda, numa extensão longitudinal de até 4,1 cm com importante afilamento da origem do tendão do semimembranoso, bem como do tendão comum do semitendinoso/bíceps femoral, sem desinserções completas. Nota-se líquido interposto a área de rotura, com edema difuso dos planos circunjacentes. Há também pequenas fissuras intra-substanciais junto à origem do tendão do semitendinoso/bíceps femoral à direita, sem desinserção."
+    replace: "Tendinopatia e peritendinite junto à origem dos isquiotibiais, destacando-se rotura parcial extensa à esquerda, numa extensão longitudinal de até 4,1 cm com importante afilamento da origem do tendão do semimembranoso, bem como do tendão comum do semitendinoso/bíceps femoral, sem desinserções completas. Nota-se líquido interposto a área de rotura, com edema difuso dos planos circunjacentes. Há também pequenas fissuras intrassubstanciais junto à origem do tendão do semitendinoso/bíceps femoral à direita, sem desinserção."
     word: true
 
   - trigger: "tendsemimb1"
@@ -4248,7 +4248,7 @@ matches:
       Tendinopatia na origem dos isquiotibiais, apresentando leve espessamento e alteração do sinal tendíneo, sem roturas.
 
       Análise:
-      Tendinopatia e peritendinite junto à origem dos isquiotibiais, destacando-se rotura parcial extensa à esquerda, numa extensão longitudinal de até 4,1 cm com importante afilamento da origem do tendão do semimembranoso, bem como do tendão comum do semitendinoso/bíceps femoral, sem desinserções completas. Nota-se líquido interposto a área de rotura, com edema difuso dos planos circunjacentes. Há também pequenas fissuras intra-substanciais junto à origem do tendão do semitendinoso/bíceps femoral à direita, sem desinserção.
+      Tendinopatia e peritendinite junto à origem dos isquiotibiais, destacando-se rotura parcial extensa à esquerda, numa extensão longitudinal de até 4,1 cm com importante afilamento da origem do tendão do semimembranoso, bem como do tendão comum do semitendinoso/bíceps femoral, sem desinserções completas. Nota-se líquido interposto a área de rotura, com edema difuso dos planos circunjacentes. Há também pequenas fissuras intrassubstanciais junto à origem do tendão do semitendinoso/bíceps femoral à direita, sem desinserção.
       Tênue edema do ventre muscular do quadrado femoral interposto entre o trocânter menor femoral e a tuberosidade isquiática, podendo estar relacionado a impacto isquiofemoral.
       Edema do ventre muscular do quadrado femoral bilateral, entre o trocanter menor e a tuberosidade isquiática, relacionado a atrito.
       Alteração do sinal do ventre muscular do quadrado femoral na região que se interpõe entre o trocânter menor do fêmur e a tuberosidade isquiática esquerda, que pode estar relacionada a uma alteração por hipersolicitação mecânica/atrito (impacto isquiofemoral).
@@ -4944,12 +4944,12 @@ matches:
 
   - trigger: "fibularcomum1"
     label: "Espessamento do nervo fibular comum com denervação"
-    replace: "Feixes neurovasculares: Aparente espessamento do nervo fibular comum no seu trajeto próximo a fratura da fibula proximal, associado a aumento de sinal dos terços distais dos ventres musculares do tibial anterior e extensor longo dos dedos que pode corresponder a neuropatia."
+    replace: "Feixes neurovasculares: Aparente espessamento do nervo fibular comum no seu trajeto próximo à fratura da fíbula proximal, associado a aumento de sinal dos terços distais dos ventres musculares do tibial anterior e extensor longo dos dedos que pode corresponder a neuropatia."
     word: true
 
   - trigger: "fibularcomum2"
     label: "Espessamento do nervo fibular junto à cabeça da fíbula"
-    replace: "Aparente espessamento do nervo fibular em seu segmento próximo a cabeça da fíbula de aspecto inespecífico, associado a leve edema das fibras musculares do grupamento ântero-lateral da perna, podendo estar relacionado à denervação. Sugere-se correlacionar com exame físico, bem como eletroneuromiográfico."
+    replace: "Aparente espessamento do nervo fibular em seu segmento próximo à cabeça da fíbula de aspecto inespecífico, associado a leve edema das fibras musculares do grupamento ântero-lateral da perna, podendo estar relacionado à denervação. Sugere-se correlacionar com exame físico, bem como eletroneuromiográfico."
     word: true
 
   - trigger: "denervfibular1"
@@ -5243,7 +5243,7 @@ matches:
 
   - trigger: "menisclat3"
     label: "Alteração degenerativa do corno anterior do menisco lateral"
-    replace: "Alteração degenerativa do corno anterior do menisco lateral, com redução volumétrica de aspecto fragmentado, próximo a raiz tibial anterior, sem fragmentos deslocados."
+    replace: "Alteração degenerativa do corno anterior do menisco lateral, com redução volumétrica de aspecto fragmentado, próximo à raiz tibial anterior, sem fragmentos deslocados."
     word: true
 
   - trigger: "menisclat4"
@@ -5468,7 +5468,7 @@ matches:
 
   - trigger: "bandailio2"
     label: "Entesopatia do trato iliotibial na inserção tibial"
-    replace: "Discreta alteração de sinal do trato iliotibial, com edema da gordura circunjacente, próximo a inserção na tíbia, sugerindo entesopatia de natureza mecânica."
+    replace: "Discreta alteração de sinal do trato iliotibial, com edema da gordura circunjacente, próximo à inserção na tíbia, sugerindo entesopatia de natureza mecânica."
     word: true
 
   - trigger: "condropat1"
@@ -6344,7 +6344,7 @@ matches:
       Há sinais de estiramento das demais estruturas do canto póstero lateral com espessamento, alteração de sinal e edema pericapsular, incluindo o ligamento popliteofibular, com possível pequena rotura parcial.
       Ligamentos cruzados e colaterais íntegros.
       Edema da gordura interposta entre o trato iliotibial e o côndilo femoral lateral, indicando atrito (síndrome da banda iliotibial).
-      Discreta alteração de sinal do trato iliotibial, com edema da gordura circunjacente, próximo a inserção na tíbia, sugerindo entesopatia de natureza mecânica.
+      Discreta alteração de sinal do trato iliotibial, com edema da gordura circunjacente, próximo à inserção na tíbia, sugerindo entesopatia de natureza mecânica.
       Edema ósseo subcortical com pequenas alterações císticas junto a fixação tibial da raiz posterior do menisco medial por entesopatia mecânica degenerativa.
       Alterações císticas subcorticais junto às eminências intercondilianas tibiais.
       Meniscos com morfologia e sinal dentro da normalidade.
@@ -6360,7 +6360,7 @@ matches:
       Rotura complexa no corno anterior e corpo do menisco medial, com redução volumétrica, aspecto fragmentado e amputação irregular das margens livres.
       Redução volumétrica da borda livre do corpo do menisco medial e irregularidade com tênue fissura periférica no corno posterior junto a inserção menisco capsular (lesão pregressa cicatrizada?), sem fragmento deslocado.
       Redução volumétrica pós cirúrgica do corpo menisco lateral, com material gerando artefato junto a raiz anterior meniscal, sem desinserção.
-      Alteração degenerativa do corno anterior do menisco lateral, com redução volumétrica de aspecto fragmentado, próximo a raiz tibial anterior, sem fragmentos deslocados.
+      Alteração degenerativa do corno anterior do menisco lateral, com redução volumétrica de aspecto fragmentado, próximo à raiz tibial anterior, sem fragmentos deslocados.
       Rotura horizontal do corno posterior e transição com o corpo do menisco medial, que se estende a superfície articular inferior, com sinais de perimeniscite e fragmento meniscal deslocado no recesso menisco-tibial, destacando-se ainda edema ósseo subcortical do planalto tibial medial adjacente, compatível com conflito osteomeniscal.
       Nota-se mínima irregularidade cortical e leve edema ósseo no rebordo tibial adjacente ao fragmento deslocado, indicando atrito/conflito osteomeniscal, de origem mecânica.
       Alteração degenerativa com fina rotura do corpo do menisco medial, com amputação da borda livre do corpo e pequeno fragmento meniscal deslocado para recesso menisco tibial, com tênue edema ósseo de origem mecânica no platô tibial.
@@ -6685,7 +6685,7 @@ matches:
 
       Análise:
       - Meniscos: Menisco lateral extruso, de contornos irregulares e com intensidade de sinal difusamente heterogênea, notando-se ainda redução volumétrica no corpo/corno posterior, onde se evidencia ruptura de aspecto complexo.
-      Menisco medial com forma e contornos preservados, apresentando alteração de sinal intra substancial no corno posterior, de aspecto degenerativo, sem delimitação de rupturas.
+      Menisco medial com forma e contornos preservados, apresentando alteração de sinal intrassubstancial no corno posterior, de aspecto degenerativo, sem delimitação de rupturas.
       - Ligamentos cruzados e colaterais: Ligamentos cruzados íntegros, o anterior discretamente heterogêneo.
       Ligamento colateral medial íntegro e de aspecto preservado.
       Ligamento colateral lateral e demais estruturas estabilizadoras do canto posterolateral íntegras.
@@ -6751,7 +6751,7 @@ matches:
       Discreta alteração degenerativa intrassubstancial do menisco medial, sem roturas.
       - Ligamentos cruzados e colaterais: com continuidade, espessura e sinal preservados.
       - Derrame articular: Moderado com sinovite reacional.
-      - Revestimento condral: Condropatia patelotroclear, caracterizada por irregularidade e alteração do sinal condral, destacando-se erosão condral profunda de 1,5 x 0,4 cm no terço superior da faceta lateral da troclea femoral associado a cistos e edema ósseo subcondral. Há também fissuras condrais profundas no terço médio do vértice e faceta lateral da patela, associado a cistos e edema ósseo subcondral.
+      - Revestimento condral: Condropatia patelotroclear, caracterizada por irregularidade e alteração do sinal condral, destacando-se erosão condral profunda de 1,5 x 0,4 cm no terço superior da faceta lateral da tróclea femoral associado a cistos e edema ósseo subcondral. Há também fissuras condrais profundas no terço médio do vértice e faceta lateral da patela, associado a cistos e edema ósseo subcondral.
       - Estruturas ósseas: com morfologia e sinal da medular conservados.
       - Estruturas musculotendíneas: peritendinite da pata anserina.
       - Fossa poplítea: lâmina líquida na bolsa do gastrocnêmio medial/semimembranoso.
@@ -7011,8 +7011,8 @@ matches:
       Espaços articulares mantidos.
       Patela tipo II de Wiberg bilateralmente.
       Tróclea rasa no terço superior.
-      Com o joelho em extensão, a patela encontram-se lateralizada e com báscula lateral.
-      Aos 30 graus de flexão a patela apresentam-se centrada, porém com uma pequena báscula.
+      Com o joelho em extensão, a patela encontra-se lateralizada e com báscula lateral.
+      Aos 30 graus de flexão a patela apresenta-se centrada, porém com uma pequena báscula.
       Demais partes moles com coeficientes de atenuação dentro da normalidade, devendo-se salientar a baixa sensibilidade deste método para avaliação destas estruturas.
       * Altura patelar com relação Caton-Deschamps de 1,3 (normal entre 0,8 e 1,2).
       * Ângulo do sulco da tróclea femoral : 152 ° (132° a 144 °)
@@ -7485,7 +7485,7 @@ matches:
 
   - trigger: "fibulares7"
     label: "Tenossinovite acentuada com fissura longitudinal do fibular curto"
-    replace: "Acentuada tenossinovite dos fibulares com sinais de tendinopatia do fibular curto predominando no segmento inframaleolar, ao nível do tubérculo/tróclea dos fibulares calcaneano, que apresenta-se proeminente e com edema da medular óssea subcortical. Destaca-se fissura longitudinal do fibular curto neste segmento, sem transfixação."
+    replace: "Acentuada tenossinovite dos fibulares com sinais de tendinopatia do fibular curto predominando no segmento inframaleolar, ao nível do tubérculo/tróclea dos fibulares calcaneano, que se apresenta proeminente e com edema da medular óssea subcortical. Destaca-se fissura longitudinal do fibular curto neste segmento, sem transfixação."
     word: true
 
   - trigger: "fibulares8"
@@ -7685,7 +7685,7 @@ matches:
 
   - trigger: "fasciiteplant9"
     label: "Fasciíte plantar com espessamento do terço proximal"
-    replace: "Sinais de fasciíte plantar com espessamento do terço proximal da banda central, associado a edema dos planos circunjacentes à origem, com alteração de sinal intra-substancial, sem roturas."
+    replace: "Sinais de fasciíte plantar com espessamento do terço proximal da banda central, associado a edema dos planos circunjacentes à origem, com alteração de sinal intrassubstancial, sem roturas."
     word: true
 
   - trigger: "fasciaplantnl1"
@@ -7910,7 +7910,7 @@ matches:
 
   - trigger: "remodelfibula1"
     label: "Remodelação da fíbula distal por manipulação cirúrgica"
-    replace: "Remodelação da cortical óssea de aspecto crônico/sequelar na região diafisária distal da fibula e extremidade do maléolo lateral, com pequenos artefatos de susceptibilidade magnética, podendo estar relacionado a manipulação cirúrgica pregressa."
+    replace: "Remodelação da cortical óssea de aspecto crônico/sequelar na região diafisária distal da fíbula e extremidade do maléolo lateral, com pequenos artefatos de susceptibilidade magnética, podendo estar relacionado a manipulação cirúrgica pregressa."
     word: true
 
   - trigger: "avulsaomaleolat1"
@@ -8622,7 +8622,7 @@ matches:
       Osso navicular acessório com tênue edema junto à sincondrose, de natureza mecânica.
       Presença de os peroneum no interior do tendão fibular longo.
       Lesão osteocondral no anulo centro medial do domus talar medindo 1,1 x 0,8 cm com fragmento ósseo destacado com lâmina líquida adjacente, com edema e cistos ósseos subcondrais.
-      Remodelação da cortical óssea de aspecto crônico/sequelar na região diafisária distal da fibula e extremidade do maléolo lateral, com pequenos artefatos de susceptibilidade magnética, podendo estar relacionado a manipulação cirúrgica pregressa.
+      Remodelação da cortical óssea de aspecto crônico/sequelar na região diafisária distal da fíbula e extremidade do maléolo lateral, com pequenos artefatos de susceptibilidade magnética, podendo estar relacionado a manipulação cirúrgica pregressa.
       Edema e cistos subcortical no aspecto interno do maleolo lateral, junto a inserção do ligamento talofibular posterior.
       Nota-se ainda alterações degenerativas entre o processo talar lateral e o calcâneo adjacente com edema ósseo e esclerose óssea, podendo representar impacto subtalar.
       Sinais de coalizão fibrocartilaginosa talocalcaneana junto da porção medial da subtalar, com edema da medular óssea junto da interface, por provável sobrecarga mecânica.
@@ -8657,7 +8657,7 @@ matches:
       Lâmina de líquido na bainha tendínea comum dos fibulares no trajeto deflexional, denotando tenossinovite, sem alteração tendínea significativa.
       Tenossinovite dos fibulares nas porções retro e inframaleolar, com pequena quantidade de líquido na bainha, sem roturas.
       Tendinopatia com rotura tipo split do fibular curto na deflexão maleolar com tenossinovite da bainha comum.
-      Acentuada tenossinovite dos fibulares com sinais de tendinopatia do fibular curto predominando no segmento inframaleolar, ao nível do tubérculo/tróclea dos fibulares calcaneano, que apresenta-se proeminente e com edema da medular óssea subcortical. Destaca-se fissura longitudinal do fibular curto neste segmento, sem transfixação.
+      Acentuada tenossinovite dos fibulares com sinais de tendinopatia do fibular curto predominando no segmento inframaleolar, ao nível do tubérculo/tróclea dos fibulares calcaneano, que se apresenta proeminente e com edema da medular óssea subcortical. Destaca-se fissura longitudinal do fibular curto neste segmento, sem transfixação.
       Presença do fibular IV.
       Presença de pequeno tuberoculo dos fibulares com irregularidade cortical e intenso edema da medular óssea adjacente, de natureza mecânica. Associa-se ainda acentuada tendinopatia e tenossinovite dos fibulares com espessamento e alteração do sinal habitual, com fissura intrassubstancial no segmento inframaleolar do fibular longo, sem transfixações.
       Tenossinovite distal do tibial posterior, sem alteração tendínea significativa.
