@@ -291,6 +291,73 @@ CORRECOES = [
     ("estudo do mediopé evidência", "estudo do mediopé evidencia", "verbo x substantivo"),
     ("devido a baixa fratura do cosensibilidade", "devido a baixa sensibilidade",
      "palavra reconstruída: pedaço de outra frase colado no meio dela"),
+    # --- revisão de português pedida pelo dono do repositório a partir do
+    # supra1 ("Tendinopatia ... apresentam"), estendida às demais ocorrências
+    # do mesmo erro. Ficam no fim da lista de propósito: as regras 'próximo a
+    # raiz' e 'próximo a inserção' dependem de 'raíz'->'raiz' e
+    # 'inserçao'->'inserção', que são regras de palavra e rodam acima.
+    ("Tendinopatia do supra e infraespinhais apresentam leve espessamento e "
+     "alteração de sinal com",
+     "Tendinopatia do supraespinhal e do infraespinhal, caracterizada por leve "
+     "espessamento e alteração de sinal, com",
+     "concordância verbal: o sujeito é singular"),
+    ("com retração de cerca 0,4 cm", "com retração de cerca de 0,4 cm",
+     "preposição faltante"),
+    ("Fissuras intra-substanciais próximo à", "Fissuras intrassubstanciais próximas à",
+     "concordância nominal e grafia"),
+    ("a patela encontram-se lateralizada", "a patela encontra-se lateralizada",
+     "concordância verbal"),
+    ("a patela apresentam-se centrada", "a patela apresenta-se centrada",
+     "concordância verbal"),
+    ("que apresentam-se", "que se apresentam",
+     "colocação pronominal: próclise após o relativo"),
+    ("que apresenta-se", "que se apresenta",
+     "colocação pronominal: próclise após o relativo"),
+    ("próximo a fratura", "próximo à fratura", "crase"),
+    ("próximo a cabeça", "próximo à cabeça", "crase"),
+    ("próximo a raiz", "próximo à raiz", "crase"),
+    ("próximo a inserção", "próximo à inserção", "crase"),
+    # a forma majoritária no caderno é "intrassubstancial" (66 ocorrências)
+    ("intra-substanciais junto", "intrassubstanciais junto", "grafia"),
+    ("sinal intra substancial", "sinal intrassubstancial", "grafia"),
+    ("sinal intra-substancial,", "sinal intrassubstancial,", "grafia"),
+    # palavra inteira: não tocam glenoidal, fibular/talofibular, troclear
+    ("glenóide", "glenoide", "acentuação"),
+    ("fibula", "fíbula", "acentuação"),
+    ("troclea", "tróclea", "acentuação"),
+    # segunda leva da mesma revisão: a varredura de "colocação pronominal"
+    # tinha parado no literal "que apresenta(m)-se" e deixado de fora os
+    # demais atratores, e três erros objetivos vizinhos vieram junto.
+    ("não podendo-se", "não se podendo",
+     "colocação pronominal: próclise após o atrator"),
+    ("onde associa-se", "onde se associa",
+     "colocação pronominal: próclise após o relativo"),
+    ("onde nota-se", "onde se nota",
+     "colocação pronominal: próclise após o relativo"),
+    ("Associa-se ainda, derrame", "Associa-se ainda derrame",
+     "vírgula entre verbo e sujeito"),
+    ("signifcativa", "significativa", "typo"),
+    ("tomografico", "tomográfico", "acentuação"),
+    ("dissociação entres os fragmentos", "dissociação entre os fragmentos", "typo"),
+    # terceira leva: a família "-óide" perdeu o acento agudo no Acordo
+    # Ortográfico (mesma classe de glenóide->glenoide, já corrigida acima).
+    # "Sesamóide" só ocorre capitalizada no caderno (início de frase); as
+    # outras sete só ocorrem minúsculas — cada uma é literal de palavra
+    # inteira e não toca as formas já corretas nem qualquer palavra vizinha.
+    ("deltóide", "deltoide", "acentuação (Acordo Ortográfico)"),
+    ("subdeltóidea", "subdeltoidea", "acentuação (Acordo Ortográfico)"),
+    ("escafóide", "escafoide", "acentuação (Acordo Ortográfico)"),
+    ("Sesamóide", "Sesamoide", "acentuação (Acordo Ortográfico)"),
+    ("discóide", "discoide", "acentuação (Acordo Ortográfico)"),
+    ("desmóide", "desmoide", "acentuação (Acordo Ortográfico)"),
+    ("xifóide", "xifoide", "acentuação (Acordo Ortográfico)"),
+    ("estilóide", "estiloide", "acentuação (Acordo Ortográfico)"),
+    # composto sem hífen: "escafóide" some dentro de "rádioescafóide" para a
+    # regra de palavra inteira acima, então precisa de literal próprio. O
+    # label da mesma entrada já grafava "radioescafoide" (sem acento também
+    # no prefixo "radio-", como em radiocarpal/radioulnar já usados no
+    # arquivo) — o replace ficou atrás e alinha aqui.
+    ("rádioescafóide", "radioescafoide", "acentuação (Acordo Ortográfico)"),
 ]
 
 # Anotações que a autora deixou coladas na frase e que NÃO entram no texto do
