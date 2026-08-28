@@ -34,11 +34,7 @@ h2 {
 /* a linha: prefixo pendurado numa calha à esquerda = índice para o olho */
 .linha { display: flex; gap: 1.4mm; margin-bottom: .85mm; break-inside: avoid; }
 .pfx {
-  /* 17mm cabe o mais largo dos triggers exibidos inteiros (utbicorno, 9
-     caracteres). Com os 13.5mm anteriores ele transbordava a coluna e
-     invadia o texto vizinho; encolher a fonte para caber violaria o piso
-     de legibilidade documentado no topo deste arquivo. */
-  flex: 0 0 17mm; text-align: right;
+  flex: 0 0 13.5mm; text-align: right;
   font-family: "SF Mono", "DejaVu Sans Mono", monospace;
   font-size: 1.02rem; font-weight: 700; line-height: 1.15;
   letter-spacing: -.02em;
@@ -53,6 +49,8 @@ h2 {
 }
 .nota {
   font-size: .84rem; color: #555; font-style: italic;
+  /* recuo = calha + gap, para a nota começar na mesma coluna do corpo das
+     linhas que ela anota; derivado, nunca digitado à mão. */
   margin: .3mm 0 .3mm 14.9mm; line-height: 1.2;
 }
 
