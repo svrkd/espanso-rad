@@ -362,6 +362,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma3sc | Mama (nódulo): Nódulos na mama [direita/esquerda] com as características acima descritas |
 | ma4 | Mama: múltiplos nódulos ovalados circunscritos (dois ou mais sítios) |
 | ma4c | Mama (nódulo): Nódulos na mama [direita/esquerda] com as características acima descritas |
+| ma5 | Mama: Microcistos agrupados (achado descritivo) |
+| ma5c | Mama: Microcistos agrupados |
+| ma6 | Mama: Microcistos agrupados bilaterais (achado descritivo) |
+| ma6c | Mama: Microcistos agrupados bilaterais |
 
 ## Músculo-Esquelético
 
