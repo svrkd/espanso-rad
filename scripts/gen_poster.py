@@ -27,6 +27,39 @@ def esc(s):
     return html.escape(s)
 
 
+# Um sufixo só pode ser exibido solto ("usinguinald/e") se o leitor não
+# conseguir confundi-lo com um trigger inteiro. Dois ou menos caracteres é o
+# limite: cobre os pares D/E e as escadas numéricas, e barra sufixo que forma
+# palavra. Sem esse limite, `["ut5", "ut8", "utbicorno"]` saía como
+# "ut5/8/bicorno" — indistinguível de "ut7/bicorno", que na linha logo acima
+# são dois triggers inteiros e não prefixo + sufixo.
+SUFIXO_MAX = 2
+
+# Geometria da calha do índice.
+#
+# 13.5mm não cabe o trigger mais largo que a coluna exibe por extenso
+# ("utbicorno", 9 caracteres, ~63px contra ~51px de calha). Isso NÃO corta nem
+# faz o texto invadir a coluna vizinha: `.pfx` é item flex sem `min-width: 0`,
+# então `min-width: auto` faz a caixa crescer até o min-content, e o efeito é
+# local — só aquela linha fica com a calha ~3mm mais larga e o corpo começando
+# mais à direita que as demais.
+#
+# Alargar a calha para uniformizar sai caro e foi medido: a 17mm o corpo perde
+# 3.5mm em TODAS as linhas, e como os itens de escada são `white-space: nowrap`,
+# duas linhas que cabiam passam a ultrapassar o filete da coluna ("não
+# caracterizado no presente estudo…" e "síndrome intersticial, perfil B'…"),
+# enquanto o transbordo pré-existente da escada `tx` piora de 26px para 39px,
+# entrando na coluna vizinha. Uma linha desalinhada custa menos que três linhas
+# invadindo colunas, então a calha fica estreita de propósito.
+#
+# O recuo das notas é derivado daqui, nunca digitado: quando este valor mudou
+# e o recuo ficou para trás, as duas notas do pôster desalinharam 3.5mm do
+# texto que anotam.
+CALHA_MM = 13.5
+GAP_MM = 1.4
+RECUO_NOTA_MM = round(CALHA_MM + GAP_MM, 2)
+
+
 def compacta(triggers):
     """Deriva uma exibição compacta de uma lista de triggers para a coluna
     de índice, sem que a compactação vire a fonte da verdade: os triggers
@@ -38,7 +71,7 @@ def compacta(triggers):
     for t in triggers[1:]:
         while prefix and not t.startswith(prefix):
             prefix = prefix[:-1]
-    if prefix and all(len(t) > len(prefix) for t in triggers):
+    if prefix and all(0 < len(t) - len(prefix) <= SUFIXO_MAX for t in triggers):
         sufixos = [t[len(prefix):] for t in triggers]
         return f"{prefix}{'/'.join(sufixos)}"
     return "/".join(triggers)
@@ -131,9 +164,9 @@ h2 {{
 }}
 
 /* a linha: prefixo pendurado numa calha à esquerda = índice para o olho */
-.linha {{ display: flex; gap: 1.4mm; margin-bottom: .85mm; break-inside: avoid; }}
+.linha {{ display: flex; gap: {GAP_MM}mm; margin-bottom: .85mm; break-inside: avoid; }}
 .pfx {{
-  flex: 0 0 13.5mm; text-align: right;
+  flex: 0 0 {CALHA_MM}mm; text-align: right;
   font-family: "SF Mono", "DejaVu Sans Mono", monospace;
   font-size: 1.02rem; font-weight: 700; line-height: 1.15;
   letter-spacing: -.02em;
@@ -148,7 +181,9 @@ h2 {{
 }}
 .nota {{
   font-size: .84rem; color: #555; font-style: italic;
-  margin: .3mm 0 .3mm 14.9mm; line-height: 1.2;
+  /* recuo = calha + gap, para a nota começar na mesma coluna do corpo das
+     linhas que ela anota; derivado, nunca digitado à mão. */
+  margin: .3mm 0 .3mm {RECUO_NOTA_MM}mm; line-height: 1.2;
 }}
 
 /* ---------- rodapé: modelos e curingas ---------- */

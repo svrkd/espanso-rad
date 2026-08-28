@@ -128,6 +128,7 @@ BLOCOS = [
         ("escada", "ma", "mama", [
             ("11", "cistos subcentimétricos D"), ("12", "cistos subcentimétricos E"),
             ("3", "nódulo único"),
+            ("5", "microcistos agrupados"), ("6", "microcistos agrupados (ambas)"),
         ]),
         ("triggers", ["ma3s", "ma4"], "mama", "múltiplos nódulos (≥2 sítios)"),
         ("escada", "axl", "linfonodo axilar normal", [
