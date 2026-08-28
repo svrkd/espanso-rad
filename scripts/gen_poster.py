@@ -27,6 +27,15 @@ def esc(s):
     return html.escape(s)
 
 
+# Um sufixo só pode ser exibido solto ("usinguinald/e") se o leitor não
+# conseguir confundi-lo com um trigger inteiro. Dois ou menos caracteres é o
+# limite: cobre os pares D/E e as escadas numéricas, e barra sufixo que forma
+# palavra. Sem esse limite, `["ut5", "ut8", "utbicorno"]` saía como
+# "ut5/8/bicorno" — indistinguível de "ut7/bicorno", que na linha logo acima
+# são dois triggers inteiros e não prefixo + sufixo.
+SUFIXO_MAX = 2
+
+
 def compacta(triggers):
     """Deriva uma exibição compacta de uma lista de triggers para a coluna
     de índice, sem que a compactação vire a fonte da verdade: os triggers
@@ -38,7 +47,7 @@ def compacta(triggers):
     for t in triggers[1:]:
         while prefix and not t.startswith(prefix):
             prefix = prefix[:-1]
-    if prefix and all(len(t) > len(prefix) for t in triggers):
+    if prefix and all(0 < len(t) - len(prefix) <= SUFIXO_MAX for t in triggers):
         sufixos = [t[len(prefix):] for t in triggers]
         return f"{prefix}{'/'.join(sufixos)}"
     return "/".join(triggers)
@@ -133,7 +142,11 @@ h2 {{
 /* a linha: prefixo pendurado numa calha à esquerda = índice para o olho */
 .linha {{ display: flex; gap: 1.4mm; margin-bottom: .85mm; break-inside: avoid; }}
 .pfx {{
-  flex: 0 0 13.5mm; text-align: right;
+  /* 17mm cabe o mais largo dos triggers exibidos inteiros (utbicorno, 9
+     caracteres). Com os 13.5mm anteriores ele transbordava a coluna e
+     invadia o texto vizinho; encolher a fonte para caber violaria o piso
+     de legibilidade documentado no topo deste arquivo. */
+  flex: 0 0 17mm; text-align: right;
   font-family: "SF Mono", "DejaVu Sans Mono", monospace;
   font-size: 1.02rem; font-weight: 700; line-height: 1.15;
   letter-spacing: -.02em;
