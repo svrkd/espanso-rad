@@ -1025,7 +1025,7 @@ matches:
     replace: Artropatia degenerativa acromioclavicular e glenoumeral.
     word: true
 
-  - trigger: "ascite"
+  - trigger: "rxascite"
     label: "Ascite (sinais radiográficos)"
     replace: "Redução difusa da radiotransparência da cavidade abdominal, podendo corresponder a líquido livre."
     word: true
@@ -1549,7 +1549,7 @@ matches:
     replace: Proeminência do processo posterior do tálus (processo Stieda).
     word: true
 
-  - trigger: "teto"
+  - trigger: "acteto"
     label: "Osteofitose marginal acetabular"
     replace: Osteofitose marginal nas bordas acetabulares.
     word: true
@@ -3464,7 +3464,7 @@ matches:
     replace: Ossículos acessórios adjacentes ao cuboide.
     word: true
 
-  - trigger: "placa"
+  - trigger: "osplaca"
     label: "Placa de osteossíntese"
     replace: Placa lâmina determinando osteossíntese da
     word: true
@@ -3489,9 +3489,9 @@ matches:
     replace: sem desvios significativos.
     word: true
 
-  - trigger: "sequela"
-    label: "Sequela de fratura em asa ilíaca"
-    replace: Alteração da morfologia óssea na asa ilíaca direita sugerindo sequela de fratura prévia. Correlacionar com dados clínicos.
+  - trigger: "fxsequela"
+    label: "Sequela de fratura"
+    replace: Alteração da morfologia óssea no _, sugerindo sequela de fratura prévia. Correlacionar com dados clínicos.
     word: true
 
   - trigger: "sss"

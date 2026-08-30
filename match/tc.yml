@@ -1002,7 +1002,7 @@ matches:
     replace: "Hipoatenuação da substância branca periventricular e dos centros semiovais, provavelmente relacionada à microangiopatia."
     word: true
 
-  - trigger: "edema"
+  - trigger: "credema"
     label: "Edema cerebral difuso"
     replace: "Apagamento difuso dos sulcos e giros encefálicos associado a perda da diferenciação corticossubcortical, podendo corresponder a edema cerebral."
     word: true
@@ -10442,7 +10442,7 @@ matches:
     replace: "Cisto cortical à esquerda, medindo _ cm, de conteúdo hiperdenso, de provável natureza hemática e/ou hiperproteica (Bosniak II)."
     word: true
 
-  - trigger: "cabo"
+  - trigger: "cabou3"
     label: "Exame sem contraste (indisponibilidade)"
     replace: "Nota: exame restrito à fase sem contraste (pela indisponibilidade do mesmo), limitando a pesquisa de lesões viscerais. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos."
     word: true
