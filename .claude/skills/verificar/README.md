@@ -2,7 +2,7 @@
 
 Verificação adversarial cega de trabalho recém-executado. Um refutador sem acesso ao raciocínio do executor tenta derrubar o trabalho, dá nota de 0 a 100, e nota ≤ 85 dispara nova rodada com mais refutadores (teto de 3 rodadas).
 
-A skill é genérica: não depende de nada deste repositório e roda igual em qualquer projeto. Ela está versionada aqui porque este repositório é a origem dela — a regra `.claude/rules/verificacao-adversarial.md`, que a skill implementa, nasceu neste projeto.
+A skill é genérica: não depende de nada deste repositório e roda igual em qualquer projeto. Ela está versionada aqui porque este repositório é a origem dela. Roda **só quando invocada** — a regra de projeto que a chamava automaticamente antes de toda alegação de conclusão foi removida, por custar tempo e tokens demais.
 
 ## Conteúdo
 
