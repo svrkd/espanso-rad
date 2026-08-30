@@ -5249,7 +5249,7 @@ matches:
     replace: "Aumento volumétrico dos nódulos peritoneais, o maior no flanco esquerdo, medindo agora _ cm (média _ cm), associados a pequena quantidade de líquido livre na pelve, achados que no contexto neoplásico primário conhecido, sugerem disseminação neoplásica secundária omentoperitoneal (carcinomatose peritoneal). Associa-se ainda ascite espessa determinando impressão/lobulação junto à borda do lobo hepático direito, sugerindo pseudomixoma peritoneal."
     word: true
 
-  - trigger: "tcrertocolite"
+  - trigger: "tcretocolite"
     label: "Colite com sinal do halo de gordura (retocolite)"
     replace: "Discreto espessamento difuso da parede colônica do reto ao ceco, com deposição de gordura na submucosa observada no reto (sinal do halo de gordura) e perda difusa das haustrações colônicas. Há associado ingurgitamento leve dos vasos retos pericólicos e múltiplos pequenos linfonodos mesentéricos. Pequena quantidade de líquido livre na pelve, mas sem evidência de gás livre. Algumas alças do intestino delgado mostram níveis hidroaéreos, mas não estão dilatadas e têm aparência normal."
     word: true
@@ -6138,8 +6138,8 @@ matches:
     word: true
 
   - trigger: "semcro"
-    label: "Veia safena parva sem croça definida"
-    replace: "Veia safena parva apresentando extensão cranial, sem croça definida, apresentando drenagem por veias tributárias nos planos musculares posteriores da coxa."
+    label: "Veia safena parva sem crossa definida"
+    replace: "Veia safena parva apresentando extensão cranial, sem crossa definida, apresentando drenagem por veias tributárias nos planos musculares posteriores da coxa."
     word: true
 
   - trigger: "stanforda"
@@ -6299,7 +6299,7 @@ matches:
       Diâmetros máximos:
       Seio de Valsalva: _ cm;
       Aorta ascendente: _ cm;
-      Croça da aorta: _ cm;
+      Crossa da aorta: _ cm;
       Aorta descendente: _ cm.
 
       Ateromatose aortocoronariana.
