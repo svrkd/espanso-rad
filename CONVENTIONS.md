@@ -46,7 +46,9 @@ Quando um trigger existente precisa ser renomeado para se adequar à convenção
     word: true
 ```
 
-`match/legado.yml` só cresce por esse motivo — nunca recebe triggers novos diretamente. Espanso carrega todos os arquivos de `match/` num único namespace global, então esse arquivo não "isola" nada tecnicamente; a separação é só organizacional, para deixar claro que aquela grafia é legada.
+`match/legado.yml` só cresce por esse motivo — nunca recebe triggers novos diretamente.
+
+Há um segundo motivo de renomeação que **não** passa por aqui: quando o trigger é uma palavra que se digita dentro de um laudo (ver "Nomenclatura de triggers novos", abaixo). Nesse caso a grafia antiga é simplesmente **apagada**, porque mantê-la viva em qualquer arquivo preservaria exatamente o disparo indesejado que motivou a troca — o oposto da renomeação por charset, em que a grafia antiga é inofensiva. Foi o que se fez com `edema` → `credema`, `teto` → `acteto`, `bursite` → `ombursite` e outros nove. Espanso carrega todos os arquivos de `match/` num único namespace global, então esse arquivo não "isola" nada tecnicamente; a separação é só organizacional, para deixar claro que aquela grafia é legada.
 
 ## Seções temáticas
 
