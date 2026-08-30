@@ -1,6 +1,6 @@
 ---
 name: verificar
-description: Roda verificação adversarial cega sobre trabalho recém-executado nesta sessão — código, pesquisa, laudo, explicação, planilha, config. Um subagente refutador que não vê o raciocínio do executor tenta derrubá-lo, dá nota de 0 a 100 por rubrica, e nota igual ou menor que 85 dispara nova rodada com mais refutadores, até 3 rodadas. Use quando o usuário invocar `/verificar`, pedir para "conferir se está certo mesmo", "auditar o que você acabou de fazer", "rodar o refutador", "checar antes de commitar/mandar/assinar", ou quando você mesmo for alegar que algo está completo, corrigido, passando ou verificado. Distingue-se das vizinhas pelo objeto e pelo método, não pelo assunto — o objeto é sempre trabalho que esta sessão acabou de produzir, e quem dá a nota é sempre um agente cego e separado. Para auditar laudo já redigido sem abrir subagente use `/critica`; para reescrever prosa, `/melhore`; para só a gramática, `/portugues`.
+description: Roda verificação adversarial cega sobre trabalho recém-executado nesta sessão — código, pesquisa, laudo, explicação, planilha, config. Um subagente refutador que não vê o raciocínio do executor tenta derrubá-lo, dá nota de 0 a 100 por rubrica, e nota igual ou menor que 85 dispara nova rodada com mais refutadores, até 3 rodadas. Use quando o usuário invocar `/verificar`, pedir para "conferir se está certo mesmo", "auditar o que você acabou de fazer", "rodar o refutador" ou "checar antes de commitar/mandar/assinar". Só roda quando o usuário pede — nenhuma conclusão de tarefa, commit ou push a dispara sozinha. Distingue-se das vizinhas pelo objeto e pelo método, não pelo assunto — o objeto é sempre trabalho que esta sessão acabou de produzir, e quem dá a nota é sempre um agente cego e separado. Para auditar laudo já redigido sem abrir subagente use `/critica`; para reescrever prosa, `/melhore`; para só a gramática, `/portugues`.
 ---
 
 # Verificação adversarial cega (`/verificar`)
@@ -9,19 +9,13 @@ Quem executa não dá a nota. Esta skill entrega o trabalho recém-feito a um re
 
 Ela funciona em qualquer contexto: código, pesquisa factual, laudo radiológico, explicação didática, dados, configuração. O que muda entre domínios é onde a falha costuma se esconder, não o procedimento — ver `references/angulos-por-dominio.md`.
 
-## Relação com `.claude/rules/verificacao-adversarial.md`
+## Quando esta skill roda
 
-Quando o repositório tiver esse arquivo, leia-o: ele é a política, esta skill é o procedimento que a executa, e ele pode trazer exigências locais que a skill não conhece. Quando não tiver, a skill se basta sozinha.
+Só quando o usuário a invoca: `/verificar`, "roda o refutador", "confere isso antes de eu commitar". **Não é ciclo automático** — nenhuma conclusão de tarefa, commit, push ou alegação de "pronto" dispara esta skill por conta própria. O ciclo adversarial custa tempo e tokens, e quem decide se um trabalho vale esse custo é o usuário, caso a caso.
 
-Onde os dois textos divergirem, saiba exatamente em quê, porque a divergência é deliberada e estreita. São **três** pontos, e nenhum outro:
+(Este repositório já teve uma regra de projeto, `.claude/rules/verificacao-adversarial.md`, que tornava a refutação obrigatória antes de qualquer alegação de conclusão. Ela foi removida justamente por isso: rodar refutador após cada comando saía caro demais. Se você encontrar referência a ela em algum texto antigo, ela não vale mais.)
 
-- **Achado puramente cosmético não força rodada nova.** A regra manda repetir o ciclo diante de qualquer `REFUTADO`. Preferência de redação não é defeito, e tratá-la como defeito faria o ciclo nunca fechar. A fronteira do cosmético está fixada em `references/rubrica.md` e é estreita de propósito: na dúvida, não é cosmético.
-- **Achado que não reproduz vira `CONTESTADO` em vez de correção.** A regra não previu falso positivo do refutador; corrigir defeito fantasma degrada o trabalho. A contestação exige reteste documentado e morre no terceiro levantamento independente, virando divergência aberta para o usuário.
-- **O registro de alegações não vai ao refutador.** Aqui a skill inverte a regra, não a estende: o Papel A dela diz que alegação marcada `SEM EVIDÊNCIA` "passa ao refutador como suspeita prioritária", e o prompt dela manda atacar essas marcas primeiro. Esta skill mantém o registro com o executor (documento 1b) porque uma lista de alegações de sucesso redigida pelo auditado dirige o olhar de quem audita, ainda que sem mentir uma palavra. Onde os dois se contradizem neste ponto, **prevalece a skill**.
-
-Fora dessas três, vale a regra: qualquer `REFUTADO` de pé é rodada nova, e remendar para declarar pronto está proibido.
-
-A regra também carrega um prompt de refutador próprio, mais curto, sem nota e sem rodadas. O de `references/prompt-refutador.md` é a versão estendida dele e é o que esta skill usa — a instrução de "copiar literalmente" se refere a esse, não ao da regra.
+Uma vez invocada, o ciclo abaixo vale inteiro: qualquer `REFUTADO` de pé é rodada nova, com duas exceções deliberadas e estreitas — achado puramente cosmético não força rodada (a fronteira está fixada em `references/rubrica.md` e é estreita de propósito: na dúvida, não é cosmético), e achado que não reproduz vira `CONTESTADO` documentado, com reteste, em vez de correção. Remendar para declarar pronto continua proibido.
 
 ## 0. Delimitar o que está sob verificação
 

@@ -710,7 +710,7 @@ matches:
     replace: Alterações actínicas comprometendo as vértebras lombares inferiores e peças sacrais.
     word: true
 
-  - trigger: "artrodese"
+  - trigger: "artrod"
     label: "Alterações pós-cirúrgicas de artrodese lombar com haste"
     replace: "Alterações pós-cirúrgicas de artrodese lombar com haste e parafusos transpediculares fixados nos corpos vertebrais de T12 a L2, com artefatos metálicos de susceptibilidade magnética, degradando parcialmente a análise das imagens."
     word: true
@@ -1163,7 +1163,7 @@ matches:
     replace: "Sinal de edema da medula óssea da clavícula distal com baixo sinal linear subcondral, podendo representar pequena fratura. Considerar a possibilidade de osteólise da clavícula distal dentre as hipóteses diagnósticas."
     word: true
 
-  - trigger: "osteomielite"
+  - trigger: "osteom"
     label: "Osteomielite crônica da tíbia com abscesso"
     replace: |-
       Fratura antiga cominutiva da tíbia proximal, sem sinais de consolidação satisfatória, determinando perda da morfologia habitual da região metaepifisária, com alteração do sinal da medular óssea, identificando-se coleção intramedular que exibe realce periférico pelo meio de contraste paramagnético endovenoso, sugestiva de abscesso, medindo cerca de _ cm, com volume de _ cm³. Identifica-se ponto de rotura da cortical óssea por trajeto de drenagem (cloaca) que se comunica com a pele e o tecido celular subcutâneo na face anterior da perna. Associam-se áreas de hipossinal persistente ao redor da lesão, podendo representar sequestro ósseo, além de aumento volumétrico de partes moles adjacentes.
@@ -1377,7 +1377,7 @@ matches:
 
   - trigger: "tumorcauda"
     label: "Formação nodular sólida relacionada às raízes nervosas"
-    replace: "Formação nodular sólida relacionada às raízes nervosas da cauda equina, localizada na altura do corpo vertebral de L1. A possibilidade de neoplasia neurogênica (Schwannoma/neurofibroma) deve ser considerada como uma das principais hipóteses diagnósticas. Comparativamente ao exame realizado neste serviço em 03/12/2018, não foi observada alteração digna de nota."
+    replace: "Formação nodular sólida relacionada às raízes nervosas da cauda equina, localizada na altura do corpo vertebral de L1. A possibilidade de neoplasia neurogênica (Schwannoma/neurofibroma) deve ser considerada como uma das principais hipóteses diagnósticas. Comparativamente ao exame realizado neste serviço em _, não foi observada alteração digna de nota."
     word: true
 
   - trigger: "us1"
@@ -1571,7 +1571,7 @@ matches:
   - trigger: "anali2"
     label: "Comparativo com exame anterior"
     replace: |-
-      A análise comparativa com o exame realizado em 22/06/2022 evidencia:
+      A análise comparativa com o exame realizado em _ evidencia:
 
 
       Permanecendo:
@@ -2046,7 +2046,7 @@ matches:
       Classificação PI-RADS 3.
     word: true
 
-  - trigger: "pancreatite"
+  - trigger: "pacreat"
     label: "Pancreatite aguda"
     replace: "Pâncreas com discreto aumento das dimensões e sinal heterogêneo do seu parênquima. Observa-se alteração do sinal da gordura peripancreática adjacente, com espessamento da fáscia pararrenal anterior e aumento do número de linfonodos regionais. Existe também pequena quantidade de líquido livre peri-hepático, pericolecístico e nos espaços pararrenais, sem coleções organizadas. O conjunto de achados sugere processo inflamatório glandular."
     word: true
@@ -2306,7 +2306,7 @@ matches:
     replace: Distensão líquida da bursa subacromial / subdeltoidea.
     word: true
 
-  - trigger: "bursite"
+  - trigger: "ombursite"
     label: "Distensão líquida da bursa subacromial / subdeltoidea"
     replace: "Distensão líquida da bursa subacromial / subdeltoidea, inferindo bursite."
     word: true
@@ -2512,7 +2512,7 @@ matches:
     replace: "Artropatia degenerativa em fase inflamatória comprometendo o quadril esquerdo, caracterizada por redução do espaço articular, reações osteofitárias marginais, acentuadas erosões/cistos subcondrais em ambos os componentes, com fissuras condrais profundas, edema ósseo subcondral e derrame articular com sinais de sinovite. Este conjunto de achados pode estar relacionado a osteoartrite/osteoartrose."
     word: true
 
-  - trigger: "atrito"
+  - trigger: "peatrito"
     label: "Lesão por pressão/atrito crônico sob as cabeças"
     replace: Lesão por pressão/atrito crônico sob as cabeças do 1º e 5º metatarsos.
     word: true
@@ -2597,7 +2597,7 @@ matches:
     replace: Condropatia avançada do compartimento femorotibial lateral.
     word: true
 
-  - trigger: "celulite"
+  - trigger: "micelulite"
     label: "Celulite de membro inferior"
     replace: "Espessamento da pele e das fáscias intermusculares em todo o membro inferior, com hiperintensidade subcutânea reticular difusa, mal definida, tendendo a acumular-se na hipoderme, sugerindo representar edema/processo inflamatório diante do contexto clínico, sem caracterizar coleções no presente estudo. Há sinais de perda de substância por provável manipulação cirúrgica no terço distal da perna e no aspecto lateral do antepé."
     word: true
@@ -4000,7 +4000,7 @@ matches:
       Exame de ressonância magnética de crânio, realizado pela técnica de spin-eco pesada em T1, técnica de Turbo spin-eco pesada em T2, gradiente S.W.I., difusão e técnica de FLAIR, com aquisições multiplanares.
 
       Descrição:
-      Em comparação com o exame anterior de 10/07/2023, realizado em outro serviço, observa-se redução do número e da intensidade de sinal das pequenas lesões de alto sinal em T2 e FLAIR localizadas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, algumas com orientação perpendicular à linha ependimária, sugestivas de lesões com substrato desmielinizante.
+      Em comparação com o exame anterior de _, realizado em outro serviço, observa-se redução do número e da intensidade de sinal das pequenas lesões de alto sinal em T2 e FLAIR localizadas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, algumas com orientação perpendicular à linha ependimária, sugestivas de lesões com substrato desmielinizante.
 
       Restante do parênquima encefálico de morfologia e características de sinal conservadas.
 
@@ -4017,7 +4017,7 @@ matches:
       Após a administração do gadolínio não foi observado realce anômalo.
 
       Conclusão:
-      Em comparação com o exame anterior de 10/07/2023, realizado em outro serviço, observa-se redução do número e da intensidade de sinal das pequenas lesões de alto sinal em T2 e FLAIR localizadas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, algumas com orientação perpendicular à linha ependimária, sugestivas de lesões com substrato desmielinizante.
+      Em comparação com o exame anterior de _, realizado em outro serviço, observa-se redução do número e da intensidade de sinal das pequenas lesões de alto sinal em T2 e FLAIR localizadas na substância branca periventricular e subcortical bilateral, sem restrição à difusão, algumas com orientação perpendicular à linha ependimária, sugestivas de lesões com substrato desmielinizante.
 
       Ausência de novas lesões ativas neste controle.
 
@@ -6623,7 +6623,7 @@ matches:
       Técnica:
       Foram realizadas sequências multiplanares SE e FSE, ponderadas em T1 e T2, antes e após a injeção do meio de contraste paramagnético (gadolínio). Utilizado gel para distender o reto e o canal vaginal.
 
-      A análise comparativa com o exame de 25/10/2023 evidenciou:
+      A análise comparativa com o exame de _ evidenciou:
       Antecedente de ooforoplastia bilateral.
       Observa-se lesão de natureza fibroaderencial na região retrouterina, promovendo aproximação dos ovários às estruturas retrocervicais, resultando em disposição medianizada. Os achados são inespecíficos, podendo representar alterações aderenciais pós-cirúrgicas ou foco de endometriose profunda.
       Resolução do cisto com constituinte hemorrágico, localizado na região paraovariana direita.
@@ -7204,7 +7204,7 @@ matches:
 
   - trigger: "anc"
     label: "Comparativo com exame anterior"
-    replace: "A análise comparativa com o exame realizado no dia 06/12/2021 evidencia:"
+    replace: "A análise comparativa com o exame realizado no dia _ evidencia:"
     word: true
 
   - trigger: "arbo"
