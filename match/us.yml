@@ -289,7 +289,7 @@ matches:
     
   - trigger: "eh1c"
     label: "Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I)"
-    replace: Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I).
+    replace: Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I), mais comumente associada à esteatose hepática.
     word: true
 
   - trigger: "eh2"
@@ -299,7 +299,7 @@ matches:
     
   - trigger: "eh2c"
     label: "Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito moderada (grau II)"
-    replace: Sinais ecográficos sugestivos de hepatopatia de depósito moderada (grau II).
+    replace: Sinais ecográficos sugestivos de hepatopatia de depósito moderada (grau II), mais comumente associada à esteatose hepática.
     word: true
 
   - trigger: "eh3"
@@ -309,7 +309,7 @@ matches:
 
   - trigger: "eh3c"
     label: "Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito acentuada (grau III)"
-    replace: Sinais ecográficos sugestivos de hepatopatia de depósito acentuada (grau III).
+    replace: Sinais ecográficos sugestivos de hepatopatia de depósito acentuada (grau III), mais comumente associada à esteatose hepática.
     word: true
 
   - trigger: "fh1"
@@ -1874,21 +1874,24 @@ matches:
 
   # ==============================================================================
   # MAMAS E LINFONODOS AXILARES
+  # BI-RADS v2025: ma13–ma90 e seus aliases descritivos não atribuem categoria
+  # automaticamente. Preencher lateralidade, hora, distância e medidas antes de usar.
   # ==============================================================================
 
   - trigger: "usmamas"
-    label: Mamas — normal (BI-RADS 1)
+    label: Mamas — normal (BI-RADS 1; composição a preencher)
     replace: |-
       ULTRASSONOGRAFIA DAS MAMAS
 
       Técnica:
       Exame realizado com transdutor linear multifrequencial.
 
-      Análise:
+      Descrição:
       Pele e tecido subcutâneo de aspecto ecográfico preservado.
-      O tecido glandular mamário tem textura ecográfica homogênea.
-      Ausência de nódulos sólidos ou cistos.
-      Prolongamentos axilares, regiões retropapilares e para-esternais livres.
+      Parênquima mamário com ecotextura [homogênea adiposa/heterogênea/homogênea fibroglandular] e componente glandular [mínimo/discreto/moderado/acentuado].
+      Ausência de massas, lesões não massa ou coleções.
+      Regiões retroareolares sem dilatação ductal ou lesões focais.
+      Linfonodos axilares de morfologia habitual.
 
       Conclusão:
       Mamas normais ao ultrassom.
@@ -1995,6 +1998,830 @@ matches:
   - trigger: "ma6c"
     label: "Mama: Microcistos agrupados bilaterais"
     replace: Microcistos agrupados em ambas as mamas.
+    word: true
+
+  # --- COMPOSIÇÃO E ACHADOS NORMAIS (US; não usar densidade a–d da mamografia) ---
+
+  - trigger: "ma13"
+    label: "Mama (US): ecotextura homogênea adiposa"
+    replace: Parênquima mamário com ecotextura homogênea, predominantemente adiposa.
+    word: true
+
+  - trigger: "ma14"
+    label: "Mama (US): ecotextura heterogênea"
+    replace: Parênquima mamário com ecotextura heterogênea, composto por tecido adiposo e fibroglandular.
+    word: true
+
+  - trigger: "ma15"
+    label: "Mama (US): ecotextura homogênea fibroglandular"
+    replace: Parênquima mamário com ecotextura homogênea, predominantemente fibroglandular.
+    word: true
+
+  - trigger: "ma16"
+    label: "Mama (US): componente glandular mínimo (<25%)"
+    replace: Componente glandular mínimo, inferior a 25% do tecido fibroglandular.
+    word: true
+
+  - trigger: "ma17"
+    label: "Mama (US): componente glandular discreto (25–49%)"
+    replace: Componente glandular discreto, correspondente a 25% a 49% do tecido fibroglandular.
+    word: true
+
+  - trigger: "ma18"
+    label: "Mama (US): componente glandular moderado (50–74%)"
+    replace: Componente glandular moderado, correspondente a 50% a 74% do tecido fibroglandular.
+    word: true
+
+  - trigger: "ma19"
+    label: "Mama (US): componente glandular acentuado (≥75%)"
+    replace: Componente glandular acentuado, correspondente a pelo menos 75% do tecido fibroglandular.
+    word: true
+
+  - trigger: "ma20"
+    label: "Mama (US): pele e subcutâneo preservados"
+    replace: Pele e tecido subcutâneo de espessura e ecotextura habituais.
+    word: true
+
+  - trigger: "ma21"
+    label: "Mama (US): ausência de lesões focais"
+    replace: Ausência de massas, lesões não massa ou coleções nas mamas examinadas.
+    word: true
+
+  - trigger: "ma22"
+    label: "Mama (US): regiões retroareolares preservadas"
+    replace: Regiões retroareolares sem dilatação ductal ou lesões focais.
+    word: true
+
+  - trigger: "ma23"
+    label: "Mama (US): ausência de correspondente para achado palpável"
+    replace: Na área palpável da mama [direita/esquerda], às _ horas, a _ cm da papila, não se identifica alteração focal ao ultrassom.
+    word: true
+
+  - trigger: "ma24"
+    label: "Mama (US): ausência de correspondente para achado mamográfico"
+    replace: Na topografia do achado mamográfico da mama [direita/esquerda], às _ horas, a _ cm da papila, não se identifica correspondente ultrassonográfico.
+    word: true
+
+  # --- MASSAS: forma, margem, orientação e padrão ecogênico ---
+
+  - trigger: "ma25"
+    label: "Mama (US): massa oval circunscrita e paralela"
+    replace: Massa sólida oval, hipoecogênica, circunscrita e paralela à pele, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
+    word: true
+
+  - trigger: "ma26"
+    label: "Mama (US): massa lobulada circunscrita e paralela"
+    replace: Massa sólida lobulada, hipoecogênica, circunscrita e paralela à pele, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma27"
+    label: "Mama (US): massa redonda circunscrita"
+    replace: Massa sólida redonda, hipoecogênica e circunscrita, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma28"
+    label: "Mama (US): massa irregular de margem indistinta"
+    replace: Massa sólida irregular, hipoecogênica, de margens indistintas, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma29"
+    label: "Mama (US): massa de margem microlobulada"
+    replace: Massa sólida [oval/lobulada/irregular], hipoecogênica, de margens microlobuladas, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma30"
+    label: "Mama (US): massa de margem angular"
+    replace: Massa sólida irregular, hipoecogênica, de margens angulares, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma31"
+    label: "Mama (US): massa espiculada e não paralela"
+    replace: Massa sólida irregular, hipoecogênica, de margens espiculadas e orientação não paralela à pele, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma32"
+    label: "Mama (US): massa hiperecogênica"
+    replace: Massa sólida hiperecogênica, [oval/lobulada/irregular], de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma33"
+    label: "Mama (US): massa isoecogênica"
+    replace: Massa sólida isoecogênica, [oval/lobulada/irregular], de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma34"
+    label: "Mama (US): massa heterogênea"
+    replace: Massa sólida heterogênea, [oval/lobulada/irregular], de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma35"
+    label: "Mama (US): massa mista sólida e cística"
+    replace: Massa mista sólida e cística, com componente sólido [mural/central/periférico] de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila. O componente sólido apresenta vascularização ao Doppler.
+    word: true
+
+  - trigger: "ma36"
+    label: "Mama (US): massas circunscritas múltiplas bilaterais"
+    replace: Múltiplas massas sólidas ovais, circunscritas e paralelas à pele, distribuídas por ambas as mamas, sem massa dominante ou de morfologia distinta.
+    word: true
+
+  - trigger: "ma37"
+    label: "Mama (US): massa parametrizada (descritores v2025)"
+    replace: Massa sólida de forma [oval/lobulada/irregular], margens [circunscritas/indistintas/microlobuladas/angulares/espiculadas], orientação [paralela/não paralela] à pele e ecogenicidade [hipoecogênica/isoecogênica/hiperecogênica/heterogênea], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
+    word: true
+
+  - trigger: "ma38"
+    label: "Mama (US): massa mamária (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
+  # --- CISTOS E MICRO CISTOS ---
+
+  - trigger: "ma39"
+    label: "Mama (US): cisto simples"
+    replace: Cisto de paredes finas, margens circunscritas e conteúdo anecoico, com reforço acústico posterior, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma40"
+    label: "Mama (US): cistos simples múltiplos bilaterais"
+    replace: Cistos simples de paredes finas e conteúdo anecoico, distribuídos por ambas as mamas, o maior medindo _ cm às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma41"
+    label: "Mama (US): cisto complicado isolado"
+    replace: Cisto de paredes finas, com ecos internos móveis de baixo nível, sem componente sólido discreto ou vascularização interna, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma42"
+    label: "Mama (US): cistos complicados múltiplos bilaterais"
+    replace: Múltiplos cistos de paredes finas e ecos internos de baixo nível, sem componente sólido discreto, distribuídos por ambas as mamas.
+    word: true
+
+  - trigger: "ma43"
+    label: "Mama (US): microcistos agrupados típicos"
+    replace: Microcistos anecoicos agrupados, separados por septos finos, sem componente sólido discreto, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma44"
+    label: "Mama (US): microcistos com margem indistinta"
+    replace: Agrupamento de microcistos com margens parcialmente indistintas, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma45"
+    label: "Mama (US): lesão cística com nódulo mural"
+    replace: Lesão mista sólida e cística, com nódulo mural de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma46"
+    label: "Mama (US): cisto mamário (conclusão)"
+    replace: Cisto na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
+  # --- LESÕES NÃO MASSA E CALCIFICAÇÕES ---
+
+  - trigger: "ma47"
+    label: "Mama (US): lesão não massa focal"
+    replace: Lesão não massa hipoecogênica focal, distinta do parênquima adjacente e reprodutível em dois planos, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma48"
+    label: "Mama (US): lesão não massa linear"
+    replace: Lesão não massa hipoecogênica de distribuição linear, reprodutível em dois planos, com extensão de _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma49"
+    label: "Mama (US): lesão não massa segmentar com focos ecogênicos"
+    replace: Lesão não massa hipoecogênica de distribuição segmentar, com focos ecogênicos internos, reprodutível em dois planos, com extensão de _ cm na mama [direita/esquerda], entre _ e _ horas, a _ cm da papila.
+    word: true
+
+  - trigger: "ma50"
+    label: "Mama (US): lesão não massa regional"
+    replace: Lesão não massa de ecotextura heterogênea e distribuição regional, distinta do parênquima adjacente e reprodutível em dois planos, com extensão de _ cm na mama [direita/esquerda].
+    word: true
+
+  - trigger: "ma51"
+    label: "Mama (US): lesão não massa (conclusão)"
+    replace: Lesão não massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
+  - trigger: "ma52"
+    label: "Mama (US): microcalcificações em massa"
+    replace: Focos ecogênicos puntiformes no interior da massa da mama [direita/esquerda], às _ horas, a _ cm da papila, correspondentes a microcalcificações no estudo mamográfico.
+    word: true
+
+  - trigger: "ma53"
+    label: "Mama (US): microcalcificações fora de massa"
+    replace: Focos ecogênicos puntiformes fora de massa, na mama [direita/esquerda], às _ horas, a _ cm da papila, correspondentes a microcalcificações no estudo mamográfico.
+    word: true
+
+  - trigger: "ma54"
+    label: "Mama (US): microcalcificações intraductais"
+    replace: Focos ecogênicos puntiformes intraductais na mama [direita/esquerda], às _ horas, a _ cm da papila, correspondentes a microcalcificações no estudo mamográfico.
+    word: true
+
+  - trigger: "ma55"
+    label: "Mama (US): macrocalcificação em massa"
+    replace: Foco ecogênico grosseiro com sombra acústica posterior no interior da massa da mama [direita/esquerda], às _ horas, a _ cm da papila, compatível com macrocalcificação.
+    word: true
+
+  # --- CARACTERÍSTICAS POSTERIORES E ACHADOS ASSOCIADOS ---
+
+  - trigger: "ma56"
+    label: "Mama (US): reforço acústico posterior"
+    replace: Associa-se reforço acústico posterior.
+    word: true
+
+  - trigger: "ma57"
+    label: "Mama (US): sombra acústica posterior"
+    replace: Associa-se sombra acústica posterior à lesão.
+    word: true
+
+  - trigger: "ma58"
+    label: "Mama (US): pseudocápsula ecogênica fina"
+    replace: Associa-se fina pseudocápsula ecogênica uniforme em torno da massa.
+    word: true
+
+  - trigger: "ma59"
+    label: "Mama (US): halo ecogênico espesso (rind)"
+    replace: Associa-se halo ecogênico espesso e irregular, com alteração da ecotextura adjacente e extensão de _ cm ao redor da lesão.
+    word: true
+
+  - trigger: "ma60"
+    label: "Mama (US): distorção arquitetural"
+    replace: Distorção arquitetural na mama [direita/esquerda], às _ horas, a _ cm da papila, com convergência das traves do parênquima e extensão de _ cm.
+    word: true
+
+  - trigger: "ma61"
+    label: "Mama (US): edema mamário"
+    replace: Edema do parênquima da mama [direita/esquerda], caracterizado por linhas hipoecoicas interconectadas entre os lóbulos adiposos.
+    word: true
+
+  - trigger: "ma62"
+    label: "Mama (US): espessamento cutâneo"
+    replace: Espessamento da pele da mama [direita/esquerda] no setor _, medindo até _ mm, associado a [preservação/perda] das linhas ecogênicas dérmicas.
+    word: true
+
+  - trigger: "ma63"
+    label: "Mama (US): retração cutânea ou papilar"
+    replace: Retração [cutânea/papilar] na mama [direita/esquerda], adjacente à lesão descrita.
+    word: true
+
+  - trigger: "ma64"
+    label: "Mama (US): vascularização interna"
+    replace: A lesão apresenta vascularização interna ao Doppler colorido.
+    word: true
+
+  - trigger: "ma65"
+    label: "Mama (US): vascularização periférica"
+    replace: A lesão apresenta vascularização periférica ao Doppler colorido.
+    word: true
+
+  - trigger: "ma66"
+    label: "Mama (US): ausência de fluxo detectável"
+    replace: Não se detecta fluxo no interior da lesão ao Doppler colorido.
+    word: true
+
+  # --- DUCTOS E ACHADOS ESPECIAIS ---
+
+  - trigger: "ma67"
+    label: "Mama (US): ectasia ductal simples"
+    replace: Ductos retroareolares dilatados na mama [direita/esquerda], com conteúdo anecoico e sem componente sólido intraductal.
+    word: true
+
+  - trigger: "ma68"
+    label: "Mama (US): ducto dilatado com debris"
+    replace: Ducto dilatado na mama [direita/esquerda], às _ horas, com ecos internos móveis e sem componente sólido discreto ou fluxo intraductal.
+    word: true
+
+  - trigger: "ma69"
+    label: "Mama (US): massa intraductal vascularizada"
+    replace: Massa sólida intraductal na mama [direita/esquerda], às _ horas, a _ cm da papila, medindo _ x _ x _ cm, com vascularização interna ao Doppler colorido.
+    word: true
+
+  - trigger: "ma70"
+    label: "Mama (US): dilatação ductal focal com alteração parietal"
+    replace: Ducto focalmente dilatado na mama [direita/esquerda], às _ horas, a _ cm da papila, com espessamento parietal irregular e calibre de _ mm.
+    word: true
+
+  - trigger: "ma71"
+    label: "Mama (US): lesão cutânea com conexão dérmica"
+    replace: Lesão circunscrita localizada entre as linhas ecogênicas da pele da mama [direita/esquerda], às _ horas, com conexão dérmica, medindo _ x _ x _ cm.
+    word: true
+
+  - trigger: "ma72"
+    label: "Mama (US): coleção pós-operatória avascular"
+    replace: Coleção de conteúdo líquido e sem fluxo interno ao Doppler na loja cirúrgica da mama [direita/esquerda], medindo _ x _ x _ cm.
+    word: true
+
+  - trigger: "ma73"
+    label: "Mama (US): coleção complexa com alterações inflamatórias"
+    replace: Coleção de paredes espessas e conteúdo heterogêneo na mama [direita/esquerda], às _ horas, medindo _ x _ x _ cm, associada a edema e hiperemia dos tecidos adjacentes.
+    word: true
+
+  - trigger: "ma74"
+    label: "Mama (US): necrose gordurosa suspeitada"
+    replace: Lesão heterogênea no tecido adiposo da mama [direita/esquerda], às _ horas, medindo _ x _ x _ cm, no sítio de [cirurgia/trauma] prévio, com aspecto que pode corresponder a necrose gordurosa. Correlacionar com a mamografia.
+    word: true
+
+  - trigger: "ma75"
+    label: "Mama (US): linfonodo intramamário típico"
+    replace: Linfonodo intramamário oval, circunscrito, com hilo gorduroso ecogênico, medindo _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma76"
+    label: "Mama (US): parênquima glandular focal proeminente"
+    replace: Tecido fibroglandular proeminente na área palpável da mama [direita/esquerda], às _ horas, que se dispersa à compressão, sem massa definida.
+    word: true
+
+  # --- LINFONODOS AXILARES ---
+
+  - trigger: "ma77"
+    label: "Mama (US): linfonodos axilares de morfologia habitual"
+    replace: Linfonodos axilares bilaterais ovais ou reniformes, com hilo gorduroso preservado e córtex fino.
+    word: true
+
+  - trigger: "ma78"
+    label: "Mama (US): espessamento cortical difuso de linfonodo"
+    replace: Linfonodo axilar [direito/esquerdo] oval, com espessamento cortical difuso de até _ mm e hilo gorduroso preservado, medindo _ cm.
+    word: true
+
+  - trigger: "ma79"
+    label: "Mama (US): espessamento cortical focal de linfonodo"
+    replace: Linfonodo axilar [direito/esquerdo] com espessamento cortical focal excêntrico de _ mm, compressão do hilo gorduroso e medida de _ cm.
+    word: true
+
+  - trigger: "ma80"
+    label: "Mama (US): linfonodo arredondado sem hilo"
+    replace: Linfonodo axilar [direito/esquerdo] arredondado, hipoecogênico, com apagamento completo do hilo gorduroso, medindo _ cm.
+    word: true
+
+  - trigger: "ma81"
+    label: "Mama (US): vascularização cortical de linfonodo"
+    replace: Linfonodo axilar [direito/esquerdo] com vascularização cortical periférica ao Doppler colorido e córtex de _ mm.
+    word: true
+
+  - trigger: "ma82"
+    label: "Mama (US): linfonodo com margem indistinta"
+    replace: Linfonodo axilar [direito/esquerdo] de contornos indistintos, com perda da diferenciação corticomedular e medida de _ cm.
+    word: true
+
+  - trigger: "ma83"
+    label: "Mama (US): linfonodo axilar alterado (conclusão)"
+    replace: Linfonodo axilar [direito/esquerdo] de morfologia alterada, com as características acima descritas.
+    word: true
+
+  # --- COMPARAÇÃO E CONCLUSÕES CURTAS ---
+
+  - trigger: "ma84"
+    label: "Mama (US): estabilidade em comparação"
+    replace: Achado na mama [direita/esquerda] estável em morfologia e dimensões desde o exame de _.
+    word: true
+
+  - trigger: "ma85"
+    label: "Mama (US): achado novo em comparação"
+    replace: Achado na mama [direita/esquerda] não identificado no exame anterior de _.
+    word: true
+
+  - trigger: "ma86"
+    label: "Mama (US): crescimento em comparação"
+    replace: Achado na mama [direita/esquerda] com aumento de _ para _ cm em relação ao exame de _.
+    word: true
+
+  - trigger: "ma87"
+    label: "Mama (US): cistos simples (conclusão)"
+    replace: Cistos simples mamários.
+    word: true
+
+  - trigger: "ma88"
+    label: "Mama (US): microcistos agrupados (conclusão)"
+    replace: Microcistos agrupados na mama [direita/esquerda].
+    word: true
+
+  - trigger: "ma89"
+    label: "Mama (US): cisto complicado (conclusão)"
+    replace: Cisto complicado na mama [direita/esquerda].
+    word: true
+
+  - trigger: "ma90"
+    label: "Mama (US): massa mista sólida e cística (conclusão)"
+    replace: Massa mista sólida e cística na mama [direita/esquerda].
+    word: true
+
+  # ==============================================================================
+  # ALIASES DESCRITIVOS DE MA13–MA90
+  # Mantêm o prefixo `ma` colado ao descritor para evitar disparos acidentais.
+  # ==============================================================================
+
+  # --- COMPOSIÇÃO E ACHADOS NORMAIS ---
+
+  - trigger: "maecoadiposa"
+    label: "Mama (US): ecotextura homogênea adiposa"
+    replace: Parênquima mamário com ecotextura homogênea, predominantemente adiposa.
+    word: true
+
+  - trigger: "maecoheterogenea"
+    label: "Mama (US): ecotextura heterogênea"
+    replace: Parênquima mamário com ecotextura heterogênea, composto por tecido adiposo e fibroglandular.
+    word: true
+
+  - trigger: "maecofibroglandular"
+    label: "Mama (US): ecotextura homogênea fibroglandular"
+    replace: Parênquima mamário com ecotextura homogênea, predominantemente fibroglandular.
+    word: true
+
+  - trigger: "maglandularminimo"
+    label: "Mama (US): componente glandular mínimo (<25%)"
+    replace: Componente glandular mínimo, inferior a 25% do tecido fibroglandular.
+    word: true
+
+  - trigger: "maglandulardiscreto"
+    label: "Mama (US): componente glandular discreto (25–49%)"
+    replace: Componente glandular discreto, correspondente a 25% a 49% do tecido fibroglandular.
+    word: true
+
+  - trigger: "maglandularmoderado"
+    label: "Mama (US): componente glandular moderado (50–74%)"
+    replace: Componente glandular moderado, correspondente a 50% a 74% do tecido fibroglandular.
+    word: true
+
+  - trigger: "maglandularacentuado"
+    label: "Mama (US): componente glandular acentuado (≥75%)"
+    replace: Componente glandular acentuado, correspondente a pelo menos 75% do tecido fibroglandular.
+    word: true
+
+  - trigger: "mapele"
+    label: "Mama (US): pele e subcutâneo preservados"
+    replace: Pele e tecido subcutâneo de espessura e ecotextura habituais.
+    word: true
+
+  - trigger: "masemlesao"
+    label: "Mama (US): ausência de lesões focais"
+    replace: Ausência de massas, lesões não massa ou coleções nas mamas examinadas.
+    word: true
+
+  - trigger: "maretroareolar"
+    label: "Mama (US): regiões retroareolares preservadas"
+    replace: Regiões retroareolares sem dilatação ductal ou lesões focais.
+    word: true
+
+  - trigger: "masempalpavel"
+    label: "Mama (US): ausência de correspondente para achado palpável"
+    replace: Na área palpável da mama [direita/esquerda], às _ horas, a _ cm da papila, não se identifica alteração focal ao ultrassom.
+    word: true
+
+  - trigger: "masemcorrelato"
+    label: "Mama (US): ausência de correspondente para achado mamográfico"
+    replace: Na topografia do achado mamográfico da mama [direita/esquerda], às _ horas, a _ cm da papila, não se identifica correspondente ultrassonográfico.
+    word: true
+
+
+  # --- MASSAS ---
+
+  - trigger: "mamassaoval"
+    label: "Mama (US): massa oval circunscrita e paralela"
+    replace: Massa sólida oval, hipoecogênica, circunscrita e paralela à pele, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
+    word: true
+
+  - trigger: "mamassalobulada"
+    label: "Mama (US): massa lobulada circunscrita e paralela"
+    replace: Massa sólida lobulada, hipoecogênica, circunscrita e paralela à pele, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mamassaredonda"
+    label: "Mama (US): massa redonda circunscrita"
+    replace: Massa sólida redonda, hipoecogênica e circunscrita, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mamassairregular"
+    label: "Mama (US): massa irregular de margem indistinta"
+    replace: Massa sólida irregular, hipoecogênica, de margens indistintas, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mamassamicrolobulada"
+    label: "Mama (US): massa de margem microlobulada"
+    replace: Massa sólida [oval/lobulada/irregular], hipoecogênica, de margens microlobuladas, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mamassaangular"
+    label: "Mama (US): massa de margem angular"
+    replace: Massa sólida irregular, hipoecogênica, de margens angulares, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mamassaespiculada"
+    label: "Mama (US): massa espiculada e não paralela"
+    replace: Massa sólida irregular, hipoecogênica, de margens espiculadas e orientação não paralela à pele, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mamassahiperecogenica"
+    label: "Mama (US): massa hiperecogênica"
+    replace: Massa sólida hiperecogênica, [oval/lobulada/irregular], de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mamassaisoecogenica"
+    label: "Mama (US): massa isoecogênica"
+    replace: Massa sólida isoecogênica, [oval/lobulada/irregular], de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mamassaheterogenea"
+    label: "Mama (US): massa heterogênea"
+    replace: Massa sólida heterogênea, [oval/lobulada/irregular], de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mamassamista"
+    label: "Mama (US): massa mista sólida e cística"
+    replace: Massa mista sólida e cística, com componente sólido [mural/central/periférico] de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila. O componente sólido apresenta vascularização ao Doppler.
+    word: true
+
+  - trigger: "mamassasbilaterais"
+    label: "Mama (US): massas circunscritas múltiplas bilaterais"
+    replace: Múltiplas massas sólidas ovais, circunscritas e paralelas à pele, distribuídas por ambas as mamas, sem massa dominante ou de morfologia distinta.
+    word: true
+
+  - trigger: "mamassaparametrizada"
+    label: "Mama (US): massa parametrizada (descritores v2025)"
+    replace: Massa sólida de forma [oval/lobulada/irregular], margens [circunscritas/indistintas/microlobuladas/angulares/espiculadas], orientação [paralela/não paralela] à pele e ecogenicidade [hipoecogênica/isoecogênica/hiperecogênica/heterogênea], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
+    word: true
+
+  - trigger: "mamassac"
+    label: "Mama (US): massa mamária (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
+
+  # --- CISTOS E MICROCISTOS ---
+
+  - trigger: "macisto"
+    label: "Mama (US): cisto simples"
+    replace: Cisto de paredes finas, margens circunscritas e conteúdo anecoico, com reforço acústico posterior, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "macistos"
+    label: "Mama (US): cistos simples múltiplos bilaterais"
+    replace: Cistos simples de paredes finas e conteúdo anecoico, distribuídos por ambas as mamas, o maior medindo _ cm às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "macistocomplicado"
+    label: "Mama (US): cisto complicado isolado"
+    replace: Cisto de paredes finas, com ecos internos móveis de baixo nível, sem componente sólido discreto ou vascularização interna, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "macistoscomplicados"
+    label: "Mama (US): cistos complicados múltiplos bilaterais"
+    replace: Múltiplos cistos de paredes finas e ecos internos de baixo nível, sem componente sólido discreto, distribuídos por ambas as mamas.
+    word: true
+
+  - trigger: "mamicrocistos"
+    label: "Mama (US): microcistos agrupados típicos"
+    replace: Microcistos anecoicos agrupados, separados por septos finos, sem componente sólido discreto, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "mamicrocistosindistintos"
+    label: "Mama (US): microcistos com margem indistinta"
+    replace: Agrupamento de microcistos com margens parcialmente indistintas, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "macistonodulomural"
+    label: "Mama (US): lesão cística com nódulo mural"
+    replace: Lesão mista sólida e cística, com nódulo mural de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "macistoc"
+    label: "Mama (US): cisto mamário (conclusão)"
+    replace: Cisto na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
+
+  # --- LESÕES NÃO MASSA E CALCIFICAÇÕES ---
+
+  - trigger: "malesaonaomassa"
+    label: "Mama (US): lesão não massa focal"
+    replace: Lesão não massa hipoecogênica focal, distinta do parênquima adjacente e reprodutível em dois planos, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "malesaonaomassalinear"
+    label: "Mama (US): lesão não massa linear"
+    replace: Lesão não massa hipoecogênica de distribuição linear, reprodutível em dois planos, com extensão de _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "malesaonaomassasegmentar"
+    label: "Mama (US): lesão não massa segmentar com focos ecogênicos"
+    replace: Lesão não massa hipoecogênica de distribuição segmentar, com focos ecogênicos internos, reprodutível em dois planos, com extensão de _ cm na mama [direita/esquerda], entre _ e _ horas, a _ cm da papila.
+    word: true
+
+  - trigger: "malesaonaomassaregional"
+    label: "Mama (US): lesão não massa regional"
+    replace: Lesão não massa de ecotextura heterogênea e distribuição regional, distinta do parênquima adjacente e reprodutível em dois planos, com extensão de _ cm na mama [direita/esquerda].
+    word: true
+
+  - trigger: "malesaonaomassac"
+    label: "Mama (US): lesão não massa (conclusão)"
+    replace: Lesão não massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
+  - trigger: "mamicrocalcmassa"
+    label: "Mama (US): microcalcificações em massa"
+    replace: Focos ecogênicos puntiformes no interior da massa da mama [direita/esquerda], às _ horas, a _ cm da papila, correspondentes a microcalcificações no estudo mamográfico.
+    word: true
+
+  - trigger: "mamicrocalcforamassa"
+    label: "Mama (US): microcalcificações fora de massa"
+    replace: Focos ecogênicos puntiformes fora de massa, na mama [direita/esquerda], às _ horas, a _ cm da papila, correspondentes a microcalcificações no estudo mamográfico.
+    word: true
+
+  - trigger: "mamicrocalcintraductal"
+    label: "Mama (US): microcalcificações intraductais"
+    replace: Focos ecogênicos puntiformes intraductais na mama [direita/esquerda], às _ horas, a _ cm da papila, correspondentes a microcalcificações no estudo mamográfico.
+    word: true
+
+  - trigger: "mamacrocalcmassa"
+    label: "Mama (US): macrocalcificação em massa"
+    replace: Foco ecogênico grosseiro com sombra acústica posterior no interior da massa da mama [direita/esquerda], às _ horas, a _ cm da papila, compatível com macrocalcificação.
+    word: true
+
+
+  # --- CARACTERÍSTICAS POSTERIORES E ACHADOS ASSOCIADOS ---
+
+  - trigger: "mareforcoposterior"
+    label: "Mama (US): reforço acústico posterior"
+    replace: Associa-se reforço acústico posterior.
+    word: true
+
+  - trigger: "masombraposterior"
+    label: "Mama (US): sombra acústica posterior"
+    replace: Associa-se sombra acústica posterior à lesão.
+    word: true
+
+  - trigger: "mapseudocapsula"
+    label: "Mama (US): pseudocápsula ecogênica fina"
+    replace: Associa-se fina pseudocápsula ecogênica uniforme em torno da massa.
+    word: true
+
+  - trigger: "mahalo"
+    label: "Mama (US): halo ecogênico espesso (rind)"
+    replace: Associa-se halo ecogênico espesso e irregular, com alteração da ecotextura adjacente e extensão de _ cm ao redor da lesão.
+    word: true
+
+  - trigger: "madistorcao"
+    label: "Mama (US): distorção arquitetural"
+    replace: Distorção arquitetural na mama [direita/esquerda], às _ horas, a _ cm da papila, com convergência das traves do parênquima e extensão de _ cm.
+    word: true
+
+  - trigger: "maedema"
+    label: "Mama (US): edema mamário"
+    replace: Edema do parênquima da mama [direita/esquerda], caracterizado por linhas hipoecoicas interconectadas entre os lóbulos adiposos.
+    word: true
+
+  - trigger: "maespessamentopele"
+    label: "Mama (US): espessamento cutâneo"
+    replace: Espessamento da pele da mama [direita/esquerda] no setor _, medindo até _ mm, associado a [preservação/perda] das linhas ecogênicas dérmicas.
+    word: true
+
+  - trigger: "maretracao"
+    label: "Mama (US): retração cutânea ou papilar"
+    replace: Retração [cutânea/papilar] na mama [direita/esquerda], adjacente à lesão descrita.
+    word: true
+
+  - trigger: "mavascularinterna"
+    label: "Mama (US): vascularização interna"
+    replace: A lesão apresenta vascularização interna ao Doppler colorido.
+    word: true
+
+  - trigger: "mavascularperiferica"
+    label: "Mama (US): vascularização periférica"
+    replace: A lesão apresenta vascularização periférica ao Doppler colorido.
+    word: true
+
+  - trigger: "masemfluxo"
+    label: "Mama (US): ausência de fluxo detectável"
+    replace: Não se detecta fluxo no interior da lesão ao Doppler colorido.
+    word: true
+
+
+  # --- DUCTOS E ACHADOS ESPECIAIS ---
+
+  - trigger: "maectasiaductal"
+    label: "Mama (US): ectasia ductal simples"
+    replace: Ductos retroareolares dilatados na mama [direita/esquerda], com conteúdo anecoico e sem componente sólido intraductal.
+    word: true
+
+  - trigger: "maductodebris"
+    label: "Mama (US): ducto dilatado com debris"
+    replace: Ducto dilatado na mama [direita/esquerda], às _ horas, com ecos internos móveis e sem componente sólido discreto ou fluxo intraductal.
+    word: true
+
+  - trigger: "mamassaintraductal"
+    label: "Mama (US): massa intraductal vascularizada"
+    replace: Massa sólida intraductal na mama [direita/esquerda], às _ horas, a _ cm da papila, medindo _ x _ x _ cm, com vascularização interna ao Doppler colorido.
+    word: true
+
+  - trigger: "maductoparede"
+    label: "Mama (US): dilatação ductal focal com alteração parietal"
+    replace: Ducto focalmente dilatado na mama [direita/esquerda], às _ horas, a _ cm da papila, com espessamento parietal irregular e calibre de _ mm.
+    word: true
+
+  - trigger: "malesaocutanea"
+    label: "Mama (US): lesão cutânea com conexão dérmica"
+    replace: Lesão circunscrita localizada entre as linhas ecogênicas da pele da mama [direita/esquerda], às _ horas, com conexão dérmica, medindo _ x _ x _ cm.
+    word: true
+
+  - trigger: "macolecaoposoperatoria"
+    label: "Mama (US): coleção pós-operatória avascular"
+    replace: Coleção de conteúdo líquido e sem fluxo interno ao Doppler na loja cirúrgica da mama [direita/esquerda], medindo _ x _ x _ cm.
+    word: true
+
+  - trigger: "macolecaoinflamatoria"
+    label: "Mama (US): coleção complexa com alterações inflamatórias"
+    replace: Coleção de paredes espessas e conteúdo heterogêneo na mama [direita/esquerda], às _ horas, medindo _ x _ x _ cm, associada a edema e hiperemia dos tecidos adjacentes.
+    word: true
+
+  - trigger: "manecrosegordurosa"
+    label: "Mama (US): necrose gordurosa suspeitada"
+    replace: Lesão heterogênea no tecido adiposo da mama [direita/esquerda], às _ horas, medindo _ x _ x _ cm, no sítio de [cirurgia/trauma] prévio, com aspecto que pode corresponder a necrose gordurosa. Correlacionar com a mamografia.
+    word: true
+
+  - trigger: "malinfonodointramamario"
+    label: "Mama (US): linfonodo intramamário típico"
+    replace: Linfonodo intramamário oval, circunscrito, com hilo gorduroso ecogênico, medindo _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "maparenquimaproeminente"
+    label: "Mama (US): parênquima glandular focal proeminente"
+    replace: Tecido fibroglandular proeminente na área palpável da mama [direita/esquerda], às _ horas, que se dispersa à compressão, sem massa definida.
+    word: true
+
+
+  # --- LINFONODOS AXILARES ---
+
+  - trigger: "malinfonodosaxilares"
+    label: "Mama (US): linfonodos axilares de morfologia habitual"
+    replace: Linfonodos axilares bilaterais ovais ou reniformes, com hilo gorduroso preservado e córtex fino.
+    word: true
+
+  - trigger: "malinfonodocorticaldifuso"
+    label: "Mama (US): espessamento cortical difuso de linfonodo"
+    replace: Linfonodo axilar [direito/esquerdo] oval, com espessamento cortical difuso de até _ mm e hilo gorduroso preservado, medindo _ cm.
+    word: true
+
+  - trigger: "malinfonodocorticalfocal"
+    label: "Mama (US): espessamento cortical focal de linfonodo"
+    replace: Linfonodo axilar [direito/esquerdo] com espessamento cortical focal excêntrico de _ mm, compressão do hilo gorduroso e medida de _ cm.
+    word: true
+
+  - trigger: "malinfonodoarredondado"
+    label: "Mama (US): linfonodo arredondado sem hilo"
+    replace: Linfonodo axilar [direito/esquerdo] arredondado, hipoecogênico, com apagamento completo do hilo gorduroso, medindo _ cm.
+    word: true
+
+  - trigger: "malinfonodovascular"
+    label: "Mama (US): vascularização cortical de linfonodo"
+    replace: Linfonodo axilar [direito/esquerdo] com vascularização cortical periférica ao Doppler colorido e córtex de _ mm.
+    word: true
+
+  - trigger: "malinfonodoindistinto"
+    label: "Mama (US): linfonodo com margem indistinta"
+    replace: Linfonodo axilar [direito/esquerdo] de contornos indistintos, com perda da diferenciação corticomedular e medida de _ cm.
+    word: true
+
+  - trigger: "malinfonodoalteradoc"
+    label: "Mama (US): linfonodo axilar alterado (conclusão)"
+    replace: Linfonodo axilar [direito/esquerdo] de morfologia alterada, com as características acima descritas.
+    word: true
+
+
+  # --- COMPARAÇÃO E CONCLUSÕES CURTAS ---
+
+  - trigger: "maestavel"
+    label: "Mama (US): estabilidade em comparação"
+    replace: Achado na mama [direita/esquerda] estável em morfologia e dimensões desde o exame de _.
+    word: true
+
+  - trigger: "maachadonovo"
+    label: "Mama (US): achado novo em comparação"
+    replace: Achado na mama [direita/esquerda] não identificado no exame anterior de _.
+    word: true
+
+  - trigger: "macrescimento"
+    label: "Mama (US): crescimento em comparação"
+    replace: Achado na mama [direita/esquerda] com aumento de _ para _ cm em relação ao exame de _.
+    word: true
+
+  - trigger: "macistosc"
+    label: "Mama (US): cistos simples (conclusão)"
+    replace: Cistos simples mamários.
+    word: true
+
+  - trigger: "mamicrocistosc"
+    label: "Mama (US): microcistos agrupados (conclusão)"
+    replace: Microcistos agrupados na mama [direita/esquerda].
+    word: true
+
+  - trigger: "macistocomplicadoc"
+    label: "Mama (US): cisto complicado (conclusão)"
+    replace: Cisto complicado na mama [direita/esquerda].
+    word: true
+
+  - trigger: "mamassamistac"
+    label: "Mama (US): massa mista sólida e cística (conclusão)"
+    replace: Massa mista sólida e cística na mama [direita/esquerda].
     word: true
 
   # ==============================================================================

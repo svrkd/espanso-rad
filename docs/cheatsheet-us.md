@@ -346,7 +346,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 
 | Trigger | Label |
 |---|---|
-| usmamas | Mamas — normal (BI-RADS 1) |
+| usmamas | Mamas — normal (BI-RADS 1; composição a preencher) |
 | axlb | Mama (linfonodos axilares): Linfonodos de aspecto habitual nos prolongamentos axilares |
 | axle | Mama (linfonodo axilar esquerdo): Linfonodo de aspecto habitual no prolongamento axilar esquerdo |
 | axld | Mama (linfonodo axilar direito): Linfonodo de aspecto habitual no prolongamento axilar direito |
@@ -366,6 +366,167 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma5c | Mama: Microcistos agrupados |
 | ma6 | Mama: Microcistos agrupados bilaterais (achado descritivo) |
 | ma6c | Mama: Microcistos agrupados bilaterais |
+| ma13 | Mama (US): ecotextura homogênea adiposa |
+| ma14 | Mama (US): ecotextura heterogênea |
+| ma15 | Mama (US): ecotextura homogênea fibroglandular |
+| ma16 | Mama (US): componente glandular mínimo (<25%) |
+| ma17 | Mama (US): componente glandular discreto (25–49%) |
+| ma18 | Mama (US): componente glandular moderado (50–74%) |
+| ma19 | Mama (US): componente glandular acentuado (≥75%) |
+| ma20 | Mama (US): pele e subcutâneo preservados |
+| ma21 | Mama (US): ausência de lesões focais |
+| ma22 | Mama (US): regiões retroareolares preservadas |
+| ma23 | Mama (US): ausência de correspondente para achado palpável |
+| ma24 | Mama (US): ausência de correspondente para achado mamográfico |
+| ma25 | Mama (US): massa oval circunscrita e paralela |
+| ma26 | Mama (US): massa lobulada circunscrita e paralela |
+| ma27 | Mama (US): massa redonda circunscrita |
+| ma28 | Mama (US): massa irregular de margem indistinta |
+| ma29 | Mama (US): massa de margem microlobulada |
+| ma30 | Mama (US): massa de margem angular |
+| ma31 | Mama (US): massa espiculada e não paralela |
+| ma32 | Mama (US): massa hiperecogênica |
+| ma33 | Mama (US): massa isoecogênica |
+| ma34 | Mama (US): massa heterogênea |
+| ma35 | Mama (US): massa mista sólida e cística |
+| ma36 | Mama (US): massas circunscritas múltiplas bilaterais |
+| ma37 | Mama (US): massa parametrizada (descritores v2025) |
+| ma38 | Mama (US): massa mamária (conclusão) |
+| ma39 | Mama (US): cisto simples |
+| ma40 | Mama (US): cistos simples múltiplos bilaterais |
+| ma41 | Mama (US): cisto complicado isolado |
+| ma42 | Mama (US): cistos complicados múltiplos bilaterais |
+| ma43 | Mama (US): microcistos agrupados típicos |
+| ma44 | Mama (US): microcistos com margem indistinta |
+| ma45 | Mama (US): lesão cística com nódulo mural |
+| ma46 | Mama (US): cisto mamário (conclusão) |
+| ma47 | Mama (US): lesão não massa focal |
+| ma48 | Mama (US): lesão não massa linear |
+| ma49 | Mama (US): lesão não massa segmentar com focos ecogênicos |
+| ma50 | Mama (US): lesão não massa regional |
+| ma51 | Mama (US): lesão não massa (conclusão) |
+| ma52 | Mama (US): microcalcificações em massa |
+| ma53 | Mama (US): microcalcificações fora de massa |
+| ma54 | Mama (US): microcalcificações intraductais |
+| ma55 | Mama (US): macrocalcificação em massa |
+| ma56 | Mama (US): reforço acústico posterior |
+| ma57 | Mama (US): sombra acústica posterior |
+| ma58 | Mama (US): pseudocápsula ecogênica fina |
+| ma59 | Mama (US): halo ecogênico espesso (rind) |
+| ma60 | Mama (US): distorção arquitetural |
+| ma61 | Mama (US): edema mamário |
+| ma62 | Mama (US): espessamento cutâneo |
+| ma63 | Mama (US): retração cutânea ou papilar |
+| ma64 | Mama (US): vascularização interna |
+| ma65 | Mama (US): vascularização periférica |
+| ma66 | Mama (US): ausência de fluxo detectável |
+| ma67 | Mama (US): ectasia ductal simples |
+| ma68 | Mama (US): ducto dilatado com debris |
+| ma69 | Mama (US): massa intraductal vascularizada |
+| ma70 | Mama (US): dilatação ductal focal com alteração parietal |
+| ma71 | Mama (US): lesão cutânea com conexão dérmica |
+| ma72 | Mama (US): coleção pós-operatória avascular |
+| ma73 | Mama (US): coleção complexa com alterações inflamatórias |
+| ma74 | Mama (US): necrose gordurosa suspeitada |
+| ma75 | Mama (US): linfonodo intramamário típico |
+| ma76 | Mama (US): parênquima glandular focal proeminente |
+| ma77 | Mama (US): linfonodos axilares de morfologia habitual |
+| ma78 | Mama (US): espessamento cortical difuso de linfonodo |
+| ma79 | Mama (US): espessamento cortical focal de linfonodo |
+| ma80 | Mama (US): linfonodo arredondado sem hilo |
+| ma81 | Mama (US): vascularização cortical de linfonodo |
+| ma82 | Mama (US): linfonodo com margem indistinta |
+| ma83 | Mama (US): linfonodo axilar alterado (conclusão) |
+| ma84 | Mama (US): estabilidade em comparação |
+| ma85 | Mama (US): achado novo em comparação |
+| ma86 | Mama (US): crescimento em comparação |
+| ma87 | Mama (US): cistos simples (conclusão) |
+| ma88 | Mama (US): microcistos agrupados (conclusão) |
+| ma89 | Mama (US): cisto complicado (conclusão) |
+| ma90 | Mama (US): massa mista sólida e cística (conclusão) |
+
+## Aliases Descritivos De Ma13–Ma90
+
+| Trigger | Label |
+|---|---|
+| maecoadiposa | Mama (US): ecotextura homogênea adiposa |
+| maecoheterogenea | Mama (US): ecotextura heterogênea |
+| maecofibroglandular | Mama (US): ecotextura homogênea fibroglandular |
+| maglandularminimo | Mama (US): componente glandular mínimo (<25%) |
+| maglandulardiscreto | Mama (US): componente glandular discreto (25–49%) |
+| maglandularmoderado | Mama (US): componente glandular moderado (50–74%) |
+| maglandularacentuado | Mama (US): componente glandular acentuado (≥75%) |
+| mapele | Mama (US): pele e subcutâneo preservados |
+| masemlesao | Mama (US): ausência de lesões focais |
+| maretroareolar | Mama (US): regiões retroareolares preservadas |
+| masempalpavel | Mama (US): ausência de correspondente para achado palpável |
+| masemcorrelato | Mama (US): ausência de correspondente para achado mamográfico |
+| mamassaoval | Mama (US): massa oval circunscrita e paralela |
+| mamassalobulada | Mama (US): massa lobulada circunscrita e paralela |
+| mamassaredonda | Mama (US): massa redonda circunscrita |
+| mamassairregular | Mama (US): massa irregular de margem indistinta |
+| mamassamicrolobulada | Mama (US): massa de margem microlobulada |
+| mamassaangular | Mama (US): massa de margem angular |
+| mamassaespiculada | Mama (US): massa espiculada e não paralela |
+| mamassahiperecogenica | Mama (US): massa hiperecogênica |
+| mamassaisoecogenica | Mama (US): massa isoecogênica |
+| mamassaheterogenea | Mama (US): massa heterogênea |
+| mamassamista | Mama (US): massa mista sólida e cística |
+| mamassasbilaterais | Mama (US): massas circunscritas múltiplas bilaterais |
+| mamassaparametrizada | Mama (US): massa parametrizada (descritores v2025) |
+| mamassac | Mama (US): massa mamária (conclusão) |
+| macisto | Mama (US): cisto simples |
+| macistos | Mama (US): cistos simples múltiplos bilaterais |
+| macistocomplicado | Mama (US): cisto complicado isolado |
+| macistoscomplicados | Mama (US): cistos complicados múltiplos bilaterais |
+| mamicrocistos | Mama (US): microcistos agrupados típicos |
+| mamicrocistosindistintos | Mama (US): microcistos com margem indistinta |
+| macistonodulomural | Mama (US): lesão cística com nódulo mural |
+| macistoc | Mama (US): cisto mamário (conclusão) |
+| malesaonaomassa | Mama (US): lesão não massa focal |
+| malesaonaomassalinear | Mama (US): lesão não massa linear |
+| malesaonaomassasegmentar | Mama (US): lesão não massa segmentar com focos ecogênicos |
+| malesaonaomassaregional | Mama (US): lesão não massa regional |
+| malesaonaomassac | Mama (US): lesão não massa (conclusão) |
+| mamicrocalcmassa | Mama (US): microcalcificações em massa |
+| mamicrocalcforamassa | Mama (US): microcalcificações fora de massa |
+| mamicrocalcintraductal | Mama (US): microcalcificações intraductais |
+| mamacrocalcmassa | Mama (US): macrocalcificação em massa |
+| mareforcoposterior | Mama (US): reforço acústico posterior |
+| masombraposterior | Mama (US): sombra acústica posterior |
+| mapseudocapsula | Mama (US): pseudocápsula ecogênica fina |
+| mahalo | Mama (US): halo ecogênico espesso (rind) |
+| madistorcao | Mama (US): distorção arquitetural |
+| maedema | Mama (US): edema mamário |
+| maespessamentopele | Mama (US): espessamento cutâneo |
+| maretracao | Mama (US): retração cutânea ou papilar |
+| mavascularinterna | Mama (US): vascularização interna |
+| mavascularperiferica | Mama (US): vascularização periférica |
+| masemfluxo | Mama (US): ausência de fluxo detectável |
+| maectasiaductal | Mama (US): ectasia ductal simples |
+| maductodebris | Mama (US): ducto dilatado com debris |
+| mamassaintraductal | Mama (US): massa intraductal vascularizada |
+| maductoparede | Mama (US): dilatação ductal focal com alteração parietal |
+| malesaocutanea | Mama (US): lesão cutânea com conexão dérmica |
+| macolecaoposoperatoria | Mama (US): coleção pós-operatória avascular |
+| macolecaoinflamatoria | Mama (US): coleção complexa com alterações inflamatórias |
+| manecrosegordurosa | Mama (US): necrose gordurosa suspeitada |
+| malinfonodointramamario | Mama (US): linfonodo intramamário típico |
+| maparenquimaproeminente | Mama (US): parênquima glandular focal proeminente |
+| malinfonodosaxilares | Mama (US): linfonodos axilares de morfologia habitual |
+| malinfonodocorticaldifuso | Mama (US): espessamento cortical difuso de linfonodo |
+| malinfonodocorticalfocal | Mama (US): espessamento cortical focal de linfonodo |
+| malinfonodoarredondado | Mama (US): linfonodo arredondado sem hilo |
+| malinfonodovascular | Mama (US): vascularização cortical de linfonodo |
+| malinfonodoindistinto | Mama (US): linfonodo com margem indistinta |
+| malinfonodoalteradoc | Mama (US): linfonodo axilar alterado (conclusão) |
+| maestavel | Mama (US): estabilidade em comparação |
+| maachadonovo | Mama (US): achado novo em comparação |
+| macrescimento | Mama (US): crescimento em comparação |
+| macistosc | Mama (US): cistos simples (conclusão) |
+| mamicrocistosc | Mama (US): microcistos agrupados (conclusão) |
+| macistocomplicadoc | Mama (US): cisto complicado (conclusão) |
+| mamassamistac | Mama (US): massa mista sólida e cística (conclusão) |
 
 ## Músculo-Esquelético
 
