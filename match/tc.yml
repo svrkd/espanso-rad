@@ -10643,13 +10643,18 @@ matches:
     word: true
 
   - trigger: "desco1"
-    label: "Discreto desvio escoliótico à direita"
-    replace: Discreto desvio escoliótico para a direita.
+    label: "Desvio da coluna lombar à direita"
+    replace: Discreto desvio da coluna lombar com convexidade para a direita.
     word: true
 
   - trigger: "desco2"
-    label: "Discreto desvio escoliótico à esquerda"
-    replace: Discreto desvio escoliótico para a esquerda.
+    label: "Desvio da coluna lombar à esquerda"
+    replace: Discreto desvio da coluna lombar com convexidade para a esquerda.
+    word: true
+
+  - trigger: "desco3"
+    label: "Desvio sigmoideo da coluna lombar"
+    replace: Discreto desvio sigmoideo da coluna lombar.
     word: true
 
   - trigger: "desmu"
