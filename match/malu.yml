@@ -2723,7 +2723,7 @@ matches:
     replace: "Ligamentos intrínsecos e extrínsecos do carpo de aspecto normal."
     word: true
 
-  - trigger: "cistopunho4"
+  - trigger: "uscistopunho4"
     label: "US — formação cística volar radiocárpica artrossinovial"
     replace: "Formação cística volar radiocárpica, de provável origem artrossinovial."
     word: true
@@ -5324,12 +5324,12 @@ matches:
     replace: "Ligamentos cruzados e colaterais íntegros."
     word: true
 
-  - trigger: "lcaroto1"
+  - trigger: "lcaafila"
     label: "Leve afilamento da porção proximal do ligamento cruzado anterior"
     replace: "Leve afilamento da porção proximal do ligamento cruzado anterior, permanecendo as fibras contínuas e de orientação preservada. A sua suficiência poderá ser melhor avaliada correlacionada com dados clínicos."
     word: true
 
-  - trigger: "lcaroto2"
+  - trigger: "lcadeg"
     label: "Alteração degenerativa do ligamento cruzado anterior"
     replace: "Alteração degenerativa do ligamento cruzado anterior com alteração do sinal de suas fibras, sem roturas."
     word: true
@@ -6184,7 +6184,7 @@ matches:
     replace: "Pequena lesão óssea circunscrita intramedular na região metafisária distal do fêmur, medindo cerca de _ cm, sem sinais de agressividade, de evolução crônica, de provável natureza condral."
     word: true
 
-  - trigger: "osteocondroma1"
+  - trigger: "osteocondromarm"
     label: "Osteocondroma da metáfise proximal da tíbia"
     replace: "Lesão óssea na região metafisária proximal da tíbia, posteriormente, medindo 2,4 x 1,4 x 1,1 cm, apresentando continuidade com a cortical e com a medular óssea regionais, orientada em direção à diáfise e apresentando imagem sugestiva de capa cartilaginosa, com espessura máxima de 0,1 cm."
     word: true
