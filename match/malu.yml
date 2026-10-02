@@ -4,19 +4,50 @@ matches:
   # OMBRO
   # ==========================================================================
 
+  - trigger: "rmombro1"
+    label: "ressonância magnética ombro normal"
+    replace: |-
+      RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO/ESQUERDO
+
+      Método:
+      Exame realizado com a sequência FSE com cortes multiplanares de 3,0 e 4,0 mm de espessura. 
+
+
+      Análise:
+      Relação acromioclavicular preservada, com espessamento capsuloligamentar e edema ósseo subcondral de ambos os componentes, inferindo sobrecarga mecânica local.
+      Artropatia degenerativa acromioclavicular, caracterizada por osteófitos marginais que se associam a afilamento e irregularidade condral, bem com espessamento cápsulo-ligamentar, edema ósseo subcondral de ambos componentes.
+      Demais estruturas ósseas e superfícies condrais sem anormalidades.
+      Tendinopatia do supra e infraespinhais, caracterizado por irregularidade e alteração de sinal, sem roturas.
+      Leve tendinopatia do subescapular, com irregularidade e alteração de sinal, sem roturas.
+      Tendinopatia e tenossinovite do cabo longo do bíceps, sem roturas.
+      Demais tendões do manguito rotador e cabo longo do bíceps de aspecto normal.
+      Ventres musculares de aspecto normal. Bursite subacromial/subdeltoidea.
+      Alteração degenerativa do labio glenoidal, com forame labral no segmento anterossuperior.
+      Lábio da glenoide com morfologia e sinal dentro da normalidade.
+      Não há evidências de derrame articular ou sinovite.
+      Leve espessamento capsuloligamentar glenoumeral no recesso axilar, com obliteração e discreto edema dos planos pericapsular, podendo estar relacionado a capsulite adesiva, na dependência de correlação clínica. 
+      Demais estruturas periarticulares sem anormalidades.
+
+      Conclusão:
+      Artropatia degenerativa/sobrecarga mecânica acromioclavicular.
+      Tendinopatia do manguito rotador, sem roturas.
+      Bursite subacromial/subdeltoidea.
+    word: true
+  
+
   - trigger: "supra1"
-    label: "Tendinopatia do supra e infraespinhal com rotura focal insercional"
-    replace: "Tendinopatia do supraespinhal e do infraespinhal, caracterizada por leve espessamento e alteração de sinal, com pequena rotura focal junto à inserção das fibras do contorno articular na transição de ambos os tendões, com retração de cerca de 0,4 cm, comprometendo cerca de 50% da espessura dos tendões nesta topografia, sem lesões transfixantes. Fissuras intrassubstanciais próximas à transição miotendínea do infraespinhal, também sem lesões transfixantes."
+    label: "Tendinopatia do supra e infraespinhal leve  "
+    replace: "Tendinopatia do supraespinhal e do infraespinhal, caracterizada por irregularidade, espessamento e alteração de sinal, sem roturas."
     word: true
 
   - trigger: "supra2"
-    label: "Tendinopatia moderada do supra e infraespinhal com roturas justainsercionais"
-    replace: "Tendinopatia de grau moderado do supraespinhal e do infraespinhal, associada a roturas justa-insercionais, sem áreas de transfixações. Associa-se irregularidade da cortical óssea com edema e cistos subcorticais no tubérculo maior, provavelmente relacionada a entesopatia."
+    label: "Tendinopatia do supra e infraespinhal fissura  "
+    replace: "Tendinopatia do supraespinhal e do infraespinhal, caracterizada por espessamento e alteração de sinal, com focos de degeneração/fissuras intrassubstânciais, sem lesões transfixantes."
     word: true
 
   - trigger: "supra3"
-    label: "Tendinopatia do supra e infraespinhal com rotura transfixante"
-    replace: "Tendinopatia do supra e infraespinhais, com rotura transfixante junto à inserção do supraespinhal e estendendo-se as fibras superiores infraespinhal, com retração proximal s fibras em até 0,6 cm, permanecendo fino feixe de fibras extremidade anterior do supraespinhal normoinseridas, bem como a maior parte das fibras do terço médio e inferior do infraespinhal também"
+    label: "Tendinopatia do supra e infraespinhal com rotura focal insercional"
+    replace: "Tendinopatia do supraespinhal e do infraespinhal, caracterizada por espessamento e alteração de sinal, com pequena rotura focal junto à inserção das fibras do contorno articular na transição de ambos os tendões, com retração de cerca de 0,4 cm, comprometendo cerca de 50% da espessura dos tendões nesta topografia, sem lesões transfixantes. Fissuras intrassubstanciais próximas à transição miotendínea do infraespinhal, também sem lesões transfixantes."
     word: true
 
   - trigger: "supra4"
@@ -1024,6 +1055,7 @@ matches:
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO / ESQUERDO
 
       Indicação clínica:
+      
       Técnica: exame realizado em aparelho de 1,5 Tesla/3,0 Teslas, com aquisição de imagens em sequências multiplanares com bobinas específicas, ponderadas em T1, T2 e densidade de prótons com FAT SAT.
 
       Relatório:
@@ -2336,49 +2368,39 @@ matches:
     replace: "Importante tenossinovite do II, III e IV compartimentos dos extensores, com importante realce pelo meio de contraste, destacando-se pequena coleção no tecido subcutâneo profundo, superficialmente aos tendões extensores do II e IV compartimentos, medindo cerca de 1,1 x 1,8 cm, também com intenso realce pelo meio de contraste, sugestivo de tenossinovite infecciosa."
     word: true
 
-  - trigger: "nervomediano1"
+  - trigger: "medianonl"
     label: "Nervo mediano e canal de Guyon sem alterações"
     replace: "Nervo mediano e canal de Guyon sem alterações."
     word: true
 
-  - trigger: "nervomediano2"
+  - trigger: "medianobifido"
     label: "Nervo mediano bífido com artéria mediana persistente"
     replace: "Presença de nervo mediano bífido e persistência da artéria mediana (variações anatômicas)."
     word: true
 
-  - trigger: "nervomediano3"
+  - trigger: "mediano1"
     label: "Nervo mediano espessado no túnel do carpo"
     replace: "nervo mediano espessado e com aumento de sinal no interior do túnel do carpo, achado que pode estar relacionado a neuropatia a depender da correlação com dados clínicos e eletroneuromiografia."
     word: true
 
-  - trigger: "nervomediano4"
+  - trigger: "mediano2"
     label: "Edema do nervo mediano na entrada do túnel do carpo"
     replace: "Alteração de sinal com edema do nervo mediano na entrada do túnel do carpo, associado a mínimo abaulamento do retináculo dos flexores, achado que pode estar relacionado a neuropatia a depender da correlação com dados clínicos e eletroneuromiografia."
     word: true
 
-  - trigger: "nervomediano5"
-    label: "Alteração fibrocicatricial pós-cirúrgica do retináculo dos flexores"
-    replace: "Alteração fibrocicatricial pós-cirúrgica, envolvendo o retináculo do flexores com fibrose e irregularidade das fibras remanescentes em partes moles adjacentes, sem coleção. Leve espessamento do nervo mediano na entrada do túnel do carpo e fibrose de permeio sem sinais de realce pelo contraste, de aspecto inespecífico."
-    word: true
-
-  - trigger: "nervomediano6"
-    label: "Espessamento e alteração de sinal do nervo mediano"
-    replace: "Nervo mediano: espessamento (área seccional de cerca de 0,11cm²) e alteração de sinal do nervo mediano na entrada do túnel do carpo."
-    word: true
-
-  - trigger: "nervomediano7"
-    label: "US — nervo mediano bífido no limite superior da normalidade"
-    replace: "Nervo mediano de aspecto bífido e com ecotextura preservada, apresentando espessura no limite superior da normalidade."
-    word: true
-
-  - trigger: "tunelcarpo1"
+  - trigger: "mediano3"
     label: "Conclusão — achados de síndrome do túnel do carpo"
     replace: "Espessamento e alteração de sinal do nervo mediano na entrada do túnel do carpo, associado à sinais inflamatórios das bursas radial e ulnar dos tendões flexores dos dedos. Os achados estão comumente relacionados à síndrome do túnel do carpo, na dependência de correlação clínica e eletroneuromiográfica."
     word: true
 
-  - trigger: "posoppunho1"
+  - trigger: "medianoposop1"
     label: "Alterações fibrocicatriciais volares com descontinuidade do retináculo"
     replace: "Alterações fibrocicatriciais na face volar do punho possivelmente relacionadas à manipulação cirúrgica pregressa. Há ainda descontinuidade do retináculo dos flexores na região centro lateral."
+    word: true
+
+  - trigger: "medianoposop2"
+    label: "Alteração fibrocicatricial pós-cirúrgica do retináculo dos flexores"
+    replace: "Alteração fibrocicatricial pós-cirúrgica, envolvendo o retináculo do flexores com fibrose e irregularidade das fibras remanescentes em partes moles adjacentes, sem coleção. Leve espessamento do nervo mediano na entrada do túnel do carpo e fibrose de permeio sem sinais de realce pelo contraste, de aspecto inespecífico."
     word: true
 
   - trigger: "sinovitepunho1"
@@ -2397,31 +2419,36 @@ matches:
     word: true
 
   - trigger: "cistopunho1"
+    label: "Cisto gangliônico / artrossinovial"
+    replace: "Cisto gangliônico / artrossinovial radiocárpico volar de 0,7 cm."
+    word: true
+
+  - trigger: "cistopunho2"
+    label: "Cisto artrossinovial junto aos planos capsuloligamentares"
+    replace: "Cisto artrossinovial junto aos planos capsuloligamentares dorsais do punho, entre o escafoide e o semilunar, medindo 0,6 cm"
+    word: true
+
+  - trigger: "cistopunho3"
+    label: "cisto artrossinovial no recesso articular"
+    replace: "Diminuto cisto artrossinovial no recesso articular radiocárpico volar lateral, profundo ao feixe neurovascular radial, medindo 0,4 x 0,2 cm."
+    word: true
+
+  - trigger: "cistopunho4"
     label: "Formação cística volar comunicante com o radiocárpico"
     replace: "Formação cística de contornos lobulados e alongado junto na face volar, medindo até 2,1 cm, com aparente comunicação com o compartimento radiocárpico, de provável origem artrossinovial."
     word: true
 
-  - trigger: "cistopunho2"
-    label: "Formação cística artrossinovial volar radiocárpica"
-    replace: "Pequena formação cística artrossinovial na face volar radiocárpica, medindo cerca de 1,4 cm. //determinando discreto abaulamento local."
-    word: true
-
-  - trigger: "cistopunho3"
-    label: "US — formação cística volar radiocárpica"
-    replace: "Formação cística de alongado junto a face volar radiocárpico medindo até 1,8 cm, com aparente comunicação com o compartimento radiocárpico, de provável origem artrossinovial."
-    word: true
-
-  - trigger: "cistoroto1"
+  - trigger: "cistopunhoroto1"
     label: "Cisto artrossinovial roto — edema distal à pisopiramidal"
     replace: "Edema nas partes moles distais à pisopiramidal, inespecífico (cisto artrossinovial roto?). - Distensão líquida lobulada no recesso pisopiramidal."
     word: true
 
-  - trigger: "cistoroto2"
+  - trigger: "cistopunhoroto2"
     label: "Cisto artrossinovial roto — líquido radiocárpico volar"
     replace: "Pequena quantidade de líquido radiocárpico volar, adjacente aos feixes neurovasculares, achado que pode estar relacionado a cisto artrossinovial roto."
     word: true
 
-  - trigger: "cistoroto3"
+  - trigger: "cistopunhoroto3"
     label: "Cisto artrossinovial roto — edema dorsal do carpo"
     replace: "Planos superficiais: discreto edema e realce no tecido adiposo localizado na face dorsal do carpo, superficialmente ao ligamento intercárpico dorsal e profundamente aos tendões do segundo e quarto compartimentos extensores, não específico, o que pode estar relacionado a um cisto artrossinovial roto."
     word: true
@@ -3386,29 +3413,29 @@ matches:
     replace: "Imagem sugestiva de herniação sinovial na margem anterior da transição cabeça / colo femoral à esquerda. Controle evolutivo pós-operatório para correção de fratura completa e alinhada no colo femoral, caracterizada por material de osteossíntese (parafusos), sem sinais de osteólise / soltura."
     word: true
 
-  - trigger: "gluteomin1"
+  - trigger: "gluteo1"
     label: "Tendinopatia e peritendinite dos glúteos médio e mínimo"
-    replace: "Leve tendinopatia e peritendinite insercional dos glúteos médio e mínimo, no trocânter maior femoral, sem roturas. //com fissuras intrassubstanciais junto da inserção do glúteo mínimo, sem desinserção."
+    replace: "Tendinopatia e peritendinite insercional dos glúteos médio e mínimo, no trocânter maior femoral, sem roturas."
     word: true
 
-  - trigger: "gluteomin2"
-    label: "Tendinopatia dos glúteos médio e mínimo bilateral"
-    replace: "Tendinopatia e peritendinite dos glúteos médio e mínimo bilateral apresentando irregularidade e alteração do sinal dos tendões com halo de edema peritendíneo, sem roturas."
+  - trigger: "gluteo2"
+    label: "Tendinopatia dos glúteos médio e mínimo "
+    replace: "Tendinopatia e peritendinite insercional dos glúteos médio e mínimo, com espessamento e alteração do sinal habitual, associado a halo de edema peritendíneo, sem roturas."
     word: true
 
-  - trigger: "gluteomin3"
+  - trigger: "gluteoroto"
     label: "Rotura parcial do glúteo mínimo com bursite subglútea"
     replace: "Tendinopatia e peritendinite insercional dos glúteos mínimo e médio no trocânter maior femoral, com rotura parcial das fibras profundas do glúteo mínimo, junto da inserção, sem lesão transfixante. Associa-se distensão líquida das bolsas subglúteas mínima e média, bem como edema da medular óssea subcortical junto do trocânter maior femoral, por entesopatia mecânica."
     word: true
 
-  - trigger: "gluteomin4"
+  - trigger: "gluteocal"
     label: "Tendinopatia calcária do glúteo médio em fase expulsiva"
     replace: "Tendinopatia e peritendinite insercional dos glúteos mínimo e médio no trocânter maior femoral à esquerda, notando-se imagem cálcica junto a transição miotendínea distal das fibras anterolaterais do glúteo médio, medindo cerca de 2,0 cm, associado a edema reacional da gordura pertrocantérica, inferindo tendinopatia calcária em fase inflamatória expulsiva."
     word: true
 
-  - trigger: "isquiotib1"
+  - trigger: "isquio1"
     label: "Leve tendinopatia e peritendinite dos isquiotibiais"
-    replace: "Leve tendinopatia e peritendinite dos ísquio-tibiais, sem roturas."
+    replace: "Leve tendinopatia e peritendinite da origem dos ísquiotibiais, sem roturas."
     word: true
 
   - trigger: "isquiotib2"
@@ -3416,10 +3443,6 @@ matches:
     replace: "Tendinopatia e peritendinite junto da origem do semimembranoso, sem rotura tendínea."
     word: true
 
-  - trigger: "isquiotib3"
-    label: "Tendinopatia e peritendinite da origem dos isquiotibiais"
-    replace: "Tendinopatia e peritendinite junto da origem dos isquiotibiais, sem rotura tendínea."
-    word: true
 
   - trigger: "isquiotib4"
     label: "Tendinopatia na origem dos isquiotibiais com espessamento"
@@ -3431,7 +3454,7 @@ matches:
     replace: "Tendinopatia na origem dos isquiotibiais, apresentando leve espessamento e alteração do sinal tendíneo, sem roturas."
     word: true
 
-  - trigger: "isquiotib6"
+  - trigger: "isquioroto"
     label: "Rotura parcial extensa da origem dos isquiotibiais"
     replace: "Tendinopatia e peritendinite junto à origem dos isquiotibiais, destacando-se rotura parcial extensa à esquerda, numa extensão longitudinal de até 4,1 cm com importante afilamento da origem do tendão do semimembranoso, bem como do tendão comum do semitendinoso/bíceps femoral, sem desinserções completas. Nota-se líquido interposto a área de rotura, com edema difuso dos planos circunjacentes. Há também pequenas fissuras intrassubstanciais junto à origem do tendão do semitendinoso/bíceps femoral à direita, sem desinserção."
     word: true
@@ -3506,24 +3529,19 @@ matches:
     replace: "Alteração do sinal do ventre muscular do quadrado femoral na região que se interpõe entre o trocânter menor do fêmur e a tuberosidade isquiática esquerda, que pode estar relacionada a uma alteração por hipersolicitação mecânica/atrito (impacto isquiofemoral)."
     word: true
 
-  - trigger: "iliotibial1"
-    label: "Edema do plano adiposo entre trocânter maior e trato iliotibial"
-    replace: "Edema do plano adiposo que se interpõe entre a cortical do trocânter maior femoral e o trato iliotibial, relacionado a hipersolicitação mecânica/atrito."
-    word: true
-
   - trigger: "iliotibial2"
     label: "Edema da gordura peritrocantérica por atrito"
     replace: "Edema da gordura peritrocantérica, indicando atrito/hipersolicitação mecânica."
     word: true
 
-  - trigger: "iliotibial3"
-    label: "Edema da gordura do trato iliotibial com bolsa trocantérica"
-    replace: "Edema da gordura que se interpõe entre o trato iliotibial e o trocânter maior femoral, podendo estar relacionado a atrito, sem distensão líquida significativa da bolsa trocantérica."
+  - trigger: "trato1"
+    label: "Leve edema da gordura do trato iliotibial"
+    replace: "Edema da gordura que se interpõe entre o trato iliotibial e o trocanter maior femoral, indicando atrito local."
     word: true
 
-  - trigger: "iliotibial4"
-    label: "Leve edema da gordura do trato iliotibial"
-    replace: "Leve edema da gordura que se interpõe entre o trato iliotibial e o trocânter maior femoral, sem/com distensão líquida significativa da bolsa trocantérica, podendo estar relacionado a atrito local."
+  - trigger: "trato2"
+    label: "Edema da gordura do trato iliotibial com bolsa trocantérica"
+    replace: "Edema da gordura que se interpõe entre o trato iliotibial e o trocânter maior femoral, podendo estar relacionado a atrito, sem distensão líquida significativa da bolsa trocantérica."
     word: true
 
   - trigger: "iliotibial5"
@@ -5321,7 +5339,7 @@ matches:
     replace: "Rotura parcial do ligamento cruzado anterior, com irregularidade e alteração de sinal de fibras proximais. A sua suficiência poderá ser melhor correlacionada com dados clínicos."
     word: true
 
-  - trigger: "lcaroto4"
+  - trigger: "lcaroto"
     label: "Rotura completa proximal do ligamento cruzado anterior"
     replace: "Rotura completa do ligamento cruzado anterior proximal."
     word: true
@@ -5331,9 +5349,9 @@ matches:
     replace: "Afilamento do ligamento cruzado anterior no segmento proximal, com fibras levemente horizontalizadas no intercôndilo, por rotura parcial pregressa, sendo sua suficiência melhor avaliada por correlação com exame clínico."
     word: true
 
-  - trigger: "lcaroto6"
+  - trigger: "lcasequela"
     label: "Afilamento das fibras do LCA — degeneração x sequela"
-    replace: "Afilamento das fibras do ligamento cruzado anterior com leve alteração do sinal habitual, podendo estar relacionado a alteração degenerativa ou mesmo sequela de estiramento com rotura parcial, sendo conveniente correlacionar com exame físico para avaliação de sua suficiência."
+    replace: "Afilamento das fibras do ligamento cruzado anterior, podendo estar relacionado a rotura parcial prévia, sendo a sua suficiência melhor avaliada quando correlacionado com o exame físico. Ligamentos cruzado posterior e colaterais íntegros."
     word: true
 
   - trigger: "lcaroto7"
@@ -5341,7 +5359,7 @@ matches:
     replace: "Rotura completa do ligamento cruzado anterior, com fibras afiladas e mal caracterizadas no trajeto intra articular. (crônica)"
     word: true
 
-  - trigger: "lcaroto8"
+  - trigger: "lcaroto2"
     label: "Rotura completa do LCA na origem com fibras horizontalizadas"
     replace: "Rotura completa do ligamento cruzado anterior na sua origem, com fibras horizontalizadas no intercôndilo."
     word: true
@@ -6161,12 +6179,12 @@ matches:
     replace: "Destaca-se a presença de traço de fratura patológica envolvendo a cortical póstero-medial na diáfise distal da tíbia junto ao bordo superior da lesão óssea acima descrita, com edema da medular óssea e periostite medial e póstero-medial na diáfise distal da tíbia de aspecto reacional a fratura patológica."
     word: true
 
-  - trigger: "encondromafemur1"
+  - trigger: "encondroma1"
     label: "Lesão de provável natureza condral do fêmur (encondroma)"
-    replace: "Pequena lesão óssea circunscrita intramedular na região metafisária distal do fêmur, medindo cerca de _ cm, sem sinais de agressividade, de evolução crônica, de provável natureza condral. (encondroma)"
+    replace: "Pequena lesão óssea circunscrita intramedular na região metafisária distal do fêmur, medindo cerca de _ cm, sem sinais de agressividade, de evolução crônica, de provável natureza condral."
     word: true
 
-  - trigger: "osteocondrtib1"
+  - trigger: "osteocondroma1"
     label: "Osteocondroma da metáfise proximal da tíbia"
     replace: "Lesão óssea na região metafisária proximal da tíbia, posteriormente, medindo 2,4 x 1,4 x 1,1 cm, apresentando continuidade com a cortical e com a medular óssea regionais, orientada em direção à diáfise e apresentando imagem sugestiva de capa cartilaginosa, com espessura máxima de 0,1 cm."
     word: true
@@ -6191,7 +6209,7 @@ matches:
     replace: "-Lesão nodular intramedular na região metaepifisária lateral da tíbia proximal, medindo cerca de 3,7 x 2,5 x 2,6 cm (crânio-caudal x látero-lateral x ântero-posterior), podendo corresponder a lipoma intra-ósseo, com material de aspecto sinovial no seu interior, também com depósito de hemossiderina."
     word: true
 
-  - trigger: "hemangjoelho1"
+  - trigger: "hemang1"
     label: "Lesão vascular no recesso súpero-medial do joelho"
     replace: "Formação expansiva de contornos lobulados no recesso articular súpero-medial e de permeio às fibras distais do vasto medial, em íntimo contato com o rebordo cortical do côndilo femoral medial onde faz um leve remodelamento, com medindo cerca de 7,1 x 5,2 x 5,7 cm, devendo-se considerar entre as hipóteses diagnósticas a possibilidade de lesão de natureza vascular (hemangioma/malformação vascular)."
     word: true
@@ -7268,8 +7286,37 @@ matches:
   # TORNOZELO / PÉ
   # ==========================================================================
 
-  - trigger: "talofib1"
-    label: "Afilamento fibrocicatricial do talofibular anterior e calcaneofibular"
+  - trigger: "rmtor1"
+    label: "mascara ressonância magnética tornozelo"
+    replace: |-
+      RESSONÂNCIA MAGNÉTICA DO TORNOZELO DIREITO/ ESQUERDO
+
+      Método:
+      Exame realizado com a sequência FSE com cortes multiplanares de 4,0 mm de espessura.
+
+      Análise:
+      Estruturas ósseas com morfologia e sinal preservados.
+      Não há evidências de fissuras ou erosões condrais profundas.
+      Não há evidências de lesões osteocondrais.
+      Afilamento fibrocicatricial dos ligamentos talofibular anterior e calcâneofibular.
+      Extensa rotura dos ligamentos talofibular anterior e calcaneofibular, com finas fibras remanescentes e alterações inflamatórias em suas topografias, indicando caráter agudo/recente.
+      Rotura completa do ligamento talofibular anterior e calcaneofibular, com indefinição das suas fibras e edema dos planos adiposos circunjacentes.
+      Demais //Estruturas ligamentares íntegras.
+      Tendinopatia e tenossinovite dos fibulares, com rotura tipo split do fibular curto na deflexão maleolar, com distensão líquida da bainha comum.
+      Tendinopatia do tibial posterior e inframaleolar, com fissura longitudinal intra-tendínea junto a inserção navicular, onde há ossículo navicular acessório, com irregularidade e edema ósseo entre o ossículo e o navicular, indicando componente inflamatório local de origem mecânica, sem desalinhamentos e sem retração.
+      Tendinopatia do calcâneo distal XX do segmento médio do calcâneo, com entesófitos justainsercionais e peritendíneo, sem roturas.
+      Fasciíte plantar, destacando-se rotura transfixante completa na fáscia plantar no seu terço proximal, distando cerca de 2,5 cm a sua origem no calcâneo.
+      Tendão calcâneo e fáscia plantar de aspecto normal.
+      Feixe vásculo-neural de aspecto normal.
+      Não há evidências de derrame articular de volume significativo.
+      Demais planos musculares e tendíneos preservados.
+      Não há formações expansivas ou coleções na região analisada.
+
+      Conclusão:
+    word: true
+ 
+  - trigger: "seqtf"
+    label: "Afilamento fibrocicatricial talofibular anterior e calcaneofibular"
     replace: "Afilamento fibrocicatricial dos ligamentos talofibular anterior e calcâneofibular."
     word: true
 
@@ -7288,14 +7335,14 @@ matches:
     replace: "Edema ósseo por tração / avulsão no tálus e maléolo lateral e edema contusional no maléolo medial e no tálus."
     word: true
 
-  - trigger: "talofib5"
+  - trigger: "roturatf"
     label: "Rotura extensa do talofibular anterior e calcaneofibular, aguda"
     replace: "Extensa rotura dos ligamentos talofibular anterior e calcaneofibular, com finas fibras remanescentes e alterações inflamatórias em suas topografias, indicando caráter agudo/recente."
     word: true
 
-  - trigger: "talofib6"
+  - trigger: "roturatf2"
     label: "Rotura completa do talofibular anterior e calcaneofibular"
-    replace: "Rotura completa do ligamento talofibular anterior e calcaneofibular, com indefinição das suas fibras e edema dos planos adiposos circunjacentes."
+    replace: "Rotura completa dos ligamentos talofibular anterior e calcaneofibular, com indefinição das suas fibras e edema dos planos adiposos circunjacentes."
     word: true
 
   - trigger: "talofib7"
@@ -7303,7 +7350,7 @@ matches:
     replace: "Rotura parcial dos ligamentos talofibular anterior e calcaneofibular, com irregularidade e edema de permeio às fibras e periligamentar, sem transfixação completa./com alterações inflamatórias em suas topografias, indicando caráter agudo/recente"
     word: true
 
-  - trigger: "talofib8"
+  - trigger: "estiramentotf1"
     label: "Estiramento do ligamento talofibular anterior"
     replace: "Estiramento do ligamento talofibular anterior, com alteração de sinal de suas fibras e edema periligamentar, sem roturas."
     word: true
@@ -7363,17 +7410,17 @@ matches:
     replace: "Espessamento fibrocicacricial do ligamento tibiofibular anterior relacionado à lesão prévia."
     word: true
 
-  - trigger: "ligdeltoide2"
+  - trigger: "roturadeltoide1"
     label: "Estiramento com rotura parcial das fibras profundas do deltoide"
     replace: "Sinais de estiramento com rotura parcial das fibras profundas do complexo ligamentar do deltoide, sem desinserções, associado a edema ósseo de aspecto pós contusional no sitio de inserção ligamentar no rebordo medial do talus, sem desvios corticais."
     word: true
 
-  - trigger: "ligdeltoide3"
+  - trigger: "estiramentodeltoide1"
     label: "Estiramento dos folhetos profundos do ligamento deltoide"
     replace: "Estiramento dos folhetos profundos do ligamento deltoide, com edema periligamentar, sem descontinuidades."
     word: true
 
-  - trigger: "ligdeltoide4"
+  - trigger: "roturadeltoide2"
     label: "Rotura parcial das fibras posteriores e profundas do deltoide"
     replace: "Rotura parcial das fibras posteriores e profundas do deltoide, com edema de permeio e irregularidade, sem transfixação completa."
     word: true
@@ -7443,7 +7490,7 @@ matches:
     replace: "Nota-se também edema dos planos circunjacentes ao ligamento Spring, que apresenta leve afilamento difuso, sem roturas, provavelmente relacionado a sobrecarga do arco plantar."
     word: true
 
-  - trigger: "ligbifurcado1"
+  - trigger: "roturabifurcado1"
     label: "Rotura parcial do ligamento bifurcado"
     replace: "Rotura parcial do ligamento bifurcado, com acometimento de ambas as bandas."
     word: true
@@ -7453,14 +7500,19 @@ matches:
     replace: "Estruturas musculotendíneas: rotura focal do retináculo dos flexores na região inframaleolar com afastamento das extremidades em 1,1 cm, associado a insinuação da bainha tendínea do tibial posterior através do foco de rotura."
     word: true
 
-  - trigger: "fibulares1"
+  - trigger: "fibular1"
     label: "Tenossinovite dos fibulares com distensão da bainha comum"
     replace: "Tenossinovite dos fibulares, com distensão líquida da bainha comum."
     word: true
 
-  - trigger: "fibulares2"
+  - trigger: "fibular2"
     label: "Tendinopatia e tenossinovite dos fibulares perimaleolar"
     replace: "Tendinopatia e tenossinovite dos fibulares na região perimaleolar, sem roturas."
+    word: true
+
+  - trigger: "split1"
+    label: "Tendinopatia e tenossinovite dos fibulares , com rotura tipo split do fibular curto"
+    replace: "Tendinopatia e tenossinovite dos fibulares, com rotura tipo split do fibular curto na deflexão maleolar, com distensão líquida da bainha comum."
     word: true
 
   - trigger: "fibulares3"
@@ -7513,22 +7565,27 @@ matches:
     replace: "Presença de ventre muscular acessório (fibular III)."
     word: true
 
-  - trigger: "tuberculofib1"
+  - trigger: "tuberculofibular1"
     label: "Tubérculo dos fibulares proeminente com edema medular"
     replace: "Presença de pequeno tuberoculo dos fibulares com irregularidade cortical e intenso edema da medular óssea adjacente, de natureza mecânica. Associa-se ainda acentuada tendinopatia e tenossinovite dos fibulares com espessamento e alteração do sinal habitual, com fissura intrassubstancial no segmento inframaleolar do fibular longo, sem transfixações."
     word: true
 
-  - trigger: "tibialpost1"
+  - trigger: "navicularacessorio1"
+    label: "ossículo navicular acessório"
+    replace: "Presença de ossículo navicular acessório, com irregularidade e edema ósseo entre o ossículo e o navicular, indicando componente inflamatório local de origem mecânica, sem desalinhamentos e sem retração."
+    word: true
+
+  - trigger: "tibialp1"
     label: "Leve tendinopatia insercional do tibial posterior"
     replace: "Leve tendinopatia do tibial posterior, junto a sua inserção no navicular, sem roturas."
     word: true
 
-  - trigger: "tibialpost2"
+  - trigger: "tibialp2"
     label: "Tenossinovite distal do tibial posterior"
     replace: "Tenossinovite distal do tibial posterior, sem alteração tendínea significativa."
     word: true
 
-  - trigger: "tibialpost3"
+  - trigger: "tibialpt3"
     label: "Tendinopatia insercional do tibial posterior"
     replace: "Tendinopatia insercional do tibial posterior com espessamento e alteração do sinal habitual, sem roturas."
     word: true
@@ -7588,17 +7645,17 @@ matches:
     replace: "Formação de aspecto cístico de contornos lobulados localizada junto a margem medial da articulação subtalar média, medindo cerca de 1,7 cm e apresentando finas septações de permeio se estendendo junto ao trajeto do nervo plantar medial."
     word: true
 
-  - trigger: "tendaquiles1"
+  - trigger: "calcaneo1"
     label: "Tendinopatia do calcâneo com bursite retrocalcaneana"
-    replace: "Espessamento fusiforme do terço médio e distal do tendão calcâneo determinando perda de sua concavidade anterior denotando tendinopatia com mínima distensão líquida da bursa retrocalcaneana. Associa-se pequeno esporão justainsercional posterior no calcâneo."
+    replace: "tendinopatia do terço médio e distal do calcâneo, com mínima distensão líquida da bursa retrocalcaneana. Associa-se pequeno esporão justainsercional posterior no calcâneo."
     word: true
 
-  - trigger: "tendaquiles2"
+  - trigger: "calcaneo2"
     label: "Leve tendinopatia do tendão calcâneo"
     replace: "Leve tendinopatia do calcâneo, sem roturas."
     word: true
 
-  - trigger: "tendaquiles3"
+  - trigger: "calcaneo3"
     label: "Tendinopatia do calcâneo distal com entesófitos"
     replace: "Tendinopatia do calcâneo distal// do segmento médio do calcâneo, com entesófitos justainsercionais e peritendíneo, sem roturas."
     word: true
@@ -7608,12 +7665,12 @@ matches:
     replace: "Tendinopatia e peritendinite do calcâneo no terço distal, com foco de degeneração/fissura nas fibras justa-insercionais e mediais, sem transfixação ou retração."
     word: true
 
-  - trigger: "tendaquiles5"
+  - trigger: "roturacalcaneo1"
     label: "Rotura completa justainsercional do tendão calcâneo"
     replace: "Rotura completa das fibras justainsercionais do tendão calcâneo, apresentando irregularidade e tendinopatia do coto tendíneo, com retração de 5,0 cm, e importante edema da gordura de Kager. Distensão da bolsa retrocalcânea profunda. Não há proeminência significativa do processo póstero superior do calcâneo."
     word: true
 
-  - trigger: "tendaquiles6"
+  - trigger: "roturacalcaneo2"
     label: "Rotura completa do tendão calcâneo com GAP"
     replace: "Rotura completa do tendão calcâneo no terço distal a cerca de 2,7 cm da inserção do calcâneo e com \"GAP\" de 2,1 cm ocupado por coleção líquida com tendinopatia dos cotos retraídos proximal e distalmente sugerindo tecido fibrocicatricial na área de rotura sem cicatrização completa no local destacando-se que a tendinopatia é mais acentuada no coto proximal onde há espessamento fusiforme com fissuras e áreas de degeneração intratendínea que se estende até o terço médio/proximal do calcâneo na perna distal com edema de permeio."
     word: true
@@ -7643,27 +7700,27 @@ matches:
     replace: "Proeminentes entesófitos plantar e posterior no calcâneo."
     word: true
 
-  - trigger: "fasciiteplant1"
+  - trigger: "fasciite1"
     label: "Fasciíte plantar justainsercional com entesite do calcâneo"
     replace: "Acentuado espessamento fusiforme justainsercional da porção central da fáscia plantar associada a edema dos planos mioadiposos adjacentes e obliteração do coxim adiposo plantar caracterizando fasciíte plantar. Associa-se diminuto esporão justainsercional no calcâneo e mínimo edema da sua medular óssea denotando entesite."
     word: true
 
-  - trigger: "fasciiteplant2"
+  - trigger: "fasciite2"
     label: "Fasciíte plantar com espessamento fusiforme e entesófito"
     replace: "Sinais de fasciíte plantar, com espessamento fusiforme da banda central, associado a edema perifascial, sem roturas. Associa-se entesófito calcâneo plantar."
     word: true
 
-  - trigger: "fasciiteplant3"
+  - trigger: "fasciite3"
     label: "Fasciíte plantar com espessamento da banda central"
     replace: "Fasciíte plantar, com leve espessamento e alteração do sinal da banda central ao nível do calcâneo e edema da gordura perifascial, sem roturas.//associada a pequenos entesófitos//onde há pequeno entesófito calcâneo plantar e edema ósseo subcortical."
     word: true
 
-  - trigger: "fasciiteplant4"
+  - trigger: "rotutafasciaplantar1"
     label: "Fasciíte plantar com rotura transfixante da fáscia"
-    replace: "Sinais de fasciíte plantar apresentando espessamento fusiforme da banda central da fáscia plantar no terço proximal, com edema e alterações inflamatórias perifasciais, destacando-se rotura transfixante completa na fáscia plantar no seu terço proximal, distando cerca de 2,5 cm a sua origem no calcâneo."
+    replace: "Sinais de fasciíte plantar, destacando-se rotura transfixante completa na fáscia plantar no seu terço proximal, distando cerca de 2,5 cm a sua origem no calcâneo."
     word: true
 
-  - trigger: "fasciiteplant5"
+  - trigger: "fasciitecronica1"
     label: "Espessamento crônico da banda central sem inflamação"
     replace: "Espessamento de aspecto crônico da banda central da fáscia plantar, sem alterações inflamatórias no presente estudo."
     word: true
@@ -7983,17 +8040,17 @@ matches:
     replace: "Nota-se ainda alterações degenerativas entre o processo talar lateral e o calcâneo adjacente com edema ósseo e esclerose óssea, podendo representar impacto subtalar."
     word: true
 
-  - trigger: "navicacess1"
+  - trigger: "navicularac1"
     label: "Presença de osso navicular acessório"
     replace: "Presença de osso navicular acessório."
     word: true
 
-  - trigger: "navicacess2"
+  - trigger: "navicularac2"
     label: "Osso navicular acessório tipo I com tendinopatia do tibial posterior"
     replace: "Pequeno osso navicular acessório tipo I associado a discreta tendinopatia do tibial posterior justainsercional."
     word: true
 
-  - trigger: "navicacess3"
+  - trigger: "navicularac3"
     label: "Ossículo navicular acessório tipo III"
     replace: "Proeminência bordo posterior medial do navicular (ossículo navicular acessório tipo III)."
     word: true
@@ -8019,7 +8076,7 @@ matches:
     word: true
 
   - trigger: "fibularacess1"
-    label: "TC — osso fibular acessório"
+    label: " osso fibular acessório"
     replace: "- Osso fibular acessório."
     word: true
 
@@ -13430,3 +13487,19 @@ matches:
     label: "Protocolo — marcação e sequências para estudo dirigido do tórax"
     replace: "1) Colocar o marcador na região referida pelo paciente. 2) Utilizar bobina com o melhor sinal possível para avaliar a região 3) Posicionar paciente em decúbito ventral ou dorsal (dependendo do local de queixa) e programar exame para região do tórax em questão (anterior, lateral ou posterior / esterno dependendo da queixa da paciente) 4) Fazer: - Axial e coronal T1 FSE sem fat - Axial, coronal e sagital T2 com saturação de gordura (se não saturar realizar STIR - Axial e coronal T1 pós-contraste e com saturação de gordura, se for para avaliação de lesão tumoral ou processo inflamatório/infeccioso"
     word: true
+
+  - trigger: "cc1"
+    label: "Estudos anteriores não disponíveis para a análise."
+    replace: "Estudos anteriores não disponíveis para a análise. "
+    word: true
+
+  - trigger: "cc2"
+    label: "exame anterior sem alteração."
+    replace: "Em relação ao exame anterior, não houve alterações evolutivas significativas. "
+    word: true
+
+  - trigger: "contraste1"
+    label: "exame com contraste"
+    replace: "Administrado meio de contraste paramagnético por via intravenosa. "
+    word: true
+
