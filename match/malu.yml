@@ -13488,12 +13488,12 @@ matches:
     replace: "1) Colocar o marcador na região referida pelo paciente. 2) Utilizar bobina com o melhor sinal possível para avaliar a região 3) Posicionar paciente em decúbito ventral ou dorsal (dependendo do local de queixa) e programar exame para região do tórax em questão (anterior, lateral ou posterior / esterno dependendo da queixa da paciente) 4) Fazer: - Axial e coronal T1 FSE sem fat - Axial, coronal e sagital T2 com saturação de gordura (se não saturar realizar STIR - Axial e coronal T1 pós-contraste e com saturação de gordura, se for para avaliação de lesão tumoral ou processo inflamatório/infeccioso"
     word: true
 
-  - trigger: "cc1"
+  - trigger: "ex1"
     label: "Estudos anteriores não disponíveis para a análise."
     replace: "Estudos anteriores não disponíveis para a análise. "
     word: true
 
-  - trigger: "cc2"
+  - trigger: "ex2"
     label: "exame anterior sem alteração."
     replace: "Em relação ao exame anterior, não houve alterações evolutivas significativas. "
     word: true
