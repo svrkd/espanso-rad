@@ -2505,7 +2505,26 @@ matches:
   # ==========================================================================
   # TÓRAX (PULMÃO, MEDIASTINO, CORAÇÃO, ARCOS COSTAIS)
   # ==========================================================================
+  - trigger: "phd1"
+    label: "Pequena hérnia diafragmática posterior direita."
+    replace: "Pequena hérnia diafragmática posterior direita."
+    word: true
 
+  - trigger: "phd2"
+    label: "Pequena hérnia diafragmática posterior esquerda."
+    replace: "Pequena hérnia diafragmática posterior esquerda."
+    word: true
+
+  - trigger: "phd3"
+    label: "Pequena hérnia diafragmática posterior bilateral."
+    replace: "Pequenas hérnias diafragmáticas posteriores bilateralmente."
+    word: true
+    
+  - trigger: "carnl"
+    label: "Área cardíaca habitual, sem sinais de derrame pericárdico."
+    replace: "Área cardíaca habitual, sem sinais de derrame pericárdico."
+    word: true
+    
   - trigger: "aapicatriz"
     label: "Cicatriz apical pulmonar direita"
     replace: "Lesão de aspecto cicatricial no ápice pulmonar direito, com espessamento pleural focal e bronquiectasias de aspecto retrátil."
@@ -7898,17 +7917,16 @@ matches:
       TOMOGRAFIA COMPUTADORIZADA DO ABDOME SUPERIOR S/C
 
       Técnica:
-      Imagens obtidas em aparelho multislice com a administração intravenosa de meio de contraste iodado.
+      Imagens obtidas em aparelho multislice sem a administração intravenosa de meio de contraste iodado.
 
       Descrição:
       Fígado com dimensões normais, contornos regulares e atenuação preservada.
-      Veias porta e hepáticas pérvias.
       Ausência de dilatação das vias biliares.
       Pâncreas com dimensões normais e atenuação habitual.
       Baço com aspecto normal.
       Adrenais com aspecto normal.
       Rins tópicos, de dimensões e contornos habituais, sem cálculos ou hidronefrose.
-      Aorta com trajeto e calibre preservados.
+      Aorta abdominal com trajeto e calibre preservados.
       Ausência de líquido livre ou linfonodomegalias abdominais.
 
       Conclusão:
@@ -9823,8 +9841,9 @@ matches:
       Baço com aspecto normal.
       Adrenais com aspecto normal.
       Rins tópicos, de dimensões e contornos habituais, sem cálculos ou hidronefrose.
-      Aorta com trajeto e calibre preservados.
-      Ausência de líquido livre ou linfonodomegalias abdominais.
+      Aorta abdominal com trajeto e calibre preservados.
+      Ausência de linfonodomegalias, massas ou coleções.
+      Ausência de líquido livre na cavidade peritoneal.
       Bexiga com boa repleção, paredes finas e regulares, conteúdo homogêneo.
 
       Conclusão:
@@ -9861,16 +9880,15 @@ matches:
       TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR C/C
 
       Técnica:
-      Cortes tomográficos axiais do abdome superior, antes e após a injeção do meio de contraste endovenoso.
+      Imagens obtidas em aparelho multislice antes e após a administração intravenosa de meio de contraste iodado. 
 
       Descrição:
       Fígado com dimensões, contornos e densidade normais.
       Não há sinais de dilatação das vias biliares intra e extra-hepáticas.
       Vesícula biliar em topografia habitual.
       Adrenais, baço e pâncreas sem particularidades.
-      Rins tópicos, com morfologia, dimensões e espessura do parênquima normais.
-      Não há sinais de dilatação dos sistemas coletores ou imagens sugestivas de cálculos.
-      Aorta e veia cava inferior pérvias, com calibre e contornos normais.
+      Rins tópicos, com morfologia, dimensões e espessura do parênquima normais, sem cálculos ou hidronefrose.
+      Aorta abdominal e veia cava inferior pérvias, com calibre e contornos normais.
       Ausência de linfonodomegalias, massas ou coleções.
       Ausência de líquido livre na cavidade peritoneal.
 
@@ -10139,12 +10157,13 @@ matches:
       Imagens obtidas por aquisição volumétrica sem a administração intravenosa de contraste iodado.
 
       Descrição:
-      Arcabouço torácico íntegro.
+      Área cardíaca habitual, sem sinais de derrame pericárdico.
       Estruturas vasculares mediastinais tópicas, de calibre normal.
-      Não há linfonodomegalias.
+      Ausência de linfonodomegalias.
       Traqueia e brônquios centrais patentes, de calibre normal.
       Parênquima pulmonar com coeficientes de atenuação preservados.
       Espaço pleural livre.
+      Arcabouço torácico íntegro.
 
       Conclusão:
       Exame dentro dos padrões da normalidade.
