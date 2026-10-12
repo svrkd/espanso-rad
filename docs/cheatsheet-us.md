@@ -17,7 +17,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ba1 | Baço: Baço de topografia subcostal |
 | ba2 | Baço: Esplenomegalia homogênea (achado descritivo) |
 | ba2c | Baço: Esplenomegalia homogênea |
-| ba3 | Baço: Baço de dimensões aumentadas com corpúsculos de Gamna Gandy |
+| ba3 | Baço: Baço de dimensões aumentadas com corpúsculos de Gamna-Gandy |
 | ba4 | Baço acessório |
 | ba4c | Baço acessório |
 | ca1 | Dilatação das vias biliares intra e extra-hepática sem a caracterização de fatores obstrutivos (achado descritivo) |
@@ -178,10 +178,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ov7c | Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma |
 | ov8 | Ovário: Cisto ovariano com as características acima descritas, mais comumente associado a cisto... (achado descritivo) |
 | ov8c | Ovário: Cisto ovariano com as características acima descritas, mais comumente associado a cisto... |
-| bicorno | Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno) (achado descritivo) |
-| bicornoc | Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno) |
-| ut7 | Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno) (achado descritivo) |
-| ut7c | Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração Mülleriana (provável útero septado ou bicorno) |
+| bicorno | Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mülleriana (provável útero septado ou bicorno) (achado descritivo) |
+| bicornoc | Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mülleriana (provável útero septado ou bicorno) |
+| ut7 | Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mülleriana (provável útero septado ou bicorno) (achado descritivo) |
+| ut7c | Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mülleriana (provável útero septado ou bicorno) |
 | utbicorno | Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo) |
 | utbicornoc | Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... |
 | ut8 | Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo) |
@@ -351,12 +351,12 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | axle | Mama (linfonodo axilar esquerdo): Linfonodo de aspecto habitual no prolongamento axilar esquerdo |
 | axld | Mama (linfonodo axilar direito): Linfonodo de aspecto habitual no prolongamento axilar direito |
 | mms1 | Mama (cistos): Cistos subcentimétricos esparsos por ambas as mamas |
-| ma3 | Mama (nódulo): Nódulo na mama [direita/esquerda] com as características acima descritas (achado descritivo) |
+| ma3 | Mama (nódulo): oval, circunscrito, paralelo (achado descritivo) |
 | usnc | Mama (nódulo): Nódulo na mama [direita/esquerda] com as características acima descritas |
 | usncs | Mama (nódulos): Nódulos na mama [direita/esquerda] com as características acima descritas |
-| ma1 | Mama (nódulo): Cistos subcentimétricos esparsos por ambas as mamas |
-| ma11 | Mama (nódulo): Cistos subcentimétricos esparsos pela mama direita |
-| ma12 | Mama (nódulo): Cistos subcentimétricos esparsos pela mama esquerda |
+| ma1 | Mama (cistos): Cistos subcentimétricos esparsos por ambas as mamas |
+| ma11 | Mama (cistos): Cistos subcentimétricos esparsos pela mama direita |
+| ma12 | Mama (cistos): Cistos subcentimétricos esparsos pela mama esquerda |
 | ma3c | Mama (nódulo): Nódulo na mama [direita/esquerda] com as características acima descritas |
 | ma3s | Mama: múltiplos nódulos ovalados circunscritos (dois ou mais sítios) |
 | ma3sc | Mama (nódulo): Nódulos na mama [direita/esquerda] com as características acima descritas |
@@ -412,7 +412,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma56 | Mama (US): reforço acústico posterior |
 | ma57 | Mama (US): sombra acústica posterior |
 | ma58 | Mama (US): pseudocápsula ecogênica fina |
-| ma59 | Mama (US): halo ecogênico espesso (rind) |
+| ma59 | Mama (US): halo ecogênico espesso (rind; margem não circunscrita) |
 | ma60 | Mama (US): distorção arquitetural |
 | ma61 | Mama (US): edema mamário |
 | ma62 | Mama (US): espessamento cutâneo |
@@ -449,84 +449,84 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 
 | Trigger | Label |
 |---|---|
-| maecoadiposa | Mama (US): ecotextura homogênea adiposa |
-| maecoheterogenea | Mama (US): ecotextura heterogênea |
-| maecofibroglandular | Mama (US): ecotextura homogênea fibroglandular |
-| maglandularminimo | Mama (US): componente glandular mínimo (<25%) |
-| maglandulardiscreto | Mama (US): componente glandular discreto (25–49%) |
-| maglandularmoderado | Mama (US): componente glandular moderado (50–74%) |
-| maglandularacentuado | Mama (US): componente glandular acentuado (≥75%) |
+| maecoadip | Mama (US): ecotextura homogênea adiposa |
+| maecohet | Mama (US): ecotextura heterogênea |
+| maecofib | Mama (US): ecotextura homogênea fibroglandular |
+| maglmin | Mama (US): componente glandular mínimo (<25%) |
+| magldisc | Mama (US): componente glandular discreto (25–49%) |
+| maglmod | Mama (US): componente glandular moderado (50–74%) |
+| maglacent | Mama (US): componente glandular acentuado (≥75%) |
 | mapele | Mama (US): pele e subcutâneo preservados |
 | masemlesao | Mama (US): ausência de lesões focais |
-| maretroareolar | Mama (US): regiões retroareolares preservadas |
-| masempalpavel | Mama (US): ausência de correspondente para achado palpável |
-| masemcorrelato | Mama (US): ausência de correspondente para achado mamográfico |
-| mamassaoval | Mama (US): massa oval circunscrita e paralela |
-| mamassalobulada | Mama (US): massa lobulada circunscrita e paralela |
-| mamassaredonda | Mama (US): massa redonda circunscrita |
-| mamassairregular | Mama (US): massa irregular de margem indistinta |
-| mamassamicrolobulada | Mama (US): massa de margem microlobulada |
-| mamassaangular | Mama (US): massa de margem angular |
-| mamassaespiculada | Mama (US): massa espiculada e não paralela |
-| mamassahiperecogenica | Mama (US): massa hiperecogênica |
-| mamassaisoecogenica | Mama (US): massa isoecogênica |
-| mamassaheterogenea | Mama (US): massa heterogênea |
-| mamassamista | Mama (US): massa mista sólida e cística |
-| mamassasbilaterais | Mama (US): massas circunscritas múltiplas bilaterais |
-| mamassaparametrizada | Mama (US): massa parametrizada (descritores v2025) |
+| maretro | Mama (US): regiões retroareolares preservadas |
+| masempalp | Mama (US): ausência de correspondente para achado palpável |
+| masemcorr | Mama (US): ausência de correspondente para achado mamográfico |
+| maoval | Mama (US): massa oval circunscrita e paralela |
+| malob | Mama (US): massa lobulada circunscrita e paralela |
+| maredonda | Mama (US): massa redonda circunscrita |
+| mairreg | Mama (US): massa irregular de margem indistinta |
+| mamicrolob | Mama (US): massa de margem microlobulada |
+| maangular | Mama (US): massa de margem angular |
+| maespic | Mama (US): massa espiculada e não paralela |
+| mahiper | Mama (US): massa hiperecogênica |
+| maiso | Mama (US): massa isoecogênica |
+| mahetero | Mama (US): massa heterogênea |
+| mamista | Mama (US): massa mista sólida e cística |
+| mabilat | Mama (US): massas circunscritas múltiplas bilaterais |
+| maparam | Mama (US): massa parametrizada (descritores v2025) |
 | mamassac | Mama (US): massa mamária (conclusão) |
 | macisto | Mama (US): cisto simples |
 | macistos | Mama (US): cistos simples múltiplos bilaterais |
-| macistocomplicado | Mama (US): cisto complicado isolado |
-| macistoscomplicados | Mama (US): cistos complicados múltiplos bilaterais |
-| mamicrocistos | Mama (US): microcistos agrupados típicos |
-| mamicrocistosindistintos | Mama (US): microcistos com margem indistinta |
-| macistonodulomural | Mama (US): lesão cística com nódulo mural |
+| macistcomp | Mama (US): cisto complicado isolado |
+| macistcomps | Mama (US): cistos complicados múltiplos bilaterais |
+| mamicro | Mama (US): microcistos agrupados típicos |
+| mamicroind | Mama (US): microcistos com margem indistinta |
+| mamural | Mama (US): lesão cística com nódulo mural |
 | macistoc | Mama (US): cisto mamário (conclusão) |
-| malesaonaomassa | Mama (US): lesão não massa focal |
-| malesaonaomassalinear | Mama (US): lesão não massa linear |
-| malesaonaomassasegmentar | Mama (US): lesão não massa segmentar com focos ecogênicos |
-| malesaonaomassaregional | Mama (US): lesão não massa regional |
-| malesaonaomassac | Mama (US): lesão não massa (conclusão) |
-| mamicrocalcmassa | Mama (US): microcalcificações em massa |
-| mamicrocalcforamassa | Mama (US): microcalcificações fora de massa |
-| mamicrocalcintraductal | Mama (US): microcalcificações intraductais |
-| mamacrocalcmassa | Mama (US): macrocalcificação em massa |
-| mareforcoposterior | Mama (US): reforço acústico posterior |
-| masombraposterior | Mama (US): sombra acústica posterior |
-| mapseudocapsula | Mama (US): pseudocápsula ecogênica fina |
-| mahalo | Mama (US): halo ecogênico espesso (rind) |
+| malnm | Mama (US): lesão não massa focal |
+| malnmlin | Mama (US): lesão não massa linear |
+| malnmseg | Mama (US): lesão não massa segmentar com focos ecogênicos |
+| malnmreg | Mama (US): lesão não massa regional |
+| malnmc | Mama (US): lesão não massa (conclusão) |
+| macalcmassa | Mama (US): microcalcificações em massa |
+| macalcfora | Mama (US): microcalcificações fora de massa |
+| macalcduct | Mama (US): microcalcificações intraductais |
+| mamacrocalc | Mama (US): macrocalcificação em massa |
+| mareforco | Mama (US): reforço acústico posterior |
+| masombra | Mama (US): sombra acústica posterior |
+| mapseudo | Mama (US): pseudocápsula ecogênica fina |
+| mahalo | Mama (US): halo ecogênico espesso (rind; margem não circunscrita) |
 | madistorcao | Mama (US): distorção arquitetural |
 | maedema | Mama (US): edema mamário |
-| maespessamentopele | Mama (US): espessamento cutâneo |
+| mapeleesp | Mama (US): espessamento cutâneo |
 | maretracao | Mama (US): retração cutânea ou papilar |
-| mavascularinterna | Mama (US): vascularização interna |
-| mavascularperiferica | Mama (US): vascularização periférica |
+| mavascint | Mama (US): vascularização interna |
+| mavascper | Mama (US): vascularização periférica |
 | masemfluxo | Mama (US): ausência de fluxo detectável |
-| maectasiaductal | Mama (US): ectasia ductal simples |
-| maductodebris | Mama (US): ducto dilatado com debris |
-| mamassaintraductal | Mama (US): massa intraductal vascularizada |
-| maductoparede | Mama (US): dilatação ductal focal com alteração parietal |
-| malesaocutanea | Mama (US): lesão cutânea com conexão dérmica |
-| macolecaoposoperatoria | Mama (US): coleção pós-operatória avascular |
-| macolecaoinflamatoria | Mama (US): coleção complexa com alterações inflamatórias |
-| manecrosegordurosa | Mama (US): necrose gordurosa suspeitada |
-| malinfonodointramamario | Mama (US): linfonodo intramamário típico |
-| maparenquimaproeminente | Mama (US): parênquima glandular focal proeminente |
-| malinfonodosaxilares | Mama (US): linfonodos axilares de morfologia habitual |
-| malinfonodocorticaldifuso | Mama (US): espessamento cortical difuso de linfonodo |
-| malinfonodocorticalfocal | Mama (US): espessamento cortical focal de linfonodo |
-| malinfonodoarredondado | Mama (US): linfonodo arredondado sem hilo |
-| malinfonodovascular | Mama (US): vascularização cortical de linfonodo |
-| malinfonodoindistinto | Mama (US): linfonodo com margem indistinta |
-| malinfonodoalteradoc | Mama (US): linfonodo axilar alterado (conclusão) |
+| maectasia | Mama (US): ectasia ductal simples |
+| madebris | Mama (US): ducto dilatado com debris |
+| maintraduct | Mama (US): massa intraductal vascularizada |
+| maductpar | Mama (US): dilatação ductal focal com alteração parietal |
+| macutanea | Mama (US): lesão cutânea com conexão dérmica |
+| macolpo | Mama (US): coleção pós-operatória avascular |
+| macolinfl | Mama (US): coleção complexa com alterações inflamatórias |
+| manecrose | Mama (US): necrose gordurosa suspeitada |
+| maintram | Mama (US): linfonodo intramamário típico |
+| maproem | Mama (US): parênquima glandular focal proeminente |
+| maaxnl | Mama (US): linfonodos axilares de morfologia habitual |
+| maaxdif | Mama (US): espessamento cortical difuso de linfonodo |
+| maaxfoc | Mama (US): espessamento cortical focal de linfonodo |
+| maaxred | Mama (US): linfonodo arredondado sem hilo |
+| maaxvasc | Mama (US): vascularização cortical de linfonodo |
+| maaxind | Mama (US): linfonodo com margem indistinta |
+| maaxc | Mama (US): linfonodo axilar alterado (conclusão) |
 | maestavel | Mama (US): estabilidade em comparação |
-| maachadonovo | Mama (US): achado novo em comparação |
-| macrescimento | Mama (US): crescimento em comparação |
+| manovo | Mama (US): achado novo em comparação |
+| macresc | Mama (US): crescimento em comparação |
 | macistosc | Mama (US): cistos simples (conclusão) |
-| mamicrocistosc | Mama (US): microcistos agrupados (conclusão) |
-| macistocomplicadoc | Mama (US): cisto complicado (conclusão) |
-| mamassamistac | Mama (US): massa mista sólida e cística (conclusão) |
+| mamicroc | Mama (US): microcistos agrupados (conclusão) |
+| macistcompc | Mama (US): cisto complicado (conclusão) |
+| mamistac | Mama (US): massa mista sólida e cística (conclusão) |
 
 ## Músculo-Esquelético
 
