@@ -837,6 +837,16 @@ matches:
     replace: Transparência preservada nos campos pulmonares.
     word: true
 
+  - trigger: "mcsh"
+    label: "Marca-passo cardíaco"
+    replace: Marcapasso cardíaco projetado sobre o tórax.
+    word: true
+
+  - trigger: "popa"
+    label: "Pequena opacidade nodular pulmonar"
+    replace: Pequena opacidade nodular em projeção do campo pulmonar inferior esquerdo.
+    word: true
+
   # ==========================================================================
   # ABDOME / PELVE
   # ==========================================================================
@@ -1069,6 +1079,11 @@ matches:
 
       Conclusão:
       Urograma normal.
+    word: true
+
+  - trigger: "songa1"
+    label: "Sonda entérica em câmara gástrica"
+    replace: Sonda entérica em projeção da câmara gástrica.
     word: true
 
   # ==========================================================================

@@ -3113,6 +3113,11 @@ matches:
     replace: "Irregularidades na face lateral da cartilagem de revestimento condral da patela, com fissura e pequena erosão superficial, porém sem edema ósseo subcondral associado."
     word: true
 
+  - trigger: "hoffite"
+    label: "Hoffite lateral do joelho"
+    replace: "Sinais de edema do tecido adiposo entre o ligamento patelar e a tróclea femoral lateral, compatível com Hoffite lateral."
+    word: true
+
   # ==========================================================================
   # VASCULAR
   # ==========================================================================
@@ -3185,6 +3190,11 @@ matches:
   - trigger: "varizesglut"
     label: "Circulação colateral"
     replace: "Presença de ectasias venosas em topografia glútea, com vasos varicosos adjacentes ao trajeto do nervo ciático, sugerindo circulação colateral em região perineural/glútea."
+    word: true
+
+  - trigger: "v4"
+    label: "Hipoplasia de artéria vertebral (segmento V4)"
+    replace: "Hipoplasia da artéria vertebral direita (segmento V4), calibre reduzido com fluxo preservado, sem sinais de estenose significativa."
     word: true
 
   # ==========================================================================
