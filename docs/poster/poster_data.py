@@ -127,10 +127,10 @@ BLOCOS = [
         ("triggers", ["ma1", "mms1"], "mama", "cistos subcentimétricos (ambas)"),
         ("escada", "ma", "mama", [
             ("11", "cistos subcentimétricos D"), ("12", "cistos subcentimétricos E"),
-            ("3", "nódulo único"),
+            ("3", "massa única"),
             ("5", "microcistos agrupados"), ("6", "microcistos agrupados (ambas)"),
         ]),
-        ("triggers", ["ma3s", "ma4"], "mama", "múltiplos nódulos (≥2 sítios)"),
+        ("triggers", ["ma3s", "ma4"], "mama", "múltiplas massas (≥2 sítios)"),
         ("escada", "axl", "linfonodo axilar normal", [
             ("b", "bilateral"), ("d", "direito"), ("e", "esquerdo"),
         ]),
@@ -272,8 +272,8 @@ CURINGAS = [
     (("gordoo",), "limitação por panículo"),
     (("papv",), "pâncreas/aorta parcialmente visualizados"),
     (("limitgas",), "limitação por gás"),
-    (("usnc",), "nódulo mama D/E c/ achados acima"),
-    (("usncs",), "nódulos mama D/E c/ achados acima"),
+    (("usnc",), "massa mama D/E c/ achados acima"),
+    (("usncs",), "massas mama D/E c/ achados acima"),
     (("tvppaulo",), "bloco normal duplex venoso MI (femorais/poplítea/tibiais/fibular/safenas)"),
 ]
 
@@ -287,7 +287,7 @@ CURINGAS = [
 # como trigger-base): usnc, utnc, ustvpc. Esses três são cobertos
 # explicitamente em BLOCOS/CURINGAS acima, não por esta lista.
 EXCLUSOES = [
-    (r'^ma(?:[a-z].*|1[3-9]|[2-8][0-9]|90)$', 'mamas BI-RADS 2025 — série extensa, consulta por Alt+Space'),
+    (r'^ma(?:[a-z].*|(?:1[3-9]|[2-8][0-9])c?)$', 'mamas BI-RADS 2025 — série extensa, consulta por Alt+Space'),
     (r'^(co|jo|mo|om|pd|pu|qd|tz|lm)', 'MSK por segmento — volume alto, cobertura via Alt+Space'),
     (r'^me[12]$', 'MSK por segmento (tendão calcâneo / joelho) — prefixo legado fora do padrão co/jo/…/tz'),
     (r'^(?!usnc$|utnc$|ustvpc$).*c$', 'variante de conclusão (regra de gramática "…c")'),
