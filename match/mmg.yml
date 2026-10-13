@@ -6,7 +6,7 @@ matches:
   # ==============================================================================
   #   mmg    = template completo de laudo
   #   mgcomp = composição/densidade da mama (a–d)
-  #   mgn    = nódulo (mgnt = template parametrizado)
+  #   mgn    = massa (mgnt = template parametrizado)
   #   mgk    = calcificações (mgkt = template parametrizado)
   #   mga    = assimetria
   #   mgda   = distorção arquitetural
@@ -37,14 +37,14 @@ matches:
       Exame realizado em aparelho de alta resolução nas incidências crânio-caudal e médio-lateral oblíqua.
 
       Descrição:
-      Mamas extremamente densas, limitando a sensibilidade do método em detectar nódulos.
-      Mamas heterogeneamente densas, limitando a sensibilidade do método em detectar nódulos.
+      Mamas extremamente densas, limitando a sensibilidade do método em detectar massas.
+      Mamas heterogeneamente densas, limitando a sensibilidade do método em detectar massas.
       As mamas apresentam densidades fibroglandulares difusas. 
       As mamas são predominantemente adiposas.  
 
-      Nódulo ovalado, isodenso, circunscrito, localizado no quadrante superolateral da mama esquerda.
+      Massa oval, isodensa, circunscrita, localizada no quadrante superolateral da mama esquerda.
 
-      Não se visibilizam nódulos e/ou microcalcificações patológicas agrupadas.   
+      Não se visibilizam massas e/ou microcalcificações patológicas agrupadas.   
       Calcificações puntiformes isoladas difusas por ambas as mamas. 
       Papilas e regiões retroareolares sem alterações evidentes.
       Tecido adiposo subcutâneo e espaço retromamário bem conservados.
@@ -72,7 +72,7 @@ matches:
 
       Nota: No retorno trazer exames anteriores para comparação com os controles futuros.
 
-      "Os achados negativos na mamografia não significam ausência de malignida-de. Na presença de nódulo palpável ou outra anormalidade clínica importante, o achado negativo não exclui a necessidade de prosseguir a investigação".
+      "Os achados negativos na mamografia não significam ausência de malignidade. Na presença de massa palpável ou outra anormalidade clínica importante, o achado negativo não exclui a necessidade de prosseguir a investigação".
     word: true
 
   # ==============================================================================
@@ -91,66 +91,66 @@ matches:
 
   - trigger: "mgcompc"
     label: "Mama (composição c): heterogeneamente densas"
-    replace: As mamas são heterogeneamente densas, o que pode obscurecer pequenos nódulos.
+    replace: As mamas são heterogeneamente densas, o que pode obscurecer pequenas massas.
     word: true
 
   - trigger: "mgcompd"
     label: "Mama (composição d): extremamente densas"
-    replace: As mamas são extremamente densas, o que reduz a sensibilidade do método na detecção de nódulos.
+    replace: As mamas são extremamente densas, o que reduz a sensibilidade do método na detecção de massas.
     word: true
 
   # ==============================================================================
-  # NÓDULOS
+  # MASSAS
   # ==============================================================================
 
   - trigger: "mgn1"
-    label: "Mama (nódulo): nódulo de aspecto benigno (ovalado, circunscrito, isodenso) (achado descritivo)"
-    replace: Nódulo ovalado, circunscrito, isodenso, medindo _ cm, localizado no quadrante _ da mama [direita/esquerda], a _ cm da papila.
+    label: "Mama (massa): massa de aspecto benigno (oval, circunscrita, isodensa) (achado descritivo)"
+    replace: Massa oval, circunscrita, isodensa, medindo _ cm, localizada no quadrante _ da mama [direita/esquerda], a _ cm da papila.
     word: true
 
   - trigger: "mgn1c"
-    label: "Mama (nódulo): nódulo de aspecto benigno"
-    replace: Nódulo de aspecto benigno na mama [direita/esquerda].
+    label: "Mama (massa): massa de aspecto benigno"
+    replace: Massa de aspecto benigno na mama [direita/esquerda].
     word: true
 
   - trigger: "mgn2"
-    label: "Mama (nódulo): nódulo provavelmente benigno (ovalado/redondo, circunscrito) (achado descritivo)"
-    replace: Nódulo [ovalado/redondo], de margens circunscritas, isodenso, medindo _ cm, localizado no quadrante _ da mama [direita/esquerda], a _ cm da papila, sem calcificações ou distorção arquitetural associadas.
+    label: "Mama (massa): massa provavelmente benigna (oval/redonda, circunscrita) (achado descritivo)"
+    replace: Massa [oval/redonda], de margens circunscritas, isodensa, medindo _ cm, localizada no quadrante _ da mama [direita/esquerda], a _ cm da papila, sem calcificações ou distorção arquitetural associadas.
     word: true
 
   - trigger: "mgn2c"
-    label: "Mama (nódulo): nódulo provavelmente benigno"
-    replace: Nódulo provavelmente benigno na mama [direita/esquerda], para o qual se sugere controle mamográfico em intervalo reduzido.
+    label: "Mama (massa): massa provavelmente benigna"
+    replace: Massa provavelmente benigna na mama [direita/esquerda], para o qual se sugere controle mamográfico em intervalo reduzido.
     word: true
 
   - trigger: "mgn3"
-    label: "Mama (nódulo): nódulo suspeito (irregular, espiculado, denso) (achado descritivo)"
-    replace: Nódulo de forma irregular, margens espiculadas e alta densidade, medindo _ cm, localizado no quadrante _ da mama [direita/esquerda], a _ cm da papila.
+    label: "Mama (massa): massa suspeita (irregular, espiculada, alta densidade) (achado descritivo)"
+    replace: Massa de forma irregular, margens espiculadas e alta densidade, medindo _ cm, localizada no quadrante _ da mama [direita/esquerda], a _ cm da papila.
     word: true
 
   - trigger: "mgn3c"
-    label: "Mama (nódulo): nódulo de características suspeitas"
-    replace: Nódulo de características suspeitas na mama [direita/esquerda], sendo indicada avaliação histopatológica.
+    label: "Mama (massa): massa de características suspeitas"
+    replace: Massa de características suspeitas na mama [direita/esquerda], sendo indicada avaliação histopatológica.
     word: true
 
   - trigger: "mgn4"
-    label: "Mama (nódulo): nódulo com densidade de gordura (hamartoma/linfonodo/cisto oleoso)"
-    replace: Nódulo circunscrito contendo densidade de gordura de permeio, medindo _ cm, localizado no quadrante _ da mama [direita/esquerda], de aspecto benigno.
+    label: "Mama (massa): massa contendo gordura (hamartoma/linfonodo/cisto oleoso)"
+    replace: Massa circunscrita contendo densidade de gordura de permeio, medindo _ cm, localizada no quadrante _ da mama [direita/esquerda], de aspecto benigno.
     word: true
 
   - trigger: "mgns"
-    label: "Mama (nódulos): múltiplos nódulos circunscritos bilaterais (padrão benigno) (achado descritivo)"
-    replace: Múltiplos nódulos ovalados e circunscritos, isodensos, distribuídos por ambas as mamas, sem nódulo dominante ou de características suspeitas.
+    label: "Mama (massas): múltiplas massas circunscritas bilaterais (padrão benigno) (achado descritivo)"
+    replace: Múltiplas massas ovais e circunscritas, isodensas, distribuídas por ambas as mamas, sem massa dominante ou de características suspeitas.
     word: true
 
   - trigger: "mgnsc"
-    label: "Mama (nódulos): múltiplos nódulos circunscritos bilaterais (padrão benigno)"
-    replace: Múltiplos nódulos circunscritos bilaterais, de aspecto benigno.
+    label: "Mama (massas): múltiplas massas circunscritas bilaterais (padrão benigno)"
+    replace: Múltiplas massas circunscritas bilaterais, de aspecto benigno.
     word: true
 
   - trigger: "mgnt"
-    label: "Mama (nódulo): template parametrizado de nódulo (forma/margem/densidade)"
-    replace: Nódulo [ovalado/redondo/irregular], de margens [circunscritas/obscurecidas/microlobuladas/indistintas/espiculadas], [isodenso/hipodenso/hiperdenso], medindo _ cm, localizado no quadrante _ da mama [direita/esquerda], a _ cm da papila.
+    label: "Mama (massa): template parametrizado de massa (forma/margem/densidade)"
+    replace: Massa [oval/redonda/lobulada/irregular], de margens [circunscritas/obscurecidas/indistintas/espiculadas], [isodensa/hipodensa/hiperdensa/contendo gordura], medindo _ cm, localizada no quadrante _ da mama [direita/esquerda], a _ cm da papila.
     word: true
 
   # ==============================================================================
@@ -243,12 +243,12 @@ matches:
 
   - trigger: "mga2"
     label: "Mama (assimetria): assimetria global"
-    replace: Assimetria global de densidade acometendo mais de um quadrante da mama [direita/esquerda], sem nódulo, distorção arquitetural ou calcificações suspeitas associadas.
+    replace: Assimetria global de densidade acometendo mais de um quadrante da mama [direita/esquerda], sem massa, distorção arquitetural ou calcificações suspeitas associadas.
     word: true
 
   - trigger: "mga3"
     label: "Mama (assimetria): assimetria focal (achado descritivo)"
-    replace: Assimetria focal de densidade no quadrante _ da mama [direita/esquerda], caracterizada em duas incidências, sem nódulo ou distorção arquitetural associados.
+    replace: Assimetria focal de densidade no quadrante _ da mama [direita/esquerda], caracterizada em duas incidências, sem massa ou distorção arquitetural associadas.
     word: true
 
   - trigger: "mga3c"
@@ -272,7 +272,7 @@ matches:
 
   - trigger: "mgda1"
     label: "Mama (distorção arquitetural): (achado descritivo)"
-    replace: Distorção da arquitetura do parênquima no quadrante _ da mama [direita/esquerda], sem nódulo central definido, caracterizada por convergência de traves fibrosas.
+    replace: Distorção da arquitetura do parênquima no quadrante _ da mama [direita/esquerda], sem massa central definida, caracterizada por convergência de traves fibrosas.
     word: true
 
   - trigger: "mgda1c"
@@ -330,12 +330,12 @@ matches:
 
   - trigger: "mges1"
     label: "Mama (caso especial): esteatonecrose / cisto oleoso"
-    replace: Nódulo circunscrito com densidade de gordura e halo calcificado periférico no quadrante _ da mama [direita/esquerda], compatível com cisto oleoso / esteatonecrose.
+    replace: Massa circunscrita com densidade de gordura e halo calcificado periférico no quadrante _ da mama [direita/esquerda], compatível com cisto oleoso / esteatonecrose.
     word: true
 
   - trigger: "mges2"
     label: "Mama (caso especial): correlato mamográfico de cisto"
-    replace: Nódulo ovalado e circunscrito, isodenso, no quadrante _ da mama [direita/esquerda], que ao estudo ecográfico corresponde a formação cística de aspecto benigno.
+    replace: Massa oval e circunscrita, isodensa, no quadrante _ da mama [direita/esquerda], que ao estudo ecográfico corresponde a formação cística de aspecto benigno.
     word: true
 
   # ==============================================================================
