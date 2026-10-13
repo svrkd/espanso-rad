@@ -351,17 +351,17 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | axle | Mama (linfonodo axilar esquerdo): Linfonodo de aspecto habitual no prolongamento axilar esquerdo |
 | axld | Mama (linfonodo axilar direito): Linfonodo de aspecto habitual no prolongamento axilar direito |
 | mms1 | Mama (cistos): Cistos subcentimétricos esparsos por ambas as mamas |
-| ma3 | Mama (nódulo): oval, circunscrito, paralelo (achado descritivo) |
-| usnc | Mama (nódulo): Nódulo na mama [direita/esquerda] com as características acima descritas |
-| usncs | Mama (nódulos): Nódulos na mama [direita/esquerda] com as características acima descritas |
+| ma3 | Mama (massa): oval, circunscrita, paralela (achado descritivo) |
+| usnc | Mama (massa): conclusão genérica |
+| usncs | Mama (massas): conclusão genérica |
 | ma1 | Mama (cistos): Cistos subcentimétricos esparsos por ambas as mamas |
 | ma11 | Mama (cistos): Cistos subcentimétricos esparsos pela mama direita |
 | ma12 | Mama (cistos): Cistos subcentimétricos esparsos pela mama esquerda |
-| ma3c | Mama (nódulo): Nódulo na mama [direita/esquerda] com as características acima descritas |
-| ma3s | Mama: múltiplos nódulos ovalados circunscritos (dois ou mais sítios) |
-| ma3sc | Mama (nódulo): Nódulos na mama [direita/esquerda] com as características acima descritas |
-| ma4 | Mama: múltiplos nódulos ovalados circunscritos (dois ou mais sítios) |
-| ma4c | Mama (nódulo): Nódulos na mama [direita/esquerda] com as características acima descritas |
+| ma3c | Mama (massa): conclusão genérica |
+| ma3s | Mama: múltiplas massas ovais circunscritas (dois ou mais sítios) |
+| ma3sc | Mama (massas): conclusão genérica |
+| ma4 | Mama: múltiplas massas ovais circunscritas (dois ou mais sítios) |
+| ma4c | Mama (massas): conclusão genérica |
 | ma5 | Mama: Microcistos agrupados (achado descritivo) |
 | ma5c | Mama: Microcistos agrupados |
 | ma6 | Mama: Microcistos agrupados bilaterais (achado descritivo) |
@@ -413,8 +413,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma43 | Mama (US): microcistos agrupados típicos |
 | ma43c | Mama (US): microcistos agrupados típicos (conclusão) |
 | ma44 | Mama (US): microcistos com margem indistinta |
-| ma45 | Mama (US): lesão cística com nódulo mural |
-| ma45c | Mama (US): lesão cística com nódulo mural (conclusão) |
+| ma45 | Mama (US): massa mista com componente sólido mural |
+| ma45c | Mama (US): massa mista com componente sólido mural (conclusão) |
 | ma47 | Mama (US): lesão não massa focal |
 | ma47c | Mama (US): lesão não massa focal (conclusão) |
 | ma48 | Mama (US): lesão não massa linear |
@@ -499,7 +499,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | macistcomps | Mama (US): cistos complicados múltiplos bilaterais |
 | mamicro | Mama (US): microcistos agrupados típicos |
 | mamicroind | Mama (US): microcistos com margem indistinta |
-| mamural | Mama (US): lesão cística com nódulo mural |
+| mamural | Mama (US): massa mista com componente sólido mural |
 | macistoc | Mama (US): cisto mamário (conclusão) |
 | malnm | Mama (US): lesão não massa focal |
 | malnmlin | Mama (US): lesão não massa linear |

@@ -1921,18 +1921,18 @@ matches:
     word: true
 
   - trigger: "ma3"
-    label: "Mama (nódulo): oval, circunscrito, paralelo (achado descritivo)"
-    replace: Nódulo ovalado, circunscrito, hipoecoico, maior eixo paralelo à pele, medindo _ cm, localizado às _ horas da mama [esquerda/direita], distando _ cm da pele e _ cm da papila.
+    label: "Mama (massa): oval, circunscrita, paralela (achado descritivo)"
+    replace: Massa oval, circunscrita, hipoecogênica, paralela à pele, medindo _ cm, localizada às _ horas da mama [esquerda/direita], distando _ cm da pele e _ cm da papila.
     word: true
 
   - trigger: "usnc"
-    label: "Mama (nódulo): Nódulo na mama [direita/esquerda] com as características acima descritas"
-    replace: Nódulo na mama [direita/esquerda] com as características acima descritas.
+    label: "Mama (massa): conclusão genérica"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
     word: true
 
   - trigger: "usncs"
-    label: "Mama (nódulos): Nódulos na mama [direita/esquerda] com as características acima descritas"
-    replace: Nódulos na mama [direita/esquerda] com as características acima descritas.
+    label: "Mama (massas): conclusão genérica"
+    replace: Massas na mama [direita/esquerda], com as características acima descritas.
     word: true
 
   - trigger: "ma1"
@@ -1951,34 +1951,34 @@ matches:
     word: true
 
   - trigger: "ma3c"
-    label: "Mama (nódulo): Nódulo na mama [direita/esquerda] com as características acima descritas"
-    replace: Nódulo na mama [direita/esquerda] com as características acima descritas.
+    label: "Mama (massa): conclusão genérica"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
     word: true
 
   - trigger: "ma3s"
-    label: "Mama: múltiplos nódulos ovalados circunscritos (dois ou mais sítios)"
+    label: "Mama: múltiplas massas ovais circunscritas (dois ou mais sítios)"
     replace: |-
-      Nódulos ovalados, circunscritos, hipoecoicos, maior eixo paralelo à pele, assim distribuídos:
+      Massas ovais, circunscritas, hipoecogênicas, paralelas à pele, assim distribuídas:
       - às _ horas da mama [esquerda/direita], medindo _ cm, distando _ cm da pele e _ cm da papila;
       - às _ horas da mama [esquerda/direita], medindo _ cm, distando _ cm da pele e _ cm da papila.
     word: true
 
   - trigger: "ma3sc"
-    label: "Mama (nódulo): Nódulos na mama [direita/esquerda] com as características acima descritas"
-    replace: Nódulos na mama [direita/esquerda] com as características acima descritas.
+    label: "Mama (massas): conclusão genérica"
+    replace: Massas na mama [direita/esquerda], com as características acima descritas.
     word: true
 
   - trigger: "ma4"
-    label: "Mama: múltiplos nódulos ovalados circunscritos (dois ou mais sítios)"
+    label: "Mama: múltiplas massas ovais circunscritas (dois ou mais sítios)"
     replace: |-
-      Nódulos ovalados, circunscritos, hipoecoicos, maior eixo paralelo à pele, assim distribuídos:
+      Massas ovais, circunscritas, hipoecogênicas, paralelas à pele, assim distribuídas:
       - às _ horas da mama [esquerda/direita], medindo _ cm, distando _ cm da pele e _ cm da papila;
       - às _ horas da mama [esquerda/direita], medindo _ cm, distando _ cm da pele e _ cm da papila.
     word: true
 
   - trigger: "ma4c"
-    label: "Mama (nódulo): Nódulos na mama [direita/esquerda] com as características acima descritas"
-    replace: Nódulos na mama [direita/esquerda] com as características acima descritas.
+    label: "Mama (massas): conclusão genérica"
+    replace: Massas na mama [direita/esquerda], com as características acima descritas.
     word: true
 
   - trigger: "ma5"
@@ -2243,12 +2243,12 @@ matches:
     word: true
 
   - trigger: "ma45"
-    label: "Mama (US): lesão cística com nódulo mural"
+    label: "Mama (US): massa mista com componente sólido mural"
     replace: Massa mista sólida e cística, com componente sólido mural de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
     word: true
 
   - trigger: "ma45c"
-    label: "Mama (US): lesão cística com nódulo mural (conclusão)"
+    label: "Mama (US): massa mista com componente sólido mural (conclusão)"
     replace: Massa mista sólida e cística na mama [direita/esquerda].
     word: true
 
@@ -2671,7 +2671,7 @@ matches:
     word: true
 
   - trigger: "mamural"
-    label: "Mama (US): lesão cística com nódulo mural"
+    label: "Mama (US): massa mista com componente sólido mural"
     replace: Massa mista sólida e cística, com componente sólido mural de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
     word: true
 
