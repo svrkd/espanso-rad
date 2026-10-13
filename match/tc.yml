@@ -476,11 +476,6 @@ matches:
       Hipodensidade do parênquima encefálico adjacente à lesão acima descrita sugerindo representar edema e/ou infiltração tumoral.
     word: true
 
-  - trigger: "metacerebral1"
-    label: "Metástases cerebrais múltiplas"
-    replace: "Múltiplas lesões nodulares, de tamanhos variados, esparsas pelo parênquima cerebral, predominando na interface entre as substâncias branca e cinzenta, com realce de aspecto anelar/nodular pelo meio de contraste endovenoso. Outra lesão semelhante é identificada no hemisfério cerebelar esquerdo. As maiores lesões encontram-se nos giros frontal médio e temporal superior esquerdos, medindo _ cm e _ cm, respectivamente, acompanhadas de edema no parênquima adjacente. A possibilidade de metástases pode ser considerada, dentro do contexto oncológico."
-    word: true
-
   - trigger: "metashemorragicas"
     label: "Metástases cerebrais hemorrágicas"
     replace: |
@@ -1494,16 +1489,6 @@ matches:
     replace: "Fratura do teto e das paredes anterior e posterolateral do seio maxilar direito. Associa-se hemossinus, bem como hematoma e enfisema de partes moles da face e no assoalho da órbita ipsilateral."
     word: true
 
-  - trigger: "redumax1"
-    label: "Redução de transparência do seio maxilar direito"
-    replace: Redução da transparência do seio maxilar direito.
-    word: true
-
-  - trigger: "redumax2"
-    label: "Redução de transparência do seio maxilar esquerdo"
-    replace: Redução da transparência do seio maxilar esquerdo.
-    word: true
-
   - trigger: "seio10"
     label: "seios maxilares, esfenoidais, etmoidais e frontais"
     replace: "seios maxilares, esfenoidais, etmoidais e frontais."
@@ -1772,11 +1757,6 @@ matches:
   - trigger: "assime"
     label: "Abaulamento discal assimétrico com redução foraminal"
     replace: "abaulamento discal assimétrico com maior componente subarticular/foraminal esquerdo, que retifica a face ventral do saco dural e reduz a amplitude neuroforaminal ipsilateral, porém sem evidentes conflitos radiculares."
-    word: true
-
-  - trigger: "condroleve"
-    label: "Condropatia patelar leve"
-    replace: "Irregularidades na face lateral da cartilagem de revestimento condral da patela, com fissura e pequena erosão superficial, porém sem edema ósseo subcondral associado."
     word: true
 
   - trigger: "max"
@@ -3170,26 +3150,6 @@ matches:
     replace: Raro enfisema parasseptal nos campos pulmonares superiores.
     word: true
 
-  - trigger: "redu1"
-    label: "Redução de transparência pulmonar basal direita"
-    replace: Redução da transparência do campo pulmonar inferior direito.
-    word: true
-
-  - trigger: "redu2"
-    label: "Redução de transparência pulmonar basal esquerda"
-    replace: Redução da transparência do campo pulmonar inferior esquerdo.
-    word: true
-
-  - trigger: "redu3"
-    label: "Redução de transparência pulmonar basal bilateral"
-    replace: Redução da transparência dos campos pulmonares inferiores.
-    word: true
-
-  - trigger: "retran"
-    label: "Redução de transparência pulmonar basal"
-    replace: Redução da transparência do campo pulmonar inferior.
-    word: true
-
   - trigger: "ripadad"
     label: "Fratura de arcos costais anteriores direitos (5º-8º)"
     replace: Fraturas do 5º ao 8º arcos costais anteriores direitos.
@@ -3279,11 +3239,6 @@ matches:
     replace: "Aumento do número de linfonodos hilares hepáticos, celíacos, mesentéricos e retroperitoneais, sem caracterizar linfonodomegalias."
     word: true
 
-  - trigger: "tcp"
-    label: "Transparência pulmonar normal"
-    replace: Transparência normal dos campos pulmonares.
-    word: true
-
   - trigger: "tcpneumocistose1"
     label: "Pneumonia por Pneumocystis/citomegalovírus (mosaico)"
     replace: 'Opacidades com atenuação em "vidro fosco" esparsas pelos campos pulmonares, por vezes acompanhadas de espessamento dos septos interlobulares ("pavimentação em mosaico"). Admite-se inicialmente a possibilidade de processo infeccioso oportunista, destacando-se as hipóteses de pneumonia por Pneumocystis jirovecii ou citomegalovírus. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.'
@@ -3312,21 +3267,6 @@ matches:
   - trigger: "tctub"
     label: "Tuberculose pulmonar (lesão escavada) vs neoplasia"
     replace: 'Lesão escavada, de paredes espessas e irregulares, multiloculada, centrada no segmento posterior do lobo superior direito. Associam-se opacidades consolidativas e com atenuação em "vidro fosco", com espessamento liso dos septos interlobulares. Admite-se como principal hipótese diagnóstica tuberculose pulmonar, conforme a suspeita clínica, não sendo possível afastar de forma inequívoca a possibilidade de neoplasia.'
-    word: true
-
-  - trigger: "tram"
-    label: "Transparência pulmonar preservada"
-    replace: Transparência preservada nos campos pulmonares.
-    word: true
-
-  - trigger: "trampa"
-    label: "Transparência pulmonar preservada"
-    replace: Transparência preservada nos campos pulmonares.
-    word: true
-
-  - trigger: "tranpa"
-    label: "Transparência pulmonar preservada"
-    replace: Transparência preservada nos campos pulmonares.
     word: true
 
   - trigger: "traumapul"
@@ -5512,20 +5452,6 @@ matches:
     replace: "Lesão hipodensa no braço anterior da cápsula interna direita, que pode estar relacionada a evento vascular isquêmico, de cronicidade indeterminada nesse estudo. Os diagnósticos diferenciais devem ser aplicados. Caso persista a indicação clínica, recomenda-se estudo direcionado através de imagens de ressonância magnética, se possível."
     word: true
 
-  - trigger: "evr2"
-    label: "Espaços de Virchow-Robin difusos"
-    replace: "Numerosos espaços com densidade de líquor circulante dispersos pelos hemisférios cerebrais, centros semiovais e núcleos da base bilateralmente, compatíveis com espaços perivasculares de Virchow-Robin (com frequência achado incidental, sem correlação clínica)."
-    word: true
-
-  - trigger: "fibromanaossificante"
-    label: "Fibroma não ossificante do fêmur"
-    replace: |
-      Lesão óssea lítica com margens escleróticas, medindo _ cm em seu maior eixo, de localização excêntrica na medular do aspecto posterior da metáfise distal do fêmur. Não há rotura cortical, reação periosteal ou componente de partes moles associados.
-
-      Conclusão:
-      Lesão na metáfise distal do fêmur com sinais de baixa agressividade. A possibilidade de fibroma não ossificante pode ser considerada dentre os diagnósticos diferenciais.
-    word: true
-
   - trigger: "galinho"
     label: "Edema/hematoma no olécrano"
     replace: Aumento de volume e densificação do tecido subcutâneo na região do olécrano sugerindo edema/hematoma. Correlacionar com dados clínicos.
@@ -6608,16 +6534,6 @@ matches:
 
       Conclusão:
       O conjunto de achados acima descritos é sugestivo de espondilite anquilosante.
-    word: true
-
-  - trigger: "frafa"
-    label: "Nota — limitação da radiografia para fraturas faciais"
-    replace: "Nota: a radiografia simples possui baixa sensibilidade na detecção de fraturas dos ossos da face. Na persistência de suspeita clínica, recomenda-se complementação diagnóstica com tomografia computadorizada."
-    word: true
-
-  - trigger: "fraface"
-    label: "Nota — limitação da radiografia para fraturas faciais"
-    replace: "Nota: a radiografia simples possui baixa sensibilidade na detecção de fraturas dos ossos da face. Na persistência de suspeita clínica, recomenda-se complementação diagnóstica com tomografia computadorizada."
     word: true
 
   - trigger: "fraturabacia"
@@ -10786,11 +10702,6 @@ matches:
   - trigger: "edemalin"
     label: "Edema intersticial perilinfático pulmonar"
     replace: Espessamento difuso e bilateral dos septos interlobulares, em padrão compatível com edema intersticial.
-    word: true
-
-  - trigger: "edi"
-    label: "Edema do ligamento interespinhoso lombar"
-    replace: "Edema do ligamento interespinhoso nos níveis L2-L3, L3-L4 e L4-L5, presumivelmente relacionado a estiramento/sobrecarga mecânica crônica."
     word: true
 
   - trigger: "edif"

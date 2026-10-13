@@ -585,6 +585,16 @@ matches:
     replace: "Áreas de alteração de sinal caracterizadas por hipersinal nas sequências ponderadas em T2/FLAIR e restrição à livre movimentação das moléculas de água, comprometendo os giros temporais superior, transverso e médio direitos, bem como a região corticossubcortical da ínsula e o núcleo estriado homolateral, determinando discreto efeito expansivo local, com apagamento dos sulcos corticais adjacentes e compressão do corpo do ventrículo lateral deste lado. Nota-se ainda, na região central acometida, área de baixo sinal em T2/FLAIR, com difusão restrita nas sequências S.W.I. e ADC. Tais achados são compatíveis com insulto isquêmico recente exibindo transformação hemorrágica no território da artéria cerebral média direita."
     word: true
 
+  - trigger: "metacerebral1"
+    label: "Metástases cerebrais múltiplas"
+    replace: "Múltiplas lesões nodulares, de tamanhos variados, esparsas pelo parênquima cerebral, predominando na interface entre as substâncias branca e cinzenta, com realce de aspecto anelar/nodular pelo meio de contraste paramagnético endovenoso. Outra lesão semelhante é identificada no hemisfério cerebelar esquerdo. As maiores lesões encontram-se nos giros frontal médio e temporal superior esquerdos, medindo _ cm e _ cm, respectivamente, acompanhadas de edema no parênquima adjacente. A possibilidade de metástases pode ser considerada, dentro do contexto oncológico."
+    word: true
+
+  - trigger: "evr2"
+    label: "Espaços de Virchow-Robin difusos"
+    replace: "Numerosos espaços com intensidade de líquor circulante dispersos pelos hemisférios cerebrais, centros semiovais e núcleos da base bilateralmente, compatíveis com espaços perivasculares de Virchow-Robin (com frequência achado incidental, sem correlação clínica)."
+    word: true
+
   # ==========================================================================
   # FACE / ÓRBITAS / SEIOS DA FACE / PESCOÇO / ATM
   # ==========================================================================
@@ -1457,6 +1467,11 @@ matches:
       Índice cardiotorácico preservado.
 
       Arco aórtico normal.
+    word: true
+
+  - trigger: "edi"
+    label: "Edema do ligamento interespinhoso lombar"
+    replace: "Edema do ligamento interespinhoso nos níveis L2-L3, L3-L4 e L4-L5, presumivelmente relacionado a estiramento/sobrecarga mecânica crônica."
     word: true
 
   # ==========================================================================
@@ -3091,6 +3106,11 @@ matches:
   - trigger: "tuneis"
     label: "Túneis ósseos no fêmur e na tíbia"
     replace: "Túneis ósseos no fêmur e na tíbia com artefatos de susceptibilidade magnética, que são achados habituais após reconstrução cirúrgica do ligamento cruzado anterior."
+    word: true
+
+  - trigger: "condroleve"
+    label: "Condropatia patelar leve"
+    replace: "Irregularidades na face lateral da cartilagem de revestimento condral da patela, com fissura e pequena erosão superficial, porém sem edema ósseo subcondral associado."
     word: true
 
   # ==========================================================================
