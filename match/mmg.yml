@@ -45,7 +45,7 @@ matches:
       Massa oval, isodensa, circunscrita, localizada no quadrante superolateral da mama esquerda.
 
       Não se visibilizam massas e/ou microcalcificações patológicas agrupadas.   
-      Calcificações puntiformes isoladas difusas por ambas as mamas. 
+      Calcificações redondas isoladas difusas por ambas as mamas. 
       Papilas e regiões retroareolares sem alterações evidentes.
       Tecido adiposo subcutâneo e espaço retromamário bem conservados.
       Pele e tecido celular subcutâneo sem alterações.
@@ -58,7 +58,7 @@ matches:
 
       Conclusão:
       -
-      - Calcificações puntiformes isoladas difusas por ambas as mamas. 
+      - Calcificações redondas isoladas difusas por ambas as mamas. 
 
       Classificação radiológica (BI-RADS): _ Reajustado de acordo com estudo ecográfico do dia _.
 
@@ -158,8 +158,8 @@ matches:
   # ==============================================================================
 
   - trigger: "mgk1"
-    label: "Mama (calcificações): puntiformes/redondas isoladas difusas (benignas)"
-    replace: Calcificações puntiformes e redondas, isoladas e difusas por ambas as mamas, de aspecto benigno.
+    label: "Mama (calcificações): redondas isoladas difusas (benignas)"
+    replace: Calcificações redondas, isoladas e difusas por ambas as mamas, de aspecto benigno.
     word: true
 
   - trigger: "mgk2"
@@ -229,7 +229,7 @@ matches:
 
   - trigger: "mgkt"
     label: "Mama (calcificações): template parametrizado (morfologia/distribuição)"
-    replace: Calcificações [puntiformes/redondas/amorfas/grosseiras heterogêneas/finas pleomórficas/finas lineares ramificadas], com distribuição [difusa/regional/agrupada/linear/segmentar], no quadrante _ da mama [direita/esquerda].
+    replace: Calcificações [redondas/amorfas/grosseiras heterogêneas/finas pleomórficas/finas lineares ramificadas], com distribuição [difusa/regional/agrupada/linear/segmentar], no quadrante _ da mama [direita/esquerda].
     word: true
 
   # ==============================================================================
