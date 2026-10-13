@@ -1719,23 +1719,23 @@ matches:
     word: true
 
   - trigger: "ob31"
-    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II (achado descritivo)"
+    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II à esquerda (achado descritivo)"
     replace: Observa-se, em topografia de pulmão esquerdo, massa heterogênea caracterizada por formação sólido-cística, com componente sólido ecogênico e cistos de permeio, medindo o maior cerca de _ x _ cm. A massa promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da massa e a circunferência craniana (CC) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
     word: true
 
   - trigger: "ob31c"
-    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II (conclusão)"
-    replace: Lesão pulmonar sólido-cística sugestiva de malformação adenomatoide cística (MAC), com relação MAC/CC de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
+    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II à esquerda (conclusão)"
+    replace: Lesão pulmonar sólido-cística à esquerda, sugestiva de malformação adenomatoide cística (MAC), com relação MAC/CC de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
     word: true
 
   - trigger: "ob32"
-    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo I (achado descritivo)"
+    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II à direita (achado descritivo)"
     replace: Observa-se, em topografia de pulmão direito, massa heterogênea caracterizada por formação sólido-cística, com componente sólido ecogênico e cistos de permeio, medindo o maior cerca de _ x _ cm. A massa promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da massa e a circunferência craniana (CC) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
     word: true
 
   - trigger: "ob32c"
-    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo I (conclusão)"
-    replace: Lesão pulmonar sólido-cística sugestiva de malformação adenomatoide cística (MAC), com relação MAC/CC de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
+    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II à direita (conclusão)"
+    replace: Lesão pulmonar sólido-cística à direita, sugestiva de malformação adenomatoide cística (MAC), com relação MAC/CC de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
     word: true
 
   # ==============================================================================
@@ -1874,8 +1874,9 @@ matches:
 
   # ==============================================================================
   # MAMAS E LINFONODOS AXILARES
-  # BI-RADS v2025: ma13–ma90 e seus aliases descritivos não atribuem categoria
-  # automaticamente. Preencher lateralidade, hora, distância e medidas antes de usar.
+  # BI-RADS v2025: ma13–ma86 (conclusões em sufixo c) e seus aliases descritivos
+  # não atribuem categoria automaticamente. Preencher lateralidade, hora, distância
+  # e medidas antes de usar.
   # ==============================================================================
 
   - trigger: "usmamas"
@@ -2069,9 +2070,19 @@ matches:
     replace: Massa sólida oval, hipoecogênica, circunscrita e paralela à pele, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
     word: true
 
+  - trigger: "ma25c"
+    label: "Mama (US): massa oval circunscrita e paralela (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
   - trigger: "ma26"
     label: "Mama (US): massa lobulada circunscrita e paralela"
     replace: Massa sólida lobulada, hipoecogênica, circunscrita e paralela à pele, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
+    word: true
+
+  - trigger: "ma26c"
+    label: "Mama (US): massa lobulada circunscrita e paralela (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
     word: true
 
   - trigger: "ma27"
@@ -2079,9 +2090,19 @@ matches:
     replace: Massa sólida redonda, hipoecogênica e circunscrita, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
     word: true
 
+  - trigger: "ma27c"
+    label: "Mama (US): massa redonda circunscrita (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
   - trigger: "ma28"
     label: "Mama (US): massa irregular de margem indistinta"
     replace: Massa sólida irregular, hipoecogênica, de margens indistintas, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
+    word: true
+
+  - trigger: "ma28c"
+    label: "Mama (US): massa irregular de margem indistinta (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
     word: true
 
   - trigger: "ma29"
@@ -2089,9 +2110,19 @@ matches:
     replace: Massa sólida [oval/lobulada/irregular], hipoecogênica, de margens microlobuladas, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
     word: true
 
+  - trigger: "ma29c"
+    label: "Mama (US): massa de margem microlobulada (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
   - trigger: "ma30"
     label: "Mama (US): massa de margem angular"
     replace: Massa sólida irregular, hipoecogênica, de margens angulares, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
+    word: true
+
+  - trigger: "ma30c"
+    label: "Mama (US): massa de margem angular (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
     word: true
 
   - trigger: "ma31"
@@ -2099,9 +2130,19 @@ matches:
     replace: Massa sólida irregular, hipoecogênica, de margens espiculadas e orientação não paralela à pele, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
     word: true
 
+  - trigger: "ma31c"
+    label: "Mama (US): massa espiculada e não paralela (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
   - trigger: "ma32"
     label: "Mama (US): massa hiperecogênica"
     replace: Massa sólida [oval/lobulada/irregular], hiperecogênica, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
+    word: true
+
+  - trigger: "ma32c"
+    label: "Mama (US): massa hiperecogênica (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
     word: true
 
   - trigger: "ma33"
@@ -2109,14 +2150,29 @@ matches:
     replace: Massa sólida [oval/lobulada/irregular], isoecogênica, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
     word: true
 
+  - trigger: "ma33c"
+    label: "Mama (US): massa isoecogênica (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
   - trigger: "ma34"
     label: "Mama (US): massa heterogênea"
     replace: Massa sólida [oval/lobulada/irregular], heterogênea, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
     word: true
 
+  - trigger: "ma34c"
+    label: "Mama (US): massa heterogênea (conclusão)"
+    replace: Massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
   - trigger: "ma35"
     label: "Mama (US): massa mista sólida e cística"
     replace: Massa mista sólida e cística, com componente sólido [mural/central/periférico] de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila. O componente sólido [apresenta/não apresenta] vascularização ao Doppler.
+    word: true
+
+  - trigger: "ma35c"
+    label: "Mama (US): massa mista sólida e cística (conclusão)"
+    replace: Massa mista sólida e cística na mama [direita/esquerda].
     word: true
 
   - trigger: "ma36"
@@ -2129,8 +2185,8 @@ matches:
     replace: Massa sólida de forma [oval/lobulada/irregular], margens [circunscritas/indistintas/microlobuladas/angulares/espiculadas], orientação [paralela/não paralela] à pele e ecogenicidade [hipoecogênica/isoecogênica/hiperecogênica/heterogênea], medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila e _ cm da pele.
     word: true
 
-  - trigger: "ma38"
-    label: "Mama (US): massa mamária (conclusão)"
+  - trigger: "ma37c"
+    label: "Mama (US): massa parametrizada (descritores v2025) (conclusão)"
     replace: Massa na mama [direita/esquerda], com as características acima descritas.
     word: true
 
@@ -2141,14 +2197,29 @@ matches:
     replace: Cisto [oval/redondo], de paredes finas, margens circunscritas e conteúdo anecoico, com reforço acústico posterior, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
     word: true
 
+  - trigger: "ma39c"
+    label: "Mama (US): cisto simples (conclusão)"
+    replace: Cisto na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
   - trigger: "ma40"
     label: "Mama (US): cistos simples múltiplos bilaterais"
     replace: Cistos simples de paredes finas e conteúdo anecoico, distribuídos por ambas as mamas, o maior medindo _ cm às _ horas da mama [direita/esquerda], a _ cm da papila.
     word: true
 
+  - trigger: "ma40c"
+    label: "Mama (US): cistos simples múltiplos bilaterais (conclusão)"
+    replace: Cistos simples mamários.
+    word: true
+
   - trigger: "ma41"
     label: "Mama (US): cisto complicado isolado"
     replace: Cisto de paredes finas, com ecos internos móveis de baixo nível, sem componente sólido discreto ou vascularização interna, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma41c"
+    label: "Mama (US): cisto complicado isolado (conclusão)"
+    replace: Cisto complicado na mama [direita/esquerda].
     word: true
 
   - trigger: "ma42"
@@ -2161,6 +2232,11 @@ matches:
     replace: Microcistos anecoicos agrupados, separados por septos finos, sem componente sólido discreto, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
     word: true
 
+  - trigger: "ma43c"
+    label: "Mama (US): microcistos agrupados típicos (conclusão)"
+    replace: Microcistos agrupados na mama [direita/esquerda].
+    word: true
+
   - trigger: "ma44"
     label: "Mama (US): microcistos com margem indistinta"
     replace: Agrupamento de microcistos com margens parcialmente indistintas, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
@@ -2171,9 +2247,9 @@ matches:
     replace: Massa mista sólida e cística, com componente sólido mural de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
     word: true
 
-  - trigger: "ma46"
-    label: "Mama (US): cisto mamário (conclusão)"
-    replace: Cisto na mama [direita/esquerda], com as características acima descritas.
+  - trigger: "ma45c"
+    label: "Mama (US): lesão cística com nódulo mural (conclusão)"
+    replace: Massa mista sólida e cística na mama [direita/esquerda].
     word: true
 
   # --- LESÕES NÃO MASSA E CALCIFICAÇÕES ---
@@ -2183,9 +2259,19 @@ matches:
     replace: Lesão não massa hipoecogênica focal, distinta do parênquima adjacente e reprodutível em dois planos, medindo _ x _ x _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
     word: true
 
+  - trigger: "ma47c"
+    label: "Mama (US): lesão não massa focal (conclusão)"
+    replace: Lesão não massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
   - trigger: "ma48"
     label: "Mama (US): lesão não massa linear"
     replace: Lesão não massa hipoecogênica de distribuição linear, reprodutível em dois planos, com extensão de _ cm, às _ horas da mama [direita/esquerda], a _ cm da papila.
+    word: true
+
+  - trigger: "ma48c"
+    label: "Mama (US): lesão não massa linear (conclusão)"
+    replace: Lesão não massa na mama [direita/esquerda], com as características acima descritas.
     word: true
 
   - trigger: "ma49"
@@ -2193,13 +2279,18 @@ matches:
     replace: Lesão não massa hipoecogênica de distribuição segmentar, com focos ecogênicos internos, reprodutível em dois planos, com extensão de _ cm na mama [direita/esquerda], entre _ e _ horas, a _ cm da papila.
     word: true
 
+  - trigger: "ma49c"
+    label: "Mama (US): lesão não massa segmentar com focos ecogênicos (conclusão)"
+    replace: Lesão não massa na mama [direita/esquerda], com as características acima descritas.
+    word: true
+
   - trigger: "ma50"
     label: "Mama (US): lesão não massa regional"
     replace: Lesão não massa de ecotextura heterogênea e distribuição regional, distinta do parênquima adjacente e reprodutível em dois planos, com extensão de _ cm na mama [direita/esquerda].
     word: true
 
-  - trigger: "ma51"
-    label: "Mama (US): lesão não massa (conclusão)"
+  - trigger: "ma50c"
+    label: "Mama (US): lesão não massa regional (conclusão)"
     replace: Lesão não massa na mama [direita/esquerda], com as características acima descritas.
     word: true
 
@@ -2344,9 +2435,19 @@ matches:
     replace: Linfonodo axilar [direito/esquerdo] oval, com espessamento cortical difuso de até _ mm e hilo gorduroso preservado, medindo _ cm.
     word: true
 
+  - trigger: "ma78c"
+    label: "Mama (US): espessamento cortical difuso de linfonodo (conclusão)"
+    replace: Linfonodo axilar [direito/esquerdo] de morfologia alterada, com as características acima descritas.
+    word: true
+
   - trigger: "ma79"
     label: "Mama (US): espessamento cortical focal de linfonodo"
     replace: Linfonodo axilar [direito/esquerdo] com espessamento cortical focal excêntrico de _ mm, compressão do hilo gorduroso, medindo _ cm.
+    word: true
+
+  - trigger: "ma79c"
+    label: "Mama (US): espessamento cortical focal de linfonodo (conclusão)"
+    replace: Linfonodo axilar [direito/esquerdo] de morfologia alterada, com as características acima descritas.
     word: true
 
   - trigger: "ma80"
@@ -2354,9 +2455,19 @@ matches:
     replace: Linfonodo axilar [direito/esquerdo] arredondado, hipoecogênico, com apagamento completo do hilo gorduroso, medindo _ cm.
     word: true
 
+  - trigger: "ma80c"
+    label: "Mama (US): linfonodo arredondado sem hilo (conclusão)"
+    replace: Linfonodo axilar [direito/esquerdo] de morfologia alterada, com as características acima descritas.
+    word: true
+
   - trigger: "ma81"
     label: "Mama (US): vascularização cortical de linfonodo"
     replace: Linfonodo axilar [direito/esquerdo] com vascularização cortical periférica ao Doppler colorido e córtex de _ mm.
+    word: true
+
+  - trigger: "ma81c"
+    label: "Mama (US): vascularização cortical de linfonodo (conclusão)"
+    replace: Linfonodo axilar [direito/esquerdo] de morfologia alterada, com as características acima descritas.
     word: true
 
   - trigger: "ma82"
@@ -2364,12 +2475,12 @@ matches:
     replace: Linfonodo axilar [direito/esquerdo] de contornos indistintos, com perda da diferenciação corticomedular, medindo _ cm.
     word: true
 
-  - trigger: "ma83"
-    label: "Mama (US): linfonodo axilar alterado (conclusão)"
+  - trigger: "ma82c"
+    label: "Mama (US): linfonodo com margem indistinta (conclusão)"
     replace: Linfonodo axilar [direito/esquerdo] de morfologia alterada, com as características acima descritas.
     word: true
 
-  # --- COMPARAÇÃO E CONCLUSÕES CURTAS ---
+  # --- COMPARAÇÃO ---
 
   - trigger: "ma84"
     label: "Mama (US): estabilidade em comparação"
@@ -2386,28 +2497,8 @@ matches:
     replace: Achado na mama [direita/esquerda] com aumento de _ para _ cm em relação ao exame de _.
     word: true
 
-  - trigger: "ma87"
-    label: "Mama (US): cistos simples (conclusão)"
-    replace: Cistos simples mamários.
-    word: true
-
-  - trigger: "ma88"
-    label: "Mama (US): microcistos agrupados (conclusão)"
-    replace: Microcistos agrupados na mama [direita/esquerda].
-    word: true
-
-  - trigger: "ma89"
-    label: "Mama (US): cisto complicado (conclusão)"
-    replace: Cisto complicado na mama [direita/esquerda].
-    word: true
-
-  - trigger: "ma90"
-    label: "Mama (US): massa mista sólida e cística (conclusão)"
-    replace: Massa mista sólida e cística na mama [direita/esquerda].
-    word: true
-
   # ==============================================================================
-  # ALIASES DESCRITIVOS DE MA13–MA90
+  # ALIASES DESCRITIVOS DE MA13–MA86
   # Mantêm o prefixo `ma` colado ao descritor para evitar disparos acidentais.
   # ==============================================================================
 

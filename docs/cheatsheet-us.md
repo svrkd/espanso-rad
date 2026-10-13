@@ -306,10 +306,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ob29c | Obstétrica — Tórax: hidrotórax bilateral (conclusão) |
 | ob30 | Obstétrica — Tórax: malformação adenomatoide cística tipo III (achado descritivo) |
 | ob30c | Obstétrica — Tórax: malformação adenomatoide cística tipo III (conclusão) |
-| ob31 | Obstétrica — Tórax: malformação adenomatoide cística tipo II (achado descritivo) |
-| ob31c | Obstétrica — Tórax: malformação adenomatoide cística tipo II (conclusão) |
-| ob32 | Obstétrica — Tórax: malformação adenomatoide cística tipo I (achado descritivo) |
-| ob32c | Obstétrica — Tórax: malformação adenomatoide cística tipo I (conclusão) |
+| ob31 | Obstétrica — Tórax: malformação adenomatoide cística tipo II à esquerda (achado descritivo) |
+| ob31c | Obstétrica — Tórax: malformação adenomatoide cística tipo II à esquerda (conclusão) |
+| ob32 | Obstétrica — Tórax: malformação adenomatoide cística tipo II à direita (achado descritivo) |
+| ob32c | Obstétrica — Tórax: malformação adenomatoide cística tipo II à direita (conclusão) |
 
 ## Obstétrica — Primeiro Trimestre
 
@@ -379,32 +379,50 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma23 | Mama (US): ausência de correspondente para achado palpável |
 | ma24 | Mama (US): ausência de correspondente para achado mamográfico |
 | ma25 | Mama (US): massa oval circunscrita e paralela |
+| ma25c | Mama (US): massa oval circunscrita e paralela (conclusão) |
 | ma26 | Mama (US): massa lobulada circunscrita e paralela |
+| ma26c | Mama (US): massa lobulada circunscrita e paralela (conclusão) |
 | ma27 | Mama (US): massa redonda circunscrita |
+| ma27c | Mama (US): massa redonda circunscrita (conclusão) |
 | ma28 | Mama (US): massa irregular de margem indistinta |
+| ma28c | Mama (US): massa irregular de margem indistinta (conclusão) |
 | ma29 | Mama (US): massa de margem microlobulada |
+| ma29c | Mama (US): massa de margem microlobulada (conclusão) |
 | ma30 | Mama (US): massa de margem angular |
+| ma30c | Mama (US): massa de margem angular (conclusão) |
 | ma31 | Mama (US): massa espiculada e não paralela |
+| ma31c | Mama (US): massa espiculada e não paralela (conclusão) |
 | ma32 | Mama (US): massa hiperecogênica |
+| ma32c | Mama (US): massa hiperecogênica (conclusão) |
 | ma33 | Mama (US): massa isoecogênica |
+| ma33c | Mama (US): massa isoecogênica (conclusão) |
 | ma34 | Mama (US): massa heterogênea |
+| ma34c | Mama (US): massa heterogênea (conclusão) |
 | ma35 | Mama (US): massa mista sólida e cística |
+| ma35c | Mama (US): massa mista sólida e cística (conclusão) |
 | ma36 | Mama (US): massas circunscritas múltiplas bilaterais |
 | ma37 | Mama (US): massa parametrizada (descritores v2025) |
-| ma38 | Mama (US): massa mamária (conclusão) |
+| ma37c | Mama (US): massa parametrizada (descritores v2025) (conclusão) |
 | ma39 | Mama (US): cisto simples |
+| ma39c | Mama (US): cisto simples (conclusão) |
 | ma40 | Mama (US): cistos simples múltiplos bilaterais |
+| ma40c | Mama (US): cistos simples múltiplos bilaterais (conclusão) |
 | ma41 | Mama (US): cisto complicado isolado |
+| ma41c | Mama (US): cisto complicado isolado (conclusão) |
 | ma42 | Mama (US): cistos complicados múltiplos bilaterais |
 | ma43 | Mama (US): microcistos agrupados típicos |
+| ma43c | Mama (US): microcistos agrupados típicos (conclusão) |
 | ma44 | Mama (US): microcistos com margem indistinta |
 | ma45 | Mama (US): lesão cística com nódulo mural |
-| ma46 | Mama (US): cisto mamário (conclusão) |
+| ma45c | Mama (US): lesão cística com nódulo mural (conclusão) |
 | ma47 | Mama (US): lesão não massa focal |
+| ma47c | Mama (US): lesão não massa focal (conclusão) |
 | ma48 | Mama (US): lesão não massa linear |
+| ma48c | Mama (US): lesão não massa linear (conclusão) |
 | ma49 | Mama (US): lesão não massa segmentar com focos ecogênicos |
+| ma49c | Mama (US): lesão não massa segmentar com focos ecogênicos (conclusão) |
 | ma50 | Mama (US): lesão não massa regional |
-| ma51 | Mama (US): lesão não massa (conclusão) |
+| ma50c | Mama (US): lesão não massa regional (conclusão) |
 | ma52 | Mama (US): microcalcificações em massa |
 | ma53 | Mama (US): microcalcificações fora de massa |
 | ma54 | Mama (US): microcalcificações intraductais |
@@ -432,20 +450,20 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma76 | Mama (US): parênquima glandular focal proeminente |
 | ma77 | Mama (US): linfonodos axilares de morfologia habitual |
 | ma78 | Mama (US): espessamento cortical difuso de linfonodo |
+| ma78c | Mama (US): espessamento cortical difuso de linfonodo (conclusão) |
 | ma79 | Mama (US): espessamento cortical focal de linfonodo |
+| ma79c | Mama (US): espessamento cortical focal de linfonodo (conclusão) |
 | ma80 | Mama (US): linfonodo arredondado sem hilo |
+| ma80c | Mama (US): linfonodo arredondado sem hilo (conclusão) |
 | ma81 | Mama (US): vascularização cortical de linfonodo |
+| ma81c | Mama (US): vascularização cortical de linfonodo (conclusão) |
 | ma82 | Mama (US): linfonodo com margem indistinta |
-| ma83 | Mama (US): linfonodo axilar alterado (conclusão) |
+| ma82c | Mama (US): linfonodo com margem indistinta (conclusão) |
 | ma84 | Mama (US): estabilidade em comparação |
 | ma85 | Mama (US): achado novo em comparação |
 | ma86 | Mama (US): crescimento em comparação |
-| ma87 | Mama (US): cistos simples (conclusão) |
-| ma88 | Mama (US): microcistos agrupados (conclusão) |
-| ma89 | Mama (US): cisto complicado (conclusão) |
-| ma90 | Mama (US): massa mista sólida e cística (conclusão) |
 
-## Aliases Descritivos De Ma13–Ma90
+## Aliases Descritivos De Ma13–Ma86
 
 | Trigger | Label |
 |---|---|
