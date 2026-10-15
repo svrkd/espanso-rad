@@ -845,6 +845,7 @@ matches:
 
       Técnica:
       Exame ultrassonográfico realizado com equipamento endocavitário multifrequencial, por via transvaginal.
+      Data da última menstruação: _.
 
       Descrição:
       Útero em anteversoflexão (AVF), medindo _ cm nos seus maiores eixos.
@@ -867,6 +868,7 @@ matches:
       ULTRASSONOGRAFIA PÉLVICA GINECOLÓGICA
 
       Descrição:
+      Data da última menstruação: _.
       Bexiga com capacidade e distensibilidade normais, contornos regulares, paredes lisas e normoespessas.
       Útero em ante/ médio/ retro versoflexão (AVF/MVF/RVF), medindo _ cm nos seus maiores eixos longitudinal, laterolateral e anteroposterior, respectivamente.
       Volume uterino de _ cm³.
@@ -935,8 +937,8 @@ matches:
     word: true
 
   - trigger: "mm1"
-    label: "Miométrio (mioma): Nódulo miometrial mais comumente associado a leiomioma (achado descritivo)"
-    replace: Ecotextura miometrial de aspecto homogêneo, exceto por imagem nodular heterogênea, predominantemente hipoecogênica, de limites parcialmente definidos e contornos regulares, de localização _, medindo _ cm.
+    label: "Miométrio (mioma): Nódulo miometrial mais comumente associado a leiomioma (achado descritivo) — FIGO: 0 pediculado intracavitário; 1 submucoso < 50% intramural; 2 submucoso ≥ 50% intramural; 3 intramural em contato com o endométrio; 4 intramural; 5 subseroso ≥ 50% intramural; 6 subseroso < 50% intramural; 7 subseroso pediculado; 8 outros"
+    replace: Ecotextura miometrial de aspecto homogêneo, exceto por imagem nodular heterogênea, predominantemente hipoecogênica, de limites parcialmente definidos e contornos regulares, de localização _ (FIGO _), medindo _ cm.
     word: true
 
   - trigger: "mm1c"
@@ -945,11 +947,11 @@ matches:
     word: true
 
   - trigger: "mm2"
-    label: "Miométrio (mioma): Nódulos miometriais mais comumente associados a leiomiomas (achado descritivo)"
+    label: "Miométrio (mioma): Nódulos miometriais mais comumente associados a leiomiomas (achado descritivo) — FIGO: 0 pediculado intracavitário; 1 submucoso < 50% intramural; 2 submucoso ≥ 50% intramural; 3 intramural em contato com o endométrio; 4 intramural; 5 subseroso ≥ 50% intramural; 6 subseroso < 50% intramural; 7 subseroso pediculado; 8 outros"
     replace: |-
       Ecotextura miometrial de aspecto heterogêneo, devido a algumas imagens nodulares heterogêneas, predominantemente hipoecogênicas, de limites parcialmente definidos e contornos regulares, as maiores assim localizadas:
-      - parede _, intramural/subserosa/submucosa medindo _ cm;
-      - parede _, intramural/subserosa/submucosa medindo _ cm.
+      - parede _, intramural/subserosa/submucosa (FIGO _), medindo _ cm;
+      - parede _, intramural/subserosa/submucosa (FIGO _), medindo _ cm.
     word: true
 
   - trigger: "mm2c"
@@ -958,8 +960,8 @@ matches:
     word: true
 
   - trigger: "mm3"
-    label: "Miométrio (mioma): Útero miomatoso (achado descritivo)"
-    replace: Ecotextura miometrial de aspecto heterogêneo, devido a múltiplas imagens nodulares heterogêneas, predominantemente hipoecogênicas, de limites parcialmente definidos e contornos regulares, a maior na parede _, intramural/subserosa/submucosa, medindo _ cm.
+    label: "Miométrio (mioma): Útero miomatoso (achado descritivo) — FIGO: 0 pediculado intracavitário; 1 submucoso < 50% intramural; 2 submucoso ≥ 50% intramural; 3 intramural em contato com o endométrio; 4 intramural; 5 subseroso ≥ 50% intramural; 6 subseroso < 50% intramural; 7 subseroso pediculado; 8 outros"
+    replace: Ecotextura miometrial de aspecto heterogêneo, devido a múltiplas imagens nodulares heterogêneas, predominantemente hipoecogênicas, de limites parcialmente definidos e contornos regulares, a maior na parede _, intramural/subserosa/submucosa (FIGO _), medindo _ cm.
     word: true
 
   - trigger: "mm3c"
@@ -1021,13 +1023,33 @@ matches:
     word: true
 
   - trigger: "ov6"
-    label: "Ovário: Imagem cística complexa no ovário _ (achado descritivo)"
-    replace: imagem cística, com componente mural sólido de permeio/septos grosseiros, com/sem fluxo vascular ao estudo Doppler. Cisto mede _ cm, componente sólido mede _ cm.
+    label: "Ovário: lesão cística complexa, léxico O-RADS US (achado descritivo) — escore de cor 1 a 4"
+    replace: "Lesão cística uni/bi/multilocular, de parede interna lisa/irregular, com componente sólido/projeções papilares (em número de _), escore de cor _ ao Doppler, medindo _ cm, com componente sólido de _ cm."
     word: true
 
   - trigger: "ov6c"
-    label: "Ovário: Imagem cística complexa no ovário _"
-    replace: Imagem cística complexa no ovário _.
+    label: "Ovário: lesão cística complexa no ovário _"
+    replace: "Lesão cística complexa no ovário _."
+    word: true
+
+  - trigger: "orads2"
+    label: "O-RADS US 2 — quase certamente benigno (risco < 1%)"
+    replace: "Classificação O-RADS US 2."
+    word: true
+
+  - trigger: "orads3"
+    label: "O-RADS US 3 — baixo risco (1% a < 10%)"
+    replace: "Classificação O-RADS US 3. Sugere-se avaliação por especialista em ultrassonografia ou ressonância magnética."
+    word: true
+
+  - trigger: "orads4"
+    label: "O-RADS US 4 — risco intermediário (10% a < 50%)"
+    replace: "Classificação O-RADS US 4. Sugere-se avaliação ginecológica especializada, com suporte de ginecologia oncológica."
+    word: true
+
+  - trigger: "orads5"
+    label: "O-RADS US 5 — alto risco (≥ 50%)"
+    replace: "Classificação O-RADS US 5. Sugere-se avaliação por ginecologia oncológica."
     word: true
 
   - trigger: "ov7"
@@ -1175,6 +1197,16 @@ matches:
     replace: Eco endometrial espessado e heterogêneo.
     word: true
 
+  - trigger: "ut14"
+    label: "Endométrio na pós-menopausa: espessura (achado descritivo) — limiar de 0,4 cm em paciente com sangramento"
+    replace: "Eco endometrial medindo _ cm de espessura, em paciente na pós-menopausa."
+    word: true
+
+  - trigger: "ut14c"
+    label: "Endométrio na pós-menopausa: espessado"
+    replace: "Eco endometrial espessado para a pós-menopausa."
+    word: true
+
   - trigger: "ut2"
     label: "Útero/endométrio: Nódulo endometrial que pode estar associado a pólipo endometrial (achado descritivo)"
     replace: Imagem nodular ecogênica no terço superior/ médio/ inferior do eco endometrial, com pedículo vascular evidente ao Doppler, medindo _ cm.
@@ -1186,13 +1218,13 @@ matches:
     word: true
 
   - trigger: "ut3"
-    label: "Útero/endométrio: Alteração ecotextural miometrial que pode estar associada a adenomiose (achado descritivo)"
-    replace: Ecotextura miometrial de aspecto heterogêneo devido a algumas imagens císticas, marcadamente na sua porção submucosa, medindo até _ cm.
+    label: "Útero (adenomiose): critérios MUSA (achado descritivo) — diagnóstico exige ao menos um critério direto: cistos, ilhas hiperecogênicas, linhas ou brotos subendometriais"
+    replace: "Miométrio de ecotextura heterogênea, com cistos miometriais/ilhas hiperecogênicas/linhas e brotos ecogênicos subendometriais, associados a espessamento assimétrico das paredes/sombras acústicas em leque/vascularização translesional/zona juncional irregular ou interrompida."
     word: true
 
   - trigger: "ut3c"
-    label: "Útero/endométrio: Alteração ecotextural miometrial que pode estar associada à adenomiose"
-    replace: Alteração ecotextural miometrial que pode estar associada à adenomiose.
+    label: "Útero (adenomiose): alterações miometriais que podem estar associadas a adenomiose"
+    replace: "Alterações miometriais que podem estar associadas a adenomiose."
     word: true
 
   - trigger: "ut4"

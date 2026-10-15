@@ -156,11 +156,11 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | diu1c | DIU: Dispositivo intrauterino (DIU) em topografia habitual |
 | diu2 | DIU: Dispositivo intrauterino (DIU) localizado no interior da cavidade uterina, atravessando o... (achado descritivo) |
 | diu2c | DIU: Dispositivo intrauterino (DIU) localizado no interior da cavidade uterina, atravessando o... |
-| mm1 | Miométrio (mioma): Nódulo miometrial mais comumente associado a leiomioma (achado descritivo) |
+| mm1 | Miométrio (mioma): Nódulo miometrial mais comumente associado a leiomioma (achado descritivo) — FIGO: 0 pediculado intracavitário; 1 submucoso < 50% intramural; 2 submucoso ≥ 50% intramural; 3 intramural em contato com o endométrio; 4 intramural; 5 subseroso ≥ 50% intramural; 6 subseroso < 50% intramural; 7 subseroso pediculado; 8 outros |
 | mm1c | Miométrio (mioma): Nódulo miometrial mais comumente associado a leiomioma |
-| mm2 | Miométrio (mioma): Nódulos miometriais mais comumente associados a leiomiomas (achado descritivo) |
+| mm2 | Miométrio (mioma): Nódulos miometriais mais comumente associados a leiomiomas (achado descritivo) — FIGO: 0 pediculado intracavitário; 1 submucoso < 50% intramural; 2 submucoso ≥ 50% intramural; 3 intramural em contato com o endométrio; 4 intramural; 5 subseroso ≥ 50% intramural; 6 subseroso < 50% intramural; 7 subseroso pediculado; 8 outros |
 | mm2c | Miométrio (mioma): Nódulos miometriais mais comumente associados a leiomiomas |
-| mm3 | Miométrio (mioma): Útero miomatoso (achado descritivo) |
+| mm3 | Miométrio (mioma): Útero miomatoso (achado descritivo) — FIGO: 0 pediculado intracavitário; 1 submucoso < 50% intramural; 2 submucoso ≥ 50% intramural; 3 intramural em contato com o endométrio; 4 intramural; 5 subseroso ≥ 50% intramural; 6 subseroso < 50% intramural; 7 subseroso pediculado; 8 outros |
 | mm3c | Miométrio (mioma): Útero miomatoso |
 | ov1 | Ovário: Cisto de conteúdo espesso no ovário _ (achado descritivo) |
 | ov1c | Ovário: cisto hemorrágico \| Ovário: endometrioma (diagnóstico diferencial) |
@@ -172,8 +172,12 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ov4c | Ovário: Nódulo hiperecogênico no ovário _ |
 | ov5 | Ovário: Cisto septado no ovário _ (achado descritivo) |
 | ov5c | Ovário: Cisto septado no ovário _ |
-| ov6 | Ovário: Imagem cística complexa no ovário _ (achado descritivo) |
-| ov6c | Ovário: Imagem cística complexa no ovário _ |
+| ov6 | Ovário: lesão cística complexa, léxico O-RADS US (achado descritivo) — escore de cor 1 a 4 |
+| ov6c | Ovário: lesão cística complexa no ovário _ |
+| orads2 | O-RADS US 2 — quase certamente benigno (risco < 1%) |
+| orads3 | O-RADS US 3 — baixo risco (1% a < 10%) |
+| orads4 | O-RADS US 4 — risco intermediário (10% a < 50%) |
+| orads5 | O-RADS US 5 — alto risco (≥ 50%) |
 | ov7 | Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma (achado descritivo) |
 | ov7c | Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma |
 | ov8 | Ovário: Cisto ovariano com as características acima descritas, mais comumente associado a cisto... (achado descritivo) |
@@ -203,10 +207,12 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ov10 | Ovário (teratoma): Ovário com aumento de suas dimensões, às custas de formação cística com nível... |
 | ut1 | Útero/endométrio: Eco endometrial espessado e heterogêneo (achado descritivo) |
 | ut1c | Útero/endométrio: Eco endometrial espessado e heterogêneo |
+| ut14 | Endométrio na pós-menopausa: espessura (achado descritivo) — limiar de 0,4 cm em paciente com sangramento |
+| ut14c | Endométrio na pós-menopausa: espessado |
 | ut2 | Útero/endométrio: Nódulo endometrial que pode estar associado a pólipo endometrial (achado descritivo) |
 | ut2c | Útero/endométrio: Nódulo endometrial que pode estar associado a pólipo endometrial |
-| ut3 | Útero/endométrio: Alteração ecotextural miometrial que pode estar associada a adenomiose (achado descritivo) |
-| ut3c | Útero/endométrio: Alteração ecotextural miometrial que pode estar associada à adenomiose |
+| ut3 | Útero (adenomiose): critérios MUSA (achado descritivo) — diagnóstico exige ao menos um critério direto: cistos, ilhas hiperecogênicas, linhas ou brotos subendometriais |
+| ut3c | Útero (adenomiose): alterações miometriais que podem estar associadas a adenomiose |
 | ut4 | Útero/endométrio: Ectasia de vasos venosos uterinos |
 | ut5 | Útero/endométrio: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo) |
 | ut5c | Útero/endométrio: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... |
