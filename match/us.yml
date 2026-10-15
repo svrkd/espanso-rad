@@ -409,7 +409,7 @@ matches:
 
   - trigger: "vb3"
     label: "Vesícula biliar: Achados sugestivos de barro biliar (achado descritivo)"
-    replace: Destaca-se a presença de ecos em suspensão e conteúdo hipoecogênico no seu interior, formando nível líquido com o conteúdo anecoico, sem fluxo detectável ao estudo Doppler, compatível com barro biliar.
+    replace: Ecos em suspensão e conteúdo hipoecogênico no seu interior, formando nível líquido com o conteúdo anecoico, sem fluxo detectável ao estudo Doppler, compatíveis com barro biliar.
     word: true
 
   - trigger: "vb3c"
@@ -622,8 +622,8 @@ matches:
     word: true
 
   - trigger: "bx8"
-    label: "Bexiga: Destaca-se balão de sonda vesical no seu interior"
-    replace: Destaca-se balão de sonda vesical no seu interior.
+    label: "Bexiga: Balão de sonda vesical no seu interior"
+    replace: Balão de sonda vesical no seu interior.
     word: true
 
   - trigger: "bx9"
@@ -783,7 +783,7 @@ matches:
     replace: |-
       Rim de dimensões aumentadas, destacando-se incontáveis imagens císticas, medindo até _ cm.
       Parênquima renal hiperecogênico e com redução de sua espessura.
-      (Destaca-se imagem cística de conteúdo espesso no terço superior/médio/inferior do rim _, medindo _ cm, que dentro do contexto clínico pode corresponder a cisto com conteúdo hemático).
+      (Imagem cística de conteúdo espesso no terço superior/médio/inferior do rim _, medindo _ cm, que dentro do contexto clínico pode corresponder a cisto com conteúdo hemático).
       Associam-se múltiplos cistos hepáticos simples.
     word: true
 
@@ -806,7 +806,7 @@ matches:
 
   - trigger: "rv13"
     label: "Rim: Sinais de nefrocalcinose medular à direita/ esquerda/ bilateralmente (achado descritivo)"
-    replace: Destaca-se aumento da ecogenicidade das pirâmides renais, sem efeito sonoro sobre o feixe acústico posterior.
+    replace: Aumento da ecogenicidade das pirâmides renais, sem efeito sonoro sobre o feixe acústico posterior.
     word: true
 
   - trigger: "rv13c"
@@ -3303,7 +3303,7 @@ matches:
 
   - trigger: "msks2"
     label: "MSK: Sinovite com atividade ao Doppler"
-    replace: Espessamento sinovial da articulação _, indicando sinovite. Destaca-se vascularização ao Power Doppler, sugerindo atividade inflamatória.
+    replace: Espessamento sinovial da articulação _, indicando sinovite. Associa-se vascularização ao Power Doppler, sugerindo atividade inflamatória.
     word: true
 
   - trigger: "msks2c"
@@ -5247,7 +5247,7 @@ matches:
 
   - trigger: "mos2"
     label: "Mão: Sinovite com atividade ao Doppler"
-    replace: Espessamento sinovial da articulação _, indicando sinovite (GS _). Destaca-se vascularização ao Power Doppler (PD _), sugerindo atividade inflamatória.
+    replace: Espessamento sinovial da articulação _, indicando sinovite (GS _). Associa-se vascularização ao Power Doppler (PD _), sugerindo atividade inflamatória.
     word: true
 
   - trigger: "mos2c"
@@ -5914,7 +5914,7 @@ matches:
 
   - trigger: "pue6"
     label: "Punho: Tendões abdutores longos acessórios (add-on)"
-    replace: Destaca-se a presença de tendões abdutores longos do polegar acessórios, com aspecto multifasciculado.
+    replace: Tendões acessórios do abdutor longo do polegar, com aspecto multifasciculado.
     word: true
 
   - trigger: "pue7"
@@ -6213,7 +6213,7 @@ matches:
 
   - trigger: "pus2"
     label: "Punho: Sinovite com atividade ao Doppler"
-    replace: Espessamento sinovial da articulação _, indicando sinovite (GS _). Destaca-se vascularização ao Power Doppler (PD _), sugerindo atividade inflamatória.
+    replace: Espessamento sinovial da articulação _, indicando sinovite (GS _). Associa-se vascularização ao Power Doppler (PD _), sugerindo atividade inflamatória.
     word: true
 
   - trigger: "pus2c"

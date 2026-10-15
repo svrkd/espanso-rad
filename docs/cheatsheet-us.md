@@ -99,7 +99,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | bx6 | Bexiga: Conteúdo ecogênico intravesical de provável natureza hemática (achado descritivo) |
 | bx6c | Bexiga: Conteúdo ecogênico intravesical de provável natureza hemática |
 | bx7 | Bexiga: com ecos em suspensão no seu interior |
-| bx8 | Bexiga: Destaca-se balão de sonda vesical no seu interior |
+| bx8 | Bexiga: Balão de sonda vesical no seu interior |
 | bx9 | Bexiga: focos gasosos no seu interior |
 | bx9c | Bexiga: focos gasosos no seu interior |
 | rv3 | Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) |
