@@ -89,3 +89,8 @@ matches:
     label: "transvaginal"
     replace: transvaginal
     word: true
+
+  - trigger: "cubo"
+    label: "medindo _ cm, com volume de _ cm³"
+    replace: "medindo _ cm, com volume de _ cm³,"
+    word: true
