@@ -20,16 +20,16 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ba3 | Baço: Baço de dimensões aumentadas com corpúsculos de Gamna-Gandy |
 | ba4 | Baço acessório |
 | ba4c | Baço acessório |
-| ca1 | Dilatação das vias biliares intra e extra-hepática sem a caracterização de fatores obstrutivos (achado descritivo) |
-| ca1c | Dilatação das vias biliares intra e extra-hepática sem a caracterização de fatores obstrutivos (conclusão) |
-| ca2 | Vias biliares/colédoco: Cálculo no interior do colédoco, promovendo dilatação à montante (achado descritivo) |
-| ca2c | Vias biliares/colédoco: Cálculo no interior do colédoco, promovendo dilatação à montante |
+| ca1 | Dilatação das vias biliares intra e extra-hepáticas sem a caracterização de fatores obstrutivos (achado descritivo) |
+| ca1c | Dilatação das vias biliares intra e extra-hepáticas sem a caracterização de fatores obstrutivos (conclusão) |
+| ca2 | Vias biliares/colédoco: Cálculo no interior do colédoco, promovendo dilatação a montante (achado descritivo) |
+| ca2c | Vias biliares/colédoco: Cálculo no interior do colédoco, promovendo dilatação a montante |
 | ca3 | Vias biliares/colédoco: Massa em topografia periampular, promovendo dilatação das vias biliares a montante (achado descritivo) |
 | ca3c | Vias biliares: massa periampular \| Dilatação biliar a montante |
 | ca4 | Vias biliares/colédoco: Focos ecogênicos no interior das vias biliares, compatíveis com aerobilia (achado descritivo) |
 | ca4c | Vias biliares/colédoco: Focos ecogênicos no interior das vias biliares, compatíveis com aerobilia |
-| ca5 | Vias biliares/colédoco: Pequenas imagens ecogênicas de adjacente às vias biliares (achado descritivo) |
-| ca5c | Vias biliares/colédoco: Pequenas imagens ecogênicas de adjacente às vias biliares |
+| ca5 | Vias biliares/colédoco: Pequenas imagens ecogênicas adjacentes às vias biliares (achado descritivo) |
+| ca5c | Vias biliares/colédoco: Pequenas imagens ecogênicas adjacentes às vias biliares |
 | ca6 | Vias biliares/colédoco: Dilatação focal do colédoco, compatível com cisto de colédoco (achado descritivo) |
 | ca6c | Vias biliares/colédoco: Dilatação focal do colédoco, compatível com cisto de colédoco |
 | ch1 | Fígado (hepatopatia difusa): Sinais incipientes de hepatopatia parenquimatosa (achado descritivo) |
@@ -41,7 +41,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ch4 | Fígado (hepatopatia difusa): Hepatomegalia, associada a ectasia da veia cava e suas principais tributárias e ascite (achado descritivo) |
 | ch4c | Fígado: hepatomegalia congestiva \| Vasos: ectasia de cava e tributárias/ascite |
 | dh0 | Fígado (Doppler): Veia porta pérvia, de calibre preservado (mede _ cm, normal <1,2 cm), fluxo hepatopetal e... |
-| eh1 | Fígado (esteatose): Sinais ecográficos sugestivos de estetose hepática leve (grau I) (achado descritivo) |
+| eh1 | Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática leve (grau I) (achado descritivo) |
 | eh1c | Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I) |
 | eh2 | Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática moderada (grau II) (achado descritivo) |
 | eh2c | Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito moderada (grau II) |
@@ -105,12 +105,12 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | rv3 | Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) |
 | rv3c | Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente |
 | rv4 | Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) |
-| usfocos | Rim (focos ecogênicos): Focos hiperrefringentes em ambos os rins, podendo corresponder a microcálculos ou... (achado descritivo) |
-| usfocosc | Rim (focos ecogênicos): Focos hiperrefringentes em ambos os rins, podendo corresponder a microcálculos ou... |
-| rv16 | Rim (focos ecogênicos): Focos hiperrefringentes em ambos os rins, podendo corresponder a microcálculos ou... (achado descritivo) |
-| rv16c | Rim (focos ecogênicos): Focos hiperrefringentes em ambos os rins, podendo corresponder a microcálculos ou... |
-| usjuv1 | Ureter (JUV direita): Foco hiperrefringente produtor de tênue sombra acústica posterior, localizado em junção... |
-| usjuv2 | Ureter (JUV esquerda): Foco hiperrefringente produtor de tênue sombra acústica posterior, localizado em junção... |
+| usfocos | Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou... (achado descritivo) |
+| usfocosc | Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou... |
+| rv16 | Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou... (achado descritivo) |
+| rv16c | Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou... |
+| usjuv1 | Ureter (JUV direita): Foco hiper-refringente produtor de tênue sombra acústica posterior, localizado em junção... |
+| usjuv2 | Ureter (JUV esquerda): Foco hiper-refringente produtor de tênue sombra acústica posterior, localizado em junção... |
 | prostn | Próstata: NOTA: Próstata com aumento de suas dimensões, e contornos lobulados, volume de _ cm³, com... |
 | rv1 | Rim: Sinais de nefropatia parenquimatosa crônica (achado descritivo) |
 | rv1c | Rim: Sinais de nefropatia parenquimatosa crônica |
@@ -119,8 +119,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | rv4c | Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente |
 | rv5 | Rim: Leve/ Moderada/ Acentuada dilatação do sistema coletor à direita/ esquerda (achado descritivo) |
 | rv5c | Rim: Leve/ Moderada/ Acentuada dilatação do sistema coletor à direita/ esquerda |
-| rv6 | Rim: Cálculo obstrutivo no segmento proximal/ médio/ distal do ureter direito/ esquerdo (achado descritivo) |
-| rv6c | Rim: Cálculo obstrutivo no segmento proximal/ médio/ distal do ureter direito/ esquerdo |
+| rv6 | Rim: Cálculo obstrutivo no segmento proximal/ médio/ distal do ureter _ (achado descritivo) |
+| rv6c | Rim: Cálculo obstrutivo no segmento proximal/ médio/ distal do ureter _ |
 | rv7 | Rim: Cisto renal cortical simples à direita/ esquerda (achado descritivo) |
 | rv7c | Rim: Cisto renal cortical simples à direita/ esquerda |
 | rv8 | Rim: Cistos renais corticais simples à direita/ esquerda/ bilaterais (achado descritivo) |
@@ -131,8 +131,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | rv10c | Rim: Nódulo hiperecogênico no rim direito/ esquerdo |
 | rv11 | Rim: Sinais de doença renal policística (forma dominante) (achado descritivo) |
 | rv11c | Rim: doença renal policística \| Cisto de conteúdo espesso (hemático) |
-| rv12 | Rim: Cisto parapielico/caliectasia focal à direita/ esquerda (achado descritivo) |
-| rv12c | Rim: Cisto parapielico/caliectasia focal à direita/ esquerda |
+| rv12 | Rim: Cisto parapiélico/caliectasia focal à direita/ esquerda (achado descritivo) |
+| rv12c | Rim: Cisto parapiélico/caliectasia focal à direita/ esquerda |
 | rv13 | Rim: Sinais de nefrocalcinose medular à direita/ esquerda/ bilateralmente (achado descritivo) |
 | rv13c | Rim: Sinais de nefrocalcinose medular à direita/ esquerda/ bilateralmente |
 | rv14 | Rim: Nódulo renal à direita/ esquerda (achado descritivo) |
@@ -150,30 +150,30 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | an1c | Anexos/região anexial: Cisto anexial simples à direita/esquerda |
 | an2 | Anexos/região anexial: Massa anexial à direita/esquerda (achado descritivo) |
 | an2c | Anexos/região anexial: Massa anexial à direita/esquerda |
-| an3 | Anexos/região anexial: Imagem na região anexial esquerda compatível com hidrossalpinge (achado descritivo) |
-| an3c | Anexos/região anexial: Imagem na região anexial esquerda compatível com hidrossalpinge |
+| an3 | Anexos/região anexial: Imagem na região anexial _ compatível com hidrossalpinge (achado descritivo) |
+| an3c | Anexos/região anexial: Imagem na região anexial _ compatível com hidrossalpinge |
 | diu1 | DIU: Dispositivo intrauterino (DIU) em topografia habitual (achado descritivo) |
 | diu1c | DIU: Dispositivo intrauterino (DIU) em topografia habitual |
 | diu2 | DIU: Dispositivo intrauterino (DIU) localizado no interior da cavidade uterina, atravessando o... (achado descritivo) |
 | diu2c | DIU: Dispositivo intrauterino (DIU) localizado no interior da cavidade uterina, atravessando o... |
 | mm1 | Miométrio (mioma): Nódulo miometrial mais comumente associado a leiomioma (achado descritivo) |
 | mm1c | Miométrio (mioma): Nódulo miometrial mais comumente associado a leiomioma |
-| mm2 | Miométrio (mioma): Nódulos miometrias mais comumente associados a leiomiomas (achado descritivo) |
-| mm2c | Miométrio (mioma): Nódulos miometrias mais comumente associados a leiomiomas |
+| mm2 | Miométrio (mioma): Nódulos miometriais mais comumente associados a leiomiomas (achado descritivo) |
+| mm2c | Miométrio (mioma): Nódulos miometriais mais comumente associados a leiomiomas |
 | mm3 | Miométrio (mioma): Útero miomatoso (achado descritivo) |
 | mm3c | Miométrio (mioma): Útero miomatoso |
-| ov1 | Ovário: Cisto de conteúdo espesso no ovário direito/esquerdo (achado descritivo) |
+| ov1 | Ovário: Cisto de conteúdo espesso no ovário _ (achado descritivo) |
 | ov1c | Ovário: cisto hemorrágico \| Ovário: endometrioma (diagnóstico diferencial) |
-| ov2 | Ovário: Cisto simples no ovário direito/esquerdo (achado descritivo) |
-| ov2c | Ovário: Cisto simples no ovário direito/esquerdo |
+| ov2 | Ovário: Cisto simples no ovário _ (achado descritivo) |
+| ov2c | Ovário: Cisto simples no ovário _ |
 | ov3 | Ovário: Ovários de aspecto micropolicístico (achado descritivo) |
 | ov3c | Ovário: Ovários de aspecto micropolicístico |
-| ov4 | Ovário: Nódulo hiperecogênico no ovário direito/esquerdo (achado descritivo) |
-| ov4c | Ovário: Nódulo hiperecogênico no ovário direito/esquerdo |
-| ov5 | Ovário: Cisto septado no ovário direito/esquerdo (achado descritivo) |
-| ov5c | Ovário: Cisto septado no ovário direito/esquerdo |
-| ov6 | Ovário: Imagem cística complexa no ovário direito/esquerdo (achado descritivo) |
-| ov6c | Ovário: Imagem cística complexa no ovário direito/esquerdo |
+| ov4 | Ovário: Nódulo hiperecogênico no ovário _ (achado descritivo) |
+| ov4c | Ovário: Nódulo hiperecogênico no ovário _ |
+| ov5 | Ovário: Cisto septado no ovário _ (achado descritivo) |
+| ov5c | Ovário: Cisto septado no ovário _ |
+| ov6 | Ovário: Imagem cística complexa no ovário _ (achado descritivo) |
+| ov6c | Ovário: Imagem cística complexa no ovário _ |
 | ov7 | Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma (achado descritivo) |
 | ov7c | Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma |
 | ov8 | Ovário: Cisto ovariano com as características acima descritas, mais comumente associado a cisto... (achado descritivo) |
@@ -567,7 +567,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ustornozeloe | Tornozelo esquerdo — normal |
 | usped | Pé direito — normal |
 | uspee | Pé esquerdo — normal |
-| me1 | Tendão calcâneo (rotura): Estudo direcionado para a avaliação do tendão calcâneo à direita/esquerda, evidencia: |
+| me1 | Tendão calcâneo (rotura): Estudo direcionado para a avaliação do tendão calcâneo à _ evidencia: |
 | mskd1 | MSK: Sem derrame articular |
 | mskd2 | MSK: Pequeno derrame articular |
 | mskd2c | MSK: Pequeno derrame articular (conclusão) |
@@ -715,7 +715,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | tzo2c | Tornozelo: Alterações degenerativas do mediopé (conclusão) |
 | tzo3 | Tornozelo: Irregularidades ósseas (correlação radiográfica) |
 | tzo3c | Tornozelo: Irregularidades ósseas do retropé / mediopé (correlação radiográfica) (conclusão) |
-| me2 | Joelho (derrame articular): Estudo direcionado para a pesquisa de derrame articular no joelho e/d evidencia: |
+| me2 | Joelho (derrame articular): Estudo direcionado para a pesquisa de derrame articular no joelho _ evidencia: |
 | lmg0 | Lesão muscular: Exame normal (grau 0) |
 | lmg1 | Lesão muscular: Grau I (edema, sem descontinuidade) |
 | lmg1c | Lesão muscular: Sinais ecográficos de edema muscular, sugestivo de estiramento grau I (conclusão) |
@@ -869,9 +869,9 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | omp2 | Ombro: Pós-op do supraespinhal — afilamento |
 | omp2c | Ombro: Alterações pós-operatórias do supraespinhal com afilamento das fibras anteriores (conclusão) |
 | omp3 | Ombro: Pós-op do manguito — fios de sutura / âncora |
-| omp3c | Ombro: Alterações pós-operatórias do manguito rotador, sem re-rotura (conclusão) |
-| omp4 | Ombro: Pós-op do manguito — re-rotura |
-| omp4c | Ombro: Re-rotura do manguito rotador (conclusão) |
+| omp3c | Ombro: Alterações pós-operatórias do manguito rotador, sem rerrotura (conclusão) |
+| omp4 | Ombro: Pós-op do manguito — rerrotura |
+| omp4c | Ombro: Rerrotura do manguito rotador (conclusão) |
 | oms1 | Ombro: Ventres musculares normais |
 | oms2 | Ombro: Hipotrofia discreta do supraespinhal |
 | oms2c | Ombro: Discreta hipotrofia do supraespinhal (conclusão) |
@@ -930,7 +930,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | moc2 | Mão: Cisto gangliônico dorsal (interfalângica) |
 | moc2c | Mão: Cisto gangliônico dorsal da interfalângica distal do _ dedo (conclusão) |
 | mot1 | Mão: Tumor de células gigantes da bainha tendínea |
-| mot1c | Mão: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Conveniente prosseguimento da propedêutica e correlação histopatológica (conclusão) |
+| mot1c | Mão: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Sugere-se prosseguimento da propedêutica e correlação histopatológica (conclusão) |
 | mot2 | Mão: Nódulo inespecífico |
 | mot2c | Mão: Imagem nodular sólida de características inespecíficas (conclusão) |
 | mot3 | Mão: Nódulo no trajeto do feixe neural (add-on) |
@@ -1331,8 +1331,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | pm6c | Parede abdominal (diástase de retos): Diástase do músculo reto abdominal |
 | usedema | Partes moles (edema): Espessamento e hiperecogenicidade da pele e do tecido celular subcutâneo, com lâminas... |
 | pm5 | Parede abdominal/partes moles: Espessamento e hiperecogenicidade da pele e do tecido celular subcutâneo, com lâminas... |
-| pm4 | Parede abdominal/partes moles: Imagem cística de conteúdo hipoecogênico, sem fluxo vascular interno ao estudo doppler... (achado descritivo) |
-| pm4c | Parede abdominal/partes moles: Imagem cística de conteúdo hipoecogênico, sem fluxo vascular interno ao estudo doppler... |
+| pm4 | Parede abdominal/partes moles: Imagem cística de conteúdo hipoecogênico, sem fluxo vascular interno ao estudo Doppler... (achado descritivo) |
+| pm4c | Parede abdominal/partes moles: Imagem cística de conteúdo hipoecogênico, sem fluxo vascular interno ao estudo Doppler... |
 
 ## Tireoide E Região Cervical
 
@@ -1508,8 +1508,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | Trigger | Label |
 |---|---|
 | uscv | Carótidas e vertebrais c/ Doppler — normal |
-| dc1 | Artéria carótida: Aumento da espessura médio-intimal das artérias carótidas (achado descritivo) |
-| dc1c | Artéria carótida: Aumento da espessura médio-intimal das artérias carótidas |
+| dc1 | Artéria carótida: Aumento da espessura mediointimal das artérias carótidas (achado descritivo) |
+| dc1c | Artéria carótida: Aumento da espessura mediointimal das artérias carótidas |
 | dc2 | Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica (achado descritivo) |
 | dc2c | Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica |
 | dc3 | Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecogênico sugestivo de instabilidade (achado descritivo) |
