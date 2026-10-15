@@ -178,8 +178,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ov4c | Ovário: Nódulo hiperecogênico no ovário _ |
 | ov5 | Ovário: Cisto septado no ovário _ (achado descritivo) |
 | ov5c | Ovário: Cisto septado no ovário _ |
-| ov6 | Ovário: lesão cística complexa, léxico O-RADS US (achado descritivo) — escore de cor 1 a 4 |
-| ov6c | Ovário: lesão cística complexa no ovário _ |
+| ov6 | Ovário: Lesão cística complexa, léxico O-RADS US (achado descritivo) — escore de cor 1 a 4 |
+| ov6c | Ovário: Lesão cística complexa no ovário _ |
 | orads2 | O-RADS US 2 — quase certamente benigno (risco < 1%) |
 | orads3 | O-RADS US 3 — baixo risco (1% a < 10%) |
 | orads4 | O-RADS US 4 — risco intermediário (10% a < 50%) |

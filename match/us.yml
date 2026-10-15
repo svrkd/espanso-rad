@@ -1053,12 +1053,12 @@ matches:
     word: true
 
   - trigger: "ov6"
-    label: "Ovário: lesão cística complexa, léxico O-RADS US (achado descritivo) — escore de cor 1 a 4"
+    label: "Ovário: Lesão cística complexa, léxico O-RADS US (achado descritivo) — escore de cor 1 a 4"
     replace: "Lesão cística uni/bi/multilocular, de parede interna lisa/irregular, com componente sólido/projeções papilares (em número de _), escore de cor _ ao Doppler, medindo _ cm, com componente sólido de _ cm."
     word: true
 
   - trigger: "ov6c"
-    label: "Ovário: lesão cística complexa no ovário _"
+    label: "Ovário: Lesão cística complexa no ovário _"
     replace: "Lesão cística complexa no ovário _."
     word: true
 
