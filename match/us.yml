@@ -7835,6 +7835,7 @@ matches:
   - trigger: "graf2ap"
     label: Quadril infantil Graf IIa+ (apropriado para idade)
     replace: |-
+      Idade: _ semanas
       Conformação do teto ósseo: adequada.
       Margem óssea lateral do acetábulo: arredondada.
       Cartilagem hialina do teto acetabular cobrindo a cabeça femoral.
@@ -7852,6 +7853,7 @@ matches:
   - trigger: "graf2am"
     label: Quadril infantil Graf IIa- (déficit de maturação)
     replace: |-
+      Idade: _ semanas
       Conformação do teto ósseo: deficiente.
       Margem óssea lateral do acetábulo: arredondada.
       Cartilagem hialina do teto acetabular cobrindo a cabeça femoral.
@@ -7869,6 +7871,7 @@ matches:
   - trigger: "graf2b"
     label: Quadril infantil Graf IIb (retardo de ossificação)
     replace: |-
+      Idade: _ semanas
       Conformação do teto ósseo: deficiente.
       Margem óssea lateral do acetábulo: arredondada.
       Cartilagem hialina do teto acetabular cobrindo a cabeça femoral.
@@ -7973,6 +7976,8 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA DOS QUADRIS DIREITO E ESQUERDO (MÉTODO DE GRAF)
 
+      Idade: _ semanas
+
       Técnica:
       Exame realizado com transdutor linear multifrequencial de alta resolução, utilizando-se o método de Graf.
 
@@ -8001,7 +8006,7 @@ matches:
     replace: |-
       ULTRASSONOGRAFIA DOS QUADRIS
 
-      Idade: _
+      Idade: _ semanas
 
       Técnica:
       Realizado exame dos quadris, utilizando-se o método de Graf.
@@ -8012,6 +8017,8 @@ matches:
       Ângulo do teto ósseo (alfa): _° (≥ 60° / 50°- 59° / 43°- 49° / < 43°).
       Cartilagem hialina do teto acetabular: _ (cobrindo a cabeça femoral / cobrindo parcialmente a cabeça femoral / deslocada para cima, sem alteração estrutural / deslocada para cima, com alteração estrutural / deslocada inferiormente).
       Ângulo do teto cartilaginoso (beta): _° (< 55° / > 55° / 70°- 77° / > 77°).
+
+      Avaliação complementar (método dinâmico/Terjesen):
       Porcentagem de cobertura da cabeça femoral pelo teto ósseo estimada em _%.
       Manobra de pistonagem: _ (sem / com) sinais de subluxação.
 
