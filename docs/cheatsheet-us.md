@@ -1404,7 +1404,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | tfp3c | Crânio (transfontanela): HPIV grau III (Papile) — conclusão |
 | tfp4 | Crânio (transfontanela): HPIV grau IV (Papile) — achado |
 | tfp4c | Crânio (transfontanela): HPIV grau IV (Papile) — conclusão |
-| tf6 | Crânio (transfontanela): Leucomalácia periventricular inicial |
+| tf6 | Crânio (transfontanela): Hiperecogenicidade periventricular (possível leucomalácia inicial) |
 | tf7 | Crânio (transfontanela): Leucomalácia periventricular cística |
 | tf8 | Crânio (transfontanela): Ventriculomegalia leve |
 | tf9 | Crânio (transfontanela): Ventriculomegalia moderada |

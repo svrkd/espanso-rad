@@ -7715,8 +7715,8 @@ matches:
     word: true
 
   - trigger: "tf6"
-    label: "Crânio (transfontanela): Leucomalácia periventricular inicial"
-    replace: Hiperecogenicidade periventricular difusa, com ecogenicidade semelhante à do plexo coroide, achado compatível com leucomalácia periventricular em fase inicial.
+    label: "Crânio (transfontanela): Hiperecogenicidade periventricular (possível leucomalácia inicial)"
+    replace: "Hiperecogenicidade periventricular bilateral, com ecogenicidade semelhante à do plexo coroide, inespecífica em exame isolado; sua persistência por 7 dias ou mais pode sugerir leucomalácia periventricular grau I. Sugere-se controle ultrassonográfico seriado."
     word: true
 
   - trigger: "tf7"
@@ -7726,17 +7726,17 @@ matches:
 
   - trigger: "tf8"
     label: "Crânio (transfontanela): Ventriculomegalia leve"
-    replace: Dilatação leve do sistema ventricular, com átrio ventricular medindo entre 10 e 12 mm, sem sinais de hipertensão liquórica.
+    replace: "Dilatação leve dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior de _ mm e distância tálamo-occipital de _ mm."
     word: true
 
   - trigger: "tf9"
     label: "Crânio (transfontanela): Ventriculomegalia moderada"
-    replace: Dilatação moderada do sistema ventricular, com átrio ventricular medindo entre 12,1 e 14,9 mm.
+    replace: "Dilatação moderada dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior superior a 6 mm (_ mm) e distância tálamo-occipital de _ mm."
     word: true
 
   - trigger: "tf10"
     label: "Crânio (transfontanela): Ventriculomegalia acentuada / hidrocefalia"
-    replace: Dilatação acentuada do sistema ventricular, com átrio ventricular medindo 15 mm ou mais, associada a abaulamento do terceiro ventrículo, compatível com hidrocefalia.
+    replace: "Dilatação acentuada dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior superior a 10 mm (_ mm) e distância tálamo-occipital de _ mm, compatível com hidrocefalia."
     word: true
 
   - trigger: "tf11"
