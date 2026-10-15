@@ -1569,13 +1569,15 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | dc19 | Artéria carótida: Placa na origem da artéria carótida interna à _ |
 | dc20 | Artéria carótida: Placa na origem da artéria carótida externa à _ |
 | dc21 | Artéria carótida: Artérias carótidas normais |
-| dv1 | Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ (achado descritivo) |
+| dv1 | Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ (achado descritivo) — diâmetro ≤ 0,2 cm em V2, índice de resistência > 0,75, vertebral contralateral > 0,4 cm |
 | dv1c | Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ |
 | dv2 | Artéria vertebral: Fluxo retrógrado na artéria vertebral à _ compatível com roubo da subclávia (achado descritivo) |
 | dv2c | Artéria vertebral: Fluxo retrógrado na artéria vertebral à _ compatível com roubo da subclávia |
 | dv3 | Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _ (achado descritivo) |
 | dv3c | Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _ |
 | dv4 | Artéria vertebral: Artérias vertebrais normais, com fluxo anterógrado conservado |
+| dv5 | Artéria vertebral: estenose na origem (achado descritivo) — velocidade máxima: < 50% ≥ 85 cm/s; 50–69% ≥ 140 cm/s; 70–99% ≥ 210 cm/s (DIC/CBR/SBACV 2023, Tabela 6) |
+| dv5c | Artéria vertebral: estenose na origem (conclusão) |
 | ds1 | Artéria subclávia: Roubo da subclávia tipo 3 (completo) à _ (achado descritivo) |
 | ds1c | Artéria subclávia: Roubo da subclávia tipo 3 (completo) à _ |
 | ds2 | Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico superior à VDF (achado descritivo) |

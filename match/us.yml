@@ -8687,8 +8687,8 @@ matches:
     word: true
 
   - trigger: "dv1"
-    label: "Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ (achado descritivo)"
-    replace: Artérias vertebrais visualizadas em suas porções proximal (V1) e interapofisária (V2), destacando-se dominância à _ e hipoplasia à _, esta com diâmetro difusamente reduzido, medindo _ mm, e fluxo anterógrado de direção cefálica com padrão de alta resistência (IR de _). Ao Doppler, ausência de turbulência espectral e velocidades normais.
+    label: "Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ (achado descritivo) — diâmetro ≤ 0,2 cm em V2, índice de resistência > 0,75, vertebral contralateral > 0,4 cm"
+    replace: Artérias vertebrais visualizadas em suas porções proximal (V1) e interapofisária (V2), destacando-se dominância à _ e hipoplasia à _, esta com diâmetro difusamente reduzido, medindo _ cm, e fluxo anterógrado de direção cefálica com padrão de alta resistência (IR de _). Ao Doppler, ausência de turbulência espectral e velocidades normais.
     word: true
 
   - trigger: "dv1c"
@@ -8719,6 +8719,16 @@ matches:
   - trigger: "dv4"
     label: "Artéria vertebral: Artérias vertebrais normais, com fluxo anterógrado conservado"
     replace: Artérias vertebrais visualizadas em suas porções proximal (V1) e interapofisária (V2), com fluxo anterógrado de direção cefálica conservado bilateralmente. Ao Doppler, ausência de turbulência espectral e velocidades normais.
+    word: true
+
+  - trigger: "dv5"
+    label: "Artéria vertebral: estenose na origem (achado descritivo) — velocidade máxima: < 50% ≥ 85 cm/s; 50–69% ≥ 140 cm/s; 70–99% ≥ 210 cm/s (DIC/CBR/SBACV 2023, Tabela 6)"
+    replace: "Estenose na origem da artéria vertebral à _, com velocidade de pico sistólico de _ cm/s e velocidade diastólica final de _ cm/s."
+    word: true
+
+  - trigger: "dv5c"
+    label: "Artéria vertebral: estenose na origem (conclusão)"
+    replace: "Estenose de _% na origem da artéria vertebral à _."
     word: true
 
   - trigger: "ds1"
