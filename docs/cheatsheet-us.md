@@ -166,8 +166,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ov1c | Ovário: cisto hemorrágico \| Ovário: endometrioma (diagnóstico diferencial) |
 | ov2 | Ovário: Cisto simples no ovário _ (achado descritivo) |
 | ov2c | Ovário: Cisto simples no ovário _ |
-| ov3 | Ovário: Ovários de aspecto micropolicístico (achado descritivo) |
-| ov3c | Ovário: Ovários de aspecto micropolicístico |
+| ov3 | Ovário: morfologia policística (achado descritivo, um ovário) |
+| ov3c | Ovário: Ovários de aspecto policístico (conclusão) |
 | ov4 | Ovário: Nódulo hiperecogênico no ovário _ (achado descritivo) |
 | ov4c | Ovário: Nódulo hiperecogênico no ovário _ |
 | ov5 | Ovário: Cisto septado no ovário _ (achado descritivo) |
@@ -197,8 +197,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ut9 | Útero (istmocele): Área anecoica triangular na região da incisão cirúrgica, em \"cunha\", sugestiva de... |
 | uslamina | Cavidade endometrial: Fina lâmina anecoica no interior da cavidade uterina, podendo corresponder a muco e/ou... |
 | ut10 | Cavidade endometrial: Fina lâmina anecoica no interior da cavidade uterina, podendo corresponder a muco e/ou... |
-| sop | Ovário (síndrome dos ovários policísticos): Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas |
-| ov9 | Ovário (síndrome dos ovários policísticos): Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas |
+| sop | Ovário: morfologia policística (achado descritivo, um ovário) |
+| ov9 | Ovário: morfologia policística (achado descritivo, um ovário) |
 | terat1 | Ovário (teratoma): Ovário com aumento de suas dimensões, às custas de formação cística com nível... |
 | ov10 | Ovário (teratoma): Ovário com aumento de suas dimensões, às custas de formação cística com nível... |
 | ut1 | Útero/endométrio: Eco endometrial espessado e heterogêneo (achado descritivo) |

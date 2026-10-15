@@ -901,7 +901,7 @@ matches:
 
   - trigger: "an2c"
     label: "Anexos/região anexial: Massa anexial à direita/esquerda"
-    replace: Massa anexial à _. No contexto clínico-laboratorial adequado, considerar a hipótese de gestação ectópica.
+    replace: "Massa anexial à _, com as características acima descritas."
     word: true
 
   - trigger: "an3"
@@ -991,13 +991,13 @@ matches:
     word: true
 
   - trigger: "ov3"
-    label: "Ovário: Ovários de aspecto micropolicístico (achado descritivo)"
-    replace: Ovários com dimensões aumentadas, notando-se aumento de sua ecogenicidade central e múltiplas imagens císticas periféricas menores de 0,8 cm.
+    label: "Ovário: morfologia policística (achado descritivo, um ovário)"
+    replace: "Ovário _ de dimensões aumentadas, medindo _, com volume de _ cm³, apresentando múltiplos folículos de pequenas dimensões distribuídos perifericamente e aumento da ecogenicidade do estroma central."
     word: true
 
   - trigger: "ov3c"
-    label: "Ovário: Ovários de aspecto micropolicístico"
-    replace: Ovários de aspecto micropolicístico. O diagnóstico de síndrome dos ovários policísticos não é apenas ultrassonográfico, sendo necessária a presença de critérios clínicos para o correto diagnóstico.
+    label: "Ovário: Ovários de aspecto policístico (conclusão)"
+    replace: "Ovários de aspecto policístico."
     word: true
 
   - trigger: "ov4"
@@ -1146,13 +1146,13 @@ matches:
     word: true
 
   - trigger: "sop"
-    label: "Ovário (síndrome dos ovários policísticos): Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas"
-    replace: Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas. A possibilidade da síndrome dos ovários policísticos deve ser considerada se dados clínicos e laboratoriais compatíveis.
+    label: "Ovário: morfologia policística (achado descritivo, um ovário)"
+    replace: "Ovário _ de dimensões aumentadas, medindo _, com volume de _ cm³, apresentando múltiplos folículos de pequenas dimensões distribuídos perifericamente e aumento da ecogenicidade do estroma central."
     word: true
 
   - trigger: "ov9"
-    label: "Ovário (síndrome dos ovários policísticos): Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas"
-    replace: Ovários com aumento de suas dimensões, apresentando múltiplas e diminutas imagens císticas. A possibilidade da síndrome dos ovários policísticos deve ser considerada se dados clínicos e laboratoriais compatíveis.
+    label: "Ovário: morfologia policística (achado descritivo, um ovário)"
+    replace: "Ovário _ de dimensões aumentadas, medindo _, com volume de _ cm³, apresentando múltiplos folículos de pequenas dimensões distribuídos perifericamente e aumento da ecogenicidade do estroma central."
     word: true
 
   - trigger: "terat1"
