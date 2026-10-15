@@ -1476,7 +1476,7 @@ matches:
 
   - trigger: "ob7c"
     label: "Obstétrica — SNC: espinha bífida com Chiari II (conclusão)"
-    replace: Achados ecográficos compatíveis com espinha bífida aberta (meningocele) associada a malformação de Chiari tipo II.
+    replace: Achados ecográficos compatíveis com espinha bífida aberta (mielomeningocele) associada a malformação de Chiari tipo II.
     word: true
 
   - trigger: "ob8"
@@ -1743,23 +1743,23 @@ matches:
   # ==============================================================================
 
   - trigger: "ob33"
-    label: "Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio) (achado descritivo)"
+    label: "Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio, diâmetro médio ≥ 25 mm) (achado descritivo)"
     replace: Saco gestacional localizado em cavidade uterina, com contornos regulares e paredes bem formadas, medindo _ x _ x _ mm, com diâmetro médio de _ mm. Não se observam áreas de descolamento ovular ou hematomas subcoriais. Embrião não caracterizado ao presente exame. Presença de imagem cística anecoica no interior do saco gestacional, que pode representar vesícula vitelínica hidrópica ou âmnio vazio.
     word: true
 
   - trigger: "ob33c"
-    label: "Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio) (conclusão)"
-    replace: Gestação tópica, com idade gestacional estimada em _ semanas e _ dias pela biometria do saco gestacional, sem sinais de viabilidade gestacional.
+    label: "Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio, diâmetro médio ≥ 25 mm) (conclusão)"
+    replace: "Gestação tópica com saco gestacional de diâmetro médio de _ mm, sem embrião, critério diagnóstico de gestação inviável."
     word: true
 
   - trigger: "ob34"
-    label: "Obstétrica — 1º trimestre: gestação inviável (embrião sem BCE) (achado descritivo)"
+    label: "Obstétrica — 1º trimestre: gestação inviável (embrião com CCN ≥ 7 mm sem BCE) (achado descritivo)"
     replace: Embrião único no interior do saco gestacional, com comprimento cabeça-nádega (CCN) de _ mm. Atividade cardíaca ausente.
     word: true
 
   - trigger: "ob34c"
-    label: "Obstétrica — 1º trimestre: gestação inviável (embrião sem BCE) (conclusão)"
-    replace: Gestação tópica, com idade gestacional estimada em _ semanas e _ dias pela biometria do embrião (CCN), sem sinais de vitalidade embrionária (gestação inviável).
+    label: "Obstétrica — 1º trimestre: gestação inviável (embrião com CCN ≥ 7 mm sem BCE) (conclusão)"
+    replace: "Gestação tópica com embrião de CCN de _ mm, sem atividade cardíaca, critério diagnóstico de gestação inviável."
     word: true
 
   - trigger: "ob35"
@@ -1769,7 +1769,7 @@ matches:
 
   - trigger: "ob35c"
     label: "Obstétrica — 1º trimestre: gestação inviável (saco gestacional em expulsão) (conclusão)"
-    replace: Gestação única, com idade gestacional estimada em _ semanas e _ dias, sem sinais de vitalidade embrionária (gestação inviável).
+    replace: "Gestação inviável, com saco gestacional estendendo-se ao canal cervical, compatível com abortamento em curso."
     word: true
 
   - trigger: "ob36"
@@ -1870,6 +1870,26 @@ matches:
   - trigger: "ob45c"
     label: "Obstétrica — 1º trimestre: acrania/exencefalia (1º trimestre) (conclusão)"
     replace: Os achados ecográficos são compatíveis com sequência acrania/exencefalia.
+    word: true
+
+  - trigger: "ob46"
+    label: "Obstétrica — 1º trimestre: saco gestacional de 16 a 24 mm sem embrião (achado descritivo)"
+    replace: "Saco gestacional localizado em cavidade uterina, com contornos regulares e paredes bem formadas, medindo _ x _ x _ mm, com diâmetro médio de _ mm, sem embrião caracterizado."
+    word: true
+
+  - trigger: "ob46c"
+    label: "Obstétrica — 1º trimestre: saco gestacional de 16 a 24 mm sem embrião (conclusão)"
+    replace: "Saco gestacional de diâmetro médio de _ mm, sem embrião. Sugere-se controle ultrassonográfico em 7 a 14 dias."
+    word: true
+
+  - trigger: "ob47"
+    label: "Obstétrica — 1º trimestre: embrião com CCN < 7 mm sem BCE (achado descritivo)"
+    replace: "Embrião único no interior do saco gestacional, com comprimento cabeça-nádega (CCN) de _ mm. Atividade cardíaca não caracterizada."
+    word: true
+
+  - trigger: "ob47c"
+    label: "Obstétrica — 1º trimestre: embrião com CCN < 7 mm sem BCE (conclusão)"
+    replace: "Embrião com CCN de _ mm, sem atividade cardíaca. Sugere-se controle ultrassonográfico em 7 a 10 dias."
     word: true
 
   # ==============================================================================

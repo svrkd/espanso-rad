@@ -315,10 +315,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 
 | Trigger | Label |
 |---|---|
-| ob33 | Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio) (achado descritivo) |
-| ob33c | Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio) (conclusão) |
-| ob34 | Obstétrica — 1º trimestre: gestação inviável (embrião sem BCE) (achado descritivo) |
-| ob34c | Obstétrica — 1º trimestre: gestação inviável (embrião sem BCE) (conclusão) |
+| ob33 | Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio, diâmetro médio ≥ 25 mm) (achado descritivo) |
+| ob33c | Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio, diâmetro médio ≥ 25 mm) (conclusão) |
+| ob34 | Obstétrica — 1º trimestre: gestação inviável (embrião com CCN ≥ 7 mm sem BCE) (achado descritivo) |
+| ob34c | Obstétrica — 1º trimestre: gestação inviável (embrião com CCN ≥ 7 mm sem BCE) (conclusão) |
 | ob35 | Obstétrica — 1º trimestre: gestação inviável (saco gestacional em expulsão) (achado descritivo) |
 | ob35c | Obstétrica — 1º trimestre: gestação inviável (saco gestacional em expulsão) (conclusão) |
 | ob36 | Obstétrica — 1º trimestre: restos ovulares (produtos retidos da concepção) (achado descritivo) |
@@ -341,6 +341,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ob44c | Obstétrica — 1º trimestre: mola hidatiforme completa (conclusão) |
 | ob45 | Obstétrica — 1º trimestre: acrania/exencefalia (1º trimestre) (achado descritivo) |
 | ob45c | Obstétrica — 1º trimestre: acrania/exencefalia (1º trimestre) (conclusão) |
+| ob46 | Obstétrica — 1º trimestre: saco gestacional de 16 a 24 mm sem embrião (achado descritivo) |
+| ob46c | Obstétrica — 1º trimestre: saco gestacional de 16 a 24 mm sem embrião (conclusão) |
+| ob47 | Obstétrica — 1º trimestre: embrião com CCN < 7 mm sem BCE (achado descritivo) |
+| ob47c | Obstétrica — 1º trimestre: embrião com CCN < 7 mm sem BCE (conclusão) |
 
 ## Mamas E Linfonodos Axilares
 
