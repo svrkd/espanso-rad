@@ -1484,10 +1484,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | dam6c | Doppler arterial de membros: Estenose leve a moderada (< 50%) |
 | dam7 | Doppler arterial de membros: Padrão de fluxo monofásico distal (achado descritivo) |
 | dam7c | Doppler arterial de membros: Padrão de fluxo monofásico distal |
-| dam8 | Doppler arterial de membros: Estenose de 50 a 69% (achado descritivo) |
-| dam8c | Doppler arterial de membros: Estenose de 50 a 69% |
-| dam9 | Doppler arterial de membros: Estenose grave (> 70%) (achado descritivo) |
-| dam9c | Doppler arterial de membros: Estenose grave (> 70%) |
+| dam8 | Doppler arterial de membros: Estenose ≥ 50% (razão > 2,0) (achado descritivo) |
+| dam8c | Doppler arterial de membros: Estenose ≥ 50% |
+| dam9 | Doppler arterial de membros: Estenose ≥ 80% (razão > 4,0) (achado descritivo) |
+| dam9c | Doppler arterial de membros: Estenose ≥ 80% |
 | dam10 | Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo) |
 | dam10c | Doppler arterial de membros: Stent/prótese endovascular pérvio |
 | dam11 | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais (achado descritivo) |

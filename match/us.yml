@@ -8252,23 +8252,23 @@ matches:
     word: true
 
   - trigger: "dam8"
-    label: "Doppler arterial de membros: Estenose de 50 a 69% (achado descritivo)"
-    replace: Placa ateromatosa na artéria _, com fluxo turbulento, velocidade de pico sistólico de _ cm/s e razão de velocidades de _, compatível com estenose de 50 a 69%.
+    label: "Doppler arterial de membros: Estenose ≥ 50% (razão > 2,0) (achado descritivo)"
+    replace: "Placa ateromatosa na artéria _, com fluxo turbulento, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 2,0), compatível com estenose igual ou superior a 50%."
     word: true
 
   - trigger: "dam8c"
-    label: "Doppler arterial de membros: Estenose de 50 a 69%"
-    replace: Estenose de 50 a 69% da artéria _.
+    label: "Doppler arterial de membros: Estenose ≥ 50%"
+    replace: "Estenose igual ou superior a 50% da artéria _."
     word: true
 
   - trigger: "dam9"
-    label: "Doppler arterial de membros: Estenose grave (> 70%) (achado descritivo)"
-    replace: Placa ateromatosa calcificada na artéria _, com fluxo filiforme, velocidade de pico sistólico superior a _ cm/s e razão de velocidades > 4, sugerindo estenose grave (> 70%).
+    label: "Doppler arterial de membros: Estenose ≥ 80% (razão > 4,0) (achado descritivo)"
+    replace: "Placa ateromatosa calcificada na artéria _, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%."
     word: true
 
   - trigger: "dam9c"
-    label: "Doppler arterial de membros: Estenose grave (> 70%)"
-    replace: Estenose grave (> 70%) da artéria _.
+    label: "Doppler arterial de membros: Estenose ≥ 80%"
+    replace: "Estenose igual ou superior a 80% da artéria _."
     word: true
 
   - trigger: "dam10"
