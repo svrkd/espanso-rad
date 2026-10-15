@@ -1508,7 +1508,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | Trigger | Label |
 |---|---|
 | uscv | Carótidas e vertebrais c/ Doppler — normal |
-| dc1 | Artéria carótida: Aumento da espessura mediointimal das artérias carótidas (achado descritivo) |
+| dc1 | Artéria carótida: Aumento da espessura mediointimal das artérias carótidas (achado descritivo; se ≥ 1,5 mm, descrever como placa com dc16) |
 | dc1c | Artéria carótida: Aumento da espessura mediointimal das artérias carótidas |
 | dc2 | Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica (achado descritivo) |
 | dc2c | Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica |
@@ -1520,8 +1520,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | dc5c | Artéria carótida: Estenose entre 50 e 69% da artéria carótida interna à _ |
 | dc6 | Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ (achado descritivo) |
 | dc6c | Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ |
-| dc7 | Artéria carótida: Sinais de suboclusão/oclusão da artéria carótida interna à _ (achado descritivo) |
-| dc7c | Artéria carótida: Sinais de suboclusão/oclusão da artéria carótida interna à _ |
+| dc7 | Artéria carótida: Oclusão da artéria carótida interna à _ (achado descritivo) |
+| dc7c | Artéria carótida: Oclusão da artéria carótida interna à _ |
+| dc22 | Artéria carótida: Suboclusão da artéria carótida interna à _ (achado descritivo) |
+| dc22c | Artéria carótida: Suboclusão da artéria carótida interna à _ |
 | dc8 | Artéria carótida: Achados sugestivos de carotidínia à _ (achado descritivo) |
 | dc8c | Artéria carótida: Achados sugestivos de carotidínia à _ |
 | dc9 | Artéria carótida: Nódulo em bifurcação carotídea à _, provável paraganglioma (achado descritivo) |
@@ -1551,16 +1553,16 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | dv3 | Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _ (achado descritivo) |
 | dv3c | Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _ |
 | dv4 | Artéria vertebral: Artérias vertebrais normais, com fluxo anterógrado conservado |
-| ds1 | Artéria subclávia: Roubo subclávio completo à _ (achado descritivo) |
-| ds1c | Artéria subclávia: Roubo subclávio completo à _ |
-| ds2 | Artéria subclávia: Roubo subclávio latente tipo 1 à _ (achado descritivo) |
-| ds2c | Artéria subclávia: Roubo subclávio latente tipo 1 à _ |
-| ds3 | Artéria subclávia: Roubo subclávio latente tipo 2 à _ (achado descritivo) |
-| ds3c | Artéria subclávia: Roubo subclávio latente tipo 2 à _ |
-| ds4 | Artéria subclávia: Roubo subclávio latente tipo 3 à _ (achado descritivo) |
-| ds4c | Artéria subclávia: Roubo subclávio latente tipo 3 à _ |
-| ds5 | Artéria subclávia: Roubo subclávio parcial tipo 4 à _ (achado descritivo) |
-| ds5c | Artéria subclávia: Roubo subclávio parcial tipo 4 à _ |
+| ds1 | Artéria subclávia: Roubo da subclávia tipo 3 (completo) à _ (achado descritivo) |
+| ds1c | Artéria subclávia: Roubo da subclávia tipo 3 (completo) à _ |
+| ds2 | Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico superior à VDF (achado descritivo) |
+| ds2c | Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico superior à VDF |
+| ds3 | Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico igual à VDF (achado descritivo) |
+| ds3c | Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico igual à VDF |
+| ds4 | Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico inferior à VDF (achado descritivo) |
+| ds4c | Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico inferior à VDF |
+| ds5 | Artéria subclávia: Roubo da subclávia tipo 2 (intermitente/parcial) à _ (achado descritivo) |
+| ds5c | Artéria subclávia: Roubo da subclávia tipo 2 (intermitente/parcial) à _ |
 
 ## Vascular — Síndrome Do Desfiladeiro Torácico (Mmss)
 
