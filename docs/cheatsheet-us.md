@@ -316,12 +316,12 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ob28c | Obstétrica — Tórax: hidrotórax unilateral (conclusão) |
 | ob29 | Obstétrica — Tórax: hidrotórax bilateral (achado descritivo) |
 | ob29c | Obstétrica — Tórax: hidrotórax bilateral (conclusão) |
-| ob30 | Obstétrica — Tórax: malformação adenomatoide cística tipo III (achado descritivo) |
-| ob30c | Obstétrica — Tórax: malformação adenomatoide cística tipo III (conclusão) |
-| ob31 | Obstétrica — Tórax: malformação adenomatoide cística tipo II à esquerda (achado descritivo) |
-| ob31c | Obstétrica — Tórax: malformação adenomatoide cística tipo II à esquerda (conclusão) |
-| ob32 | Obstétrica — Tórax: malformação adenomatoide cística tipo II à direita (achado descritivo) |
-| ob32c | Obstétrica — Tórax: malformação adenomatoide cística tipo II à direita (conclusão) |
+| ob30 | Obstétrica — Tórax: CPAM microcística (achado descritivo) — CVR > 1,6: risco de hidropisia |
+| ob30c | Obstétrica — Tórax: CPAM microcística (conclusão) |
+| ob31 | Obstétrica — Tórax: CPAM macrocística à esquerda (achado descritivo) — CVR > 1,6: risco de hidropisia |
+| ob31c | Obstétrica — Tórax: CPAM macrocística à esquerda (conclusão) |
+| ob32 | Obstétrica — Tórax: CPAM macrocística à direita (achado descritivo) — CVR > 1,6: risco de hidropisia |
+| ob32c | Obstétrica — Tórax: CPAM macrocística à direita (conclusão) |
 
 ## Obstétrica — Primeiro Trimestre
 

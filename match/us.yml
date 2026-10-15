@@ -1367,7 +1367,7 @@ matches:
       Circunferência cefálica medindo _ cm.
       Circunferência abdominal medindo _ cm.
       Comprimento femoral fetal medindo _ cm.
-      Peso fetal: _ gramas (variação de +/- 15%). Percentil _ para a idade gestacional.
+      Peso fetal estimado (Hadlock): _ gramas (variação de +/- 15%). Percentil _ para a idade gestacional.
 
       Cordão umbilical contendo três vasos.
 
@@ -1411,7 +1411,7 @@ matches:
       Circunferência cefálica medindo _ cm.
       Circunferência abdominal medindo _ cm.
       Comprimento femoral fetal medindo _ cm.
-      Peso fetal: _ gramas (variação de +/- 15%). Percentil _ para a idade gestacional.
+      Peso fetal estimado (Hadlock): _ gramas (variação de +/- 15%). Percentil _ para a idade gestacional.
 
       Cordão umbilical com inserção fetal e placentária preservadas. Presença de 2 artérias e uma veia.
 
@@ -1421,11 +1421,11 @@ matches:
 
       Doppler obstétrico:
       As artérias cerebrais médias apresentam fluxo de padrão habitual para a fase da gestação, com:
-       IR = _. IP = _.
+       IR = _. IP = _ (percentil _).
       Artérias umbilicais com onda de padrão normal e adequado fluxo diastólico para a fase da gestação:
-       IR = _. IP = _.
+       IR = _. IP = _ (percentil _).
       A relação cérebro-umbilical não evidencia fenômeno de centralização hemodinâmica fetal:
-       IPC / IPU = _.
+       IPC / IPU = _ (percentil _).
 
       Conclusão:
       Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia (erro +/- _ dias).
@@ -1771,33 +1771,33 @@ matches:
     word: true
 
   - trigger: "ob30"
-    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo III (achado descritivo)"
-    replace: Massa ecogênica de aspecto sólido no pulmão _, sem cistos identificáveis ao exame, que promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da massa e a circunferência craniana (CC) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
+    label: "Obstétrica — Tórax: CPAM microcística (achado descritivo) — CVR > 1,6: risco de hidropisia"
+    replace: Massa ecogênica de aspecto sólido no pulmão _, sem cistos identificáveis ao exame, que promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da lesão e a circunferência cefálica (CVR) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
     word: true
 
   - trigger: "ob30c"
-    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo III (conclusão)"
-    replace: Lesão pulmonar de aspecto sólido sugestiva de malformação adenomatoide cística (MAC), com relação MAC/CC de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
+    label: "Obstétrica — Tórax: CPAM microcística (conclusão)"
+    replace: Lesão pulmonar de aspecto sólido sugestiva de malformação congênita das vias aéreas pulmonares (CPAM), com CVR de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
     word: true
 
   - trigger: "ob31"
-    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II à esquerda (achado descritivo)"
-    replace: Massa heterogênea no pulmão esquerdo, caracterizada por formação sólido-cística, com componente sólido ecogênico e cistos de permeio, medindo o maior cerca de _ x _ cm. A massa promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da massa e a circunferência craniana (CC) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
+    label: "Obstétrica — Tórax: CPAM macrocística à esquerda (achado descritivo) — CVR > 1,6: risco de hidropisia"
+    replace: Massa heterogênea no pulmão esquerdo, caracterizada por formação sólido-cística, com componente sólido ecogênico e cistos de permeio, medindo o maior cerca de _ x _ cm. A massa promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da lesão e a circunferência cefálica (CVR) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
     word: true
 
   - trigger: "ob31c"
-    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II à esquerda (conclusão)"
-    replace: Lesão pulmonar sólido-cística à esquerda, sugestiva de malformação adenomatoide cística (MAC), com relação MAC/CC de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
+    label: "Obstétrica — Tórax: CPAM macrocística à esquerda (conclusão)"
+    replace: Lesão pulmonar sólido-cística à esquerda, sugestiva de malformação congênita das vias aéreas pulmonares (CPAM), com CVR de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
     word: true
 
   - trigger: "ob32"
-    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II à direita (achado descritivo)"
-    replace: Massa heterogênea no pulmão direito, caracterizada por formação sólido-cística, com componente sólido ecogênico e cistos de permeio, medindo o maior cerca de _ x _ cm. A massa promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da massa e a circunferência craniana (CC) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
+    label: "Obstétrica — Tórax: CPAM macrocística à direita (achado descritivo) — CVR > 1,6: risco de hidropisia"
+    replace: Massa heterogênea no pulmão direito, caracterizada por formação sólido-cística, com componente sólido ecogênico e cistos de permeio, medindo o maior cerca de _ x _ cm. A massa promove desvio do mediastino e do eixo cardíaco e mede em sua totalidade _ x _ x _ cm (comprimento x altura x largura), com volume de _ cm³. A relação entre o volume da lesão e a circunferência cefálica (CVR) é de _. Ao mapeamento com Doppler colorido, não são observados vasos provenientes da circulação sistêmica (aorta) que irrigam esta massa. Não são observados derrames cavitários nem edema de pele e tecido subcutâneo. A quantidade de líquido amniótico é normal/aumentada (ILA = _).
     word: true
 
   - trigger: "ob32c"
-    label: "Obstétrica — Tórax: malformação adenomatoide cística tipo II à direita (conclusão)"
-    replace: Lesão pulmonar sólido-cística à direita, sugestiva de malformação adenomatoide cística (MAC), com relação MAC/CC de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
+    label: "Obstétrica — Tórax: CPAM macrocística à direita (conclusão)"
+    replace: Lesão pulmonar sólido-cística à direita, sugestiva de malformação congênita das vias aéreas pulmonares (CPAM), com CVR de _. Não há sinais de espessamento cutâneo ou de derrames cavitários. Líquido amniótico em quantidade habitual para a idade gestacional.
     word: true
 
   # ==============================================================================
