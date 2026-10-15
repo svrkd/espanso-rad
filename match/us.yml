@@ -362,6 +362,21 @@ matches:
     replace: Múltiplos nódulos hepáticos com as características acima descritas. Dentro do contexto clínico, considerar a hipótese de lesões secundárias.
     word: true
 
+  - trigger: "lirads1"
+    label: "Fígado: LI-RADS US-1 (negativo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C"
+    replace: "LI-RADS US-1 (negativo), escore de visualização _. Sugere-se manter rastreamento ultrassonográfico em 6 meses."
+    word: true
+
+  - trigger: "lirads2"
+    label: "Fígado: LI-RADS US-2 (subliminar, < 1,0 cm) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C"
+    replace: "Observação de _ cm no segmento _, LI-RADS US-2 (subliminar), escore de visualização _. Sugere-se controle ultrassonográfico em 3 a 6 meses."
+    word: true
+
+  - trigger: "lirads3"
+    label: "Fígado: LI-RADS US-3 (positivo, ≥ 1,0 cm ou trombo venoso novo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C"
+    replace: "Observação de _ cm no segmento _, LI-RADS US-3 (positivo), escore de visualização _. Sugere-se tomografia computadorizada ou ressonância magnética multifásica."
+    word: true
+
   - trigger: "vb0"
     label: "Vesícula biliar: Colecistectomia (achado descritivo)"
     replace: Vesícula biliar não caracterizada (status pós-operatório).
@@ -399,12 +414,17 @@ matches:
 
   - trigger: "vb4"
     label: "Vesícula biliar: Imagem compatível com pólipo de vesícula biliar (achado descritivo)"
-    replace: Imagem hiperecogênica na parede da porção _, sem efeitos sobre o feixe sonoro posterior, imóvel às mudanças de decúbito, medindo _ cm.
+    replace: "Imagem hiperecogênica pediculada/séssil na parede da porção _, sem efeitos sobre o feixe sonoro posterior, imóvel às mudanças de decúbito, medindo _ cm."
     word: true
 
   - trigger: "vb4c"
     label: "Vesícula biliar: Imagem compatível com pólipo de vesícula biliar"
-    replace: Imagem compatível com pólipo de vesícula biliar.
+    replace: "Pólipo de vesícula biliar, medindo _ cm."
+    word: true
+
+  - trigger: "vb12c"
+    label: "Vesícula biliar (pólipo): conduta SRU 2022 — pediculado de haste fina: até 0,9 cm sem seguimento; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Séssil ou haste espessa: até 0,6 cm sem seguimento; 0,7–0,9 cm controle em 12 meses; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Crescimento ≥ 0,4 cm em até 12 meses: avaliação cirúrgica"
+    replace: "Sugere-se controle ultrassonográfico em _ meses."
     word: true
 
   - trigger: "vb3"
@@ -765,7 +785,7 @@ matches:
 
   - trigger: "rv9c"
     label: "Rim: Cisto renal com as características acima descritas"
-    replace: Cisto renal com as características acima descritas. Sugere-se prosseguir a investigação diagnóstica.
+    replace: "Cisto renal com as características acima descritas. Sugere-se caracterização por tomografia computadorizada ou ressonância magnética com contraste (classificação de Bosniak)."
     word: true
 
   - trigger: "rv10"
@@ -832,6 +852,16 @@ matches:
   - trigger: "rv15c"
     label: "Rim: Considerar a hipótese de acentuada dilatação pielocalicinal à direita/ esquerda"
     replace: Considerar a hipótese de acentuada dilatação pielocalicinal à _.
+    word: true
+
+  - trigger: "rvutd"
+    label: "Rim (pediatria): dilatação do trato urinário, classificação UTD (achado descritivo) — P1: pelve 1,0 a 1,5 cm ou dilatação calicinal central; P2: pelve ≥ 1,5 cm, dilatação calicinal periférica ou ureter dilatado; P3: alteração do parênquima ou da bexiga"
+    replace: "Diâmetro anteroposterior da pelve renal _ de _ cm, com dilatação calicinal central/periférica/ausente, parênquima de espessura e ecogenicidade preservadas/alteradas, ureter _ e bexiga _."
+    word: true
+
+  - trigger: "rvutdc"
+    label: "Rim (pediatria): dilatação do trato urinário, classificação UTD (conclusão)"
+    replace: "Dilatação do trato urinário à _, classificação UTD P_."
     word: true
 
   # ==============================================================================
@@ -8784,6 +8814,33 @@ matches:
     replace: |-
       Estenose grave em território aortoilíaco (> 70%), determinando hipofluxo distal em ambos os membros inferiores.
       Aneurisma de aorta abdominal.
+    word: true
+
+  - trigger: "usaortaabd"
+    label: Aorta abdominal — normal
+    replace: |-
+      ULTRASSONOGRAFIA DE AORTA ABDOMINAL
+
+      Técnica:
+      Exame realizado com transdutor convexo multifrequencial, com estudo Doppler colorido e espectral.
+
+      Descrição:
+      Aorta abdominal de trajeto e calibre preservados, com diâmetro anteroposterior máximo de _ cm, medido de parede externa a parede externa.
+      Paredes regulares, sem placas ateromatosas significativas ou trombo mural.
+      Fluxo de padrão habitual ao estudo Doppler.
+
+      Conclusão:
+      Aorta abdominal de calibre normal.
+    word: true
+
+  - trigger: "da2"
+    label: "Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses"
+    replace: "Dilatação fusiforme/sacular da aorta abdominal infrarrenal, com diâmetro anteroposterior máximo de _ cm (medido de parede externa a parede externa), extensão longitudinal de _ cm, distando _ cm das artérias renais, com/sem trombo mural."
+    word: true
+
+  - trigger: "da2c"
+    label: "Aorta abdominal: aneurisma infrarrenal (conclusão)"
+    replace: "Aneurisma da aorta abdominal infrarrenal, com diâmetro máximo de _ cm."
     word: true
 
   # ==============================================================================

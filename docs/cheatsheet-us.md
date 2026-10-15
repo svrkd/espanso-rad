@@ -57,6 +57,9 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | fh4c | Fígado (lesão focal): Nódulo hepático com as características acima descritas |
 | fh5 | Fígado (lesão focal): Múltiplos nódulos hepáticos com as características acima descritas (achado descritivo) |
 | fh5c | Fígado (lesão focal): Múltiplos nódulos hepáticos com as características acima descritas |
+| lirads1 | Fígado: LI-RADS US-1 (negativo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C |
+| lirads2 | Fígado: LI-RADS US-2 (subliminar, < 1,0 cm) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C |
+| lirads3 | Fígado: LI-RADS US-3 (positivo, ≥ 1,0 cm ou trombo venoso novo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C |
 | vb0 | Vesícula biliar: Colecistectomia (achado descritivo) |
 | vb0c | Vesícula biliar: Colecistectomia |
 | vb1 | Vesícula biliar: Colecistolitíase (achado descritivo) |
@@ -66,6 +69,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | vb2c | Vesícula biliar: colecistite aguda \| Sinal de Murphy positivo |
 | vb4 | Vesícula biliar: Imagem compatível com pólipo de vesícula biliar (achado descritivo) |
 | vb4c | Vesícula biliar: Imagem compatível com pólipo de vesícula biliar |
+| vb12c | Vesícula biliar (pólipo): conduta SRU 2022 — pediculado de haste fina: até 0,9 cm sem seguimento; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Séssil ou haste espessa: até 0,6 cm sem seguimento; 0,7–0,9 cm controle em 12 meses; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Crescimento ≥ 0,4 cm em até 12 meses: avaliação cirúrgica |
 | vb3 | Vesícula biliar: Achados sugestivos de barro biliar (achado descritivo) |
 | vb3c | Vesícula biliar: Achados sugestivos de barro biliar |
 | vb5 | Vesícula biliar: Sinais sugestivos de colesterolose/adenomiomatose da vesícula biliar (achado descritivo) |
@@ -139,6 +143,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | rv14c | Rim: Nódulo renal à direita/ esquerda |
 | rv15 | Rim: Considerar a hipótese de acentuada dilatação pielocalicinal à direita/ esquerda (achado descritivo) |
 | rv15c | Rim: Considerar a hipótese de acentuada dilatação pielocalicinal à direita/ esquerda |
+| rvutd | Rim (pediatria): dilatação do trato urinário, classificação UTD (achado descritivo) — P1: pelve 1,0 a 1,5 cm ou dilatação calicinal central; P2: pelve ≥ 1,5 cm, dilatação calicinal periférica ou ureter dilatado; P3: alteração do parênquima ou da bexiga |
+| rvutdc | Rim (pediatria): dilatação do trato urinário, classificação UTD (conclusão) |
 
 ## Pélvica Ginecológica E Transvaginal
 
@@ -1596,6 +1602,9 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | di1c | Estenose ilíaca à _ |
 | da1 | Aneurisma + estenose aortoilíaca (achado descritivo) |
 | da1c | Aneurisma + estenose aortoilíaca |
+| usaortaabd | Aorta abdominal — normal |
+| da2 | Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses |
+| da2c | Aorta abdominal: aneurisma infrarrenal (conclusão) |
 
 ## Frases Auxiliares / Curingas (Uso Transversal)
 
