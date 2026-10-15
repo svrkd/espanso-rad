@@ -69,6 +69,7 @@ matches:
   #   dc  = carótidas   dv = vertebral   ds = roubo subclávio   da = aorta/ilíaca
   #   di  = estenose ilíaca   sdt = desfiladeiro torácico   tvp/tvppaulo = TVP/duplex venoso MI
   #   dam = Doppler arterial de membros (MMSS/MMII)
+  #   mapa = mapeamento venoso de MMII (mapaN achado · mapaNc conclusão)
   #
   # AUXILIARES / CURINGAS   papv · migue · gordoo · limitgas
 
@@ -8272,6 +8273,179 @@ matches:
   - trigger: "tvp2c"
     label: "TVP (sequela crônica): Sinais de cicatrização pós-trombótica crônica"
     replace: Sinais de cicatrização pós-trombótica crônica.
+    word: true
+
+  # ==============================================================================
+  # VASCULAR — MAPEAMENTO VENOSO DE MEMBROS INFERIORES
+  # mapaN = achado descritivo · mapaNc = frase de conclusão. Ordem: do mais comum ao mais raro.
+  # ==============================================================================
+
+  - trigger: "mapa1"
+    label: "Mapeamento venoso: insuficiência da safena magna (achado descritivo)"
+    replace: Veia safena magna pérvia, compressível, com refluxo significativo às manobras de Valsalva e compressão muscular no segmento entre _ e _.
+    word: true
+
+  - trigger: "mapa1c"
+    label: "Mapeamento venoso: insuficiência da safena magna (conclusão)"
+    replace: Insuficiência da veia safena magna _, com refluxo de _ até _.
+    word: true
+
+  - trigger: "mapa2"
+    label: "Mapeamento venoso: junção safeno-femoral incompetente (achado descritivo)"
+    replace: Junção safeno-femoral incompetente.
+    word: true
+
+  - trigger: "mapa2c"
+    label: "Mapeamento venoso: junção safeno-femoral incompetente (conclusão)"
+    replace: Junção safeno-femoral _ incompetente.
+    word: true
+
+  - trigger: "mapa3"
+    label: "Mapeamento venoso: colaterais varicosas com refluxo (achado descritivo)"
+    replace: Colaterais varicosas na _, tributárias da veia _, medindo até _ cm, apresentando refluxo.
+    word: true
+
+  - trigger: "mapa3c"
+    label: "Mapeamento venoso: colaterais varicosas (conclusão)"
+    replace: Colaterais varicosas no membro inferior _.
+    word: true
+
+  - trigger: "mapa4"
+    label: "Mapeamento venoso: perfurante incompetente (achado descritivo)"
+    replace: Veia perfurante com refluxo patológico na _, medindo _ cm, localizada a _ cm _, tributária da veia _.
+    word: true
+
+  - trigger: "mapa4c"
+    label: "Mapeamento venoso: perfurante incompetente (conclusão)"
+    replace: Veia perfurante com refluxo patológico na _.
+    word: true
+
+  - trigger: "mapa5"
+    label: "Mapeamento venoso: insuficiência da safena parva (achado descritivo)"
+    replace: Veia safena parva pérvia, compressível, com refluxo significativo às manobras de Valsalva e compressão muscular no segmento entre _ e _.
+    word: true
+
+  - trigger: "mapa5c"
+    label: "Mapeamento venoso: insuficiência da safena parva (conclusão)"
+    replace: Insuficiência da veia safena parva _, com refluxo de _ até _.
+    word: true
+
+  - trigger: "mapa6"
+    label: "Mapeamento venoso: junção safeno-poplítea incompetente (achado descritivo)"
+    replace: Junção safeno-poplítea incompetente.
+    word: true
+
+  - trigger: "mapa6c"
+    label: "Mapeamento venoso: junção safeno-poplítea incompetente (conclusão)"
+    replace: Junção safeno-poplítea _ incompetente.
+    word: true
+
+  - trigger: "mapa7"
+    label: "Mapeamento venoso: insuficiência da safena anterior (achado descritivo)"
+    replace: Veia safena anterior pérvia, compressível, com refluxo significativo às manobras de Valsalva e compressão muscular no segmento entre _ e _.
+    word: true
+
+  - trigger: "mapa7c"
+    label: "Mapeamento venoso: insuficiência da safena anterior (conclusão)"
+    replace: Insuficiência da veia safena anterior _, com refluxo de _ até _.
+    word: true
+
+  - trigger: "mapa8"
+    label: "Mapeamento venoso: telangiectasias"
+    replace: Finas telangiectasias subcutâneas com distribuição _.
+    word: true
+
+  - trigger: "mapa9"
+    label: "Mapeamento venoso: ectasia focal da safena (achado descritivo)"
+    replace: Ectasia focal da veia safena _ no _, medindo _ cm.
+    word: true
+
+  - trigger: "mapa9c"
+    label: "Mapeamento venoso: ectasia focal da safena (conclusão)"
+    replace: Ectasia focal da veia safena _ _.
+    word: true
+
+  - trigger: "mapa10"
+    label: "Mapeamento venoso: perfurante ectasiada sem refluxo"
+    replace: Veia perfurante ectasiada e sem refluxo patológico na _, medindo _ cm.
+    word: true
+
+  - trigger: "mapa11"
+    label: "Mapeamento venoso: refluxo venoso profundo (achado descritivo)"
+    replace: |-
+      Veias femoral comum, femoral, femoral profunda, poplítea, tibiais anteriores e posteriores e fibulares que se apresentam com trajeto, calibre e compressibilidade preservados, sem sinais de trombose.
+      Refluxo significativo às manobras dinâmicas na veia _.
+    word: true
+
+  - trigger: "mapa11c"
+    label: "Mapeamento venoso: refluxo venoso profundo (conclusão)"
+    replace: Refluxo venoso profundo significativo na veia _ _.
+    word: true
+
+  - trigger: "mapa12"
+    label: "Mapeamento venoso: sequela pós-trombótica profunda (achado descritivo)"
+    replace: |-
+      Alterações trombóticas crônicas ou sequelares na veia _.
+      Demais segmentos venosos profundos com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
+    word: true
+
+  - trigger: "mapa12c"
+    label: "Mapeamento venoso: sequela pós-trombótica profunda (conclusão)"
+    replace: Alterações trombóticas crônicas ou sequelares na veia _ _.
+    word: true
+
+  - trigger: "mapa13"
+    label: "Mapeamento venoso: safena parva com extensão cranial, sem crossa (achado descritivo)"
+    replace: Veia safena parva pérvia, compressível, apresentando calibre preservado, sem sinais de refluxos significativos durante a realização das manobras de Valsalva e compressão muscular, apresentando extensão cranial, sem crossa definida.
+    word: true
+
+  - trigger: "mapa13c"
+    label: "Mapeamento venoso: safena parva com extensão cranial, sem crossa (conclusão)"
+    replace: Veia safena parva _ apresentando extensão cranial, sem crossa definida (variação anatômica).
+    word: true
+
+  - trigger: "mapa14"
+    label: "Mapeamento venoso: tromboflebite superficial (achado descritivo)"
+    replace: Veia _ com calibre aumentado e conteúdo hipoecogênico, incompressível e sem fluxo ao Doppler, achados compatíveis com trombose aguda, estendendo-se de _ até _.
+    word: true
+
+  - trigger: "mapa14c"
+    label: "Mapeamento venoso: tromboflebite superficial (conclusão)"
+    replace: Tromboflebite superficial da veia _ _, estendendo-se de _ até _.
+    word: true
+
+  - trigger: "mapa15"
+    label: "Mapeamento venoso: trombose venosa profunda aguda (achado descritivo)"
+    replace: |-
+      Veia _ com calibre aumentado e conteúdo hipoecogênico, incompressível e sem fluxo ao Doppler, achados compatíveis com trombose aguda, estendendo-se de _ até _.
+      Demais segmentos venosos profundos com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
+    word: true
+
+  - trigger: "mapa15c"
+    label: "Mapeamento venoso: trombose venosa profunda aguda (conclusão)"
+    replace: Trombose venosa profunda da veia _ _, estendendo-se de _ até _.
+    word: true
+
+  - trigger: "mapa16"
+    label: "Mapeamento venoso: trombose venosa profunda em recanalização (achado descritivo)"
+    replace: |-
+      Veia _ com material heterogêneo de permeio, parcialmente compressível e com fluxo residual periférico ao Doppler, compatível com trombose em recanalização.
+      Demais segmentos venosos profundos com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
+    word: true
+
+  - trigger: "mapa16c"
+    label: "Mapeamento venoso: trombose venosa profunda em recanalização (conclusão)"
+    replace: Trombose venosa profunda em recanalização da veia _ _.
+    word: true
+
+  - trigger: "mapa17"
+    label: "Mapeamento venoso: aplasia segmentar da safena (achado descritivo)"
+    replace: "Veia safena _ não caracterizada no compartimento safênico no seguinte segmento: _, compatível com aplasia segmentar."
+    word: true
+
+  - trigger: "mapa17c"
+    label: "Mapeamento venoso: aplasia segmentar da safena (conclusão)"
+    replace: "Aplasia segmentar da veia safena _ _: _."
     word: true
 
   # ==============================================================================
