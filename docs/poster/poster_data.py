@@ -294,6 +294,7 @@ EXCLUSOES = [
     (r'^ob([3-9]|[1-4]\d)c?$', 'malformação fetal — não é agenda de rotina'),
     (r'^(dc|dv|ds|di|da|sdt)\d*c?$', 'Doppler vascular em slot dedicado (carótidas/vertebral/desfiladeiro/aorto-ilíaco)'),
     (r'^graf', 'quadril infantil, método Graf'),
+    (r'^(tipaaf|ticontrole)$', 'tireoide — frases de conduta ACR TI-RADS, usadas junto às conclusões tr*c'),
 ]
 
 

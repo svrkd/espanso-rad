@@ -1345,15 +1345,22 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | uscervical | Região cervical — normal |
 | ustireoide | Tireoide — normal |
 | ustireoided | Tireoide com Doppler — normal |
-| ti1 | Tireoide (nódulo): Nódulo tireoidiano à _, com padrão de baixo risco ao Doppler (Chammas II) (achado descritivo) |
-| ti1c | Tireoide (nódulo): Nódulo tireoidiano à _, com padrão de baixo risco ao Doppler (Chammas II) |
-| ti2 | Tireoide (nódulo): Nódulo tireoidiano à _, com características suspeitas ao método (Chammas III/IV) (achado descritivo) |
-| ti2c | Tireoide (nódulo): Nódulo tireoidiano à _, com características suspeitas ao método (Chammas III/IV) |
+| ti1 | Tireoide (nódulo): descrição ACR TI-RADS (achado descritivo) — composição: cístico/espongiforme 0, misto 1, sólido 2; ecogenicidade: anecoico 0, hiper/iso 1, hipo 2, acentuadamente hipo 3; forma: mais alto que largo 3; margens: lobuladas/irregulares 2, extensão extratireoidiana 3; focos: macrocalcificações 1, periféricas 2, puntiformes 3 |
+| ti1c | Tireoide (nódulo): conclusão ACR TI-RADS (categoria a preencher) |
+| ti2 | Tireoide (nódulo): descrição ACR TI-RADS (achado descritivo) — composição: cístico/espongiforme 0, misto 1, sólido 2; ecogenicidade: anecoico 0, hiper/iso 1, hipo 2, acentuadamente hipo 3; forma: mais alto que largo 3; margens: lobuladas/irregulares 2, extensão extratireoidiana 3; focos: macrocalcificações 1, periféricas 2, puntiformes 3 |
+| ti2c | Tireoide (nódulo): conclusão ACR TI-RADS (categoria a preencher) |
+| tr1c | Tireoide (nódulo): ACR TI-RADS TR1 (benigno, 0 pontos) |
+| tr2c | Tireoide (nódulo): ACR TI-RADS TR2 (não suspeito, 2 pontos) |
+| tr3c | Tireoide (nódulo): ACR TI-RADS TR3 (levemente suspeito, 3 pontos) |
+| tr4c | Tireoide (nódulo): ACR TI-RADS TR4 (moderadamente suspeito, 4 a 6 pontos) |
+| tr5c | Tireoide (nódulo): ACR TI-RADS TR5 (altamente suspeito, 7 ou mais pontos) |
+| tipaaf | Tireoide (nódulo): indicação de PAAF — TR3 ≥ 2,5 cm; TR4 ≥ 1,5 cm; TR5 ≥ 1,0 cm |
+| ticontrole | Tireoide (nódulo): controle ultrassonográfico — TR3 ≥ 1,5 cm; TR4 ≥ 1,0 cm; TR5 ≥ 0,5 cm |
 | ti3 | Tireoide (doença difusa): Tireoide difusamente heterogênea e hipervascularizada (achado descritivo) |
 | ti3c | Tireoide (doença difusa): Tireoide difusamente heterogênea e hipervascularizada |
 | ti4 | Tireoide (doença difusa): Tireoide difusamente heterogênea e de dimensões reduzidas (achado descritivo) |
 | ti4c | Tireoide (doença difusa): Tireoide difusamente heterogênea e de dimensões reduzidas |
-| ti5 | Linfonodo cervical: Linfonodomegalia cervical à _, com critérios morfológicos de atenção (achado descritivo) |
+| ti5 | Linfonodo cervical: linfonodo com critérios morfológicos de atenção (achado descritivo) — níveis I a VI |
 | ti5c | Linfonodo cervical: Linfonodomegalia cervical à _, com critérios morfológicos de atenção |
 
 ## Tórax

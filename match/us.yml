@@ -7440,23 +7440,58 @@ matches:
     word: true
 
   - trigger: "ti1"
-    label: "Tireoide (nódulo): Nódulo tireoidiano à _, com padrão de baixo risco ao Doppler (Chammas II) (achado descritivo)"
-    replace: Parênquima tireoidiano com ecotextura homogênea, exceto por imagem nodular sólida, de contornos regulares e bem definidos, conteúdo hipoecogênico homogêneo, sem calcificações, com fluxo somente periférico ao estudo Doppler colorido (Chammas II), no terço _ do lobo _, medindo _ cm.
+    label: "Tireoide (nódulo): descrição ACR TI-RADS (achado descritivo) — composição: cístico/espongiforme 0, misto 1, sólido 2; ecogenicidade: anecoico 0, hiper/iso 1, hipo 2, acentuadamente hipo 3; forma: mais alto que largo 3; margens: lobuladas/irregulares 2, extensão extratireoidiana 3; focos: macrocalcificações 1, periféricas 2, puntiformes 3"
+    replace: "Nódulo sólido/misto/espongiforme/cístico, anecoico/hiperecogênico/isoecogênico/hipoecogênico/acentuadamente hipoecogênico, mais largo que alto/mais alto que largo, de margens regulares/mal definidas/lobuladas/irregulares/com extensão extratireoidiana, sem focos ecogênicos/com macrocalcificações/com calcificações periféricas/com focos ecogênicos puntiformes, no terço _ do lobo _, medindo _ x _ x _ cm."
     word: true
 
   - trigger: "ti1c"
-    label: "Tireoide (nódulo): Nódulo tireoidiano à _, com padrão de baixo risco ao Doppler (Chammas II)"
-    replace: Nódulo tireoidiano à _, com padrão de baixo risco ao Doppler (Chammas II).
+    label: "Tireoide (nódulo): conclusão ACR TI-RADS (categoria a preencher)"
+    replace: "Nódulo tireoidiano no lobo _, classificado como ACR TI-RADS TR_ (_ pontos)."
     word: true
 
   - trigger: "ti2"
-    label: "Tireoide (nódulo): Nódulo tireoidiano à _, com características suspeitas ao método (Chammas III/IV) (achado descritivo)"
-    replace: Parênquima tireoidiano apresentando imagem nodular sólida, de contornos parcialmente irregulares, conteúdo hipoecogênico, com microcalcificações e fluxo predominantemente central ao estudo Doppler colorido (Chammas III/IV), no terço _ do lobo _, medindo _ cm.
+    label: "Tireoide (nódulo): descrição ACR TI-RADS (achado descritivo) — composição: cístico/espongiforme 0, misto 1, sólido 2; ecogenicidade: anecoico 0, hiper/iso 1, hipo 2, acentuadamente hipo 3; forma: mais alto que largo 3; margens: lobuladas/irregulares 2, extensão extratireoidiana 3; focos: macrocalcificações 1, periféricas 2, puntiformes 3"
+    replace: "Nódulo sólido/misto/espongiforme/cístico, anecoico/hiperecogênico/isoecogênico/hipoecogênico/acentuadamente hipoecogênico, mais largo que alto/mais alto que largo, de margens regulares/mal definidas/lobuladas/irregulares/com extensão extratireoidiana, sem focos ecogênicos/com macrocalcificações/com calcificações periféricas/com focos ecogênicos puntiformes, no terço _ do lobo _, medindo _ x _ x _ cm."
     word: true
 
   - trigger: "ti2c"
-    label: "Tireoide (nódulo): Nódulo tireoidiano à _, com características suspeitas ao método (Chammas III/IV)"
-    replace: Nódulo tireoidiano à _, com características suspeitas ao método (Chammas III/IV). Sugere-se complementação com punção aspirativa por agulha fina.
+    label: "Tireoide (nódulo): conclusão ACR TI-RADS (categoria a preencher)"
+    replace: "Nódulo tireoidiano no lobo _, classificado como ACR TI-RADS TR_ (_ pontos)."
+    word: true
+
+  - trigger: "tr1c"
+    label: "Tireoide (nódulo): ACR TI-RADS TR1 (benigno, 0 pontos)"
+    replace: "Nódulo tireoidiano no lobo _, classificado como ACR TI-RADS TR1 (benigno)."
+    word: true
+
+  - trigger: "tr2c"
+    label: "Tireoide (nódulo): ACR TI-RADS TR2 (não suspeito, 2 pontos)"
+    replace: "Nódulo tireoidiano no lobo _, classificado como ACR TI-RADS TR2 (não suspeito)."
+    word: true
+
+  - trigger: "tr3c"
+    label: "Tireoide (nódulo): ACR TI-RADS TR3 (levemente suspeito, 3 pontos)"
+    replace: "Nódulo tireoidiano no lobo _, classificado como ACR TI-RADS TR3 (levemente suspeito)."
+    word: true
+
+  - trigger: "tr4c"
+    label: "Tireoide (nódulo): ACR TI-RADS TR4 (moderadamente suspeito, 4 a 6 pontos)"
+    replace: "Nódulo tireoidiano no lobo _, classificado como ACR TI-RADS TR4 (moderadamente suspeito)."
+    word: true
+
+  - trigger: "tr5c"
+    label: "Tireoide (nódulo): ACR TI-RADS TR5 (altamente suspeito, 7 ou mais pontos)"
+    replace: "Nódulo tireoidiano no lobo _, classificado como ACR TI-RADS TR5 (altamente suspeito)."
+    word: true
+
+  - trigger: "tipaaf"
+    label: "Tireoide (nódulo): indicação de PAAF — TR3 ≥ 2,5 cm; TR4 ≥ 1,5 cm; TR5 ≥ 1,0 cm"
+    replace: "Sugere-se punção aspirativa por agulha fina."
+    word: true
+
+  - trigger: "ticontrole"
+    label: "Tireoide (nódulo): controle ultrassonográfico — TR3 ≥ 1,5 cm; TR4 ≥ 1,0 cm; TR5 ≥ 0,5 cm"
+    replace: "Sugere-se controle ultrassonográfico."
     word: true
 
   - trigger: "ti3"
@@ -7480,13 +7515,13 @@ matches:
     word: true
 
   - trigger: "ti5"
-    label: "Linfonodo cervical: Linfonodomegalia cervical à _, com critérios morfológicos de atenção (achado descritivo)"
-    replace: Linfonodo na cadeia cervical _, de contornos bem definidos, hipoecogênico, com perda da relação córtico-hilar e ausência do hilo ecogênico central, medindo _ cm.
+    label: "Linfonodo cervical: linfonodo com critérios morfológicos de atenção (achado descritivo) — níveis I a VI"
+    replace: "Linfonodo cervical no nível _ à _, de forma arredondada, medindo _ cm, com ausência do hilo ecogênico central/hiperecogenicidade cortical/componente cístico/microcalcificações/vascularização periférica."
     word: true
 
   - trigger: "ti5c"
     label: "Linfonodo cervical: Linfonodomegalia cervical à _, com critérios morfológicos de atenção"
-    replace: Linfonodomegalia cervical à _, com critérios morfológicos de atenção. Sugere-se correlação clínica e, se pertinente, investigação complementar.
+    replace: "Linfonodo cervical no nível _ à _, com critérios morfológicos de atenção. Sugere-se correlação clínica e, se pertinente, investigação complementar."
     word: true
 
   # ==============================================================================
