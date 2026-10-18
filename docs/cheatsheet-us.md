@@ -1485,6 +1485,57 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | tvp2 | TVP (sequela crônica): Sinais de cicatrização pós-trombótica crônica (achado descritivo) |
 | tvp2c | TVP (sequela crônica): Sinais de cicatrização pós-trombótica crônica |
 
+## Vascular — Mapeamento Venoso De Membros Inferiores
+
+| Trigger | Label |
+|---|---|
+| mapa1 | Mapeamento venoso: insuficiência da safena magna (achado descritivo) |
+| mapa1c | Mapeamento venoso: insuficiência da safena magna (conclusão) |
+| mapa2 | Mapeamento venoso: junção safeno-femoral incompetente (achado descritivo) |
+| mapa2c | Mapeamento venoso: junção safeno-femoral incompetente (conclusão) |
+| mapa3 | Mapeamento venoso: colaterais varicosas com refluxo (achado descritivo) |
+| mapa3c | Mapeamento venoso: colaterais varicosas (conclusão) |
+| mapa4 | Mapeamento venoso: perfurante incompetente (achado descritivo) |
+| mapa4c | Mapeamento venoso: perfurante incompetente (conclusão) |
+| mapa5 | Mapeamento venoso: insuficiência da safena parva (achado descritivo) |
+| mapa5c | Mapeamento venoso: insuficiência da safena parva (conclusão) |
+| mapa6 | Mapeamento venoso: junção safeno-poplítea incompetente (achado descritivo) |
+| mapa6c | Mapeamento venoso: junção safeno-poplítea incompetente (conclusão) |
+| mapa7 | Mapeamento venoso: insuficiência da safena anterior (achado descritivo) |
+| mapa7c | Mapeamento venoso: insuficiência da safena anterior (conclusão) |
+| mapa8 | Mapeamento venoso: telangiectasias |
+| mapa9 | Mapeamento venoso: ectasia focal da safena (achado descritivo) |
+| mapa9c | Mapeamento venoso: ectasia focal da safena (conclusão) |
+| mapa10 | Mapeamento venoso: perfurante ectasiada sem refluxo |
+| mapa11 | Mapeamento venoso: refluxo venoso profundo (achado descritivo) |
+| mapa11c | Mapeamento venoso: refluxo venoso profundo (conclusão) |
+| mapa12 | Mapeamento venoso: sequela pós-trombótica profunda (achado descritivo) |
+| mapa12c | Mapeamento venoso: sequela pós-trombótica profunda (conclusão) |
+| mapa13 | Mapeamento venoso: safena parva com extensão cranial, sem crossa (achado descritivo) |
+| mapa13c | Mapeamento venoso: safena parva com extensão cranial, sem crossa (conclusão) |
+| mapa14 | Mapeamento venoso: tromboflebite superficial (achado descritivo) |
+| mapa14c | Mapeamento venoso: tromboflebite superficial (conclusão) |
+| mapa15 | Mapeamento venoso: trombose venosa profunda aguda (achado descritivo) |
+| mapa15c | Mapeamento venoso: trombose venosa profunda aguda (conclusão) |
+| mapa16 | Mapeamento venoso: trombose venosa profunda em recanalização (achado descritivo) |
+| mapa16c | Mapeamento venoso: trombose venosa profunda em recanalização (conclusão) |
+| mapa17 | Mapeamento venoso: aplasia segmentar da safena (achado descritivo) |
+| mapa17c | Mapeamento venoso: aplasia segmentar da safena (conclusão) |
+| mapa18 | Mapeamento venoso: safena ocluída pós-ablação (achado descritivo) |
+| mapa18c | Mapeamento venoso: safena ocluída pós-ablação (conclusão) |
+| mapa19 | Mapeamento venoso: recanalização da safena pós-ablação (achado descritivo) |
+| mapa19c | Mapeamento venoso: recanalização da safena pós-ablação (conclusão) |
+| mapa20 | Mapeamento venoso: extensão de trombo pós-ablação ao sistema profundo (achado descritivo) |
+| mapa20c | Mapeamento venoso: extensão de trombo pós-ablação ao sistema profundo (conclusão) |
+| mapa21 | Mapeamento venoso: safena ausente pós-safenectomia (achado descritivo) |
+| mapa21c | Mapeamento venoso: safena ausente pós-safenectomia (conclusão) |
+| mapa22 | Mapeamento venoso: segmento remanescente da safena com refluxo (achado descritivo) |
+| mapa22c | Mapeamento venoso: segmento remanescente da safena com refluxo (conclusão) |
+| mapa23 | Mapeamento venoso: coto residual da junção com refluxo (achado descritivo) |
+| mapa23c | Mapeamento venoso: coto residual da junção com refluxo (conclusão) |
+| mapa24 | Mapeamento venoso: neovascularização inguinal pós-cirúrgica (achado descritivo) |
+| mapa24c | Mapeamento venoso: neovascularização inguinal pós-cirúrgica (conclusão) |
+
 ## Vascular — Doppler Arterial De Membros (Superiores/Inferiores)
 
 | Trigger | Label |
