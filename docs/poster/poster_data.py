@@ -198,7 +198,7 @@ BLOCOS = [
     ("VASCULAR", [
         ("escada", "tvp", "venoso", [("1", "TVP aguda"), ("2", "TVP crônica")]),
         ("triggers", ["ustvpc"], "venoso", "trombose venosa profunda (conclusão genérica)"),
-        ("escada", "dc", "carótidas", [
+        ("escada", "carot", "carótidas", [
             ("1", "EMI"), ("2", "placa"), ("3", "placa instável"), ("4", "<50%"),
             ("5", "50–69%"), ("6", "≥70%"), ("7", "suboclusão/oclusão ACI"),
             ("8", "carotidínia"), ("9", "paraganglioma?"), ("10", "intrastent"),
@@ -207,7 +207,7 @@ BLOCOS = [
             ("16", "placa detalhada"), ("17", "placa ACC"), ("18", "placa bifurcação"),
             ("19", "placa ACI"), ("20", "placa ACE"), ("21", "normal"),
         ]),
-        ("escada", "dv", "vertebral", [
+        ("escada", "vert", "vertebral", [
             ("1", "hipoplasia"), ("2", "roubo subclávia"), ("3", "oclusão"), ("4", "normal"),
         ]),
         ("escada", "ds", "roubo subclávio", [
@@ -292,7 +292,7 @@ EXCLUSOES = [
     (r'^me[12]$', 'MSK por segmento (tendão calcâneo / joelho) — prefixo legado fora do padrão co/jo/…/tz'),
     (r'^(?!usnc$|utnc$|ustvpc$).*c$', 'variante de conclusão (regra de gramática "…c")'),
     (r'^ob([3-9]|[1-4]\d)c?$', 'malformação fetal — não é agenda de rotina'),
-    (r'^(dc|dv|ds|di|da|sdt)\d*c?$', 'Doppler vascular em slot dedicado (carótidas/vertebral/desfiladeiro/aorto-ilíaco)'),
+    (r'^(carot|vert|ds|di|da|sdt)\d*c?$', 'Doppler vascular em slot dedicado (carótidas/vertebral/desfiladeiro/aorto-ilíaco)'),
     (r'^graf', 'quadril infantil, método Graf'),
     (r'^lirads[1-3]$', 'fígado — rastreamento LI-RADS US, só para população de risco'),
     (r'^rvutd$', 'dilatação do trato urinário pediátrica (UTD) — achado específico'),
