@@ -1582,25 +1582,25 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | Trigger | Label |
 |---|---|
 | uscv | Carótidas e vertebrais c/ Doppler — normal |
-| carot1 | Artéria carótida: Aumento da espessura mediointimal das artérias carótidas (achado descritivo; se ≥ 1,5 mm, descrever como placa com carot16) |
-| carot1c | Artéria carótida: Aumento da espessura mediointimal das artérias carótidas |
+| carot1 | Artéria carótida: Espessamento mediointimal da carótida comum à _ (achado descritivo; se > 1,5 mm, descrever como placa com carot16) |
+| carot1c | Artéria carótida: Aumento da espessura mediointimal da carótida comum à _ |
 | carot2 | Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica (achado descritivo) |
 | carot2c | Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica |
-| carot3 | Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecogênico sugestivo de instabilidade (achado descritivo) |
-| carot3c | Artéria carótida: Placa aterosclerótica complicada em bulbo carotídeo à _, com componente hipoecogênico sugestivo de instabilidade |
-| carot4 | Artéria carótida: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _ (achado descritivo) |
+| carot3 | Artéria carótida: Placa com características de maior risco embólico à _ (achado descritivo) |
+| carot3c | Artéria carótida: Placa com características de maior risco embólico à _ |
+| carot4 | Artéria carótida: Estenose inferior a 50% da carótida interna à _ (achado descritivo) |
 | carot4c | Artéria carótida: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _ |
-| carot5 | Artéria carótida: Estenose entre 50 e 69% da artéria carótida interna à _ (achado descritivo) |
-| carot5c | Artéria carótida: Estenose entre 50 e 69% da artéria carótida interna à _ |
-| carot6 | Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ (achado descritivo) |
-| carot6c | Artéria carótida: Estenose igual ou superior a 70% da artéria carótida interna à _ |
+| carot5 | Artéria carótida: Estenose entre 50 e 69% da carótida interna à _ (achado descritivo; decis 50–59/60–69%) |
+| carot5c | Artéria carótida: Estenose entre 50 e 69% da carótida interna à _ |
+| carot6 | Artéria carótida: Estenose entre 70 e 89% da carótida interna à _ (achado descritivo; decis 70–79/80–89%) |
+| carot6c | Artéria carótida: Estenose entre 70 e 89% da carótida interna à _ |
 | carot7 | Artéria carótida: Oclusão da artéria carótida interna à _ (achado descritivo) |
 | carot7c | Artéria carótida: Oclusão da artéria carótida interna à _ |
-| carot22 | Artéria carótida: Suboclusão da artéria carótida interna à _ (achado descritivo) |
+| carot22 | Artéria carótida: Suboclusão da artéria carótida interna à _ (achado descritivo; colapso total/parcial) |
 | carot22c | Artéria carótida: Suboclusão da artéria carótida interna à _ |
-| carot8 | Artéria carótida: Achados sugestivos de carotidínia à _ (achado descritivo) |
-| carot8c | Artéria carótida: Achados sugestivos de carotidínia à _ |
-| carot9 | Artéria carótida: Nódulo em bifurcação carotídea à _, provável paraganglioma (achado descritivo) |
+| carot8 | Artéria carótida: Inflamação perivascular transitória da carótida (TIPIC, antiga carotidínia) à _ (achado descritivo) |
+| carot8c | Artéria carótida: Inflamação perivascular transitória da carótida (TIPIC, antiga carotidínia) à _ |
+| carot9 | Artéria carótida: Nódulo em bifurcação carotídea à _ com sinal da lira, provável paraganglioma (achado descritivo) |
 | carot9c | Artéria carótida: Nódulo em bifurcação carotídea à _, provável paraganglioma |
 | carot10 | Artéria carótida: Estenose intrastent do stent carotídeo à _ (achado descritivo) |
 | carot10c | Artéria carótida: Estenose intrastent do stent carotídeo à _ |
@@ -1614,21 +1614,45 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | carot14c | Artéria carótida: Bifurcação carotídea alta à _ limitando a avaliação da carótida interna |
 | carot15 | Artéria carótida: Extensas calcificações parietais impossibilitando graduar a estenose (achado descritivo) |
 | carot15c | Artéria carótida: Extensas calcificações parietais impossibilitando graduar a estenose |
-| carot16 | Artéria carótida: Placa carotídea — descrição detalhada (preencher) |
+| carot16 | Artéria carótida: Placa carotídea — descrição detalhada (preencher; ecogenicidade tipos I a V) |
 | carot17 | Artéria carótida: Placa na artéria carótida comum à _ |
 | carot18 | Artéria carótida: Placa na bifurcação carotídea à _ |
 | carot19 | Artéria carótida: Placa na origem da artéria carótida interna à _ |
 | carot20 | Artéria carótida: Placa na origem da artéria carótida externa à _ |
 | carot21 | Artéria carótida: Artérias carótidas normais |
+| carot23 | Artéria carótida: Pós-endarterectomia à _ sem reestenose (achado descritivo) |
+| carot23c | Artéria carótida: Pós-endarterectomia à _ sem reestenose |
+| carot24 | Artéria carótida: Reestenose ≥ 70% pós-endarterectomia à _ (achado descritivo) — VPS > 300 cm/s, VDF > 125 cm/s, razão ACI/ACC > 5 (DIC/CBR/SBACV 2023, Quadro 5) |
+| carot24c | Artéria carótida: Reestenose ≥ 70% pós-endarterectomia à _ |
+| carot25 | Artéria carótida: Placa ulcerada à _ (achado descritivo) — escavação > 2 mm, base definida, fluxo reverso ao color |
+| carot25c | Artéria carótida: Placa ulcerada à _ |
+| carot26 | Artéria carótida: Placa com componente móvel (trombo flutuante) à _ (achado descritivo) |
+| carot26c | Artéria carótida: Placa com componente móvel (trombo flutuante) à _ |
+| carot27 | Artéria carótida: Dissecção da artéria carótida interna à _ (achado descritivo) |
+| carot27c | Artéria carótida: Dissecção da artéria carótida interna à _ |
+| carot28 | Artéria carótida: Web carotídeo à _ (achado descritivo) |
+| carot28c | Artéria carótida: Web carotídeo à _ |
+| carot29 | Artéria carótida: Espessamento parietal circunferencial (sinal do macarrão), arterite de grandes vasos à _ (achado descritivo) |
+| carot29c | Artéria carótida: Arterite de grandes vasos (Takayasu) à _ |
+| carot30 | Artéria carótida: Fluxo pós-estenótico na carótida comum à _, estenose proximal (origem/tronco braquiocefálico) (achado descritivo) |
+| carot30c | Artéria carótida: Estenose proximal à carótida comum à _ (origem/tronco braquiocefálico) |
+| carot31 | Artéria carótida: Displasia fibromuscular da carótida interna à _ (achado descritivo) |
+| carot31c | Artéria carótida: Displasia fibromuscular da carótida interna à _ |
 | vert1 | Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ (achado descritivo) — diâmetro ≤ 0,2 cm em V2, índice de resistência > 0,75, vertebral contralateral > 0,4 cm |
 | vert1c | Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ |
-| vert2 | Artéria vertebral: Fluxo retrógrado na artéria vertebral à _ compatível com roubo da subclávia (achado descritivo) |
-| vert2c | Artéria vertebral: Fluxo retrógrado na artéria vertebral à _ compatível com roubo da subclávia |
-| vert3 | Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _ (achado descritivo) |
+| vert2 | Artéria vertebral: Fluxo retrógrado na artéria vertebral à _, roubo da subclávia completo (achado descritivo) |
+| vert2c | Artéria vertebral: Fluxo retrógrado na artéria vertebral à _, roubo da subclávia completo |
+| vert3 | Artéria vertebral: Oclusão da artéria vertebral à _, sem reabitação distal (achado descritivo) |
 | vert3c | Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _ |
 | vert4 | Artéria vertebral: Artérias vertebrais normais, com fluxo anterógrado conservado |
-| vert5 | Artéria vertebral: estenose na origem (achado descritivo) — velocidade máxima: < 50% ≥ 85 cm/s; 50–69% ≥ 140 cm/s; 70–99% ≥ 210 cm/s (DIC/CBR/SBACV 2023, Tabela 6) |
+| vert5 | Artéria vertebral: estenose na origem (achado descritivo) — velocidade máxima: < 50% ≥ 85 cm/s; 50–69% ≥ 140 cm/s; 70–99% ≥ 210 cm/s (DIC/CBR/SBACV 2023, Tabela 6; válida só para V0–V1) |
 | vert5c | Artéria vertebral: estenose na origem (conclusão) |
+| vert6 | Artéria vertebral: Oclusão proximal da artéria vertebral à _ com reabitação distal (achado descritivo) |
+| vert6c | Artéria vertebral: Oclusão proximal da artéria vertebral à _ com reabitação distal |
+| vert7 | Artéria vertebral: Artéria vertebral à _ não individualizada (achado descritivo) |
+| vert7c | Artéria vertebral: Artéria vertebral à _ não individualizada |
+| vert8 | Artéria vertebral: Tortuosidade da artéria vertebral à _ com aumento focal de velocidade, sem estenose (achado descritivo) |
+| vert8c | Artéria vertebral: Tortuosidade da artéria vertebral à _, sem estenose |
 | ds1 | Artéria subclávia: Roubo da subclávia tipo 3 (completo) à _ (achado descritivo) |
 | ds1c | Artéria subclávia: Roubo da subclávia tipo 3 (completo) à _ |
 | ds2 | Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico superior à VDF (achado descritivo) |
