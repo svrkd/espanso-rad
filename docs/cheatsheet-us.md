@@ -1521,6 +1521,20 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | mapa16c | Mapeamento venoso: trombose venosa profunda em recanalização (conclusão) |
 | mapa17 | Mapeamento venoso: aplasia segmentar da safena (achado descritivo) |
 | mapa17c | Mapeamento venoso: aplasia segmentar da safena (conclusão) |
+| mapa18 | Mapeamento venoso: safena ocluída pós-ablação (achado descritivo) |
+| mapa18c | Mapeamento venoso: safena ocluída pós-ablação (conclusão) |
+| mapa19 | Mapeamento venoso: recanalização da safena pós-ablação (achado descritivo) |
+| mapa19c | Mapeamento venoso: recanalização da safena pós-ablação (conclusão) |
+| mapa20 | Mapeamento venoso: extensão de trombo pós-ablação ao sistema profundo (achado descritivo) |
+| mapa20c | Mapeamento venoso: extensão de trombo pós-ablação ao sistema profundo (conclusão) |
+| mapa21 | Mapeamento venoso: safena ausente pós-safenectomia (achado descritivo) |
+| mapa21c | Mapeamento venoso: safena ausente pós-safenectomia (conclusão) |
+| mapa22 | Mapeamento venoso: segmento remanescente da safena com refluxo (achado descritivo) |
+| mapa22c | Mapeamento venoso: segmento remanescente da safena com refluxo (conclusão) |
+| mapa23 | Mapeamento venoso: coto residual da junção com refluxo (achado descritivo) |
+| mapa23c | Mapeamento venoso: coto residual da junção com refluxo (conclusão) |
+| mapa24 | Mapeamento venoso: neovascularização inguinal pós-cirúrgica (achado descritivo) |
+| mapa24c | Mapeamento venoso: neovascularização inguinal pós-cirúrgica (conclusão) |
 
 ## Vascular — Doppler Arterial De Membros (Superiores/Inferiores)
 

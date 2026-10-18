@@ -8448,6 +8448,80 @@ matches:
     replace: "Aplasia segmentar da veia safena _ _: _."
     word: true
 
+  # --- SAFENA TRATADA: PÓS-ABLAÇÃO (TÉRMICA OU QUÍMICA) ---
+
+  - trigger: "mapa18"
+    label: "Mapeamento venoso: safena ocluída pós-ablação (achado descritivo)"
+    replace: Veia safena _ com paredes espessadas e conteúdo ecogênico, incompressível e sem fluxo ao Doppler no segmento entre _ e _, sugerindo oclusão após tratamento endovenoso.
+    word: true
+
+  - trigger: "mapa18c"
+    label: "Mapeamento venoso: safena ocluída pós-ablação (conclusão)"
+    replace: Oclusão da veia safena _ _ após tratamento endovenoso, entre _ e _.
+    word: true
+
+  - trigger: "mapa19"
+    label: "Mapeamento venoso: recanalização da safena pós-ablação (achado descritivo)"
+    replace: Veia safena _ recanalizada no segmento entre _ e _, pérvia e compressível, com refluxo significativo às manobras de Valsalva e compressão muscular.
+    word: true
+
+  - trigger: "mapa19c"
+    label: "Mapeamento venoso: recanalização da safena pós-ablação (conclusão)"
+    replace: Recanalização da veia safena _ _ após tratamento endovenoso, com refluxo de _ até _.
+    word: true
+
+  - trigger: "mapa20"
+    label: "Mapeamento venoso: extensão de trombo pós-ablação ao sistema profundo (achado descritivo)"
+    replace: Trombo estendendo-se da junção safeno-_ para a luz da veia _ por _ cm, sugerindo extensão de trombo após ablação endovenosa.
+    word: true
+
+  - trigger: "mapa20c"
+    label: "Mapeamento venoso: extensão de trombo pós-ablação ao sistema profundo (conclusão)"
+    replace: Extensão de trombo após ablação endovenosa da junção safeno-_ _ para a veia _.
+    word: true
+
+  # --- SAFENA TRATADA: PÓS-SAFENECTOMIA ---
+
+  - trigger: "mapa21"
+    label: "Mapeamento venoso: safena ausente pós-safenectomia (achado descritivo)"
+    replace: Veia safena _ não caracterizada no compartimento safênico no segmento entre _ e _, sugerindo safenectomia prévia.
+    word: true
+
+  - trigger: "mapa21c"
+    label: "Mapeamento venoso: safena ausente pós-safenectomia (conclusão)"
+    replace: Ausência da veia safena _ _ entre _ e _, sugerindo safenectomia prévia.
+    word: true
+
+  - trigger: "mapa22"
+    label: "Mapeamento venoso: segmento remanescente da safena com refluxo (achado descritivo)"
+    replace: Segmento remanescente da veia safena _ entre _ e _, pérvio e compressível, com refluxo significativo às manobras de Valsalva e compressão muscular.
+    word: true
+
+  - trigger: "mapa22c"
+    label: "Mapeamento venoso: segmento remanescente da safena com refluxo (conclusão)"
+    replace: Segmento remanescente da veia safena _ _ com refluxo de _ até _.
+    word: true
+
+  - trigger: "mapa23"
+    label: "Mapeamento venoso: coto residual da junção com refluxo (achado descritivo)"
+    replace: Coto residual da junção safeno-_ medindo _ cm de extensão, com refluxo significativo às manobras dinâmicas.
+    word: true
+
+  - trigger: "mapa23c"
+    label: "Mapeamento venoso: coto residual da junção com refluxo (conclusão)"
+    replace: Coto residual da junção safeno-_ _ com refluxo.
+    word: true
+
+  - trigger: "mapa24"
+    label: "Mapeamento venoso: neovascularização inguinal pós-cirúrgica (achado descritivo)"
+    replace: Vasos tortuosos de fino calibre na região inguinal _, em topografia da junção safeno-femoral ligada, apresentando refluxo, sugerindo neovascularização.
+    word: true
+
+  - trigger: "mapa24c"
+    label: "Mapeamento venoso: neovascularização inguinal pós-cirúrgica (conclusão)"
+    replace: Neovascularização com refluxo na região inguinal _.
+    word: true
+
 
   # ==============================================================================
   # VASCULAR — DOPPLER ARTERIAL DE MEMBROS (SUPERIORES/INFERIORES)
