@@ -8406,7 +8406,7 @@ matches:
 
   - trigger: "mapa14"
     label: "Mapeamento venoso: tromboflebite superficial (achado descritivo)"
-    replace: Veia _ com calibre aumentado e conteúdo hipoecogênico, incompressível e sem fluxo ao Doppler, achados compatíveis com trombose aguda, estendendo-se de _ até _.
+    replace: Veia _ com calibre aumentado e conteúdo hipoecogênico, incompressível e sem fluxo ao Doppler, sugerindo trombose aguda, estendendo-se de _ até _.
     word: true
 
   - trigger: "mapa14c"
@@ -8417,7 +8417,7 @@ matches:
   - trigger: "mapa15"
     label: "Mapeamento venoso: trombose venosa profunda aguda (achado descritivo)"
     replace: |-
-      Veia _ com calibre aumentado e conteúdo hipoecogênico, incompressível e sem fluxo ao Doppler, achados compatíveis com trombose aguda, estendendo-se de _ até _.
+      Veia _ com calibre aumentado e conteúdo hipoecogênico, incompressível e sem fluxo ao Doppler, sugerindo trombose aguda, estendendo-se de _ até _.
       Demais segmentos venosos profundos com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
     word: true
 
@@ -8429,7 +8429,7 @@ matches:
   - trigger: "mapa16"
     label: "Mapeamento venoso: trombose venosa profunda em recanalização (achado descritivo)"
     replace: |-
-      Veia _ com material heterogêneo de permeio, parcialmente compressível e com fluxo residual periférico ao Doppler, compatível com trombose em recanalização.
+      Veia _ com material heterogêneo de permeio, parcialmente compressível e com fluxo residual periférico ao Doppler, sugerindo trombose em recanalização.
       Demais segmentos venosos profundos com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
     word: true
 
@@ -8440,7 +8440,7 @@ matches:
 
   - trigger: "mapa17"
     label: "Mapeamento venoso: aplasia segmentar da safena (achado descritivo)"
-    replace: "Veia safena _ não caracterizada no compartimento safênico no seguinte segmento: _, compatível com aplasia segmentar."
+    replace: "Veia safena _ não caracterizada no compartimento safênico no seguinte segmento: _, sugerindo aplasia segmentar."
     word: true
 
   - trigger: "mapa17c"
