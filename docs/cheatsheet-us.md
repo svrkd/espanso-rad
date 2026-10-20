@@ -1674,52 +1674,52 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 
 | Trigger | Label |
 |---|---|
-| dopabd1 | Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida (achado descritivo) |
-| dopabd1c | Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida |
-| dopabd2 | Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical (achado descritivo) |
-| dopabd2c | Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical |
-| dopabd3 | Doppler abdome superior: Veias hepáticas: perda do padrão trifásico (achado descritivo) |
-| dopabd3c | Doppler abdome superior: Veias hepáticas: perda do padrão trifásico |
-| dopabd4 | Doppler abdome superior: Artéria hepática: índice de resistência elevado (achado descritivo) |
-| dopabd4c | Doppler abdome superior: Artéria hepática: índice de resistência elevado |
-| dopabd5 | Doppler abdome superior: Trombose da veia porta (não tumoral) (achado descritivo) |
-| dopabd5c | Doppler abdome superior: Trombose da veia porta (não tumoral) |
-| dopabd6 | Doppler abdome superior: Hipertensão portal: veia gástrica esquerda dilatada / varizes (achado descritivo) |
-| dopabd6c | Doppler abdome superior: Hipertensão portal: veia gástrica esquerda dilatada / varizes |
-| dopabd7 | Doppler abdome superior: Fluxo portal hepatofugal (achado descritivo) |
-| dopabd7c | Doppler abdome superior: Fluxo portal hepatofugal |
-| dopabd8 | Doppler abdome superior: Congestão hepática: fluxo pulsátil nas veias hepáticas e porta (achado descritivo) |
-| dopabd8c | Doppler abdome superior: Congestão hepática: fluxo pulsátil nas veias hepáticas e porta |
-| dopabd9 | Doppler abdome superior: Veia esplênica: ectasia (achado descritivo) |
-| dopabd9c | Doppler abdome superior: Veia esplênica: ectasia |
-| dopabd10 | Doppler abdome superior: Transformação cavernomatosa da veia porta (achado descritivo) |
-| dopabd10c | Doppler abdome superior: Transformação cavernomatosa da veia porta |
-| dopabd11 | Doppler abdome superior: Hipertensão portal: shunt esplenorrenal espontâneo (achado descritivo) |
-| dopabd11c | Doppler abdome superior: Hipertensão portal: shunt esplenorrenal espontâneo |
-| dopabd12 | Doppler abdome superior: Aneurisma da artéria esplênica (achado descritivo) |
-| dopabd12c | Doppler abdome superior: Aneurisma da artéria esplênica |
-| dopabd13 | Doppler abdome superior: TIPS pérvio (achado descritivo) |
-| dopabd13c | Doppler abdome superior: TIPS pérvio |
-| dopabd14 | Doppler abdome superior: TIPS: disfunção (achado descritivo) |
-| dopabd14c | Doppler abdome superior: TIPS: disfunção |
-| dopabd15 | Doppler abdome superior: Trombo tumoral na veia porta (achado descritivo) |
-| dopabd15c | Doppler abdome superior: Trombo tumoral na veia porta |
-| dopabd16 | Doppler abdome superior: Trombose da veia esplênica (achado descritivo) |
-| dopabd16c | Doppler abdome superior: Trombose da veia esplênica |
-| dopabd17 | Doppler abdome superior: Trombose da veia mesentérica superior (achado descritivo) |
-| dopabd17c | Doppler abdome superior: Trombose da veia mesentérica superior |
-| dopabd18 | Doppler abdome superior: Tronco celíaco: estenose ≥ 70%, VPS ≥ 200 cm/s (Moneta) (achado descritivo) |
-| dopabd18c | Doppler abdome superior: Tronco celíaco: estenose ≥ 70%, VPS ≥ 200 cm/s (Moneta) |
-| dopabd19 | Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano (achado descritivo) |
-| dopabd19c | Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano |
-| dopabd20 | Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 70%, VPS ≥ 275 cm/s (Moneta) (achado descritivo) |
-| dopabd20c | Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 70%, VPS ≥ 275 cm/s (Moneta) |
-| dopabd21 | Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) (achado descritivo) |
-| dopabd21c | Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) |
-| dopabd22 | Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) (achado descritivo) |
-| dopabd22c | Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) |
-| dopabd23 | Doppler abdome superior: Síndrome de Budd-Chiari (achado descritivo) |
-| dopabd23c | Doppler abdome superior: Síndrome de Budd-Chiari |
+| dabd1 | Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida (achado descritivo) |
+| dabd1c | Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida |
+| dabd2 | Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical (achado descritivo) |
+| dabd2c | Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical |
+| dabd3 | Doppler abdome superior: Veias hepáticas: perda do padrão trifásico (achado descritivo) |
+| dabd3c | Doppler abdome superior: Veias hepáticas: perda do padrão trifásico |
+| dabd4 | Doppler abdome superior: Artéria hepática: índice de resistência elevado (achado descritivo) |
+| dabd4c | Doppler abdome superior: Artéria hepática: índice de resistência elevado |
+| dabd5 | Doppler abdome superior: Trombose da veia porta (não tumoral) (achado descritivo) |
+| dabd5c | Doppler abdome superior: Trombose da veia porta (não tumoral) |
+| dabd6 | Doppler abdome superior: Hipertensão portal: veia gástrica esquerda dilatada / varizes (achado descritivo) |
+| dabd6c | Doppler abdome superior: Hipertensão portal: veia gástrica esquerda dilatada / varizes |
+| dabd7 | Doppler abdome superior: Fluxo portal hepatofugal (achado descritivo) |
+| dabd7c | Doppler abdome superior: Fluxo portal hepatofugal |
+| dabd8 | Doppler abdome superior: Congestão hepática: fluxo pulsátil nas veias hepáticas e porta (achado descritivo) |
+| dabd8c | Doppler abdome superior: Congestão hepática: fluxo pulsátil nas veias hepáticas e porta |
+| dabd9 | Doppler abdome superior: Veia esplênica: ectasia (achado descritivo) |
+| dabd9c | Doppler abdome superior: Veia esplênica: ectasia |
+| dabd10 | Doppler abdome superior: Transformação cavernomatosa da veia porta (achado descritivo) |
+| dabd10c | Doppler abdome superior: Transformação cavernomatosa da veia porta |
+| dabd11 | Doppler abdome superior: Hipertensão portal: shunt esplenorrenal espontâneo (achado descritivo) |
+| dabd11c | Doppler abdome superior: Hipertensão portal: shunt esplenorrenal espontâneo |
+| dabd12 | Doppler abdome superior: Aneurisma da artéria esplênica (achado descritivo) |
+| dabd12c | Doppler abdome superior: Aneurisma da artéria esplênica |
+| dabd13 | Doppler abdome superior: TIPS pérvio (achado descritivo) |
+| dabd13c | Doppler abdome superior: TIPS pérvio |
+| dabd14 | Doppler abdome superior: TIPS: disfunção (achado descritivo) |
+| dabd14c | Doppler abdome superior: TIPS: disfunção |
+| dabd15 | Doppler abdome superior: Trombo tumoral na veia porta (achado descritivo) |
+| dabd15c | Doppler abdome superior: Trombo tumoral na veia porta |
+| dabd16 | Doppler abdome superior: Trombose da veia esplênica (achado descritivo) |
+| dabd16c | Doppler abdome superior: Trombose da veia esplênica |
+| dabd17 | Doppler abdome superior: Trombose da veia mesentérica superior (achado descritivo) |
+| dabd17c | Doppler abdome superior: Trombose da veia mesentérica superior |
+| dabd18 | Doppler abdome superior: Tronco celíaco: estenose ≥ 70%, VPS ≥ 200 cm/s (Moneta) (achado descritivo) |
+| dabd18c | Doppler abdome superior: Tronco celíaco: estenose ≥ 70%, VPS ≥ 200 cm/s (Moneta) |
+| dabd19 | Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano (achado descritivo) |
+| dabd19c | Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano |
+| dabd20 | Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 70%, VPS ≥ 275 cm/s (Moneta) (achado descritivo) |
+| dabd20c | Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 70%, VPS ≥ 275 cm/s (Moneta) |
+| dabd21 | Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) (achado descritivo) |
+| dabd21c | Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) |
+| dabd22 | Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) (achado descritivo) |
+| dabd22c | Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) |
+| dabd23 | Doppler abdome superior: Síndrome de Budd-Chiari (achado descritivo) |
+| dabd23c | Doppler abdome superior: Síndrome de Budd-Chiari |
 
 ## Vascular — Aorta Abdominal
 
