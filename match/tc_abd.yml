@@ -49,15 +49,9 @@ matches:
     word: true
 
   - trigger: "tcrecid1"
-    label: "Recidiva tumoral pélvica com metástases hepáticas e peritoneais"
+    label: "Recidiva tumoral pélvica"
     replace: |-
       Formação heterogênea sólido-cística, localizada na cavidade pélvica, de limites parcialmente definidos, apresentando íntimo contato e sem planos de clivagem com alças intestinais colônicas e delgadas, parede da bexiga e ureteres, determinando pequena dilatação do sistema coletor renal à direita, medindo _ cm no maior eixo axial, podendo representar recidiva tumoral.
-      Múltiplos nódulos hepáticos hipovasculares, de limites definidos, distribuídos difusamente por todo o parênquima, os dois maiores:
-      - segmento VII, medindo _ cm;
-      - segmento VIII, medindo _ cm.
-      Múltiplas lesões nodulares no peritônio, sugerindo metástases, as maiores assim caracterizadas:
-      - adjacente ao sítio de colectomia (cavidade pélvica à esquerda), medindo _ cm;
-      - junto à borda hepática inferior, medindo _ cm.
     word: true
 
   - trigger: "tccaprost"
@@ -79,9 +73,7 @@ matches:
 
   - trigger: "tcneopedc"
     label: "Conclusão — neoplasia intra-abdominal de origem indeterminada"
-    replace: |-
-      O conjunto de achados é compatível com neoplasia intra-abdominal, de origem indeterminada.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: O conjunto de achados é compatível com neoplasia intra-abdominal, de origem indeterminada.
     word: true
 
   - trigger: "tcgermpelv"
@@ -125,12 +117,9 @@ matches:
     word: true
 
   - trigger: "tcneogfig"
-    label: "Neoplasia gástrica com metástases hepáticas"
+    label: "Neoplasia gástrica da pequena curvatura"
     replace: |-
       Imagem diverticular de contornos irregulares, localizada na pequena curvatura gástrica, apresentando comunicação com sua luz e realce após a administração do meio de contraste endovenoso, notadamente parietal, medindo cerca de _ cm (CC x LL x AP). Associam-se aumento do número e do tamanho de linfonodos regionais e junto ao hilo hepático, medindo até _ cm, bem como estase do conteúdo gástrico. O conjunto de achados sugere processo neoplásico primário do estômago. Correlacionar com estudo endoscópico.
-      Fígado com dimensões normais, apresentando duas imagens hipodensas, com realce periférico, podendo corresponder a acometimento secundário, assim distribuídas:
-      - segmentos II/III, medindo _ cm, determinando efeito de massa e consequente leve dilatação de vias biliares intra-hepáticas;
-      - segmento VIII, medindo _ cm.
     word: true
 
   - trigger: "tcbacolinf"
@@ -157,9 +146,7 @@ matches:
 
   - trigger: "tcimplpar"
     label: "Implante neoplásico vesical na parede abdominal"
-    replace: |-
-      Lesão expansiva infiltrativa, de aspecto neoplásico, medindo _ cm, apresentando realce heterogêneo pelo meio de contraste endovenoso, localizada nos planos subcutâneos e mioadiposos da parede abdominal anterior, em região suprapúbica, com predomínio à esquerda da linha média. Associa-se ingurgitamento dos vasos e densificação dos planos gordurosos adjacentes. Notam-se ainda nódulos intraperitoneais localizados posteriormente ao músculo reto abdominal esquerdo, podendo representar implantes peritoneais e/ou linfonodomegalias atípicas, de aspecto metastático.
-      Aumento do número de linfonodos retroperitoneais, mesentéricos, pararretais, ilíacos e inguinais, com linfonodomegalias medindo até _ cm nas cadeias ilíaca externa e inguinal esquerdas.
+    replace: Lesão expansiva infiltrativa, de aspecto neoplásico, medindo _ cm, apresentando realce heterogêneo pelo meio de contraste endovenoso, localizada nos planos subcutâneos e mioadiposos da parede abdominal anterior, em região suprapúbica, com predomínio à esquerda da linha média. Associa-se ingurgitamento dos vasos e densificação dos planos gordurosos adjacentes. Notam-se ainda nódulos intraperitoneais localizados posteriormente ao músculo reto abdominal esquerdo, podendo representar implantes peritoneais e/ou linfonodomegalias atípicas, de aspecto metastático.
     word: true
 
   # ==========================================================================
@@ -223,9 +210,7 @@ matches:
 
   - trigger: "tchiperparc"
     label: "Conclusão — hiperparatireoidismo secundário com tumor marrom"
-    replace: |-
-      Os achados supracitados, em conjunto, sugerem hiperparatireoidismo secundário associado a tumor marrom. Correlacionar com dados clínicos e laboratoriais.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: Os achados supracitados, em conjunto, sugerem hiperparatireoidismo secundário associado a tumor marrom. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   # ==========================================================================
@@ -253,10 +238,8 @@ matches:
     word: true
 
   - trigger: "tclinfgast2"
-    label: "Espessamento gástrico difuso com esplenomegalia (linfoma)"
-    replace: |-
-      Espessamento parietal gástrico difuso, associado a densificação de planos adiposos adjacentes, ingurgitamento vascular regional e moderada quantidade de líquido livre na cavidade abdominal. Observa-se aumento do número e das dimensões de linfonodos regionais, pilóricos, mesentéricos, retroperitoneais, pericárdicos e epifrênicos, os maiores na cadeia pilórica, medindo até _ cm.
-      Baço com densidade do parênquima homogênea e de dimensões aumentadas (índice esplênico de _).
+    label: "Espessamento gástrico difuso com linfonodomegalias (linfoma)"
+    replace: Espessamento parietal gástrico difuso, associado a densificação de planos adiposos adjacentes, ingurgitamento vascular regional e moderada quantidade de líquido livre na cavidade abdominal. Observa-se aumento do número e das dimensões de linfonodos regionais, pilóricos, mesentéricos, retroperitoneais, pericárdicos e epifrênicos, os maiores na cadeia pilórica, medindo até _ cm.
     word: true
 
   - trigger: "tclinfgast2c"
@@ -398,20 +381,14 @@ matches:
     word: true
 
   - trigger: "tcgist1"
-    label: "GIST gástrico com carcinomatose peritoneal e metástases hepáticas"
+    label: "GIST gástrico com invasão pancreática e duodenal"
     replace: |-
       Massa heterogênea, exofítica, de contornos irregulares, apresentando centro necrótico/liquefeito com realce periférico pelo meio de contraste endovenoso, com epicentro presumível no fundo gástrico, com sinais de invasão da cauda pancreática e das 3ª/4ª porções duodenais, medindo cerca de _ cm (LL x CC x AP). Tal lesão determina afilamento e envolve em mais de 180° as artérias esplênica e gástrica esquerda. Associam-se densificação do tecido adiposo adjacente e pequena quantidade de líquido livre na cavidade abdominal. Ausência de linfonodomegalias.
-      Nódulos hipovasculares no omento maior, junto ao ligamento hepatogástrico e nos planos peritoneais dos flancos e da pelve, o maior na região do flanco esquerdo, medindo _ cm, sugerindo disseminação neoplásica secundária omentoperitoneal (carcinomatose peritoneal).
-      Múltiplos nódulos/massas hipovasculares, de limites irregulares, distribuídos difusamente pelo parênquima hepático, os dois maiores assim distribuídos:
-      - segmento VII, medindo _ cm;
-      - segmento VIII, medindo _ cm.
     word: true
 
   - trigger: "tcgist1c"
     label: "Conclusão — GIST gástrico com metástases peritoneal e hepática"
-    replace: |-
-      Os achados descritos sugerem como principal consideração diagnóstica neoplasia primária gástrica de origem mesenquimal (GIST) com metástases peritoneal e hepática.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: Os achados descritos sugerem como principal consideração diagnóstica neoplasia primária gástrica de origem mesenquimal (GIST) com metástases peritoneal e hepática.
     word: true
 
   - trigger: "tcgist2"
@@ -531,14 +508,9 @@ matches:
     word: true
 
   - trigger: "tccolangca3"
-    label: "Colangiocarcinoma intra-hepático periférico com metástases"
+    label: "Colangiocarcinoma intra-hepático periférico"
     replace: |-
       Lesão expansiva, de aspecto infiltrativo, situada na periferia dos segmentos hepáticos IV/V/VIII, com impregnação heterogênea/anfractuosa, predominantemente periférica e progressiva pelo meio de contraste, exibindo áreas de retração capsular. Lesões satélites adjacentes à formação expansiva supracitada, com características semelhantes.
-      Imagens nodulares no omento maior e junto aos planos peritoneais nos flancos e na pelve, a maior delas na região do flanco esquerdo, com pequena ascite na pelve.
-      Linfonodomegalias necróticas no hilo hepático, peripancreáticas e no forame omental, por vezes confluentes e medindo até _ cm, compatíveis com disseminação neoplásica secundária.
-      Múltiplos nódulos hipovasculares, de limites irregulares, distribuídos difusamente pelo parênquima hepático, sugestivos de acometimento neoplásico secundário, os dois maiores assim distribuídos:
-      - segmento I, medindo _ cm;
-      - segmento VII, medindo _ cm.
     word: true
 
   - trigger: "tccolangca3c"
@@ -585,14 +557,8 @@ matches:
     word: true
 
   - trigger: "tccirr6"
-    label: "Hepatopatia crônica com trombose portal e cavernoma"
-    replace: |-
-      Ausência de opacificação satisfatória da veia porta, sugerindo trombose crônica, com sinais de transformação cavernomatosa.
-      Sinais de hepatopatia parenquimatosa crônica, caracterizada por contornos serrilhados, bordas rombas, fissuras acentuadas, dimensões reduzidas e densidade difusamente heterogênea, com realce irregular pelo meio de contraste endovenoso.
-      Circulação colateral portossistêmica (fundo gástrico, hilo esplênico e perirretais, bem como recanalização das paraumbilicais), ascite volumosa e esplenomegalia homogênea (índice esplênico de _, normal até 480), sugerindo hipertensão portal.
-
-      Nota:
-      Para a pesquisa de neoplasia hepática primária, o estudo contrastado do abdome pela técnica trifásica, por meio de imagens de tomografia computadorizada ou ressonância magnética, poderá fornecer maiores subsídios diagnósticos.
+    label: "Trombose crônica da veia porta com transformação cavernomatosa"
+    replace: Ausência de opacificação satisfatória da veia porta, sugerindo trombose crônica, com sinais de transformação cavernomatosa.
     word: true
 
   - trigger: "tccirr1"
@@ -600,20 +566,9 @@ matches:
     replace: Fígado com contornos irregulares, atenuação heterogênea e dimensões reduzidas, com hipertrofia relativa do lobo esquerdo. Associam-se esplenomegalia (índice esplênico de _ — valor normal até 480), circulação colateral periesplênica e peri-hepática, recanalização das paraumbilicais, aumento do número e das dimensões de linfonodos mesentéricos e junto ao hilo hepático, densificação do tecido adiposo abdominal e moderada ascite. O conjunto de achados é compatível com hepatopatia parenquimatosa crônica com sinais de hipertensão portal.
     word: true
 
-  - trigger: "tcmetfigln"
-    label: "Metástases hepáticas com linfonodomegalias"
-    replace: |-
-      Fígado com dimensões normais e contornos regulares, apresentando múltiplos nódulos hipovasculares, difusos pelo parênquima hepático, alguns confluentes, sugestivos de acometimento neoplásico secundário, os dois maiores assim distribuídos:
-      - segmento V, medindo _ cm;
-      - segmento II, medindo _ cm.
-      Aumento do número e das dimensões de linfonodos nas cadeias frênica superior, frênica inferior, retroperitoneais, pancreatoduodenais e no hilo hepático, o maior localizado na cadeia frênica superior, medindo _ cm.
-    word: true
-
   - trigger: "tcnozmosc"
     label: "Hepatopatia congestiva (fígado em noz-moscada)"
-    replace: |-
-      Fígado de dimensões aumentadas e contornos lobulados, com múltiplos nódulos, alguns com realce pelo meio de contraste, notando-se retardo e heterogeneidade da contrastação do parênquima hepático, bem como dilatação das veias hepáticas, da cava inferior e do átrio direito, podendo corresponder a hepatopatia congestiva. Correlacionar com história clínica e estudo ecocardiográfico.
-      Presença de circulação colateral portossistêmica e no hilo esplênico, bem como recanalização das paraumbilicais e varizes pélvicas, sugerindo hipertensão portal. Associam-se ainda ascite, derrame pleural à direita e derrame pericárdico, todos de pequeno volume.
+    replace: Fígado de dimensões aumentadas e contornos lobulados, com múltiplos nódulos, alguns com realce pelo meio de contraste, notando-se retardo e heterogeneidade da contrastação do parênquima hepático, bem como dilatação das veias hepáticas, da cava inferior e do átrio direito, podendo corresponder a hepatopatia congestiva. Correlacionar com história clínica e estudo ecocardiográfico.
     word: true
 
   - trigger: "tcdepfig"
@@ -641,7 +596,6 @@ matches:
     replace: |-
       Fígado de contornos serrilhados, bordas rombas, com redistribuição da sua volumetria à custa de aumento do lobo esquerdo. Associa-se densidade difusamente heterogênea do parênquima, destacando-se área de maior heterogeneidade no lobo direito, de aspecto infiltrativo e com nódulos que apresentam washout (de difícil avaliação no protocolo utilizado), podendo corresponder a lesão de origem neoplásica, mais comumente associada a hepatocarcinoma infiltrativo e nodular. Observam-se também linfonodomegalias junto ao hilo hepático (_ cm no menor eixo) e mínima quantidade de líquido livre na cavidade abdominal. Sugere-se correlação com marcadores laboratoriais (AFP) e história clínica. Caso persista a indicação clínica, a ressonância magnética direcionada poderá fornecer informações adicionais.
       Falha de contrastação no interior do ramo direito da veia porta, acometendo praticamente toda a sua extensão e luz, compatível com trombose. Observa-se também trombose parcial da veia porta junto ao hilo hepático.
-      Falha de contrastação no interior da veia hepática direita, estendendo-se até a veia cava inferior, sem obstruí-la. Esses achados são compatíveis com trombose.
     word: true
 
   - trigger: "tcchc2"
@@ -700,8 +654,8 @@ matches:
     word: true
 
   - trigger: "tcesteatn"
-    label: "Esteatose com nódulo hepático indeterminado (hemangioma?)"
-    replace: Fígado com dimensões e contornos normais, apresentando acentuada redução difusa da atenuação de seu parênquima, sugerindo esteatose hepática. Nódulo no segmento hepático II/III, medindo _ cm, com realce progressivo pelo meio de contraste, indeterminado no protocolo de estudo, podendo-se admitir hemangioma dentre os diagnósticos diferenciais.
+    label: "Nódulo hepático indeterminado com realce progressivo (hemangioma?)"
+    replace: Nódulo no segmento hepático II/III, medindo _ cm, com realce progressivo pelo meio de contraste, indeterminado no protocolo de estudo, podendo-se admitir hemangioma dentre os diagnósticos diferenciais.
     word: true
 
   - trigger: "tchemang1"
@@ -760,8 +714,8 @@ matches:
     word: true
 
   - trigger: "tcabsfig4"
-    label: "Abscesso hepático com esteatose"
-    replace: Fígado com forma e volume usuais, apresentando redução difusa do coeficiente de atenuação de seu parênquima, sugerindo esteatose. Coleção hipodensa, de paredes finas e contornos regulares, com septos de permeio, medindo cerca de _ cm, com volume de _ cm³, apresentando realce parietal pelo meio de contraste endovenoso, localizada no lobo esquerdo, estendendo-se anteriormente para a cavidade abdominal, tocando e abaulando a parede anterior do abdome. Associam-se leve densificação do tecido adiposo e lâminas líquidas adjacentes, bem como aumento do número de linfonodos regionais, retroperitoneais, no hilo hepático e na raiz do mesentério. O conjunto de achados pode representar abscesso.
+    label: "Abscesso hepático septado no lobo esquerdo"
+    replace: Coleção hipodensa, de paredes finas e contornos regulares, com septos de permeio, medindo cerca de _ cm, com volume de _ cm³, apresentando realce parietal pelo meio de contraste endovenoso, localizada no lobo hepático esquerdo, estendendo-se anteriormente para a cavidade abdominal, tocando e abaulando a parede anterior do abdome. Associam-se leve densificação do tecido adiposo e lâminas líquidas adjacentes, bem como aumento do número de linfonodos regionais, retroperitoneais, no hilo hepático e na raiz do mesentério. O conjunto de achados pode representar abscesso.
     word: true
 
   - trigger: "tcabsfig5"
@@ -985,7 +939,7 @@ matches:
 
   - trigger: "tcmassahilo"
     label: "Massa do hilo hepático envolvendo o colédoco"
-    replace: Formação heterogênea, com realce pelo meio de contraste e centro hipodenso/liquefeito, localizada junto ao hilo hepático e estendendo-se caudalmente, medindo cerca de _ cm (CC x LL x AP), envolvendo e amputando o colédoco, determinando dilatação de vias biliares intra- e extra-hepáticas e distensão da vesícula biliar. Tal lesão apresenta íntimo contato com a cabeça pancreática e o duodeno, deslocando-os anteriormente, bem como afila a veia cava inferior e a veia renal esquerda. Apresenta também contato em mais de 180° com as artérias hepática comum e mesentérica superior, bem como com a veia porta. Associa-se aumento do número de linfonodos periaórticos, medindo até _ cm. Destaca-se massa com realce pelo meio de contraste localizada na região corporal/fúndica da vesícula biliar, notando-se também cálculos no seu interior. O conjunto de achados sugere processo de natureza neoplásica, podendo-se admitir inicialmente origem de vias biliares, devendo-se prosseguir investigação.
+    replace: Formação heterogênea, com realce pelo meio de contraste e centro hipodenso/liquefeito, localizada junto ao hilo hepático e estendendo-se caudalmente, medindo cerca de _ cm (CC x LL x AP), envolvendo e amputando o colédoco, determinando dilatação de vias biliares intra- e extra-hepáticas e distensão da vesícula biliar. Tal lesão apresenta íntimo contato com a cabeça pancreática e o duodeno, deslocando-os anteriormente, bem como afila a veia cava inferior e a veia renal esquerda. Apresenta também contato em mais de 180° com as artérias hepática comum e mesentérica superior, bem como com a veia porta. Associa-se aumento do número de linfonodos periaórticos, medindo até _ cm. O conjunto de achados sugere processo de natureza neoplásica, podendo-se admitir inicialmente origem de vias biliares, devendo-se prosseguir investigação.
     word: true
 
   - trigger: "tcklatsk4"
@@ -995,7 +949,7 @@ matches:
 
   - trigger: "tccolangca2"
     label: "Estenose do colédoco distal — manipulação cirúrgica ou neoplasia"
-    replace: Moderada dilatação de vias biliares intra- e extra-hepáticas, com calibre de até _ cm do colédoco, notando-se afilamento abrupto na sua porção distal, onde se evidencia imagem de limites parcialmente definidos e com realce pelo meio de contraste, medindo cerca de _ cm. Associam-se espessamento parietal junto ao cólon transverso, na topografia da flexura hepática, e densificação dos planos gordurosos adjacentes. O conjunto de achados pode estar relacionado a manipulação cirúrgica local, não se podendo descartar processo neoplásico. Sugere-se prosseguir investigação com colangiorressonância para melhor elucidação diagnóstica.
+    replace: Moderada dilatação de vias biliares intra- e extra-hepáticas, com calibre de até _ cm do colédoco, notando-se afilamento abrupto na sua porção distal, onde se evidencia imagem de limites parcialmente definidos e com realce pelo meio de contraste, medindo cerca de _ cm. O conjunto de achados pode estar relacionado a manipulação cirúrgica local, não se podendo descartar processo neoplásico. Sugere-se prosseguir investigação com colangiorressonância para melhor elucidação diagnóstica.
     word: true
 
   - trigger: "tcfistcolec"
@@ -1053,12 +1007,9 @@ matches:
     word: true
 
   - trigger: "tcneopanc1"
-    label: "Neoplasia pancreática com invasão vascular e metástases hepáticas"
+    label: "Neoplasia pancreática com invasão vascular"
     replace: |-
       Lesão heterogênea de contornos irregulares e limites mal definidos, hipovascular, localizada na cabeça/corpo pancreático, medindo cerca de _ cm, determinando atrofia do restante do corpo e da cauda da glândula. A lesão apresenta íntimo contato com o corpo e o antro gástricos, sem planos de clivagem com eles, bem como com o tronco celíaco e a artéria hepática comum (em menos de 180°), com sinais de invasão da artéria esplênica. Há envolvimento tumoral e falha de enchimento das veias porta, mesentérica superior e esplênica, sugerindo trombo. Associam-se densificação dos planos adiposos na raiz do mesentério, bem como aumento do número e do tamanho de linfonodos no hilo hepático, retroperitoneais e retrocrurais, o maior medindo _ cm na cadeia interaortocaval.
-      Fígado apresentando múltiplos nódulos, alguns confluentes formando massas, hipovasculares, difusos pelo parênquima e acometendo quase a sua totalidade, sugestivos de implantes neoplásicos secundários, os dois maiores assim distribuídos:
-      - segmento VII, medindo _ cm;
-      - segmento VIII, medindo _ cm.
     word: true
 
   - trigger: "tcneopanc1c"
@@ -2236,7 +2187,7 @@ matches:
 
   - trigger: "tcendleak2"
     label: "Aneurisma de ilíaca interna com falha mecânica da endoprótese (endoleak III)"
-    replace: Nota-se ainda outro saco aneurismático fusiforme na artéria ilíaca interna esquerda, com endoprótese metálica fenestrada apresentando falha mecânica (dilatação e perda da configuração habitual — endoleak tipo III), trombosada e com enchimento distal pelo meio de contraste, com contrastação da artéria glútea superior. Associam-se densificação dos planos adiposos perivasculares circunjacentes, com lâminas líquidas de permeio. Tal lesão determina compressão extrínseca sobre a bexiga e o ureter ipsilateral (no seu cruzamento com os vasos ilíacos), com consequente hidroureteronefrose a montante. Destaca-se hipocontrastação do rim esquerdo em comparação ao contralateral.
+    replace: Saco aneurismático fusiforme na artéria ilíaca interna esquerda, com endoprótese metálica fenestrada apresentando falha mecânica (dilatação e perda da configuração habitual — endoleak tipo III), trombosada e com enchimento distal pelo meio de contraste, com contrastação da artéria glútea superior. Associam-se densificação dos planos adiposos perivasculares circunjacentes, com lâminas líquidas de permeio. Tal lesão determina compressão extrínseca sobre a bexiga e o ureter ipsilateral (no seu cruzamento com os vasos ilíacos), com consequente hidroureteronefrose a montante. Destaca-se hipocontrastação do rim esquerdo em comparação ao contralateral.
     word: true
 
   - trigger: "tcaaainst1"
@@ -2280,12 +2231,8 @@ matches:
     word: true
 
   - trigger: "tctroussc"
-    label: "Conclusão — neoplasia colônica com síndrome de Trousseau"
-    replace: |-
-      Fígado com atenuação difusamente heterogênea à custa de múltiplos nódulos hipodensos, por vezes confluentes, formando massas, sugestivos de acometimento neoplásico secundário.
-      Espessamento parietal nodular e irregular do cólon transverso/flexura hepática. Achados sugestivos de neoplasia colônica com acometimento linfonodal.
-      Lesão hipodensa e hipovascular, cuneiforme, localizada no parênquima esplênico, podendo representar área de isquemia/infarto. Outras lesões semelhantes são identificadas no parênquima renal bilateralmente. O conjunto de achados, associado ao exame de tórax realizado na mesma data, pode estar relacionado a tromboflebite migratória ligada a malignidade (síndrome de Trousseau).
-      Demais achados pormenorizados no corpo do laudo.
+    label: "Conclusão — infartos esplênico e renais (síndrome de Trousseau)"
+    replace: Lesão hipodensa e hipovascular, cuneiforme, localizada no parênquima esplênico, podendo representar área de isquemia/infarto. Outras lesões semelhantes são identificadas no parênquima renal bilateralmente. O conjunto de achados, associado ao exame de tórax realizado na mesma data, pode estar relacionado a tromboflebite migratória ligada a malignidade (síndrome de Trousseau).
     word: true
 
   - trigger: "tcdissao1"
@@ -2539,9 +2486,7 @@ matches:
 
   - trigger: "tccacolut1c"
     label: "Conclusão — neoplasia primária do colo uterino"
-    replace: |-
-      O conjunto de achados acima descritos sugere neoplasia primária do colo uterino.
-      Demais achados pormenorizados no corpo do laudo.
+    replace: O conjunto de achados acima descritos sugere neoplasia primária do colo uterino.
     word: true
 
   - trigger: "tcendomet1"
@@ -3755,7 +3700,7 @@ matches:
 
   - trigger: "tcostepm1"
     label: "Osteomielite sacrococcígea e isquiática (sem contraste)"
-    replace: Aumento e densificação de partes moles na região posterior sacrococcígea (com provável excisão cirúrgica das últimas peças), estendendo-se para os planos mioadiposos da tuberosidade isquiática esquerda, com áreas hipodensas de limites parcialmente definidos no estudo sem contraste. O processo estende-se para a pele e as estruturas ósseas sacrais inferiores, coccígeas e tuberosidade isquiática esquerda, com aspecto permeativo, determinando esclerose, deformidade e perda de substância óssea. Há também densificação de partes moles junto ao fêmur proximal bilateralmente (trocanter maior). O conjunto de achados sugere processo inflamatório/infeccioso com possível coleção e acometimento ósseo (osteomielite).
+    replace: Aumento e densificação de partes moles na região posterior sacrococcígea (com provável excisão cirúrgica das últimas peças), estendendo-se para os planos mioadiposos da tuberosidade isquiática esquerda, com áreas hipodensas de limites parcialmente definidos no estudo sem contraste. O processo estende-se para a pele e as estruturas ósseas sacrais inferiores, coccígeas e tuberosidade isquiática esquerda, com aspecto permeativo, determinando esclerose, deformidade e perda de substância óssea. O conjunto de achados sugere processo inflamatório/infeccioso com possível coleção e acometimento ósseo (osteomielite).
     word: true
 
   - trigger: "tcostepm2"
@@ -3973,7 +3918,6 @@ matches:
       Testículo esquerdo não identificado na bolsa escrotal.
       Imagem ovalada isodensa na fossa ilíaca esquerda, inespecífica. Criptorquidia?
       Lesão nodular hipovascular, localizada entre a veia cava inferior, o arco duodenal e a cabeça/processo uncinado do pâncreas, indeterminada. Neoplasia?
-      Demais achados pormenorizados no corpo do laudo.
     word: true
 
   - trigger: "tcartrod1"
