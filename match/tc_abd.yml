@@ -5,14 +5,11 @@ matches:
   # ==========================================================================
 
   - trigger: "tcmetabd"
-    label: "Metástases abdominais em estudo comparativo"
+    label: "Metástases peritoneal, de parede abdominal e hepática"
     replace: |-
-      Aumento volumétrico das duas lesões nodulares na parede posterossuperior da bexiga urinária, com realce após a infusão de meio de contraste endovenoso, uma medindo _ cm e outra _ cm (ambas mediam _ cm em _).
       Lesão nodular hipodensa, com centro liquefeito/necrótico, de contornos irregulares, exibindo realce heterogêneo após a infusão de meio de contraste endovenoso, localizada na cavidade peritoneal, adjacente à flexura hepática, medindo _ cm, sugerindo metástase com invasão da parede abdominal.
       Formação nodular, medindo _ cm, com densidade de partes moles e realce heterogêneo após a infusão do meio de contraste endovenoso, localizada na parede abdominal adjacente à lesão supracitada, sem nítidos planos de clivagem com ela, sugerindo metástase.
       Lesão hipodensa, com realce após a infusão de meio de contraste endovenoso, localizada no segmento IVa/VIII, adjacente ao sítio de segmentectomia, medindo _ cm, sugerindo metástase com extensão extra-hepática e invasão da parede abdominal e do mediastino inferior.
-      Lesão nodular de contornos irregulares, medindo _ cm, localizada na cavidade pélvica à direita, adjacente à anastomose intestinal nessa região, com sinais de invasão do ureter distal ipsilateral, promovendo acentuada dilatação do sistema coletor.
-      Linfonodomegalias na cadeia retal superior, sendo que a maior permanece medindo cerca de _ cm.
     word: true
 
   - trigger: "tctnepanc"
