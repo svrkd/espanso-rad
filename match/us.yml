@@ -66,9 +66,10 @@ matches:
   #   graflimit = limitação técnica por ossificação da epífise.
   #
   # VASCULAR
-  #   carot = carótidas   vert = vertebral   ds = roubo subclávio   da = aorta/ilíaca
-  #   di  = estenose ilíaca   sdt = desfiladeiro torácico   tvp/tvppaulo = TVP/duplex venoso MI
-  #   dam = Doppler arterial de membros (MMSS/MMII)
+  #   carot = carótidas   vert = vertebral   ds = roubo subclávio   da = aorta/aortoilíaca
+  #   tvp/tvppaulo = TVP/duplex venoso MI
+  #   dam = Doppler arterial de membros (MMSS/MMII), na mesma seção que
+  #         di1 = estenose ilíaca e sdt = desfiladeiro torácico; ordem por frequência
   #   mapa = mapeamento venoso de MMII (mapaN achado · mapaNc conclusão)
   #
   # AUXILIARES / CURINGAS   papv · migue · gordoo · limitgas
@@ -8524,28 +8525,12 @@ matches:
 
 
   # ==============================================================================
-  # VASCULAR — DOPPLER ARTERIAL DE MEMBROS (SUPERIORES/INFERIORES)
+  # VASCULAR — DOPPLER ARTERIAL DE MEMBROS SUPERIORES E INFERIORES
   # ==============================================================================
-
-  - trigger: "dam1"
-    label: "Doppler arterial de membros: Ateromatose incipiente (achado descritivo)"
-    replace: Espessamento leve do complexo íntima-média associado a placas ateromatosas incipientes, não calcificadas, sem repercussão hemodinâmica, na artéria _.
-    word: true
-
-  - trigger: "dam1c"
-    label: "Doppler arterial de membros: Ateromatose incipiente"
-    replace: Ateromatose incipiente em território arterial de membro _, sem repercussão hemodinâmica.
-    word: true
-
-  - trigger: "dam2"
-    label: "Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral)"
-    replace: Espessamento leve do complexo íntima-média associado a placas ateromatosas incipientes, não calcificadas, em todos os segmentos arteriais avaliados, sem repercussão hemodinâmica.
-    word: true
-
-  - trigger: "dam2c"
-    label: "Doppler arterial de membros: Ateromatose incipiente em todos os segmentos"
-    replace: Ateromatose incipiente em todos os segmentos arteriais avaliados, sem repercussão hemodinâmica.
-    word: true
+  # Ordem: achados mais frequentes primeiro. Critério de estenose (dam6/8/9, di1):
+  # Jager/Strandness, razão de velocidades > 2,0 (≥ 50%) e > 4,0 (≥ 80%), válido
+  # para os segmentos ilíaco e femoropoplíteo; tibiais e fibulares não têm limiar
+  # de velocidade validado (descrever por morfologia da onda: dam7, dam11, dam13).
 
   - trigger: "dam3"
     label: "Doppler arterial de membros: Ateromatose difusa, sem estenose significativa (achado descritivo)"
@@ -8567,64 +8552,44 @@ matches:
     replace: Ateromatose difusa em todos os segmentos arteriais avaliados, sem estenose significativa.
     word: true
 
-  - trigger: "dam5"
-    label: "Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo)"
-    replace: Variação anatômica do trajeto/padrão de ramificação da artéria _, em relação à disposição habitual, sem repercussão hemodinâmica.
+  - trigger: "dam1"
+    label: "Doppler arterial de membros: Ateromatose incipiente (achado descritivo)"
+    replace: Espessamento leve do complexo mediointimal associado a placas ateromatosas incipientes, não calcificadas, sem repercussão hemodinâmica, na artéria _.
     word: true
 
-  - trigger: "dam5c"
-    label: "Doppler arterial de membros: Variação anatômica comum do trajeto arterial"
-    replace: Variação anatômica do trajeto da artéria _, sem repercussão hemodinâmica.
+  - trigger: "dam1c"
+    label: "Doppler arterial de membros: Ateromatose incipiente"
+    replace: Ateromatose incipiente em território arterial de membro _, sem repercussão hemodinâmica.
     word: true
 
-  - trigger: "dam6"
-    label: "Doppler arterial de membros: Estenose leve a moderada, onda bifásica (achado descritivo)"
-    replace: Placa ateromatosa focal na artéria _, determinando redução luminal estimada em _%, com curva espectral bifásica ao Doppler, sem critérios de estenose grave.
+  - trigger: "dam2"
+    label: "Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral)"
+    replace: Espessamento leve do complexo mediointimal associado a placas ateromatosas incipientes, não calcificadas, em todos os segmentos arteriais avaliados, sem repercussão hemodinâmica.
     word: true
 
-  - trigger: "dam6c"
-    label: "Doppler arterial de membros: Estenose leve a moderada (< 50%)"
-    replace: Estenose leve a moderada (< 50%) da artéria _.
+  - trigger: "dam2c"
+    label: "Doppler arterial de membros: Ateromatose incipiente em todos os segmentos"
+    replace: Ateromatose incipiente em todos os segmentos arteriais avaliados, sem repercussão hemodinâmica.
     word: true
 
-  - trigger: "dam7"
-    label: "Doppler arterial de membros: Padrão de fluxo monofásico distal (achado descritivo)"
-    replace: Curvas espectrais monofásicas, de baixa amplitude e resistência reduzida, nas artérias distais ao segmento avaliado, sugerindo doença arterial obstrutiva em nível proximal.
+  - trigger: "dam19"
+    label: "Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg (achado descritivo)"
+    replace: Calcificações parietais difusas, lineares e contínuas, ao longo das artérias _, com sombra acústica posterior limitando parcialmente a avaliação ao Doppler nesses segmentos, sugerindo esclerose medial de Mönckeberg.
     word: true
 
-  - trigger: "dam7c"
-    label: "Doppler arterial de membros: Padrão de fluxo monofásico distal"
-    replace: Padrão de fluxo monofásico distal, sugestivo de doença arterial obstrutiva proximal.
+  - trigger: "dam19c"
+    label: "Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg"
+    replace: Calcificações parietais arteriais difusas em membro _, sugerindo esclerose medial de Mönckeberg.
     word: true
 
   - trigger: "dam8"
-    label: "Doppler arterial de membros: Estenose ≥ 50% (razão > 2,0) (achado descritivo)"
+    label: "Doppler arterial de membros: Estenose ≥ 50%, razão > 2,0, ilíaco/femoropoplíteo (achado descritivo)"
     replace: "Placa ateromatosa na artéria _, com fluxo turbulento, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 2,0), compatível com estenose igual ou superior a 50%."
     word: true
 
   - trigger: "dam8c"
     label: "Doppler arterial de membros: Estenose ≥ 50%"
     replace: "Estenose igual ou superior a 50% da artéria _."
-    word: true
-
-  - trigger: "dam9"
-    label: "Doppler arterial de membros: Estenose ≥ 80% (razão > 4,0) (achado descritivo)"
-    replace: "Placa ateromatosa calcificada na artéria _, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%."
-    word: true
-
-  - trigger: "dam9c"
-    label: "Doppler arterial de membros: Estenose ≥ 80%"
-    replace: "Estenose igual ou superior a 80% da artéria _."
-    word: true
-
-  - trigger: "dam10"
-    label: "Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo)"
-    replace: Stent/prótese endovascular metálico em topografia da artéria _, com boa expansão e aposição às paredes vasculares, fluxo laminar preservado em seu interior e ausência de coleções perienxerto.
-    word: true
-
-  - trigger: "dam10c"
-    label: "Doppler arterial de membros: Stent/prótese endovascular pérvio"
-    replace: Stent/prótese endovascular pérvio na artéria _, sem sinais de complicação.
     word: true
 
   - trigger: "dam11"
@@ -8637,14 +8602,34 @@ matches:
     replace: Oclusão arterial segmentar da artéria _, com reconstituição distal por colaterais.
     word: true
 
-  - trigger: "dam12"
-    label: "Doppler arterial de membros: Não caracterização de vaso (achado descritivo)"
-    replace: Não caracterização de fluxo ao Doppler colorido e espectral na artéria _ em toda a extensão avaliada, podendo corresponder a oclusão crônica, hipoplasia ou agenesia do vaso.
+  - trigger: "dam7"
+    label: "Doppler arterial de membros: Fluxo monofásico distal, tardus parvus (achado descritivo)"
+    replace: Curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias distais ao segmento _, sugerindo doença arterial obstrutiva significativa em nível proximal.
     word: true
 
-  - trigger: "dam12c"
-    label: "Doppler arterial de membros: Não caracterização de vaso"
-    replace: Não caracterização da artéria _, a esclarecer oclusão crônica, hipoplasia ou agenesia.
+  - trigger: "dam7c"
+    label: "Doppler arterial de membros: Fluxo monofásico distal, tardus parvus"
+    replace: Padrão de fluxo monofásico distal, sugestivo de doença arterial obstrutiva proximal.
+    word: true
+
+  - trigger: "dam6"
+    label: "Doppler arterial de membros: Estenose < 50%, razão < 2,0, ilíaco/femoropoplíteo (achado descritivo)"
+    replace: Placa ateromatosa focal na artéria _, determinando redução luminal estimada em _%, com razão de velocidades inferior a 2,0 e curva espectral trifásica preservada, sem repercussão hemodinâmica significativa.
+    word: true
+
+  - trigger: "dam6c"
+    label: "Doppler arterial de membros: Estenose < 50%"
+    replace: Estenose inferior a 50% da artéria _.
+    word: true
+
+  - trigger: "dam9"
+    label: "Doppler arterial de membros: Estenose ≥ 80%, razão > 4,0, ilíaco/femoropoplíteo (achado descritivo)"
+    replace: "Placa ateromatosa na artéria _, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%."
+    word: true
+
+  - trigger: "dam9c"
+    label: "Doppler arterial de membros: Estenose ≥ 80%"
+    replace: "Estenose igual ou superior a 80% da artéria _."
     word: true
 
   - trigger: "dam13"
@@ -8655,6 +8640,36 @@ matches:
   - trigger: "dam13c"
     label: "Doppler arterial de membros: Oclusão arterial extensa e crônica"
     replace: Oclusão arterial extensa e crônica da artéria _.
+    word: true
+
+  - trigger: "dam17"
+    label: "Doppler arterial de membros: Pseudoaneurisma (achado descritivo)"
+    replace: Formação sacular adjacente à artéria _, medindo _ cm, com fluxo turbilhonado em padrão "yin-yang" no seu interior e colo comunicante de _ cm, com fluxo de vaivém ("to-and-fro") ao Doppler espectral, achados compatíveis com pseudoaneurisma.
+    word: true
+
+  - trigger: "dam17c"
+    label: "Doppler arterial de membros: Pseudoaneurisma"
+    replace: Pseudoaneurisma da artéria _.
+    word: true
+
+  - trigger: "dam10"
+    label: "Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo)"
+    replace: Stent/prótese endovascular em topografia da artéria _, com boa expansão e aposição às paredes vasculares, fluxo laminar preservado em seu interior e ausência de coleções perienxerto.
+    word: true
+
+  - trigger: "dam10c"
+    label: "Doppler arterial de membros: Stent/prótese endovascular pérvio"
+    replace: Stent/prótese endovascular pérvio na artéria _, sem sinais de complicação.
+    word: true
+
+  - trigger: "di1"
+    label: "Doppler arterial de membros: Estenose ilíaca ≥ 80% com tardus parvus distal (achado descritivo)"
+    replace: Placa ateromatosa na artéria ilíaca comum à _, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%, associando-se curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias do membro inferior ipsilateral.
+    word: true
+
+  - trigger: "di1c"
+    label: "Doppler arterial de membros: Estenose ilíaca ≥ 80% com hipofluxo distal"
+    replace: Estenose igual ou superior a 80% da artéria ilíaca comum à _, determinando hipofluxo distal no membro inferior ipsilateral.
     word: true
 
   - trigger: "dam14"
@@ -8687,16 +8702,6 @@ matches:
     replace: Aneurisma trombosado da artéria _.
     word: true
 
-  - trigger: "dam17"
-    label: "Doppler arterial de membros: Pseudoaneurisma (achado descritivo)"
-    replace: Coleção sacular adjacente à artéria _, com colo comunicante e fluxo de vaivém ("to-and-fro") ao Doppler espectral, medindo _ cm, achados compatíveis com pseudoaneurisma.
-    word: true
-
-  - trigger: "dam17c"
-    label: "Doppler arterial de membros: Pseudoaneurisma"
-    replace: Pseudoaneurisma da artéria _.
-    word: true
-
   - trigger: "dam18"
     label: "Doppler arterial de membros: Fístula arteriovenosa (achado descritivo)"
     replace: Comunicação anômala entre a artéria _ e a veia adjacente, com fluxo arterializado de alta velocidade e baixa resistência na veia correspondente, achados compatíveis com fístula arteriovenosa.
@@ -8705,6 +8710,36 @@ matches:
   - trigger: "dam18c"
     label: "Doppler arterial de membros: Fístula arteriovenosa"
     replace: Fístula arteriovenosa entre a artéria _ e a veia adjacente.
+    word: true
+
+  - trigger: "dam12"
+    label: "Doppler arterial de membros: Não caracterização de vaso (achado descritivo)"
+    replace: Não caracterização de fluxo ao Doppler colorido e espectral na artéria _ em toda a extensão avaliada, podendo corresponder a oclusão crônica, hipoplasia ou agenesia do vaso.
+    word: true
+
+  - trigger: "dam12c"
+    label: "Doppler arterial de membros: Não caracterização de vaso"
+    replace: Não caracterização da artéria _, a esclarecer oclusão crônica, hipoplasia ou agenesia.
+    word: true
+
+  - trigger: "sdt"
+    label: "Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ (achado descritivo)"
+    replace: Padrão de fluxo pós-estenótico com posterior ausência de fluxo na artéria subclávia à _ durante a realização de manobras ativas de redução do espaço costoclavicular (abdução e extensão posterior do braço).
+    word: true
+
+  - trigger: "sdtc"
+    label: "Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _"
+    replace: Achados ecográficos sugestivos de síndrome do desfiladeiro torácico arterial à _.
+    word: true
+
+  - trigger: "dam5"
+    label: "Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo)"
+    replace: Variação anatômica do trajeto/padrão de ramificação da artéria _, em relação à disposição habitual, sem repercussão hemodinâmica.
+    word: true
+
+  - trigger: "dam5c"
+    label: "Doppler arterial de membros: Variação anatômica comum do trajeto arterial"
+    replace: Variação anatômica do trajeto da artéria _, sem repercussão hemodinâmica.
     word: true
 
   # ==============================================================================
@@ -9151,34 +9186,8 @@ matches:
     word: true
 
   # ==============================================================================
-  # VASCULAR — SÍNDROME DO DESFILADEIRO TORÁCICO (MMSS)
-  # ==============================================================================
-
-  - trigger: "sdt"
-    label: "Síndrome do desfiladeiro torácico arterial à _ (achado descritivo)"
-    replace: Padrão de fluxo pós-estenótico com posterior ausência de fluxo na artéria subclávia à _ durante a realização de manobras ativas de redução do espaço costoclavicular (abdução e extensão posterior do braço).
-    word: true
-
-  - trigger: "sdtc"
-    label: "Síndrome do desfiladeiro torácico arterial à _"
-    replace: Achados ecográficos sugestivos de síndrome do desfiladeiro torácico arterial à _.
-    word: true
-
-  # ==============================================================================
   # VASCULAR — AORTA E ARTÉRIAS ILÍACAS
   # ==============================================================================
-
-  - trigger: "di1"
-    label: "Estenose ilíaca à _ (achado descritivo)"
-    replace: |-
-      Ateromatose ilíaca bilateral com sinais de estenose importante na artéria ilíaca comum à _, caracterizada por fluxo filiforme com velocidades superiores a _ cm/s e razão sistólica > _, sugerindo estenose grave (> 70%).
-      As curvas espectrais das artérias do membro inferior ipsilateral demonstram padrão de baixa amplitude e aceleração lenta (tardus parvus), decorrente do quadro estenótico.
-    word: true
-
-  - trigger: "di1c"
-    label: "Estenose ilíaca à _"
-    replace: Ateromatose difusa promovendo estenose grave em território ilíaco à _ (> 70%), determinando hipofluxo distal no membro inferior ipsilateral.
-    word: true
 
   - trigger: "da1"
     label: "Aneurisma + estenose aortoilíaca (achado descritivo)"

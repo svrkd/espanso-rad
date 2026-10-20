@@ -1536,46 +1536,52 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | mapa24 | Mapeamento venoso: neovascularização inguinal pós-cirúrgica (achado descritivo) |
 | mapa24c | Mapeamento venoso: neovascularização inguinal pós-cirúrgica (conclusão) |
 
-## Vascular — Doppler Arterial De Membros (Superiores/Inferiores)
+## Vascular — Doppler Arterial De Membros Superiores E Inferiores
 
 | Trigger | Label |
 |---|---|
-| dam1 | Doppler arterial de membros: Ateromatose incipiente (achado descritivo) |
-| dam1c | Doppler arterial de membros: Ateromatose incipiente |
-| dam2 | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral) |
-| dam2c | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos |
 | dam3 | Doppler arterial de membros: Ateromatose difusa, sem estenose significativa (achado descritivo) |
 | dam3c | Doppler arterial de membros: Ateromatose difusa, sem estenose significativa |
 | dam4 | Doppler arterial de membros: Ateromatose difusa em todos os segmentos (achado geral) |
 | dam4c | Doppler arterial de membros: Ateromatose difusa em todos os segmentos |
-| dam5 | Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo) |
-| dam5c | Doppler arterial de membros: Variação anatômica comum do trajeto arterial |
-| dam6 | Doppler arterial de membros: Estenose leve a moderada, onda bifásica (achado descritivo) |
-| dam6c | Doppler arterial de membros: Estenose leve a moderada (< 50%) |
-| dam7 | Doppler arterial de membros: Padrão de fluxo monofásico distal (achado descritivo) |
-| dam7c | Doppler arterial de membros: Padrão de fluxo monofásico distal |
-| dam8 | Doppler arterial de membros: Estenose ≥ 50% (razão > 2,0) (achado descritivo) |
+| dam1 | Doppler arterial de membros: Ateromatose incipiente (achado descritivo) |
+| dam1c | Doppler arterial de membros: Ateromatose incipiente |
+| dam2 | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral) |
+| dam2c | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos |
+| dam19 | Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg (achado descritivo) |
+| dam19c | Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg |
+| dam8 | Doppler arterial de membros: Estenose ≥ 50%, razão > 2,0, ilíaco/femoropoplíteo (achado descritivo) |
 | dam8c | Doppler arterial de membros: Estenose ≥ 50% |
-| dam9 | Doppler arterial de membros: Estenose ≥ 80% (razão > 4,0) (achado descritivo) |
-| dam9c | Doppler arterial de membros: Estenose ≥ 80% |
-| dam10 | Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo) |
-| dam10c | Doppler arterial de membros: Stent/prótese endovascular pérvio |
 | dam11 | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais (achado descritivo) |
 | dam11c | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais |
-| dam12 | Doppler arterial de membros: Não caracterização de vaso (achado descritivo) |
-| dam12c | Doppler arterial de membros: Não caracterização de vaso |
+| dam7 | Doppler arterial de membros: Fluxo monofásico distal, tardus parvus (achado descritivo) |
+| dam7c | Doppler arterial de membros: Fluxo monofásico distal, tardus parvus |
+| dam6 | Doppler arterial de membros: Estenose < 50%, razão < 2,0, ilíaco/femoropoplíteo (achado descritivo) |
+| dam6c | Doppler arterial de membros: Estenose < 50% |
+| dam9 | Doppler arterial de membros: Estenose ≥ 80%, razão > 4,0, ilíaco/femoropoplíteo (achado descritivo) |
+| dam9c | Doppler arterial de membros: Estenose ≥ 80% |
 | dam13 | Doppler arterial de membros: Oclusão arterial extensa e crônica (achado descritivo) |
 | dam13c | Doppler arterial de membros: Oclusão arterial extensa e crônica |
+| dam17 | Doppler arterial de membros: Pseudoaneurisma (achado descritivo) |
+| dam17c | Doppler arterial de membros: Pseudoaneurisma |
+| dam10 | Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo) |
+| dam10c | Doppler arterial de membros: Stent/prótese endovascular pérvio |
+| di1 | Doppler arterial de membros: Estenose ilíaca ≥ 80% com tardus parvus distal (achado descritivo) |
+| di1c | Doppler arterial de membros: Estenose ilíaca ≥ 80% com hipofluxo distal |
 | dam14 | Doppler arterial de membros: Aneurisma arterial periférico (achado descritivo) |
 | dam14c | Doppler arterial de membros: Aneurisma arterial periférico |
 | dam15 | Doppler arterial de membros: Aneurisma parcialmente trombosado (achado descritivo) |
 | dam15c | Doppler arterial de membros: Aneurisma parcialmente trombosado |
 | dam16 | Doppler arterial de membros: Aneurisma trombosado (achado descritivo) |
 | dam16c | Doppler arterial de membros: Aneurisma trombosado |
-| dam17 | Doppler arterial de membros: Pseudoaneurisma (achado descritivo) |
-| dam17c | Doppler arterial de membros: Pseudoaneurisma |
 | dam18 | Doppler arterial de membros: Fístula arteriovenosa (achado descritivo) |
 | dam18c | Doppler arterial de membros: Fístula arteriovenosa |
+| dam12 | Doppler arterial de membros: Não caracterização de vaso (achado descritivo) |
+| dam12c | Doppler arterial de membros: Não caracterização de vaso |
+| sdt | Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ (achado descritivo) |
+| sdtc | Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ |
+| dam5 | Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo) |
+| dam5c | Doppler arterial de membros: Variação anatômica comum do trajeto arterial |
 
 ## Vascular — Doppler De Artérias Cervicais (Carótidas E Vertebrais)
 
@@ -1664,19 +1670,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ds5 | Artéria subclávia: Roubo da subclávia tipo 2 (intermitente/parcial) à _ (achado descritivo) |
 | ds5c | Artéria subclávia: Roubo da subclávia tipo 2 (intermitente/parcial) à _ |
 
-## Vascular — Síndrome Do Desfiladeiro Torácico (Mmss)
-
-| Trigger | Label |
-|---|---|
-| sdt | Síndrome do desfiladeiro torácico arterial à _ (achado descritivo) |
-| sdtc | Síndrome do desfiladeiro torácico arterial à _ |
-
 ## Vascular — Aorta E Artérias Ilíacas
 
 | Trigger | Label |
 |---|---|
-| di1 | Estenose ilíaca à _ (achado descritivo) |
-| di1c | Estenose ilíaca à _ |
 | da1 | Aneurisma + estenose aortoilíaca (achado descritivo) |
 | da1c | Aneurisma + estenose aortoilíaca |
 | usaortaabd | Aorta abdominal — normal |
