@@ -1576,7 +1576,7 @@ matches:
 
   - trigger: "tcurotel2"
     label: "Carcinoma urotelial pieloureteral com duplicação do sistema coletor"
-    replace: Sinais de duplicação parcial do sistema coletor do rim esquerdo. Espessamento parietal irregular da pelve renal e do terço proximal do ureter à esquerda (porção superior), apresentando realce após a administração do meio de contraste, de difícil mensuração e ocluindo parcialmente sua luz, determinando dilatação dos grupamentos calicinares à montante. Associam-se densificação dos tecidos adiposos perirrenais e periureterais ipsilaterais, bem como aumento do número e das dimensões linfonodais nas cadeias para-aórtica, interaortocaval, retrocrural e celíaca, por vezes com centro necrótico e formando conglomerados (medindo até _ cm no menor eixo). O conjunto de achados sugere carcinoma urotelial pieloureteral à esquerda.
+    replace: Sinais de duplicação parcial do sistema coletor do rim esquerdo. Espessamento parietal irregular da pelve renal e do terço proximal do ureter à esquerda (porção superior), apresentando realce após a administração do meio de contraste, de difícil mensuração e ocluindo parcialmente sua luz, determinando dilatação dos grupamentos calicinales à montante. Associam-se densificação dos tecidos adiposos perirrenais e periureterais ipsilaterais, bem como aumento do número e das dimensões linfonodais nas cadeias para-aórtica, interaortocaval, retrocrural e celíaca, por vezes com centro necrótico e formando conglomerados (medindo até _ cm no menor eixo). O conjunto de achados sugere carcinoma urotelial pieloureteral à esquerda.
     word: true
 
   - trigger: "tcurotel3"
@@ -1692,8 +1692,8 @@ matches:
     word: true
 
   - trigger: "tcestjup2"
-    label: "Estenose da junção ureteropélvica direita"
-    replace: Acentuada dilatação pielocalicinal à direita, sem a caracterização de fatores obstrutivos, com discreto afilamento do parênquima renal. O conjunto de achados sugere estenose da junção ureteropélvica direita.
+    label: "Estenose da junção ureteropiélica direita"
+    replace: Acentuada dilatação pielocalicinal à direita, sem a caracterização de fatores obstrutivos, com discreto afilamento do parênquima renal. O conjunto de achados sugere estenose da junção ureteropiélica direita.
     word: true
 
   - trigger: "tcestjup3"

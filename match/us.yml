@@ -93,7 +93,7 @@ matches:
       Baço de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
       Rins de topografia, contornos e dimensões normais.
       Espessura corticomedular conservada de ambos os rins, com ecotextura normal do parênquima bilateralmente.
-      Ausência de dilatações dos sistemas pielocaliciais.
+      Ausência de dilatações dos sistemas pielocalicinais.
       Não se observam imagens de litíases.
       Bexiga com capacidade e distensibilidade normais, contornos regulares, paredes lisas e normoespessas.
 
@@ -513,15 +513,15 @@ matches:
       Morfologia, contornos e topografia habituais.
       Dimensões: _ cm. Espessura do parênquima: _ cm.
       Parênquima com espessura e diferenciação corticomedular preservadas.
-      Sistema pielocalicial compacto.
-      Não visibilizadas imagens compatíveis com cálculos no sistema pielocalicial.
+      Sistema pielocalicinal compacto.
+      Não visibilizadas imagens compatíveis com cálculos no sistema pielocalicinal.
 
       Rim esquerdo:
       Morfologia, contornos e topografia habituais.
       Dimensões: _ cm. Espessura do parênquima: _ cm.
       Parênquima com espessura e diferenciação corticomedular preservadas.
-      Sistema pielocalicial compacto.
-      Não visibilizadas imagens compatíveis com cálculos no sistema pielocalicial.
+      Sistema pielocalicinal compacto.
+      Não visibilizadas imagens compatíveis com cálculos no sistema pielocalicinal.
 
       Bexiga urinária:
       Normodistendida, com conteúdo anecoico e não apresentando cálculos.
@@ -751,7 +751,7 @@ matches:
 
   - trigger: "rv6"
     label: "Rim: Cálculo obstrutivo no segmento proximal/ médio/ distal do ureter _ (achado descritivo)"
-    replace: Imagem ecogênica formadora de sombra acústica posterior, compatível com cálculo promovendo leve/ moderada/ acentuada dilatação a montante, localizado no segmento proximal/ médio/ distal do ureter _, distando _ cm da junção ureteropélvica (JUP)/ junção ureterovesical (JUV).
+    replace: Imagem ecogênica formadora de sombra acústica posterior, compatível com cálculo promovendo leve/ moderada/ acentuada dilatação a montante, localizado no segmento proximal/ médio/ distal do ureter _, distando _ cm da junção ureteropiélica (JUP)/ junção ureterovesical (JUV).
     word: true
 
   - trigger: "rv6c"
