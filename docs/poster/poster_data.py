@@ -198,20 +198,28 @@ BLOCOS = [
     ("VASCULAR", [
         ("escada", "tvp", "venoso", [("1", "TVP aguda"), ("2", "TVP crônica")]),
         ("triggers", ["ustvpc"], "venoso", "trombose venosa profunda (conclusão genérica)"),
-        ("escada", "dc", "carótidas", [
-            ("1", "EMI"), ("2", "placa"), ("3", "placa instável"), ("4", "<50%"),
-            ("5", "50–69%"), ("6", "≥70%"), ("7", "suboclusão/oclusão ACI"),
-            ("8", "carotidínia"), ("9", "paraganglioma?"), ("10", "intrastent"),
+        ("escada", "carot", "carótidas", [
+            ("1", "EMI"), ("2", "placa"), ("3", "placa de maior risco embólico"), ("4", "<50%"),
+            ("5", "50–59/60–69%"), ("6", "70–79/80–89%"), ("7", "oclusão ACI"),
+            ("22", "suboclusão ACI"),
+            ("8", "TIPIC (carotidínia)"), ("9", "paraganglioma?"), ("10", "intrastent"),
             ("11", "stent sem estenose"), ("12", ">90%"), ("13", "acotovelamento"),
             ("14", "bifurcação alta"), ("15", "calcificações limitando"),
             ("16", "placa detalhada"), ("17", "placa ACC"), ("18", "placa bifurcação"),
             ("19", "placa ACI"), ("20", "placa ACE"), ("21", "normal"),
+            ("23", "pós-endarterectomia normal"), ("24", "reestenose pós-endarterectomia"),
+            ("25", "placa ulcerada"), ("26", "trombo flutuante"), ("27", "dissecção"),
+            ("28", "web carotídeo"), ("29", "arterite (Takayasu)"),
+            ("30", "estenose proximal à ACC"), ("31", "displasia fibromuscular"),
         ]),
-        ("escada", "dv", "vertebral", [
-            ("1", "hipoplasia"), ("2", "roubo subclávia"), ("3", "oclusão"), ("4", "normal"),
+        ("escada", "vert", "vertebral", [
+            ("1", "hipoplasia"), ("2", "roubo subclávia (fluxo retrógrado)"), ("3", "oclusão"),
+            ("4", "normal"), ("5", "estenose na origem"), ("6", "oclusão c/ reabitação"),
+            ("7", "não individualizada"), ("8", "tortuosidade"),
         ]),
         ("escada", "ds", "roubo subclávio", [
-            ("1", "completo"), ("2", "tipo 1"), ("3", "tipo 2"), ("4", "tipo 3"), ("5", "parcial t4"),
+            ("1", "completo (tipo 3)"), ("2", "latente, pico > VDF"), ("3", "latente, pico = VDF"),
+            ("4", "latente, pico < VDF"), ("5", "parcial (tipo 2)"),
         ]),
         ("escada", "dam", "arterial de membros", [
             ("1", "ateromatose incipiente"),
@@ -292,7 +300,7 @@ EXCLUSOES = [
     (r'^me[12]$', 'MSK por segmento (tendão calcâneo / joelho) — prefixo legado fora do padrão co/jo/…/tz'),
     (r'^(?!usnc$|utnc$|ustvpc$).*c$', 'variante de conclusão (regra de gramática "…c")'),
     (r'^ob([3-9]|[1-4]\d)c?$', 'malformação fetal — não é agenda de rotina'),
-    (r'^(dc|dv|ds|di|da|sdt)\d*c?$', 'Doppler vascular em slot dedicado (carótidas/vertebral/desfiladeiro/aorto-ilíaco)'),
+    (r'^(carot|vert|ds|di|da|sdt)\d*c?$', 'Doppler vascular em slot dedicado (carótidas/vertebral/desfiladeiro/aorto-ilíaco)'),
     (r'^graf', 'quadril infantil, método Graf'),
     (r'^lirads[1-3]$', 'fígado — rastreamento LI-RADS US, só para população de risco'),
     (r'^rvutd$', 'dilatação do trato urinário pediátrica (UTD) — achado específico'),
