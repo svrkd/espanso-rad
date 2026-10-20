@@ -306,8 +306,8 @@ matches:
     word: true
 
   - trigger: "invagivert"
-    label: "Invaginação vertebrobasilar (linha de Chamberlain)"
-    replace: "Ápice do processo odontoide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação vertebrobasilar."
+    label: "Invaginação basilar (linha de Chamberlain)"
+    replace: "Ápice do processo odontoide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação basilar."
     word: true
 
   - trigger: "mretrolis"
@@ -2295,7 +2295,7 @@ matches:
       Espaços discais preservados.
       - Redução dos espaços discais xx
       - Demais espaços discais preservados.
-      - Ápice do processo odontoide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação vertebrobasilar.
+      - Ápice do processo odontoide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação basilar.
       Ausência de costela cervical acessória.
     word: true
 
@@ -2767,7 +2767,7 @@ matches:
       - Redução do espaço subacromial.
       - Sinais de artrose acromioclavicular.
       Ausência de calcificações de partes moles.
-      - Calcificação de partes moles adjacente ao trocanter maior, na topografia da inserção do músculo supraespinhal, devendo corresponder a tendinopatia calcárea.
+      - Calcificação de partes moles adjacente ao tubérculo maior, na topografia da inserção do músculo supraespinhal, devendo corresponder a tendinopatia calcárea.
     word: true
 
   - trigger: "rxombrod"
@@ -3758,11 +3758,6 @@ matches:
   - trigger: "reduii"
     label: "Redução articular interfalangeana com osteoartrose"
     replace: "Redução do espaço articular interfalangeano, associada a irregularidade, osteofitose, esclerose e cistos subcorticais."
-    word: true
-
-  - trigger: "reduqa"
-    label: "Placeholder — não preenchido"
-    replace: Enter your replacement text here...
     word: true
 
   - trigger: "semfx"
