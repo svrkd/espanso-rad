@@ -3923,8 +3923,8 @@ matches:
     word: true
 
   - trigger: "tchernumb"
-    label: "Volumosa hérnia umbilical à manobra de esforço"
-    replace: Volumosa hérnia umbilical, com insinuação de conteúdo adiposo e de alça intestinal do cólon transverso à manobra de esforço, com colo de _ cm, notando-se tênue densificação do tecido adiposo local. O saco herniário mede cerca de _ cm, com volume de _ cm³, não apresentando alteração significativa à manobra de esforço.
+    label: "Volumosa hérnia umbilical sem alteração à manobra de esforço"
+    replace: Volumosa hérnia umbilical, com insinuação de conteúdo adiposo e de alça intestinal do cólon transverso, com colo de _ cm, notando-se tênue densificação do tecido adiposo local. O saco herniário mede cerca de _ cm, com volume de _ cm³, não apresentando alteração significativa à manobra de esforço.
     word: true
 
   - trigger: "tchernlom2"
