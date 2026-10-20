@@ -2,24 +2,34 @@ matches:
   # ==========================================================================
   # ANGIOTOMOGRAFIA DE TÓRAX — ARTÉRIAS PULMONARES
   # ==========================================================================
+  - trigger: "atxapcent"
+    label: "TEP agudo central (artéria pulmonar principal/direita/esquerda)"
+    replace: "Falhas de enchimento intraluminais bem delimitadas, formando ângulo agudo com a parede vascular, na artéria pulmonar _, estendendo-se aos ramos lobares, segmentares e subsegmentares _, compatíveis com tromboembolismo pulmonar agudo."
+    word: true
+
+  - trigger: "atxapcentc"
+    label: "Conclusão — TEP agudo central (PE-RADS 4)"
+    replace: "Tromboembolismo pulmonar agudo central, acometendo a artéria pulmonar _ (PE-RADS 4)."
+    word: true
+
   - trigger: "atxaplob"
-    label: "TEP agudo central/lobar"
-    replace: "Falhas de enchimento centrais, formando ângulo agudo com a parede vascular, na artéria pulmonar _ e nos ramos lobares _, estendendo-se a ramos segmentares e subsegmentares, compatíveis com tromboembolismo pulmonar agudo."
+    label: "TEP agudo lobar"
+    replace: "Falhas de enchimento intraluminais bem delimitadas, formando ângulo agudo com a parede vascular, na artéria lobar _, estendendo-se a ramos segmentares e subsegmentares, compatíveis com tromboembolismo pulmonar agudo."
     word: true
 
   - trigger: "atxaplobc"
-    label: "Conclusão — TEP agudo central/lobar"
-    replace: "Tromboembolismo pulmonar agudo na artéria pulmonar _ e em ramos lobares, segmentares e subsegmentares."
+    label: "Conclusão — TEP agudo lobar (PE-RADS 3)"
+    replace: "Tromboembolismo pulmonar agudo, com trombo mais proximal na artéria lobar _ (PE-RADS 3)."
     word: true
 
   - trigger: "atxapvd"
-    label: "Sinais de sobrecarga ventricular direita"
-    replace: "Aumento da relação entre os diâmetros dos ventrículos direito e esquerdo (VD/VE = _, sendo ≥ 1,0 indicativo de sobrecarga ventricular direita), com retificação do septo interventricular. Associa-se refluxo do meio de contraste para a veia cava inferior e veias hepáticas."
+    label: "Aumento do ventrículo direito (VD/VE ≥ 1,0)"
+    replace: "Aumento do ventrículo direito, com relação entre os diâmetros dos ventrículos direito e esquerdo de _ (≥ 1,0), associado a retificação do septo interventricular. Associa-se refluxo do meio de contraste para a veia cava inferior e veias hepáticas."
     word: true
 
   - trigger: "atxapvdc"
-    label: "Conclusão — sobrecarga ventricular direita"
-    replace: "Sinais tomográficos de sobrecarga ventricular direita."
+    label: "Conclusão — aumento do ventrículo direito (PE-RADS RV+)"
+    replace: "Aumento do ventrículo direito (VD/VE = _; modificador RV+ do PE-RADS)."
     word: true
 
   - trigger: "atxapsela"
@@ -28,8 +38,8 @@ matches:
     word: true
 
   - trigger: "atxapselac"
-    label: "Conclusão — TEP agudo em sela"
-    replace: "Tromboembolismo pulmonar agudo com trombo em sela na bifurcação do tronco pulmonar."
+    label: "Conclusão — TEP agudo em sela (PE-RADS 4)"
+    replace: "Tromboembolismo pulmonar agudo com trombo em sela na bifurcação do tronco pulmonar (PE-RADS 4)."
     word: true
 
   - trigger: "atxapsub"
@@ -38,13 +48,13 @@ matches:
     word: true
 
   - trigger: "atxapsubc"
-    label: "Conclusão — TEP subsegmentar isolado"
-    replace: "Tromboembolismo pulmonar subsegmentar isolado no lobo _."
+    label: "Conclusão — TEP subsegmentar isolado (PE-RADS 1)"
+    replace: "Tromboembolismo pulmonar subsegmentar isolado no lobo _ (PE-RADS 1)."
     word: true
 
   - trigger: "atxapinf"
     label: "Artefato de interrupção transitória do contraste"
-    replace: "Heterogeneidade da opacificação do tronco pulmonar e das artérias pulmonares principais, com opacificação proporcionalmente maior da aorta e sem falha de enchimento definida, compatível com interrupção transitória do contraste por influxo de sangue não opacificado proveniente da veia cava inferior, limitando a avaliação dos ramos _."
+    replace: "Heterogeneidade da opacificação do tronco e das artérias pulmonares, com atenuação inferior à da aorta e influxo do meio de contraste preservado na veia cava superior, sem falha de enchimento definida, compatível com interrupção transitória do contraste por influxo de sangue não opacificado proveniente da veia cava inferior, limitando a avaliação dos ramos _."
     word: true
 
   - trigger: "atxapinfc"
@@ -58,13 +68,13 @@ matches:
     word: true
 
   - trigger: "atxaptransc"
-    label: "Conclusão — trombo em trânsito nas câmaras direitas"
-    replace: "Trombo em trânsito no átrio direito."
+    label: "Conclusão — trombo em trânsito (PE-RADS T+)"
+    replace: "Trombo em trânsito no átrio direito (modificador T+ do PE-RADS)."
     word: true
 
   - trigger: "atxaphp"
     label: "Hipertensão pulmonar (tronco e razão AP/Ao)"
-    replace: "Aumento do calibre do tronco pulmonar (_ cm, sendo ≥ 3,0 cm alterado), com razão entre os diâmetros do tronco pulmonar e da aorta ascendente de _ (> 1,0), sugerindo hipertensão pulmonar."
+    replace: "Aumento do calibre do tronco pulmonar (_ cm), com razão entre os diâmetros do tronco pulmonar e da aorta ascendente de _ (> 0,9), sugerindo hipertensão pulmonar."
     word: true
 
   - trigger: "atxaphpc"
@@ -74,12 +84,12 @@ matches:
 
   - trigger: "atxapcron"
     label: "Doença tromboembólica pulmonar crônica"
-    replace: "Trombos excêntricos aderidos à parede, de contornos lisos e formando ângulo obtuso com a parede vascular, na artéria pulmonar _ e nos ramos lobares _, associados a redes e bandas intraluminais, bem como a estreitamento abrupto e afilamento de ramos segmentares. Associa-se atenuação em mosaico do parênquima pulmonar, bem como hipertrofia das artérias brônquicas."
+    replace: "Falhas de enchimento excêntricas e lineares, aderidas à parede e formando ângulo obtuso com a parede vascular, sem expansão do vaso, na artéria pulmonar _ e nos ramos lobares _, associadas a redes e bandas intraluminais, bem como a amputação abrupta e afilamento de ramos segmentares. Associa-se atenuação em mosaico do parênquima pulmonar, bem como aumento das artérias brônquicas."
     word: true
 
   - trigger: "atxapcronc"
     label: "Conclusão — doença tromboembólica pulmonar crônica"
-    replace: "Achados sugestivos de doença tromboembólica pulmonar crônica, recomendando-se correlação com cintilografia pulmonar de ventilação/perfusão e ecocardiograma."
+    replace: "Achados compatíveis com doença tromboembólica pulmonar crônica."
     word: true
 
   - trigger: "atxapmav"
@@ -122,7 +132,7 @@ matches:
   # ==========================================================================
   - trigger: "atxaoane"
     label: "Aneurisma da aorta ascendente"
-    replace: "Dilatação aneurismática fusiforme da aorta ascendente, com diâmetro máximo de _ cm (medido perpendicularmente ao eixo do vaso, de parede externa a parede externa), estendendo-se por cerca de _ cm, sem comprometimento da raiz aórtica."
+    replace: "Dilatação aneurismática fusiforme da aorta ascendente, com diâmetro máximo de _ cm (medido perpendicularmente ao eixo do fluxo), estendendo-se por cerca de _ cm, sem comprometimento da raiz aórtica."
     word: true
 
   - trigger: "atxaoanec"
@@ -132,7 +142,7 @@ matches:
 
   - trigger: "atxaoaned"
     label: "Aneurisma da aorta torácica descendente"
-    replace: "Dilatação aneurismática fusiforme da aorta torácica descendente, com diâmetro máximo de _ cm (medido perpendicularmente ao eixo do vaso, de parede externa a parede externa), estendendo-se do nível de _ até _, com trombo mural excêntrico de até _ cm de espessura."
+    replace: "Dilatação aneurismática fusiforme da aorta torácica descendente, com diâmetro máximo de _ cm (medido perpendicularmente ao eixo do fluxo, de borda externa a borda externa), estendendo-se do nível de _ até _, com trombo mural excêntrico de até _ cm de espessura."
     word: true
 
   - trigger: "atxaoanedc"
@@ -152,12 +162,12 @@ matches:
 
   - trigger: "atxaodisb"
     label: "Dissecção aórtica Stanford B"
-    replace: "Retalho intimal iniciando-se distalmente à emergência da artéria subclávia esquerda e estendendo-se pela aorta descendente até _, delimitando luz verdadeira de menor calibre e luz falsa de maior calibre, com rotura intimal de entrada na zona _ e extensão distal até a zona _ (classificação SVS/STS), compatível com dissecção aórtica Stanford tipo B. Ramos viscerais emergindo da luz verdadeira, exceto _."
+    replace: "Retalho intimal na aorta torácica, poupando a aorta ascendente, com rotura intimal de entrada na zona _ e extensão da zona _ à zona _ (zonas SVS/STS), delimitando luz verdadeira de menor calibre e luz falsa de maior calibre, compatível com dissecção aórtica Stanford tipo B. Ramos viscerais emergindo da luz verdadeira, exceto _."
     word: true
 
   - trigger: "atxaodisbc"
     label: "Conclusão — dissecção aórtica Stanford B"
-    replace: "Dissecção aórtica Stanford tipo B (SVS/STS B _,_), estendendo-se até _."
+    replace: "Dissecção aórtica Stanford tipo B (SVS/STS: tipo B, extensão proximal na zona _ e distal na zona _)."
     word: true
 
   - trigger: "atxaodisa"
@@ -371,7 +381,7 @@ matches:
 
   - trigger: "atxvpcimit"
     label: "Síndrome da cimitarra"
-    replace: "Veia pulmonar anômala de trajeto curvilíneo, drenando o pulmão direito na veia cava inferior junto à junção cavoatrial (veia em cimitarra), com hipoplasia do pulmão direito e dextroposição cardíaca, compatível com síndrome da cimitarra."
+    replace: "Veia pulmonar anômala de trajeto curvilíneo, drenando o pulmão direito na veia cava inferior (veia em cimitarra), com hipoplasia do pulmão direito e dextroposição cardíaca, compatível com síndrome da cimitarra."
     word: true
 
   - trigger: "atxvpcimitc"
