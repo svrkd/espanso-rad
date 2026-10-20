@@ -1566,8 +1566,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | art17c | Doppler arterial de membros: Pseudoaneurisma |
 | art10 | Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo) |
 | art10c | Doppler arterial de membros: Stent/prótese endovascular pérvio |
-| di1 | Doppler arterial de membros: Estenose ilíaca ≥ 80% com tardus parvus distal (achado descritivo) |
-| di1c | Doppler arterial de membros: Estenose ilíaca ≥ 80% com hipofluxo distal |
+| art20 | Doppler arterial de membros: Estenose ilíaca ≥ 80% com tardus parvus distal (achado descritivo) |
+| art20c | Doppler arterial de membros: Estenose ilíaca ≥ 80% com hipofluxo distal |
 | art14 | Doppler arterial de membros: Aneurisma arterial periférico (achado descritivo) |
 | art14c | Doppler arterial de membros: Aneurisma arterial periférico |
 | art15 | Doppler arterial de membros: Aneurisma parcialmente trombosado (achado descritivo) |
@@ -1578,8 +1578,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | art18c | Doppler arterial de membros: Fístula arteriovenosa |
 | art12 | Doppler arterial de membros: Não caracterização de vaso (achado descritivo) |
 | art12c | Doppler arterial de membros: Não caracterização de vaso |
-| sdt | Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ (achado descritivo) |
-| sdtc | Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ |
+| art21 | Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ (achado descritivo) |
+| art21c | Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ |
 | art5 | Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo) |
 | art5c | Doppler arterial de membros: Variação anatômica comum do trajeto arterial |
 

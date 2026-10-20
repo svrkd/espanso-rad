@@ -68,8 +68,8 @@ matches:
   # VASCULAR
   #   carot = carótidas   vert = vertebral   ds = roubo subclávio   da = aorta/aortoilíaca
   #   tvp/tvppaulo = TVP/duplex venoso MI
-  #   art = Doppler arterial de membros (MMSS/MMII), na mesma seção que
-  #         di1 = estenose ilíaca e sdt = desfiladeiro torácico; ordem por frequência
+  #   art = Doppler arterial de membros (MMSS/MMII), inclui art20 estenose ilíaca
+  #         e art21 desfiladeiro torácico; ordem por frequência
   #   mapa = mapeamento venoso de MMII (mapaN achado · mapaNc conclusão)
   #
   # AUXILIARES / CURINGAS   papv · migue · gordoo · limitgas
@@ -8527,7 +8527,7 @@ matches:
   # ==============================================================================
   # VASCULAR — DOPPLER ARTERIAL DE MEMBROS SUPERIORES E INFERIORES
   # ==============================================================================
-  # Ordem: achados mais frequentes primeiro. Critério de estenose (art6/8/9, di1):
+  # Ordem: achados mais frequentes primeiro. Critério de estenose (art6/8/9/20):
   # Jager/Strandness, razão de velocidades > 2,0 (≥ 50%) e > 4,0 (≥ 80%), válido
   # para os segmentos ilíaco e femoropoplíteo; tibiais e fibulares não têm limiar
   # de velocidade validado (descrever por morfologia da onda: art7, art11, art13).
@@ -8662,12 +8662,12 @@ matches:
     replace: Stent/prótese endovascular pérvio na artéria _, sem sinais de complicação.
     word: true
 
-  - trigger: "di1"
+  - trigger: "art20"
     label: "Doppler arterial de membros: Estenose ilíaca ≥ 80% com tardus parvus distal (achado descritivo)"
     replace: Placa ateromatosa na artéria ilíaca comum à _, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%, associando-se curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias do membro inferior ipsilateral.
     word: true
 
-  - trigger: "di1c"
+  - trigger: "art20c"
     label: "Doppler arterial de membros: Estenose ilíaca ≥ 80% com hipofluxo distal"
     replace: Estenose igual ou superior a 80% da artéria ilíaca comum à _, determinando hipofluxo distal no membro inferior ipsilateral.
     word: true
@@ -8722,12 +8722,12 @@ matches:
     replace: Não caracterização da artéria _, a esclarecer oclusão crônica, hipoplasia ou agenesia.
     word: true
 
-  - trigger: "sdt"
+  - trigger: "art21"
     label: "Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ (achado descritivo)"
     replace: Padrão de fluxo pós-estenótico com posterior ausência de fluxo na artéria subclávia à _ durante a realização de manobras ativas de redução do espaço costoclavicular (abdução e extensão posterior do braço).
     word: true
 
-  - trigger: "sdtc"
+  - trigger: "art21c"
     label: "Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _"
     replace: Achados ecográficos sugestivos de síndrome do desfiladeiro torácico arterial à _.
     word: true
