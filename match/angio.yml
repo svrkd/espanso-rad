@@ -1,0 +1,413 @@
+matches:
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE TÓRAX — ARTÉRIAS PULMONARES
+  # ==========================================================================
+  - trigger: "atxaplob"
+    label: "TEP agudo central/lobar"
+    replace: "Falhas de enchimento centrais, formando ângulo agudo com a parede vascular, na artéria pulmonar _ e nos ramos lobares _, estendendo-se a ramos segmentares e subsegmentares, compatíveis com tromboembolismo pulmonar agudo."
+    word: true
+
+  - trigger: "atxaplobc"
+    label: "Conclusão — TEP agudo central/lobar"
+    replace: "Tromboembolismo pulmonar agudo na artéria pulmonar _ e em ramos lobares, segmentares e subsegmentares."
+    word: true
+
+  - trigger: "atxapvd"
+    label: "Sinais de sobrecarga ventricular direita"
+    replace: "Aumento da relação entre os diâmetros dos ventrículos direito e esquerdo (VD/VE = _, sendo ≥ 1,0 indicativo de sobrecarga ventricular direita), com retificação do septo interventricular. Associa-se refluxo do meio de contraste para a veia cava inferior e veias hepáticas."
+    word: true
+
+  - trigger: "atxapvdc"
+    label: "Conclusão — sobrecarga ventricular direita"
+    replace: "Sinais tomográficos de sobrecarga ventricular direita."
+    word: true
+
+  - trigger: "atxapsela"
+    label: "TEP agudo em sela"
+    replace: "Falha de enchimento cavalgando a bifurcação do tronco pulmonar e estendendo-se às artérias pulmonares direita e esquerda (trombo em sela), bem como aos ramos lobares, segmentares e subsegmentares bilateralmente, compatível com tromboembolismo pulmonar agudo."
+    word: true
+
+  - trigger: "atxapselac"
+    label: "Conclusão — TEP agudo em sela"
+    replace: "Tromboembolismo pulmonar agudo com trombo em sela na bifurcação do tronco pulmonar."
+    word: true
+
+  - trigger: "atxapsub"
+    label: "TEP subsegmentar isolado"
+    replace: "Falha de enchimento em ramo subsegmentar da artéria pulmonar do segmento _ do lobo _, identificada em mais de um plano, compatível com tromboembolismo pulmonar."
+    word: true
+
+  - trigger: "atxapsubc"
+    label: "Conclusão — TEP subsegmentar isolado"
+    replace: "Tromboembolismo pulmonar subsegmentar isolado no lobo _."
+    word: true
+
+  - trigger: "atxapinf"
+    label: "Artefato de interrupção transitória do contraste"
+    replace: "Heterogeneidade da opacificação do tronco pulmonar e das artérias pulmonares principais, com opacificação proporcionalmente maior da aorta e sem falha de enchimento definida, compatível com interrupção transitória do contraste por influxo de sangue não opacificado proveniente da veia cava inferior, limitando a avaliação dos ramos _."
+    word: true
+
+  - trigger: "atxapinfc"
+    label: "Conclusão — artefato de interrupção transitória do contraste"
+    replace: "Artefato de interrupção transitória do contraste, limitando a avaliação dos ramos _ da artéria pulmonar."
+    word: true
+
+  - trigger: "atxaptrans"
+    label: "Trombo em trânsito nas câmaras direitas"
+    replace: "Falha de enchimento alongada e serpiginosa no átrio direito, medindo _ cm, sem aderência parietal definida, compatível com trombo em trânsito."
+    word: true
+
+  - trigger: "atxaptransc"
+    label: "Conclusão — trombo em trânsito nas câmaras direitas"
+    replace: "Trombo em trânsito no átrio direito."
+    word: true
+
+  - trigger: "atxaphp"
+    label: "Hipertensão pulmonar (tronco e razão AP/Ao)"
+    replace: "Aumento do calibre do tronco pulmonar (_ cm, sendo ≥ 3,0 cm alterado), com razão entre os diâmetros do tronco pulmonar e da aorta ascendente de _ (> 1,0), sugerindo hipertensão pulmonar."
+    word: true
+
+  - trigger: "atxaphpc"
+    label: "Conclusão — sinais de hipertensão pulmonar"
+    replace: "Sinais tomográficos sugestivos de hipertensão pulmonar, na dependência de correlação ecocardiográfica."
+    word: true
+
+  - trigger: "atxapcron"
+    label: "Doença tromboembólica pulmonar crônica"
+    replace: "Trombos excêntricos aderidos à parede, de contornos lisos e formando ângulo obtuso com a parede vascular, na artéria pulmonar _ e nos ramos lobares _, associados a redes e bandas intraluminais, bem como a estreitamento abrupto e afilamento de ramos segmentares. Associa-se atenuação em mosaico do parênquima pulmonar, bem como hipertrofia das artérias brônquicas."
+    word: true
+
+  - trigger: "atxapcronc"
+    label: "Conclusão — doença tromboembólica pulmonar crônica"
+    replace: "Achados sugestivos de doença tromboembólica pulmonar crônica, recomendando-se correlação com cintilografia pulmonar de ventilação/perfusão e ecocardiograma."
+    word: true
+
+  - trigger: "atxapmav"
+    label: "Malformação arteriovenosa pulmonar"
+    replace: "Malformação arteriovenosa pulmonar no segmento _ do lobo _, caracterizada por saco aneurismático de _ cm, nutrida por artéria de _ cm de calibre e drenada por veia pulmonar dilatada."
+    word: true
+
+  - trigger: "atxapmavc"
+    label: "Conclusão — malformação arteriovenosa pulmonar"
+    replace: "Malformação arteriovenosa pulmonar no lobo _ (artéria nutridora de _ cm)."
+    word: true
+
+  - trigger: "atxappseu"
+    label: "Pseudoaneurisma de ramo da artéria pulmonar"
+    replace: "Dilatação sacular de ramo _ da artéria pulmonar do lobo _, medindo _ cm, com opacificação concomitante à do leito arterial pulmonar, sugerindo pseudoaneurisma. Os diagnósticos diferenciais etiológicos incluem infecção (aneurisma de Rasmussen, êmbolo séptico), iatrogenia (cateter de artéria pulmonar), trauma e vasculite (doença de Behçet), entre outros."
+    word: true
+
+  - trigger: "atxappseuc"
+    label: "Conclusão — pseudoaneurisma de artéria pulmonar"
+    replace: "Pseudoaneurisma de ramo da artéria pulmonar do lobo _."
+    word: true
+
+  - trigger: "atxapagen"
+    label: "Interrupção proximal da artéria pulmonar"
+    replace: "Ausência da artéria pulmonar _ (interrupção proximal), com redução volumétrica do pulmão ipsilateral, irrigado por colaterais sistêmicas hipertrofiadas (artérias brônquicas, intercostais e transpleurais)."
+    word: true
+
+  - trigger: "atxapagenc"
+    label: "Conclusão — interrupção proximal da artéria pulmonar"
+    replace: "Interrupção proximal (ausência) da artéria pulmonar _, com circulação colateral sistêmica."
+    word: true
+
+  - trigger: "atxapsling"
+    label: "Sling da artéria pulmonar"
+    replace: "Artéria pulmonar esquerda originando-se da artéria pulmonar direita e cursando entre a traqueia e o esôfago, compatível com sling da artéria pulmonar."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE TÓRAX — AORTA TORÁCICA
+  # ==========================================================================
+  - trigger: "atxaoane"
+    label: "Aneurisma da aorta ascendente"
+    replace: "Dilatação aneurismática fusiforme da aorta ascendente, com diâmetro máximo de _ cm (medido perpendicularmente ao eixo do vaso, de parede externa a parede externa), estendendo-se por cerca de _ cm, sem comprometimento da raiz aórtica."
+    word: true
+
+  - trigger: "atxaoanec"
+    label: "Conclusão — aneurisma da aorta ascendente"
+    replace: "Aneurisma fusiforme da aorta ascendente (_ cm)."
+    word: true
+
+  - trigger: "atxaoaned"
+    label: "Aneurisma da aorta torácica descendente"
+    replace: "Dilatação aneurismática fusiforme da aorta torácica descendente, com diâmetro máximo de _ cm (medido perpendicularmente ao eixo do vaso, de parede externa a parede externa), estendendo-se do nível de _ até _, com trombo mural excêntrico de até _ cm de espessura."
+    word: true
+
+  - trigger: "atxaoanedc"
+    label: "Conclusão — aneurisma da aorta descendente"
+    replace: "Aneurisma fusiforme da aorta torácica descendente (_ cm), com trombo mural."
+    word: true
+
+  - trigger: "atxaouap"
+    label: "Úlcera aterosclerótica penetrante"
+    replace: "Projeção focal do meio de contraste além do contorno luminal da aorta _, em meio a placas ateromatosas, com profundidade de _ cm e colo de _ cm, compatível com úlcera aterosclerótica penetrante."
+    word: true
+
+  - trigger: "atxaouapc"
+    label: "Conclusão — úlcera aterosclerótica penetrante"
+    replace: "Úlcera aterosclerótica penetrante na aorta _ (profundidade de _ cm)."
+    word: true
+
+  - trigger: "atxaodisb"
+    label: "Dissecção aórtica Stanford B"
+    replace: "Retalho intimal iniciando-se distalmente à emergência da artéria subclávia esquerda e estendendo-se pela aorta descendente até _, delimitando luz verdadeira de menor calibre e luz falsa de maior calibre, com rotura intimal de entrada na zona _ e extensão distal até a zona _ (classificação SVS/STS), compatível com dissecção aórtica Stanford tipo B. Ramos viscerais emergindo da luz verdadeira, exceto _."
+    word: true
+
+  - trigger: "atxaodisbc"
+    label: "Conclusão — dissecção aórtica Stanford B"
+    replace: "Dissecção aórtica Stanford tipo B (SVS/STS B _,_), estendendo-se até _."
+    word: true
+
+  - trigger: "atxaodisa"
+    label: "Dissecção aórtica Stanford A"
+    replace: "Retalho intimal na aorta ascendente, estendendo-se ao arco e à aorta descendente até _, delimitando luz verdadeira de menor calibre e luz falsa de maior calibre, com rotura intimal de entrada a cerca de _ cm acima da junção sinotubular, compatível com dissecção aórtica Stanford tipo A. Associa-se extensão do retalho intimal para _."
+    word: true
+
+  - trigger: "atxaodisac"
+    label: "Conclusão — dissecção aórtica Stanford A"
+    replace: "Dissecção aórtica Stanford tipo A, estendendo-se até _."
+    word: true
+
+  - trigger: "atxaohim"
+    label: "Hematoma intramural da aorta"
+    replace: "Espessamento parietal em crescente da aorta _, com até _ cm de espessura (> 0,5 cm), espontaneamente hiperatenuante na fase sem contraste e sem realce após o meio de contraste endovenoso, estendendo-se por cerca de _ cm, sem retalho intimal ou rotura intimal identificável, compatível com hematoma intramural. Associa-se deslocamento central das calcificações intimais."
+    word: true
+
+  - trigger: "atxaohimc"
+    label: "Conclusão — hematoma intramural da aorta"
+    replace: "Hematoma intramural da aorta _ (Stanford tipo _)."
+    word: true
+
+  - trigger: "atxaotevar"
+    label: "Endoprótese aórtica torácica sem endoleak"
+    replace: "Endoprótese na aorta torácica descendente, estendendo-se de _ a _, pérvia e bem posicionada, com boa aposição às zonas de ancoragem, sem extravasamento do meio de contraste para o saco aneurismático, que mede _ cm (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "atxaotevarc"
+    label: "Conclusão — endoprótese torácica sem endoleak"
+    replace: "Endoprótese aórtica torácica pérvia, sem sinais de vazamento (endoleak)."
+    word: true
+
+  - trigger: "atxaoleak"
+    label: "Endoleak de endoprótese torácica"
+    replace: "Opacificação pelo meio de contraste no interior do saco aneurismático, externamente à endoprótese, junto à _, compatível com vazamento (endoleak) tipo _. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "atxaoleakc"
+    label: "Conclusão — endoleak de endoprótese torácica"
+    replace: "Vazamento (endoleak) tipo _ da endoprótese aórtica torácica."
+    word: true
+
+  - trigger: "atxaotubo"
+    label: "Enxerto tubular da aorta ascendente"
+    replace: "Status pós-operatório de substituição da aorta ascendente por enxerto tubular, pérvio, sem coleções periprotéticas ou pseudoaneurismas anastomóticos."
+    word: true
+
+  - trigger: "atxaotrau"
+    label: "Lesão aórtica traumática (pseudoaneurisma do istmo)"
+    replace: "Pseudoaneurisma sacular no istmo aórtico, junto à inserção do ligamento arterioso, medindo _ cm, compatível com lesão aórtica traumática grau III (classificação SVS). Associa-se hematoma mediastinal periaórtico."
+    word: true
+
+  - trigger: "atxaotrauc"
+    label: "Conclusão — lesão aórtica traumática"
+    replace: "Lesão aórtica traumática grau III (pseudoaneurisma do istmo aórtico), com hematoma mediastinal."
+    word: true
+
+  - trigger: "atxaocoarc"
+    label: "Coarctação da aorta"
+    replace: "Estreitamento focal da aorta no istmo, distalmente à emergência da artéria subclávia esquerda, com calibre mínimo de _ cm (aorta descendente no nível do hiato diafragmático: _ cm), compatível com coarctação da aorta. Associa-se circulação colateral exuberante pelas artérias torácicas internas e intercostais, bem como erosões nas margens inferiores de arcos costais."
+    word: true
+
+  - trigger: "atxaocoarcc"
+    label: "Conclusão — coarctação da aorta"
+    replace: "Coarctação da aorta, com circulação colateral."
+    word: true
+
+  - trigger: "atxaoite"
+    label: "Aortite (espessamento parietal circunferencial)"
+    replace: "Espessamento parietal circunferencial e regular da aorta _, com até _ cm de espessura, apresentando realce tardio pelo meio de contraste endovenoso, sugerindo aortite. Os diagnósticos diferenciais incluem arterite de Takayasu, arterite de células gigantes, doença relacionada à IgG4 e aortite infecciosa, entre outros."
+    word: true
+
+  - trigger: "atxaoitec"
+    label: "Conclusão — aortite"
+    replace: "Espessamento parietal circunferencial da aorta _, sugestivo de aortite."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE TÓRAX — ARCO AÓRTICO E VARIANTES
+  # ==========================================================================
+  - trigger: "atxarcomum"
+    label: "Tronco comum braquiocefálico-carotídeo"
+    replace: "Tronco braquiocefálico e artéria carótida comum esquerda originando-se de tronco comum no arco aórtico (variação anatômica)."
+    word: true
+
+  - trigger: "atxarduc"
+    label: "Divertículo ductal"
+    replace: "Abaulamento focal de contornos lisos na face anteromedial do istmo aórtico, formando ângulos obtusos com a parede, sem hematoma mediastinal, compatível com divertículo ductal (variação anatômica)."
+    word: true
+
+  - trigger: "atxarkom"
+    label: "Subclávia direita aberrante com divertículo de Kommerell"
+    replace: "Artéria subclávia direita aberrante originando-se como último ramo do arco aórtico, a partir de divertículo de Kommerell com _ cm de diâmetro, e cursando posteriormente ao esôfago. Associa-se impressão extrínseca na parede posterior do esôfago."
+    word: true
+
+  - trigger: "atxarkomc"
+    label: "Conclusão — subclávia aberrante com Kommerell"
+    replace: "Artéria subclávia direita aberrante (lusória) com divertículo de Kommerell (_ cm)."
+    word: true
+
+  - trigger: "atxardir"
+    label: "Arco à direita com subclávia esquerda aberrante"
+    replace: "Arco aórtico à direita, com artéria subclávia esquerda aberrante originando-se como último ramo, a partir de divertículo de Kommerell de _ cm, e cursando posteriormente ao esôfago, aspecto que pode configurar anel vascular completado pelo ligamento arterioso."
+    word: true
+
+  - trigger: "atxardirc"
+    label: "Conclusão — arco à direita com subclávia esquerda aberrante"
+    replace: "Arco aórtico à direita com artéria subclávia esquerda aberrante e divertículo de Kommerell."
+    word: true
+
+  - trigger: "atxaresp"
+    label: "Arco à direita com ramificação em espelho"
+    replace: "Arco aórtico à direita com ramificação em imagem em espelho, sendo o primeiro ramo o tronco braquiocefálico esquerdo, seguido das artérias carótida comum direita e subclávia direita."
+    word: true
+
+  - trigger: "atxarespc"
+    label: "Conclusão — arco à direita em espelho"
+    replace: "Arco aórtico à direita com ramificação em imagem em espelho."
+    word: true
+
+  - trigger: "atxardup"
+    label: "Duplo arco aórtico"
+    replace: "Duplo arco aórtico, com arcos direito (_ cm) e esquerdo (_ cm) circundando a traqueia e o esôfago e unindo-se posteriormente na aorta descendente, cada um originando as artérias carótida comum e subclávia ipsilaterais, com dominância do arco _."
+    word: true
+
+  - trigger: "atxardupc"
+    label: "Conclusão — duplo arco aórtico"
+    replace: "Duplo arco aórtico (anel vascular completo)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE TÓRAX — VEIAS SISTÊMICAS
+  # ==========================================================================
+  - trigger: "atxvsmist"
+    label: "Artefato de mistura na veia cava superior"
+    replace: "Heterogeneidade da opacificação da veia cava superior por mistura com sangue não opacificado proveniente da veia braquiocefálica contralateral e da veia ázigos, sem falha de enchimento persistente, aspecto relacionado a artefato de fluxo."
+    word: true
+
+  - trigger: "atxvscat"
+    label: "Trombo relacionado a cateter venoso central"
+    replace: "Falha de enchimento junto à extremidade do cateter venoso central, na _, medindo _ cm, compatível com trombo relacionado ao cateter."
+    word: true
+
+  - trigger: "atxvscatc"
+    label: "Conclusão — trombo relacionado a cateter"
+    replace: "Trombo relacionado ao cateter venoso central na _."
+    word: true
+
+  - trigger: "atxvsvcs"
+    label: "Obstrução da veia cava superior com colaterais"
+    replace: "Oclusão da veia cava superior por _, estendendo-se por cerca de _ cm a partir da confluência das veias braquiocefálicas. Associa-se circulação colateral exuberante pelos sistemas ázigos/hemiázigos, torácico interno e venoso da parede torácica."
+    word: true
+
+  - trigger: "atxvsvcsc"
+    label: "Conclusão — obstrução da veia cava superior"
+    replace: "Obstrução da veia cava superior por _, com circulação colateral."
+    word: true
+
+  - trigger: "atxvsazig"
+    label: "Lobo ázigos"
+    replace: "Lobo ázigos, delimitado por fissura acessória que contém a veia ázigos (variação anatômica)."
+    word: true
+
+  - trigger: "atxvsbcr"
+    label: "Veia braquiocefálica esquerda retroaórtica"
+    replace: "Veia braquiocefálica esquerda com trajeto retroaórtico, cursando inferiormente ao arco aórtico antes de desembocar na veia cava superior (variação anatômica)."
+    word: true
+
+  - trigger: "atxvscont"
+    label: "Continuação ázigos da veia cava inferior"
+    replace: "Interrupção do segmento intra-hepático da veia cava inferior, com continuação pela veia ázigos, dilatada (_ cm), que drena na veia cava superior, e veias hepáticas drenando diretamente no átrio direito."
+    word: true
+
+  - trigger: "atxvscontc"
+    label: "Conclusão — continuação ázigos da veia cava inferior"
+    replace: "Continuação ázigos da veia cava inferior (variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE TÓRAX — VEIAS PULMONARES
+  # ==========================================================================
+  - trigger: "atxvptc"
+    label: "Tronco comum das veias pulmonares esquerdas"
+    replace: "Veias pulmonares superior e inferior esquerdas confluindo em tronco comum antes de desembocar no átrio esquerdo (variação anatômica)."
+    word: true
+
+  - trigger: "atxvpmed"
+    label: "Veia pulmonar média direita acessória"
+    replace: "Veia pulmonar média direita acessória, drenando separadamente no átrio esquerdo (variação anatômica)."
+    word: true
+
+  - trigger: "atxvpdvae"
+    label: "Drenagem venosa anômala parcial esquerda (veia vertical)"
+    replace: "Veia pulmonar superior esquerda drenando na veia braquiocefálica esquerda por meio de veia vertical que cursa lateralmente ao arco aórtico, compatível com drenagem venosa pulmonar anômala parcial."
+    word: true
+
+  - trigger: "atxvpdvaec"
+    label: "Conclusão — drenagem venosa anômala parcial esquerda"
+    replace: "Drenagem venosa pulmonar anômala parcial da veia pulmonar superior esquerda para a veia braquiocefálica esquerda."
+    word: true
+
+  - trigger: "atxvpdvad"
+    label: "Drenagem venosa anômala parcial direita (VCS)"
+    replace: "Veias pulmonares do lobo superior direito drenando na veia cava superior, compatível com drenagem venosa pulmonar anômala parcial, não podendo ser descartada comunicação interatrial do tipo seio venoso superior."
+    word: true
+
+  - trigger: "atxvpdvadc"
+    label: "Conclusão — drenagem venosa anômala parcial direita"
+    replace: "Drenagem venosa pulmonar anômala parcial do lobo superior direito para a veia cava superior, recomendando-se correlação ecocardiográfica para pesquisa de comunicação interatrial do tipo seio venoso."
+    word: true
+
+  - trigger: "atxvpcimit"
+    label: "Síndrome da cimitarra"
+    replace: "Veia pulmonar anômala de trajeto curvilíneo, drenando o pulmão direito na veia cava inferior junto à junção cavoatrial (veia em cimitarra), com hipoplasia do pulmão direito e dextroposição cardíaca, compatível com síndrome da cimitarra."
+    word: true
+
+  - trigger: "atxvpcimitc"
+    label: "Conclusão — síndrome da cimitarra"
+    replace: "Síndrome da cimitarra (drenagem venosa pulmonar anômala parcial para a veia cava inferior)."
+    word: true
+
+  - trigger: "atxvpest"
+    label: "Estenose de veia pulmonar"
+    replace: "Redução do calibre do óstio da veia pulmonar _, com diâmetro de _ cm (redução de cerca de _% em relação a _), compatível com estenose de veia pulmonar."
+    word: true
+
+  - trigger: "atxvpestc"
+    label: "Conclusão — estenose de veia pulmonar"
+    replace: "Estenose _ do óstio da veia pulmonar _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE TÓRAX — CIRCULAÇÃO SISTÊMICA PULMONAR
+  # ==========================================================================
+  - trigger: "atxspbron"
+    label: "Hipertrofia das artérias brônquicas"
+    replace: "Artérias brônquicas hipertróficas e tortuosas, com calibre de até _ cm na origem (> 0,2 cm), originando-se da aorta torácica descendente no nível de _ e dirigindo-se ao hilo _."
+    word: true
+
+  - trigger: "atxspbronc"
+    label: "Conclusão — hipertrofia das artérias brônquicas"
+    replace: "Hipertrofia das artérias brônquicas."
+    word: true
+
+  - trigger: "atxspseq"
+    label: "Sequestro pulmonar"
+    replace: "Área de consolidação com componentes císticos no segmento basal posterior do lobo inferior _, irrigada por artéria sistêmica aberrante de _ cm, originada da aorta _, com drenagem venosa para _, compatível com sequestro pulmonar _."
+    word: true
+
+  - trigger: "atxspseqc"
+    label: "Conclusão — sequestro pulmonar"
+    replace: "Sequestro pulmonar _ no lobo inferior _, com artéria nutridora oriunda da aorta _."
+    word: true
