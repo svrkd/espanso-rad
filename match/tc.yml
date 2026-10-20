@@ -816,7 +816,7 @@ matches:
 
   - trigger: "cistoder"
     label: "Lesão extra-axial com densidade gordurosa (cisto dermoide)"
-    replace: "Lesão expansiva extra-axial, medindo cerca de _cm x _cm x _cm, localizada nas fossas média e anterior à esquerda determinando compressão sobre o parênquima encefálico adjacente e o quiasma óptico, com desvio contralateral das estruturas da linha média. Essa lesão exibe densidade heterogênea, semelhante à da gordura, sem realce pelo meio de contraste endovenoso."
+    replace: "Lesão expansiva extra-axial, medindo cerca de _ x _ x _ cm, localizada nas fossas média e anterior à esquerda determinando compressão sobre o parênquima encefálico adjacente e o quiasma óptico, com desvio contralateral das estruturas da linha média. Essa lesão exibe densidade heterogênea, semelhante à da gordura, sem realce pelo meio de contraste endovenoso."
     word: true
 
   - trigger: "cistoderop"
@@ -2142,7 +2142,7 @@ matches:
 
   - trigger: "fai"
     label: "Fratura por acunhamento vertebral"
-    replace: "Fratura em acunhamento/insuficiência do corpo vertebral de __ com redução de cerca de __% de sua altura, porém sem retropulsão do muro posterior."
+    replace: "Fratura em acunhamento/insuficiência do corpo vertebral de _ com redução de cerca de _% de sua altura, porém sem retropulsão do muro posterior."
     word: true
 
   - trigger: "ilfc"
@@ -2427,12 +2427,12 @@ matches:
     label: "Pequena hérnia diafragmática posterior bilateral."
     replace: "Pequenas hérnias diafragmáticas posteriores bilateralmente."
     word: true
-    
+
   - trigger: "carnl"
     label: "Área cardíaca habitual, sem sinais de derrame pericárdico."
     replace: "Área cardíaca habitual, sem sinais de derrame pericárdico."
     word: true
-    
+
   - trigger: "aapicatriz"
     label: "Cicatriz apical pulmonar direita"
     replace: "Lesão de aspecto cicatricial no ápice pulmonar direito, com espessamento pleural focal e bronquiectasias de aspecto retrátil."
@@ -2743,12 +2743,12 @@ matches:
 
   - trigger: "enf2"
     label: "Enfisema centrolobular e parasseptal"
-    replace: Enfisema centrolobular e parasseptal esparsos pelos campos pulmonares.
+    replace: Enfisema centrolobular e parasseptal esparso pelos campos pulmonares.
     word: true
 
   - trigger: "enf3"
     label: "Enfisema centrolobular e parasseptal"
-    replace: Enfisema centrolobular e parasseptal esparsos pelos campos pulmonares.
+    replace: Enfisema centrolobular e parasseptal esparso pelos campos pulmonares.
     word: true
 
   - trigger: "epb"
@@ -3495,7 +3495,7 @@ matches:
 
   - trigger: "tt538"
     label: "Sequela de processo granulomatoso apical"
-    replace: "Múltiplas estrias parenquimatosas com distorção arquitetural no ápice ____ associadas a nódulos calcificados e discretas bronquiectasias, com aspecto de sequela de processo granulomatoso prévio."
+    replace: "Múltiplas estrias parenquimatosas com distorção arquitetural no ápice _ associadas a nódulos calcificados e discretas bronquiectasias, com aspecto de sequela de processo granulomatoso prévio."
     word: true
 
   - trigger: "tt540"
@@ -3996,7 +3996,7 @@ matches:
 
   - trigger: "cistobartholin"
     label: "Cisto de Bartholin"
-    replace: "Formação cística no intróito vaginal à direita, medindo _ cm. A possibilidade de cisto de Bartholin pode ser considerada dentre os diagnósticos diferenciais."
+    replace: "Formação cística no introito vaginal à direita, medindo _ cm. A possibilidade de cisto de Bartholin pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
   - trigger: "cistofora"
@@ -4046,7 +4046,7 @@ matches:
 
   - trigger: "coringapelve"
     label: "Achados inflamatórios pélvicos/enterite (DII?)"
-    replace: "Distensão hidroaérea de alças jejunais e ileais, com áreas de espessamento e hiper-realce segmentar, acompanhadas de ingurgitamento da arcada vascular adjacente, pequena quantidade de líquido livre na cavidade pélvica, densificação da gordura mesentérica e aumento do número de linfonodos regionais, sem caracterizar linfonodomegalias. A possibilidade de processo inflamatório/infeccioso regional, destacando-se as hipóteses de doença inflamatória intestinal, enterite ou doença inflamatória pélvica aguda de origem ginecológica pode ser considerada. Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
+    replace: "Distensão hidroaérea de alças jejunais e ileais, com áreas de espessamento e hiper-realce segmentar, acompanhadas de ingurgitamento da arcada vascular adjacente, pequena quantidade de líquido livre na cavidade pélvica, densificação da gordura mesentérica e aumento do número de linfonodos regionais, sem caracterizar linfonodomegalias. A possibilidade de processo inflamatório/infeccioso regional, destacando-se as hipóteses de doença inflamatória intestinal, enterite ou doença inflamatória pélvica aguda de origem ginecológica, pode ser considerada. Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
     word: true
 
   - trigger: "cotuba"
@@ -6696,7 +6696,7 @@ matches:
       Meniscos, ligamentos e cartilagens de avaliação limitada.
 
       Conclusão:
-      Fratura da tíbia e fíbula, acima descritas.
+      Fraturas da tíbia e da fíbula, acima descritas.
     word: true
 
   - trigger: "fraturaumero"
@@ -7137,10 +7137,10 @@ matches:
   - trigger: "pediabetico"
     label: "TC de pé esquerdo — osteomielite e fleimão (pé diabético)"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE PÉ ESQUERDO - C/C
+      TOMOGRAFIA COMPUTADORIZADA DO PÉ ESQUERDO C/C
 
       Técnica:
-      Foi feito estudo volumétrico-multislice do pé esquerdo, com uso de meio de contraste endovenoso.
+      Foram obtidas imagens por aquisição volumétrica multislice, após a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
       Lesões líticas localizadas na cabeça do segundo metatarso sugerindo osteomielite.
@@ -7160,10 +7160,10 @@ matches:
   - trigger: "pediabetico1"
     label: "TC de pé direito — osteomielite complicada (pé diabético)"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE PÉ DIREITO - C/C
+      TOMOGRAFIA COMPUTADORIZADA DO PÉ DIREITO C/C
 
       Técnica:
-      Foi feito estudo volumétrico-multislice do pé direito, com fase antes e após administração do contraste endovenoso.
+      Foram obtidas imagens por aquisição volumétrica multislice, antes e após a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
       Lesões líticas promovendo destruição/reabsorção das falanges proximal e distal do quinto pododáctilo, bem como da falange proximal do quarto pododáctilo. Há rarefação óssea da cabeça do quinto metatarso. Associa-se aumento volumétrico de partes moles adjacentes e coleção hidroaérea com realce periférico pelo meio de contraste endovenoso dissecando planos mioadiposos e subcutâneos plantares nesse nível. A possibilidade de osteomielite aguda complicada com fleimão/abscesso deve ser considerada.
@@ -7183,7 +7183,7 @@ matches:
   - trigger: "pediabetico2"
     label: "TC de pé direito — pé diabético com osteomielite crônica"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE PÉ DIREITO S/C
+      TOMOGRAFIA COMPUTADORIZADA DO PÉ DIREITO S/C
 
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
@@ -7242,10 +7242,10 @@ matches:
   - trigger: "pepodre2"
     label: "TC de pé direito — osteomielite com fístulas cutâneas"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE PÉ DIREITO S/C
+      TOMOGRAFIA COMPUTADORIZADA DO PÉ DIREITO S/C
 
       Técnica:
-      Foi feito estudo volumétrico-multislice do pé direito, somente na fase sem uso de contraste endovenoso.
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
       Aumento volumétrico de planos mioadiposos do antepé, observando-se coleções hipodensas, de limites pouco definidos, com gás de permeio, dissecando partes moles em torno das falanges do terceiro dedo, sugerindo fleimão/abscesso. Notam-se trajetos fistulosos entre essas coleções e lesões cutâneas ulceradas nas faces dorsal e plantar do antepé.
@@ -8122,10 +8122,10 @@ matches:
   - trigger: "tccharcot"
     label: "TC de pé — artropatia de Charcot (Lisfranc) com fleimão/abscesso"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE PÉ ESQUERDO S/C
+      TOMOGRAFIA COMPUTADORIZADA DO PÉ ESQUERDO S/C
 
       Técnica:
-      Foi feito estudo volumétrico-multislice do pé esquerdo, somente na fase sem uso de contraste endovenoso.
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
       Destruição da articulação tarsometatarsal (Lisfranc), com subluxação do cuneiforme medial e do 3º, 4º e 5º metatarsos. Há desorganização/fragmentação com reabsorção parcial e perda do padrão habitual do trabeculado da medular óssea dos cuneiformes e do cuboide. Redução dos espaços articulares mediotarsais e tarsometatarsais, com cistos/erosões subcondrais, erosão óssea marginal e destruição das respectivas cartilagens de revestimento. Admite-se inicialmente a hipótese de artropatia neuropática (Charcot), não podendo ser afastada a possibilidade de osteomielite de forma concomitante.
@@ -8567,7 +8567,7 @@ matches:
   - trigger: "tcosteomielite"
     label: "TC de pé direito — osteomielite multifocal com fleimão"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE PÉ DIREITO S/C
+      TOMOGRAFIA COMPUTADORIZADA DO PÉ DIREITO S/C
 
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
@@ -9392,21 +9392,19 @@ matches:
   - trigger: "tccalcaneo"
     label: "TC de calcâneo S/C — normal"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE CALCÂNEO DIREITO/ESQUERDO S/C
+      TOMOGRAFIA COMPUTADORIZADA DO CALCÂNEO DIREITO/ESQUERDO S/C
 
       Técnica:
-      Foi feito estudo volumétrico-multislice em equipamento com 16 fileiras de detectores, somente na fase sem uso de contraste endovenoso.
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
       Estruturas ósseas de formato habitual, sem sinais de fraturas.
-      Cortical e medular óssea de morfologia e densidade normais.
-      Superfícies e espaços articulares íntegros, com relações articulares mantidas.
-      Não se observa derrame articular.
-      Planos musculogordurosos íntegros.
-      Não se observam massas ou coleções em partes moles adjacentes.
+      Espaços articulares de contornos regulares.
+      Não há sinais de derrame articular.
+      Planos musculares e tendíneos sem alterações tomográficas.
 
       Conclusão:
-      Estudo tomográfico computadorizado do calcâneo direito/esquerdo sem evidência de anormalidades.
+      Exame dentro dos padrões da normalidade.
     word: true
 
   - trigger: "tccc"
@@ -9452,24 +9450,21 @@ matches:
     word: true
 
   - trigger: "tccotovelo"
-    label: "TC de cotovelo C/C — normal"
+    label: "TC de cotovelo S/C — normal"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE COTOVELO DIREITO/ESQUERDO - C/C
+      TOMOGRAFIA COMPUTADORIZADA DO COTOVELO DIREITO/ESQUERDO S/C
 
       Técnica:
-      Foi feito estudo volumétrico-multislice em equipamento com 16 fileiras de detectores, com fase antes e após a administração do contraste endovenoso.
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
-      Cortical e medular óssea de morfologia e densidade normais.
-      Superfícies e espaços articulares íntegros, com relações articulares mantidas.
-      Não há derrame articular ou corpos livres intra-articulares.
-      Planos musculares íntegros.
-      Não há sinais de fratura ou lesões ósseas destrutivas.
-      Não se observam massas ou coleções em partes moles adjacentes.
-      Após a administração de contraste endovenoso, não se observou realce patológico.
+      Estruturas ósseas de formato habitual, sem sinais de fraturas.
+      Espaços articulares de contornos regulares.
+      Não há sinais de derrame articular.
+      Planos musculares e tendíneos sem alterações tomográficas.
 
       Conclusão:
-      Estudo tomográfico computadorizado do cotovelo direito/esquerdo sem evidência de anormalidades.
+      Exame dentro dos padrões da normalidade.
     word: true
 
   - trigger: "tccr"
@@ -9587,25 +9582,21 @@ matches:
     word: true
 
   - trigger: "tcpe"
-    label: "TC de pé — normal"
+    label: "TC de pé S/C — normal"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE PÉ DIREITO/ESQUERDO - C/C E S/C
+      TOMOGRAFIA COMPUTADORIZADA DO PÉ DIREITO/ESQUERDO S/C
 
       Técnica:
-      Foi feito estudo volumétrico-multislice do pé direito/esquerdo, somente na fase sem uso de contraste endovenoso (com fase antes e após administração do contraste endovenoso).
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
-      Cortical e medular óssea de morfologia e densidade normais.
-      Superfícies e espaços articulares íntegros, com relações articulares mantidas.
-      Não se observa derrame articular.
-      Planos musculogordurosos íntegros.
-      Ausência de sinais de fraturas ou lesões ósseas destrutivas.
-      Não se observam massas ou coleções em partes moles adjacentes.
-
-      Após a administração de contraste endovenoso, não se observou realce patológico.
+      Estruturas ósseas de formato habitual, sem sinais de fraturas.
+      Espaços articulares de contornos regulares.
+      Não há sinais de derrame articular.
+      Planos musculares e tendíneos sem alterações tomográficas.
 
       Conclusão:
-      Estudo tomográfico computadorizado do pé direito/esquerdo sem evidência de anormalidades.
+      Exame dentro dos padrões da normalidade.
     word: true
 
   - trigger: "tcpelvef"
@@ -9651,21 +9642,19 @@ matches:
   - trigger: "tcperna"
     label: "TC de perna S/C — normal"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE PERNA DIREITA/ESQUERDA S/C
+      TOMOGRAFIA COMPUTADORIZADA DA PERNA DIREITA/ESQUERDA S/C
 
       Técnica:
-      Foi feito estudo volumétrico-multislice em equipamento com 16 fileiras de detectores da perna direita/esquerda, somente na fase sem uso de contraste endovenoso (com fase antes e após administração do contraste endovenoso).
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
-      Cortical e medular óssea de morfologia e densidade normais.
-      Não há derrame articular ou corpos livres intra-articulares.
-      Planos musculares íntegros.
-      Não há sinais de fratura ou lesões ósseas destrutivas.
-      Não se observam massas ou coleções em partes moles adjacentes.
-      Após a administração de contraste endovenoso, não se observou realce patológico.
+      Estruturas ósseas de formato habitual, sem sinais de fraturas.
+      Espaços articulares de contornos regulares.
+      Não há sinais de derrame articular.
+      Planos musculares e tendíneos sem alterações tomográficas.
 
       Conclusão:
-      Estudo tomográfico computadorizado da perna direita/esquerda sem evidência de anormalidades.
+      Exame dentro dos padrões da normalidade.
     word: true
 
   - trigger: "tcseio"
@@ -9779,7 +9768,7 @@ matches:
       TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR C/C
 
       Técnica:
-      Imagens obtidas em aparelho multislice antes e após a administração intravenosa de meio de contraste iodado. 
+      Imagens obtidas em aparelho multislice antes e após a administração intravenosa de meio de contraste iodado.
 
       Descrição:
       Fígado com dimensões, contornos e densidade normais.
@@ -9845,10 +9834,10 @@ matches:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
-      Estruturas ósseas de forma conservada, sem sinais de fraturas.
+      Estruturas ósseas de formato habitual, sem sinais de fraturas.
       Espaços articulares de contornos regulares.
       Não há sinais de derrame articular.
-      Planos musculares sem alterações tomográficas.
+      Planos musculares e tendíneos sem alterações tomográficas.
 
       Conclusão:
       Exame dentro dos padrões da normalidade.
@@ -10317,11 +10306,6 @@ matches:
   - trigger: "azigos"
     label: "Lobo da veia ázigos (variante anatômica)"
     replace: Presença do lobo da veia ázigos (variante da normalidade).
-    word: true
-
-  - trigger: "azuk"
-    label: "azul"
-    replace: azul
     word: true
 
   - trigger: "bifi"
@@ -11950,7 +11934,7 @@ matches:
 
   - trigger: "tcfacada1"
     label: "Ferimentos perfurocortantes na parede torácica anterior"
-    replace: "Na parede torácica anterior, observam-se pequenas áreas de solução de continuidade em pele, tecido subcutâneo e planos musculares com hematoma e enfisema, localizadas nas regiões peitoral superior direito e pré-esternal esquerda, compatíveis com ferimentos perfurocortantes, conforme a suspeita clínica."
+    replace: "Na parede torácica anterior, observam-se pequenas áreas de solução de continuidade em pele, tecido subcutâneo e planos musculares com hematoma e enfisema, localizadas nas regiões peitoral superior direita e pré-esternal esquerda, compatíveis com ferimentos perfurocortantes, conforme a suspeita clínica."
     word: true
 
   - trigger: "tcfer"
@@ -12068,16 +12052,6 @@ matches:
   - trigger: "tenlimi"
     label: "Tendões e ligamentos de avaliação limitada"
     replace: Tendões e ligamentos de avaliação limitada nesse estudo.
-    word: true
-
-  - trigger: "teste1"
-    label: "Teste (entrada de teste)"
-    replace: teste1
-    word: true
-
-  - trigger: "testet"
-    label: "Teste (entrada de teste do Texter)"
-    replace: teste texter
     word: true
 
   - trigger: "tetas"
@@ -12415,11 +12389,6 @@ matches:
     replace: "T1-T2, T2-T3, T3-T4, T4-T5, T5-T6, T6-T7, T7-T8, T8-T9, T9-T10, T10-T11 e T11-T12"
     word: true
 
-  - trigger: "tortinha"
-    label: "Texto 'tinha' (correção ortográfica)"
-    replace: tinha
-    word: true
-
   - trigger: "art"
     label: "Artefatos de movimentação respiratória"
     replace: Avaliação de exame prejudicada por artefatos de movimentação respiratória.
@@ -12579,7 +12548,7 @@ matches:
 
   - trigger: "tt12"
     label: "Fraturas múltiplas de costelas"
-    replace: Fraturas múltiplas da _ à _ª costelas.
+    replace: Fraturas múltiplas da _ª à _ª costelas.
     word: true
 
   - trigger: "tt121"

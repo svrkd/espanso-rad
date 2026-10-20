@@ -9,11 +9,11 @@ matches:
     replace: |
       SELA TÚRCICA
 
-      Clinoides anterior, posterior, dorso selar e assoalho da sela túrcica de morfologia normais.
+      Clinoides anterior, posterior, dorso selar e assoalho da sela túrcica de morfologia normal.
       Ausência de imagens radiológicas sugestivas de calcificações patológicas.
 
       Conclusão:
-      Sela Túrcica radiologicamente normal.
+      Sela túrcica radiologicamente normal.
     word: true
 
   # ==========================================================================
@@ -22,7 +22,7 @@ matches:
 
   - trigger: "albright"
     label: "Encurtamento do 4º metacarpo (Albright)"
-    replace: "Encurtamento bilateral do 4º metacarpo, achado que pode ser encontrado em síndromes genéticas como pseudohipoparatireoidismo tipo Ia (osteodistrofia hereditária de Albright), entre outras causas congênitas. Correlacionar com dados clínicos."
+    replace: "Encurtamento bilateral do 4º metacarpo, achado que pode ser encontrado em síndromes genéticas como pseudo-hipoparatireoidismo tipo Ia (osteodistrofia hereditária de Albright), entre outras causas congênitas. Correlacionar com dados clínicos."
     word: true
 
   - trigger: "redus"
@@ -88,12 +88,12 @@ matches:
     label: "Radiografia de coluna cervical — alterações degenerativas"
     replace: |
       Textura óssea preservada.
-      Transição crânio-vertebral preservada.
+      Transição craniovertebral preservada.
       Artropatia da face articular anterior de C1 com o processo odontoide.
       Acentuação da lordose cervical.
       Osteófitos marginais nos corpos vertebrais.
-      Pedículos, laminas e processos transversos preservados.
-      Artropatia interapofisárias e uncovertebrais.
+      Pedículos, lâminas e processos transversos preservados.
+      Artropatia das interapofisárias e uncovertebrais.
       Espaços discais preservados.
     word: true
 
@@ -104,22 +104,22 @@ matches:
 
   - trigger: "dlcld"
     label: "Escoliose lombar convexa à direita"
-    replace: Desvio lateral da coluna lombar com convexidade para direita.
+    replace: Desvio lateral da coluna lombar com convexidade para a direita.
     word: true
 
   - trigger: "dlcle"
     label: "Escoliose lombar convexa à esquerda"
-    replace: Desvio lateral da coluna lombar com convexidade para esquerda.
+    replace: Desvio lateral da coluna lombar com convexidade para a esquerda.
     word: true
 
   - trigger: "dlctd"
     label: "Escoliose torácica convexa à direita"
-    replace: Desvio lateral da coluna torácica com convexidade para direita.
+    replace: Desvio lateral da coluna torácica com convexidade para a direita.
     word: true
 
   - trigger: "dlcte"
     label: "Escoliose torácica convexa à esquerda"
-    replace: Desvio lateral da coluna torácica com convexidade para esquerda.
+    replace: Desvio lateral da coluna torácica com convexidade para a esquerda.
     word: true
 
   - trigger: "estl"
@@ -144,12 +144,12 @@ matches:
 
   - trigger: "ldlc"
     label: "Leve escoliose lombar à esquerda"
-    replace: "Leve desvio lateral da coluna lombar com convexidade para esquerda, na posição de estudo."
+    replace: "Leve desvio lateral da coluna lombar com convexidade para a esquerda, na posição de estudo."
     word: true
 
   - trigger: "limbo"
     label: "Vértebra em limbo"
-    replace: "Pequeno fragmento ósseo triangular e bem corticado adjacente ao canto ântero-superior (ou póstero-superior) do corpo vertebral, com margens regulares e escleróticas, separado do corpo vertebral por um espaço nítido, compatível com vértebra em limbo."
+    replace: "Pequeno fragmento ósseo triangular e bem corticado adjacente ao canto anterossuperior (ou posterossuperior) do corpo vertebral, com margens regulares e escleróticas, separado do corpo vertebral por um espaço nítido, compatível com vértebra em limbo."
     word: true
 
   - trigger: "ll"
@@ -167,7 +167,7 @@ matches:
     label: "Radiografia de coluna lombar — alterações degenerativas"
     replace: |
       Redução da densidade óssea.
-      Desvio lateral da coluna lombar com convexidade para esquerda.
+      Desvio lateral da coluna lombar com convexidade para a esquerda.
       Osteófitos marginais nos corpos vertebrais.
       Pedículos, lâminas e processos transversos preservados.
       Artropatia degenerativa das interapofisárias.
@@ -215,14 +215,14 @@ matches:
       Textura óssea preservada.
       Bom alinhamento dos corpos vertebrais torácicos.
       Corpos vertebrais com morfologia normal.
-      Pedículos, laminas e processos transversos reservados.
+      Pedículos, lâminas e processos transversos preservados.
       Articulações interapofisárias sem alterações significativas.
       Espaços discais preservados.
     word: true
 
   - trigger: "unco"
     label: "Artropatia interapofisária e uncovertebral"
-    replace: Artropatia interapofisárias e uncovertebrais.
+    replace: Artropatia das interapofisárias e uncovertebrais.
     word: true
 
   - trigger: "alom"
@@ -247,7 +247,7 @@ matches:
 
   - trigger: "artroapu"
     label: "Artropatia interapofisária, uncovertebral e atlantoaxial"
-    replace: "Artropatia degenerativa das interapofisárias, das uncovertebrais e da atlanto-axial."
+    replace: "Artropatia degenerativa das interapofisárias, das uncovertebrais e da atlantoaxial."
     word: true
 
   - trigger: "artrosisp"
@@ -306,8 +306,8 @@ matches:
     word: true
 
   - trigger: "invagivert"
-    label: "Invaginação vertebrobasilar (linha de Chamberlain)"
-    replace: "Ápice do processo odontoide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação vertebrobasilar."
+    label: "Invaginação basilar (linha de Chamberlain)"
+    replace: "Ápice do processo odontoide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação basilar."
     word: true
 
   - trigger: "mretrolis"
@@ -327,7 +327,7 @@ matches:
 
   - trigger: "visuate"
     label: "Visualizado até C6 (perfil)"
-    replace: Visualizado até corpo vertebra de C6 na incidência em perfil.
+    replace: Visualizado até o corpo vertebral de C6 na incidência em perfil.
     word: true
 
   - trigger: "vtt"
@@ -361,16 +361,16 @@ matches:
       Equilíbrio sagital neutro.
       Corpos vertebrais com altura e alinhamento posterior preservados.
       - Redução da textura óssea.
-      - Discreta escoliose dextro-convexa da coluna lombar.
-      - Escoliose sigmoidea da coluna vertebral, com desvio para a direita do segmento torácico e para a esquerda do segmento lombar associado a rotação axial dos corpos vertebrais.
+      - Discreta escoliose dextroconvexa da coluna lombar.
+      - Escoliose sigmoidea da coluna vertebral, com desvio para a direita do segmento torácico e para a esquerda do segmento lombar associada a rotação axial dos corpos vertebrais.
       - Retificação da curvatura anteroposterior fisiológica cervical.
       - Acentuação da cifose torácica.
       - Acentuação da lordose lombar.
       - Equilíbrio sagital positivo negativo.
-      - Ângulo de Cobb de _º. Consideramos o platô superior de T4, platô inferior de T12 e vertebral apical T9.
+      - Ângulo de Cobb de _°. Consideramos o platô superior de T4, platô inferior de T12 e vértebra apical T9.
       - Alterações degenerativas da coluna vertebral.
       - Redução em cerca de 50% da altura do corpo vertebral de L1.
-      - Corpos vertebrais alinhamento posterior preservados.
+      - Corpos vertebrais com alinhamento posterior preservado.
     word: true
 
   # ==========================================================================
@@ -539,7 +539,7 @@ matches:
 
   - trigger: "pectus"
     label: "Pectus excavatum"
-    replace: "Redução do diâmetro ântero-posterior do tórax, visível principalmente na incidência lateral, sugerindo pectus excavatum."
+    replace: "Redução do diâmetro anteroposterior do tórax, visível principalmente na incidência lateral, sugerindo pectus excavatum."
     word: true
 
   - trigger: "philar"
@@ -562,7 +562,7 @@ matches:
 
   - trigger: "queijop"
     label: "Metástases pulmonares nodulares"
-    replace: "Múltiplas opacidades nódulares difusas pelo parênquima pulmonar bilateralmente, sugestivos de acometimento neoplásico secundário."
+    replace: "Múltiplas opacidades nodulares difusas pelo parênquima pulmonar bilateralmente, sugestivas de acometimento neoplásico secundário."
     word: true
 
   - trigger: "redu"
@@ -649,7 +649,7 @@ matches:
 
   - trigger: "topret"
     label: "Opacidades reticulares em bases pulmonares"
-    replace: Tênue opacidades reticulares em ambas as bases pulmonares.
+    replace: Tênues opacidades reticulares em ambas as bases pulmonares.
     word: true
 
   - trigger: "trama"
@@ -678,8 +678,8 @@ matches:
     word: true
 
   - trigger: "marcap"
-    label: "Marcapasso cardíaco subcutâneo"
-    replace: Marcapasso cardíaco subcutâneo em hemitórax
+    label: "Marca-passo cardíaco subcutâneo"
+    replace: Marca-passo cardíaco subcutâneo em hemitórax
     word: true
 
   - trigger: "oalveolares"
@@ -839,7 +839,7 @@ matches:
 
   - trigger: "mcsh"
     label: "Marca-passo cardíaco"
-    replace: Marcapasso cardíaco projetado sobre o tórax.
+    replace: Marca-passo cardíaco projetado sobre o tórax.
     word: true
 
   - trigger: "popa"
@@ -875,10 +875,10 @@ matches:
     label: "Exame contrastado terapêutico — dilatação intestinal"
     replace: |
       Exame realizado para fins terapêuticos
-      A radiografia simples do abdome realizada previamente, evidencia intensa dilatação de alças intestinais.
+      A radiografia simples do abdome realizada previamente evidencia intensa dilatação de alças intestinais.
       Após a ingestão do meio de contraste positivo, destacam-se os seguintes aspectos:
       Progressão lenta do contraste até topografia de jejuno/íleo.
-      Não foi observado progressão completa do contraste após _ minutos.
+      Não foi observada progressão completa do contraste após _ minutos.
     word: true
 
   - trigger: "dgai2"
@@ -900,7 +900,7 @@ matches:
 
   - trigger: "lais"
     label: "Polidactilia rudimentar (apêndice cutâneo)"
-    replace: "Formação de tecido mole em continuidade com a borda lateral do 5º quirodáctilo, sem estrutura óssea ou articular associada, sugerindo com polidactilia rudimentar (apêndice cutâneo)."
+    replace: "Formação de tecido mole em continuidade com a borda lateral do 5º quirodáctilo, sem estrutura óssea ou articular associada, sugerindo polidactilia rudimentar (apêndice cutâneo)."
     word: true
 
   - trigger: "mioma"
@@ -935,7 +935,7 @@ matches:
 
   - trigger: "pneumomigue"
     label: "Pneumoperitônio"
-    replace: "Radioluscência na topografia da hemicúpula diafragmática direita, podendo corresponder a pneumoperitônio."
+    replace: "Radiolucência na topografia da hemicúpula diafragmática direita, podendo corresponder a pneumoperitônio."
     word: true
 
   - trigger: "retardo"
@@ -966,7 +966,7 @@ matches:
       Após as incidências miccionais, observou-se:
       Redução de calibre da uretra membranosa.
       Bexiga de forma, contornos, capacidade e topografia normais.
-      Ausência de refluxo vesico-ureteral no presente exame.
+      Ausência de refluxo vesicoureteral no presente exame.
       Pequeno resíduo vesical pós-miccional.
     word: true
 
@@ -983,12 +983,12 @@ matches:
   - trigger: "eeduodeno"
     label: "Esôfago, estômago e duodeno — template normal"
     replace: |
-      ESOFAGO - ESTOMAGO E DUODENO
+      ESÔFAGO - ESTÔMAGO E DUODENO
 
       Descrição:
       Esôfago com forma, contornos e calibre normais, esvaziando-se em tempos fisiológicos.
 
-      Ausência de hérnia de hiato e refluxo gastro-esofágico.
+      Ausência de hérnia de hiato e refluxo gastroesofágico.
 
       Estômago com forma, contornos, relevo mucoso e elasticidade normais.
 
@@ -1058,7 +1058,7 @@ matches:
       Descrição:
       A radiografia simples realizada previamente não evidencia alterações radiológicas dignas de nota.
       Bexiga com forma, contornos e dimensões normais.
-      Ausência de refluxo vésico-ureteral.
+      Ausência de refluxo vesicoureteral.
       Uretra com forma, contornos e calibre normais.
       Ausência de resíduo vesical pós-miccional.
 
@@ -1073,9 +1073,9 @@ matches:
 
       Descrição:
       A radiografia simples realizada previamente não evidencia alterações radiológicas dignas de nota.
-      Eliminação simultânea de contraste pelos rins que apresentam com forma, contornos e dimensões normais.
+      Eliminação simultânea de contraste pelos rins que apresentam forma, contornos e dimensões normais.
       Árvores pielocaliciais e ureteres íntegros sem obstáculos ao fluxo de contraste.
-      Bexiga com capacidade normal, sem defeitos de epleção ou sinais de compressão extrínseca, tendo contornos regulares e forma normal.
+      Bexiga com capacidade normal, sem defeitos de repleção ou sinais de compressão extrínseca, tendo contornos regulares e forma normal.
 
       Conclusão:
       Urograma normal.
@@ -1126,7 +1126,7 @@ matches:
     label: "Fratura de Colles"
     replace: |
       Textura óssea preservada.
-      Fratura cominutiva metaepifisária distal do rádio com desvio posterior do segmento distal, bem com extensão para a articulação radiocarpal.
+      Fratura cominutiva metaepifisária distal do rádio com desvio posterior do segmento distal, bem como extensão para a articulação radiocarpal.
       Aumento e densificação de partes moles adjacentes ao sítio de fratura.
       Ausência de calcificações de partes moles.
     word: true
@@ -1220,7 +1220,7 @@ matches:
     label: "Fratura de Smith (rádio distal)"
     replace: |
       Textura óssea preservada.
-      Fratura cominutiva metaepifisária distal do rádio com desvio anterior do segmento distal, bem com extensão para a articulação radiocarpal.
+      Fratura cominutiva metaepifisária distal do rádio com desvio anterior do segmento distal, bem como extensão para a articulação radiocarpal.
       Aumento e densificação de partes moles adjacentes ao sítio de fratura.
       Ausência de calcificações de partes moles.
     word: true
@@ -1248,7 +1248,7 @@ matches:
   - trigger: "idadeossea"
     label: "Idade óssea — mãos e punhos (template)"
     replace: |
-      MAOS E PUNHOS PARA IDADE OSSEA
+      MÃOS E PUNHOS PARA IDADE ÓSSEA
 
       Descrição:
       Textura óssea normal.
@@ -1256,7 +1256,7 @@ matches:
       Espaços articulares conservados.
 
       Conclusão:
-      A idade óssea do paciente é compatível com a idade cronológica referida segundo o método de Grewlich-Pyle.
+      A idade óssea do paciente é compatível com a idade cronológica referida segundo o método de Greulich-Pyle.
     word: true
 
   - trigger: "vun"
@@ -1302,12 +1302,12 @@ matches:
 
   - trigger: "artrojoe"
     label: "Artropatia degenerativa tricompartimental do joelho"
-    replace: "Artropatia degenerativa tricompartimental do joelho, caracterizado por osteofitose marginal, redução dos espaços articulares femorotibiais e patelotroclear, sobretudo no compartimento femorotibial medial com esclerose do platô tibial."
+    replace: "Artropatia degenerativa tricompartimental do joelho, caracterizada por osteofitose marginal, redução dos espaços articulares femorotibiais e patelotroclear, sobretudo no compartimento femorotibial medial com esclerose do platô tibial."
     word: true
 
   - trigger: "artroq"
     label: "Artropatia degenerativa dos quadris (coxartrose)"
-    replace: "Artropatia degenerativa dos quadris, caracterizado por redução predominante do espaço articular superior, esclerose do teto acetabular e osteófitos marginais no acetábulo e circunferenciais na cabeça femoral."
+    replace: "Artropatia degenerativa dos quadris, caracterizada por redução predominante do espaço articular superior, esclerose do teto acetabular e osteófitos marginais no acetábulo e circunferenciais na cabeça femoral."
     word: true
 
   - trigger: "atj"
@@ -1372,12 +1372,12 @@ matches:
 
   - trigger: "cistoosseo"
     label: "Cisto ósseo"
-    replace: "Imagem translucida bem definidas, com margens escleróticas finas, localizada na diáfise distal do fêmur, podendo corresponder a cisto ósseo."
+    replace: "Imagem translúcida bem definida, com margens escleróticas finas, localizada na diáfise distal do fêmur, podendo corresponder a cisto ósseo."
     word: true
 
   - trigger: "claw"
     label: "Dedo em garra (claw toe)"
-    replace: Hiperextensão das metatarsofalangeanas associadas a hiperflexão das interfalangeanas.
+    replace: Hiperextensão das metatarsofalangeanas associada a hiperflexão das interfalangeanas.
     word: true
 
   - trigger: "derramesp"
@@ -1424,7 +1424,7 @@ matches:
 
   - trigger: "haglund"
     label: "Deformidade de Haglund"
-    replace: "Proeminência óssea no aspecto posterior-superior do calcâneo, sugerindo deformidade de Haglund."
+    replace: "Proeminência óssea no aspecto posterossuperior do calcâneo, sugerindo deformidade de Haglund."
     word: true
 
   - trigger: "rxhalux"
@@ -1484,7 +1484,7 @@ matches:
     label: "Radiografia de joelho — gonartrose"
     replace: |
       Redução da densidade óssea.
-      Artropatia degenerativa tricompartimental do joelho, caracterizado por redução do espaço articular femorotibial medial, esclerose do platô tibial medial e osteofitose marginal femorotibial e retropatelar.
+      Artropatia degenerativa tricompartimental do joelho, caracterizada por redução do espaço articular femorotibial medial, esclerose do platô tibial medial e osteofitose marginal femorotibial e retropatelar.
       Patela centrada.
       Ausência de calcificações de partes moles periarticulares.
     word: true
@@ -1501,14 +1501,14 @@ matches:
       Textura óssea preservada.
       Traços de fratura na faceta medial da patela e na faceta lateral da tróclea femoral, configurando padrão de impacto típico de evento de deslocamento lateral da patela.
       Espaços articulares preservados.
-      Patela alta de acordo com índice de Caton-Deschamp.
+      Patela alta de acordo com índice de Caton-Deschamps.
       Leve báscula lateral da patela.
       Correlacionar com o quadro clínico e, se necessário, complementar com ressonância magnética para avaliação da extensão condral e partes moles.
     word: true
 
   - trigger: "rxmenisco"
     label: "Calcificação meniscal"
-    replace: "Calcificações de partes moles em topografia de meniscos, melhor avaliado por ressonância magnética."
+    replace: "Calcificações de partes moles em topografia de meniscos, melhor avaliadas por ressonância magnética."
     word: true
 
   - trigger: "mtt"
@@ -1559,14 +1559,13 @@ matches:
 
       Artropatia degenerativa na I metatarsofalangeana e glenossesamoidea.
 
-      Discreta artropatia degenerativa nas interfalangenas proximais e distais.
+      Discreta artropatia degenerativa nas interfalangeanas proximais e distais.
     word: true
 
   - trigger: "pfemur"
     label: "Parafusos canulados em fêmur proximal"
     replace: |
-      Parafusos canulados determinando osteossíntese da região proximal do fêmur,
-      normoposicionados e sem sinais de solturas.
+      Parafusos canulados determinando osteossíntese da região proximal do fêmur, normoposicionados e sem sinais de solturas.
     word: true
 
   - trigger: "pincer"
@@ -1591,17 +1590,17 @@ matches:
 
   - trigger: "reduq1"
     label: "Coxartrose (redução do espaço articular)"
-    replace: "Redução do espaço articular do quadril, associado a osteofitose e esclerose da borda acetabular."
+    replace: "Redução do espaço articular do quadril, associada a osteofitose e esclerose da borda acetabular."
     word: true
 
   - trigger: "reduq2"
     label: "Coxartrose bilateral (redução dos espaços articulares)"
-    replace: "Redução dos espaços articulares dos quadris, associado a osteofitose e esclerose das bordas acetabulares."
+    replace: "Redução dos espaços articulares dos quadris, associada a osteofitose e esclerose das bordas acetabulares."
     word: true
 
   - trigger: "retof"
     label: "Tendinopatia crônica do reto femoral"
-    replace: Ossificação da origem proximal do músculo reto femoral esquerdo na espinha ilíaca ântero-inferior podendo representar tendinopatia crônica.
+    replace: Ossificação da origem proximal do músculo reto femoral esquerdo na espinha ilíaca anteroinferior podendo representar tendinopatia crônica.
     word: true
 
   - trigger: "sesamoidebi"
@@ -1621,7 +1620,7 @@ matches:
 
   - trigger: "stieda"
     label: "Processo de Stieda proeminente"
-    replace: Proeminência do processo posterior do tálus (processo Stieda).
+    replace: Proeminência do processo posterior do tálus (processo de Stieda).
     word: true
 
   - trigger: "acteto"
@@ -1631,7 +1630,7 @@ matches:
 
   - trigger: "teto1"
     label: "Quadris preservados com osteofitose acetabular"
-    replace: "Espaços articulares dos quadris preservados, associado a osteofitose marginal nas bordas acetabulares."
+    replace: "Espaços articulares dos quadris preservados, associados a osteofitose marginal nas bordas acetabulares."
     word: true
 
   - trigger: "translacao"
@@ -1718,7 +1717,7 @@ matches:
 
   - trigger: "quadrilre"
     label: "Redução do espaço articular do quadril"
-    replace: Redução do espaço articular do quadril associado a osteofitose e esclerose da borda acetabular.
+    replace: Redução do espaço articular do quadril associada a osteofitose e esclerose da borda acetabular.
     word: true
 
   - trigger: "reduft"
@@ -1755,8 +1754,8 @@ matches:
     word: true
 
   - trigger: "cmarcap"
-    label: "Marcapasso cardíaco (avaliação limitada)"
-    replace: "Radiografia realizada para visualização de marcapasso cardíaco em hemitórax direito, prejudicando estudo detalhado do tórax devido à técnica empregada."
+    label: "Marca-passo cardíaco (avaliação limitada)"
+    replace: "Radiografia realizada para visualização de marca-passo cardíaco em hemitórax direito, prejudicando estudo detalhado do tórax devido à técnica empregada."
     word: true
 
   - trigger: "picc"
@@ -1770,7 +1769,7 @@ matches:
       (204060095) RX - RADIOGRAFIA DE BACIA
 
       Textura e morfologia óssea preservada.
-      Espaços articulares dos quadris e articulações sacro-ilíacas preservados.
+      Espaços articulares dos quadris e articulações sacroilíacas preservados.
       Ausência de calcificações de partes moles periarticulares.
 
       (204030137) RX - RADIOGRAFIA DE TÓRAX (AP)
@@ -1876,7 +1875,7 @@ matches:
       Espaços articulares preservados.
       Ausência de calcificações de partes moles.
 
-      (204060168) RX - RADIOGRAFIA DE PERNA ESQUERDO
+      (204060168) RX - RADIOGRAFIA DE PERNA ESQUERDA
 
       Exame de avaliação limitada devido à técnica empregada.
       Transparência em metáfises proximais e distais da tíbia e fíbula. Sugere-se controle.
@@ -1939,7 +1938,7 @@ matches:
       Espaços articulares preservados.
       Ausência de calcificações de partes moles.
 
-      (204060168) RX - RADIOGRAFIA DE PERNA ESQUERDO
+      (204060168) RX - RADIOGRAFIA DE PERNA ESQUERDA
 
       Exame de avaliação limitada devido à técnica empregada.
       Textura óssea preservada.
@@ -1954,7 +1953,7 @@ matches:
       RADIOGRAFIA DE MÃO
 
       Textura óssea reduzida.
-      Redução dos espaços articulares radiocárpicos, intercárpicos, carpometacárpicos, metacarpofalangeanos e interfalangenos. Associam-se esclerose das margens apostas, osteofitose marginal e perda da morfologia habitual das cabeças das falanges distais.
+      Redução dos espaços articulares radiocárpicos, intercárpicos, carpometacárpicos, metacarpofalangeanos e interfalangeanos. Associam-se esclerose das margens apostas, osteofitose marginal e perda da morfologia habitual das cabeças das falanges distais.
     word: true
 
   - trigger: "rxcavum3"
@@ -2002,7 +2001,7 @@ matches:
       - Desvio lateral da coluna lombar para xxx.
       Visualização parcial das vísceras abdominais por interposição gasosa.
       Ausência de sinais de visceromegalia.
-      Distribuição gasosa se aspecto habitual.
+      Distribuição gasosa de aspecto habitual.
       Não há evidência de calcificações patológicas.
       - Imagem calculosa medindo cerca de xx mm, em projeção da sombra renal.
       - Flebólitos em topografia pélvica.
@@ -2123,7 +2122,7 @@ matches:
       RADIOGRAFIA DE BACIA
 
       Textura e morfologia óssea preservada.
-      Espaços articulares dos quadris e articulações sacro-ilíacas preservados.
+      Espaços articulares dos quadris e articulações sacroilíacas preservados.
       Ausência de calcificações de partes moles periarticulares.
     word: true
 
@@ -2136,18 +2135,18 @@ matches:
       - Espondilopatia degenerativa lombar.
       - Desvio lateral da coluna lombar para
       - Flebólitos em topografia pélvica.
-      Espaços articulares dos quadris e articulações sacro-ilíacas preservados.
-      - Osteofitose da porção inferior das articulações sacro-ilíacas.
-      - Redução do espaço articular do quadril, associado a osteofitose e esclerose da borda acetabular.
+      Espaços articulares dos quadris e articulações sacroilíacas preservados.
+      - Osteofitose da porção inferior das articulações sacroilíacas.
+      - Redução do espaço articular do quadril, associada a osteofitose e esclerose da borda acetabular.
       Ausência de calcificações de partes moles periarticulares.
-      - Artropatia degenerativa dos quadris, caracterizado por redução predominante do espaço articular superior, esclerose do teto acetabular e osteófitos marginais no acetábulo e circunferenciais na cabeça femoral.
+      - Artropatia degenerativa dos quadris, caracterizada por redução predominante do espaço articular superior, esclerose do teto acetabular e osteófitos marginais no acetábulo e circunferenciais na cabeça femoral.
       - Entesopatia nos ísquios, trocânteres maiores e crista ilíaca.
       - Discreta artropatia degenerativa nas sacroilíacas e sínfise púbica.
       - Flebólitos na pelve.
       - Concavidade da cabeça-colo femoral preservada bilateralmente.
       - Retificação da porção anterior / anterossuperior da transição da cabeça – colo femoral.
       - Controle de osteossíntese de fratura transtrocantérica fixada por haste cefalomedular bloqueada, sem sinais de soltura / reabsorção óssea.
-      - Calcificações heterotópica peritrocantérica.
+      - Calcificações heterotópicas peritrocantéricas.
     word: true
 
   - trigger: "rxbraco1"
@@ -2265,10 +2264,10 @@ matches:
       RADIOGRAFIA DE COLUNA CERVICAL
 
       Textura óssea preservada.
-      Transição crânio-vertebral preservada.
+      Transição craniovertebral preservada.
       Bom alinhamento dos corpos vertebrais cervicais.
       Corpos vertebrais com morfologia normal.
-      Pedículos, laminas e processos transversos preservados.
+      Pedículos, lâminas e processos transversos preservados.
       Articulações interapofisárias e uncovertebrais sem alterações significativas.
       Espaços discais preservados.
       Ausência de costela cervical acessória.
@@ -2281,7 +2280,7 @@ matches:
 
       Textura óssea preservada.
       - Redução da densidade óssea.
-      Transição crânio-vertebral preservada.
+      Transição craniovertebral preservada.
       Bom alinhamento dos corpos vertebrais cervicais.
       - Acentuação da lordose cervical.
       - Inversão da curvatura cervical.
@@ -2289,14 +2288,14 @@ matches:
       - Anterolistese grau I de
       - Retrolistese de
       Corpos vertebrais com morfologia normal.
-      Pedículos, laminas e processos transversos preservados.
+      Pedículos, lâminas e processos transversos preservados.
       - Osteofitose marginal nos corpos vertebrais cervicais.
       - Uncoartrose cervical bilateral nos níveis cervicais.
       Articulações interapofisárias e uncovertebrais sem alterações significativas.
       Espaços discais preservados.
       - Redução dos espaços discais xx
       - Demais espaços discais preservados.
-      - Ápice do processo odontoide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação vertebrobasilar.
+      - Ápice do processo odontoide encontra-se cerca de xx mm acima da linha de Chamberlain, sugerindo tratar-se de invaginação basilar.
       Ausência de costela cervical acessória.
     word: true
 
@@ -2396,7 +2395,7 @@ matches:
       Estruturas ósseas preservadas.
       Sela túrcica com morfologia e dimensões preservadas.
       Seios paranasais com aeração preservada.
-      Mastóides com aeração preservada.
+      Mastoides com aeração preservada.
     word: true
 
   - trigger: "rxcranio2"
@@ -2409,7 +2408,7 @@ matches:
       - Redução da densidade óssea.
       Sela túrcica com morfologia e dimensões preservadas.
       Seios paranasais com aeração preservada.
-      Mastóides com aeração preservada.
+      Mastoides com aeração preservada.
     word: true
 
   - trigger: "rxdedo0"
@@ -2459,7 +2458,7 @@ matches:
   - trigger: "rxdedo2e"
     label: "Radiografia do 2º dedo da mão esquerda — normal"
     replace: |
-      RADIOGRAFIA DO SEGUNDO DEDO DA MÃO ESQUERDO
+      RADIOGRAFIA DO SEGUNDO DEDO DA MÃO ESQUERDA
 
       Textura óssea preservada.
       Estruturas ósseas preservadas.
@@ -2503,7 +2502,7 @@ matches:
   - trigger: "rxdedo4e"
     label: "Radiografia do 4º dedo da mão esquerda — normal"
     replace: |
-      RADIOGRAFIA DO QUARTO DEDO DA MÃO ESQUERDO
+      RADIOGRAFIA DO QUARTO DEDO DA MÃO ESQUERDA
 
       Textura óssea preservada.
       Estruturas ósseas preservadas.
@@ -2525,7 +2524,7 @@ matches:
   - trigger: "rxdedo5e"
     label: "Radiografia do 5º dedo da mão esquerda — normal"
     replace: |
-      RADIOGRAFIA DO QUINTO DEDO DA MÃO ESQUERDO
+      RADIOGRAFIA DO QUINTO DEDO DA MÃO ESQUERDA
 
       Textura óssea preservada.
       Estruturas ósseas preservadas.
@@ -2546,7 +2545,7 @@ matches:
       - Anterolistese grau I de xx
       - Retrolistese de xx
       Corpos vertebrais com morfologia normal.
-      Pedículos, laminas e processos transversos reservados.
+      Pedículos, lâminas e processos transversos preservados.
       Articulações interapofisárias sem alterações significativas.
       - Osteofitose marginal nos corpos vertebrais torácicos
       Espaços discais preservados.
@@ -2561,7 +2560,7 @@ matches:
 
       Textura e morfologia óssea preservada.
       Espaços articulares preservados.
-      - Redução do espaço articular do quadril, associado a osteofitose e esclerose da borda acetabular.
+      - Redução do espaço articular do quadril, associada a osteofitose e esclerose da borda acetabular.
       - Redução do espaço articular femorotibial medial.
       - Osteofitose femorotibial.
       - Entesófito na inserção do tendão do quadríceps.
@@ -2617,9 +2616,9 @@ matches:
       - Patela lateralizada.
       - Presença de fabela.
       Ausência de calcificações de partes moles periarticulares.
-      - Artropatia degenerativa tricompartimental dos joelhos, caracterizado por redução do espaço articular femorotibial medial, esclerose do platô tibial medial e osteofitose marginal femorotibial e retropatelar.
+      - Artropatia degenerativa tricompartimental dos joelhos, caracterizada por redução do espaço articular femorotibial medial, esclerose do platô tibial medial e osteofitose marginal femorotibial e retropatelar.
       - Obliteração da gordura suprapatelar, por provável derrame articular.
-      - Entesófito no pólo superior da patela.
+      - Entesófito no polo superior da patela.
       - Calcificações vasculares.
       - Patelas normoposicionadas em relação ao índice de Caton-Deschamps, sem sinais de inclinação/subluxação lateral.
       - Controle de artroplastia tricompartimental, cimentada, com componentes tópicos, sem sinais de soltura / osteólise.
@@ -2703,7 +2702,7 @@ matches:
       - Redução da densidade óssea.
       Espaços articulares preservados.
       - Redução do espaço articular interfalangeano distal
-      - Redução do espaço articular interfalengeano, associado a irregularidade, osteofitose, esclerose e cistos subcorticais.
+      - Redução do espaço articular interfalangeano, associada a irregularidade, osteofitose, esclerose e cistos subcorticais.
       - Sinais de rizoartrose.
       Ausência de calcificações de partes moles.
       - Distensão de partes moles.
@@ -2736,7 +2735,7 @@ matches:
 
       Textura óssea preservada.
       Estruturas ósseas preservadas.
-      Aeração normal das mastóides.
+      Aeração normal das mastoides.
     word: true
 
   - trigger: "rxmastoide2"
@@ -2747,9 +2746,9 @@ matches:
       Textura óssea preservada.
       Estruturas ósseas preservadas.
       - Redução da densidade óssea.
-      Aeração normal das mastóides.
-      - Mastóides hipoaeradas.
-      - Hipopneumatização da mastóide .
+      Aeração normal das mastoides.
+      - Mastoides hipoaeradas.
+      - Hipopneumatização da mastoide.
     word: true
 
   - trigger: "rxombro2"
@@ -2759,16 +2758,16 @@ matches:
 
       Textura óssea preservada.
       - Redução da densidade óssea.
-      -Acrômio curvo (tipo II de Bigliani).
-      -Demais estruturas ósseas preservadas.
+      - Acrômio curvo (tipo II de Bigliani).
+      - Demais estruturas ósseas preservadas.
       Articulação acromioclavicular sem alterações significativas.
       Relação e espaço articular glenoumeral preservados.
       - Demais espaços articulares preservados.
       - Redução do espaço articular.
       - Redução do espaço subacromial.
-      - Sinais de artrose acrômio-clavicular.
+      - Sinais de artrose acromioclavicular.
       Ausência de calcificações de partes moles.
-      - Calcificação de partes moles adjacente ao trocanter maior, na topografia da inserção músculo supraespinhal, devendo corresponder a tendinopatia calcárea.
+      - Calcificação de partes moles adjacente ao tubérculo maior, na topografia da inserção do músculo supraespinhal, devendo corresponder a tendinopatia calcárea.
     word: true
 
   - trigger: "rxombrod"
@@ -2828,7 +2827,7 @@ matches:
       - Proeminência do processo posterior do tálus.
       - Hálux valgo.
       - Artropatia degenerativa na I metatarsofalangeana e glenossesamoidea.
-      - Discreta artropatia degenerativa nas interfalangenas proximais e distais.
+      - Discreta artropatia degenerativa nas interfalangeanas proximais e distais.
       - Esporão plantar bilateral.
       - Entesófito na tuberosidade posterior do calcâneo, bilateralmente.
     word: true
@@ -2839,7 +2838,7 @@ matches:
       RADIOGRAFIA DO PÉ DIREITO
 
       Textura e morfologia óssea preservada.
-      Espaços articulares preservados
+      Espaços articulares preservados.
       Ausência de calcificações de partes moles periarticulares.
     word: true
 
@@ -2849,7 +2848,7 @@ matches:
       RADIOGRAFIA DO PÉ ESQUERDO
 
       Textura e morfologia óssea preservada.
-      Espaços articulares preservados
+      Espaços articulares preservados.
       Ausência de calcificações de partes moles periarticulares.
     word: true
 
@@ -2958,7 +2957,7 @@ matches:
       - Espondilopatia degenerativa lombar.
       - Desvio lateral da coluna lombar para
       - Flebólitos em topografia pélvica.
-      - Redução do espaço articular do quadril, associado a osteofitose e esclerose da borda acetabular.
+      - Redução do espaço articular do quadril, associada a osteofitose e esclerose da borda acetabular.
       Ausência de calcificações de partes moles periarticulares.
     word: true
 
@@ -3058,7 +3057,7 @@ matches:
       Textura óssea preservada.
       Bom alinhamento dos corpos vertebrais torácicos.
       Corpos vertebrais com morfologia normal.
-      Pedículos, laminas e processos transversos reservados.
+      Pedículos, lâminas e processos transversos preservados.
       Articulações interapofisárias sem alterações significativas.
       Espaços discais preservados.
     word: true
@@ -3120,7 +3119,7 @@ matches:
       - Proeminência do processo posterior do tálus.
       - Hálux valgo.
       - Artropatia degenerativa na I metatarsofalangeana e glenossesamoidea.
-      - Discreta artropatia degenerativa nas interfalangenas proximais e distais.
+      - Discreta artropatia degenerativa nas interfalangeanas proximais e distais.
       - Esporão plantar bilateral.
       - Entesófito na tuberosidade posterior do calcâneo, bilateralmente.
     word: true
@@ -3310,7 +3309,7 @@ matches:
   - trigger: "dedoid"
     label: "Artropatia degenerativa interfalangeana"
     replace: |
-      Discreta artropatia degenerativa nas interfalangenas proximais e distais.
+      Discreta artropatia degenerativa nas interfalangeanas proximais e distais.
       Osteofitose nas superfícies articulares interfalangeanas distais.
     word: true
 
@@ -3336,7 +3335,7 @@ matches:
 
   - trigger: "rxdreno"
     label: "Dreno torácico com enfisema de partes moles"
-    replace: Dreno torácico com extremidade distal no terço superior do pulmão direito. Associam-se enfisema de partes moles adjacentes.
+    replace: Dreno torácico com extremidade distal no terço superior do pulmão direito. Associa-se enfisema de partes moles adjacentes.
     word: true
 
   - trigger: "enf1d"
@@ -3356,7 +3355,7 @@ matches:
 
   - trigger: "enostose"
     label: "Enostose (ilha óssea)"
-    replace: "Imagem esclerótica intramedular, medindo cerca de _ cm, sem sinais de agressividade (preservação cortical e ausência de reação periosteal), achado inespecífico, com aspecto sugestivo de alteração óssea benigna crônica, como enostose ou infarto ósseo crônico"
+    replace: "Imagem esclerótica intramedular, medindo cerca de _ cm, sem sinais de agressividade (preservação cortical e ausência de reação periosteal), achado inespecífico, com aspecto sugestivo de alteração óssea benigna crônica, como enostose ou infarto ósseo crônico."
     word: true
 
   - trigger: "esq"
@@ -3505,12 +3504,12 @@ matches:
 
   - trigger: "ossosupra"
     label: "Tendinopatia calcárea do supraespinhal"
-    replace: "Calcificação de partes moles adjacente ao tubérculo maior, na topografia da inserção músculo supraespinhal, devendo corresponder a tendinopatia calcárea."
+    replace: "Calcificação de partes moles adjacente ao tubérculo maior, na topografia da inserção do músculo supraespinhal, devendo corresponder a tendinopatia calcárea."
     word: true
 
   - trigger: "rxosteomielite"
     label: "Sinais de osteomielite"
-    replace: "Irregularidades corticais nas XXX associado a aumento e densificação de partes moles adjacentes. Os achados sugerem processo inflamatório/infeccioso, correlacionar com dados clínicos e laboratoriais."
+    replace: "Irregularidades corticais nas XXX associadas a aumento e densificação de partes moles adjacentes. Os achados sugerem processo inflamatório/infeccioso. Correlacionar com dados clínicos e laboratoriais."
     word: true
 
   - trigger: "ostri"
@@ -3615,7 +3614,7 @@ matches:
 
   - trigger: "adss"
     label: "Artropatia degenerativa das sacroilíacas e sínfise púbica"
-    replace: Artropatia degenerativa das sacro-ilíacas e da sínfise púbica.
+    replace: Artropatia degenerativa das sacroilíacas e da sínfise púbica.
     word: true
 
   - trigger: "agr"
@@ -3658,7 +3657,7 @@ matches:
 
   - trigger: "dadss"
     label: "Discreta artropatia degenerativa sacroilíaca e sínfise púbica"
-    replace: Discreta artropatia degenerativa nas sacro-ilíacas e sínfise púbica.
+    replace: Discreta artropatia degenerativa nas sacroilíacas e sínfise púbica.
     word: true
 
   - trigger: "deavali"
@@ -3758,12 +3757,7 @@ matches:
 
   - trigger: "reduii"
     label: "Redução articular interfalangeana com osteoartrose"
-    replace: "Redução do espaço articular interfalengeano, associado a irregularidade, osteofitose, esclerose e cistos subcorticais."
-    word: true
-
-  - trigger: "reduqa"
-    label: "Placeholder — não preenchido"
-    replace: Enter your replacement text here...
+    replace: "Redução do espaço articular interfalangeano, associada a irregularidade, osteofitose, esclerose e cistos subcorticais."
     word: true
 
   - trigger: "semfx"
@@ -3814,7 +3808,7 @@ matches:
     replace: |
       Textura óssea preservada.
       Morfologia óssea preservada.
-      Espaços articulares dos quadris e articulações sacro-ilíacas preservados.
+      Espaços articulares dos quadris e articulações sacroilíacas preservados.
       Ausência de calcificações de partes moles periarticulares.
     word: true
 
