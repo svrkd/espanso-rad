@@ -221,7 +221,7 @@ BLOCOS = [
             ("1", "completo (tipo 3)"), ("2", "latente, pico > VDF"), ("3", "latente, pico = VDF"),
             ("4", "latente, pico < VDF"), ("5", "parcial (tipo 2)"),
         ]),
-        ("escada", "dam", "arterial de membros", [
+        ("escada", "art", "arterial de membros", [
             ("3", "ateromatose difusa s/ estenose"),
             ("4", "ateromatose difusa (todos os segmentos)"),
             ("1", "ateromatose incipiente"),

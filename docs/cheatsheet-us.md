@@ -1540,48 +1540,48 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 
 | Trigger | Label |
 |---|---|
-| dam3 | Doppler arterial de membros: Ateromatose difusa, sem estenose significativa (achado descritivo) |
-| dam3c | Doppler arterial de membros: Ateromatose difusa, sem estenose significativa |
-| dam4 | Doppler arterial de membros: Ateromatose difusa em todos os segmentos (achado geral) |
-| dam4c | Doppler arterial de membros: Ateromatose difusa em todos os segmentos |
-| dam1 | Doppler arterial de membros: Ateromatose incipiente (achado descritivo) |
-| dam1c | Doppler arterial de membros: Ateromatose incipiente |
-| dam2 | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral) |
-| dam2c | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos |
-| dam19 | Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg (achado descritivo) |
-| dam19c | Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg |
-| dam8 | Doppler arterial de membros: Estenose ≥ 50%, razão > 2,0, ilíaco/femoropoplíteo (achado descritivo) |
-| dam8c | Doppler arterial de membros: Estenose ≥ 50% |
-| dam11 | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais (achado descritivo) |
-| dam11c | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais |
-| dam7 | Doppler arterial de membros: Fluxo monofásico distal, tardus parvus (achado descritivo) |
-| dam7c | Doppler arterial de membros: Fluxo monofásico distal, tardus parvus |
-| dam6 | Doppler arterial de membros: Estenose < 50%, razão < 2,0, ilíaco/femoropoplíteo (achado descritivo) |
-| dam6c | Doppler arterial de membros: Estenose < 50% |
-| dam9 | Doppler arterial de membros: Estenose ≥ 80%, razão > 4,0, ilíaco/femoropoplíteo (achado descritivo) |
-| dam9c | Doppler arterial de membros: Estenose ≥ 80% |
-| dam13 | Doppler arterial de membros: Oclusão arterial extensa e crônica (achado descritivo) |
-| dam13c | Doppler arterial de membros: Oclusão arterial extensa e crônica |
-| dam17 | Doppler arterial de membros: Pseudoaneurisma (achado descritivo) |
-| dam17c | Doppler arterial de membros: Pseudoaneurisma |
-| dam10 | Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo) |
-| dam10c | Doppler arterial de membros: Stent/prótese endovascular pérvio |
+| art3 | Doppler arterial de membros: Ateromatose difusa, sem estenose significativa (achado descritivo) |
+| art3c | Doppler arterial de membros: Ateromatose difusa, sem estenose significativa |
+| art4 | Doppler arterial de membros: Ateromatose difusa em todos os segmentos (achado geral) |
+| art4c | Doppler arterial de membros: Ateromatose difusa em todos os segmentos |
+| art1 | Doppler arterial de membros: Ateromatose incipiente (achado descritivo) |
+| art1c | Doppler arterial de membros: Ateromatose incipiente |
+| art2 | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral) |
+| art2c | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos |
+| art19 | Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg (achado descritivo) |
+| art19c | Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg |
+| art8 | Doppler arterial de membros: Estenose ≥ 50%, razão > 2,0, ilíaco/femoropoplíteo (achado descritivo) |
+| art8c | Doppler arterial de membros: Estenose ≥ 50% |
+| art11 | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais (achado descritivo) |
+| art11c | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais |
+| art7 | Doppler arterial de membros: Fluxo monofásico distal, tardus parvus (achado descritivo) |
+| art7c | Doppler arterial de membros: Fluxo monofásico distal, tardus parvus |
+| art6 | Doppler arterial de membros: Estenose < 50%, razão < 2,0, ilíaco/femoropoplíteo (achado descritivo) |
+| art6c | Doppler arterial de membros: Estenose < 50% |
+| art9 | Doppler arterial de membros: Estenose ≥ 80%, razão > 4,0, ilíaco/femoropoplíteo (achado descritivo) |
+| art9c | Doppler arterial de membros: Estenose ≥ 80% |
+| art13 | Doppler arterial de membros: Oclusão arterial extensa e crônica (achado descritivo) |
+| art13c | Doppler arterial de membros: Oclusão arterial extensa e crônica |
+| art17 | Doppler arterial de membros: Pseudoaneurisma (achado descritivo) |
+| art17c | Doppler arterial de membros: Pseudoaneurisma |
+| art10 | Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo) |
+| art10c | Doppler arterial de membros: Stent/prótese endovascular pérvio |
 | di1 | Doppler arterial de membros: Estenose ilíaca ≥ 80% com tardus parvus distal (achado descritivo) |
 | di1c | Doppler arterial de membros: Estenose ilíaca ≥ 80% com hipofluxo distal |
-| dam14 | Doppler arterial de membros: Aneurisma arterial periférico (achado descritivo) |
-| dam14c | Doppler arterial de membros: Aneurisma arterial periférico |
-| dam15 | Doppler arterial de membros: Aneurisma parcialmente trombosado (achado descritivo) |
-| dam15c | Doppler arterial de membros: Aneurisma parcialmente trombosado |
-| dam16 | Doppler arterial de membros: Aneurisma trombosado (achado descritivo) |
-| dam16c | Doppler arterial de membros: Aneurisma trombosado |
-| dam18 | Doppler arterial de membros: Fístula arteriovenosa (achado descritivo) |
-| dam18c | Doppler arterial de membros: Fístula arteriovenosa |
-| dam12 | Doppler arterial de membros: Não caracterização de vaso (achado descritivo) |
-| dam12c | Doppler arterial de membros: Não caracterização de vaso |
+| art14 | Doppler arterial de membros: Aneurisma arterial periférico (achado descritivo) |
+| art14c | Doppler arterial de membros: Aneurisma arterial periférico |
+| art15 | Doppler arterial de membros: Aneurisma parcialmente trombosado (achado descritivo) |
+| art15c | Doppler arterial de membros: Aneurisma parcialmente trombosado |
+| art16 | Doppler arterial de membros: Aneurisma trombosado (achado descritivo) |
+| art16c | Doppler arterial de membros: Aneurisma trombosado |
+| art18 | Doppler arterial de membros: Fístula arteriovenosa (achado descritivo) |
+| art18c | Doppler arterial de membros: Fístula arteriovenosa |
+| art12 | Doppler arterial de membros: Não caracterização de vaso (achado descritivo) |
+| art12c | Doppler arterial de membros: Não caracterização de vaso |
 | sdt | Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ (achado descritivo) |
 | sdtc | Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ |
-| dam5 | Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo) |
-| dam5c | Doppler arterial de membros: Variação anatômica comum do trajeto arterial |
+| art5 | Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo) |
+| art5c | Doppler arterial de membros: Variação anatômica comum do trajeto arterial |
 
 ## Vascular — Doppler De Artérias Cervicais (Carótidas E Vertebrais)
 
