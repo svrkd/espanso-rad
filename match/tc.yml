@@ -2584,12 +2584,12 @@ matches:
 
   - trigger: "capud"
     label: "campo pulmonar direito"
-    replace: campo pulmonar direito.
+    replace: campo pulmonar direito
     word: true
 
   - trigger: "capue"
     label: "campo pulmonar esquerdo"
-    replace: campo pulmonar esquerdo.
+    replace: campo pulmonar esquerdo
     word: true
 
   - trigger: "cipul"
@@ -6210,7 +6210,7 @@ matches:
   - trigger: "tcangio1"
     label: "AngioTC de aorta torácica — aneurisma da aorta ascendente"
     replace: |
-      ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA TORÁCICA
+      ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA TORÁCICA C/C
 
       Técnica:
       Exame realizado com aquisição multislice, antes e após a injeção intravenosa do meio de contraste iodado.
@@ -6232,7 +6232,7 @@ matches:
   - trigger: "angiotctor"
     label: "AngioTC de tórax — normal"
     replace: |
-      ANGIOTOMOGRAFIA COMPUTADORIZADA DE TÓRAX
+      ANGIOTOMOGRAFIA COMPUTADORIZADA DE TÓRAX C/C
 
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice antes e após a administração intravenosa de contraste iodado.
@@ -6263,7 +6263,7 @@ matches:
   - trigger: "tcangioabd"
     label: "AngioTC de aorta abdominal — normal"
     replace: |
-      ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA -------------------
+      ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA ------------------- C/C
 
       Técnica:
       Imagens obtidas em aparelho multislice com a administração intravenosa de meio de contraste iodado. Foram documentadas reconstruções 3D e multiplanares do leito vascular de interesse (vide filmes adicionais).
@@ -6762,7 +6762,7 @@ matches:
   - trigger: "hillsachs1"
     label: "TC de ombro S/C — Hill-Sachs e Bankart"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO OMBRO XXXX
+      TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO/ESQUERDO S/C
 
       Técnica:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
@@ -8913,7 +8913,7 @@ matches:
   - trigger: "tctorch1"
     label: "TC de crânio — infecção congênita STORCH"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO
+      TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 
       Técnica:
       Realizada aquisição volumétrica em equipamento com multidetectores sem a injeção endovenosa do meio de contraste iodado.
@@ -8935,7 +8935,7 @@ matches:
   - trigger: "tctorid"
     label: "TC de tórax — hipertensão pulmonar (normal)"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX
+      TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
 
       Técnica:
       Imagens obtidas por aquisição volumétrica multislice sem a administração intravenosa de contraste iodado.
@@ -9699,7 +9699,7 @@ matches:
   - trigger: "hillban"
     label: "TC de ombro — lesões de Hill-Sachs e Bankart ósseo"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO
+      TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO S/C
 
       Técnica:
       Foram obtidas imagens por aquisição volumétrica, sem a administração endovenosa de contraste.
