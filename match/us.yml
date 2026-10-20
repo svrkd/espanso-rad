@@ -10,7 +10,7 @@ matches:
   #   ap  = apêndice cecal            ba  = baço
   #   ca  = vias biliares/colédoco    ch  = fígado (hepatopatia difusa)
   #   eh  = fígado (esteatose)        fh  = fígado (lesão focal)
-  #   dh  = fígado (Doppler porta)    vb  = vesícula biliar
+  #   vb  = vesícula biliar           (Doppler porta/hepático: ver dabd em VASCULAR)
   #
   # RINS / VIAS URINÁRIAS / BEXIGA / PRÓSTATA
   #   rv  = rins e vias urinárias     bx  = bexiga           prostn = próstata
@@ -66,9 +66,11 @@ matches:
   #   graflimit = limitação técnica por ossificação da epífise.
   #
   # VASCULAR
-  #   carot = carótidas   vert = vertebral   ds = roubo subclávio   da = aorta/ilíaca
-  #   di  = estenose ilíaca   sdt = desfiladeiro torácico   tvp/tvppaulo = TVP/duplex venoso MI
-  #   dam = Doppler arterial de membros (MMSS/MMII)
+  #   dabd   = Doppler do abdome superior (porta, veias hepáticas, esplênica, mesentéricas, renal esquerda)
+  #   carot = carótidas   vert = vertebral   ds = roubo subclávio   aorta = aorta abdominal
+  #   tvp/tvppaulo = TVP/duplex venoso MI
+  #   art = Doppler arterial de membros (MMSS/MMII), inclui art20 estenose ilíaca
+  #         e art21 desfiladeiro torácico; ordem por frequência
   #   mapa = mapeamento venoso de MMII (mapaN achado · mapaNc conclusão)
   #
   # AUXILIARES / CURINGAS   papv · migue · gordoo · limitgas
@@ -272,15 +274,6 @@ matches:
   - trigger: "ch4c"
     label: "Fígado: hepatomegalia congestiva | Vasos: ectasia de cava e tributárias/ascite"
     replace: Hepatomegalia, associada a ectasia da veia cava e suas principais tributárias e ascite. Esses achados, dentro do contexto clínico adequado, estão relacionados à congestão.
-    word: true
-
-  - trigger: "dh0"
-    label: "Fígado (Doppler): Veia porta pérvia, de calibre preservado (mede _ cm, normal <1,2 cm), fluxo hepatopetal e..."
-    replace: |-
-      Veia porta pérvia, de calibre preservado (mede _ cm, normal <1,2 cm), fluxo hepatopetal e velocidade de pico sistólico de _ cm/s (normal entre 11 e 23).
-      Veias hepáticas pérvias, com padrão de fluxo trifásico habitual.
-      Veia esplênica pérvia, de calibre preservado (mede _ cm, normal <0,9 cm) e fluxo hepatopetal.
-      Artéria hepática com IR de _ (normal entre 0,55 e 0,7).
     word: true
 
   - trigger: "eh1"
@@ -8524,187 +8517,221 @@ matches:
 
 
   # ==============================================================================
-  # VASCULAR — DOPPLER ARTERIAL DE MEMBROS (SUPERIORES/INFERIORES)
+  # VASCULAR — DOPPLER ARTERIAL DE MEMBROS SUPERIORES E INFERIORES
   # ==============================================================================
+  # Ordem: achados mais frequentes primeiro. Critério de estenose (art6/8/9/20):
+  # Jager/Strandness, razão de velocidades > 2,0 (≥ 50%) e > 4,0 (≥ 80%), válido
+  # para os segmentos ilíaco e femoropoplíteo; tibiais e fibulares não têm limiar
+  # de velocidade validado (descrever por morfologia da onda: art7, art11, art13).
 
-  - trigger: "dam1"
-    label: "Doppler arterial de membros: Ateromatose incipiente (achado descritivo)"
-    replace: Espessamento leve do complexo íntima-média associado a placas ateromatosas incipientes, não calcificadas, sem repercussão hemodinâmica, na artéria _.
-    word: true
-
-  - trigger: "dam1c"
-    label: "Doppler arterial de membros: Ateromatose incipiente"
-    replace: Ateromatose incipiente em território arterial de membro _, sem repercussão hemodinâmica.
-    word: true
-
-  - trigger: "dam2"
-    label: "Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral)"
-    replace: Espessamento leve do complexo íntima-média associado a placas ateromatosas incipientes, não calcificadas, em todos os segmentos arteriais avaliados, sem repercussão hemodinâmica.
-    word: true
-
-  - trigger: "dam2c"
-    label: "Doppler arterial de membros: Ateromatose incipiente em todos os segmentos"
-    replace: Ateromatose incipiente em todos os segmentos arteriais avaliados, sem repercussão hemodinâmica.
-    word: true
-
-  - trigger: "dam3"
+  - trigger: "art3"
     label: "Doppler arterial de membros: Ateromatose difusa, sem estenose significativa (achado descritivo)"
     replace: Placas ateromatosas difusas, de permeio a segmentos de calcificação parietal, ao longo do trajeto da artéria _, sem determinar estenose hemodinamicamente significativa.
     word: true
 
-  - trigger: "dam3c"
+  - trigger: "art3c"
     label: "Doppler arterial de membros: Ateromatose difusa, sem estenose significativa"
     replace: Ateromatose difusa em território arterial de membro _, sem estenose significativa.
     word: true
 
-  - trigger: "dam4"
+  - trigger: "art4"
     label: "Doppler arterial de membros: Ateromatose difusa em todos os segmentos (achado geral)"
     replace: Placas ateromatosas difusas, calcificadas e não calcificadas, acometendo todos os segmentos arteriais avaliados, sem determinar estenose hemodinamicamente significativa em nenhum deles.
     word: true
 
-  - trigger: "dam4c"
+  - trigger: "art4c"
     label: "Doppler arterial de membros: Ateromatose difusa em todos os segmentos"
     replace: Ateromatose difusa em todos os segmentos arteriais avaliados, sem estenose significativa.
     word: true
 
-  - trigger: "dam5"
-    label: "Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo)"
-    replace: Variação anatômica do trajeto/padrão de ramificação da artéria _, em relação à disposição habitual, sem repercussão hemodinâmica.
+  - trigger: "art1"
+    label: "Doppler arterial de membros: Ateromatose incipiente (achado descritivo)"
+    replace: Espessamento leve do complexo mediointimal associado a placas ateromatosas incipientes, não calcificadas, sem repercussão hemodinâmica, na artéria _.
     word: true
 
-  - trigger: "dam5c"
-    label: "Doppler arterial de membros: Variação anatômica comum do trajeto arterial"
-    replace: Variação anatômica do trajeto da artéria _, sem repercussão hemodinâmica.
+  - trigger: "art1c"
+    label: "Doppler arterial de membros: Ateromatose incipiente"
+    replace: Ateromatose incipiente em território arterial de membro _, sem repercussão hemodinâmica.
     word: true
 
-  - trigger: "dam6"
-    label: "Doppler arterial de membros: Estenose leve a moderada, onda bifásica (achado descritivo)"
-    replace: Placa ateromatosa focal na artéria _, determinando redução luminal estimada em _%, com curva espectral bifásica ao Doppler, sem critérios de estenose grave.
+  - trigger: "art2"
+    label: "Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral)"
+    replace: Espessamento leve do complexo mediointimal associado a placas ateromatosas incipientes, não calcificadas, em todos os segmentos arteriais avaliados, sem repercussão hemodinâmica.
     word: true
 
-  - trigger: "dam6c"
-    label: "Doppler arterial de membros: Estenose leve a moderada (< 50%)"
-    replace: Estenose leve a moderada (< 50%) da artéria _.
+  - trigger: "art2c"
+    label: "Doppler arterial de membros: Ateromatose incipiente em todos os segmentos"
+    replace: Ateromatose incipiente em todos os segmentos arteriais avaliados, sem repercussão hemodinâmica.
     word: true
 
-  - trigger: "dam7"
-    label: "Doppler arterial de membros: Padrão de fluxo monofásico distal (achado descritivo)"
-    replace: Curvas espectrais monofásicas, de baixa amplitude e resistência reduzida, nas artérias distais ao segmento avaliado, sugerindo doença arterial obstrutiva em nível proximal.
+  - trigger: "art19"
+    label: "Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg (achado descritivo)"
+    replace: Calcificações parietais difusas, lineares e contínuas, ao longo das artérias _, com sombra acústica posterior limitando parcialmente a avaliação ao Doppler nesses segmentos, sugerindo esclerose medial de Mönckeberg.
     word: true
 
-  - trigger: "dam7c"
-    label: "Doppler arterial de membros: Padrão de fluxo monofásico distal"
-    replace: Padrão de fluxo monofásico distal, sugestivo de doença arterial obstrutiva proximal.
+  - trigger: "art19c"
+    label: "Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg"
+    replace: Calcificações parietais arteriais difusas em membro _, sugerindo esclerose medial de Mönckeberg.
     word: true
 
-  - trigger: "dam8"
-    label: "Doppler arterial de membros: Estenose ≥ 50% (razão > 2,0) (achado descritivo)"
+  - trigger: "art8"
+    label: "Doppler arterial de membros: Estenose ≥ 50%, razão > 2,0, ilíaco/femoropoplíteo (achado descritivo)"
     replace: "Placa ateromatosa na artéria _, com fluxo turbulento, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 2,0), compatível com estenose igual ou superior a 50%."
     word: true
 
-  - trigger: "dam8c"
+  - trigger: "art8c"
     label: "Doppler arterial de membros: Estenose ≥ 50%"
     replace: "Estenose igual ou superior a 50% da artéria _."
     word: true
 
-  - trigger: "dam9"
-    label: "Doppler arterial de membros: Estenose ≥ 80% (razão > 4,0) (achado descritivo)"
-    replace: "Placa ateromatosa calcificada na artéria _, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%."
-    word: true
-
-  - trigger: "dam9c"
-    label: "Doppler arterial de membros: Estenose ≥ 80%"
-    replace: "Estenose igual ou superior a 80% da artéria _."
-    word: true
-
-  - trigger: "dam10"
-    label: "Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo)"
-    replace: Stent/prótese endovascular metálico em topografia da artéria _, com boa expansão e aposição às paredes vasculares, fluxo laminar preservado em seu interior e ausência de coleções perienxerto.
-    word: true
-
-  - trigger: "dam10c"
-    label: "Doppler arterial de membros: Stent/prótese endovascular pérvio"
-    replace: Stent/prótese endovascular pérvio na artéria _, sem sinais de complicação.
-    word: true
-
-  - trigger: "dam11"
+  - trigger: "art11"
     label: "Doppler arterial de membros: Oclusão arterial segmentar, com colaterais (achado descritivo)"
     replace: Ausência de fluxo ao Doppler colorido e espectral em segmento da artéria _, com reconstituição distal por vasos colaterais, demonstrando padrão monofásico de baixa amplitude.
     word: true
 
-  - trigger: "dam11c"
+  - trigger: "art11c"
     label: "Doppler arterial de membros: Oclusão arterial segmentar, com colaterais"
     replace: Oclusão arterial segmentar da artéria _, com reconstituição distal por colaterais.
     word: true
 
-  - trigger: "dam12"
-    label: "Doppler arterial de membros: Não caracterização de vaso (achado descritivo)"
-    replace: Não caracterização de fluxo ao Doppler colorido e espectral na artéria _ em toda a extensão avaliada, podendo corresponder a oclusão crônica, hipoplasia ou agenesia do vaso.
+  - trigger: "art7"
+    label: "Doppler arterial de membros: Fluxo monofásico distal, tardus parvus (achado descritivo)"
+    replace: Curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias distais ao segmento _, sugerindo doença arterial obstrutiva significativa em nível proximal.
     word: true
 
-  - trigger: "dam12c"
-    label: "Doppler arterial de membros: Não caracterização de vaso"
-    replace: Não caracterização da artéria _, a esclarecer oclusão crônica, hipoplasia ou agenesia.
+  - trigger: "art7c"
+    label: "Doppler arterial de membros: Fluxo monofásico distal, tardus parvus"
+    replace: Padrão de fluxo monofásico distal, sugestivo de doença arterial obstrutiva proximal.
     word: true
 
-  - trigger: "dam13"
+  - trigger: "art6"
+    label: "Doppler arterial de membros: Estenose < 50%, razão < 2,0, ilíaco/femoropoplíteo (achado descritivo)"
+    replace: Placa ateromatosa focal na artéria _, determinando redução luminal estimada em _%, com razão de velocidades inferior a 2,0 e curva espectral trifásica preservada, sem repercussão hemodinâmica significativa.
+    word: true
+
+  - trigger: "art6c"
+    label: "Doppler arterial de membros: Estenose < 50%"
+    replace: Estenose inferior a 50% da artéria _.
+    word: true
+
+  - trigger: "art9"
+    label: "Doppler arterial de membros: Estenose ≥ 80%, razão > 4,0, ilíaco/femoropoplíteo (achado descritivo)"
+    replace: "Placa ateromatosa na artéria _, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%."
+    word: true
+
+  - trigger: "art9c"
+    label: "Doppler arterial de membros: Estenose ≥ 80%"
+    replace: "Estenose igual ou superior a 80% da artéria _."
+    word: true
+
+  - trigger: "art13"
     label: "Doppler arterial de membros: Oclusão arterial extensa e crônica (achado descritivo)"
     replace: Ausência de fluxo ao Doppler colorido e espectral em extenso segmento da artéria _, associada a paredes irregulares e calcificadas, sem sinais de recanalização.
     word: true
 
-  - trigger: "dam13c"
+  - trigger: "art13c"
     label: "Doppler arterial de membros: Oclusão arterial extensa e crônica"
     replace: Oclusão arterial extensa e crônica da artéria _.
     word: true
 
-  - trigger: "dam14"
-    label: "Doppler arterial de membros: Aneurisma arterial periférico (achado descritivo)"
-    replace: Dilatação fusiforme da artéria _, medindo _ cm no maior diâmetro (> 50% do diâmetro esperado para o segmento), com fluxo turbilhonado em seu interior, sem trombo mural significativo.
-    word: true
-
-  - trigger: "dam14c"
-    label: "Doppler arterial de membros: Aneurisma arterial periférico"
-    replace: Aneurisma da artéria _.
-    word: true
-
-  - trigger: "dam15"
-    label: "Doppler arterial de membros: Aneurisma parcialmente trombosado (achado descritivo)"
-    replace: Dilatação fusiforme da artéria _, medindo _ cm no maior diâmetro, com trombo mural excêntrico ocupando parte da luz e fluxo residual preservado em luz remanescente, compatível com aneurisma parcialmente trombosado.
-    word: true
-
-  - trigger: "dam15c"
-    label: "Doppler arterial de membros: Aneurisma parcialmente trombosado"
-    replace: Aneurisma parcialmente trombosado da artéria _.
-    word: true
-
-  - trigger: "dam16"
-    label: "Doppler arterial de membros: Aneurisma trombosado (achado descritivo)"
-    replace: Dilatação fusiforme da artéria _, medindo _ cm no maior diâmetro, com trombo mural ocupando totalmente a luz vascular e ausência de fluxo ao Doppler colorido e espectral em seu interior, compatível com aneurisma totalmente trombosado.
-    word: true
-
-  - trigger: "dam16c"
-    label: "Doppler arterial de membros: Aneurisma trombosado"
-    replace: Aneurisma trombosado da artéria _.
-    word: true
-
-  - trigger: "dam17"
+  - trigger: "art17"
     label: "Doppler arterial de membros: Pseudoaneurisma (achado descritivo)"
-    replace: Coleção sacular adjacente à artéria _, com colo comunicante e fluxo de vaivém ("to-and-fro") ao Doppler espectral, medindo _ cm, achados compatíveis com pseudoaneurisma.
+    replace: Formação sacular adjacente à artéria _, medindo _ cm, com fluxo turbilhonado em padrão "yin-yang" no seu interior e colo comunicante de _ cm, com fluxo de vaivém ("to-and-fro") ao Doppler espectral, achados compatíveis com pseudoaneurisma.
     word: true
 
-  - trigger: "dam17c"
+  - trigger: "art17c"
     label: "Doppler arterial de membros: Pseudoaneurisma"
     replace: Pseudoaneurisma da artéria _.
     word: true
 
-  - trigger: "dam18"
+  - trigger: "art10"
+    label: "Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo)"
+    replace: Stent/prótese endovascular em topografia da artéria _, com boa expansão e aposição às paredes vasculares, fluxo laminar preservado em seu interior e ausência de coleções perienxerto.
+    word: true
+
+  - trigger: "art10c"
+    label: "Doppler arterial de membros: Stent/prótese endovascular pérvio"
+    replace: Stent/prótese endovascular pérvio na artéria _, sem sinais de complicação.
+    word: true
+
+  - trigger: "art20"
+    label: "Doppler arterial de membros: Estenose ilíaca ≥ 80% com tardus parvus distal (achado descritivo)"
+    replace: Placa ateromatosa na artéria ilíaca comum à _, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%, associando-se curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias do membro inferior ipsilateral.
+    word: true
+
+  - trigger: "art20c"
+    label: "Doppler arterial de membros: Estenose ilíaca ≥ 80% com hipofluxo distal"
+    replace: Estenose igual ou superior a 80% da artéria ilíaca comum à _, determinando hipofluxo distal no membro inferior ipsilateral.
+    word: true
+
+  - trigger: "art14"
+    label: "Doppler arterial de membros: Aneurisma arterial periférico (achado descritivo)"
+    replace: Dilatação fusiforme da artéria _, medindo _ cm no maior diâmetro (> 50% do diâmetro esperado para o segmento), com fluxo turbilhonado em seu interior, sem trombo mural significativo.
+    word: true
+
+  - trigger: "art14c"
+    label: "Doppler arterial de membros: Aneurisma arterial periférico"
+    replace: Aneurisma da artéria _.
+    word: true
+
+  - trigger: "art15"
+    label: "Doppler arterial de membros: Aneurisma parcialmente trombosado (achado descritivo)"
+    replace: Dilatação fusiforme da artéria _, medindo _ cm no maior diâmetro, com trombo mural excêntrico ocupando parte da luz e fluxo residual preservado em luz remanescente, compatível com aneurisma parcialmente trombosado.
+    word: true
+
+  - trigger: "art15c"
+    label: "Doppler arterial de membros: Aneurisma parcialmente trombosado"
+    replace: Aneurisma parcialmente trombosado da artéria _.
+    word: true
+
+  - trigger: "art16"
+    label: "Doppler arterial de membros: Aneurisma trombosado (achado descritivo)"
+    replace: Dilatação fusiforme da artéria _, medindo _ cm no maior diâmetro, com trombo mural ocupando totalmente a luz vascular e ausência de fluxo ao Doppler colorido e espectral em seu interior, compatível com aneurisma totalmente trombosado.
+    word: true
+
+  - trigger: "art16c"
+    label: "Doppler arterial de membros: Aneurisma trombosado"
+    replace: Aneurisma trombosado da artéria _.
+    word: true
+
+  - trigger: "art18"
     label: "Doppler arterial de membros: Fístula arteriovenosa (achado descritivo)"
     replace: Comunicação anômala entre a artéria _ e a veia adjacente, com fluxo arterializado de alta velocidade e baixa resistência na veia correspondente, achados compatíveis com fístula arteriovenosa.
     word: true
 
-  - trigger: "dam18c"
+  - trigger: "art18c"
     label: "Doppler arterial de membros: Fístula arteriovenosa"
     replace: Fístula arteriovenosa entre a artéria _ e a veia adjacente.
+    word: true
+
+  - trigger: "art12"
+    label: "Doppler arterial de membros: Não caracterização de vaso (achado descritivo)"
+    replace: Não caracterização de fluxo ao Doppler colorido e espectral na artéria _ em toda a extensão avaliada, podendo corresponder a oclusão crônica, hipoplasia ou agenesia do vaso.
+    word: true
+
+  - trigger: "art12c"
+    label: "Doppler arterial de membros: Não caracterização de vaso"
+    replace: Não caracterização da artéria _, a esclarecer oclusão crônica, hipoplasia ou agenesia.
+    word: true
+
+  - trigger: "art21"
+    label: "Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ (achado descritivo)"
+    replace: Padrão de fluxo pós-estenótico com posterior ausência de fluxo na artéria subclávia à _ durante a realização de manobras ativas de redução do espaço costoclavicular (abdução e extensão posterior do braço).
+    word: true
+
+  - trigger: "art21c"
+    label: "Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _"
+    replace: Achados ecográficos sugestivos de síndrome do desfiladeiro torácico arterial à _.
+    word: true
+
+  - trigger: "art5"
+    label: "Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo)"
+    replace: Variação anatômica do trajeto/padrão de ramificação da artéria _, em relação à disposição habitual, sem repercussão hemodinâmica.
+    word: true
+
+  - trigger: "art5c"
+    label: "Doppler arterial de membros: Variação anatômica comum do trajeto arterial"
+    replace: Variação anatômica do trajeto da artéria _, sem repercussão hemodinâmica.
     word: true
 
   # ==============================================================================
@@ -9151,49 +9178,258 @@ matches:
     word: true
 
   # ==============================================================================
-  # VASCULAR — SÍNDROME DO DESFILADEIRO TORÁCICO (MMSS)
+  # VASCULAR — DOPPLER DO ABDOME SUPERIOR (PORTAL, HEPÁTICO, ESPLÊNICO, MESENTÉRICO)
+  # ==============================================================================
+  # Ordem: achados mais frequentes primeiro (dabd0 = bloco normal). Estenose de tronco
+  # celíaco e AMS: AbuRahma 2012 (VPS ≥ 240/320 e ≥ 295/400 cm/s: ≥ 50%/≥ 70%).
+  # Nutcracker: razão de diâmetros > 4,0 e de velocidades > 5,0 (adultos); o consenso
+  # Delphi 2025 (Heilijgers et al.) não fechou corte único.
+
+  - trigger: "dabd0"
+    label: "Doppler abdome superior: normal (porta, veias hepáticas, veia esplênica, artéria hepática)"
+    replace: |-
+      Veia porta pérvia, de calibre preservado (mede _ cm, normal até 1,3 cm), fluxo hepatopetal e velocidade de _ cm/s (normal entre 16 e 40 cm/s).
+      Veias hepáticas pérvias, com padrão de fluxo trifásico habitual.
+      Veia esplênica pérvia, de calibre preservado (mede _ cm, normal até 0,9 cm) e fluxo hepatopetal.
+      Artéria hepática com índice de resistência de _ (normal entre 0,55 e 0,7).
+    word: true
+
+  - trigger: "dabd1"
+    label: "Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida (achado descritivo)"
+    replace: "Veia porta pérvia, com calibre aumentado, medindo _ cm (normal até 1,3 cm), fluxo hepatopetal de velocidade reduzida, de _ cm/s (normal acima de 16 cm/s), e perda da variação respiratória do fluxo, sugerindo hipertensão portal."
+    word: true
+
+  - trigger: "dabd1c"
+    label: "Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida"
+    replace: "Sinais ecográficos de hipertensão portal."
+    word: true
+
+  - trigger: "dabd2"
+    label: "Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical (achado descritivo)"
+    replace: "Veia paraumbilical recanalizada, partindo do ramo esquerdo da veia porta e percorrendo o ligamento redondo até a parede abdominal, medindo _ cm de calibre, com fluxo hepatofugal ao Doppler."
+    word: true
+
+  - trigger: "dabd2c"
+    label: "Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical"
+    replace: "Recanalização da veia paraumbilical, compatível com circulação colateral portossistêmica."
+    word: true
+
+  - trigger: "dabd3"
+    label: "Doppler abdome superior: Veias hepáticas: perda do padrão trifásico (achado descritivo)"
+    replace: "Veias hepáticas pérvias, com perda do padrão trifásico habitual, exibindo fluxo bifásico/monofásico ao Doppler espectral."
+    word: true
+
+  - trigger: "dabd3c"
+    label: "Doppler abdome superior: Veias hepáticas: perda do padrão trifásico"
+    replace: "Perda do padrão trifásico das veias hepáticas, achado inespecífico, relacionado a hepatopatia difusa no contexto clínico adequado."
+    word: true
+
+  - trigger: "dabd4"
+    label: "Doppler abdome superior: Artéria hepática: índice de resistência elevado (achado descritivo)"
+    replace: "Artéria hepática pérvia, com índice de resistência elevado, de _ (normal entre 0,55 e 0,7)."
+    word: true
+
+  - trigger: "dabd4c"
+    label: "Doppler abdome superior: Artéria hepática: índice de resistência elevado"
+    replace: "Índice de resistência da artéria hepática elevado."
+    word: true
+
+  - trigger: "dabd5"
+    label: "Doppler abdome superior: Trombose da veia porta (não tumoral) (achado descritivo)"
+    replace: "Material ecogênico preenchendo parcialmente/totalmente a luz da veia porta _ (tronco/ramo direito/ramo esquerdo), com fluxo residual periférico/ausência de fluxo ao Doppler colorido, sem fluxo arterial em seu interior, compatível com trombose."
+    word: true
+
+  - trigger: "dabd5c"
+    label: "Doppler abdome superior: Trombose da veia porta (não tumoral)"
+    replace: "Trombose parcial/oclusiva da veia porta _."
+    word: true
+
+  - trigger: "dabd6"
+    label: "Doppler abdome superior: Hipertensão portal: veia gástrica esquerda dilatada / varizes (achado descritivo)"
+    replace: "Veia gástrica esquerda com calibre aumentado, medindo _ cm, e fluxo hepatofugal, associando-se vasos colaterais tortuosos na região da pequena curvatura gástrica e junção esofagogástrica, sugerindo varizes."
+    word: true
+
+  - trigger: "dabd6c"
+    label: "Doppler abdome superior: Hipertensão portal: veia gástrica esquerda dilatada / varizes"
+    replace: "Dilatação da veia gástrica esquerda com fluxo hepatofugal e colaterais na junção esofagogástrica, sugerindo varizes."
+    word: true
+
+  - trigger: "dabd7"
+    label: "Doppler abdome superior: Fluxo portal hepatofugal (achado descritivo)"
+    replace: "Fluxo hepatofugal no tronco da veia porta/ramos portais intra-hepáticos, com velocidade de _ cm/s ao Doppler espectral."
+    word: true
+
+  - trigger: "dabd7c"
+    label: "Doppler abdome superior: Fluxo portal hepatofugal"
+    replace: "Fluxo portal hepatofugal, compatível com hipertensão portal avançada."
+    word: true
+
+  - trigger: "dabd8"
+    label: "Doppler abdome superior: Congestão hepática: fluxo pulsátil nas veias hepáticas e porta (achado descritivo)"
+    replace: "Veias hepáticas e veia cava inferior com calibre aumentado, a veia hepática média medindo _ cm, exibindo padrão espectral acentuadamente pulsátil, com redução/inversão da onda sistólica, associando-se fluxo pulsátil na veia porta."
+    word: true
+
+  - trigger: "dabd8c"
+    label: "Doppler abdome superior: Congestão hepática: fluxo pulsátil nas veias hepáticas e porta"
+    replace: "Padrão de fluxo hepático pulsátil, sugerindo congestão hepática. Insuficiência cardíaca direita? Insuficiência tricúspide?"
+    word: true
+
+  - trigger: "dabd9"
+    label: "Doppler abdome superior: Veia esplênica: ectasia (achado descritivo)"
+    replace: "Veia esplênica pérvia, com calibre aumentado, medindo _ cm (normal até 0,9 cm), e fluxo hepatopetal."
+    word: true
+
+  - trigger: "dabd9c"
+    label: "Doppler abdome superior: Veia esplênica: ectasia"
+    replace: "Ectasia da veia esplênica."
+    word: true
+
+  - trigger: "dabd10"
+    label: "Doppler abdome superior: Transformação cavernomatosa da veia porta (achado descritivo)"
+    replace: "Múltiplos vasos tortuosos e serpiginosos no hilo hepático e no ligamento hepatoduodenal, com fluxo venoso hepatopetal ao Doppler, sem caracterização do tronco da veia porta pérvio, compatível com transformação cavernomatosa da veia porta."
+    word: true
+
+  - trigger: "dabd10c"
+    label: "Doppler abdome superior: Transformação cavernomatosa da veia porta"
+    replace: "Transformação cavernomatosa da veia porta."
+    word: true
+
+  - trigger: "dabd11"
+    label: "Doppler abdome superior: Hipertensão portal: shunt esplenorrenal espontâneo (achado descritivo)"
+    replace: "Vasos colaterais tortuosos no hilo esplênico, comunicando-se com a veia renal esquerda, que apresenta calibre aumentado, medindo _ cm, compatível com derivação esplenorrenal espontânea."
+    word: true
+
+  - trigger: "dabd11c"
+    label: "Doppler abdome superior: Hipertensão portal: shunt esplenorrenal espontâneo"
+    replace: "Derivação esplenorrenal espontânea, compatível com circulação colateral portossistêmica."
+    word: true
+
+  - trigger: "dabd12"
+    label: "Doppler abdome superior: Aneurisma da artéria esplênica (achado descritivo)"
+    replace: "Dilatação sacular/fusiforme da artéria esplênica, no seu terço _, medindo _ cm, com fluxo turbilhonado ao Doppler colorido e trombo mural/sem trombo mural, compatível com aneurisma."
+    word: true
+
+  - trigger: "dabd12c"
+    label: "Doppler abdome superior: Aneurisma da artéria esplênica"
+    replace: "Aneurisma da artéria esplênica, medindo _ cm."
+    word: true
+
+  - trigger: "dabd13"
+    label: "Doppler abdome superior: TIPS pérvio (achado descritivo)"
+    replace: "Derivação portossistêmica intra-hepática transjugular (TIPS) pérvia, com fluxo hepatopetal no tronco da veia porta, de _ cm/s, e fluxo em direção à veia cava inferior no interior da prótese, com velocidades de _ cm/s (extremidade portal), _ cm/s (segmento médio) e _ cm/s (extremidade hepática), dentro da faixa esperada (90 a 190 cm/s)."
+    word: true
+
+  - trigger: "dabd13c"
+    label: "Doppler abdome superior: TIPS pérvio"
+    replace: "TIPS pérvio, com velocidades dentro da faixa esperada."
+    word: true
+
+  - trigger: "dabd14"
+    label: "Doppler abdome superior: TIPS: disfunção (achado descritivo)"
+    replace: "Derivação portossistêmica intra-hepática transjugular (TIPS) com velocidade de _ cm/s no seu segmento _, fora da faixa esperada (90 a 190 cm/s), associando-se fluxo de _ cm/s no tronco da veia porta e fluxo hepatofugal/hepatopetal nos ramos portais intra-hepáticos, sugerindo estenose/disfunção da prótese."
+    word: true
+
+  - trigger: "dabd14c"
+    label: "Doppler abdome superior: TIPS: disfunção"
+    replace: "Achados sugestivos de disfunção do TIPS. Sugere-se correlação com estudo angiográfico."
+    word: true
+
+  - trigger: "dabd15"
+    label: "Doppler abdome superior: Trombo tumoral na veia porta (achado descritivo)"
+    replace: "Material ecogênico expandindo a luz da veia porta _, em continuidade com a lesão hepática descrita, com fluxo arterial pulsátil em seu interior ao Doppler espectral, sugerindo trombo tumoral."
+    word: true
+
+  - trigger: "dabd15c"
+    label: "Doppler abdome superior: Trombo tumoral na veia porta"
+    replace: "Trombose da veia porta _ com fluxo arterial em seu interior, sugerindo trombo tumoral."
+    word: true
+
+  - trigger: "dabd16"
+    label: "Doppler abdome superior: Trombose da veia esplênica (achado descritivo)"
+    replace: "Material ecogênico preenchendo parcialmente/totalmente a luz da veia esplênica, com fluxo residual periférico/ausência de fluxo ao Doppler colorido, compatível com trombose."
+    word: true
+
+  - trigger: "dabd16c"
+    label: "Doppler abdome superior: Trombose da veia esplênica"
+    replace: "Trombose parcial/oclusiva da veia esplênica."
+    word: true
+
+  - trigger: "dabd17"
+    label: "Doppler abdome superior: Trombose da veia mesentérica superior (achado descritivo)"
+    replace: "Material ecogênico preenchendo parcialmente/totalmente a luz da veia mesentérica superior, com distensão do vaso e fluxo residual periférico/ausência de fluxo ao Doppler colorido, compatível com trombose."
+    word: true
+
+  - trigger: "dabd17c"
+    label: "Doppler abdome superior: Trombose da veia mesentérica superior"
+    replace: "Trombose parcial/oclusiva da veia mesentérica superior."
+    word: true
+
+  - trigger: "dabd18"
+    label: "Doppler abdome superior: Tronco celíaco: estenose ≥ 50%/≥ 70%, VPS ≥ 240/320 cm/s (AbuRahma 2012) (achado descritivo)"
+    replace: "Placa ateromatosa na origem do tronco celíaco, com fluxo turbulento e velocidade de pico sistólico de _ cm/s (igual ou superior a 240/320 cm/s), compatível com estenose igual ou superior a 50%/70%."
+    word: true
+
+  - trigger: "dabd18c"
+    label: "Doppler abdome superior: Tronco celíaco: estenose ≥ 50%/≥ 70%, VPS ≥ 240/320 cm/s (AbuRahma 2012)"
+    replace: "Estenose igual ou superior a 50%/70% do tronco celíaco."
+    word: true
+
+  - trigger: "dabd19"
+    label: "Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano (achado descritivo)"
+    replace: "Tronco celíaco com angulação em gancho junto à sua origem, apresentando velocidade de pico sistólico de _ cm/s na expiração, com redução para _ cm/s na inspiração profunda, sugerindo compressão extrínseca pelo ligamento arqueado mediano."
+    word: true
+
+  - trigger: "dabd19c"
+    label: "Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano"
+    replace: "Achados sugestivos de compressão do tronco celíaco pelo ligamento arqueado mediano, a ser correlacionado com o quadro clínico."
+    word: true
+
+  - trigger: "dabd20"
+    label: "Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 50%/≥ 70%, VPS ≥ 295/400 cm/s (AbuRahma 2012) (achado descritivo)"
+    replace: "Placa ateromatosa na origem da artéria mesentérica superior, com fluxo turbulento e velocidade de pico sistólico de _ cm/s (igual ou superior a 295/400 cm/s), compatível com estenose igual ou superior a 50%/70%."
+    word: true
+
+  - trigger: "dabd20c"
+    label: "Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 50%/≥ 70%, VPS ≥ 295/400 cm/s (AbuRahma 2012)"
+    replace: "Estenose igual ou superior a 50%/70% da artéria mesentérica superior."
+    word: true
+
+  - trigger: "dabd21"
+    label: "Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) (achado descritivo)"
+    replace: "Veia renal esquerda com redução de calibre no seu trajeto entre a aorta e a artéria mesentérica superior, medindo _ cm, e dilatação do segmento hilar, medindo _ cm (razão entre diâmetros de _, superior a 4,0), com velocidade de pico de _ cm/s no ponto de compressão e de _ cm/s no segmento hilar (razão entre velocidades de _, superior a 5,0), sugerindo compressão aortomesentérica da veia renal esquerda."
+    word: true
+
+  - trigger: "dabd21c"
+    label: "Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker)"
+    replace: "Achados sugestivos de compressão aortomesentérica da veia renal esquerda (fenômeno de quebra-nozes), a ser correlacionado com o quadro clínico."
+    word: true
+
+  - trigger: "dabd22"
+    label: "Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) (achado descritivo)"
+    replace: "Ângulo aortomesentérico reduzido, de _° (normal acima de 22°), com distância aortomesentérica de _ cm (normal acima de 0,8 cm), associando-se distensão do estômago e do duodeno proximal ao ponto de cruzamento."
+    word: true
+
+  - trigger: "dabd22c"
+    label: "Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie)"
+    replace: "Redução do ângulo e da distância aortomesentérica, com distensão gastroduodenal, sugerindo pinçamento aortomesentérico do duodeno (síndrome de Wilkie)."
+    word: true
+
+  - trigger: "dabd23"
+    label: "Doppler abdome superior: Síndrome de Budd-Chiari (achado descritivo)"
+    replace: "Veias hepáticas não caracterizadas/com material ecogênico e ausência de fluxo ao Doppler colorido, associando-se colaterais intra-hepáticas tortuosas e hipertrofia do lobo caudado, sugerindo síndrome de Budd-Chiari."
+    word: true
+
+  - trigger: "dabd23c"
+    label: "Doppler abdome superior: Síndrome de Budd-Chiari"
+    replace: "Achados sugestivos de síndrome de Budd-Chiari. Sugere-se complementação com angiotomografia ou angiorressonância."
+    word: true
+
+  # ==============================================================================
+  # VASCULAR — AORTA ABDOMINAL
   # ==============================================================================
 
-  - trigger: "sdt"
-    label: "Síndrome do desfiladeiro torácico arterial à _ (achado descritivo)"
-    replace: Padrão de fluxo pós-estenótico com posterior ausência de fluxo na artéria subclávia à _ durante a realização de manobras ativas de redução do espaço costoclavicular (abdução e extensão posterior do braço).
-    word: true
-
-  - trigger: "sdtc"
-    label: "Síndrome do desfiladeiro torácico arterial à _"
-    replace: Achados ecográficos sugestivos de síndrome do desfiladeiro torácico arterial à _.
-    word: true
-
-  # ==============================================================================
-  # VASCULAR — AORTA E ARTÉRIAS ILÍACAS
-  # ==============================================================================
-
-  - trigger: "di1"
-    label: "Estenose ilíaca à _ (achado descritivo)"
-    replace: |-
-      Ateromatose ilíaca bilateral com sinais de estenose importante na artéria ilíaca comum à _, caracterizada por fluxo filiforme com velocidades superiores a _ cm/s e razão sistólica > _, sugerindo estenose grave (> 70%).
-      As curvas espectrais das artérias do membro inferior ipsilateral demonstram padrão de baixa amplitude e aceleração lenta (tardus parvus), decorrente do quadro estenótico.
-    word: true
-
-  - trigger: "di1c"
-    label: "Estenose ilíaca à _"
-    replace: Ateromatose difusa promovendo estenose grave em território ilíaco à _ (> 70%), determinando hipofluxo distal no membro inferior ipsilateral.
-    word: true
-
-  - trigger: "da1"
-    label: "Aneurisma + estenose aortoilíaca (achado descritivo)"
-    replace: |-
-      Aorta abdominal ateromatosa apresentando aneurisma fusiforme de seu segmento infrarrenal, com trombo mural excêntrico não obstrutivo, diâmetro de _ cm e luz residual de _ cm, com fluxo de baixa amplitude e padrão pré-estenótico em seu interior.
-      Estenose crítica no terço distal da aorta abdominal, junto à bifurcação aortoilíaca, com placas ateromatosas calcificadas grosseiras e circunferenciais promovendo fluxo filiforme com velocidades superiores a _ cm/s e razão sistólica > _, sugerindo estenose grave (> 70%).
-      As curvas espectrais das artérias de ambos os membros inferiores demonstram padrão de baixa amplitude e aceleração lenta (tardus parvus), decorrente do quadro estenótico aortoilíaco.
-    word: true
-
-  - trigger: "da1c"
-    label: "Aneurisma + estenose aortoilíaca"
-    replace: |-
-      Estenose grave em território aortoilíaco (> 70%), determinando hipofluxo distal em ambos os membros inferiores.
-      Aneurisma de aorta abdominal.
-    word: true
+  # Ordem: achados mais frequentes primeiro. Estenose (aorta1, aorta7) pelo critério
+  # de Jager/Strandness, como em art* (razão > 2,0: ≥ 50%; > 4,0: ≥ 80%).
 
   - trigger: "usaortaabd"
     label: Aorta abdominal — normal
@@ -9212,14 +9448,118 @@ matches:
       Aorta abdominal de calibre normal.
     word: true
 
-  - trigger: "da2"
+  - trigger: "aorta3"
+    label: "Aorta abdominal: ateromatose, sem dilatação (achado descritivo)"
+    replace: "Placas ateromatosas parietais esparsas, calcificadas e não calcificadas, na aorta abdominal, sem dilatação, trombo mural ou estenose hemodinamicamente significativa."
+    word: true
+
+  - trigger: "aorta3c"
+    label: "Aorta abdominal: ateromatose, sem dilatação (conclusão)"
+    replace: "Ateromatose aórtica abdominal, sem dilatação ou estenose significativa."
+    word: true
+
+  - trigger: "aorta4"
+    label: "Aorta abdominal: ectasia infrarrenal, < 3,0 cm (achado descritivo)"
+    replace: "Aorta abdominal infrarrenal com calibre aumentado, medindo _ cm no maior diâmetro anteroposterior (de parede externa a parede externa), abaixo do limiar de aneurisma (3,0 cm), compatível com ectasia."
+    word: true
+
+  - trigger: "aorta4c"
+    label: "Aorta abdominal: ectasia infrarrenal (conclusão)"
+    replace: "Ectasia da aorta abdominal infrarrenal, com diâmetro máximo de _ cm."
+    word: true
+
+  - trigger: "aorta2"
     label: "Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses"
     replace: "Dilatação fusiforme/sacular da aorta abdominal infrarrenal, com diâmetro anteroposterior máximo de _ cm (medido de parede externa a parede externa), extensão longitudinal de _ cm, distando _ cm das artérias renais, com/sem trombo mural."
     word: true
 
-  - trigger: "da2c"
+  - trigger: "aorta2c"
     label: "Aorta abdominal: aneurisma infrarrenal (conclusão)"
     replace: "Aneurisma da aorta abdominal infrarrenal, com diâmetro máximo de _ cm."
+    word: true
+
+  - trigger: "aorta5"
+    label: "Aorta abdominal: endoprótese pérvia, sem endoleak (achado descritivo)"
+    replace: "Endoprótese aórtica/aortobi-ilíaca no segmento infrarrenal, com fluxo laminar em seu interior e nos ramos ilíacos, sem fluxo ao Doppler colorido no saco aneurismático, que mede _ cm no maior diâmetro (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "aorta5c"
+    label: "Aorta abdominal: endoprótese pérvia, sem endoleak (conclusão)"
+    replace: "Endoprótese aórtica pérvia, sem sinais de vazamento (endoleak) ao Doppler."
+    word: true
+
+  - trigger: "aorta6"
+    label: "Aorta abdominal: endoleak (achado descritivo)"
+    replace: "Fluxo ao Doppler colorido no interior do saco aneurismático da endoprótese, junto a _, com saco medindo _ cm no maior diâmetro (no exame anterior: _ cm), achados compatíveis com vazamento (endoleak)."
+    word: true
+
+  - trigger: "aorta6c"
+    label: "Aorta abdominal: endoleak (conclusão)"
+    replace: "Vazamento (endoleak) no saco aneurismático da endoprótese aórtica. Sugere-se angiotomografia para caracterização do tipo."
+    word: true
+
+  - trigger: "aorta7"
+    label: "Aorta abdominal: estenose ≥ 50%/≥ 80%, razão > 2,0/> 4,0 (achado descritivo)"
+    replace: "Placas ateromatosas no segmento _ da aorta abdominal, com fluxo turbulento, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 2,0/4,0), compatível com estenose igual ou superior a 50%/80%."
+    word: true
+
+  - trigger: "aorta7c"
+    label: "Aorta abdominal: estenose ≥ 50%/≥ 80% (conclusão)"
+    replace: "Estenose igual ou superior a 50%/80% da aorta abdominal _."
+    word: true
+
+  - trigger: "aorta1"
+    label: "Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%, razão > 4,0 (achado descritivo)"
+    replace: |-
+      Aorta abdominal ateromatosa apresentando aneurisma fusiforme de seu segmento infrarrenal, com trombo mural excêntrico não obstrutivo, diâmetro de _ cm e luz residual de _ cm, com fluxo de baixa amplitude e padrão pré-estenótico em seu interior.
+      Placas ateromatosas calcificadas grosseiras e circunferenciais no terço distal da aorta abdominal, junto à bifurcação aortoilíaca, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%, associando-se curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias de ambos os membros inferiores.
+    word: true
+
+  - trigger: "aorta1c"
+    label: "Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%"
+    replace: |-
+      Aneurisma da aorta abdominal infrarrenal.
+      Estenose igual ou superior a 80% no território aortoilíaco, determinando hipofluxo distal em ambos os membros inferiores.
+    word: true
+
+  - trigger: "aorta8"
+    label: "Aorta abdominal: oclusão aortoilíaca, Leriche (achado descritivo)"
+    replace: "Ausência de fluxo ao Doppler colorido e espectral na aorta abdominal infrarrenal a partir de _ cm abaixo das artérias renais, estendendo-se às artérias ilíacas comuns, com reconstituição do fluxo nas artérias femorais comuns por vasos colaterais, associando-se curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias de ambos os membros inferiores."
+    word: true
+
+  - trigger: "aorta8c"
+    label: "Aorta abdominal: oclusão aortoilíaca, Leriche (conclusão)"
+    replace: "Oclusão aortoilíaca (síndrome de Leriche), com reconstituição distal por colaterais."
+    word: true
+
+  - trigger: "aorta9"
+    label: "Aorta abdominal: dissecção (achado descritivo)"
+    replace: "Flap intimal linear e móvel na luz da aorta abdominal, estendendo-se de _ a _, delimitando luz verdadeira e luz falsa, esta com fluxo/sem fluxo ao Doppler colorido, achados compatíveis com dissecção."
+    word: true
+
+  - trigger: "aorta9c"
+    label: "Aorta abdominal: dissecção (conclusão)"
+    replace: "Dissecção da aorta abdominal, com luz falsa pérvia/trombosada. Sugere-se complementação com angiotomografia."
+    word: true
+
+  - trigger: "aorta10"
+    label: "Aorta abdominal: espessamento periaórtico, periaortite (achado descritivo)"
+    replace: "Espessamento parietal hipoecogênico, homogêneo e circunferencial da aorta abdominal infrarrenal, formando manguito periaórtico com até _ cm de espessura, estendendo-se às artérias ilíacas comuns, sem dilatação luminal significativa."
+    word: true
+
+  - trigger: "aorta10c"
+    label: "Aorta abdominal: espessamento periaórtico, periaortite (conclusão)"
+    replace: "Espessamento parietal periaórtico. Os diagnósticos diferenciais incluem periaortite crônica (fibrose retroperitoneal) e aortite, entre outros, sendo recomendada complementação com tomografia computadorizada ou ressonância magnética."
+    word: true
+
+  - trigger: "aorta11"
+    label: "Aorta abdominal: rotura de aneurisma, hematoma retroperitoneal (achado descritivo)"
+    replace: "Coleção heterogênea retroperitoneal adjacente ao aneurisma da aorta abdominal, medindo _ x _ cm, sem fluxo ao Doppler colorido, sugerindo hematoma por rotura contida."
+    word: true
+
+  - trigger: "aorta11c"
+    label: "Aorta abdominal: rotura de aneurisma, hematoma retroperitoneal (conclusão)"
+    replace: "Achados sugestivos de rotura contida de aneurisma da aorta abdominal, com hematoma retroperitoneal. Sugere-se avaliação cirúrgica com urgência."
     word: true
 
   # ==============================================================================

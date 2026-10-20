@@ -40,7 +40,6 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ch3c | Fígado (hepatopatia difusa): Hepatopatia parenquimatosa associada a sinais de fibrose periportal |
 | ch4 | Fígado (hepatopatia difusa): Hepatomegalia, associada a ectasia da veia cava e suas principais tributárias e ascite (achado descritivo) |
 | ch4c | Fígado: hepatomegalia congestiva \| Vasos: ectasia de cava e tributárias/ascite |
-| dh0 | Fígado (Doppler): Veia porta pérvia, de calibre preservado (mede _ cm, normal <1,2 cm), fluxo hepatopetal e... |
 | eh1 | Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática leve (grau I) (achado descritivo) |
 | eh1c | Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I) |
 | eh2 | Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática moderada (grau II) (achado descritivo) |
@@ -1536,46 +1535,52 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | mapa24 | Mapeamento venoso: neovascularização inguinal pós-cirúrgica (achado descritivo) |
 | mapa24c | Mapeamento venoso: neovascularização inguinal pós-cirúrgica (conclusão) |
 
-## Vascular — Doppler Arterial De Membros (Superiores/Inferiores)
+## Vascular — Doppler Arterial De Membros Superiores E Inferiores
 
 | Trigger | Label |
 |---|---|
-| dam1 | Doppler arterial de membros: Ateromatose incipiente (achado descritivo) |
-| dam1c | Doppler arterial de membros: Ateromatose incipiente |
-| dam2 | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral) |
-| dam2c | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos |
-| dam3 | Doppler arterial de membros: Ateromatose difusa, sem estenose significativa (achado descritivo) |
-| dam3c | Doppler arterial de membros: Ateromatose difusa, sem estenose significativa |
-| dam4 | Doppler arterial de membros: Ateromatose difusa em todos os segmentos (achado geral) |
-| dam4c | Doppler arterial de membros: Ateromatose difusa em todos os segmentos |
-| dam5 | Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo) |
-| dam5c | Doppler arterial de membros: Variação anatômica comum do trajeto arterial |
-| dam6 | Doppler arterial de membros: Estenose leve a moderada, onda bifásica (achado descritivo) |
-| dam6c | Doppler arterial de membros: Estenose leve a moderada (< 50%) |
-| dam7 | Doppler arterial de membros: Padrão de fluxo monofásico distal (achado descritivo) |
-| dam7c | Doppler arterial de membros: Padrão de fluxo monofásico distal |
-| dam8 | Doppler arterial de membros: Estenose ≥ 50% (razão > 2,0) (achado descritivo) |
-| dam8c | Doppler arterial de membros: Estenose ≥ 50% |
-| dam9 | Doppler arterial de membros: Estenose ≥ 80% (razão > 4,0) (achado descritivo) |
-| dam9c | Doppler arterial de membros: Estenose ≥ 80% |
-| dam10 | Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo) |
-| dam10c | Doppler arterial de membros: Stent/prótese endovascular pérvio |
-| dam11 | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais (achado descritivo) |
-| dam11c | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais |
-| dam12 | Doppler arterial de membros: Não caracterização de vaso (achado descritivo) |
-| dam12c | Doppler arterial de membros: Não caracterização de vaso |
-| dam13 | Doppler arterial de membros: Oclusão arterial extensa e crônica (achado descritivo) |
-| dam13c | Doppler arterial de membros: Oclusão arterial extensa e crônica |
-| dam14 | Doppler arterial de membros: Aneurisma arterial periférico (achado descritivo) |
-| dam14c | Doppler arterial de membros: Aneurisma arterial periférico |
-| dam15 | Doppler arterial de membros: Aneurisma parcialmente trombosado (achado descritivo) |
-| dam15c | Doppler arterial de membros: Aneurisma parcialmente trombosado |
-| dam16 | Doppler arterial de membros: Aneurisma trombosado (achado descritivo) |
-| dam16c | Doppler arterial de membros: Aneurisma trombosado |
-| dam17 | Doppler arterial de membros: Pseudoaneurisma (achado descritivo) |
-| dam17c | Doppler arterial de membros: Pseudoaneurisma |
-| dam18 | Doppler arterial de membros: Fístula arteriovenosa (achado descritivo) |
-| dam18c | Doppler arterial de membros: Fístula arteriovenosa |
+| art3 | Doppler arterial de membros: Ateromatose difusa, sem estenose significativa (achado descritivo) |
+| art3c | Doppler arterial de membros: Ateromatose difusa, sem estenose significativa |
+| art4 | Doppler arterial de membros: Ateromatose difusa em todos os segmentos (achado geral) |
+| art4c | Doppler arterial de membros: Ateromatose difusa em todos os segmentos |
+| art1 | Doppler arterial de membros: Ateromatose incipiente (achado descritivo) |
+| art1c | Doppler arterial de membros: Ateromatose incipiente |
+| art2 | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos (achado geral) |
+| art2c | Doppler arterial de membros: Ateromatose incipiente em todos os segmentos |
+| art19 | Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg (achado descritivo) |
+| art19c | Doppler arterial de membros: Calcificação parietal difusa, Mönckeberg |
+| art8 | Doppler arterial de membros: Estenose ≥ 50%, razão > 2,0, ilíaco/femoropoplíteo (achado descritivo) |
+| art8c | Doppler arterial de membros: Estenose ≥ 50% |
+| art11 | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais (achado descritivo) |
+| art11c | Doppler arterial de membros: Oclusão arterial segmentar, com colaterais |
+| art7 | Doppler arterial de membros: Fluxo monofásico distal, tardus parvus (achado descritivo) |
+| art7c | Doppler arterial de membros: Fluxo monofásico distal, tardus parvus |
+| art6 | Doppler arterial de membros: Estenose < 50%, razão < 2,0, ilíaco/femoropoplíteo (achado descritivo) |
+| art6c | Doppler arterial de membros: Estenose < 50% |
+| art9 | Doppler arterial de membros: Estenose ≥ 80%, razão > 4,0, ilíaco/femoropoplíteo (achado descritivo) |
+| art9c | Doppler arterial de membros: Estenose ≥ 80% |
+| art13 | Doppler arterial de membros: Oclusão arterial extensa e crônica (achado descritivo) |
+| art13c | Doppler arterial de membros: Oclusão arterial extensa e crônica |
+| art17 | Doppler arterial de membros: Pseudoaneurisma (achado descritivo) |
+| art17c | Doppler arterial de membros: Pseudoaneurisma |
+| art10 | Doppler arterial de membros: Stent/prótese endovascular pérvio (achado descritivo) |
+| art10c | Doppler arterial de membros: Stent/prótese endovascular pérvio |
+| art20 | Doppler arterial de membros: Estenose ilíaca ≥ 80% com tardus parvus distal (achado descritivo) |
+| art20c | Doppler arterial de membros: Estenose ilíaca ≥ 80% com hipofluxo distal |
+| art14 | Doppler arterial de membros: Aneurisma arterial periférico (achado descritivo) |
+| art14c | Doppler arterial de membros: Aneurisma arterial periférico |
+| art15 | Doppler arterial de membros: Aneurisma parcialmente trombosado (achado descritivo) |
+| art15c | Doppler arterial de membros: Aneurisma parcialmente trombosado |
+| art16 | Doppler arterial de membros: Aneurisma trombosado (achado descritivo) |
+| art16c | Doppler arterial de membros: Aneurisma trombosado |
+| art18 | Doppler arterial de membros: Fístula arteriovenosa (achado descritivo) |
+| art18c | Doppler arterial de membros: Fístula arteriovenosa |
+| art12 | Doppler arterial de membros: Não caracterização de vaso (achado descritivo) |
+| art12c | Doppler arterial de membros: Não caracterização de vaso |
+| art21 | Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ (achado descritivo) |
+| art21c | Doppler arterial de membros: Síndrome do desfiladeiro torácico arterial à _ |
+| art5 | Doppler arterial de membros: Variação anatômica comum do trajeto arterial (achado descritivo) |
+| art5c | Doppler arterial de membros: Variação anatômica comum do trajeto arterial |
 
 ## Vascular — Doppler De Artérias Cervicais (Carótidas E Vertebrais)
 
@@ -1664,24 +1669,85 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ds5 | Artéria subclávia: Roubo da subclávia tipo 2 (intermitente/parcial) à _ (achado descritivo) |
 | ds5c | Artéria subclávia: Roubo da subclávia tipo 2 (intermitente/parcial) à _ |
 
-## Vascular — Síndrome Do Desfiladeiro Torácico (Mmss)
+## Vascular — Doppler Do Abdome Superior (Portal, Hepático, Esplênico, Mesentérico)
 
 | Trigger | Label |
 |---|---|
-| sdt | Síndrome do desfiladeiro torácico arterial à _ (achado descritivo) |
-| sdtc | Síndrome do desfiladeiro torácico arterial à _ |
+| dabd0 | Doppler abdome superior: normal (porta, veias hepáticas, veia esplênica, artéria hepática) |
+| dabd1 | Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida (achado descritivo) |
+| dabd1c | Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida |
+| dabd2 | Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical (achado descritivo) |
+| dabd2c | Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical |
+| dabd3 | Doppler abdome superior: Veias hepáticas: perda do padrão trifásico (achado descritivo) |
+| dabd3c | Doppler abdome superior: Veias hepáticas: perda do padrão trifásico |
+| dabd4 | Doppler abdome superior: Artéria hepática: índice de resistência elevado (achado descritivo) |
+| dabd4c | Doppler abdome superior: Artéria hepática: índice de resistência elevado |
+| dabd5 | Doppler abdome superior: Trombose da veia porta (não tumoral) (achado descritivo) |
+| dabd5c | Doppler abdome superior: Trombose da veia porta (não tumoral) |
+| dabd6 | Doppler abdome superior: Hipertensão portal: veia gástrica esquerda dilatada / varizes (achado descritivo) |
+| dabd6c | Doppler abdome superior: Hipertensão portal: veia gástrica esquerda dilatada / varizes |
+| dabd7 | Doppler abdome superior: Fluxo portal hepatofugal (achado descritivo) |
+| dabd7c | Doppler abdome superior: Fluxo portal hepatofugal |
+| dabd8 | Doppler abdome superior: Congestão hepática: fluxo pulsátil nas veias hepáticas e porta (achado descritivo) |
+| dabd8c | Doppler abdome superior: Congestão hepática: fluxo pulsátil nas veias hepáticas e porta |
+| dabd9 | Doppler abdome superior: Veia esplênica: ectasia (achado descritivo) |
+| dabd9c | Doppler abdome superior: Veia esplênica: ectasia |
+| dabd10 | Doppler abdome superior: Transformação cavernomatosa da veia porta (achado descritivo) |
+| dabd10c | Doppler abdome superior: Transformação cavernomatosa da veia porta |
+| dabd11 | Doppler abdome superior: Hipertensão portal: shunt esplenorrenal espontâneo (achado descritivo) |
+| dabd11c | Doppler abdome superior: Hipertensão portal: shunt esplenorrenal espontâneo |
+| dabd12 | Doppler abdome superior: Aneurisma da artéria esplênica (achado descritivo) |
+| dabd12c | Doppler abdome superior: Aneurisma da artéria esplênica |
+| dabd13 | Doppler abdome superior: TIPS pérvio (achado descritivo) |
+| dabd13c | Doppler abdome superior: TIPS pérvio |
+| dabd14 | Doppler abdome superior: TIPS: disfunção (achado descritivo) |
+| dabd14c | Doppler abdome superior: TIPS: disfunção |
+| dabd15 | Doppler abdome superior: Trombo tumoral na veia porta (achado descritivo) |
+| dabd15c | Doppler abdome superior: Trombo tumoral na veia porta |
+| dabd16 | Doppler abdome superior: Trombose da veia esplênica (achado descritivo) |
+| dabd16c | Doppler abdome superior: Trombose da veia esplênica |
+| dabd17 | Doppler abdome superior: Trombose da veia mesentérica superior (achado descritivo) |
+| dabd17c | Doppler abdome superior: Trombose da veia mesentérica superior |
+| dabd18 | Doppler abdome superior: Tronco celíaco: estenose ≥ 50%/≥ 70%, VPS ≥ 240/320 cm/s (AbuRahma 2012) (achado descritivo) |
+| dabd18c | Doppler abdome superior: Tronco celíaco: estenose ≥ 50%/≥ 70%, VPS ≥ 240/320 cm/s (AbuRahma 2012) |
+| dabd19 | Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano (achado descritivo) |
+| dabd19c | Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano |
+| dabd20 | Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 50%/≥ 70%, VPS ≥ 295/400 cm/s (AbuRahma 2012) (achado descritivo) |
+| dabd20c | Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 50%/≥ 70%, VPS ≥ 295/400 cm/s (AbuRahma 2012) |
+| dabd21 | Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) (achado descritivo) |
+| dabd21c | Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) |
+| dabd22 | Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) (achado descritivo) |
+| dabd22c | Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) |
+| dabd23 | Doppler abdome superior: Síndrome de Budd-Chiari (achado descritivo) |
+| dabd23c | Doppler abdome superior: Síndrome de Budd-Chiari |
 
-## Vascular — Aorta E Artérias Ilíacas
+## Vascular — Aorta Abdominal
 
 | Trigger | Label |
 |---|---|
-| di1 | Estenose ilíaca à _ (achado descritivo) |
-| di1c | Estenose ilíaca à _ |
-| da1 | Aneurisma + estenose aortoilíaca (achado descritivo) |
-| da1c | Aneurisma + estenose aortoilíaca |
 | usaortaabd | Aorta abdominal — normal |
-| da2 | Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses |
-| da2c | Aorta abdominal: aneurisma infrarrenal (conclusão) |
+| aorta3 | Aorta abdominal: ateromatose, sem dilatação (achado descritivo) |
+| aorta3c | Aorta abdominal: ateromatose, sem dilatação (conclusão) |
+| aorta4 | Aorta abdominal: ectasia infrarrenal, < 3,0 cm (achado descritivo) |
+| aorta4c | Aorta abdominal: ectasia infrarrenal (conclusão) |
+| aorta2 | Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses |
+| aorta2c | Aorta abdominal: aneurisma infrarrenal (conclusão) |
+| aorta5 | Aorta abdominal: endoprótese pérvia, sem endoleak (achado descritivo) |
+| aorta5c | Aorta abdominal: endoprótese pérvia, sem endoleak (conclusão) |
+| aorta6 | Aorta abdominal: endoleak (achado descritivo) |
+| aorta6c | Aorta abdominal: endoleak (conclusão) |
+| aorta7 | Aorta abdominal: estenose ≥ 50%/≥ 80%, razão > 2,0/> 4,0 (achado descritivo) |
+| aorta7c | Aorta abdominal: estenose ≥ 50%/≥ 80% (conclusão) |
+| aorta1 | Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%, razão > 4,0 (achado descritivo) |
+| aorta1c | Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80% |
+| aorta8 | Aorta abdominal: oclusão aortoilíaca, Leriche (achado descritivo) |
+| aorta8c | Aorta abdominal: oclusão aortoilíaca, Leriche (conclusão) |
+| aorta9 | Aorta abdominal: dissecção (achado descritivo) |
+| aorta9c | Aorta abdominal: dissecção (conclusão) |
+| aorta10 | Aorta abdominal: espessamento periaórtico, periaortite (achado descritivo) |
+| aorta10c | Aorta abdominal: espessamento periaórtico, periaortite (conclusão) |
+| aorta11 | Aorta abdominal: rotura de aneurisma, hematoma retroperitoneal (achado descritivo) |
+| aorta11c | Aorta abdominal: rotura de aneurisma, hematoma retroperitoneal (conclusão) |
 
 ## Frases Auxiliares / Curingas (Uso Transversal)
 
