@@ -3876,8 +3876,8 @@ matches:
     word: true
 
   - trigger: "calculojuv"
-    label: "Cálculo no ureter distal com uretero-hidronefrose"
-    replace: "Cálculo no ureter distal _, medindo _ cm, distando _ cm da junção ureterovesical, promovendo discreta uretero-hidronefrose. Associa-se discreto aumento volumétrico renal com densificação dos planos gordurosos perirrenais, achado que pode estar relacionado ao processo obstrutivo, não se podendo descartar processo inflamatório/infeccioso associado."
+    label: "Cálculo no ureter distal com hidroureteronefrose"
+    replace: "Cálculo no ureter distal _, medindo _ cm, distando _ cm da junção ureterovesical, promovendo discreta hidroureteronefrose. Associa-se discreto aumento volumétrico renal com densificação dos planos gordurosos perirrenais, achado que pode estar relacionado ao processo obstrutivo, não se podendo descartar processo inflamatório/infeccioso associado."
     word: true
 
   - trigger: "calfig"
@@ -4122,7 +4122,7 @@ matches:
 
   - trigger: "diverticulocalicinal"
     label: "Divertículo calicinal com cálculo/leite de cálcio"
-    replace: 'Calcificação alongada, medindo _ cm, localizada junto ao grupamento calicinar médio do rim esquerdo, onde se observa formação cística que mediu _ cm. Após a administração do meio de contraste endovenoso, observa-se opacificação parcial dessa formação cística. Divertículo calicinal contendo cálculo ou "leite de cálcio"?'
+    replace: 'Calcificação alongada, medindo _ cm, localizada junto ao grupamento calicinal médio do rim esquerdo, onde se observa formação cística que mediu _ cm. Após a administração do meio de contraste endovenoso, observa-se opacificação parcial dessa formação cística. Divertículo calicinal contendo cálculo ou "leite de cálcio"?'
     word: true
 
   - trigger: "diverticulutedemeckel"
@@ -4201,9 +4201,9 @@ matches:
     word: true
 
   - trigger: "estenosejup"
-    label: "Estenose de junção ureteropélvica com hidronefrose"
+    label: "Estenose de junção ureteropiélica com hidronefrose"
     replace: |
-      Afilamento abrupto da junção ureteropélvica/ureter proximal à direita, acompanhado de acentuada hidronefrose com adelgaçamento significativo do córtex renal. A possibilidade de estenose de junção ureteropélvica pode ser considerada dentre os diagnósticos diferenciais.
+      Afilamento abrupto da junção ureteropiélica/ureter proximal à direita, acompanhado de acentuada hidronefrose com adelgaçamento significativo do córtex renal. A possibilidade de estenose de junção ureteropiélica pode ser considerada dentre os diagnósticos diferenciais.
       Não se observou contrastação do sistema coletor renal direito durante o estudo.
     word: true
 
@@ -4709,7 +4709,7 @@ matches:
 
   - trigger: "pbe"
     label: "Peritonite bacteriana espontânea com coleções"
-    replace: "Espessamento peritoneal liso e difuso, com realce pelo meio de contraste, associado a espessamento omental, densificação difusa da gordura mesentérica e linfonodos peritoneais proeminentes. Destacam-se ainda áreas liquefeitas organizadas (coleções) periantral e no omento maior, medindo _ e _ cm. O conjunto de achados, no contexto de hepatopatia e ascite descritos, é compatível com processo inflamatório/infeccioso peritôneo-omental (peritonite bacteriana espontânea) com coleções inflamatórias associadas."
+    replace: "Espessamento peritoneal liso e difuso, com realce pelo meio de contraste, associado a espessamento omental, densificação difusa da gordura mesentérica e linfonodos peritoneais proeminentes. Destacam-se ainda áreas liquefeitas organizadas (coleções) periantral e no omento maior, medindo _ e _ cm. O conjunto de achados, no contexto de hepatopatia e ascite descritos, é compatível com processo inflamatório/infeccioso peritônio-omental (peritonite bacteriana espontânea) com coleções inflamatórias associadas."
     word: true
 
   - trigger: "pcnv"
@@ -4809,7 +4809,7 @@ matches:
 
   - trigger: "pseudocistoounecrosemurada"
     label: "Pseudocisto/necrose pancreática encapsulada"
-    replace: "Pâncreas de volume aumentado, impregnando-se homogeneamente pelo meio de contraste, sem sinais de necrose, dilatação ductal ou calcificações parenquimatosas. Observa-se aumento volumétrico das coleções heterogêneas, predominantemente peripancreáticas, confluentes, com realce parietal após a administração do meio de contraste, que se estendem desde a junção esofagogástrica/hipocôndrio esquerdo até a fossa ilíaca esquerda, medindo, em conjunto, cerca de _ cm, com volume estimado de _ cm³. As possibilidades de pseudocistos ou necrose encapsulada peripancreática podem ser consideradas, em estreita correlação com dados clínicos e laboratoriais. Associam-se áreas de espessamento e realce do peritôneo adjacentes às coleções, de aspecto reacional."
+    replace: "Pâncreas de volume aumentado, impregnando-se homogeneamente pelo meio de contraste, sem sinais de necrose, dilatação ductal ou calcificações parenquimatosas. Observa-se aumento volumétrico das coleções heterogêneas, predominantemente peripancreáticas, confluentes, com realce parietal após a administração do meio de contraste, que se estendem desde a junção esofagogástrica/hipocôndrio esquerdo até a fossa ilíaca esquerda, medindo, em conjunto, cerca de _ cm, com volume estimado de _ cm³. As possibilidades de pseudocistos ou necrose encapsulada peripancreática podem ser consideradas, em estreita correlação com dados clínicos e laboratoriais. Associam-se áreas de espessamento e realce do peritônio adjacentes às coleções, de aspecto reacional."
     word: true
 
   - trigger: "pseudolipoma"
@@ -5246,8 +5246,8 @@ matches:
     word: true
 
   - trigger: "jup"
-    label: "Junção ureteropélvica"
-    replace: junção ureteropélvica
+    label: "Junção ureteropiélica"
+    replace: junção ureteropiélica
     word: true
 
   - trigger: "juv"
@@ -5292,17 +5292,17 @@ matches:
 
   - trigger: "tt81"
     label: "Achados incidentais — esteatose, cistos renais e colelitíase"
-    replace: "Obs.: As imagens do abdômen superior evidenciam fígado com sinais de esteatose, cistos renais de até _ cm e cálculos na vesícula biliar."
+    replace: "Obs.: As imagens do abdome superior evidenciam fígado com sinais de esteatose, cistos renais de até _ cm e cálculos na vesícula biliar."
     word: true
 
   - trigger: "tt82"
     label: "Achado incidental — esteatose hepática"
-    replace: "Obs.: As imagens do abdômen superior evidenciam fígado com sinais de esteatose."
+    replace: "Obs.: As imagens do abdome superior evidenciam fígado com sinais de esteatose."
     word: true
 
   - trigger: "tt84"
     label: "Achado incidental — litíase renal"
-    replace: "Obs.: As imagens do abdômen superior evidenciam cálculos renais de até _ cm."
+    replace: "Obs.: As imagens do abdome superior evidenciam cálculos renais de até _ cm."
     word: true
 
   - trigger: "tt85"
@@ -12215,18 +12215,18 @@ matches:
     word: true
 
   - trigger: "gci"
-    label: "Grupo calicinar inferior"
-    replace: grupo calicinar inferior
+    label: "Grupo calicinal inferior"
+    replace: grupo calicinal inferior
     word: true
 
   - trigger: "gcm"
-    label: "Grupo calicinar médio"
-    replace: grupo calicinar médio
+    label: "Grupo calicinal médio"
+    replace: grupo calicinal médio
     word: true
 
   - trigger: "gcs"
-    label: "Grupo calicinar superior"
-    replace: grupo calicinar superior
+    label: "Grupo calicinal superior"
+    replace: grupo calicinal superior
     word: true
 
   - trigger: "herabd"
