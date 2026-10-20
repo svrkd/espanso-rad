@@ -66,6 +66,7 @@ matches:
   #   graflimit = limitação técnica por ossificação da epífise.
   #
   # VASCULAR
+  #   dopabd = Doppler do abdome superior (porta, veias hepáticas, esplênica, mesentéricas, renal esquerda)
   #   carot = carótidas   vert = vertebral   ds = roubo subclávio   aorta = aorta abdominal
   #   tvp/tvppaulo = TVP/duplex venoso MI
   #   art = Doppler arterial de membros (MMSS/MMII), inclui art20 estenose ilíaca
@@ -9183,6 +9184,242 @@ matches:
   - trigger: "ds5c"
     label: "Artéria subclávia: Roubo da subclávia tipo 2 (intermitente/parcial) à _"
     replace: "Achados compatíveis com roubo da subclávia tipo 2 (intermitente/parcial) à _."
+    word: true
+
+  # ==============================================================================
+  # VASCULAR — DOPPLER DO ABDOME SUPERIOR (PORTAL, HEPÁTICO, ESPLÊNICO, MESENTÉRICO)
+  # ==============================================================================
+  # Ordem: achados mais frequentes primeiro. Estenose de tronco celíaco e de artéria
+  # mesentérica superior pelo critério de Moneta (VPS ≥ 200 e ≥ 275 cm/s: ≥ 70%).
+
+  - trigger: "dopabd1"
+    label: "Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida (achado descritivo)"
+    replace: "Veia porta pérvia, com calibre aumentado, medindo _ cm (normal até 1,3 cm), fluxo hepatopetal de velocidade reduzida, de _ cm/s, e perda da variação respiratória do fluxo, sugerindo hipertensão portal."
+    word: true
+
+  - trigger: "dopabd1c"
+    label: "Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida"
+    replace: "Sinais ecográficos de hipertensão portal."
+    word: true
+
+  - trigger: "dopabd2"
+    label: "Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical (achado descritivo)"
+    replace: "Veia paraumbilical recanalizada, partindo do ramo esquerdo da veia porta e percorrendo o ligamento redondo até a parede abdominal, medindo _ cm de calibre, com fluxo hepatofugal ao Doppler."
+    word: true
+
+  - trigger: "dopabd2c"
+    label: "Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical"
+    replace: "Recanalização da veia paraumbilical, compatível com circulação colateral portossistêmica."
+    word: true
+
+  - trigger: "dopabd3"
+    label: "Doppler abdome superior: Veias hepáticas: perda do padrão trifásico (achado descritivo)"
+    replace: "Veias hepáticas pérvias, com perda do padrão trifásico habitual, exibindo fluxo bifásico/monofásico ao Doppler espectral."
+    word: true
+
+  - trigger: "dopabd3c"
+    label: "Doppler abdome superior: Veias hepáticas: perda do padrão trifásico"
+    replace: "Perda do padrão trifásico das veias hepáticas, achado inespecífico, relacionado a hepatopatia difusa no contexto clínico adequado."
+    word: true
+
+  - trigger: "dopabd4"
+    label: "Doppler abdome superior: Artéria hepática: índice de resistência elevado (achado descritivo)"
+    replace: "Artéria hepática pérvia, com índice de resistência elevado, de _ (normal entre 0,55 e 0,7)."
+    word: true
+
+  - trigger: "dopabd4c"
+    label: "Doppler abdome superior: Artéria hepática: índice de resistência elevado"
+    replace: "Índice de resistência da artéria hepática elevado."
+    word: true
+
+  - trigger: "dopabd5"
+    label: "Doppler abdome superior: Trombose da veia porta (não tumoral) (achado descritivo)"
+    replace: "Material ecogênico preenchendo parcialmente/totalmente a luz da veia porta _ (tronco/ramo direito/ramo esquerdo), com fluxo residual periférico/ausência de fluxo ao Doppler colorido, sem fluxo arterial em seu interior, compatível com trombose."
+    word: true
+
+  - trigger: "dopabd5c"
+    label: "Doppler abdome superior: Trombose da veia porta (não tumoral)"
+    replace: "Trombose parcial/oclusiva da veia porta _."
+    word: true
+
+  - trigger: "dopabd6"
+    label: "Doppler abdome superior: Hipertensão portal: veia gástrica esquerda dilatada / varizes (achado descritivo)"
+    replace: "Veia gástrica esquerda com calibre aumentado, medindo _ cm, e fluxo hepatofugal, associando-se vasos colaterais tortuosos na região da pequena curvatura gástrica e junção esofagogástrica, sugerindo varizes."
+    word: true
+
+  - trigger: "dopabd6c"
+    label: "Doppler abdome superior: Hipertensão portal: veia gástrica esquerda dilatada / varizes"
+    replace: "Dilatação da veia gástrica esquerda com fluxo hepatofugal e colaterais na junção esofagogástrica, sugerindo varizes."
+    word: true
+
+  - trigger: "dopabd7"
+    label: "Doppler abdome superior: Fluxo portal hepatofugal (achado descritivo)"
+    replace: "Fluxo hepatofugal no tronco da veia porta/ramos portais intra-hepáticos, com velocidade de _ cm/s ao Doppler espectral."
+    word: true
+
+  - trigger: "dopabd7c"
+    label: "Doppler abdome superior: Fluxo portal hepatofugal"
+    replace: "Fluxo portal hepatofugal, compatível com hipertensão portal avançada."
+    word: true
+
+  - trigger: "dopabd8"
+    label: "Doppler abdome superior: Congestão hepática: fluxo pulsátil nas veias hepáticas e porta (achado descritivo)"
+    replace: "Veias hepáticas e veia cava inferior com calibre aumentado, a veia hepática média medindo _ cm, exibindo padrão espectral acentuadamente pulsátil, com redução/inversão da onda sistólica, associando-se fluxo pulsátil na veia porta."
+    word: true
+
+  - trigger: "dopabd8c"
+    label: "Doppler abdome superior: Congestão hepática: fluxo pulsátil nas veias hepáticas e porta"
+    replace: "Padrão de fluxo hepático pulsátil, sugerindo congestão hepática. Insuficiência cardíaca direita? Insuficiência tricúspide?"
+    word: true
+
+  - trigger: "dopabd9"
+    label: "Doppler abdome superior: Veia esplênica: ectasia (achado descritivo)"
+    replace: "Veia esplênica pérvia, com calibre aumentado, medindo _ cm (normal até 0,9 cm), e fluxo hepatopetal."
+    word: true
+
+  - trigger: "dopabd9c"
+    label: "Doppler abdome superior: Veia esplênica: ectasia"
+    replace: "Ectasia da veia esplênica."
+    word: true
+
+  - trigger: "dopabd10"
+    label: "Doppler abdome superior: Transformação cavernomatosa da veia porta (achado descritivo)"
+    replace: "Múltiplos vasos tortuosos e serpiginosos no hilo hepático e no ligamento hepatoduodenal, com fluxo venoso hepatopetal ao Doppler, sem caracterização do tronco da veia porta pérvio, compatível com transformação cavernomatosa da veia porta."
+    word: true
+
+  - trigger: "dopabd10c"
+    label: "Doppler abdome superior: Transformação cavernomatosa da veia porta"
+    replace: "Transformação cavernomatosa da veia porta."
+    word: true
+
+  - trigger: "dopabd11"
+    label: "Doppler abdome superior: Hipertensão portal: shunt esplenorrenal espontâneo (achado descritivo)"
+    replace: "Vasos colaterais tortuosos no hilo esplênico, comunicando-se com a veia renal esquerda, que apresenta calibre aumentado, medindo _ cm, compatível com derivação esplenorrenal espontânea."
+    word: true
+
+  - trigger: "dopabd11c"
+    label: "Doppler abdome superior: Hipertensão portal: shunt esplenorrenal espontâneo"
+    replace: "Derivação esplenorrenal espontânea, compatível com circulação colateral portossistêmica."
+    word: true
+
+  - trigger: "dopabd12"
+    label: "Doppler abdome superior: Aneurisma da artéria esplênica (achado descritivo)"
+    replace: "Dilatação sacular/fusiforme da artéria esplênica, no seu terço _, medindo _ cm, com fluxo turbilhonado ao Doppler colorido e trombo mural/sem trombo mural, compatível com aneurisma."
+    word: true
+
+  - trigger: "dopabd12c"
+    label: "Doppler abdome superior: Aneurisma da artéria esplênica"
+    replace: "Aneurisma da artéria esplênica, medindo _ cm."
+    word: true
+
+  - trigger: "dopabd13"
+    label: "Doppler abdome superior: TIPS pérvio (achado descritivo)"
+    replace: "Derivação portossistêmica intra-hepática transjugular (TIPS) pérvia, com fluxo hepatopetal no tronco da veia porta, de _ cm/s, e fluxo em direção à veia cava inferior no interior da prótese, com velocidades de _ cm/s (extremidade portal), _ cm/s (segmento médio) e _ cm/s (extremidade hepática), dentro da faixa esperada (90 a 190 cm/s)."
+    word: true
+
+  - trigger: "dopabd13c"
+    label: "Doppler abdome superior: TIPS pérvio"
+    replace: "TIPS pérvio, com velocidades dentro da faixa esperada."
+    word: true
+
+  - trigger: "dopabd14"
+    label: "Doppler abdome superior: TIPS: disfunção (achado descritivo)"
+    replace: "Derivação portossistêmica intra-hepática transjugular (TIPS) com velocidade de _ cm/s no seu segmento _, fora da faixa esperada (90 a 190 cm/s), associando-se fluxo de _ cm/s no tronco da veia porta e fluxo hepatofugal/hepatopetal nos ramos portais intra-hepáticos, sugerindo estenose/disfunção da prótese."
+    word: true
+
+  - trigger: "dopabd14c"
+    label: "Doppler abdome superior: TIPS: disfunção"
+    replace: "Achados sugestivos de disfunção do TIPS. Sugere-se correlação com estudo angiográfico."
+    word: true
+
+  - trigger: "dopabd15"
+    label: "Doppler abdome superior: Trombo tumoral na veia porta (achado descritivo)"
+    replace: "Material ecogênico expandindo a luz da veia porta _, em continuidade com a lesão hepática descrita, com fluxo arterial pulsátil em seu interior ao Doppler espectral, sugerindo trombo tumoral."
+    word: true
+
+  - trigger: "dopabd15c"
+    label: "Doppler abdome superior: Trombo tumoral na veia porta"
+    replace: "Trombose da veia porta _ com fluxo arterial em seu interior, sugerindo trombo tumoral."
+    word: true
+
+  - trigger: "dopabd16"
+    label: "Doppler abdome superior: Trombose da veia esplênica (achado descritivo)"
+    replace: "Material ecogênico preenchendo parcialmente/totalmente a luz da veia esplênica, com fluxo residual periférico/ausência de fluxo ao Doppler colorido, compatível com trombose."
+    word: true
+
+  - trigger: "dopabd16c"
+    label: "Doppler abdome superior: Trombose da veia esplênica"
+    replace: "Trombose parcial/oclusiva da veia esplênica."
+    word: true
+
+  - trigger: "dopabd17"
+    label: "Doppler abdome superior: Trombose da veia mesentérica superior (achado descritivo)"
+    replace: "Material ecogênico preenchendo parcialmente/totalmente a luz da veia mesentérica superior, com distensão do vaso e fluxo residual periférico/ausência de fluxo ao Doppler colorido, compatível com trombose."
+    word: true
+
+  - trigger: "dopabd17c"
+    label: "Doppler abdome superior: Trombose da veia mesentérica superior"
+    replace: "Trombose parcial/oclusiva da veia mesentérica superior."
+    word: true
+
+  - trigger: "dopabd18"
+    label: "Doppler abdome superior: Tronco celíaco: estenose ≥ 70%, VPS ≥ 200 cm/s (Moneta) (achado descritivo)"
+    replace: "Placa ateromatosa na origem do tronco celíaco, com fluxo turbulento e velocidade de pico sistólico de _ cm/s (igual ou superior a 200 cm/s), compatível com estenose igual ou superior a 70%."
+    word: true
+
+  - trigger: "dopabd18c"
+    label: "Doppler abdome superior: Tronco celíaco: estenose ≥ 70%, VPS ≥ 200 cm/s (Moneta)"
+    replace: "Estenose igual ou superior a 70% do tronco celíaco."
+    word: true
+
+  - trigger: "dopabd19"
+    label: "Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano (achado descritivo)"
+    replace: "Tronco celíaco com angulação em gancho junto à sua origem, apresentando velocidade de pico sistólico de _ cm/s na expiração, com redução para _ cm/s na inspiração profunda, sugerindo compressão extrínseca pelo ligamento arqueado mediano."
+    word: true
+
+  - trigger: "dopabd19c"
+    label: "Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano"
+    replace: "Achados sugestivos de compressão do tronco celíaco pelo ligamento arqueado mediano, a ser correlacionado com o quadro clínico."
+    word: true
+
+  - trigger: "dopabd20"
+    label: "Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 70%, VPS ≥ 275 cm/s (Moneta) (achado descritivo)"
+    replace: "Placa ateromatosa na origem da artéria mesentérica superior, com fluxo turbulento e velocidade de pico sistólico de _ cm/s (igual ou superior a 275 cm/s), compatível com estenose igual ou superior a 70%."
+    word: true
+
+  - trigger: "dopabd20c"
+    label: "Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 70%, VPS ≥ 275 cm/s (Moneta)"
+    replace: "Estenose igual ou superior a 70% da artéria mesentérica superior."
+    word: true
+
+  - trigger: "dopabd21"
+    label: "Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) (achado descritivo)"
+    replace: "Veia renal esquerda com redução de calibre no seu trajeto entre a aorta e a artéria mesentérica superior, medindo _ cm, e dilatação do segmento hilar, medindo _ cm (razão entre diâmetros de _), com velocidade de pico de _ cm/s no ponto de compressão e de _ cm/s no segmento hilar (razão entre velocidades de _), superiores a 5,0, sugerindo compressão aortomesentérica da veia renal esquerda."
+    word: true
+
+  - trigger: "dopabd21c"
+    label: "Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker)"
+    replace: "Achados sugestivos de compressão aortomesentérica da veia renal esquerda (fenômeno de quebra-nozes), a ser correlacionado com o quadro clínico."
+    word: true
+
+  - trigger: "dopabd22"
+    label: "Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) (achado descritivo)"
+    replace: "Ângulo aortomesentérico reduzido, de _° (normal acima de 22°), com distância aortomesentérica de _ cm (normal acima de 0,8 cm), associando-se distensão do estômago e do duodeno proximal ao ponto de cruzamento."
+    word: true
+
+  - trigger: "dopabd22c"
+    label: "Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie)"
+    replace: "Redução do ângulo e da distância aortomesentérica, com distensão gastroduodenal, sugerindo pinçamento aortomesentérico do duodeno (síndrome de Wilkie)."
+    word: true
+
+  - trigger: "dopabd23"
+    label: "Doppler abdome superior: Síndrome de Budd-Chiari (achado descritivo)"
+    replace: "Veias hepáticas não caracterizadas/com material ecogênico e ausência de fluxo ao Doppler colorido, associando-se colaterais intra-hepáticas tortuosas e hipertrofia do lobo caudado, sugerindo síndrome de Budd-Chiari."
+    word: true
+
+  - trigger: "dopabd23c"
+    label: "Doppler abdome superior: Síndrome de Budd-Chiari"
+    replace: "Achados sugestivos de síndrome de Budd-Chiari. Sugere-se complementação com angiotomografia ou angiorressonância."
     word: true
 
   # ==============================================================================
