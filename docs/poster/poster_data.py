@@ -303,7 +303,7 @@ EXCLUSOES = [
     (r'^me[12]$', 'MSK por segmento (tendão calcâneo / joelho) — prefixo legado fora do padrão co/jo/…/tz'),
     (r'^(?!usnc$|utnc$|ustvpc$).*c$', 'variante de conclusão (regra de gramática "…c")'),
     (r'^ob([3-9]|[1-4]\d)c?$', 'malformação fetal — não é agenda de rotina'),
-    (r'^(carot|vert|ds|da)\d*c?$', 'Doppler vascular em slot dedicado (carótidas/vertebral/aorta)'),
+    (r'^(carot|vert|ds|aorta)\d*c?$', 'Doppler vascular em slot dedicado (carótidas/vertebral/aorta)'),
     (r'^graf', 'quadril infantil, método Graf'),
     (r'^lirads[1-3]$', 'fígado — rastreamento LI-RADS US, só para população de risco'),
     (r'^rvutd$', 'dilatação do trato urinário pediátrica (UTD) — achado específico'),

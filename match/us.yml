@@ -66,7 +66,7 @@ matches:
   #   graflimit = limitação técnica por ossificação da epífise.
   #
   # VASCULAR
-  #   carot = carótidas   vert = vertebral   ds = roubo subclávio   da = aorta/aortoilíaca
+  #   carot = carótidas   vert = vertebral   ds = roubo subclávio   aorta = aorta abdominal
   #   tvp/tvppaulo = TVP/duplex venoso MI
   #   art = Doppler arterial de membros (MMSS/MMII), inclui art20 estenose ilíaca
   #         e art21 desfiladeiro torácico; ordem por frequência
@@ -9186,22 +9186,21 @@ matches:
     word: true
 
   # ==============================================================================
-  # VASCULAR — AORTA E ARTÉRIAS ILÍACAS
+  # VASCULAR — AORTA ABDOMINAL
   # ==============================================================================
 
-  - trigger: "da1"
-    label: "Aneurisma + estenose aortoilíaca (achado descritivo)"
+  - trigger: "aorta1"
+    label: "Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%, razão > 4,0 (achado descritivo)"
     replace: |-
       Aorta abdominal ateromatosa apresentando aneurisma fusiforme de seu segmento infrarrenal, com trombo mural excêntrico não obstrutivo, diâmetro de _ cm e luz residual de _ cm, com fluxo de baixa amplitude e padrão pré-estenótico em seu interior.
-      Estenose crítica no terço distal da aorta abdominal, junto à bifurcação aortoilíaca, com placas ateromatosas calcificadas grosseiras e circunferenciais promovendo fluxo filiforme com velocidades superiores a _ cm/s e razão sistólica > _, sugerindo estenose grave (> 70%).
-      As curvas espectrais das artérias de ambos os membros inferiores demonstram padrão de baixa amplitude e aceleração lenta (tardus parvus), decorrente do quadro estenótico aortoilíaco.
+      Placas ateromatosas calcificadas grosseiras e circunferenciais no terço distal da aorta abdominal, junto à bifurcação aortoilíaca, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%, associando-se curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias de ambos os membros inferiores.
     word: true
 
-  - trigger: "da1c"
-    label: "Aneurisma + estenose aortoilíaca"
+  - trigger: "aorta1c"
+    label: "Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%"
     replace: |-
-      Estenose grave em território aortoilíaco (> 70%), determinando hipofluxo distal em ambos os membros inferiores.
-      Aneurisma de aorta abdominal.
+      Aneurisma da aorta abdominal infrarrenal.
+      Estenose igual ou superior a 80% no território aortoilíaco, determinando hipofluxo distal em ambos os membros inferiores.
     word: true
 
   - trigger: "usaortaabd"
@@ -9221,12 +9220,12 @@ matches:
       Aorta abdominal de calibre normal.
     word: true
 
-  - trigger: "da2"
+  - trigger: "aorta2"
     label: "Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses"
     replace: "Dilatação fusiforme/sacular da aorta abdominal infrarrenal, com diâmetro anteroposterior máximo de _ cm (medido de parede externa a parede externa), extensão longitudinal de _ cm, distando _ cm das artérias renais, com/sem trombo mural."
     word: true
 
-  - trigger: "da2c"
+  - trigger: "aorta2c"
     label: "Aorta abdominal: aneurisma infrarrenal (conclusão)"
     replace: "Aneurisma da aorta abdominal infrarrenal, com diâmetro máximo de _ cm."
     word: true

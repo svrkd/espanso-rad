@@ -1670,15 +1670,15 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ds5 | Artéria subclávia: Roubo da subclávia tipo 2 (intermitente/parcial) à _ (achado descritivo) |
 | ds5c | Artéria subclávia: Roubo da subclávia tipo 2 (intermitente/parcial) à _ |
 
-## Vascular — Aorta E Artérias Ilíacas
+## Vascular — Aorta Abdominal
 
 | Trigger | Label |
 |---|---|
-| da1 | Aneurisma + estenose aortoilíaca (achado descritivo) |
-| da1c | Aneurisma + estenose aortoilíaca |
+| aorta1 | Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%, razão > 4,0 (achado descritivo) |
+| aorta1c | Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80% |
 | usaortaabd | Aorta abdominal — normal |
-| da2 | Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses |
-| da2c | Aorta abdominal: aneurisma infrarrenal (conclusão) |
+| aorta2 | Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses |
+| aorta2c | Aorta abdominal: aneurisma infrarrenal (conclusão) |
 
 ## Frases Auxiliares / Curingas (Uso Transversal)
 
