@@ -816,7 +816,7 @@ matches:
 
   - trigger: "cistoder"
     label: "Lesão extra-axial com densidade gordurosa (cisto dermoide)"
-    replace: "Lesão expansiva extra-axial, medindo cerca de _cm x _cm x _cm, localizada nas fossas média e anterior à esquerda determinando compressão sobre o parênquima encefálico adjacente e o quiasma óptico, com desvio contralateral das estruturas da linha média. Essa lesão exibe densidade heterogênea, semelhante à da gordura, sem realce pelo meio de contraste endovenoso."
+    replace: "Lesão expansiva extra-axial, medindo cerca de _ x _ x _ cm, localizada nas fossas média e anterior à esquerda determinando compressão sobre o parênquima encefálico adjacente e o quiasma óptico, com desvio contralateral das estruturas da linha média. Essa lesão exibe densidade heterogênea, semelhante à da gordura, sem realce pelo meio de contraste endovenoso."
     word: true
 
   - trigger: "cistoderop"
@@ -2142,7 +2142,7 @@ matches:
 
   - trigger: "fai"
     label: "Fratura por acunhamento vertebral"
-    replace: "Fratura em acunhamento/insuficiência do corpo vertebral de __ com redução de cerca de __% de sua altura, porém sem retropulsão do muro posterior."
+    replace: "Fratura em acunhamento/insuficiência do corpo vertebral de _ com redução de cerca de _% de sua altura, porém sem retropulsão do muro posterior."
     word: true
 
   - trigger: "ilfc"
@@ -2427,12 +2427,12 @@ matches:
     label: "Pequena hérnia diafragmática posterior bilateral."
     replace: "Pequenas hérnias diafragmáticas posteriores bilateralmente."
     word: true
-    
+
   - trigger: "carnl"
     label: "Área cardíaca habitual, sem sinais de derrame pericárdico."
     replace: "Área cardíaca habitual, sem sinais de derrame pericárdico."
     word: true
-    
+
   - trigger: "aapicatriz"
     label: "Cicatriz apical pulmonar direita"
     replace: "Lesão de aspecto cicatricial no ápice pulmonar direito, com espessamento pleural focal e bronquiectasias de aspecto retrátil."
@@ -2743,12 +2743,12 @@ matches:
 
   - trigger: "enf2"
     label: "Enfisema centrolobular e parasseptal"
-    replace: Enfisema centrolobular e parasseptal esparsos pelos campos pulmonares.
+    replace: Enfisema centrolobular e parasseptal esparso pelos campos pulmonares.
     word: true
 
   - trigger: "enf3"
     label: "Enfisema centrolobular e parasseptal"
-    replace: Enfisema centrolobular e parasseptal esparsos pelos campos pulmonares.
+    replace: Enfisema centrolobular e parasseptal esparso pelos campos pulmonares.
     word: true
 
   - trigger: "epb"
@@ -3495,7 +3495,7 @@ matches:
 
   - trigger: "tt538"
     label: "Sequela de processo granulomatoso apical"
-    replace: "Múltiplas estrias parenquimatosas com distorção arquitetural no ápice ____ associadas a nódulos calcificados e discretas bronquiectasias, com aspecto de sequela de processo granulomatoso prévio."
+    replace: "Múltiplas estrias parenquimatosas com distorção arquitetural no ápice _ associadas a nódulos calcificados e discretas bronquiectasias, com aspecto de sequela de processo granulomatoso prévio."
     word: true
 
   - trigger: "tt540"
@@ -3996,7 +3996,7 @@ matches:
 
   - trigger: "cistobartholin"
     label: "Cisto de Bartholin"
-    replace: "Formação cística no intróito vaginal à direita, medindo _ cm. A possibilidade de cisto de Bartholin pode ser considerada dentre os diagnósticos diferenciais."
+    replace: "Formação cística no introito vaginal à direita, medindo _ cm. A possibilidade de cisto de Bartholin pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
   - trigger: "cistofora"
@@ -4046,7 +4046,7 @@ matches:
 
   - trigger: "coringapelve"
     label: "Achados inflamatórios pélvicos/enterite (DII?)"
-    replace: "Distensão hidroaérea de alças jejunais e ileais, com áreas de espessamento e hiper-realce segmentar, acompanhadas de ingurgitamento da arcada vascular adjacente, pequena quantidade de líquido livre na cavidade pélvica, densificação da gordura mesentérica e aumento do número de linfonodos regionais, sem caracterizar linfonodomegalias. A possibilidade de processo inflamatório/infeccioso regional, destacando-se as hipóteses de doença inflamatória intestinal, enterite ou doença inflamatória pélvica aguda de origem ginecológica pode ser considerada. Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
+    replace: "Distensão hidroaérea de alças jejunais e ileais, com áreas de espessamento e hiper-realce segmentar, acompanhadas de ingurgitamento da arcada vascular adjacente, pequena quantidade de líquido livre na cavidade pélvica, densificação da gordura mesentérica e aumento do número de linfonodos regionais, sem caracterizar linfonodomegalias. A possibilidade de processo inflamatório/infeccioso regional, destacando-se as hipóteses de doença inflamatória intestinal, enterite ou doença inflamatória pélvica aguda de origem ginecológica, pode ser considerada. Outros diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
     word: true
 
   - trigger: "cotuba"
@@ -6696,7 +6696,7 @@ matches:
       Meniscos, ligamentos e cartilagens de avaliação limitada.
 
       Conclusão:
-      Fratura da tíbia e fíbula, acima descritas.
+      Fraturas da tíbia e da fíbula, acima descritas.
     word: true
 
   - trigger: "fraturaumero"
@@ -9779,7 +9779,7 @@ matches:
       TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR C/C
 
       Técnica:
-      Imagens obtidas em aparelho multislice antes e após a administração intravenosa de meio de contraste iodado. 
+      Imagens obtidas em aparelho multislice antes e após a administração intravenosa de meio de contraste iodado.
 
       Descrição:
       Fígado com dimensões, contornos e densidade normais.
@@ -11950,7 +11950,7 @@ matches:
 
   - trigger: "tcfacada1"
     label: "Ferimentos perfurocortantes na parede torácica anterior"
-    replace: "Na parede torácica anterior, observam-se pequenas áreas de solução de continuidade em pele, tecido subcutâneo e planos musculares com hematoma e enfisema, localizadas nas regiões peitoral superior direito e pré-esternal esquerda, compatíveis com ferimentos perfurocortantes, conforme a suspeita clínica."
+    replace: "Na parede torácica anterior, observam-se pequenas áreas de solução de continuidade em pele, tecido subcutâneo e planos musculares com hematoma e enfisema, localizadas nas regiões peitoral superior direita e pré-esternal esquerda, compatíveis com ferimentos perfurocortantes, conforme a suspeita clínica."
     word: true
 
   - trigger: "tcfer"
@@ -12579,7 +12579,7 @@ matches:
 
   - trigger: "tt12"
     label: "Fraturas múltiplas de costelas"
-    replace: Fraturas múltiplas da _ à _ª costelas.
+    replace: Fraturas múltiplas da _ª à _ª costelas.
     word: true
 
   - trigger: "tt121"
