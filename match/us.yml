@@ -9189,19 +9189,8 @@ matches:
   # VASCULAR — AORTA ABDOMINAL
   # ==============================================================================
 
-  - trigger: "aorta1"
-    label: "Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%, razão > 4,0 (achado descritivo)"
-    replace: |-
-      Aorta abdominal ateromatosa apresentando aneurisma fusiforme de seu segmento infrarrenal, com trombo mural excêntrico não obstrutivo, diâmetro de _ cm e luz residual de _ cm, com fluxo de baixa amplitude e padrão pré-estenótico em seu interior.
-      Placas ateromatosas calcificadas grosseiras e circunferenciais no terço distal da aorta abdominal, junto à bifurcação aortoilíaca, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%, associando-se curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias de ambos os membros inferiores.
-    word: true
-
-  - trigger: "aorta1c"
-    label: "Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%"
-    replace: |-
-      Aneurisma da aorta abdominal infrarrenal.
-      Estenose igual ou superior a 80% no território aortoilíaco, determinando hipofluxo distal em ambos os membros inferiores.
-    word: true
+  # Ordem: achados mais frequentes primeiro. Estenose (aorta1, aorta7) pelo critério
+  # de Jager/Strandness, como em art* (razão > 2,0: ≥ 50%; > 4,0: ≥ 80%).
 
   - trigger: "usaortaabd"
     label: Aorta abdominal — normal
@@ -9220,6 +9209,26 @@ matches:
       Aorta abdominal de calibre normal.
     word: true
 
+  - trigger: "aorta3"
+    label: "Aorta abdominal: ateromatose, sem dilatação (achado descritivo)"
+    replace: "Placas ateromatosas parietais esparsas, calcificadas e não calcificadas, na aorta abdominal, sem dilatação, trombo mural ou estenose hemodinamicamente significativa."
+    word: true
+
+  - trigger: "aorta3c"
+    label: "Aorta abdominal: ateromatose, sem dilatação (conclusão)"
+    replace: "Ateromatose aórtica abdominal, sem dilatação ou estenose significativa."
+    word: true
+
+  - trigger: "aorta4"
+    label: "Aorta abdominal: ectasia infrarrenal, < 3,0 cm (achado descritivo)"
+    replace: "Aorta abdominal infrarrenal com calibre aumentado, medindo _ cm no maior diâmetro anteroposterior (de parede externa a parede externa), abaixo do limiar de aneurisma (3,0 cm), compatível com ectasia."
+    word: true
+
+  - trigger: "aorta4c"
+    label: "Aorta abdominal: ectasia infrarrenal (conclusão)"
+    replace: "Ectasia da aorta abdominal infrarrenal, com diâmetro máximo de _ cm."
+    word: true
+
   - trigger: "aorta2"
     label: "Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses"
     replace: "Dilatação fusiforme/sacular da aorta abdominal infrarrenal, com diâmetro anteroposterior máximo de _ cm (medido de parede externa a parede externa), extensão longitudinal de _ cm, distando _ cm das artérias renais, com/sem trombo mural."
@@ -9228,6 +9237,90 @@ matches:
   - trigger: "aorta2c"
     label: "Aorta abdominal: aneurisma infrarrenal (conclusão)"
     replace: "Aneurisma da aorta abdominal infrarrenal, com diâmetro máximo de _ cm."
+    word: true
+
+  - trigger: "aorta5"
+    label: "Aorta abdominal: endoprótese pérvia, sem endoleak (achado descritivo)"
+    replace: "Endoprótese aórtica/aortobi-ilíaca no segmento infrarrenal, com fluxo laminar em seu interior e nos ramos ilíacos, sem fluxo ao Doppler colorido no saco aneurismático, que mede _ cm no maior diâmetro (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "aorta5c"
+    label: "Aorta abdominal: endoprótese pérvia, sem endoleak (conclusão)"
+    replace: "Endoprótese aórtica pérvia, sem sinais de vazamento (endoleak) ao Doppler."
+    word: true
+
+  - trigger: "aorta6"
+    label: "Aorta abdominal: endoleak (achado descritivo)"
+    replace: "Fluxo ao Doppler colorido no interior do saco aneurismático da endoprótese, junto a _, com saco medindo _ cm no maior diâmetro (no exame anterior: _ cm), achados compatíveis com vazamento (endoleak)."
+    word: true
+
+  - trigger: "aorta6c"
+    label: "Aorta abdominal: endoleak (conclusão)"
+    replace: "Vazamento (endoleak) no saco aneurismático da endoprótese aórtica. Sugere-se angiotomografia para caracterização do tipo."
+    word: true
+
+  - trigger: "aorta7"
+    label: "Aorta abdominal: estenose ≥ 50%/≥ 80%, razão > 2,0/> 4,0 (achado descritivo)"
+    replace: "Placas ateromatosas no segmento _ da aorta abdominal, com fluxo turbulento, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 2,0/4,0), compatível com estenose igual ou superior a 50%/80%."
+    word: true
+
+  - trigger: "aorta7c"
+    label: "Aorta abdominal: estenose ≥ 50%/≥ 80% (conclusão)"
+    replace: "Estenose igual ou superior a 50%/80% da aorta abdominal _."
+    word: true
+
+  - trigger: "aorta1"
+    label: "Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%, razão > 4,0 (achado descritivo)"
+    replace: |-
+      Aorta abdominal ateromatosa apresentando aneurisma fusiforme de seu segmento infrarrenal, com trombo mural excêntrico não obstrutivo, diâmetro de _ cm e luz residual de _ cm, com fluxo de baixa amplitude e padrão pré-estenótico em seu interior.
+      Placas ateromatosas calcificadas grosseiras e circunferenciais no terço distal da aorta abdominal, junto à bifurcação aortoilíaca, com fluxo filiforme, velocidade de pico sistólico de _ cm/s e razão de velocidades de _ (superior a 4,0), compatível com estenose igual ou superior a 80%, associando-se curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias de ambos os membros inferiores.
+    word: true
+
+  - trigger: "aorta1c"
+    label: "Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%"
+    replace: |-
+      Aneurisma da aorta abdominal infrarrenal.
+      Estenose igual ou superior a 80% no território aortoilíaco, determinando hipofluxo distal em ambos os membros inferiores.
+    word: true
+
+  - trigger: "aorta8"
+    label: "Aorta abdominal: oclusão aortoilíaca, Leriche (achado descritivo)"
+    replace: "Ausência de fluxo ao Doppler colorido e espectral na aorta abdominal infrarrenal a partir de _ cm abaixo das artérias renais, estendendo-se às artérias ilíacas comuns, com reconstituição do fluxo nas artérias femorais comuns por vasos colaterais, associando-se curvas espectrais monofásicas, de baixa amplitude e aceleração sistólica lenta (tardus parvus), nas artérias de ambos os membros inferiores."
+    word: true
+
+  - trigger: "aorta8c"
+    label: "Aorta abdominal: oclusão aortoilíaca, Leriche (conclusão)"
+    replace: "Oclusão aortoilíaca (síndrome de Leriche), com reconstituição distal por colaterais."
+    word: true
+
+  - trigger: "aorta9"
+    label: "Aorta abdominal: dissecção (achado descritivo)"
+    replace: "Flap intimal linear e móvel na luz da aorta abdominal, estendendo-se de _ a _, delimitando luz verdadeira e luz falsa, esta com fluxo/sem fluxo ao Doppler colorido, achados compatíveis com dissecção."
+    word: true
+
+  - trigger: "aorta9c"
+    label: "Aorta abdominal: dissecção (conclusão)"
+    replace: "Dissecção da aorta abdominal, com luz falsa pérvia/trombosada. Sugere-se complementação com angiotomografia."
+    word: true
+
+  - trigger: "aorta10"
+    label: "Aorta abdominal: espessamento periaórtico, periaortite (achado descritivo)"
+    replace: "Espessamento parietal hipoecogênico, homogêneo e circunferencial da aorta abdominal infrarrenal, formando manguito periaórtico com até _ cm de espessura, estendendo-se às artérias ilíacas comuns, sem dilatação luminal significativa."
+    word: true
+
+  - trigger: "aorta10c"
+    label: "Aorta abdominal: espessamento periaórtico, periaortite (conclusão)"
+    replace: "Espessamento parietal periaórtico. Os diagnósticos diferenciais incluem periaortite crônica (fibrose retroperitoneal) e aortite, entre outros, sendo recomendada complementação com tomografia computadorizada ou ressonância magnética."
+    word: true
+
+  - trigger: "aorta11"
+    label: "Aorta abdominal: rotura de aneurisma, hematoma retroperitoneal (achado descritivo)"
+    replace: "Coleção heterogênea retroperitoneal adjacente ao aneurisma da aorta abdominal, medindo _ x _ cm, sem fluxo ao Doppler colorido, sugerindo hematoma por rotura contida."
+    word: true
+
+  - trigger: "aorta11c"
+    label: "Aorta abdominal: rotura de aneurisma, hematoma retroperitoneal (conclusão)"
+    replace: "Achados sugestivos de rotura contida de aneurisma da aorta abdominal, com hematoma retroperitoneal. Sugere-se avaliação cirúrgica com urgência."
     word: true
 
   # ==============================================================================

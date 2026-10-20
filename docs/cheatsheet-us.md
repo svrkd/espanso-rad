@@ -1674,11 +1674,29 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 
 | Trigger | Label |
 |---|---|
-| aorta1 | Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%, razão > 4,0 (achado descritivo) |
-| aorta1c | Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80% |
 | usaortaabd | Aorta abdominal — normal |
+| aorta3 | Aorta abdominal: ateromatose, sem dilatação (achado descritivo) |
+| aorta3c | Aorta abdominal: ateromatose, sem dilatação (conclusão) |
+| aorta4 | Aorta abdominal: ectasia infrarrenal, < 3,0 cm (achado descritivo) |
+| aorta4c | Aorta abdominal: ectasia infrarrenal (conclusão) |
 | aorta2 | Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses |
 | aorta2c | Aorta abdominal: aneurisma infrarrenal (conclusão) |
+| aorta5 | Aorta abdominal: endoprótese pérvia, sem endoleak (achado descritivo) |
+| aorta5c | Aorta abdominal: endoprótese pérvia, sem endoleak (conclusão) |
+| aorta6 | Aorta abdominal: endoleak (achado descritivo) |
+| aorta6c | Aorta abdominal: endoleak (conclusão) |
+| aorta7 | Aorta abdominal: estenose ≥ 50%/≥ 80%, razão > 2,0/> 4,0 (achado descritivo) |
+| aorta7c | Aorta abdominal: estenose ≥ 50%/≥ 80% (conclusão) |
+| aorta1 | Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%, razão > 4,0 (achado descritivo) |
+| aorta1c | Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80% |
+| aorta8 | Aorta abdominal: oclusão aortoilíaca, Leriche (achado descritivo) |
+| aorta8c | Aorta abdominal: oclusão aortoilíaca, Leriche (conclusão) |
+| aorta9 | Aorta abdominal: dissecção (achado descritivo) |
+| aorta9c | Aorta abdominal: dissecção (conclusão) |
+| aorta10 | Aorta abdominal: espessamento periaórtico, periaortite (achado descritivo) |
+| aorta10c | Aorta abdominal: espessamento periaórtico, periaortite (conclusão) |
+| aorta11 | Aorta abdominal: rotura de aneurisma, hematoma retroperitoneal (achado descritivo) |
+| aorta11c | Aorta abdominal: rotura de aneurisma, hematoma retroperitoneal (conclusão) |
 
 ## Frases Auxiliares / Curingas (Uso Transversal)
 
