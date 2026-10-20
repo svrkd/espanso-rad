@@ -17,7 +17,7 @@ matches:
 
   - trigger: "tctnepanc"
     label: "Tumor neuroendócrino de pâncreas/duodeno"
-    replace: Massa heterogênea, predominantemente isodensa, com calcificações grosseiras de permeio, de contornos lobulados e limites parcialmente definidos, medindo _ cm (CC x AP x LL), apresentando intenso realce após a administração do meio de contraste endovenoso, localizada entre o processo uncinado do pâncreas e a 2ª porção do duodeno, envolvendo ramos da artéria e veia mesentéricas superiores, promovendo efeito de massa sobre as estruturas adjacentes, obliterando o colédoco distal e determinando dilatação de vias biliares intra e extra-hepáticas. A possibilidade de tumor neuroendócrino pode ser considerada dentre as possibilidades diagnósticas.
+    replace: Massa heterogênea, predominantemente isodensa, com calcificações grosseiras de permeio, de contornos lobulados e limites parcialmente definidos, medindo _ cm (CC x AP x LL), apresentando intenso realce após a administração do meio de contraste endovenoso, localizada entre o processo uncinado do pâncreas e a 2ª porção do duodeno, envolvendo ramos da artéria e veia mesentéricas superiores, promovendo efeito de massa sobre as estruturas adjacentes, obliterando o colédoco distal e determinando dilatação de vias biliares intra e extra-hepáticas. A possibilidade de tumor neuroendócrino pode ser considerada dentre os diagnósticos diferenciais.
     word: true
 
   - trigger: "tclesfigind"
@@ -27,7 +27,7 @@ matches:
 
   - trigger: "tclinfoprol"
     label: "Doença linfoproliferativa da raiz do mesentério"
-    replace: Formação heterogênea, com realce homogêneo após a administração do meio de contraste endovenoso, de limites bem definidos, envolvendo a raiz do mesentério, circundando em 360º a artéria mesentérica superior e seus ramos, sem obliterá-los, bem como circunjacente aos rins. Associa-se aumento do número e do tamanho dos linfonodos, alguns confluentes, localizados adjacentes à lesão supracitada, em região mesentérica e retroperitoneais (notadamente na altura dos hilos renais), o maior medindo _ cm. Considerar inicialmente a possibilidade de doença linfoproliferativa. Sugere-se prosseguir investigação diagnóstica.
+    replace: Formação heterogênea, com realce homogêneo após a administração do meio de contraste endovenoso, de limites bem definidos, envolvendo a raiz do mesentério, circundando em 360° a artéria mesentérica superior e seus ramos, sem obliterá-los, bem como circunjacente aos rins. Associa-se aumento do número e do tamanho dos linfonodos, alguns confluentes, localizados adjacentes à lesão supracitada, nas regiões mesentérica e retroperitoneal (notadamente na altura dos hilos renais), o maior medindo _ cm. Considerar inicialmente a possibilidade de doença linfoproliferativa. Sugere-se prosseguir investigação diagnóstica.
     word: true
 
   - trigger: "tcpseudmix1"
@@ -45,7 +45,7 @@ matches:
 
   - trigger: "tclipo2"
     label: "Lipossarcoma periureteral com hidroureteronefrose"
-    replace: Formação expansiva ovalada, heterogênea, apresentando áreas com densidade adiposa, septos de permeio e focos cálcicos parietais, localizada adjacente ao ureter direito, medindo cerca de _ cm, distando cerca de _ cm da junção pelveureteral, determinando acentuada hidroureteronefrose à montante, com afilamento do parênquima renal. Há íntimo contato da lesão com a artéria e a veia ilíacas comuns à direita em menos de 180° e com o músculo psoas. Associa-se densificação dos planos gordurosos periureterais e perirrenal. Lesões ovaladas, de contornos pouco definidos, sem realce pelo meio de contraste, localizadas na fossa ilíaca direita, as maiores medindo cerca de _ cm e _ cm. Associa-se densificação dos planos adiposos adjacentes. A possibilidade de lipossarcoma pode ser considerada. Sugere-se prosseguir a investigação diagnóstica.
+    replace: Formação expansiva ovalada, heterogênea, apresentando áreas com densidade adiposa, septos de permeio e focos cálcicos parietais, localizada adjacente ao ureter direito, medindo cerca de _ cm, distando cerca de _ cm da junção pelveureteral, determinando acentuada hidroureteronefrose a montante, com afilamento do parênquima renal. Há íntimo contato da lesão com a artéria e a veia ilíacas comuns à direita em menos de 180° e com o músculo psoas. Associa-se densificação dos planos gordurosos periureterais e perirrenais. Lesões ovaladas, de contornos pouco definidos, sem realce pelo meio de contraste, localizadas na fossa ilíaca direita, as maiores medindo cerca de _ cm e _ cm. Associa-se densificação dos planos adiposos adjacentes. A possibilidade de lipossarcoma pode ser considerada. Sugere-se prosseguir a investigação diagnóstica.
     word: true
 
   - trigger: "tcrecid1"
@@ -96,7 +96,7 @@ matches:
 
   - trigger: "tcfistaort"
     label: "Massa paraórtica com fístula para víscera oca"
-    replace: Significativa redução da massa na região paraórtica esquerda, agora apresentando nível hidroaéreo, achado que pode sugerir solução de continuidade/trajeto fistuloso com víscera oca, com paredes espessas, medindo até _ cm (antes media _ cm — AP x CC x LL). A lesão oblitera/indefine o aspecto superior do músculo psoas ipsilateral, com insinuação/extensão no flanco esquerdo, envolvendo, porém sem sinais de invasão da aorta abdominal.
+    replace: Significativa redução da massa na região paraórtica esquerda, agora apresentando nível hidroaéreo, achado que pode sugerir solução de continuidade/trajeto fistuloso com víscera oca, com paredes espessas, medindo até _ cm (antes media _ cm — AP x CC x LL). A lesão oblitera/indefine o aspecto superior do músculo psoas ipsilateral, com insinuação/extensão no flanco esquerdo, envolvendo, porém sem sinais de invasão, a aorta abdominal.
     word: true
 
   - trigger: "tcbulkyrp"
@@ -121,7 +121,7 @@ matches:
 
   - trigger: "tclinforp"
     label: "Linfoma retroperitoneal envolvendo os grandes vasos"
-    replace: Múltiplas formações sólidas, homogêneas, confluentes, de limites mal definidos, envolvendo o retroperitônio, o hilo esplênico e o hilo hepático, circundando em 360º a aorta e a veia cava inferior (deslocando-as anteriormente), as ilíacas comuns e as ilíacas externas e internas, bem como se estendendo para o subcutâneo das regiões inguinais. Destaca-se redução do calibre com indefinição de parte do sistema venoso, bem como pequena dilatação do sistema coletor renal bilateral, inferindo acometimento pela massa. Associa-se aumento do número e do tamanho dos linfonodos mesentéricos, celíacos e pericólicos, o maior medindo _ cm. O conjunto de achados é sugestivo de doença linfoproliferativa.
+    replace: Múltiplas formações sólidas, homogêneas, confluentes, de limites mal definidos, envolvendo o retroperitônio, o hilo esplênico e o hilo hepático, circundando em 360° a aorta e a veia cava inferior (deslocando-as anteriormente), as ilíacas comuns e as ilíacas externas e internas, bem como se estendendo para o subcutâneo das regiões inguinais. Destaca-se redução do calibre com indefinição de parte do sistema venoso, bem como pequena dilatação do sistema coletor renal bilateral, inferindo acometimento pela massa. Associa-se aumento do número e do tamanho dos linfonodos mesentéricos, celíacos e pericólicos, o maior medindo _ cm. O conjunto de achados é sugestivo de doença linfoproliferativa.
     word: true
 
   - trigger: "tcneogfig"
@@ -188,7 +188,7 @@ matches:
 
   - trigger: "tcosteosi"
     label: "Osteomielite crônica sacroilíaca com sequestro e fístula"
-    replace: Coleção hipoatenuante, com epicentro no sacro à esquerda, determinando destruição óssea focal com fragmento ósseo central destacado (sequestro ósseo), dissecando para o espaço pré-sacral e as fossas isquiorretal e isquioanal ipsilaterais, com volume aproximado de _ ml, formando trajeto fistuloso com extensão craniocaudal de aproximadamente _ cm, exteriorizando-se na pele/tecido celular subcutâneo na face interna da nádega esquerda. A principal hipótese a ser considerada, em estreita correlação com dados clínicos e laboratoriais, é processo inflamatório/infeccioso crônico acometendo osso e partes moles (osteomielite crônica) da região sacroilíaca esquerda.
+    replace: Coleção hipoatenuante, com epicentro no sacro à esquerda, determinando destruição óssea focal com fragmento ósseo central destacado (sequestro ósseo), dissecando para o espaço pré-sacral e as fossas isquiorretal e isquioanal ipsilaterais, com volume aproximado de _ cm³, formando trajeto fistuloso com extensão craniocaudal de aproximadamente _ cm, exteriorizando-se na pele/tecido celular subcutâneo na face interna da nádega esquerda. A principal hipótese a ser considerada, em estreita correlação com dados clínicos e laboratoriais, é processo inflamatório/infeccioso crônico acometendo osso e partes moles (osteomielite crônica) da região sacroilíaca esquerda.
     word: true
 
   - trigger: "tculcpres2"
@@ -208,7 +208,7 @@ matches:
 
   - trigger: "tcespondil"
     label: "Espondilodiscite com abscessos epidural e paravertebrais"
-    replace: Aumento volumétrico das lesões líticas acometendo os corpos vertebrais de T11 e T12, agora estendendo-se ao corpo de L1, sem alteração significativa de suas alturas. Nota-se ainda aumento do volume do componente/coleção de partes moles posterior, com realce pelo meio de contraste e extensão subligamentar (epidural), que comprime a face ventral do saco dural e determina estenose do canal vertebral, agora com maior extensão paravertebral, mantendo contato com a aorta e os pilares diafragmáticos, sugerindo representar abscessos. O conjunto de achados sugere processo inflamatório/infeccioso (espondilodiscite) complicado com abscessos epidural e paravertebrais. Correlacionar com dados clínicos e laboratoriais.
+    replace: Aumento volumétrico das lesões líticas acometendo os corpos vertebrais de T11 e T12, agora estendendo-se ao corpo de L1, sem alteração significativa de suas alturas. Nota-se ainda aumento do volume do componente/coleção de partes moles posterior, com realce pelo meio de contraste e extensão subligamentar (epidural), que comprime a face ventral do saco dural e determina estenose do canal vertebral, agora com maior extensão paravertebral, mantendo contato com a aorta e os pilares diafragmáticos, sugerindo abscessos. O conjunto de achados sugere processo inflamatório/infeccioso (espondilodiscite) complicado com abscessos epidural e paravertebrais. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tchiperpar"
@@ -266,7 +266,7 @@ matches:
 
   - trigger: "tcneogantr1"
     label: "Neoplasia gástrica antropilórica (CA ou linfoma MALT)"
-    replace: Acentuado espessamento parietal circunferencial da região antropilórica gástrica, apresentando hiperrealce mucoso após a administração do meio de contraste endovenoso, notadamente da parede anterior, com dilatação hidroaérea à montante. Associa-se leve densificação do tecido adiposo adjacente, podendo representar extensão extramural, e ingurgitamento de vasos regionais. A possibilidade de neoplasia primária gástrica deve ser considerada. Recomenda-se investigação diagnóstica por endoscopia.
+    replace: Acentuado espessamento parietal circunferencial da região antropilórica gástrica, apresentando hiper-realce mucoso após a administração do meio de contraste endovenoso, notadamente da parede anterior, com dilatação hidroaérea a montante. Associa-se leve densificação do tecido adiposo adjacente, podendo representar extensão extramural, e ingurgitamento de vasos regionais. A possibilidade de neoplasia primária gástrica deve ser considerada. Recomenda-se investigação diagnóstica por endoscopia.
     word: true
 
   - trigger: "tcmetfigav"
@@ -294,7 +294,7 @@ matches:
 
   - trigger: "tccarcper3"
     label: "Carcinomatose peritoneal com ascite e implantes omentais"
-    replace: Moderada quantidade de líquido livre na cavidade peritoneal, associada a nódulos e massas omentais e na superfície peritoneal, bem como espessamento nodular da raiz do mesentério. Esse conjunto de achados sugere representar carcinomatose peritoneal.
+    replace: Moderada quantidade de líquido livre na cavidade peritoneal, associada a nódulos e massas omentais e na superfície peritoneal, bem como espessamento nodular da raiz do mesentério. Esse conjunto de achados sugere carcinomatose peritoneal.
     word: true
 
   - trigger: "tcmetfighv"
@@ -314,7 +314,7 @@ matches:
 
   - trigger: "tcinflad"
     label: "Processo inflamatório antropilórico e duodenal"
-    replace: Espessamento/estratificação parietal da região antropilórica e da 2ª porção duodenal, associado a hiperrealce mucoso e densificação dos planos gordurosos adjacentes, sugerindo processo inflamatório agudo, devendo-se correlacionar com estudo endoscópico.
+    replace: Espessamento/estratificação parietal da região antropilórica e da 2ª porção duodenal, associado a hiper-realce mucoso e densificação dos planos gordurosos adjacentes, sugerindo processo inflamatório agudo, devendo-se correlacionar com estudo endoscópico.
     word: true
 
   - trigger: "tculcgperf1"
@@ -339,7 +339,7 @@ matches:
 
   - trigger: "tcneogantr3"
     label: "Neoplasia gástrica antropilórica com disseminação omentoperitoneal"
-    replace: Lesão expansiva, de aspecto infiltrativo e limites parcialmente definidos, determinando espessamento circunferencial parietal irregular e estreitamento luminal do antro e do piloro gástricos, com aparente ulceração na sua parede anterior. Associam-se linfonodomegalias nas cadeias do anel do cárdia, gástrica direita e esquerda, bem como no hilo hepático e retroperitoneais, algumas com centro necrótico/liquefeito, a maior na cadeia do ligamento hepatogástrico, medindo _ cm no menor eixo axial. Observam-se ainda pequenos nódulos peritoneais associados a espessamento/obliteração do grande omento e pequena ascite, achados que, no contexto neoplásico primário conhecido, sugerem disseminação neoplásica secundária omentoperitoneal (carcinomatose peritoneal).
+    replace: Lesão expansiva, de aspecto infiltrativo e limites parcialmente definidos, determinando espessamento circunferencial parietal irregular e estreitamento luminal do antro e do piloro gástricos, com aparente ulceração na sua parede anterior. Associam-se linfonodomegalias nas cadeias do anel do cárdia, gástricas direita e esquerda, bem como no hilo hepático e retroperitoneais, algumas com centro necrótico/liquefeito, a maior na cadeia do ligamento hepatogástrico, medindo _ cm no menor eixo axial. Observam-se ainda pequenos nódulos peritoneais associados a espessamento/obliteração do grande omento e pequena ascite, achados que, no contexto neoplásico primário conhecido, sugerem disseminação neoplásica secundária omentoperitoneal (carcinomatose peritoneal).
     word: true
 
   - trigger: "tcneogantr3c"
@@ -354,7 +354,7 @@ matches:
 
   - trigger: "tcinflduop"
     label: "Processo inflamatório duodenopancreático indeterminado"
-    replace: Área heterogênea localizada entre a segunda e a terceira porções do duodeno, com limites mal definidos, sem planos de clivagem com a cabeça do pâncreas, apresentando realce heterogêneo ao meio de contraste endovenoso, associado a aumento dos linfonodos regionais, densificação da gordura adjacente, bem como pequenas áreas hipodensas (possíveis coleções) e lâminas líquidas nessa topografia. A possibilidade de processo inflamatório/infeccioso local deve ser inicialmente considerada, devendo-se correlacionar com demais métodos (endoscopia). Não se podem excluir outras etiologias.
+    replace: Área heterogênea localizada entre a segunda e a terceira porções do duodeno, com limites mal definidos, sem planos de clivagem com a cabeça do pâncreas, apresentando realce heterogêneo ao meio de contraste endovenoso, associada a aumento dos linfonodos regionais, densificação da gordura adjacente, bem como pequenas áreas hipodensas (possíveis coleções) e lâminas líquidas nessa topografia. A possibilidade de processo inflamatório/infeccioso local deve ser inicialmente considerada, devendo-se correlacionar com demais métodos (endoscopia). Não se podem excluir outras etiologias.
     word: true
 
   - trigger: "tculcdperf1"
@@ -394,7 +394,7 @@ matches:
 
   - trigger: "tcmassarpm"
     label: "Massa retroperitoneal e mesentérica indeterminada"
-    replace: Massa lobulada, heterogênea, que apresenta realce pelo meio de contraste endovenoso e centro necrótico/liquefeito, medindo _ cm (LL x AP), localizada no retroperitônio e na raiz do mesentério. A lesão mantém íntimo contato com a aorta, envolve as artérias mesentérica superior e renais, bem como acomete a veia renal esquerda, com aumento dos vasos colaterais adjacentes. Desloca anteriormente e apresenta íntimo contato com o pâncreas (cabeça e processo uncinado), sem planos de clivagem com alças delgadas adjacentes e com a adrenal esquerda, que se apresenta espessada e com hiperrealce.
+    replace: Massa lobulada, heterogênea, que apresenta realce pelo meio de contraste endovenoso e centro necrótico/liquefeito, medindo _ cm (LL x AP), localizada no retroperitônio e na raiz do mesentério. A lesão mantém íntimo contato com a aorta, envolve as artérias mesentérica superior e renais, bem como acomete a veia renal esquerda, com aumento dos vasos colaterais adjacentes. Desloca anteriormente e apresenta íntimo contato com o pâncreas (cabeça e processo uncinado), sem planos de clivagem com alças delgadas adjacentes e com a adrenal esquerda, que se apresenta espessada e com hiper-realce.
     word: true
 
   - trigger: "tcgist1"
@@ -431,7 +431,7 @@ matches:
 
   - trigger: "tcneogfund"
     label: "Neoplasia gástrica do fundo e corpo"
-    replace: Espessamento parietal irregular, de limites mal definidos, e hiperrealce mucoso do fundo e do corpo gástricos, associado a aumento do número de linfonodos na curvatura gástrica menor. A possibilidade de neoplasia gástrica deve ser considerada dentre os diagnósticos diferenciais. Correlacionar com estudo dirigido.
+    replace: Espessamento parietal irregular, de limites mal definidos, e hiper-realce mucoso do fundo e do corpo gástricos, associado a aumento do número de linfonodos na curvatura gástrica menor. A possibilidade de neoplasia gástrica deve ser considerada dentre os diagnósticos diferenciais. Correlacionar com estudo dirigido.
     word: true
 
   - trigger: "tculcdperf2"
@@ -441,7 +441,7 @@ matches:
 
   - trigger: "tcfistgesp"
     label: "Neoplasia gástrica com fístula gastroesplênica"
-    replace: Lesão expansiva de aspecto infiltrativo e limites parcialmente definidos, determinando estreitamento luminal e espessamento circunferencial do cárdia, do fundo e de parte do corpo gástrico, sugerindo neoplasia. Há sinais de ulceração na parede posterior do fundo gástrico em contiguidade com o parênquima da porção superior do baço, onde se observam áreas hipovasculares que podem representar invasão tumoral e/ou alterações isquêmicas/necrose esplênica. Associam-se linfonodomegalias nas cadeias do anel do cárdia, gástrica direita e esquerda, bem como na raiz do mesentério. Após a administração do meio de contraste oral, nota-se pertuito entre a luz do fundo gástrico e o parênquima esplênico, entretanto sem extravasamento do mesmo para a cavidade abdominal.
+    replace: Lesão expansiva de aspecto infiltrativo e limites parcialmente definidos, determinando estreitamento luminal e espessamento circunferencial do cárdia, do fundo e de parte do corpo gástrico, sugerindo neoplasia. Há sinais de ulceração na parede posterior do fundo gástrico em contiguidade com o parênquima da porção superior do baço, onde se observam áreas hipovasculares que podem representar invasão tumoral e/ou alterações isquêmicas/necrose esplênica. Associam-se linfonodomegalias nas cadeias do anel do cárdia, gástricas direita e esquerda, bem como na raiz do mesentério. Após a administração do meio de contraste oral, nota-se pertuito entre a luz do fundo gástrico e o parênquima esplênico, entretanto sem extravasamento do mesmo para a cavidade abdominal.
     word: true
 
   - trigger: "tccolduo"
@@ -566,7 +566,7 @@ matches:
 
   - trigger: "tctvspm"
     label: "Trombose venosa esplenoportomesentérica extensa"
-    replace: Extensa trombose venosa acometendo o tronco da veia porta, o ramo portal esquerdo, as veias esplênica, a junção portomesentérica, as mesentéricas superior e inferior, assim como ramos esplâncnicos distais. Associam-se leve densificação dos planos gordurosos mesentéricos e distúrbio perfusional hepático. No presente estudo, não há sinais de comprometimento de alças intestinais.
+    replace: Extensa trombose venosa acometendo o tronco da veia porta, o ramo portal esquerdo, a veia esplênica, a junção portomesentérica, as mesentéricas superior e inferior, assim como ramos esplâncnicos distais. Associam-se leve densificação dos planos gordurosos mesentéricos e distúrbio perfusional hepático. No presente estudo, não há sinais de comprometimento de alças intestinais.
     word: true
 
   - trigger: "tchamartb"
@@ -736,7 +736,7 @@ matches:
 
   - trigger: "tcaneurhep"
     label: "Aneurisma de artéria hepática com iminência de rotura"
-    replace: Formação vascular, de aspecto aneurismático, localizada no hilo hepático, medindo cerca de _ cm. Há irregularidade dos contornos da lesão, com aumento da densidade da gordura adjacente, achados que sugerem representar aneurisma com iminência de rotura, possivelmente da artéria hepática.
+    replace: Formação vascular, de aspecto aneurismático, localizada no hilo hepático, medindo cerca de _ cm. Há irregularidade dos contornos da lesão, com aumento da densidade da gordura adjacente, achados que sugerem aneurisma com iminência de rotura, possivelmente da artéria hepática.
     word: true
 
   - trigger: "tcesteatd"
@@ -766,7 +766,7 @@ matches:
 
   - trigger: "tcabsfig5"
     label: "Abscesso hepático passível de punção percutânea"
-    replace: Fígado com dimensões, contornos e densidade normais, exceto por lesão hipodensa com centro liquefeito e padrão de realce anfractuoso, localizada no segmento hepático V/VI, medindo _ cm (volume de _ ml) e distando _ cm da pele, passível de punção diagnóstica percutânea. Associa-se distúrbio perfusional circunjacente.
+    replace: Fígado com dimensões, contornos e densidade normais, exceto por lesão hipodensa com centro liquefeito e padrão de realce anfractuoso, localizada no segmento hepático V/VI, medindo _ cm (volume de _ cm³) e distando _ cm da pele, passível de punção diagnóstica percutânea. Associa-se distúrbio perfusional circunjacente.
     word: true
 
   - trigger: "tcabsfig5c"
@@ -781,7 +781,7 @@ matches:
 
   - trigger: "tclacfig3"
     label: "Laceração hepática AAST grau III em controle"
-    replace: Fígado apresentando lesão hipovascular, de contornos irregulares, que mediu _ cm, localizada nos segmentos VII e VIII, representando área de laceração (A.A.S.T. grau III), associada a pequena quantidade de líquido livre adjacente à borda hepática.
+    replace: Fígado apresentando lesão hipovascular, de contornos irregulares, que mediu _ cm, localizada nos segmentos VII e VIII, representando área de laceração (AAST grau III), associada a pequena quantidade de líquido livre adjacente à borda hepática.
     word: true
 
   # ==========================================================================
@@ -809,8 +809,8 @@ matches:
     word: true
 
   - trigger: "tcposcolec"
-    label: "Manipulação cirúrgica pós colecistectomia, duodenotomia e papilotomia"
-    replace: Sinais de manipulação cirúrgica na parede abdominal anterior (status pós colecistectomia, duodenotomia e papilotomia).
+    label: "Manipulação cirúrgica pós-colecistectomia, duodenotomia e papilotomia"
+    replace: Sinais de manipulação cirúrgica na parede abdominal anterior (status pós-colecistectomia, duodenotomia e papilotomia).
     word: true
 
   - trigger: "tcfistduod"
@@ -930,7 +930,7 @@ matches:
 
   - trigger: "tccolecist2"
     label: "Colecistite aguda calculosa com vesícula hidrópica"
-    replace: Vesícula biliar de dimensões aumentadas, com paredes espessadas e delaminadas, apresentando hiperrealce mucoso e cálculos no seu interior, o maior medindo _ cm, localizado na região infundibular. Associam-se líquido pericolecístico e densificação dos planos adiposos adjacentes. A possibilidade de colecistite aguda calculosa pode ser considerada dentre os diagnósticos diferenciais, diante de um contexto clínico e laboratorial adequado.
+    replace: Vesícula biliar de dimensões aumentadas, com paredes espessadas e delaminadas, apresentando hiper-realce mucoso e cálculos no seu interior, o maior medindo _ cm, localizado na região infundibular. Associam-se líquido pericolecístico e densificação dos planos adiposos adjacentes. A possibilidade de colecistite aguda calculosa pode ser considerada dentre os diagnósticos diferenciais, diante de um contexto clínico e laboratorial adequado.
     word: true
 
   - trigger: "tccolecist3"
@@ -1120,8 +1120,8 @@ matches:
     word: true
 
   - trigger: "tcpancnecr2"
-    label: "Pancreatite necrotizante extensa (Balthazar E)"
-    replace: Aumento das dimensões e perda do padrão acinar do pâncreas, associados a extensa área hipodensa na cabeça, no corpo e na cauda da glândula (acometendo mais de 50% do parênquima), sem realce após a administração do meio de contraste endovenoso (inferindo necrose), bem como densificação do tecido adiposo adjacente, acúmulo de líquido peripancreático, peri-hepático, periesplênico, junto à câmara gástrica, nas goteiras parietocólicas e na cavidade pélvica, além de ingurgitamento da vasa recta e aumento do número de linfonodos regionais e mesentéricos. Nota-se ainda pequena imagem hipodensa na cabeça pancreática e no processo uncinado, inespecífica. Esses achados podem estar associados a pancreatite aguda necrotizante, devendo-se correlacionar com história clínica/laboratorial e tempo do início dos sintomas (Balthazar E — CTSI _ — CTSI modificado _).
+    label: "Pancreatite necrosante extensa (Balthazar E)"
+    replace: Aumento das dimensões e perda do padrão acinar do pâncreas, associados a extensa área hipodensa na cabeça, no corpo e na cauda da glândula (acometendo mais de 50% do parênquima), sem realce após a administração do meio de contraste endovenoso (inferindo necrose), bem como densificação do tecido adiposo adjacente, acúmulo de líquido peripancreático, peri-hepático, periesplênico, junto à câmara gástrica, nas goteiras parietocólicas e na cavidade pélvica, além de ingurgitamento da vasa recta e aumento do número de linfonodos regionais e mesentéricos. Nota-se ainda pequena imagem hipodensa na cabeça pancreática e no processo uncinado, inespecífica. Esses achados podem estar associados a pancreatite aguda necrosante, devendo-se correlacionar com história clínica/laboratorial e tempo do início dos sintomas (Balthazar E — CTSI _ — CTSI modificado _).
     word: true
 
   - trigger: "tcpancenf2"
@@ -1160,8 +1160,8 @@ matches:
     word: true
 
   - trigger: "tcdilcolet"
-    label: "Dilatação do sistema coletor à montante de coleção"
-    replace: Mínima dilatação do sistema coletor do rim esquerdo, à montante da coleção supracitada.
+    label: "Dilatação do sistema coletor a montante de coleção"
+    replace: Mínima dilatação do sistema coletor do rim esquerdo, a montante da coleção supracitada.
     word: true
 
   - trigger: "tcpancsulc2"
@@ -1210,7 +1210,7 @@ matches:
 
   - trigger: "tcneopanc5"
     label: "Neoplasia da cabeça pancreática com contato mesentérico"
-    replace: Massa isodensa, de contornos irregulares, com realce parietal após a injeção do meio de contraste endovenoso, localizada na cabeça/processo uncinado do pâncreas, medindo aproximadamente _ cm (LL x CC x AP), determinando afilamento do parênquima pancreático e acentuada dilatação de vias biliares intra e extra-hepáticas, bem como do ducto pancreático principal (_ cm). Tal lesão encontra-se em íntimo contato com a veia mesentérica superior, envolvendo-a em 180º, e com a artéria mesentérica superior em menos de 180º. Associam-se linfonodos regionais proeminentes. O conjunto de achados sugere neoplasia pancreática primária.
+    replace: Massa isodensa, de contornos irregulares, com realce parietal após a injeção do meio de contraste endovenoso, localizada na cabeça/processo uncinado do pâncreas, medindo aproximadamente _ cm (LL x CC x AP), determinando afilamento do parênquima pancreático e acentuada dilatação de vias biliares intra e extra-hepáticas, bem como do ducto pancreático principal (_ cm). Tal lesão encontra-se em íntimo contato com a veia mesentérica superior, envolvendo-a em 180°, e com a artéria mesentérica superior em menos de 180°. Associam-se linfonodos regionais proeminentes. O conjunto de achados sugere neoplasia pancreática primária.
     word: true
 
   - trigger: "tcperiamp1"
@@ -1229,13 +1229,13 @@ matches:
     word: true
 
   - trigger: "tcadenoca1"
-    label: "Adenocarcinoma cefálico com atrofia parenquimatosa à montante"
-    replace: Lesão heterogênea na cabeça pancreática, medindo cerca de _ cm, determinando acentuada dilatação e tortuosidade do ducto pancreático principal e atrofia do parênquima da glândula à montante. Associam-se acentuada dilatação das vias biliares intra e extra-hepáticas (colédoco com calibre de _ cm), vesícula biliar hidrópica e aumento numérico dos linfonodos celíacos e peri-hilares hepáticos. A lesão apresenta íntimo contato (menos de 180°) com as veias mesentérica superior e porta, sem sinais de invasão. A principal consideração diagnóstica é neoplasia primária.
+    label: "Adenocarcinoma cefálico com atrofia parenquimatosa a montante"
+    replace: Lesão heterogênea na cabeça pancreática, medindo cerca de _ cm, determinando acentuada dilatação e tortuosidade do ducto pancreático principal e atrofia do parênquima da glândula a montante. Associam-se acentuada dilatação das vias biliares intra e extra-hepáticas (colédoco com calibre de _ cm), vesícula biliar hidrópica e aumento numérico dos linfonodos celíacos e peri-hilares hepáticos. A lesão apresenta íntimo contato (menos de 180°) com as veias mesentérica superior e porta, sem sinais de invasão. A principal consideração diagnóstica é neoplasia primária.
     word: true
 
   - trigger: "tcadenoca2"
     label: "Adenocarcinoma de corpo/cauda pancreáticos em controle"
-    replace: Lesão nodular de caráter hipovascular na topografia do corpo/cauda do pâncreas, de limites mal definidos, agora medindo cerca de _ cm, acompanhada de atrofia do restante do corpo e da cauda da glândula, além de dilatação do ducto pancreático principal à montante. Tal lesão promove afilamento da veia porta/esplênica, porém sem sinais aparentes de invasão da mesma.
+    replace: Lesão nodular de caráter hipovascular na topografia do corpo/cauda do pâncreas, de limites mal definidos, agora medindo cerca de _ cm, acompanhada de atrofia do restante do corpo e da cauda da glândula, além de dilatação do ducto pancreático principal a montante. Tal lesão promove afilamento da veia porta/esplênica, porém sem sinais aparentes de invasão da mesma.
     word: true
 
   - trigger: "tcirresec1"
@@ -1245,7 +1245,7 @@ matches:
 
   - trigger: "tcpancunc"
     label: "Neoplasia do processo uncinado com contato da veia cava"
-    replace: Lesão densa, de contornos irregulares e limites parcialmente definidos, com realce parietal após a injeção do meio de contraste endovenoso, localizada no processo uncinado do pâncreas/papila duodenal, medindo aproximadamente _ cm, determinando acentuada dilatação de vias biliares intra e extra-hepáticas (colédoco com _ cm) e do ducto pancreático principal (_ cm). Tal lesão encontra-se em contato com a veia cava inferior em menos de 180º. Associam-se linfonodos regionais proeminentes. Correlacionar com estudo anatomopatológico.
+    replace: Lesão densa, de contornos irregulares e limites parcialmente definidos, com realce parietal após a injeção do meio de contraste endovenoso, localizada no processo uncinado do pâncreas/papila duodenal, medindo aproximadamente _ cm, determinando acentuada dilatação de vias biliares intra e extra-hepáticas (colédoco com _ cm) e do ducto pancreático principal (_ cm). Tal lesão encontra-se em contato com a veia cava inferior em menos de 180°. Associam-se linfonodos regionais proeminentes. Correlacionar com estudo anatomopatológico.
     word: true
 
   - trigger: "tcirresec2"
@@ -1259,7 +1259,7 @@ matches:
 
   - trigger: "tcpseudocist3"
     label: "Pseudocistos pancreáticos volumosos pancreatoduodenais"
-    replace: Formação expansiva, predominantemente cística, multiloculada, localizada na região pancreatoduodenal, apresentando realce parietal pelo meio de contraste endovenoso e determinando leve dilatação das vias biliares intra-hepáticas. Tal lesão faz impressão sobre o fundo/corpo gástrico, o lobo caudado hepático, as estruturas vasculares do hilo hepático e a veia cava inferior, sem sinais de invasão dos mesmos. Associam-se moderada quantidade de líquido livre peri-hepático, periesplênico, nas goteiras parietocólicas e na cavidade pélvica, densificação do tecido adiposo adjacente (peripancreático), bem como aumento do número e das dimensões dos linfonodos epifrênicos, retroperitoneais e mesentéricos, o maior junto à curvatura gástrica menor, medindo até _ cm no menor eixo axial. A possibilidade de pseudocistos pós processo inflamatório do pâncreas (pancreatite) pode ser considerada. Os diagnósticos diferenciais devem ser aplicados, inclusive neoplasia e abscesso.
+    replace: Formação expansiva, predominantemente cística, multiloculada, localizada na região pancreatoduodenal, apresentando realce parietal pelo meio de contraste endovenoso e determinando leve dilatação das vias biliares intra-hepáticas. Tal lesão faz impressão sobre o fundo/corpo gástrico, o lobo caudado hepático, as estruturas vasculares do hilo hepático e a veia cava inferior, sem sinais de invasão dos mesmos. Associam-se moderada quantidade de líquido livre peri-hepático, periesplênico, nas goteiras parietocólicas e na cavidade pélvica, densificação do tecido adiposo adjacente (peripancreático), bem como aumento do número e das dimensões dos linfonodos epifrênicos, retroperitoneais e mesentéricos, o maior junto à curvatura gástrica menor, medindo até _ cm no menor eixo axial. A possibilidade de pseudocistos secundários a processo inflamatório do pâncreas (pancreatite) pode ser considerada. Os diagnósticos diferenciais devem ser aplicados, inclusive neoplasia e abscesso.
     word: true
 
   - trigger: "tclesolcaud"
@@ -1313,7 +1313,7 @@ matches:
 
   - trigger: "tcadenadr"
     label: "Adenoma adrenal com washout característico"
-    replace: Adrenal direita apresentando nódulo medindo cerca de _ cm, com densidade de _ UH, apresentando realce após a administração do meio de contraste (_ UH) e na fase ultratardia (_ UH), com "washout" absoluto de _% e relativo de _%. Esses achados são compatíveis com adenoma.
+    replace: Adrenal direita apresentando nódulo medindo cerca de _ cm, com densidade de _ UH, apresentando realce após a administração do meio de contraste (_ UH) e na fase ultratardia (_ UH), com washout absoluto de _% e relativo de _%. Esses achados são compatíveis com adenoma.
     word: true
 
   # ==========================================================================
@@ -1337,7 +1337,7 @@ matches:
 
   - trigger: "tctraumaesp5"
     label: "Trauma esplênico AAST grau V"
-    replace: Fratura do baço com avulsão da artéria esplênica, acompanhada de hematoma intra e perivisceral (lesão grau V na classificação A.A.S.T.). Observa-se trombose parcial da veia esplênica.
+    replace: Fratura do baço com avulsão da artéria esplênica, acompanhada de hematoma intra e perivisceral (lesão grau V na classificação AAST). Observa-se trombose parcial da veia esplênica.
     word: true
 
   - trigger: "tcinfaresp3"
@@ -1391,7 +1391,7 @@ matches:
 
   - trigger: "tccalcjuv1"
     label: "Fileira de cálculos na junção ureterovesical"
-    replace: Fileira de cálculos na junção ureterovesical esquerda, o maior medindo _ cm, com densidade de _ UH, determinando pequena dilatação do sistema coletor à montante. Associam-se lâminas líquidas e densificação do tecido adiposo perirrenal e periureteral, bem como heterogeneidade da contrastação do parênquima renal ipsilaterais, achados que podem estar relacionados a uropatia obstrutiva, não se podendo descartar processo inflamatório/infeccioso sobreposto. Correlacionar com dados clínicos e laboratoriais.
+    replace: Fileira de cálculos na junção ureterovesical esquerda, o maior medindo _ cm, com densidade de _ UH, determinando pequena dilatação do sistema coletor a montante. Associam-se lâminas líquidas e densificação do tecido adiposo perirrenal e periureteral, bem como heterogeneidade da contrastação do parênquima renal ipsilaterais, achados que podem estar relacionados a uropatia obstrutiva, não se podendo descartar processo inflamatório/infeccioso sobreposto. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tchidrun1"
@@ -1441,7 +1441,7 @@ matches:
 
   - trigger: "tccalcur2"
     label: "Rim crônico com cálculo ureteral e coleção até o quadril"
-    replace: Rim esquerdo de contornos lobulados, dimensões reduzidas e afilamento cortical, com calcificações grosseiras/cálculos (rim de aspecto crônico), notando-se um cálculo no ureter, medindo _ cm, com densidade de _ UH, distando _ cm da junção ureteropiélica, promovendo moderada dilatação do sistema coletor à montante, com realce parietal do ureter após o meio de contraste endovenoso. Nota-se coleção hipodensa, com focos gasosos de permeio, apresentando realce periférico pelo meio de contraste endovenoso, localizada na região posterior ao rim (com aparente trajeto fistuloso com o mesmo), que se estende pelo interior do músculo iliopsoas até planos mioadiposos do quadril ipsilateral, parcialmente caracterizada, medindo _ cm, com volume de _ cm³.
+    replace: Rim esquerdo de contornos lobulados, dimensões reduzidas e afilamento cortical, com calcificações grosseiras/cálculos (rim de aspecto crônico), notando-se um cálculo no ureter, medindo _ cm, com densidade de _ UH, distando _ cm da junção ureteropiélica, promovendo moderada dilatação do sistema coletor a montante, com realce parietal do ureter após o meio de contraste endovenoso. Nota-se coleção hipodensa, com focos gasosos de permeio, apresentando realce periférico pelo meio de contraste endovenoso, localizada na região posterior ao rim (com aparente trajeto fistuloso com o mesmo), que se estende pelo interior do músculo iliopsoas até planos mioadiposos do quadril ipsilateral, parcialmente caracterizada, medindo _ cm, com volume de _ cm³.
     word: true
 
   - trigger: "tccalcpelv3"
@@ -1576,7 +1576,7 @@ matches:
 
   - trigger: "tcurotel2"
     label: "Carcinoma urotelial pieloureteral com duplicação do sistema coletor"
-    replace: Sinais de duplicação parcial do sistema coletor do rim esquerdo. Espessamento parietal irregular da pelve renal e do terço proximal do ureter à esquerda (porção superior), apresentando realce após a administração do meio de contraste, de difícil mensuração e ocluindo parcialmente sua luz, determinando dilatação dos grupamentos calicinales à montante. Associam-se densificação dos tecidos adiposos perirrenais e periureterais ipsilaterais, bem como aumento do número e das dimensões linfonodais nas cadeias para-aórtica, interaortocaval, retrocrural e celíaca, por vezes com centro necrótico e formando conglomerados (medindo até _ cm no menor eixo). O conjunto de achados sugere carcinoma urotelial pieloureteral à esquerda.
+    replace: Sinais de duplicação parcial do sistema coletor do rim esquerdo. Espessamento parietal irregular da pelve renal e do terço proximal do ureter à esquerda (porção superior), apresentando realce após a administração do meio de contraste, de difícil mensuração e ocluindo parcialmente sua luz, determinando dilatação dos grupamentos calicinais a montante. Associam-se densificação dos tecidos adiposos perirrenais e periureterais ipsilaterais, bem como aumento do número e das dimensões linfonodais nas cadeias para-aórtica, interaortocaval, retrocrural e celíaca, por vezes com centro necrótico e formando conglomerados (medindo até _ cm no menor eixo). O conjunto de achados sugere carcinoma urotelial pieloureteral à esquerda.
     word: true
 
   - trigger: "tcurotel3"
@@ -1586,7 +1586,7 @@ matches:
 
   - trigger: "tctraumarim5"
     label: "Trauma renal AAST grau V com desvascularização"
-    replace: Ausência de opacificação satisfatória da artéria e do parênquima renais à esquerda, acompanhada de aumento volumétrico do rim esquerdo com hematomas nos espaços subcapsular, perirrenal e pararrenais anterior e posterior, sugerindo lesão grau V na classificação A.A.S.T.
+    replace: Ausência de opacificação satisfatória da artéria e do parênquima renais à esquerda, acompanhada de aumento volumétrico do rim esquerdo com hematomas nos espaços subcapsular, perirrenal e pararrenais anterior e posterior, sugerindo lesão grau V na classificação AAST
     word: true
 
   - trigger: "tcneorim5"
@@ -1673,7 +1673,7 @@ matches:
 
   - trigger: "tcflebol"
     label: "Calcificação junto ao ureter distal — flebólito ou cálculo"
-    replace: Pequena calcificação junto ao ureter distal esquerdo, podendo corresponder a flebólito ou cálculo, não sendo evidenciada dilatação do sistema coletor à montante.
+    replace: Pequena calcificação junto ao ureter distal esquerdo, podendo corresponder a flebólito ou cálculo, não sendo evidenciada dilatação do sistema coletor a montante.
     word: true
 
   - trigger: "tchematsub2"
@@ -1748,7 +1748,7 @@ matches:
 
   - trigger: "tcespessur"
     label: "Espessamento parietal ureteral indeterminado"
-    replace: Espessamento parietal segmentar do terço proximal do ureter direito, associado a densificação dos planos adiposos periureterais e pequena dilatação do sistema coletor à montante. O conjunto de achados é indeterminado, podendo-se admitir inicialmente as possibilidades de passagem recente de cálculo, processo inflamatório/infeccioso ou, mais remotamente, neoplásico.
+    replace: Espessamento parietal segmentar do terço proximal do ureter direito, associado a densificação dos planos adiposos periureterais e pequena dilatação do sistema coletor a montante. O conjunto de achados é indeterminado, podendo-se admitir inicialmente as possibilidades de passagem recente de cálculo, processo inflamatório/infeccioso ou, mais remotamente, neoplásico.
     word: true
 
   - trigger: "tccalcnob2"
@@ -1774,7 +1774,7 @@ matches:
       Cinco cálculos ureterais à direita, sendo:
       - três justapostos, medindo _ cm (com densidade de _ UH), _ cm (com densidade de _ UH) e _ cm (com densidade de _ UH), distando _ cm da junção ureterovesical;
       - dois justapostos, medindo _ cm (com densidade de _ UH) e _ cm (com densidade de _ UH), distando _ cm da junção ureterovesical.
-      Associam-se moderada dilatação do sistema coletor à montante e densificação do tecido adiposo periureteral e perirrenal ipsilaterais. Achados que podem estar associados a uropatia obstrutiva, não se podendo descartar a possibilidade de processo inflamatório/infeccioso sobreposto. Correlacionar com dados clínicos e laboratoriais.
+      Associam-se moderada dilatação do sistema coletor a montante e densificação do tecido adiposo periureteral e perirrenal ipsilaterais. Achados que podem estar associados a uropatia obstrutiva, não se podendo descartar a possibilidade de processo inflamatório/infeccioso sobreposto. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tccalcur4"
@@ -1784,7 +1784,7 @@ matches:
 
   - trigger: "tccalcur5"
     label: "Cálculos ureterais justapostos obstrutivos com exclusão funcional"
-    replace: Cálculos obstrutivos justapostos no ureter distal direito, distando _ cm da junção ureterovesical, o maior medindo _ cm, com densidade de _ UH, promovendo acentuada dilatação do sistema coletor à montante. Associam-se hipocontrastação do parênquima renal e ausência de excreção após a administração do meio de contraste endovenoso, bem como realce urotelial. Notam-se ainda densificação do tecido adiposo e lâminas líquidas periureterais e perirrenais ipsilaterais, bem como aumento do número e das dimensões de linfonodos retroperitoneais, o maior localizado na cadeia retrocaval, medindo _ cm no seu menor eixo. Os achados podem estar associados a uropatia obstrutiva, não se podendo descartar a possibilidade de processo inflamatório/infeccioso sobreposto. Correlacionar com dados clínicos e laboratoriais.
+    replace: Cálculos obstrutivos justapostos no ureter distal direito, distando _ cm da junção ureterovesical, o maior medindo _ cm, com densidade de _ UH, promovendo acentuada dilatação do sistema coletor a montante. Associam-se hipocontrastação do parênquima renal e ausência de excreção após a administração do meio de contraste endovenoso, bem como realce urotelial. Notam-se ainda densificação do tecido adiposo e lâminas líquidas periureterais e perirrenais ipsilaterais, bem como aumento do número e das dimensões de linfonodos retroperitoneais, o maior localizado na cadeia retrocaval, medindo _ cm no seu menor eixo. Os achados podem estar associados a uropatia obstrutiva, não se podendo descartar a possibilidade de processo inflamatório/infeccioso sobreposto. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tccalcjuv2"
@@ -1799,17 +1799,17 @@ matches:
 
   - trigger: "tccalcjuv3"
     label: "Cálculo obstrutivo na junção ureterovesical direita"
-    replace: Cálculo obstrutivo na junção ureterovesical direita, medindo _ cm, com densidade de _ UH, promovendo leve dilatação do sistema coletor à montante, bem como densificação do tecido adiposo periureteral e perirrenal ipsilaterais. Os achados podem estar associados a uropatia obstrutiva, não se podendo descartar a possibilidade de processo inflamatório/infeccioso sobreposto.
+    replace: Cálculo obstrutivo na junção ureterovesical direita, medindo _ cm, com densidade de _ UH, promovendo leve dilatação do sistema coletor a montante, bem como densificação do tecido adiposo periureteral e perirrenal ipsilaterais. Os achados podem estar associados a uropatia obstrutiva, não se podendo descartar a possibilidade de processo inflamatório/infeccioso sobreposto.
     word: true
 
   - trigger: "tccalcur7"
     label: "Cálculo obstrutivo no terço médio do ureter esquerdo"
-    replace: Cálculo renal obstrutivo no terço médio do ureter esquerdo, distando _ cm da junção ureteropiélica, medindo _ cm, com densidade de _ UH, promovendo mínima dilatação do sistema coletor à montante.
+    replace: Cálculo obstrutivo no terço médio do ureter esquerdo, distando _ cm da junção ureteropiélica, medindo _ cm, com densidade de _ UH, promovendo mínima dilatação do sistema coletor a montante.
     word: true
 
   - trigger: "tccalcur8"
     label: "Cálculo obstrutivo no terço proximal do ureter direito"
-    replace: Cálculo obstrutivo no terço proximal do ureter direito, medindo _ cm, com densidade de _ UH, distando _ cm da junção ureteropiélica, promovendo moderada dilatação do sistema coletor à montante. Associam-se lâminas líquidas e densificação do tecido adiposo periureteral e perirrenal ipsilaterais. Os achados podem estar associados a uropatia obstrutiva, não se podendo descartar a possibilidade de processo inflamatório/infeccioso sobreposto.
+    replace: Cálculo obstrutivo no terço proximal do ureter direito, medindo _ cm, com densidade de _ UH, distando _ cm da junção ureteropiélica, promovendo moderada dilatação do sistema coletor a montante. Associam-se lâminas líquidas e densificação do tecido adiposo periureteral e perirrenal ipsilaterais. Os achados podem estar associados a uropatia obstrutiva, não se podendo descartar a possibilidade de processo inflamatório/infeccioso sobreposto.
     word: true
 
   - trigger: "tccalcur9"
@@ -1824,7 +1824,7 @@ matches:
 
   - trigger: "tcuropobs2"
     label: "Uropatia obstrutiva complicada com abscesso renal"
-    replace: Cálculo obstrutivo no ureter direito, distando _ cm da junção ureterovesical, medindo _ cm, com densidade de _ UH, promovendo moderada dilatação do sistema coletor. Associam-se lâminas líquidas e densificação do tecido adiposo periureteral e perirrenal ipsilaterais, bem como aumento das dimensões do rim direito, apresentando áreas corticais focais de hipocontrastação (nefrograma estriado), notadamente nos terços médio e inferior, onde se observam imagens hipodensas de permeio (coleções), por vezes confluentes, a maior medindo cerca de _ cm (volume de _ ml). O conjunto de achados é sugestivo de uropatia obstrutiva complicada com processo infeccioso e abscesso.
+    replace: Cálculo obstrutivo no ureter direito, distando _ cm da junção ureterovesical, medindo _ cm, com densidade de _ UH, promovendo moderada dilatação do sistema coletor. Associam-se lâminas líquidas e densificação do tecido adiposo periureteral e perirrenal ipsilaterais, bem como aumento das dimensões do rim direito, apresentando áreas corticais focais de hipocontrastação (nefrograma estriado), notadamente nos terços médio e inferior, onde se observam imagens hipodensas de permeio (coleções), por vezes confluentes, a maior medindo cerca de _ cm (volume de _ cm³). O conjunto de achados é sugestivo de uropatia obstrutiva complicada com processo infeccioso e abscesso.
     word: true
 
   - trigger: "tcpieloenf2"
@@ -1839,7 +1839,7 @@ matches:
 
   - trigger: "tcpieloenf4"
     label: "Cálculo ureteral distal com focos gasosos calicinais"
-    replace: Cálculo obstrutivo no ureter distal à direita, medindo _ cm, com densidade de _ UH, distando _ cm da junção ureterovesical, promovendo leve dilatação do sistema coletor à montante. Associa-se aumento das dimensões do rim direito, focos gasosos nos cálices renais, densificação dos planos adiposos adjacentes ao ureter e ao rim ipsilaterais, bem como aumento do número de linfonodos regionais, destacando-se linfonodomegalia na cadeia retrocaval (_ cm no menor eixo axial).
+    replace: Cálculo obstrutivo no ureter distal à direita, medindo _ cm, com densidade de _ UH, distando _ cm da junção ureterovesical, promovendo leve dilatação do sistema coletor a montante. Associa-se aumento das dimensões do rim direito, focos gasosos nos cálices renais, densificação dos planos adiposos adjacentes ao ureter e ao rim ipsilaterais, bem como aumento do número de linfonodos regionais, destacando-se linfonodomegalia na cadeia retrocaval (_ cm no menor eixo axial).
     word: true
 
   - trigger: "tcpieloenf4c"
@@ -1894,7 +1894,7 @@ matches:
 
   - trigger: "tcpieloxg1"
     label: "Pielonefrite xantogranulomatosa com abscesso perirrenal"
-    replace: Rim direito tópico, com perda da morfologia habitual, afilamento do parênquima e dimensões aumentadas (_ cm), à custa de diversas coleções hipodensas e de formato arredondado distendendo os cálices, com grande cálculo coraliforme em sua pelve, o qual mediu _ cm, com densidade de _ UH, distando _ cm da pele da parede lateral do abdome. Há hipocontrastação difusa do parênquima renal direito, bem como hiperrealce e espessamento do ureter ipsilateral. Associa-se coleção junto ao polo inferior deste rim, medindo _ cm, com volume de _ cm³, sugerindo abscesso perirrenal. Notam-se ainda lâminas líquidas, densificação do tecido adiposo perirrenal, adjacente ao abscesso e periureteral, bem como aumento do número e das dimensões de linfonodos regionais, medindo até _ cm.
+    replace: Rim direito tópico, com perda da morfologia habitual, afilamento do parênquima e dimensões aumentadas (_ cm), à custa de diversas coleções hipodensas e de formato arredondado distendendo os cálices, com grande cálculo coraliforme em sua pelve, o qual mediu _ cm, com densidade de _ UH, distando _ cm da pele da parede lateral do abdome. Há hipocontrastação difusa do parênquima renal direito, bem como hiper-realce e espessamento do ureter ipsilateral. Associa-se coleção junto ao polo inferior deste rim, medindo _ cm, com volume de _ cm³, sugerindo abscesso perirrenal. Notam-se ainda lâminas líquidas, densificação do tecido adiposo perirrenal, adjacente ao abscesso e periureteral, bem como aumento do número e das dimensões de linfonodos regionais, medindo até _ cm.
     word: true
 
   - trigger: "tcpieloxg1c"
@@ -1934,7 +1934,7 @@ matches:
 
   - trigger: "tcrimsequel2"
     label: "Rim sequelar com retrações corticais"
-    replace: Rim esquerdo tópico, de dimensões reduzidas, contornos lobulados e afilamento cortical, além de áreas de retração corticais (sequelares). Tais achados são compatíveis com certo grau de nefropatia parenquimatosa crônica.
+    replace: Rim esquerdo tópico, de dimensões reduzidas, contornos lobulados e afilamento cortical, além de áreas de retração cortical (sequelares). Tais achados são compatíveis com certo grau de nefropatia parenquimatosa crônica.
     word: true
 
   - trigger: "tcurotel5"
@@ -1944,7 +1944,7 @@ matches:
 
   - trigger: "tcurotel6"
     label: "Tumor urotelial da pelve renal com extensão ureteral"
-    replace: Massa localizada na pelve renal esquerda (terço médio/inferior), hipodensa, apresentando realce heterogêneo após a administração do meio de contraste, medindo cerca de _ cm, com extensão para o ureter proximal ipsilateral e determinando caliectasias à montante. Associam-se densificação dos tecidos adiposos perirrenais e periureterais ipsilaterais, bem como aumento do número e das dimensões linfonodais nas cadeias para-aórtica e retrocrurais, por vezes com centro necrótico e formando conglomerados (medindo até _ cm no menor eixo). O conjunto de achados sugere carcinoma urotelial pieloureteral à esquerda.
+    replace: Massa localizada na pelve renal esquerda (terço médio/inferior), hipodensa, apresentando realce heterogêneo após a administração do meio de contraste, medindo cerca de _ cm, com extensão para o ureter proximal ipsilateral e determinando caliectasias a montante. Associam-se densificação dos tecidos adiposos perirrenais e periureterais ipsilaterais, bem como aumento do número e das dimensões linfonodais nas cadeias para-aórtica e retrocrural, por vezes com centro necrótico e formando conglomerados (medindo até _ cm no menor eixo). O conjunto de achados sugere carcinoma urotelial pieloureteral à esquerda.
     word: true
 
   - trigger: "tcneorim6"
@@ -1983,7 +1983,7 @@ matches:
 
   - trigger: "tcbxrecid"
     label: "Remanescente ou recidiva tumoral vesical"
-    replace: Área de espessamento de sua parede anterior, medindo cerca de _ cm, com realce pelo meio de contraste endovenoso, podendo corresponder a recidiva ou remanescente tumoral.
+    replace: Área de espessamento da parede vesical anterior, medindo cerca de _ cm, com realce pelo meio de contraste endovenoso, podendo corresponder a recidiva ou remanescente tumoral.
     word: true
 
   - trigger: "tcbxpolip"
@@ -1993,7 +1993,7 @@ matches:
 
   - trigger: "tcbxenfis"
     label: "Cistite enfisematosa com rotura vesical"
-    replace: Bexiga com moderada repleção, perda de sua morfologia habitual e paredes difusa e acentuadamente espessadas, associadas a hiperrealce mucoso, pequena quantidade de líquido livre na pelve, densificação dos planos gordurosos perivesicais e focos gasosos murais e transmurais, com área de descontinuidade parietal lateral direita, determinando pneumoperitônio e pequeno extravasamento do meio de contraste, caracterizando perfuração. Balonete de sonda insuflado no interior.
+    replace: Bexiga com moderada repleção, perda de sua morfologia habitual e paredes difusa e acentuadamente espessadas, associadas a hiper-realce mucoso, pequena quantidade de líquido livre na pelve, densificação dos planos gordurosos perivesicais e focos gasosos murais e transmurais, com área de descontinuidade parietal lateral direita, determinando pneumoperitônio e pequeno extravasamento do meio de contraste, caracterizando perfuração. Balonete de sonda insuflado no interior.
     word: true
 
   - trigger: "tcbxenfisc"
@@ -2023,7 +2023,7 @@ matches:
 
   - trigger: "tcbxureobs"
     label: "Obstrução distal do ureter do polo superior com realce urotelial"
-    replace: Moderada dilatação do sistema coletor do polo renal superior esquerdo, com afilamento abrupto na porção distal (cerca de _ cm da junção ureterovesical), onde se observa intenso realce urotelial, sem a caracterização de nódulos bem definidos. Associam-se realce urotelial, leve heterogeneidade da contrastação do rim esquerdo e aumento do número de linfonodos regionais e retroperitoneais. O conjunto de achados pode corresponder a processo inflamatório/infeccioso com componente obstrutivo associado, de etiologia a esclarecer. Sugere-se prosseguir investigação.
+    replace: Moderada dilatação do sistema coletor do polo renal superior esquerdo, com afilamento abrupto na porção distal (cerca de _ cm da junção ureterovesical), onde se observa intenso realce urotelial, sem a caracterização de nódulos bem definidos. Associam-se leve heterogeneidade da contrastação do rim esquerdo e aumento do número de linfonodos regionais e retroperitoneais. O conjunto de achados pode corresponder a processo inflamatório/infeccioso com componente obstrutivo associado, de etiologia a esclarecer. Sugere-se prosseguir investigação.
     word: true
 
   - trigger: "tcbxbricker"
@@ -2048,7 +2048,7 @@ matches:
 
   - trigger: "tcbxcaurot2"
     label: "Carcinoma urotelial vesical com extensão ao ureter distal"
-    replace: Lesão expansiva, hipodensa, apresentando realce heterogêneo pelo meio de contraste endovenoso, localizada na parede posterolateral direita da bexiga, sem nítidos planos de clivagem com a próstata e a vesícula seminal direita, medindo _ cm (LL x AP x CC) e com extensão para o ureter distal direito, até a altura do seu cruzamento com os vasos ilíacos, promovendo acentuada dilatação do sistema coletor à montante e retardo da excreção do meio de contraste, bem como afilamento do parênquima renal ipsilateral. Associa-se aumento do número de linfonodos na cadeia ilíaca interna direita, medindo até _ cm. A possibilidade de neoplasia primária urotelial pode ser considerada dentre os diagnósticos diferenciais.
+    replace: Lesão expansiva, hipodensa, apresentando realce heterogêneo pelo meio de contraste endovenoso, localizada na parede posterolateral direita da bexiga, sem nítidos planos de clivagem com a próstata e a vesícula seminal direita, medindo _ cm (LL x AP x CC) e com extensão para o ureter distal direito, até a altura do seu cruzamento com os vasos ilíacos, promovendo acentuada dilatação do sistema coletor a montante e retardo da excreção do meio de contraste, bem como afilamento do parênquima renal ipsilateral. Associa-se aumento do número de linfonodos na cadeia ilíaca interna direita, medindo até _ cm. A possibilidade de neoplasia primária urotelial pode ser considerada dentre os diagnósticos diferenciais.
     word: true
 
   # ==========================================================================
@@ -2081,13 +2081,13 @@ matches:
     word: true
 
   - trigger: "tcaplimite"
-    label: "Apêndice cecal no limite superior da normalidade com hiperrealce"
-    replace: Apêndice cecal caracterizado na fossa ilíaca direita, mediocecal, com calibre no limite superior da normalidade, medindo _ cm e apresentando hiperrealce parietal. Associa-se leve densificação do tecido adiposo adjacente, pequena quantidade de líquido livre na pelve e espessamento da fáscia pararrenal posterior.
+    label: "Apêndice cecal no limite superior da normalidade com hiper-realce"
+    replace: Apêndice cecal caracterizado na fossa ilíaca direita, mediocecal, com calibre no limite superior da normalidade, medindo _ cm e apresentando hiper-realce parietal. Associa-se leve densificação do tecido adiposo adjacente, pequena quantidade de líquido livre na pelve e espessamento da fáscia pararrenal posterior.
     word: true
 
   - trigger: "tcapendic1"
-    label: "Apendicite incipiente com hiperrealce parietal"
-    replace: Apêndice cecal visualizado na fossa ilíaca direita, apresentando aumento do calibre (_ cm), espessamento e hiperrealce parietal. Esses achados podem estar associados a processo inflamatório/infeccioso incipiente do apêndice cecal, caso exista correlação clínica/laboratorial.
+    label: "Apendicite incipiente com hiper-realce parietal"
+    replace: Apêndice cecal visualizado na fossa ilíaca direita, apresentando aumento do calibre (_ cm), espessamento e hiper-realce parietal. Esses achados podem estar associados a processo inflamatório/infeccioso incipiente do apêndice cecal, caso exista correlação clínica/laboratorial.
     word: true
 
   - trigger: "tcapendic2"
@@ -2112,7 +2112,7 @@ matches:
 
   - trigger: "tcapposap"
     label: "Status pós-apendicectomia"
-    replace: Status pós apendicectomia.
+    replace: Status pós-apendicectomia.
     word: true
 
   - trigger: "tcapcoto1"
@@ -2122,7 +2122,7 @@ matches:
 
   - trigger: "tcapmuco2"
     label: "Apendicite aguda com provável mucocele associada"
-    replace: Apêndice cecal na fossa ilíaca direita, de dimensões aumentadas (_ cm de diâmetro), com espessamento e hiperrealce parietal, com densificação do tecido adiposo e lâminas líquidas adjacentes, bem como aumento do número de linfonodos regionais. Associam-se ainda material hipoatenuante, focos gasosos e calcificações em seu interior. O conjunto de achados é sugestivo de apendicite aguda com provável mucocele associada.
+    replace: Apêndice cecal na fossa ilíaca direita, de dimensões aumentadas (_ cm de diâmetro), com espessamento e hiper-realce parietal, com densificação do tecido adiposo e lâminas líquidas adjacentes, bem como aumento do número de linfonodos regionais. Associam-se ainda material hipoatenuante, focos gasosos e calcificações em seu interior. O conjunto de achados é sugestivo de apendicite aguda com provável mucocele associada.
     word: true
 
   - trigger: "tcapmuco3"
@@ -2157,7 +2157,7 @@ matches:
 
   - trigger: "tcapcompl2"
     label: "Apendicite complicada com coleção na fossa ilíaca direita"
-    replace: Apêndice cecal localizado na fossa ilíaca direita, apresentando paredes espessadas, aumento do seu calibre (medindo até _ cm de diâmetro) e apendicolito em seu interior, destacando-se aparente descontinuidade parietal do seu terço médio. Associam-se aumento do número de linfonodos regionais, densificação do tecido adiposo adjacente e lâminas líquidas coletadas na fossa ilíaca direita, com focos gasosos, medindo cerca de _ cm, com volume de _ ml. O conjunto de achados é compatível com apendicite aguda. Correlacionar com dados clínicos e laboratoriais.
+    replace: Apêndice cecal localizado na fossa ilíaca direita, apresentando paredes espessadas, aumento do seu calibre (medindo até _ cm de diâmetro) e apendicolito em seu interior, destacando-se aparente descontinuidade parietal do seu terço médio. Associam-se aumento do número de linfonodos regionais, densificação do tecido adiposo adjacente e lâminas líquidas coletadas na fossa ilíaca direita, com focos gasosos, medindo cerca de _ cm, com volume de _ cm³. O conjunto de achados é compatível com apendicite aguda. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tcapcompl3"
@@ -2172,7 +2172,7 @@ matches:
 
   - trigger: "tcapperf3"
     label: "Apendicite perfurada com coleção inflamatória"
-    replace: Apêndice cecal espessado (_ cm), com hiperrealce mucoso e descontinuidade parietal na sua ponta, associado a coleção com nível hidroaéreo e gás no peritônio, além de densificação dos planos gordurosos adjacentes e linfonodos proeminentes. O conjunto de achados, em correlação com dados clínicos e laboratoriais, sugere processo inflamatório/infeccioso agudo do apêndice cecal, complicado com perfuração e coleção inflamatória.
+    replace: Apêndice cecal espessado (_ cm), com hiper-realce mucoso e descontinuidade parietal na sua ponta, associado a coleção com nível hidroaéreo e gás no peritônio, além de densificação dos planos gordurosos adjacentes e linfonodos proeminentes. O conjunto de achados, em correlação com dados clínicos e laboratoriais, sugere processo inflamatório/infeccioso agudo do apêndice cecal, complicado com perfuração e coleção inflamatória.
     word: true
 
   - trigger: "tcapperf4"
@@ -2211,7 +2211,7 @@ matches:
 
   - trigger: "tctromams1"
     label: "Trombo na origem da artéria mesentérica superior"
-    replace: Imagem que sugere representar trombo na origem da artéria mesentérica superior, com extensão aproximada de _ cm e insinuando-se na luz da aorta.
+    replace: Imagem sugestiva de trombo na origem da artéria mesentérica superior, com extensão aproximada de _ cm e insinuando-se na luz da aorta.
     word: true
 
   - trigger: "tctvporta1"
@@ -2226,17 +2226,17 @@ matches:
 
   - trigger: "tcinfvisc1"
     label: "Áreas de isquemia renais e esplênica cuneiformes"
-    replace: Lesões hipovasculares, de aspecto cuneiforme, localizadas no parênquima renal bilateralmente e esplênico, sugerindo representar áreas de isquemia.
+    replace: Lesões hipovasculares, de aspecto cuneiforme, localizadas no parênquima renal bilateralmente e esplênico, sugerindo áreas de isquemia.
     word: true
 
   - trigger: "tcendleak1"
     label: "Aneurisma aórtico com endoprótese fenestrada e endoleak I/II"
-    replace: Saco aneurismático fusiforme da aorta abdominal, apresentando endoprótese metálica fenestrada ramificada para as artérias viscerais (renais e mesentérica), com extremidade proximal infradiafragmática/supra-renal, estendendo-se até a bifurcação da aorta em artérias ilíacas comuns. Tal saco aneurismático apresenta calibre máximo transverso de até _ cm, com extensão craniocaudal de cerca de _ cm. Destaca-se extravasamento de contraste no segmento proximal do enxerto, na altura dos ramos viscerais, junto aos mesmos e também junto à aorta (endoleak tipo I/II).
+    replace: Saco aneurismático fusiforme da aorta abdominal, apresentando endoprótese metálica fenestrada ramificada para as artérias viscerais (renais e mesentérica), com extremidade proximal infradiafragmática/suprarrenal, estendendo-se até a bifurcação da aorta em artérias ilíacas comuns. Tal saco aneurismático apresenta calibre máximo transverso de até _ cm, com extensão craniocaudal de cerca de _ cm. Destaca-se extravasamento de contraste no segmento proximal do enxerto, na altura dos ramos viscerais, junto aos mesmos e também junto à aorta (endoleak tipo I/II).
     word: true
 
   - trigger: "tcendleak2"
     label: "Aneurisma de ilíaca interna com falha mecânica da endoprótese (endoleak III)"
-    replace: Nota-se ainda outro saco aneurismático fusiforme na artéria ilíaca interna esquerda, com endoprótese metálica fenestrada apresentando falha mecânica (dilatação e perda da configuração habitual — endoleak tipo III), trombosada e com enchimento distal pelo meio de contraste, com contrastação da artéria glútea superior. Associam-se densificação dos planos adiposos perivasculares circunjacentes, com lâminas líquidas de permeio. Tal lesão determina compressão extrínseca sobre a bexiga e o ureter ipsilateral (no cruzamento do mesmo com os vasos ilíacos), com consequente hidroureteronefrose à montante. Destaca-se hipocontrastação do rim esquerdo em comparação ao contralateral.
+    replace: Nota-se ainda outro saco aneurismático fusiforme na artéria ilíaca interna esquerda, com endoprótese metálica fenestrada apresentando falha mecânica (dilatação e perda da configuração habitual — endoleak tipo III), trombosada e com enchimento distal pelo meio de contraste, com contrastação da artéria glútea superior. Associam-se densificação dos planos adiposos perivasculares circunjacentes, com lâminas líquidas de permeio. Tal lesão determina compressão extrínseca sobre a bexiga e o ureter ipsilateral (no cruzamento do mesmo com os vasos ilíacos), com consequente hidroureteronefrose a montante. Destaca-se hipocontrastação do rim esquerdo em comparação ao contralateral.
     word: true
 
   - trigger: "tcaaainst1"
@@ -2256,7 +2256,7 @@ matches:
 
   - trigger: "tctromams2"
     label: "Trombo ateromatoso da artéria mesentérica superior"
-    replace: Artéria mesentérica com calibre aumentado, apresentando trombo ateromatoso não calcificado no seu segmento proximal/médio, determinando redução luminal em cerca de _%. Destaca-se ainda tênue densificação dos planos adiposos circunjacentes no segmento médio-distal e de ramos esplâncnicos, aumento do número de linfonodos mesentéricos e ingurgitamento dos vasos retos de alças jejunais, inferindo processo inflamatório.
+    replace: Artéria mesentérica superior com calibre aumentado, apresentando trombo ateromatoso não calcificado no seu segmento proximal/médio, determinando redução luminal em cerca de _%. Destaca-se ainda tênue densificação dos planos adiposos circunjacentes no segmento médio-distal e de ramos esplâncnicos, aumento do número de linfonodos mesentéricos e ingurgitamento dos vasos retos de alças jejunais, inferindo processo inflamatório.
     word: true
 
   - trigger: "tcaaaroto1"
@@ -2340,12 +2340,12 @@ matches:
 
   - trigger: "tcaisqui2"
     label: "Degeneração aneurismática da artéria isquiática"
-    replace: Degeneração aneurismática (de possível natureza traumática crônica), parcialmente trombosada, da artéria isquiática direita, originando-se cerca de _ cm abaixo da artéria ilíaca interna, com extensão de _ cm e diâmetro axial máximo de _ cm. A degeneração aneurismática apresenta contornos lobulados e irregulares. Nota-se ainda ausência de opacificação do sistema arterial à jusante do aneurisma, nas fases disponíveis.
+    replace: Degeneração aneurismática (de possível natureza traumática crônica), parcialmente trombosada, da artéria isquiática direita, originando-se cerca de _ cm abaixo da artéria ilíaca interna, com extensão de _ cm e diâmetro axial máximo de _ cm. A degeneração aneurismática apresenta contornos lobulados e irregulares. Nota-se ainda ausência de opacificação do sistema arterial a jusante do aneurisma, nas fases disponíveis.
     word: true
 
   - trigger: "tcanilic2"
     label: "Aneurisma de ilíaca comum com rotura iminente e hidronefrose"
-    replace: Aneurisma fusiforme parcialmente trombosado da artéria ilíaca comum direita, desde sua origem até a bifurcação para as ilíacas externa e interna, com maior calibre medindo _ cm e extensão craniocaudal de _ cm, apresentando leve densificação do tecido adiposo adjacente, podendo corresponder a sinal de rotura iminente. O aneurisma promove compressão extrínseca do ureter direito, com leve hidronefrose à montante.
+    replace: Aneurisma fusiforme parcialmente trombosado da artéria ilíaca comum direita, desde sua origem até a bifurcação para as ilíacas externa e interna, com maior calibre medindo _ cm e extensão craniocaudal de _ cm, apresentando leve densificação do tecido adiposo adjacente, podendo corresponder a sinal de rotura iminente. O aneurisma promove compressão extrínseca do ureter direito, com leve hidronefrose a montante.
     word: true
 
   - trigger: "tcvcifil1"
@@ -2435,7 +2435,7 @@ matches:
 
   - trigger: "tcendleak3"
     label: "Endoprótese aórtica fenestrada sem endoleak"
-    replace: Endoprótese metálica fenestrada ramificada, com extremidade proximal sob a mesentérica superior/supra-renal, estendendo-se até as artérias ilíacas comuns e suas respectivas bifurcações. Nota-se saco aneurismático fusiforme da aorta abdominal com origem infrarrenal, calibre máximo transverso de até _ cm e extensão craniocaudal de cerca de _ cm. Não se observa extravasamento do meio de contraste endovenoso no presente estudo.
+    replace: Endoprótese metálica fenestrada ramificada, com extremidade proximal sob a mesentérica superior/suprarrenal, estendendo-se até as artérias ilíacas comuns e suas respectivas bifurcações. Nota-se saco aneurismático fusiforme da aorta abdominal com origem infrarrenal, calibre máximo transverso de até _ cm e extensão craniocaudal de cerca de _ cm. Não se observa extravasamento do meio de contraste endovenoso no presente estudo.
     word: true
 
   - trigger: "tcvcifil2"
@@ -2485,12 +2485,12 @@ matches:
 
   - trigger: "tcanams"
     label: "Aneurisma da artéria mesentérica superior"
-    replace: Aneurisma do segmento proximal da artéria mesentérica superior, distando _ cm de sua emergência e com calibre máximo de _ cm, parcialmente trombosado, determinando redução luminal maior que 50%, porém com contrastação preservada nos ramos esplâncnicos à jusante.
+    replace: Aneurisma do segmento proximal da artéria mesentérica superior, distando _ cm de sua emergência e com calibre máximo de _ cm, parcialmente trombosado, determinando redução luminal maior que 50%, porém com contrastação preservada nos ramos esplâncnicos a jusante.
     word: true
 
   - trigger: "tcligarq"
     label: "Síndrome do ligamento arqueado mediano"
-    replace: Verticalização da crura diafragmática e espessamento do ligamento arqueado mediano, determinando impressão/compressão da emergência do tronco celíaco, com ectasia à jusante, achados que sugerem síndrome vascular compressiva (ligamento arqueado).
+    replace: Verticalização da crura diafragmática e espessamento do ligamento arqueado mediano, determinando impressão/compressão da emergência do tronco celíaco, com ectasia a jusante, achados que sugerem síndrome vascular compressiva (ligamento arqueado).
     word: true
 
   - trigger: "tcaaatromb4"
@@ -2556,7 +2556,7 @@ matches:
 
   - trigger: "tccaendom"
     label: "Adenocarcinoma endometrioide com invasão vaginal e do canal anal"
-    replace: Sinais de espessamento parietal do canal anal e da vagina, com obliteração de planos gordurosos adjacentes e realce pelo meio de contraste endovenoso. Observa-se aumento do número de linfonodos inguinofemorais, ilíacos externos e periaorticocavais. Paciente já submetida a biópsia com diagnóstico de adenocarcinoma endometrioide de endométrio. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
+    replace: Sinais de espessamento parietal do canal anal e da vagina, com obliteração de planos gordurosos adjacentes e realce pelo meio de contraste endovenoso. Observa-se aumento do número de linfonodos inguinofemorais, ilíacos externos e periaortocavais. Paciente já submetida a biópsia com diagnóstico de adenocarcinoma endometrioide de endométrio. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos.
     word: true
 
   - trigger: "tcdiuect"
@@ -2720,7 +2720,7 @@ matches:
 
   - trigger: "tcneosig1"
     label: "Abdome agudo suboclusivo por provável neoplasia de sigmoide"
-    replace: Espessamento parietal circunferencial e irregular da porção superior do cólon sigmoide, com extensão aproximada de _ cm, determinando distensão de alças intestinais à montante. Destaca-se obliteração dos planos adiposos adjacentes, sem nítidos planos de clivagem com a bexiga, bem como aumento do número de linfonodos regionais e retroperitoneais. Os achados sugerem abdome agudo suboclusivo por provável origem tumoral.
+    replace: Espessamento parietal circunferencial e irregular da porção superior do cólon sigmoide, com extensão aproximada de _ cm, determinando distensão de alças intestinais a montante. Destaca-se obliteração dos planos adiposos adjacentes, sem nítidos planos de clivagem com a bexiga, bem como aumento do número de linfonodos regionais e retroperitoneais. Os achados sugerem abdome agudo suboclusivo de provável origem tumoral.
     word: true
 
   - trigger: "tcobstr1"
@@ -2740,7 +2740,7 @@ matches:
 
   - trigger: "tcdiastret"
     label: "Diástase dos retos abdominais com obstrução por bridas"
-    replace: Persiste diástase dos músculos retoabdominais em até _ cm, com insinuação de alças intestinais e conteúdo adiposo intra-abdominal, notando-se na região herniada acentuada dilatação hidroaérea de alças intestinais e da câmara gástrica, com aparente redução abrupta de calibre em topografia jejunoileal no mesogástrio/hipogástrio, associada a leve densificação do tecido adiposo adjacente, achados sugestivos de abdome agudo obstrutivo por bridas/aderências.
+    replace: Persiste diástase dos músculos retos abdominais em até _ cm, com insinuação de alças intestinais e conteúdo adiposo intra-abdominal, notando-se na região herniada acentuada dilatação hidroaérea de alças intestinais e da câmara gástrica, com aparente redução abrupta de calibre em topografia jejunoileal no mesogástrio/hipogástrio, associada a leve densificação do tecido adiposo adjacente, achados sugestivos de abdome agudo obstrutivo por bridas/aderências.
     word: true
 
   - trigger: "tclinf"
@@ -2765,7 +2765,7 @@ matches:
 
   - trigger: "tcileobil1"
     label: "Cálculo impactado no íleo distal com obstrução"
-    replace: Imagem ovalada, parcialmente calcificada, medindo cerca de _ cm, localizada no íleo distal, sugerindo representar cálculo. Associa-se distensão hidroaérea de alças intestinais à montante.
+    replace: Imagem ovalada, parcialmente calcificada, medindo cerca de _ cm, localizada no íleo distal, sugerindo cálculo. Associa-se distensão hidroaérea de alças intestinais a montante.
     word: true
 
   - trigger: "tcingmes"
@@ -2790,12 +2790,12 @@ matches:
 
   - trigger: "tccrohn2"
     label: "Doença inflamatória intestinal com padrão Crohn"
-    replace: Hiperrealce de alças colônicas, notadamente no reto, cólon sigmoide e descendente, bem como no íleo terminal e na válvula ileocecal. Nota-se área focal de espessamento circunferencial parietal do cólon descendente, determinando estreitamento luminal, sem caracterizar suboclusões. Associam-se ingurgitamento da arcada vascular da vasa recta, densificação da gordura mesentérica e aumento do número de linfonodos regionais. O conjunto de achados tomográficos sugere doença inflamatória intestinal com padrão Crohn. Sugere-se prosseguimento diagnóstico com estudo de RM da pelve, para melhor avaliação de eventuais doenças orificiais.
+    replace: Hiper-realce de alças colônicas, notadamente no reto, cólon sigmoide e descendente, bem como no íleo terminal e na válvula ileocecal. Nota-se área focal de espessamento circunferencial parietal do cólon descendente, determinando estreitamento luminal, sem caracterizar suboclusões. Associam-se ingurgitamento da arcada vascular da vasa recta, densificação da gordura mesentérica e aumento do número de linfonodos regionais. O conjunto de achados tomográficos sugere doença inflamatória intestinal com padrão Crohn. Sugere-se prosseguimento diagnóstico com estudo de RM da pelve, para melhor avaliação de eventuais doenças orificiais.
     word: true
 
   - trigger: "tctransit1"
     label: "Reconstrução do trânsito intestinal com fechamento de ileostomia"
-    replace: Status pós reconstrução do trânsito intestinal, com fechamento da ileostomia.
+    replace: Status pós-reconstrução do trânsito intestinal, com fechamento da ileostomia.
     word: true
 
   - trigger: "tcfistul1"
@@ -2815,7 +2815,7 @@ matches:
 
   - trigger: "tcmegac1"
     label: "Colite pseudomembranosa com megacólon tóxico"
-    replace: Espessamento parietal circunferencial do reto e dos segmentos cólicos sigmoide, descendente e transverso, com hiperrealce mucoso, pequena quantidade de líquido livre na cavidade e ingurgitamento da vasa recta. Associa-se distensão com perda das haustrações do transverso. Os achados descritos sugerem padrão de colite inflamatória/infecciosa (pseudomembranosa) complicada com megacólon tóxico. Não há sinais de hipoperfusão dos segmentos acometidos, porém com todo o leito arterial ateromatoso. Correlacionar com dados clínicos e laboratoriais.
+    replace: Espessamento parietal circunferencial do reto e dos segmentos cólicos sigmoide, descendente e transverso, com hiper-realce mucoso, pequena quantidade de líquido livre na cavidade e ingurgitamento da vasa recta. Associa-se distensão com perda das haustrações do transverso. Os achados descritos sugerem padrão de colite inflamatória/infecciosa (pseudomembranosa) complicada com megacólon tóxico. Não há sinais de hipoperfusão dos segmentos acometidos, porém com todo o leito arterial ateromatoso. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tccolit1"
@@ -2845,12 +2845,12 @@ matches:
 
   - trigger: "tcherning4"
     label: "Abdome agudo obstrutivo por hérnia inguinal"
-    replace: Hérnia inguinal à direita, com protrusão de alça intestinal ileal, pequena quantidade de líquido no interior do saco herniário e densificação dos planos adiposos adjacentes, determinando distensão de segmentos de alças intestinais delgadas à montante, com conteúdo líquido, formando nível hidroaéreo, associado a densificação dos planos adiposos adjacentes e líquido livre na cavidade peritoneal. Não se observam sinais de hipocontrastação de alças intestinais, pneumoperitônio ou pneumatose. O conjunto de achados é compatível com abdome agudo obstrutivo por hérnia inguinal.
+    replace: Hérnia inguinal à direita, com protrusão de alça intestinal ileal, pequena quantidade de líquido no interior do saco herniário e densificação dos planos adiposos adjacentes, determinando distensão de segmentos de alças intestinais delgadas a montante, com conteúdo líquido, formando nível hidroaéreo, associado a líquido livre na cavidade peritoneal. Não se observam sinais de hipocontrastação de alças intestinais, pneumoperitônio ou pneumatose. O conjunto de achados é compatível com abdome agudo obstrutivo por hérnia inguinal.
     word: true
 
   - trigger: "tccolit2"
     label: "Colite inespecífica difusa"
-    replace: Discreto espessamento parietal com hiperrealce pelo meio de contraste endovenoso do reto e dos diversos segmentos colônicos, com densificação da gordura perivisceral, ingurgitamento da arcada vascular mesentérica e aumento do número de linfonodos adjacentes. Há distensão hidroaérea de alças delgadas. A possibilidade de processo inflamatório regional, de etiologia indeterminada ao método, pode ser considerada. Entretanto, os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
+    replace: Discreto espessamento parietal com hiper-realce pelo meio de contraste endovenoso do reto e dos diversos segmentos colônicos, com densificação da gordura perivisceral, ingurgitamento da arcada vascular mesentérica e aumento do número de linfonodos adjacentes. Há distensão hidroaérea de alças delgadas. A possibilidade de processo inflamatório regional, de etiologia indeterminada ao método, pode ser considerada. Entretanto, os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tcinflam2"
@@ -2885,7 +2885,7 @@ matches:
 
   - trigger: "tcvolvo1"
     label: "Volvo de alças delgadas com sofrimento de alça"
-    replace: Transição abrupta do calibre de alças do intestino delgado na região do mesogástrio, associada a rotação do mesentério vascular ("sinal do redemoinho"), determinando acentuada distensão gasosa e fecaloide dos segmentos à montante. Observam-se densificação difusa dos tecidos adiposos na raiz do mesentério, aumento do número de linfonodos mesentéricos e moderada quantidade de líquido livre na cavidade peritoneal, além de sinais de sofrimento de alças (pneumatose). O conjunto dos achados sugere abdome agudo obstrutivo/isquêmico, podendo-se admitir a possibilidade de volvo como principal hipótese dentre os diagnósticos diferenciais.
+    replace: Transição abrupta do calibre de alças do intestino delgado na região do mesogástrio, associada a rotação do mesentério vascular ("sinal do redemoinho"), determinando acentuada distensão gasosa e fecaloide dos segmentos a montante. Observam-se densificação difusa dos tecidos adiposos na raiz do mesentério, aumento do número de linfonodos mesentéricos e moderada quantidade de líquido livre na cavidade peritoneal, além de sinais de sofrimento de alças (pneumatose). O conjunto dos achados sugere abdome agudo obstrutivo/isquêmico, podendo-se admitir a possibilidade de volvo como principal hipótese dentre os diagnósticos diferenciais.
     word: true
 
   - trigger: "tcdistge"
@@ -2895,7 +2895,7 @@ matches:
 
   - trigger: "tcmegac2"
     label: "Retocolite ulcerativa com megacólon tóxico do transverso"
-    replace: Estratificação/espessamento parietal de segmentos colônicos ascendente, descendente e sigmoide, assim como do reto alto, preservado o segmento transverso, o qual se apresenta distendido e com perda das haustrações. Nos segmentos espessados descritos, associa-se hiperrealce mucoso pelo meio de contraste, ingurgitamento de vasos, densificação dos planos gordurosos mesentéricos, moderada ascite e aumento numérico de linfonodos da raiz do mesentério e retroperitoneais.
+    replace: Estratificação/espessamento parietal de segmentos colônicos ascendente, descendente e sigmoide, assim como do reto alto, preservado o segmento transverso, o qual se apresenta distendido e com perda das haustrações. Nos segmentos espessados descritos, associa-se hiper-realce mucoso pelo meio de contraste, ingurgitamento de vasos, densificação dos planos gordurosos mesentéricos, moderada ascite e aumento numérico de linfonodos da raiz do mesentério e retroperitoneais.
     word: true
 
   - trigger: "tcmegac2c"
@@ -2905,12 +2905,12 @@ matches:
 
   - trigger: "tcintuss1"
     label: "Intussuscepção ileocecal com suspeita de tumor subjacente"
-    replace: Sinais de intussuscepção ileocecal, com espessamento parietal das alças intestinais e dilatação à montante. Associam-se densificação do tecido adiposo, pequena quantidade de líquido, ingurgitamento vascular e linfonodomegalias adjacentes, medindo até _ cm no menor eixo. O conjunto de achados sugere suboclusão intestinal por intussuscepção ileocecal, devendo-se prosseguir investigação para processo neoplásico como causa.
+    replace: Sinais de intussuscepção ileocecal, com espessamento parietal das alças intestinais e dilatação a montante. Associam-se densificação do tecido adiposo, pequena quantidade de líquido, ingurgitamento vascular e linfonodomegalias adjacentes, medindo até _ cm no menor eixo. O conjunto de achados sugere suboclusão intestinal por intussuscepção ileocecal, devendo-se prosseguir investigação para processo neoplásico como causa.
     word: true
 
   - trigger: "tcbrida2"
     label: "Abdome agudo obstrutivo por bridas/aderências"
-    replace: Ponto de afilamento abrupto em alças jejunais, com dilatação à montante de alças delgadas e da câmara gástrica. Associam-se leve densificação dos planos adiposos mesentéricos, aumento do número de linfonodos regionais e pequena quantidade de líquido livre na cavidade peritoneal. A possibilidade de aderências fibrosas (bridas) deve ser considerada dentre os diagnósticos diferenciais. Correlacionar com dados clínicos.
+    replace: Ponto de afilamento abrupto em alças jejunais, com dilatação a montante de alças delgadas e da câmara gástrica. Associam-se leve densificação dos planos adiposos mesentéricos, aumento do número de linfonodos regionais e pequena quantidade de líquido livre na cavidade peritoneal. A possibilidade de aderências fibrosas (bridas) deve ser considerada dentre os diagnósticos diferenciais. Correlacionar com dados clínicos.
     word: true
 
   - trigger: "tcneotrans2"
@@ -2920,17 +2920,17 @@ matches:
 
   - trigger: "tctransit2"
     label: "Retossigmoidectomia com anastomose primária"
-    replace: Status pós retossigmoidectomia com anastomose primária.
+    replace: Status pós-retossigmoidectomia com anastomose primária.
     word: true
 
   - trigger: "tcdeisc1"
     label: "Deiscência de anastomose colorretal com pneumoperitônio"
-    replace: Descontinuidade adjacente à anastomose colorretal em mais de 50% de sua circunferência, na parede posterior e lateral direita, com extravasamento de resíduos fecais e moderado pneumoperitônio. Nota-se dreno inserido na fossa ilíaca direita, com extremidade distal adjacente à área de descontinuidade da anastomose. Associam-se densificação de tecido adiposo e lâminas líquidas adjacentes, aumento do número de linfonodos regionais e retroperitoneais e espessamento parietal de alças intestinais regionais, de provável natureza reacional. Destacam-se focos gasosos dissecando a parede abdominal anterior, o assoalho pélvico, os canais inguinais e a bolsa escrotal, bem como coleção hidroaérea anteriormente à bexiga e adjacente a alças intestinais hipogástricas, com trajeto de dreno adjacente, medindo _ cm, com volume de _ ml.
+    replace: Descontinuidade adjacente à anastomose colorretal em mais de 50% de sua circunferência, na parede posterior e lateral direita, com extravasamento de resíduos fecais e moderado pneumoperitônio. Nota-se dreno inserido na fossa ilíaca direita, com extremidade distal adjacente à área de descontinuidade da anastomose. Associam-se densificação de tecido adiposo e lâminas líquidas adjacentes, aumento do número de linfonodos regionais e retroperitoneais e espessamento parietal de alças intestinais regionais, de provável natureza reacional. Destacam-se focos gasosos dissecando a parede abdominal anterior, o assoalho pélvico, os canais inguinais e a bolsa escrotal, bem como coleção hidroaérea anteriormente à bexiga e adjacente a alças intestinais hipogástricas, com trajeto de dreno adjacente, medindo _ cm, com volume de _ cm³.
     word: true
 
   - trigger: "tcestanast1"
     label: "Estenose de anastomose colorretal com obstrução"
-    replace: Status pós-retossigmoidectomia parcial com anastomose colorretal, com densificação e obliteração dos planos adiposos adjacentes, inclusive pré-sacrais, notando-se ponto de afilamento na região proximal da anastomose, com dilatação de alças intestinais à montante. Associa-se aumento do número de linfonodos regionais e para-aórticos, bem como pequena quantidade de líquido livre na cavidade abdominal.
+    replace: Status pós-retossigmoidectomia parcial com anastomose colorretal, com densificação e obliteração dos planos adiposos adjacentes, inclusive pré-sacrais, notando-se ponto de afilamento na região proximal da anastomose, com dilatação de alças intestinais a montante. Associa-se aumento do número de linfonodos regionais e para-aórticos, bem como pequena quantidade de líquido livre na cavidade abdominal.
     word: true
 
   - trigger: "tcdiireto"
@@ -2944,12 +2944,12 @@ matches:
 
   - trigger: "tcbrida3"
     label: "Suboclusão intestinal de provável natureza aderencial"
-    replace: Transição abrupta de calibre em alça jejunoileal na região supraumbilical à esquerda, com distensão de segmentos de alças jejunais, com conteúdo líquido, por vezes formando nível hidroaéreo, associada a densificação dos planos adiposos adjacentes e lâminas líquidas, sugerindo a possibilidade de abdome obstrutivo (suboclusivo) de provável natureza aderencial/brida. Correlacionar com dados clínicos.
+    replace: Transição abrupta de calibre em alça jejunoileal na região supraumbilical à esquerda, com distensão de segmentos de alças jejunais, com conteúdo líquido, por vezes formando nível hidroaéreo, associada a densificação dos planos adiposos adjacentes e lâminas líquidas, sugerindo a possibilidade de abdome agudo obstrutivo (suboclusivo) de provável natureza aderencial/brida. Correlacionar com dados clínicos.
     word: true
 
   - trigger: "tchernpar"
     label: "Hérnia de parede abdominal com alça previamente reduzida"
-    replace: Hérnia de parede abdominal anterior supraumbilical, com colo de _ cm, apresentando protrusão de gordura intra-abdominal, associada a densificação do tecido adiposo adjacente e no interior do saco herniário. Destaca-se espessamento e hiperrealce parietal de alças intestinais mesogástricas e leve distensão hidroaérea de alças intestinais à montante, bem como pequena quantidade de líquido livre adjacente e na cavidade pélvica.
+    replace: Hérnia de parede abdominal anterior supraumbilical, com colo de _ cm, apresentando protrusão de gordura intra-abdominal, associada a densificação do tecido adiposo adjacente e no interior do saco herniário. Destaca-se espessamento e hiper-realce parietal de alças intestinais mesogástricas e leve distensão hidroaérea de alças intestinais a montante, bem como pequena quantidade de líquido livre adjacente e na cavidade pélvica.
     word: true
 
   - trigger: "tcespess1"
@@ -2969,7 +2969,7 @@ matches:
 
   - trigger: "tchernint1"
     label: "Hérnia interna transmesossigmoide com intussuscepção"
-    replace: Aglomerado de alças intestinais delgadas em posição não habitual na escavação pélvica direita, sem sinais de distensão, associado a discreta densificação focal dos planos mesentéricos e sinais de rotação do mesentério vascular, associada a distensão hidroaérea de alças delgadas à montante, achados que podem corresponder a hérnia interna (transmesossigmoide). Destacam-se ainda sinais de aparente intussuscepção ileoileal na pequena pelve. Não há hiporrealce parietal das alças descritas no presente estudo.
+    replace: Aglomerado de alças intestinais delgadas em posição não habitual na escavação pélvica direita, sem sinais de distensão, associado a discreta densificação focal dos planos mesentéricos e sinais de rotação do mesentério vascular, associada a distensão hidroaérea de alças delgadas a montante, achados que podem corresponder a hérnia interna (transmesossigmoide). Destacam-se ainda sinais de aparente intussuscepção ileoileal na pequena pelve. Não há hiporrealce parietal das alças descritas no presente estudo.
     word: true
 
   - trigger: "tchernint2"
@@ -2984,12 +2984,12 @@ matches:
 
   - trigger: "tcneoasc2"
     label: "Neoplasia do cólon ascendente não estenosante com intussuscepção"
-    replace: Acentuado espessamento parietal circunferencial e irregular não estenosante do cólon ascendente e do ceco, em cerca de _ cm, com extensão de _ cm, apresentando realce pelo meio de contraste endovenoso. Associam-se densificação do tecido adiposo adjacente e aumento numérico dos linfonodos locorregionais, o maior na cadeia pré-cecal medindo _ cm no menor eixo axial. Associam-se sinais de intussuscepção ileocecal, sem distensão de alças à montante.
+    replace: Acentuado espessamento parietal circunferencial e irregular não estenosante do cólon ascendente e do ceco, em cerca de _ cm, com extensão de _ cm, apresentando realce pelo meio de contraste endovenoso. Associam-se densificação do tecido adiposo adjacente e aumento numérico dos linfonodos locorregionais, o maior na cadeia pré-cecal medindo _ cm no menor eixo axial. Associam-se sinais de intussuscepção ileocecal, sem distensão de alças a montante.
     word: true
 
   - trigger: "tcneoasc2c"
     label: "Conclusão — neoplasia colônica com suspeita de linfoma"
-    replace: Acentuado espessamento parietal circunferencial e irregular não estenosante do cólon ascendente e do ceco. Associam-se sinais de intussuscepção ileocecal, sem distensão de alças à montante. A principal consideração diagnóstica é processo neoplásico primário, devendo-se considerar etiologia linfomatosa em decorrência do acentuado espessamento não estenosante e da intussuscepção associada.
+    replace: Acentuado espessamento parietal circunferencial e irregular não estenosante do cólon ascendente e do ceco. Associam-se sinais de intussuscepção ileocecal, sem distensão de alças a montante. A principal consideração diagnóstica é processo neoplásico primário, devendo-se considerar etiologia linfomatosa em decorrência do acentuado espessamento não estenosante e da intussuscepção associada.
     word: true
 
   - trigger: "tcileit1"
@@ -3004,7 +3004,7 @@ matches:
 
   - trigger: "tcneodesc1"
     label: "Neoplasia do cólon descendente subestenosante"
-    replace: Espessamento parietal circunferencial e irregular do cólon descendente, com extensão de _ cm, apresentando realce pelo meio de contraste endovenoso, com densificação do tecido adiposo e linfonodos adjacentes. Nota-se distensão hidroaérea de alças intestinais à montante, bem como pequena quantidade de líquido livre na cavidade abdominal e aumento do número de linfonodos regionais e da raiz do mesentério. O conjunto de achados sugere processo neoplásico primário colônico subestenosante, devendo-se correlacionar com dados clínicos e laboratoriais, não disponíveis.
+    replace: Espessamento parietal circunferencial e irregular do cólon descendente, com extensão de _ cm, apresentando realce pelo meio de contraste endovenoso, com densificação do tecido adiposo e linfonodos adjacentes. Nota-se distensão hidroaérea de alças intestinais a montante, bem como pequena quantidade de líquido livre na cavidade abdominal e aumento do número de linfonodos regionais e da raiz do mesentério. O conjunto de achados sugere processo neoplásico primário colônico subestenosante, devendo-se correlacionar com dados clínicos e laboratoriais, não disponíveis.
     word: true
 
   - trigger: "tcvolvo2"
@@ -3024,7 +3024,7 @@ matches:
 
   - trigger: "tcneoceco2"
     label: "Neoplasia do ceco complicada com coleção"
-    replace: Espessamento parietal irregular segmentar do ceco, do cólon ascendente e da válvula ileocecal, com realce pelo meio de contraste, destacando-se coleção hipodensa na borda antimesentérica, em íntimo contato com a parede abdominal anterior na região do flanco direito e com alças intestinais delgadas que se apresentam espessadas (possivelmente reacional), medindo _ cm, com volume de _ cm³. Observam-se ainda distensão segmentar de algumas alças delgadas, densificação do tecido adiposo e aumento do número de linfonodos regionais, bem como pequena quantidade de líquido livre na cavidade abdominal. O conjunto de achados pode estar relacionado a neoplasia primária colônica complicada com coleção.
+    replace: Espessamento parietal irregular segmentar do ceco, do cólon ascendente e da válvula ileocecal, com realce pelo meio de contraste, destacando-se coleção hipodensa na borda antimesentérica, em íntimo contato com a parede abdominal anterior na região do flanco direito e com alças intestinais delgadas que se apresentam espessadas (possivelmente reacionais), medindo _ cm, com volume de _ cm³. Observam-se ainda distensão segmentar de algumas alças delgadas, densificação do tecido adiposo e aumento do número de linfonodos regionais, bem como pequena quantidade de líquido livre na cavidade abdominal. O conjunto de achados pode estar relacionado a neoplasia primária colônica complicada com coleção.
     word: true
 
   - trigger: "tcperf2"
@@ -3038,7 +3038,7 @@ matches:
     word: true
 
   - trigger: "tccopro1"
-    label: "Coprostase da ampola retal"
+    label: "Coproestase da ampola retal"
     replace: Material fecaloide distendendo a ampola retal.
     word: true
 
@@ -3049,7 +3049,7 @@ matches:
 
   - trigger: "tctransit3"
     label: "Reconstrução do trânsito intestinal sem recidiva local"
-    replace: Sinais de reconstrução do trânsito intestinal ("status" pós retossigmoidectomia), com anastomose retodescendente, sem evidências macroscópicas de recidiva local.
+    replace: Sinais de reconstrução do trânsito intestinal (status pós-retossigmoidectomia), com anastomose retodescendente, sem evidências macroscópicas de recidiva local.
     word: true
 
   - trigger: "tcestanast2"
@@ -3059,12 +3059,12 @@ matches:
 
   - trigger: "tctransit4"
     label: "Reconstrução do trânsito intestinal pós-enterectomia"
-    replace: Status pós reconstrução de trânsito intestinal (enterectomia).
+    replace: Status pós-reconstrução de trânsito intestinal (enterectomia).
     word: true
 
   - trigger: "tcestanast3"
     label: "Estreitamento subestenosante do íleo distal pós-reconstrução"
-    replace: Estreitamento abrupto do calibre, subestenosante, do íleo distal e de segmentos colônicos a partir da reconstrução do trânsito intestinal, determinando moderada distensão hidroaérea e espessamento parietal de alças delgadas à montante, por vezes formando nível. Há progressão do meio de contraste oral até o segmento colônico da loja retal.
+    replace: Estreitamento abrupto do calibre, subestenosante, do íleo distal e de segmentos colônicos a partir da reconstrução do trânsito intestinal, determinando moderada distensão hidroaérea e espessamento parietal de alças delgadas a montante, por vezes formando nível. Há progressão do meio de contraste oral até o segmento colônico da loja retal.
     word: true
 
   - trigger: "tccolit4"
@@ -3084,7 +3084,7 @@ matches:
 
   - trigger: "tcespast"
     label: "Espasticidade focal do cólon na flexura hepática"
-    replace: Redução abrupta de calibre do cólon ao nível da flexura hepática, sem distensão de alças à montante, sugerindo área focal de espasticidade da alça.
+    replace: Redução abrupta de calibre do cólon ao nível da flexura hepática, sem distensão de alças a montante, sugerindo área focal de espasticidade da alça.
     word: true
 
   - trigger: "tcdivert2"
@@ -3129,7 +3129,7 @@ matches:
 
   - trigger: "tcenter1"
     label: "Enterite subestenosante ileocecal salteada (Crohn?)"
-    replace: Áreas segmentares salteadas de espessamento parietal circunferencial e regular de alças delgadas (válvula ileocecal e íleo distal), de aspecto subestenosante, determinando acentuada distensão de alças delgadas à montante. Associam-se ingurgitamento dos vasos pericólicos, densificação da gordura mesentérica, bem como aumento do número de linfonodos na raiz do mesentério.
+    replace: Áreas segmentares salteadas de espessamento parietal circunferencial e regular de alças delgadas (válvula ileocecal e íleo distal), de aspecto subestenosante, determinando acentuada distensão de alças delgadas a montante. Associam-se ingurgitamento dos vasos pericólicos, densificação da gordura mesentérica, bem como aumento do número de linfonodos na raiz do mesentério.
     word: true
 
   - trigger: "tcenter1c"
@@ -3154,12 +3154,12 @@ matches:
 
   - trigger: "tcestanast4"
     label: "Obstrução na enteroenteroanastomose sem sofrimento vascular"
-    replace: Transição abrupta do calibre de alças delgadas na pelve, na topografia da enteroenteroanastomose, associada a rotação do tecido adiposo e do mesentério vascular adjacente, com consequente distensão hidroaérea de alças delgadas à montante. Associa-se aumento do número de linfonodos mesentéricos e retroperitoneais. Não há sinais de sofrimento vascular das alças descritas no presente estudo.
+    replace: Transição abrupta do calibre de alças delgadas na pelve, na topografia da enteroenteroanastomose, associada a rotação do tecido adiposo e do mesentério vascular adjacente, com consequente distensão hidroaérea de alças delgadas a montante. Associa-se aumento do número de linfonodos mesentéricos e retroperitoneais. Não há sinais de sofrimento vascular das alças descritas no presente estudo.
     word: true
 
   - trigger: "tcneotrans5"
     label: "Neoplasia subestenosante do cólon transverso (sem contraste)"
-    replace: Espessamento parietal circunferencial irregular e subestenosante do terço médio do cólon transverso, com extensão aproximada de _ cm, determinando moderada distensão hidroaérea de alças cólicas e delgadas à montante.
+    replace: Espessamento parietal circunferencial irregular e subestenosante do terço médio do cólon transverso, com extensão aproximada de _ cm, determinando moderada distensão hidroaérea de alças cólicas e delgadas a montante.
     word: true
 
   - trigger: "tcneotrans5c"
@@ -3168,8 +3168,8 @@ matches:
     word: true
 
   - trigger: "tcneosig2"
-    label: "Neoplasia do sigmoide com distensão colônica à montante"
-    replace: Área de espessamento parietal com estreitamento luminal no cólon sigmoide. Associam-se aumento do número de linfonodos regionais e acentuada distensão hidroaérea de alças colônicas à montante, com densificação da gordura perivisceral. A possibilidade de neoplasia colônica primária pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
+    label: "Neoplasia do sigmoide com distensão colônica a montante"
+    replace: Área de espessamento parietal com estreitamento luminal no cólon sigmoide. Associam-se aumento do número de linfonodos regionais e acentuada distensão hidroaérea de alças colônicas a montante, com densificação da gordura perivisceral. A possibilidade de neoplasia colônica primária pode ser considerada. Os diagnósticos diferenciais devem ser aplicados.
     word: true
 
   - trigger: "tcpneum1"
@@ -3189,17 +3189,17 @@ matches:
 
   - trigger: "tcsubocl1"
     label: "Suboclusão de delgado com transição na fossa ilíaca direita"
-    replace: Área de redução de calibre de alça ileal na fossa ilíaca direita, a partir de onde se observa distensão de alças delgadas à montante, notando-se presença de material fecaloide e gás em alças à jusante, inferindo suboclusão. Associam-se densificação do tecido adiposo mesentérico, bem como pequena quantidade de líquido livre na cavidade abdominal.
+    replace: Área de redução de calibre de alça ileal na fossa ilíaca direita, a partir de onde se observa distensão de alças delgadas a montante, notando-se presença de material fecaloide e gás em alças a jusante, inferindo suboclusão. Associam-se densificação do tecido adiposo mesentérico, bem como pequena quantidade de líquido livre na cavidade abdominal.
     word: true
 
   - trigger: "tcsubocl2"
     label: "Suboclusão de delgado sem ponto abrupto de obstrução"
-    replace: Área de redução de calibre de alça ileal distal na fossa ilíaca direita, a partir de onde se observa distensão de alças delgadas à montante, porém sem a caracterização de ponto abrupto de obstrução, notando-se presença de material fecaloide e gás em alças à jusante, inferindo suboclusão. Observam-se ainda áreas de espessamento parietal circunferencial de alças delgadas. Associam-se densificação do tecido adiposo mesentérico, bem como ingurgitamento da arcada vascular regional e moderada quantidade de líquido livre na cavidade abdominal. O conjunto de achados, embora inespecífico, pode estar relacionado a processo inflamatório/infeccioso. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
+    replace: Área de redução de calibre de alça ileal distal na fossa ilíaca direita, a partir de onde se observa distensão de alças delgadas a montante, porém sem a caracterização de ponto abrupto de obstrução, notando-se presença de material fecaloide e gás em alças a jusante, inferindo suboclusão. Observam-se ainda áreas de espessamento parietal circunferencial de alças delgadas. Associam-se densificação do tecido adiposo mesentérico, bem como ingurgitamento da arcada vascular regional e moderada quantidade de líquido livre na cavidade abdominal. O conjunto de achados, embora inespecífico, pode estar relacionado a processo inflamatório/infeccioso. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tcenter2"
     label: "Enterite subestenosante ileocecal e jejunal com suboclusão"
-    replace: Heterogeneidade, espessamento e realce parietal circunferencial e segmentar na válvula ileocecal/íleo distal, subestenosante, determinando acentuada distensão de alças delgadas à montante até segmento de alça jejunal em flanco esquerdo, onde se observa outra área de espessamento parietal. Associam-se ingurgitamento dos vasos pericólicos, discreta densificação da gordura mesentérica, bem como aumento do número de linfonodos na raiz do mesentério e mínima quantidade de líquido livre na cavidade abdominal. O conjunto de achados sugere processo inflamatório acometendo válvula ileocecal e alça jejunal (enterite), determinando abdome agudo suboclusivo. Não se pode excluir outro processo sobreposto.
+    replace: Heterogeneidade, espessamento e realce parietal circunferencial e segmentar na válvula ileocecal/íleo distal, subestenosante, determinando acentuada distensão de alças delgadas a montante até segmento de alça jejunal em flanco esquerdo, onde se observa outra área de espessamento parietal. Associam-se ingurgitamento dos vasos pericólicos, discreta densificação da gordura mesentérica, bem como aumento do número de linfonodos na raiz do mesentério e mínima quantidade de líquido livre na cavidade abdominal. O conjunto de achados sugere processo inflamatório acometendo válvula ileocecal e alça jejunal (enterite), determinando abdome agudo suboclusivo. Não se pode excluir outro processo sobreposto.
     word: true
 
   - trigger: "tcmeckel"
@@ -3209,7 +3209,7 @@ matches:
 
   - trigger: "tcvolvo3"
     label: "Volvo de sigmoide (estudo sem contraste)"
-    replace: Transição abrupta do calibre do cólon sigmoide no mesogástrio, onde se identifica torção da alça e do mesentério vascular, determinando acentuada distensão gasosa e fecaloide dos segmentos cólicos à montante, assim como fecalização do conteúdo delgado. Destaca-se também densificação do tecido adiposo da raiz do mesentério, porém não sendo possível avaliar sofrimento de alças diante do protocolo sem contraste. O conjunto de achados é sugestivo de volvo de sigmoide.
+    replace: Transição abrupta do calibre do cólon sigmoide no mesogástrio, onde se identifica torção da alça e do mesentério vascular, determinando acentuada distensão gasosa e fecaloide dos segmentos cólicos a montante, assim como fecalização do conteúdo delgado. Destaca-se também densificação do tecido adiposo da raiz do mesentério, porém não sendo possível avaliar sofrimento de alças diante do protocolo sem contraste. O conjunto de achados é sugestivo de volvo de sigmoide.
     word: true
 
   - trigger: "tcvolvo3c"
@@ -3224,17 +3224,17 @@ matches:
 
   - trigger: "tcvolvo4"
     label: "Volvo de sigmoide com sinal do grão de café"
-    replace: Transição abrupta do calibre do cólon sigmoide no mesogástrio, onde se identifica torção da alça e do mesentério adjacente, determinando acentuada distensão gasosa e fecaloide dos segmentos cólicos à montante, em forma de arco ("sinal do grão de café"). Destaca-se também densificação do tecido adiposo da raiz do mesentério.
+    replace: Transição abrupta do calibre do cólon sigmoide no mesogástrio, onde se identifica torção da alça e do mesentério adjacente, determinando acentuada distensão gasosa e fecaloide dos segmentos cólicos a montante, em forma de arco ("sinal do grão de café"). Destaca-se também densificação do tecido adiposo da raiz do mesentério.
     word: true
 
   - trigger: "tcvolvo5"
     label: "Volvo de sigmoide com deslocamento hepático"
-    replace: Transição abrupta do calibre do cólon sigmoide no mesogástrio, onde se identifica torção da alça e do mesentério adjacente, determinando acentuada distensão gasosa e fecaloide dos segmentos cólicos à montante, em forma de arco. Destaca-se também densificação do tecido adiposo da raiz do mesentério. Há deslocamento do fígado para a esquerda, determinado pelo cólon distendido e interposto entre o mesmo e a parede abdominal.
+    replace: Transição abrupta do calibre do cólon sigmoide no mesogástrio, onde se identifica torção da alça e do mesentério adjacente, determinando acentuada distensão gasosa e fecaloide dos segmentos cólicos a montante, em forma de arco. Destaca-se também densificação do tecido adiposo da raiz do mesentério. Há deslocamento do fígado para a esquerda, determinado pelo cólon distendido e interposto entre o mesmo e a parede abdominal.
     word: true
 
   - trigger: "tcvolvo6"
     label: "Volvo do cólon ascendente/ceco"
-    replace: Transição abrupta do calibre do cólon ascendente na região do mesogástrio, associada a rotação do mesentério vascular ("sinal do redemoinho"), determinando acentuada distensão gasosa e fecaloide dos segmentos à montante. Observam-se densificação difusa dos tecidos adiposos na raiz do mesentério, aumento do número de linfonodos mesentéricos e pequena quantidade de líquido livre na cavidade peritoneal, não sendo possível avaliar sofrimento de alças diante do protocolo sem contraste. O conjunto dos achados sugere abdome agudo obstrutivo, podendo-se admitir a possibilidade de volvo como principal hipótese dentre os diagnósticos diferenciais.
+    replace: Transição abrupta do calibre do cólon ascendente na região do mesogástrio, associada a rotação do mesentério vascular ("sinal do redemoinho"), determinando acentuada distensão gasosa e fecaloide dos segmentos a montante. Observam-se densificação difusa dos tecidos adiposos na raiz do mesentério, aumento do número de linfonodos mesentéricos e pequena quantidade de líquido livre na cavidade peritoneal, não sendo possível avaliar sofrimento de alças diante do protocolo sem contraste. O conjunto dos achados sugere abdome agudo obstrutivo, podendo-se admitir a possibilidade de volvo como principal hipótese dentre os diagnósticos diferenciais.
     word: true
 
   - trigger: "tcpneum2"
@@ -3249,12 +3249,12 @@ matches:
 
   - trigger: "tcbrida4"
     label: "Brida complicada com isquemia de alça delgada"
-    replace: Sinais de aderência entre alças intestinais no quadrante inferior esquerdo do abdome, onde se observa segmento de alça delgada com evidências de isquemia, representadas por redução da contrastação pelo meio de contraste endovenoso e densificação de planos gordurosos mesentéricos regionais. Há distensão hidroaérea da câmara gástrica e de alças intestinais à montante. Esse conjunto de achados sugere a possibilidade de brida complicada com isquemia de segmento de alça delgada. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
+    replace: Sinais de aderência entre alças intestinais no quadrante inferior esquerdo do abdome, onde se observa segmento de alça delgada com evidências de isquemia, representadas por redução da contrastação pelo meio de contraste endovenoso e densificação de planos gordurosos mesentéricos regionais. Há distensão hidroaérea da câmara gástrica e de alças intestinais a montante. Esse conjunto de achados sugere a possibilidade de brida complicada com isquemia de segmento de alça delgada. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tcbrida5"
     label: "Obstrução por brida com hipocontrastação de alças"
-    replace: Transição abrupta de calibre em alça jejunoileal na região supraumbilical à esquerda, associada a distensão de segmentos de alças jejunais, com conteúdo líquido, por vezes formando nível hidroaéreo, associada a densificação dos planos adjacentes e lâminas líquidas, sugerindo a possibilidade de abdome obstrutivo de provável natureza aderencial/brida. Associa-se hipocontrastação das alças distendidas.
+    replace: Transição abrupta de calibre em alça jejunoileal na região supraumbilical à esquerda, associada a distensão de segmentos de alças jejunais, com conteúdo líquido, por vezes formando nível hidroaéreo, associada a densificação dos planos adjacentes e lâminas líquidas, sugerindo a possibilidade de abdome agudo obstrutivo de provável natureza aderencial/brida. Associa-se hipocontrastação das alças distendidas.
     word: true
 
   - trigger: "tcapepi1"
@@ -3269,12 +3269,12 @@ matches:
 
   - trigger: "tccolit7"
     label: "Colite do sigmoide e descendente"
-    replace: Espessamento parietal e hiperrealce mucoso dos cólons sigmoide e descendente, associados a densificação do tecido adiposo adjacente, pequena quantidade de líquido livre na cavidade pélvica, linfonodos regionais aumentados em número e ingurgitamento dos vasos pericólicos. O conjunto de achados sugere processo inflamatório/infeccioso agudo inespecífico (colite). Correlacionar com dados clínicos e laboratoriais.
+    replace: Espessamento parietal e hiper-realce mucoso dos cólons sigmoide e descendente, associados a densificação do tecido adiposo adjacente, pequena quantidade de líquido livre na cavidade pélvica, linfonodos regionais aumentados em número e ingurgitamento dos vasos pericólicos. O conjunto de achados sugere processo inflamatório/infeccioso agudo inespecífico (colite). Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tccolit8"
     label: "Colite direita com acometimento do íleo terminal"
-    replace: Aparente estratificação e espessamento parietal do cólon transverso, ascendente, ceco e íleo terminal, associados a linfonodos regionais proeminentes, hiperrealce mucoso e ingurgitamento dos vasos pericólicos. O conjunto de achados sugere processo inflamatório/infeccioso agudo inespecífico (colite), porém melhor avaliado em protocolo específico (enterotomografia).
+    replace: Aparente estratificação e espessamento parietal do cólon transverso, ascendente, ceco e íleo terminal, associados a linfonodos regionais proeminentes, hiper-realce mucoso e ingurgitamento dos vasos pericólicos. O conjunto de achados sugere processo inflamatório/infeccioso agudo inespecífico (colite), porém melhor avaliado em protocolo específico (enterotomografia).
     word: true
 
   - trigger: "tcileit2"
@@ -3284,7 +3284,7 @@ matches:
 
   - trigger: "tcinflam4"
     label: "Processo inflamatório regional em fossa ilíaca direita"
-    replace: Densificação de planos gordurosos mesentéricos, notadamente na fossa ilíaca direita, com ingurgitamento da arcada vascular e aumento do número de linfonodos regionais e retroperitoneais. Associa-se hiperrealce mucoso de alças intestinais, notadamente na região do íleo terminal e ceco. Nota-se ainda mínima quantidade de líquido livre na cavidade pélvica. Esse conjunto de achados, embora inespecífico, sugere a possibilidade de processo inflamatório regional. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
+    replace: Densificação de planos gordurosos mesentéricos, notadamente na fossa ilíaca direita, com ingurgitamento da arcada vascular e aumento do número de linfonodos regionais e retroperitoneais. Associa-se hiper-realce mucoso de alças intestinais, notadamente na região do íleo terminal e ceco. Nota-se ainda mínima quantidade de líquido livre na cavidade pélvica. Esse conjunto de achados, embora inespecífico, sugere a possibilidade de processo inflamatório regional. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tcintuss2"
@@ -3294,7 +3294,7 @@ matches:
 
   - trigger: "tccolit9"
     label: "Colite do sigmoide com perfuração"
-    replace: Espessamento parietal do cólon sigmoide, com ingurgitamento da "vasa recta", linfonodomegalia regional e proliferação com densificação de planos gordurosos periviscerais, sugerindo processo inflamatório. Há espessamento das reflexões peritoneais adjacentes e pneumoperitônio, sugerindo perfuração.
+    replace: Espessamento parietal do cólon sigmoide, com ingurgitamento da vasa recta, linfonodomegalia regional e proliferação com densificação de planos gordurosos periviscerais, sugerindo processo inflamatório. Há espessamento das reflexões peritoneais adjacentes e pneumoperitônio, sugerindo perfuração.
     word: true
 
   - trigger: "tcespess3"
@@ -3304,12 +3304,12 @@ matches:
 
   - trigger: "tccolit10"
     label: "Espessamento retossigmoide e do descendente inflamatório"
-    replace: Espessamento parietal circunferencial do reto e dos cólons sigmoide e descendente, associado a ingurgitamento dos vasos retos e hiperrealce mucoso após a administração do meio de contraste endovenoso. O conjunto de achados, embora indeterminado, sugere processo inflamatório/infeccioso, devendo-se correlacionar com dados clínicos e laboratoriais.
+    replace: Espessamento parietal circunferencial do reto e dos cólons sigmoide e descendente, associado a ingurgitamento dos vasos retos e hiper-realce mucoso após a administração do meio de contraste endovenoso. O conjunto de achados, embora indeterminado, sugere processo inflamatório/infeccioso, devendo-se correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tcenter3"
     label: "Enterite subestenosante com alça fechada"
-    replace: Espessamento/estratificação parietal circunferencial subestenosante de pequeno segmento do íleo (médio) e do jejuno, associado a hiperrealce mucoso, ingurgitamento da vasa recta, linfonodos mesentéricos aumentados em número, líquido livre na cavidade e densificação dos planos gordurosos mesentéricos adjacentes. Associa-se distensão com nível hidroaéreo de alças delgadas entre os segmentos espessados (alça fechada) acima descritos.
+    replace: Espessamento/estratificação parietal circunferencial subestenosante de pequeno segmento do íleo (médio) e do jejuno, associado a hiper-realce mucoso, ingurgitamento da vasa recta, linfonodos mesentéricos aumentados em número, líquido livre na cavidade e densificação dos planos gordurosos mesentéricos adjacentes. Associa-se distensão com nível hidroaéreo de alças delgadas entre os segmentos espessados (alça fechada) acima descritos.
     word: true
 
   - trigger: "tcenter3c"
@@ -3329,7 +3329,7 @@ matches:
 
   - trigger: "tcenter4"
     label: "Enterite ileal em atividade com alça fechada"
-    replace: Estratificação e espessamento parietal de alguns segmentos ileais, com área de redução de calibre na fossa ilíaca direita, associadas a hiperrealce mucoso pelo meio de contraste, ingurgitamento da vasa recta, discreta densificação dos planos gordurosos mesentéricos, bem como pequena quantidade de líquido livre na cavidade abdominal e aumento do número e do tamanho de linfonodos regionais, da raiz do mesentério e retroperitoneais. Destaca-se ainda distensão com nível hidroaéreo entre os segmentos espessados. O conjunto de achados sugere processo inflamatório/infeccioso em atividade. Correlacionar com dados clínicos e laboratoriais.
+    replace: Estratificação e espessamento parietal de alguns segmentos ileais, com área de redução de calibre na fossa ilíaca direita, associadas a hiper-realce mucoso pelo meio de contraste, ingurgitamento da vasa recta, discreta densificação dos planos gordurosos mesentéricos, bem como pequena quantidade de líquido livre na cavidade abdominal e aumento do número e do tamanho de linfonodos regionais, da raiz do mesentério e retroperitoneais. Destaca-se ainda distensão com nível hidroaéreo entre os segmentos espessados. O conjunto de achados sugere processo inflamatório/infeccioso em atividade. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tcileit3"
@@ -3354,12 +3354,12 @@ matches:
 
   - trigger: "tccarcin2"
     label: "Tumor carcinoide do íleo terminal com metástase mesentérica"
-    replace: Espessamento circunferencial e irregular do íleo terminal, não estenosante, associado a realce parietal. Nota-se ainda massa espiculada com estriações, heterogênea, predominantemente hipodensa, com calcificações de permeio, localizada junto ao íleo terminal, medindo _ cm (LL x CC x AP), com volume de _ cm³, com realce após a administração do meio de contraste endovenoso, bem como densificação da gordura circunjacente e aumento do número de linfonodos locorregionais. A possibilidade de tumor carcinoide do íleo terminal com metástase mesentérica pode ser considerada dentre as possibilidades diagnósticas. Os diagnósticos diferenciais devem ser aplicados. Correlacionar com dados clínicos e laboratoriais.
+    replace: Espessamento circunferencial e irregular do íleo terminal, não estenosante, associado a realce parietal. Nota-se ainda massa espiculada com estriações, heterogênea, predominantemente hipodensa, com calcificações de permeio, localizada junto ao íleo terminal, medindo _ cm (LL x CC x AP), com volume de _ cm³, com realce após a administração do meio de contraste endovenoso, bem como densificação da gordura circunjacente e aumento do número de linfonodos locorregionais. A possibilidade de tumor carcinoide do íleo terminal com metástase mesentérica pode ser considerada. Os diagnósticos diferenciais devem ser aplicados. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tccarcin3"
     label: "Tumor carcinoide do íleo distal com reação desmoplásica"
-    replace: Espessamento parietal circunferencial irregular subestenosante do íleo distal, em cerca de _ cm de extensão, distando _ cm da válvula ileocecal. Na topografia do mesentério adjacente ao segmento ileal acima descrito, destaca-se massa espiculada extraluminal com estriações (reação desmoplásica), com calcificações de permeio, medindo _ cm (LL x CC x AP), com volume de _ cm³, com realce após a administração do meio de contraste endovenoso, bem como densificação da gordura circunjacente, aumento do número de linfonodos locorregionais e pequena quantidade de líquido livre na cavidade peritoneal. Associa-se distensão hidroaérea de alças delgadas à montante. Achados tomográficos sugestivos de neoplasia carcinoide do íleo distal/terminal, com implante mesentérico secundário associado e sinais de abdome agudo suboclusivo.
+    replace: Espessamento parietal circunferencial irregular subestenosante do íleo distal, em cerca de _ cm de extensão, distando _ cm da válvula ileocecal. Na topografia do mesentério adjacente ao segmento ileal acima descrito, destaca-se massa espiculada extraluminal com estriações (reação desmoplásica), com calcificações de permeio, medindo _ cm (LL x CC x AP), com volume de _ cm³, com realce após a administração do meio de contraste endovenoso, bem como densificação da gordura circunjacente, aumento do número de linfonodos locorregionais e pequena quantidade de líquido livre na cavidade peritoneal. Associa-se distensão hidroaérea de alças delgadas a montante. Achados tomográficos sugestivos de neoplasia carcinoide do íleo distal/terminal, com implante mesentérico secundário associado e sinais de abdome agudo suboclusivo.
     word: true
 
   - trigger: "tcneodesc2"
@@ -3369,7 +3369,7 @@ matches:
 
   - trigger: "tccolit12"
     label: "Estreitamento do cólon transverso com colite direita (sem contraste)"
-    replace: Aparente área de estreitamento focal do transverso (podendo ter origem neoplásica dentro do contexto clínico), com distensão de alças à montante, bem como espessamento parietal circunferencial da porção direita do cólon transverso, do ascendente e do ceco. Destaca-se ainda aumento do calibre do apêndice cecal, possivelmente reacional. Associam-se pequena quantidade de líquido livre na cavidade abdominal, densificação do tecido adiposo e aumento do número de linfonodos regionais.
+    replace: Aparente área de estreitamento focal do transverso (podendo ter origem neoplásica dentro do contexto clínico), com distensão de alças a montante, bem como espessamento parietal circunferencial da porção direita do cólon transverso, do ascendente e do ceco. Destaca-se ainda aumento do calibre do apêndice cecal, possivelmente reacional. Associam-se pequena quantidade de líquido livre na cavidade abdominal, densificação do tecido adiposo e aumento do número de linfonodos regionais.
     word: true
 
   - trigger: "tcespess4"
@@ -3379,7 +3379,7 @@ matches:
 
   - trigger: "tcneosig3"
     label: "Neoplasia da transição sigmoide/descendente suboclusiva"
-    replace: Espessamento parietal circunferencial e irregular do cólon na transição sigmoide/descendente, com extensão de cerca de _ cm, associado a distensão de alças à montante (suboclusivo). Associam-se pequena quantidade de líquido livre na cavidade abdominal, densificação do tecido adiposo e aumento do número de linfonodos regionais. A possibilidade de lesão de natureza neoplásica pode ser considerada dentre os diagnósticos diferenciais.
+    replace: Espessamento parietal circunferencial e irregular do cólon na transição sigmoide/descendente, com extensão de cerca de _ cm, associado a distensão de alças a montante (suboclusivo). Associam-se pequena quantidade de líquido livre na cavidade abdominal, densificação do tecido adiposo e aumento do número de linfonodos regionais. A possibilidade de lesão de natureza neoplásica pode ser considerada dentre os diagnósticos diferenciais.
     word: true
 
   - trigger: "tcneoret3"
@@ -3409,7 +3409,7 @@ matches:
 
   - trigger: "tcneoflex1"
     label: "Neoplasia da flexura esplênica com espessamento ileal associado"
-    replace: Espessamento parietal segmentar irregular com massa expansiva de aspecto exofítico, com necrose central e acentuada neoangiogênese adjacente, medindo cerca de _ cm, com epicentro na flexura esplênica, determinando acentuada distensão com coproestase de alças intestinais à montante. A lesão não apresenta nítidos planos de clivagem com a cauda do pâncreas e com o rim esquerdo, deslocando este posteriormente. Destaca-se ainda espessamento parietal circunferencial e regular acometendo a válvula ileocecal e o íleo terminal/distal, com extensão de aproximadamente _ cm. Associam-se moderada quantidade de líquido livre na cavidade abdominal, bem como aumento do número e das dimensões de linfonodos retroperitoneais e na raiz do mesentério, medindo até _ cm na cadeia ilíaca comum direita.
+    replace: Espessamento parietal segmentar irregular com massa expansiva de aspecto exofítico, com necrose central e acentuada neoangiogênese adjacente, medindo cerca de _ cm, com epicentro na flexura esplênica, determinando acentuada distensão com coproestase de alças intestinais a montante. A lesão não apresenta nítidos planos de clivagem com a cauda do pâncreas e com o rim esquerdo, deslocando este posteriormente. Destaca-se ainda espessamento parietal circunferencial e regular acometendo a válvula ileocecal e o íleo terminal/distal, com extensão de aproximadamente _ cm. Associam-se moderada quantidade de líquido livre na cavidade abdominal, bem como aumento do número e das dimensões de linfonodos retroperitoneais e na raiz do mesentério, medindo até _ cm na cadeia ilíaca comum direita.
     word: true
 
   - trigger: "tcneoflex1c"
@@ -3429,22 +3429,22 @@ matches:
 
   - trigger: "tcdeisc2"
     label: "Deiscência de alça ileal com coleção fecaloide"
-    replace: Descontinuidade parietal da borda antimesentérica de alça intestinal do íleo terminal, onde se observa coleção adjacente com focos gasosos de permeio, sugestiva de material fecaloide, medindo _ cm, com volume de _ ml. Associam-se hiperrealce mucoso e espessamento parietal das alças ileais, obliteração difusa dos planos adiposos, ingurgitamento dos vasos retos e aumento do número de linfonodos mesentéricos.
+    replace: Descontinuidade parietal da borda antimesentérica de alça intestinal do íleo terminal, onde se observa coleção adjacente com focos gasosos de permeio, sugestiva de material fecaloide, medindo _ cm, com volume de _ cm³. Associam-se hiper-realce mucoso e espessamento parietal das alças ileais, obliteração difusa dos planos adiposos, ingurgitamento dos vasos retos e aumento do número de linfonodos mesentéricos.
     word: true
 
   - trigger: "tchemoper2"
     label: "Hemoperitônio da região pancreatoduodenal à goteira parietocólica"
-    replace: Líquido livre hiperdenso/hemático na cavidade abdominal, que se estende da região pancreatoduodenal até a goteira parietocólica direita, medindo _ cm, com volume de _ ml.
+    replace: Líquido livre hiperdenso/hemático na cavidade abdominal, que se estende da região pancreatoduodenal até a goteira parietocólica direita, medindo _ cm, com volume de _ cm³.
     word: true
 
   - trigger: "tccolec3"
     label: "Coleção pélvica — abscesso ou perfuração de alça"
-    replace: Coleção heterogênea localizada na região pélvica, com material hiperdenso/hemático e focos gasosos de permeio, medindo cerca de _ cm, com volume de _ ml, apresentando contato com alças ileais. As possibilidades de abscesso infectado ou de perfuração de alça podem ser consideradas. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
+    replace: Coleção heterogênea localizada na região pélvica, com material hiperdenso/hemático e focos gasosos de permeio, medindo cerca de _ cm, com volume de _ cm³, apresentando contato com alças ileais. As possibilidades de abscesso ou de perfuração de alça podem ser consideradas. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tccolec4"
     label: "Coleção pré-sacral por provável deiscência de sutura"
-    replace: Coleção heterogênea na região pré-sacral, adjacente ao sítio de manipulação cirúrgica, com material hiperdenso/hemático e focos gasosos de permeio, medindo cerca de _ cm, com volume de _ ml, que se estende superiormente e comunica com outra pequena coleção em formação no nível de L5. Associa-se densificação dos planos adiposos adjacentes. A possibilidade de abscesso/deiscência de sutura pode ser considerada. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
+    replace: Coleção heterogênea na região pré-sacral, adjacente ao sítio de manipulação cirúrgica, com material hiperdenso/hemático e focos gasosos de permeio, medindo cerca de _ cm, com volume de _ cm³, que se estende superiormente e comunica com outra pequena coleção em formação no nível de L5. Associa-se densificação dos planos adiposos adjacentes. A possibilidade de abscesso/deiscência de sutura pode ser considerada. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tcdeisc3"
@@ -3459,7 +3459,7 @@ matches:
 
   - trigger: "tcneoflex2"
     label: "Neoplasia subestenosante da flexura hepática"
-    replace: Espessamento parietal focal no cólon ascendente, ao nível da flexura hepática, de caráter subestenosante, notando-se realce após a administração de meio de contraste endovenoso, com extensão de cerca de _ cm, promovendo distensão hidroaérea do intestino grosso e delgado à montante. Associa-se pequena quantidade de líquido livre adjacente e aumento do número de linfonodos regionais. O conjunto de achados sugere lesão de natureza neoplásica.
+    replace: Espessamento parietal focal no cólon ascendente, ao nível da flexura hepática, de caráter subestenosante, notando-se realce após a administração de meio de contraste endovenoso, com extensão de cerca de _ cm, promovendo distensão hidroaérea do intestino grosso e delgado a montante. Associa-se pequena quantidade de líquido livre adjacente e aumento do número de linfonodos regionais. O conjunto de achados sugere lesão de natureza neoplásica.
     word: true
 
   - trigger: "tcneodesc3"
@@ -3504,12 +3504,12 @@ matches:
 
   - trigger: "tcdivert10"
     label: "Diverticulite perfurada com alças de bloqueio"
-    replace: Múltiplos divertículos cólicos esparsos, destacando-se espessamento parietal nas bordas mesentérica e antimesentérica do sigmoide, achados de natureza inflamatória/infecciosa (diverticulite aguda), destacando-se descontinuidade parietal/perfuração na borda mesentérica do sigmoide (descontinuidade de _ cm), com consequente pneumoperitônio e conteúdo fecal na cavidade abdominal. Associa-se espessamento parietal subestenosante das alças ileais adjacentes, de aspecto reacional (alças de bloqueio), determinando distensão hidroaérea à montante das alças delgadas.
+    replace: Múltiplos divertículos cólicos esparsos, destacando-se espessamento parietal nas bordas mesentérica e antimesentérica do sigmoide, achados de natureza inflamatória/infecciosa (diverticulite aguda), destacando-se descontinuidade parietal/perfuração na borda mesentérica do sigmoide (descontinuidade de _ cm), com consequente pneumoperitônio e conteúdo fecal na cavidade abdominal. Associa-se espessamento parietal subestenosante das alças ileais adjacentes, de aspecto reacional (alças de bloqueio), determinando distensão hidroaérea a montante das alças delgadas.
     word: true
 
   - trigger: "tcdivert11"
     label: "Diverticulite perfurada com coleções não organizadas"
-    replace: Divertículos cólicos difusos, localizados no terço médio/distal do segmento descendente e em todo o sigmoide. Destaca-se descontinuidade parietal em divertículo da borda mesentérica da transição descendente/sigmoide, associada a obliteração difusa dos planos gordurosos, ingurgitamento dos vasos paracólicos, focos de pneumoperitônio e coleções líquidas/fluidas livres na cavidade abdominal, porém sem caracterizar abscessos, a maior delas na escavação pélvica direita, medindo _ cm, com volume de _ ml. O conjunto de achados sugere processo inflamatório/infeccioso agudo dos divertículos, complicado com perfuração (pneumoperitônio) e coleções intracavitárias não organizadas.
+    replace: Divertículos cólicos difusos, localizados no terço médio/distal do segmento descendente e em todo o sigmoide. Destaca-se descontinuidade parietal em divertículo da borda mesentérica da transição descendente/sigmoide, associada a obliteração difusa dos planos gordurosos, ingurgitamento dos vasos paracólicos, focos de pneumoperitônio e coleções líquidas/fluidas livres na cavidade abdominal, porém sem caracterizar abscessos, a maior delas na escavação pélvica direita, medindo _ cm, com volume de _ cm³. O conjunto de achados sugere processo inflamatório/infeccioso agudo dos divertículos, complicado com perfuração (pneumoperitônio) e coleções intracavitárias não organizadas.
     word: true
 
   - trigger: "tcdivert12"
@@ -3519,7 +3519,7 @@ matches:
 
   - trigger: "tcactin2"
     label: "Retossigmoidite inflamatória ou actínica"
-    replace: Estratificação, espessamento parietal e hiperrealce mucoso do retossigmoide, associados a ingurgitamento dos vasos pericólicos e leve obliteração dos planos gordurosos adjacentes. O conjunto de achados descritos, embora inespecífico, pode estar relacionado a processo inflamatório/infeccioso ou a alterações actínicas, no contexto de radioterapia prévia local.
+    replace: Estratificação, espessamento parietal e hiper-realce mucoso do retossigmoide, associados a ingurgitamento dos vasos pericólicos e leve obliteração dos planos gordurosos adjacentes. O conjunto de achados descritos, embora inespecífico, pode estar relacionado a processo inflamatório/infeccioso ou a alterações actínicas, no contexto de radioterapia prévia local.
     word: true
 
   - trigger: "tcileopar3"
@@ -3529,7 +3529,7 @@ matches:
 
   - trigger: "tchernpumb"
     label: "Abdome agudo obstrutivo por hérnia paraumbilical"
-    replace: Hérnia paraumbilical direita, com protrusão de conteúdo gorduroso e de alça jejunal, notando-se estreitamento abrupto de calibre com dilatação de alças delgadas à montante. Associam-se densificação do tecido adiposo adjacente e pequena quantidade de líquido no saco herniário. Não se observam focos de pneumoperitônio. O conjunto de achados sugere abdome agudo obstrutivo por hérnia.
+    replace: Hérnia paraumbilical direita, com protrusão de conteúdo gorduroso e de alça jejunal, notando-se estreitamento abrupto de calibre com dilatação de alças delgadas a montante. Associam-se densificação do tecido adiposo adjacente e pequena quantidade de líquido no saco herniário. Não se observam focos de pneumoperitônio. O conjunto de achados sugere abdome agudo obstrutivo por hérnia.
     word: true
 
   - trigger: "tcherning6"
@@ -3543,7 +3543,7 @@ matches:
     word: true
 
   - trigger: "tccopro5"
-    label: "Fecaloma retal com distensão de alças à montante"
+    label: "Fecaloma retal com distensão de alças a montante"
     replace: Coproestase com distensão focal do reto (fecaloma), a partir de onde se observa distensão hidroaérea de alças intestinais cólicas e delgadas. Associam-se pequena quantidade de líquido livre na cavidade abdominal, bem como aumento do número de linfonodos na raiz do mesentério e retroperitoneais.
     word: true
 
@@ -3559,7 +3559,7 @@ matches:
 
   - trigger: "tcobstr3"
     label: "Obstrução jejunal com perfuração e coleção"
-    replace: Transição abrupta de calibre em alça jejunal na região pélvica, associada a distensão de alças à montante, com conteúdo líquido, por vezes formando nível hidroaéreo. Destaca-se ainda, nessa topografia, descontinuidade parietal da alça intestinal, onde se nota coleção com nível hidroaéreo, medindo cerca de _ cm, com volume de _ cm³, bem como aumento do número de linfonodos regionais, densificação dos planos adiposos adjacentes e espessamento parietal de alça de sigmoide nessa topografia (reacional). O conjunto de achados sugere a possibilidade de abdome agudo obstrutivo complicado com perfuração e coleção.
+    replace: Transição abrupta de calibre em alça jejunal na região pélvica, associada a distensão de alças a montante, com conteúdo líquido, por vezes formando nível hidroaéreo. Destaca-se ainda, nessa topografia, descontinuidade parietal da alça intestinal, onde se nota coleção com nível hidroaéreo, medindo cerca de _ cm, com volume de _ cm³, bem como aumento do número de linfonodos regionais, densificação dos planos adiposos adjacentes e espessamento parietal de alça de sigmoide nessa topografia (reacional). O conjunto de achados sugere a possibilidade de abdome agudo obstrutivo complicado com perfuração e coleção.
     word: true
 
   - trigger: "tcperf4"
@@ -3569,7 +3569,7 @@ matches:
 
   - trigger: "tcperf5"
     label: "Abdome agudo perfurativo com coleção entre cólon e jejuno"
-    replace: Espessamento parietal irregular e segmentar do cólon descendente em sua porção cranial, notando-se também espessamento parietal segmentar de alça jejunal proximal (próximo ao ângulo de Treitz). Associam-se pequena coleção líquida (medindo _ cm, com volume de _ ml) com focos gasosos extraluminais de permeio (pneumoperitônio) entre os dois segmentos supracitados, bem como densificação de planos adiposos adjacentes e aumento do número de linfonodos regionais e celíacos, onde se observa um deles no limite superior da normalidade. O conjunto de achados sugere abdome agudo perfurativo de etiologia a esclarecer, podendo-se admitir a possibilidade de processo neoplásico dentre os diferenciais.
+    replace: Espessamento parietal irregular e segmentar do cólon descendente em sua porção cranial, notando-se também espessamento parietal segmentar de alça jejunal proximal (próximo ao ângulo de Treitz). Associam-se pequena coleção líquida (medindo _ cm, com volume de _ cm³) com focos gasosos extraluminais de permeio (pneumoperitônio) entre os dois segmentos supracitados, bem como densificação de planos adiposos adjacentes e aumento do número de linfonodos regionais e celíacos, onde se observa um deles no limite superior da normalidade. O conjunto de achados sugere abdome agudo perfurativo de etiologia a esclarecer, podendo-se admitir a possibilidade de processo neoplásico dentre os diferenciais.
     word: true
 
   - trigger: "tcrecidost"
@@ -3588,7 +3588,7 @@ matches:
 
   - trigger: "tcpseudmix2"
     label: "Pseudomixoma e carcinomatose peritoneal de origem indeterminada"
-    replace: Múltiplas massas, confluentes, de aspecto sólido-cístico, com componente sólido heterogêneo exibindo realce pelo meio de contraste endovenoso, as maiores localizadas no hemiabdome direito, em regiões de hipocôndrio, flanco e fossa ilíaca, determinando efeito expansivo sobre as estruturas adjacentes e promovendo acentuada dilatação de vias biliares intra e extra-hepáticas. Parte das lesões promove impressão/lobulação junto à borda do lobo hepático direito. Associam-se ascite volumosa e linfonodomegalias retrocrural, intra e retroperitoneais, bem como na região inguinal direita, por vezes de aspecto necrótico, medindo até _ cm, e nódulos esparsos na superfície peritoneal. O conjunto de achados sugere pseudomixoma/carcinomatose peritoneal, de origem indeterminada. Os diagnósticos diferenciais devem ser aplicados.
+    replace: Múltiplas massas, confluentes, de aspecto sólido-cístico, com componente sólido heterogêneo exibindo realce pelo meio de contraste endovenoso, as maiores localizadas no hemiabdome direito, em regiões de hipocôndrio, flanco e fossa ilíaca, determinando efeito expansivo sobre as estruturas adjacentes e promovendo acentuada dilatação de vias biliares intra e extra-hepáticas. Parte das lesões promove impressão/lobulação junto à borda do lobo hepático direito. Associam-se ascite volumosa e linfonodomegalias retrocrurais, intraperitoneais e retroperitoneais, bem como na região inguinal direita, por vezes de aspecto necrótico, medindo até _ cm, e nódulos esparsos na superfície peritoneal. O conjunto de achados sugere pseudomixoma/carcinomatose peritoneal, de origem indeterminada. Os diagnósticos diferenciais devem ser aplicados.
     word: true
 
   - trigger: "tcmetfighv3"
@@ -3603,7 +3603,7 @@ matches:
 
   - trigger: "tchemorrp2"
     label: "Hematoma retroperitoneal sem sangramento ativo"
-    replace: Coleção densa/hemática de moderado volume, localizada no retroperitônio à direita, com extensão para a fossa ilíaca, o hipocôndrio, as regiões inguinal e pélvica, bem como para a musculatura do iliopsoas ipsilaterais. Associa-se densificação de partes moles locais. Não há sinais de sangramento ativo no presente estudo.
+    replace: Coleção densa/hemática de moderado volume, localizada no retroperitônio à direita, com extensão para a fossa ilíaca, o hipocôndrio, as regiões inguinal e pélvica, bem como para a musculatura do iliopsoas ipsilateral. Associa-se densificação de partes moles locais. Não há sinais de sangramento ativo no presente estudo.
     word: true
 
   - trigger: "tcneorp"
@@ -3683,7 +3683,7 @@ matches:
 
   - trigger: "tccarcper1"
     label: "Carcinomatose peritoneal com neoangiogênese"
-    replace: Pequena quantidade de líquido livre na cavidade peritoneal, associada a nódulos e massas omentais e na superfície peritoneal, bem como espessamento nodular da raiz do mesentério, com intensa neoangiogênese e linfonodomegalias peritoneais e retroperitoneais, medindo até _ cm na cadeia para-aórtica esquerda. Esse conjunto de achados sugere representar carcinomatose peritoneal.
+    replace: Pequena quantidade de líquido livre na cavidade peritoneal, associada a nódulos e massas omentais e na superfície peritoneal, bem como espessamento nodular da raiz do mesentério, com intensa neoangiogênese e linfonodomegalias peritoneais e retroperitoneais, medindo até _ cm na cadeia para-aórtica esquerda. Esse conjunto de achados sugere carcinomatose peritoneal.
     word: true
 
   - trigger: "tccarcper2"
@@ -3772,7 +3772,7 @@ matches:
 
   - trigger: "tcfossin"
     label: "Fossetas de herniação sinovial dos colos femorais"
-    replace: Formações ovaladas hipoatenuantes localizadas no aspecto anterior dos colos femorais, subcentimétricas, sugerindo representar fossetas de herniação sinovial, com frequência achado incidental, sem correlação clínica.
+    replace: Formações ovaladas hipoatenuantes localizadas no aspecto anterior dos colos femorais, subcentimétricas, sugerindo fossetas de herniação sinovial, com frequência achado incidental, sem correlação clínica.
     word: true
 
   - trigger: "tccoliliop"
@@ -3787,7 +3787,7 @@ matches:
 
   - trigger: "tcsarcpm1"
     label: "Sarcoma de partes moles da região lombar"
-    replace: Surgimento de formação expansiva sólida e com realce pelo meio de contraste intravenoso, com pequenos focos liquefeitos/necróticos de permeio, com epicentro nos planos musculoaponeuróticos na região lombar direita, obliterando os planos gordurosos subcutâneos, por vezes com lâminas líquidas subcutâneas (linfadenite/edema), determinando espessamento da pele e indefinindo os ventres musculares no triângulo lombar superior. Há extensão da lesão para a cavidade abdominal retroperitoneal, na topografia do espaço pararrenal posterior e da fáscia lateroconal direitas. Destaca-se tênue plano de clivagem da lesão com a cortical renal ipsilateral, porém desloca o rim direito anterior e medialmente, assim como neoangiogênese perilesional. A lesão mede cerca de _ cm e dista _ cm da pele. O conjunto de achados sugere como possibilidades diagnósticas processo neoplásico primário de partes moles (sarcoma) e processo inflamatório/infeccioso organizado (crônico). Correlacionar com dados clínicos e laboratoriais.
+    replace: Surgimento de formação expansiva sólida e com realce pelo meio de contraste endovenoso, com pequenos focos liquefeitos/necróticos de permeio, com epicentro nos planos musculoaponeuróticos na região lombar direita, obliterando os planos gordurosos subcutâneos, por vezes com lâminas líquidas subcutâneas (linfadenite/edema), determinando espessamento da pele e indefinindo os ventres musculares no triângulo lombar superior. Há extensão da lesão para a cavidade abdominal retroperitoneal, na topografia do espaço pararrenal posterior e da fáscia lateroconal direitas. Destaca-se tênue plano de clivagem da lesão com a cortical renal ipsilateral, porém desloca o rim direito anterior e medialmente, assim como neoangiogênese perilesional. A lesão mede cerca de _ cm e dista _ cm da pele. O conjunto de achados sugere como possibilidades diagnósticas processo neoplásico primário de partes moles (sarcoma) e processo inflamatório/infeccioso organizado (crônico). Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tcsarcpm2"
@@ -3807,7 +3807,7 @@ matches:
 
   - trigger: "tcpafglut"
     label: "Ferimento por arma de fogo na região glútea"
-    replace: Aumento volumétrico e densificação do ventre dos músculos piriforme e porção mediana do glúteo médio à direita, sugerindo representar hematoma/área de laceração. Associam-se partículas metálicas de permeio, que podem corresponder a fragmentos de projétil de arma de fogo. Observa-se ainda hematoma e enfisema subcutâneo em região glútea direita e retrossacral esquerda, inferindo provável trajeto de passagem do projétil.
+    replace: Aumento volumétrico e densificação do ventre dos músculos piriforme e porção mediana do glúteo médio à direita, sugerindo hematoma/área de laceração. Associam-se partículas metálicas de permeio, que podem corresponder a fragmentos de projétil de arma de fogo. Observa-se ainda hematoma e enfisema subcutâneo em região glútea direita e retrossacral esquerda, inferindo provável trajeto de passagem do projétil.
     word: true
 
   - trigger: "tcabssubc"
@@ -3821,7 +3821,7 @@ matches:
       Pequenas coleções inflamatórias/infecciosas, assim distribuídas:
       - região inguinal superficial à direita, sem extensão para o respectivo canal inguinal, medindo _ cm, com volume de _ cm³, com densificação dos planos gordurosos adjacentes e focos gasosos de permeio;
       - região perianal direita, com extensão superior para a musculatura puborretal ipsilateral, medindo _ cm, com volume de _ cm³, com focos gasosos de permeio;
-      - tecido subcutâneo na linha média da região perivertebral sacrococcígea, sem evidências de acometimento dos elementos vertebrais posteriores e/ou dos ligamentos supraespinhosos, medindo _ cm (volume estimado em _ ml).
+      - tecido subcutâneo na linha média da região perivertebral sacrococcígea, sem evidências de acometimento dos elementos vertebrais posteriores e/ou dos ligamentos supraespinhosos, medindo _ cm (volume estimado em _ cm³).
     word: true
 
   # ==========================================================================
@@ -3830,12 +3830,12 @@ matches:
 
   - trigger: "tchernobt"
     label: "Abdome agudo obstrutivo por hérnia obturatória"
-    replace: Hérnia obturatória à direita, com protrusão de alça intestinal ileal, pequena quantidade de líquido no interior do saco herniário e densificação dos planos adiposos adjacentes, determinando distensão de segmentos de alças intestinais delgadas e da câmara gástrica à montante, com conteúdo líquido, formando nível hidroaéreo, associado a densificação dos planos adiposos adjacentes. Não se observam sinais de pneumoperitônio ou pneumatose. O conjunto de achados é compatível com abdome agudo obstrutivo por hérnia obturatória.
+    replace: Hérnia obturatória à direita, com protrusão de alça intestinal ileal, pequena quantidade de líquido no interior do saco herniário e densificação dos planos adiposos adjacentes, determinando distensão de segmentos de alças intestinais delgadas e da câmara gástrica a montante, com conteúdo líquido, formando nível hidroaéreo. Não se observam sinais de pneumoperitônio ou pneumatose. O conjunto de achados é compatível com abdome agudo obstrutivo por hérnia obturatória.
     word: true
 
   - trigger: "tchernfem"
     label: "Abdome agudo obstrutivo por hérnia femoral"
-    replace: Hérnia femoral à direita, com protrusão de alça intestinal ileal, pequena quantidade de líquido no interior do saco herniário e densificação dos planos adiposos adjacentes, determinando distensão de segmentos de alças intestinais delgadas à montante, com conteúdo líquido, formando nível hidroaéreo, associado a densificação dos planos adiposos adjacentes e líquido livre na cavidade peritoneal. Não se observam sinais de hipocontrastação de alças intestinais, pneumoperitônio ou pneumatose. O conjunto de achados é compatível com abdome agudo obstrutivo por hérnia femoral.
+    replace: Hérnia femoral à direita, com protrusão de alça intestinal ileal, pequena quantidade de líquido no interior do saco herniário e densificação dos planos adiposos adjacentes, determinando distensão de segmentos de alças intestinais delgadas a montante, com conteúdo líquido, formando nível hidroaéreo, associado a líquido livre na cavidade peritoneal. Não se observam sinais de hipocontrastação de alças intestinais, pneumoperitônio ou pneumatose. O conjunto de achados é compatível com abdome agudo obstrutivo por hérnia femoral.
     word: true
 
   - trigger: "tcherning1"
@@ -3870,18 +3870,18 @@ matches:
 
   - trigger: "tchernepi1"
     label: "Hérnia epigástrica com abdome agudo obstrutivo"
-    replace: Hérnia epigástrica com colo de _ cm e protrusão de alça delgada e conteúdo gorduroso, com densificação do tecido adiposo adjacente, notando-se estreitamento abrupto de calibre com dilatação segmentar de algumas alças delgadas à montante. Não se observam focos de pneumoperitônio, permanecendo a alça herniada com contrastação preservada. O conjunto de achados sugere abdome agudo obstrutivo.
+    replace: Hérnia epigástrica com colo de _ cm e protrusão de alça delgada e conteúdo gorduroso, com densificação do tecido adiposo adjacente, notando-se estreitamento abrupto de calibre com dilatação segmentar de algumas alças delgadas a montante. Não se observam focos de pneumoperitônio, permanecendo a alça herniada com contrastação preservada. O conjunto de achados sugere abdome agudo obstrutivo.
     word: true
 
   - trigger: "tchernint4"
     label: "Hérnia interna paraduodenal direita com má rotação"
     replace: |-
-      Ângulo de Treitz à direita, sugerindo má rotação intestinal. Conglomerado segmentar com distensão hidroaérea de alças delgadas no hipocôndrio/flanco direito, associado a densificação dos planos gordurosos e rotação do mesentério vascular. Associa-se ainda distensão hidroaérea da câmara gástrica e de alças delgadas à jusante, assim como moderada quantidade de líquido livre na pelve.
+      Ângulo de Treitz à direita, sugerindo má rotação intestinal. Conglomerado segmentar com distensão hidroaérea de alças delgadas no hipocôndrio/flanco direito, associado a densificação dos planos gordurosos e rotação do mesentério vascular. Associa-se ainda distensão hidroaérea da câmara gástrica e de alças delgadas a jusante, assim como moderada quantidade de líquido livre na pelve.
     word: true
 
   - trigger: "tchernint4c"
     label: "Conclusão — hérnia interna paraduodenal direita"
-    replace: Conglomerado segmentar com distensão hidroaérea de alças delgadas no hipocôndrio/flanco direito, associado a densificação dos planos gordurosos e rotação do mesentério vascular. Associa-se ainda distensão hidroaérea da câmara gástrica e de alças delgadas à jusante, assim como moderada quantidade de líquido livre na pelve. O conjunto de achados sugere como principal consideração diagnóstica hérnia interna paraduodenal direita, com sinais de má rotação intestinal.
+    replace: Conglomerado segmentar com distensão hidroaérea de alças delgadas no hipocôndrio/flanco direito, associado a densificação dos planos gordurosos e rotação do mesentério vascular. Associa-se ainda distensão hidroaérea da câmara gástrica e de alças delgadas a jusante, assim como moderada quantidade de líquido livre na pelve. O conjunto de achados sugere como principal consideração diagnóstica hérnia interna paraduodenal direita, com sinais de má rotação intestinal.
     word: true
 
   - trigger: "tchernincis3"
@@ -3890,7 +3890,7 @@ matches:
       Hérnias incisionais ventrais, assim caracterizadas e distribuídas:
       - paramediana supraumbilical esquerda, com conteúdo de alça cólica transversa, apresentando colo de _ cm;
       - infraumbilical no espaço semilunar esquerdo, com conteúdo de alças delgadas e colo de _ cm;
-      - mediana infraumbilical, com conteúdo de alça delgada ileal e colo de _ cm. Associam-se distensão com nível hidroaéreo das alças herniadas e dos segmentos à montante, assim como espessamento parietal e hiperrealce mucoso do segmento herniado, sugerindo alterações obstrutivas e inflamatórias.
+      - mediana infraumbilical, com conteúdo de alça delgada ileal e colo de _ cm. Associam-se distensão com nível hidroaéreo das alças herniadas e dos segmentos a montante, assim como espessamento parietal e hiper-realce mucoso do segmento herniado, sugerindo alterações obstrutivas e inflamatórias.
     word: true
 
   - trigger: "tchernincis4"
@@ -3899,12 +3899,12 @@ matches:
       Hérnias incisionais ventrais, assim caracterizadas e distribuídas:
       - paramediana supraumbilical esquerda, com conteúdo de alça cólica transversa, apresentando colo de _ cm, sem sinais de complicações obstrutivas ou inflamatórias;
       - infraumbilical no espaço semilunar esquerdo, com conteúdo de alças delgadas e colo de _ cm, sem sinais de complicações obstrutivas ou inflamatórias;
-      - infraumbilical paramediana esquerda, com conteúdo de alça delgada ileal e colo de _ cm. Associa-se leve distensão com nível hidroaéreo das alças herniadas e dos segmentos à montante, assim como espessamento parietal e hiperrealce mucoso do segmento herniado, sugerindo alterações obstrutivas e inflamatórias.
+      - infraumbilical paramediana esquerda, com conteúdo de alça delgada ileal e colo de _ cm. Associa-se leve distensão com nível hidroaéreo das alças herniadas e dos segmentos a montante, assim como espessamento parietal e hiper-realce mucoso do segmento herniado, sugerindo alterações obstrutivas e inflamatórias.
     word: true
 
   - trigger: "tcherning2"
     label: "Hérnia inguinal com obstrução (estudo sem contraste)"
-    replace: Hérnia inguinal direita, com protrusão de conteúdo gorduroso e de alça ileal, notando-se estreitamento abrupto de calibre com dilatação de alças delgadas à montante. Associa-se tênue densificação do tecido adiposo adjacente. Não se observam focos de pneumoperitônio ou outros sinais de sofrimento de alça no estudo sem contraste. O conjunto de achados sugere abdome agudo obstrutivo. Caso persista a indicação clínica, o estudo com contraste poderá fornecer informações adicionais.
+    replace: Hérnia inguinal direita, com protrusão de conteúdo gorduroso e de alça ileal, notando-se estreitamento abrupto de calibre com dilatação de alças delgadas a montante. Associa-se tênue densificação do tecido adiposo adjacente. Não se observam focos de pneumoperitônio ou outros sinais de sofrimento de alça no estudo sem contraste. O conjunto de achados sugere abdome agudo obstrutivo. Caso persista a indicação clínica, o estudo com contraste poderá fornecer informações adicionais.
     word: true
 
   - trigger: "tchernlom1"
@@ -4028,7 +4028,7 @@ matches:
 
   - trigger: "tchematret"
     label: "Coleção hemática dos retos abdominais com infecção sobreposta"
-    replace: Formação heterogênea com componentes espontaneamente hiperdensos de permeio, centrada nos ventres musculares dos retoabdominais em topografia infraumbilical, com áreas liquefeitas e focos gasosos de permeio, com áreas com realce parietal, medindo cerca de _ cm, com volume estimado de _ cm³, associada a aumento do número de linfonodos pélvicos/inguinais e pequena quantidade de líquido livre na pelve, achados que sugerem coleção hemática aguda/subaguda com sinais de processo inflamatório/infeccioso sobreposto. Destacam-se ainda focos espontaneamente hiperdensos (prováveis coleções hemáticas agudas/subagudas) nos planos subcutâneos no hipogástrio. Correlacionar com dados clínicos e laboratoriais.
+    replace: Formação heterogênea com componentes espontaneamente hiperdensos de permeio, centrada nos ventres musculares dos retos abdominais em topografia infraumbilical, com áreas liquefeitas e focos gasosos de permeio, com áreas com realce parietal, medindo cerca de _ cm, com volume estimado de _ cm³, associada a aumento do número de linfonodos pélvicos/inguinais e pequena quantidade de líquido livre na pelve, achados que sugerem coleção hemática aguda/subaguda com sinais de processo inflamatório/infeccioso sobreposto. Destacam-se ainda focos espontaneamente hiperdensos (prováveis coleções hemáticas agudas/subagudas) nos planos subcutâneos no hipogástrio. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
   - trigger: "tcsangadu"
@@ -4063,7 +4063,7 @@ matches:
 
   - trigger: "tclinfretr"
     label: "Múltiplas linfonodomegalias retrocrurais e retroperitoneais"
-    replace: Múltiplas linfonodomegalias, por vezes confluentes formando massa (medindo até _ cm), algumas com centro necrótico, localizadas em região retrocrural e no retroperitônio, envolvendo em mais de 180º a aorta, iniciando-se na altura das artérias renais, onde mantém íntimo contato com a direita, envolve em 360º a esquerda e estende-se até a cadeia ilíaca comum bilateralmente. O conjunto de achados sugere processo neoplásico secundário.
+    replace: Múltiplas linfonodomegalias, por vezes confluentes formando massa (medindo até _ cm), algumas com centro necrótico, localizadas em região retrocrural e no retroperitônio, envolvendo em mais de 180° a aorta, iniciando-se na altura das artérias renais, onde mantém íntimo contato com a direita, envolve em 360° a esquerda e estende-se até a cadeia ilíaca comum bilateralmente. O conjunto de achados sugere processo neoplásico secundário.
     word: true
 
   - trigger: "tczenker"
