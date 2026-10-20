@@ -2290,7 +2290,7 @@ matches:
 
   - trigger: "tcdissao1"
     label: "Dissecção aórtica toracoabdominal com hemotórax"
-    replace: Sinais de dissecção das aortas torácica e abdominal, iniciando-se na aorta ascendente e estendendo-se até a bifurcação das artérias ilíacas. A luz falsa apresenta paredes irregulares e exibe opacificação heterogênea pelo meio de contraste endovenoso, podendo representar rotura no interior do saco aneurismático. Associa-se volumosa coleção hemática no hemitórax direito (hemotórax), presumivelmente relacionada à rotura aórtica.
+    replace: Sinais de dissecção das aortas torácica e abdominal, iniciando-se na aorta ascendente e estendendo-se até a bifurcação das artérias ilíacas, com dilatação aneurismática da aorta _, com calibre máximo de _ cm. A luz falsa apresenta paredes irregulares e exibe opacificação heterogênea pelo meio de contraste endovenoso, podendo representar rotura no interior do saco aneurismático. Associa-se volumosa coleção hemática no hemitórax direito (hemotórax), presumivelmente relacionada à rotura aórtica.
     word: true
 
   - trigger: "tcdissao2"
