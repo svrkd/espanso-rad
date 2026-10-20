@@ -56,7 +56,7 @@ BLOCOS = [
             ("1", "subcostal"), ("2", "esplenomegalia"), ("3", "Gamna-Gandy"), ("4", "acessório"),
         ]),
         ("escada", "ap", "apêndice", [("1", "apendicite"), ("2", "processo inflamatório")]),
-        ("escada", "dh", "Doppler porta", [("0", "normal")]),
+        ("escada", "dabd", "Doppler abdome superior", [("0", "normal")]),
     ]),
 
     ("RINS · BEXIGA", [

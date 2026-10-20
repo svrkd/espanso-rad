@@ -10,7 +10,7 @@ matches:
   #   ap  = apêndice cecal            ba  = baço
   #   ca  = vias biliares/colédoco    ch  = fígado (hepatopatia difusa)
   #   eh  = fígado (esteatose)        fh  = fígado (lesão focal)
-  #   dh  = fígado (Doppler porta)    vb  = vesícula biliar
+  #   vb  = vesícula biliar           (Doppler porta/hepático: ver dabd em VASCULAR)
   #
   # RINS / VIAS URINÁRIAS / BEXIGA / PRÓSTATA
   #   rv  = rins e vias urinárias     bx  = bexiga           prostn = próstata
@@ -274,15 +274,6 @@ matches:
   - trigger: "ch4c"
     label: "Fígado: hepatomegalia congestiva | Vasos: ectasia de cava e tributárias/ascite"
     replace: Hepatomegalia, associada a ectasia da veia cava e suas principais tributárias e ascite. Esses achados, dentro do contexto clínico adequado, estão relacionados à congestão.
-    word: true
-
-  - trigger: "dh0"
-    label: "Fígado (Doppler): Veia porta pérvia, de calibre preservado (mede _ cm, normal <1,2 cm), fluxo hepatopetal e..."
-    replace: |-
-      Veia porta pérvia, de calibre preservado (mede _ cm, normal <1,2 cm), fluxo hepatopetal e velocidade de pico sistólico de _ cm/s (normal entre 11 e 23).
-      Veias hepáticas pérvias, com padrão de fluxo trifásico habitual.
-      Veia esplênica pérvia, de calibre preservado (mede _ cm, normal <0,9 cm) e fluxo hepatopetal.
-      Artéria hepática com IR de _ (normal entre 0,55 e 0,7).
     word: true
 
   - trigger: "eh1"
@@ -9189,12 +9180,23 @@ matches:
   # ==============================================================================
   # VASCULAR — DOPPLER DO ABDOME SUPERIOR (PORTAL, HEPÁTICO, ESPLÊNICO, MESENTÉRICO)
   # ==============================================================================
-  # Ordem: achados mais frequentes primeiro. Estenose de tronco celíaco e de artéria
-  # mesentérica superior pelo critério de Moneta (VPS ≥ 200 e ≥ 275 cm/s: ≥ 70%).
+  # Ordem: achados mais frequentes primeiro (dabd0 = bloco normal). Estenose de tronco
+  # celíaco e AMS: AbuRahma 2012 (VPS ≥ 240/320 e ≥ 295/400 cm/s: ≥ 50%/≥ 70%).
+  # Nutcracker: razão de diâmetros > 4,0 e de velocidades > 5,0 (adultos); o consenso
+  # Delphi 2025 (Heilijgers et al.) não fechou corte único.
+
+  - trigger: "dabd0"
+    label: "Doppler abdome superior: normal (porta, veias hepáticas, veia esplênica, artéria hepática)"
+    replace: |-
+      Veia porta pérvia, de calibre preservado (mede _ cm, normal até 1,3 cm), fluxo hepatopetal e velocidade de _ cm/s (normal entre 16 e 40 cm/s).
+      Veias hepáticas pérvias, com padrão de fluxo trifásico habitual.
+      Veia esplênica pérvia, de calibre preservado (mede _ cm, normal até 0,9 cm) e fluxo hepatopetal.
+      Artéria hepática com índice de resistência de _ (normal entre 0,55 e 0,7).
+    word: true
 
   - trigger: "dabd1"
     label: "Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida (achado descritivo)"
-    replace: "Veia porta pérvia, com calibre aumentado, medindo _ cm (normal até 1,3 cm), fluxo hepatopetal de velocidade reduzida, de _ cm/s, e perda da variação respiratória do fluxo, sugerindo hipertensão portal."
+    replace: "Veia porta pérvia, com calibre aumentado, medindo _ cm (normal até 1,3 cm), fluxo hepatopetal de velocidade reduzida, de _ cm/s (normal acima de 16 cm/s), e perda da variação respiratória do fluxo, sugerindo hipertensão portal."
     word: true
 
   - trigger: "dabd1c"
@@ -9363,13 +9365,13 @@ matches:
     word: true
 
   - trigger: "dabd18"
-    label: "Doppler abdome superior: Tronco celíaco: estenose ≥ 70%, VPS ≥ 200 cm/s (Moneta) (achado descritivo)"
-    replace: "Placa ateromatosa na origem do tronco celíaco, com fluxo turbulento e velocidade de pico sistólico de _ cm/s (igual ou superior a 200 cm/s), compatível com estenose igual ou superior a 70%."
+    label: "Doppler abdome superior: Tronco celíaco: estenose ≥ 50%/≥ 70%, VPS ≥ 240/320 cm/s (AbuRahma 2012) (achado descritivo)"
+    replace: "Placa ateromatosa na origem do tronco celíaco, com fluxo turbulento e velocidade de pico sistólico de _ cm/s (igual ou superior a 240/320 cm/s), compatível com estenose igual ou superior a 50%/70%."
     word: true
 
   - trigger: "dabd18c"
-    label: "Doppler abdome superior: Tronco celíaco: estenose ≥ 70%, VPS ≥ 200 cm/s (Moneta)"
-    replace: "Estenose igual ou superior a 70% do tronco celíaco."
+    label: "Doppler abdome superior: Tronco celíaco: estenose ≥ 50%/≥ 70%, VPS ≥ 240/320 cm/s (AbuRahma 2012)"
+    replace: "Estenose igual ou superior a 50%/70% do tronco celíaco."
     word: true
 
   - trigger: "dabd19"
@@ -9383,18 +9385,18 @@ matches:
     word: true
 
   - trigger: "dabd20"
-    label: "Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 70%, VPS ≥ 275 cm/s (Moneta) (achado descritivo)"
-    replace: "Placa ateromatosa na origem da artéria mesentérica superior, com fluxo turbulento e velocidade de pico sistólico de _ cm/s (igual ou superior a 275 cm/s), compatível com estenose igual ou superior a 70%."
+    label: "Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 50%/≥ 70%, VPS ≥ 295/400 cm/s (AbuRahma 2012) (achado descritivo)"
+    replace: "Placa ateromatosa na origem da artéria mesentérica superior, com fluxo turbulento e velocidade de pico sistólico de _ cm/s (igual ou superior a 295/400 cm/s), compatível com estenose igual ou superior a 50%/70%."
     word: true
 
   - trigger: "dabd20c"
-    label: "Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 70%, VPS ≥ 275 cm/s (Moneta)"
-    replace: "Estenose igual ou superior a 70% da artéria mesentérica superior."
+    label: "Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 50%/≥ 70%, VPS ≥ 295/400 cm/s (AbuRahma 2012)"
+    replace: "Estenose igual ou superior a 50%/70% da artéria mesentérica superior."
     word: true
 
   - trigger: "dabd21"
     label: "Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) (achado descritivo)"
-    replace: "Veia renal esquerda com redução de calibre no seu trajeto entre a aorta e a artéria mesentérica superior, medindo _ cm, e dilatação do segmento hilar, medindo _ cm (razão entre diâmetros de _), com velocidade de pico de _ cm/s no ponto de compressão e de _ cm/s no segmento hilar (razão entre velocidades de _), superiores a 5,0, sugerindo compressão aortomesentérica da veia renal esquerda."
+    replace: "Veia renal esquerda com redução de calibre no seu trajeto entre a aorta e a artéria mesentérica superior, medindo _ cm, e dilatação do segmento hilar, medindo _ cm (razão entre diâmetros de _, superior a 4,0), com velocidade de pico de _ cm/s no ponto de compressão e de _ cm/s no segmento hilar (razão entre velocidades de _, superior a 5,0), sugerindo compressão aortomesentérica da veia renal esquerda."
     word: true
 
   - trigger: "dabd21c"

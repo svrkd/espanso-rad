@@ -40,7 +40,6 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ch3c | Fígado (hepatopatia difusa): Hepatopatia parenquimatosa associada a sinais de fibrose periportal |
 | ch4 | Fígado (hepatopatia difusa): Hepatomegalia, associada a ectasia da veia cava e suas principais tributárias e ascite (achado descritivo) |
 | ch4c | Fígado: hepatomegalia congestiva \| Vasos: ectasia de cava e tributárias/ascite |
-| dh0 | Fígado (Doppler): Veia porta pérvia, de calibre preservado (mede _ cm, normal <1,2 cm), fluxo hepatopetal e... |
 | eh1 | Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática leve (grau I) (achado descritivo) |
 | eh1c | Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I) |
 | eh2 | Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática moderada (grau II) (achado descritivo) |
@@ -1674,6 +1673,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 
 | Trigger | Label |
 |---|---|
+| dabd0 | Doppler abdome superior: normal (porta, veias hepáticas, veia esplênica, artéria hepática) |
 | dabd1 | Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida (achado descritivo) |
 | dabd1c | Doppler abdome superior: Hipertensão portal: porta dilatada, velocidade reduzida |
 | dabd2 | Doppler abdome superior: Hipertensão portal: recanalização da veia paraumbilical (achado descritivo) |
@@ -1708,12 +1708,12 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | dabd16c | Doppler abdome superior: Trombose da veia esplênica |
 | dabd17 | Doppler abdome superior: Trombose da veia mesentérica superior (achado descritivo) |
 | dabd17c | Doppler abdome superior: Trombose da veia mesentérica superior |
-| dabd18 | Doppler abdome superior: Tronco celíaco: estenose ≥ 70%, VPS ≥ 200 cm/s (Moneta) (achado descritivo) |
-| dabd18c | Doppler abdome superior: Tronco celíaco: estenose ≥ 70%, VPS ≥ 200 cm/s (Moneta) |
+| dabd18 | Doppler abdome superior: Tronco celíaco: estenose ≥ 50%/≥ 70%, VPS ≥ 240/320 cm/s (AbuRahma 2012) (achado descritivo) |
+| dabd18c | Doppler abdome superior: Tronco celíaco: estenose ≥ 50%/≥ 70%, VPS ≥ 240/320 cm/s (AbuRahma 2012) |
 | dabd19 | Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano (achado descritivo) |
 | dabd19c | Doppler abdome superior: Tronco celíaco: compressão pelo ligamento arqueado mediano |
-| dabd20 | Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 70%, VPS ≥ 275 cm/s (Moneta) (achado descritivo) |
-| dabd20c | Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 70%, VPS ≥ 275 cm/s (Moneta) |
+| dabd20 | Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 50%/≥ 70%, VPS ≥ 295/400 cm/s (AbuRahma 2012) (achado descritivo) |
+| dabd20c | Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 50%/≥ 70%, VPS ≥ 295/400 cm/s (AbuRahma 2012) |
 | dabd21 | Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) (achado descritivo) |
 | dabd21c | Doppler abdome superior: Veia renal esquerda: compressão aortomesentérica (nutcracker) |
 | dabd22 | Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) (achado descritivo) |
