@@ -9450,19 +9450,18 @@ matches:
     word: true
 
   - trigger: "tccotovelo"
-    label: "TC de cotovelo C/C — normal"
+    label: "TC de cotovelo S/C — normal"
     replace: |
-      TOMOGRAFIA COMPUTADORIZADA DO COTOVELO DIREITO/ESQUERDO C/C
+      TOMOGRAFIA COMPUTADORIZADA DO COTOVELO DIREITO/ESQUERDO S/C
 
       Técnica:
-      Foram obtidas imagens por aquisição volumétrica multislice, antes e após a administração endovenosa de contraste, com reformatações multiplanares.
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
       Estruturas ósseas de formato habitual, sem sinais de fraturas.
       Espaços articulares de contornos regulares.
       Não há sinais de derrame articular.
       Planos musculares e tendíneos sem alterações tomográficas.
-      Após a administração endovenosa do meio de contraste, não se observou realce patológico.
 
       Conclusão:
       Exame dentro dos padrões da normalidade.
@@ -9835,10 +9834,10 @@ matches:
       Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
 
       Descrição:
-      Estruturas ósseas de forma conservada, sem sinais de fraturas.
+      Estruturas ósseas de formato habitual, sem sinais de fraturas.
       Espaços articulares de contornos regulares.
       Não há sinais de derrame articular.
-      Planos musculares sem alterações tomográficas.
+      Planos musculares e tendíneos sem alterações tomográficas.
 
       Conclusão:
       Exame dentro dos padrões da normalidade.
