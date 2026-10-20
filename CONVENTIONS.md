@@ -103,6 +103,21 @@ Exame sem alterações significativas.
 ## Nomenclatura de triggers novos
 
 - **Código de órgão + número**, no estilo já usado em `us.yml` (`vb1`, `vb2`, `ba3`, `rv14`...): padrão recomendado para achados novos em qualquer arquivo, não só `us.yml`. O mesmo código de órgão é reaproveitado entre modalidades (ex. `vb` para vesícula biliar vale tanto para uma entrada nova em `us.yml` quanto em `tc.yml`).
+- **Tomografia de abdome (`tc_abd.yml`)**: `tc` + código de órgão de duas letras + abreviação do achado + número só para desempate (`tcfgest`, `tcvblit`, `tcrvpie1`; conclusão com sufixo `c`, ex. `tcrvpxg1c`). Digitar `tcfg` na busca do Espanso lista só fígado. Códigos (os que já existem no `us.yml` foram reaproveitados):
+
+  | Código | Órgão/região | Código | Órgão/região |
+  |---|---|---|---|
+  | `fg` | fígado | `bx` | bexiga, próstata, úraco |
+  | `vb` | vesícula e vias biliares | `ap` | apêndice cecal |
+  | `pc` | pâncreas | `vs` | vascular (aorta, mesentéricas, sistema porta) |
+  | `ba` | baço | `ut` | útero e colo uterino |
+  | `ad` | adrenais | `ov` | ovários e anexos |
+  | `rv` | rins e ureteres | `pv` | demais estruturas pélvicas e genitais |
+  | `es` | esôfago, estômago e duodeno | `pt` | peritônio, retroperitônio, mesentério, linfonodos |
+  | `dl` | intestino delgado | `pm` | parede abdominal e partes moles |
+  | `cl` | cólon e reto | `hr` | hérnias |
+  | `os` | ossos | `ou` | fora do abdome (tórax, pescoço) |
+
 - **Mnemônico memorável (opção alternativa)**: em vez de padronizar por código de órgão + número, priorizar o que for mais fácil de lembrar na hora de digitar — acrônimos, siglas, "resumo" informal do achado, mesmo sem número (ex.: uma frase descrevendo tendinopatia do ligamento patelar sugere `tendpat` — mas esse trigger específico já existe em `match/rm.yml` para o mesmo achado, exatamente o tipo de colisão a resolver pelo desempate abaixo). Havendo colisão entre mnemônicos parecidos, pode-se recorrer ao formato letras+número só para diferenciá-los (ex. `tendpat2`) — isso é desempate de nomenclatura, não uma regra de sempre criar uma entrada numerada por variante do achado.
   - Evite usar como trigger uma palavra que aparece corriqueiramente dentro do próprio texto de um laudo (ex. "deltoide", "capsulite" — e mesmo "artrodese", que já é hoje um trigger real em `match/rm.yml`, então qualquer laudo que mencione o procedimento nessa forma dispara a expansão sem querer) — como todo trigger tem `word: true`, digitar a palavra no meio de uma frase dispara a expansão à toa. Prefira abreviar/contrair (sigla, clipping silábico) em vez de usar a palavra por extenso.
   - Se o mnemônico óbvio já estiver ocupado (ver grep de colisão abaixo), escolha um mnemônico alternativo livre; se necessário, desempate com sufixo numérico.
