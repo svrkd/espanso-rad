@@ -131,7 +131,7 @@ matches:
 
   - trigger: "balboa"
     label: "Hematoma frontal/periorbitário esquerdo"
-    replace: "Aumento de partes moles extracraniano nas regiões frontal e periorbitária à esquerda, sugerindo hematoma."
+    replace: "Aumento de partes moles extracranianas nas regiões frontal e periorbitária à esquerda, sugerindo hematoma."
     word: true
 
   - trigger: "calo"
@@ -396,22 +396,22 @@ matches:
 
   - trigger: "maguila"
     label: "Hematoma de partes moles frontofacial à direita"
-    replace: "Aumento de volume de partes moles extracraniano nas regiões frontal, periorbitária e malar à direita, sugerindo hematoma."
+    replace: "Aumento de volume de partes moles extracranianas nas regiões frontal, periorbitária e malar à direita, sugerindo hematoma."
     word: true
 
   - trigger: "maguila1"
     label: "Hematoma frontoperiorbitário à direita"
-    replace: "Aumento de volume de partes moles extracraniano nas regiões frontal e periorbitária à direita, sugerindo hematoma."
+    replace: "Aumento de volume de partes moles extracranianas nas regiões frontal e periorbitária à direita, sugerindo hematoma."
     word: true
 
   - trigger: "maguilabife"
     label: "Hematoma frontofacial à direita com ferimento"
-    replace: "Aumento de volume de partes moles extracraniano nas regiões frontal, periorbitária e malar à direita, sugerindo hematoma. Associa-se ferimento com solução de continuidade de pele e tecido subcutâneo."
+    replace: "Aumento de volume de partes moles extracranianas nas regiões frontal, periorbitária e malar à direita, sugerindo hematoma. Associa-se ferimento com solução de continuidade de pele e tecido subcutâneo."
     word: true
 
   - trigger: "maguilae"
     label: "Hematoma de partes moles frontofacial à esquerda"
-    replace: "Aumento de volume de partes moles extracraniano nas regiões frontal, periorbitária e malar à esquerda, sugerindo hematoma."
+    replace: "Aumento de volume de partes moles extracranianas nas regiões frontal, periorbitária e malar à esquerda, sugerindo hematoma."
     word: true
 
   - trigger: "malaglis"
@@ -617,7 +617,7 @@ matches:
 
   - trigger: "subgalopo"
     label: "Hematoma subgaleal parieto-occipital direito"
-    replace: "Aumento de partes moles extracraniano na região parieto-occipital direita, compatível com hematoma subgaleal."
+    replace: "Aumento de partes moles extracranianas na região parieto-occipital direita, compatível com hematoma subgaleal."
     word: true
 
   - trigger: "tcavc"
@@ -2661,6 +2661,7 @@ matches:
   - trigger: "conegc"
     label: "CO-RADS 2"
     replace: |
+      Conclusão:
       Achados tomográficos não relacionados a pneumonia viral (CO-RADS 2).
       Demais achados pormenorizados no corpo do laudo.
       Obs.: a tomografia de tórax pode não apresentar alterações, principalmente nas primeiras 48 horas após início dos sintomas de infecção viral. Correlacionar com dados clínicos e laboratoriais para considerar realização de novo estudo evolutivo.
@@ -4319,7 +4320,6 @@ matches:
   - trigger: "herniafemoral"
     label: "Hérnia femoral encarcerada com obstrução"
     replace: |
-      Descrição:
       Hérnia femoral direita com protrusão de conteúdo gorduroso e segmento de alça ileal, determinando estreitamento abrupto de calibre com distensão hidroaérea de alças delgadas e câmara gástrica. Associa-se densificação do tecido adiposo adjacente no saco herniário. Não se observam focos de pneumoperitônio.
     word: true
 
@@ -5827,11 +5827,11 @@ matches:
       Conclusão:
       Fígado apresentando nódulos esparsos pelo parênquima, com realce pelo meio de contraste endovenoso na única fase tardia realizada, inespecíficos no protocolo empregado.
       Ateromatose de vasos intra-abdominais.
-      Raros divertículos cólicos esparsos, sem sinais inflamatórios associados.
+      Raros divertículos cólicos, sem sinais inflamatórios associados.
       Pequena hérnia umbilical.
       Bexiga vazia de avaliação prejudicada.
       Espondilose lombar.
-      Densificação do tecido adiposo em região pélvica, inespecífica.
+      Densificação do tecido adiposo em região perirretal, inespecífica.
     word: true
 
   - trigger: "anv"
@@ -7371,7 +7371,7 @@ matches:
       Material de hemostasia junto à craniotomia.
       Formação hiperdensa, com espessura de _ cm, localizada junto à tábua óssea interna em região frontal direita, inespecífica no protocolo empregado. Lesão residual? Hematoma extra-axial?
       Áreas de hemorragia intraparenquimatosa no lobo frontal direito, junto ao leito cirúrgico, com extensão subaracnoide. Associa-se edema/alterações isquêmicas no parênquima adjacente, com apagamento dos sulcos corticais regionais e desvio contralateral das estruturas da linha média de _ cm.
-      Aumento de partes moles extracraniano na região parietal esquerda, sugerindo hematoma subgaleal.
+      Aumento de partes moles extracranianas na região parietal esquerda, sugerindo hematoma subgaleal.
 
       Permanecendo:
       Tronco cerebral e cerebelo de aspecto conservado.
@@ -7565,7 +7565,7 @@ matches:
 
       Conclusão:
       Áreas com coeficiente de atenuação semelhante ao líquor localizadas nos lobos frontal e occipital direitos (encefalomalácia / gliose).
-      Lesões de aspecto lacunar crônico nos núcleos da base, bilateralmente e na ponte.
+      Lesões de aspecto lacunar crônico nos núcleos da base e tálamo bilateralmente, bem como na ponte.
       Sinais de redução volumétrica encefálica difusa.
       Microangiopatia/gliose.
       Ateromatose de base de crânio.
