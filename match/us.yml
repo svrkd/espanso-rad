@@ -7648,12 +7648,12 @@ matches:
 
   - trigger: "tx5"
     label: "Tórax (consolidação): Consolidação sem broncograma aéreo (achado descritivo)"
-    replace: Consolidação subpleural hipoecogênica, com bordas irregulares e fragmentadas (sinal do retalho), sem broncogramas aéreos identificáveis em seu interior.
+    replace: Consolidação subpleural hipoecogênica, com bordas irregulares e fragmentadas, sem broncogramas aéreos identificáveis em seu interior.
     word: true
 
   - trigger: "tx5c"
     label: "Tórax (consolidação): Consolidação sem broncograma aéreo"
-    replace: Consolidação pulmonar sem broncograma aéreo, podendo corresponder a atelectasia obstrutiva ou a derrame pleural organizado. Sugere-se correlação clínica.
+    replace: Consolidação pulmonar sem broncograma aéreo. Os diagnósticos diferenciais incluem consolidação pneumônica, atelectasia obstrutiva e lesão expansiva pulmonar, entre outros. Sugere-se prosseguir a investigação diagnóstica com tomografia computadorizada.
     word: true
 
   - trigger: "tx6"
