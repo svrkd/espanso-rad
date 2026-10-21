@@ -930,32 +930,32 @@ matches:
     replace: "Endoprótese aórtica abdominal pérvia, sem sinais de vazamento (endoleak)."
     word: true
 
-  - trigger: "evarancoragem"
+  - trigger: "evar1"
     label: "Endoleak tipo I (zona de ancoragem: Ia proximal, Ib distal)"
     replace: "Opacificação pelo meio de contraste no interior do saco aneurismático já na fase arterial, em continuidade com a extremidade _ da endoprótese, junto à zona de ancoragem _, compatível com vazamento (endoleak) tipo I_. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
     word: true
 
-  - trigger: "evarancoragemc"
+  - trigger: "evar1c"
     label: "Conclusão — endoleak tipo I"
     replace: "Vazamento (endoleak) tipo I_ da endoprótese aórtica abdominal."
     word: true
 
-  - trigger: "evarlombar"
+  - trigger: "evar2"
     label: "Endoleak tipo II (IIa um ramo, IIb dois ou mais)"
     replace: "Opacificação pelo meio de contraste no interior do saco aneurismático, mais evidente na fase tardia, sem continuidade com as zonas de ancoragem ou com as junções da endoprótese, em contiguidade com _ pérvia(s), compatível com vazamento (endoleak) tipo II_. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
     word: true
 
-  - trigger: "evarlombarc"
+  - trigger: "evar2c"
     label: "Conclusão — endoleak tipo II"
     replace: "Vazamento (endoleak) tipo II_ da endoprótese aórtica abdominal, a partir de _."
     word: true
 
-  - trigger: "evarjuncao"
+  - trigger: "evar3"
     label: "Endoleak tipo IIIa (desconexão modular)"
     replace: "Opacificação pelo meio de contraste no interior do saco aneurismático junto à junção entre o corpo principal e o ramo _ da endoprótese, com perda da sobreposição dos componentes modulares, compatível com vazamento (endoleak) tipo IIIa. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
     word: true
 
-  - trigger: "evarjuncaoc"
+  - trigger: "evar3c"
     label: "Conclusão — endoleak tipo IIIa"
     replace: "Vazamento (endoleak) tipo IIIa da endoprótese aórtica abdominal, por desconexão modular."
     word: true
