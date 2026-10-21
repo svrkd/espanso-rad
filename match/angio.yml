@@ -1624,13 +1624,23 @@ matches:
   # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — ESTENOSE E OCLUSÃO
   # ==========================================================================
   - trigger: "roubosubclavio"
-    label: "Lesão obstrutiva proximal da subclávia (roubo a confirmar ao Doppler)"
-    replace: "Lesão obstrutiva do segmento proximal da artéria subclávia _, proximal à origem da artéria vertebral, _ (redução luminal estimada em _%; ou oclusão), com reenchimento da subclávia distal. Artéria vertebral _ pérvia, com opacificação menos intensa que a contralateral. A angio-TC não define a direção do fluxo na artéria vertebral, cabendo ao Doppler confirmar a inversão (roubo da subclávia)."
+    label: "Estenose proximal da subclávia (roubo a confirmar ao Doppler)"
+    replace: "Estenose do segmento proximal da artéria subclávia _, proximal à origem da artéria vertebral, determinando redução luminal estimada em _%. Artéria vertebral _ pérvia, com opacificação menos intensa que a contralateral. A angio-TC não define a direção do fluxo na artéria vertebral, cabendo ao Doppler confirmar a inversão (roubo da subclávia)."
     word: true
 
   - trigger: "roubosubclavioc"
-    label: "Conclusão — lesão obstrutiva proximal da subclávia"
-    replace: "Lesão obstrutiva proximal da artéria subclávia _ (estenose significativa; ou oclusão), proximal à origem da artéria vertebral, podendo determinar roubo da subclávia."
+    label: "Conclusão — estenose proximal da subclávia"
+    replace: "Estenose significativa proximal da artéria subclávia _, proximal à origem da artéria vertebral, podendo determinar roubo da subclávia."
+    word: true
+
+  - trigger: "roubosubclavio2"
+    label: "Oclusão proximal da subclávia (roubo a confirmar ao Doppler)"
+    replace: "Oclusão do segmento proximal da artéria subclávia _, proximal à origem da artéria vertebral, com reenchimento da subclávia distal. Artéria vertebral _ pérvia, com opacificação menos intensa que a contralateral. A angio-TC não define a direção do fluxo na artéria vertebral, cabendo ao Doppler confirmar a inversão (roubo da subclávia)."
+    word: true
+
+  - trigger: "roubosubclavio2c"
+    label: "Conclusão — oclusão proximal da subclávia"
+    replace: "Oclusão proximal da artéria subclávia _, proximal à origem da artéria vertebral, podendo determinar roubo da subclávia."
     word: true
 
   - trigger: "oclusaodigital"
@@ -1743,13 +1753,23 @@ matches:
     word: true
 
   - trigger: "veiacentral"
-    label: "Estenose ou oclusão venosa central"
-    replace: "Lesão obstrutiva da veia _, no segmento _, _ (redução luminal estimada em _%; ou oclusão), _ (ipsilateral à fístula arteriovenosa; ou em trajeto de cateter venoso central prévio). Associa-se circulação colateral venosa na parede torácica e na região cervical."
+    label: "Estenose venosa central"
+    replace: "Estenose da veia _, no segmento _, _ (ipsilateral à fístula arteriovenosa; ou em trajeto de cateter venoso central prévio), determinando redução luminal estimada em _%. Associa-se circulação colateral venosa na parede torácica e na região cervical."
     word: true
 
   - trigger: "veiacentralc"
-    label: "Conclusão — estenose ou oclusão venosa central"
-    replace: "Lesão obstrutiva da veia _ (estenose; ou oclusão), com circulação colateral."
+    label: "Conclusão — estenose venosa central"
+    replace: "Estenose da veia _, com circulação colateral."
+    word: true
+
+  - trigger: "veiacentral2"
+    label: "Oclusão venosa central"
+    replace: "Oclusão da veia _, no segmento _, _ (ipsilateral à fístula arteriovenosa; ou em trajeto de cateter venoso central prévio). Associa-se circulação colateral venosa na parede torácica e na região cervical."
+    word: true
+
+  - trigger: "veiacentral2c"
+    label: "Conclusão — oclusão venosa central"
+    replace: "Oclusão da veia _, com circulação colateral."
     word: true
 
   # ==========================================================================
