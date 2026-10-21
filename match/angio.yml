@@ -770,3 +770,1384 @@ matches:
     label: "Conclusão — HSA perimesencefálica sem aneurisma"
     replace: "Hemorragia subaracnoide de padrão perimesencefálico, sem aneurisma identificável à angiotomografia."
     word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — ASPECTO NORMAL
+  # ==========================================================================
+  - trigger: "angioabd1"
+    label: "Aorta abdominal e ramos normais (angio-TC)"
+    replace: "Aorta abdominal com trajeto, calibre e contornos preservados, sem dilatações aneurismáticas, retalho intimal ou estenoses. Tronco celíaco, artérias mesentéricas superior e inferior, artérias renais e artérias ilíacas comuns, internas e externas pérvias, com trajeto e calibre preservados, sem estenoses."
+    word: true
+
+  - trigger: "angioabd1c"
+    label: "Conclusão — angio-TC de aorta abdominal normal"
+    replace: "Angiotomografia de aorta abdominal e ramos sem alterações significativas."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — AORTA ABDOMINAL E ILÍACAS
+  # ==========================================================================
+  - trigger: "aneuabd"
+    label: "Aneurisma da aorta abdominal infrarrenal (≥ 3,0 cm)"
+    replace: "Dilatação aneurismática fusiforme da aorta abdominal infrarrenal, com diâmetro máximo de _ cm (≥ 3,0 cm, medido perpendicularmente ao eixo do fluxo, de borda externa a borda externa), estendendo-se por cerca de _ cm até _, com colo proximal de _ cm de extensão a partir da artéria renal mais baixa, _ cm de diâmetro e angulação de _°. Associa-se trombo mural excêntrico de até _ cm de espessura."
+    word: true
+
+  - trigger: "aneuabdc"
+    label: "Conclusão — aneurisma da aorta abdominal infrarrenal"
+    replace: "Aneurisma fusiforme da aorta abdominal infrarrenal."
+    word: true
+
+  - trigger: "aneujustarrenal"
+    label: "Aneurisma justarrenal da aorta abdominal"
+    replace: "Dilatação aneurismática da aorta abdominal iniciando-se imediatamente abaixo das artérias renais, sem acometer suas origens, com colo infrarrenal curto (_ cm) ou ausente, diâmetro máximo de _ cm (medido perpendicularmente ao eixo do fluxo, de borda externa a borda externa) e extensão até _."
+    word: true
+
+  - trigger: "aneujustarrenalc"
+    label: "Conclusão — aneurisma justarrenal da aorta abdominal"
+    replace: "Aneurisma justarrenal da aorta abdominal."
+    word: true
+
+  - trigger: "aneuiliaca"
+    label: "Aneurisma da artéria ilíaca comum"
+    replace: "Dilatação aneurismática fusiforme da artéria ilíaca comum _, com diâmetro máximo de _ cm (medido de borda externa a borda externa), estendendo-se por cerca de _ cm e terminando a _ cm da bifurcação ilíaca."
+    word: true
+
+  - trigger: "aneuiliacac"
+    label: "Conclusão — aneurisma da artéria ilíaca comum"
+    replace: "Aneurisma fusiforme da artéria ilíaca comum _."
+    word: true
+
+  - trigger: "aortainstavel"
+    label: "Aneurisma com sinal do crescente hiperatenuante (rotura iminente)"
+    replace: "Área em crescente espontaneamente hiperatenuante na fase sem contraste, na periferia do trombo mural do aneurisma da aorta abdominal, sugerindo sangramento intramural agudo (sinal do crescente hiperatenuante). Associa-se descontinuidade focal da calcificação parietal circunferencial na parede _ do aneurisma."
+    word: true
+
+  - trigger: "aortainstavelc"
+    label: "Conclusão — sinal do crescente hiperatenuante"
+    replace: "Aneurisma da aorta abdominal com sinal do crescente hiperatenuante, sugestivo de rotura iminente."
+    word: true
+
+  - trigger: "aortadrapeada"
+    label: "Sinal da aorta drapeada (rotura contida)"
+    replace: "Parede posterior do aneurisma da aorta abdominal mal definida, moldando-se ao contorno anterior do corpo vertebral de _ (sinal da aorta drapeada), sugerindo rotura contida."
+    word: true
+
+  - trigger: "aortadrapeadac"
+    label: "Conclusão — sinal da aorta drapeada"
+    replace: "Sinal da aorta drapeada, sugestivo de rotura contida do aneurisma da aorta abdominal."
+    word: true
+
+  - trigger: "aortarota"
+    label: "Aneurisma roto com hematoma retroperitoneal e sangramento ativo"
+    replace: "Hematoma retroperitoneal em contiguidade com o aneurisma da aorta abdominal, estendendo-se aos espaços _, com descontinuidade da parede _ do aneurisma. Associa-se extravasamento do meio de contraste a partir da parede _, aumentando de volume e dispersando-se no hematoma na fase tardia, compatível com sangramento ativo."
+    word: true
+
+  - trigger: "aortarotac"
+    label: "Conclusão — aneurisma roto da aorta abdominal"
+    replace: "Rotura de aneurisma da aorta abdominal, com hematoma retroperitoneal e sangramento ativo."
+    word: true
+
+  - trigger: "aneuinflamatorio"
+    label: "Aneurisma inflamatório da aorta abdominal"
+    replace: "Manto de partes moles periaórtico, com realce tardio pelo meio de contraste, envolvendo as paredes anterior e laterais do aneurisma da aorta abdominal e poupando a parede posterior, sugerindo aneurisma inflamatório. Diâmetro aórtico máximo de _ cm, medido excluindo o manto periaórtico. Associa-se envolvimento de _ pelo manto."
+    word: true
+
+  - trigger: "aneuinflamatorioc"
+    label: "Conclusão — aneurisma inflamatório da aorta abdominal"
+    replace: "Aneurisma inflamatório da aorta abdominal."
+    word: true
+
+  - trigger: "aneuinfeccioso"
+    label: "Aneurisma infeccioso (micótico) da aorta"
+    replace: "Dilatação aneurismática sacular e lobulada da aorta _, medindo _ cm, com parede irregular e mal definida, associada a densificação da gordura e tecido de partes moles periaórticos, sugerindo aneurisma infeccioso (micótico) no contexto clínico informado."
+    word: true
+
+  - trigger: "aneuinfecciosoc"
+    label: "Conclusão — aneurisma infeccioso (micótico) da aorta"
+    replace: "Aneurisma sacular da aorta _, sugestivo de aneurisma infeccioso (micótico)."
+    word: true
+
+  - trigger: "flapabd"
+    label: "Dissecção da aorta abdominal"
+    replace: "Retalho intimal na aorta abdominal, estendendo-se de _ a _, delimitando luz verdadeira de menor calibre e luz falsa de maior calibre, com rotura intimal de entrada no nível de _. Ramos viscerais emergindo da luz verdadeira, exceto _."
+    word: true
+
+  - trigger: "flapabdc"
+    label: "Conclusão — dissecção da aorta abdominal (SVS/STS)"
+    replace: "Dissecção da aorta abdominal (SVS/STS: tipo B, extensão proximal na zona _ e distal na zona _)."
+    word: true
+
+  - trigger: "obstrucaodinamica"
+    label: "Dissecção com obstrução dinâmica de ramo visceral"
+    replace: "Compressão da luz verdadeira pela luz falsa, com prolapso do retalho intimal sobre o óstio da artéria _, sem extensão do retalho ao ramo, determinando redução de sua opacificação (obstrução dinâmica). Associa-se hipoperfusão de _."
+    word: true
+
+  - trigger: "obstrucaodinamicac"
+    label: "Conclusão — obstrução dinâmica de ramo visceral"
+    replace: "Dissecção aórtica com obstrução dinâmica da artéria _ e hipoperfusão de _."
+    word: true
+
+  - trigger: "obstrucaoestatica"
+    label: "Dissecção com obstrução estática de ramo visceral"
+    replace: "Extensão do retalho intimal ao interior da artéria _, determinando estreitamento luminal a partir de sua origem (obstrução estática). Associa-se hipoperfusão de _."
+    word: true
+
+  - trigger: "obstrucaoestaticac"
+    label: "Conclusão — obstrução estática de ramo visceral"
+    replace: "Dissecção aórtica com obstrução estática da artéria _ e hipoperfusão de _."
+    word: true
+
+  - trigger: "oclusaoaortica"
+    label: "Oclusão aortoilíaca com colaterais"
+    replace: "Ausência de opacificação da aorta abdominal infrarrenal a partir de _ cm abaixo das artérias renais, estendendo-se às artérias ilíacas comuns, compatível com oclusão aortoilíaca. Associa-se circulação colateral pelas artérias lombares, mesentérica inferior, epigástricas e circunflexas ilíacas, com reenchimento das artérias _."
+    word: true
+
+  - trigger: "oclusaoaorticac"
+    label: "Conclusão — oclusão aortoilíaca"
+    replace: "Oclusão aortoilíaca, com circulação colateral."
+    word: true
+
+  - trigger: "aortacoral"
+    label: "Aorta em recife de coral (coral reef aorta)"
+    replace: "Calcificações parietais densas, irregulares e exofíticas, projetando-se para a luz da aorta abdominal no segmento _, predominando na parede posterior, determinando redução luminal estimada em _%, compatíveis com aorta em recife de coral (coral reef aorta)."
+    word: true
+
+  - trigger: "aortacoralc"
+    label: "Conclusão — aorta em recife de coral"
+    replace: "Aorta em recife de coral (coral reef aorta), com estenose do segmento _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — ENDOPRÓTESE E ENXERTO
+  # ==========================================================================
+  - trigger: "evarpervia"
+    label: "Endoprótese aórtica abdominal sem endoleak"
+    replace: "Endoprótese aórtica bifurcada, com corpo principal ancorado no colo infrarrenal, logo abaixo da artéria renal _, e ramos estendendo-se às artérias ilíacas _, pérvia e bem posicionada, com boa aposição às zonas de ancoragem, sem extravasamento do meio de contraste para o saco aneurismático nas fases arterial e tardia. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "evarperviac"
+    label: "Conclusão — endoprótese aórtica abdominal sem endoleak"
+    replace: "Endoprótese aórtica abdominal pérvia, sem sinais de vazamento (endoleak)."
+    word: true
+
+  - trigger: "evar1"
+    label: "Endoleak tipo I (zona de ancoragem: Ia proximal, Ib distal)"
+    replace: "Opacificação pelo meio de contraste no interior do saco aneurismático já na fase arterial, em continuidade com a extremidade _ da endoprótese, junto à zona de ancoragem _, compatível com vazamento (endoleak) tipo I_. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "evar1c"
+    label: "Conclusão — endoleak tipo I"
+    replace: "Vazamento (endoleak) tipo I_ da endoprótese aórtica abdominal."
+    word: true
+
+  - trigger: "evar2"
+    label: "Endoleak tipo II (IIa um ramo, IIb dois ou mais)"
+    replace: "Opacificação pelo meio de contraste no interior do saco aneurismático, mais evidente na fase tardia, sem continuidade com as zonas de ancoragem ou com as junções da endoprótese, em contiguidade com _ pérvia(s), compatível com vazamento (endoleak) tipo II_. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "evar2c"
+    label: "Conclusão — endoleak tipo II"
+    replace: "Vazamento (endoleak) tipo II_ da endoprótese aórtica abdominal, a partir de _."
+    word: true
+
+  - trigger: "evar3"
+    label: "Endoleak tipo IIIa (desconexão modular)"
+    replace: "Opacificação pelo meio de contraste no interior do saco aneurismático junto à junção entre o corpo principal e o ramo _ da endoprótese, com perda da sobreposição dos componentes modulares, compatível com vazamento (endoleak) tipo IIIa. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "evar3c"
+    label: "Conclusão — endoleak tipo IIIa"
+    replace: "Vazamento (endoleak) tipo IIIa da endoprótese aórtica abdominal, por desconexão modular."
+    word: true
+
+  - trigger: "evarramo"
+    label: "Oclusão de ramo da endoprótese aórtica"
+    replace: "Ausência de opacificação do ramo _ da endoprótese aórtica a partir de _, compatível com oclusão. Associa-se reenchimento da artéria _ ipsilateral por circulação colateral."
+    word: true
+
+  - trigger: "evarramoc"
+    label: "Conclusão — oclusão de ramo da endoprótese"
+    replace: "Oclusão do ramo _ da endoprótese aórtica abdominal."
+    word: true
+
+  - trigger: "enxertoinfectado"
+    label: "Infecção de enxerto aórtico (MAGIC: gás ≥ 7 semanas, líquido ≥ 3 meses)"
+    replace: "Coleção líquida e gás periprotéticos em torno do enxerto aórtico _, a _ meses do implante, associados a densificação da gordura adjacente, sugerindo infecção do enxerto."
+    word: true
+
+  - trigger: "enxertoinfectadoc"
+    label: "Conclusão — infecção de enxerto aórtico"
+    replace: "Coleção e gás periprotéticos, sugestivos de infecção do enxerto aórtico."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — ARTÉRIAS VISCERAIS
+  # ==========================================================================
+  - trigger: "arqueadomediano"
+    label: "Compressão do tronco celíaco pelo ligamento arqueado mediano"
+    replace: "Estreitamento focal da porção proximal do tronco celíaco, junto à sua face superior, com aspecto em gancho nas reconstruções sagitais, sem placas ateromatosas associadas, sugerindo compressão extrínseca pelo ligamento arqueado mediano. Associa-se dilatação pós-estenótica do tronco celíaco, bem como circulação colateral pelas arcadas pancreatoduodenais."
+    word: true
+
+  - trigger: "arqueadomedianoc"
+    label: "Conclusão — compressão pelo ligamento arqueado mediano"
+    replace: "Sinais de compressão do tronco celíaco pelo ligamento arqueado mediano."
+    word: true
+
+  - trigger: "estenoseostial"
+    label: "Estenose aterosclerótica ostial de ramo visceral ou renal"
+    replace: "Placas ateromatosas calcificadas e não calcificadas na origem da artéria _, determinando redução luminal estimada em _%."
+    word: true
+
+  - trigger: "estenoseostialc"
+    label: "Conclusão — estenose aterosclerótica ostial"
+    replace: "Estenose aterosclerótica ostial da artéria _."
+    word: true
+
+  - trigger: "embolomesenterica"
+    label: "Oclusão embólica da artéria mesentérica superior"
+    replace: "Falha de enchimento intraluminal na artéria mesentérica superior, a cerca de _ cm de sua origem, distalmente à emergência da artéria cólica média, sem placas ateromatosas significativas no óstio, com ausência de opacificação dos ramos distais, sugerindo oclusão embólica. Associa-se redução do realce parietal de alças de _."
+    word: true
+
+  - trigger: "embolomesentericac"
+    label: "Conclusão — oclusão embólica da mesentérica superior"
+    replace: "Oclusão da artéria mesentérica superior, sugestiva de embolia, com sinais de isquemia de alças de _."
+    word: true
+
+  - trigger: "mesentericaostial"
+    label: "Oclusão aterotrombótica da mesentérica superior (óstio)"
+    replace: "Ausência de opacificação da artéria mesentérica superior a partir de sua origem, em meio a placas ateromatosas calcificadas, sugerindo trombose sobre estenose aterosclerótica. Associa-se reenchimento distal por colaterais das arcadas pancreatoduodenais."
+    word: true
+
+  - trigger: "mesentericaostialc"
+    label: "Conclusão — oclusão aterotrombótica da mesentérica superior"
+    replace: "Oclusão aterotrombótica da artéria mesentérica superior."
+    word: true
+
+  - trigger: "isquemianaooclusiva"
+    label: "Isquemia mesentérica não oclusiva"
+    replace: "Artéria mesentérica superior e ramos pérvios, de calibre reduzido, com estreitamento e irregularidade dos ramos e redução da opacificação das arcadas e dos vasos intramurais, sem falha de enchimento ou oclusão, sugerindo isquemia mesentérica não oclusiva no contexto clínico informado. Associa-se redução do realce parietal de alças de _."
+    word: true
+
+  - trigger: "isquemianaooclusivac"
+    label: "Conclusão — isquemia mesentérica não oclusiva"
+    replace: "Achados sugestivos de isquemia mesentérica não oclusiva."
+    word: true
+
+  - trigger: "veiamesenterica"
+    label: "Trombose da veia mesentérica superior"
+    replace: "Falha de enchimento na veia mesentérica superior, estendendo-se de _ a _, com aumento do calibre do vaso, compatível com trombose. Associa-se espessamento parietal circunferencial de alças de _, com edema submucoso (sinal do alvo), bem como densificação do mesentério e líquido livre."
+    word: true
+
+  - trigger: "veiamesentericac"
+    label: "Conclusão — trombose da veia mesentérica superior"
+    replace: "Trombose da veia mesentérica superior, com sinais de sofrimento de alças de _."
+    word: true
+
+  - trigger: "flapmesenterica"
+    label: "Dissecção isolada da artéria mesentérica superior (Yun)"
+    replace: "Retalho intimal na artéria mesentérica superior, iniciando-se a _ cm de sua origem e estendendo-se por _ cm, delimitando luz verdadeira e luz falsa _, sem envolvimento da aorta, compatível com dissecção isolada da artéria mesentérica superior."
+    word: true
+
+  - trigger: "flapmesentericac"
+    label: "Conclusão — dissecção isolada da mesentérica superior (Yun I, IIa, IIb, III)"
+    replace: "Dissecção isolada da artéria mesentérica superior (Yun tipo _)."
+    word: true
+
+  - trigger: "aneuvisceral"
+    label: "Aneurisma de artéria visceral"
+    replace: "Dilatação aneurismática sacular da artéria _, no seu terço _, medindo _ cm, com calcificações parietais periféricas, sem trombo mural significativo."
+    word: true
+
+  - trigger: "aneuvisceralc"
+    label: "Conclusão — aneurisma de artéria visceral"
+    replace: "Aneurisma sacular da artéria _."
+    word: true
+
+  - trigger: "pseudovisceral"
+    label: "Pseudoaneurisma de artéria visceral"
+    replace: "Formação arredondada em contiguidade com a artéria _, medindo _ cm, com opacificação acompanhando a do leito arterial e redução da atenuação na fase tardia, sem aumento de volume, sugerindo pseudoaneurisma. Os diagnósticos diferenciais etiológicos incluem pancreatite, trauma, iatrogenia e infecção, entre outros."
+    word: true
+
+  - trigger: "pseudovisceralc"
+    label: "Conclusão — pseudoaneurisma de artéria visceral"
+    replace: "Pseudoaneurisma da artéria _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — HEMORRAGIA
+  # ==========================================================================
+  - trigger: "sangramentoativo"
+    label: "Sangramento ativo (extravasamento do contraste)"
+    replace: "Foco de extravasamento do meio de contraste na fase arterial, em _, aumentando de volume e dispersando-se no hematoma adjacente na fase tardia, compatível com sangramento ativo. Associa-se hematoma de _ cm em _."
+    word: true
+
+  - trigger: "sangramentoativoc"
+    label: "Conclusão — sangramento ativo"
+    replace: "Sangramento ativo em _."
+    word: true
+
+  - trigger: "sangramentoluminal"
+    label: "Sangramento gastrointestinal ativo"
+    replace: "Foco de extravasamento do meio de contraste para a luz do(a) _, ausente na fase sem contraste, identificado na fase arterial e com acúmulo e dispersão intraluminal na fase portal, compatível com sangramento gastrointestinal ativo."
+    word: true
+
+  - trigger: "sangramentoluminalc"
+    label: "Conclusão — sangramento gastrointestinal ativo"
+    replace: "Sangramento ativo para a luz do(a) _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — ARTÉRIAS RENAIS
+  # ==========================================================================
+  - trigger: "colarcontas"
+    label: "Displasia fibromuscular multifocal da artéria renal"
+    replace: "Alternância de segmentos estreitados e dilatados nos terços médio e distal da artéria renal _ (aspecto em colar de contas), poupando a origem, sem placas ateromatosas, podendo corresponder a displasia fibromuscular multifocal."
+    word: true
+
+  - trigger: "colarcontasc"
+    label: "Conclusão — displasia fibromuscular multifocal renal"
+    replace: "Achados que podem corresponder a displasia fibromuscular multifocal da artéria renal _."
+    word: true
+
+  - trigger: "renalacessoria"
+    label: "Artéria renal acessória"
+    replace: "Artéria renal acessória _, originando-se da aorta abdominal no nível de _, com calibre de _ cm, destinada ao polo _ do rim _ (variação anatômica)."
+    word: true
+
+  - trigger: "renalprecoce"
+    label: "Ramificação precoce (pré-hilar) da artéria renal"
+    replace: "Ramificação precoce (pré-hilar) da artéria renal _, com divisão em ramos segmentares a _ cm de sua origem (variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — VARIANTES ARTERIAIS
+  # ==========================================================================
+  - trigger: "direitasubstituta"
+    label: "Artéria hepática direita substituta da mesentérica superior (Michels III)"
+    replace: "Artéria hepática direita substituta originando-se da artéria mesentérica superior (variação anatômica, tipo III de Michels)."
+    word: true
+
+  - trigger: "esquerdasubstituta"
+    label: "Artéria hepática esquerda substituta da gástrica esquerda (Michels II)"
+    replace: "Artéria hepática esquerda substituta originando-se da artéria gástrica esquerda (variação anatômica, tipo II de Michels)."
+    word: true
+
+  - trigger: "hepaticaacessoria"
+    label: "Artéria hepática acessória (Michels V esquerda, VI direita)"
+    replace: "Artéria hepática _ acessória originando-se da artéria _, coexistindo com a artéria hepática _ de origem habitual (variação anatômica, tipo _ de Michels)."
+    word: true
+
+  - trigger: "hepaticamesenterica"
+    label: "Artéria hepática comum da mesentérica superior (Michels IX)"
+    replace: "Artéria hepática comum originando-se da artéria mesentérica superior (variação anatômica, tipo IX de Michels)."
+    word: true
+
+  - trigger: "celiacomesenterico"
+    label: "Tronco celiacomesentérico"
+    replace: "Tronco celíaco e artéria mesentérica superior originando-se de tronco comum da aorta abdominal (tronco celiacomesentérico, variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — VEIAS
+  # ==========================================================================
+  - trigger: "renalretroaortica"
+    label: "Veia renal esquerda retroaórtica"
+    replace: "Veia renal esquerda com trajeto retroaórtico, cruzando posteriormente à aorta para desembocar na veia cava inferior no nível de _ (variação anatômica)."
+    word: true
+
+  - trigger: "renalcircumaortica"
+    label: "Veia renal esquerda circum-aórtica"
+    replace: "Veia renal esquerda circum-aórtica, com componentes pré-aórtico e retroaórtico que circundam a aorta antes de desembocar na veia cava inferior (variação anatômica)."
+    word: true
+
+  - trigger: "quebranozes"
+    label: "Compressão aortomesentérica da veia renal esquerda (quebra-nozes)"
+    replace: "Compressão da veia renal esquerda no seu trajeto entre a aorta e a artéria mesentérica superior, com afilamento abrupto (sinal do bico) e dilatação do segmento pré-estenótico, com razão entre os diâmetros da veia no hilo renal e no segmento aortomesentérico de _ (≥ 4,9) e ângulo aortomesentérico de _°, sugerindo fenômeno de quebra-nozes (nutcracker). Associa-se dilatação da veia gonadal esquerda, bem como varizes pélvicas."
+    word: true
+
+  - trigger: "quebranozesc"
+    label: "Conclusão — fenômeno de quebra-nozes"
+    replace: "Sinais de compressão da veia renal esquerda entre a aorta e a artéria mesentérica superior (fenômeno de quebra-nozes)."
+    word: true
+
+  - trigger: "maythurner"
+    label: "Compressão da veia ilíaca comum esquerda (May-Thurner)"
+    replace: "Compressão da veia ilíaca comum esquerda entre a artéria ilíaca comum direita e o corpo vertebral de _, com redução luminal estimada em _%, sugerindo síndrome de May-Thurner no contexto clínico informado. Associa-se circulação colateral pélvica transversa."
+    word: true
+
+  - trigger: "maythurnerc"
+    label: "Conclusão — compressão da veia ilíaca comum esquerda"
+    replace: "Compressão da veia ilíaca comum esquerda pela artéria ilíaca comum direita (padrão de May-Thurner)."
+    word: true
+
+  - trigger: "cavaesquerda"
+    label: "Veia cava inferior à esquerda"
+    replace: "Veia cava inferior infrarrenal à esquerda da aorta, em continuidade com a veia ilíaca comum esquerda, terminando na veia renal esquerda, que cruza anteriormente à aorta para formar a veia cava inferior suprarrenal à direita (variação anatômica)."
+    word: true
+
+  - trigger: "cavadupla"
+    label: "Duplicação da veia cava inferior"
+    replace: "Duplicação da veia cava inferior infrarrenal, com veia cava esquerda originando-se da veia ilíaca comum esquerda e terminando na veia renal esquerda, que cruza anteriormente à aorta para desembocar na veia cava inferior direita (variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS INFERIORES — ASPECTO NORMAL
+  # ==========================================================================
+  - trigger: "angiommii1"
+    label: "Artérias dos membros inferiores normais (angio-TC)"
+    replace: "Aorta abdominal infrarrenal, artérias ilíacas comuns, internas e externas, femorais comuns, femorais profundas, femorais superficiais e poplíteas pérvias, com trajeto e calibre preservados, sem placas ateromatosas, estenoses ou dilatações aneurismáticas. Troncos tibiofibulares, artérias tibiais anteriores, tibiais posteriores e fibulares pérvios até o tornozelo, com opacificação das artérias dorsais do pé e plantares."
+    word: true
+
+  - trigger: "angiommii1c"
+    label: "Conclusão — angio-TC de membros inferiores normal"
+    replace: "Angiotomografia de aorta abdominal infrarrenal, artérias ilíacas e artérias dos membros inferiores sem alterações significativas."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS INFERIORES — ESTENOSE E OCLUSÃO
+  # ==========================================================================
+  - trigger: "placasdifusas"
+    label: "Ateromatose difusa sem estenose significativa"
+    replace: "Placas ateromatosas calcificadas e não calcificadas esparsas ao longo das artérias _, determinando irregularidades parietais, sem estenoses significativas (redução luminal igual ou superior a 50%)."
+    word: true
+
+  - trigger: "placasdifusasc"
+    label: "Conclusão — ateromatose difusa sem estenose significativa"
+    replace: "Ateromatose das artérias _, sem estenoses significativas."
+    word: true
+
+  - trigger: "estenoseleve"
+    label: "Estenose não significativa (redução luminal < 50%)"
+    replace: "Placa ateromatosa _ na artéria _, no terço _, determinando redução luminal estimada em _% (inferior a 50%)."
+    word: true
+
+  - trigger: "estenoselevec"
+    label: "Conclusão — estenose não significativa"
+    replace: "Estenose aterosclerótica não significativa da artéria _."
+    word: true
+
+  - trigger: "estenosesignificativa"
+    label: "Estenose significativa (redução luminal ≥ 50%)"
+    replace: "Placa ateromatosa _ na artéria _, no terço _, estendendo-se por cerca de _ cm, determinando redução luminal estimada em _% (estenose significativa, igual ou superior a 50%)."
+    word: true
+
+  - trigger: "estenosesignificativac"
+    label: "Conclusão — estenose significativa"
+    replace: "Estenose aterosclerótica significativa da artéria _."
+    word: true
+
+  - trigger: "oclusaosegmentar"
+    label: "Oclusão arterial segmentar com reenchimento distal"
+    replace: "Ausência de opacificação da artéria _ a partir de _, estendendo-se por cerca de _ cm, em meio a placas ateromatosas, compatível com oclusão. Associa-se circulação colateral a partir de _, com reenchimento da artéria _."
+    word: true
+
+  - trigger: "oclusaosegmentarc"
+    label: "Conclusão — oclusão arterial segmentar"
+    replace: "Oclusão aterosclerótica segmentar da artéria _, com reenchimento distal por colaterais."
+    word: true
+
+  - trigger: "oclusaofemoral"
+    label: "Oclusão da femoral superficial com reenchimento da poplítea"
+    replace: "Ausência de opacificação da artéria femoral superficial _ a partir de _, estendendo-se por cerca de _ cm até o canal dos adutores, em meio a placas ateromatosas calcificadas, compatível com oclusão. Associa-se circulação colateral a partir de ramos da artéria femoral profunda, com reenchimento da artéria poplítea no segmento _."
+    word: true
+
+  - trigger: "oclusaofemoralc"
+    label: "Conclusão — oclusão da femoral superficial"
+    replace: "Oclusão aterosclerótica da artéria femoral superficial _, com reenchimento da artéria poplítea por colaterais da femoral profunda."
+    word: true
+
+  - trigger: "vasounico"
+    label: "Escoamento distal por vaso único"
+    replace: "Oclusão das artérias _ a partir de _, sem reenchimento distal, com escoamento para o pé exclusivamente pela artéria _, pérvia até o tornozelo."
+    word: true
+
+  - trigger: "vasounicoc"
+    label: "Conclusão — escoamento distal por vaso único"
+    replace: "Doença arterial obstrutiva infrapoplítea _, com escoamento distal por vaso único (artéria _)."
+    word: true
+
+  - trigger: "calciolimita"
+    label: "Calcificação parietal extensa limitando a graduação de estenose"
+    replace: "Calcificações parietais extensas e circunferenciais nas artérias _, com artefato de alargamento (blooming), limitando a avaliação da luz e do grau de estenose nesses segmentos."
+    word: true
+
+  - trigger: "emboloarterial"
+    label: "Oclusão embólica aguda"
+    replace: "Interrupção abrupta da opacificação da artéria _, junto a _, com falha de enchimento intraluminal, sem circulação colateral desenvolvida e sem placas ateromatosas significativas no segmento, sugerindo oclusão embólica aguda. Associa-se ausência de opacificação das artérias _ a jusante."
+    word: true
+
+  - trigger: "emboloarterialc"
+    label: "Conclusão — oclusão embólica aguda"
+    replace: "Oclusão aguda da artéria _, sugestiva de embolia."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS INFERIORES — ANEURISMAS
+  # ==========================================================================
+  - trigger: "aneupopliteo"
+    label: "Aneurisma da artéria poplítea pérvio (SVS 2021: reparo se ≥ 2,0 cm)"
+    replace: "Dilatação aneurismática _ da artéria poplítea _, nos segmentos _, com diâmetro máximo de _ cm (segmento adjacente normal: _ cm, medidos de borda externa a borda externa), estendendo-se por cerca de _ cm, com luz pérvia. Associa-se trombo mural _ de até _ cm de espessura. Artérias de escoamento distal pérvias."
+    word: true
+
+  - trigger: "aneupopliteoc"
+    label: "Conclusão — aneurisma da artéria poplítea"
+    replace: "Aneurisma _ da artéria poplítea _."
+    word: true
+
+  - trigger: "aneupopliteo2"
+    label: "Aneurisma da artéria poplítea trombosado, com oclusões distais"
+    replace: "Dilatação aneurismática da artéria poplítea _, com diâmetro máximo de _ cm, sem opacificação da luz, preenchida por material hipoatenuante, compatível com trombose do aneurisma. Associa-se ausência de opacificação das artérias _, bem como reenchimento da artéria _ por colaterais geniculares."
+    word: true
+
+  - trigger: "aneupopliteo2c"
+    label: "Conclusão — aneurisma da artéria poplítea trombosado"
+    replace: "Aneurisma trombosado da artéria poplítea _, com oclusão das artérias de escoamento _."
+    word: true
+
+  - trigger: "aneufemoral"
+    label: "Aneurisma da artéria femoral comum (Cutler I, II)"
+    replace: "Dilatação aneurismática _ da artéria femoral comum _, com diâmetro máximo de _ cm (segmento adjacente normal: _ cm), estendendo-se por cerca de _ cm, _ a origem da artéria femoral profunda. Associa-se trombo mural _ de até _ cm de espessura."
+    word: true
+
+  - trigger: "aneufemoralc"
+    label: "Conclusão — aneurisma da femoral comum (Cutler)"
+    replace: "Aneurisma da artéria femoral comum _ (Cutler tipo _)."
+    word: true
+
+  - trigger: "pseudofemoral"
+    label: "Pseudoaneurisma da artéria femoral (pós-punção)"
+    replace: "Formação sacular junto à face _ da artéria femoral _, no sítio de punção, medindo _ cm, com opacificação acompanhando a do leito arterial e colo de _ cm comunicando-se com a luz, compatível com pseudoaneurisma. Associa-se hematoma adjacente de _ cm."
+    word: true
+
+  - trigger: "pseudofemoralc"
+    label: "Conclusão — pseudoaneurisma da artéria femoral"
+    replace: "Pseudoaneurisma da artéria femoral _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS INFERIORES — ENXERTO E STENT
+  # ==========================================================================
+  - trigger: "pontepervia"
+    label: "Enxerto de derivação (ponte) pérvio"
+    replace: "Enxerto de derivação (ponte) _ de _, com anastomose proximal na artéria _ e distal na artéria _, pérvio, com opacificação homogênea e calibre preservado, sem estenoses, dilatações ou coleções periprotéticas. Anastomoses sem sinais de estenose ou pseudoaneurisma."
+    word: true
+
+  - trigger: "ponteperviac"
+    label: "Conclusão — enxerto de derivação pérvio"
+    replace: "Enxerto de derivação (ponte) _ pérvio, sem complicações."
+    word: true
+
+  - trigger: "ponteestenose"
+    label: "Estenose de enxerto de derivação (ponte)"
+    replace: "Redução luminal estimada em _% na _ do enxerto de derivação (ponte) _, estendendo-se por cerca de _ cm, sem placas calcificadas, podendo corresponder a hiperplasia intimal."
+    word: true
+
+  - trigger: "ponteestenosec"
+    label: "Conclusão — estenose de enxerto de derivação"
+    replace: "Estenose da _ do enxerto de derivação (ponte) _."
+    word: true
+
+  - trigger: "ponteocluida"
+    label: "Oclusão de enxerto de derivação (ponte)"
+    replace: "Ausência de opacificação do enxerto de derivação (ponte) _ desde a anastomose proximal, preenchido por material hipoatenuante, compatível com oclusão. Associa-se reenchimento da artéria _ por circulação colateral."
+    word: true
+
+  - trigger: "ponteocluidac"
+    label: "Conclusão — oclusão de enxerto de derivação"
+    replace: "Oclusão do enxerto de derivação (ponte) _."
+    word: true
+
+  - trigger: "pontepseudo"
+    label: "Pseudoaneurisma anastomótico de enxerto"
+    replace: "Formação sacular junto à anastomose _ do enxerto de derivação (ponte) _ com a artéria _, medindo _ cm, em comunicação com a luz, compatível com pseudoaneurisma anastomótico."
+    word: true
+
+  - trigger: "pontepseudoc"
+    label: "Conclusão — pseudoaneurisma anastomótico"
+    replace: "Pseudoaneurisma da anastomose _ do enxerto de derivação (ponte) _."
+    word: true
+
+  - trigger: "ponteinfectada"
+    label: "Infecção de enxerto de derivação periférico"
+    replace: "Coleção líquida com realce periférico e gás em torno do enxerto de derivação (ponte) _, a _ meses do implante, associados a densificação dos planos adjacentes, sugerindo infecção do enxerto."
+    word: true
+
+  - trigger: "ponteinfectadac"
+    label: "Conclusão — infecção de enxerto de derivação"
+    replace: "Coleção e gás em torno do enxerto de derivação (ponte) _, sugestivos de infecção."
+    word: true
+
+  - trigger: "stentpervio"
+    label: "Stent arterial pérvio"
+    replace: "Stent na artéria _, estendendo-se de _ a _, pérvio, bem expandido e com opacificação homogênea da luz, sem sinais de hiperplasia intimal ou estenose."
+    word: true
+
+  - trigger: "stentperviac"
+    label: "Conclusão — stent arterial pérvio"
+    replace: "Stent da artéria _ pérvio."
+    word: true
+
+  - trigger: "stentestenose"
+    label: "Reestenose intra-stent"
+    replace: "Tecido hipoatenuante junto à parede interna do stent da artéria _, no segmento _, determinando redução luminal estimada em _%, compatível com reestenose intra-stent por hiperplasia intimal."
+    word: true
+
+  - trigger: "stentestenosec"
+    label: "Conclusão — reestenose intra-stent"
+    replace: "Reestenose do stent da artéria _."
+    word: true
+
+  - trigger: "stentocluido"
+    label: "Oclusão de stent arterial"
+    replace: "Ausência de opacificação da luz do stent da artéria _, preenchida por material hipoatenuante, compatível com oclusão. Associa-se reenchimento da artéria _ por circulação colateral."
+    word: true
+
+  - trigger: "stentocluidoc"
+    label: "Conclusão — oclusão de stent arterial"
+    replace: "Oclusão do stent da artéria _."
+    word: true
+
+  - trigger: "stentfratura"
+    label: "Fratura de stent arterial"
+    replace: "Descontinuidade das hastes do stent da artéria _, no segmento _, _ desalinhamento dos fragmentos, compatível com fratura do stent. Associa-se _ no local da fratura."
+    word: true
+
+  - trigger: "stentfraturac"
+    label: "Conclusão — fratura de stent arterial"
+    replace: "Fratura do stent da artéria _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS INFERIORES — DISSECÇÃO E TRAUMA
+  # ==========================================================================
+  - trigger: "flapiliaca"
+    label: "Dissecção das artérias ilíacas e femorais"
+    replace: "Retalho intimal na artéria _, estendendo-se de _ a _, delimitando luz verdadeira e luz falsa _. Artéria _ emergindo da luz _."
+    word: true
+
+  - trigger: "flapiliacac"
+    label: "Conclusão — dissecção ilíaca e femoral"
+    replace: "Dissecção da artéria _."
+    word: true
+
+  - trigger: "traumaoclusao"
+    label: "Lesão arterial traumática com oclusão"
+    replace: "Interrupção abrupta da opacificação da artéria _ no nível de _, em contiguidade com _, compatível com lesão arterial traumática com oclusão. Reenchimento da artéria _ por colaterais no nível de _."
+    word: true
+
+  - trigger: "traumaoclusaoc"
+    label: "Conclusão — lesão arterial traumática com oclusão"
+    replace: "Lesão traumática da artéria _, com oclusão."
+    word: true
+
+  - trigger: "traumaflap"
+    label: "Lesão intimal traumática sem oclusão"
+    replace: "Irregularidade parietal com pequeno retalho intimal na artéria _, no nível de _, em contiguidade com _, sem redução luminal significativa e com opacificação preservada a jusante, compatível com lesão intimal traumática."
+    word: true
+
+  - trigger: "traumaflapc"
+    label: "Conclusão — lesão intimal traumática"
+    replace: "Lesão intimal traumática da artéria _, sem oclusão."
+    word: true
+
+  - trigger: "espasmoarterial"
+    label: "Afilamento arterial difuso, podendo corresponder a vasoespasmo"
+    replace: "Afilamento liso, regular e simétrico da artéria _, no segmento _, em contiguidade com _, sem retalho intimal, extravasamento ou interrupção da opacificação, podendo corresponder a vasoespasmo."
+    word: true
+
+  - trigger: "espasmoarterialc"
+    label: "Conclusão — afilamento arterial, provável vasoespasmo"
+    replace: "Afilamento da artéria _, podendo corresponder a vasoespasmo."
+    word: true
+
+  - trigger: "fistulaav"
+    label: "Fístula arteriovenosa (traumática ou iatrogênica)"
+    replace: "Opacificação precoce da veia _ na fase arterial, simultânea à da artéria _, com comunicação direta entre os vasos no nível de _, compatível com fístula arteriovenosa. Os diagnósticos diferenciais do retorno venoso precoce incluem hiperemia por inflamação ou infecção, entre outros."
+    word: true
+
+  - trigger: "fistulaavc"
+    label: "Conclusão — fístula arteriovenosa"
+    replace: "Fístula arteriovenosa entre a artéria _ e a veia _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS INFERIORES — COMPRESSÃO E VASCULOPATIAS
+  # ==========================================================================
+  - trigger: "aprisionapoplitea"
+    label: "Aprisionamento da artéria poplítea (tipo I, desvio medial)"
+    replace: "Artéria poplítea _ com desvio medial, contornando a cabeça medial do músculo gastrocnêmio e passando profundamente a ela, determinando estreitamento do segmento poplíteo _, sem placas ateromatosas, sugerindo aprisionamento da artéria poplítea."
+    word: true
+
+  - trigger: "aprisionapopliteac"
+    label: "Conclusão — aprisionamento da artéria poplítea (tipos I a VI)"
+    replace: "Achados sugestivos de aprisionamento da artéria poplítea _ (tipo _)."
+    word: true
+
+  - trigger: "cisticaadventicial"
+    label: "Doença cística adventicial da artéria poplítea"
+    replace: "Formação cística de conteúdo hipoatenuante na parede da artéria poplítea _, no segmento _, medindo _ cm, comprimindo a luz de forma _ (excêntrica, sinal da cimitarra; ou concêntrica, em ampulheta), determinando redução luminal estimada em _%, sem placas ateromatosas, podendo corresponder a doença cística adventicial."
+    word: true
+
+  - trigger: "cisticaadventicialc"
+    label: "Conclusão — doença cística adventicial"
+    replace: "Achados que podem corresponder a doença cística adventicial da artéria poplítea _."
+    word: true
+
+  - trigger: "sacarolhas"
+    label: "Colaterais em saca-rolhas (padrão de Buerger)"
+    replace: "Oclusões segmentares das artérias _, com segmentos intercalados de calibre preservado, sem placas ateromatosas ou calcificações, e com artérias proximais de aspecto habitual. Associa-se circulação colateral tortuosa, em saca-rolhas, acompanhando os segmentos ocluídos, podendo corresponder a tromboangeíte obliterante (doença de Buerger) no contexto clínico informado."
+    word: true
+
+  - trigger: "sacarolhasc"
+    label: "Conclusão — padrão sugestivo de tromboangeíte obliterante"
+    replace: "Oclusões arteriais infrapoplíteas segmentares, com colaterais em saca-rolhas, podendo corresponder a tromboangeíte obliterante (doença de Buerger)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS INFERIORES — VARIANTES ANATÔMICAS
+  # ==========================================================================
+  - trigger: "ciaticapersistente"
+    label: "Artéria isquiática persistente (Pillet-Gauffre 1 a 5)"
+    replace: "Artéria calibrosa originando-se da artéria ilíaca interna _, deixando a pelve pelo forame isquiático maior e descendo na região posterior da coxa, junto ao nervo isquiático, em continuidade com a artéria poplítea, compatível com artéria isquiática persistente _. Associa-se artéria femoral superficial _."
+    word: true
+
+  - trigger: "ciaticapersistentec"
+    label: "Conclusão — artéria isquiática persistente (Pillet-Gauffre)"
+    replace: "Artéria isquiática persistente _ (Pillet-Gauffre tipo _)."
+    word: true
+
+  - trigger: "tibialalta"
+    label: "Origem alta da tibial anterior (Kim IIA1, IIA2)"
+    replace: "Artéria tibial anterior _ originando-se da artéria poplítea acima do nível do platô tibial, com trajeto _ (variação anatômica, tipo IIA_ de Kim)."
+    word: true
+
+  - trigger: "trifurcacao"
+    label: "Trifurcação verdadeira da poplítea (Kim IB)"
+    replace: "Artéria poplítea _ dividindo-se simultaneamente nas artérias tibial anterior, tibial posterior e fibular, sem tronco tibiofibular (trifurcação verdadeira, variação anatômica, tipo IB de Kim)."
+    word: true
+
+  - trigger: "fibularmagna"
+    label: "Artéria fibular dominante (Kim IIIA, IIIB, IIIC)"
+    replace: "Artéria(s) tibial(is) _ hipoplásica(s), com a artéria fibular calibrosa suprindo _ (variação anatômica, tipo III_ de Kim)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS INFERIORES — VEIAS
+  # ==========================================================================
+  - trigger: "tvpmembro"
+    label: "Trombose venosa profunda aguda (fase venosa)"
+    replace: "Falha de enchimento na veia _, estendendo-se de _ a _, com aumento do calibre do vaso, compatível com trombose venosa profunda aguda. Associa-se densificação dos planos adiposos perivasculares."
+    word: true
+
+  - trigger: "tvpmembroc"
+    label: "Conclusão — trombose venosa profunda aguda"
+    replace: "Trombose venosa profunda aguda da veia _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — ASPECTO NORMAL
+  # ==========================================================================
+  - trigger: "angiommss1"
+    label: "Artérias do membro superior normais (angio-TC)"
+    replace: "Artéria subclávia _, artérias axilar e braquial pérvias, com trajeto e calibre preservados, sem placas ateromatosas, estenoses ou dilatações aneurismáticas. Artérias radial, ulnar e interósseas pérvias até o punho, com opacificação dos arcos palmares superficial e profundo e das artérias digitais."
+    word: true
+
+  - trigger: "angiommss1c"
+    label: "Conclusão — angio-TC de membro superior normal"
+    replace: "Angiotomografia arterial do membro superior _ sem alterações significativas."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — DESFILADEIRO TORÁCICO
+  # ==========================================================================
+  - trigger: "desfiladeiro1"
+    label: "Desfiladeiro torácico sem compressão vascular (adução e abdução)"
+    replace: "Aquisições com o membro superior _ em adução e em abdução, sem redução luminal das artérias subclávia e axilar ou das veias correspondentes nos espaços interescalênico, costoclavicular e retropeitoral menor, em ambas as posições."
+    word: true
+
+  - trigger: "desfiladeiro1c"
+    label: "Conclusão — desfiladeiro torácico sem compressão vascular"
+    replace: "Ausência de compressão vascular no desfiladeiro torácico _, em adução e em abdução."
+    word: true
+
+  - trigger: "desfiladeiro2"
+    label: "Compressão arterial dinâmica na abdução, sem lesão arterial"
+    replace: "Redução luminal da artéria _ (subclávia; ou axilar) no espaço _ (interescalênico; costoclavicular; ou retropeitoral menor) com o membro superior _ em abdução, estimada em _%, com calibre preservado em adução, sem estenose fixa, dilatação, trombo ou oclusões distais. A compressão dinâmica isolada pode ocorrer em indivíduos sem síndrome do desfiladeiro torácico, devendo ser correlacionada com os dados clínicos."
+    word: true
+
+  - trigger: "desfiladeiro2c"
+    label: "Conclusão — compressão arterial dinâmica, sem lesão arterial"
+    replace: "Compressão dinâmica da artéria _ no espaço _ com a abdução do membro, sem lesão arterial estrutural."
+    word: true
+
+  - trigger: "desfiladeiro3"
+    label: "Síndrome do desfiladeiro torácico arterial (estenose fixa, dilatação, trombo ou êmbolo)"
+    replace: "Estenose da artéria subclávia _ no espaço _ (interescalênico; costoclavicular; ou retropeitoral menor), junto a _ (costela cervical; primeira costela; ou banda fibrosa), acentuando-se com a abdução do membro. Associa-se dilatação pós-estenótica de até _ cm a jusante, com trombo mural, bem como oclusão de _, sugerindo embolização distal. Achados compatíveis com síndrome do desfiladeiro torácico arterial."
+    word: true
+
+  - trigger: "desfiladeiro3c"
+    label: "Conclusão — síndrome do desfiladeiro torácico arterial"
+    replace: "Síndrome do desfiladeiro torácico arterial _, com _ (dilatação pós-estenótica; trombo mural; embolização distal)."
+    word: true
+
+  - trigger: "desfiladeiro4"
+    label: "Compressão venosa dinâmica na abdução, sem trombose"
+    replace: "Redução luminal da veia _ (subclávia; ou axilar) no espaço _ (interescalênico; costoclavicular; ou retropeitoral menor) com o membro superior _ em abdução, estimada em _%, com calibre preservado em adução, sem falhas de enchimento ou circulação colateral. A compressão venosa com a abdução é frequente em indivíduos assintomáticos, devendo ser correlacionada com os dados clínicos."
+    word: true
+
+  - trigger: "desfiladeiro4c"
+    label: "Conclusão — compressão venosa dinâmica, sem trombose"
+    replace: "Compressão dinâmica da veia _ no espaço _ com a abdução do membro, sem trombose."
+    word: true
+
+  - trigger: "tvpesforco"
+    label: "Trombose venosa axilossubclávia de esforço (Paget-Schroetter)"
+    replace: "Falha de enchimento nas veias axilar e subclávia _, estendendo-se de _ a _, com aumento do calibre do vaso e afilamento junto ao espaço costoclavicular. Associa-se circulação colateral venosa na parede torácica e na região cervical _. No contexto de esforço repetitivo do membro superior, os achados podem corresponder a trombose de esforço (síndrome de Paget-Schroetter)."
+    word: true
+
+  - trigger: "tvpesforcoc"
+    label: "Conclusão — trombose venosa axilossubclávia de esforço"
+    replace: "Trombose das veias axilar e subclávia _, podendo corresponder a trombose de esforço (síndrome de Paget-Schroetter)."
+    word: true
+
+  - trigger: "costelacervical"
+    label: "Costela cervical em relação com a artéria subclávia"
+    replace: "Costela cervical _, _ (completa, articulando-se com a primeira costela; ou incompleta, com extremidade livre), com a artéria subclávia _ contornando-a superiormente."
+    word: true
+
+  - trigger: "costelacervicalc"
+    label: "Conclusão — costela cervical"
+    replace: "Costela cervical _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — ESTENOSE E OCLUSÃO
+  # ==========================================================================
+  - trigger: "roubosubclavio"
+    label: "Estenose proximal da subclávia (roubo a confirmar ao Doppler)"
+    replace: "Estenose do segmento proximal da artéria subclávia _, proximal à origem da artéria vertebral, determinando redução luminal estimada em _%. Artéria vertebral _ pérvia, com opacificação menos intensa que a contralateral. A angio-TC não define a direção do fluxo na artéria vertebral, cabendo ao Doppler confirmar a inversão (roubo da subclávia)."
+    word: true
+
+  - trigger: "roubosubclavioc"
+    label: "Conclusão — estenose proximal da subclávia"
+    replace: "Estenose significativa proximal da artéria subclávia _, proximal à origem da artéria vertebral, podendo determinar roubo da subclávia."
+    word: true
+
+  - trigger: "roubosubclavio2"
+    label: "Oclusão proximal da subclávia (roubo a confirmar ao Doppler)"
+    replace: "Oclusão do segmento proximal da artéria subclávia _, proximal à origem da artéria vertebral, com reenchimento da subclávia distal. Artéria vertebral _ pérvia, com opacificação menos intensa que a contralateral. A angio-TC não define a direção do fluxo na artéria vertebral, cabendo ao Doppler confirmar a inversão (roubo da subclávia)."
+    word: true
+
+  - trigger: "roubosubclavio2c"
+    label: "Conclusão — oclusão proximal da subclávia"
+    replace: "Oclusão proximal da artéria subclávia _, proximal à origem da artéria vertebral, podendo determinar roubo da subclávia."
+    word: true
+
+  - trigger: "oclusaodigital"
+    label: "Oclusões de artérias digitais da mão"
+    replace: "Ausência de opacificação das artérias digitais _ (próprias; ou comuns) do _ dedo(s) da mão _, com afilamento das artérias digitais remanescentes, sem lesões nas artérias proximais. Os diagnósticos diferenciais incluem embolia, tromboangeíte obliterante (doença de Buerger), esclerose sistêmica e outras doenças do tecido conjuntivo, vasculite e síndrome do martelo hipotenar, entre outros. A vasoconstrição periférica pode simular oclusão das artérias digitais."
+    word: true
+
+  - trigger: "oclusaodigitalc"
+    label: "Conclusão — oclusões de artérias digitais"
+    replace: "Oclusões de artérias digitais do _ dedo(s) da mão _."
+    word: true
+
+  - trigger: "martelohipotenar"
+    label: "Síndrome do martelo hipotenar (artéria ulnar junto ao hâmulo do hamato)"
+    replace: "Segmento distal da artéria ulnar _, junto ao hâmulo do hamato, com _ (aspecto tortuoso em saca-rolhas; dilatação aneurismática de _ cm; ou oclusão), com trombo mural. Associa-se ausência de opacificação do arco palmar superficial e das artérias digitais do _ dedo(s), sugerindo embolização distal. No contexto de trauma repetitivo da região hipotenar, os achados podem corresponder a síndrome do martelo hipotenar."
+    word: true
+
+  - trigger: "martelohipotenarc"
+    label: "Conclusão — síndrome do martelo hipotenar"
+    replace: "Lesão da artéria ulnar _ junto ao hâmulo do hamato, com oclusões digitais, podendo corresponder a síndrome do martelo hipotenar."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — ANEURISMAS
+  # ==========================================================================
+  - trigger: "aneusubclavia"
+    label: "Aneurisma da artéria subclávia ou axilar"
+    replace: "Dilatação aneurismática _ (fusiforme; ou sacular) da artéria _, no segmento _, com diâmetro máximo de _ cm (segmento adjacente normal: _ cm), estendendo-se por cerca de _ cm. Associa-se trombo mural de até _ cm de espessura."
+    word: true
+
+  - trigger: "aneusubclaviac"
+    label: "Conclusão — aneurisma da artéria subclávia ou axilar"
+    replace: "Aneurisma _ (fusiforme; ou sacular) da artéria _."
+    word: true
+
+  - trigger: "pseudobraquial"
+    label: "Pseudoaneurisma da artéria braquial ou radial (pós-punção)"
+    replace: "Formação sacular junto à face _ da artéria _, no sítio de punção, medindo _ cm, com opacificação acompanhando a do leito arterial e colo de _ cm comunicando-se com a luz, compatível com pseudoaneurisma. Associa-se hematoma adjacente de _ cm."
+    word: true
+
+  - trigger: "pseudobraquialc"
+    label: "Conclusão — pseudoaneurisma da artéria braquial ou radial"
+    replace: "Pseudoaneurisma da artéria _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — VASCULITE
+  # ==========================================================================
+  - trigger: "arteritesubclavia"
+    label: "Arterite de grandes vasos (ACR/EULAR 2022: Takayasu ≤ 60 anos, células gigantes ≥ 50 anos)"
+    replace: "Espessamento parietal circunferencial, liso e regular das artérias _, com até _ cm de espessura e realce tardio pelo meio de contraste, determinando redução luminal estimada em _%, estendendo-se por cerca de _ cm, sem placas ateromatosas, sugerindo arterite de grandes vasos. Os diagnósticos diferenciais incluem arterite de Takayasu e arterite de células gigantes, entre outros, devendo ser correlacionados com a idade e os dados clínicos e laboratoriais."
+    word: true
+
+  - trigger: "arteritesubclaviac"
+    label: "Conclusão — arterite de grandes vasos"
+    replace: "Espessamento parietal das artérias _, sugerindo arterite de grandes vasos."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — ACESSO PARA HEMODIÁLISE
+  # ==========================================================================
+  - trigger: "dialisepervia"
+    label: "Fístula arteriovenosa para hemodiálise pérvia"
+    replace: "Fístula arteriovenosa _ (radiocefálica; braquiocefálica; ou braquiobasílica) no membro superior _, com anastomose entre a artéria _ e a veia _, pérvia. Artéria aferente, anastomose, veia de drenagem e veias centrais sem estenoses, dilatações aneurismáticas ou coleções adjacentes."
+    word: true
+
+  - trigger: "dialiseperviac"
+    label: "Conclusão — fístula arteriovenosa pérvia"
+    replace: "Fístula arteriovenosa _ pérvia, sem complicações."
+    word: true
+
+  - trigger: "dialiseestenose"
+    label: "Estenose de fístula arteriovenosa (KDOQI 2019: tratar só com ≥ 50% e alteração clínica)"
+    replace: "Redução luminal estimada em _% no segmento _ (justa-anastomótico; veia de drenagem; ou arco da veia cefálica) da fístula arteriovenosa _, estendendo-se por cerca de _ cm, com calibre de _ cm no ponto mais estreito e de _ cm no segmento adjacente normal."
+    word: true
+
+  - trigger: "dialiseestenosec"
+    label: "Conclusão — estenose de fístula arteriovenosa"
+    replace: "Estenose do segmento _ da fístula arteriovenosa _."
+    word: true
+
+  - trigger: "dialisetrombosada"
+    label: "Trombose de fístula arteriovenosa"
+    replace: "Ausência de opacificação da veia de drenagem da fístula arteriovenosa _ a partir de _, preenchida por material hipoatenuante, compatível com trombose da fístula."
+    word: true
+
+  - trigger: "dialisetrombosadac"
+    label: "Conclusão — trombose de fístula arteriovenosa"
+    replace: "Trombose da fístula arteriovenosa _."
+    word: true
+
+  - trigger: "dialiseaneurisma"
+    label: "Dilatação aneurismática da veia de drenagem da fístula"
+    replace: "Dilatação aneurismática da veia de drenagem da fístula arteriovenosa _, no segmento _, com diâmetro máximo de _ cm, parede contínua e trombo mural de até _ cm de espessura."
+    word: true
+
+  - trigger: "dialiseaneurismac"
+    label: "Conclusão — aneurisma da veia de drenagem da fístula"
+    replace: "Aneurisma da veia de drenagem da fístula arteriovenosa _."
+    word: true
+
+  - trigger: "dialisepseudo"
+    label: "Pseudoaneurisma de fístula arteriovenosa (sítio de punção)"
+    replace: "Formação sacular junto à face _ da veia de drenagem da fístula arteriovenosa _, em sítio de punção, medindo _ cm, comunicando-se com a luz por colo de _ cm e envolta por hematoma, compatível com pseudoaneurisma."
+    word: true
+
+  - trigger: "dialisepseudoc"
+    label: "Conclusão — pseudoaneurisma de fístula arteriovenosa"
+    replace: "Pseudoaneurisma da fístula arteriovenosa _."
+    word: true
+
+  - trigger: "veiacentral"
+    label: "Estenose venosa central"
+    replace: "Estenose da veia _, no segmento _, _ (ipsilateral à fístula arteriovenosa; ou em trajeto de cateter venoso central prévio), determinando redução luminal estimada em _%. Associa-se circulação colateral venosa na parede torácica e na região cervical."
+    word: true
+
+  - trigger: "veiacentralc"
+    label: "Conclusão — estenose venosa central"
+    replace: "Estenose da veia _, com circulação colateral."
+    word: true
+
+  - trigger: "veiacentral2"
+    label: "Oclusão venosa central"
+    replace: "Oclusão da veia _, no segmento _, _ (ipsilateral à fístula arteriovenosa; ou em trajeto de cateter venoso central prévio). Associa-se circulação colateral venosa na parede torácica e na região cervical."
+    word: true
+
+  - trigger: "veiacentral2c"
+    label: "Conclusão — oclusão venosa central"
+    replace: "Oclusão da veia _, com circulação colateral."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — VARIANTES ANATÔMICAS
+  # ==========================================================================
+  - trigger: "radialalta"
+    label: "Origem alta da artéria radial"
+    replace: "Artéria radial _ originando-se da artéria _, no nível de _, acima da fossa cubital (origem alta da artéria radial, variação anatômica)."
+    word: true
+
+  - trigger: "medianapersistente"
+    label: "Artéria mediana persistente"
+    replace: "Artéria mediana _ calibrosa, originando-se da artéria _ e acompanhando o nervo mediano no antebraço e no túnel do carpo (artéria mediana persistente, variação anatômica)."
+    word: true
+
+  - trigger: "arcoincompleto"
+    label: "Arco palmar superficial incompleto (Coleman e Anson, grupo II)"
+    replace: "Arco palmar superficial incompleto na mão _, sem anastomose entre os ramos que o formam (variação anatômica, grupo II de Coleman e Anson)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — ASPECTO NORMAL
+  # ==========================================================================
+  - trigger: "angiocervical1"
+    label: "Artérias cervicais normais (angio-TC)"
+    replace: "Arco aórtico com origem habitual dos troncos supra-aórticos. Artérias carótidas comuns, bifurcações carotídeas e segmentos cervicais das artérias carótidas internas e externas com trajeto, calibre e contornos preservados, sem placas ateromatosas, estenoses, oclusões ou dilatações aneurismáticas. Artérias vertebrais pérvias desde a origem até a entrada no crânio, com trajeto e calibre preservados."
+    word: true
+
+  - trigger: "angiocervical1c"
+    label: "Conclusão — angio-TC cervical normal"
+    replace: "Angiotomografia arterial cervical sem alterações significativas."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — ESTENOSE E OCLUSÃO CAROTÍDEA
+  # ==========================================================================
+  - trigger: "nascet1"
+    label: "Placa carotídea com estenose inferior a 50% (NASCET)"
+    replace: "Placa ateromatosa _ (calcificada; não calcificada; ou mista) no bulbo carotídeo e no segmento proximal da artéria carótida interna _, com espessura máxima de _ cm, determinando redução luminal estimada em _% pelo método NASCET (diâmetro mínimo da luz de _ cm e diâmetro da carótida interna distal normal de _ cm), inferior a 50%."
+    word: true
+
+  - trigger: "nascet1c"
+    label: "Conclusão — estenose carotídea inferior a 50%"
+    replace: "Ateromatose carotídea _, com estenose da artéria carótida interna inferior a 50% (NASCET)."
+    word: true
+
+  - trigger: "nascet2"
+    label: "Estenose carotídea moderada (redução luminal de 50 a 69%, NASCET)"
+    replace: "Placa ateromatosa _ (calcificada; não calcificada; ou mista) no bulbo carotídeo e no segmento proximal da artéria carótida interna _, com espessura máxima de _ cm, determinando redução luminal estimada em _% pelo método NASCET (diâmetro mínimo da luz de _ cm e diâmetro da carótida interna distal normal de _ cm), configurando estenose moderada (redução luminal de 50 a 69%)."
+    word: true
+
+  - trigger: "nascet2c"
+    label: "Conclusão — estenose carotídea moderada"
+    replace: "Estenose moderada da artéria carótida interna _ (NASCET 50 a 69%)."
+    word: true
+
+  - trigger: "nascet3"
+    label: "Estenose carotídea acentuada (redução luminal de 70 a 99%, NASCET), sem quase oclusão"
+    replace: "Placa ateromatosa _ (calcificada; não calcificada; ou mista) no bulbo carotídeo e no segmento proximal da artéria carótida interna _, com espessura máxima de _ cm, determinando redução luminal estimada em _% pelo método NASCET (diâmetro mínimo da luz de _ cm e diâmetro da carótida interna distal normal de _ cm), configurando estenose acentuada (redução luminal de 70 a 99%). Carótida interna distal de calibre preservado e simétrico ao contralateral, sem sinais de quase oclusão."
+    word: true
+
+  - trigger: "nascet3c"
+    label: "Conclusão — estenose carotídea acentuada"
+    replace: "Estenose acentuada da artéria carótida interna _ (NASCET 70 a 99%)."
+    word: true
+
+  - trigger: "quaseoclusao1"
+    label: "Quase oclusão carotídea sem colapso completo (NASCET não se aplica)"
+    replace: "Estenose crítica da artéria carótida interna _ junto à origem, com luz residual de _ cm, associada a redução do calibre da carótida interna distal (_ cm) em relação à carótida interna contralateral (_ cm) e à carótida externa ipsilateral (_ cm), sem colapso completo, compatível com quase oclusão. Na quase oclusão, o percentual de estenose pelo método NASCET não se aplica, pois a carótida interna distal, usada como referência, está reduzida."
+    word: true
+
+  - trigger: "quaseoclusao1c"
+    label: "Conclusão — quase oclusão carotídea sem colapso completo"
+    replace: "Quase oclusão da artéria carótida interna _, sem colapso completo."
+    word: true
+
+  - trigger: "quaseoclusao2"
+    label: "Quase oclusão carotídea com colapso completo (sinal do barbante)"
+    replace: "Estenose crítica da artéria carótida interna _ junto à origem, com carótida interna distal pérvia, porém de calibre filiforme (sinal do barbante), com diâmetro de _ cm e relação de _ com a carótida interna distal contralateral, compatível com quase oclusão. Na quase oclusão, o percentual de estenose pelo método NASCET não se aplica."
+    word: true
+
+  - trigger: "quaseoclusao2c"
+    label: "Conclusão — quase oclusão carotídea com colapso completo"
+    replace: "Quase oclusão da artéria carótida interna _, com colapso completo (carótida interna distal filiforme)."
+    word: true
+
+  - trigger: "oclusaocarotida"
+    label: "Oclusão da artéria carótida interna cervical"
+    replace: "Ausência de opacificação da artéria carótida interna _ a partir da origem, com coto afilado junto à bifurcação carotídea, compatível com oclusão. Associa-se reenchimento do segmento _ (petroso; cavernoso; ou supraclinoide) por circulação colateral através da _ (artéria comunicante anterior; artéria comunicante posterior; ou artéria oftálmica)."
+    word: true
+
+  - trigger: "oclusaocarotidac"
+    label: "Conclusão — oclusão da artéria carótida interna"
+    replace: "Oclusão da artéria carótida interna _ desde a origem."
+    word: true
+
+  - trigger: "ostiovertebral"
+    label: "Estenose ateromatosa na origem da artéria vertebral"
+    replace: "Placa ateromatosa na origem da artéria vertebral _, determinando redução luminal estimada em _%, com opacificação preservada a jusante."
+    word: true
+
+  - trigger: "ostiovertebralc"
+    label: "Conclusão — estenose na origem da artéria vertebral"
+    replace: "Estenose ateromatosa na origem da artéria vertebral _."
+    word: true
+
+  - trigger: "oclusaovertebral"
+    label: "Oclusão da artéria vertebral cervical"
+    replace: "Ausência de opacificação da artéria vertebral _ desde a origem até _, compatível com oclusão. Associa-se reenchimento do segmento _ (V2; V3; ou V4) por ramos colaterais musculares cervicais."
+    word: true
+
+  - trigger: "oclusaovertebralc"
+    label: "Conclusão — oclusão da artéria vertebral"
+    replace: "Oclusão da artéria vertebral _ no segmento cervical."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — CARACTERÍSTICAS DA PLACA CAROTÍDEA
+  # ==========================================================================
+  - trigger: "placaespessa"
+    label: "Placa carotídea com espessura ≥ 0,3 cm (Carotid Plaque-RADS 3)"
+    replace: "Placa ateromatosa _ (predominantemente hipoatenuante; mista; ou calcificada) no bulbo carotídeo _, com espessura máxima de _ cm (≥ 0,3 cm), medida no plano perpendicular ao eixo do vaso, sem ulceração ou trombo intraluminal. A angio-TC não avalia com segurança a hemorragia intraplaca nem a capa fibrosa, que podem ser estudadas por ressonância magnética."
+    word: true
+
+  - trigger: "placaespessac"
+    label: "Conclusão — placa carotídea espessa (Plaque-RADS 3)"
+    replace: "Placa carotídea _ com espessura igual ou superior a 0,3 cm, sem ulceração (Carotid Plaque-RADS 3). A critério clínico, a ressonância magnética pode avaliar hemorragia intraplaca."
+    word: true
+
+  - trigger: "placaulcerada"
+    label: "Placa carotídea ulcerada (Carotid Plaque-RADS 3c)"
+    replace: "Placa ateromatosa _ (calcificada; não calcificada; ou mista) no bulbo carotídeo _, com ulceração caracterizada por projeção do meio de contraste para o interior da placa, com _ cm de profundidade (≥ 0,1 cm), sem trombo intraluminal."
+    word: true
+
+  - trigger: "placaulceradac"
+    label: "Conclusão — placa carotídea ulcerada (Plaque-RADS 3c)"
+    replace: "Placa carotídea _ ulcerada (Carotid Plaque-RADS 3c)."
+    word: true
+
+  - trigger: "trombocarotida"
+    label: "Trombo intraluminal carotídeo (Carotid Plaque-RADS 4c)"
+    replace: "Falha de enchimento intraluminal no bulbo carotídeo e na artéria carótida interna _, circundada pelo meio de contraste nos cortes axiais, aderida à superfície de placa ateromatosa, medindo _ cm, compatível com trombo intraluminal."
+    word: true
+
+  - trigger: "trombocarotidac"
+    label: "Conclusão — trombo intraluminal carotídeo (Plaque-RADS 4c)"
+    replace: "Trombo intraluminal sobre placa ateromatosa na artéria carótida interna _ (Carotid Plaque-RADS 4c)."
+    word: true
+
+  - trigger: "webcarotida"
+    label: "Web carotídeo (septo intimal no bulbo)"
+    replace: "Falha de enchimento fina, em forma de prateleira, projetando-se para a luz a partir da parede _ (posterior; ou posterolateral) do bulbo carotídeo _, caracterizada como linha nos cortes axiais e como septo nas reformatações sagitais, sem placa ateromatosa associada, compatível com web carotídeo."
+    word: true
+
+  - trigger: "webcarotidac"
+    label: "Conclusão — web carotídeo"
+    replace: "Web carotídeo _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — DISSECÇÃO, DISPLASIA E ANEURISMA
+  # ==========================================================================
+  - trigger: "flapcarotida"
+    label: "Dissecção da artéria carótida interna cervical (estenose)"
+    replace: "Estreitamento luminal excêntrico e afilado da artéria carótida interna _ no segmento cervical _ (proximal; médio; ou distal, junto à base do crânio), a cerca de _ cm da bifurcação, poupando o bulbo carotídeo, com espessamento parietal em crescente hipoatenuante e aumento do diâmetro externo do vaso, determinando redução luminal estimada em _%, compatível com dissecção com hematoma intramural."
+    word: true
+
+  - trigger: "flapcarotidac"
+    label: "Conclusão — dissecção da carótida interna cervical"
+    replace: "Dissecção da artéria carótida interna _ no segmento cervical, com hematoma intramural e estenose."
+    word: true
+
+  - trigger: "flapcarotida2"
+    label: "Dissecção da artéria carótida interna cervical (oclusão afilada)"
+    replace: "Afilamento progressivo da luz da artéria carótida interna _ a partir de cerca de _ cm da bifurcação, poupando o bulbo carotídeo, até a ausência de opacificação (oclusão em chama de vela), com espessamento parietal em crescente hipoatenuante e aumento do diâmetro externo do vaso, compatível com dissecção com oclusão."
+    word: true
+
+  - trigger: "flapcarotida2c"
+    label: "Conclusão — dissecção da carótida interna com oclusão"
+    replace: "Dissecção da artéria carótida interna _ no segmento cervical, com oclusão."
+    word: true
+
+  - trigger: "flapvertebral"
+    label: "Dissecção da artéria vertebral cervical (estenose)"
+    replace: "Estreitamento luminal excêntrico da artéria vertebral _ no segmento _ (V1; V2; ou V3), estendendo-se por cerca de _ cm, com espessamento parietal em crescente hipoatenuante e aumento do diâmetro externo do vaso, determinando redução luminal estimada em _%, compatível com dissecção com hematoma intramural."
+    word: true
+
+  - trigger: "flapvertebralc"
+    label: "Conclusão — dissecção da artéria vertebral"
+    replace: "Dissecção da artéria vertebral _ (segmento _), com hematoma intramural e estenose."
+    word: true
+
+  - trigger: "flapvertebral2"
+    label: "Dissecção da artéria vertebral cervical (oclusão)"
+    replace: "Afilamento progressivo da luz da artéria vertebral _ no segmento _ (V1; V2; ou V3) até a ausência de opacificação, com espessamento parietal em crescente hipoatenuante e aumento do diâmetro externo do vaso, compatível com dissecção com oclusão. Associa-se reenchimento do segmento _ (V3; ou V4) por ramos colaterais."
+    word: true
+
+  - trigger: "flapvertebral2c"
+    label: "Conclusão — dissecção da artéria vertebral com oclusão"
+    replace: "Dissecção da artéria vertebral _ (segmento _), com oclusão."
+    word: true
+
+  - trigger: "colarcarotida"
+    label: "Displasia fibromuscular multifocal da carótida interna (colar de contas)"
+    replace: "Alternância de segmentos estreitados e dilatados nos terços médio e distal do segmento cervical da artéria carótida interna _ (aspecto em colar de contas), poupando a bifurcação e o bulbo carotídeo, sem placas ateromatosas, podendo corresponder a displasia fibromuscular multifocal."
+    word: true
+
+  - trigger: "colarcarotidac"
+    label: "Conclusão — displasia fibromuscular carotídea"
+    replace: "Aspecto em colar de contas da artéria carótida interna _, podendo corresponder a displasia fibromuscular multifocal. O consenso internacional de 2019 recomenda avaliação, ao menos uma vez, das artérias do encéfalo à pelve, incluindo a pesquisa de aneurismas intracranianos."
+    word: true
+
+  - trigger: "pseudocarotida"
+    label: "Pseudoaneurisma cervical (carótida ou vertebral)"
+    replace: "Formação sacular junto à face _ da artéria _ (carótida interna; carótida comum; ou vertebral), no segmento _, medindo _ cm, com opacificação acompanhando a do leito arterial e colo de _ cm comunicando-se com a luz, compatível com pseudoaneurisma."
+    word: true
+
+  - trigger: "pseudocarotidac"
+    label: "Conclusão — pseudoaneurisma cervical"
+    replace: "Pseudoaneurisma da artéria _."
+    word: true
+
+  - trigger: "aneucarotida"
+    label: "Aneurisma da artéria carótida extracraniana"
+    replace: "Dilatação aneurismática _ (fusiforme; ou sacular) da artéria carótida _ (comum; interna; ou externa) _, no segmento _, com diâmetro máximo de _ cm (segmento adjacente normal: _ cm), estendendo-se por cerca de _ cm. Associa-se trombo mural de até _ cm de espessura."
+    word: true
+
+  - trigger: "aneucarotidac"
+    label: "Conclusão — aneurisma da artéria carótida extracraniana"
+    replace: "Aneurisma _ (fusiforme; ou sacular) da artéria carótida _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — TRAUMA (ESCALA DE BIFFL)
+  # ==========================================================================
+  - trigger: "biffl1"
+    label: "Lesão cerebrovascular contusa grau I de Biffl (redução luminal < 25%)"
+    replace: "Irregularidade parietal da artéria _ (carótida interna; carótida comum; ou vertebral) no segmento _, com redução luminal inferior a 25% e opacificação preservada a jusante, compatível com lesão cerebrovascular contusa grau I de Biffl."
+    word: true
+
+  - trigger: "biffl1c"
+    label: "Conclusão — lesão cerebrovascular contusa grau I de Biffl"
+    replace: "Lesão cerebrovascular contusa da artéria _, grau I de Biffl."
+    word: true
+
+  - trigger: "biffl2"
+    label: "Lesão cerebrovascular contusa grau II de Biffl (redução luminal ≥ 25%, trombo ou retalho)"
+    replace: "Lesão da parede da artéria _ (carótida interna; carótida comum; ou vertebral), no segmento _, com _ (hematoma intramural; retalho intimal elevado; ou trombo intraluminal), determinando redução luminal estimada em _%, compatível com lesão cerebrovascular contusa grau II de Biffl (redução luminal igual ou superior a 25%, retalho intimal elevado ou trombo intraluminal)."
+    word: true
+
+  - trigger: "biffl2c"
+    label: "Conclusão — lesão cerebrovascular contusa grau II de Biffl"
+    replace: "Lesão cerebrovascular contusa da artéria _, grau II de Biffl."
+    word: true
+
+  - trigger: "biffl3"
+    label: "Lesão cerebrovascular contusa grau III de Biffl (pseudoaneurisma)"
+    replace: "Formação sacular junto à face _ da artéria _ (carótida interna; carótida comum; ou vertebral), no segmento _, medindo _ cm, comunicando-se com a luz e com opacificação acompanhando a do leito arterial, compatível com pseudoaneurisma traumático (lesão cerebrovascular contusa grau III de Biffl)."
+    word: true
+
+  - trigger: "biffl3c"
+    label: "Conclusão — lesão cerebrovascular contusa grau III de Biffl"
+    replace: "Pseudoaneurisma traumático da artéria _ (lesão cerebrovascular contusa grau III de Biffl)."
+    word: true
+
+  - trigger: "biffl4"
+    label: "Lesão cerebrovascular contusa grau IV de Biffl (oclusão)"
+    replace: "Ausência de opacificação da artéria _ (carótida interna; carótida comum; ou vertebral) a partir do segmento _, com afilamento abrupto da luz, compatível com oclusão traumática (lesão cerebrovascular contusa grau IV de Biffl)."
+    word: true
+
+  - trigger: "biffl4c"
+    label: "Conclusão — lesão cerebrovascular contusa grau IV de Biffl"
+    replace: "Oclusão traumática da artéria _ (lesão cerebrovascular contusa grau IV de Biffl)."
+    word: true
+
+  - trigger: "biffl5"
+    label: "Lesão cerebrovascular contusa grau V de Biffl (transecção com extravasamento)"
+    replace: "Descontinuidade da parede da artéria _ (carótida interna; carótida comum; ou vertebral), no segmento _, com extravasamento ativo do meio de contraste para hematoma cervical de _ cm, compatível com transecção arterial (lesão cerebrovascular contusa grau V de Biffl)."
+    word: true
+
+  - trigger: "biffl5c"
+    label: "Conclusão — lesão cerebrovascular contusa grau V de Biffl"
+    replace: "Transecção da artéria _ com extravasamento ativo do meio de contraste (lesão cerebrovascular contusa grau V de Biffl)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — PÓS-OPERATÓRIO, INFLAMAÇÃO E COMPRESSÃO
+  # ==========================================================================
+  - trigger: "endarterectomia1"
+    label: "Status pós-endarterectomia carotídea sem reestenose"
+    replace: "Status pós-endarterectomia da artéria carótida _, _ (com ampliação do bulbo por remendo; ou com fechamento primário), com luz de contornos regulares, sem reestenose, dilatação pseudoaneurismática ou coleções adjacentes."
+    word: true
+
+  - trigger: "endarterectomia1c"
+    label: "Conclusão — pós-endarterectomia carotídea sem reestenose"
+    replace: "Status pós-endarterectomia carotídea _, sem reestenose."
+    word: true
+
+  - trigger: "tipic"
+    label: "Inflamação perivascular transitória da carótida (TIPIC)"
+    replace: "Densificação excêntrica dos planos adiposos perivasculares da artéria carótida _, no nível da _ (bifurcação; ou carótida comum distal), com espessamento parietal de _ cm e realce pelo meio de contraste, sem redução luminal significativa. No contexto de dor cervical aguda sobre a carótida, os achados podem corresponder a inflamação perivascular transitória da carótida (TIPIC), cuja confirmação depende da regressão em até 14 dias."
+    word: true
+
+  - trigger: "tipicc"
+    label: "Conclusão — inflamação perivascular transitória da carótida (TIPIC)"
+    replace: "Infiltração perivascular excêntrica da artéria carótida _, podendo corresponder a inflamação perivascular transitória da carótida (TIPIC)."
+    word: true
+
+  - trigger: "eaglecarotida"
+    label: "Variante vascular da síndrome de Eagle (estiloide junto à carótida interna)"
+    replace: "Processo estiloide _ alongado, com _ cm de comprimento, cuja extremidade mantém contato com a parede _ (lateral; ou posterolateral) da artéria carótida interna ipsilateral, no espaço parafaríngeo, _ (sem redução luminal; ou determinando redução luminal estimada em _% nesse ponto). No contexto clínico adequado, os achados podem corresponder à variante vascular da síndrome de Eagle."
+    word: true
+
+  - trigger: "eaglecarotidac"
+    label: "Conclusão — variante vascular da síndrome de Eagle"
+    replace: "Processo estiloide _ alongado em contato com a artéria carótida interna, podendo corresponder à variante vascular da síndrome de Eagle."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — PARAGANGLIOMAS
+  # ==========================================================================
+  - trigger: "glomocarotideo"
+    label: "Paraganglioma do corpo carotídeo (sinal da lira, Shamblin)"
+    replace: "Formação expansiva sólida, ovalada, de contornos bem definidos, na bifurcação carotídea _, medindo _ cm, com intenso realce pelo meio de contraste na fase arterial, afastando as artérias carótidas interna e externa (sinal da lira) e mantendo contato com cerca de _° da circunferência da artéria carótida interna, sugerindo paraganglioma do corpo carotídeo. Grupo de Shamblin pelo contato com a carótida interna: I (≤ 180°), II (> 180° e < 270°) e III (≥ 270°)."
+    word: true
+
+  - trigger: "glomocarotideoc"
+    label: "Conclusão — paraganglioma do corpo carotídeo"
+    replace: "Formação expansiva hipervascular na bifurcação carotídea _, sugerindo paraganglioma do corpo carotídeo (Shamblin _)."
+    word: true
+
+  - trigger: "glomovagal"
+    label: "Paraganglioma vagal (desloca a carótida sem afastar interna e externa)"
+    replace: "Formação expansiva sólida no espaço carotídeo _, acima da bifurcação carotídea, medindo _ cm, com intenso realce pelo meio de contraste na fase arterial, deslocando as artérias carótidas anteromedialmente e a veia jugular interna posterolateralmente, sem afastar as artérias carótidas interna e externa, sugerindo paraganglioma vagal. Os diagnósticos diferenciais incluem schwannoma do nervo vago, entre outros."
+    word: true
+
+  - trigger: "glomovagalc"
+    label: "Conclusão — paraganglioma vagal"
+    replace: "Formação expansiva hipervascular no espaço carotídeo _, sugerindo paraganglioma vagal."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — VARIANTES ANATÔMICAS
+  # ==========================================================================
+  - trigger: "vertebralalta"
+    label: "Entrada alta da artéria vertebral no forame transverso"
+    replace: "Artéria vertebral _ penetrando no forame transverso de _ (C5; C4; ou C3), e não no de C6 (variação anatômica)."
+    word: true
+
+  - trigger: "carotidaretro"
+    label: "Carótida interna com trajeto medial retrofaríngeo"
+    replace: "Artéria carótida interna _ com trajeto medial, no espaço retrofaríngeo, junto à parede posterolateral da _ (nasofaringe; orofaringe; ou hipofaringe), a _ cm da mucosa (variação anatômica, relevante em procedimentos faríngeos)."
+    word: true
+
+  - trigger: "dolicocarotida"
+    label: "Tortuosidade, enrolamento ou angulação da carótida interna (Weibel e Fields)"
+    replace: "Artéria carótida interna _ com _ (tortuosidade em C ou em S; enrolamento em alça; ou angulação aguda) no segmento cervical, sem redução luminal significativa (variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — VEIAS JUGULARES
+  # ==========================================================================
+  - trigger: "trombojugular"
+    label: "Trombose da veia jugular interna"
+    replace: "Falha de enchimento na veia jugular interna _, estendendo-se de _ a _, com aumento do calibre do vaso, compatível com trombose venosa."
+    word: true
+
+  - trigger: "trombojugularc"
+    label: "Conclusão — trombose da veia jugular interna"
+    replace: "Trombose da veia jugular interna _."
+    word: true
+
+  - trigger: "jugularseptica"
+    label: "Tromboflebite séptica da jugular interna (síndrome de Lemierre)"
+    replace: "Falha de enchimento na veia jugular interna _, estendendo-se de _ a _, com realce parietal e densificação dos planos adiposos adjacentes. Associa-se _ (faringoamigdalite; abscesso periamigdaliano; ou abscesso parafaríngeo) ipsilateral. No contexto infeccioso, os achados podem corresponder a tromboflebite séptica (síndrome de Lemierre)."
+    word: true
+
+  - trigger: "jugularsepticac"
+    label: "Conclusão — tromboflebite séptica da jugular interna"
+    replace: "Trombose da veia jugular interna _ associada a infecção orofaríngea, podendo corresponder a tromboflebite séptica (síndrome de Lemierre). A pesquisa de êmbolos sépticos pulmonares por tomografia de tórax pode ser considerada."
+    word: true
