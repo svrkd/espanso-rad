@@ -787,12 +787,12 @@ matches:
   # ==========================================================================
   # ANGIOTOMOGRAFIA DE ABDOME — AORTA ABDOMINAL E ILÍACAS
   # ==========================================================================
-  - trigger: "aneuabdominal"
+  - trigger: "aneuabd"
     label: "Aneurisma da aorta abdominal infrarrenal (≥ 3,0 cm)"
     replace: "Dilatação aneurismática fusiforme da aorta abdominal infrarrenal, com diâmetro máximo de _ cm (≥ 3,0 cm, medido perpendicularmente ao eixo do fluxo, de borda externa a borda externa), estendendo-se por cerca de _ cm até _, com colo proximal de _ cm de extensão a partir da artéria renal mais baixa, _ cm de diâmetro e angulação de _°. Associa-se trombo mural excêntrico de até _ cm de espessura."
     word: true
 
-  - trigger: "aneuabdominalc"
+  - trigger: "aneuabdc"
     label: "Conclusão — aneurisma da aorta abdominal infrarrenal"
     replace: "Aneurisma fusiforme da aorta abdominal infrarrenal."
     word: true
