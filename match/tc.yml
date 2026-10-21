@@ -1769,17 +1769,17 @@ matches:
 
   - trigger: "sinusodonto"
     label: "Sinusopatia odontogênica (lesão periapical)"
-    replace: "Material com atenuação de partes moles no seio maxilar _ (direito; ou esquerdo), associado a rarefação óssea periapical do dente _ (número), em contato com o assoalho do seio, sugerindo sinusopatia de origem odontogênica."
+    replace: "Material com atenuação de partes moles no seio maxilar _ (direito; ou esquerdo), associado a rarefação óssea periapical do dente _, em contato com o assoalho do seio, sugerindo sinusopatia de origem odontogênica."
     word: true
 
   - trigger: "sinusodonto2"
     label: "Comunicação oroantral"
-    replace: "Falha óssea no assoalho do seio maxilar _ (direito; ou esquerdo), junto ao alvéolo do dente _ (número), sugerindo comunicação oroantral."
+    replace: "Falha óssea no assoalho do seio maxilar _ (direito; ou esquerdo), junto ao alvéolo do dente _, sugerindo comunicação oroantral."
     word: true
 
   - trigger: "sinusodonto3"
     label: "Material de procedimento dentário no seio maxilar"
-    replace: "Material hiperdenso no interior do seio maxilar _ (direito; ou esquerdo), junto à raiz do dente _ (número), sugerindo extravasamento de material de procedimento dentário."
+    replace: "Material hiperdenso no interior do seio maxilar _ (direito; ou esquerdo), junto à raiz do dente _, sugerindo extravasamento de material de procedimento dentário."
     word: true
 
   - trigger: "sinusodontoc"
