@@ -1063,17 +1063,17 @@ matches:
 
   - trigger: "orads3"
     label: "O-RADS US 3 — baixo risco (1% a < 10%)"
-    replace: "Classificação O-RADS US 3. Sugere-se avaliação por especialista em ultrassonografia ou ressonância magnética."
+    replace: "Classificação O-RADS US 3."
     word: true
 
   - trigger: "orads4"
     label: "O-RADS US 4 — risco intermediário (10% a < 50%)"
-    replace: "Classificação O-RADS US 4. Sugere-se avaliação ginecológica especializada, com suporte de ginecologia oncológica."
+    replace: "Classificação O-RADS US 4."
     word: true
 
   - trigger: "orads5"
     label: "O-RADS US 5 — alto risco (≥ 50%)"
-    replace: "Classificação O-RADS US 5. Sugere-se avaliação por ginecologia oncológica."
+    replace: "Classificação O-RADS US 5."
     word: true
 
   - trigger: "ov7"
