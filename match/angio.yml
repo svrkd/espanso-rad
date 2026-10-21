@@ -1208,7 +1208,7 @@ matches:
   # ==========================================================================
   - trigger: "placasdifusas"
     label: "Ateromatose difusa sem estenose significativa"
-    replace: "Placas ateromatosas calcificadas e não calcificadas esparsas ao longo das artérias _, determinando irregularidades parietais, sem estenoses significativas (≥ 50%)."
+    replace: "Placas ateromatosas calcificadas e não calcificadas esparsas ao longo das artérias _, determinando irregularidades parietais, sem estenoses significativas (redução luminal igual ou superior a 50%)."
     word: true
 
   - trigger: "placasdifusasc"
@@ -1217,7 +1217,7 @@ matches:
     word: true
 
   - trigger: "estenoseleve"
-    label: "Estenose não significativa (< 50%)"
+    label: "Estenose não significativa (redução luminal < 50%)"
     replace: "Placa ateromatosa _ na artéria _, no terço _, determinando redução luminal estimada em _% (inferior a 50%)."
     word: true
 
@@ -1227,7 +1227,7 @@ matches:
     word: true
 
   - trigger: "estenosesignificativa"
-    label: "Estenose significativa (≥ 50%)"
+    label: "Estenose significativa (redução luminal ≥ 50%)"
     replace: "Placa ateromatosa _ na artéria _, no terço _, estendendo-se por cerca de _ cm, determinando redução luminal estimada em _% (estenose significativa, igual ou superior a 50%)."
     word: true
 
