@@ -418,7 +418,7 @@ matches:
 
   - trigger: "vb4c"
     label: "Vesícula biliar: Imagem compatível com pólipo de vesícula biliar"
-    replace: "Pólipo de vesícula biliar, medindo _ cm."
+    replace: "Pólipo de vesícula biliar."
     word: true
 
   - trigger: "vb12c"
@@ -1810,7 +1810,7 @@ matches:
 
   - trigger: "ob33c"
     label: "Obstétrica — 1º trimestre: gestação inviável (saco gestacional vazio, diâmetro médio ≥ 25 mm) (conclusão)"
-    replace: "Gestação tópica com saco gestacional de diâmetro médio de _ mm, sem embrião, critério diagnóstico de gestação inviável."
+    replace: "Gestação tópica com saco gestacional sem embrião, com critério diagnóstico de gestação inviável."
     word: true
 
   - trigger: "ob34"
@@ -1820,7 +1820,7 @@ matches:
 
   - trigger: "ob34c"
     label: "Obstétrica — 1º trimestre: gestação inviável (embrião com CCN ≥ 7 mm sem BCE) (conclusão)"
-    replace: "Gestação tópica com embrião de CCN de _ mm, sem atividade cardíaca, critério diagnóstico de gestação inviável."
+    replace: "Gestação tópica com embrião sem atividade cardíaca, com critério diagnóstico de gestação inviável."
     word: true
 
   - trigger: "ob35"
@@ -1940,7 +1940,7 @@ matches:
 
   - trigger: "ob46c"
     label: "Obstétrica — 1º trimestre: saco gestacional de 16 a 24 mm sem embrião (conclusão)"
-    replace: "Saco gestacional de diâmetro médio de _ mm, sem embrião. Sugere-se controle ultrassonográfico em 7 a 10 dias."
+    replace: "Saco gestacional sem embrião. Sugere-se controle ultrassonográfico em 7 a 10 dias."
     word: true
 
   - trigger: "ob47"
@@ -1950,7 +1950,7 @@ matches:
 
   - trigger: "ob47c"
     label: "Obstétrica — 1º trimestre: embrião com CCN < 7 mm sem BCE (conclusão)"
-    replace: "Embrião com CCN de _ mm, sem atividade cardíaca. Sugere-se controle ultrassonográfico em 7 a 10 dias."
+    replace: "Embrião sem atividade cardíaca. Sugere-se controle ultrassonográfico em 7 a 10 dias."
     word: true
 
   # ==============================================================================
@@ -9316,7 +9316,7 @@ matches:
 
   - trigger: "dabd12c"
     label: "Doppler abdome superior: Aneurisma da artéria esplênica"
-    replace: "Aneurisma da artéria esplênica, medindo _ cm."
+    replace: "Aneurisma da artéria esplênica."
     word: true
 
   - trigger: "dabd13"
@@ -9470,7 +9470,7 @@ matches:
 
   - trigger: "aorta4c"
     label: "Aorta abdominal: ectasia infrarrenal (conclusão)"
-    replace: "Ectasia da aorta abdominal infrarrenal, com diâmetro máximo de _ cm."
+    replace: "Ectasia da aorta abdominal infrarrenal."
     word: true
 
   - trigger: "aorta2"
@@ -9480,7 +9480,7 @@ matches:
 
   - trigger: "aorta2c"
     label: "Aorta abdominal: aneurisma infrarrenal (conclusão)"
-    replace: "Aneurisma da aorta abdominal infrarrenal, com diâmetro máximo de _ cm."
+    replace: "Aneurisma da aorta abdominal infrarrenal."
     word: true
 
   - trigger: "aorta5"
