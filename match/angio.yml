@@ -774,12 +774,12 @@ matches:
   # ==========================================================================
   # ANGIOTOMOGRAFIA DE ABDOME — ASPECTO NORMAL
   # ==========================================================================
-  - trigger: "angioabdomenl"
+  - trigger: "angioabd1"
     label: "Aorta abdominal e ramos normais (angio-TC)"
     replace: "Aorta abdominal com trajeto, calibre e contornos preservados, sem dilatações aneurismáticas, retalho intimal ou estenoses. Tronco celíaco, artérias mesentéricas superior e inferior, artérias renais e artérias ilíacas comuns, internas e externas pérvias, com trajeto e calibre preservados, sem estenoses."
     word: true
 
-  - trigger: "angioabdomenlc"
+  - trigger: "angioabd1c"
     label: "Conclusão — angio-TC de aorta abdominal normal"
     replace: "Angiotomografia de aorta abdominal e ramos sem alterações significativas."
     word: true
