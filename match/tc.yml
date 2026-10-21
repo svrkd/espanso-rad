@@ -1814,7 +1814,7 @@ matches:
 
   - trigger: "papilomainvertido"
     label: "Formação expansiva nasossinusal (papiloma invertido?)"
-    replace: "Formação expansiva unilateral com atenuação de partes moles, centrada no meato médio _ (direito; ou esquerdo) e estendendo-se ao seio maxilar ipsilateral, com remodelamento ósseo e hiperostose focal na parede _ (citar parede), que pode indicar o sítio de implantação. Admite-se inicialmente a hipótese de papiloma invertido. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e anatomopatológicos, não sendo possível afastar de forma inequívoca a possibilidade de neoplasia de outra natureza."
+    replace: "Formação expansiva unilateral com atenuação de partes moles, centrada no meato médio _ (direito; ou esquerdo) e estendendo-se ao seio maxilar ipsilateral, com remodelamento ósseo e hiperostose focal na parede _, que pode indicar o sítio de implantação. Admite-se inicialmente a hipótese de papiloma invertido. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e anatomopatológicos, não sendo possível afastar de forma inequívoca a possibilidade de neoplasia de outra natureza."
     word: true
 
   - trigger: "papilomainvertidoc"
@@ -2114,7 +2114,7 @@ matches:
 
   - trigger: "posfess6"
     label: "Pós-FESS — célula etmoidal residual no recesso frontal"
-    replace: "Célula etmoidal residual _ (citar a célula: agger nasi, supra-agger, suprabular ou outra) no recesso frontal _ (direito; ou esquerdo), _ (sem; ou com) obliteração da via de drenagem frontal."
+    replace: "Célula etmoidal residual _ (agger nasi; supra-agger; ou suprabular) no recesso frontal _ (direito; ou esquerdo), _ (sem; ou com) obliteração da via de drenagem frontal."
     word: true
 
   - trigger: "posfess7"
