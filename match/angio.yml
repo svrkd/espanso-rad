@@ -440,6 +440,11 @@ matches:
     replace: "Seios sagital superior, sagital inferior, reto, transversos e sigmoides, confluência dos seios, veias cerebrais internas, veia de Galeno e veias corticais com opacificação homogênea pelo meio de contraste, sem falhas de enchimento."
     word: true
 
+  - trigger: "angiovenosanlc"
+    label: "Conclusão — angio-TC venosa encefálica normal"
+    replace: "Angiotomografia venosa encefálica sem alterações significativas."
+    word: true
+
   # ==========================================================================
   # ANGIOTOMOGRAFIA ENCEFÁLICA — ANEURISMAS
   # ==========================================================================
