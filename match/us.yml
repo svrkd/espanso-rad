@@ -7666,16 +7666,6 @@ matches:
     replace: Ausência de deslizamento pleural com lung point na topografia _, compatível com pneumotórax.
     word: true
 
-  - trigger: "tx7"
-    label: "Tórax (pneumotórax): Lung point (achado descritivo)"
-    replace: Identificação de ponto de transição entre área com deslizamento pleural preservado e área sem deslizamento (lung point) na topografia _.
-    word: true
-
-  - trigger: "tx7c"
-    label: "Tórax (pneumotórax): Lung point"
-    replace: Lung point identificado na topografia _, achado patognomônico de pneumotórax e indicativo da extensão do colabamento pulmonar.
-    word: true
-
   - trigger: "tx8"
     label: "Tórax (massa pleuropulmonar): Massa sólida com contato pleural (achado descritivo)"
     replace: Massa/nódulo sólido de contornos irregulares, com amplo contato pleural, hipoecogênico, sem broncograma aéreo em seu interior, medindo _ x _ cm.

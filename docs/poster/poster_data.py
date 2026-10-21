@@ -168,7 +168,6 @@ BLOCOS = [
             ("4", "consolidação c/ broncograma estático (atelectasia/consolidação)"),
             ("5", "consolidação s/ broncograma"),
             ("6", "ausência de deslizamento + lung point (pneumotórax)"),
-            ("7", "lung point (pneumotórax)"),
             ("8", "massa sólida c/ contato pleural"),
             ("9", "nodularidade pleural + derrame (neoplasia?)"),
             ("10", "linhas A (padrão normal)"),

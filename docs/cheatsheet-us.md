@@ -1392,8 +1392,6 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | tx5c | Tórax (consolidação): Consolidação sem broncograma aéreo |
 | tx6 | Tórax (pneumotórax): Ausência de deslizamento pleural com lung point (achado descritivo) |
 | tx6c | Tórax (pneumotórax): Ausência de deslizamento pleural com lung point |
-| tx7 | Tórax (pneumotórax): Lung point (achado descritivo) |
-| tx7c | Tórax (pneumotórax): Lung point |
 | tx8 | Tórax (massa pleuropulmonar): Massa sólida com contato pleural (achado descritivo) |
 | tx8c | Tórax (massa pleuropulmonar): Massa sólida com contato pleural |
 | tx9 | Tórax (massa pleuropulmonar): Nodularidade pleural associada a derrame (achado descritivo) |
