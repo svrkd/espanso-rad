@@ -770,3 +770,422 @@ matches:
     label: "Conclusão — HSA perimesencefálica sem aneurisma"
     replace: "Hemorragia subaracnoide de padrão perimesencefálico, sem aneurisma identificável à angiotomografia."
     word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — ASPECTO NORMAL
+  # ==========================================================================
+  - trigger: "angioabd1"
+    label: "Aorta abdominal e ramos normais (angio-TC)"
+    replace: "Aorta abdominal com trajeto, calibre e contornos preservados, sem dilatações aneurismáticas, retalho intimal ou estenoses. Tronco celíaco, artérias mesentéricas superior e inferior, artérias renais e artérias ilíacas comuns, internas e externas pérvias, com trajeto e calibre preservados, sem estenoses."
+    word: true
+
+  - trigger: "angioabd1c"
+    label: "Conclusão — angio-TC de aorta abdominal normal"
+    replace: "Angiotomografia de aorta abdominal e ramos sem alterações significativas."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — AORTA ABDOMINAL E ILÍACAS
+  # ==========================================================================
+  - trigger: "aneuabd"
+    label: "Aneurisma da aorta abdominal infrarrenal (≥ 3,0 cm)"
+    replace: "Dilatação aneurismática fusiforme da aorta abdominal infrarrenal, com diâmetro máximo de _ cm (≥ 3,0 cm, medido perpendicularmente ao eixo do fluxo, de borda externa a borda externa), estendendo-se por cerca de _ cm até _, com colo proximal de _ cm de extensão a partir da artéria renal mais baixa, _ cm de diâmetro e angulação de _°. Associa-se trombo mural excêntrico de até _ cm de espessura."
+    word: true
+
+  - trigger: "aneuabdc"
+    label: "Conclusão — aneurisma da aorta abdominal infrarrenal"
+    replace: "Aneurisma fusiforme da aorta abdominal infrarrenal."
+    word: true
+
+  - trigger: "aneujustarrenal"
+    label: "Aneurisma justarrenal da aorta abdominal"
+    replace: "Dilatação aneurismática da aorta abdominal iniciando-se imediatamente abaixo das artérias renais, sem acometer suas origens, com colo infrarrenal curto (_ cm) ou ausente, diâmetro máximo de _ cm (medido perpendicularmente ao eixo do fluxo, de borda externa a borda externa) e extensão até _."
+    word: true
+
+  - trigger: "aneujustarrenalc"
+    label: "Conclusão — aneurisma justarrenal da aorta abdominal"
+    replace: "Aneurisma justarrenal da aorta abdominal."
+    word: true
+
+  - trigger: "aneuiliaca"
+    label: "Aneurisma da artéria ilíaca comum"
+    replace: "Dilatação aneurismática fusiforme da artéria ilíaca comum _, com diâmetro máximo de _ cm (medido de borda externa a borda externa), estendendo-se por cerca de _ cm e terminando a _ cm da bifurcação ilíaca."
+    word: true
+
+  - trigger: "aneuiliacac"
+    label: "Conclusão — aneurisma da artéria ilíaca comum"
+    replace: "Aneurisma fusiforme da artéria ilíaca comum _."
+    word: true
+
+  - trigger: "aortainstavel"
+    label: "Aneurisma com sinal do crescente hiperatenuante (rotura iminente)"
+    replace: "Área em crescente espontaneamente hiperatenuante na fase sem contraste, na periferia do trombo mural do aneurisma da aorta abdominal, sugerindo sangramento intramural agudo (sinal do crescente hiperatenuante). Associa-se descontinuidade focal da calcificação parietal circunferencial na parede _ do aneurisma."
+    word: true
+
+  - trigger: "aortainstavelc"
+    label: "Conclusão — sinal do crescente hiperatenuante"
+    replace: "Aneurisma da aorta abdominal com sinal do crescente hiperatenuante, sugestivo de rotura iminente."
+    word: true
+
+  - trigger: "aortadrapeada"
+    label: "Sinal da aorta drapeada (rotura contida)"
+    replace: "Parede posterior do aneurisma da aorta abdominal mal definida, moldando-se ao contorno anterior do corpo vertebral de _ (sinal da aorta drapeada), sugerindo rotura contida."
+    word: true
+
+  - trigger: "aortadrapeadac"
+    label: "Conclusão — sinal da aorta drapeada"
+    replace: "Sinal da aorta drapeada, sugestivo de rotura contida do aneurisma da aorta abdominal."
+    word: true
+
+  - trigger: "aortarota"
+    label: "Aneurisma roto com hematoma retroperitoneal e sangramento ativo"
+    replace: "Hematoma retroperitoneal em contiguidade com o aneurisma da aorta abdominal, estendendo-se aos espaços _, com descontinuidade da parede _ do aneurisma. Associa-se extravasamento do meio de contraste a partir da parede _, aumentando de volume e dispersando-se no hematoma na fase tardia, compatível com sangramento ativo."
+    word: true
+
+  - trigger: "aortarotac"
+    label: "Conclusão — aneurisma roto da aorta abdominal"
+    replace: "Rotura de aneurisma da aorta abdominal, com hematoma retroperitoneal e sangramento ativo."
+    word: true
+
+  - trigger: "aneuinflamatorio"
+    label: "Aneurisma inflamatório da aorta abdominal"
+    replace: "Manto de partes moles periaórtico, com realce tardio pelo meio de contraste, envolvendo as paredes anterior e laterais do aneurisma da aorta abdominal e poupando a parede posterior, sugerindo aneurisma inflamatório. Diâmetro aórtico máximo de _ cm, medido excluindo o manto periaórtico. Associa-se envolvimento de _ pelo manto."
+    word: true
+
+  - trigger: "aneuinflamatorioc"
+    label: "Conclusão — aneurisma inflamatório da aorta abdominal"
+    replace: "Aneurisma inflamatório da aorta abdominal."
+    word: true
+
+  - trigger: "aneuinfeccioso"
+    label: "Aneurisma infeccioso (micótico) da aorta"
+    replace: "Dilatação aneurismática sacular e lobulada da aorta _, medindo _ cm, com parede irregular e mal definida, associada a densificação da gordura e tecido de partes moles periaórticos, sugerindo aneurisma infeccioso (micótico) no contexto clínico informado."
+    word: true
+
+  - trigger: "aneuinfecciosoc"
+    label: "Conclusão — aneurisma infeccioso (micótico) da aorta"
+    replace: "Aneurisma sacular da aorta _, sugestivo de aneurisma infeccioso (micótico)."
+    word: true
+
+  - trigger: "flapabd"
+    label: "Dissecção da aorta abdominal"
+    replace: "Retalho intimal na aorta abdominal, estendendo-se de _ a _, delimitando luz verdadeira de menor calibre e luz falsa de maior calibre, com rotura intimal de entrada no nível de _. Ramos viscerais emergindo da luz verdadeira, exceto _."
+    word: true
+
+  - trigger: "flapabdc"
+    label: "Conclusão — dissecção da aorta abdominal (SVS/STS)"
+    replace: "Dissecção da aorta abdominal (SVS/STS: tipo B, extensão proximal na zona _ e distal na zona _)."
+    word: true
+
+  - trigger: "obstrucaodinamica"
+    label: "Dissecção com obstrução dinâmica de ramo visceral"
+    replace: "Compressão da luz verdadeira pela luz falsa, com prolapso do retalho intimal sobre o óstio da artéria _, sem extensão do retalho ao ramo, determinando redução de sua opacificação (obstrução dinâmica). Associa-se hipoperfusão de _."
+    word: true
+
+  - trigger: "obstrucaodinamicac"
+    label: "Conclusão — obstrução dinâmica de ramo visceral"
+    replace: "Dissecção aórtica com obstrução dinâmica da artéria _ e hipoperfusão de _."
+    word: true
+
+  - trigger: "obstrucaoestatica"
+    label: "Dissecção com obstrução estática de ramo visceral"
+    replace: "Extensão do retalho intimal ao interior da artéria _, determinando estreitamento luminal a partir de sua origem (obstrução estática). Associa-se hipoperfusão de _."
+    word: true
+
+  - trigger: "obstrucaoestaticac"
+    label: "Conclusão — obstrução estática de ramo visceral"
+    replace: "Dissecção aórtica com obstrução estática da artéria _ e hipoperfusão de _."
+    word: true
+
+  - trigger: "oclusaoaortica"
+    label: "Oclusão aortoilíaca com colaterais"
+    replace: "Ausência de opacificação da aorta abdominal infrarrenal a partir de _ cm abaixo das artérias renais, estendendo-se às artérias ilíacas comuns, compatível com oclusão aortoilíaca. Associa-se circulação colateral pelas artérias lombares, mesentérica inferior, epigástricas e circunflexas ilíacas, com reenchimento das artérias _."
+    word: true
+
+  - trigger: "oclusaoaorticac"
+    label: "Conclusão — oclusão aortoilíaca"
+    replace: "Oclusão aortoilíaca, com circulação colateral."
+    word: true
+
+  - trigger: "aortacoral"
+    label: "Aorta em recife de coral (coral reef aorta)"
+    replace: "Calcificações parietais densas, irregulares e exofíticas, projetando-se para a luz da aorta abdominal no segmento _, predominando na parede posterior, determinando redução luminal estimada em _%, compatíveis com aorta em recife de coral (coral reef aorta)."
+    word: true
+
+  - trigger: "aortacoralc"
+    label: "Conclusão — aorta em recife de coral"
+    replace: "Aorta em recife de coral (coral reef aorta), com estenose do segmento _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — ENDOPRÓTESE E ENXERTO
+  # ==========================================================================
+  - trigger: "evarpervia"
+    label: "Endoprótese aórtica abdominal sem endoleak"
+    replace: "Endoprótese aórtica bifurcada, com corpo principal ancorado no colo infrarrenal, logo abaixo da artéria renal _, e ramos estendendo-se às artérias ilíacas _, pérvia e bem posicionada, com boa aposição às zonas de ancoragem, sem extravasamento do meio de contraste para o saco aneurismático nas fases arterial e tardia. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "evarperviac"
+    label: "Conclusão — endoprótese aórtica abdominal sem endoleak"
+    replace: "Endoprótese aórtica abdominal pérvia, sem sinais de vazamento (endoleak)."
+    word: true
+
+  - trigger: "evar1"
+    label: "Endoleak tipo I (zona de ancoragem: Ia proximal, Ib distal)"
+    replace: "Opacificação pelo meio de contraste no interior do saco aneurismático já na fase arterial, em continuidade com a extremidade _ da endoprótese, junto à zona de ancoragem _, compatível com vazamento (endoleak) tipo I_. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "evar1c"
+    label: "Conclusão — endoleak tipo I"
+    replace: "Vazamento (endoleak) tipo I_ da endoprótese aórtica abdominal."
+    word: true
+
+  - trigger: "evar2"
+    label: "Endoleak tipo II (IIa um ramo, IIb dois ou mais)"
+    replace: "Opacificação pelo meio de contraste no interior do saco aneurismático, mais evidente na fase tardia, sem continuidade com as zonas de ancoragem ou com as junções da endoprótese, em contiguidade com _ pérvia(s), compatível com vazamento (endoleak) tipo II_. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "evar2c"
+    label: "Conclusão — endoleak tipo II"
+    replace: "Vazamento (endoleak) tipo II_ da endoprótese aórtica abdominal, a partir de _."
+    word: true
+
+  - trigger: "evar3"
+    label: "Endoleak tipo IIIa (desconexão modular)"
+    replace: "Opacificação pelo meio de contraste no interior do saco aneurismático junto à junção entre o corpo principal e o ramo _ da endoprótese, com perda da sobreposição dos componentes modulares, compatível com vazamento (endoleak) tipo IIIa. Saco aneurismático medindo _ cm (no exame anterior: _ cm)."
+    word: true
+
+  - trigger: "evar3c"
+    label: "Conclusão — endoleak tipo IIIa"
+    replace: "Vazamento (endoleak) tipo IIIa da endoprótese aórtica abdominal, por desconexão modular."
+    word: true
+
+  - trigger: "evarramo"
+    label: "Oclusão de ramo da endoprótese aórtica"
+    replace: "Ausência de opacificação do ramo _ da endoprótese aórtica a partir de _, compatível com oclusão. Associa-se reenchimento da artéria _ ipsilateral por circulação colateral."
+    word: true
+
+  - trigger: "evarramoc"
+    label: "Conclusão — oclusão de ramo da endoprótese"
+    replace: "Oclusão do ramo _ da endoprótese aórtica abdominal."
+    word: true
+
+  - trigger: "enxertoinfectado"
+    label: "Infecção de enxerto aórtico (MAGIC: gás ≥ 7 semanas, líquido ≥ 3 meses)"
+    replace: "Coleção líquida e gás periprotéticos em torno do enxerto aórtico _, a _ meses do implante, associados a densificação da gordura adjacente, sugerindo infecção do enxerto."
+    word: true
+
+  - trigger: "enxertoinfectadoc"
+    label: "Conclusão — infecção de enxerto aórtico"
+    replace: "Coleção e gás periprotéticos, sugestivos de infecção do enxerto aórtico."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — ARTÉRIAS VISCERAIS
+  # ==========================================================================
+  - trigger: "arqueadomediano"
+    label: "Compressão do tronco celíaco pelo ligamento arqueado mediano"
+    replace: "Estreitamento focal da porção proximal do tronco celíaco, junto à sua face superior, com aspecto em gancho nas reconstruções sagitais, sem placas ateromatosas associadas, sugerindo compressão extrínseca pelo ligamento arqueado mediano. Associa-se dilatação pós-estenótica do tronco celíaco, bem como circulação colateral pelas arcadas pancreatoduodenais."
+    word: true
+
+  - trigger: "arqueadomedianoc"
+    label: "Conclusão — compressão pelo ligamento arqueado mediano"
+    replace: "Sinais de compressão do tronco celíaco pelo ligamento arqueado mediano."
+    word: true
+
+  - trigger: "estenoseostial"
+    label: "Estenose aterosclerótica ostial de ramo visceral ou renal"
+    replace: "Placas ateromatosas calcificadas e não calcificadas na origem da artéria _, determinando redução luminal estimada em _%."
+    word: true
+
+  - trigger: "estenoseostialc"
+    label: "Conclusão — estenose aterosclerótica ostial"
+    replace: "Estenose aterosclerótica ostial da artéria _."
+    word: true
+
+  - trigger: "embolomesenterica"
+    label: "Oclusão embólica da artéria mesentérica superior"
+    replace: "Falha de enchimento intraluminal na artéria mesentérica superior, a cerca de _ cm de sua origem, distalmente à emergência da artéria cólica média, sem placas ateromatosas significativas no óstio, com ausência de opacificação dos ramos distais, sugerindo oclusão embólica. Associa-se redução do realce parietal de alças de _."
+    word: true
+
+  - trigger: "embolomesentericac"
+    label: "Conclusão — oclusão embólica da mesentérica superior"
+    replace: "Oclusão da artéria mesentérica superior, sugestiva de embolia, com sinais de isquemia de alças de _."
+    word: true
+
+  - trigger: "mesentericaostial"
+    label: "Oclusão aterotrombótica da mesentérica superior (óstio)"
+    replace: "Ausência de opacificação da artéria mesentérica superior a partir de sua origem, em meio a placas ateromatosas calcificadas, sugerindo trombose sobre estenose aterosclerótica. Associa-se reenchimento distal por colaterais das arcadas pancreatoduodenais."
+    word: true
+
+  - trigger: "mesentericaostialc"
+    label: "Conclusão — oclusão aterotrombótica da mesentérica superior"
+    replace: "Oclusão aterotrombótica da artéria mesentérica superior."
+    word: true
+
+  - trigger: "isquemianaooclusiva"
+    label: "Isquemia mesentérica não oclusiva"
+    replace: "Artéria mesentérica superior e ramos pérvios, de calibre reduzido, com estreitamento e irregularidade dos ramos e redução da opacificação das arcadas e dos vasos intramurais, sem falha de enchimento ou oclusão, sugerindo isquemia mesentérica não oclusiva no contexto clínico informado. Associa-se redução do realce parietal de alças de _."
+    word: true
+
+  - trigger: "isquemianaooclusivac"
+    label: "Conclusão — isquemia mesentérica não oclusiva"
+    replace: "Achados sugestivos de isquemia mesentérica não oclusiva."
+    word: true
+
+  - trigger: "veiamesenterica"
+    label: "Trombose da veia mesentérica superior"
+    replace: "Falha de enchimento na veia mesentérica superior, estendendo-se de _ a _, com aumento do calibre do vaso, compatível com trombose. Associa-se espessamento parietal circunferencial de alças de _, com edema submucoso (sinal do alvo), bem como densificação do mesentério e líquido livre."
+    word: true
+
+  - trigger: "veiamesentericac"
+    label: "Conclusão — trombose da veia mesentérica superior"
+    replace: "Trombose da veia mesentérica superior, com sinais de sofrimento de alças de _."
+    word: true
+
+  - trigger: "flapmesenterica"
+    label: "Dissecção isolada da artéria mesentérica superior (Yun)"
+    replace: "Retalho intimal na artéria mesentérica superior, iniciando-se a _ cm de sua origem e estendendo-se por _ cm, delimitando luz verdadeira e luz falsa _, sem envolvimento da aorta, compatível com dissecção isolada da artéria mesentérica superior."
+    word: true
+
+  - trigger: "flapmesentericac"
+    label: "Conclusão — dissecção isolada da mesentérica superior (Yun I, IIa, IIb, III)"
+    replace: "Dissecção isolada da artéria mesentérica superior (Yun tipo _)."
+    word: true
+
+  - trigger: "aneuvisceral"
+    label: "Aneurisma de artéria visceral"
+    replace: "Dilatação aneurismática sacular da artéria _, no seu terço _, medindo _ cm, com calcificações parietais periféricas, sem trombo mural significativo."
+    word: true
+
+  - trigger: "aneuvisceralc"
+    label: "Conclusão — aneurisma de artéria visceral"
+    replace: "Aneurisma sacular da artéria _."
+    word: true
+
+  - trigger: "pseudovisceral"
+    label: "Pseudoaneurisma de artéria visceral"
+    replace: "Formação arredondada em contiguidade com a artéria _, medindo _ cm, com opacificação acompanhando a do leito arterial e redução da atenuação na fase tardia, sem aumento de volume, sugerindo pseudoaneurisma. Os diagnósticos diferenciais etiológicos incluem pancreatite, trauma, iatrogenia e infecção, entre outros."
+    word: true
+
+  - trigger: "pseudovisceralc"
+    label: "Conclusão — pseudoaneurisma de artéria visceral"
+    replace: "Pseudoaneurisma da artéria _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — HEMORRAGIA
+  # ==========================================================================
+  - trigger: "sangramentoativo"
+    label: "Sangramento ativo (extravasamento do contraste)"
+    replace: "Foco de extravasamento do meio de contraste na fase arterial, em _, aumentando de volume e dispersando-se no hematoma adjacente na fase tardia, compatível com sangramento ativo. Associa-se hematoma de _ cm em _."
+    word: true
+
+  - trigger: "sangramentoativoc"
+    label: "Conclusão — sangramento ativo"
+    replace: "Sangramento ativo em _."
+    word: true
+
+  - trigger: "sangramentoluminal"
+    label: "Sangramento gastrointestinal ativo"
+    replace: "Foco de extravasamento do meio de contraste para a luz do(a) _, ausente na fase sem contraste, identificado na fase arterial e com acúmulo e dispersão intraluminal na fase portal, compatível com sangramento gastrointestinal ativo."
+    word: true
+
+  - trigger: "sangramentoluminalc"
+    label: "Conclusão — sangramento gastrointestinal ativo"
+    replace: "Sangramento ativo para a luz do(a) _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — ARTÉRIAS RENAIS
+  # ==========================================================================
+  - trigger: "colarcontas"
+    label: "Displasia fibromuscular multifocal da artéria renal"
+    replace: "Alternância de segmentos estreitados e dilatados nos terços médio e distal da artéria renal _ (aspecto em colar de contas), poupando a origem, sem placas ateromatosas, podendo corresponder a displasia fibromuscular multifocal."
+    word: true
+
+  - trigger: "colarcontasc"
+    label: "Conclusão — displasia fibromuscular multifocal renal"
+    replace: "Achados que podem corresponder a displasia fibromuscular multifocal da artéria renal _."
+    word: true
+
+  - trigger: "renalacessoria"
+    label: "Artéria renal acessória"
+    replace: "Artéria renal acessória _, originando-se da aorta abdominal no nível de _, com calibre de _ cm, destinada ao polo _ do rim _ (variação anatômica)."
+    word: true
+
+  - trigger: "renalprecoce"
+    label: "Ramificação precoce (pré-hilar) da artéria renal"
+    replace: "Ramificação precoce (pré-hilar) da artéria renal _, com divisão em ramos segmentares a _ cm de sua origem (variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — VARIANTES ARTERIAIS
+  # ==========================================================================
+  - trigger: "direitasubstituta"
+    label: "Artéria hepática direita substituta da mesentérica superior (Michels III)"
+    replace: "Artéria hepática direita substituta originando-se da artéria mesentérica superior (variação anatômica, tipo III de Michels)."
+    word: true
+
+  - trigger: "esquerdasubstituta"
+    label: "Artéria hepática esquerda substituta da gástrica esquerda (Michels II)"
+    replace: "Artéria hepática esquerda substituta originando-se da artéria gástrica esquerda (variação anatômica, tipo II de Michels)."
+    word: true
+
+  - trigger: "hepaticaacessoria"
+    label: "Artéria hepática acessória (Michels V esquerda, VI direita)"
+    replace: "Artéria hepática _ acessória originando-se da artéria _, coexistindo com a artéria hepática _ de origem habitual (variação anatômica, tipo _ de Michels)."
+    word: true
+
+  - trigger: "hepaticamesenterica"
+    label: "Artéria hepática comum da mesentérica superior (Michels IX)"
+    replace: "Artéria hepática comum originando-se da artéria mesentérica superior (variação anatômica, tipo IX de Michels)."
+    word: true
+
+  - trigger: "celiacomesenterico"
+    label: "Tronco celiacomesentérico"
+    replace: "Tronco celíaco e artéria mesentérica superior originando-se de tronco comum da aorta abdominal (tronco celiacomesentérico, variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — VEIAS
+  # ==========================================================================
+  - trigger: "renalretroaortica"
+    label: "Veia renal esquerda retroaórtica"
+    replace: "Veia renal esquerda com trajeto retroaórtico, cruzando posteriormente à aorta para desembocar na veia cava inferior no nível de _ (variação anatômica)."
+    word: true
+
+  - trigger: "renalcircumaortica"
+    label: "Veia renal esquerda circum-aórtica"
+    replace: "Veia renal esquerda circum-aórtica, com componentes pré-aórtico e retroaórtico que circundam a aorta antes de desembocar na veia cava inferior (variação anatômica)."
+    word: true
+
+  - trigger: "quebranozes"
+    label: "Compressão aortomesentérica da veia renal esquerda (quebra-nozes)"
+    replace: "Compressão da veia renal esquerda no seu trajeto entre a aorta e a artéria mesentérica superior, com afilamento abrupto (sinal do bico) e dilatação do segmento pré-estenótico, com razão entre os diâmetros da veia no hilo renal e no segmento aortomesentérico de _ (≥ 4,9) e ângulo aortomesentérico de _°, sugerindo fenômeno de quebra-nozes (nutcracker). Associa-se dilatação da veia gonadal esquerda, bem como varizes pélvicas."
+    word: true
+
+  - trigger: "quebranozesc"
+    label: "Conclusão — fenômeno de quebra-nozes"
+    replace: "Sinais de compressão da veia renal esquerda entre a aorta e a artéria mesentérica superior (fenômeno de quebra-nozes)."
+    word: true
+
+  - trigger: "maythurner"
+    label: "Compressão da veia ilíaca comum esquerda (May-Thurner)"
+    replace: "Compressão da veia ilíaca comum esquerda entre a artéria ilíaca comum direita e o corpo vertebral de _, com redução luminal estimada em _%, sugerindo síndrome de May-Thurner no contexto clínico informado. Associa-se circulação colateral pélvica transversa."
+    word: true
+
+  - trigger: "maythurnerc"
+    label: "Conclusão — compressão da veia ilíaca comum esquerda"
+    replace: "Compressão da veia ilíaca comum esquerda pela artéria ilíaca comum direita (padrão de May-Thurner)."
+    word: true
+
+  - trigger: "cavaesquerda"
+    label: "Veia cava inferior à esquerda"
+    replace: "Veia cava inferior infrarrenal à esquerda da aorta, em continuidade com a veia ilíaca comum esquerda, terminando na veia renal esquerda, que cruza anteriormente à aorta para formar a veia cava inferior suprarrenal à direita (variação anatômica)."
+    word: true
+
+  - trigger: "cavadupla"
+    label: "Duplicação da veia cava inferior"
+    replace: "Duplicação da veia cava inferior infrarrenal, com veia cava esquerda originando-se da veia ilíaca comum esquerda e terminando na veia renal esquerda, que cruza anteriormente à aorta para desembocar na veia cava inferior direita (variação anatômica)."
+    word: true
