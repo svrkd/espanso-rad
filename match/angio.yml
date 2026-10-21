@@ -1543,3 +1543,249 @@ matches:
     label: "Conclusão — trombose venosa profunda aguda"
     replace: "Trombose venosa profunda aguda da veia _."
     word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — ASPECTO NORMAL
+  # ==========================================================================
+  - trigger: "angiommss1"
+    label: "Artérias do membro superior normais (angio-TC)"
+    replace: "Artéria subclávia _, artérias axilar e braquial pérvias, com trajeto e calibre preservados, sem placas ateromatosas, estenoses ou dilatações aneurismáticas. Artérias radial, ulnar e interósseas pérvias até o punho, com opacificação dos arcos palmares superficial e profundo e das artérias digitais."
+    word: true
+
+  - trigger: "angiommss1c"
+    label: "Conclusão — angio-TC de membro superior normal"
+    replace: "Angiotomografia arterial do membro superior _ sem alterações significativas."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — DESFILADEIRO TORÁCICO
+  # ==========================================================================
+  - trigger: "desfiladeiro1"
+    label: "Desfiladeiro torácico sem compressão vascular (adução e abdução)"
+    replace: "Aquisições com o membro superior _ em adução e em abdução, sem redução luminal das artérias subclávia e axilar ou das veias correspondentes nos espaços interescalênico, costoclavicular e retropeitoral menor, em ambas as posições."
+    word: true
+
+  - trigger: "desfiladeiro1c"
+    label: "Conclusão — desfiladeiro torácico sem compressão vascular"
+    replace: "Ausência de compressão vascular no desfiladeiro torácico _, em adução e em abdução."
+    word: true
+
+  - trigger: "desfiladeiro2"
+    label: "Compressão arterial dinâmica na abdução, sem lesão arterial"
+    replace: "Redução luminal da artéria _ (subclávia; ou axilar) no espaço _ (interescalênico; costoclavicular; ou retropeitoral menor) com o membro superior _ em abdução, estimada em _%, com calibre preservado em adução, sem estenose fixa, dilatação, trombo ou oclusões distais. A compressão dinâmica isolada pode ocorrer em indivíduos sem síndrome do desfiladeiro torácico, devendo ser correlacionada com os dados clínicos."
+    word: true
+
+  - trigger: "desfiladeiro2c"
+    label: "Conclusão — compressão arterial dinâmica, sem lesão arterial"
+    replace: "Compressão dinâmica da artéria _ no espaço _ com a abdução do membro, sem lesão arterial estrutural."
+    word: true
+
+  - trigger: "desfiladeiro3"
+    label: "Síndrome do desfiladeiro torácico arterial (estenose fixa, dilatação, trombo ou êmbolo)"
+    replace: "Estenose da artéria subclávia _ no espaço _ (interescalênico; costoclavicular; ou retropeitoral menor), junto a _ (costela cervical; primeira costela; ou banda fibrosa), acentuando-se com a abdução do membro. Associa-se dilatação pós-estenótica de até _ cm a jusante, com trombo mural, bem como oclusão de _, sugerindo embolização distal. Achados compatíveis com síndrome do desfiladeiro torácico arterial."
+    word: true
+
+  - trigger: "desfiladeiro3c"
+    label: "Conclusão — síndrome do desfiladeiro torácico arterial"
+    replace: "Síndrome do desfiladeiro torácico arterial _, com _ (dilatação pós-estenótica; trombo mural; embolização distal)."
+    word: true
+
+  - trigger: "desfiladeiro4"
+    label: "Compressão venosa dinâmica na abdução, sem trombose"
+    replace: "Redução luminal da veia _ (subclávia; ou axilar) no espaço _ (interescalênico; costoclavicular; ou retropeitoral menor) com o membro superior _ em abdução, estimada em _%, com calibre preservado em adução, sem falhas de enchimento ou circulação colateral. A compressão venosa com a abdução é frequente em indivíduos assintomáticos, devendo ser correlacionada com os dados clínicos."
+    word: true
+
+  - trigger: "desfiladeiro4c"
+    label: "Conclusão — compressão venosa dinâmica, sem trombose"
+    replace: "Compressão dinâmica da veia _ no espaço _ com a abdução do membro, sem trombose."
+    word: true
+
+  - trigger: "tvpesforco"
+    label: "Trombose venosa axilossubclávia de esforço (Paget-Schroetter)"
+    replace: "Falha de enchimento nas veias axilar e subclávia _, estendendo-se de _ a _, com aumento do calibre do vaso e afilamento junto ao espaço costoclavicular. Associa-se circulação colateral venosa na parede torácica e na região cervical _. No contexto de esforço repetitivo do membro superior, os achados podem corresponder a trombose de esforço (síndrome de Paget-Schroetter)."
+    word: true
+
+  - trigger: "tvpesforcoc"
+    label: "Conclusão — trombose venosa axilossubclávia de esforço"
+    replace: "Trombose das veias axilar e subclávia _, podendo corresponder a trombose de esforço (síndrome de Paget-Schroetter)."
+    word: true
+
+  - trigger: "costelacervical"
+    label: "Costela cervical em relação com a artéria subclávia"
+    replace: "Costela cervical _, _ (completa, articulando-se com a primeira costela; ou incompleta, com extremidade livre), com a artéria subclávia _ contornando-a superiormente."
+    word: true
+
+  - trigger: "costelacervicalc"
+    label: "Conclusão — costela cervical"
+    replace: "Costela cervical _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — ESTENOSE E OCLUSÃO
+  # ==========================================================================
+  - trigger: "roubosubclavio"
+    label: "Estenose proximal da subclávia (roubo a confirmar ao Doppler)"
+    replace: "Estenose do segmento proximal da artéria subclávia _, proximal à origem da artéria vertebral, determinando redução luminal estimada em _%. Artéria vertebral _ pérvia, com opacificação menos intensa que a contralateral. A angio-TC não define a direção do fluxo na artéria vertebral, cabendo ao Doppler confirmar a inversão (roubo da subclávia)."
+    word: true
+
+  - trigger: "roubosubclavioc"
+    label: "Conclusão — estenose proximal da subclávia"
+    replace: "Estenose significativa proximal da artéria subclávia _, proximal à origem da artéria vertebral, podendo determinar roubo da subclávia."
+    word: true
+
+  - trigger: "roubosubclavio2"
+    label: "Oclusão proximal da subclávia (roubo a confirmar ao Doppler)"
+    replace: "Oclusão do segmento proximal da artéria subclávia _, proximal à origem da artéria vertebral, com reenchimento da subclávia distal. Artéria vertebral _ pérvia, com opacificação menos intensa que a contralateral. A angio-TC não define a direção do fluxo na artéria vertebral, cabendo ao Doppler confirmar a inversão (roubo da subclávia)."
+    word: true
+
+  - trigger: "roubosubclavio2c"
+    label: "Conclusão — oclusão proximal da subclávia"
+    replace: "Oclusão proximal da artéria subclávia _, proximal à origem da artéria vertebral, podendo determinar roubo da subclávia."
+    word: true
+
+  - trigger: "oclusaodigital"
+    label: "Oclusões de artérias digitais da mão"
+    replace: "Ausência de opacificação das artérias digitais _ (próprias; ou comuns) do _ dedo(s) da mão _, com afilamento das artérias digitais remanescentes, sem lesões nas artérias proximais. Os diagnósticos diferenciais incluem embolia, tromboangeíte obliterante (doença de Buerger), esclerose sistêmica e outras doenças do tecido conjuntivo, vasculite e síndrome do martelo hipotenar, entre outros. A vasoconstrição periférica pode simular oclusão das artérias digitais."
+    word: true
+
+  - trigger: "oclusaodigitalc"
+    label: "Conclusão — oclusões de artérias digitais"
+    replace: "Oclusões de artérias digitais do _ dedo(s) da mão _."
+    word: true
+
+  - trigger: "martelohipotenar"
+    label: "Síndrome do martelo hipotenar (artéria ulnar junto ao hâmulo do hamato)"
+    replace: "Segmento distal da artéria ulnar _, junto ao hâmulo do hamato, com _ (aspecto tortuoso em saca-rolhas; dilatação aneurismática de _ cm; ou oclusão), com trombo mural. Associa-se ausência de opacificação do arco palmar superficial e das artérias digitais do _ dedo(s), sugerindo embolização distal. No contexto de trauma repetitivo da região hipotenar, os achados podem corresponder a síndrome do martelo hipotenar."
+    word: true
+
+  - trigger: "martelohipotenarc"
+    label: "Conclusão — síndrome do martelo hipotenar"
+    replace: "Lesão da artéria ulnar _ junto ao hâmulo do hamato, com oclusões digitais, podendo corresponder a síndrome do martelo hipotenar."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — ANEURISMAS
+  # ==========================================================================
+  - trigger: "aneusubclavia"
+    label: "Aneurisma da artéria subclávia ou axilar"
+    replace: "Dilatação aneurismática _ (fusiforme; ou sacular) da artéria _, no segmento _, com diâmetro máximo de _ cm (segmento adjacente normal: _ cm), estendendo-se por cerca de _ cm. Associa-se trombo mural de até _ cm de espessura."
+    word: true
+
+  - trigger: "aneusubclaviac"
+    label: "Conclusão — aneurisma da artéria subclávia ou axilar"
+    replace: "Aneurisma _ (fusiforme; ou sacular) da artéria _."
+    word: true
+
+  - trigger: "pseudobraquial"
+    label: "Pseudoaneurisma da artéria braquial ou radial (pós-punção)"
+    replace: "Formação sacular junto à face _ da artéria _, no sítio de punção, medindo _ cm, com opacificação acompanhando a do leito arterial e colo de _ cm comunicando-se com a luz, compatível com pseudoaneurisma. Associa-se hematoma adjacente de _ cm."
+    word: true
+
+  - trigger: "pseudobraquialc"
+    label: "Conclusão — pseudoaneurisma da artéria braquial ou radial"
+    replace: "Pseudoaneurisma da artéria _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — VASCULITE
+  # ==========================================================================
+  - trigger: "arteritesubclavia"
+    label: "Arterite de grandes vasos (ACR/EULAR 2022: Takayasu ≤ 60 anos, células gigantes ≥ 50 anos)"
+    replace: "Espessamento parietal circunferencial, liso e regular das artérias _, com até _ cm de espessura e realce tardio pelo meio de contraste, determinando redução luminal estimada em _%, estendendo-se por cerca de _ cm, sem placas ateromatosas, sugerindo arterite de grandes vasos. Os diagnósticos diferenciais incluem arterite de Takayasu e arterite de células gigantes, entre outros, devendo ser correlacionados com a idade e os dados clínicos e laboratoriais."
+    word: true
+
+  - trigger: "arteritesubclaviac"
+    label: "Conclusão — arterite de grandes vasos"
+    replace: "Espessamento parietal das artérias _, sugerindo arterite de grandes vasos."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — ACESSO PARA HEMODIÁLISE
+  # ==========================================================================
+  - trigger: "dialisepervia"
+    label: "Fístula arteriovenosa para hemodiálise pérvia"
+    replace: "Fístula arteriovenosa _ (radiocefálica; braquiocefálica; ou braquiobasílica) no membro superior _, com anastomose entre a artéria _ e a veia _, pérvia. Artéria aferente, anastomose, veia de drenagem e veias centrais sem estenoses, dilatações aneurismáticas ou coleções adjacentes."
+    word: true
+
+  - trigger: "dialiseperviac"
+    label: "Conclusão — fístula arteriovenosa pérvia"
+    replace: "Fístula arteriovenosa _ pérvia, sem complicações."
+    word: true
+
+  - trigger: "dialiseestenose"
+    label: "Estenose de fístula arteriovenosa (KDOQI 2019: tratar só com ≥ 50% e alteração clínica)"
+    replace: "Redução luminal estimada em _% no segmento _ (justa-anastomótico; veia de drenagem; ou arco da veia cefálica) da fístula arteriovenosa _, estendendo-se por cerca de _ cm, com calibre de _ cm no ponto mais estreito e de _ cm no segmento adjacente normal."
+    word: true
+
+  - trigger: "dialiseestenosec"
+    label: "Conclusão — estenose de fístula arteriovenosa"
+    replace: "Estenose do segmento _ da fístula arteriovenosa _."
+    word: true
+
+  - trigger: "dialisetrombosada"
+    label: "Trombose de fístula arteriovenosa"
+    replace: "Ausência de opacificação da veia de drenagem da fístula arteriovenosa _ a partir de _, preenchida por material hipoatenuante, compatível com trombose da fístula."
+    word: true
+
+  - trigger: "dialisetrombosadac"
+    label: "Conclusão — trombose de fístula arteriovenosa"
+    replace: "Trombose da fístula arteriovenosa _."
+    word: true
+
+  - trigger: "dialiseaneurisma"
+    label: "Dilatação aneurismática da veia de drenagem da fístula"
+    replace: "Dilatação aneurismática da veia de drenagem da fístula arteriovenosa _, no segmento _, com diâmetro máximo de _ cm, parede contínua e trombo mural de até _ cm de espessura."
+    word: true
+
+  - trigger: "dialiseaneurismac"
+    label: "Conclusão — aneurisma da veia de drenagem da fístula"
+    replace: "Aneurisma da veia de drenagem da fístula arteriovenosa _."
+    word: true
+
+  - trigger: "dialisepseudo"
+    label: "Pseudoaneurisma de fístula arteriovenosa (sítio de punção)"
+    replace: "Formação sacular junto à face _ da veia de drenagem da fístula arteriovenosa _, em sítio de punção, medindo _ cm, comunicando-se com a luz por colo de _ cm e envolta por hematoma, compatível com pseudoaneurisma."
+    word: true
+
+  - trigger: "dialisepseudoc"
+    label: "Conclusão — pseudoaneurisma de fístula arteriovenosa"
+    replace: "Pseudoaneurisma da fístula arteriovenosa _."
+    word: true
+
+  - trigger: "veiacentral"
+    label: "Estenose venosa central"
+    replace: "Estenose da veia _, no segmento _, _ (ipsilateral à fístula arteriovenosa; ou em trajeto de cateter venoso central prévio), determinando redução luminal estimada em _%. Associa-se circulação colateral venosa na parede torácica e na região cervical."
+    word: true
+
+  - trigger: "veiacentralc"
+    label: "Conclusão — estenose venosa central"
+    replace: "Estenose da veia _, com circulação colateral."
+    word: true
+
+  - trigger: "veiacentral2"
+    label: "Oclusão venosa central"
+    replace: "Oclusão da veia _, no segmento _, _ (ipsilateral à fístula arteriovenosa; ou em trajeto de cateter venoso central prévio). Associa-se circulação colateral venosa na parede torácica e na região cervical."
+    word: true
+
+  - trigger: "veiacentral2c"
+    label: "Conclusão — oclusão venosa central"
+    replace: "Oclusão da veia _, com circulação colateral."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE MEMBROS SUPERIORES — VARIANTES ANATÔMICAS
+  # ==========================================================================
+  - trigger: "radialalta"
+    label: "Origem alta da artéria radial"
+    replace: "Artéria radial _ originando-se da artéria _, no nível de _, acima da fossa cubital (origem alta da artéria radial, variação anatômica)."
+    word: true
+
+  - trigger: "medianapersistente"
+    label: "Artéria mediana persistente"
+    replace: "Artéria mediana _ calibrosa, originando-se da artéria _ e acompanhando o nervo mediano no antebraço e no túnel do carpo (artéria mediana persistente, variação anatômica)."
+    word: true
+
+  - trigger: "arcoincompleto"
+    label: "Arco palmar superficial incompleto (Coleman e Anson, grupo II)"
+    replace: "Arco palmar superficial incompleto na mão _, sem anastomose entre os ramos que o formam (variação anatômica, grupo II de Coleman e Anson)."
+    word: true
