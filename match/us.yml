@@ -149,7 +149,7 @@ matches:
 
   - trigger: "ba2"
     label: "Baço: Esplenomegalia homogênea (achado descritivo)"
-    replace: Baço de dimensões aumentadas (índice esplênico de _; normal < 60), bordas rombas e ecotextura homogênea.
+    replace: Baço de dimensões aumentadas (índice esplênico, comprimento × espessura, de _ cm²; normal < 60), bordas rombas e ecotextura homogênea.
     word: true
 
   - trigger: "ba2c"
@@ -159,7 +159,7 @@ matches:
 
   - trigger: "ba3"
     label: "Baço: Baço de dimensões aumentadas com corpúsculos de Gamna-Gandy"
-    replace: Baço de dimensões aumentadas (índice esplênico de _; normal < 60), bordas rombas e ecotextura heterogênea, devido a múltiplos focos ecogênicos compatíveis com corpúsculos de Gamna-Gandy.
+    replace: Baço de dimensões aumentadas (índice esplênico, comprimento × espessura, de _ cm²; normal < 60), bordas rombas e ecotextura heterogênea, devido a múltiplos focos ecogênicos compatíveis com corpúsculos de Gamna-Gandy.
     word: true
 
   - trigger: "ba4"
