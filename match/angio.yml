@@ -72,12 +72,12 @@ matches:
     replace: "Trombo em trânsito no átrio direito (modificador T+ do PE-RADS)."
     word: true
 
-  - trigger: "hipertensao"
+  - trigger: "pulmonardilatado"
     label: "Hipertensão pulmonar (tronco e razão AP/Ao)"
     replace: "Aumento do calibre do tronco pulmonar (_ cm), com razão entre os diâmetros do tronco pulmonar e da aorta ascendente de _ (> 0,9), sugerindo hipertensão pulmonar."
     word: true
 
-  - trigger: "hipertensaoc"
+  - trigger: "pulmonardilatadoc"
     label: "Conclusão — sinais de hipertensão pulmonar"
     replace: "Sinais tomográficos sugestivos de hipertensão pulmonar, na dependência de correlação ecocardiográfica."
     word: true
@@ -122,7 +122,7 @@ matches:
     replace: "Interrupção proximal (ausência) da artéria pulmonar _, com circulação colateral sistêmica."
     word: true
 
-  - trigger: "sling"
+  - trigger: "slingpulmonar"
     label: "Sling da artéria pulmonar"
     replace: "Artéria pulmonar esquerda originando-se da artéria pulmonar direita e cursando entre a traqueia e o esôfago, compatível com sling da artéria pulmonar."
     word: true
