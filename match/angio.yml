@@ -1101,12 +1101,12 @@ matches:
   # ==========================================================================
   - trigger: "colarcontas"
     label: "Displasia fibromuscular multifocal da artéria renal"
-    replace: "Alternância de segmentos estreitados e dilatados nos terços médio e distal da artéria renal _ (aspecto em colar de contas), poupando a origem, sem placas ateromatosas, compatível com displasia fibromuscular multifocal."
+    replace: "Alternância de segmentos estreitados e dilatados nos terços médio e distal da artéria renal _ (aspecto em colar de contas), poupando a origem, sem placas ateromatosas, podendo corresponder a displasia fibromuscular multifocal."
     word: true
 
   - trigger: "colarcontasc"
     label: "Conclusão — displasia fibromuscular multifocal renal"
-    replace: "Displasia fibromuscular multifocal da artéria renal _."
+    replace: "Achados que podem corresponder a displasia fibromuscular multifocal da artéria renal _."
     word: true
 
   - trigger: "renalacessoria"
