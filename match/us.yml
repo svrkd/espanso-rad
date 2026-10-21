@@ -1158,7 +1158,7 @@ matches:
 
   - trigger: "diu3"
     label: "DIU: DIU deslocado (achado descritivo)"
-    replace: "Cavidade uterina virtual, apresentando em seu interior dispositivo intrauterino (DIU), distando _ cm da cavidade fúndica (VR <0,5 cm) e _ cm da serosa fúndica (VR <2,0 cm)."
+    replace: "Cavidade uterina virtual, apresentando em seu interior dispositivo intrauterino (DIU), distando _ cm do fundo da cavidade endometrial (posição adequada até 2,0 cm)."
     word: true
 
   - trigger: "diu3c"
@@ -1168,7 +1168,7 @@ matches:
 
   - trigger: "diu4"
     label: "DIU: DIU de inserção baixa (achado descritivo)"
-    replace: Cavidade uterina virtual, apresentando no seu interior dispositivo intrauterino (DIU) em topografia baixa, próximo ao colo, distando _ cm da cavidade fúndica (VR <0,5 cm) e _ cm da serosa fúndica (VR <2,0 cm), alocado em região anticonceptiva desfavorável.
+    replace: Cavidade uterina virtual, apresentando no seu interior dispositivo intrauterino (DIU) em topografia baixa, próximo ao colo, distando _ cm do fundo da cavidade endometrial (posição adequada até 2,0 cm), alocado em região anticonceptiva desfavorável.
     word: true
 
   - trigger: "diu4c"
