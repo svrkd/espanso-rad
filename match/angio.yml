@@ -435,7 +435,7 @@ matches:
     replace: "Angiotomografia arterial encefálica sem alterações significativas."
     word: true
 
-  - trigger: "venosanormal"
+  - trigger: "angiovenosanl"
     label: "Seios durais e veias encefálicas normais (angio-TC venosa)"
     replace: "Seios sagital superior, sagital inferior, reto, transversos e sigmoides, confluência dos seios, veias cerebrais internas, veia de Galeno e veias corticais com opacificação homogênea pelo meio de contraste, sem falhas de enchimento."
     word: true
