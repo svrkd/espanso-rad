@@ -1669,7 +1669,7 @@ matches:
       Lado direito: frontal _, etmoide anterior _, etmoide posterior _, maxilar _, esfenoide _, complexo ostiomeatal _.
       Lado esquerdo: frontal _, etmoide anterior _, etmoide posterior _, maxilar _, esfenoide _, complexo ostiomeatal _.
 
-      Referência (Lund e Mackay, 1993): seios: 0 = sem opacificação, 1 = opacificação parcial, 2 = opacificação completa; complexo ostiomeatal: 0 = pérvio, 2 = obstruído.
+      Referência (Lund e Mackay, 1993): seios: 0 = aerado, 1 = preenchimento parcial, 2 = preenchimento completo; complexo ostiomeatal: 0 = pérvio, 2 = obstruído.
     word: true
 
   - trigger: "padraoinfund"
@@ -1709,7 +1709,7 @@ matches:
 
   - trigger: "mucoceleseio"
     label: "Mucocele de seio paranasal"
-    replace: "Seio _ (frontal, etmoidal, esfenoidal ou maxilar, com o lado) expandido e totalmente opacificado por conteúdo homogêneo, com remodelamento e adelgaçamento das paredes ósseas, achados compatíveis com mucocele."
+    replace: "Seio _ (frontal, etmoidal, esfenoidal ou maxilar, com o lado) expandido e totalmente preenchido por conteúdo homogêneo, com remodelamento e adelgaçamento das paredes ósseas, achados compatíveis com mucocele."
     word: true
 
   - trigger: "mucoceleorbita"
@@ -1744,7 +1744,7 @@ matches:
 
   - trigger: "bolafungo"
     label: "Bola fúngica"
-    replace: "Seio _ (maxilar, esfenoidal ou frontal, com o lado) opacificado por conteúdo hiperatenuante com calcificações puntiformes de permeio, associado a espessamento e esclerose das paredes ósseas, sem erosão óssea, achados que sugerem bola fúngica."
+    replace: "Seio _ (maxilar, esfenoidal ou frontal, com o lado) preenchido por conteúdo hiperatenuante com calcificações puntiformes de permeio, associado a espessamento e esclerose das paredes ósseas, sem erosão óssea, achados que sugerem bola fúngica."
     word: true
 
   - trigger: "bolafungoc"
@@ -1789,7 +1789,7 @@ matches:
 
   - trigger: "seiosilencioso"
     label: "Síndrome do seio silencioso"
-    replace: "Seio maxilar _ (direito; ou esquerdo) de volume reduzido e opacificado, com retração de suas paredes e rebaixamento do assoalho orbitário ipsilateral, associado a lateralização do processo uncinado junto à parede inferomedial da órbita, ocluindo o infundíbulo etmoidal, bem como alargamento do meato médio, achados compatíveis com síndrome do seio silencioso."
+    replace: "Seio maxilar _ (direito; ou esquerdo) de volume reduzido e preenchido por material com atenuação de partes moles, com retração de suas paredes e rebaixamento do assoalho orbitário ipsilateral, associado a lateralização do processo uncinado junto à parede inferomedial da órbita, ocluindo o infundíbulo etmoidal, bem como alargamento do meato médio, achados compatíveis com síndrome do seio silencioso."
     word: true
 
   - trigger: "seiosilenciosoc"
@@ -1864,7 +1864,7 @@ matches:
 
   - trigger: "chandler3"
     label: "Abscesso subperiosteal orbitário (Chandler III)"
-    replace: "Coleção extraconal junto à parede medial da órbita _ (direita; ou esquerda), adjacente às células etmoidais opacificadas, deslocando lateralmente o músculo reto medial, medindo _ cm, compatível com abscesso subperiosteal (Chandler III)."
+    replace: "Coleção extraconal junto à parede medial da órbita _ (direita; ou esquerda), adjacente às células etmoidais ocupadas por material com atenuação de partes moles, deslocando lateralmente o músculo reto medial, medindo _ cm, compatível com abscesso subperiosteal (Chandler III)."
     word: true
 
   - trigger: "chandler3c"
@@ -1894,7 +1894,7 @@ matches:
 
   - trigger: "pottfrontal"
     label: "Tumor edematoso de Pott (osteomielite frontal)"
-    replace: "Seio frontal opacificado, com descontinuidade de sua parede anterior e coleção _ (subperiosteal; ou subgaleal) frontal medindo _ cm, associada a edema das partes moles adjacentes, achados compatíveis com osteomielite do osso frontal com abscesso (tumor edematoso de Pott)."
+    replace: "Material com atenuação de partes moles no seio frontal, com descontinuidade de sua parede anterior e coleção _ (subperiosteal; ou subgaleal) frontal medindo _ cm, associada a edema das partes moles adjacentes, achados compatíveis com osteomielite do osso frontal com abscesso (tumor edematoso de Pott)."
     word: true
 
   - trigger: "pottfrontalc"
@@ -1904,7 +1904,7 @@ matches:
 
   - trigger: "empiemaepidural"
     label: "Empiema epidural (complicação de sinusopatia)"
-    replace: "Coleção extra-axial biconvexa _ (frontal; ou citar região) _ (direita; ou esquerda), adjacente ao seio frontal opacificado, com realce periférico, medindo _ cm de espessura, compatível com empiema epidural."
+    replace: "Coleção extra-axial biconvexa frontal _ (direita; ou esquerda), adjacente ao seio frontal ocupado por material com atenuação de partes moles, com realce periférico, medindo _ cm de espessura, compatível com empiema epidural."
     word: true
 
   - trigger: "empiemasubdural"
