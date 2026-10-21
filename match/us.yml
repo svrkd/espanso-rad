@@ -157,6 +157,11 @@ matches:
     replace: Esplenomegalia homogênea.
     word: true
 
+  - trigger: "ba22"
+    label: "Baço: Esplenomegalia homogênea pelo diâmetro longitudinal (achado descritivo)"
+    replace: Baço de dimensões aumentadas (diâmetro longitudinal de _ cm; normal até 12 cm), bordas rombas e ecotextura homogênea.
+    word: true
+
   - trigger: "ba3"
     label: "Baço: Baço de dimensões aumentadas com corpúsculos de Gamna-Gandy"
     replace: Baço de dimensões aumentadas (índice esplênico, comprimento × espessura, de _ cm²; normal < 60), bordas rombas e ecotextura heterogênea, devido a múltiplos focos ecogênicos compatíveis com corpúsculos de Gamna-Gandy.

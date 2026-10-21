@@ -53,7 +53,7 @@ BLOCOS = [
             ("4", "aerobilia"), ("5", "Von Meyenburg"), ("6", "cisto de colédoco"),
         ]),
         ("escada", "ba", "baço", [
-            ("1", "subcostal"), ("2", "esplenomegalia"), ("3", "Gamna-Gandy"), ("4", "acessório"),
+            ("1", "subcostal"), ("2", "esplenomegalia (IE)"), ("22", "esplenomegalia (diâmetro)"), ("3", "Gamna-Gandy"), ("4", "acessório"),
         ]),
         ("escada", "ap", "apêndice", [("1", "apendicite"), ("2", "processo inflamatório")]),
         ("escada", "dabd", "Doppler abdome superior", [("0", "normal")]),

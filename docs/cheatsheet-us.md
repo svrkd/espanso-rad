@@ -17,6 +17,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ba1 | Baço: Baço de topografia subcostal |
 | ba2 | Baço: Esplenomegalia homogênea (achado descritivo) |
 | ba2c | Baço: Esplenomegalia homogênea |
+| ba22 | Baço: Esplenomegalia homogênea pelo diâmetro longitudinal (achado descritivo) |
 | ba3 | Baço: Baço de dimensões aumentadas com corpúsculos de Gamna-Gandy |
 | ba4 | Baço acessório |
 | ba4c | Baço acessório |
