@@ -245,6 +245,89 @@ matches:
     replace: "Espessamento parietal circunferencial da aorta _, sugestivo de aortite."
     word: true
 
+  - trigger: "adamkiewicz"
+    label: "Artéria de Adamkiewicz identificada (origem, lado e nível)"
+    replace: "Artéria radiculomedular magna (artéria de Adamkiewicz) identificada à _ (direita; ou esquerda), originando-se da artéria _ (intercostal; ou lombar) no nível de _ (vértebra), com configuração em grampo (hairpin) na junção com a artéria espinhal anterior."
+    word: true
+
+  - trigger: "adamkiewiczc"
+    label: "Conclusão — artéria de Adamkiewicz identificada"
+    replace: "Artéria de Adamkiewicz originando-se da artéria _ (intercostal; ou lombar) _ (direita; ou esquerda) no nível de _ (vértebra)."
+    word: true
+
+  - trigger: "adamkiewicz2"
+    label: "Artéria de Adamkiewicz não identificada"
+    replace: "Artéria radiculomedular magna (artéria de Adamkiewicz) não identificada com segurança no presente estudo."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE TÓRAX — RAIZ AÓRTICA E VALVA AÓRTICA
+  # ==========================================================================
+  - trigger: "anelaortico"
+    label: "Anel aórtico e via de saída do VE (medidas pré-TAVI, SCCT 2019)"
+    replace: "Anel aórtico, medido na fase sistólica, com área de _ mm², perímetro de _ mm e diâmetros mínimo e máximo de _ mm e _ mm (diâmetro derivado da área: _ mm; diâmetro derivado do perímetro: _ mm). Via de saída do ventrículo esquerdo com área de _ mm² e perímetro de _ mm. Projeção coplanar ao plano do anel: _ (OAE; ou OAD) _° e _ (cranial; ou caudal) _°."
+    word: true
+
+  - trigger: "raizaortica"
+    label: "Raiz aórtica e alturas coronarianas (medidas pré-TAVI, SCCT 2019)"
+    replace: "Seios de Valsalva com diâmetros de _ mm (seio coronariano esquerdo), _ mm (seio coronariano direito) e _ mm (seio não coronariano), medidos de cada seio à comissura oposta. Junção sinotubular com diâmetro de _ mm, a _ mm do plano do anel. Aorta ascendente com diâmetro de _ mm, a _ mm do plano do anel. Óstio da artéria coronária esquerda a _ mm e da artéria coronária direita a _ mm do plano do anel."
+    word: true
+
+  - trigger: "coronariabaixa"
+    label: "Óstio coronariano baixo (< 12 mm do anel, risco de oclusão no TAVI)"
+    replace: "Óstio da artéria coronária _ (esquerda; ou direita) com altura de _ mm em relação ao plano do anel aórtico (altura < 12 mm), aspecto associado a maior risco de oclusão coronariana no implante valvar transcateter."
+    word: true
+
+  - trigger: "coronariabaixac"
+    label: "Conclusão — óstio coronariano baixo"
+    replace: "Óstio da artéria coronária _ (esquerda; ou direita) de implantação baixa em relação ao anel aórtico."
+    word: true
+
+  - trigger: "calcioaortico"
+    label: "Escore de cálcio da valva aórtica (Agatston, ESC/EACTS 2025)"
+    replace: |-
+      Escore de cálcio da valva aórtica de _ unidades Agatston.
+
+      Referência (ESC/EACTS 2025; SCCT 2019), escore de cálcio da valva aórtica para estenose aórtica grave:
+      Homens: muito provável ≥ 3000; provável ≥ 2000; improvável < 1600.
+      Mulheres: muito provável ≥ 1600; provável ≥ 1200; improvável < 800.
+    word: true
+
+  - trigger: "calcioaorticoc"
+    label: "Conclusão — escore de cálcio da valva aórtica"
+    replace: "Calcificação da valva aórtica em grau no qual estenose aórtica grave é _ (muito provável; provável; ou improvável), a ser correlacionado com a avaliação ecocardiográfica."
+    word: true
+
+  - trigger: "calcioanel"
+    label: "Calcificação do anel aórtico e da via de saída do VE"
+    replace: "Calcificação _ (discreta; moderada; ou acentuada) do anel aórtico e da via de saída do ventrículo esquerdo, _ (laminar e aderida à parede; ou nodular e protrusa para a luz), junto ao seio _ (coronariano esquerdo; coronariano direito; ou não coronariano), estendendo-se até _ mm abaixo do plano do anel."
+    word: true
+
+  - trigger: "calcioanelc"
+    label: "Conclusão — calcificação do anel aórtico e da via de saída do VE"
+    replace: "Calcificação _ (discreta; moderada; ou acentuada) do anel aórtico e da via de saída do ventrículo esquerdo, _ (laminar; ou nodular e protrusa)."
+    word: true
+
+  - trigger: "bicuspide1"
+    label: "Valva aórtica bicúspide tipo fusionado (consenso 2021)"
+    replace: "Valva aórtica bicúspide do tipo fusionado, com fusão das cúspides _ (coronarianas direita e esquerda; coronariana direita e não coronariana; ou coronariana esquerda e não coronariana), _ (com rafe calcificada; com rafe não calcificada; ou sem rafe identificável), e calcificação valvar _ (discreta; moderada; ou acentuada)."
+    word: true
+
+  - trigger: "bicuspide1c"
+    label: "Conclusão — valva aórtica bicúspide tipo fusionado"
+    replace: "Valva aórtica bicúspide do tipo fusionado (fusão das cúspides _)."
+    word: true
+
+  - trigger: "bicuspide2"
+    label: "Valva aórtica bicúspide tipo dois seios (consenso 2021)"
+    replace: "Valva aórtica bicúspide do tipo dois seios, com duas cúspides e dois seios de Valsalva de dimensões semelhantes, sem rafe, em disposição _ (laterolateral; ou anteroposterior), e calcificação valvar _ (discreta; moderada; ou acentuada)."
+    word: true
+
+  - trigger: "bicuspide2c"
+    label: "Conclusão — valva aórtica bicúspide tipo dois seios"
+    replace: "Valva aórtica bicúspide do tipo dois seios (disposição _)."
+    word: true
+
   # ==========================================================================
   # ANGIOTOMOGRAFIA DE TÓRAX — ARCO AÓRTICO E VARIANTES
   # ==========================================================================
@@ -349,6 +432,16 @@ matches:
   # ==========================================================================
   # ANGIOTOMOGRAFIA DE TÓRAX — VEIAS PULMONARES
   # ==========================================================================
+  - trigger: "veiaspulmonares1"
+    label: "Veias pulmonares normais, com diâmetros ostiais (pré-ablação)"
+    replace: "Quatro veias pulmonares com óstios independentes no átrio esquerdo, com diâmetros ostiais de _ x _ cm (superior direita), _ x _ cm (inferior direita), _ x _ cm (superior esquerda) e _ x _ cm (inferior esquerda)."
+    word: true
+
+  - trigger: "veiaspulmonares1c"
+    label: "Conclusão — veias pulmonares sem variações"
+    replace: "Veias pulmonares com padrão anatômico habitual de drenagem no átrio esquerdo."
+    word: true
+
   - trigger: "troncovenoso"
     label: "Tronco comum das veias pulmonares esquerdas"
     replace: "Veias pulmonares superior e inferior esquerdas confluindo em tronco comum antes de desembocar no átrio esquerdo (variação anatômica)."
@@ -397,6 +490,44 @@ matches:
   - trigger: "estenoseveiac"
     label: "Conclusão — estenose de veia pulmonar"
     replace: "Estenose _ do óstio da veia pulmonar _."
+    word: true
+
+  - trigger: "troncodireito"
+    label: "Tronco comum das veias pulmonares direitas"
+    replace: "Veias pulmonares superior e inferior direitas confluindo em tronco comum antes de desembocar no átrio esquerdo (variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE TÓRAX — ÁTRIO ESQUERDO
+  # ==========================================================================
+  - trigger: "auriculanl"
+    label: "Apêndice atrial esquerdo sem falhas de enchimento"
+    replace: "Apêndice atrial esquerdo com opacificação homogênea pelo meio de contraste, sem falhas de enchimento."
+    word: true
+
+  - trigger: "auriculafluxo"
+    label: "Falha de enchimento do apêndice atrial esquerdo que some na fase tardia (estase)"
+    replace: "Falha de enchimento no apêndice atrial esquerdo na fase arterial, com opacificação homogênea na fase tardia, compatível com estase de fluxo, sem sinais de trombo."
+    word: true
+
+  - trigger: "auriculafluxoc"
+    label: "Conclusão — estase de fluxo no apêndice atrial esquerdo"
+    replace: "Estase de fluxo no apêndice atrial esquerdo, sem sinais de trombo."
+    word: true
+
+  - trigger: "auriculatrombo"
+    label: "Trombo no apêndice atrial esquerdo (persiste na fase tardia)"
+    replace: "Falha de enchimento no _ (ápice; ou corpo) do apêndice atrial esquerdo, medindo _ cm, persistente na fase tardia, compatível com trombo."
+    word: true
+
+  - trigger: "auriculatromboc"
+    label: "Conclusão — trombo no apêndice atrial esquerdo"
+    replace: "Trombo no apêndice atrial esquerdo."
+    word: true
+
+  - trigger: "esofagoatrio"
+    label: "Relação do esôfago com a parede posterior do átrio esquerdo (pré-ablação)"
+    replace: "Esôfago em contato com a parede posterior do átrio esquerdo, cursando junto aos óstios das veias pulmonares _ (direitas; esquerdas; ou na linha média, entre os óstios)."
     word: true
 
   # ==========================================================================
@@ -817,6 +948,36 @@ matches:
     replace: "Aneurisma fusiforme da artéria ilíaca comum _."
     word: true
 
+  - trigger: "aneuiliacainterna"
+    label: "Aneurisma da artéria ilíaca interna"
+    replace: "Dilatação aneurismática _ (fusiforme; ou sacular) da artéria ilíaca interna _ (direita; ou esquerda), com diâmetro máximo de _ cm (medido de borda externa a borda externa), iniciando-se a _ cm da bifurcação da artéria ilíaca comum, com divisões anterior e posterior _ (pérvias; ou não opacificadas)."
+    word: true
+
+  - trigger: "aneuiliacainternac"
+    label: "Conclusão — aneurisma da artéria ilíaca interna"
+    replace: "Aneurisma _ (fusiforme; ou sacular) da artéria ilíaca interna _ (direita; ou esquerda)."
+    word: true
+
+  - trigger: "acessotavi1"
+    label: "Eixo iliofemoral sem fatores de risco para acesso transfemoral (pré-TAVI)"
+    replace: "Artérias ilíacas comuns, ilíacas externas e femorais comuns pérvias, com diâmetro luminal mínimo de _ mm à direita e _ mm à esquerda, sem calcificações circunferenciais (> 270°), estenoses ou tortuosidade acentuada."
+    word: true
+
+  - trigger: "acessotavi1c"
+    label: "Conclusão — eixo iliofemoral sem fatores de risco para acesso"
+    replace: "Eixos iliofemorais pérvios, sem calcificações circunferenciais, estenoses ou tortuosidade acentuada."
+    word: true
+
+  - trigger: "acessotavi2"
+    label: "Eixo iliofemoral com fatores de risco para acesso transfemoral (pré-TAVI)"
+    replace: "Artéria _ (ilíaca comum; ilíaca externa; ou femoral comum) _ (direita; ou esquerda) com diâmetro luminal mínimo de _ mm, no nível de _, associado a calcificação parietal _ (circunferencial, > 270°; ou parcial, ≤ 270°) e tortuosidade _ (discreta; moderada; ou acentuada)."
+    word: true
+
+  - trigger: "acessotavi2c"
+    label: "Conclusão — eixo iliofemoral com fatores de risco para acesso"
+    replace: "Eixo iliofemoral _ (direito; ou esquerdo) com calibre reduzido, calcificação parietal e tortuosidade, fatores de risco para o acesso transfemoral."
+    word: true
+
   - trigger: "aortainstavel"
     label: "Aneurisma com sinal do crescente hiperatenuante (rotura iminente)"
     replace: "Área em crescente espontaneamente hiperatenuante na fase sem contraste, na periferia do trombo mural do aneurisma da aorta abdominal, sugerindo sangramento intramural agudo (sinal do crescente hiperatenuante). Associa-se descontinuidade focal da calcificação parietal circunferencial na parede _ do aneurisma."
@@ -1188,6 +1349,92 @@ matches:
   - trigger: "cavadupla"
     label: "Duplicação da veia cava inferior"
     replace: "Duplicação da veia cava inferior infrarrenal, com veia cava esquerda originando-se da veia ilíaca comum esquerda e terminando na veia renal esquerda, que cruza anteriormente à aorta para desembocar na veia cava inferior direita (variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — PELVE
+  # ==========================================================================
+  - trigger: "uterinas1"
+    label: "Artéria uterina: origem e trajeto (planejamento de embolização)"
+    replace: "Artéria uterina _ (direita; ou esquerda) originando-se _ (como ramo da divisão anterior da artéria ilíaca interna; da artéria glútea inferior; ou de trifurcação com as artérias glúteas superior e inferior), com trajeto _ (habitual; ou tortuoso) e calibre de _ cm, pérvia até o útero."
+    word: true
+
+  - trigger: "ovarianamioma"
+    label: "Artéria ovariana hipertrófica nutrindo leiomioma (colateral à uterina)"
+    replace: "Artéria ovariana _ (direita; ou esquerda) de calibre aumentado, com _ cm, cursando até o útero e estendendo-se ao leiomioma _, podendo corresponder a suprimento colateral do leiomioma pela artéria ovariana."
+    word: true
+
+  - trigger: "ovarianamiomac"
+    label: "Conclusão — artéria ovariana nutrindo leiomioma"
+    replace: "Artéria ovariana _ (direita; ou esquerda) hipertrófica, podendo corresponder a suprimento colateral do leiomioma."
+    word: true
+
+  - trigger: "prostatica1"
+    label: "Artéria prostática: origem (de Assis I a V)"
+    replace: "Artéria prostática _ (direita; ou esquerda) originando-se _ (de tronco comum com a artéria vesical superior, tipo I; da divisão anterior da artéria ilíaca interna, abaixo da vesical superior, tipo II; da artéria obturatória, tipo III; da artéria pudenda interna, tipo IV; ou de outra origem, tipo V), segundo de Assis e colaboradores, com calibre de _ cm, pérvia até a próstata."
+    word: true
+
+  - trigger: "pudendaacessoria"
+    label: "Artéria pudenda acessória (origem da prostática, de Assis V)"
+    replace: "Artéria pudenda interna acessória _ (direita; ou esquerda), originando-se da artéria _ e cursando junto à face anterolateral da próstata, dando origem à artéria prostática _ (direita; ou esquerda)."
+    word: true
+
+  - trigger: "congestaopelvica"
+    label: "Varizes pélvicas com veia ovariana dilatada (critérios de Coakley)"
+    replace: "Veia ovariana _ (direita; ou esquerda) dilatada, com calibre de _ cm (calibre > 0,8 cm), associada a varizes parauterinas _ (direitas; esquerdas; ou bilaterais), com pelo menos quatro veias tortuosas ipsilaterais, a maior com _ cm de calibre (calibre > 0,4 cm), podendo corresponder a insuficiência venosa pélvica no contexto clínico adequado."
+    word: true
+
+  - trigger: "congestaopelvicac"
+    label: "Conclusão — varizes pélvicas com veia ovariana dilatada"
+    replace: "Varizes pélvicas e dilatação da veia ovariana _ (direita; ou esquerda), podendo corresponder a insuficiência venosa pélvica."
+    word: true
+
+  - trigger: "sangramentopelvico"
+    label: "Sangramento arterial ativo na pelve (trauma pélvico)"
+    replace: "Foco de extravasamento do meio de contraste na fase arterial, originando-se de ramo da artéria _ (glútea superior; pudenda interna; obturatória; ou outro ramo da ilíaca interna) _ (direita; ou esquerda), aumentando de volume e dispersando-se na fase tardia, compatível com sangramento arterial ativo. Associa-se hematoma pélvico extraperitoneal de _ cm, adjacente ao foco de fratura do _."
+    word: true
+
+  - trigger: "sangramentopelvicoc"
+    label: "Conclusão — sangramento arterial ativo na pelve"
+    replace: "Sangramento arterial ativo de ramo da artéria _ (glútea superior; pudenda interna; obturatória; ou outro ramo da ilíaca interna) _ (direita; ou esquerda), com hematoma pélvico extraperitoneal."
+    word: true
+
+  - trigger: "pseudopelvico"
+    label: "Pseudoaneurisma de ramo da artéria ilíaca interna"
+    replace: "Formação arredondada em contiguidade com ramo da artéria _ (glútea superior; pudenda interna; obturatória; ou outro ramo da ilíaca interna) _ (direita; ou esquerda), medindo _ cm, com opacificação acompanhando a do leito arterial e redução da atenuação na fase tardia, sem aumento de volume, compatível com pseudoaneurisma."
+    word: true
+
+  - trigger: "pseudopelvicoc"
+    label: "Conclusão — pseudoaneurisma de ramo da ilíaca interna"
+    replace: "Pseudoaneurisma de ramo da artéria _ (glútea superior; pudenda interna; obturatória; ou outro ramo da ilíaca interna) _ (direita; ou esquerda)."
+    word: true
+
+  - trigger: "coronamortis"
+    label: "Corona mortis (artéria obturatória da epigástrica inferior ou ilíaca externa)"
+    replace: "Artéria obturatória _ (direita; ou esquerda) originando-se _ (da artéria epigástrica inferior; ou diretamente da artéria ilíaca externa) e cruzando a margem superior do ramo púbico superior até o forame obturado (corona mortis, variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA DE ABDOME — PAREDE ABDOMINAL
+  # ==========================================================================
+  - trigger: "perfurantes1"
+    label: "Artérias epigástricas inferiores profundas: ramificação (Moon e Taylor I a III)"
+    replace: "Artérias epigástricas inferiores profundas pérvias, com padrão de ramificação tipo _ (I, tronco único; II, bifurcação; ou III, três ou mais troncos) à direita e tipo _ (I; II; ou III) à esquerda, segundo a classificação de Moon e Taylor."
+    word: true
+
+  - trigger: "perfurantes2"
+    label: "Perfurante dominante da epigástrica inferior profunda (mapeamento DIEP)"
+    replace: "Perfurante dominante da fileira _ (medial; ou lateral) à _ (direita; ou esquerda), atravessando a aponeurose anterior do músculo reto do abdome a _ cm _ (acima; ou abaixo) e _ cm lateralmente à cicatriz umbilical, com calibre de _ mm e trajeto intramuscular de _ cm."
+    word: true
+
+  - trigger: "perfurantes2c"
+    label: "Conclusão — perfurante dominante (mapeamento DIEP)"
+    replace: "Perfurante dominante da artéria epigástrica inferior profunda _ (direita; ou esquerda), na fileira _ (medial; ou lateral)."
+    word: true
+
+  - trigger: "epigastricasuperficial"
+    label: "Artéria e veia epigástricas superficiais inferiores"
+    replace: "Artéria epigástrica superficial inferior _ (direita; ou esquerda) presente, com calibre de _ mm na origem, e veia epigástrica superficial inferior ipsilateral com calibre de _ mm."
     word: true
 
   # ==========================================================================
