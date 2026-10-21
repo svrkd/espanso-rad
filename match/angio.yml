@@ -1625,12 +1625,12 @@ matches:
   # ==========================================================================
   - trigger: "roubosubclavio"
     label: "Lesão obstrutiva proximal da subclávia (roubo a confirmar ao Doppler)"
-    replace: "_ do segmento proximal da artéria subclávia _, proximal à origem da artéria vertebral, com reenchimento da subclávia distal. Artéria vertebral _ pérvia, com opacificação menos intensa que a contralateral. A angio-TC não define a direção do fluxo na artéria vertebral, cabendo ao Doppler confirmar a inversão (roubo da subclávia)."
+    replace: "Lesão obstrutiva do segmento proximal da artéria subclávia _, proximal à origem da artéria vertebral, _ (redução luminal estimada em _%; ou oclusão), com reenchimento da subclávia distal. Artéria vertebral _ pérvia, com opacificação menos intensa que a contralateral. A angio-TC não define a direção do fluxo na artéria vertebral, cabendo ao Doppler confirmar a inversão (roubo da subclávia)."
     word: true
 
   - trigger: "roubosubclavioc"
     label: "Conclusão — lesão obstrutiva proximal da subclávia"
-    replace: "_ proximal da artéria subclávia _, proximal à origem da artéria vertebral, podendo determinar roubo da subclávia."
+    replace: "Lesão obstrutiva proximal da artéria subclávia _ (estenose significativa; ou oclusão), proximal à origem da artéria vertebral, podendo determinar roubo da subclávia."
     word: true
 
   - trigger: "oclusaodigital"
@@ -1744,12 +1744,12 @@ matches:
 
   - trigger: "veiacentral"
     label: "Estenose ou oclusão venosa central"
-    replace: "_ da veia _, no segmento _, _ (ipsilateral à fístula arteriovenosa; ou em trajeto de cateter venoso central prévio). Associa-se circulação colateral venosa na parede torácica e na região cervical."
+    replace: "Lesão obstrutiva da veia _, no segmento _, _ (redução luminal estimada em _%; ou oclusão), _ (ipsilateral à fístula arteriovenosa; ou em trajeto de cateter venoso central prévio). Associa-se circulação colateral venosa na parede torácica e na região cervical."
     word: true
 
   - trigger: "veiacentralc"
     label: "Conclusão — estenose ou oclusão venosa central"
-    replace: "_ da veia _, com circulação colateral."
+    replace: "Lesão obstrutiva da veia _ (estenose; ou oclusão), com circulação colateral."
     word: true
 
   # ==========================================================================
