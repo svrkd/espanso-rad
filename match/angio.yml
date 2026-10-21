@@ -1572,7 +1572,7 @@ matches:
 
   - trigger: "desfiladeiro2"
     label: "Compressão arterial dinâmica na abdução, sem lesão arterial"
-    replace: "Redução luminal da artéria _ no espaço _ com o membro superior _ em abdução, estimada em _%, com calibre preservado em adução, sem estenose fixa, dilatação, trombo ou oclusões distais. A compressão dinâmica isolada pode ocorrer em indivíduos sem síndrome do desfiladeiro torácico, devendo ser correlacionada com os dados clínicos."
+    replace: "Redução luminal da artéria _ (subclávia; ou axilar) no espaço _ (interescalênico; costoclavicular; ou retropeitoral menor) com o membro superior _ em abdução, estimada em _%, com calibre preservado em adução, sem estenose fixa, dilatação, trombo ou oclusões distais. A compressão dinâmica isolada pode ocorrer em indivíduos sem síndrome do desfiladeiro torácico, devendo ser correlacionada com os dados clínicos."
     word: true
 
   - trigger: "desfiladeiro2c"
@@ -1582,17 +1582,17 @@ matches:
 
   - trigger: "desfiladeiro3"
     label: "Síndrome do desfiladeiro torácico arterial (estenose fixa, dilatação, trombo ou êmbolo)"
-    replace: "Estenose da artéria subclávia _ no espaço _, junto a _, acentuando-se com a abdução do membro. Associa-se dilatação pós-estenótica de até _ cm a jusante, com trombo mural _, bem como oclusão de _, sugerindo embolização distal. Achados compatíveis com síndrome do desfiladeiro torácico arterial."
+    replace: "Estenose da artéria subclávia _ no espaço _ (interescalênico; costoclavicular; ou retropeitoral menor), junto a _ (costela cervical; primeira costela; ou banda fibrosa), acentuando-se com a abdução do membro. Associa-se dilatação pós-estenótica de até _ cm a jusante, com trombo mural, bem como oclusão de _, sugerindo embolização distal. Achados compatíveis com síndrome do desfiladeiro torácico arterial."
     word: true
 
   - trigger: "desfiladeiro3c"
     label: "Conclusão — síndrome do desfiladeiro torácico arterial"
-    replace: "Síndrome do desfiladeiro torácico arterial _, com _."
+    replace: "Síndrome do desfiladeiro torácico arterial _, com _ (dilatação pós-estenótica; trombo mural; embolização distal)."
     word: true
 
   - trigger: "desfiladeiro4"
     label: "Compressão venosa dinâmica na abdução, sem trombose"
-    replace: "Redução luminal da veia _ no espaço _ com o membro superior _ em abdução, estimada em _%, com calibre preservado em adução, sem falhas de enchimento ou circulação colateral. A compressão venosa com a abdução é frequente em indivíduos assintomáticos, devendo ser correlacionada com os dados clínicos."
+    replace: "Redução luminal da veia _ (subclávia; ou axilar) no espaço _ (interescalênico; costoclavicular; ou retropeitoral menor) com o membro superior _ em abdução, estimada em _%, com calibre preservado em adução, sem falhas de enchimento ou circulação colateral. A compressão venosa com a abdução é frequente em indivíduos assintomáticos, devendo ser correlacionada com os dados clínicos."
     word: true
 
   - trigger: "desfiladeiro4c"
@@ -1645,7 +1645,7 @@ matches:
 
   - trigger: "oclusaodigital"
     label: "Oclusões de artérias digitais da mão"
-    replace: "Ausência de opacificação das artérias digitais _ do _ dedo(s) da mão _, com afilamento das artérias digitais remanescentes, sem lesões nas artérias proximais. Os diagnósticos diferenciais incluem embolia, tromboangeíte obliterante (doença de Buerger), esclerose sistêmica e outras doenças do tecido conjuntivo, vasculite e síndrome do martelo hipotenar, entre outros. A vasoconstrição periférica pode simular oclusão das artérias digitais."
+    replace: "Ausência de opacificação das artérias digitais _ (próprias; ou comuns) do _ dedo(s) da mão _, com afilamento das artérias digitais remanescentes, sem lesões nas artérias proximais. Os diagnósticos diferenciais incluem embolia, tromboangeíte obliterante (doença de Buerger), esclerose sistêmica e outras doenças do tecido conjuntivo, vasculite e síndrome do martelo hipotenar, entre outros. A vasoconstrição periférica pode simular oclusão das artérias digitais."
     word: true
 
   - trigger: "oclusaodigitalc"
@@ -1655,7 +1655,7 @@ matches:
 
   - trigger: "martelohipotenar"
     label: "Síndrome do martelo hipotenar (artéria ulnar junto ao hâmulo do hamato)"
-    replace: "Segmento distal da artéria ulnar _, junto ao hâmulo do hamato, com _ (aspecto tortuoso em saca-rolhas; dilatação aneurismática de _ cm; ou oclusão), com trombo mural _. Associa-se ausência de opacificação do arco palmar superficial e das artérias digitais do _ dedo(s), sugerindo embolização distal. No contexto de trauma repetitivo da região hipotenar, os achados podem corresponder a síndrome do martelo hipotenar."
+    replace: "Segmento distal da artéria ulnar _, junto ao hâmulo do hamato, com _ (aspecto tortuoso em saca-rolhas; dilatação aneurismática de _ cm; ou oclusão), com trombo mural. Associa-se ausência de opacificação do arco palmar superficial e das artérias digitais do _ dedo(s), sugerindo embolização distal. No contexto de trauma repetitivo da região hipotenar, os achados podem corresponder a síndrome do martelo hipotenar."
     word: true
 
   - trigger: "martelohipotenarc"
@@ -1668,12 +1668,12 @@ matches:
   # ==========================================================================
   - trigger: "aneusubclavia"
     label: "Aneurisma da artéria subclávia ou axilar"
-    replace: "Dilatação aneurismática _ da artéria _, no segmento _, com diâmetro máximo de _ cm (segmento adjacente normal: _ cm), estendendo-se por cerca de _ cm. Associa-se trombo mural _ de até _ cm de espessura."
+    replace: "Dilatação aneurismática _ (fusiforme; ou sacular) da artéria _, no segmento _, com diâmetro máximo de _ cm (segmento adjacente normal: _ cm), estendendo-se por cerca de _ cm. Associa-se trombo mural de até _ cm de espessura."
     word: true
 
   - trigger: "aneusubclaviac"
     label: "Conclusão — aneurisma da artéria subclávia ou axilar"
-    replace: "Aneurisma _ da artéria _."
+    replace: "Aneurisma _ (fusiforme; ou sacular) da artéria _."
     word: true
 
   - trigger: "pseudobraquial"
@@ -1691,7 +1691,7 @@ matches:
   # ==========================================================================
   - trigger: "arteritesubclavia"
     label: "Arterite de grandes vasos (ACR/EULAR 2022: Takayasu ≤ 60 anos, células gigantes ≥ 50 anos)"
-    replace: "Espessamento parietal circunferencial, liso e regular das artérias _, com até _ cm de espessura e realce tardio pelo meio de contraste, determinando redução luminal _ estendendo-se por cerca de _ cm, sem placas ateromatosas, sugerindo arterite de grandes vasos. Os diagnósticos diferenciais incluem arterite de Takayasu e arterite de células gigantes, entre outros, devendo ser correlacionados com a idade e os dados clínicos e laboratoriais."
+    replace: "Espessamento parietal circunferencial, liso e regular das artérias _, com até _ cm de espessura e realce tardio pelo meio de contraste, determinando redução luminal estimada em _%, estendendo-se por cerca de _ cm, sem placas ateromatosas, sugerindo arterite de grandes vasos. Os diagnósticos diferenciais incluem arterite de Takayasu e arterite de células gigantes, entre outros, devendo ser correlacionados com a idade e os dados clínicos e laboratoriais."
     word: true
 
   - trigger: "arteritesubclaviac"
@@ -1704,7 +1704,7 @@ matches:
   # ==========================================================================
   - trigger: "dialisepervia"
     label: "Fístula arteriovenosa para hemodiálise pérvia"
-    replace: "Fístula arteriovenosa _ no membro superior _, com anastomose entre a artéria _ e a veia _, pérvia. Artéria aferente, anastomose, veia de drenagem e veias centrais sem estenoses, dilatações aneurismáticas ou coleções adjacentes."
+    replace: "Fístula arteriovenosa _ (radiocefálica; braquiocefálica; ou braquiobasílica) no membro superior _, com anastomose entre a artéria _ e a veia _, pérvia. Artéria aferente, anastomose, veia de drenagem e veias centrais sem estenoses, dilatações aneurismáticas ou coleções adjacentes."
     word: true
 
   - trigger: "dialiseperviac"
@@ -1714,7 +1714,7 @@ matches:
 
   - trigger: "dialiseestenose"
     label: "Estenose de fístula arteriovenosa (KDOQI 2019: tratar só com ≥ 50% e alteração clínica)"
-    replace: "Redução luminal estimada em _% no segmento _ da fístula arteriovenosa _, estendendo-se por cerca de _ cm, com calibre de _ cm no ponto mais estreito e de _ cm no segmento adjacente normal."
+    replace: "Redução luminal estimada em _% no segmento _ (justa-anastomótico; veia de drenagem; ou arco da veia cefálica) da fístula arteriovenosa _, estendendo-se por cerca de _ cm, com calibre de _ cm no ponto mais estreito e de _ cm no segmento adjacente normal."
     word: true
 
   - trigger: "dialiseestenosec"
@@ -1734,7 +1734,7 @@ matches:
 
   - trigger: "dialiseaneurisma"
     label: "Dilatação aneurismática da veia de drenagem da fístula"
-    replace: "Dilatação aneurismática da veia de drenagem da fístula arteriovenosa _, no segmento _, com diâmetro máximo de _ cm, parede contínua e trombo mural _."
+    replace: "Dilatação aneurismática da veia de drenagem da fístula arteriovenosa _, no segmento _, com diâmetro máximo de _ cm, parede contínua e trombo mural de até _ cm de espessura."
     word: true
 
   - trigger: "dialiseaneurismac"
@@ -1782,10 +1782,10 @@ matches:
 
   - trigger: "medianapersistente"
     label: "Artéria mediana persistente"
-    replace: "Artéria mediana _ calibrosa, originando-se da artéria _ e acompanhando o nervo mediano no antebraço e no túnel do carpo, _ o arco palmar superficial (artéria mediana persistente, variação anatômica)."
+    replace: "Artéria mediana _ calibrosa, originando-se da artéria _ e acompanhando o nervo mediano no antebraço e no túnel do carpo (artéria mediana persistente, variação anatômica)."
     word: true
 
   - trigger: "arcoincompleto"
     label: "Arco palmar superficial incompleto (Coleman e Anson, grupo II)"
-    replace: "Arco palmar superficial _ incompleto, sem anastomose entre os ramos que o formam (variação anatômica, grupo II de Coleman e Anson)."
+    replace: "Arco palmar superficial incompleto na mão _, sem anastomose entre os ramos que o formam (variação anatômica, grupo II de Coleman e Anson)."
     word: true
