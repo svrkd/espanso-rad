@@ -867,12 +867,12 @@ matches:
     replace: "Aneurisma sacular da aorta _, sugestivo de aneurisma infeccioso (micótico)."
     word: true
 
-  - trigger: "flapabdome"
+  - trigger: "flapabd"
     label: "Dissecção da aorta abdominal"
     replace: "Retalho intimal na aorta abdominal, estendendo-se de _ a _, delimitando luz verdadeira de menor calibre e luz falsa de maior calibre, com rotura intimal de entrada no nível de _. Ramos viscerais emergindo da luz verdadeira, exceto _."
     word: true
 
-  - trigger: "flapabdomec"
+  - trigger: "flapabdc"
     label: "Conclusão — dissecção da aorta abdominal (SVS/STS)"
     replace: "Dissecção da aorta abdominal (SVS/STS: tipo B, extensão proximal na zona _ e distal na zona _)."
     word: true
