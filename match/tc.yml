@@ -1734,7 +1734,7 @@ matches:
 
   - trigger: "fungoalergico"
     label: "Sinusite fúngica alérgica"
-    replace: "Material heterogêneo e hiperatenuante preenchendo e expandindo os seios _ (citar seios e lado), com adelgaçamento e remodelamento das paredes ósseas, associado a espessamento mucoso polipoide, achados que sugerem sinusite fúngica alérgica."
+    replace: "Material heterogêneo e hiperatenuante preenchendo e expandindo os seios _, com adelgaçamento e remodelamento das paredes ósseas, associado a espessamento mucoso polipoide, achados que sugerem sinusite fúngica alérgica."
     word: true
 
   - trigger: "fungoalergicoc"
@@ -1759,7 +1759,7 @@ matches:
 
   - trigger: "fungoerosao"
     label: "Erosão óssea e extensão extrassinusal"
-    replace: "Associa-se erosão das paredes ósseas do seio _ (citar seio e lado), com extensão do processo para _ (a órbita; a fossa pterigopalatina; a fossa infratemporal; ou as partes moles da face)."
+    replace: "Associa-se erosão das paredes ósseas do seio _, com extensão do processo para _ (a órbita; a fossa pterigopalatina; a fossa infratemporal; ou as partes moles da face)."
     word: true
 
   - trigger: "fungoinvasivoc"
@@ -1824,12 +1824,12 @@ matches:
 
   - trigger: "tumorseio"
     label: "Formação expansiva nasossinusal com destruição óssea"
-    replace: "Formação expansiva com atenuação de partes moles no seio _ (citar seio e lado), medindo _ cm, com destruição das paredes ósseas e extensão para _ (a órbita; a fossa pterigopalatina; a fossa infratemporal; a base do crânio; ou as partes moles da face). Admite-se inicialmente a hipótese de lesão neoplásica. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de processo infeccioso invasivo. Ressonância magnética pode complementar a avaliação da extensão."
+    replace: "Formação expansiva com atenuação de partes moles no seio _, medindo _ cm, com destruição das paredes ósseas e extensão para _ (a órbita; a fossa pterigopalatina; a fossa infratemporal; a base do crânio; ou as partes moles da face). Admite-se inicialmente a hipótese de lesão neoplásica. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de processo infeccioso invasivo. Ressonância magnética pode complementar a avaliação da extensão."
     word: true
 
   - trigger: "tumorseioc"
     label: "Conclusão — formação expansiva nasossinusal agressiva"
-    replace: "Formação expansiva no seio _ (citar seio e lado), com destruição óssea e extensão extrassinusal, podendo corresponder a lesão neoplásica."
+    replace: "Formação expansiva no seio _, com destruição óssea e extensão extrassinusal, podendo corresponder a lesão neoplásica."
     word: true
 
   - trigger: "osteomaseio"
