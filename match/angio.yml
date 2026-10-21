@@ -576,7 +576,7 @@ matches:
   # ==========================================================================
   - trigger: "espasmohsa"
     label: "Vasoespasmo após hemorragia subaracnoide"
-    replace: "Redução segmentar do calibre dos segmentos _ das artérias _, de contornos regulares, mais acentuada em _, com redução de cerca de _% em relação ao exame de _, no contexto de hemorragia subaracnoide, sugerindo vasoespasmo."
+    replace: "Redução segmentar do calibre dos segmentos _ das artérias _, de contornos regulares, mais acentuada em _ e de cerca de _% em relação ao exame de _, sugerindo vasoespasmo relacionado à hemorragia subaracnoide."
     word: true
 
   - trigger: "espasmohsac"
