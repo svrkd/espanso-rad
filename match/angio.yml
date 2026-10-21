@@ -500,7 +500,7 @@ matches:
 
   - trigger: "clipeaneurisma"
     label: "Aneurisma clipado (artefato limitando o colo)"
-    replace: "Clipe metálico no colo de aneurisma da artéria _, determinando artefatos de endurecimento do feixe que limitam a avaliação de remanescente no colo. Artéria _ e ramos adjacentes pérvios."
+    replace: "Clipe metálico no colo de aneurisma da artéria _, determinando artefatos de endurecimento do feixe que limitam a avaliação de remanescente no colo.."
     word: true
 
   - trigger: "clipeaneurismac"
@@ -510,7 +510,7 @@ matches:
 
   - trigger: "aneuembolizado"
     label: "Aneurisma embolizado com molas (artefato)"
-    replace: "Molas metálicas de embolização no interior de aneurisma da artéria _, determinando artefatos de endurecimento do feixe que impedem a avaliação de remanescente ou recanalização. Artéria _ e ramos adjacentes pérvios."
+    replace: "Molas metálicas de embolização no interior de aneurisma da artéria _, determinando artefatos de endurecimento do feixe que impedem a avaliação de remanescente ou recanalização.."
     word: true
 
   - trigger: "aneuembolizadoc"
