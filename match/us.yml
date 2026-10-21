@@ -124,7 +124,7 @@ matches:
 
   - trigger: "ap1"
     label: "Apêndice cecal: Sinais sugestivos de apendicite aguda (achado descritivo)"
-    replace: Apêndice cecal caracterizado em fossa ilíaca direita, incompressível, com calibre medindo _ cm (normal < 0,7 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
+    replace: Apêndice cecal caracterizado em fossa ilíaca direita, incompressível, com calibre medindo _ cm (normal até 0,6 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
     word: true
 
   - trigger: "ap1c"
@@ -134,7 +134,7 @@ matches:
 
   - trigger: "ap2"
     label: "Apêndice cecal: Sinais sugestivos de processo inflamatório/infeccioso do apêndice cecal (achado descritivo)"
-    replace: Estrutura tubuliforme em fundo cego, com origem aparente no ceco, compatível com apêndice cecal, incompressível, com calibre medindo _ cm (normal < 0,7 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
+    replace: Estrutura tubuliforme em fundo cego, com origem aparente no ceco, compatível com apêndice cecal, incompressível, com calibre medindo _ cm (normal até 0,6 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
     word: true
 
   - trigger: "ap2c"
@@ -149,7 +149,7 @@ matches:
 
   - trigger: "ba2"
     label: "Baço: Esplenomegalia homogênea (achado descritivo)"
-    replace: Baço de dimensões aumentadas (índice esplênico de _; normal < 60), bordas rombas e ecotextura homogênea.
+    replace: Baço de dimensões aumentadas (índice esplênico, comprimento × espessura, de _ cm²; normal < 60), bordas rombas e ecotextura homogênea.
     word: true
 
   - trigger: "ba2c"
@@ -157,9 +157,14 @@ matches:
     replace: Esplenomegalia homogênea.
     word: true
 
+  - trigger: "ba22"
+    label: "Baço: Esplenomegalia homogênea pelo diâmetro longitudinal (achado descritivo)"
+    replace: Baço de dimensões aumentadas (diâmetro longitudinal de _ cm; normal até 12 cm), bordas rombas e ecotextura homogênea.
+    word: true
+
   - trigger: "ba3"
     label: "Baço: Baço de dimensões aumentadas com corpúsculos de Gamna-Gandy"
-    replace: Baço de dimensões aumentadas (índice esplênico de _; normal < 60), bordas rombas e ecotextura heterogênea, devido a múltiplos focos ecogênicos compatíveis com corpúsculos de Gamna-Gandy.
+    replace: Baço de dimensões aumentadas (índice esplênico, comprimento × espessura, de _ cm²; normal < 60), bordas rombas e ecotextura heterogênea, devido a múltiplos focos ecogênicos compatíveis com corpúsculos de Gamna-Gandy.
     word: true
 
   - trigger: "ba4"
@@ -417,7 +422,7 @@ matches:
     word: true
 
   - trigger: "vb12c"
-    label: "Vesícula biliar (pólipo): conduta SRU 2022 — pediculado de haste fina: até 0,9 cm sem seguimento; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Séssil ou haste espessa: até 0,6 cm sem seguimento; 0,7–0,9 cm controle em 12 meses; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Crescimento ≥ 0,4 cm em até 12 meses: avaliação cirúrgica"
+    label: "Vesícula biliar (pólipo): conduta SRU 2022 — pediculado de haste fina: até 0,9 cm sem seguimento; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Séssil ou haste espessa: até 0,6 cm sem seguimento; 0,7–0,9 cm controle em 12 meses; 1,0–1,4 cm controle aos 6, 12, 24 e 36 meses; ≥ 1,5 cm avaliação cirúrgica. Indeterminado (espessamento parietal focal ≥ 0,4 cm adjacente): até 0,6 cm controle aos 6, 12, 24 e 36 meses; ≥ 0,7 cm avaliação cirúrgica. Crescimento ≥ 0,4 cm em até 12 meses: avaliação cirúrgica"
     replace: "Sugere-se controle ultrassonográfico em _ meses."
     word: true
 
@@ -849,8 +854,8 @@ matches:
     word: true
 
   - trigger: "rvutd"
-    label: "Rim (pediatria): dilatação do trato urinário, classificação UTD (achado descritivo) — P1: pelve 1,0 a 1,5 cm ou dilatação calicinal central; P2: pelve ≥ 1,5 cm, dilatação calicinal periférica ou ureter dilatado; P3: alteração do parênquima ou da bexiga"
-    replace: "Diâmetro anteroposterior da pelve renal _ de _ cm, com dilatação calicinal central/periférica/ausente, parênquima de espessura e ecogenicidade preservadas/alteradas, ureter _ e bexiga _."
+    label: "Rim (pediatria): dilatação do trato urinário, classificação UTD (achado descritivo) — P1: pelve ≥ 1,0 e < 1,5 cm ou dilatação calicinal central; P2: pelve ≥ 1,5 cm, dilatação calicinal periférica ou ureter dilatado; P3: alteração do parênquima ou da bexiga"
+    replace: "Diâmetro anteroposterior da pelve renal _ de _ cm, com dilatação calicinal central/periférica/ausente, parênquima de espessura e ecogenicidade preservadas/alteradas, ureter de calibre normal/dilatado e bexiga de aspecto habitual/com espessamento parietal/com ureterocele/com dilatação da uretra posterior."
     word: true
 
   - trigger: "rvutdc"
@@ -1063,17 +1068,17 @@ matches:
 
   - trigger: "orads3"
     label: "O-RADS US 3 — baixo risco (1% a < 10%)"
-    replace: "Classificação O-RADS US 3. Sugere-se avaliação por especialista em ultrassonografia ou ressonância magnética."
+    replace: "Classificação O-RADS US 3."
     word: true
 
   - trigger: "orads4"
     label: "O-RADS US 4 — risco intermediário (10% a < 50%)"
-    replace: "Classificação O-RADS US 4. Sugere-se avaliação ginecológica especializada, com suporte de ginecologia oncológica."
+    replace: "Classificação O-RADS US 4."
     word: true
 
   - trigger: "orads5"
     label: "O-RADS US 5 — alto risco (≥ 50%)"
-    replace: "Classificação O-RADS US 5. Sugere-se avaliação por ginecologia oncológica."
+    replace: "Classificação O-RADS US 5."
     word: true
 
   - trigger: "ov7"
@@ -1153,7 +1158,7 @@ matches:
 
   - trigger: "diu3"
     label: "DIU: DIU deslocado (achado descritivo)"
-    replace: "Cavidade uterina virtual, apresentando em seu interior dispositivo intrauterino (DIU), distando _ cm da cavidade fúndica (VR <0,5 cm) e _ cm da serosa fúndica (VR <2,0 cm)."
+    replace: "Cavidade uterina virtual, apresentando em seu interior dispositivo intrauterino (DIU), distando _ cm do fundo da cavidade endometrial (posição adequada até 2,0 cm)."
     word: true
 
   - trigger: "diu3c"
@@ -1163,7 +1168,7 @@ matches:
 
   - trigger: "diu4"
     label: "DIU: DIU de inserção baixa (achado descritivo)"
-    replace: Cavidade uterina virtual, apresentando no seu interior dispositivo intrauterino (DIU) em topografia baixa, próximo ao colo, distando _ cm da cavidade fúndica (VR <0,5 cm) e _ cm da serosa fúndica (VR <2,0 cm), alocado em região anticonceptiva desfavorável.
+    replace: Cavidade uterina virtual, apresentando no seu interior dispositivo intrauterino (DIU) em topografia baixa, próximo ao colo, distando _ cm do fundo da cavidade endometrial (posição adequada até 2,0 cm), alocado em região anticonceptiva desfavorável.
     word: true
 
   - trigger: "diu4c"
@@ -1335,13 +1340,13 @@ matches:
       Medidas do ovário esquerdo: _ cm (volume: _ cm³).
 
       Conclusão:
-      Gestação tópica, única, compatível com _ semanas e _ dias, dado pelo CCN (erro de +/- _ dias).
+      Gestação tópica, única, compatível com _ semanas e _ dias, dado pelo CCN.
 
-      < ou = 8s + 6d - erro de 5 dias
-      9sem até 15sem + 6d - erro 7 dias
-      16sem até 21sem + 6d - erro 10 dias
-      22sem até 27sem + 6d - erro 14 dias
-      > ou = 28sem - 21d - erro 21 dias
+      < ou = 8s + 6d - erro de 5 dias: (erro de +/- 5 dias)
+      9sem até 15sem + 6d - erro 7 dias: (erro de +/- 7 dias)
+      16sem até 21sem + 6d - erro 10 dias: (erro de +/- 10 dias)
+      22sem até 27sem + 6d - erro 14 dias: (erro de +/- 14 dias)
+      > ou = 28sem - 21d - erro 21 dias: (erro de +/- 21 dias)
     word: true
 
   - trigger: "usob"
@@ -1370,17 +1375,17 @@ matches:
       Líquido amniótico com aspecto e quantidade normais (Maior bolsão vertical _ cm).
 
       Conclusão:
-      Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia (erro +/- _ dias).
+      Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia.
       Feto crescendo no percentil _ para a idade gestacional.
 
       Obs.: A ultrassonografia obstétrica tem como finalidade a determinação do posicionamento fetal e da placenta, avaliação quantitativa do líquido amniótico e biometria fetal. O estudo da morfologia fetal é realizado na ultrassonografia morfológica.
 
 
-      < ou = 8s + 6d - erro de 5 dias
-      9sem até 15sem + 6d - erro 7 dias
-      16sem até 21sem + 6d - erro 10 dias
-      22sem até 27sem + 6d - erro 14 dias
-      > ou = 28sem - 21d - erro 21 dias
+      < ou = 8s + 6d - erro de 5 dias: (erro de +/- 5 dias)
+      9sem até 15sem + 6d - erro 7 dias: (erro de +/- 7 dias)
+      16sem até 21sem + 6d - erro 10 dias: (erro de +/- 10 dias)
+      22sem até 27sem + 6d - erro 14 dias: (erro de +/- 14 dias)
+      > ou = 28sem - 21d - erro 21 dias: (erro de +/- 21 dias)
 
       Grau 0 até à 18ª semana, Placenta homogênea e sem calcificação. 
       Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
@@ -1422,17 +1427,17 @@ matches:
        IPC / IPU = _ (percentil _).
 
       Conclusão:
-      Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia (erro +/- _ dias).
+      Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia.
       Feto crescendo no percentil _ para a idade gestacional.
       Estudo Doppler-sonográfico dentro da normalidade para a fase da gestação.
 
       Obs.: A ultrassonografia obstétrica tem como finalidade a determinação do posicionamento fetal e da placenta, avaliação quantitativa do líquido amniótico e biometria fetal. O estudo da morfologia fetal é realizado na ultrassonografia morfológica.
 
-      < ou = 8s + 6d - erro de 5 dias
-      9sem até 15sem + 6d - erro 7 dias
-      16sem até 21sem + 6d - erro 10 dias
-      22sem até 27sem + 6d - erro 14 dias
-      > ou = 28sem - 21d - erro 21 dias
+      < ou = 8s + 6d - erro de 5 dias: (erro de +/- 5 dias)
+      9sem até 15sem + 6d - erro 7 dias: (erro de +/- 7 dias)
+      16sem até 21sem + 6d - erro 10 dias: (erro de +/- 10 dias)
+      22sem até 27sem + 6d - erro 14 dias: (erro de +/- 14 dias)
+      > ou = 28sem - 21d - erro 21 dias: (erro de +/- 21 dias)
 
       Grau 0 até à 18ª semana, Placenta homogênea e sem calcificação. 
       Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
@@ -1602,7 +1607,7 @@ matches:
 
   - trigger: "ob14c"
     label: "Obstétrica — SNC: agenesia do corpo caloso (conclusão)"
-    replace: Achados ecográficos compatíveis com agenesia do corpo caloso. Sugere-se, a critério clínico, seguimento da investigação diagnóstica com ressonância magnética após 32 semanas de idade gestacional.
+    replace: Achados ecográficos compatíveis com agenesia do corpo caloso. Sugere-se, a critério clínico, seguimento da investigação diagnóstica com ressonância magnética a partir de 28 semanas de idade gestacional.
     word: true
 
   - trigger: "ob15"
@@ -1627,7 +1632,7 @@ matches:
 
   - trigger: "ob17"
     label: "Obstétrica — SNC: malformação de Dandy-Walker (achado descritivo)"
-    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparente. Sua ecogenicidade é própria para a atual idade gestacional. Estruturas intracranianas com dilatação significativa dos ventrículos laterais, com átrios medindo _ mm à direita e _ mm à esquerda. Cisterna magna alargada na fossa posterior (_ mm), associada a agenesia total do vérmis cerebelar, com dilatação cística do quarto ventrículo, ambos avaliados em cortes suboccipitobregmático e sagital mediano do cérebro.
+    replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparente. Sua ecogenicidade é própria para a atual idade gestacional. Fossa posterior aumentada, com cisterna magna medindo _ mm e dilatação cística do quarto ventrículo, associada a agenesia/hipoplasia do vérmis cerebelar, com rotação cranial do remanescente, achados avaliados em cortes suboccipitobregmático e sagital mediano do cérebro.
     word: true
 
   - trigger: "ob17c"
@@ -1935,7 +1940,7 @@ matches:
 
   - trigger: "ob46c"
     label: "Obstétrica — 1º trimestre: saco gestacional de 16 a 24 mm sem embrião (conclusão)"
-    replace: "Saco gestacional de diâmetro médio de _ mm, sem embrião. Sugere-se controle ultrassonográfico em 7 a 14 dias."
+    replace: "Saco gestacional de diâmetro médio de _ mm, sem embrião. Sugere-se controle ultrassonográfico em 7 a 10 dias."
     word: true
 
   - trigger: "ob47"
@@ -4123,7 +4128,7 @@ matches:
 
   - trigger: "lmg3"
     label: "Lesão muscular: Grau II (lesão parcial)"
-    replace: Lesão parcial da transição miotendínea / mioaponeurótica distal do _, caracterizada por área de descontinuidade, medindo cerca de _ x _, nos eixos longitudinal e transverso, respectivamente, acometendo aproximadamente mais / menos que 50% da área de secção transversa. Associa-se conteúdo líquido / hemático na área de rotura.
+    replace: Lesão parcial da transição miotendínea / mioaponeurótica distal do _, caracterizada por área de descontinuidade, medindo cerca de _ x _, nos eixos longitudinal e transverso, respectivamente, acometendo até 50% da área de secção transversa. Associa-se conteúdo líquido / hemático na área de rotura.
     word: true
 
   - trigger: "lmg3c"
@@ -4563,7 +4568,7 @@ matches:
 
   - trigger: "ombi1"
     label: "Ombro: Cabo longo do bíceps normal"
-    replace: Tendão da cabeça longa do bíceps de calibre e ecotextura habituais, localizado anatomicamente no sulco intertuberositário, sem sinais de luxação, mesmo às manobras dinâmicas.
+    replace: Tendão do cabo longo do bíceps de calibre e ecotextura habituais, localizado anatomicamente no sulco intertuberositário, sem sinais de luxação, mesmo às manobras dinâmicas.
     word: true
 
   - trigger: "ombi2"
@@ -7155,7 +7160,7 @@ matches:
       Pele e tecido celular subcutâneo de espessura normal.
       Epidídimo e estruturas funiculares de dimensões normais e ecotextura habitual.
       Testículo em topografia, morfologia e contornos normais.
-      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (VR 7-23 cm³).
+      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (normal a partir de 12 cm³).
       Parênquima testicular com ecotextura homogênea e sem alterações.
       Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
       Ausência de dilatação venosa dos plexos pampiniformes.
@@ -7164,7 +7169,7 @@ matches:
       Pele e tecido celular subcutâneo de espessura normal.
       Epidídimo e estruturas funiculares de dimensões normais e ecotextura habitual.
       Testículo em topografia, morfologia e contornos normais.
-      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (VR 7-23 cm³).
+      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (normal a partir de 11 cm³).
       Parênquima testicular com ecotextura homogênea e sem alterações.
       Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
       Ausência de dilatação venosa dos plexos pampiniformes.
@@ -7185,7 +7190,7 @@ matches:
       Pele e tecido celular subcutâneo de espessura normal.
       Epidídimo e estruturas funiculares de dimensões normais e ecotextura habitual.
       Testículo em topografia, morfologia e contornos normais.
-      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (VR 7-23 cm³).
+      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (normal a partir de 12 cm³).
       Parênquima testicular com ecotextura homogênea e sem alterações.
       Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
       Ausência de dilatação venosa dos plexos pampiniformes.
@@ -7196,7 +7201,7 @@ matches:
       Pele e tecido celular subcutâneo de espessura normal.
       Epidídimo e estruturas funiculares de dimensões normais e ecotextura habitual.
       Testículo em topografia, morfologia e contornos normais.
-      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (VR 7-23 cm³).
+      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (normal a partir de 11 cm³).
       Parênquima testicular com ecotextura homogênea e sem alterações.
       Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
       Ausência de dilatação venosa dos plexos pampiniformes.
@@ -7226,7 +7231,7 @@ matches:
 
   - trigger: "te2"
     label: "Testículo/bolsa escrotal: Sinais de varicocele à _ (achado descritivo)"
-    replace: Dilatação e tortuosidade de vasos do plexo pampiniforme à _, medindo em repouso _ cm (normal < 0,2-0,3 cm) e acentuando-se à manobra de Valsalva, associada a refluxo valvar ao estudo Doppler colorido.
+    replace: Dilatação e tortuosidade de vasos do plexo pampiniforme à _, o maior medindo _ cm em ortostatismo à manobra de Valsalva (diagnóstico a partir de 0,3 cm), associada a refluxo de _ segundos ao estudo Doppler (patológico acima de 2 segundos).
     word: true
 
   - trigger: "te2c"
@@ -7256,7 +7261,7 @@ matches:
 
   - trigger: "te5"
     label: "Testículo/bolsa escrotal: Microlitíase testicular à _ (achado descritivo)"
-    replace: Parênquima testicular com ecotextura homogênea, exceto por múltiplos focos hiperecogênicos puntiformes, sem sombra acústica posterior, distribuídos difusamente, medindo entre 0,1 e 0,3 cm (mais de 5 focos por campo de imagem).
+    replace: Parênquima testicular com ecotextura homogênea, exceto por múltiplos focos hiperecogênicos puntiformes, sem sombra acústica posterior, distribuídos difusamente, menores que 0,3 cm (cinco ou mais focos por campo de imagem).
     word: true
 
   - trigger: "te5c"
@@ -7460,7 +7465,7 @@ matches:
       Lobo direito: _ cm, com volume de _ cm³.
       Lobo esquerdo: _ cm, com volume de _ cm³.
       Istmo: _ cm, com volume de _ cm³.
-      Volume glandular total: _ cm³. (normal= 6,0 a 15,0 cm³)
+      Volume glandular total: _ cm³ (normal até 18 cm³ em mulheres e 25 cm³ em homens).
 
       Não há evidências de adenomegalias ou linfonodos atípicos nas cadeias paracarotídeas.
 
@@ -7483,7 +7488,7 @@ matches:
       Lobo direito: _ cm, com volume de _ cm³.
       Lobo esquerdo: _ cm, com volume de _ cm³.
       Istmo: _ cm, com volume de _ cm³.
-      Volume glandular total: _ cm³. (normal= 6,0 a 15,0 cm³)
+      Volume glandular total: _ cm³ (normal até 18 cm³ em mulheres e 25 cm³ em homens).
 
       Vascularização da tireoide de aspecto habitual.
 
@@ -7643,32 +7648,22 @@ matches:
 
   - trigger: "tx5"
     label: "Tórax (consolidação): Consolidação sem broncograma aéreo (achado descritivo)"
-    replace: Consolidação subpleural hipoecogênica, com bordas irregulares e fragmentadas (sinal do retalho), sem broncogramas aéreos identificáveis em seu interior.
+    replace: Consolidação subpleural hipoecogênica, com bordas irregulares e fragmentadas, sem broncogramas aéreos identificáveis em seu interior.
     word: true
 
   - trigger: "tx5c"
     label: "Tórax (consolidação): Consolidação sem broncograma aéreo"
-    replace: Consolidação pulmonar sem broncograma aéreo, podendo corresponder a atelectasia obstrutiva ou a derrame pleural organizado. Sugere-se correlação clínica.
+    replace: Consolidação pulmonar sem broncograma aéreo. Os diagnósticos diferenciais incluem consolidação pneumônica, atelectasia obstrutiva e lesão expansiva pulmonar, entre outros. Sugere-se prosseguir a investigação diagnóstica com tomografia computadorizada.
     word: true
 
   - trigger: "tx6"
-    label: "Tórax (pneumotórax): Ausência de deslizamento pleural (achado descritivo)"
-    replace: Ausência de deslizamento pleural (lung sliding) no modo bidimensional, com padrão de linhas horizontais e paralelas (sinal do código de barras/estratosfera) ao modo M.
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural com lung point (achado descritivo)"
+    replace: Ausência de deslizamento pleural (lung sliding) no modo bidimensional, com padrão de linhas horizontais e paralelas (sinal do código de barras/estratosfera) ao modo M, e ponto de transição com a área de deslizamento preservado (lung point) na topografia _.
     word: true
 
   - trigger: "tx6c"
-    label: "Tórax (pneumotórax): Ausência de deslizamento pleural"
-    replace: Ausência de deslizamento pleural, achado compatível com pneumotórax.
-    word: true
-
-  - trigger: "tx7"
-    label: "Tórax (pneumotórax): Lung point (achado descritivo)"
-    replace: Identificação de ponto de transição entre área com deslizamento pleural preservado e área sem deslizamento (lung point) na topografia _.
-    word: true
-
-  - trigger: "tx7c"
-    label: "Tórax (pneumotórax): Lung point"
-    replace: Lung point identificado na topografia _, achado patognomônico de pneumotórax e indicativo da extensão do colabamento pulmonar.
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural com lung point"
+    replace: Ausência de deslizamento pleural com lung point na topografia _, compatível com pneumotórax.
     word: true
 
   - trigger: "tx8"
@@ -7741,6 +7736,16 @@ matches:
     replace: Padrão assimétrico (perfil A/B), achado sugestivo de pneumonia.
     word: true
 
+  - trigger: "tx15"
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural sem lung point (achado descritivo)"
+    replace: Ausência de deslizamento pleural (lung sliding) no modo bidimensional, com padrão de linhas horizontais e paralelas (sinal do código de barras/estratosfera) ao modo M, sem lung point identificável.
+    word: true
+
+  - trigger: "tx15c"
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural sem lung point, diferencial"
+    replace: Ausência de deslizamento pleural sem lung point identificável. Os diagnósticos diferenciais incluem pneumotórax, aderência pleural, pleurodese prévia, apneia ou hipoventilação, intubação seletiva e síndrome do desconforto respiratório agudo, entre outros.
+    word: true
+
   # ==============================================================================
   # CRÂNIO / TRANSFONTANELA (NEONATAL)
   # ==============================================================================
@@ -7797,7 +7802,7 @@ matches:
 
   - trigger: "tfp2"
     label: "Crânio (transfontanela): HPIV grau II (Papile) — achado"
-    replace: Conteúdo ecogênico no interior do ventrículo lateral _, ocupando menos de 50% do seu volume, sem dilatação ventricular associada.
+    replace: Conteúdo ecogênico no interior do ventrículo lateral _, sem dilatação ventricular associada.
     word: true
 
   - trigger: "tfp2c"
@@ -7807,7 +7812,7 @@ matches:
 
   - trigger: "tfp3"
     label: "Crânio (transfontanela): HPIV grau III (Papile) — achado"
-    replace: Conteúdo ecogênico ocupando mais de 50% do volume do ventrículo lateral _, associado a dilatação ventricular aguda.
+    replace: Conteúdo ecogênico no interior do ventrículo lateral _, associado a dilatação ventricular.
     word: true
 
   - trigger: "tfp3c"
@@ -7842,12 +7847,12 @@ matches:
 
   - trigger: "tf9"
     label: "Crânio (transfontanela): Ventriculomegalia moderada"
-    replace: "Dilatação moderada dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior superior a 6 mm (_ mm) e distância tálamo-occipital de _ mm."
+    replace: "Dilatação moderada dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior de _ mm (superior a 6 mm, limiar do estudo ELVIS) e distância tálamo-occipital de _ mm."
     word: true
 
   - trigger: "tf10"
     label: "Crânio (transfontanela): Ventriculomegalia acentuada / hidrocefalia"
-    replace: "Dilatação acentuada dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior superior a 10 mm (_ mm) e distância tálamo-occipital de _ mm, compatível com hidrocefalia."
+    replace: "Dilatação acentuada dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior de _ mm (superior a 6 mm, limiar do estudo ELVIS) e distância tálamo-occipital de _ mm, compatível com hidrocefalia."
     word: true
 
   - trigger: "tf11"
@@ -8213,7 +8218,7 @@ matches:
       Realizada avaliação do sistema venoso profundo e superficial do membro superior direito, com transdutor linear multifrequencial, através do modo B, Doppler colorido e espectral, associado a manobras dinâmicas.
 
       Descrição:
-      Veias subclávia, axilar, braquial, radiais e ulnares compressíveis em toda sua extensão, sem trombos no seu interior.
+      Veias axilar, braquiais, radiais e ulnares compressíveis em toda sua extensão, sem trombos no seu interior. Veia subclávia pérvia, com fluxo fásico e variação respiratória preservados ao Doppler.
       Veias cefálica e basílica se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
 
       Conclusão:
@@ -8229,7 +8234,7 @@ matches:
       Realizada avaliação do sistema venoso profundo e superficial do membro superior esquerdo, com transdutor linear multifrequencial, através do modo B, Doppler colorido e espectral, associado a manobras dinâmicas.
 
       Descrição:
-      Veias subclávia, axilar, braquial, radiais e ulnares compressíveis em toda sua extensão, sem trombos no seu interior.
+      Veias axilar, braquiais, radiais e ulnares compressíveis em toda sua extensão, sem trombos no seu interior. Veia subclávia pérvia, com fluxo fásico e variação respiratória preservados ao Doppler.
       Veias cefálica e basílica se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
 
       Conclusão:
@@ -9406,7 +9411,7 @@ matches:
 
   - trigger: "dabd22"
     label: "Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) (achado descritivo)"
-    replace: "Ângulo aortomesentérico reduzido, de _° (normal acima de 22°), com distância aortomesentérica de _ cm (normal acima de 0,8 cm), associando-se distensão do estômago e do duodeno proximal ao ponto de cruzamento."
+    replace: "Ângulo aortomesentérico reduzido, de _° (reduzido quando inferior a 22°), com distância aortomesentérica de _ cm (reduzida quando inferior a 0,8 cm), associando-se distensão do estômago e do duodeno proximal ao ponto de cruzamento."
     word: true
 
   - trigger: "dabd22c"
@@ -9469,7 +9474,7 @@ matches:
     word: true
 
   - trigger: "aorta2"
-    label: "Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses"
+    label: "Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 6 meses"
     replace: "Dilatação fusiforme/sacular da aorta abdominal infrarrenal, com diâmetro anteroposterior máximo de _ cm (medido de parede externa a parede externa), extensão longitudinal de _ cm, distando _ cm das artérias renais, com/sem trombo mural."
     word: true
 

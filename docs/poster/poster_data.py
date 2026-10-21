@@ -53,7 +53,7 @@ BLOCOS = [
             ("4", "aerobilia"), ("5", "Von Meyenburg"), ("6", "cisto de colédoco"),
         ]),
         ("escada", "ba", "baço", [
-            ("1", "subcostal"), ("2", "esplenomegalia"), ("3", "Gamna-Gandy"), ("4", "acessório"),
+            ("1", "subcostal"), ("2", "esplenomegalia (IE)"), ("22", "esplenomegalia (diâmetro)"), ("3", "Gamna-Gandy"), ("4", "acessório"),
         ]),
         ("escada", "ap", "apêndice", [("1", "apendicite"), ("2", "processo inflamatório")]),
         ("escada", "dabd", "Doppler abdome superior", [("0", "normal")]),
@@ -167,8 +167,7 @@ BLOCOS = [
             ("3", "consolidação c/ broncograma dinâmico (pneumonia)"),
             ("4", "consolidação c/ broncograma estático (atelectasia/consolidação)"),
             ("5", "consolidação s/ broncograma"),
-            ("6", "ausência de deslizamento pleural (pneumotórax)"),
-            ("7", "lung point (pneumotórax)"),
+            ("6", "ausência de deslizamento + lung point (pneumotórax)"),
             ("8", "massa sólida c/ contato pleural"),
             ("9", "nodularidade pleural + derrame (neoplasia?)"),
             ("10", "linhas A (padrão normal)"),
@@ -176,6 +175,7 @@ BLOCOS = [
             ("12", "síndrome intersticial, perfil B (edema cardiogênico)"),
             ("13", "síndrome intersticial, perfil B' (SDRA/pneumonia extensa)"),
             ("14", "padrão assimétrico, perfil A/B (pneumonia)"),
+            ("15", "ausência de deslizamento s/ lung point (diferencial)"),
         ]),
     ]),
 
