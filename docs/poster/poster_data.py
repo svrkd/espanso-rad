@@ -167,7 +167,7 @@ BLOCOS = [
             ("3", "consolidação c/ broncograma dinâmico (pneumonia)"),
             ("4", "consolidação c/ broncograma estático (atelectasia/consolidação)"),
             ("5", "consolidação s/ broncograma"),
-            ("6", "ausência de deslizamento pleural (pneumotórax)"),
+            ("6", "ausência de deslizamento + lung point (pneumotórax)"),
             ("7", "lung point (pneumotórax)"),
             ("8", "massa sólida c/ contato pleural"),
             ("9", "nodularidade pleural + derrame (neoplasia?)"),
@@ -176,6 +176,7 @@ BLOCOS = [
             ("12", "síndrome intersticial, perfil B (edema cardiogênico)"),
             ("13", "síndrome intersticial, perfil B' (SDRA/pneumonia extensa)"),
             ("14", "padrão assimétrico, perfil A/B (pneumonia)"),
+            ("15", "ausência de deslizamento s/ lung point (diferencial)"),
         ]),
     ]),
 

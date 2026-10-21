@@ -7657,13 +7657,13 @@ matches:
     word: true
 
   - trigger: "tx6"
-    label: "Tórax (pneumotórax): Ausência de deslizamento pleural (achado descritivo)"
-    replace: Ausência de deslizamento pleural (lung sliding) no modo bidimensional, com padrão de linhas horizontais e paralelas (sinal do código de barras/estratosfera) ao modo M.
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural com lung point (achado descritivo)"
+    replace: Ausência de deslizamento pleural (lung sliding) no modo bidimensional, com padrão de linhas horizontais e paralelas (sinal do código de barras/estratosfera) ao modo M, e ponto de transição com a área de deslizamento preservado (lung point) na topografia _.
     word: true
 
   - trigger: "tx6c"
-    label: "Tórax (pneumotórax): Ausência de deslizamento pleural"
-    replace: Ausência de deslizamento pleural, achado compatível com pneumotórax.
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural com lung point"
+    replace: Ausência de deslizamento pleural com lung point na topografia _, compatível com pneumotórax.
     word: true
 
   - trigger: "tx7"
@@ -7744,6 +7744,16 @@ matches:
   - trigger: "tx14c"
     label: "Tórax (linhas pleurais): Padrão assimétrico, perfil A/B"
     replace: Padrão assimétrico (perfil A/B), achado sugestivo de pneumonia.
+    word: true
+
+  - trigger: "tx15"
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural sem lung point (achado descritivo)"
+    replace: Ausência de deslizamento pleural (lung sliding) no modo bidimensional, com padrão de linhas horizontais e paralelas (sinal do código de barras/estratosfera) ao modo M, sem lung point identificável.
+    word: true
+
+  - trigger: "tx15c"
+    label: "Tórax (pneumotórax): Ausência de deslizamento pleural sem lung point, diferencial"
+    replace: Ausência de deslizamento pleural sem lung point identificável. Os diagnósticos diferenciais incluem pneumotórax, aderência pleural, pleurodese prévia, apneia ou hipoventilação, intubação seletiva e síndrome do desconforto respiratório agudo, entre outros.
     word: true
 
   # ==============================================================================

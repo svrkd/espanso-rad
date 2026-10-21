@@ -1390,8 +1390,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | tx4c | Tórax (consolidação): Consolidação com broncograma aéreo estático |
 | tx5 | Tórax (consolidação): Consolidação sem broncograma aéreo (achado descritivo) |
 | tx5c | Tórax (consolidação): Consolidação sem broncograma aéreo |
-| tx6 | Tórax (pneumotórax): Ausência de deslizamento pleural (achado descritivo) |
-| tx6c | Tórax (pneumotórax): Ausência de deslizamento pleural |
+| tx6 | Tórax (pneumotórax): Ausência de deslizamento pleural com lung point (achado descritivo) |
+| tx6c | Tórax (pneumotórax): Ausência de deslizamento pleural com lung point |
 | tx7 | Tórax (pneumotórax): Lung point (achado descritivo) |
 | tx7c | Tórax (pneumotórax): Lung point |
 | tx8 | Tórax (massa pleuropulmonar): Massa sólida com contato pleural (achado descritivo) |
@@ -1408,6 +1408,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | tx13c | Tórax (linhas pleurais): Síndrome intersticial, perfil B' |
 | tx14 | Tórax (linhas pleurais): Padrão assimétrico, perfil A/B (achado descritivo) |
 | tx14c | Tórax (linhas pleurais): Padrão assimétrico, perfil A/B |
+| tx15 | Tórax (pneumotórax): Ausência de deslizamento pleural sem lung point (achado descritivo) |
+| tx15c | Tórax (pneumotórax): Ausência de deslizamento pleural sem lung point, diferencial |
 
 ## Crânio / Transfontanela (Neonatal)
 
