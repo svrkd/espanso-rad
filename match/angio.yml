@@ -29,7 +29,7 @@ matches:
 
   - trigger: "tepvdc"
     label: "Conclusão — aumento do ventrículo direito (PE-RADS RV+)"
-    replace: "Aumento do ventrículo direito (VD/VE = _; modificador RV+ do PE-RADS)."
+    replace: "Aumento do ventrículo direito (modificador RV+ do PE-RADS)."
     word: true
 
   - trigger: "tepsela"
@@ -99,7 +99,7 @@ matches:
 
   - trigger: "mavpulmaoc"
     label: "Conclusão — malformação arteriovenosa pulmonar"
-    replace: "Malformação arteriovenosa pulmonar no lobo _ (artéria nutridora de _ cm)."
+    replace: "Malformação arteriovenosa pulmonar no lobo _."
     word: true
 
   - trigger: "pseudopulmonar"
@@ -137,7 +137,7 @@ matches:
 
   - trigger: "aneuascendentec"
     label: "Conclusão — aneurisma da aorta ascendente"
-    replace: "Aneurisma fusiforme da aorta ascendente (_ cm)."
+    replace: "Aneurisma fusiforme da aorta ascendente."
     word: true
 
   - trigger: "aneudescendente"
@@ -147,7 +147,7 @@ matches:
 
   - trigger: "aneudescendentec"
     label: "Conclusão — aneurisma da aorta descendente"
-    replace: "Aneurisma fusiforme da aorta torácica descendente (_ cm), com trombo mural."
+    replace: "Aneurisma fusiforme da aorta torácica descendente, com trombo mural."
     word: true
 
   - trigger: "aortaulcera"
@@ -157,7 +157,7 @@ matches:
 
   - trigger: "aortaulcerac"
     label: "Conclusão — úlcera aterosclerótica penetrante"
-    replace: "Úlcera aterosclerótica penetrante na aorta _ (profundidade de _ cm)."
+    replace: "Úlcera aterosclerótica penetrante na aorta _."
     word: true
 
   - trigger: "flapb"
@@ -265,7 +265,7 @@ matches:
 
   - trigger: "lusoriadiverticuloc"
     label: "Conclusão — subclávia aberrante com Kommerell"
-    replace: "Artéria subclávia direita aberrante (lusória) com divertículo de Kommerell (_ cm)."
+    replace: "Artéria subclávia direita aberrante (lusória) com divertículo de Kommerell."
     word: true
 
   - trigger: "arcodireito"
@@ -455,7 +455,7 @@ matches:
 
   - trigger: "aneusacularc"
     label: "Conclusão — aneurisma sacular intracraniano"
-    replace: "Aneurisma sacular da artéria _ (_ cm; colo de _ cm)."
+    replace: "Aneurisma sacular da artéria _."
     word: true
 
   - trigger: "aneuroto"
@@ -465,7 +465,7 @@ matches:
 
   - trigger: "aneurotoc"
     label: "Conclusão — aneurisma como provável fonte da HSA"
-    replace: "Aneurisma sacular lobulado da artéria _ (_ cm), sugerindo ser a fonte da hemorragia subaracnoide."
+    replace: "Aneurisma sacular lobulado da artéria _, sugerindo ser a fonte da hemorragia subaracnoide."
     word: true
 
   - trigger: "aneugigante"
@@ -475,7 +475,7 @@ matches:
 
   - trigger: "aneugigantec"
     label: "Conclusão — aneurisma gigante parcialmente trombosado"
-    replace: "Aneurisma gigante parcialmente trombosado da artéria _ (_ cm)."
+    replace: "Aneurisma gigante parcialmente trombosado da artéria _."
     word: true
 
   - trigger: "dolicobasilar"
