@@ -1848,12 +1848,12 @@ matches:
 
   - trigger: "quaseoclusao2"
     label: "Quase oclusão carotídea com colapso completo (sinal do barbante)"
-    replace: "Estenose crítica da artéria carótida interna _ junto à origem, com luz residual filiforme, associada a colapso completo da carótida interna distal (sinal do barbante), com diâmetro de _ cm e relação de _ com a carótida interna distal contralateral, compatível com quase oclusão com colapso completo (diâmetro da carótida interna distal ≤ 0,20 cm e/ou relação com a contralateral ≤ 0,42). Na quase oclusão, o percentual de estenose pelo método NASCET não se aplica."
+    replace: "Estenose crítica da artéria carótida interna _ junto à origem, com carótida interna distal pérvia, porém de calibre filiforme (sinal do barbante), com diâmetro de _ cm e relação de _ com a carótida interna distal contralateral, compatível com quase oclusão com colapso completo, termo que designa o calibre filiforme a jusante, e não luz ocluída (diâmetro da carótida interna distal ≤ 0,20 cm e/ou relação com a contralateral ≤ 0,42). Na quase oclusão, o percentual de estenose pelo método NASCET não se aplica."
     word: true
 
   - trigger: "quaseoclusao2c"
     label: "Conclusão — quase oclusão carotídea com colapso completo"
-    replace: "Quase oclusão da artéria carótida interna _, com colapso completo."
+    replace: "Quase oclusão da artéria carótida interna _, com colapso completo (carótida interna distal filiforme)."
     word: true
 
   - trigger: "oclusaocarotida"
