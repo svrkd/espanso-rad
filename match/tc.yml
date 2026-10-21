@@ -2410,6 +2410,42 @@ matches:
     replace: "abaulamento discal simétrico que retifica a face ventral do saco dural e se estende para as bases foraminais, reduzindo suas amplitudes, porém sem conflitos radiculares evidentes."
     word: true
 
+  - trigger: "fraturavert1"
+    label: "Fratura vertebral osteoporótica (Genant, com tabela)"
+    replace: |
+      Fratura por compressão do corpo vertebral de _, com redução de _% da altura _ (anterior; média; ou posterior), traços de fratura nítidos no osso esponjoso, sem destruição cortical, _ (sem; ou com) fenda gasosa intravertebral, sem acometimento do pedículo ou massa de partes moles, achados que favorecem fratura por insuficiência (Genant _).
+
+      Referência (Genant): 1 = redução de 20 a 25% da altura; 2 = 25 a 40%; 3 = superior a 40%.
+    word: true
+
+  - trigger: "fraturavert1c"
+    label: "Conclusão — fratura vertebral por insuficiência"
+    replace: "Fratura por insuficiência do corpo vertebral de _, Genant _."
+    word: true
+
+  - trigger: "fraturavert2"
+    label: "Fratura vertebral com destruição óssea (patológica?)"
+    replace: "Fratura do corpo vertebral de _, com destruição _ (da cortical do corpo vertebral; ou do pedículo _), associada a componente de partes moles _ (paravertebral; ou epidural)."
+    word: true
+
+  - trigger: "fraturavert2c"
+    label: "Conclusão — fratura vertebral patológica?"
+    replace: "Fratura do corpo vertebral de _ com destruição óssea. Admite-se inicialmente a hipótese de fratura patológica. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de fratura por insuficiência."
+    word: true
+
+  - trigger: "densidadel1"
+    label: "Atenuação trabecular de L1 (Pickhardt)"
+    replace: |
+      Atenuação do osso trabecular do corpo vertebral de L1 de _ UH, medida em região de interesse no osso esponjoso, evitando a cortical.
+
+      Referência (Pickhardt et al., 2013): ≤ 160 UH, sensibilidade de 90% para osteoporose; ≤ 110 UH, especificidade superior a 90%.
+    word: true
+
+  - trigger: "densidadel1c"
+    label: "Conclusão — baixa atenuação trabecular vertebral"
+    replace: "Baixa atenuação do osso trabecular vertebral, sugerindo redução da densidade mineral óssea. Correlacionar com densitometria óssea."
+    word: true
+
   # ==========================================================================
   # TÓRAX (PULMÃO, MEDIASTINO, CORAÇÃO, ARCOS COSTAIS)
   # ==========================================================================
@@ -5492,6 +5528,57 @@ matches:
     replace: Lesão expansiva, de aspecto insuflativo, multicameral/multisseptada, medindo _ cm, localizada na metáfise umeral proximal, com espessamento periosteal e ruptura cortical (fratura patológica). Cisto ósseo aneurismático? Lesão de outra natureza? Recomenda-se prosseguir a investigação diagnóstica.
     word: true
 
+  - trigger: "perdaglenoide"
+    label: "Perda óssea glenoidal (círculo de melhor ajuste)"
+    replace: |
+      Perda óssea da borda anteroinferior da glenoide _ (direita; ou esquerda), estimada em _% da largura glenoidal pelo método do círculo de melhor ajuste na reconstrução sagital (vista frontal da glenoide), _ (sem; ou com) fragmento ósseo destacado (Bankart ósseo).
+
+      Referência: perda óssea crítica classicamente entre 20 e 25% da largura glenoidal; perdas a partir de 13,5% (subcríticas) já foram associadas a falha do reparo de partes moles.
+    word: true
+
+  - trigger: "perdaglenoidec"
+    label: "Conclusão — perda óssea glenoidal"
+    replace: "Perda óssea glenoidal anteroinferior _ (à direita; ou à esquerda)."
+    word: true
+
+  - trigger: "walch"
+    label: "Morfologia glenoidal — Walch modificada (com tabela)"
+    replace: |
+      Glenoide _ (direita; ou esquerda) com retroversão de _ graus e subluxação posterior da cabeça umeral de _%, classificada como tipo _ de Walch modificada.
+
+      Referência (Walch modificada): A1 = erosão central discreta, cabeça umeral centrada; A2 = erosão central acentuada, com protrusão da cabeça umeral na glenoide; B1 = redução do espaço articular posterior, esclerose subcondral e osteófitos; B2 = glenoide bicôncava, com erosão posterior; B3 = glenoide monocôncava com desgaste posterior e retroversão > 15° e/ou subluxação posterior > 70%; C1 = glenoide displásica com retroversão > 25°; C2 = glenoide displásica bicôncava, com perda óssea e translação posterior da cabeça umeral; D = anteversão glenoidal ou subluxação anterior da cabeça umeral.
+    word: true
+
+  - trigger: "fraturaescafoide"
+    label: "Fratura do escafoide"
+    replace: "Fratura _ (do polo proximal; da cintura; ou do polo distal) do escafoide _ (direito; ou esquerdo), _ (sem desvio; ou com desvio de _ mm), _ (sem; ou com) sinais de consolidação."
+    word: true
+
+  - trigger: "escafoidepseudo"
+    label: "Pseudoartrose do escafoide"
+    replace: "Ausência de consolidação da fratura _ (da cintura; ou do polo proximal) do escafoide _ (direito; ou esquerdo), com esclerose e reabsorção das bordas do foco e cistos subcondrais, _ (sem; ou com) aumento da atenuação do polo proximal, podendo corresponder a osteonecrose."
+    word: true
+
+  - trigger: "escafoidepseudoc"
+    label: "Conclusão — pseudoartrose do escafoide"
+    replace: "Pseudoartrose do escafoide _ (direito; ou esquerdo)."
+    word: true
+
+  - trigger: "kienbock"
+    label: "Doença de Kienböck"
+    replace: "Aumento da atenuação do semilunar _ (direito; ou esquerdo), _ (sem; ou com) fragmentação e colapso, sugerindo osteonecrose (doença de Kienböck)."
+    word: true
+
+  - trigger: "basepolegar"
+    label: "Rizartrose"
+    replace: "Redução do espaço articular trapeziometacárpico _ (direito; ou esquerdo), com osteófitos marginais, esclerose subcondral e subluxação radial da base do primeiro metacarpo, compatível com osteoartrose (rizartrose)."
+    word: true
+
+  - trigger: "basepolegarc"
+    label: "Conclusão — rizartrose"
+    replace: "Rizartrose _ (à direita; ou à esquerda)."
+    word: true
+
   # ==========================================================================
   # MEMBROS INFERIORES
   # ==========================================================================
@@ -5728,6 +5815,255 @@ matches:
       Espessamento e densificação de pele e tecido subcutâneo do pé sugerindo edema/celulite.
       Ateromatose de vasos do pé.
       Entesófitos plantar e posterior no calcâneo.
+    word: true
+
+  - trigger: "quadrilcame"
+    label: "Morfologia tipo came (ângulo alfa)"
+    replace: |
+      Proeminência óssea na transição cabeça-colo femoral _ (anterossuperior; ou anterior) do quadril _ (direito; ou esquerdo), com ângulo alfa de _ graus, compatível com morfologia tipo came.
+
+      Referência: ângulo alfa ≥ 60° caracteriza morfologia tipo came (revisão sistemática de van Klij et al., 2020).
+    word: true
+
+  - trigger: "quadrilcamec"
+    label: "Conclusão — morfologia tipo came"
+    replace: "Morfologia tipo came no quadril _ (direito; ou esquerdo)."
+    word: true
+
+  - trigger: "quadrilpincer"
+    label: "Morfologia tipo pincer (sobrecobertura acetabular)"
+    replace: |
+      Cobertura acetabular aumentada no quadril _ (direito; ou esquerdo), com ângulo centro-borda lateral de _ graus, _ (sem; ou com) sinal do cruzamento (retroversão acetabular), compatível com morfologia tipo pincer.
+
+      Referência: ângulo centro-borda lateral normal entre 23 e 33° (Tannast et al., 2015).
+    word: true
+
+  - trigger: "quadrilpincerc"
+    label: "Conclusão — morfologia tipo pincer"
+    replace: "Morfologia tipo pincer no quadril _ (direito; ou esquerdo)."
+    word: true
+
+  - trigger: "quadrildisplasia"
+    label: "Displasia acetabular (cobertura reduzida)"
+    replace: |
+      Cobertura acetabular reduzida no quadril _ (direito; ou esquerdo), com ângulo centro-borda lateral de _ graus.
+
+      Referência: ângulo centro-borda lateral < 20° caracteriza displasia acetabular; entre 20 e 25°, limítrofe.
+    word: true
+
+  - trigger: "quadrildisplasiac"
+    label: "Conclusão — displasia acetabular"
+    replace: "Displasia acetabular _ (à direita; ou à esquerda)."
+    word: true
+
+  - trigger: "arconecrose2"
+    label: "Osteonecrose da cabeça femoral — ARCO II"
+    replace: "Área de esclerose de contornos serpiginosos na região subcondral da cabeça femoral _ (direita; ou esquerda), sem fratura subcondral ou achatamento da superfície articular, compatível com osteonecrose (ARCO II)."
+    word: true
+
+  - trigger: "arconecrose3a"
+    label: "Osteonecrose da cabeça femoral — ARCO IIIA"
+    replace: "Área de esclerose de contornos serpiginosos na região subcondral da cabeça femoral _ (direita; ou esquerda), associada a fratura subcondral (sinal do crescente) e depressão da superfície articular de até 2 mm, compatível com osteonecrose com colapso inicial (ARCO IIIA)."
+    word: true
+
+  - trigger: "arconecrose3b"
+    label: "Osteonecrose da cabeça femoral — ARCO IIIB"
+    replace: "Área de esclerose de contornos serpiginosos na região subcondral da cabeça femoral _ (direita; ou esquerda), associada a fratura subcondral e depressão da superfície articular de _ mm (superior a 2 mm), compatível com osteonecrose com colapso (ARCO IIIB)."
+    word: true
+
+  - trigger: "arconecrose4"
+    label: "Osteonecrose da cabeça femoral — ARCO IV"
+    replace: "Osteonecrose da cabeça femoral _ (direita; ou esquerda) com colapso e deformidade da superfície articular, associada a redução do espaço articular e alterações degenerativas acetabulares (ARCO IV)."
+    word: true
+
+  - trigger: "arconecrosec"
+    label: "Conclusão — osteonecrose da cabeça femoral (ARCO)"
+    replace: "Osteonecrose da cabeça femoral _ (direita; ou esquerda), ARCO _ (II; IIIA; IIIB; ou IV)."
+    word: true
+
+  - trigger: "brooker"
+    label: "Ossificação heterotópica — Brooker (com tabela)"
+    replace: |
+      Ossificação heterotópica periarticular no quadril _ (direito; ou esquerdo), classe _ de Brooker.
+
+      Referência (Brooker et al., 1973): I = ilhas ósseas nas partes moles periarticulares; II = esporões ósseos da pelve ou do fêmur proximal, com distância de pelo menos 1 cm entre as superfícies ósseas opostas; III = esporões com distância inferior a 1 cm; IV = aparente anquilose óssea do quadril.
+    word: true
+
+  - trigger: "fraturasacral"
+    label: "Fratura sacral por insuficiência"
+    replace: "Traços de fratura verticais com esclerose marginal na asa sacral _ (direita; esquerda; ou em ambas), paralelos às articulações sacroilíacas, _ (sem; ou com) componente transverso no corpo sacral (padrão em H), achados que sugerem fratura sacral por insuficiência."
+    word: true
+
+  - trigger: "fraturasacralc"
+    label: "Conclusão — fratura sacral por insuficiência"
+    replace: "Fratura sacral por insuficiência _ (à direita; à esquerda; ou bilateral)."
+    word: true
+
+  - trigger: "fraturacolo"
+    label: "Fratura do colo femoral — Garden (com tabela)"
+    replace: |
+      Fratura _ (subcapital; transcervical; ou basicervical) do colo femoral _ (direito; ou esquerdo), Garden _.
+
+      Referência (Garden): I = incompleta ou impactada em valgo; II = completa, sem desvio; III = completa, com desvio parcial (cabeça femoral em varo); IV = completa, com desvio total.
+    word: true
+
+  - trigger: "fraturatrocanter"
+    label: "Fratura transtrocanteriana"
+    replace: "Fratura _ (transtrocanteriana; ou subtrocanteriana) do fêmur _ (direito; ou esquerdo), _ (sem; ou com) destacamento do trocânter menor e _ (sem; ou com) cominução da parede lateral."
+    word: true
+
+  - trigger: "apc1"
+    label: "Anel pélvico — Young-Burgess APC I"
+    replace: "Diástase da sínfise púbica de _ cm (inferior a 2,5 cm), sem alargamento das articulações sacroilíacas, compatível com lesão por compressão anteroposterior (Young-Burgess APC I)."
+    word: true
+
+  - trigger: "apc2"
+    label: "Anel pélvico — Young-Burgess APC II"
+    replace: "Diástase da sínfise púbica de _ cm (superior a 2,5 cm), associada a alargamento da porção anterior da articulação sacroilíaca _ (direita; esquerda; ou bilateral), com porção posterior preservada, compatível com lesão por compressão anteroposterior (Young-Burgess APC II)."
+    word: true
+
+  - trigger: "apc3"
+    label: "Anel pélvico — Young-Burgess APC III"
+    replace: "Diástase da sínfise púbica de _ cm (superior a 2,5 cm), associada a disjunção completa, anterior e posterior, da articulação sacroilíaca _ (direita; esquerda; ou bilateral), sem deslocamento vertical, compatível com lesão por compressão anteroposterior (Young-Burgess APC III)."
+    word: true
+
+  - trigger: "lc1"
+    label: "Anel pélvico — Young-Burgess LC I"
+    replace: "Fratura _ (oblíqua; ou horizontal) dos ramos púbicos _ (direitos; ou esquerdos), associada a fratura por impactação da asa sacral ipsilateral, compatível com lesão por compressão lateral (Young-Burgess LC I)."
+    word: true
+
+  - trigger: "lc2"
+    label: "Anel pélvico — Young-Burgess LC II"
+    replace: "Fratura dos ramos púbicos _ (direitos; ou esquerdos), associada a fratura da porção posterior da asa ilíaca ipsilateral (fratura em crescente), compatível com lesão por compressão lateral (Young-Burgess LC II)."
+    word: true
+
+  - trigger: "lc3"
+    label: "Anel pélvico — Young-Burgess LC III"
+    replace: "Lesão por compressão lateral à _ (direita; ou esquerda), associada a lesão por compressão anteroposterior contralateral, compatível com lesão por compressão lateral (Young-Burgess LC III)."
+    word: true
+
+  - trigger: "cisalhamentovertical"
+    label: "Anel pélvico — cisalhamento vertical"
+    replace: "Deslocamento cranial da hemipelve _ (direita; ou esquerda), com fraturas dos ramos púbicos e disjunção da articulação sacroilíaca ipsilateral, compatível com lesão por cisalhamento vertical (Young-Burgess)."
+    word: true
+
+  - trigger: "anelpelvicoc"
+    label: "Conclusão — fratura do anel pélvico (Young-Burgess)"
+    replace: "Lesão do anel pélvico, Young-Burgess _ (APC I; APC II; APC III; LC I; LC II; LC III; cisalhamento vertical; ou mecanismo combinado)."
+    word: true
+
+  - trigger: "schatzker"
+    label: "Fratura do planalto tibial — Schatzker (com tabela)"
+    replace: |
+      Fratura do planalto tibial _ (direito; ou esquerdo), Schatzker _, com depressão da superfície articular de _ mm.
+
+      Referência (Schatzker): I = cisalhamento do planalto lateral; II = cisalhamento com depressão do planalto lateral; III = depressão pura do planalto lateral; IV = fratura do planalto medial; V = fratura bicondilar; VI = fratura do planalto com dissociação metafisodiafisária.
+    word: true
+
+  - trigger: "schatzkerc"
+    label: "Conclusão — fratura do planalto tibial"
+    replace: "Fratura do planalto tibial _ (direito; ou esquerdo), Schatzker _."
+    word: true
+
+  - trigger: "tagt"
+    label: "Distância TA-GT"
+    replace: |
+      Distância entre a tuberosidade anterior da tíbia e a garganta troclear (TA-GT) de _ mm à _ (direita; ou esquerda).
+
+      Referência: < 15 mm normal; 15 a 20 mm limítrofe; > 20 mm aumentada (Dejour et al., 1994: ≥ 20 mm patológica).
+    word: true
+
+  - trigger: "patelaalta"
+    label: "Altura patelar — Caton-Deschamps"
+    replace: |
+      Índice de Caton-Deschamps de _ à _ (direita; ou esquerda).
+
+      Referência: patela alta ≥ 1,2 (Dejour et al., 1994; alguns autores adotam > 1,3); patela baixa < 0,6.
+    word: true
+
+  - trigger: "displasiatroclear"
+    label: "Displasia troclear — Dejour (com tabela)"
+    replace: |
+      Displasia troclear _ (direita; ou esquerda), tipo _ de Dejour.
+
+      Referência (Dejour): A = tróclea rasa, com morfologia preservada; B = tróclea plana ou convexa, com esporão supratroclear; C = assimetria das facetas, com faceta lateral convexa e faceta medial hipoplásica; D = assimetria das facetas com degrau vertical entre elas e esporão supratroclear.
+    word: true
+
+  - trigger: "patelainclinada"
+    label: "Inclinação patelar"
+    replace: |
+      Inclinação patelar de _ graus à _ (direita; ou esquerda), em extensão e com o quadríceps relaxado.
+
+      Referência: inclinação patelar > 20° patológica (Dejour et al., 1994).
+    word: true
+
+  - trigger: "sanders"
+    label: "Fratura do calcâneo — Sanders (com tabela)"
+    replace: |
+      Fratura intra-articular do calcâneo _ (direito; ou esquerdo), com _ traço(s) através da faceta articular posterior, Sanders _. Ângulo de Böhler de _ graus e ângulo de Gissane de _ graus.
+
+      Referência (Sanders, plano coronal no ponto mais largo da faceta posterior): I = sem desvio, independentemente do número de traços; II = dois fragmentos (IIA, IIB ou IIC, conforme o traço seja lateral, central ou medial); III = três fragmentos (IIIAB, IIIAC ou IIIBC); IV = cominutiva. Ângulo de Böhler: 20 a 40°. Ângulo de Gissane: 120 a 145°.
+    word: true
+
+  - trigger: "sandersc"
+    label: "Conclusão — fratura do calcâneo"
+    replace: "Fratura intra-articular do calcâneo _ (direito; ou esquerdo), Sanders _."
+    word: true
+
+  - trigger: "hawkins"
+    label: "Fratura do colo do tálus — Hawkins (com tabela)"
+    replace: |
+      Fratura do colo do tálus _ (direito; ou esquerdo), Hawkins _.
+
+      Referência (Hawkins, com tipo IV de Canale e Kelly): I = sem desvio; II = com luxação subtalar; III = com luxação subtalar e tibiotalar; IV = com luxação subtalar, tibiotalar e talonavicular.
+    word: true
+
+  - trigger: "lisfranc1"
+    label: "Lesão de Lisfranc"
+    replace: "Diástase entre a base do segundo metatarso e o cuneiforme medial do pé _ (direito; ou esquerdo), de _ mm (superior a 2 mm), _ (sem; ou com) fragmento ósseo avulsionado junto à base do segundo metatarso (sinal de fleck), associada a desalinhamento das articulações tarsometatársicas _ (do segundo raio; ou do segundo ao quinto raios), achados compatíveis com lesão de Lisfranc."
+    word: true
+
+  - trigger: "lisfranc1c"
+    label: "Conclusão — lesão de Lisfranc"
+    replace: "Lesão de Lisfranc _ (à direita; ou à esquerda)."
+    word: true
+
+  - trigger: "coalizaoossea"
+    label: "Coalizão tarsal óssea"
+    replace: "Ponte óssea contínua entre _ (o calcâneo e o navicular; ou o tálus e o calcâneo, na faceta média) do pé _ (direito; ou esquerdo), compatível com coalizão _ (calcaneonavicular; ou talocalcaneana) óssea."
+    word: true
+
+  - trigger: "coalizaofibrosa"
+    label: "Coalizão tarsal não óssea"
+    replace: "Estreitamento e irregularidade da articulação _ (calcaneonavicular; ou talocalcaneana, na faceta média) do pé _ (direito; ou esquerdo), com esclerose e cistos subcondrais nas superfícies ósseas opostas, sugerindo coalizão não óssea (fibrosa ou cartilaginosa)."
+    word: true
+
+  - trigger: "coalizaoc"
+    label: "Conclusão — coalizão tarsal"
+    replace: "Coalizão _ (calcaneonavicular; ou talocalcaneana) _ (óssea; ou não óssea) _ (à direita; ou à esquerda)."
+    word: true
+
+  - trigger: "naviacessorio"
+    label: "Navicular acessório — Geist (com tabela)"
+    replace: |
+      Navicular acessório no pé _ (direito; ou esquerdo), tipo _ de Geist.
+
+      Referência (Geist): I = ossículo pequeno no tendão tibial posterior, sem conexão com a tuberosidade do navicular; II = ossículo maior, triangular, unido à tuberosidade por sincondrose; III = tuberosidade proeminente (navicular cornuto), por fusão do ossículo.
+    word: true
+
+  - trigger: "ostrigono"
+    label: "Os trigonum"
+    replace: "Ossículo acessório posterior ao processo lateral do tálus _ (direito; ou esquerdo), de contornos corticais regulares (os trigonum)."
+    word: true
+
+  - trigger: "charcotpe"
+    label: "Neuroartropatia de Charcot"
+    replace: "Desorganização das articulações _ (tarsometatársicas; ou mediotársicas) do pé _ (direito; ou esquerdo), com fragmentação, esclerose, subluxações e fragmentos ósseos periarticulares, achados compatíveis com neuroartropatia de Charcot."
+    word: true
+
+  - trigger: "charcotpec"
+    label: "Conclusão — neuroartropatia de Charcot"
+    replace: "Neuroartropatia de Charcot no pé _ (direito; ou esquerdo)."
     word: true
 
   # ==========================================================================
@@ -10094,6 +10430,78 @@ matches:
       Exame dentro dos padrões da normalidade.
     word: true
 
+  - trigger: "tcmao"
+    label: "TC de mão S/C — normal"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DA MÃO DIREITA/ESQUERDA S/C
+
+      Técnica:
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
+
+      Descrição:
+      Estruturas ósseas de formato habitual, sem sinais de fraturas.
+      Espaços articulares de contornos regulares.
+      Não há sinais de derrame articular.
+      Planos musculares e tendíneos sem alterações tomográficas.
+
+      Conclusão:
+      Exame dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "tcantebraco"
+    label: "TC de antebraço S/C — normal"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DO ANTEBRAÇO DIREITO/ESQUERDO S/C
+
+      Técnica:
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
+
+      Descrição:
+      Estruturas ósseas de formato habitual, sem sinais de fraturas.
+      Espaços articulares de contornos regulares.
+      Não há sinais de derrame articular.
+      Planos musculares e tendíneos sem alterações tomográficas.
+
+      Conclusão:
+      Exame dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "tcumero"
+    label: "TC de braço (úmero) S/C — normal"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DO BRAÇO DIREITO/ESQUERDO S/C
+
+      Técnica:
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
+
+      Descrição:
+      Estruturas ósseas de formato habitual, sem sinais de fraturas.
+      Espaços articulares de contornos regulares.
+      Não há sinais de derrame articular.
+      Planos musculares e tendíneos sem alterações tomográficas.
+
+      Conclusão:
+      Exame dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "tcesterno"
+    label: "TC de esterno e esternoclaviculares S/C — normal"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DO ESTERNO E ARTICULAÇÕES ESTERNOCLAVICULARES S/C
+
+      Técnica:
+      Foram obtidas imagens por aquisição volumétrica multislice, sem a administração endovenosa de contraste, com reformatações multiplanares.
+
+      Descrição:
+      Estruturas ósseas de formato habitual, sem sinais de fraturas.
+      Espaços articulares de contornos regulares.
+      Não há sinais de derrame articular.
+      Planos musculares e tendíneos sem alterações tomográficas.
+
+      Conclusão:
+      Exame dentro dos padrões da normalidade.
+    word: true
+
   # ==========================================================================
   # GERAIS / DIVERSOS
   # ==========================================================================
@@ -12729,4 +13137,435 @@ matches:
   - trigger: "lireg"
     label: "Linfonodos regionais aumentados (reacionais)"
     replace: "Aumento do número de linfonodos regionais, sem caracterizar linfonodomegalias."
+    word: true
+
+  - trigger: "litica1"
+    label: "Lesão lítica de aspecto não agressivo"
+    replace: "Lesão lítica _ (central; excêntrica; ou cortical) na _ (epífise; metáfise; ou diáfise) do _ (osso, com o lado), medindo _ cm, de limites bem definidos, com margens escleróticas e zona de transição estreita, sem rotura cortical, reação periosteal ou componente de partes moles."
+    word: true
+
+  - trigger: "litica1c"
+    label: "Conclusão — lesão lítica não agressiva"
+    replace: "Lesão lítica de aspecto não agressivo no _ (osso, com o lado)."
+    word: true
+
+  - trigger: "litica2"
+    label: "Lesão lítica de aspecto agressivo"
+    replace: "Lesão lítica de limites mal definidos no _ (osso, com o lado), com padrão _ (permeativo; ou roído de traça) e zona de transição ampla, medindo cerca de _ cm, associada a _ (adelgaçamento; ou rotura) da cortical."
+    word: true
+
+  - trigger: "litica2c"
+    label: "Conclusão — lesão lítica agressiva"
+    replace: "Lesão lítica de aspecto agressivo no _ (osso, com o lado). Admite-se inicialmente a hipótese de lesão neoplásica, primária ou secundária. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de osteomielite."
+    word: true
+
+  - trigger: "periosteo1"
+    label: "Reação periosteal de aspecto não agressivo"
+    replace: "Associa-se reação periosteal _ (sólida; ou lamelada contínua), de aspecto não agressivo."
+    word: true
+
+  - trigger: "periosteo2"
+    label: "Reação periosteal de aspecto agressivo"
+    replace: "Associa-se reação periosteal de aspecto agressivo, _ (lamelada interrompida; espiculada; ou em triângulo de Codman)."
+    word: true
+
+  - trigger: "massaextraossea"
+    label: "Componente de partes moles extraósseo"
+    replace: "Associa-se componente de partes moles extraósseo, medindo _ cm, _ (sem; ou com) contato com o feixe neurovascular adjacente."
+    word: true
+
+  - trigger: "fraturapatologica"
+    label: "Fratura patológica através de lesão óssea"
+    replace: "Traço de fratura atravessando a lesão descrita no _ (osso, com o lado), compatível com fratura patológica."
+    word: true
+
+  - trigger: "fraturapatologicac"
+    label: "Conclusão — fratura patológica"
+    replace: "Fratura patológica no _ (osso, com o lado)."
+    word: true
+
+  - trigger: "ilhotaossea"
+    label: "Ilhota óssea (enostose) com atenuação medida"
+    replace: "Foco esclerótico homogêneo no _ (osso, com o lado), medindo _ cm, de margens espiculadas que se mesclam às trabéculas adjacentes, com atenuação média de _ UH, achados compatíveis com ilhota óssea (enostose)."
+    word: true
+
+  - trigger: "blastica"
+    label: "Lesão esclerótica indeterminada (critério de Ulano)"
+    replace: |
+      Lesão esclerótica no _ (osso, com o lado), medindo _ cm, de margens _ (bem definidas; ou mal definidas), com atenuação média de _ UH e máxima de _ UH, valores abaixo dos limiares que favorecem ilhota óssea, não podendo ser afastada lesão secundária (implante blástico).
+
+      Referência (Ulano et al., AJR 2016): em lesão esclerótica não tratada, atenuação média < 885 UH ou máxima < 1060 UH favorece metástase em relação a ilhota óssea (sensibilidade de 95% e especificidade de 96%).
+    word: true
+
+  - trigger: "metastaseossea"
+    label: "Lesões ósseas secundárias múltiplas"
+    replace: "Múltiplas lesões _ (líticas; escleróticas; ou mistas) esparsas pelo esqueleto incluído no estudo, a maior no _ (osso, com o lado), medindo _ cm, sugerindo implantes secundários."
+    word: true
+
+  - trigger: "metastaseosseac"
+    label: "Conclusão — lesões ósseas secundárias"
+    replace: "Lesões ósseas _ (líticas; escleróticas; ou mistas) múltiplas, sugerindo implantes secundários."
+    word: true
+
+  - trigger: "sacabocado"
+    label: "Lesões líticas em saca-bocado (mieloma?)"
+    replace: "Múltiplas lesões líticas de limites bem definidos, sem margem esclerótica (aspecto em saca-bocado), esparsas pelo esqueleto incluído no estudo, a maior no _ (osso, com o lado), medindo _ cm."
+    word: true
+
+  - trigger: "sacabocadoc"
+    label: "Conclusão — lesões em saca-bocado"
+    replace: "Múltiplas lesões líticas em saca-bocado. Admite-se inicialmente a hipótese de mieloma múltiplo. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de metástases líticas."
+    word: true
+
+  - trigger: "condroide1"
+    label: "Lesão de matriz condroide sem agressividade"
+    replace: "Lesão medular central com matriz condroide (calcificações em anéis e arcos) na _ (metáfise; ou diáfise) do _ (osso, com o lado), medindo _ cm, sem erosão endosteal profunda, rotura cortical, reação periosteal ou componente de partes moles."
+    word: true
+
+  - trigger: "condroide1c"
+    label: "Conclusão — lesão condroide, favorece encondroma"
+    replace: "Lesão de matriz condroide sem sinais de agressividade no _ (osso, com o lado), favorecendo encondroma."
+    word: true
+
+  - trigger: "condroide2"
+    label: "Lesão de matriz condroide com sinais de agressividade"
+    replace: "Lesão medular com matriz condroide (calcificações em anéis e arcos) no _ (osso, com o lado), medindo _ cm, associada a erosão endosteal profunda, superior a dois terços da espessura da cortical, bem como _ (espessamento cortical; rotura cortical; reação periosteal; ou componente de partes moles)."
+    word: true
+
+  - trigger: "condroide2c"
+    label: "Conclusão — lesão condroide (condrossarcoma?)"
+    replace: "Lesão de matriz condroide com sinais de agressividade no _ (osso, com o lado). Admite-se inicialmente a hipótese de condrossarcoma. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos, não sendo possível afastar de forma inequívoca a possibilidade de encondroma."
+    word: true
+
+  - trigger: "displasiafibrosa"
+    label: "Displasia fibrosa (matriz em vidro fosco)"
+    replace: "Lesão medular expansiva no _ (osso, com o lado), medindo _ cm, com matriz em vidro fosco, margens bem definidas e cortical afilada, porém íntegra, sem reação periosteal, achados que sugerem displasia fibrosa."
+    word: true
+
+  - trigger: "displasiafibrosac"
+    label: "Conclusão — displasia fibrosa"
+    replace: "Lesão com matriz em vidro fosco no _ (osso, com o lado), sugerindo displasia fibrosa."
+    word: true
+
+  - trigger: "cistounicameral"
+    label: "Cisto ósseo simples"
+    replace: "Lesão lítica central na _ (metáfise; ou diáfise) do _ (osso, com o lado), medindo _ cm, com conteúdo de atenuação líquida, margens escleróticas finas e afilamento cortical, sem matriz mineralizada, achados que sugerem cisto ósseo simples."
+    word: true
+
+  - trigger: "fragmentocaido"
+    label: "Sinal do fragmento caído"
+    replace: "Associa-se fratura com fragmento cortical depositado na porção pendente da lesão (sinal do fragmento caído)."
+    word: true
+
+  - trigger: "cistounicameralc"
+    label: "Conclusão — cisto ósseo simples"
+    replace: "Lesão lítica no _ (osso, com o lado), sugerindo cisto ósseo simples."
+    word: true
+
+  - trigger: "naoossificante"
+    label: "Fibroma não ossificante"
+    replace: "Lesão lítica excêntrica de base cortical na metáfise _ (proximal; ou distal) do _ (osso, com o lado), medindo _ cm, de contornos lobulados e margens escleróticas, sem reação periosteal ou componente de partes moles, achados compatíveis com fibroma não ossificante."
+    word: true
+
+  - trigger: "naoossificantec"
+    label: "Conclusão — fibroma não ossificante"
+    replace: "Fibroma não ossificante no _ (osso, com o lado)."
+    word: true
+
+  - trigger: "osteomaosteoide"
+    label: "Osteoma osteoide (nicho)"
+    replace: "Foco radiotransparente arredondado (nicho) _ (cortical; medular; ou subperiosteal) no _ (osso, com o lado), medindo _ cm, com ponto central mineralizado, circundado por esclerose reacional e espessamento cortical, achados que sugerem osteoma osteoide."
+    word: true
+
+  - trigger: "osteomaosteoidec"
+    label: "Conclusão — osteoma osteoide"
+    replace: "Lesão no _ (osso, com o lado), sugerindo osteoma osteoide."
+    word: true
+
+  - trigger: "celulasgigantes"
+    label: "Lesão lítica epifisometafisária (tumor de células gigantes?)"
+    replace: "Lesão lítica excêntrica epifisometafisária no _ (osso, com o lado), estendendo-se ao osso subcondral, medindo _ cm, de limites bem definidos, sem margem esclerótica e sem matriz mineralizada, com afilamento cortical _ (sem; ou com) rotura."
+    word: true
+
+  - trigger: "celulasgigantesc"
+    label: "Conclusão — tumor de células gigantes?"
+    replace: "Lesão lítica epifisometafisária no _ (osso, com o lado). Admite-se inicialmente a hipótese de tumor de células gigantes. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de lesão de outra natureza, como metástase lítica ou tumor marrom."
+    word: true
+
+  - trigger: "infartoosseo"
+    label: "Infarto ósseo"
+    replace: "Área medular de contornos serpiginosos e escleróticos no _ (osso, com o lado), medindo _ cm, sem efeito expansivo, erosão endosteal ou reação periosteal, achados compatíveis com infarto ósseo."
+    word: true
+
+  - trigger: "infartoosseoc"
+    label: "Conclusão — infarto ósseo"
+    replace: "Infarto ósseo no _ (osso, com o lado)."
+    word: true
+
+  - trigger: "pagetosseo"
+    label: "Doença de Paget (osso acometido)"
+    replace: "Espessamento cortical e trabecular grosseiro do _ (osso, com o lado), com aumento volumétrico do osso e alternância de áreas líticas e escleróticas, achados que sugerem doença de Paget."
+    word: true
+
+  - trigger: "pagetosseoc"
+    label: "Conclusão — doença de Paget"
+    replace: "Alterações ósseas no _ (osso, com o lado), sugerindo doença de Paget."
+    word: true
+
+  - trigger: "osteomielitesuspeita"
+    label: "Alterações ósseas e de partes moles (osteomielite?)"
+    replace: "Rarefação óssea com erosão cortical mal definida no _ (osso, com o lado), associada a reação periosteal e densificação das partes moles adjacentes."
+    word: true
+
+  - trigger: "osteomielitesuspeitac"
+    label: "Conclusão — osteomielite?"
+    replace: "Alterações ósseas e de partes moles no _ (osso, com o lado). Admite-se inicialmente a hipótese de osteomielite. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de lesão neoplásica."
+    word: true
+
+  - trigger: "sequestroosseo"
+    label: "Sequestro ósseo"
+    replace: "Associa-se fragmento ósseo hiperatenuante isolado no interior da cavidade medular, envolto por halo hipoatenuante, compatível com sequestro ósseo."
+    word: true
+
+  - trigger: "cloacaossea"
+    label: "Cloaca (trajeto cortical de drenagem)"
+    replace: "Associa-se falha cortical comunicando a cavidade medular com as partes moles adjacentes (cloaca)."
+    word: true
+
+  - trigger: "abscessobrodie"
+    label: "Abscesso intraósseo (Brodie)"
+    replace: "Lesão lítica alongada na _ (metáfise; ou diáfise) do _ (osso, com o lado), medindo _ cm, com halo esclerótico reacional espesso, podendo corresponder a abscesso intraósseo (abscesso de Brodie)."
+    word: true
+
+  - trigger: "artriteinfecciosa"
+    label: "Derrame articular com sinovite (artrite séptica?)"
+    replace: "Derrame articular no _ (articulação, com o lado), com espessamento e realce sinovial, associado a erosões ósseas subcondrais e densificação das partes moles periarticulares."
+    word: true
+
+  - trigger: "artriteinfecciosac"
+    label: "Conclusão — artrite séptica não afastada"
+    replace: "Derrame articular com sinovite no _ (articulação, com o lado), não podendo ser afastada artrite séptica. Correlacionar com análise do líquido articular."
+    word: true
+
+  - trigger: "abscessomuscular"
+    label: "Abscesso muscular (piomiosite)"
+    replace: "Coleção hipoatenuante com realce periférico pelo meio de contraste no músculo _ (com o lado), medindo _ x _ x _ cm (volume estimado de _ cm³), sugerindo abscesso."
+    word: true
+
+  - trigger: "abscessomuscularc"
+    label: "Conclusão — abscesso muscular"
+    replace: "Coleção no músculo _ (com o lado), sugerindo abscesso (piomiosite)."
+    word: true
+
+  - trigger: "fasciitenecrosante"
+    label: "Gás e líquido nos planos fasciais (fasciíte necrosante?)"
+    replace: "Gás dissecando os planos fasciais profundos do _ (segmento, com o lado), associado a espessamento das fáscias e coleções líquidas interfasciais."
+    word: true
+
+  - trigger: "fasciitenecrosantec"
+    label: "Conclusão — fasciíte necrosante não afastada"
+    replace: "Gás e líquido nos planos fasciais profundos do _ (segmento, com o lado), não podendo ser afastada fasciíte necrosante."
+    word: true
+
+  - trigger: "corpoestranho"
+    label: "Corpo estranho em partes moles"
+    replace: "Corpo estranho _ (metálico; ou hiperatenuante) no _ (tecido subcutâneo; ou plano muscular) da região _, medindo _ cm, distando _ cm da superfície cutânea."
+    word: true
+
+  - trigger: "corpoestranhoc"
+    label: "Conclusão — corpo estranho"
+    replace: "Corpo estranho _ (metálico; ou hiperatenuante) na região _."
+    word: true
+
+  - trigger: "lipomasimples"
+    label: "Lipoma"
+    replace: "Lesão homogênea com atenuação de gordura no _ (tecido subcutâneo; ou músculo) da região _, medindo _ cm, com septos finos ou sem septos, sem componente nodular, achados compatíveis com lipoma."
+    word: true
+
+  - trigger: "lipomasimplesc"
+    label: "Conclusão — lipoma"
+    replace: "Lipoma na região _."
+    word: true
+
+  - trigger: "lipomaatipico"
+    label: "Lesão gordurosa com septos espessos (tumor lipomatoso atípico?)"
+    replace: "Lesão predominantemente gordurosa no _ (tecido subcutâneo; ou músculo) da região _, medindo _ cm, com septos espessos (superiores a 2 mm) e áreas nodulares com atenuação de partes moles de permeio."
+    word: true
+
+  - trigger: "lipomaatipicoc"
+    label: "Conclusão — tumor lipomatoso atípico?"
+    replace: "Lesão predominantemente gordurosa com septos espessos e componente nodular na região _. Admite-se inicialmente a hipótese de tumor lipomatoso atípico (lipossarcoma bem diferenciado). Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos, não sendo possível afastar de forma inequívoca a possibilidade de lipoma com alterações regressivas."
+    word: true
+
+  - trigger: "massamole"
+    label: "Formação expansiva de partes moles indeterminada"
+    replace: "Formação expansiva com atenuação de partes moles no _ (tecido subcutâneo; ou músculo) da região _, medindo _ cm, de contornos _ (regulares; ou lobulados), _ (sem; ou com) realce pelo meio de contraste, _ (sem; ou com) calcificações, sem erosão óssea adjacente."
+    word: true
+
+  - trigger: "massamolec"
+    label: "Conclusão — formação de partes moles indeterminada"
+    replace: "Formação expansiva de partes moles indeterminada ao método na região _. Recomenda-se complementação com ressonância magnética."
+    word: true
+
+  - trigger: "hematomamuscular"
+    label: "Hematoma muscular"
+    replace: "Aumento volumétrico do músculo _ (com o lado), com coleção _ (hiperatenuante; ou heterogênea, com nível líquido-líquido), medindo _ cm, sugerindo hematoma."
+    word: true
+
+  - trigger: "hematomamuscularc"
+    label: "Conclusão — hematoma muscular"
+    replace: "Hematoma no músculo _ (com o lado)."
+    word: true
+
+  - trigger: "morellavallee"
+    label: "Lesão de Morel-Lavallée"
+    replace: "Coleção fusiforme _ (líquida; ou com nível líquido-gorduroso) entre o tecido subcutâneo e a fáscia muscular na região _, medindo _ cm, sugerindo lesão de desenluvamento fechado (Morel-Lavallée)."
+    word: true
+
+  - trigger: "morellavalleec"
+    label: "Conclusão — lesão de Morel-Lavallée"
+    replace: "Coleção entre o tecido subcutâneo e a fáscia muscular na região _, sugerindo lesão de Morel-Lavallée."
+    word: true
+
+  - trigger: "miositeossificante"
+    label: "Miosite ossificante (mineralização zonal)"
+    replace: "Formação com mineralização periférica e centro menos mineralizado (padrão zonal) no músculo _ (com o lado), medindo _ cm, separada da cortical adjacente por plano hipoatenuante, achados que sugerem miosite ossificante."
+    word: true
+
+  - trigger: "miositeossificantec"
+    label: "Conclusão — miosite ossificante"
+    replace: "Lesão com mineralização zonal no músculo _ (com o lado), sugerindo miosite ossificante."
+    word: true
+
+  - trigger: "goutallier"
+    label: "Lipossubstituição muscular — Goutallier (com tabela)"
+    replace: |
+      Lipossubstituição do ventre muscular do _ (supraespinhal; infraespinhal; subescapular; ou redondo menor), grau _ de Goutallier.
+
+      Referência (Goutallier et al., 1994): 0 = músculo normal; 1 = algumas estrias de gordura; 2 = infiltração gordurosa evidente, com mais músculo que gordura; 3 = quantidades equivalentes de músculo e gordura; 4 = mais gordura que músculo.
+    word: true
+
+  - trigger: "fraturaaguda"
+    label: "Fratura de aspecto agudo"
+    replace: "Fratura _ (transversa; oblíqua; espiral; ou cominutiva) da _ (epífise; metáfise; ou diáfise) _ (proximal; ou distal) do _ (osso, com o lado), de bordas agudas, sem sinais de consolidação, _ (sem desvio significativo; ou com desvio de _ cm do fragmento distal)."
+    word: true
+
+  - trigger: "extensaoarticular"
+    label: "Extensão articular do traço com degrau"
+    replace: "O traço de fratura estende-se à superfície articular _ (articulação), com degrau articular de _ mm."
+    word: true
+
+  - trigger: "fraturaconsolidada"
+    label: "Fratura consolidada"
+    replace: "Fratura consolidada do _ (osso, com o lado), com calo ósseo maduro, _ (sem; ou com) deformidade residual."
+    word: true
+
+  - trigger: "fraturaconsolidando"
+    label: "Fratura em consolidação"
+    replace: "Fratura do _ (osso, com o lado) em consolidação, com calo ósseo periosteal em formação e traço de fratura ainda identificável."
+    word: true
+
+  - trigger: "naoconsolidada"
+    label: "Fratura não consolidada (pseudoartrose?)"
+    replace: "Ausência de ponte óssea através do foco de fratura do _ (osso, com o lado), com esclerose e arredondamento das extremidades dos fragmentos, sugerindo pseudoartrose."
+    word: true
+
+  - trigger: "naoconsolidadac"
+    label: "Conclusão — fratura não consolidada"
+    replace: "Fratura não consolidada do _ (osso, com o lado), sugerindo pseudoartrose."
+    word: true
+
+  - trigger: "fraturaestresse"
+    label: "Fratura por estresse ou insuficiência"
+    replace: "Banda esclerótica linear perpendicular ao eixo das trabéculas no _ (osso, com o lado), associada a discreta reação periosteal, _ (sem; ou com) traço de fratura cortical, achados que sugerem fratura _ (por estresse; ou por insuficiência)."
+    word: true
+
+  - trigger: "fraturaestressec"
+    label: "Conclusão — fratura por estresse ou insuficiência"
+    replace: "Fratura _ (por estresse; ou por insuficiência) no _ (osso, com o lado)."
+    word: true
+
+  - trigger: "fraturaoculta"
+    label: "Sem fratura identificável (RM se persistir suspeita)"
+    replace: "Ausência de traço de fratura identificável ao método. Na persistência da suspeita clínica, a ressonância magnética é mais sensível para fratura oculta."
+    word: true
+
+  - trigger: "nivelgorduroso"
+    label: "Lipo-hemartrose (nível líquido-gorduroso)"
+    replace: "Derrame articular com nível líquido-gorduroso (lipo-hemartrose), sugerindo fratura intra-articular."
+    word: true
+
+  - trigger: "corpolivre"
+    label: "Corpo livre intra-articular"
+    replace: "Fragmento ósseo livre no _ (articulação, com o lado), medindo _ cm, situado no _ (recesso ou compartimento), podendo corresponder a corpo livre intra-articular."
+    word: true
+
+  - trigger: "avulsao"
+    label: "Fratura-avulsão"
+    replace: "Pequeno fragmento ósseo destacado junto à inserção do _ (tendão ou ligamento) no _ (osso, com o lado), sugerindo fratura-avulsão."
+    word: true
+
+  - trigger: "proteseok"
+    label: "Artroplastia sem sinais de complicação"
+    replace: "Artroplastia _ (total; ou parcial) do _ (articulação, com o lado), com componentes em posição habitual, sem halos radiotransparentes periprotéticos, osteólise ou fraturas periprotéticas."
+    word: true
+
+  - trigger: "halosoltura"
+    label: "Halo periprotético > 2 mm (soltura?)"
+    replace: "Halo radiotransparente na interface _ (osso-cimento; ou osso-implante) do componente _ (femoral; acetabular; tibial; umeral; ou glenoidal), com espessura superior a 2 mm, _ (focal; ou circunferencial), podendo corresponder a soltura."
+    word: true
+
+  - trigger: "halosolturac"
+    label: "Conclusão — soltura?"
+    replace: "Halo radiotransparente periprotético no componente _ (femoral; acetabular; tibial; umeral; ou glenoidal), podendo corresponder a soltura."
+    word: true
+
+  - trigger: "osteoliseprotese"
+    label: "Osteólise periprotética"
+    replace: "Áreas líticas de contornos lobulados junto ao componente _ (femoral; acetabular; tibial; ou umeral), a maior medindo _ cm, com afilamento cortical adjacente."
+    word: true
+
+  - trigger: "osteoliseprotesec"
+    label: "Conclusão — osteólise periprotética"
+    replace: "Osteólise periprotética junto ao componente _ (femoral; acetabular; tibial; ou umeral), sugerindo doença das partículas, não podendo ser afastada infecção periprotética."
+    word: true
+
+  - trigger: "fraturaperiprotetica"
+    label: "Fratura periprotética"
+    replace: "Fratura periprotética do _ (osso, com o lado) junto ao componente _ (femoral; acetabular; tibial; ou umeral), _ (sem; ou com) desvio dos fragmentos e _ (sem; ou com) sinais de soltura do componente."
+    word: true
+
+  - trigger: "materialquebrado"
+    label: "Ruptura do material de síntese"
+    replace: "Ruptura _ (da placa; do parafuso; ou da haste intramedular) de fixação do _ (osso, com o lado), _ (junto ao; ou distante do) foco de fratura."
+    word: true
+
+  - trigger: "artriteerosiva"
+    label: "Artropatia erosiva (inflamatória?)"
+    replace: "Erosões ósseas marginais nas articulações _, com redução _ (simétrica; ou assimétrica) dos espaços articulares e rarefação óssea periarticular."
+    word: true
+
+  - trigger: "artriteerosivac"
+    label: "Conclusão — artropatia erosiva"
+    replace: "Artropatia erosiva nas articulações _, podendo corresponder a artropatia inflamatória. Correlacionar com dados clínicos e laboratoriais."
+    word: true
+
+  - trigger: "tofogota"
+    label: "Artropatia gotosa (erosões e tofos)"
+    replace: "Erosões ósseas justa-articulares em saca-bocado, com margens escleróticas e bordas pendentes, associadas a nódulos periarticulares hiperatenuantes de partes moles nas articulações _, com relativa preservação dos espaços articulares, achados que sugerem artropatia gotosa."
+    word: true
+
+  - trigger: "tofogotac"
+    label: "Conclusão — gota"
+    replace: "Artropatia erosiva com nódulos periarticulares nas articulações _, sugerindo gota."
+    word: true
+
+  - trigger: "cppd"
+    label: "Condrocalcinose"
+    replace: "Calcificações lineares e puntiformes na fibrocartilagem _ (dos meniscos; do complexo da fibrocartilagem triangular; ou da sínfise púbica) e na cartilagem articular, compatíveis com condrocalcinose."
+    word: true
+
+  - trigger: "cppdc"
+    label: "Conclusão — condrocalcinose"
+    replace: "Condrocalcinose, podendo estar relacionada a doença por deposição de pirofosfato de cálcio."
     word: true
