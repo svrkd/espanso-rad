@@ -72,12 +72,12 @@ matches:
     replace: "Trombo em trânsito no átrio direito (modificador T+ do PE-RADS)."
     word: true
 
-  - trigger: "pulmonardilatado"
+  - trigger: "troncop2"
     label: "Hipertensão pulmonar (tronco e razão AP/Ao)"
     replace: "Aumento do calibre do tronco pulmonar (_ cm), com razão entre os diâmetros do tronco pulmonar e da aorta ascendente de _ (> 0,9), sugerindo hipertensão pulmonar."
     word: true
 
-  - trigger: "pulmonardilatadoc"
+  - trigger: "troncop2c"
     label: "Conclusão — sinais de hipertensão pulmonar"
     replace: "Sinais tomográficos sugestivos de hipertensão pulmonar, na dependência de correlação ecocardiográfica."
     word: true
