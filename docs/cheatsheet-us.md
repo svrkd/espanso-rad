@@ -68,7 +68,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | vb2c | Vesícula biliar: colecistite aguda \| Sinal de Murphy positivo |
 | vb4 | Vesícula biliar: Imagem compatível com pólipo de vesícula biliar (achado descritivo) |
 | vb4c | Vesícula biliar: Imagem compatível com pólipo de vesícula biliar |
-| vb12c | Vesícula biliar (pólipo): conduta SRU 2022 — pediculado de haste fina: até 0,9 cm sem seguimento; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Séssil ou haste espessa: até 0,6 cm sem seguimento; 0,7–0,9 cm controle em 12 meses; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Crescimento ≥ 0,4 cm em até 12 meses: avaliação cirúrgica |
+| vb12c | Vesícula biliar (pólipo): conduta SRU 2022 — pediculado de haste fina: até 0,9 cm sem seguimento; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Séssil ou haste espessa: até 0,6 cm sem seguimento; 0,7–0,9 cm controle em 12 meses; 1,0–1,4 cm controle aos 6, 12, 24 e 36 meses; ≥ 1,5 cm avaliação cirúrgica. Indeterminado (espessamento parietal focal ≥ 0,4 cm adjacente): até 0,6 cm controle aos 6, 12, 24 e 36 meses; ≥ 0,7 cm avaliação cirúrgica. Crescimento ≥ 0,4 cm em até 12 meses: avaliação cirúrgica |
 | vb3 | Vesícula biliar: Achados sugestivos de barro biliar (achado descritivo) |
 | vb3c | Vesícula biliar: Achados sugestivos de barro biliar |
 | vb5 | Vesícula biliar: Sinais sugestivos de colesterolose/adenomiomatose da vesícula biliar (achado descritivo) |
@@ -142,7 +142,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | rv14c | Rim: Nódulo renal à direita/ esquerda |
 | rv15 | Rim: Considerar a hipótese de acentuada dilatação pielocalicinal à direita/ esquerda (achado descritivo) |
 | rv15c | Rim: Considerar a hipótese de acentuada dilatação pielocalicinal à direita/ esquerda |
-| rvutd | Rim (pediatria): dilatação do trato urinário, classificação UTD (achado descritivo) — P1: pelve 1,0 a 1,5 cm ou dilatação calicinal central; P2: pelve ≥ 1,5 cm, dilatação calicinal periférica ou ureter dilatado; P3: alteração do parênquima ou da bexiga |
+| rvutd | Rim (pediatria): dilatação do trato urinário, classificação UTD (achado descritivo) — P1: pelve ≥ 1,0 e < 1,5 cm ou dilatação calicinal central; P2: pelve ≥ 1,5 cm, dilatação calicinal periférica ou ureter dilatado; P3: alteração do parênquima ou da bexiga |
 | rvutdc | Rim (pediatria): dilatação do trato urinário, classificação UTD (conclusão) |
 
 ## Pélvica Ginecológica E Transvaginal
@@ -1730,7 +1730,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | aorta3c | Aorta abdominal: ateromatose, sem dilatação (conclusão) |
 | aorta4 | Aorta abdominal: ectasia infrarrenal, < 3,0 cm (achado descritivo) |
 | aorta4c | Aorta abdominal: ectasia infrarrenal (conclusão) |
-| aorta2 | Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses |
+| aorta2 | Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 6 meses |
 | aorta2c | Aorta abdominal: aneurisma infrarrenal (conclusão) |
 | aorta5 | Aorta abdominal: endoprótese pérvia, sem endoleak (achado descritivo) |
 | aorta5c | Aorta abdominal: endoprótese pérvia, sem endoleak (conclusão) |

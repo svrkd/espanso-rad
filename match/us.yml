@@ -124,7 +124,7 @@ matches:
 
   - trigger: "ap1"
     label: "Apêndice cecal: Sinais sugestivos de apendicite aguda (achado descritivo)"
-    replace: Apêndice cecal caracterizado em fossa ilíaca direita, incompressível, com calibre medindo _ cm (normal < 0,7 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
+    replace: Apêndice cecal caracterizado em fossa ilíaca direita, incompressível, com calibre medindo _ cm (normal até 0,6 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
     word: true
 
   - trigger: "ap1c"
@@ -134,7 +134,7 @@ matches:
 
   - trigger: "ap2"
     label: "Apêndice cecal: Sinais sugestivos de processo inflamatório/infeccioso do apêndice cecal (achado descritivo)"
-    replace: Estrutura tubuliforme em fundo cego, com origem aparente no ceco, compatível com apêndice cecal, incompressível, com calibre medindo _ cm (normal < 0,7 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
+    replace: Estrutura tubuliforme em fundo cego, com origem aparente no ceco, compatível com apêndice cecal, incompressível, com calibre medindo _ cm (normal até 0,6 cm). Associam-se aumento da ecogenicidade da gordura pericecal e redução dos movimentos peristálticos.
     word: true
 
   - trigger: "ap2c"
@@ -417,7 +417,7 @@ matches:
     word: true
 
   - trigger: "vb12c"
-    label: "Vesícula biliar (pólipo): conduta SRU 2022 — pediculado de haste fina: até 0,9 cm sem seguimento; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Séssil ou haste espessa: até 0,6 cm sem seguimento; 0,7–0,9 cm controle em 12 meses; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Crescimento ≥ 0,4 cm em até 12 meses: avaliação cirúrgica"
+    label: "Vesícula biliar (pólipo): conduta SRU 2022 — pediculado de haste fina: até 0,9 cm sem seguimento; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Séssil ou haste espessa: até 0,6 cm sem seguimento; 0,7–0,9 cm controle em 12 meses; 1,0–1,4 cm controle aos 6, 12, 24 e 36 meses; ≥ 1,5 cm avaliação cirúrgica. Indeterminado (espessamento parietal focal ≥ 0,4 cm adjacente): até 0,6 cm controle aos 6, 12, 24 e 36 meses; ≥ 0,7 cm avaliação cirúrgica. Crescimento ≥ 0,4 cm em até 12 meses: avaliação cirúrgica"
     replace: "Sugere-se controle ultrassonográfico em _ meses."
     word: true
 
@@ -849,7 +849,7 @@ matches:
     word: true
 
   - trigger: "rvutd"
-    label: "Rim (pediatria): dilatação do trato urinário, classificação UTD (achado descritivo) — P1: pelve 1,0 a 1,5 cm ou dilatação calicinal central; P2: pelve ≥ 1,5 cm, dilatação calicinal periférica ou ureter dilatado; P3: alteração do parênquima ou da bexiga"
+    label: "Rim (pediatria): dilatação do trato urinário, classificação UTD (achado descritivo) — P1: pelve ≥ 1,0 e < 1,5 cm ou dilatação calicinal central; P2: pelve ≥ 1,5 cm, dilatação calicinal periférica ou ureter dilatado; P3: alteração do parênquima ou da bexiga"
     replace: "Diâmetro anteroposterior da pelve renal _ de _ cm, com dilatação calicinal central/periférica/ausente, parênquima de espessura e ecogenicidade preservadas/alteradas, ureter _ e bexiga _."
     word: true
 
@@ -1935,7 +1935,7 @@ matches:
 
   - trigger: "ob46c"
     label: "Obstétrica — 1º trimestre: saco gestacional de 16 a 24 mm sem embrião (conclusão)"
-    replace: "Saco gestacional de diâmetro médio de _ mm, sem embrião. Sugere-se controle ultrassonográfico em 7 a 14 dias."
+    replace: "Saco gestacional de diâmetro médio de _ mm, sem embrião. Sugere-se controle ultrassonográfico em 7 a 10 dias."
     word: true
 
   - trigger: "ob47"
@@ -4123,7 +4123,7 @@ matches:
 
   - trigger: "lmg3"
     label: "Lesão muscular: Grau II (lesão parcial)"
-    replace: Lesão parcial da transição miotendínea / mioaponeurótica distal do _, caracterizada por área de descontinuidade, medindo cerca de _ x _, nos eixos longitudinal e transverso, respectivamente, acometendo aproximadamente mais / menos que 50% da área de secção transversa. Associa-se conteúdo líquido / hemático na área de rotura.
+    replace: Lesão parcial da transição miotendínea / mioaponeurótica distal do _, caracterizada por área de descontinuidade, medindo cerca de _ x _, nos eixos longitudinal e transverso, respectivamente, acometendo até 50% da área de secção transversa. Associa-se conteúdo líquido / hemático na área de rotura.
     word: true
 
   - trigger: "lmg3c"
@@ -7226,7 +7226,7 @@ matches:
 
   - trigger: "te2"
     label: "Testículo/bolsa escrotal: Sinais de varicocele à _ (achado descritivo)"
-    replace: Dilatação e tortuosidade de vasos do plexo pampiniforme à _, medindo em repouso _ cm (normal < 0,2-0,3 cm) e acentuando-se à manobra de Valsalva, associada a refluxo valvar ao estudo Doppler colorido.
+    replace: Dilatação e tortuosidade de vasos do plexo pampiniforme à _, o maior medindo _ cm em ortostatismo à manobra de Valsalva (diagnóstico a partir de 0,3 cm), associada a refluxo de _ segundos ao estudo Doppler (patológico acima de 2 segundos).
     word: true
 
   - trigger: "te2c"
@@ -7256,7 +7256,7 @@ matches:
 
   - trigger: "te5"
     label: "Testículo/bolsa escrotal: Microlitíase testicular à _ (achado descritivo)"
-    replace: Parênquima testicular com ecotextura homogênea, exceto por múltiplos focos hiperecogênicos puntiformes, sem sombra acústica posterior, distribuídos difusamente, medindo entre 0,1 e 0,3 cm (mais de 5 focos por campo de imagem).
+    replace: Parênquima testicular com ecotextura homogênea, exceto por múltiplos focos hiperecogênicos puntiformes, sem sombra acústica posterior, distribuídos difusamente, menores que 0,3 cm (cinco ou mais focos por campo de imagem).
     word: true
 
   - trigger: "te5c"
@@ -7797,7 +7797,7 @@ matches:
 
   - trigger: "tfp2"
     label: "Crânio (transfontanela): HPIV grau II (Papile) — achado"
-    replace: Conteúdo ecogênico no interior do ventrículo lateral _, ocupando menos de 50% do seu volume, sem dilatação ventricular associada.
+    replace: Conteúdo ecogênico no interior do ventrículo lateral _, sem dilatação ventricular associada.
     word: true
 
   - trigger: "tfp2c"
@@ -7807,7 +7807,7 @@ matches:
 
   - trigger: "tfp3"
     label: "Crânio (transfontanela): HPIV grau III (Papile) — achado"
-    replace: Conteúdo ecogênico ocupando mais de 50% do volume do ventrículo lateral _, associado a dilatação ventricular aguda.
+    replace: Conteúdo ecogênico no interior do ventrículo lateral _, associado a dilatação ventricular.
     word: true
 
   - trigger: "tfp3c"
@@ -8213,7 +8213,7 @@ matches:
       Realizada avaliação do sistema venoso profundo e superficial do membro superior direito, com transdutor linear multifrequencial, através do modo B, Doppler colorido e espectral, associado a manobras dinâmicas.
 
       Descrição:
-      Veias subclávia, axilar, braquial, radiais e ulnares compressíveis em toda sua extensão, sem trombos no seu interior.
+      Veias axilar, braquiais, radiais e ulnares compressíveis em toda sua extensão, sem trombos no seu interior. Veia subclávia pérvia, com fluxo fásico e variação respiratória preservados ao Doppler.
       Veias cefálica e basílica se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
 
       Conclusão:
@@ -8229,7 +8229,7 @@ matches:
       Realizada avaliação do sistema venoso profundo e superficial do membro superior esquerdo, com transdutor linear multifrequencial, através do modo B, Doppler colorido e espectral, associado a manobras dinâmicas.
 
       Descrição:
-      Veias subclávia, axilar, braquial, radiais e ulnares compressíveis em toda sua extensão, sem trombos no seu interior.
+      Veias axilar, braquiais, radiais e ulnares compressíveis em toda sua extensão, sem trombos no seu interior. Veia subclávia pérvia, com fluxo fásico e variação respiratória preservados ao Doppler.
       Veias cefálica e basílica se apresentam com trajeto, calibre, compressibilidade e fluxo preservados, sem sinais de trombose.
 
       Conclusão:
@@ -9406,7 +9406,7 @@ matches:
 
   - trigger: "dabd22"
     label: "Doppler abdome superior: Pinçamento aortomesentérico do duodeno (Wilkie) (achado descritivo)"
-    replace: "Ângulo aortomesentérico reduzido, de _° (normal acima de 22°), com distância aortomesentérica de _ cm (normal acima de 0,8 cm), associando-se distensão do estômago e do duodeno proximal ao ponto de cruzamento."
+    replace: "Ângulo aortomesentérico reduzido, de _° (reduzido quando inferior a 22°), com distância aortomesentérica de _ cm (reduzida quando inferior a 0,8 cm), associando-se distensão do estômago e do duodeno proximal ao ponto de cruzamento."
     word: true
 
   - trigger: "dabd22c"
@@ -9469,7 +9469,7 @@ matches:
     word: true
 
   - trigger: "aorta2"
-    label: "Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 3 a 6 meses"
+    label: "Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 6 meses"
     replace: "Dilatação fusiforme/sacular da aorta abdominal infrarrenal, com diâmetro anteroposterior máximo de _ cm (medido de parede externa a parede externa), extensão longitudinal de _ cm, distando _ cm das artérias renais, com/sem trombo mural."
     word: true
 
