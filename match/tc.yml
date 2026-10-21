@@ -1647,6 +1647,496 @@ matches:
     replace: "Aumento do número de linfonodos cervicais, sem caracterizar linfonodomegalias."
     word: true
 
+  - trigger: "sinusaguda"
+    label: "Sinusopatia aguda (nível líquido, conteúdo bolhoso)"
+    replace: "Espessamento mucoso e nível líquido no seio _ (maxilar, frontal ou esfenoidal, com o lado), com bolhas gasosas de permeio, sugerindo sinusopatia aguda."
+    word: true
+
+  - trigger: "sinusagudac"
+    label: "Conclusão — sinusopatia aguda"
+    replace: "Sinusopatia aguda _ (maxilar, frontal ou esfenoidal, com o lado)."
+    word: true
+
+  - trigger: "conteudodenso"
+    label: "Conteúdo hiperatenuante em seio paranasal"
+    replace: "Conteúdo hiperatenuante no seio _ (maxilar, frontal, etmoidal ou esfenoidal, com o lado), podendo corresponder a secreção espessa ou a componente fúngico."
+    word: true
+
+  - trigger: "lundmackay"
+    label: "Escore de Lund-Mackay (com tabela)"
+    replace: |-
+      Escore de Lund-Mackay: _ (total de 0 a 24).
+      Lado direito: frontal _, etmoide anterior _, etmoide posterior _, maxilar _, esfenoide _, complexo ostiomeatal _.
+      Lado esquerdo: frontal _, etmoide anterior _, etmoide posterior _, maxilar _, esfenoide _, complexo ostiomeatal _.
+
+      Referência (Lund e Mackay, 1993): seios: 0 = sem opacificação, 1 = opacificação parcial, 2 = opacificação completa; complexo ostiomeatal: 0 = pérvio, 2 = obstruído.
+    word: true
+
+  - trigger: "padraoinfund"
+    label: "Padrão obstrutivo infundibular"
+    replace: "Material com atenuação de partes moles no seio maxilar _ (direito; ou esquerdo), com obliteração do infundíbulo etmoidal ipsilateral (padrão obstrutivo infundibular)."
+    word: true
+
+  - trigger: "padraoinfundc"
+    label: "Conclusão — padrão obstrutivo infundibular"
+    replace: "Sinusopatia maxilar _ (direita; ou esquerda), com padrão obstrutivo infundibular."
+    word: true
+
+  - trigger: "padraoostio"
+    label: "Padrão obstrutivo da unidade ostiomeatal"
+    replace: "Material com atenuação de partes moles nos seios maxilar e frontal e nas células etmoidais anteriores _ (direitos; ou esquerdos), com obliteração do meato médio ipsilateral (padrão obstrutivo da unidade ostiomeatal)."
+    word: true
+
+  - trigger: "padraoostioc"
+    label: "Conclusão — padrão obstrutivo da unidade ostiomeatal"
+    replace: "Sinusopatia _ (à direita; ou à esquerda), com padrão obstrutivo da unidade ostiomeatal."
+    word: true
+
+  - trigger: "padraorecesso"
+    label: "Padrão obstrutivo do recesso esfenoetmoidal"
+    replace: "Material com atenuação de partes moles no seio esfenoidal e nas células etmoidais posteriores _ (direitos; ou esquerdos), com obliteração do recesso esfenoetmoidal ipsilateral (padrão obstrutivo do recesso esfenoetmoidal)."
+    word: true
+
+  - trigger: "padraorecessoc"
+    label: "Conclusão — padrão obstrutivo do recesso esfenoetmoidal"
+    replace: "Sinusopatia esfenoetmoidal _ (à direita; ou à esquerda), com padrão obstrutivo do recesso esfenoetmoidal."
+    word: true
+
+  - trigger: "padraoesparso"
+    label: "Padrão esporádico (espessamento mucoso sem obstrução)"
+    replace: "Espessamento mucoso esparso em seios paranasais, sem obliteração das vias de drenagem (padrão esporádico)."
+    word: true
+
+  - trigger: "mucoceleseio"
+    label: "Mucocele de seio paranasal"
+    replace: "Seio _ (frontal, etmoidal, esfenoidal ou maxilar, com o lado) expandido e totalmente opacificado por conteúdo homogêneo, com remodelamento e adelgaçamento das paredes ósseas, achados compatíveis com mucocele."
+    word: true
+
+  - trigger: "mucoceleorbita"
+    label: "Mucocele com efeito expansivo sobre a órbita"
+    replace: "Associa-se abaulamento da parede _ (medial; ou superior) da órbita _ (direita; ou esquerda), com efeito expansivo sobre o conteúdo orbitário e deslocamento do globo ocular."
+    word: true
+
+  - trigger: "mucoceleseioc"
+    label: "Conclusão — mucocele de seio paranasal"
+    replace: "Mucocele do seio _ (frontal, etmoidal, esfenoidal ou maxilar, com o lado)."
+    word: true
+
+  - trigger: "polipocoana"
+    label: "Pólipo antrocoanal"
+    replace: "Formação polipoide hipoatenuante ocupando o seio maxilar _ (direito; ou esquerdo), estendendo-se através do óstio maxilar _ (principal; ou acessório) alargado ao meato médio, à cavidade nasal e à coana ipsilateral, achados compatíveis com pólipo antrocoanal."
+    word: true
+
+  - trigger: "polipocoanac"
+    label: "Conclusão — pólipo antrocoanal"
+    replace: "Pólipo antrocoanal _ (direito; ou esquerdo)."
+    word: true
+
+  - trigger: "fungoalergico"
+    label: "Sinusite fúngica alérgica"
+    replace: "Material heterogêneo e hiperatenuante preenchendo e expandindo os seios _ (citar seios e lado), com adelgaçamento e remodelamento das paredes ósseas, associado a espessamento mucoso polipoide, achados que sugerem sinusite fúngica alérgica."
+    word: true
+
+  - trigger: "fungoalergicoc"
+    label: "Conclusão — sinusite fúngica alérgica"
+    replace: "Sinusopatia expansiva com conteúdo hiperatenuante, sugerindo sinusite fúngica alérgica."
+    word: true
+
+  - trigger: "bolafungo"
+    label: "Bola fúngica"
+    replace: "Seio _ (maxilar, esfenoidal ou frontal, com o lado) opacificado por conteúdo hiperatenuante com calcificações puntiformes de permeio, associado a espessamento e esclerose das paredes ósseas, sem erosão óssea, achados que sugerem bola fúngica."
+    word: true
+
+  - trigger: "bolafungoc"
+    label: "Conclusão — bola fúngica"
+    replace: "Sinusopatia do seio _ (maxilar, esfenoidal ou frontal, com o lado), sugerindo bola fúngica."
+    word: true
+
+  - trigger: "fungoinvasivo"
+    label: "Densificação da gordura periantral (fúngica invasiva?)"
+    replace: "Material com atenuação de partes moles no seio maxilar _ (direito; ou esquerdo), associado a densificação da gordura periantral _ (pré-maxilar; retromaxilar; ou da fossa pterigopalatina), não podendo ser afastada sinusite fúngica invasiva em contexto de imunossupressão."
+    word: true
+
+  - trigger: "fungoerosao"
+    label: "Erosão óssea e extensão extrassinusal"
+    replace: "Associa-se erosão das paredes ósseas do seio _ (citar seio e lado), com extensão do processo para _ (a órbita; a fossa pterigopalatina; a fossa infratemporal; ou as partes moles da face)."
+    word: true
+
+  - trigger: "fungoinvasivoc"
+    label: "Conclusão — sinusite fúngica invasiva?"
+    replace: "Sinusopatia maxilar _ (direita; ou esquerda) com densificação da gordura periantral, não podendo ser afastada sinusite fúngica invasiva em contexto de imunossupressão."
+    word: true
+
+  - trigger: "sinusodonto"
+    label: "Sinusopatia odontogênica (lesão periapical)"
+    replace: "Material com atenuação de partes moles no seio maxilar _ (direito; ou esquerdo), associado a rarefação óssea periapical do dente _ (número), em contato com o assoalho do seio, sugerindo sinusopatia de origem odontogênica."
+    word: true
+
+  - trigger: "sinusodonto2"
+    label: "Comunicação oroantral"
+    replace: "Falha óssea no assoalho do seio maxilar _ (direito; ou esquerdo), junto ao alvéolo do dente _ (número), sugerindo comunicação oroantral."
+    word: true
+
+  - trigger: "sinusodonto3"
+    label: "Material de procedimento dentário no seio maxilar"
+    replace: "Material hiperdenso no interior do seio maxilar _ (direito; ou esquerdo), junto à raiz do dente _ (número), sugerindo extravasamento de material de procedimento dentário."
+    word: true
+
+  - trigger: "sinusodontoc"
+    label: "Conclusão — sinusopatia odontogênica"
+    replace: "Sinusopatia maxilar _ (direita; ou esquerda), sugerindo origem odontogênica. Correlacionar com avaliação odontológica."
+    word: true
+
+  - trigger: "seiosilencioso"
+    label: "Síndrome do seio silencioso"
+    replace: "Seio maxilar _ (direito; ou esquerdo) de volume reduzido e opacificado, com retração de suas paredes e rebaixamento do assoalho orbitário ipsilateral, associado a lateralização do processo uncinado junto à parede inferomedial da órbita, ocluindo o infundíbulo etmoidal, bem como alargamento do meato médio, achados compatíveis com síndrome do seio silencioso."
+    word: true
+
+  - trigger: "seiosilenciosoc"
+    label: "Conclusão — síndrome do seio silencioso"
+    replace: "Síndrome do seio silencioso _ (à direita; ou à esquerda)."
+    word: true
+
+  - trigger: "displasiaface"
+    label: "Displasia fibrosa craniofacial"
+    replace: "Expansão do osso _ (maxilar, etmoide, esfenoide ou frontal, com o lado), com matriz em vidro fosco e cortical preservada, reduzindo a cavidade do seio paranasal adjacente, achados compatíveis com displasia fibrosa."
+    word: true
+
+  - trigger: "displasiaoptico"
+    label: "Displasia fibrosa envolvendo o canal óptico"
+    replace: "A lesão envolve o canal óptico _ (direito; ou esquerdo), _ (sem; ou com) redução de seu calibre."
+    word: true
+
+  - trigger: "displasiafacec"
+    label: "Conclusão — displasia fibrosa craniofacial"
+    replace: "Displasia fibrosa do osso _ (maxilar, etmoide, esfenoide ou frontal, com o lado)."
+    word: true
+
+  - trigger: "papilomainvertido"
+    label: "Formação expansiva nasossinusal (papiloma invertido?)"
+    replace: "Formação expansiva unilateral com atenuação de partes moles, centrada no meato médio _ (direito; ou esquerdo) e estendendo-se ao seio maxilar ipsilateral, com remodelamento ósseo e hiperostose focal na parede _ (citar parede), que pode indicar o sítio de implantação. Admite-se inicialmente a hipótese de papiloma invertido. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e anatomopatológicos, não sendo possível afastar de forma inequívoca a possibilidade de neoplasia de outra natureza."
+    word: true
+
+  - trigger: "papilomainvertidoc"
+    label: "Conclusão — formação expansiva nasossinusal (papiloma invertido?)"
+    replace: "Formação expansiva nasossinusal _ (direita; ou esquerda), podendo corresponder a papiloma invertido. Correlacionar com estudo anatomopatológico."
+    word: true
+
+  - trigger: "tumorseio"
+    label: "Formação expansiva nasossinusal com destruição óssea"
+    replace: "Formação expansiva com atenuação de partes moles no seio _ (citar seio e lado), medindo _ cm, com destruição das paredes ósseas e extensão para _ (a órbita; a fossa pterigopalatina; a fossa infratemporal; a base do crânio; ou as partes moles da face). Admite-se inicialmente a hipótese de lesão neoplásica. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de processo infeccioso invasivo. Ressonância magnética pode complementar a avaliação da extensão."
+    word: true
+
+  - trigger: "tumorseioc"
+    label: "Conclusão — formação expansiva nasossinusal agressiva"
+    replace: "Formação expansiva no seio _ (citar seio e lado), com destruição óssea e extensão extrassinusal, podendo corresponder a lesão neoplásica."
+    word: true
+
+  - trigger: "osteomaseio"
+    label: "Osteoma de seio paranasal"
+    replace: "Imagem com densidade óssea compacta, de contornos regulares, medindo _ cm, no seio _ (frontal ou etmoidal, com o lado), _ (sem; ou com) obliteração do recesso frontal, achados compatíveis com osteoma."
+    word: true
+
+  - trigger: "osteomaseioc"
+    label: "Conclusão — osteoma de seio paranasal"
+    replace: "Osteoma no seio _ (frontal ou etmoidal, com o lado)."
+    word: true
+
+  - trigger: "chandler1"
+    label: "Celulite pré-septal (Chandler I)"
+    replace: "Espessamento e densificação das partes moles palpebrais e periorbitárias _ (à direita; ou à esquerda), anteriores ao septo orbitário, sem comprometimento do conteúdo pós-septal, achados compatíveis com celulite pré-septal (Chandler I)."
+    word: true
+
+  - trigger: "chandler1c"
+    label: "Conclusão — celulite pré-septal (Chandler I)"
+    replace: "Celulite pré-septal _ (à direita; ou à esquerda) (Chandler I)."
+    word: true
+
+  - trigger: "chandler2"
+    label: "Celulite orbitária (Chandler II)"
+    replace: "Densificação da gordura orbitária pós-septal _ (à direita; ou à esquerda), sem coleções, achados compatíveis com celulite orbitária (Chandler II)."
+    word: true
+
+  - trigger: "chandler2c"
+    label: "Conclusão — celulite orbitária (Chandler II)"
+    replace: "Celulite orbitária _ (à direita; ou à esquerda) (Chandler II)."
+    word: true
+
+  - trigger: "chandler3"
+    label: "Abscesso subperiosteal orbitário (Chandler III)"
+    replace: "Coleção extraconal junto à parede medial da órbita _ (direita; ou esquerda), adjacente às células etmoidais opacificadas, deslocando lateralmente o músculo reto medial, medindo _ cm, compatível com abscesso subperiosteal (Chandler III)."
+    word: true
+
+  - trigger: "chandler3c"
+    label: "Conclusão — abscesso subperiosteal orbitário (Chandler III)"
+    replace: "Abscesso subperiosteal na órbita _ (direita; ou esquerda) (Chandler III)."
+    word: true
+
+  - trigger: "chandler4"
+    label: "Abscesso orbitário (Chandler IV)"
+    replace: "Coleção na gordura orbitária _ (intraconal; ou extraconal) à _ (direita; ou esquerda), medindo _ cm, associada a proptose ipsilateral, compatível com abscesso orbitário (Chandler IV)."
+    word: true
+
+  - trigger: "chandler4c"
+    label: "Conclusão — abscesso orbitário (Chandler IV)"
+    replace: "Abscesso orbitário _ (à direita; ou à esquerda) (Chandler IV)."
+    word: true
+
+  - trigger: "chandler5"
+    label: "Trombose do seio cavernoso (Chandler V)"
+    replace: "Seio cavernoso _ (direito; esquerdo; ou bilateralmente) alargado, com contorno lateral abaulado e falha de enchimento, associado a ingurgitamento da veia oftálmica superior ipsilateral, sugerindo trombose do seio cavernoso (Chandler V)."
+    word: true
+
+  - trigger: "chandler5c"
+    label: "Conclusão — trombose do seio cavernoso (Chandler V)"
+    replace: "Trombose do seio cavernoso _ (direito; esquerdo; ou bilateral) (Chandler V)."
+    word: true
+
+  - trigger: "pottfrontal"
+    label: "Tumor edematoso de Pott (osteomielite frontal)"
+    replace: "Seio frontal opacificado, com descontinuidade de sua parede anterior e coleção _ (subperiosteal; ou subgaleal) frontal medindo _ cm, associada a edema das partes moles adjacentes, achados compatíveis com osteomielite do osso frontal com abscesso (tumor edematoso de Pott)."
+    word: true
+
+  - trigger: "pottfrontalc"
+    label: "Conclusão — tumor edematoso de Pott"
+    replace: "Osteomielite do osso frontal com abscesso das partes moles adjacentes (tumor edematoso de Pott)."
+    word: true
+
+  - trigger: "empiemaepidural"
+    label: "Empiema epidural (complicação de sinusopatia)"
+    replace: "Coleção extra-axial biconvexa _ (frontal; ou citar região) _ (direita; ou esquerda), adjacente ao seio frontal opacificado, com realce periférico, medindo _ cm de espessura, compatível com empiema epidural."
+    word: true
+
+  - trigger: "empiemasubdural"
+    label: "Empiema subdural (complicação de sinusopatia)"
+    replace: "Coleção extra-axial em crescente ao longo da _ (convexidade frontal; ou fissura inter-hemisférica) _ (direita; ou esquerda), com realce periférico, medindo _ cm de espessura, compatível com empiema subdural."
+    word: true
+
+  - trigger: "keros1"
+    label: "Fossa olfatória Keros tipo I (1 a 3 mm)"
+    replace: "Fossa olfatória com profundidade de _ mm à direita e _ mm à esquerda, medida pela altura da lamela lateral da lâmina cribriforme (Keros tipo I: 1 a 3 mm)."
+    word: true
+
+  - trigger: "keros2"
+    label: "Fossa olfatória Keros tipo II (4 a 7 mm)"
+    replace: "Fossa olfatória com profundidade de _ mm à direita e _ mm à esquerda, medida pela altura da lamela lateral da lâmina cribriforme (Keros tipo II: 4 a 7 mm)."
+    word: true
+
+  - trigger: "keros3"
+    label: "Fossa olfatória Keros tipo III (8 a 16 mm)"
+    replace: "Fossa olfatória com profundidade de _ mm à direita e _ mm à esquerda, medida pela altura da lamela lateral da lâmina cribriforme (Keros tipo III: 8 a 16 mm)."
+    word: true
+
+  - trigger: "celulaagger"
+    label: "Célula agger nasi"
+    replace: "Célula agger nasi _ (à direita; à esquerda; ou bilateralmente), anterior à inserção da concha nasal média, _ (sem; ou com) estreitamento do recesso frontal."
+    word: true
+
+  - trigger: "celulasupraagger"
+    label: "Célula supra-agger (IFAC)"
+    replace: "Célula supra-agger _ (à direita; à esquerda; ou bilateralmente), etmoidal anterolateral acima da célula agger nasi, sem extensão ao seio frontal."
+    word: true
+
+  - trigger: "celulasupraaggerf"
+    label: "Célula supra-agger frontal (IFAC)"
+    replace: "Célula supra-agger frontal _ (à direita; à esquerda; ou bilateralmente), etmoidal anterolateral acima da célula agger nasi, estendendo-se ao seio frontal e deslocando medial ou posteriormente a via de drenagem frontal."
+    word: true
+
+  - trigger: "celulasuprabula"
+    label: "Célula suprabular (IFAC)"
+    replace: "Célula suprabular _ (à direita; à esquerda; ou bilateralmente), acima da bula etmoidal, sem extensão ao seio frontal."
+    word: true
+
+  - trigger: "celulasuprabulaf"
+    label: "Célula suprabular frontal (IFAC)"
+    replace: "Célula suprabular frontal _ (à direita; à esquerda; ou bilateralmente), acima da bula etmoidal, estendendo-se ao seio frontal e deslocando anteriormente a via de drenagem frontal."
+    word: true
+
+  - trigger: "celulasupraorbitaria"
+    label: "Célula etmoidal supraorbitária (IFAC)"
+    replace: "Célula etmoidal supraorbitária _ (à direita; à esquerda; ou bilateralmente), pneumatizando o teto da órbita em torno da artéria etmoidal anterior."
+    word: true
+
+  - trigger: "celulaseptal"
+    label: "Célula septal frontal (IFAC)"
+    replace: "Célula septal frontal, de base medial, inserida no septo intersinusal frontal, deslocando lateralmente a via de drenagem do seio frontal _ (direito; ou esquerdo)."
+    word: true
+
+  - trigger: "celulahaller"
+    label: "Célula de Haller (etmoidal infraorbitária)"
+    replace: "Célula etmoidal infraorbitária (célula de Haller) _ (à direita; à esquerda; ou bilateralmente), ao longo da parede inferomedial da órbita, _ (sem; ou com) estreitamento do infundíbulo etmoidal ipsilateral."
+    word: true
+
+  - trigger: "celulaonodi"
+    label: "Célula de Onodi (esfenoetmoidal)"
+    replace: "Célula etmoidal posterior pneumatizada superolateralmente ao seio esfenoidal (célula de Onodi) _ (à direita; à esquerda; ou bilateralmente), _ (sem; ou com) contato com o canal óptico ipsilateral."
+    word: true
+
+  - trigger: "arteriaetmoidal1"
+    label: "Artéria etmoidal anterior junto à base do crânio"
+    replace: "Canal da artéria etmoidal anterior junto ao teto etmoidal _ (à direita; à esquerda; ou bilateralmente)."
+    word: true
+
+  - trigger: "arteriaetmoidal2"
+    label: "Artéria etmoidal anterior em mesentério (abaixo da base do crânio)"
+    replace: "Canal da artéria etmoidal anterior _ (à direita; à esquerda; ou bilateralmente) situado abaixo do teto etmoidal, em trajeto livre através das células etmoidais, cerca de _ mm abaixo da base do crânio."
+    word: true
+
+  - trigger: "nervooptico1"
+    label: "Nervo óptico DeLano tipo 1"
+    replace: "Nervo óptico _ (direito; esquerdo; ou ambos os nervos ópticos) com trajeto adjacente ao seio esfenoidal, sem impressão em sua parede (DeLano tipo 1)."
+    word: true
+
+  - trigger: "nervooptico2"
+    label: "Nervo óptico DeLano tipo 2"
+    replace: "Nervo óptico _ (direito; esquerdo; ou ambos os nervos ópticos) com trajeto adjacente ao seio esfenoidal, determinando impressão em sua parede (DeLano tipo 2)."
+    word: true
+
+  - trigger: "nervooptico3"
+    label: "Nervo óptico DeLano tipo 3"
+    replace: "Nervo óptico _ (direito; esquerdo; ou ambos os nervos ópticos) com trajeto através do seio esfenoidal (DeLano tipo 3)."
+    word: true
+
+  - trigger: "nervooptico4"
+    label: "Nervo óptico DeLano tipo 4"
+    replace: "Nervo óptico _ (direito; esquerdo; ou ambos os nervos ópticos) com trajeto adjacente ao seio esfenoidal e à célula etmoidal posterior (DeLano tipo 4)."
+    word: true
+
+  - trigger: "opticodeiscente"
+    label: "Deiscência do canal óptico"
+    replace: "Deiscência da parede óssea do canal óptico _ (direito; ou esquerdo), _ (no seio esfenoidal; ou na célula de Onodi)."
+    word: true
+
+  - trigger: "clinoidepneumatizada"
+    label: "Processo clinoide anterior pneumatizado"
+    replace: "Processo clinoide anterior pneumatizado _ (à direita; à esquerda; ou bilateralmente)."
+    word: true
+
+  - trigger: "carotidaprotrusa"
+    label: "Protrusão da carótida interna no seio esfenoidal"
+    replace: "Protrusão do canal carotídeo _ (direito; ou esquerdo) no interior do seio esfenoidal."
+    word: true
+
+  - trigger: "carotidadeiscente"
+    label: "Deiscência do canal carotídeo no seio esfenoidal"
+    replace: "Deiscência da parede óssea do canal carotídeo _ (direito; ou esquerdo) no seio esfenoidal."
+    word: true
+
+  - trigger: "septocarotida"
+    label: "Septo esfenoidal inserido no canal carotídeo"
+    replace: "Septo intersinusal esfenoidal inserido na proeminência do canal carotídeo _ (direito; ou esquerdo)."
+    word: true
+
+  - trigger: "esfeno1"
+    label: "Pneumatização esfenoidal conchal"
+    replace: "Seio esfenoidal com pneumatização do tipo conchal, mínima ou ausente."
+    word: true
+
+  - trigger: "esfeno2"
+    label: "Pneumatização esfenoidal pré-selar"
+    replace: "Seio esfenoidal com pneumatização do tipo pré-selar, sem ultrapassar posteriormente a parede anterior da sela túrcica."
+    word: true
+
+  - trigger: "esfeno3"
+    label: "Pneumatização esfenoidal selar"
+    replace: "Seio esfenoidal com pneumatização do tipo selar, estendendo-se posteriormente além da parede anterior da sela túrcica, sem ultrapassar sua parede posterior."
+    word: true
+
+  - trigger: "esfeno4"
+    label: "Pneumatização esfenoidal pós-selar"
+    replace: "Seio esfenoidal com pneumatização do tipo pós-selar, estendendo-se posteriormente além da parede posterior da sela túrcica."
+    word: true
+
+  - trigger: "uncinado1"
+    label: "Processo uncinado inserido na lâmina papirácea"
+    replace: "Processo uncinado _ (direito; esquerdo; ou ambos os processos uncinados) inserido superiormente na lâmina papirácea, com drenagem do seio frontal diretamente ao meato médio, medialmente ao processo uncinado."
+    word: true
+
+  - trigger: "uncinado2"
+    label: "Processo uncinado inserido na base do crânio"
+    replace: "Processo uncinado _ (direito; esquerdo; ou ambos os processos uncinados) inserido superiormente na base do crânio, com drenagem do seio frontal ao infundíbulo etmoidal."
+    word: true
+
+  - trigger: "uncinado3"
+    label: "Processo uncinado inserido na concha nasal média"
+    replace: "Processo uncinado _ (direito; esquerdo; ou ambos os processos uncinados) inserido superiormente na concha nasal média, com drenagem do seio frontal ao infundíbulo etmoidal."
+    word: true
+
+  - trigger: "papiradeiscencia"
+    label: "Deiscência da lâmina papirácea"
+    replace: "Deiscência da lâmina papirácea _ (à direita; ou à esquerda), _ (sem; ou com) herniação de gordura orbitária para as células etmoidais."
+    word: true
+
+  - trigger: "cristagalli"
+    label: "Crista etmoidal (crista galli) pneumatizada"
+    replace: "Crista etmoidal (crista galli) pneumatizada."
+    word: true
+
+  - trigger: "bulagigante"
+    label: "Bula etmoidal volumosa"
+    replace: "Bula etmoidal _ (direita; ou esquerda) volumosa, estreitando o infundíbulo etmoidal ipsilateral."
+    word: true
+
+  - trigger: "maxilarhipo"
+    label: "Hipoplasia do seio maxilar"
+    replace: "Seio maxilar _ (direito; ou esquerdo) hipoplásico."
+    word: true
+
+  - trigger: "frontalaplasia"
+    label: "Seio frontal não pneumatizado"
+    replace: "Seio frontal _ (direito; esquerdo; ou ambos os seios frontais) não pneumatizado."
+    word: true
+
+  - trigger: "posfess1"
+    label: "Pós-FESS — antrostomia maxilar"
+    replace: "Alargamento cirúrgico do óstio maxilar _ (à direita; à esquerda; ou bilateralmente), compatível com antrostomia maxilar, _ (pérvio; ou obliterado)."
+    word: true
+
+  - trigger: "posfess2"
+    label: "Pós-FESS — etmoidectomia"
+    replace: "Ressecção das septações etmoidais _ (anteriores; ou anteriores e posteriores) _ (à direita; à esquerda; ou bilateralmente), compatível com etmoidectomia."
+    word: true
+
+  - trigger: "posfess3"
+    label: "Pós-FESS — sinusotomia frontal"
+    replace: "Alargamento cirúrgico do recesso frontal _ (à direita; à esquerda; ou bilateralmente), _ (pérvio; ou obliterado)."
+    word: true
+
+  - trigger: "posfess4"
+    label: "Pós-FESS — esfenoidotomia"
+    replace: "Alargamento cirúrgico do óstio do seio esfenoidal _ (à direita; à esquerda; ou bilateralmente), _ (pérvio; ou obliterado)."
+    word: true
+
+  - trigger: "posfess5"
+    label: "Pós-FESS — processo uncinado remanescente"
+    replace: "Remanescente do processo uncinado _ (à direita; ou à esquerda), junto ao recesso frontal."
+    word: true
+
+  - trigger: "posfess6"
+    label: "Pós-FESS — célula etmoidal residual no recesso frontal"
+    replace: "Célula etmoidal residual _ (citar a célula: agger nasi, supra-agger, suprabular ou outra) no recesso frontal _ (direito; ou esquerdo), _ (sem; ou com) obliteração da via de drenagem frontal."
+    word: true
+
+  - trigger: "posfess7"
+    label: "Pós-FESS — concha média lateralizada (sinéquia)"
+    replace: "Concha nasal média _ (direita; ou esquerda) lateralizada, aderida à parede lateral da cavidade nasal, obliterando o meato médio."
+    word: true
+
+  - trigger: "posfess8"
+    label: "Pós-FESS — neo-osteogênese"
+    replace: "Espessamento e esclerose das paredes ósseas dos seios operados (neo-osteogênese)."
+    word: true
+
+  - trigger: "posfess9"
+    label: "Pós-FESS — falha óssea na base do crânio"
+    replace: "Falha óssea no teto etmoidal _ (à direita; ou à esquerda), em área operada, _ (sem; ou com) material com atenuação de partes moles herniado, podendo corresponder a defeito da base do crânio. Correlacionar com sinais de fístula liquórica."
+    word: true
+
+  - trigger: "posfessc"
+    label: "Conclusão — alterações pós-cirurgia endoscópica nasossinusal"
+    replace: "Alterações pós-operatórias de cirurgia endoscópica nasossinusal."
+    word: true
+
   # ==========================================================================
   # COLUNA (CERVICAL, TORÁCICA, LOMBAR, SACROCOCCÍGEA)
   # ==========================================================================
@@ -10009,6 +10499,32 @@ matches:
       Cavidades paranasais normoaeradas.
       Infundíbulos, recessos frontais e esfenoetmoidais pérvios.
       Rinofaringe de contornos regulares.
+
+      Conclusão:
+      Exame dentro dos parâmetros da normalidade.
+    word: true
+
+  - trigger: "tcseiospre"
+    label: "TC de seios paranasais S/C — normal com referências cirúrgicas"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DOS SEIOS PARANASAIS S/C
+
+      Técnica:
+      Imagens adquiridas por aquisição volumétrica "multislice" sem administração venosa do meio de contraste iodado.
+
+      Descrição:
+      Septo nasal centrado.
+      Conchas nasais de aspecto habitual.
+      Processos uncinados inseridos superiormente na _ (lâmina papirácea; base do crânio; ou concha nasal média).
+      Fóveas etmoidais simétricas, com fossa olfatória de profundidade de _ mm à direita e _ mm à esquerda (Keros tipo _).
+      Lâminas papiráceas íntegras.
+      Canais das artérias etmoidais anteriores junto ao teto etmoidal.
+      Seio esfenoidal com pneumatização do tipo _ (conchal; pré-selar; selar; ou pós-selar), com paredes ósseas dos canais ópticos e carotídeos íntegras.
+      Cavidades paranasais normoaeradas.
+      Infundíbulos, recessos frontais e esfenoetmoidais pérvios.
+      Rinofaringe de contornos regulares.
+
+      Referência (Keros, 1962), profundidade da fossa olfatória: tipo I 1 a 3 mm; tipo II 4 a 7 mm; tipo III 8 a 16 mm.
 
       Conclusão:
       Exame dentro dos parâmetros da normalidade.
