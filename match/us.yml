@@ -103,6 +103,35 @@ matches:
       Órgãos e estruturas abdominais examinados de aspecto ultrassonográfico normal.
     word: true
 
+  - trigger: "usabdtotal2"
+    label: Abdome total — normal, com medidas e valores de referência
+    replace: |-
+      ULTRASSONOGRAFIA DE ABDOME TOTAL
+
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, dirigido para região abdominal, que evidenciou:
+
+      Descrição:
+      Fígado de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
+      Lobo direito medindo _ cm no eixo longitudinal, na linha hemiclavicular (normal até 15,5 cm).
+      Lobo esquerdo medindo _ cm no eixo longitudinal, na linha média.
+      Veia porta de calibre normal, medindo _ cm (normal até 1,3 cm).
+      Não há evidência de dilatação das vias biliares intra-hepáticas.
+      Vesícula biliar de contornos e dimensões normais, paredes normoespessas e sem imagem típica de cálculo.
+      Pâncreas e aorta abdominal parcialmente visualizados devido à interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
+      Baço de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima, medindo _ cm no eixo longitudinal (normal até 12 cm).
+      Rins de topografia, contornos e dimensões normais.
+      Rim direito medindo _ cm no eixo bipolar (normal entre 9 e 13 cm), com espessura do parênquima de _ cm.
+      Rim esquerdo medindo _ cm no eixo bipolar (normal entre 9 e 13 cm), com espessura do parênquima de _ cm.
+      Espessura corticomedular conservada de ambos os rins, com ecotextura normal do parênquima bilateralmente.
+      Ausência de dilatações dos sistemas pielocalicinais.
+      Não se observam imagens de litíases.
+      Bexiga com capacidade e distensibilidade normais, contornos regulares, paredes lisas e normoespessas.
+
+      Conclusão:
+      Órgãos e estruturas abdominais examinados de aspecto ultrassonográfico normal.
+    word: true
+
   - trigger: "usabdsup"
     label: Abdome superior — normal
     replace: |-
@@ -117,6 +146,28 @@ matches:
       Vesícula biliar de contornos e dimensões normais, paredes normoespessas e sem imagem típica de cálculo.
       Pâncreas parcialmente visualizado devido à interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
       Baço de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
+
+      Conclusão:
+      Aspecto ecográfico normal dos órgãos examinados.
+    word: true
+
+  - trigger: "usabdsup2"
+    label: Abdome superior — normal, com medidas e valores de referência
+    replace: |-
+      ULTRASSONOGRAFIA DE ABDOME SUPERIOR
+
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, dirigido para região abdominal superior, que evidenciou:
+
+      Descrição:
+      Fígado de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima.
+      Lobo direito medindo _ cm no eixo longitudinal, na linha hemiclavicular (normal até 15,5 cm).
+      Lobo esquerdo medindo _ cm no eixo longitudinal, na linha média.
+      Veia porta de calibre normal, medindo _ cm (normal até 1,3 cm).
+      Não há evidência de dilatação das vias biliares intra-hepáticas.
+      Vesícula biliar de contornos e dimensões normais, paredes normoespessas e sem imagem típica de cálculo.
+      Pâncreas parcialmente visualizado devido à interposição gasosa de alças intestinais, de aspecto habitual nas janelas acústicas disponíveis.
+      Baço de topografia, dimensões e contornos normais, com ecotextura sólida e homogênea do parênquima, medindo _ cm no eixo longitudinal (normal até 12 cm).
 
       Conclusão:
       Aspecto ecográfico normal dos órgãos examinados.
@@ -531,6 +582,40 @@ matches:
       Obs.: Cálculos renais menores que 4 mm podem não ser identificados devido à limitação inerente do método ecográfico.
     word: true
 
+  - trigger: "usrv2"
+    label: Rins e vias urinárias — normal, com medidas e valores de referência
+    replace: |-
+      ULTRASSONOGRAFIA DOS RINS E VIAS URINÁRIAS
+
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, dirigido para região dos rins e das vias urinárias, que evidenciou:
+
+      Rim direito:
+      Morfologia, contornos e topografia habituais.
+      Eixo bipolar: _ cm (normal entre 9 e 13 cm). Espessura do parênquima: _ cm.
+      Parênquima com espessura e diferenciação corticomedular preservadas.
+      Sistema pielocalicinal compacto.
+      Não visibilizadas imagens compatíveis com cálculos no sistema pielocalicinal.
+
+      Rim esquerdo:
+      Morfologia, contornos e topografia habituais.
+      Eixo bipolar: _ cm (normal entre 9 e 13 cm). Espessura do parênquima: _ cm.
+      Parênquima com espessura e diferenciação corticomedular preservadas.
+      Sistema pielocalicinal compacto.
+      Não visibilizadas imagens compatíveis com cálculos no sistema pielocalicinal.
+
+      Bexiga urinária:
+      Normodistendida, com conteúdo anecoico e não apresentando cálculos.
+      Parede vesical regular e de espessura normal.
+      Volume vesical pré-miccional de _ cm³.
+      Resíduo pós-miccional de _ cm³.
+
+      Conclusão:
+      Estudo ultrassonográfico sem evidentes anormalidades apreciáveis ao método.
+
+      Obs.: Cálculos renais menores que 4 mm podem não ser identificados devido à limitação inerente do método ecográfico.
+    word: true
+
   - trigger: "usrvrn"
     label: Aparelho urinário neonatal — normal
     replace: |-
@@ -890,6 +975,35 @@ matches:
       Achados ultrassonográficos dentro dos padrões da normalidade.
     word: true
 
+  - trigger: "ustv2"
+    label: Transvaginal — normal, com medidas e valores de referência
+    replace: |-
+      ULTRASSONOGRAFIA TRANSVAGINAL
+
+      Técnica:
+      Exame ultrassonográfico realizado com equipamento endocavitário multifrequencial, por via transvaginal.
+
+      Descrição:
+      Útero em anteversoflexão (AVF), medindo _ x _ x _ cm nos seus maiores eixos longitudinal, laterolateral e anteroposterior, respectivamente.
+      Volume uterino de _ cm³.
+      Formato uterino piriforme e contornos regulares.
+      Ecotextura miometrial de aspecto homogêneo.
+      Eco endometrial tênue e centrado, medindo _ cm de espessura.
+      Ovário direito em topografia, morfologia, contornos e dimensões normais. Parênquima com ecotextura habitual.
+      Medidas do ovário direito: _ x _ x _ cm (volume: _ cm³; normal abaixo de 10 cm³ na menacme).
+      Ovário esquerdo em topografia, morfologia, contornos e dimensões normais. Parênquima com ecotextura habitual.
+      Medidas do ovário esquerdo: _ x _ x _ cm (volume: _ cm³; normal abaixo de 10 cm³ na menacme).
+
+      Conclusão:
+      Achados ultrassonográficos dentro dos padrões da normalidade.
+
+      Fase menstrual: (normal de 0,2 a 0,4 cm)
+      Fase proliferativa inicial: (normal de 0,5 a 0,7 cm)
+      Fase proliferativa tardia: (normal até 1,1 cm)
+      Fase secretora: (normal de 0,7 a 1,6 cm)
+      Pós-menopausa com sangramento: (normal até 0,4 cm)
+    word: true
+
   - trigger: "uspelvica"
     label: Pélvica ginecológica — normal
     replace: |-
@@ -911,6 +1025,35 @@ matches:
 
       Conclusão:
       Achados ultrassonográficos dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "uspelvica2"
+    label: Pélvica ginecológica — normal, com medidas e valores de referência
+    replace: |-
+      ULTRASSONOGRAFIA PÉLVICA GINECOLÓGICA
+
+      Descrição:
+      Bexiga com capacidade e distensibilidade normais, contornos regulares, paredes lisas e normoespessas.
+      Útero em ante/ médio/ retro versoflexão (AVF/MVF/RVF), medindo _ x _ x _ cm nos seus maiores eixos longitudinal, laterolateral e anteroposterior, respectivamente.
+      Volume uterino de _ cm³.
+      Formato uterino piriforme e contornos regulares.
+      Ecotextura miometrial de aspecto homogêneo.
+      Eco endometrial tênue e centrado, medindo _ cm de espessura.
+      Ovário direito em topografia, morfologia, contornos e dimensões normais.
+      Parênquima com ecotextura habitual.
+      Medidas do ovário direito: _ x _ x _ cm (volume: _ cm³; normal abaixo de 10 cm³ na menacme).
+      Ovário esquerdo em topografia, morfologia, contornos e dimensões normais.
+      Parênquima com ecotextura habitual.
+      Medidas do ovário esquerdo: _ x _ x _ cm (volume: _ cm³; normal abaixo de 10 cm³ na menacme).
+
+      Conclusão:
+      Achados ultrassonográficos dentro dos padrões da normalidade.
+
+      Fase menstrual: (normal de 0,2 a 0,4 cm)
+      Fase proliferativa inicial: (normal de 0,5 a 0,7 cm)
+      Fase proliferativa tardia: (normal até 1,1 cm)
+      Fase secretora: (normal de 0,7 a 1,6 cm)
+      Pós-menopausa com sangramento: (normal até 0,4 cm)
     word: true
 
   - trigger: "an1"
@@ -1391,6 +1534,51 @@ matches:
       Grau 3 por volta da 39ª semana, Placenta com calcificação da placa basal à coriônica.
     word: true
 
+  - trigger: "usob2"
+    label: Obstétrica — normal, com medidas e valores de referência
+    replace: |-
+      ULTRASSONOGRAFIA OBSTÉTRICA
+
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, por via transabdominal em tempo real, com Modo B.
+
+      Descrição:
+      Feto único, em situação longitudinal, com apresentação _ e dorso à _ da linha média.
+      O feto apresenta sinais vitais presentes, representados por movimentação ativa e batimentos cardíacos presentes. Frequência cardíaca em torno de _ batimentos por minuto (bpm).
+
+      Biometria fetal:
+      Diâmetro biparietal medindo _ cm.
+      Circunferência cefálica medindo _ cm.
+      Circunferência abdominal medindo _ cm.
+      Comprimento femoral fetal medindo _ cm.
+      Comprimento umeral fetal medindo _ cm.
+      Peso fetal estimado (Hadlock): _ gramas (variação de +/- 15%). Percentil _ para a idade gestacional.
+
+      Cordão umbilical contendo três vasos.
+
+      Placenta de inserção _, não se estendendo até o segmento inferior do útero. Grau _ de maturidade (Grannum).
+
+      Líquido amniótico com aspecto e quantidade normais, com maior bolsão vertical de _ cm (oligoâmnio abaixo de 2 cm; polidrâmnio a partir de 8 cm).
+
+      Conclusão:
+      Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia.
+      Feto crescendo no percentil _ para a idade gestacional.
+
+      Obs.: A ultrassonografia obstétrica tem como finalidade a determinação do posicionamento fetal e da placenta, avaliação quantitativa do líquido amniótico e biometria fetal. O estudo da morfologia fetal é realizado na ultrassonografia morfológica.
+
+
+      < ou = 8s + 6d - erro de 5 dias: (erro de +/- 5 dias)
+      9sem até 15sem + 6d - erro 7 dias: (erro de +/- 7 dias)
+      16sem até 21sem + 6d - erro 10 dias: (erro de +/- 10 dias)
+      22sem até 27sem + 6d - erro 14 dias: (erro de +/- 14 dias)
+      > ou = 28sem - 21d - erro 21 dias: (erro de +/- 21 dias)
+
+      Grau 0 até à 18ª semana, Placenta homogênea e sem calcificação. 
+      Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
+      Grau 2 entre a 30ª e 38ª semana, Placenta com calcificações na placa basal.
+      Grau 3 por volta da 39ª semana, Placenta com calcificação da placa basal à coriônica.
+    word: true
+
   - trigger: "usobd"
     label: Obstétrica com Doppler — normal
     replace: |-
@@ -1421,6 +1609,60 @@ matches:
        IR = _. IP = _ (percentil _).
       Artérias umbilicais com onda de padrão normal e adequado fluxo diastólico para a fase da gestação:
        IR = _. IP = _ (percentil _).
+      A relação cérebro-umbilical não evidencia fenômeno de centralização hemodinâmica fetal:
+       IPC / IPU = _ (percentil _).
+
+      Conclusão:
+      Gestação tópica, única, correspondendo a _ semanas e _ dias, de acordo com a ultrassonografia prévia.
+      Feto crescendo no percentil _ para a idade gestacional.
+      Estudo Doppler-sonográfico dentro da normalidade para a fase da gestação.
+
+      Obs.: A ultrassonografia obstétrica tem como finalidade a determinação do posicionamento fetal e da placenta, avaliação quantitativa do líquido amniótico e biometria fetal. O estudo da morfologia fetal é realizado na ultrassonografia morfológica.
+
+      < ou = 8s + 6d - erro de 5 dias: (erro de +/- 5 dias)
+      9sem até 15sem + 6d - erro 7 dias: (erro de +/- 7 dias)
+      16sem até 21sem + 6d - erro 10 dias: (erro de +/- 10 dias)
+      22sem até 27sem + 6d - erro 14 dias: (erro de +/- 14 dias)
+      > ou = 28sem - 21d - erro 21 dias: (erro de +/- 21 dias)
+
+      Grau 0 até à 18ª semana, Placenta homogênea e sem calcificação. 
+      Grau 1 entre a 18ª e 29ª semana, Placenta com pequenas calcificações intraplacentárias. 
+      Grau 2 entre a 30ª e 38ª semana, Placenta com calcificações na placa basal.
+      Grau 3 por volta da 39ª semana, Placenta com calcificação da placa basal à coriônica.
+    word: true
+
+  - trigger: "usobd2"
+    label: Obstétrica com Doppler — normal, com medidas e valores de referência
+    replace: |-
+      ULTRASSONOGRAFIA OBSTÉTRICA COM DOPPLER
+
+      Técnica:
+      Exame ultrassonográfico realizado utilizando sonda convexa multifrequencial, por via transabdominal em tempo real, com Modo B, Doppler colorido e Doppler Triplex.
+
+      Descrição:
+      Feto único, em situação longitudinal, com apresentação _ e dorso à _ da linha média.
+      O feto apresenta sinais vitais presentes, representados por movimentação ativa e batimentos cardíacos presentes. Frequência cardíaca em torno de _ batimentos por minuto (bpm).
+
+      Biometria fetal:
+      Diâmetro biparietal medindo _ cm.
+      Circunferência cefálica medindo _ cm.
+      Circunferência abdominal medindo _ cm.
+      Comprimento femoral fetal medindo _ cm.
+      Comprimento umeral fetal medindo _ cm.
+      Peso fetal estimado (Hadlock): _ gramas (variação de +/- 15%). Percentil _ para a idade gestacional.
+
+      Cordão umbilical com inserção fetal e placentária preservadas. Presença de 2 artérias e uma veia.
+
+      Placenta de inserção _, não se estendendo até o segmento inferior do útero. Grau _ de maturidade (Grannum).
+
+      Líquido amniótico com aspecto e quantidade normais, com índice de líquido amniótico de _ cm (oligoâmnio até 5 cm; polidrâmnio a partir de 24 cm) e maior bolsão vertical de _ cm (oligoâmnio abaixo de 2 cm; polidrâmnio a partir de 8 cm).
+
+      Doppler obstétrico:
+      As artérias cerebrais médias apresentam fluxo de padrão habitual para a fase da gestação, com:
+       IR = _. IP = _ (percentil _).
+      Artérias umbilicais com onda de padrão normal e adequado fluxo diastólico para a fase da gestação:
+       IR = _. IP = _ (percentil _).
+      Artérias uterinas com índice de pulsatilidade médio de _ (percentil _; normal abaixo do percentil 95).
       A relação cérebro-umbilical não evidencia fenômeno de centralização hemodinâmica fetal:
        IPC / IPU = _ (percentil _).
 
@@ -7203,6 +7445,40 @@ matches:
       Parênquima testicular com ecotextura homogênea e sem alterações.
       Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
       Ausência de dilatação venosa dos plexos pampiniformes.
+      Fluxo vascular presente no testículo ao estudo Doppler.
+      Artéria testicular com fluxo de amplitude e velocidade normais, apresentando índice de resistência de _ (VR 0,45-0,78).
+
+      Conclusão:
+      - Estudo ultrassonográfico sem evidentes anormalidades apreciáveis ao método.
+    word: true
+
+  - trigger: "usbolsad2"
+    label: Bolsa escrotal com Doppler — normal, com medidas e valores de referência
+    replace: |-
+      ULTRASSONOGRAFIA DE BOLSA ESCROTAL COM DOPPLER
+
+      Descrição:
+      Exame ultrassonográfico realizado com transdutor linear multifrequencial e com estudo Doppler, sobre a região das bolsas testiculares.
+
+      Hemibolsa direita:
+      Pele e tecido celular subcutâneo de espessura normal.
+      Epidídimo e estruturas funiculares de dimensões normais e ecotextura habitual.
+      Testículo em topografia, morfologia e contornos normais.
+      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (normal a partir de 12 cm³).
+      Parênquima testicular com ecotextura homogênea e sem alterações.
+      Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
+      Veias do plexo pampiniforme de calibre normal, medindo até _ cm à manobra de Valsalva (varicocele a partir de 0,3 cm).
+      Fluxo vascular presente no testículo ao estudo Doppler.
+      Artéria testicular com fluxo de amplitude e velocidade normais, apresentando índice de resistência de _ (VR 0,45-0,78).
+
+      Hemibolsa esquerda:
+      Pele e tecido celular subcutâneo de espessura normal.
+      Epidídimo e estruturas funiculares de dimensões normais e ecotextura habitual.
+      Testículo em topografia, morfologia e contornos normais.
+      Dimensões testiculares normais, medindo: _ x _ x _ cm e volume de _ cm³ (normal a partir de 11 cm³).
+      Parênquima testicular com ecotextura homogênea e sem alterações.
+      Não foi evidenciado aumento anômalo de líquido entre as camadas dos envoltórios testiculares.
+      Veias do plexo pampiniforme de calibre normal, medindo até _ cm à manobra de Valsalva (varicocele a partir de 0,3 cm).
       Fluxo vascular presente no testículo ao estudo Doppler.
       Artéria testicular com fluxo de amplitude e velocidade normais, apresentando índice de resistência de _ (VR 0,45-0,78).
 

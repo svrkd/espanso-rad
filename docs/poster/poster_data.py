@@ -251,11 +251,11 @@ BLOCOS = [
 # (triggers, descricao) com a lista EXPLÍCITA de triggers cobertos — pares
 # D/E não são mais uma string tipo "usinguinald/e" para quebrar por "/".
 MODELOS = [
-    (("usabdtotal",), "abdome total"), (("usabdsup",), "abdome superior"),
-    (("usrv",), "rins e vias urinárias"), (("usprostata",), "próstata"),
-    (("uspelvica",), "pélvica"), (("ustv",), "transvaginal"),
-    (("usbolsa",), "bolsa escrotal"), (("usbolsad",), "bolsa escrotal c/ Doppler"),
-    (("usob",), "obstétrica"), (("usobd",), "obstétrica c/ Doppler"), (("usob1t",), "obstétrica 1ºT"),
+    (("usabdtotal", "usabdtotal2"), "abdome total"), (("usabdsup", "usabdsup2"), "abdome superior"),
+    (("usrv", "usrv2"), "rins e vias urinárias"), (("usprostata",), "próstata"),
+    (("uspelvica", "uspelvica2"), "pélvica"), (("ustv", "ustv2"), "transvaginal"),
+    (("usbolsa",), "bolsa escrotal"), (("usbolsad", "usbolsad2"), "bolsa escrotal c/ Doppler"),
+    (("usob", "usob2"), "obstétrica"), (("usobd", "usobd2"), "obstétrica c/ Doppler"), (("usob1t",), "obstétrica 1ºT"),
     (("usmamas",), "mamas"), (("ustireoide",), "tireoide"), (("ustireoided",), "tireoide c/ Doppler"),
     (("uscervical",), "cervical"), (("ustorax",), "tórax"), (("usestsup",), "partes moles"),
     (("usparede",), "parede abdominal"),
