@@ -7857,12 +7857,12 @@ matches:
 
   - trigger: "tf9"
     label: "Crânio (transfontanela): Ventriculomegalia moderada"
-    replace: "Dilatação moderada dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior superior a 6 mm (_ mm) e distância tálamo-occipital de _ mm."
+    replace: "Dilatação moderada dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior de _ mm (superior a 6 mm, limiar do estudo ELVIS) e distância tálamo-occipital de _ mm."
     word: true
 
   - trigger: "tf10"
     label: "Crânio (transfontanela): Ventriculomegalia acentuada / hidrocefalia"
-    replace: "Dilatação acentuada dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior superior a 10 mm (_ mm) e distância tálamo-occipital de _ mm, compatível com hidrocefalia."
+    replace: "Dilatação acentuada dos ventrículos laterais, com índice ventricular de _ mm à direita e _ mm à esquerda, largura do corno anterior de _ mm (superior a 6 mm, limiar do estudo ELVIS) e distância tálamo-occipital de _ mm, compatível com hidrocefalia."
     word: true
 
   - trigger: "tf11"
