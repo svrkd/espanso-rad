@@ -425,12 +425,12 @@ matches:
   # ==========================================================================
   # ANGIOTOMOGRAFIA ENCEFÁLICA — ASPECTO NORMAL
   # ==========================================================================
-  - trigger: "willisnormal"
+  - trigger: "angiocrnl"
     label: "Artérias intracranianas normais (angio-TC)"
     replace: "Segmentos intracranianos das artérias carótidas internas e vertebrais, artéria basilar e artérias cerebrais anteriores, médias e posteriores com trajeto, calibre e contornos preservados, sem estenoses, oclusões ou dilatações aneurismáticas."
     word: true
 
-  - trigger: "willisnormalc"
+  - trigger: "angiocrnlc"
     label: "Conclusão — angio-TC arterial encefálica normal"
     replace: "Angiotomografia arterial encefálica sem alterações significativas."
     word: true
