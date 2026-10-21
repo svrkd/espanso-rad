@@ -1789,3 +1789,365 @@ matches:
     label: "Arco palmar superficial incompleto (Coleman e Anson, grupo II)"
     replace: "Arco palmar superficial incompleto na mão _, sem anastomose entre os ramos que o formam (variação anatômica, grupo II de Coleman e Anson)."
     word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — ASPECTO NORMAL
+  # ==========================================================================
+  - trigger: "angiocervical1"
+    label: "Artérias cervicais normais (angio-TC)"
+    replace: "Arco aórtico com origem habitual dos troncos supra-aórticos. Artérias carótidas comuns, bifurcações carotídeas e segmentos cervicais das artérias carótidas internas e externas com trajeto, calibre e contornos preservados, sem placas ateromatosas, estenoses, oclusões ou dilatações aneurismáticas. Artérias vertebrais pérvias desde a origem até a entrada no crânio, com trajeto e calibre preservados."
+    word: true
+
+  - trigger: "angiocervical1c"
+    label: "Conclusão — angio-TC cervical normal"
+    replace: "Angiotomografia arterial cervical sem alterações significativas."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — ESTENOSE E OCLUSÃO CAROTÍDEA
+  # ==========================================================================
+  - trigger: "nascet1"
+    label: "Placa carotídea com estenose inferior a 50% (NASCET)"
+    replace: "Placa ateromatosa _ (calcificada; não calcificada; ou mista) no bulbo carotídeo e no segmento proximal da artéria carótida interna _, com espessura máxima de _ cm, determinando redução luminal estimada em _% pelo método NASCET (diâmetro mínimo da luz de _ cm e diâmetro da carótida interna distal normal de _ cm), inferior a 50%."
+    word: true
+
+  - trigger: "nascet1c"
+    label: "Conclusão — estenose carotídea inferior a 50%"
+    replace: "Ateromatose carotídea _, com estenose da artéria carótida interna inferior a 50% (NASCET)."
+    word: true
+
+  - trigger: "nascet2"
+    label: "Estenose carotídea moderada (redução luminal de 50 a 69%, NASCET)"
+    replace: "Placa ateromatosa _ (calcificada; não calcificada; ou mista) no bulbo carotídeo e no segmento proximal da artéria carótida interna _, com espessura máxima de _ cm, determinando redução luminal estimada em _% pelo método NASCET (diâmetro mínimo da luz de _ cm e diâmetro da carótida interna distal normal de _ cm), configurando estenose moderada (redução luminal de 50 a 69%)."
+    word: true
+
+  - trigger: "nascet2c"
+    label: "Conclusão — estenose carotídea moderada"
+    replace: "Estenose moderada da artéria carótida interna _ (NASCET 50 a 69%)."
+    word: true
+
+  - trigger: "nascet3"
+    label: "Estenose carotídea acentuada (redução luminal de 70 a 99%, NASCET), sem quase oclusão"
+    replace: "Placa ateromatosa _ (calcificada; não calcificada; ou mista) no bulbo carotídeo e no segmento proximal da artéria carótida interna _, com espessura máxima de _ cm, determinando redução luminal estimada em _% pelo método NASCET (diâmetro mínimo da luz de _ cm e diâmetro da carótida interna distal normal de _ cm), configurando estenose acentuada (redução luminal de 70 a 99%). Carótida interna distal de calibre preservado e simétrico ao contralateral, sem sinais de quase oclusão."
+    word: true
+
+  - trigger: "nascet3c"
+    label: "Conclusão — estenose carotídea acentuada"
+    replace: "Estenose acentuada da artéria carótida interna _ (NASCET 70 a 99%)."
+    word: true
+
+  - trigger: "quaseoclusao1"
+    label: "Quase oclusão carotídea sem colapso completo (NASCET não se aplica)"
+    replace: "Estenose crítica da artéria carótida interna _ junto à origem, com luz residual de _ cm, associada a redução do calibre da carótida interna distal (_ cm) em relação à carótida interna contralateral (_ cm) e à carótida externa ipsilateral (_ cm), sem colapso completo, compatível com quase oclusão. Na quase oclusão, o percentual de estenose pelo método NASCET não se aplica, pois a carótida interna distal, usada como referência, está reduzida."
+    word: true
+
+  - trigger: "quaseoclusao1c"
+    label: "Conclusão — quase oclusão carotídea sem colapso completo"
+    replace: "Quase oclusão da artéria carótida interna _, sem colapso completo."
+    word: true
+
+  - trigger: "quaseoclusao2"
+    label: "Quase oclusão carotídea com colapso completo (sinal do barbante)"
+    replace: "Estenose crítica da artéria carótida interna _ junto à origem, com carótida interna distal pérvia, porém de calibre filiforme (sinal do barbante), com diâmetro de _ cm e relação de _ com a carótida interna distal contralateral, compatível com quase oclusão. Na quase oclusão, o percentual de estenose pelo método NASCET não se aplica."
+    word: true
+
+  - trigger: "quaseoclusao2c"
+    label: "Conclusão — quase oclusão carotídea com colapso completo"
+    replace: "Quase oclusão da artéria carótida interna _, com colapso completo (carótida interna distal filiforme)."
+    word: true
+
+  - trigger: "oclusaocarotida"
+    label: "Oclusão da artéria carótida interna cervical"
+    replace: "Ausência de opacificação da artéria carótida interna _ a partir da origem, com coto afilado junto à bifurcação carotídea, compatível com oclusão. Associa-se reenchimento do segmento _ (petroso; cavernoso; ou supraclinoide) por circulação colateral através da _ (artéria comunicante anterior; artéria comunicante posterior; ou artéria oftálmica)."
+    word: true
+
+  - trigger: "oclusaocarotidac"
+    label: "Conclusão — oclusão da artéria carótida interna"
+    replace: "Oclusão da artéria carótida interna _ desde a origem."
+    word: true
+
+  - trigger: "ostiovertebral"
+    label: "Estenose ateromatosa na origem da artéria vertebral"
+    replace: "Placa ateromatosa na origem da artéria vertebral _, determinando redução luminal estimada em _%, com opacificação preservada a jusante."
+    word: true
+
+  - trigger: "ostiovertebralc"
+    label: "Conclusão — estenose na origem da artéria vertebral"
+    replace: "Estenose ateromatosa na origem da artéria vertebral _."
+    word: true
+
+  - trigger: "oclusaovertebral"
+    label: "Oclusão da artéria vertebral cervical"
+    replace: "Ausência de opacificação da artéria vertebral _ desde a origem até _, compatível com oclusão. Associa-se reenchimento do segmento _ (V2; V3; ou V4) por ramos colaterais musculares cervicais."
+    word: true
+
+  - trigger: "oclusaovertebralc"
+    label: "Conclusão — oclusão da artéria vertebral"
+    replace: "Oclusão da artéria vertebral _ no segmento cervical."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — CARACTERÍSTICAS DA PLACA CAROTÍDEA
+  # ==========================================================================
+  - trigger: "placaespessa"
+    label: "Placa carotídea com espessura ≥ 0,3 cm (Carotid Plaque-RADS 3)"
+    replace: "Placa ateromatosa _ (predominantemente hipoatenuante; mista; ou calcificada) no bulbo carotídeo _, com espessura máxima de _ cm (≥ 0,3 cm), medida no plano perpendicular ao eixo do vaso, sem ulceração ou trombo intraluminal. A angio-TC não avalia com segurança a hemorragia intraplaca nem a capa fibrosa, que podem ser estudadas por ressonância magnética."
+    word: true
+
+  - trigger: "placaespessac"
+    label: "Conclusão — placa carotídea espessa (Plaque-RADS 3)"
+    replace: "Placa carotídea _ com espessura igual ou superior a 0,3 cm, sem ulceração (Carotid Plaque-RADS 3). A critério clínico, a ressonância magnética pode avaliar hemorragia intraplaca."
+    word: true
+
+  - trigger: "placaulcerada"
+    label: "Placa carotídea ulcerada (Carotid Plaque-RADS 3c)"
+    replace: "Placa ateromatosa _ (calcificada; não calcificada; ou mista) no bulbo carotídeo _, com ulceração caracterizada por projeção do meio de contraste para o interior da placa, com _ cm de profundidade (≥ 0,1 cm), sem trombo intraluminal."
+    word: true
+
+  - trigger: "placaulceradac"
+    label: "Conclusão — placa carotídea ulcerada (Plaque-RADS 3c)"
+    replace: "Placa carotídea _ ulcerada (Carotid Plaque-RADS 3c)."
+    word: true
+
+  - trigger: "trombocarotida"
+    label: "Trombo intraluminal carotídeo (Carotid Plaque-RADS 4c)"
+    replace: "Falha de enchimento intraluminal no bulbo carotídeo e na artéria carótida interna _, circundada pelo meio de contraste nos cortes axiais, aderida à superfície de placa ateromatosa, medindo _ cm, compatível com trombo intraluminal."
+    word: true
+
+  - trigger: "trombocarotidac"
+    label: "Conclusão — trombo intraluminal carotídeo (Plaque-RADS 4c)"
+    replace: "Trombo intraluminal sobre placa ateromatosa na artéria carótida interna _ (Carotid Plaque-RADS 4c)."
+    word: true
+
+  - trigger: "webcarotida"
+    label: "Web carotídeo (septo intimal no bulbo)"
+    replace: "Falha de enchimento fina, em forma de prateleira, projetando-se para a luz a partir da parede _ (posterior; ou posterolateral) do bulbo carotídeo _, caracterizada como linha nos cortes axiais e como septo nas reformatações sagitais, sem placa ateromatosa associada, compatível com web carotídeo."
+    word: true
+
+  - trigger: "webcarotidac"
+    label: "Conclusão — web carotídeo"
+    replace: "Web carotídeo _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — DISSECÇÃO, DISPLASIA E ANEURISMA
+  # ==========================================================================
+  - trigger: "flapcarotida"
+    label: "Dissecção da artéria carótida interna cervical (estenose)"
+    replace: "Estreitamento luminal excêntrico e afilado da artéria carótida interna _ no segmento cervical _ (proximal; médio; ou distal, junto à base do crânio), a cerca de _ cm da bifurcação, poupando o bulbo carotídeo, com espessamento parietal em crescente hipoatenuante e aumento do diâmetro externo do vaso, determinando redução luminal estimada em _%, compatível com dissecção com hematoma intramural."
+    word: true
+
+  - trigger: "flapcarotidac"
+    label: "Conclusão — dissecção da carótida interna cervical"
+    replace: "Dissecção da artéria carótida interna _ no segmento cervical, com hematoma intramural e estenose."
+    word: true
+
+  - trigger: "flapcarotida2"
+    label: "Dissecção da artéria carótida interna cervical (oclusão afilada)"
+    replace: "Afilamento progressivo da luz da artéria carótida interna _ a partir de cerca de _ cm da bifurcação, poupando o bulbo carotídeo, até a ausência de opacificação (oclusão em chama de vela), com espessamento parietal em crescente hipoatenuante e aumento do diâmetro externo do vaso, compatível com dissecção com oclusão."
+    word: true
+
+  - trigger: "flapcarotida2c"
+    label: "Conclusão — dissecção da carótida interna com oclusão"
+    replace: "Dissecção da artéria carótida interna _ no segmento cervical, com oclusão."
+    word: true
+
+  - trigger: "flapvertebral"
+    label: "Dissecção da artéria vertebral cervical (estenose)"
+    replace: "Estreitamento luminal excêntrico da artéria vertebral _ no segmento _ (V1; V2; ou V3), estendendo-se por cerca de _ cm, com espessamento parietal em crescente hipoatenuante e aumento do diâmetro externo do vaso, determinando redução luminal estimada em _%, compatível com dissecção com hematoma intramural."
+    word: true
+
+  - trigger: "flapvertebralc"
+    label: "Conclusão — dissecção da artéria vertebral"
+    replace: "Dissecção da artéria vertebral _ (segmento _), com hematoma intramural e estenose."
+    word: true
+
+  - trigger: "flapvertebral2"
+    label: "Dissecção da artéria vertebral cervical (oclusão)"
+    replace: "Afilamento progressivo da luz da artéria vertebral _ no segmento _ (V1; V2; ou V3) até a ausência de opacificação, com espessamento parietal em crescente hipoatenuante e aumento do diâmetro externo do vaso, compatível com dissecção com oclusão. Associa-se reenchimento do segmento _ (V3; ou V4) por ramos colaterais."
+    word: true
+
+  - trigger: "flapvertebral2c"
+    label: "Conclusão — dissecção da artéria vertebral com oclusão"
+    replace: "Dissecção da artéria vertebral _ (segmento _), com oclusão."
+    word: true
+
+  - trigger: "colarcarotida"
+    label: "Displasia fibromuscular multifocal da carótida interna (colar de contas)"
+    replace: "Alternância de segmentos estreitados e dilatados nos terços médio e distal do segmento cervical da artéria carótida interna _ (aspecto em colar de contas), poupando a bifurcação e o bulbo carotídeo, sem placas ateromatosas, podendo corresponder a displasia fibromuscular multifocal."
+    word: true
+
+  - trigger: "colarcarotidac"
+    label: "Conclusão — displasia fibromuscular carotídea"
+    replace: "Aspecto em colar de contas da artéria carótida interna _, podendo corresponder a displasia fibromuscular multifocal. O consenso internacional de 2019 recomenda avaliação, ao menos uma vez, das artérias do encéfalo à pelve, incluindo a pesquisa de aneurismas intracranianos."
+    word: true
+
+  - trigger: "pseudocarotida"
+    label: "Pseudoaneurisma cervical (carótida ou vertebral)"
+    replace: "Formação sacular junto à face _ da artéria _ (carótida interna; carótida comum; ou vertebral), no segmento _, medindo _ cm, com opacificação acompanhando a do leito arterial e colo de _ cm comunicando-se com a luz, compatível com pseudoaneurisma."
+    word: true
+
+  - trigger: "pseudocarotidac"
+    label: "Conclusão — pseudoaneurisma cervical"
+    replace: "Pseudoaneurisma da artéria _."
+    word: true
+
+  - trigger: "aneucarotida"
+    label: "Aneurisma da artéria carótida extracraniana"
+    replace: "Dilatação aneurismática _ (fusiforme; ou sacular) da artéria carótida _ (comum; interna; ou externa) _, no segmento _, com diâmetro máximo de _ cm (segmento adjacente normal: _ cm), estendendo-se por cerca de _ cm. Associa-se trombo mural de até _ cm de espessura."
+    word: true
+
+  - trigger: "aneucarotidac"
+    label: "Conclusão — aneurisma da artéria carótida extracraniana"
+    replace: "Aneurisma _ (fusiforme; ou sacular) da artéria carótida _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — TRAUMA (ESCALA DE BIFFL)
+  # ==========================================================================
+  - trigger: "biffl1"
+    label: "Lesão cerebrovascular contusa grau I de Biffl (redução luminal < 25%)"
+    replace: "Irregularidade parietal da artéria _ (carótida interna; carótida comum; ou vertebral) no segmento _, com redução luminal inferior a 25% e opacificação preservada a jusante, compatível com lesão cerebrovascular contusa grau I de Biffl."
+    word: true
+
+  - trigger: "biffl1c"
+    label: "Conclusão — lesão cerebrovascular contusa grau I de Biffl"
+    replace: "Lesão cerebrovascular contusa da artéria _, grau I de Biffl."
+    word: true
+
+  - trigger: "biffl2"
+    label: "Lesão cerebrovascular contusa grau II de Biffl (redução luminal ≥ 25%, trombo ou retalho)"
+    replace: "Lesão da parede da artéria _ (carótida interna; carótida comum; ou vertebral), no segmento _, com _ (hematoma intramural; retalho intimal elevado; ou trombo intraluminal), determinando redução luminal estimada em _%, compatível com lesão cerebrovascular contusa grau II de Biffl (redução luminal igual ou superior a 25%, retalho intimal elevado ou trombo intraluminal)."
+    word: true
+
+  - trigger: "biffl2c"
+    label: "Conclusão — lesão cerebrovascular contusa grau II de Biffl"
+    replace: "Lesão cerebrovascular contusa da artéria _, grau II de Biffl."
+    word: true
+
+  - trigger: "biffl3"
+    label: "Lesão cerebrovascular contusa grau III de Biffl (pseudoaneurisma)"
+    replace: "Formação sacular junto à face _ da artéria _ (carótida interna; carótida comum; ou vertebral), no segmento _, medindo _ cm, comunicando-se com a luz e com opacificação acompanhando a do leito arterial, compatível com pseudoaneurisma traumático (lesão cerebrovascular contusa grau III de Biffl)."
+    word: true
+
+  - trigger: "biffl3c"
+    label: "Conclusão — lesão cerebrovascular contusa grau III de Biffl"
+    replace: "Pseudoaneurisma traumático da artéria _ (lesão cerebrovascular contusa grau III de Biffl)."
+    word: true
+
+  - trigger: "biffl4"
+    label: "Lesão cerebrovascular contusa grau IV de Biffl (oclusão)"
+    replace: "Ausência de opacificação da artéria _ (carótida interna; carótida comum; ou vertebral) a partir do segmento _, com afilamento abrupto da luz, compatível com oclusão traumática (lesão cerebrovascular contusa grau IV de Biffl)."
+    word: true
+
+  - trigger: "biffl4c"
+    label: "Conclusão — lesão cerebrovascular contusa grau IV de Biffl"
+    replace: "Oclusão traumática da artéria _ (lesão cerebrovascular contusa grau IV de Biffl)."
+    word: true
+
+  - trigger: "biffl5"
+    label: "Lesão cerebrovascular contusa grau V de Biffl (transecção com extravasamento)"
+    replace: "Descontinuidade da parede da artéria _ (carótida interna; carótida comum; ou vertebral), no segmento _, com extravasamento ativo do meio de contraste para hematoma cervical de _ cm, compatível com transecção arterial (lesão cerebrovascular contusa grau V de Biffl)."
+    word: true
+
+  - trigger: "biffl5c"
+    label: "Conclusão — lesão cerebrovascular contusa grau V de Biffl"
+    replace: "Transecção da artéria _ com extravasamento ativo do meio de contraste (lesão cerebrovascular contusa grau V de Biffl)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — PÓS-OPERATÓRIO, INFLAMAÇÃO E COMPRESSÃO
+  # ==========================================================================
+  - trigger: "endarterectomia1"
+    label: "Status pós-endarterectomia carotídea sem reestenose"
+    replace: "Status pós-endarterectomia da artéria carótida _, _ (com ampliação do bulbo por remendo; ou com fechamento primário), com luz de contornos regulares, sem reestenose, dilatação pseudoaneurismática ou coleções adjacentes."
+    word: true
+
+  - trigger: "endarterectomia1c"
+    label: "Conclusão — pós-endarterectomia carotídea sem reestenose"
+    replace: "Status pós-endarterectomia carotídea _, sem reestenose."
+    word: true
+
+  - trigger: "tipic"
+    label: "Inflamação perivascular transitória da carótida (TIPIC)"
+    replace: "Densificação excêntrica dos planos adiposos perivasculares da artéria carótida _, no nível da _ (bifurcação; ou carótida comum distal), com espessamento parietal de _ cm e realce pelo meio de contraste, sem redução luminal significativa. No contexto de dor cervical aguda sobre a carótida, os achados podem corresponder a inflamação perivascular transitória da carótida (TIPIC), cuja confirmação depende da regressão em até 14 dias."
+    word: true
+
+  - trigger: "tipicc"
+    label: "Conclusão — inflamação perivascular transitória da carótida (TIPIC)"
+    replace: "Infiltração perivascular excêntrica da artéria carótida _, podendo corresponder a inflamação perivascular transitória da carótida (TIPIC)."
+    word: true
+
+  - trigger: "eaglecarotida"
+    label: "Variante vascular da síndrome de Eagle (estiloide junto à carótida interna)"
+    replace: "Processo estiloide _ alongado, com _ cm de comprimento, cuja extremidade mantém contato com a parede _ (lateral; ou posterolateral) da artéria carótida interna ipsilateral, no espaço parafaríngeo, _ (sem redução luminal; ou determinando redução luminal estimada em _% nesse ponto). No contexto clínico adequado, os achados podem corresponder à variante vascular da síndrome de Eagle."
+    word: true
+
+  - trigger: "eaglecarotidac"
+    label: "Conclusão — variante vascular da síndrome de Eagle"
+    replace: "Processo estiloide _ alongado em contato com a artéria carótida interna, podendo corresponder à variante vascular da síndrome de Eagle."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — PARAGANGLIOMAS
+  # ==========================================================================
+  - trigger: "glomocarotideo"
+    label: "Paraganglioma do corpo carotídeo (sinal da lira, Shamblin)"
+    replace: "Formação expansiva sólida, ovalada, de contornos bem definidos, na bifurcação carotídea _, medindo _ cm, com intenso realce pelo meio de contraste na fase arterial, afastando as artérias carótidas interna e externa (sinal da lira) e mantendo contato com cerca de _° da circunferência da artéria carótida interna, sugerindo paraganglioma do corpo carotídeo. Grupo de Shamblin pelo contato com a carótida interna: I (≤ 180°), II (> 180° e < 270°) e III (≥ 270°)."
+    word: true
+
+  - trigger: "glomocarotideoc"
+    label: "Conclusão — paraganglioma do corpo carotídeo"
+    replace: "Formação expansiva hipervascular na bifurcação carotídea _, sugerindo paraganglioma do corpo carotídeo (Shamblin _)."
+    word: true
+
+  - trigger: "glomovagal"
+    label: "Paraganglioma vagal (desloca a carótida sem afastar interna e externa)"
+    replace: "Formação expansiva sólida no espaço carotídeo _, acima da bifurcação carotídea, medindo _ cm, com intenso realce pelo meio de contraste na fase arterial, deslocando as artérias carótidas anteromedialmente e a veia jugular interna posterolateralmente, sem afastar as artérias carótidas interna e externa, sugerindo paraganglioma vagal. Os diagnósticos diferenciais incluem schwannoma do nervo vago, entre outros."
+    word: true
+
+  - trigger: "glomovagalc"
+    label: "Conclusão — paraganglioma vagal"
+    replace: "Formação expansiva hipervascular no espaço carotídeo _, sugerindo paraganglioma vagal."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — VARIANTES ANATÔMICAS
+  # ==========================================================================
+  - trigger: "vertebralalta"
+    label: "Entrada alta da artéria vertebral no forame transverso"
+    replace: "Artéria vertebral _ penetrando no forame transverso de _ (C5; C4; ou C3), e não no de C6 (variação anatômica)."
+    word: true
+
+  - trigger: "carotidaretro"
+    label: "Carótida interna com trajeto medial retrofaríngeo"
+    replace: "Artéria carótida interna _ com trajeto medial, no espaço retrofaríngeo, junto à parede posterolateral da _ (nasofaringe; orofaringe; ou hipofaringe), a _ cm da mucosa (variação anatômica, relevante em procedimentos faríngeos)."
+    word: true
+
+  - trigger: "dolicocarotida"
+    label: "Tortuosidade, enrolamento ou angulação da carótida interna (Weibel e Fields)"
+    replace: "Artéria carótida interna _ com _ (tortuosidade em C ou em S; enrolamento em alça; ou angulação aguda) no segmento cervical, sem redução luminal significativa (variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA CERVICAL — VEIAS JUGULARES
+  # ==========================================================================
+  - trigger: "trombojugular"
+    label: "Trombose da veia jugular interna"
+    replace: "Falha de enchimento na veia jugular interna _, estendendo-se de _ a _, com aumento do calibre do vaso, compatível com trombose venosa."
+    word: true
+
+  - trigger: "trombojugularc"
+    label: "Conclusão — trombose da veia jugular interna"
+    replace: "Trombose da veia jugular interna _."
+    word: true
+
+  - trigger: "jugularseptica"
+    label: "Tromboflebite séptica da jugular interna (síndrome de Lemierre)"
+    replace: "Falha de enchimento na veia jugular interna _, estendendo-se de _ a _, com realce parietal e densificação dos planos adiposos adjacentes. Associa-se _ (faringoamigdalite; abscesso periamigdaliano; ou abscesso parafaríngeo) ipsilateral. No contexto infeccioso, os achados podem corresponder a tromboflebite séptica (síndrome de Lemierre)."
+    word: true
+
+  - trigger: "jugularsepticac"
+    label: "Conclusão — tromboflebite séptica da jugular interna"
+    replace: "Trombose da veia jugular interna _ associada a infecção orofaríngea, podendo corresponder a tromboflebite séptica (síndrome de Lemierre). A pesquisa de êmbolos sépticos pulmonares por tomografia de tórax pode ser considerada."
+    word: true
