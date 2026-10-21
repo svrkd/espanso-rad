@@ -855,7 +855,7 @@ matches:
 
   - trigger: "rvutd"
     label: "Rim (pediatria): dilatação do trato urinário, classificação UTD (achado descritivo) — P1: pelve ≥ 1,0 e < 1,5 cm ou dilatação calicinal central; P2: pelve ≥ 1,5 cm, dilatação calicinal periférica ou ureter dilatado; P3: alteração do parênquima ou da bexiga"
-    replace: "Diâmetro anteroposterior da pelve renal _ de _ cm, com dilatação calicinal central/periférica/ausente, parênquima de espessura e ecogenicidade preservadas/alteradas, ureter _ e bexiga _."
+    replace: "Diâmetro anteroposterior da pelve renal _ de _ cm, com dilatação calicinal central/periférica/ausente, parênquima de espessura e ecogenicidade preservadas/alteradas, ureter de calibre normal/dilatado e bexiga de aspecto habitual/com espessamento parietal/com ureterocele/com dilatação da uretra posterior."
     word: true
 
   - trigger: "rvutdc"
