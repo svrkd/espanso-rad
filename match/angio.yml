@@ -421,3 +421,347 @@ matches:
     label: "Conclusão — sequestro pulmonar"
     replace: "Sequestro pulmonar _ no lobo inferior _, com artéria nutridora oriunda da aorta _."
     word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA ENCEFÁLICA — ASPECTO NORMAL
+  # ==========================================================================
+  - trigger: "willisnormal"
+    label: "Artérias intracranianas normais (angio-TC)"
+    replace: "Segmentos intracranianos das artérias carótidas internas e vertebrais, artéria basilar e artérias cerebrais anteriores, médias e posteriores com trajeto, calibre e contornos preservados, sem estenoses, oclusões ou dilatações aneurismáticas."
+    word: true
+
+  - trigger: "willisnormalc"
+    label: "Conclusão — angio-TC arterial encefálica normal"
+    replace: "Angiotomografia arterial encefálica sem alterações significativas."
+    word: true
+
+  - trigger: "venosanormal"
+    label: "Seios durais e veias encefálicas normais (angio-TC venosa)"
+    replace: "Seios sagital superior, sagital inferior, reto, transversos e sigmoides, confluência dos seios, veias cerebrais internas, veia de Galeno e veias corticais com opacificação homogênea pelo meio de contraste, sem falhas de enchimento."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA ENCEFÁLICA — ANEURISMAS
+  # ==========================================================================
+  - trigger: "aneusacular"
+    label: "Aneurisma sacular intracraniano (não roto)"
+    replace: "Dilatação sacular da artéria _, no segmento _, projetando-se _, de contornos regulares, medindo _ cm no maior diâmetro do domo e _ cm de altura, com colo de _ cm, sem ramos emergindo do colo ou do domo, compatível com aneurisma."
+    word: true
+
+  - trigger: "aneusacularc"
+    label: "Conclusão — aneurisma sacular intracraniano"
+    replace: "Aneurisma sacular da artéria _ (_ cm; colo de _ cm)."
+    word: true
+
+  - trigger: "aneuroto"
+    label: "Aneurisma sacular lobulado com HSA (provável fonte)"
+    replace: "Dilatação sacular da artéria _, no segmento _, projetando-se _, de contornos lobulados, com saculação secundária (bleb) no domo, medindo _ cm no maior diâmetro do domo, com colo de _ cm, compatível com aneurisma. Associa-se hemorragia subaracnoide com maior concentração na _, adjacente ao aneurisma, sugerindo ser este a fonte do sangramento."
+    word: true
+
+  - trigger: "aneurotoc"
+    label: "Conclusão — aneurisma como provável fonte da HSA"
+    replace: "Aneurisma sacular lobulado da artéria _ (_ cm), sugerindo ser a fonte da hemorragia subaracnoide."
+    word: true
+
+  - trigger: "aneugigante"
+    label: "Aneurisma gigante parcialmente trombosado (≥ 2,5 cm)"
+    replace: "Dilatação aneurismática gigante da artéria _, medindo _ cm (≥ 2,5 cm), com trombo mural de até _ cm de espessura e luz residual opacificada de _ cm, compatível com aneurisma gigante parcialmente trombosado. Associa-se efeito expansivo sobre _."
+    word: true
+
+  - trigger: "aneugigantec"
+    label: "Conclusão — aneurisma gigante parcialmente trombosado"
+    replace: "Aneurisma gigante parcialmente trombosado da artéria _ (_ cm)."
+    word: true
+
+  - trigger: "dolicobasilar"
+    label: "Dolicoectasia vertebrobasilar (critérios de Smoker)"
+    replace: "Alongamento, tortuosidade e aumento do calibre da artéria basilar, com diâmetro de _ cm (> 0,45 cm), bifurcação no nível _ e posição _ em relação às margens do clivo e do dorso da sela, compatível com dolicoectasia vertebrobasilar."
+    word: true
+
+  - trigger: "dolicobasilarc"
+    label: "Conclusão — dolicoectasia vertebrobasilar"
+    replace: "Dolicoectasia vertebrobasilar."
+    word: true
+
+  - trigger: "aneumicotico"
+    label: "Aneurisma infeccioso (micótico) de ramo distal"
+    replace: "Dilatação fusiforme de ramo distal da artéria cerebral média _ (segmento _), medindo _ cm, sugerindo aneurisma infeccioso (micótico) no contexto clínico informado."
+    word: true
+
+  - trigger: "aneumicoticoc"
+    label: "Conclusão — aneurisma infeccioso (micótico)"
+    replace: "Dilatação aneurismática de ramo distal da artéria cerebral média _, sugestiva de aneurisma infeccioso (micótico)."
+    word: true
+
+  - trigger: "clipeaneurisma"
+    label: "Aneurisma clipado (artefato limitando o colo)"
+    replace: "Clipe metálico no colo de aneurisma da artéria _, determinando artefatos de endurecimento do feixe que limitam a avaliação de remanescente no colo. Artéria _ e ramos adjacentes pérvios."
+    word: true
+
+  - trigger: "clipeaneurismac"
+    label: "Conclusão — aneurisma clipado"
+    replace: "Status pós-clipagem de aneurisma da artéria _, com avaliação do colo limitada por artefatos."
+    word: true
+
+  - trigger: "aneuembolizado"
+    label: "Aneurisma embolizado com molas (artefato)"
+    replace: "Molas metálicas de embolização no interior de aneurisma da artéria _, determinando artefatos de endurecimento do feixe que impedem a avaliação de remanescente ou recanalização. Artéria _ e ramos adjacentes pérvios."
+    word: true
+
+  - trigger: "aneuembolizadoc"
+    label: "Conclusão — aneurisma embolizado"
+    replace: "Status pós-embolização de aneurisma da artéria _, com avaliação de remanescente limitada por artefatos."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA ENCEFÁLICA — OCLUSÃO E ESTENOSE ARTERIAL
+  # ==========================================================================
+  - trigger: "oclusaom1"
+    label: "Oclusão do segmento M1 com colaterais (escore de Tan)"
+    replace: "Ausência de opacificação do segmento M1 da artéria cerebral média _, a partir de _ cm de sua origem, estendendo-se por _ cm, compatível com oclusão. Associa-se circulação colateral leptomeníngea preenchendo _ do território da artéria ocluída."
+    word: true
+
+  - trigger: "oclusaom1c"
+    label: "Conclusão — oclusão de M1 (escore de colaterais de Tan)"
+    replace: "Oclusão do segmento M1 da artéria cerebral média _ (escore de colaterais de Tan _)."
+    word: true
+
+  - trigger: "oclusaom2"
+    label: "Oclusão de ramo M2"
+    replace: "Ausência de opacificação do ramo _ do segmento M2 da artéria cerebral média _, a partir de sua origem, compatível com oclusão."
+    word: true
+
+  - trigger: "oclusaom2c"
+    label: "Conclusão — oclusão de ramo M2"
+    replace: "Oclusão do ramo _ do segmento M2 da artéria cerebral média _."
+    word: true
+
+  - trigger: "carotidat"
+    label: "Oclusão em T da carótida interna terminal"
+    replace: "Ausência de opacificação do segmento terminal (C7) da artéria carótida interna _, estendendo-se aos segmentos M1 da artéria cerebral média e A1 da artéria cerebral anterior ipsilaterais, compatível com oclusão em T da carótida interna."
+    word: true
+
+  - trigger: "carotidatc"
+    label: "Conclusão — oclusão em T da carótida interna"
+    replace: "Oclusão em T da artéria carótida interna _ (segmento C7, M1 e A1)."
+    word: true
+
+  - trigger: "oclusaobasilar"
+    label: "Oclusão da artéria basilar"
+    replace: "Ausência de opacificação da artéria basilar a partir do terço _, estendendo-se por _ cm, compatível com oclusão. Associa-se opacificação das artérias cerebrais posteriores através das artérias comunicantes posteriores."
+    word: true
+
+  - trigger: "oclusaobasilarc"
+    label: "Conclusão — oclusão da artéria basilar"
+    replace: "Oclusão da artéria basilar (terço _)."
+    word: true
+
+  - trigger: "estenosewasid"
+    label: "Estenose aterosclerótica intracraniana (método WASID)"
+    replace: "Placa ateromatosa no segmento _ da artéria _, determinando estenose de _% (método WASID: diâmetro mínimo de _ cm e diâmetro de referência de _ cm)."
+    word: true
+
+  - trigger: "estenosewasidc"
+    label: "Conclusão — estenose aterosclerótica intracraniana"
+    replace: "Estenose aterosclerótica de _% no segmento _ da artéria _."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA ENCEFÁLICA — VASCULOPATIAS
+  # ==========================================================================
+  - trigger: "espasmohsa"
+    label: "Vasoespasmo após hemorragia subaracnoide"
+    replace: "Redução segmentar do calibre dos segmentos _ das artérias _, de contornos regulares, mais acentuada em _, com redução de cerca de _% em relação ao exame de _, no contexto de hemorragia subaracnoide, sugerindo vasoespasmo."
+    word: true
+
+  - trigger: "espasmohsac"
+    label: "Conclusão — vasoespasmo"
+    replace: "Sinais de vasoespasmo das artérias _."
+    word: true
+
+  - trigger: "vasoconstricao"
+    label: "Síndrome de vasoconstrição cerebral reversível (SVCR)"
+    replace: "Múltiplos estreitamentos segmentares alternados com dilatações (aspecto em colar de contas), acometendo bilateralmente ramos das artérias cerebrais _, com segmentos intracranianos das artérias carótidas internas poupados, sugerindo síndrome de vasoconstrição cerebral reversível. Os diagnósticos diferenciais incluem vasculite primária do sistema nervoso central, vasoespasmo após hemorragia subaracnoide aneurismática e aterosclerose intracraniana, entre outros."
+    word: true
+
+  - trigger: "vasoconstricaoc"
+    label: "Conclusão — SVCR"
+    replace: "Estreitamentos arteriais segmentares multifocais, sugestivos de síndrome de vasoconstrição cerebral reversível."
+    word: true
+
+  - trigger: "fumaca"
+    label: "Padrão moyamoya"
+    replace: "Estenose acentuada do segmento terminal da artéria carótida interna _ e das porções proximais das artérias cerebrais anterior e média ipsilaterais, associada a rede de vasos colaterais finos e tortuosos nos núcleos da base, sugerindo padrão moyamoya. Os diagnósticos diferenciais incluem doença de moyamoya e síndrome de moyamoya (aterosclerose, irradiação craniana prévia, neurofibromatose tipo 1, síndrome de Down), entre outros."
+    word: true
+
+  - trigger: "fumacac"
+    label: "Conclusão — padrão moyamoya"
+    replace: "Padrão moyamoya, acometendo _."
+    word: true
+
+  - trigger: "flapintra"
+    label: "Dissecção arterial intracraniana"
+    replace: "Retalho intimal no segmento _ da artéria _, associado a estreitamento luminal excêntrico e afilado, com espessamento parietal em crescente e aumento do diâmetro externo do vaso, compatível com dissecção. Associa-se dilatação pseudoaneurismática de _ cm."
+    word: true
+
+  - trigger: "flapintrac"
+    label: "Conclusão — dissecção arterial intracraniana"
+    replace: "Dissecção da artéria _ (segmento _), com pseudoaneurisma."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA ENCEFÁLICA — VARIANTES ANATÔMICAS
+  # ==========================================================================
+  - trigger: "cerebralfetal"
+    label: "Origem fetal da artéria cerebral posterior"
+    replace: "Origem fetal da artéria cerebral posterior _, suprida predominantemente pela artéria carótida interna ipsilateral através de artéria comunicante posterior de calibre superior ao do segmento P1, que é hipoplásico (variação anatômica)."
+    word: true
+
+  - trigger: "a1hipo"
+    label: "Hipoplasia do segmento A1"
+    replace: "Hipoplasia do segmento A1 da artéria cerebral anterior _, com território distal suprido pela artéria cerebral anterior contralateral através da artéria comunicante anterior (variação anatômica)."
+    word: true
+
+  - trigger: "infundibulo"
+    label: "Infundíbulo da artéria comunicante posterior"
+    replace: "Dilatação cônica de _ cm na origem da artéria comunicante posterior _, de base larga e afilando-se em direção ao ápice, do qual emerge a artéria comunicante posterior, compatível com infundíbulo (variação anatômica)."
+    word: true
+
+  - trigger: "trigeminalpersistente"
+    label: "Artéria trigeminal persistente (Saltzman I)"
+    replace: "Artéria trigeminal persistente, comunicando o segmento cavernoso da artéria carótida interna _ à artéria basilar, entre as origens das artérias cerebelares superiores e anteroinferiores, com trajeto _ (variação anatômica, tipo I de Saltzman). Associa-se hipoplasia do segmento proximal da artéria basilar, bem como das artérias comunicantes posteriores."
+    word: true
+
+  - trigger: "trigeminalpersistentec"
+    label: "Conclusão — artéria trigeminal persistente"
+    replace: "Artéria trigeminal persistente _ (variação anatômica)."
+    word: true
+
+  - trigger: "basilarfenestrada"
+    label: "Fenestração da artéria basilar"
+    replace: "Fenestração do segmento proximal da artéria basilar, sem dilatação aneurismática associada (variação anatômica)."
+    word: true
+
+  - trigger: "vertebralfina"
+    label: "Hipoplasia da artéria vertebral intracraniana"
+    replace: "Artéria vertebral _ de calibre reduzido e regular em toda a extensão do segmento intracraniano (_ cm), com dominância da artéria vertebral contralateral, compatível com hipoplasia (variação anatômica)."
+    word: true
+
+  - trigger: "vertebralpica"
+    label: "Artéria vertebral terminando na PICA"
+    replace: "Artéria vertebral _ terminando na artéria cerebelar posteroinferior, sem contribuição para a artéria basilar, que é suprida pela artéria vertebral contralateral (variação anatômica)."
+    word: true
+
+  - trigger: "anteriorazigos"
+    label: "Artéria cerebral anterior ázigos"
+    replace: "Artéria cerebral anterior ázigos, com os segmentos A1 unindo-se em tronco único na linha média, sem artéria comunicante anterior (variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA ENCEFÁLICA — MALFORMAÇÕES E FÍSTULAS
+  # ==========================================================================
+  - trigger: "mavcerebro"
+    label: "Malformação arteriovenosa encefálica (Spetzler-Martin)"
+    replace: "Malformação arteriovenosa no lobo _, com nidus de _ cm no maior eixo, nutrida por ramos dilatados da artéria _ e drenada por veia _ dilatada para o seio _, em área não eloquente."
+    word: true
+
+  - trigger: "mavcerebroc"
+    label: "Conclusão — MAV encefálica (Spetzler-Martin)"
+    replace: "Malformação arteriovenosa no lobo _ (Spetzler-Martin grau _)."
+    word: true
+
+  - trigger: "fistuladural"
+    label: "Fístula arteriovenosa dural"
+    replace: "Assimetria dos ramos da artéria carótida externa, com dilatação das artérias occipital e meníngea média _, associada a opacificação precoce do seio _ na fase arterial e aspecto irregular de suas paredes, sugerindo fístula arteriovenosa dural. Associa-se dilatação de veias corticais adjacentes, sugerindo refluxo venoso cortical."
+    word: true
+
+  - trigger: "fistuladuralc"
+    label: "Conclusão — fístula arteriovenosa dural"
+    replace: "Achados sugestivos de fístula arteriovenosa dural do seio _, com sinais de refluxo venoso cortical."
+    word: true
+
+  - trigger: "carotidocavernosa"
+    label: "Fístula carótido-cavernosa"
+    replace: "Alargamento e opacificação precoce do seio cavernoso _ na fase arterial, associados a dilatação da veia oftálmica superior ipsilateral (_ cm), sugerindo fístula carótido-cavernosa. Associa-se proptose _."
+    word: true
+
+  - trigger: "carotidocavernosac"
+    label: "Conclusão — fístula carótido-cavernosa"
+    replace: "Achados sugestivos de fístula carótido-cavernosa _."
+    word: true
+
+  - trigger: "caputmedusa"
+    label: "Anomalia venosa do desenvolvimento (cabeça de medusa)"
+    replace: "Veias medulares dilatadas de disposição radial (aspecto em cabeça de medusa), convergindo para veia coletora calibrosa que drena para _, no lobo _, compatível com anomalia venosa do desenvolvimento (variação anatômica)."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA ENCEFÁLICA — VEIAS E SEIOS DURAIS
+  # ==========================================================================
+  - trigger: "seiotrombosado"
+    label: "Trombose de seio dural"
+    replace: "Falha de enchimento intraluminal no seio _, estendendo-se a _, com realce periférico das paredes durais (sinal do delta vazio), compatível com trombose venosa."
+    word: true
+
+  - trigger: "seiotrombosadoc"
+    label: "Conclusão — trombose de seio dural"
+    replace: "Trombose venosa do seio _, estendendo-se a _."
+    word: true
+
+  - trigger: "veiacortical"
+    label: "Trombose de veia cortical"
+    replace: "Ausência de opacificação da veia cortical _, que se apresenta tubular e espontaneamente hiperatenuante na fase sem contraste, compatível com trombose venosa cortical."
+    word: true
+
+  - trigger: "veiacorticalc"
+    label: "Conclusão — trombose de veia cortical"
+    replace: "Trombose de veia cortical _."
+    word: true
+
+  - trigger: "venosaprofunda"
+    label: "Trombose do sistema venoso profundo"
+    replace: "Ausência de opacificação das veias cerebrais internas, da veia de Galeno e do seio reto, compatível com trombose do sistema venoso profundo. Associa-se hipoatenuação talâmica bilateral, sugerindo edema venoso."
+    word: true
+
+  - trigger: "venosaprofundac"
+    label: "Conclusão — trombose do sistema venoso profundo"
+    replace: "Trombose do sistema venoso profundo, com edema talâmico bilateral."
+    word: true
+
+  - trigger: "transversofino"
+    label: "Hipoplasia do seio transverso (variante)"
+    replace: "Seio transverso _ de calibre reduzido, com opacificação homogênea e forame jugular ipsilateral de menores dimensões, compatível com hipoplasia (variação anatômica)."
+    word: true
+
+  - trigger: "seiosestreitos"
+    label: "Estenose bilateral dos seios transversos"
+    replace: "Estreitamento focal bilateral da transição entre os seios transverso e sigmoide, sem falhas de enchimento, achado que pode estar associado a hipertensão intracraniana idiopática."
+    word: true
+
+  - trigger: "seiosestreitosc"
+    label: "Conclusão — estenose bilateral dos seios transversos"
+    replace: "Estenose bilateral dos seios transversos."
+    word: true
+
+  # ==========================================================================
+  # ANGIOTOMOGRAFIA ENCEFÁLICA — HEMORRAGIA
+  # ==========================================================================
+  - trigger: "spotsign"
+    label: "Sinal do ponto (spot sign) no hematoma"
+    replace: "Foco puntiforme de realce pelo meio de contraste no interior do hematoma _, sem continuidade com vasos adjacentes e sem correspondente hiperatenuante na fase sem contraste, compatível com sinal do ponto (spot sign)."
+    word: true
+
+  - trigger: "spotsignc"
+    label: "Conclusão — sinal do ponto (spot sign)"
+    replace: "Sinal do ponto (spot sign) no hematoma _, marcador de risco de expansão."
+    word: true
+
+  - trigger: "perimesencefalica"
+    label: "HSA perimesencefálica sem aneurisma à angio-TC"
+    replace: "Ausência de aneurismas ou de outras alterações vasculares identificáveis pelo método, em paciente com hemorragia subaracnoide de distribuição perimesencefálica."
+    word: true
+
+  - trigger: "perimesencefalicac"
+    label: "Conclusão — HSA perimesencefálica sem aneurisma"
+    replace: "Hemorragia subaracnoide de padrão perimesencefálico, sem aneurisma identificável à angiotomografia."
+    word: true
