@@ -9,7 +9,9 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | Trigger | Label |
 |---|---|
 | usabdtotal | Abdome total — normal |
+| usabdtotal2 | Abdome total — normal, com medidas e valores de referência |
 | usabdsup | Abdome superior — normal |
+| usabdsup2 | Abdome superior — normal, com medidas e valores de referência |
 | ap1 | Apêndice cecal: Sinais sugestivos de apendicite aguda (achado descritivo) |
 | ap1c | Apêndice cecal: Sinais sugestivos de apendicite aguda |
 | ap2 | Apêndice cecal: Sinais sugestivos de processo inflamatório/infeccioso do apêndice cecal (achado descritivo) |
@@ -89,6 +91,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | Trigger | Label |
 |---|---|
 | usrv | Rins e vias urinárias — normal |
+| usrv2 | Rins e vias urinárias — normal, com medidas e valores de referência |
 | usrvrn | Aparelho urinário neonatal — normal |
 | usprostata | Próstata via abdominal (modelo) |
 | bx1 | Bexiga: Bexiga com pequena repleção, o que prejudica a caracterização de suas paredes e conteúdo... |
@@ -151,7 +154,9 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | Trigger | Label |
 |---|---|
 | ustv | Transvaginal — normal |
+| ustv2 | Transvaginal — normal, com medidas e valores de referência |
 | uspelvica | Pélvica ginecológica — normal |
+| uspelvica2 | Pélvica ginecológica — normal, com medidas e valores de referência |
 | an1 | Anexos/região anexial: Cisto anexial simples à direita/esquerda (achado descritivo) |
 | an1c | Anexos/região anexial: Cisto anexial simples à direita/esquerda |
 | an2 | Anexos/região anexial: Massa anexial à direita/esquerda (achado descritivo) |
@@ -238,7 +243,9 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 |---|---|
 | usob1t | Obstétrica, 1º trimestre — normal |
 | usob | Obstétrica — normal |
+| usob2 | Obstétrica — normal, com medidas e valores de referência |
 | usobd | Obstétrica com Doppler — normal |
+| usobd2 | Obstétrica com Doppler — normal, com medidas e valores de referência |
 | usrestos | Cavidade uterina: restos ovulares/coágulos (achado descritivo) |
 | usrestosc | Cavidade uterina (restos ovulares): Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos... |
 | ob1 | Cavidade uterina: restos ovulares/coágulos (achado descritivo) |
@@ -1313,6 +1320,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | pdp4 | Pé: Sugerir correlação com RM |
 | usbolsa | Bolsa escrotal — normal |
 | usbolsad | Bolsa escrotal com Doppler — normal |
+| usbolsad2 | Bolsa escrotal com Doppler — normal, com medidas e valores de referência |
 | te7 | Testículo/bolsa escrotal: Testículo ectópico |
 | te1 | Testículo/bolsa escrotal: Ausência de fluxo vascular no testículo _, associada a alterações de textura parenquimatosa (achado descritivo) |
 | te1c | Testículo/bolsa escrotal: Ausência de fluxo vascular no testículo _, associada a alterações de textura parenquimatosa |
