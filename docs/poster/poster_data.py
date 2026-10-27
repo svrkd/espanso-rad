@@ -127,10 +127,10 @@ BLOCOS = [
         ("triggers", ["ma1", "mms1"], "mama", "cistos subcentimétricos (ambas)"),
         ("escada", "ma", "mama", [
             ("11", "cistos subcentimétricos D"), ("12", "cistos subcentimétricos E"),
-            ("3", "massa única"),
+            ("3", "nódulo único"),
             ("5", "microcistos agrupados"), ("6", "microcistos agrupados (ambas)"),
         ]),
-        ("triggers", ["ma3s", "ma4"], "mama", "múltiplas massas (≥2 sítios)"),
+        ("triggers", ["ma3s", "ma4"], "mama", "múltiplos nódulos (≥2 sítios)"),
         ("escada", "axl", "linfonodo axilar normal", [
             ("b", "bilateral"), ("d", "direito"), ("e", "esquerdo"),
         ]),
@@ -283,8 +283,8 @@ CURINGAS = [
     (("gordoo",), "limitação por panículo"),
     (("papv",), "pâncreas/aorta parcialmente visualizados"),
     (("limitgas",), "limitação por gás"),
-    (("usnc",), "massa mama D/E c/ achados acima"),
-    (("usncs",), "massas mama D/E c/ achados acima"),
+    (("usnc",), "nódulo mama D/E c/ achados acima"),
+    (("usncs",), "nódulos mama D/E c/ achados acima"),
     (("tvppaulo",), "bloco normal duplex venoso MI (femorais/poplítea/tibiais/fibular/safenas)"),
 ]
 
