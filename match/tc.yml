@@ -3977,7 +3977,7 @@ matches:
 
   - trigger: "tt518"
     label: "Padrão nodular perilinfático"
-    replace: "Nódulos centrolobulares e subpleurais associados a espessamento do interstício peribrônquico, caracterizando padrão perilinfático."
+    replace: "Nódulos de distribuição perilinfática, ao longo do interstício peribroncovascular, dos septos interlobulares e das superfícies subpleurais e fissurais."
     word: true
 
   - trigger: "tt521"
@@ -4011,8 +4011,8 @@ matches:
     word: true
 
   - trigger: "tt531"
-    label: "Padrão de fibrose pulmonar (usual/UIP)"
-    replace: "Espessamento septal com distorção arquitetural e bronquiectasias de tração associadas, com distribuição periférica e predomínio nas regiões basais posteriores."
+    label: "Fibrose pulmonar sem faveolamento (PIU provável)"
+    replace: "Opacidades reticulares subpleurais com predomínio basal e distribuição heterogênea, associadas a bronquiectasias e bronquiolectasias de tração periféricas, sem faveolamento. Achados compatíveis com padrão tomográfico de provável pneumonia intersticial usual."
     word: true
 
   - trigger: "tt533"
@@ -4077,17 +4077,247 @@ matches:
 
   - trigger: "ttperilinf"
     label: "Padrão nodular perilinfático"
-    replace: "Nódulos centrolobulares e subpleurais associados a espessamento do interstício peribrônquico, caracterizando padrão perilinfático."
+    replace: "Nódulos de distribuição perilinfática, ao longo do interstício peribroncovascular, dos septos interlobulares e das superfícies subpleurais e fissurais."
     word: true
 
   - trigger: "ttpine"
-    label: "Padrão de pneumonia intersticial não específica (NSIP)"
-    replace: "Áreas de atenuação em vidro fosco com distribuição periférica, poupando as regiões subpleurais, com raras bronquiolectasias de tração associadas e predomínio em regiões basais."
+    label: "Padrão de pneumonia intersticial não específica (PINE)"
+    replace: 'Opacidades com atenuação em "vidro fosco" associadas a finas opacidades reticulares, com distribuição simétrica, predomínio periférico nos lobos inferiores e relativa preservação do espaço subpleural imediato, associadas a bronquiectasias de tração e redução volumétrica dos lobos inferiores, sem faveolamento significativo. Achados compatíveis com padrão tomográfico de pneumonia intersticial não específica.'
     word: true
 
   - trigger: "ttpiu"
-    label: "Padrão de pneumonia intersticial usual (UIP/faveolamento)"
-    replace: "Espessamento septal com distorção arquitetural, faveolamento e bronquiectasias de tração associadas, com distribuição periférica e predomínio nas regiões basais posteriores."
+    label: "Padrão de pneumonia intersticial usual (PIU)"
+    replace: "Opacidades reticulares subpleurais com predomínio basal e distribuição heterogênea, associadas a faveolamento e a bronquiectasias e bronquiolectasias de tração periféricas. Achados compatíveis com padrão tomográfico de pneumonia intersticial usual."
+    word: true
+
+  - trigger: "ttpiuc"
+    label: "Conclusão: padrão de PIU"
+    replace: "Padrão tomográfico de pneumonia intersticial usual (PIU)."
+    word: true
+
+  - trigger: "ttpiuprov"
+    label: "Padrão de PIU provável"
+    replace: "Opacidades reticulares subpleurais com predomínio basal e distribuição heterogênea, associadas a bronquiectasias e bronquiolectasias de tração periféricas, sem faveolamento. Achados compatíveis com padrão tomográfico de provável pneumonia intersticial usual."
+    word: true
+
+  - trigger: "ttpiuprovc"
+    label: "Conclusão: padrão de PIU provável"
+    replace: "Padrão tomográfico de provável pneumonia intersticial usual (PIU provável)."
+    word: true
+
+  - trigger: "ttpiuind"
+    label: "Padrão indeterminado para PIU"
+    replace: 'Discretas opacidades reticulares subpleurais com predomínio basal, por vezes associadas a tênues opacidades com atenuação em "vidro fosco", sem bronquiectasias de tração ou faveolamento. Achados compatíveis com padrão tomográfico indeterminado para pneumonia intersticial usual.'
+    word: true
+
+  - trigger: "ttpiuindc"
+    label: "Conclusão: padrão indeterminado para PIU"
+    replace: "Padrão tomográfico indeterminado para pneumonia intersticial usual."
+    word: true
+
+  - trigger: "ttpinec"
+    label: "Conclusão: padrão de PINE"
+    replace: "Padrão tomográfico de pneumonia intersticial não específica (PINE). Os diagnósticos diferenciais incluem doença do tecido conjuntivo, pneumonite de hipersensibilidade fibrótica e toxicidade medicamentosa, entre outros."
+    word: true
+
+  - trigger: "ttfce"
+    label: "Fibrose pulmonar combinada com enfisema"
+    replace: "Enfisema centrolobular e parasseptal nos lobos superiores. Associam-se opacidades reticulares subpleurais com faveolamento e bronquiectasias de tração nos lobos inferiores."
+    word: true
+
+  - trigger: "ttfcec"
+    label: "Conclusão: fibrose combinada com enfisema"
+    replace: "Achados compatíveis com combinação de fibrose pulmonar e enfisema."
+    word: true
+
+  - trigger: "ttfepp"
+    label: "Fibroelastose pleuroparenquimatosa"
+    replace: "Espessamento pleural apical bilateral associado a fibrose subpleural com opacidades reticulares, distorção arquitetural e bronquiectasias de tração, predominando nos lobos superiores, com mínimo ou nenhum acometimento dos lobos inferiores."
+    word: true
+
+  - trigger: "ttfeppc"
+    label: "Conclusão: fibroelastose pleuroparenquimatosa"
+    replace: "Achados sugerindo fibroelastose pleuroparenquimatosa."
+    word: true
+
+  - trigger: "ttila"
+    label: "Anormalidades intersticiais pulmonares não fibróticas (ILA)"
+    replace: 'Discretas opacidades reticulares e com atenuação em "vidro fosco" subpleurais, bilaterais, em regiões não pendentes, sem distorção arquitetural, bronquiectasias de tração ou faveolamento, acometendo ao menos 5% de uma zona pulmonar.'
+    word: true
+
+  - trigger: "ttilac"
+    label: "Conclusão: ILA não fibróticas"
+    replace: "Anormalidades intersticiais pulmonares subpleurais não fibróticas."
+    word: true
+
+  - trigger: "ttilaf"
+    label: "Anormalidades intersticiais pulmonares fibróticas (ILA)"
+    replace: "Discretas opacidades reticulares subpleurais, bilaterais, em regiões não pendentes, associadas a bronquiolectasias de tração, acometendo ao menos 5% de uma zona pulmonar."
+    word: true
+
+  - trigger: "ttilafc"
+    label: "Conclusão: ILA fibróticas"
+    replace: "Anormalidades intersticiais pulmonares subpleurais fibróticas."
+    word: true
+
+  - trigger: "ttph"
+    label: "Pneumonite de hipersensibilidade não fibrótica"
+    replace: 'Opacidades com atenuação em "vidro fosco" e áreas de atenuação em mosaico difusas, associadas a nódulos centrolobulares mal definidos menores que 0,5 cm e a aprisionamento aéreo na fase expiratória, com distribuição difusa nos eixos craniocaudal e axial.'
+    word: true
+
+  - trigger: "ttphc"
+    label: "Conclusão: PH não fibrótica"
+    replace: "Padrão típico de pneumonite de hipersensibilidade não fibrótica."
+    word: true
+
+  - trigger: "ttphf"
+    label: "Pneumonite de hipersensibilidade fibrótica"
+    replace: 'Opacidades reticulares grosseiras com distorção arquitetural e bronquiectasias de tração, com predomínio nos campos médios e relativa preservação das bases, associadas a nódulos centrolobulares mal definidos e a padrão de três densidades (lóbulos de atenuação normal, com atenuação em "vidro fosco" e hipoatenuantes com redução da vascularização).'
+    word: true
+
+  - trigger: "ttphfc"
+    label: "Conclusão: PH fibrótica"
+    replace: "Padrão típico de pneumonite de hipersensibilidade fibrótica."
+    word: true
+
+  - trigger: "ttpo"
+    label: "Padrão de pneumonia em organização"
+    replace: 'Consolidações e opacidades com atenuação em "vidro fosco" multifocais e bilaterais, de distribuição periférica e peribroncovascular, associadas a padrão perilobular.'
+    word: true
+
+  - trigger: "ttpoc"
+    label: "Conclusão: pneumonia em organização"
+    replace: "Achados compatíveis com padrão de pneumonia em organização."
+    word: true
+
+  - trigger: "ttpil"
+    label: "Pneumonia intersticial linfocítica (PIL)"
+    replace: 'Opacidades com atenuação em "vidro fosco" associadas a cistos de paredes finas perivasculares esparsos, com predomínio nos lobos inferiores.'
+    word: true
+
+  - trigger: "ttpilc"
+    label: "Conclusão: PIL"
+    replace: "Achados sugerindo pneumonia intersticial linfocítica (PIL)."
+    word: true
+
+  - trigger: "ttpid"
+    label: "Pneumonia intersticial descamativa (PID)"
+    replace: 'Opacidades com atenuação em "vidro fosco" bilaterais, com predomínio periférico e basal, associadas a pequenos cistos de permeio.'
+    word: true
+
+  - trigger: "ttpidc"
+    label: "Conclusão: PID"
+    replace: "Achados sugerindo pneumonia intersticial descamativa (PID)."
+    word: true
+
+  - trigger: "tthalo"
+    label: "Nódulo com sinal do halo"
+    replace: 'Nódulo no lobo _ (superior; médio; ou inferior) _ (direito; ou esquerdo), medindo _ cm, circundado por halo de atenuação em "vidro fosco" (sinal do halo).'
+    word: true
+
+  - trigger: "tthaloc"
+    label: "Conclusão: sinal do halo"
+    replace: "Nódulo com sinal do halo. Admite-se inicialmente a hipótese de infecção fúngica angioinvasiva, destacando-se a aspergilose. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de neoplasia ou foco hemorrágico de outra natureza."
+    word: true
+
+  - trigger: "tthaloinv"
+    label: "Sinal do halo invertido"
+    replace: 'Área focal arredondada de atenuação em "vidro fosco" circundada por anel completo ou quase completo de consolidação (sinal do halo invertido) no lobo _ (superior; médio; ou inferior) _ (direito; ou esquerdo).'
+    word: true
+
+  - trigger: "tthaloinvc"
+    label: "Conclusão: sinal do halo invertido"
+    replace: "Sinal do halo invertido. Os diagnósticos diferenciais incluem pneumonia em organização, infecção fúngica invasiva (mucormicose) e paracoccidioidomicose, entre outros."
+    word: true
+
+  - trigger: "ttcentro"
+    label: "Padrão nodular centrolobular"
+    replace: 'Nódulos centrolobulares mal definidos com atenuação em "vidro fosco", difusos, poupando as superfícies pleurais e fissurais, sem aspecto de "árvore em brotamento".'
+    word: true
+
+  - trigger: "ttcentroc"
+    label: "Conclusão: padrão centrolobular"
+    replace: "Padrão nodular centrolobular. Os diagnósticos diferenciais incluem pneumonite de hipersensibilidade, bronquiolite respiratória e bronquiolite infecciosa, entre outros."
+    word: true
+
+  - trigger: "ttmiliar"
+    label: "Padrão micronodular miliar"
+    replace: "Inúmeros micronódulos com cerca de 0,3 cm, de distribuição aleatória e uniforme pelos campos pulmonares, acometendo inclusive as superfícies pleurais e fissurais."
+    word: true
+
+  - trigger: "ttmiliarc"
+    label: "Conclusão: padrão miliar"
+    replace: "Padrão micronodular miliar. Os diagnósticos diferenciais incluem tuberculose miliar, infecção fúngica disseminada e metástases hematogênicas, entre outros."
+    word: true
+
+  - trigger: "ttsarcoide"
+    label: "Sarcoidose pulmonar"
+    replace: "Nódulos perilinfáticos peribroncovasculares, subpleurais e perifissurais, com predomínio nos campos superiores e médios. Associam-se linfonodomegalias hilares bilaterais e simétricas, bem como mediastinais."
+    word: true
+
+  - trigger: "ttsarcoidec"
+    label: "Conclusão: sarcoidose"
+    replace: "Achados compatíveis com sarcoidose."
+    word: true
+
+  - trigger: "ttlinfangite"
+    label: "Linfangite carcinomatosa"
+    replace: "Espessamento liso e nodular dos septos interlobulares e do interstício peribroncovascular, preservando a arquitetura lobular."
+    word: true
+
+  - trigger: "ttlinfangitec"
+    label: "Conclusão: linfangite carcinomatosa"
+    replace: "Admite-se inicialmente a hipótese de linfangite carcinomatosa. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de edema intersticial ou sarcoidose."
+    word: true
+
+  - trigger: "ttlam"
+    label: "Linfangioleiomiomatose (LAM)"
+    replace: "Múltiplos cistos pulmonares de paredes finas, arredondados e bem definidos, com distribuição difusa e uniforme, sem predomínio zonal, com parênquima interposto preservado."
+    word: true
+
+  - trigger: "ttlamc"
+    label: "Conclusão: linfangioleiomiomatose"
+    replace: "Achados sugerindo linfangioleiomiomatose. Os diagnósticos diferenciais incluem histiocitose pulmonar de células de Langerhans, síndrome de Birt-Hogg-Dubé e pneumonia intersticial linfocítica, entre outros."
+    word: true
+
+  - trigger: "tthcl"
+    label: "Histiocitose pulmonar de células de Langerhans"
+    replace: "Nódulos centrolobulares, alguns escavados, associados a cistos de paredes finas e espessas com formas irregulares, com predomínio nos campos superiores e médios e relativa preservação das bases pulmonares."
+    word: true
+
+  - trigger: "tthclc"
+    label: "Conclusão: histiocitose de Langerhans"
+    replace: "Achados sugerindo histiocitose pulmonar de células de Langerhans."
+    word: true
+
+  - trigger: "ttpap"
+    label: "Proteinose alveolar pulmonar"
+    replace: 'Opacidades com atenuação em "vidro fosco" associadas a espessamento dos septos interlobulares e linhas intralobulares (pavimentação em mosaico), com distribuição geográfica, nitidamente demarcadas do parênquima normal adjacente.'
+    word: true
+
+  - trigger: "ttpapc"
+    label: "Conclusão: proteinose alveolar"
+    replace: "Padrão de pavimentação em mosaico com distribuição geográfica, podendo corresponder a proteinose alveolar pulmonar. Os diagnósticos diferenciais incluem infecção por Pneumocystis jirovecii, hemorragia alveolar e pneumonia lipoídica, entre outros."
+    word: true
+
+  - trigger: "ttpeo"
+    label: "Pneumonia eosinofílica crônica"
+    replace: "Consolidações não segmentares periféricas bilaterais, com predomínio nos lobos superiores."
+    word: true
+
+  - trigger: "ttpeoc"
+    label: "Conclusão: pneumonia eosinofílica crônica"
+    replace: "Achados sugerindo pneumonia eosinofílica crônica. Os diagnósticos diferenciais incluem pneumonia em organização e granulomatose eosinofílica com poliangiite, entre outros."
+    word: true
+
+  - trigger: "ttpanlob"
+    label: "Enfisema panlobular"
+    replace: "Enfisema panlobular difuso, com predomínio nos lobos inferiores, caracterizado por redução homogênea da atenuação e do calibre vascular."
+    word: true
+
+  - trigger: "ttpanlobc"
+    label: "Conclusão: enfisema panlobular"
+    replace: "Enfisema panlobular, podendo estar relacionado a deficiência de alfa-1-antitripsina."
     word: true
 
   - trigger: "acrp"
