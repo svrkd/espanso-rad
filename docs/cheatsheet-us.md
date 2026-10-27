@@ -59,9 +59,9 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | fh4c | Fígado (lesão focal): Nódulo hepático com as características acima descritas |
 | fh5 | Fígado (lesão focal): Múltiplos nódulos hepáticos com as características acima descritas (achado descritivo) |
 | fh5c | Fígado (lesão focal): Múltiplos nódulos hepáticos com as características acima descritas |
-| lirads1 | Fígado: LI-RADS US-1 (negativo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C |
-| lirads2 | Fígado: LI-RADS US-2 (subliminar, < 1,0 cm) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C |
-| lirads3 | Fígado: LI-RADS US-3 (positivo, ≥ 1,0 cm ou trombo venoso novo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C |
+| uslirads1 | Fígado: LI-RADS US-1 (negativo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C |
+| uslirads2 | Fígado: LI-RADS US-2 (subliminar, < 1,0 cm) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C |
+| uslirads3 | Fígado: LI-RADS US-3 (positivo, ≥ 1,0 cm ou trombo venoso novo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C |
 | vb0 | Vesícula biliar: Colecistectomia (achado descritivo) |
 | vb0c | Vesícula biliar: Colecistectomia |
 | vb1 | Vesícula biliar: Colecistolitíase (achado descritivo) |

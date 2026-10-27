@@ -305,7 +305,7 @@ EXCLUSOES = [
     (r'^ob([3-9]|[1-4]\d)c?$', 'malformação fetal — não é agenda de rotina'),
     (r'^(carot|vert|ds|aorta|dabd)\d*c?$', 'Doppler vascular em slot dedicado (carótidas/vertebral/aorta/abdome superior)'),
     (r'^graf', 'quadril infantil, método Graf'),
-    (r'^lirads[1-3]$', 'fígado — rastreamento LI-RADS US, só para população de risco'),
+    (r'^uslirads[1-3]$', 'fígado — rastreamento LI-RADS US, só para população de risco'),
     (r'^rvutd$', 'dilatação do trato urinário pediátrica (UTD) — achado específico'),
     (r'^usaortaabd$', 'aorta abdominal — exame dedicado, fora da agenda de rotina'),
     (r'^orads[2-5]$', 'ginecologia — categoria O-RADS US, frase acessória à conclusão do achado anexial'),
