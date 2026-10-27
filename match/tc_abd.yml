@@ -760,6 +760,75 @@ matches:
     replace: "Faixa hipoatenuante acompanhando os ramos portais intra-hepáticos (edema periportal). Os diagnósticos diferenciais incluem sobrecarga volêmica, hepatite aguda, congestão hepática e trauma, entre outros."
     word: true
 
+  - trigger: "tclirads1"
+    label: "LI-RADS 1 (TC) — definitivamente benigna"
+    replace: "Imagem no segmento _ (I a VIII) hepático, medindo _ cm, com características de _ (cisto; hemangioma; ou alteração perfusional), classificada como LI-RADS 1 (definitivamente benigna)."
+    word: true
+
+  - trigger: "tclirads2"
+    label: "LI-RADS 2 (TC) — provavelmente benigna"
+    replace: "Imagem no segmento _ (I a VIII) hepático, medindo _ cm, com características de provável benignidade, sem critérios maiores de carcinoma hepatocelular, classificada como LI-RADS 2 (provavelmente benigna)."
+    word: true
+
+  - trigger: "tclirads3"
+    label: "LI-RADS 3 (TC) — probabilidade intermediária de CHC"
+    replace: |-
+      Nódulo no segmento _ (I a VIII) hepático, medindo _ cm, _ (sem hiper-realce arterial; ou com hiper-realce arterial não periférico), sem outros critérios maiores, classificado como LI-RADS 3 (probabilidade intermediária de carcinoma hepatocelular).
+
+      Referência (LI-RADS TC/RM v2018): sem hiper-realce arterial, LR-3 sem critérios adicionais e LR-4 com um ou mais. Com hiper-realce arterial não periférico: menor que 1 cm, LR-3 sem critérios adicionais e LR-4 com um ou mais; de 1 a 1,9 cm, LR-3 sem critérios adicionais, LR-4 só com cápsula, LR-5 com washout não periférico ou crescimento acima do limiar, ou com dois ou mais critérios; 2 cm ou mais, LR-4 sem critérios adicionais e LR-5 com um ou mais. Critérios adicionais: washout não periférico, cápsula com realce e crescimento acima do limiar (aumento de 50% ou mais do diâmetro em até 6 meses).
+    word: true
+
+  - trigger: "tclirads4"
+    label: "LI-RADS 4 (TC) — provável CHC"
+    replace: |-
+      Nódulo no segmento _ (I a VIII) hepático, medindo _ cm, _ (sem hiper-realce arterial; ou com hiper-realce arterial não periférico), associado a _ (washout não periférico; cápsula com realce; ou crescimento acima do limiar), classificado como LI-RADS 4 (provável carcinoma hepatocelular).
+
+      Referência (LI-RADS TC/RM v2018): sem hiper-realce arterial, LR-3 sem critérios adicionais e LR-4 com um ou mais. Com hiper-realce arterial não periférico: menor que 1 cm, LR-3 sem critérios adicionais e LR-4 com um ou mais; de 1 a 1,9 cm, LR-3 sem critérios adicionais, LR-4 só com cápsula, LR-5 com washout não periférico ou crescimento acima do limiar, ou com dois ou mais critérios; 2 cm ou mais, LR-4 sem critérios adicionais e LR-5 com um ou mais. Critérios adicionais: washout não periférico, cápsula com realce e crescimento acima do limiar (aumento de 50% ou mais do diâmetro em até 6 meses).
+    word: true
+
+  - trigger: "tclirads5"
+    label: "LI-RADS 5 (TC) — definitivamente CHC"
+    replace: |-
+      Nódulo no segmento _ (I a VIII) hepático, medindo _ cm, com hiper-realce arterial não periférico, associado a _ (washout não periférico; cápsula com realce; ou crescimento acima do limiar), classificado como LI-RADS 5 (definitivamente carcinoma hepatocelular).
+
+      Referência (LI-RADS TC/RM v2018): sem hiper-realce arterial, LR-3 sem critérios adicionais e LR-4 com um ou mais. Com hiper-realce arterial não periférico: menor que 1 cm, LR-3 sem critérios adicionais e LR-4 com um ou mais; de 1 a 1,9 cm, LR-3 sem critérios adicionais, LR-4 só com cápsula, LR-5 com washout não periférico ou crescimento acima do limiar, ou com dois ou mais critérios; 2 cm ou mais, LR-4 sem critérios adicionais e LR-5 com um ou mais. Critérios adicionais: washout não periférico, cápsula com realce e crescimento acima do limiar (aumento de 50% ou mais do diâmetro em até 6 meses).
+    word: true
+
+  - trigger: "tcliradsm"
+    label: "LI-RADS M (TC) — maligno não específico para CHC"
+    replace: "Nódulo no segmento _ (I a VIII) hepático, medindo _ cm, com _ (hiper-realce arterial periférico em anel; washout periférico; realce central tardio; aspecto infiltrativo; ou necrose), classificado como LI-RADS M (provável ou definitivamente maligno, não específico para carcinoma hepatocelular)."
+    word: true
+
+  - trigger: "tcliradstiv"
+    label: "LI-RADS TIV (TC) — tumor em veia"
+    replace: "Tecido com realce inequívoco no interior do lúmen _ (do tronco da veia porta; do ramo portal direito; do ramo portal esquerdo; ou da veia hepática), classificado como LI-RADS TIV (tumor em veia)."
+    word: true
+
+  - trigger: "tcliradsnc"
+    label: "LI-RADS NC (TC) — não categorizável"
+    replace: "Imagem no segmento _ (I a VIII) hepático não categorizável por degradação ou omissão de fases do exame, classificada como LI-RADS NC."
+    word: true
+
+  - trigger: "tcliradsviavel"
+    label: "LI-RADS TR viável (TC)"
+    replace: "Realce de aspecto nodular ou espesso e irregular no interior ou na margem da área tratada no segmento _ (I a VIII) hepático, classificado como LI-RADS TR viável."
+    word: true
+
+  - trigger: "tcliradsequivoco"
+    label: "LI-RADS TR equívoco (TC)"
+    replace: "Realce tênue e mal definido na margem da área tratada no segmento _ (I a VIII) hepático, sem componente nodular, classificado como LI-RADS TR equívoco."
+    word: true
+
+  - trigger: "tcliradsnaoviavel"
+    label: "LI-RADS TR não viável (TC)"
+    replace: "Área tratada no segmento _ (I a VIII) hepático sem realce, ou apenas com realce de padrão esperado pós-tratamento, classificada como LI-RADS TR não viável."
+    word: true
+
+  - trigger: "tcliradsestavel"
+    label: "LI-RADS TR não progressivo pós-radiação (TC)"
+    replace: "Realce nodular persistente na área tratada por radioterapia/radioembolização no segmento _ (I a VIII) hepático, estável ou reduzido em relação ao exame anterior, classificado como LI-RADS TR não progressivo."
+    word: true
+
   # ==========================================================================
   # VESÍCULA BILIAR / VIAS BILIARES
   # ==========================================================================
