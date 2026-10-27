@@ -1007,6 +1007,134 @@ matches:
     replace: "Lesão hipodensa no braço anterior da cápsula interna direita, que pode estar relacionada a evento vascular isquêmico, de cronicidade indeterminada nesse estudo. Os diagnósticos diferenciais devem ser aplicados. Caso persista a indicação clínica, recomenda-se estudo direcionado através de imagens de ressonância magnética, se possível."
     word: true
 
+  - trigger: "aspectsacm"
+    label: "Sinais precoces de isquemia na ACM (ASPECTS)"
+    replace: "Sinais precoces de isquemia no território da artéria cerebral média _ (direita; ou esquerda), com hipoatenuação, perda da diferenciação entre as substâncias branca e cinzenta e apagamento dos sulcos corticais nas regiões _ (C; L; CI; I; M1 a M6), correspondendo a escore ASPECTS de _."
+    word: true
+
+  - trigger: "arteriadensa"
+    label: "Artéria cerebral média hiperdensa"
+    replace: "Hiperdensidade espontânea do segmento _ (M1; M2; ou distal) da artéria cerebral média _ (direita; ou esquerda), em relação à contralateral, podendo corresponder a trombo intraluminal."
+    word: true
+
+  - trigger: "zonafronteira"
+    label: "Infartos em zonas de fronteira arterial"
+    replace: "Lesões hipodensas nas zonas de fronteira arterial _ (corticais, entre os territórios das artérias cerebrais anterior, média e posterior; ou internas, alinhadas nos centros semiovais e coroas radiadas) _ (à direita; à esquerda; ou bilaterais), sugerindo infartos de mecanismo hemodinâmico (hipoperfusão)."
+    word: true
+
+  - trigger: "cerebelobranco"
+    label: "Sinais da reversão e do cerebelo branco"
+    replace: "Hipoatenuação difusa do córtex e da substância branca supratentoriais, com inversão da relação de atenuação entre as substâncias cinzenta e branca, associada a preservação relativa da atenuação do cerebelo e do tronco encefálico. Achados compatíveis com lesão hipóxico-isquêmica difusa grave."
+    word: true
+
+  - trigger: "heidelhi1"
+    label: "Transformação hemorrágica Heidelberg 1a (HI1)"
+    replace: "Pequenas petéquias hemorrágicas esparsas na área de infarto, sem efeito de massa, compatíveis com transformação hemorrágica do infarto, Heidelberg 1a (HI1)."
+    word: true
+
+  - trigger: "heidelhi2"
+    label: "Transformação hemorrágica Heidelberg 1b (HI2)"
+    replace: "Petéquias hemorrágicas confluentes na área de infarto, sem efeito de massa, compatíveis com transformação hemorrágica do infarto, Heidelberg 1b (HI2)."
+    word: true
+
+  - trigger: "heidelph1"
+    label: "Transformação hemorrágica Heidelberg 1c (PH1)"
+    replace: "Hematoma restrito à área de infarto, ocupando menos de 30% dela, sem efeito de massa significativo, compatível com transformação hemorrágica do infarto, Heidelberg 1c (PH1)."
+    word: true
+
+  - trigger: "heidelph2"
+    label: "Transformação hemorrágica Heidelberg 2 (PH2)"
+    replace: "Hematoma ocupando 30% ou mais da área de infarto, com efeito de massa evidente, compatível com transformação hemorrágica do infarto, Heidelberg 2 (PH2)."
+    word: true
+
+  - trigger: "fisher1"
+    label: "Hemorragia subaracnoide Fisher modificada 1"
+    replace: "Hemorragia subaracnoide laminar (fina), sem hemorragia intraventricular, correspondendo a Fisher modificada grau 1."
+    word: true
+
+  - trigger: "fisher2"
+    label: "Hemorragia subaracnoide Fisher modificada 2"
+    replace: "Hemorragia subaracnoide laminar (fina), associada a hemorragia intraventricular, correspondendo a Fisher modificada grau 2."
+    word: true
+
+  - trigger: "fisher3"
+    label: "Hemorragia subaracnoide Fisher modificada 3"
+    replace: "Hemorragia subaracnoide espessa, preenchendo cisternas ou fissuras, sem hemorragia intraventricular, correspondendo a Fisher modificada grau 3."
+    word: true
+
+  - trigger: "fisher4"
+    label: "Hemorragia subaracnoide Fisher modificada 4"
+    replace: "Hemorragia subaracnoide espessa, preenchendo cisternas ou fissuras, associada a hemorragia intraventricular, correspondendo a Fisher modificada grau 4."
+    word: true
+
+  - trigger: "hematomaredemoinho"
+    label: "Hematoma com sinal do redemoinho"
+    replace: "Hematoma intraparenquimatoso com áreas hipo ou isoatenuantes de permeio ao componente hiperatenuante, sinal tomográfico associado a maior risco de expansão do hematoma."
+    word: true
+
+  - trigger: "hematomamistura"
+    label: "Hematoma com sinal da mistura (blend)"
+    replace: "Hematoma intraparenquimatoso com região hipoatenuante adjacente ao componente hiperatenuante, separadas por limite nítido, com diferença de atenuação de pelo menos 18 UH, sinal tomográfico associado a maior risco de expansão do hematoma."
+    word: true
+
+  - trigger: "hematomaburaco"
+    label: "Hematoma com sinal do buraco negro"
+    replace: "Hematoma intraparenquimatoso com área hipoatenuante completamente envolvida pelo componente hiperatenuante, de limites nítidos, com diferença de atenuação de pelo menos 28 UH, sinal tomográfico associado a maior risco de expansão do hematoma."
+    word: true
+
+  - trigger: "hematomailha"
+    label: "Hematoma com sinal da ilha"
+    replace: "Hematoma intraparenquimatoso com três ou mais pequenos focos hemorrágicos separados do hematoma principal, ou quatro ou mais pequenos focos em brotamento a partir dele, sinal tomográfico associado a maior risco de expansão do hematoma."
+    word: true
+
+  - trigger: "hematomalobar"
+    label: "Hematoma lobar por angiopatia amiloide (Edimburgo)"
+    replace: "Hematoma intraparenquimatoso lobar _ (frontal; parietal; temporal; ou occipital) _ (direito; ou esquerdo), com projeções digitiformes e extensão para o espaço subaracnoide. Achados sugerindo angiopatia amiloide cerebral (critérios de Edimburgo, alta probabilidade)."
+    word: true
+
+  - trigger: "herniasubfalcina"
+    label: "Herniação subfalcina"
+    replace: "Desvio das estruturas da linha média para a _ (direita; ou esquerda), com herniação do giro do cíngulo sob a foice cerebral (herniação subfalcina)."
+    word: true
+
+  - trigger: "herniauncal"
+    label: "Herniação transtentorial descendente (uncal)"
+    replace: "Herniação do úncus e do giro para-hipocampal _ (direito; ou esquerdo) através da incisura tentorial, com apagamento da cisterna suprasselar e compressão do mesencéfalo (herniação transtentorial descendente)."
+    word: true
+
+  - trigger: "herniatonsilar"
+    label: "Herniação tonsilar"
+    replace: "Insinuação das tonsilas cerebelares através do forame magno, com apagamento da cisterna magna (herniação tonsilar)."
+    word: true
+
+  - trigger: "herniaascendente"
+    label: "Herniação transtentorial ascendente"
+    replace: "Herniação do vérmis cerebelar superior através da incisura tentorial, com apagamento da cisterna quadrigeminal (herniação transtentorial ascendente)."
+    word: true
+
+  - trigger: "montefuji"
+    label: "Pneumoencéfalo hipertensivo (Monte Fuji)"
+    replace: "Pneumoencéfalo frontal bilateral, com compressão e separação dos lobos frontais, que assumem aspecto em pico, compatível com pneumoencéfalo hipertensivo."
+    word: true
+
+  - trigger: "seiodenso"
+    label: "Seio venoso hiperdenso (trombose venosa)"
+    replace: "Hiperdensidade espontânea do seio _ (sagital superior; transverso; sigmoide; ou reto) _ (direito; ou esquerdo) e/ou de veia cortical, em relação ao sangue circulante, podendo corresponder a trombose venosa cerebral. Considerar angiotomografia venosa."
+    word: true
+
+  - trigger: "encefalopres"
+    label: "Encefalopatia posterior reversível (PRES)"
+    replace: "Hipodensidades corticossubcorticais bilaterais e relativamente simétricas, com predomínio parieto-occipital, sem caráter de território arterial, sugerindo síndrome da encefalopatia posterior reversível (PRES)."
+    word: true
+
+  - trigger: "hpndesh"
+    label: "Hidrocefalia de pressão normal (DESH)"
+    replace: |-
+      Dilatação dos ventrículos laterais (índice de Evans de _) desproporcional ao alargamento dos sulcos, com alargamento das fissuras sylvianas e apagamento dos sulcos da alta convexidade e da linha média (padrão DESH). Ângulo calosal de _°. Achados sugerindo hidrocefalia de pressão normal idiopática.
+
+      Referência: índice de Evans > 0,3; ângulo calosal ≤ 90° favorece hidrocefalia de pressão normal idiopática (Ishii et al., 2008).
+    word: true
+
   # ==========================================================================
   # FACE / ÓRBITAS / SEIOS DA FACE / PESCOÇO / ATM
   # ==========================================================================

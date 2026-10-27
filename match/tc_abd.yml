@@ -433,6 +433,11 @@ matches:
     replace: Leve densificação/obliteração dos planos gordurosos retroperitoneais adjacentes às 2ª/3ª porções duodenais, onde se identifica divertículo com nível hidroaéreo, associada a leve distensão hidroaérea de alças delgadas jejunais adjacentes, porém sem espessamentos parietais ou lesões neoplásicas definíveis. Associa-se ainda aumento do número de linfonodos mesentéricos, ingurgitamento vascular mesentérico (vasa recta) e pequena quantidade de líquido livre na pelve. O conjunto sugere processo inflamatório enteral e/ou diverticular como principais considerações diagnósticas. Correlacionar com dados clínicos e laboratoriais.
     word: true
 
+  - trigger: "liniteplastica"
+    label: "Linite plástica"
+    replace: "Espessamento parietal difuso e circunferencial do estômago, com redução da distensibilidade e aspecto rígido. Admite-se inicialmente a hipótese de adenocarcinoma gástrico de padrão difuso (linite plástica). Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e endoscópicos, não sendo possível afastar de forma inequívoca a possibilidade de linfoma ou metástase."
+    word: true
+
   # ==========================================================================
   # FÍGADO
   # ==========================================================================
@@ -745,6 +750,16 @@ matches:
     replace: Lesão isodensa e hipovascular, com margens irregulares, medindo _ cm, localizada nos segmentos hepáticos VI e VII, indeterminada. Área de infarto? Massa hepática?
     word: true
 
+  - trigger: "figadodenso"
+    label: "Fígado hiperatenuante"
+    replace: "Aumento difuso e homogêneo da atenuação do parênquima hepático na fase sem contraste, medindo cerca de _ UH. Os diagnósticos diferenciais incluem sobrecarga de ferro, uso de amiodarona e doença de depósito de glicogênio, entre outros."
+    word: true
+
+  - trigger: "edemaperiportal"
+    label: "Edema periportal"
+    replace: "Faixa hipoatenuante acompanhando os ramos portais intra-hepáticos (edema periportal). Os diagnósticos diferenciais incluem sobrecarga volêmica, hepatite aguda, congestão hepática e trauma, entre outros."
+    word: true
+
   # ==========================================================================
   # VESÍCULA BILIAR / VIAS BILIARES
   # ==========================================================================
@@ -952,6 +967,11 @@ matches:
   - trigger: "tcvbfist"
     label: "Fístula colecistocutânea com coleção de parede"
     replace: Coleção hipodensa dissecando os músculos transverso e oblíquos interno e externo à direita, medindo cerca de _ cm (CC x LL x AP), com volume de _ cm³, apresentando sinais de manipulação cirúrgica e fístula para a pele na região do flanco direito. Associa-se discreto espessamento parietal da vesícula biliar, com contato de sua porção fúndica com o aspecto interno da parede abdominal anterolateral direita, destacando-se provável trajeto fistuloso com a coleção acima descrita. A possibilidade de fístula colecistocutânea com formação de coleção pode ser considerada dentre os diagnósticos diferenciais.
+    word: true
+
+  - trigger: "duploducto"
+    label: "Sinal do duplo ducto"
+    replace: "Dilatação concomitante do ducto colédoco e do ducto pancreático principal. Admite-se inicialmente a hipótese de obstrução de causa periampular ou da cabeça pancreática, incluindo neoplasia. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais."
     word: true
 
   # ==========================================================================
@@ -1233,6 +1253,11 @@ matches:
   - trigger: "tcfglescol"
     label: "Lesão hepática hipovascular contígua a coleção"
     replace: Fígado com dimensões normais, contornos regulares e atenuação preservada, exceto por lesão hipodensa e hipovascular localizada no segmento VI, mantendo contato com a formação expansiva acima descrita. Abscesso? Alteração perfusional? Lesão de outra natureza?
+    word: true
+
+  - trigger: "colecaofluida"
+    label: "Coleção fluida peripancreática aguda (Atlanta)"
+    replace: "Coleção líquida homogênea peripancreática, sem parede definida, sem componente sólido ou necrótico, em contexto de pancreatite intersticial edematosa com menos de quatro semanas de evolução, compatível com coleção fluida peripancreática aguda (classificação de Atlanta revisada)."
     word: true
 
   # ==========================================================================
@@ -1935,6 +1960,11 @@ matches:
     replace: Área de hipocontrastação/laceração da porção posterior do terço médio do rim esquerdo, medindo _ cm, associada a coleção hiperdensa, de aspecto subcapsular, junto à superfície cortical do rim esquerdo, representando hematoma (AAST grau III). Associa-se densificação de planos gordurosos periureterais no terço proximal, perirrenais e pararrenais posteriores ipsilaterais.
     word: true
 
+  - trigger: "arocortical"
+    label: "Sinal do aro cortical (infarto renal)"
+    replace: "Área cuneiforme sem realce no rim _ (direito; ou esquerdo), com preservação de fina faixa de realce cortical subcapsular, sugerindo infarto renal."
+    word: true
+
   # ==========================================================================
   # BEXIGA / URETERES
   # ==========================================================================
@@ -2445,6 +2475,11 @@ matches:
   - trigger: "tcvstvren"
     label: "Trombose da veia renal esquerda"
     replace: Falha de enchimento da veia renal esquerda, sugestiva de trombo.
+    word: true
+
+  - trigger: "hipoperfusao"
+    label: "Complexo de hipoperfusão (choque)"
+    replace: "Veia cava inferior colabada (aspecto achatado). Associam-se hiperrealce mucoso difuso das alças delgadas com espessamento parietal, hiperrealce das adrenais e redução do realce esplênico. Achados compatíveis com complexo de hipoperfusão (choque)."
     word: true
 
   # ==========================================================================
@@ -3517,6 +3552,31 @@ matches:
     replace: Acentuada distensão da câmara gástrica, com focos gasosos em provável topografia parietal das regiões fúndica e posterior, bem como alguns focos gasosos em pequenos vasos adjacentes. Sugere-se prosseguir investigação de etiologia, podendo-se considerar aumento da pressão da câmara gástrica dentre os diagnósticos diferenciais, ou mesmo processo isquêmico.
     word: true
 
+  - trigger: "pentecrohn"
+    label: "Sinal do pente (Crohn em atividade)"
+    replace: "Espessamento parietal de alças ileais com hiperrealce mucoso, associado a ingurgitamento dos vasa recta no bordo mesentérico, sugerindo atividade inflamatória de doença de Crohn."
+    word: true
+
+  - trigger: "gorduracrohn"
+    label: "Proliferação fibroadiposa mesentérica"
+    replace: "Proliferação fibroadiposa do mesentério adjacente às alças acometidas, afastando-as das demais."
+    word: true
+
+  - trigger: "alcaalvo"
+    label: "Espessamento parietal em alvo"
+    replace: "Espessamento parietal circunferencial de alças _ (jejunais; ileais; ou cólicas), com estratificação em camadas (mucosa e serosa hiperatenuantes, submucosa hipoatenuante por edema), configurando padrão em alvo. Os diagnósticos diferenciais incluem doença inflamatória intestinal, isquemia, infecção e enterite actínica, entre outros."
+    word: true
+
+  - trigger: "colonacordeao"
+    label: "Sinal do acordeão (colite pseudomembranosa)"
+    replace: "Acentuado espessamento parietal do cólon, com pregas haustrais edemaciadas alternando com contraste retido entre elas, sugerindo colite pseudomembranosa. Os diagnósticos diferenciais incluem outras colites infecciosas e isquêmicas, entre outros."
+    word: true
+
+  - trigger: "alcaaneurisma"
+    label: "Dilatação aneurismática de alça (linfoma)"
+    replace: "Espessamento parietal circunferencial de segmento de alça _ (jejunal; ou ileal), com dilatação luminal no segmento acometido (dilatação aneurismática), sem obstrução a montante. Admite-se inicialmente a hipótese de linfoma intestinal. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de tumor estromal ou metástase."
+    word: true
+
   # ==========================================================================
   # PERITÔNIO / RETROPERITÔNIO / MESENTÉRIO
   # ==========================================================================
@@ -3684,6 +3744,16 @@ matches:
   - trigger: "tcptader"
     label: "Aderências fibrosas lineares retráteis"
     replace: Áreas hipodensas lineares, de aspecto retrátil, adjacentes a alças de intestino delgado e ao cólon sigmoide, podendo estar relacionadas a fibrose/aderência.
+    word: true
+
+  - trigger: "sanduichelinfoma"
+    label: "Sinal do sanduíche (linfoma mesentérico)"
+    replace: "Linfonodomegalias mesentéricas confluentes envolvendo os vasos mesentéricos, com preservação da gordura perivascular. Admite-se inicialmente a hipótese de linfoma. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de doença metastática."
+    word: true
+
+  - trigger: "paniculitecoulier"
+    label: "Paniculite mesentérica (critérios de Coulier)"
+    replace: "Massa gordurosa bem delimitada na raiz do mesentério, com atenuação maior que a da gordura adjacente, envolvendo vasos e pequenos linfonodos, que são circundados por halo de gordura preservada, com pseudocápsula hiperatenuante periférica. Achados compatíveis com paniculite mesentérica."
     word: true
 
   # ==========================================================================
