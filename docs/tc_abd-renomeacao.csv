@@ -1,0 +1,777 @@
+antigo,novo,label
+tcptmet,metastaseperitoneal,"Metástases peritoneal, de parede abdominal e hepática"
+tcpctne,neuroendocrinopancreas,Tumor neuroendócrino de pâncreas/duodeno
+tcfglesind,lesaohepaticaindeterminada,Lesão hepática indeterminada — metástase ou hemangioma
+tcptlinfo,linfomamesenterio,Doença linfoproliferativa da raiz do mesentério
+tcptpmix1,pseudomixomaperitoneal1,Pseudomixoma peritoneal com invasão do reto abdominal
+tcptlipo1,lipossarcomaretro1,Lipossarcoma retroperitoneal
+tcptlipo2,lipossarcomaretro2,Lipossarcoma periureteral com hidroureteronefrose
+tcclrecid1,recidivapelvica1,Recidiva tumoral pélvica
+tcbxprost,prostatainvasiva,Adenocarcinoma de próstata com invasão vesical e de vesícula seminal
+tcadmassrp,massaadrenalretro,Massa adrenal e retroperitoneal com oclusão da veia renal esquerda
+tcptneoped,neoplasiainfantil,Neoplasia intra-abdominal disseminada na criança
+tcptneopedc,neoplasiainfantilc,Conclusão — neoplasia intra-abdominal de origem indeterminada
+tcpvgerm,tumorgerminativo,Tumor pélvico de células germinativas (neonato)
+tcpvgermc,tumorgerminativoc,Conclusão — massa pélvica sugestiva de tumor de células germinativas
+tcvsfistao,fistulaaortica,Massa paraórtica com fístula para víscera oca
+tcptbulky,linfomabulky,Conglomerado linfonodal retroperitoneal bulky (linfoma)
+tcptlinfat1,linfonodoatipico1,Linfonodomegalias retroperitoneais e inguinais atípicas à esquerda
+tcptlinfat2,linfonodoatipico2,Acometimento linfonodal secundário (câncer de próstata)
+tcptlinfat3,linfonodoatipico3,Linfonodomegalias atípicas ilíacas e inguinais à direita
+tcptlinfrp,linfomaretro,Linfoma retroperitoneal envolvendo os grandes vasos
+tcesneopc,neoplasiacurvatura,Neoplasia gástrica da pequena curvatura
+tcbalinf,linfomabaco,Esplenomegalia com linfonodomegalias difusas (linfoma)
+tcesneocarc,neoplasiagastrica,Neoplasia gástrica com carcinomatose peritoneal (omental cake)
+tcclrecid2,recidivapelvica2,Recidiva tumoral em anastomose colocólica com abscesso
+tcclrecid2c,recidivapelvica2c,Conclusão — recidiva tumoral com abscesso intracavitário
+tcpmimpl,implanteparede,Implante neoplásico vesical na parede abdominal
+tcoschance,fraturachance,Fratura de Chance de T12
+tcosverth,vertebraemh,Vértebras em H (anemia falciforme)
+tcosostcx,osteomielitecoxa,Osteomielite crônica agudizada da coxa
+tcpmulcp1,ulcerapressao1,Úlcera de pressão sacrococcígea com acometimento ósseo
+tcosostsi,osteomielitesacroiliaca,Osteomielite crônica sacroilíaca com sequestro e fístula
+tcpmulcp2,ulcerapressao2,Úlcera de pressão sacral com osteomielite crônica
+tcoshemv,hemangiomavertebral,Hemangioma vertebral de S1
+tcosmet,metastaselitica,Metástases ósseas líticas com invasão de partes moles
+tcosespond,espondilodisciteabscesso,Espondilodiscite com abscessos epidural e paravertebrais
+tcoshpt,tumormarrom,Hiperparatireoidismo com tumores marrons
+tcoshptc,tumormarromc,Conclusão — hiperparatireoidismo secundário com tumor marrom
+tcvbpap,papilaespessada,Dilatação de vias biliares com espessamento da papila duodenal
+tcvbpapc,papilaespessadac,Conclusão — papilite versus neoplasia da papila duodenal
+tcespneum1,pneumatosegastrica1,Pneumatose gástrica com gás no sistema porta
+tceslinf1,linfomagastrico1,Linfoma gástrico com massa antral volumosa
+tceslinf2,linfomagastrico2,Espessamento gástrico difuso com linfonodomegalias (linfoma)
+tceslinf2c,linfomagastrico2c,"Conclusão — neoplasia gástrica, destacando-se linfoma"
+tcesneoant1,neoplasiaantral1,Neoplasia gástrica antropilórica (CA ou linfoma MALT)
+tcfgmetav,metastasehipervascular,Implantes hepáticos secundários com realce arterial
+tcesneoant2,neoplasiaantral2,Neoplasia gástrica antropilórica com linfonodomegalias necróticas
+tcesadeno,adenocarcinomagastrico,Adenocarcinoma gástrico com invasão pancreática
+tceslinfn,linfonodogastrico,Linfonodomegalias abdominais em neoplasia gástrica
+tcptcarc3,carcinomatoseperitoneal3,Carcinomatose peritoneal com ascite e implantes omentais
+tcfgmethv,metastasehipovascular,Metástases hepáticas múltiplas hipovasculares
+tceshiato,hiatoalargado,Alargamento do hiato esofágico
+tcesperf,perfuracaogastrica,Abdome agudo perfurativo gastroduodenal
+tcesinfl,antroinflamado,Processo inflamatório antropilórico e duodenal
+tcesulcg1,ulceragastrica1,Úlcera gástrica perfurada com hidropneumoperitônio
+tcespneum2,pneumatosegastrica2,Pneumatose gástrica de provável origem isquêmica
+tcesulcg2,ulceragastrica2,Úlcera gástrica perfurada com provável fístula gastrocólica
+tcesulcg2c,ulceragastrica2c,Conclusão — abdome agudo perfurativo com fístula gastrocólica
+tcesneoant3,neoplasiaantral3,Neoplasia gástrica antropilórica com disseminação omentoperitoneal
+tcesneoant3c,neoplasiaantral3c,Conclusão — neoplasia gástrica com disseminação secundária
+tcesespneo,estomagoespessado,Espessamento parietal gástrico suspeito de neoplasia
+tcesinfldp,inflamacaoduodenopancreatica,Processo inflamatório duodenopancreático indeterminado
+tcesulcd1,ulceraduodenal1,Úlcera duodenal perfurada
+tcesespduo1,duodenoespessado1,Espessamento duodenal — duodenite ou neoplasia
+tcesvolvo,volvogastrico,Volvo gástrico com hérnia diafragmática
+tcesneobul,neoplasiabulbo,Neoplasia do bulbo duodenal
+tcesulcg3,ulceragastrica3,Úlcera gástrica perfurada bloqueada (complementação com contraste)
+tcesdistes,esofagodistendido,Distensão esofágica com conteúdo líquido
+tcesulcg4,ulceragastrica4,Abdome agudo perfurativo por úlcera gástrica
+tcptmassa,massaretro,Massa retroperitoneal e mesentérica indeterminada
+tcesgist1,gistgastrico1,GIST gástrico com invasão pancreática e duodenal
+tcesgist1c,gistgastrico1c,Conclusão — GIST gástrico com metástases peritoneal e hepática
+tcesgist2,gistgastrico2,GIST da pequena curvatura gástrica
+tcesgist3,gistgastrico3,GIST gástrico exofítico com implantes peritoneais
+tceslinf3,linfomagastrico3,Linfoma gástrico com espessamento parietal difuso
+tcesneofun,neoplasiafundo,Neoplasia gástrica do fundo e corpo
+tcesulcd2,ulceraduodenal2,Abdome agudo perfurativo por úlcera duodenal
+tcesfistba,fistulagastroesplenica,Neoplasia gástrica com fístula gastroesplênica
+tcescolec,colecaoduodenal,Coleção em contato com o duodeno e fístula cutânea
+tceshemat,hematomaduodenal,Hematoma duodenal
+tcesdiv,diverticuliteduodenal,Diverticulite duodenal
+tcfgesq,figadoesquistossomose,Hepatopatia esquistossomótica com trombose crônica da porta
+tcptpbe,peritonitebacteriana,Peritonite bacteriana espontânea com coleções
+tcvbcolangt,colangiteaguda,Dilatação de vias biliares com realce parietal (colangite)
+tcvbcolangtc,colangiteagudac,Conclusão — colangite
+tcvbcolca4,colangiocarcinoma4,Colangiocarcinoma do lobo esquerdo (estudo sem contraste)
+tcvbklat1,tumorklatskin1,Colangiocarcinoma hilar (tumor de Klatskin)
+tcpmposop,colecaoparede,Manipulação cirúrgica abdominal com coleções de parede
+tcptgossip,corpoestranhocirurgico,Gossipiboma intracavitário
+tcfghellp,hematomahellp,Hematoma hepático subcapsular (HELLP)
+tcutpuerp,uteropuerperal,Útero de aspecto puerperal recente
+tcfgabs1,abscessohepatico1,Abscesso hepático piogênico em organização
+tcfgagen,agenesialobo,Agenesia ou atrofia do lobo hepático esquerdo com hepatopatia
+tcfgestf,esteatosefocal,Esteatose hepática focal
+tcvbcolca3,colangiocarcinoma3,Colangiocarcinoma intra-hepático periférico
+tcvbcolca3c,colangiocarcinoma3c,Conclusão — colangiocarcinoma intra-hepático com metástases
+tcfgabs2,abscessohepatico2,Abscessos hepáticos múltiplos
+tcfghnf1,hiperplasianodular1,Hiperplasia nodular focal do segmento IVb
+tcvstvp2,tromboseportal2,Trombose portal com sofrimento de alças (estudo comparativo)
+tcvstvspm,trombosesplenoportal,Trombose venosa esplenoportomesentérica extensa
+tcfghamart,hamartomabiliar,Hepatopatia com cistos e hamartomas biliares
+tcfglesh,lesaohipovascular,Lesão hepática hipovascular indeterminada
+tcfgleshc,lesaohipovascularc,Conclusão — lesão hepática hipovascular (infarto? metástase?)
+tcfgcirr6,cirrosehepatica6,Trombose crônica da veia porta com transformação cavernomatosa
+tcfgcirr1,cirrosehepatica1,Hepatopatia crônica com hipertensão portal e ascite
+tcfgnoz,figadonozmoscada,Hepatopatia congestiva (fígado em noz-moscada)
+tcfgdep,figadodeposito,Doença de depósito hepático
+tcfglac1,laceracaohepatica1,Laceração hepática AAST grau IV
+tcfglac2,laceracaohepatica2,Laceração hepática AAST grau III
+tcfghnf2,hiperplasianodular2,Hiperplasia nodular focal com cicatriz central
+tcfgchc1,hepatocarcinoma1,Hepatocarcinoma infiltrativo e nodular com trombose portal
+tcfgchc2,hepatocarcinoma2,Hepatopatia crônica com carcinoma hepatocelular e massa do segmento I
+tcvscircol1,circulacaocolateral1,Circulação colateral portossistêmica com esplenomegalia
+tcfgchc3,hepatocarcinoma3,Hepatopatia crônica com provável hepatocarcinoma infiltrativo
+tcfgcirr2,cirrosehepatica2,Hepatopatia crônica com ascite volumosa
+tcfgcirr3,cirrosehepatica3,Hepatomegalia com sinais de hepatopatia crônica
+tcvscircol2,circulacaocolateral2,Circulação colateral com esplenomegalia e ascite volumosa
+tcvstvtum,trombosetumoral,Trombose tumoral da veia porta
+tcvscavern,cavernomaportal,Transformação cavernomatosa portal
+tcfgcisthem,cistohemangioma,Cistos e hemangioma hepáticos
+tcfghepest,hepatomegaliaesteatose,Hepatomegalia com esteatose
+tcfgcist,cistoshepaticos,Cistos hepáticos múltiplos
+tcfgnod,nodulohepatico,Nódulo hepático indeterminado com realce progressivo (hemangioma?)
+tcfghem1,hemangiomahepatico1,Hemangiomas hepáticos múltiplos
+tcfghem2,hemangiomahepatico2,Hemangiomas hepáticos gigantes
+tcfgcirr4,cirrosehepatica4,Hepatopatia parenquimatosa crônica de aspecto cirrótico
+tcvscircol3,circulacaocolateral3,Ectasia esplenoportomesentérica com varizes esofágicas
+tcfgcirr5,cirrosehepatica5,Hepatopatia crônica com ectasia portal e esplênica
+tcvscircol4,circulacaocolateral4,Circulação colateral com varizes esofágicas e hemorroidárias
+tcvsaneuhep,aneurismahepatica,Aneurisma de artéria hepática com iminência de rotura
+tcfgest,esteatosedifusa,Esteatose hepática difusa
+tcfgmetdes,metastasedesmoplasica,Metástases hepáticas com reação desmoplásica
+tcvbklat2,tumorklatskin2,Colangiocarcinoma hilar com retração capsular
+tcfgabs3,abscessohepatico3,Abscesso hepático do lobo esquerdo
+tcfgabs4,abscessohepatico4,Abscesso hepático septado no lobo esquerdo
+tcfgabs5,abscessohepatico5,Abscesso hepático passível de punção percutânea
+tcfgabs5c,abscessohepatico5c,Conclusão — abscesso hepático piogênico
+tcfgcistvol,cistovolumoso,Cisto hepático volumoso com calcificações parietais
+tcfglac3,laceracaohepatica3,Laceração hepática AAST grau III em controle
+tcfgcirrot,figadocirrotico,Hepatopatia crônica de aspecto cirrótico (contornos lobulados)
+tcfglesiso,lesaoisodensa,Lesão hepática isodensa hipovascular — infarto ou massa?
+tcvbenf1,colecistiteenfisematosa1,Colecistite aguda enfisematosa
+tcvbenf1c,colecistiteenfisematosa1c,Conclusão — colecistite aguda enfisematosa
+tcvbdreno,drenobiliar,Dreno biliodigestivo pérvio
+tcvbremcis,remanescentecistico,Cálculos residuais em remanescente cístico pós-colecistectomia
+tcvbposop,poscolecistectomia,"Manipulação cirúrgica pós-colecistectomia, duodenotomia e papilotomia"
+tcesfist,fistuladuodenal,Coleções abdominais múltiplas com suspeita de fístula duodenal
+tcpccolec,colecaopancreatica,Coleção peripancreática de provável origem pancreatítica
+tcvbkehr,drenokehr,Dreno de Kehr no flanco direito
+tcvbaero,aerobiliavias,Aerobilia
+tcvbenf2,colecistiteenfisematosa2,Colecistite enfisematosa com gás nos ductos biliares
+tcvbpapcal1,calculopapila1,Cálculo impactado na papila com colangite
+tcvbporc,vesiculaporcelana,Vesícula biliar em porcelana
+tcvbcolec1,colecistiteaguda1,Colecistite aguda com provável cálculo no ducto cístico
+tcvbcolabs,colecistiteabscedada,Colecistite complicada com abscessos perivesiculares e hepáticos
+tcvbcoled1,coledocolitiase1,Coledocolitíase com coleção peri-hepática pós-colecistectomia
+tcvbcoled2,coledocolitiase2,Barro biliar tumefativo ou coledocolitíase distal
+tcvbcoled3,coledocolitiase3,Colecistolitíase com cálculo no colédoco distal
+tcvbcoled4,coledocolitiase4,Coledocolitíase múltipla distal
+tcvbmiriz,sindromemirizzi,Colecistolitíase com síndrome de Mirizzi
+tcvbcoledcel,coledococeleduodeno,Coledococele
+tcvbcistcol,cistocoledoco,Cisto de colédoco gigante
+tcvbbiloma,colecaoloja,"Coleção na loja vesicular — biloma, hematoma ou seroma"
+tcvbabsloja1,abscessoloja1,Abscesso na loja vesicular com extensão hepática
+tcvbabsloja2,abscessoloja2,Abscesso perivesicular e hepático com extensão ao ligamento falciforme
+tcvbperf1,vesiculaperfurada1,Colecistite aguda com perfuração fúndica
+tcvbperf2,vesiculaperfurada2,Colecistite perfurada com pneumoperitônio
+tcvbcoled5,coledocolitiase5,Coledocolitíase distal com espessamento do hepatocolédoco
+tcvblit,calculovesicula,Colecistolitíase
+tcvbcolec2,colecistiteaguda2,Colecistite aguda calculosa com vesícula hidrópica
+tcvbcolec3,colecistiteaguda3,Colecistite aguda calculosa incipiente
+tcvbhemat,hematomaloja,Hematoma pós-colecistectomia
+tcvbcep,colangiteesclerosante,Colangite esclerosante associada a doença inflamatória intestinal
+tcvbpapcal2,calculopapila2,Coledocolitíase impactada na papila com colangite (moderada)
+tcvbcolca1,colangiocarcinoma1,Colangiocarcinoma extra-hepático de difícil definição
+tcvbklat3,tumorklatskin3,Colangiocarcinoma hilar com dilatação predominante à esquerda
+tcvbdilih,viasdilatadas,Dilatação de vias biliares intra-hepáticas com linfonodos hilares
+tcesespduo2,duodenoespessado2,Espessamento reacional da primeira porção duodenal
+tcvbmassa,massahilar,Massa do hilo hepático envolvendo o colédoco
+tcvbklat4,tumorklatskin4,Colangiocarcinoma hilar com invasão vascular
+tcvbcolca2,colangiocarcinoma2,Estenose do colédoco distal — manipulação cirúrgica ou neoplasia
+tcvbfist,fistulacolecistocutanea,Fístula colecistocutânea com coleção de parede
+tcpcsulco1,pancreatitesulco1,Pancreatite crônica agudizada do sulco duodenopancreático
+tcpcenf1,pancreatiteenfisematosa1,Pancreatite enfisematosa
+tcpccron1,pancreatitecronica1,Pancreatite crônica reagudizada com IPMN e dilatação do colédoco
+tcvbrealce,realcecoledoco,Área de realce no colédoco distal inespecífica
+tcpcag1,pancreatiteaguda1,Pancreatite aguda com lesão cística cefálica
+tcpcag1c,pancreatiteaguda1c,Conclusão — pancreatite aguda (Balthazar C)
+tcpccistcef,cistocefalico,Imagem cística cefálica comunicante — ducto acessório?
+tcpcgdp,posgastroduodeno,Gastroduodenopancreatectomia parcial
+tcvbderiv,derivacaobiliodigestiva,Derivação biliodigestiva com aerobilia
+tcpcneo1,neoplasiapancreas1,Neoplasia pancreática com invasão vascular
+tcpcneo1c,neoplasiapancreas1c,Conclusão — neoplasia pancreática primária metastática
+tcfgmethv2,metastasehipovascular2,Metástases hepáticas hipovasculares (dois maiores nódulos)
+tcpcneo2,neoplasiapancreas2,Neoplasia do corpo pancreático com invasão vascular e carcinomatose
+tcosmet2,metastaselitica2,Lesões ósseas hipodensas sugestivas de metástases
+tcpcwon,necroseencapsulada,Necrose pancreática encapsulada (walled-off necrosis)
+tcpcneo3,neoplasiapancreas3,Neoplasia do corpo pancreático com dilatação ductal
+tcpccron2,pancreatitecronica2,Pancreatite crônica agudizada com pseudocisto (sem contraste)
+tcpccistad1,cistoadenomaseroso1,Cistoadenoma seroso do pâncreas
+tcpcfrantz1,tumorfrantz1,Tumor pseudopapilar sólido-cístico do pâncreas (Frantz)
+tcpcfrantz2,tumorfrantz2,Neoplasia pseudopapilar sólida do pâncreas com extensão retrogástrica
+tcpccistad2,cistoadenomaseroso2,Cistoadenoma mucinoso do pâncreas (confirmado por biópsia)
+tcpcag2,pancreatiteaguda2,Pancreatite aguda (estudo sem contraste)
+tcpcnecr1,pancreatitenecrosante1,Pancreatite aguda necrosante
+tcpcnecr2,pancreatitenecrosante2,Pancreatite necrosante extensa (Balthazar E)
+tcpcenf2,pancreatiteenfisematosa2,Pancreatite aguda enfisematosa do corpo e cauda
+tcpcenf2c,pancreatiteenfisematosa2c,Conclusão — pancreatite enfisematosa
+tcpccolinf1,colecaoinfectada1,Coleções peripancreáticas infectadas com extensão à parede
+tcpccolinf2,colecaoinfectada2,Coleções necróticas agudas pós-pancreatite necrosante
+tcptascaum,ascitecontrole,Aumento da ascite em estudo comparativo
+tcoudpleu,derramepleuralaumento,Aumento do derrame pleural bilateral com atelectasia
+tcpcbalt,escorebalthazar,Escore de Balthazar e CTSI
+tcrvdilcol,coletordilatado,Dilatação do sistema coletor a montante de coleção
+tcpcsulco2,pancreatitesulco2,Pancreatite do sulco duodenopancreático (Balthazar C)
+tcpcsulco3,pancreatitesulco3,Pancreatite crônica agudizada com pancreatite de sulco
+tcpcedem,pancreatiteedematosa,Pancreatite edematosa segmentar (Balthazar C)
+tcpcsulco4,pancreatitesulco4,Cálculo impactado na papila com pancreatite de sulco agudizada
+tcpcpseudo1,pseudocistopancreas1,Pseudocisto pancreático em pancreatopatia crônica
+tcpcpseudo2,pseudocistopancreas2,Pseudocistos pancreáticos múltiplos em controle evolutivo
+tcpccalc,pancreatitecalcificada,Pancreatopatia crônica calcificada
+tcpcneo4,neoplasiapancreas4,Neoplasia da cabeça do pâncreas com pancreatite sobreposta
+tcpcneo5,neoplasiapancreas5,Neoplasia da cabeça pancreática com contato mesentérico
+tcpcperiamp1,massaperiampular1,Massa periampular sem invasão vascular
+tcpcneo6,neoplasiapancreas6,Neoplasia da cauda pancreática com linfonodomegalias
+tcpcperiamp2,massaperiampular2,Adenocarcinoma periampular com dupla dilatação ductal
+tcpcadeno1,adenocarcinomapancreas1,Adenocarcinoma cefálico com atrofia parenquimatosa a montante
+tcpcadeno2,adenocarcinomapancreas2,Adenocarcinoma de corpo/cauda pancreáticos em controle
+tcpcirres1,pancreasirressecavel1,Envolvimento arterial superior a 180° (irressecabilidade)
+tcpcunc,neoplasiauncinado,Neoplasia do processo uncinado com contato da veia cava
+tcpcirres2,pancreasirressecavel2,Critérios de irressecabilidade da neoplasia pancreática
+tcpcpseudo3,pseudocistopancreas3,Pseudocistos pancreáticos volumosos pancreatoduodenais
+tcpccauda,lesaocauda,Lesão sólida indeterminada da cauda pancreática
+tcclespreac,colonreacional,Espessamento reacional do ângulo hepático do cólon
+tcfglescol,lesaocontigua,Lesão hepática hipovascular contígua a coleção
+tcadmassa1,massaadrenal1,Massa adrenal esquerda com nódulos adrenais bilaterais
+tcadmassa1c,massaadrenal1c,Conclusão — massa e nódulos adrenais (doença metastática?)
+tcadmassa2,massaadrenal2,Massa adrenal direita com protocolo de washout
+tcadmassa2c,massaadrenal2c,Conclusão — massa adrenal indeterminada estável
+tcadmassa3,massaadrenal3,Massa adrenal rota com hematoma retroperitoneal
+tcadmassa4,massaadrenal4,Massas adrenais bilaterais com linfonodomegalias
+tcadadeno,adenomaadrenal,Adenoma adrenal com washout característico
+tcbainf1,infartoesplenico1,Infarto esplênico do polo inferior
+tcbainf2,infartoesplenico2,Infartos esplênico e renais cuneiformes
+tcbainf2c,infartoesplenico2c,Conclusão — áreas de isquemia/infarto esplênico e renal
+tcbatrauma5,traumaesplenico5,Trauma esplênico AAST grau V
+tcbainf3,infartoesplenico3,Infarto esplênico com esplenomegalia
+tcbatrauma1,traumaesplenico1,Hematoma subcapsular esplênico AAST grau I
+tcbalinfang,linfangiomaesplenico,Linfangioma esplênico
+tcbainf4,infartoesplenico4,Infarto esplênico com esplenomegalia (polo inferior)
+tcbatrauma4,traumaesplenico4,Laceração esplênica AAST grau IV com sangramento ativo
+tcbamega,esplenomegaliahomogenea,Esplenomegalia homogênea
+tcbaabs,abscessoesplenico,Abscesso esplênico
+tcrvcpel1,calculopelve1,Cálculo na pelve renal com mecanismo valvular
+tcrvduploj1,cateterduploj1,Cateter duplo J com cálculo adjacente
+tcrvcjuv1,calculojuncao1,Fileira de cálculos na junção ureterovesical
+tcrvhun1,hidroureteronefrose1,Hidroureteronefrose com calcificação pélvica indeterminada
+tcrvejup1,estenosejup1,Estenose de junção ureteropiélica com saco hidronefrótico
+tcrvpie1,pielonefrite1,Pielonefrite com nefrograma estriado
+tcrvpie2,pielonefrite2,Pielonefrite com abscessos e trombose das veias renal e gonadal
+tcvstvilia,tromboseiliaca,"Trombose das veias ilíacas comum, interna e externa"
+tcrvpie3,pielonefrite3,Pielonefrite bilateral com abscessos em organização
+tcrvcur1,calculoureter1,Cálculo obstrutivo distal com coleção retroperitoneal
+tcrvcpel2,calculopelve2,Cálculo na pelve renal com caliectasias focais
+tcrvpie4,pielonefrite4,Pielonefrite aguda bilateral com edema periportal
+tcrvcur2,calculoureter2,Rim crônico com cálculo ureteral e coleção até o quadril
+tcrvcpel3,calculopelve3,Cálculo na pelve renal com dilatação pielocalicinal
+tcrvcalc1,calculorenal1,Dois cálculos justapostos no grupamento calicinal inferior
+tcrvneo1,neoplasiarenal1,Neoplasia renal com invasão da pelve e do ureter proximal
+tcrvneo1c,neoplasiarenal1c,Conclusão — neoplasia renal com escore nefrométrico
+tcrvneo2,neoplasiarenal2,Neoplasia renal com trombose das veias renal e cava inferior
+tcrvneo3,neoplasiarenal3,Neoplasia renal infiltrativa com trombose da veia renal
+tcrvurot1,neoplasiaurotelial1,Neoplasia urotelial da pelve renal e ureter proximal
+tcrvforn1,roturafornice1,Rotura de fórnice renal com urinoma por cálculo distal
+tcrvforn1c,roturafornice1c,Conclusão — rotura de fórnice renal com urinoma
+tcrvcatpv,cateterpielovesical,Cateter de derivação pielovesical com densificação perirrenal
+tcrvduploj2,cateterduploj2,Cateter duplo J com heterogeneidade do parênquima renal
+tcrvhemat1,hematomarenal1,Hematoma subcapsular renal com focos gasosos perirrenais
+tcrvlim,rinslimitrofes,Rins nos limites inferiores da normalidade
+tcrvinf,infartorenal,Infartos esplênico e renais bilaterais
+tcrvneo4,neoplasiarenal4,Neoplasia renal esquerda de alta complexidade (RENAL 10x)
+tcrvneo4c,neoplasiarenal4c,Conclusão — lesão expansiva renal sugestiva de neoplasia primária
+tcrvpie5,pielonefrite5,Pielonefrite aguda sem áreas liquefeitas
+tcrvpie5c,pielonefrite5c,Conclusão — pielonefrite aguda não complicada
+tcrvpie6,pielonefrite6,Pielonefrite bilateral com realce estriado
+tcrvpie7,pielonefrite7,Microabscessos corticais renais bilaterais
+tcrvpenf1,pielonefriteenfisematosa1,Pielonefrite enfisematosa com abscessos perirrenais
+tcrvhun2,hidroureteronefrose2,Hidroureteronefrose bilateral sem fator obstrutivo
+tcrvmatdens,materialdenso,Material denso na pelve e ureter proximal
+tcrvaml1,angiomiolipoma1,Angiomiolipoma renal volumoso
+tcrvaml1c,angiomiolipoma1c,Conclusão — massa renal gordurosa sugestiva de angiomiolipoma
+tcrvaml2,angiomiolipoma2,Angiomiolipoma do polo inferior renal
+tcrvurot2,neoplasiaurotelial2,Carcinoma urotelial pieloureteral com duplicação do sistema coletor
+tcrvurot3,neoplasiaurotelial3,Realce no ureter distal — neoplasia urotelial?
+tcrvtrauma5,traumarenal5,Trauma renal AAST grau V com desvascularização
+tcrvneo5,neoplasiarenal5,Tumor renal sincrônico com varicocele ipsilateral
+tcrvneo5c,neoplasiarenal5c,Conclusão — massa e nódulos renais compatíveis com neoplasia
+tcrvpie8,pielonefrite8,Pielonefrite obstrutiva por cálculo na junção ureteropiélica
+tcrvuropobs1,uropatiaobstrutiva1,Uropatia obstrutiva intermitente com pelveureterite
+tcrvdensp,densificacaoperirrenal,Densificação perirrenal indeterminada (estudo sem contraste)
+tcrvwilms,tumorwilms,Nefroblastomas bilaterais (tumor de Wilms)
+tcrvwilmsc,tumorwilmsc,Conclusão — neoplasia renal primária (nefroblastomas)
+tcrvmegaur,megaureterobstrutivo,Megaureter obstrutivo primário com infecção sobreposta
+tcrvnefrost,nefrostomiaesquerda,Nefrostomia percutânea esquerda
+tcrvcoral,calculocoraliforme,Cálculo coraliforme renal
+tcrvurot4,neoplasiaurotelial4,Tumor urotelial da pelve renal com cálculo coraliforme
+tcrvurot4c,neoplasiaurotelial4c,Conclusão — carcinoma urotelial renal
+tcrvpie9,pielonefrite9,Abscessos perirrenais e intracavitários pós-pielonefrite
+tcrvcistpel,cistopelve,Imagem cística da pelve renal inespecífica
+tcrvhun3,hidroureteronefrose3,Hidroureteronefrose direita sem fator obstrutivo identificado
+tcrvflebol,flebolitoureter,Calcificação junto ao ureter distal — flebólito ou cálculo
+tcrvhemat2,hematomarenal2,Hematoma subcapsular renal laminar
+tcrvforn2,roturafornice2,Rotura do fórnice renal com urinoma na fase excretora
+tcrvferr,rimferradura,Rim em ferradura
+tcrvejup2,estenosejup2,Estenose da junção ureteropiélica direita
+tcrvejup3,estenosejup3,Estenose da junção ureteropiélica esquerda com densificação
+tcrvejup4,estenosejup4,Estenose da junção ureteropiélica com urinoma
+tcrvrotac,rotacaorenal,Vício de rotação renal bilateral
+tcrvdivcal,diverticulocalice,Divertículos calicinais
+tcrvseq1,retracaorenal1,Retrações parenquimatosas renais de aspecto sequelar
+tcrvcongv,congestaoperirrenal,Congestão venolinfática perirrenal
+tcrvaml3,angiomiolipoma3,Angiomiolipoma renal diminuto
+tcrvectur,ectasiaureteral,Ectasia ureteral por passagem recente de cálculo
+tcrvhidro,hidronefroseacentuada,Hidronefrose acentuada com nefropatia ipsilateral
+tcrvcpel4,calculopelve4,Cálculo na pelve renal com provável pelveureterite
+tcrvespur,ureterespessado,Espessamento parietal ureteral indeterminado
+tcrvcalc2,calculorenal2,Cálculo renal não obstrutivo
+tcrvcalc3,calculorenal3,Cálculos renais não obstrutivos (lista)
+tcrvcalc4,calculorenal4,Dois cálculos renais justapostos não obstrutivos
+tcrvcur3,calculoureter3,Cálculos ureterais múltiplos com uropatia obstrutiva
+tcrvcur4,calculoureter4,Ureterolitíase com pielonefrite e coleções em formação
+tcrvcur5,calculoureter5,Cálculos ureterais justapostos obstrutivos com exclusão funcional
+tcrvcjuv2,calculojuncao2,Cálculo na junção ureterovesical com pelveureterite
+tcrvcur6,calculoureter6,Cálculo obstrutivo do ureter distal esquerdo
+tcrvcjuv3,calculojuncao3,Cálculo obstrutivo na junção ureterovesical direita
+tcrvcur7,calculoureter7,Cálculo obstrutivo no terço médio do ureter esquerdo
+tcrvcur8,calculoureter8,Cálculo obstrutivo no terço proximal do ureter direito
+tcrvcur9,calculoureter9,Cálculos justapostos obstrutivos do ureter distal
+tcrvcur10,calculoureter10,Cálculo obstrutivo com nefrograma estriado
+tcrvuropobs2,uropatiaobstrutiva2,Uropatia obstrutiva complicada com abscesso renal
+tcrvpenf2,pielonefriteenfisematosa2,Cálculo pielocalicinal com pielite enfisematosa
+tcrvpenf3,pielonefriteenfisematosa3,Pielonefrite e pielite enfisematosa com coleções gasosas
+tcrvpenf4,pielonefriteenfisematosa4,Cálculo ureteral distal com focos gasosos calicinais
+tcrvpenf4c,pielonefriteenfisematosa4c,Conclusão — pielite enfisematosa com ureterolitíase
+tcrvpenf5,pielonefriteenfisematosa5,Cálculos na pelve renal com pielite enfisematosa
+tcrvpie10,pielonefrite10,Pielonefrite aguda com microabscessos em formação
+tcrvpie11,pielonefrite11,Pielonefrite complicada com coleção subcapsular hemática
+tcrvpie12,pielonefrite12,Pielonefrite aguda não complicada com dilatação mínima
+tcrvpie13,pielonefrite13,Pielonefrite aguda não complicada à esquerda
+tcrvhun4,hidroureteronefrose4,Nefrograma estriado com hidroureteronefrose sem fator obstrutivo
+tcrvpie14,pielonefrite14,Pielonefrite secundária a obstrução sem nefrograma estriado
+tcrvpie15,pielonefrite15,Pielonefrite aguda direita com linfonodos reacionais
+tcrvpie16,pielonefrite16,Pielonefrite aguda associada a ureterite
+tcrvpxg1,pielonefritexantogranulomatosa1,Pielonefrite xantogranulomatosa com abscesso perirrenal
+tcrvpxg1c,pielonefritexantogranulomatosa1c,Conclusão — pielonefrite xantogranulomatosa com abscesso perirrenal
+tcrvpxg2,pielonefritexantogranulomatosa2,Pielonefrite xantogranulomatosa bilateral
+tcvsaneuren,aneurismarenal,Aneurisma sacular da artéria renal
+tcrvvicar,rimvicariante,Rim vicariante
+tcrvuropobs3,uropatiaobstrutiva3,Uropatia obstrutiva recente sem cálculo residual
+tcrvnorm,rinsnormais,Rins normais com excreção adequada
+tcrvnefcr,nefropatiacronica,Nefropatia crônica com redução volumétrica
+tcrvseq2,retracaorenal2,Rim sequelar com retrações corticais
+tcrvurot5,neoplasiaurotelial5,Neoplasia da junção ureteropiélica (estudo sem contraste)
+tcrvurot6,neoplasiaurotelial6,Tumor urotelial da pelve renal com extensão ureteral
+tcrvneo6,neoplasiarenal6,Tumor renal com invasão da veia cava inferior
+tcrvneo7,neoplasiarenal7,Tumor renal de complexidade intermediária (RENAL 9p)
+tcrvneo8,neoplasiarenal8,Carcinoma renal de células claras sólido-cístico
+tcrvbosn4,cistorenalbosniak4,Lesão renal cística com nódulo mural (Bosniak IV)
+tcrvhemat3,hematomarenal3,Hematoma subcapsular renal
+tcrvtrauma3,traumarenal3,Trauma renal AAST grau III
+tcbxrecid,recidivavesical,Remanescente ou recidiva tumoral vesical
+tcbxpolip,lesaopolipoide,Lesão polipoide vesical suspeita (estudo sem contraste)
+tcbxenf,cistiteenfisematosa,Cistite enfisematosa com rotura vesical
+tcbxenfc,cistiteenfisematosac,Conclusão — cistite enfisematosa com roturas intra e extraperitoneais
+tcbxesp,bexigaespessada,Espessamento vesical com ectasia ureteral a esclarecer
+tcbxneo,neoplasiavesical,Neoplasia vesical infiltrativa com invasão do espaço de Retzius
+tcbxneoc,neoplasiavesicalc,Conclusão — neoplasia primária vesical infiltrativa
+tcbxdupur,duplicacaoureteral,Duplicação completa do sistema coletor com ureter ectópico
+tcbxureobs,ureterpolosuperior,Obstrução distal do ureter do polo superior com realce urotelial
+tcbxbricker,derivacaobricker,Derivação urinária tipo Bricker com suspeita de deiscência
+tcbxurot1,carcinomavesical1,Carcinoma urotelial vesical de alto grau confirmado
+tcbxfist,fistulavesicovaginal,Fístula vesicovaginal e vesicorretal
+tcbxcist,cistitevesiculite,Cistite com vesiculite seminal
+tcbxurot2,carcinomavesical2,Carcinoma urotelial vesical com extensão ao ureter distal
+tcapcompl1,apendicitecomplicada1,Apendicite complicada com abscessos intracavitários e de parede
+tcapperf1,apendiciteperfurada1,Coleção em fossa ilíaca direita por provável apendicite perfurada
+tcapdist,delgadodistendido,Discreta distensão hidroaérea de alças delgadas
+tcapmuco1,mucoceleapendice1,Mucocele do apêndice cecal
+tcapperf2,apendiciteperfurada2,Apendicite perfurada com abscessos e possível pseudomixoma
+tcaplim,apendicelimitrofe,Apêndice cecal no limite superior da normalidade com hiper-realce
+tcapag1,apendicite1,Apendicite incipiente com hiper-realce parietal
+tcapag2,apendicite2,Apendicite incipiente do segmento corporal
+tcapag2c,apendicite2c,Conclusão — alterações inflamatórias incipientes do apêndice
+tcapag3,apendicite3,Apendicite inicial retrocecal
+tcapliq,liquidopelvico,Líquido livre pélvico sem individualização do apêndice
+tcappos,posapendicectomia,Status pós-apendicectomia
+tcapcoto1,apendicitecoto1,Apendicite de coto com apendicolitos
+tcapmuco2,mucoceleapendice2,Apendicite aguda com provável mucocele associada
+tcapmuco3,mucoceleapendice3,Apendicite não complicada com possível mucocele
+tcapmuco4,mucoceleapendice4,Apendicite com mucocele e mucina extraluminal
+tcapmuco5,mucoceleapendice5,Apendicite complicada com possível mucocele
+tcapag4,apendicite4,Apendicite aguda com apendicolito na base
+tcapag5,apendicite5,Apendicite aguda com apendicolitos (origem medial)
+tcapag6,apendicite6,Apendicite aguda simples
+tcapcompl2,apendicitecomplicada2,Apendicite complicada com coleção na fossa ilíaca direita
+tcapcompl3,apendicitecomplicada3,Apendicite complicada com coleções parcialmente caracterizadas
+tcapag7,apendicite7,Apendicite aguda de apêndice pélvico
+tcapperf3,apendiciteperfurada3,Apendicite perfurada com coleção inflamatória
+tcapperf4,apendiciteperfurada4,Apendicite perfurada com pneumoperitônio
+tcapperf5,apendiciteperfurada5,Apendicite perfurada com abscesso
+tcapcoto2,apendicitecoto2,Apendicite de coto pós-apendicectomia
+tcvshp,hipertensaoportal,Sinais indiretos de hipertensão portal com shunt esplenorrenal
+tcvstroams1,trombomesenterica1,Trombo na origem da artéria mesentérica superior
+tcvstvp1,tromboseportal1,Falhas de opacificação da veia porta (trombos)
+tcclisq,colonisquemico,Assimetria de realce colônico de provável origem isquêmica
+tcvsinfvis1,infartovisceral1,Áreas de isquemia renais e esplênica cuneiformes
+tcvsendlk1,endoprotesevazamento1,Aneurisma aórtico com endoprótese fenestrada e endoleak I/II
+tcvsendlk2,endoprotesevazamento2,Aneurisma de ilíaca interna com falha mecânica da endoprótese (endoleak III)
+tcvsaaains1,aneurismainstavel1,Aneurisma de aorta abdominal com sinais de instabilidade (sem contraste)
+tcvsaaains1c,aneurismainstavel1c,Conclusão — aneurisma de aorta abdominal com sinais de instabilidade
+tcpthemmes,hematomamesenterico,Hematomas mesentéricos com hemoperitônio (trauma)
+tcvstroams2,trombomesenterica2,Trombo ateromatoso da artéria mesentérica superior
+tcvsaaarot1,aneurismarotura1,Aneurisma roto de aorta abdominal com hematoma retroperitoneal
+tcvsaaarot1c,aneurismarotura1c,Conclusão — aneurisma roto de aorta abdominal
+tcvsinfvis2,infartovisceral2,Infarto esplênico e renais em tromboflebite migratória
+tcvstrouss,sindrometrousseau,Neoplasia do cólon transverso com linfonodomegalias necróticas
+tcvstroussc,sindrometrousseauc,Conclusão — infartos esplênico e renais (síndrome de Trousseau)
+tcvsdissao1,disseccaoaortica1,Dissecção aórtica toracoabdominal com hemotórax
+tcvsdissao2,disseccaoaortica2,Ramos aórticos com origem na luz verdadeira
+tcvsaaatr1,aneurismatrombosado1,Dilatação aneurismática aórtica extensa parcialmente trombosada
+tcvsdissao3,disseccaoaortica3,Endoprótese aórtica na luz verdadeira
+tcvsanilic1,aneurismailiaco1,Dilatação aneurismática das artérias ilíacas direitas
+tcvsater,ateromatosedifusa,Ateromatose difusa do leito arterial
+tcvsdissao4,disseccaoaortica4,Dissecção aortoilíaca com origem dos ramos nas duas luzes
+tcvstvmi1,trombosemesentericainf1,Trombose da veia mesentérica inferior
+tcvstvms,trombosemesentericasup,Trombose da veia mesentérica superior com sofrimento de alças
+tcvsaisq1,arteriaisquiatica1,Persistência da artéria isquiática bilateral
+tcvsaisq2,arteriaisquiatica2,Degeneração aneurismática da artéria isquiática
+tcvsanilic2,aneurismailiaco2,Aneurisma de ilíaca comum com rotura iminente e hidronefrose
+tcvsfiltro1,filtrocava1,Imagem metálica na veia cava inferior (provável filtro)
+tcvsestms,estenosemesenterica,Placas calcificadas com estenose da mesentérica superior e renais
+tcvsaaarot2,aneurismarotura2,Aneurisma roto com prótese endovascular aortobi-ilíaca
+tcvsaaarot3,aneurismarotura3,Aneurisma roto de aorta com sangramento ativo
+tcvsaaarot4,aneurismarotura4,Aneurisma roto de aorta com sinal do crescente
+tcvsaavms,abdomevascular,Abdome agudo vascular por trombose da mesentérica superior
+tcvsdissil,disseccaoiliaca,Dissecção de ilíaca comum com aneurisma sacular instável
+tcvsaaains2,aneurismainstavel2,Aneurisma de aorta abdominal com rotura iminente (aorta drapeada)
+tcvsaneutor,aneurismatoracico,Aneurisma de aorta torácica com rotura iminente
+tcdlredemo,mesenteriogirado,Rotação do mesentério vascular (sinal do redemoinho)
+tcvsaaagon,aneurismagonadal,Aneurisma de aorta abdominal com trombo na artéria gonadal
+tcvsaaacolo,aneurismacolos,Aneurisma de aorta infrarrenal com medidas dos colos
+tcvsaaailia,aneurismaaortoiliaco,Aneurisma de aorta com extensão ao ramo ilíaco direito
+tcvsaaatr2,aneurismatrombosado2,Aneurisma de aorta infrarrenal com trombo circunferencial
+tcvsaaabif,aneurismabifurcacao,Aneurisma de aorta infrarrenal até a bifurcação aórtica
+tcvsaaaoi,aneurismadrapeado,Aneurisma aortoilíaco com sinal da aorta drapeada
+tcvsaaatr3,aneurismatrombosado3,Aneurisma de aorta abdominal extenso com trombo mural
+tcvsendlk3,endoprotesevazamento3,Endoprótese aórtica fenestrada sem endoleak
+tcvsfiltro2,filtrocava2,Filtro de veia cava inferior com trombos residuais
+tcvsanilic3,aneurismailiaco3,Aneurisma da artéria ilíaca comum esquerda
+tcvsvenilic,comunicacaoiliaca,Comunicação do sistema venoso ilíaco
+tcvsnutcr,quebranozesrenal,Síndrome de nutcracker
+tcvstvpm,tromboseportomesenterica,Trombose portomesentérica com sofrimento de alças
+tcvsaoiso,aortaisodensa,Imagem isodensa à aorta — aneurisma ou sangramento ativo?
+tcvsinfvis3,infartovisceral3,"Abdome agudo vascular com infartos hepático, esplênico e de alças"
+tcvsceliaco,oclusaoceliaca,Ausência de contrastação do tronco celíaco e da mesentérica superior
+tcvsvasc,vasculiteabdominal,Vasculite de grandes vasos abdominais
+tcvsaneums,aneurismamesenterica,Aneurisma da artéria mesentérica superior
+tcvsligarq,ligamentoarqueado,Síndrome do ligamento arqueado mediano
+tcvsaaatr4,aneurismatrombosado4,Trombo mural aortoilíaco
+tcvstvren,tromboserenal,Trombose da veia renal esquerda
+tcovcaser,carcinomaseroso,Adenocarcinoma seroso de ovário metastático
+tcpvdefer1,deferentite1,Espessamento do funículo espermático com orquiepididimite (deferentite)
+tcpvdefer1c,deferentite1c,Conclusão — processo inflamatório do ducto deferente (vasite)
+tcpvdefer2,deferentite2,Deferentite com vesiculite seminal e infecção urinária
+tcpvvulva,abscessovulvar,Processo inflamatório vulvar com abscedação e fístula cutânea
+tcutcacolo1,neoplasiacolo1,Neoplasia do colo uterino com invasão vesical e retal
+tcutcacolo1c,neoplasiacolo1c,Conclusão — neoplasia primária do colo uterino
+tcutendo1,endometriose1,Endometriose ovariana e profunda com acometimento ileal
+tcutarq,uteroarqueado,Útero arqueado com heterogeneidade miometrial
+tcutcaendo,adenocarcinomaendometrial,Adenocarcinoma endometrioide com invasão vaginal e do canal anal
+tcutdiu,diuectopico,Dispositivo intrauterino ectópico
+tcbxneout,neoplasiavesicouterina,Neoplasia vesical com invasão uterina
+tcpvcistret,cistoretrouterino,Formação cística complexa retrouterina
+tcutendo2,endometriose2,Endometriomas ovarianos com espessamento do paramétrio
+tcpvectop,ectopicarota,Prenhez ectópica rota com hemoperitônio
+tcutneo,neoplasiauterina,Neoplasia uterina volumosa com linfonodomegalias
+tcpvfistper1,fistulaenteroperianal1,Provável fístula enterocutânea perianal
+tcpvcolhem,colecaohematica,Coleção pélvica de provável natureza hemática
+tcovmassa,massaanexial,Massa anexial sólido-cística suspeita
+tcpvfistper2,fistulaenteroperianal2,Abscesso perineal com trajeto fistuloso para o reto
+tcovtubo,abscessotubovariano,Abscesso tubo-ovariano
+tcutendo3,endometriose3,Formação densa pélvica indeterminada (endometrioma?)
+tcutendo4,endometriose4,Endometriose de parede abdominal
+tcovlut,corpoluteo,Cisto de corpo lúteo
+tcbxuracist,cistouracal,Cisto uracal
+tcpvmassret,massaretrouterina,Massa pélvica retrouterina de provável origem neoplásica
+tcovmuc,cistoadenomamucinoso,Cistoadenoma mucinoso ovariano volumoso
+tcovterat,teratomaovariano,Teratoma ovariano
+tcovfib,fibromaovariano,Fibroma ovariano com compressão do domo vesical
+tcovfibc,fibromaovarianoc,Conclusão — fibroma ovariano com síndrome de Meigs
+tcosostsi2,osteomielitesacroiliaca2,Osteomielite sacroilíaca com sequestro em controle evolutivo
+tcosostsac,osteomielitesacral,Coleção sacrococcígea com osteomielite
+tcovcarc,neoplasiaovariana,Neoplasia ovariana cística com carcinomatose peritoneal
+tcdlcrohn1,crohnfistulizante1,Doença de Crohn com abscessos e fístulas
+tcptcolec1,colecaofossailiaca1,Formação hidroaérea em fossa ilíaca direita indeterminada
+tcclneotr1,neoplasiatransverso1,Neoplasia do cólon transverso com carcinomatose peritoneal
+tcfgmetvol,metastasevolumosa,Metástases hepáticas volumosas com hepatomegalia
+tcvsparaumb,paraumbilicalrecanalizada,Recanalização das veias paraumbilicais
+tcovkruk,tumorkrukenberg,Massas anexiais bilaterais metastáticas (Krukenberg)
+tcclneosig1,neoplasiasigmoide1,Abdome agudo suboclusivo por provável neoplasia de sigmoide
+tcdlobstr1,obstrucaoileal1,Abdome agudo obstrutivo com transição no íleo
+tcdlinfl1,ileoespessado1,Espessamento e distensão ileal de etiologia indeterminada
+tccldiv1,diverticulite1,Diverticulite complicada com fístula colovesical
+tchrdiast,diastaseretos,Diástase dos retos abdominais com obstrução por bridas
+tcdllinf,linfomadelgado,Linfoma de intestino delgado e mesentério
+tcclneoasc1,neoplasiaascendente1,Neoplasia do cólon ascendente com pseudomixoma peritoneal
+tcvbaero2,aerobiliavias2,Aerobilia (achado isolado)
+tcvbleito,leitovesicular,Densificação do leito vesicular com perda de definição
+tcdlileobil1,ileobiliar1,Cálculo impactado no íleo distal com obstrução
+tcptingmes,arcadaingurgitada,Ingurgitamento da arcada vascular mesentérica
+tcdlileobil2,ileobiliar2,Conclusão — íleo biliar
+tcclcorp1,corpoestranhocolon1,Perfuração de sigmoide por corpo estranho
+tcclcorp1c,corpoestranhocolon1c,Conclusão — abdome agudo perfurativo por corpo estranho
+tcdlcrohn2,crohnfistulizante2,Doença inflamatória intestinal com padrão Crohn
+tccltransit1,reconstrucaotransito1,Reconstrução do trânsito intestinal com fechamento de ileostomia
+tcclfist1,fistulaenterocolica1,Fístula enterocolônica demonstrada por contraste retal
+tcclfist2,fistulaenterocolica2,Fístula enterovesical demonstrada por contraste retal
+tcclsangr,sangramentocolon,Sangramento ativo do cólon ascendente
+tcclmegac1,megacolontoxico1,Colite pseudomembranosa com megacólon tóxico
+tcclcolit1,colite1,Espessamento segmentar do sigmoide com obliteração adiposa
+tcclcorp2,corpoestranhocolon2,Imagem linear hiperdensa no sigmoide — corpo estranho?
+tcptcolec2,colecaofossailiaca2,Coleção em fossa ilíaca esquerda adjacente ao sigmoide
+tcdltb,tuberculoseintestinal,Tuberculose intestinal ileocecal
+tcdltne1,neuroendocrinomesocolon1,Tumor neuroendócrino do mesocólon com reação desmoplásica
+tchringuin4,herniainguinal4,Abdome agudo obstrutivo por hérnia inguinal
+tcclcolit2,colite2,Colite inespecífica difusa
+tcdlinfl2,ileoespessado2,Espessamento de alças jejunais indeterminado (sem contraste)
+tchringuin5,herniainguinal5,Hérnia inguinal com alça reduzida espontaneamente
+tcclulcest,ulceraestercoral,Úlcera estercoral do reto com fístula para o sigmoide
+tcclneoret1,neoplasiaretossigmoide1,Neoplasia retossigmoide perfurada com abscesso e invasão uterina
+tcclcolit3,colite3,Colite segmentar do sigmoide e descendente
+tcvstvmi2,trombosemesentericainf2,Sequela de trombose da veia mesentérica inferior
+tcdlvolvo1,volvodelgado1,Volvo de alças delgadas com sofrimento de alça
+tcesdistge,estomagodistendido,Distensão hidroaérea gástrica e esofágica
+tcclmegac2,megacolontoxico2,Retocolite ulcerativa com megacólon tóxico do transverso
+tcclmegac2c,megacolontoxico2c,Conclusão — retocolite com megacólon tóxico
+tcdlintuss1,intussuscepcao1,Intussuscepção ileocecal com suspeita de tumor subjacente
+tcdlbrida2,obstrucaobridas2,Abdome agudo obstrutivo por bridas/aderências
+tcclneotr2,neoplasiatransverso2,Neoplasia do cólon transverso perfurada com fístula gástrica
+tccltransit2,reconstrucaotransito2,Retossigmoidectomia com anastomose primária
+tccldeisc1,deiscenciaanastomose1,Deiscência de anastomose colorretal com pneumoperitônio
+tcclestan1,estenoseanastomose1,Estenose de anastomose colorretal com obstrução
+tccldii,doencainflamatoria,Doença inflamatória intestinal do reto médio
+tcdlbrida3,obstrucaobridas3,Suboclusão intestinal de provável natureza aderencial
+tchrparede,herniareduzida,Hérnia de parede abdominal com alça previamente reduzida
+tcclesp1,estreitamentoretossigmoide1,Estreitamento luminal da transição retossigmoide
+tcclfist3,fistulaenterocolica3,Fístula perianal
+tcdlperf1,perfuracaobloqueada1,Abdome agudo perfurativo bloqueado por alça ileal
+tchrint1,herniainterna1,Hérnia interna transmesossigmoide com intussuscepção
+tchrint2,herniainterna2,Hérnia interna supravesical com isquemia de alças
+tcclrcu,retocolitepancolite,Retocolite ulcerativa com pancolite não estenosante
+tcclneoasc2,neoplasiaascendente2,Neoplasia do cólon ascendente não estenosante com intussuscepção
+tcclneoasc2c,neoplasiaascendente2c,Conclusão — neoplasia colônica com suspeita de linfoma
+tcdlileit1,ileiteterminal1,Ileíte terminal com adenite mesentérica
+tcdlalcaaf,alcaaferente,Síndrome da alça aferente pós Y de Roux
+tcclneodesc1,neoplasiadescendente1,Neoplasia do cólon descendente subestenosante
+tcdlvolvo2,volvodelgado2,Volvo cecal com coleção pélvica indeterminada
+tcclneoceco1,neoplasiaceco1,Neoplasia estenosante do ceco com distensão do apêndice
+tcclneotr3,neoplasiatransverso3,Neoplasia do cólon transverso complicada com coleções
+tcclneoceco2,neoplasiaceco2,Neoplasia do ceco complicada com coleção
+tcdlperf2,perfuracaobloqueada2,Coleções retroperitoneais fecaloides por perfuração colônica
+tcdlperf2c,perfuracaobloqueada2c,Conclusão — abdome agudo perfurativo com coleções retroperitoneais
+tcclcopro1,coproestase1,Coproestase da ampola retal
+tcclactin1,retoactinico1,Alterações actínicas da fáscia mesorretal
+tccltransit3,reconstrucaotransito3,Reconstrução do trânsito intestinal sem recidiva local
+tcclestan2,estenoseanastomose2,Estenose de anastomose jejunojejunal pós Y de Roux
+tccltransit4,reconstrucaotransito4,Reconstrução do trânsito intestinal pós-enterectomia
+tcclestan3,estenoseanastomose3,Estreitamento subestenosante do íleo distal pós-reconstrução
+tcclcolit4,colite4,Colite de exclusão (derivação)
+tcclcopro2,coproestase2,Distensão do transverso com coproestase sem fator mecânico
+tcclcolit5,colite5,Perda das haustrações do cólon descendente
+tcclespast,colonespastico,Espasticidade focal do cólon na flexura hepática
+tccldiv2,diverticulite2,Diverticulite aguda complicada com coleções
+tcclesp2,estreitamentoretossigmoide2,Espessamento retossigmoide inespecífico
+tcclneotr4,neoplasiatransverso4,Neoplasia do cólon transverso com abdome agudo perfurativo
+tcclneoret2,neoplasiaretossigmoide2,Neoplasia polipoide do reto superior
+tcdlileopar1,ileoparalitico1,Íleo paralítico com distensão gástrica e esofágica
+tcclcopro3,coproestase3,Coproestase na moldura cólica
+tcdlperf3,perfuracaobloqueada3,Abdome agudo perfurativo de alças jejunais
+tcdlileopar2,ileoparalitico2,Íleo paralítico de alças delgadas
+tcdlenter1,enteritesalteada1,Enterite subestenosante ileocecal salteada (Crohn?)
+tcdlenter1c,enteritesalteada1c,Conclusão — enterite com abdome agudo suboclusivo
+tcdlinfl3,ileoespessado3,Processo inflamatório intestinal indeterminado (sem contraste)
+tchrint3,herniainterna3,Hérnia interna transmesentérica com sinal do redemoinho
+tchrint3c,herniainterna3c,Conclusão — abdome agudo obstrutivo por hérnia interna transmesentérica
+tcclestan4,estenoseanastomose4,Obstrução na enteroenteroanastomose sem sofrimento vascular
+tcclneotr5,neoplasiatransverso5,Neoplasia subestenosante do cólon transverso (sem contraste)
+tcclneotr5c,neoplasiatransverso5c,Conclusão — neoplasia do cólon transverso com suboclusão
+tcclneosig2,neoplasiasigmoide2,Neoplasia do sigmoide com distensão colônica a montante
+tcdlpneum1,pneumatoseintestinal1,Pneumatose do ceco e ascendente por isquemia
+tcdlmarot1,marotacao1,Má rotação intestinal
+tcdlmarot2,marotacao2,Má rotação intestinal (descrição alternativa)
+tcdlsubocl1,suboclusaodelgado1,Suboclusão de delgado com transição na fossa ilíaca direita
+tcdlsubocl2,suboclusaodelgado2,Suboclusão de delgado sem ponto abrupto de obstrução
+tcdlenter2,enteritesalteada2,Enterite subestenosante ileocecal e jejunal com suboclusão
+tcdlmeckel,diverticulomeckel,Divertículo de Meckel sem sinais inflamatórios
+tcdlvolvo3,volvodelgado3,Volvo de sigmoide (estudo sem contraste)
+tcdlvolvo3c,volvodelgado3c,Conclusão — volvo de sigmoide
+tcclchilaid,interposicaochilaiditi,Sinal de Chilaiditi (interposição colônica)
+tcdlvolvo4,volvodelgado4,Volvo de sigmoide com sinal do grão de café
+tcdlvolvo5,volvodelgado5,Volvo de sigmoide com deslocamento hepático
+tcdlvolvo6,volvodelgado6,Volvo do cólon ascendente/ceco
+tcdlpneum2,pneumatoseintestinal2,Pneumatose intestinal com gás no sistema porta (isquemia mesentérica)
+tcclcolit6,colite6,Processo inflamatório do sigmoide com perfuração
+tcdlbrida4,obstrucaobridas4,Brida complicada com isquemia de alça delgada
+tcdlbrida5,obstrucaobridas5,Obstrução por brida com hipocontrastação de alças
+tcclapepi1,apendagiteepiploica1,Apendagite epiploica do sigmoide
+tcclapepi2,apendagiteepiploica2,Apendagite epiploica do ceco
+tcclcolit7,colite7,Colite do sigmoide e descendente
+tcclcolit8,colite8,Colite direita com acometimento do íleo terminal
+tcdlileit2,ileiteterminal2,Ileíte terminal com linfonodomegalias regionais
+tcdlinfl4,ileoespessado4,Processo inflamatório regional em fossa ilíaca direita
+tcdlintuss2,intussuscepcao2,Intussuscepção ileocólica (sinal do alvo)
+tcclcolit9,colite9,Colite do sigmoide com perfuração
+tcclesp3,estreitamentoretossigmoide3,Espessamento colorretal indeterminado com linfonodomegalias
+tcclcolit10,colite10,Espessamento retossigmoide e do descendente inflamatório
+tcdlenter3,enteritesalteada3,Enterite subestenosante com alça fechada
+tcdlenter3c,enteritesalteada3c,Conclusão — enterite com padrão suboclusivo em alça fechada
+tcclestret1,estenosecicatricial1,Estenose retossigmoide fibrocicatricial
+tcclestret2,estenosecicatricial2,Estenose retossigmoide com doença inflamatória intestinal como diferencial
+tcdlenter4,enteritesalteada4,Enterite ileal em atividade com alça fechada
+tcdlileit3,ileiteterminal3,Ileíte crônica com proliferação gordurosa submucosa
+tcclcolit11,colite11,Processo inflamatório colorretal crônico com lipossubstituição
+tceslipo,estomagolipossubstituido,Espessamento submucoso gástrico com lipossubstituição
+tcclfist4,fistulaenterocolica4,Fístula colovesical extensa
+tcdltne2,neuroendocrinomesocolon2,Tumor neuroendócrino do íleo terminal com metástase mesentérica
+tcdltne3,neuroendocrinomesocolon3,Tumor neuroendócrino do íleo distal com reação desmoplásica
+tcclneodesc2,neoplasiadescendente2,Neoplasia do cólon descendente com invasão esplênica e perfuração
+tcclcolit12,colite12,Estreitamento do cólon transverso com colite direita (sem contraste)
+tcclesp4,estreitamentoretossigmoide4,Espessamento do cólon transverso — neoplasia ou endometriose
+tcclneosig3,neoplasiasigmoide3,Neoplasia da transição sigmoide/descendente suboclusiva
+tcclneoret3,neoplasiaretossigmoide3,Neoplasia retossigmoide infiltrativa com invasão prostática
+tcclneosig4,neoplasiasigmoide4,Neoplasia do sigmoide com perfuração bloqueada
+tcclneosig5,neoplasiasigmoide5,Neoplasia do sigmoide e reto alto subestenosante
+tcclneosig5c,neoplasiasigmoide5c,Conclusão — neoplasia colorretal com disseminação hematogênica
+tcclneosinc,neoplasiasincronica,Neoplasias colônicas primárias sincrônicas
+tcclneofl1,neoplasiaflexura1,Neoplasia da flexura esplênica com espessamento ileal associado
+tcclneofl1c,neoplasiaflexura1c,Conclusão — neoplasia sincrônica enterocólica versus doença inflamatória
+tcclneoceco3,neoplasiaceco3,Neoplasia do ceco com apendicite complicada
+tcpmposcir,manipulacaoparede,Manipulação cirúrgica da parede abdominal e região inguinal
+tccldeisc2,deiscenciaanastomose2,Deiscência de alça ileal com coleção fecaloide
+tcpthemop2,hemoperitoniopancreas2,Hemoperitônio da região pancreatoduodenal à goteira parietocólica
+tcptcolec3,colecaofossailiaca3,Coleção pélvica — abscesso ou perfuração de alça
+tcptcolec4,colecaofossailiaca4,Coleção pré-sacral por provável deiscência de sutura
+tccldeisc3,deiscenciaanastomose3,Deiscência de anastomose com extravasamento de contraste
+tcclfist5,fistulaenterocolica5,Provável fístula perineal para a região glútea
+tcclneofl2,neoplasiaflexura2,Neoplasia subestenosante da flexura hepática
+tcclneodesc3,neoplasiadescendente3,Neoplasia da transição descendente/sigmoide com contato do psoas
+tccldiv3,diverticulite3,Diverticulite aguda do sigmoide (Hinchey Ia)
+tccldiv4,diverticulite4,Diverticulite/colite aguda do cólon ascendente
+tccldiv5,diverticulite5,Diverticulite aguda do sigmoide sem coleções
+tccldiv6,diverticulite6,Diverticulite complicada com fístula colovesical
+tccldiv7,diverticulite7,Obliteração da borda mesentérica do transverso (diverticulite)
+tccldiv8,diverticulite8,Diverticulite complicada em controle evolutivo
+tccldiv9,diverticulite9,Diverticulite aguda do sigmoide com focos gasosos
+tccldiv10,diverticulite10,Diverticulite perfurada com alças de bloqueio
+tccldiv11,diverticulite11,Diverticulite perfurada com coleções não organizadas
+tccldiv12,diverticulite12,Isquemia mesentérica como complicação de diverticulite
+tcclactin2,retoactinico2,Retossigmoidite inflamatória ou actínica
+tcdlileopar3,ileoparalitico3,Íleo adinâmico pós-cirúrgico
+tchrparaumb,herniaparaumbilical,Abdome agudo obstrutivo por hérnia paraumbilical
+tchringuin6,herniainguinal6,Abdome agudo obstrutivo por hérnia inguinal (alça ileal)
+tcclcopro4,coproestase4,Pseudo-obstrução intestinal com fecaloma
+tcclcopro5,coproestase5,Fecaloma retal com distensão de alças a montante
+tcdlobstr2,obstrucaoileal2,Obstrução colônica com perfuração cecal e isquemia
+tcdlobstr2c,obstrucaoileal2c,Conclusão — obstrução com perfuração cecal e isquemia intestinal
+tcdlobstr3,obstrucaoileal3,Obstrução jejunal com perfuração e coleção
+tcdlperf4,perfuracaobloqueada4,Perfuração jejunal com coleções intracavitárias
+tcdlperf5,perfuracaobloqueada5,Abdome agudo perfurativo com coleção entre cólon e jejuno
+tcclrecidost,recidivaostomia,Recidiva tumoral junto à ostomia
+tcesenf,enfisemagastrico,Enfisema gástrico por hiperpressão ou isquemia
+tcptpmix2,pseudomixomaperitoneal2,Pseudomixoma e carcinomatose peritoneal de origem indeterminada
+tcfgmethv3,metastasehipovascular3,Nódulos hepáticos secundários hipovasculares
+tcpthemrp1,hemorretroperitonio1,Hemorretroperitônio volumoso
+tcpthemrp2,hemorretroperitonio2,Hematoma retroperitoneal sem sangramento ativo
+tcptneorp,neoplasiaretro,Neoplasia retroperitoneal infiltrativa com trombose da cava
+tcptlinfcal,linfonodocalcificado,Linfonodomegalia calcificada da raiz do mesentério
+tcptperit,peritonitecoletada,Líquido coletado com espessamento e realce peritoneal
+tcptpesc,peritoniteesclerosante,Peritonite esclerosante encapsulante
+tcptfibrorp,fibroseretro,Fibrose retroperitoneal
+tcptlinfang,linfangiomaretro,Linfangioma retroperitoneal volumoso
+tcpthemrp3,hemorretroperitonio3,Hematoma retroperitoneal com sangramento ativo
+tcptinfom1,infartoomental1,Infarto omental prévio
+tcptinfom2,infartoomental2,Infarto omental
+tcptpanmes1,paniculitemesenterica1,Paniculite mesentérica
+tcptmisty,mesenterioturvo,Espessamento de alças com misty mesentery
+tcptpanmes2,paniculitemesenterica2,Paniculite mesentérica discreta
+tcptadenmes1,adenitemesenterica1,Adenite mesentérica
+tcptadenmes2,adenitemesenterica2,Adenite e paniculite mesentérica
+tcptimpl1,implanteperitoneal1,Implantes peritoneais com aderências pós-cirúrgicas
+tcptcarc1,carcinomatoseperitoneal1,Carcinomatose peritoneal com neoangiogênese
+tcptcarc2,carcinomatoseperitoneal2,Carcinomatose peritoneal com omental cake e massa pélvica
+tcptdensmes,mesenteriodenso,Densificação mesentérica com espessamento peritoneal
+tcptascite1,ascitevolumosa1,Ascite volumosa com espessamento nodular do peritônio parietal
+tcptascite2,ascitevolumosa2,Espessamento nodular do grande omento com pequena ascite
+tcptlinfpar,linfonodoparaortico,Aumento de linfonodomegalia para-aórtica em controle
+tcptascite3,ascitevolumosa3,Ascite loculada com espessamento nodular do peritônio
+tcptcolcarc,colonperitoneal,Espessamento do cólon transverso com possível carcinomatose
+tcdlalcapel,alcaspelvicas,Aglomerado de alças delgadas pélvicas sem obstrução
+tcptimpl2,implanteperitoneal2,Aumento dos implantes peritoneais em controle evolutivo
+tcptpmix3,pseudomixomaperitoneal3,Pseudomixoma peritoneal peri-hepático
+tcptpmix4,pseudomixomaperitoneal4,Pseudomixoma peritoneal com ascite de aspecto espesso
+tcptreac,alteracaoreacional,"Alterações reacionais da vesícula, alças e região periportal"
+tcptader,aderenciafibrosa,Aderências fibrosas lineares retráteis
+tcpmulcer,ulceratrocanter,Úlceras de pressão trocantérica e sacral com acometimento ósseo
+tcosostpm1,osteomieliteisquiatica1,Osteomielite sacrococcígea e isquiática (sem contraste)
+tcosostpm2,osteomieliteisquiatica2,Osteomielite da tuberosidade isquiática com fístula cutânea
+tcosfossin,fossetasinovial,Fossetas de herniação sinovial dos colos femorais
+tcpmcoliliop,colecaoiliopsoas,Coleção retroperitoneal com extensão ao iliopsoas em controle
+tcpmabspar,abscessoparavertebral,Abscesso paravertebral com osteomielite e fístula cutânea
+tcpmsarc1,sarcomalombar1,Sarcoma de partes moles da região lombar
+tcpmsarc2,sarcomalombar2,Massa glútea de provável natureza sarcomatosa
+tcpmarmabr,armabranca,Lesão por arma branca em partes moles toracoabdominais
+tcpmcortoc,ferimentocortocontuso,Ferimentos cortocontusos com sangramento ativo (spot sign)
+tcpmpaf,armafogo,Ferimento por arma de fogo na região glútea
+tcpmabssubc,abscessosubcutaneo,Abscesso subcutâneo volumoso da parede abdominal
+tcpmcolinfl,colecaoinguinal,"Coleções inflamatórias inguinal, perianal e sacrococcígea"
+tchrobt,herniaobturatoria,Abdome agudo obstrutivo por hérnia obturatória
+tchrfem,herniafemoralobstrutiva,Abdome agudo obstrutivo por hérnia femoral
+tchringuin1,herniainguinal1,Hérnia inguinal indireta volumosa sem complicações
+tcpmposlap,poslaparotomia,Status pós-laparotomias múltiplas
+tchrincis1,herniaincisional1,Hérnias incisionais supraumbilicais com aderências
+tcpmdenerv,retodenervado,Denervação do reto abdominal pós-cirúrgica
+tchrincis2,herniaincisional2,Hérnias incisionais bilaterais sem complicações
+tchrafil,paredeafilada,Afilamento da parede abdominal com insinuação contida de alças
+tchrepi1,herniaepigastrica1,Hérnia epigástrica com abdome agudo obstrutivo
+tchrint4,herniainterna4,Hérnia interna paraduodenal direita com má rotação
+tchrint4c,herniainterna4c,Conclusão — hérnia interna paraduodenal direita
+tchrincis3,herniaincisional3,Hérnias incisionais ventrais múltiplas complicadas
+tchrincis4,herniaincisional4,"Hérnias incisionais ventrais múltiplas, uma com sinais obstrutivos"
+tchringuin2,herniainguinal2,Hérnia inguinal com obstrução (estudo sem contraste)
+tchrlomb1,herniolombar1,Hérnia lombar do triângulo lombar superior
+tchrspieg,herniadespiegel,Hérnia de Spiegel
+tchrincis5,herniaincisional5,Hérnia incisional do flanco direito
+tchrumb,herniaumbilical,Volumosa hérnia umbilical sem alteração à manobra de esforço
+tchrlomb2,herniolombar2,Hérnia de Grynfeltt-Lesshaft pós-nefrectomia
+tchrepi2,herniaepigastrica2,Hérnia epigástrica com conteúdo adiposo
+tchringuin3,herniainguinal3,Hérnia inguinal com segmento ileal
+tchrdiaf,herniadiafragmatica,Hérnia diafragmática paravertebral
+tcousubend,subendocardico,Hipocontrastação subendocárdica do ventrículo esquerdo
+tcvsmayth,sindromecockett,Síndrome de May-Thurner/Cockett (estudo sem contraste)
+tcoularingo,laringocele,Laringocele mista
+tcpvcript1,criptorquidiamassa1,Criptorquidia com massa retroperitoneal indeterminada
+tcpvcript1c,criptorquidiamassa1c,Conclusão — criptorquidia com massa retroperitoneal indeterminada
+tcosartrod1,artrodesetoracolombar1,Artrodese toracolombar com parafusos transcorticais
+tcptsangmes,sangramentomesenterico,Sangramento ativo mesentérico nas fases arterial e portal
+tcpthemop,hemoperitoniopancreas,Aumento do hemoperitônio na fase excretora
+tcosartrod2,artrodesetoracolombar2,Artrodese lombar com coleção paravertebral
+tcosfrat12,fraturaexplosiva12,Fratura explosiva de T12 com retrolistese
+tcpmprojet1,trajetoprojetil1,Trajetos de projétil com hematoma retroperitoneal e sangramento ativo
+tcptvisdist,visceradistribuicao,Alteração na distribuição das vísceras intra-abdominais
+tcpmhemat,hematomaparede,Hematoma de parede abdominal com sangramento ativo
+tcpmhematret,hematomareto,Coleção hemática dos retos abdominais com infecção sobreposta
+tcpmsangadu,sangramentoadutor,Sangramento ativo na musculatura adutora
+tcpmsubxif,ferimentosubxifoide,Ferimento subxifóideo com pneumoperitônio mínimo
+tcclcorp,corpoestranhocolon,Corpo estranho transfixando o íleo terminal
+tcptgossip2,corpoestranhocirurgico2,Gossipiboma vesicouterino com processo inflamatório reacional
+tcbxuraco1,seiouracal1,Seio umbilical-uracal
+tcbxuraco2,seiouracal2,Divertículo vesicouracal
+tcptlinfret,linfonodoretrocrural,Múltiplas linfonodomegalias retrocrurais e retroperitoneais
+tceszenker,diverticulozenker,Divertículo de Zenker
+tcptdreno1,drenohilo1,Dreno com extremidade no hilo hepático
+tcptdreno2,drenohilo2,Dreno com extremidade no hipocôndrio esquerdo
+tcptsonda,sondapertuito,Sonda com pertuito no hemiabdome anterior esquerdo
+tcpmprojet2,trajetoprojetil2,Fraturas costais com fragmentos de projétil de arma de fogo
+tcpmprojet3,trajetoprojetil3,Fragmentos de projétil periesplênicos e intraesplênicos
+tcoulam,cistospulmonares,Nota — cistos pulmonares sugestivos de linfangioleiomiomatose
