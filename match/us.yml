@@ -412,19 +412,19 @@ matches:
     replace: Múltiplos nódulos hepáticos com as características acima descritas. Dentro do contexto clínico, considerar a hipótese de lesões secundárias.
     word: true
 
-  - trigger: "lirads1"
+  - trigger: "uslirads1"
     label: "Fígado: LI-RADS US-1 (negativo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C"
     replace: "LI-RADS US-1 (negativo), escore de visualização _. Sugere-se manter rastreamento ultrassonográfico em 6 meses."
     word: true
 
-  - trigger: "lirads2"
+  - trigger: "uslirads2"
     label: "Fígado: LI-RADS US-2 (subliminar, < 1,0 cm) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C"
-    replace: "Observação de _ cm no segmento _, LI-RADS US-2 (subliminar), escore de visualização _. Sugere-se controle ultrassonográfico em 3 a 6 meses."
+    replace: "Nódulo de _ cm no segmento _, LI-RADS US-2 (subliminar), escore de visualização _. Sugere-se controle ultrassonográfico em 3 a 6 meses."
     word: true
 
-  - trigger: "lirads3"
+  - trigger: "uslirads3"
     label: "Fígado: LI-RADS US-3 (positivo, ≥ 1,0 cm ou trombo venoso novo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C"
-    replace: "Observação de _ cm no segmento _, LI-RADS US-3 (positivo), escore de visualização _. Sugere-se tomografia computadorizada ou ressonância magnética multifásica."
+    replace: "Nódulo de _ cm no segmento _, LI-RADS US-3 (positivo), escore de visualização _. Sugere-se tomografia computadorizada ou ressonância magnética multifásica."
     word: true
 
   - trigger: "vb0"
