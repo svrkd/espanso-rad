@@ -374,17 +374,17 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | axle | Mama (linfonodo axilar esquerdo): Linfonodo de aspecto habitual no prolongamento axilar esquerdo |
 | axld | Mama (linfonodo axilar direito): Linfonodo de aspecto habitual no prolongamento axilar direito |
 | mms1 | Mama (cistos): Cistos subcentimétricos esparsos por ambas as mamas |
-| ma3 | Mama (massa): oval, circunscrita, paralela (achado descritivo) |
-| usnc | Mama (massa): conclusão genérica |
-| usncs | Mama (massas): conclusão genérica |
+| ma3 | Mama (nódulo): oval, circunscrito, paralelo (achado descritivo) |
+| usnc | Mama (nódulo): conclusão genérica |
+| usncs | Mama (nódulos): conclusão genérica |
 | ma1 | Mama (cistos): Cistos subcentimétricos esparsos por ambas as mamas |
 | ma11 | Mama (cistos): Cistos subcentimétricos esparsos pela mama direita |
 | ma12 | Mama (cistos): Cistos subcentimétricos esparsos pela mama esquerda |
-| ma3c | Mama (massa): conclusão genérica |
-| ma3s | Mama: múltiplas massas ovais circunscritas (dois ou mais sítios) |
-| ma3sc | Mama (massas): conclusão genérica |
-| ma4 | Mama: múltiplas massas ovais circunscritas (dois ou mais sítios) |
-| ma4c | Mama (massas): conclusão genérica |
+| ma3c | Mama (nódulo): conclusão genérica |
+| ma3s | Mama: múltiplos nódulos ovais circunscritos (dois ou mais sítios) |
+| ma3sc | Mama (nódulos): conclusão genérica |
+| ma4 | Mama: múltiplos nódulos ovais circunscritos (dois ou mais sítios) |
+| ma4c | Mama (nódulos): conclusão genérica |
 | ma5 | Mama: Microcistos agrupados (achado descritivo) |
 | ma5c | Mama: Microcistos agrupados |
 | ma6 | Mama: Microcistos agrupados bilaterais (achado descritivo) |
@@ -401,31 +401,31 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma22 | Mama (US): regiões retroareolares preservadas |
 | ma23 | Mama (US): ausência de correspondente para achado palpável |
 | ma24 | Mama (US): ausência de correspondente para achado mamográfico |
-| ma25 | Mama (US): massa oval circunscrita e paralela |
-| ma25c | Mama (US): massa oval circunscrita e paralela (conclusão) |
-| ma26 | Mama (US): massa lobulada circunscrita e paralela |
-| ma26c | Mama (US): massa lobulada circunscrita e paralela (conclusão) |
-| ma27 | Mama (US): massa redonda circunscrita |
-| ma27c | Mama (US): massa redonda circunscrita (conclusão) |
-| ma28 | Mama (US): massa irregular de margem indistinta |
-| ma28c | Mama (US): massa irregular de margem indistinta (conclusão) |
-| ma29 | Mama (US): massa de margem microlobulada |
-| ma29c | Mama (US): massa de margem microlobulada (conclusão) |
-| ma30 | Mama (US): massa de margem angular |
-| ma30c | Mama (US): massa de margem angular (conclusão) |
-| ma31 | Mama (US): massa espiculada e não paralela |
-| ma31c | Mama (US): massa espiculada e não paralela (conclusão) |
-| ma32 | Mama (US): massa hiperecogênica |
-| ma32c | Mama (US): massa hiperecogênica (conclusão) |
-| ma33 | Mama (US): massa isoecogênica |
-| ma33c | Mama (US): massa isoecogênica (conclusão) |
-| ma34 | Mama (US): massa heterogênea |
-| ma34c | Mama (US): massa heterogênea (conclusão) |
-| ma35 | Mama (US): massa mista sólida e cística |
-| ma35c | Mama (US): massa mista sólida e cística (conclusão) |
-| ma36 | Mama (US): massas circunscritas múltiplas bilaterais |
-| ma37 | Mama (US): massa parametrizada (descritores v2025) |
-| ma37c | Mama (US): massa parametrizada (descritores v2025) (conclusão) |
+| ma25 | Mama (US): nódulo oval circunscrito e paralelo |
+| ma25c | Mama (US): nódulo oval circunscrito e paralelo (conclusão) |
+| ma26 | Mama (US): nódulo lobulado circunscrito e paralelo |
+| ma26c | Mama (US): nódulo lobulado circunscrito e paralelo (conclusão) |
+| ma27 | Mama (US): nódulo redondo circunscrito |
+| ma27c | Mama (US): nódulo redondo circunscrito (conclusão) |
+| ma28 | Mama (US): nódulo irregular de margem indistinta |
+| ma28c | Mama (US): nódulo irregular de margem indistinta (conclusão) |
+| ma29 | Mama (US): nódulo de margem microlobulada |
+| ma29c | Mama (US): nódulo de margem microlobulada (conclusão) |
+| ma30 | Mama (US): nódulo de margem angular |
+| ma30c | Mama (US): nódulo de margem angular (conclusão) |
+| ma31 | Mama (US): nódulo espiculado e não paralelo |
+| ma31c | Mama (US): nódulo espiculado e não paralelo (conclusão) |
+| ma32 | Mama (US): nódulo hiperecogênico |
+| ma32c | Mama (US): nódulo hiperecogênico (conclusão) |
+| ma33 | Mama (US): nódulo isoecogênico |
+| ma33c | Mama (US): nódulo isoecogênico (conclusão) |
+| ma34 | Mama (US): nódulo heterogêneo |
+| ma34c | Mama (US): nódulo heterogêneo (conclusão) |
+| ma35 | Mama (US): nódulo misto sólido e cístico |
+| ma35c | Mama (US): nódulo misto sólido e cístico (conclusão) |
+| ma36 | Mama (US): nódulos circunscritos múltiplos bilaterais |
+| ma37 | Mama (US): nódulo parametrizado (descritores v2025) |
+| ma37c | Mama (US): nódulo parametrizado (descritores v2025) (conclusão) |
 | ma39 | Mama (US): cisto simples |
 | ma39c | Mama (US): cisto simples (conclusão) |
 | ma40 | Mama (US): cistos simples múltiplos bilaterais |
@@ -436,8 +436,8 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma43 | Mama (US): microcistos agrupados típicos |
 | ma43c | Mama (US): microcistos agrupados típicos (conclusão) |
 | ma44 | Mama (US): microcistos com margem indistinta |
-| ma45 | Mama (US): massa mista com componente sólido mural |
-| ma45c | Mama (US): massa mista com componente sólido mural (conclusão) |
+| ma45 | Mama (US): nódulo misto com componente sólido mural |
+| ma45c | Mama (US): nódulo misto com componente sólido mural (conclusão) |
 | ma47 | Mama (US): lesão não massa focal |
 | ma47c | Mama (US): lesão não massa focal (conclusão) |
 | ma48 | Mama (US): lesão não massa linear |
@@ -446,10 +446,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma49c | Mama (US): lesão não massa segmentar com focos ecogênicos (conclusão) |
 | ma50 | Mama (US): lesão não massa regional |
 | ma50c | Mama (US): lesão não massa regional (conclusão) |
-| ma52 | Mama (US): microcalcificações em massa |
-| ma53 | Mama (US): microcalcificações fora de massa |
+| ma52 | Mama (US): microcalcificações em nódulo |
+| ma53 | Mama (US): microcalcificações fora de nódulo |
 | ma54 | Mama (US): microcalcificações intraductais |
-| ma55 | Mama (US): macrocalcificação em massa |
+| ma55 | Mama (US): macrocalcificação em nódulo |
 | ma56 | Mama (US): reforço acústico posterior |
 | ma57 | Mama (US): sombra acústica posterior |
 | ma58 | Mama (US): pseudocápsula ecogênica fina |
@@ -463,7 +463,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma66 | Mama (US): ausência de fluxo detectável |
 | ma67 | Mama (US): ectasia ductal simples |
 | ma68 | Mama (US): ducto dilatado com debris |
-| ma69 | Mama (US): massa intraductal vascularizada |
+| ma69 | Mama (US): nódulo intraductal vascularizado |
 | ma70 | Mama (US): dilatação ductal focal com alteração parietal |
 | ma71 | Mama (US): lesão cutânea com conexão dérmica |
 | ma72 | Mama (US): coleção pós-operatória avascular |
@@ -502,37 +502,37 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | maretro | Mama (US): regiões retroareolares preservadas |
 | masempalp | Mama (US): ausência de correspondente para achado palpável |
 | masemcorr | Mama (US): ausência de correspondente para achado mamográfico |
-| maoval | Mama (US): massa oval circunscrita e paralela |
-| malob | Mama (US): massa lobulada circunscrita e paralela |
-| maredonda | Mama (US): massa redonda circunscrita |
-| mairreg | Mama (US): massa irregular de margem indistinta |
-| mamicrolob | Mama (US): massa de margem microlobulada |
-| maangular | Mama (US): massa de margem angular |
-| maespic | Mama (US): massa espiculada e não paralela |
-| mahiper | Mama (US): massa hiperecogênica |
-| maiso | Mama (US): massa isoecogênica |
-| mahetero | Mama (US): massa heterogênea |
-| mamista | Mama (US): massa mista sólida e cística |
-| mabilat | Mama (US): massas circunscritas múltiplas bilaterais |
-| maparam | Mama (US): massa parametrizada (descritores v2025) |
-| mamassac | Mama (US): massa mamária (conclusão) |
+| maoval | Mama (US): nódulo oval circunscrito e paralelo |
+| malob | Mama (US): nódulo lobulado circunscrito e paralelo |
+| maredonda | Mama (US): nódulo redondo circunscrito |
+| mairreg | Mama (US): nódulo irregular de margem indistinta |
+| mamicrolob | Mama (US): nódulo de margem microlobulada |
+| maangular | Mama (US): nódulo de margem angular |
+| maespic | Mama (US): nódulo espiculado e não paralelo |
+| mahiper | Mama (US): nódulo hiperecogênico |
+| maiso | Mama (US): nódulo isoecogênico |
+| mahetero | Mama (US): nódulo heterogêneo |
+| mamista | Mama (US): nódulo misto sólido e cístico |
+| mabilat | Mama (US): nódulos circunscritos múltiplos bilaterais |
+| maparam | Mama (US): nódulo parametrizado (descritores v2025) |
+| mamassac | Mama (US): nódulo mamário (conclusão) |
 | macisto | Mama (US): cisto simples |
 | macistos | Mama (US): cistos simples múltiplos bilaterais |
 | macistcomp | Mama (US): cisto complicado isolado |
 | macistcomps | Mama (US): cistos complicados múltiplos bilaterais |
 | mamicro | Mama (US): microcistos agrupados típicos |
 | mamicroind | Mama (US): microcistos com margem indistinta |
-| mamural | Mama (US): massa mista com componente sólido mural |
+| mamural | Mama (US): nódulo misto com componente sólido mural |
 | macistoc | Mama (US): cisto mamário (conclusão) |
 | malnm | Mama (US): lesão não massa focal |
 | malnmlin | Mama (US): lesão não massa linear |
 | malnmseg | Mama (US): lesão não massa segmentar com focos ecogênicos |
 | malnmreg | Mama (US): lesão não massa regional |
 | malnmc | Mama (US): lesão não massa (conclusão) |
-| macalcmassa | Mama (US): microcalcificações em massa |
-| macalcfora | Mama (US): microcalcificações fora de massa |
+| macalcmassa | Mama (US): microcalcificações em nódulo |
+| macalcfora | Mama (US): microcalcificações fora de nódulo |
 | macalcduct | Mama (US): microcalcificações intraductais |
-| mamacrocalc | Mama (US): macrocalcificação em massa |
+| mamacrocalc | Mama (US): macrocalcificação em nódulo |
 | mareforco | Mama (US): reforço acústico posterior |
 | masombra | Mama (US): sombra acústica posterior |
 | mapseudo | Mama (US): pseudocápsula ecogênica fina |
@@ -546,7 +546,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | masemfluxo | Mama (US): ausência de fluxo detectável |
 | maectasia | Mama (US): ectasia ductal simples |
 | madebris | Mama (US): ducto dilatado com debris |
-| maintraduct | Mama (US): massa intraductal vascularizada |
+| maintraduct | Mama (US): nódulo intraductal vascularizado |
 | maductpar | Mama (US): dilatação ductal focal com alteração parietal |
 | macutanea | Mama (US): lesão cutânea com conexão dérmica |
 | macolpo | Mama (US): coleção pós-operatória avascular |
@@ -567,7 +567,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | macistosc | Mama (US): cistos simples (conclusão) |
 | mamicroc | Mama (US): microcistos agrupados (conclusão) |
 | macistcompc | Mama (US): cisto complicado (conclusão) |
-| mamistac | Mama (US): massa mista sólida e cística (conclusão) |
+| mamistac | Mama (US): nódulo misto sólido e cístico (conclusão) |
 
 ## Músculo-Esquelético
 

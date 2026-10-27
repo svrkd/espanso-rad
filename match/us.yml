@@ -2211,7 +2211,7 @@ matches:
       Descrição:
       Pele e tecido subcutâneo de aspecto ecográfico preservado.
       Parênquima mamário com ecotextura [homogênea adiposa/heterogênea/homogênea fibroglandular] e componente glandular [mínimo/discreto/moderado/acentuado].
-      Ausência de massas, lesões não massa ou coleções.
+      Ausência de nódulos, lesões não massa ou coleções.
       Regiões retroareolares sem dilatação ductal ou lesões focais.
       Linfonodos axilares de morfologia habitual.
 
@@ -2242,18 +2242,18 @@ matches:
     word: true
 
   - trigger: "ma3"
-    label: "Mama (massa): oval, circunscrita, paralela (achado descritivo)"
-    replace: Massa oval, circunscrita, hipoecogênica, paralela à pele, medindo _ cm, localizada às _ horas da mama _, distando _ cm da pele e _ cm da papila.
+    label: "Mama (nódulo): oval, circunscrito, paralelo (achado descritivo)"
+    replace: Nódulo oval, circunscrito, hipoecogênico, paralelo à pele, medindo _ cm, localizado às _ horas da mama _, distando _ cm da pele e _ cm da papila.
     word: true
 
   - trigger: "usnc"
-    label: "Mama (massa): conclusão genérica"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (nódulo): conclusão genérica"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "usncs"
-    label: "Mama (massas): conclusão genérica"
-    replace: Massas na mama _, com as características acima descritas.
+    label: "Mama (nódulos): conclusão genérica"
+    replace: Nódulos na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma1"
@@ -2272,34 +2272,34 @@ matches:
     word: true
 
   - trigger: "ma3c"
-    label: "Mama (massa): conclusão genérica"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (nódulo): conclusão genérica"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma3s"
-    label: "Mama: múltiplas massas ovais circunscritas (dois ou mais sítios)"
+    label: "Mama: múltiplos nódulos ovais circunscritos (dois ou mais sítios)"
     replace: |-
-      Massas ovais, circunscritas, hipoecogênicas, paralelas à pele, assim distribuídas:
+      Nódulos ovais, circunscritos, hipoecogênicos, paralelos à pele, assim distribuídos:
       - às _ horas da mama _, medindo _ cm, distando _ cm da pele e _ cm da papila;
       - às _ horas da mama _, medindo _ cm, distando _ cm da pele e _ cm da papila.
     word: true
 
   - trigger: "ma3sc"
-    label: "Mama (massas): conclusão genérica"
-    replace: Massas na mama _, com as características acima descritas.
+    label: "Mama (nódulos): conclusão genérica"
+    replace: Nódulos na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma4"
-    label: "Mama: múltiplas massas ovais circunscritas (dois ou mais sítios)"
+    label: "Mama: múltiplos nódulos ovais circunscritos (dois ou mais sítios)"
     replace: |-
-      Massas ovais, circunscritas, hipoecogênicas, paralelas à pele, assim distribuídas:
+      Nódulos ovais, circunscritos, hipoecogênicos, paralelos à pele, assim distribuídos:
       - às _ horas da mama _, medindo _ cm, distando _ cm da pele e _ cm da papila;
       - às _ horas da mama _, medindo _ cm, distando _ cm da pele e _ cm da papila.
     word: true
 
   - trigger: "ma4c"
-    label: "Mama (massas): conclusão genérica"
-    replace: Massas na mama _, com as características acima descritas.
+    label: "Mama (nódulos): conclusão genérica"
+    replace: Nódulos na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma5"
@@ -2366,7 +2366,7 @@ matches:
 
   - trigger: "ma21"
     label: "Mama (US): ausência de lesões focais"
-    replace: Ausência de massas, lesões não massa ou coleções.
+    replace: Ausência de nódulos, lesões não massa ou coleções.
     word: true
 
   - trigger: "ma22"
@@ -2384,131 +2384,131 @@ matches:
     replace: Na topografia do achado mamográfico da mama _, às _ horas, a _ cm da papila, não se identifica correspondente ultrassonográfico.
     word: true
 
-  # --- MASSAS: forma, margem, orientação e padrão ecogênico ---
+  # --- NÓDULOS: forma, margem, orientação e padrão ecogênico ---
 
   - trigger: "ma25"
-    label: "Mama (US): massa oval circunscrita e paralela"
-    replace: Massa sólida oval, hipoecogênica, circunscrita e paralela à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo oval circunscrito e paralelo"
+    replace: Nódulo sólido oval, hipoecogênico, circunscrito e paralelo à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma25c"
-    label: "Mama (US): massa oval circunscrita e paralela (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo oval circunscrito e paralelo (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma26"
-    label: "Mama (US): massa lobulada circunscrita e paralela"
-    replace: Massa sólida lobulada, hipoecogênica, circunscrita e paralela à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo lobulado circunscrito e paralelo"
+    replace: Nódulo sólido lobulado, hipoecogênico, circunscrito e paralelo à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma26c"
-    label: "Mama (US): massa lobulada circunscrita e paralela (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo lobulado circunscrito e paralelo (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma27"
-    label: "Mama (US): massa redonda circunscrita"
-    replace: Massa sólida redonda, hipoecogênica e circunscrita, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo redondo circunscrito"
+    replace: Nódulo sólido redondo, hipoecogênico e circunscrito, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma27c"
-    label: "Mama (US): massa redonda circunscrita (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo redondo circunscrito (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma28"
-    label: "Mama (US): massa irregular de margem indistinta"
-    replace: Massa sólida irregular, hipoecogênica, de margens indistintas, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo irregular de margem indistinta"
+    replace: Nódulo sólido irregular, hipoecogênico, de margens indistintas, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma28c"
-    label: "Mama (US): massa irregular de margem indistinta (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo irregular de margem indistinta (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma29"
-    label: "Mama (US): massa de margem microlobulada"
-    replace: Massa sólida [oval/lobulada/irregular], hipoecogênica, de margens microlobuladas, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo de margem microlobulada"
+    replace: Nódulo sólido [oval/lobulado/irregular], hipoecogênico, de margens microlobuladas, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma29c"
-    label: "Mama (US): massa de margem microlobulada (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo de margem microlobulada (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma30"
-    label: "Mama (US): massa de margem angular"
-    replace: Massa sólida irregular, hipoecogênica, de margens angulares, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo de margem angular"
+    replace: Nódulo sólido irregular, hipoecogênico, de margens angulares, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma30c"
-    label: "Mama (US): massa de margem angular (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo de margem angular (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma31"
-    label: "Mama (US): massa espiculada e não paralela"
-    replace: Massa sólida irregular, hipoecogênica, de margens espiculadas e orientação não paralela à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo espiculado e não paralelo"
+    replace: Nódulo sólido irregular, hipoecogênico, de margens espiculadas e orientação não paralela à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma31c"
-    label: "Mama (US): massa espiculada e não paralela (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo espiculado e não paralelo (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma32"
-    label: "Mama (US): massa hiperecogênica"
-    replace: Massa sólida [oval/lobulada/irregular], hiperecogênica, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo hiperecogênico"
+    replace: Nódulo sólido [oval/lobulado/irregular], hiperecogênico, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma32c"
-    label: "Mama (US): massa hiperecogênica (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo hiperecogênico (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma33"
-    label: "Mama (US): massa isoecogênica"
-    replace: Massa sólida [oval/lobulada/irregular], isoecogênica, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo isoecogênico"
+    replace: Nódulo sólido [oval/lobulado/irregular], isoecogênico, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma33c"
-    label: "Mama (US): massa isoecogênica (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo isoecogênico (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma34"
-    label: "Mama (US): massa heterogênea"
-    replace: Massa sólida [oval/lobulada/irregular], heterogênea, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo heterogêneo"
+    replace: Nódulo sólido [oval/lobulado/irregular], heterogêneo, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma34c"
-    label: "Mama (US): massa heterogênea (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo heterogêneo (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   - trigger: "ma35"
-    label: "Mama (US): massa mista sólida e cística"
-    replace: Massa mista sólida e cística, com componente sólido [mural/central/periférico] de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama _, a _ cm da papila. O componente sólido [apresenta/não apresenta] vascularização ao Doppler.
+    label: "Mama (US): nódulo misto sólido e cístico"
+    replace: Nódulo misto sólido e cístico, com componente sólido [mural/central/periférico] de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama _, a _ cm da papila. O componente sólido [apresenta/não apresenta] vascularização ao Doppler.
     word: true
 
   - trigger: "ma35c"
-    label: "Mama (US): massa mista sólida e cística (conclusão)"
-    replace: Massa mista sólida e cística na mama _.
+    label: "Mama (US): nódulo misto sólido e cístico (conclusão)"
+    replace: Nódulo misto sólido e cístico na mama _.
     word: true
 
   - trigger: "ma36"
-    label: "Mama (US): massas circunscritas múltiplas bilaterais"
-    replace: Múltiplas massas sólidas ovais, circunscritas e paralelas à pele, distribuídas por ambas as mamas, sem massa dominante ou de morfologia distinta.
+    label: "Mama (US): nódulos circunscritos múltiplos bilaterais"
+    replace: Múltiplos nódulos sólidos ovais, circunscritos e paralelos à pele, distribuídos por ambas as mamas, sem nódulo dominante ou de morfologia distinta.
     word: true
 
   - trigger: "ma37"
-    label: "Mama (US): massa parametrizada (descritores v2025)"
-    replace: Massa sólida de forma [oval/lobulada/irregular], margens [circunscritas/indistintas/microlobuladas/angulares/espiculadas], orientação [paralela/não paralela] à pele e ecogenicidade [hipoecogênica/isoecogênica/hiperecogênica/heterogênea], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo parametrizado (descritores v2025)"
+    replace: Nódulo sólido de forma [oval/lobulada/irregular], margens [circunscritas/indistintas/microlobuladas/angulares/espiculadas], orientação [paralela/não paralela] à pele e ecogenicidade [hipoecogênica/isoecogênica/hiperecogênica/heterogênea], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "ma37c"
-    label: "Mama (US): massa parametrizada (descritores v2025) (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo parametrizado (descritores v2025) (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
   # --- CISTOS E MICROCISTOS ---
@@ -2564,13 +2564,13 @@ matches:
     word: true
 
   - trigger: "ma45"
-    label: "Mama (US): massa mista com componente sólido mural"
-    replace: Massa mista sólida e cística, com componente sólido mural de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama _, a _ cm da papila.
+    label: "Mama (US): nódulo misto com componente sólido mural"
+    replace: Nódulo misto sólido e cístico, com componente sólido mural de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama _, a _ cm da papila.
     word: true
 
   - trigger: "ma45c"
-    label: "Mama (US): massa mista com componente sólido mural (conclusão)"
-    replace: Massa mista sólida e cística na mama _.
+    label: "Mama (US): nódulo misto com componente sólido mural (conclusão)"
+    replace: Nódulo misto sólido e cístico na mama _.
     word: true
 
   # --- LESÕES NÃO MASSA E CALCIFICAÇÕES ---
@@ -2616,13 +2616,13 @@ matches:
     word: true
 
   - trigger: "ma52"
-    label: "Mama (US): microcalcificações em massa"
-    replace: Focos ecogênicos puntiformes no interior da massa da mama _, às _ horas, a _ cm da papila, compatíveis com microcalcificações.
+    label: "Mama (US): microcalcificações em nódulo"
+    replace: Focos ecogênicos puntiformes no interior do nódulo da mama _, às _ horas, a _ cm da papila, compatíveis com microcalcificações.
     word: true
 
   - trigger: "ma53"
-    label: "Mama (US): microcalcificações fora de massa"
-    replace: Focos ecogênicos puntiformes no parênquima da mama _, sem massa associada, às _ horas, a _ cm da papila, compatíveis com microcalcificações.
+    label: "Mama (US): microcalcificações fora de nódulo"
+    replace: Focos ecogênicos puntiformes no parênquima da mama _, sem nódulo associado, às _ horas, a _ cm da papila, compatíveis com microcalcificações.
     word: true
 
   - trigger: "ma54"
@@ -2631,8 +2631,8 @@ matches:
     word: true
 
   - trigger: "ma55"
-    label: "Mama (US): macrocalcificação em massa"
-    replace: Foco ecogênico grosseiro com sombra acústica posterior no interior da massa da mama _, às _ horas, a _ cm da papila, compatível com macrocalcificação.
+    label: "Mama (US): macrocalcificação em nódulo"
+    replace: Foco ecogênico grosseiro com sombra acústica posterior no interior do nódulo da mama _, às _ horas, a _ cm da papila, compatível com macrocalcificação.
     word: true
 
   # --- CARACTERÍSTICAS POSTERIORES E ACHADOS ASSOCIADOS ---
@@ -2649,7 +2649,7 @@ matches:
 
   - trigger: "ma58"
     label: "Mama (US): pseudocápsula ecogênica fina"
-    replace: Associa-se fina pseudocápsula ecogênica uniforme em torno da massa.
+    replace: Associa-se fina pseudocápsula ecogênica uniforme em torno do nódulo.
     word: true
 
   - trigger: "ma59"
@@ -2705,8 +2705,8 @@ matches:
     word: true
 
   - trigger: "ma69"
-    label: "Mama (US): massa intraductal vascularizada"
-    replace: Massa sólida intraductal na mama _, às _ horas, a _ cm da papila, medindo _ x _ x _ cm, com vascularização interna ao Doppler colorido.
+    label: "Mama (US): nódulo intraductal vascularizado"
+    replace: Nódulo sólido intraductal na mama _, às _ horas, a _ cm da papila, medindo _ x _ x _ cm, com vascularização interna ao Doppler colorido.
     word: true
 
   - trigger: "ma70"
@@ -2741,7 +2741,7 @@ matches:
 
   - trigger: "ma76"
     label: "Mama (US): parênquima glandular focal proeminente"
-    replace: Tecido fibroglandular proeminente na área palpável da mama _, às _ horas, que se dispersa à compressão, sem massa definida.
+    replace: Tecido fibroglandular proeminente na área palpável da mama _, às _ horas, que se dispersa à compressão, sem nódulo definido.
     word: true
 
   # --- LINFONODOS AXILARES ---
@@ -2867,7 +2867,7 @@ matches:
 
   - trigger: "masemlesao"
     label: "Mama (US): ausência de lesões focais"
-    replace: Ausência de massas, lesões não massa ou coleções.
+    replace: Ausência de nódulos, lesões não massa ou coleções.
     word: true
 
   - trigger: "maretro"
@@ -2886,76 +2886,76 @@ matches:
     word: true
 
 
-  # --- MASSAS ---
+  # --- NÓDULOS ---
 
   - trigger: "maoval"
-    label: "Mama (US): massa oval circunscrita e paralela"
-    replace: Massa sólida oval, hipoecogênica, circunscrita e paralela à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo oval circunscrito e paralelo"
+    replace: Nódulo sólido oval, hipoecogênico, circunscrito e paralelo à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "malob"
-    label: "Mama (US): massa lobulada circunscrita e paralela"
-    replace: Massa sólida lobulada, hipoecogênica, circunscrita e paralela à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo lobulado circunscrito e paralelo"
+    replace: Nódulo sólido lobulado, hipoecogênico, circunscrito e paralelo à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "maredonda"
-    label: "Mama (US): massa redonda circunscrita"
-    replace: Massa sólida redonda, hipoecogênica e circunscrita, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo redondo circunscrito"
+    replace: Nódulo sólido redondo, hipoecogênico e circunscrito, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "mairreg"
-    label: "Mama (US): massa irregular de margem indistinta"
-    replace: Massa sólida irregular, hipoecogênica, de margens indistintas, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo irregular de margem indistinta"
+    replace: Nódulo sólido irregular, hipoecogênico, de margens indistintas, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "mamicrolob"
-    label: "Mama (US): massa de margem microlobulada"
-    replace: Massa sólida [oval/lobulada/irregular], hipoecogênica, de margens microlobuladas, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo de margem microlobulada"
+    replace: Nódulo sólido [oval/lobulado/irregular], hipoecogênico, de margens microlobuladas, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "maangular"
-    label: "Mama (US): massa de margem angular"
-    replace: Massa sólida irregular, hipoecogênica, de margens angulares, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo de margem angular"
+    replace: Nódulo sólido irregular, hipoecogênico, de margens angulares, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "maespic"
-    label: "Mama (US): massa espiculada e não paralela"
-    replace: Massa sólida irregular, hipoecogênica, de margens espiculadas e orientação não paralela à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo espiculado e não paralelo"
+    replace: Nódulo sólido irregular, hipoecogênico, de margens espiculadas e orientação não paralela à pele, medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "mahiper"
-    label: "Mama (US): massa hiperecogênica"
-    replace: Massa sólida [oval/lobulada/irregular], hiperecogênica, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo hiperecogênico"
+    replace: Nódulo sólido [oval/lobulado/irregular], hiperecogênico, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "maiso"
-    label: "Mama (US): massa isoecogênica"
-    replace: Massa sólida [oval/lobulada/irregular], isoecogênica, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo isoecogênico"
+    replace: Nódulo sólido [oval/lobulado/irregular], isoecogênico, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "mahetero"
-    label: "Mama (US): massa heterogênea"
-    replace: Massa sólida [oval/lobulada/irregular], heterogênea, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo heterogêneo"
+    replace: Nódulo sólido [oval/lobulado/irregular], heterogêneo, de margens [circunscritas/indistintas], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "mamista"
-    label: "Mama (US): massa mista sólida e cística"
-    replace: Massa mista sólida e cística, com componente sólido [mural/central/periférico] de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama _, a _ cm da papila. O componente sólido [apresenta/não apresenta] vascularização ao Doppler.
+    label: "Mama (US): nódulo misto sólido e cístico"
+    replace: Nódulo misto sólido e cístico, com componente sólido [mural/central/periférico] de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama _, a _ cm da papila. O componente sólido [apresenta/não apresenta] vascularização ao Doppler.
     word: true
 
   - trigger: "mabilat"
-    label: "Mama (US): massas circunscritas múltiplas bilaterais"
-    replace: Múltiplas massas sólidas ovais, circunscritas e paralelas à pele, distribuídas por ambas as mamas, sem massa dominante ou de morfologia distinta.
+    label: "Mama (US): nódulos circunscritos múltiplos bilaterais"
+    replace: Múltiplos nódulos sólidos ovais, circunscritos e paralelos à pele, distribuídos por ambas as mamas, sem nódulo dominante ou de morfologia distinta.
     word: true
 
   - trigger: "maparam"
-    label: "Mama (US): massa parametrizada (descritores v2025)"
-    replace: Massa sólida de forma [oval/lobulada/irregular], margens [circunscritas/indistintas/microlobuladas/angulares/espiculadas], orientação [paralela/não paralela] à pele e ecogenicidade [hipoecogênica/isoecogênica/hiperecogênica/heterogênea], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
+    label: "Mama (US): nódulo parametrizado (descritores v2025)"
+    replace: Nódulo sólido de forma [oval/lobulada/irregular], margens [circunscritas/indistintas/microlobuladas/angulares/espiculadas], orientação [paralela/não paralela] à pele e ecogenicidade [hipoecogênica/isoecogênica/hiperecogênica/heterogênea], medindo _ x _ x _ cm, às _ horas da mama _, a _ cm da papila e _ cm da pele.
     word: true
 
   - trigger: "mamassac"
-    label: "Mama (US): massa mamária (conclusão)"
-    replace: Massa na mama _, com as características acima descritas.
+    label: "Mama (US): nódulo mamário (conclusão)"
+    replace: Nódulo na mama _, com as características acima descritas.
     word: true
 
 
@@ -2992,8 +2992,8 @@ matches:
     word: true
 
   - trigger: "mamural"
-    label: "Mama (US): massa mista com componente sólido mural"
-    replace: Massa mista sólida e cística, com componente sólido mural de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama _, a _ cm da papila.
+    label: "Mama (US): nódulo misto com componente sólido mural"
+    replace: Nódulo misto sólido e cístico, com componente sólido mural de _ cm, medindo em conjunto _ x _ x _ cm, às _ horas da mama _, a _ cm da papila.
     word: true
 
   - trigger: "macistoc"
@@ -3030,13 +3030,13 @@ matches:
     word: true
 
   - trigger: "macalcmassa"
-    label: "Mama (US): microcalcificações em massa"
-    replace: Focos ecogênicos puntiformes no interior da massa da mama _, às _ horas, a _ cm da papila, compatíveis com microcalcificações.
+    label: "Mama (US): microcalcificações em nódulo"
+    replace: Focos ecogênicos puntiformes no interior do nódulo da mama _, às _ horas, a _ cm da papila, compatíveis com microcalcificações.
     word: true
 
   - trigger: "macalcfora"
-    label: "Mama (US): microcalcificações fora de massa"
-    replace: Focos ecogênicos puntiformes no parênquima da mama _, sem massa associada, às _ horas, a _ cm da papila, compatíveis com microcalcificações.
+    label: "Mama (US): microcalcificações fora de nódulo"
+    replace: Focos ecogênicos puntiformes no parênquima da mama _, sem nódulo associado, às _ horas, a _ cm da papila, compatíveis com microcalcificações.
     word: true
 
   - trigger: "macalcduct"
@@ -3045,8 +3045,8 @@ matches:
     word: true
 
   - trigger: "mamacrocalc"
-    label: "Mama (US): macrocalcificação em massa"
-    replace: Foco ecogênico grosseiro com sombra acústica posterior no interior da massa da mama _, às _ horas, a _ cm da papila, compatível com macrocalcificação.
+    label: "Mama (US): macrocalcificação em nódulo"
+    replace: Foco ecogênico grosseiro com sombra acústica posterior no interior do nódulo da mama _, às _ horas, a _ cm da papila, compatível com macrocalcificação.
     word: true
 
 
@@ -3064,7 +3064,7 @@ matches:
 
   - trigger: "mapseudo"
     label: "Mama (US): pseudocápsula ecogênica fina"
-    replace: Associa-se fina pseudocápsula ecogênica uniforme em torno da massa.
+    replace: Associa-se fina pseudocápsula ecogênica uniforme em torno do nódulo.
     word: true
 
   - trigger: "mahalo"
@@ -3121,8 +3121,8 @@ matches:
     word: true
 
   - trigger: "maintraduct"
-    label: "Mama (US): massa intraductal vascularizada"
-    replace: Massa sólida intraductal na mama _, às _ horas, a _ cm da papila, medindo _ x _ x _ cm, com vascularização interna ao Doppler colorido.
+    label: "Mama (US): nódulo intraductal vascularizado"
+    replace: Nódulo sólido intraductal na mama _, às _ horas, a _ cm da papila, medindo _ x _ x _ cm, com vascularização interna ao Doppler colorido.
     word: true
 
   - trigger: "maductpar"
@@ -3157,7 +3157,7 @@ matches:
 
   - trigger: "maproem"
     label: "Mama (US): parênquima glandular focal proeminente"
-    replace: Tecido fibroglandular proeminente na área palpável da mama _, às _ horas, que se dispersa à compressão, sem massa definida.
+    replace: Tecido fibroglandular proeminente na área palpável da mama _, às _ horas, que se dispersa à compressão, sem nódulo definido.
     word: true
 
 
@@ -3232,8 +3232,8 @@ matches:
     word: true
 
   - trigger: "mamistac"
-    label: "Mama (US): massa mista sólida e cística (conclusão)"
-    replace: Massa mista sólida e cística na mama _.
+    label: "Mama (US): nódulo misto sólido e cístico (conclusão)"
+    replace: Nódulo misto sólido e cístico na mama _.
     word: true
 
   # ==============================================================================
