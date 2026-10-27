@@ -3064,6 +3064,151 @@ matches:
     replace: "Baixa atenuação do osso trabecular vertebral, sugerindo redução da densidade mineral óssea. Correlacionar com densitometria óssea."
     word: true
 
+  - trigger: "aospinea1"
+    label: "Fratura AO Spine A1 (cunha)"
+    replace: "Fratura do corpo vertebral de _ com acometimento de um único platô, sem envolvimento do muro posterior, correspondendo a lesão AO Spine A1 (compressão em cunha ou impactação)."
+    word: true
+
+  - trigger: "aospinea2"
+    label: "Fratura AO Spine A2 (split/pinça)"
+    replace: "Fratura do corpo vertebral de _ com traço coronal acometendo ambos os platôs, sem envolvimento do muro posterior, correspondendo a lesão AO Spine A2 (split ou pinça)."
+    word: true
+
+  - trigger: "aospinea3"
+    label: "Fratura AO Spine A3 (explosão incompleta)"
+    replace: "Fratura do corpo vertebral de _ acometendo um platô e o muro posterior, com retropulsão de fragmento de _ mm para o canal vertebral, correspondendo a lesão AO Spine A3 (explosão incompleta)."
+    word: true
+
+  - trigger: "aospinea4"
+    label: "Fratura AO Spine A4 (explosão completa)"
+    replace: "Fratura do corpo vertebral de _ acometendo ambos os platôs e o muro posterior, com retropulsão de fragmento de _ mm para o canal vertebral, correspondendo a lesão AO Spine A4 (explosão completa)."
+    word: true
+
+  - trigger: "aospineb1"
+    label: "Fratura AO Spine B1 (Chance)"
+    replace: "Fratura de trajeto horizontal transóssea em _, estendendo-se do corpo vertebral através dos pedículos até os elementos posteriores, correspondendo a lesão AO Spine B1 (fratura de Chance)."
+    word: true
+
+  - trigger: "aospineb2"
+    label: "Fratura AO Spine B2 (banda de tensão posterior)"
+    replace: "Fratura do corpo vertebral de _ associada a diástase interespinhosa e interfacetária em _-_, indicando lesão da banda de tensão posterior, correspondendo a lesão AO Spine B2."
+    word: true
+
+  - trigger: "aospineb3"
+    label: "Fratura AO Spine B3 (hiperextensão)"
+    replace: "Alargamento do espaço discal anterior em _-_, com fratura do canto anterior do corpo vertebral e elementos posteriores preservados, indicando lesão da banda de tensão anterior por hiperextensão, correspondendo a lesão AO Spine B3."
+    word: true
+
+  - trigger: "aospinec"
+    label: "Fratura AO Spine C (translação)"
+    replace: "Translação de _ mm do corpo vertebral de _ em relação a _, no plano _ (sagital; ou coronal), correspondendo a lesão AO Spine C (deslocamento ou translação)."
+    word: true
+
+  - trigger: "odontoide1"
+    label: "Fratura do odontoide tipo I (Anderson e D'Alonzo)"
+    replace: "Fratura do ápice do processo odontoide, acima da inserção do ligamento transverso, correspondendo a fratura tipo I de Anderson e D'Alonzo."
+    word: true
+
+  - trigger: "odontoide2"
+    label: "Fratura do odontoide tipo II (Anderson e D'Alonzo)"
+    replace: "Fratura da base do processo odontoide, na junção com o corpo de C2, com desvio _ (anterior; ou posterior) de _ mm, correspondendo a fratura tipo II de Anderson e D'Alonzo."
+    word: true
+
+  - trigger: "odontoide3"
+    label: "Fratura do odontoide tipo III (Anderson e D'Alonzo)"
+    replace: "Fratura do processo odontoide estendendo-se ao corpo de C2, correspondendo a fratura tipo III de Anderson e D'Alonzo."
+    word: true
+
+  - trigger: "fraturajefferson"
+    label: "Fratura de Jefferson (C1)"
+    replace: "Fraturas dos arcos anterior e posterior do atlas, com afastamento lateral das massas laterais de C1 em relação a C2, compatíveis com fratura de Jefferson."
+    word: true
+
+  - trigger: "fraturaenforcado"
+    label: "Fratura do enforcado (C2)"
+    replace: "Fratura bilateral da pars interarticularis de C2, com anterolistese de _ mm de C2 sobre C3, compatível com espondilolistese traumática do áxis (fratura do enforcado)."
+    word: true
+
+  - trigger: "dissociacaocraniocervical"
+    label: "Dissociação craniocervical (Rojas)"
+    replace: "Intervalo basion-dente de _ mm e intervalo atlanto-occipital de _ mm, sugerindo dissociação craniocervical. Referência: intervalo basion-dente até 8,5 mm e intervalo atlanto-occipital até 1,4 mm em adultos (Rojas et al., 2007)."
+    word: true
+
+  - trigger: "hiperostosedifusa"
+    label: "Hiperostose esquelética idiopática difusa (DISH)"
+    replace: "Ossificação fluente do ligamento longitudinal anterior ao longo de pelo menos quatro corpos vertebrais contíguos, de _ a _, com preservação relativa dos espaços discais, sem anquilose interapofisária ou erosão sacroilíaca, compatível com hiperostose esquelética idiopática difusa."
+    word: true
+
+  - trigger: "ossificacaolongitudinal"
+    label: "Ossificação do ligamento longitudinal posterior (OPLL)"
+    replace: "Ossificação do ligamento longitudinal posterior de _ a _, de padrão _ (contínuo; segmentar; misto; ou circunscrito), reduzindo o diâmetro anteroposterior do canal vertebral para _ mm."
+    word: true
+
+  - trigger: "colunabambu"
+    label: "Coluna em bambu (espondilite anquilosante)"
+    replace: "Sindesmófitos marginais finos e simétricos formando pontes entre os corpos vertebrais, associados a anquilose interapofisária e ossificação ligamentar posterior, conferindo aspecto de coluna em bambu, compatível com espondilite anquilosante."
+    word: true
+
+  - trigger: "fraturaanquilosada"
+    label: "Fratura em coluna anquilosada"
+    replace: "Fratura de trajeto horizontal atravessando _ (o corpo vertebral; ou o espaço discal) e os elementos posteriores em segmento anquilosado de _, com _ (sem; ou com) desalinhamento, configurando lesão das três colunas, potencialmente instável."
+    word: true
+
+  - trigger: "kummell"
+    label: "Doença de Kümmell (fenda gasosa)"
+    replace: "Fenda gasosa linear no interior do corpo vertebral colapsado de _, paralela ao platô, sugerindo osteonecrose vertebral (doença de Kümmell)."
+    word: true
+
+  - trigger: "castellvi1"
+    label: "Transição lombossacra Castellvi I"
+    replace: "Processo transverso de L5 displásico, com altura craniocaudal de _ mm, _ (unilateral; ou bilateral), correspondendo a vértebra de transição lombossacra Castellvi tipo I _ (a; ou b)."
+    word: true
+
+  - trigger: "castellvi2"
+    label: "Transição lombossacra Castellvi II"
+    replace: "Processo transverso de L5 alargado formando pseudoarticulação com a asa sacral, _ (unilateral; ou bilateral), correspondendo a vértebra de transição lombossacra Castellvi tipo II _ (a; ou b)."
+    word: true
+
+  - trigger: "castellvi3"
+    label: "Transição lombossacra Castellvi III"
+    replace: "Fusão óssea do processo transverso de L5 com a asa sacral, _ (unilateral; ou bilateral), correspondendo a vértebra de transição lombossacra Castellvi tipo III _ (a; ou b)."
+    word: true
+
+  - trigger: "castellvi4"
+    label: "Transição lombossacra Castellvi IV"
+    replace: "Pseudoarticulação do processo transverso de L5 com a asa sacral de um lado e fusão óssea do outro, correspondendo a vértebra de transição lombossacra Castellvi tipo IV."
+    word: true
+
+  - trigger: "listesemeyerding"
+    label: "Anterolistese com grau de Meyerding"
+    replace: "Anterolistese de _ sobre _, com deslizamento de cerca de _% da extensão do platô subjacente, correspondendo a grau _ de Meyerding. Referência: grau I até 25%; II de 26 a 50%; III de 51 a 75%; IV de 76 a 100%; V espondiloptose."
+    word: true
+
+  - trigger: "estenosecervical"
+    label: "Estenose do canal cervical com limiar"
+    replace: "Redução do diâmetro anteroposterior do canal vertebral cervical em _-_, medindo _ mm, configurando estenose _ (relativa; ou absoluta). Referência: estenose relativa abaixo de 13 mm e absoluta abaixo de 10 mm."
+    word: true
+
+  - trigger: "estenoselombar"
+    label: "Estenose do canal lombar com limiar (Verbiest)"
+    replace: "Redução do diâmetro anteroposterior do canal vertebral lombar em _-_, medindo _ mm, configurando estenose _ (relativa; ou absoluta). Referência: estenose relativa de 10 a 12 mm e absoluta abaixo de 10 mm (Verbiest)."
+    word: true
+
+  - trigger: "cistofacetario"
+    label: "Cisto sinovial facetário"
+    replace: "Formação cística justafacetária _ (à direita; ou à esquerda) em _-_, medindo _ cm, em contiguidade com a articulação interapofisária degenerada, compatível com cisto sinovial facetário."
+    word: true
+
+  - trigger: "baastruplombar"
+    label: "Doença de Baastrup"
+    replace: "Aproximação e contato entre os processos espinhosos de _ e _, com esclerose e remodelamento das superfícies em contato, compatível com doença de Baastrup."
+    word: true
+
+  - trigger: "espondilitetb"
+    label: "Espondilodiscite tuberculosa"
+    replace: "Destruição de corpos vertebrais contíguos de _ a _, com relativa preservação dos discos intervertebrais, extensão subligamentar anterior e volumosa coleção paravertebral com calcificações. Admite-se inicialmente a hipótese de espondilodiscite tuberculosa. Os diagnósticos diferenciais devem ser aplicados, em estreita correlação com dados clínicos e laboratoriais, não sendo possível afastar de forma inequívoca a possibilidade de espondilodiscite piogênica, brucelose ou neoplasia."
+    word: true
+
   # ==========================================================================
   # TÓRAX (PULMÃO, MEDIASTINO, CORAÇÃO, ARCOS COSTAIS)
   # ==========================================================================
