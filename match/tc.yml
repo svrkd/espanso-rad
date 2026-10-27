@@ -4212,7 +4212,7 @@ matches:
 
   - trigger: "tthalo"
     label: "Nódulo com sinal do halo"
-    replace: 'Nódulo no lobo _ (superior; médio; ou inferior) _ (direito; ou esquerdo), medindo _ cm, circundado por halo de atenuação em "vidro fosco" (sinal do halo).'
+    replace: 'Nódulo no lobo _ (superior; médio; ou inferior) _ (direito; ou esquerdo), medindo _ cm, circundado por halo de atenuação em "vidro fosco".'
     word: true
 
   - trigger: "tthaloc"
@@ -4222,7 +4222,7 @@ matches:
 
   - trigger: "tthaloinv"
     label: "Sinal do halo invertido"
-    replace: 'Área focal arredondada de atenuação em "vidro fosco" circundada por anel completo ou quase completo de consolidação (sinal do halo invertido) no lobo _ (superior; médio; ou inferior) _ (direito; ou esquerdo).'
+    replace: 'Área focal arredondada de atenuação em "vidro fosco" circundada por anel completo ou quase completo de consolidação no lobo _ (superior; médio; ou inferior) _ (direito; ou esquerdo).'
     word: true
 
   - trigger: "tthaloinvc"
