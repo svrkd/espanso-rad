@@ -11249,6 +11249,26 @@ matches:
       Exame dentro dos parâmetros da normalidade.
     word: true
 
+  - trigger: "tcatm"
+    label: "TC das ATMs S/C — normal, boca fechada e aberta"
+    replace: |
+      TOMOGRAFIA COMPUTADORIZADA DAS ARTICULAÇÕES TÊMPORO-MANDIBULARES S/C
+
+      Técnica:
+      Imagens obtidas em aparelho multislice, sem administração intravenosa de meio de contraste iodado, com aquisições em boca fechada e aberta e reconstruções multiplanares.
+
+      Análise:
+      Fossas mandibulares e eminências articulares de morfologia e contornos preservados.
+      Côndilos mandibulares de morfologia e dimensões preservadas, com superfícies corticais regulares.
+      Espaços articulares de amplitude preservada e simétrica.
+      Côndilos centrados nas fossas mandibulares em boca fechada, com excursão simétrica e adequada até as eminências articulares à abertura bucal.
+      Colos e ramos mandibulares preservados.
+      Partes moles periarticulares sem alterações.
+
+      Conclusão:
+      Articulações temporomandibulares sem alterações tomográficas.
+    word: true
+
   - trigger: "tctep"
     label: "TC de tórax e angioTC pulmonar C/C — normal"
     replace: |
