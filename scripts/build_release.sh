@@ -42,6 +42,10 @@ python3 "$REPO_ROOT/scripts/check_matches.py"
 echo "==> Validando cobertura do pôster (docs/poster/poster_data.py x match/us.yml)"
 python3 "$REPO_ROOT/scripts/check_poster_coverage.py"
 
+# --- validação de deriva do BeefText: aborta se beeftext/comboList.json não refletir match/*.yml ---
+echo "==> Validando beeftext/comboList.json x match/*.yml"
+python3 "$REPO_ROOT/scripts/espanso_to_beeftext.py" --check
+
 # --- gera o pôster e renderiza o PDF ---
 echo "==> Gerando pôster de parede"
 python3 "$REPO_ROOT/scripts/gen_poster.py"
@@ -249,16 +253,11 @@ build_beeftext_portable() {
     mkdir -p "$beeftext_root"
     (cd "$beeftext_root" && unzip -q "$asset_file")
 
-    echo "==> Gerando comboList.json a partir de match/*.yml"
-    python3 "$REPO_ROOT/scripts/espanso_to_beeftext.py" \
-        "$REPO_ROOT/match/geral.yml" "$REPO_ROOT/match/us.yml" "$REPO_ROOT/match/tc.yml" \
-        "$REPO_ROOT/match/tc_abd.yml" "$REPO_ROOT/match/angio.yml" "$REPO_ROOT/match/rx.yml" "$REPO_ROOT/match/rm.yml" \
-        "$REPO_ROOT/match/mmg.yml" "$REPO_ROOT/match/malu.yml" "$REPO_ROOT/match/legado.yml" \
-        -o "$beeftext_root/comboList.json.tmp"
-
+    # Usa o beeftext/comboList.json versionado, que a validação prévia já
+    # confirmou idêntico ao gerado a partir de match/*.yml.
     local data_dir
     data_dir="$(beeftext_data_dir "$beeftext_root")"
-    mv "$beeftext_root/comboList.json.tmp" "$data_dir/comboList.json"
+    cp "$REPO_ROOT/beeftext/comboList.json" "$data_dir/comboList.json"
     echo "    comboList.json -> ${data_dir#$beeftext_root/}/comboList.json"
 
     cat > "$beeftext_root/LEIA-ME.txt" <<EOF
