@@ -38,6 +38,19 @@ jobs:
           sudo apt-get install -y -qq zip unzip libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz0b libffi-dev
           pip install pyyaml weasyprint --break-system-packages -q
 
+      - name: Atualizar beeftext/comboList.json
+        run: |
+          python3 scripts/espanso_to_beeftext.py
+          if git diff --quiet -- beeftext/comboList.json; then
+            echo "beeftext/comboList.json já estava em dia"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add beeftext/comboList.json
+            git commit -m "beeftext: regenera comboList.json para ${{ inputs.version }}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
       - name: Build dos pacotes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
