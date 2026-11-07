@@ -3551,6 +3551,96 @@ matches:
     replace: Enfisema centrolobular e parasseptal esparso pelos campos pulmonares.
     word: true
 
+  - trigger: "enftraco"
+    label: "Enfisema centrolobular traço (<0,5% da zona pulmonar)"
+    replace: "Enfisema centrolobular caracterizado por raras e diminutas lucências centrolobulares, predominando nos campos pulmonares superiores."
+    word: true
+
+  - trigger: "enftracoc"
+    label: "Conclusão — enfisema centrolobular traço (Fleischner)"
+    replace: "Enfisema pulmonar centrolobular traço, segundo a Fleischner Society."
+    word: true
+
+  - trigger: "enfleve"
+    label: "Enfisema centrolobular leve (0,5-5% da zona pulmonar)"
+    replace: "Enfisema centrolobular caracterizado por esparsas lucências centrolobulares, separadas por extensas áreas de parênquima pulmonar preservado, predominando nos campos pulmonares superiores."
+    word: true
+
+  - trigger: "enflevec"
+    label: "Conclusão — enfisema centrolobular leve (Fleischner)"
+    replace: "Enfisema pulmonar centrolobular leve, segundo a Fleischner Society."
+    word: true
+
+  - trigger: "enfmoderado"
+    label: "Enfisema centrolobular moderado (>5% da zona pulmonar)"
+    replace: "Enfisema centrolobular caracterizado por numerosas lucências centrolobulares bem definidas, predominando nos campos pulmonares superiores."
+    word: true
+
+  - trigger: "enfmoderadoc"
+    label: "Conclusão — enfisema centrolobular moderado (Fleischner)"
+    replace: "Enfisema pulmonar centrolobular moderado, segundo a Fleischner Society."
+    word: true
+
+  - trigger: "enfconfluente"
+    label: "Enfisema centrolobular confluente"
+    replace: "Enfisema centrolobular caracterizado por lucências centrolobulares coalescentes, por vezes com aspecto panlobular, sem hiperexpansão dos lóbulos pulmonares secundários ou distorção arquitetural, predominando nos campos pulmonares superiores."
+    word: true
+
+  - trigger: "enfconfluentec"
+    label: "Conclusão — enfisema centrolobular confluente (Fleischner)"
+    replace: "Enfisema pulmonar centrolobular confluente, segundo a Fleischner Society."
+    word: true
+
+  - trigger: "enfavancado"
+    label: "Enfisema centrolobular avançado destrutivo"
+    replace: "Enfisema centrolobular caracterizado por extensas lucências panlobulares, associadas a hiperexpansão dos lóbulos pulmonares secundários e distorção da arquitetura pulmonar, predominando nos campos pulmonares superiores."
+    word: true
+
+  - trigger: "enfavancadoc"
+    label: "Conclusão — enfisema centrolobular avançado destrutivo (Fleischner)"
+    replace: "Enfisema pulmonar centrolobular avançado destrutivo, segundo a Fleischner Society."
+    word: true
+
+  - trigger: "enfpanlobular"
+    label: "Enfisema panlobular (Fleischner)"
+    replace: "Enfisema panlobular caracterizado por redução difusa e homogênea da atenuação do parênquima pulmonar, com redução do calibre vascular, predominando nos lobos inferiores."
+    word: true
+
+  - trigger: "enfpanlobularc"
+    label: "Conclusão — enfisema panlobular (Fleischner)"
+    replace: "Enfisema pulmonar panlobular, segundo a Fleischner Society."
+    word: true
+
+  - trigger: "enfparaleve"
+    label: "Enfisema parasseptal leve (lucências subpleurais até 1 cm)"
+    replace: "Enfisema parasseptal caracterizado por pequenas lucências subpleurais bem delimitadas, predominando nos campos pulmonares superiores."
+    word: true
+
+  - trigger: "enfparalevec"
+    label: "Conclusão — enfisema parasseptal leve (Fleischner)"
+    replace: "Enfisema pulmonar parasseptal leve, segundo a Fleischner Society."
+    word: true
+
+  - trigger: "enfparasubstancial"
+    label: "Enfisema parasseptal substancial (bolhas subpleurais >1 cm)"
+    replace: "Enfisema parasseptal caracterizado por numerosas lucências subpleurais bem delimitadas, com formação de bolhas, predominando nos campos pulmonares superiores."
+    word: true
+
+  - trigger: "enfparasubstancialc"
+    label: "Conclusão — enfisema parasseptal substancial (Fleischner)"
+    replace: "Enfisema pulmonar parasseptal substancial, segundo a Fleischner Society."
+    word: true
+
+  - trigger: "enfcicatricial"
+    label: "Enfisema paracicatricial"
+    replace: "Enfisema paracicatricial caracterizado por lucências irregulares adjacentes às alterações fibrocicatriciais pulmonares."
+    word: true
+
+  - trigger: "enfcicatricialc"
+    label: "Conclusão — enfisema paracicatricial (Fleischner)"
+    replace: "Enfisema pulmonar paracicatricial, segundo a Fleischner Society."
+    word: true
+
   - trigger: "epb"
     label: "Espessamento das paredes brônquicas (broncopatia)"
     replace: "Espessamento de paredes brônquicas, inferindo broncopatia."
