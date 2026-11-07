@@ -2541,6 +2541,31 @@ matches:
     replace: "Anterolistese grau I de L3 sobre L4, de L4 sobre L5 e de L5 sobre S1."
     word: true
 
+  - trigger: "meyer1"
+    label: "Anterolistese grau I de Meyerding (até 25%)"
+    replace: "Anterolistese de _ sobre _, grau I de Meyerding."
+    word: true
+
+  - trigger: "meyer2"
+    label: "Anterolistese grau II de Meyerding (25-50%)"
+    replace: "Anterolistese de _ sobre _, grau II de Meyerding."
+    word: true
+
+  - trigger: "meyer3"
+    label: "Anterolistese grau III de Meyerding (50-75%)"
+    replace: "Anterolistese de _ sobre _, grau III de Meyerding."
+    word: true
+
+  - trigger: "meyer4"
+    label: "Anterolistese grau IV de Meyerding (75-100%)"
+    replace: "Anterolistese de _ sobre _, grau IV de Meyerding."
+    word: true
+
+  - trigger: "meyer5"
+    label: "Anterolistese grau V de Meyerding (espondiloptose, >100%)"
+    replace: "Anterolistese de _ sobre _, com perda completa do contato entre os platôs vertebrais (espondiloptose), grau V de Meyerding."
+    word: true
+
   - trigger: "lulu"
     label: "Espondilose lombar"
     replace: Espondilose lombar.
