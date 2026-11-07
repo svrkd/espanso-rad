@@ -1074,12 +1074,17 @@ matches:
 
   - trigger: "hematomamistura"
     label: "Hematoma com sinal da mistura (blend)"
-    replace: "Hematoma intraparenquimatoso com região hipoatenuante adjacente ao componente hiperatenuante, separadas por limite nítido, com diferença de atenuação de pelo menos 18 UH, sinal tomográfico associado a maior risco de expansão do hematoma."
+    replace: "Hematoma intraparenquimatoso com região hipoatenuante adjacente ao componente hiperatenuante, separadas por limite nítido, com diferença de atenuação de pelo menos 18 UH (Li et al., 2015), sinal tomográfico associado a maior risco de expansão do hematoma."
     word: true
 
   - trigger: "hematomaburaco"
     label: "Hematoma com sinal do buraco negro"
-    replace: "Hematoma intraparenquimatoso com área hipoatenuante completamente envolvida pelo componente hiperatenuante, de limites nítidos, com diferença de atenuação de pelo menos 28 UH, sinal tomográfico associado a maior risco de expansão do hematoma."
+    replace: "Hematoma intraparenquimatoso com área hipoatenuante completamente envolvida pelo componente hiperatenuante, de limites nítidos, com diferença de atenuação de pelo menos 28 UH (Li et al., 2016), sinal tomográfico associado a maior risco de expansão do hematoma."
+    word: true
+
+  - trigger: "volumehematoma"
+    label: "Volume de hematoma intraparenquimatoso pelo ABC/2 (Kothari)"
+    replace: "Hematoma intraparenquimatoso _ (localização e lado), com volume estimado de _ cm³ pelo método ABC/2 (Kothari et al., 1996)."
     word: true
 
   - trigger: "hematomailha"
@@ -2311,7 +2316,7 @@ matches:
 
   - trigger: "antero"
     label: "Anterolistese L5-S1 grau I"
-    replace: Anterolistese grau I de L5 sobre S1.
+    replace: Anterolistese de L5 sobre S1, grau I de Meyerding.
     word: true
 
   - trigger: "atlan"
@@ -2476,7 +2481,7 @@ matches:
 
   - trigger: "fratuin"
     label: "Fratura de L2 com redução de 50% da altura"
-    replace: "Redução da altura do corpo vertebral de L2 em 50% representando fratura, com discreto desvio do muro posterior para o canal vertebral."
+    replace: "Redução da altura do corpo vertebral de L2 em 50% representando fratura, grau 3 de Genant, com discreto desvio do muro posterior para o canal vertebral."
     word: true
 
   - trigger: "fraver"
@@ -2539,6 +2544,58 @@ matches:
   - trigger: "lolisescada"
     label: "Anterolistese em escada (L3 a S1)"
     replace: "Anterolistese grau I de L3 sobre L4, de L4 sobre L5 e de L5 sobre S1."
+    word: true
+
+  - trigger: "lulis"
+    label: "Espondilólise/anterolistese de L5-S1 (Meyerding)"
+    replace: |
+      Lise dos istmos de L5.
+      Anterolistese de L5 sobre S1, grau I de Meyerding.
+    word: true
+
+  - trigger: "lulis2"
+    label: "Anterolistese de L2 sobre L3, grau I de Meyerding"
+    replace: "Anterolistese de L2 sobre L3, grau I de Meyerding."
+    word: true
+
+  - trigger: "lulis3"
+    label: "Anterolistese de L3 sobre L4, grau I de Meyerding"
+    replace: "Anterolistese de L3 sobre L4, grau I de Meyerding."
+    word: true
+
+  - trigger: "lulis34"
+    label: "Anterolistese em L3-L4 e L4-L5, grau I de Meyerding"
+    replace: "Anterolistese de L3 sobre L4 e de L4 sobre L5, grau I de Meyerding."
+    word: true
+
+  - trigger: "lulis4"
+    label: "Anterolistese de L4 sobre L5, grau I de Meyerding"
+    replace: "Anterolistese de L4 sobre L5, grau I de Meyerding."
+    word: true
+
+  - trigger: "lulis45"
+    label: "Anterolistese em L4-L5 e L5-S1, grau I de Meyerding"
+    replace: "Anterolistese de L4 sobre L5 e de L5 sobre S1, grau I de Meyerding."
+    word: true
+
+  - trigger: "lulis4d"
+    label: "Anterolistese degenerativa de L4 sobre L5 (Meyerding)"
+    replace: "Anterolistese de L4 sobre L5, grau I de Meyerding, de provável natureza degenerativa."
+    word: true
+
+  - trigger: "lulis5d"
+    label: "Anterolistese degenerativa de L5 sobre S1 (Meyerding)"
+    replace: "Anterolistese de L5 sobre S1, grau I de Meyerding, de provável natureza degenerativa."
+    word: true
+
+  - trigger: "lulisd"
+    label: "Anterolistese degenerativa de L4 sobre L5 (Meyerding)"
+    replace: "Anterolistese de L4 sobre L5, grau I de Meyerding, de provável natureza degenerativa."
+    word: true
+
+  - trigger: "lulisescada"
+    label: "Anterolistese em escada (L3 a S1), grau I de Meyerding"
+    replace: "Anterolistese de L3 sobre L4, de L4 sobre L5 e de L5 sobre S1, grau I de Meyerding."
     word: true
 
   - trigger: "meyer1"
@@ -2656,7 +2713,7 @@ matches:
   - trigger: "tccage"
     label: "Espondilolistese com artrodese e cage L4-L5"
     replace: |
-      Espondilólise bilateral de L4 com anterolistese grau I de L4 sobre L5.
+      Espondilólise bilateral de L4 com anterolistese de L4 sobre L5, grau I de Meyerding.
 
       Laminectomia ampla em L4.
 
@@ -4500,12 +4557,62 @@ matches:
 
   - trigger: "ttila"
     label: "Anormalidades intersticiais pulmonares não fibróticas (ILA)"
-    replace: 'Discretas opacidades reticulares e com atenuação em "vidro fosco" subpleurais, bilaterais, em regiões não pendentes, sem distorção arquitetural, bronquiectasias de tração ou faveolamento, acometendo ao menos 5% de uma zona pulmonar. Achados compatíveis com anormalidades intersticiais pulmonares subpleurais não fibróticas.'
+    replace: 'Discretas opacidades reticulares e com atenuação em "vidro fosco" subpleurais, bilaterais, em regiões não pendentes, sem distorção arquitetural, bronquiectasias de tração ou faveolamento, acometendo ao menos 5% de uma zona pulmonar. Achados compatíveis com anormalidades intersticiais pulmonares subpleurais não fibróticas, segundo a Fleischner Society.'
     word: true
 
   - trigger: "ttilaf"
     label: "Anormalidades intersticiais pulmonares fibróticas (ILA)"
-    replace: "Discretas opacidades reticulares subpleurais, bilaterais, em regiões não pendentes, associadas a bronquiolectasias de tração, acometendo ao menos 5% de uma zona pulmonar. Achados compatíveis com anormalidades intersticiais pulmonares subpleurais fibróticas."
+    replace: "Discretas opacidades reticulares subpleurais, bilaterais, em regiões não pendentes, associadas a bronquiolectasias de tração, acometendo ao menos 5% de uma zona pulmonar. Achados compatíveis com anormalidades intersticiais pulmonares subpleurais fibróticas, segundo a Fleischner Society."
+    word: true
+
+  - trigger: "lungrads1"
+    label: "Lung-RADS v2022 categoria 1 (sem nódulos ou só calcificação benigna)"
+    replace: "Ausência de nódulos pulmonares ou presença apenas de nódulos com calcificação de padrão benigno, Lung-RADS v2022 categoria 1."
+    word: true
+
+  - trigger: "lungrads2"
+    label: "Lung-RADS v2022 categoria 2 (nódulo sólido < 6 mm no basal)"
+    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, Lung-RADS v2022 categoria 2."
+    word: true
+
+  - trigger: "lungrads3"
+    label: "Lung-RADS v2022 categoria 3 (nódulo sólido 6 a < 8 mm no basal)"
+    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, Lung-RADS v2022 categoria 3."
+    word: true
+
+  - trigger: "lungrads4a"
+    label: "Lung-RADS v2022 categoria 4A (nódulo sólido 8 a < 15 mm no basal)"
+    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, Lung-RADS v2022 categoria 4A."
+    word: true
+
+  - trigger: "lungrads4b"
+    label: "Lung-RADS v2022 categoria 4B (nódulo sólido ≥ 15 mm no basal)"
+    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, Lung-RADS v2022 categoria 4B."
+    word: true
+
+  - trigger: "lungrads4x"
+    label: "Lung-RADS v2022 categoria 4X (categoria 3 ou 4 com característica suspeita)"
+    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, com _ (contornos espiculados; ou linfonodomegalia associada), Lung-RADS v2022 categoria 4X."
+    word: true
+
+  - trigger: "coronaria0"
+    label: "Cálcio coronariano ausente, estimativa visual (SCCT/STR)"
+    replace: "Ausência de calcificações coronarianas, em estimativa visual segundo a SCCT/STR."
+    word: true
+
+  - trigger: "coronaria1"
+    label: "Cálcio coronariano discreto, estimativa visual (SCCT/STR)"
+    replace: "Calcificações coronarianas discretas, em estimativa visual segundo a SCCT/STR."
+    word: true
+
+  - trigger: "coronaria2"
+    label: "Cálcio coronariano moderado, estimativa visual (SCCT/STR)"
+    replace: "Calcificações coronarianas moderadas, em estimativa visual segundo a SCCT/STR."
+    word: true
+
+  - trigger: "coronaria3"
+    label: "Cálcio coronariano acentuado, estimativa visual (SCCT/STR)"
+    replace: "Calcificações coronarianas acentuadas, em estimativa visual segundo a SCCT/STR."
     word: true
 
   - trigger: "ttph"
@@ -6184,6 +6291,11 @@ matches:
     replace: "Nódulo hipodenso de _ cm na adrenal _ com coeficientes de atenuação em torno de _ UH, de aspecto indeterminado. Adrenal _ de aspecto preservado."
     word: true
 
+  - trigger: "adenomalipidico"
+    label: "Adenoma adrenal rico em lipídios (≤ 10 UH sem contraste, ACR)"
+    replace: "Nódulo na glândula adrenal _ (direita; ou esquerda), medindo _ cm, com atenuação de _ UH na fase sem contraste (igual ou inferior a 10 UH), compatível com adenoma rico em lipídios, segundo o ACR."
+    word: true
+
   - trigger: "tumorperiampular"
     label: "Neoplasia periampular/cabeça de pâncreas"
     replace: "Lesão de limites pouco definidos, localizada em região de cabeça de pâncreas/periampular, promovendo dilatação das vias biliares intra e extra-hepáticas, bem como do ducto pancreático principal. Há atrofia do parênquima do corpo e cauda do pâncreas. Nota-se aumento do número de linfonodos regionais. A possibilidade de neoplasia pode ser considerada. A critério clínico, se possível, o estudo dessa região por imagens de ressonância magnética poderá fornecer maiores subsídios diagnósticos."
@@ -6836,7 +6948,7 @@ matches:
     replace: |
       Cobertura acetabular reduzida no quadril _ (direito; ou esquerdo), com ângulo centro-borda lateral de _ graus.
 
-      Referência: ângulo centro-borda lateral < 20° caracteriza displasia acetabular; entre 20 e 25°, limítrofe.
+      Referência (Wiberg, 1939): ângulo centro-borda lateral < 20° caracteriza displasia acetabular; entre 20 e 25°, limítrofe.
     word: true
 
   - trigger: "quadrildisplasiac"

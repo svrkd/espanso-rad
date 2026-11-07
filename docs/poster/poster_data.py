@@ -299,6 +299,7 @@ CURINGAS = [
 # explicitamente em BLOCOS/CURINGAS acima, não por esta lista.
 EXCLUSOES = [
     (r'^ma(?:[a-z].*|(?:1[3-9]|[2-8][0-9])c?)$', 'mamas BI-RADS 2025 — série extensa, consulta por Alt+Space'),
+    (r'^colocurto$', 'obstétrica — colo curto (SMFM), achado específico do rastreamento de prematuridade'),
     (r'^(co|jo|mo|om|pd|pu|qd|tz|lm)', 'MSK por segmento — volume alto, cobertura via Alt+Space'),
     (r'^me[12]$', 'MSK por segmento (tendão calcâneo / joelho) — prefixo legado fora do padrão co/jo/…/tz'),
     (r'^(?!usnc$|utnc$|ustvpc$).*c$', 'variante de conclusão (regra de gramática "…c")'),
