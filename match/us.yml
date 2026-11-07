@@ -1394,7 +1394,7 @@ matches:
 
   - trigger: "ut3c"
     label: "Útero (adenomiose): alterações miometriais que podem estar associadas a adenomiose"
-    replace: "Alterações miometriais que podem estar associadas a adenomiose."
+    replace: "Alterações miometriais que podem estar associadas a adenomiose, segundo os critérios MUSA."
     word: true
 
   - trigger: "ut4"
@@ -1718,6 +1718,16 @@ matches:
   - trigger: "ob2"
     label: "Obstétrica: hematoma retrocoriônico (achado descritivo)"
     replace: Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.
+    word: true
+
+  - trigger: "colocurto"
+    label: "Obstétrica: colo uterino curto, até 2,5 cm (SMFM) (achado descritivo)"
+    replace: "Colo uterino com comprimento de _ cm à avaliação transvaginal (igual ou inferior a 2,5 cm), caracterizando colo curto."
+    word: true
+
+  - trigger: "colocurtoc"
+    label: "Obstétrica: colo uterino curto (SMFM) (conclusão)"
+    replace: "Colo uterino curto, segundo a SMFM."
     word: true
 
   - trigger: "ob2c"
@@ -2340,23 +2350,23 @@ matches:
     word: true
 
   - trigger: "ma16"
-    label: "Mama (US): componente glandular mínimo (<25%)"
-    replace: Componente glandular mínimo, inferior a 25% do tecido fibroglandular.
+    label: "Mama (US): componente glandular mínimo (<25%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular mínimo.
     word: true
 
   - trigger: "ma17"
-    label: "Mama (US): componente glandular discreto (25–49%)"
-    replace: Componente glandular discreto, correspondente a 25% a 49% do tecido fibroglandular.
+    label: "Mama (US): componente glandular leve (25–49%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular leve.
     word: true
 
   - trigger: "ma18"
-    label: "Mama (US): componente glandular moderado (50–74%)"
-    replace: Componente glandular moderado, correspondente a 50% a 74% do tecido fibroglandular.
+    label: "Mama (US): componente glandular moderado (50–74%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular moderado.
     word: true
 
   - trigger: "ma19"
-    label: "Mama (US): componente glandular acentuado (≥75%)"
-    replace: Componente glandular acentuado, correspondente a pelo menos 75% do tecido fibroglandular.
+    label: "Mama (US): componente glandular acentuado (≥75%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular acentuado.
     word: true
 
   - trigger: "ma20"
@@ -2841,23 +2851,23 @@ matches:
     word: true
 
   - trigger: "maglmin"
-    label: "Mama (US): componente glandular mínimo (<25%)"
-    replace: Componente glandular mínimo, inferior a 25% do tecido fibroglandular.
+    label: "Mama (US): componente glandular mínimo (<25%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular mínimo.
     word: true
 
   - trigger: "magldisc"
-    label: "Mama (US): componente glandular discreto (25–49%)"
-    replace: Componente glandular discreto, correspondente a 25% a 49% do tecido fibroglandular.
+    label: "Mama (US): componente glandular leve (25–49%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular leve.
     word: true
 
   - trigger: "maglmod"
-    label: "Mama (US): componente glandular moderado (50–74%)"
-    replace: Componente glandular moderado, correspondente a 50% a 74% do tecido fibroglandular.
+    label: "Mama (US): componente glandular moderado (50–74%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular moderado.
     word: true
 
   - trigger: "maglacent"
-    label: "Mama (US): componente glandular acentuado (≥75%)"
-    replace: Componente glandular acentuado, correspondente a pelo menos 75% do tecido fibroglandular.
+    label: "Mama (US): componente glandular acentuado (≥75%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular acentuado.
     word: true
 
   - trigger: "mapele"
@@ -7546,7 +7556,7 @@ matches:
 
   - trigger: "te5c"
     label: "Testículo/bolsa escrotal: Microlitíase testicular à _"
-    replace: Microlitíase testicular à _.
+    replace: Microlitíase testicular à _, segundo os critérios da ESUR.
     word: true
 
   - trigger: "te6"
@@ -8188,7 +8198,7 @@ matches:
 
   - trigger: "graf1ac"
     label: Quadril infantil Graf Ia — conclusão
-    replace: Quadril tipo Ia (quadril maduro).
+    replace: Quadril tipo Ia de Graf (quadril maduro).
     word: true
 
   - trigger: "graf1b"
@@ -8205,7 +8215,7 @@ matches:
 
   - trigger: "graf1bc"
     label: Quadril infantil Graf Ib — conclusão
-    replace: Quadril tipo Ib (quadril maduro).
+    replace: Quadril tipo Ib de Graf (quadril maduro).
     word: true
 
   - trigger: "graf2ap"
@@ -8223,7 +8233,7 @@ matches:
 
   - trigger: "graf2apc"
     label: Quadril infantil Graf IIa+ — conclusão
-    replace: Quadril tipo IIa+ (apropriado para idade).
+    replace: Quadril tipo IIa+ de Graf (apropriado para idade).
     word: true
 
   - trigger: "graf2am"
@@ -8241,7 +8251,7 @@ matches:
 
   - trigger: "graf2amc"
     label: Quadril infantil Graf IIa- — conclusão
-    replace: Quadril tipo IIa- (déficit de maturação).
+    replace: Quadril tipo IIa- de Graf (déficit de maturação).
     word: true
 
   - trigger: "graf2b"
@@ -8259,7 +8269,7 @@ matches:
 
   - trigger: "graf2bc"
     label: Quadril infantil Graf IIb — conclusão
-    replace: Quadril tipo IIb (retardo de ossificação).
+    replace: Quadril tipo IIb de Graf (retardo de ossificação).
     word: true
 
   - trigger: "graf2c"
@@ -8276,7 +8286,7 @@ matches:
 
   - trigger: "graf2cc"
     label: Quadril infantil Graf IIc — conclusão
-    replace: Quadril tipo IIc (faixa crítica para qualquer idade).
+    replace: Quadril tipo IIc de Graf (faixa crítica para qualquer idade).
     word: true
 
   - trigger: "grafd"
@@ -8293,7 +8303,7 @@ matches:
 
   - trigger: "grafdc"
     label: Quadril infantil Graf D — conclusão
-    replace: Quadril tipo D (quadril em vias de descentralização).
+    replace: Quadril tipo D de Graf (quadril em vias de descentralização).
     word: true
 
   - trigger: "graf3a"
@@ -8310,7 +8320,7 @@ matches:
 
   - trigger: "graf3ac"
     label: Quadril infantil Graf IIIa — conclusão
-    replace: Quadril tipo IIIa (quadril excêntrico).
+    replace: Quadril tipo IIIa de Graf (quadril excêntrico).
     word: true
 
   - trigger: "graf3b"
@@ -8327,7 +8337,7 @@ matches:
 
   - trigger: "graf3bc"
     label: Quadril infantil Graf IIIb — conclusão
-    replace: Quadril tipo IIIb (quadril excêntrico).
+    replace: Quadril tipo IIIb de Graf (quadril excêntrico).
     word: true
 
   - trigger: "graf4"
@@ -8344,7 +8354,7 @@ matches:
 
   - trigger: "graf4c"
     label: Quadril infantil Graf IV — conclusão
-    replace: Quadril tipo IV (quadril luxado).
+    replace: Quadril tipo IV de Graf (quadril luxado).
     word: true
 
   - trigger: "usquadrilinfantil"
@@ -8866,7 +8876,7 @@ matches:
 
   - trigger: "art8c"
     label: "Doppler arterial de membros: Estenose ≥ 50%"
-    replace: "Estenose igual ou superior a 50% da artéria _."
+    replace: "Estenose igual ou superior a 50% da artéria _, segundo os critérios de Jager."
     word: true
 
   - trigger: "art11"
@@ -8896,7 +8906,7 @@ matches:
 
   - trigger: "art6c"
     label: "Doppler arterial de membros: Estenose < 50%"
-    replace: Estenose inferior a 50% da artéria _.
+    replace: Estenose inferior a 50% da artéria _, segundo os critérios de Jager.
     word: true
 
   - trigger: "art9"
@@ -9088,7 +9098,7 @@ matches:
 
   - trigger: "carot4c"
     label: "Artéria carótida: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _"
-    replace: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _.
+    replace: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _, segundo a diretriz DIC/CBR/SBACV 2023.
     word: true
 
   - trigger: "carot5"
@@ -9098,7 +9108,7 @@ matches:
 
   - trigger: "carot5c"
     label: "Artéria carótida: Estenose entre 50 e 69% da carótida interna à _"
-    replace: "Estenose entre 50 e 59%/60 e 69%/50 e 69% da artéria carótida interna à _."
+    replace: "Estenose entre 50 e 59%/60 e 69%/50 e 69% da artéria carótida interna à _, segundo a diretriz DIC/CBR/SBACV 2023."
     word: true
 
   - trigger: "carot6"
@@ -9108,7 +9118,7 @@ matches:
 
   - trigger: "carot6c"
     label: "Artéria carótida: Estenose entre 70 e 89% da carótida interna à _"
-    replace: "Estenose entre 70 e 79%/80 e 89% da artéria carótida interna à _."
+    replace: "Estenose entre 70 e 79%/80 e 89% da artéria carótida interna à _, segundo a diretriz DIC/CBR/SBACV 2023."
     word: true
 
   - trigger: "carot7"
@@ -9161,7 +9171,7 @@ matches:
 
   - trigger: "carot10c"
     label: "Artéria carótida: Estenose intrastent do stent carotídeo à _"
-    replace: Angioplastia com implante de stent carotídeo à _, com sinais de reestenose intra-stent entre 50 e 79%/igual ou superior a 80%.
+    replace: Angioplastia com implante de stent carotídeo à _, com sinais de reestenose intra-stent entre 50 e 79%/igual ou superior a 80%, segundo a diretriz DIC/CBR/SBACV 2023.
     word: true
 
   - trigger: "carot11"
@@ -9184,7 +9194,7 @@ matches:
 
   - trigger: "carot12c"
     label: "Artéria carótida: Estenose superior a 90% em bifurcação carotídea à _"
-    replace: Estenose superior a 90% em bifurcação carotídea à _.
+    replace: Estenose superior a 90% em bifurcação carotídea à _, segundo a diretriz DIC/CBR/SBACV 2023.
     word: true
 
   - trigger: "carot13"
@@ -9229,7 +9239,7 @@ matches:
 
   - trigger: "carot18"
     label: "Artéria carótida: Placa na bifurcação carotídea à _"
-    replace: "Bifurcação carotídea à _ com placa uniformemente hipoecogênica/predominantemente hipoecogênica/predominantemente hiperecogênica/uniformemente hiperecogênica/calcificada (tipo I/II/III/IV/V), de superfície regular/irregular, sem extensão para os ramos interno e externo. Ao Doppler, ausência de turbulência espectral e velocidades normais."
+    replace: "Bifurcação carotídea à _ com placa uniformemente hipoecogênica/predominantemente hipoecogênica/predominantemente hiperecogênica/uniformemente hiperecogênica/calcificada (tipo I/II/III/IV/V de Gray-Weale, modificada por Geroulakos), de superfície regular/irregular, sem extensão para os ramos interno e externo. Ao Doppler, ausência de turbulência espectral e velocidades normais."
     word: true
 
   - trigger: "carot19"
@@ -9264,7 +9274,7 @@ matches:
 
   - trigger: "carot24c"
     label: "Artéria carótida: Reestenose ≥ 70% pós-endarterectomia à _"
-    replace: "Endarterectomia carotídea à _, com reestenose igual ou superior a 70%."
+    replace: "Endarterectomia carotídea à _, com reestenose igual ou superior a 70%, segundo a diretriz DIC/CBR/SBACV 2023."
     word: true
 
   - trigger: "carot25"
@@ -9379,7 +9389,7 @@ matches:
 
   - trigger: "vert5c"
     label: "Artéria vertebral: estenose na origem (conclusão)"
-    replace: "Estenose de _% na origem da artéria vertebral à _."
+    replace: "Estenose de _% na origem da artéria vertebral à _, segundo a diretriz DIC/CBR/SBACV 2023."
     word: true
 
   - trigger: "vert6"
@@ -9419,7 +9429,7 @@ matches:
 
   - trigger: "ds1c"
     label: "Artéria subclávia: Roubo da subclávia tipo 3 (completo) à _"
-    replace: "Achados compatíveis com estenose crítica ou oclusão proximal da artéria subclávia à _ (roubo da subclávia tipo 3, completo)."
+    replace: "Achados compatíveis com estenose crítica ou oclusão proximal da artéria subclávia à _ (roubo da subclávia tipo 3, completo, segundo a diretriz DIC/CBR/SBACV 2023)."
     word: true
 
   - trigger: "ds2"
@@ -9429,7 +9439,7 @@ matches:
 
   - trigger: "ds2c"
     label: "Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico superior à VDF"
-    replace: Achados ao Doppler sugestivos de estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente).
+    replace: Achados ao Doppler sugestivos de estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente, segundo a diretriz DIC/CBR/SBACV 2023).
     word: true
 
   - trigger: "ds3"
@@ -9439,7 +9449,7 @@ matches:
 
   - trigger: "ds3c"
     label: "Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico igual à VDF"
-    replace: Achados ao Doppler sugestivos de estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente).
+    replace: Achados ao Doppler sugestivos de estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente, segundo a diretriz DIC/CBR/SBACV 2023).
     word: true
 
   - trigger: "ds4"
@@ -9449,7 +9459,7 @@ matches:
 
   - trigger: "ds4c"
     label: "Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico inferior à VDF"
-    replace: Achados compatíveis com estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente).
+    replace: Achados compatíveis com estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente, segundo a diretriz DIC/CBR/SBACV 2023).
     word: true
 
   - trigger: "ds5"
@@ -9459,7 +9469,7 @@ matches:
 
   - trigger: "ds5c"
     label: "Artéria subclávia: Roubo da subclávia tipo 2 (intermitente/parcial) à _"
-    replace: "Achados compatíveis com roubo da subclávia tipo 2 (intermitente/parcial) à _."
+    replace: "Achados compatíveis com roubo da subclávia tipo 2 (intermitente/parcial) à _, segundo a diretriz DIC/CBR/SBACV 2023."
     word: true
 
   # ==============================================================================
@@ -9656,7 +9666,7 @@ matches:
 
   - trigger: "dabd18c"
     label: "Doppler abdome superior: Tronco celíaco: estenose ≥ 50%/≥ 70%, VPS ≥ 240/320 cm/s (AbuRahma 2012)"
-    replace: "Estenose igual ou superior a 50%/70% do tronco celíaco."
+    replace: "Estenose igual ou superior a 50%/70% do tronco celíaco, segundo os critérios de AbuRahma."
     word: true
 
   - trigger: "dabd19"
@@ -9676,7 +9686,7 @@ matches:
 
   - trigger: "dabd20c"
     label: "Doppler abdome superior: Artéria mesentérica superior: estenose ≥ 50%/≥ 70%, VPS ≥ 295/400 cm/s (AbuRahma 2012)"
-    replace: "Estenose igual ou superior a 50%/70% da artéria mesentérica superior."
+    replace: "Estenose igual ou superior a 50%/70% da artéria mesentérica superior, segundo os critérios de AbuRahma."
     word: true
 
   - trigger: "dabd21"

@@ -1287,7 +1287,7 @@ matches:
 
   - trigger: "pancreasirressecavel1"
     label: "Envolvimento arterial superior a 180° (irressecabilidade)"
-    replace: Lesões hipodensas e hipovasculares que circundam toda a extensão do tronco celíaco e parcialmente seus ramos, além da artéria mesentérica superior. Essas lesões envolvem mais da metade de suas circunferências (> 180°).
+    replace: Lesões hipodensas e hipovasculares que circundam toda a extensão do tronco celíaco e parcialmente seus ramos, além da artéria mesentérica superior. Essas lesões envolvem mais da metade de suas circunferências (> 180°), critério de irressecabilidade da NCCN.
     word: true
 
   - trigger: "neoplasiauncinado"
@@ -1298,10 +1298,20 @@ matches:
   - trigger: "pancreasirressecavel2"
     label: "Critérios de irressecabilidade da neoplasia pancreática"
     replace: |-
-      Critérios de irressecabilidade:
+      Critérios de irressecabilidade da NCCN:
       1) envolvimento maior que 180° da artéria mesentérica superior ou do tronco celíaco;
       2) metástase;
       3) invasão da veia porta/veia mesentérica superior não passível de reconstrução.
+    word: true
+
+  - trigger: "kyotopreocupante"
+    label: "Cisto pancreático com característica preocupante (Kyoto 2024)"
+    replace: "Lesão cística no _ (cabeça; colo; corpo; ou cauda) do pâncreas, medindo _ cm, com _ (dimensão igual ou superior a 3,0 cm; parede espessada com realce; nódulo mural com realce inferior a 0,5 cm; ducto pancreático principal de 0,5 a 0,9 cm; mudança abrupta do calibre do ducto pancreático principal com atrofia pancreática distal; ou crescimento igual ou superior a 0,25 cm/ano), configurando característica preocupante segundo as diretrizes internacionais de Kyoto."
+    word: true
+
+  - trigger: "kyotoaltorisco"
+    label: "Cisto pancreático com estigma de alto risco (Kyoto 2024)"
+    replace: "Lesão cística no _ (cabeça; colo; corpo; ou cauda) do pâncreas, medindo _ cm, com _ (componente sólido ou nódulo mural com realce igual ou superior a 0,5 cm; ou ducto pancreático principal igual ou superior a 1,0 cm), configurando estigma de alto risco segundo as diretrizes internacionais de Kyoto."
     word: true
 
   - trigger: "pseudocistopancreas3"
@@ -1365,7 +1375,7 @@ matches:
 
   - trigger: "adenomaadrenal"
     label: "Adenoma adrenal com washout característico"
-    replace: Adrenal direita apresentando nódulo medindo cerca de _ cm, com densidade de _ UH, apresentando realce após a administração do meio de contraste (_ UH) e na fase tardia de 15 minutos (_ UH), com washout absoluto de _% e relativo de _%. Esses achados são compatíveis com adenoma.
+    replace: Adrenal direita apresentando nódulo medindo cerca de _ cm, com densidade de _ UH, apresentando realce após a administração do meio de contraste (_ UH) e na fase tardia de 15 minutos (_ UH), com washout absoluto de _% e relativo de _% (iguais ou superiores a 60% e 40%, respectivamente), compatíveis com adenoma, segundo o ACR.
     word: true
 
   # ==========================================================================
@@ -1513,7 +1523,7 @@ matches:
 
   - trigger: "neoplasiarenal1c"
     label: "Conclusão — neoplasia renal com escore nefrométrico"
-    replace: Lesão expansiva renal direita, sugestiva de processo neoplásico primário. Tal lesão é classificada como _ segundo o escore nefrométrico (http://www.nephrometry.com/).
+    replace: Lesão expansiva renal direita, sugestiva de processo neoplásico primário. Tal lesão é classificada como _ segundo o escore nefrométrico R.E.N.A.L. (Kutikov e Uzzo, 2009).
     word: true
 
   - trigger: "neoplasiarenal2"
@@ -3541,6 +3551,41 @@ matches:
     replace: Divertículos colônicos esparsos, destacando-se espessamento parietal segmentar do sigmoide, associado a densificação dos planos gordurosos, lâminas líquidas e diminutos focos gasosos adjacentes. Associam-se ingurgitamento de vasos e aumento do número de linfonodos regionais e retroperitoneais. O conjunto de achados é compatível com diverticulite aguda. Correlacionar com dados clínicos e laboratoriais. Sugere-se controle pós-tratamento.
     word: true
 
+  - trigger: "diverwses0"
+    label: "Diverticulite aguda não complicada, estágio 0 da WSES"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, sem gás extraluminal ou coleções, compatível com diverticulite aguda não complicada, estágio 0 da WSES."
+    word: true
+
+  - trigger: "diverwses1a"
+    label: "Diverticulite complicada, estágio 1A da WSES (gás/líquido pericólico até 5 cm, sem abscesso)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a pequenas bolhas gasosas extraluminais ou pequena quantidade de líquido pericólico a até 5 cm do segmento inflamado, sem abscesso, compatível com diverticulite aguda complicada, estágio 1A da WSES."
+    word: true
+
+  - trigger: "diverwses1b"
+    label: "Diverticulite complicada, estágio 1B da WSES (abscesso até 4 cm)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a abscesso pericólico de _ cm (igual ou inferior a 4 cm), compatível com diverticulite aguda complicada, estágio 1B da WSES."
+    word: true
+
+  - trigger: "diverwses2a"
+    label: "Diverticulite complicada, estágio 2A da WSES (abscesso > 4 cm)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a abscesso de _ cm (superior a 4 cm), compatível com diverticulite aguda complicada, estágio 2A da WSES."
+    word: true
+
+  - trigger: "diverwses2b"
+    label: "Diverticulite complicada, estágio 2B da WSES (gás a mais de 5 cm)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a gás extraluminal a mais de 5 cm do segmento inflamado, compatível com diverticulite aguda complicada, estágio 2B da WSES."
+    word: true
+
+  - trigger: "diverwses3"
+    label: "Diverticulite complicada, estágio 3 da WSES (líquido difuso sem gás distante)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar, associados a líquido livre difuso na cavidade peritoneal, sem gás livre distante, compatível com diverticulite aguda complicada com peritonite difusa, estágio 3 da WSES."
+    word: true
+
+  - trigger: "diverwses4"
+    label: "Diverticulite complicada, estágio 4 da WSES (líquido difuso com gás distante)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar, associados a líquido livre difuso e gás livre distante na cavidade peritoneal, compatível com diverticulite aguda complicada com peritonite difusa, estágio 4 da WSES."
+    word: true
+
   - trigger: "diverticulite10"
     label: "Diverticulite perfurada com alças de bloqueio"
     replace: Múltiplos divertículos cólicos esparsos, destacando-se espessamento parietal nas bordas mesentérica e antimesentérica do sigmoide, achados de natureza inflamatória/infecciosa (diverticulite aguda), destacando-se descontinuidade parietal/perfuração na borda mesentérica do sigmoide (descontinuidade de _ cm), com consequente pneumoperitônio e conteúdo fecal na cavidade abdominal. Associa-se espessamento parietal subestenosante das alças ileais adjacentes, de aspecto reacional (alças de bloqueio), determinando distensão hidroaérea a montante das alças delgadas.
@@ -3822,7 +3867,7 @@ matches:
 
   - trigger: "paniculitecoulier"
     label: "Paniculite mesentérica (critérios de Coulier)"
-    replace: "Massa gordurosa bem delimitada na raiz do mesentério, com atenuação maior que a da gordura adjacente, envolvendo vasos e pequenos linfonodos, que são circundados por halo de gordura preservada, com pseudocápsula hiperatenuante periférica. Achados compatíveis com paniculite mesentérica."
+    replace: "Massa gordurosa bem delimitada na raiz do mesentério, com atenuação maior que a da gordura adjacente, envolvendo vasos e pequenos linfonodos, que são circundados por halo de gordura preservada, com pseudocápsula hiperatenuante periférica. Achados compatíveis com paniculite mesentérica, segundo os critérios de Coulier."
     word: true
 
   # ==========================================================================
