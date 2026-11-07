@@ -12035,6 +12035,11 @@ matches:
     replace: Divertículos cólicos, sem sinais inflamatórios.
     word: true
 
+  - trigger: "diverc"
+    label: "Conclusão — diverticulose cólica não complicada (CDD tipo 0)"
+    replace: "Divertículos cólicos, sem sinais de complicação aguda (CDD tipo 0)."
+    word: true
+
   - trigger: "diverduo"
     label: "Divertículo duodenal"
     replace: Imagem que sugere representar divertículo na segunda porção do duodeno.
