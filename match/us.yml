@@ -2350,23 +2350,23 @@ matches:
     word: true
 
   - trigger: "ma16"
-    label: "Mama (US): componente glandular mínimo (<25%)"
-    replace: Componente glandular mínimo, inferior a 25% do tecido fibroglandular.
+    label: "Mama (US): componente glandular mínimo (<25%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular mínimo.
     word: true
 
   - trigger: "ma17"
-    label: "Mama (US): componente glandular discreto (25–49%)"
-    replace: Componente glandular discreto, correspondente a 25% a 49% do tecido fibroglandular.
+    label: "Mama (US): componente glandular leve (25–49%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular leve.
     word: true
 
   - trigger: "ma18"
-    label: "Mama (US): componente glandular moderado (50–74%)"
-    replace: Componente glandular moderado, correspondente a 50% a 74% do tecido fibroglandular.
+    label: "Mama (US): componente glandular moderado (50–74%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular moderado.
     word: true
 
   - trigger: "ma19"
-    label: "Mama (US): componente glandular acentuado (≥75%)"
-    replace: Componente glandular acentuado, correspondente a pelo menos 75% do tecido fibroglandular.
+    label: "Mama (US): componente glandular acentuado (≥75%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular acentuado.
     word: true
 
   - trigger: "ma20"
@@ -2851,23 +2851,23 @@ matches:
     word: true
 
   - trigger: "maglmin"
-    label: "Mama (US): componente glandular mínimo (<25%)"
-    replace: Componente glandular mínimo, inferior a 25% do tecido fibroglandular.
+    label: "Mama (US): componente glandular mínimo (<25%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular mínimo.
     word: true
 
   - trigger: "magldisc"
-    label: "Mama (US): componente glandular discreto (25–49%)"
-    replace: Componente glandular discreto, correspondente a 25% a 49% do tecido fibroglandular.
+    label: "Mama (US): componente glandular leve (25–49%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular leve.
     word: true
 
   - trigger: "maglmod"
-    label: "Mama (US): componente glandular moderado (50–74%)"
-    replace: Componente glandular moderado, correspondente a 50% a 74% do tecido fibroglandular.
+    label: "Mama (US): componente glandular moderado (50–74%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular moderado.
     word: true
 
   - trigger: "maglacent"
-    label: "Mama (US): componente glandular acentuado (≥75%)"
-    replace: Componente glandular acentuado, correspondente a pelo menos 75% do tecido fibroglandular.
+    label: "Mama (US): componente glandular acentuado (≥75%, BI-RADS v2025)"
+    replace: Tecido fibroglandular com componente glandular acentuado.
     word: true
 
   - trigger: "mapele"

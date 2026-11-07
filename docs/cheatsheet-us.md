@@ -394,10 +394,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ma13 | Mama (US): ecotextura homogênea adiposa |
 | ma14 | Mama (US): ecotextura heterogênea |
 | ma15 | Mama (US): ecotextura homogênea fibroglandular |
-| ma16 | Mama (US): componente glandular mínimo (<25%) |
-| ma17 | Mama (US): componente glandular discreto (25–49%) |
-| ma18 | Mama (US): componente glandular moderado (50–74%) |
-| ma19 | Mama (US): componente glandular acentuado (≥75%) |
+| ma16 | Mama (US): componente glandular mínimo (<25%, BI-RADS v2025) |
+| ma17 | Mama (US): componente glandular leve (25–49%, BI-RADS v2025) |
+| ma18 | Mama (US): componente glandular moderado (50–74%, BI-RADS v2025) |
+| ma19 | Mama (US): componente glandular acentuado (≥75%, BI-RADS v2025) |
 | ma20 | Mama (US): pele e subcutâneo preservados |
 | ma21 | Mama (US): ausência de lesões focais |
 | ma22 | Mama (US): regiões retroareolares preservadas |
@@ -495,10 +495,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | maecoadip | Mama (US): ecotextura homogênea adiposa |
 | maecohet | Mama (US): ecotextura heterogênea |
 | maecofib | Mama (US): ecotextura homogênea fibroglandular |
-| maglmin | Mama (US): componente glandular mínimo (<25%) |
-| magldisc | Mama (US): componente glandular discreto (25–49%) |
-| maglmod | Mama (US): componente glandular moderado (50–74%) |
-| maglacent | Mama (US): componente glandular acentuado (≥75%) |
+| maglmin | Mama (US): componente glandular mínimo (<25%, BI-RADS v2025) |
+| magldisc | Mama (US): componente glandular leve (25–49%, BI-RADS v2025) |
+| maglmod | Mama (US): componente glandular moderado (50–74%, BI-RADS v2025) |
+| maglacent | Mama (US): componente glandular acentuado (≥75%, BI-RADS v2025) |
 | mapele | Mama (US): pele e subcutâneo preservados |
 | masemlesao | Mama (US): ausência de lesões focais |
 | maretro | Mama (US): regiões retroareolares preservadas |
