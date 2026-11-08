@@ -1206,6 +1206,22 @@ matches:
     replace: Balthazar _ — CTSI _ — CTSI modificado _.
     word: true
 
+  - trigger: "escorebalthazar2"
+    label: "Balthazar e CTSI com tabela de referência (Balthazar 1990)"
+    replace: |-
+      Pancreatite aguda grau _ (A; B; C; D; ou E) de Balthazar, com necrose pancreática _ (ausente; acometendo até 30% do parênquima; acometendo mais de 30% a 50% do parênquima; ou acometendo mais de 50% do parênquima), correspondendo a índice de gravidade tomográfico (CTSI) de _ pontos, de gravidade _ (leve; moderada; ou grave).
+
+      Referência (Balthazar et al., 1990): A, pâncreas normal (0); B, aumento volumétrico do pâncreas (1); C, alterações inflamatórias do pâncreas e da gordura peripancreática (2); D, coleção líquida peripancreática única e mal definida (3); E, duas ou mais coleções líquidas mal definidas ou gás no pâncreas ou adjacente a ele (4). Necrose: ausente (0); até 30% (2); mais de 30% a 50% (4); mais de 50% (6). CTSI: 0 a 3, leve; 4 a 6, moderada; 7 a 10, grave.
+    word: true
+
+  - trigger: "ctsimodificado"
+    label: "CTSI modificado com tabela de referência (Mortele 2004)"
+    replace: |-
+      Índice de gravidade tomográfico modificado (CTSI modificado) de _ pontos, de gravidade _ (leve; moderada; ou grave).
+
+      Referência (Mortele et al., 2004): inflamação pancreática: pâncreas normal (0); alterações intrínsecas do pâncreas, com ou sem densificação da gordura peripancreática (2); coleção pancreática ou peripancreática, ou necrose da gordura peripancreática (4). Necrose pancreática: ausente (0); até 30% (2); mais de 30% (4). Complicações extrapancreáticas (derrame pleural, ascite, complicação vascular, parenquimatosa ou do trato gastrointestinal): 2 pontos. Total: 0 a 2, leve; 4 a 6, moderada; 8 a 10, grave.
+    word: true
+
   - trigger: "coletordilatado"
     label: "Dilatação do sistema coletor a montante de coleção"
     replace: Mínima dilatação do sistema coletor do rim esquerdo, a montante da coleção supracitada.
@@ -1298,10 +1314,20 @@ matches:
   - trigger: "pancreasirressecavel2"
     label: "Critérios de irressecabilidade da neoplasia pancreática"
     replace: |-
-      Critérios de irressecabilidade:
+      Critérios de irressecabilidade da NCCN:
       1) envolvimento maior que 180° da artéria mesentérica superior ou do tronco celíaco;
       2) metástase;
       3) invasão da veia porta/veia mesentérica superior não passível de reconstrução.
+    word: true
+
+  - trigger: "kyotopreocupante"
+    label: "IPMN com característica preocupante (Kyoto 2024)"
+    replace: "Lesão cística no _ (cabeça; colo; corpo; ou cauda) do pâncreas, medindo _ cm, com _ (dimensão igual ou superior a 3,0 cm; parede espessada com realce; nódulo mural com realce inferior a 0,5 cm; ducto pancreático principal de 0,5 a 0,9 cm; mudança abrupta do calibre do ducto pancreático principal com atrofia pancreática distal; ou crescimento igual ou superior a 0,25 cm/ano), configurando característica preocupante segundo as diretrizes internacionais de Kyoto."
+    word: true
+
+  - trigger: "kyotoaltorisco"
+    label: "IPMN com estigma de alto risco (Kyoto 2024)"
+    replace: "Lesão cística no _ (cabeça; colo; corpo; ou cauda) do pâncreas, medindo _ cm, com _ (componente sólido ou nódulo mural com realce igual ou superior a 0,5 cm; ou ducto pancreático principal igual ou superior a 1,0 cm), configurando estigma de alto risco segundo as diretrizes internacionais de Kyoto."
     word: true
 
   - trigger: "pseudocistopancreas3"
@@ -1327,6 +1353,36 @@ matches:
   - trigger: "colecaofluida"
     label: "Coleção fluida peripancreática aguda (Atlanta)"
     replace: "Coleção líquida homogênea peripancreática, sem parede definida, sem componente sólido ou necrótico, em contexto de pancreatite intersticial edematosa com menos de quatro semanas de evolução, compatível com coleção fluida peripancreática aguda (classificação de Atlanta revisada)."
+    word: true
+
+  - trigger: "pancreatiteintersticial"
+    label: "Pancreatite aguda intersticial edematosa (Atlanta revisada)"
+    replace: "Aumento volumétrico _ (difuso; ou focal) do pâncreas, com realce homogêneo do parênquima pelo meio de contraste, sem áreas de necrose, associado a densificação da gordura peripancreática, compatível com pancreatite aguda intersticial edematosa, segundo a classificação de Atlanta revisada."
+    word: true
+
+  - trigger: "pancreatitenecrosante3"
+    label: "Pancreatite aguda necrosante (Atlanta revisada)"
+    replace: "Áreas sem realce do parênquima pancreático na _ (cabeça; colo; corpo; ou cauda), acometendo cerca de _% da glândula, _ (sem; ou com) necrose da gordura peripancreática, compatível com pancreatite aguda necrosante, segundo a classificação de Atlanta revisada."
+    word: true
+
+  - trigger: "pseudocisto1"
+    label: "Pseudocisto pancreático, mais de 4 semanas (Atlanta revisada)"
+    replace: "Coleção líquida homogênea peripancreática, de paredes bem definidas, sem componente sólido, medindo _ cm, em contexto de pancreatite intersticial edematosa com mais de quatro semanas de evolução, compatível com pseudocisto, segundo a classificação de Atlanta revisada."
+    word: true
+
+  - trigger: "colecaonecrotica"
+    label: "Coleção necrótica aguda, menos de 4 semanas (Atlanta revisada)"
+    replace: "Coleção heterogênea _ (pancreática; peripancreática; ou pancreática e peripancreática), sem parede definida, com conteúdo líquido e componente não liquefeito, medindo _ cm, em contexto de pancreatite necrosante com menos de quatro semanas de evolução, compatível com coleção necrótica aguda, segundo a classificação de Atlanta revisada."
+    word: true
+
+  - trigger: "necroseencapsulada2"
+    label: "Necrose encapsulada, mais de 4 semanas (Atlanta revisada)"
+    replace: "Coleção heterogênea _ (pancreática; peripancreática; ou pancreática e peripancreática), de parede bem definida com realce pelo meio de contraste, com conteúdo líquido e componente não liquefeito, medindo _ cm, em contexto de pancreatite necrosante com mais de quatro semanas de evolução, compatível com necrose encapsulada, segundo a classificação de Atlanta revisada."
+    word: true
+
+  - trigger: "necroseinfectada"
+    label: "Necrose pancreática infectada, gás na coleção (Atlanta revisada)"
+    replace: "Focos gasosos no interior da _ (coleção necrótica aguda; ou necrose encapsulada) _ (pancreática; ou peripancreática), sugerindo necrose infectada, segundo a classificação de Atlanta revisada."
     word: true
 
   # ==========================================================================
@@ -1365,7 +1421,7 @@ matches:
 
   - trigger: "adenomaadrenal"
     label: "Adenoma adrenal com washout característico"
-    replace: Adrenal direita apresentando nódulo medindo cerca de _ cm, com densidade de _ UH, apresentando realce após a administração do meio de contraste (_ UH) e na fase tardia de 15 minutos (_ UH), com washout absoluto de _% e relativo de _%. Esses achados são compatíveis com adenoma.
+    replace: Adrenal direita apresentando nódulo medindo cerca de _ cm, com densidade de _ UH, apresentando realce após a administração do meio de contraste (_ UH) e na fase tardia de 15 minutos (_ UH), com washout absoluto de _% e relativo de _% (absoluto igual ou superior a 60% ou relativo igual ou superior a 40%), compatíveis com adenoma, segundo o ACR.
     word: true
 
   # ==========================================================================
@@ -1513,7 +1569,7 @@ matches:
 
   - trigger: "neoplasiarenal1c"
     label: "Conclusão — neoplasia renal com escore nefrométrico"
-    replace: Lesão expansiva renal direita, sugestiva de processo neoplásico primário. Tal lesão é classificada como _ segundo o escore nefrométrico (http://www.nephrometry.com/).
+    replace: Lesão expansiva renal direita, sugestiva de processo neoplásico primário. Tal lesão é classificada como _ segundo o escore nefrométrico R.E.N.A.L. (Kutikov e Uzzo, 2009).
     word: true
 
   - trigger: "neoplasiarenal2"
@@ -3541,6 +3597,41 @@ matches:
     replace: Divertículos colônicos esparsos, destacando-se espessamento parietal segmentar do sigmoide, associado a densificação dos planos gordurosos, lâminas líquidas e diminutos focos gasosos adjacentes. Associam-se ingurgitamento de vasos e aumento do número de linfonodos regionais e retroperitoneais. O conjunto de achados é compatível com diverticulite aguda. Correlacionar com dados clínicos e laboratoriais. Sugere-se controle pós-tratamento.
     word: true
 
+  - trigger: "diverwses0"
+    label: "Diverticulite aguda não complicada, estágio 0 da WSES"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, sem gás extraluminal ou coleções, compatível com diverticulite aguda não complicada, estágio 0 da WSES."
+    word: true
+
+  - trigger: "diverwses1a"
+    label: "Diverticulite complicada, estágio 1A da WSES (gás/líquido pericólico até 5 cm, sem abscesso)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a pequenas bolhas gasosas extraluminais ou pequena quantidade de líquido pericólico a até 5 cm do segmento inflamado, sem abscesso, compatível com diverticulite aguda complicada, estágio 1A da WSES."
+    word: true
+
+  - trigger: "diverwses1b"
+    label: "Diverticulite complicada, estágio 1B da WSES (abscesso até 4 cm)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a abscesso pericólico de _ cm (igual ou inferior a 4 cm), compatível com diverticulite aguda complicada, estágio 1B da WSES."
+    word: true
+
+  - trigger: "diverwses2a"
+    label: "Diverticulite complicada, estágio 2A da WSES (abscesso > 4 cm)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a abscesso de _ cm (superior a 4 cm), compatível com diverticulite aguda complicada, estágio 2A da WSES."
+    word: true
+
+  - trigger: "diverwses2b"
+    label: "Diverticulite complicada, estágio 2B da WSES (gás a mais de 5 cm)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a gás extraluminal a mais de 5 cm do segmento inflamado, compatível com diverticulite aguda complicada, estágio 2B da WSES."
+    word: true
+
+  - trigger: "diverwses3"
+    label: "Diverticulite complicada, estágio 3 da WSES (líquido difuso sem gás distante)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar, associados a líquido livre difuso na cavidade peritoneal, sem gás livre distante, compatível com diverticulite aguda complicada com peritonite difusa, estágio 3 da WSES."
+    word: true
+
+  - trigger: "diverwses4"
+    label: "Diverticulite complicada, estágio 4 da WSES (líquido difuso com gás distante)"
+    replace: "Divertículos no _ (segmento cólico), com espessamento parietal segmentar, associados a líquido livre difuso e gás livre distante na cavidade peritoneal, compatível com diverticulite aguda complicada com peritonite difusa, estágio 4 da WSES."
+    word: true
+
   - trigger: "diverticulite10"
     label: "Diverticulite perfurada com alças de bloqueio"
     replace: Múltiplos divertículos cólicos esparsos, destacando-se espessamento parietal nas bordas mesentérica e antimesentérica do sigmoide, achados de natureza inflamatória/infecciosa (diverticulite aguda), destacando-se descontinuidade parietal/perfuração na borda mesentérica do sigmoide (descontinuidade de _ cm), com consequente pneumoperitônio e conteúdo fecal na cavidade abdominal. Associa-se espessamento parietal subestenosante das alças ileais adjacentes, de aspecto reacional (alças de bloqueio), determinando distensão hidroaérea a montante das alças delgadas.
@@ -3822,7 +3913,7 @@ matches:
 
   - trigger: "paniculitecoulier"
     label: "Paniculite mesentérica (critérios de Coulier)"
-    replace: "Massa gordurosa bem delimitada na raiz do mesentério, com atenuação maior que a da gordura adjacente, envolvendo vasos e pequenos linfonodos, que são circundados por halo de gordura preservada, com pseudocápsula hiperatenuante periférica. Achados compatíveis com paniculite mesentérica."
+    replace: "Massa gordurosa bem delimitada na raiz do mesentério, com atenuação maior que a da gordura adjacente, envolvendo vasos e pequenos linfonodos, que são circundados por halo de gordura preservada, com pseudocápsula hiperatenuante periférica. Achados compatíveis com paniculite mesentérica, segundo os critérios de Coulier."
     word: true
 
   # ==========================================================================

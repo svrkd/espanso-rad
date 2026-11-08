@@ -2922,7 +2922,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Alterações miometriais que podem estar associadas a adenomiose.",
+      "snippet": "Alterações miometriais que podem estar associadas a adenomiose, segundo os critérios MUSA.",
       "uuid": "{bf284330-f310-5e72-bcfb-8b4d5aba7d6f}"
     },
     {
@@ -3236,6 +3236,32 @@
       "name": "",
       "snippet": "Imagem heterogênea, predominantemente hipoecoica, adjacente ao saco gestacional, medindo _ cm, com volume de _ cm³, podendo representar hematoma retrocoriônico, ocupando menos de 40% da superfície placentária.",
       "uuid": "{bc9e1ab3-999a-5fdb-8c03-4327cea7eb37}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{97b1a4b0-15f4-5679-af2e-6ecd85600278}",
+      "keyword": "colocurto",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Colo uterino com comprimento de _ cm à avaliação transvaginal (igual ou inferior a 2,5 cm), caracterizando colo curto.",
+      "uuid": "{c5c86ae5-8732-59c7-8625-60874b0d1d11}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{97b1a4b0-15f4-5679-af2e-6ecd85600278}",
+      "keyword": "colocurtoc",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Colo uterino curto, segundo a SMFM.",
+      "uuid": "{5c7dcebc-73d2-519b-8fe8-e64bc1372f78}"
     },
     {
       "caseSensitivity": 0,
@@ -4729,7 +4755,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Componente glandular mínimo, inferior a 25% do tecido fibroglandular.",
+      "snippet": "Tecido fibroglandular com componente glandular mínimo.",
       "uuid": "{d84e50d5-19fc-5989-a1c7-67b993285aad}"
     },
     {
@@ -4742,7 +4768,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Componente glandular discreto, correspondente a 25% a 49% do tecido fibroglandular.",
+      "snippet": "Tecido fibroglandular com componente glandular leve.",
       "uuid": "{c3c1200b-e187-5935-8793-7cbe7561d0ab}"
     },
     {
@@ -4755,7 +4781,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Componente glandular moderado, correspondente a 50% a 74% do tecido fibroglandular.",
+      "snippet": "Tecido fibroglandular com componente glandular moderado.",
       "uuid": "{345f74cb-ceff-5480-aef3-f1410d7d38f0}"
     },
     {
@@ -4768,7 +4794,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Componente glandular acentuado, correspondente a pelo menos 75% do tecido fibroglandular.",
+      "snippet": "Tecido fibroglandular com componente glandular acentuado.",
       "uuid": "{8fca9980-9cad-575a-b815-633eac29ce43}"
     },
     {
@@ -5977,7 +6003,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Componente glandular mínimo, inferior a 25% do tecido fibroglandular.",
+      "snippet": "Tecido fibroglandular com componente glandular mínimo.",
       "uuid": "{6c4ff7a0-ceac-57e4-918f-c5fc747a3737}"
     },
     {
@@ -5990,7 +6016,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Componente glandular discreto, correspondente a 25% a 49% do tecido fibroglandular.",
+      "snippet": "Tecido fibroglandular com componente glandular leve.",
       "uuid": "{1e6e82cc-014d-5726-8211-644625ddef35}"
     },
     {
@@ -6003,7 +6029,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Componente glandular moderado, correspondente a 50% a 74% do tecido fibroglandular.",
+      "snippet": "Tecido fibroglandular com componente glandular moderado.",
       "uuid": "{0f7841e3-d143-5416-aa01-109620a10acf}"
     },
     {
@@ -6016,7 +6042,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Componente glandular acentuado, correspondente a pelo menos 75% do tecido fibroglandular.",
+      "snippet": "Tecido fibroglandular com componente glandular acentuado.",
       "uuid": "{7c9dd433-d2be-5769-a8d2-e7daeeacfd93}"
     },
     {
@@ -16806,7 +16832,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Microlitíase testicular à _.",
+      "snippet": "Microlitíase testicular à _, segundo os critérios da ESUR.",
       "uuid": "{b19940e6-93c4-5c85-b74b-2ca1b2362434}"
     },
     {
@@ -18067,7 +18093,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Quadril tipo Ia (quadril maduro).",
+      "snippet": "Quadril tipo Ia de Graf (quadril maduro).",
       "uuid": "{f1d6e83b-9a26-5ba4-bb88-dddf17c6b6e6}"
     },
     {
@@ -18093,7 +18119,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Quadril tipo Ib (quadril maduro).",
+      "snippet": "Quadril tipo Ib de Graf (quadril maduro).",
       "uuid": "{84ebdee6-718c-5e45-953e-e716be23b695}"
     },
     {
@@ -18119,7 +18145,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Quadril tipo IIa+ (apropriado para idade).",
+      "snippet": "Quadril tipo IIa+ de Graf (apropriado para idade).",
       "uuid": "{5daf68e0-31ca-5a35-a679-b6e233c0085f}"
     },
     {
@@ -18145,7 +18171,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Quadril tipo IIa- (déficit de maturação).",
+      "snippet": "Quadril tipo IIa- de Graf (déficit de maturação).",
       "uuid": "{d0cb6fc9-b777-56c0-b313-cf6a5be14f7a}"
     },
     {
@@ -18171,7 +18197,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Quadril tipo IIb (retardo de ossificação).",
+      "snippet": "Quadril tipo IIb de Graf (retardo de ossificação).",
       "uuid": "{6c809564-a7b0-5bd3-96fc-a3dc094e705e}"
     },
     {
@@ -18197,7 +18223,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Quadril tipo IIc (faixa crítica para qualquer idade).",
+      "snippet": "Quadril tipo IIc de Graf (faixa crítica para qualquer idade).",
       "uuid": "{5cc3c11c-c4cf-58c6-bccf-2eba8840ee21}"
     },
     {
@@ -18223,7 +18249,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Quadril tipo D (quadril em vias de descentralização).",
+      "snippet": "Quadril tipo D de Graf (quadril em vias de descentralização).",
       "uuid": "{3471c91f-0860-55ef-b2d8-7e7adf739985}"
     },
     {
@@ -18249,7 +18275,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Quadril tipo IIIa (quadril excêntrico).",
+      "snippet": "Quadril tipo IIIa de Graf (quadril excêntrico).",
       "uuid": "{0febd50e-a5d6-5624-a5a0-c99c8fe20d8e}"
     },
     {
@@ -18275,7 +18301,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Quadril tipo IIIb (quadril excêntrico).",
+      "snippet": "Quadril tipo IIIb de Graf (quadril excêntrico).",
       "uuid": "{a18fb778-41ae-5859-9e11-2f52c3ed158c}"
     },
     {
@@ -18301,7 +18327,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Quadril tipo IV (quadril luxado).",
+      "snippet": "Quadril tipo IV de Graf (quadril luxado).",
       "uuid": "{29b5486f-eb4a-5487-bd84-f02a1844ade6}"
     },
     {
@@ -19250,7 +19276,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Estenose igual ou superior a 50% da artéria _.",
+      "snippet": "Estenose igual ou superior a 50% da artéria _, segundo os critérios de Jager.",
       "uuid": "{9dceaca2-9aa3-52b6-87be-e83199e1babc}"
     },
     {
@@ -19328,7 +19354,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Estenose inferior a 50% da artéria _.",
+      "snippet": "Estenose inferior a 50% da artéria _, segundo os critérios de Jager.",
       "uuid": "{eb4ef900-3db7-554f-b98e-16f49c7c49b8}"
     },
     {
@@ -19757,7 +19783,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _.",
+      "snippet": "Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _, segundo a diretriz DIC/CBR/SBACV 2023.",
       "uuid": "{1671e9a6-c5c6-5d18-bb4a-37d1d3ce3e3c}"
     },
     {
@@ -19783,7 +19809,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Estenose entre 50 e 59%/60 e 69%/50 e 69% da artéria carótida interna à _.",
+      "snippet": "Estenose entre 50 e 59%/60 e 69%/50 e 69% da artéria carótida interna à _, segundo a diretriz DIC/CBR/SBACV 2023.",
       "uuid": "{c5edc2d1-bec1-54a6-91c7-83746147a25d}"
     },
     {
@@ -19809,7 +19835,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Estenose entre 70 e 79%/80 e 89% da artéria carótida interna à _.",
+      "snippet": "Estenose entre 70 e 79%/80 e 89% da artéria carótida interna à _, segundo a diretriz DIC/CBR/SBACV 2023.",
       "uuid": "{a8ef834d-302c-5fd1-a846-bc2cae19efd6}"
     },
     {
@@ -19939,7 +19965,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Angioplastia com implante de stent carotídeo à _, com sinais de reestenose intra-stent entre 50 e 79%/igual ou superior a 80%.",
+      "snippet": "Angioplastia com implante de stent carotídeo à _, com sinais de reestenose intra-stent entre 50 e 79%/igual ou superior a 80%, segundo a diretriz DIC/CBR/SBACV 2023.",
       "uuid": "{40fa92ba-db47-5f88-9aad-69d12e3f7783}"
     },
     {
@@ -19991,7 +20017,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Estenose superior a 90% em bifurcação carotídea à _.",
+      "snippet": "Estenose superior a 90% em bifurcação carotídea à _, segundo a diretriz DIC/CBR/SBACV 2023.",
       "uuid": "{12ecfafd-1684-59da-8b19-734c24568040}"
     },
     {
@@ -20108,7 +20134,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Bifurcação carotídea à _ com placa uniformemente hipoecogênica/predominantemente hipoecogênica/predominantemente hiperecogênica/uniformemente hiperecogênica/calcificada (tipo I/II/III/IV/V), de superfície regular/irregular, sem extensão para os ramos interno e externo. Ao Doppler, ausência de turbulência espectral e velocidades normais.",
+      "snippet": "Bifurcação carotídea à _ com placa uniformemente hipoecogênica/predominantemente hipoecogênica/predominantemente hiperecogênica/uniformemente hiperecogênica/calcificada (tipo I/II/III/IV/V de Gray-Weale, modificada por Geroulakos), de superfície regular/irregular, sem extensão para os ramos interno e externo. Ao Doppler, ausência de turbulência espectral e velocidades normais.",
       "uuid": "{1cd3c755-bf79-5662-9af7-6229fc9ed690}"
     },
     {
@@ -20199,7 +20225,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Endarterectomia carotídea à _, com reestenose igual ou superior a 70%.",
+      "snippet": "Endarterectomia carotídea à _, com reestenose igual ou superior a 70%, segundo a diretriz DIC/CBR/SBACV 2023.",
       "uuid": "{f6cbecd1-70cc-553d-b64e-9fc7e741da23}"
     },
     {
@@ -20498,7 +20524,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Estenose de _% na origem da artéria vertebral à _.",
+      "snippet": "Estenose de _% na origem da artéria vertebral à _, segundo a diretriz DIC/CBR/SBACV 2023.",
       "uuid": "{d472df04-0237-5337-bb5d-acb74aaa7345}"
     },
     {
@@ -20602,7 +20628,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Achados compatíveis com estenose crítica ou oclusão proximal da artéria subclávia à _ (roubo da subclávia tipo 3, completo).",
+      "snippet": "Achados compatíveis com estenose crítica ou oclusão proximal da artéria subclávia à _ (roubo da subclávia tipo 3, completo, segundo a diretriz DIC/CBR/SBACV 2023).",
       "uuid": "{469dec84-c43b-52a1-8efa-1d482edae35b}"
     },
     {
@@ -20628,7 +20654,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Achados ao Doppler sugestivos de estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente).",
+      "snippet": "Achados ao Doppler sugestivos de estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente, segundo a diretriz DIC/CBR/SBACV 2023).",
       "uuid": "{a3337fb3-5286-5b2a-b06d-baa761d7bceb}"
     },
     {
@@ -20654,7 +20680,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Achados ao Doppler sugestivos de estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente).",
+      "snippet": "Achados ao Doppler sugestivos de estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente, segundo a diretriz DIC/CBR/SBACV 2023).",
       "uuid": "{43614643-9674-57e0-afd1-0bc4b2ded2f5}"
     },
     {
@@ -20680,7 +20706,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Achados compatíveis com estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente).",
+      "snippet": "Achados compatíveis com estenose hemodinamicamente significativa da artéria subclávia à _ (roubo da subclávia tipo 1, latente, segundo a diretriz DIC/CBR/SBACV 2023).",
       "uuid": "{9af56998-b96b-5fe5-9597-5128ceca13c1}"
     },
     {
@@ -20706,7 +20732,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Achados compatíveis com roubo da subclávia tipo 2 (intermitente/parcial) à _.",
+      "snippet": "Achados compatíveis com roubo da subclávia tipo 2 (intermitente/parcial) à _, segundo a diretriz DIC/CBR/SBACV 2023.",
       "uuid": "{9d79932b-2200-5b0b-a4be-2097808beeab}"
     },
     {
@@ -21187,7 +21213,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Estenose igual ou superior a 50%/70% do tronco celíaco.",
+      "snippet": "Estenose igual ou superior a 50%/70% do tronco celíaco, segundo os critérios de AbuRahma.",
       "uuid": "{2878a32e-a756-51ca-b68b-9e0da94535b8}"
     },
     {
@@ -21239,7 +21265,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Estenose igual ou superior a 50%/70% da artéria mesentérica superior.",
+      "snippet": "Estenose igual ou superior a 50%/70% da artéria mesentérica superior, segundo os critérios de AbuRahma.",
       "uuid": "{c2f4d49d-14aa-54f5-86d1-19bf3c376168}"
     },
     {
@@ -24411,7 +24437,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Hematoma intraparenquimatoso com região hipoatenuante adjacente ao componente hiperatenuante, separadas por limite nítido, com diferença de atenuação de pelo menos 18 UH, sinal tomográfico associado a maior risco de expansão do hematoma.",
+      "snippet": "Hematoma intraparenquimatoso com região hipoatenuante adjacente ao componente hiperatenuante, separadas por limite nítido, com diferença de atenuação de pelo menos 18 UH (Li et al., 2015), sinal tomográfico associado a maior risco de expansão do hematoma.",
       "uuid": "{af7ba8bf-0d7c-5b25-af04-3ada0c8ae36e}"
     },
     {
@@ -24424,8 +24450,21 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Hematoma intraparenquimatoso com área hipoatenuante completamente envolvida pelo componente hiperatenuante, de limites nítidos, com diferença de atenuação de pelo menos 28 UH, sinal tomográfico associado a maior risco de expansão do hematoma.",
+      "snippet": "Hematoma intraparenquimatoso com área hipoatenuante completamente envolvida pelo componente hiperatenuante, de limites nítidos, com diferença de atenuação de pelo menos 28 UH (Li et al., 2016), sinal tomográfico associado a maior risco de expansão do hematoma.",
       "uuid": "{2e0d3955-8913-5a10-bd7f-a7c642f4348c}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "volumehematoma",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Hematoma intraparenquimatoso _ (localização e lado), com volume estimado de _ cm³ pelo método ABC/2 (Kothari et al., 1996).",
+      "uuid": "{cce1e9fa-fa43-5100-897b-e4cbcb8327fc}"
     },
     {
       "caseSensitivity": 0,
@@ -27544,7 +27583,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Anterolistese grau I de L5 sobre S1.",
+      "snippet": "Anterolistese de L5 sobre S1, grau I de Meyerding.",
       "uuid": "{bdd0a6ae-31f0-534b-957c-0c4fd09fc767}"
     },
     {
@@ -28138,6 +28177,136 @@
       "description": "",
       "enabled": true,
       "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lulis",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Lise dos istmos de L5.\nAnterolistese de L5 sobre S1, grau I de Meyerding.\n",
+      "uuid": "{5c57ebfd-b77b-5f1f-8edf-675003f9ca8a}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lulis2",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Anterolistese de L2 sobre L3, grau I de Meyerding.",
+      "uuid": "{ce5ed5e5-f551-52d2-865e-d8c4a5d8ded0}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lulis3",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Anterolistese de L3 sobre L4, grau I de Meyerding.",
+      "uuid": "{2d1d955f-8a9f-5873-8f08-b71e39771097}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lulis34",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Anterolistese de L3 sobre L4 e de L4 sobre L5, grau I de Meyerding.",
+      "uuid": "{37691728-360b-5e9b-b0e6-5db5d395bd71}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lulis4",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Anterolistese de L4 sobre L5, grau I de Meyerding.",
+      "uuid": "{eb229f72-d052-590a-b2b0-e64b23c1a73d}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lulis45",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Anterolistese de L4 sobre L5 e de L5 sobre S1, grau I de Meyerding.",
+      "uuid": "{17ded593-e859-5a86-8195-a126d782c0e5}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lulis4d",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Anterolistese de L4 sobre L5, grau I de Meyerding, de provável natureza degenerativa.",
+      "uuid": "{6bf5233e-7b6a-57d6-b9e1-20a3809e3570}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lulis5d",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Anterolistese de L5 sobre S1, grau I de Meyerding, de provável natureza degenerativa.",
+      "uuid": "{f560fdea-8ee7-502f-893c-b1a86e2c65ae}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lulisd",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Anterolistese de L4 sobre L5, grau I de Meyerding, de provável natureza degenerativa.",
+      "uuid": "{9536b60d-c584-53dd-8917-298e5754b9eb}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lulisescada",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Anterolistese de L3 sobre L4, de L4 sobre L5 e de L5 sobre S1, grau I de Meyerding.",
+      "uuid": "{992c076c-a3a6-52a9-ae48-f07265cf40ce}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
       "keyword": "meyer1",
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
@@ -28428,7 +28597,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Espondilólise bilateral de L4 com anterolistese grau I de L4 sobre L5.\n\nLaminectomia ampla em L4.\n\nArtrodese bipediculada em L4 e L5.\n\nDispositivo intersomático (\"cage\") no espaço discal L4-L5. Associa-se esclerose óssea das placas terminais apostas.\n",
+      "snippet": "Espondilólise bilateral de L4 com anterolistese de L4 sobre L5, grau I de Meyerding.\n\nLaminectomia ampla em L4.\n\nArtrodese bipediculada em L4 e L5.\n\nDispositivo intersomático (\"cage\") no espaço discal L4-L5. Associa-se esclerose óssea das placas terminais apostas.\n",
       "uuid": "{04f831a9-682a-5b7a-8f25-0a4297cf1c2f}"
     },
     {
@@ -33017,7 +33186,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Discretas opacidades reticulares e com atenuação em \"vidro fosco\" subpleurais, bilaterais, em regiões não pendentes, sem distorção arquitetural, bronquiectasias de tração ou faveolamento, acometendo ao menos 5% de uma zona pulmonar. Achados compatíveis com anormalidades intersticiais pulmonares subpleurais não fibróticas.",
+      "snippet": "Discretas opacidades reticulares e com atenuação em \"vidro fosco\" subpleurais, bilaterais, em regiões não pendentes, sem distorção arquitetural, bronquiectasias de tração ou faveolamento, acometendo ao menos 5% de uma zona pulmonar. Achados compatíveis com anormalidades intersticiais pulmonares subpleurais não fibróticas, segundo a Fleischner Society.",
       "uuid": "{318d247d-707e-5a16-9709-dcc98a2e86c9}"
     },
     {
@@ -33030,8 +33199,138 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Discretas opacidades reticulares subpleurais, bilaterais, em regiões não pendentes, associadas a bronquiolectasias de tração, acometendo ao menos 5% de uma zona pulmonar. Achados compatíveis com anormalidades intersticiais pulmonares subpleurais fibróticas.",
+      "snippet": "Discretas opacidades reticulares subpleurais, bilaterais, em regiões não pendentes, associadas a bronquiolectasias de tração, acometendo ao menos 5% de uma zona pulmonar. Achados compatíveis com anormalidades intersticiais pulmonares subpleurais fibróticas, segundo a Fleischner Society.",
       "uuid": "{501b2af8-263d-5268-b54d-f376b20cb7c3}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lungrads1",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Ausência de nódulos pulmonares ou presença apenas de nódulos com calcificação de padrão benigno, Lung-RADS v2022 categoria 1.",
+      "uuid": "{4ba53dd5-a069-56bb-bbb9-c84e0bca60cb}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lungrads2",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, _ (no exame inicial; ou novo em relação ao exame anterior), Lung-RADS v2022 categoria 2.",
+      "uuid": "{55afd99f-348e-50d4-b8be-1eeed5df4cf8}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lungrads3",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, _ (no exame inicial; ou novo em relação ao exame anterior), Lung-RADS v2022 categoria 3.",
+      "uuid": "{cd20cafb-8713-5358-aeb1-cc875aaa24b8}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lungrads4a",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, _ (no exame inicial; novo em relação ao exame anterior; ou em crescimento), Lung-RADS v2022 categoria 4A.",
+      "uuid": "{4de8f37d-1680-52b9-94a9-2b1875377eb8}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lungrads4b",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, _ (no exame inicial; novo em relação ao exame anterior; ou em crescimento), Lung-RADS v2022 categoria 4B.",
+      "uuid": "{f16af3c9-6ecd-57b2-b375-7e78c124ea0c}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "lungrads4x",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, com _ (contornos espiculados; ou linfonodomegalia associada), Lung-RADS v2022 categoria 4X.",
+      "uuid": "{88533f12-5bb0-5386-a1a8-b884403df521}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "coronaria0",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Ausência de calcificações coronarianas, em estimativa visual segundo a SCCT/STR.",
+      "uuid": "{ce57d181-90b8-5e91-8265-122a26e1008f}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "coronaria1",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Calcificações coronarianas discretas, em estimativa visual segundo a SCCT/STR.",
+      "uuid": "{4fb5ef2a-8d08-5035-9bc5-4880dd2f7ffb}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "coronaria2",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Calcificações coronarianas moderadas, em estimativa visual segundo a SCCT/STR.",
+      "uuid": "{e92ecdfb-abf1-5a63-8545-cc3fe273c0bf}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "coronaria3",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Calcificações coronarianas acentuadas, em estimativa visual segundo a SCCT/STR.",
+      "uuid": "{10acdbaa-5056-550f-918f-6eb1e91ee85a}"
     },
     {
       "caseSensitivity": 0,
@@ -37342,6 +37641,19 @@
       "description": "",
       "enabled": true,
       "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "adenomalipidico",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Nódulo na glândula adrenal _ (direita; ou esquerda), medindo _ cm, com atenuação de _ UH na fase sem contraste (igual ou inferior a 10 UH), compatível com adenoma rico em lipídios, segundo o ACR.",
+      "uuid": "{02ebfeb4-8129-5d65-93b0-bfe55e332135}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
       "keyword": "tumorperiampular",
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
@@ -38906,7 +39218,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Cobertura acetabular reduzida no quadril _ (direito; ou esquerdo), com ângulo centro-borda lateral de _ graus.\n\nReferência: ângulo centro-borda lateral < 20° caracteriza displasia acetabular; entre 20 e 25°, limítrofe.\n",
+      "snippet": "Cobertura acetabular reduzida no quadril _ (direito; ou esquerdo), com ângulo centro-borda lateral de _ graus.\n\nReferência (Wiberg, 1939): ângulo centro-borda lateral < 20° caracteriza displasia acetabular; entre 20 e 25°, limítrofe.\n",
       "uuid": "{12e36fab-f97b-5e32-8c20-bab1947384c3}"
     },
     {
@@ -53644,6 +53956,32 @@
       "description": "",
       "enabled": true,
       "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "escorebalthazar2",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Pancreatite aguda grau _ (A; B; C; D; ou E) de Balthazar, com necrose pancreática _ (ausente; acometendo até 30% do parênquima; acometendo mais de 30% a 50% do parênquima; ou acometendo mais de 50% do parênquima), correspondendo a índice de gravidade tomográfico (CTSI) de _ pontos, de gravidade _ (leve; moderada; ou grave).\n\nReferência (Balthazar et al., 1990): A, pâncreas normal (0); B, aumento volumétrico do pâncreas (1); C, alterações inflamatórias do pâncreas e da gordura peripancreática (2); D, coleção líquida peripancreática única e mal definida (3); E, duas ou mais coleções líquidas mal definidas ou gás no pâncreas ou adjacente a ele (4). Necrose: ausente (0); até 30% (2); mais de 30% a 50% (4); mais de 50% (6). CTSI: 0 a 3, leve; 4 a 6, moderada; 7 a 10, grave.",
+      "uuid": "{a18173e6-5352-5c8b-8937-01a908d77f47}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "ctsimodificado",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Índice de gravidade tomográfico modificado (CTSI modificado) de _ pontos, de gravidade _ (leve; moderada; ou grave).\n\nReferência (Mortele et al., 2004): inflamação pancreática: pâncreas normal (0); alterações intrínsecas do pâncreas, com ou sem densificação da gordura peripancreática (2); coleção pancreática ou peripancreática, ou necrose da gordura peripancreática (4). Necrose pancreática: ausente (0); até 30% (2); mais de 30% (4). Complicações extrapancreáticas (derrame pleural, ascite, complicação vascular, parenquimatosa ou do trato gastrointestinal): 2 pontos. Total: 0 a 2, leve; 4 a 6, moderada; 8 a 10, grave.",
+      "uuid": "{8e1a1f36-0271-58a1-beb7-f934bf9f7ae1}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
       "keyword": "coletordilatado",
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
@@ -53869,8 +54207,34 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Critérios de irressecabilidade:\n1) envolvimento maior que 180° da artéria mesentérica superior ou do tronco celíaco;\n2) metástase;\n3) invasão da veia porta/veia mesentérica superior não passível de reconstrução.",
+      "snippet": "Critérios de irressecabilidade da NCCN:\n1) envolvimento maior que 180° da artéria mesentérica superior ou do tronco celíaco;\n2) metástase;\n3) invasão da veia porta/veia mesentérica superior não passível de reconstrução.",
       "uuid": "{7ffa3ccf-8fba-55d4-961a-417a1952327b}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "kyotopreocupante",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Lesão cística no _ (cabeça; colo; corpo; ou cauda) do pâncreas, medindo _ cm, com _ (dimensão igual ou superior a 3,0 cm; parede espessada com realce; nódulo mural com realce inferior a 0,5 cm; ducto pancreático principal de 0,5 a 0,9 cm; mudança abrupta do calibre do ducto pancreático principal com atrofia pancreática distal; ou crescimento igual ou superior a 0,25 cm/ano), configurando característica preocupante segundo as diretrizes internacionais de Kyoto.",
+      "uuid": "{1428b3a2-bcd3-5462-924b-272214454c11}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "kyotoaltorisco",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Lesão cística no _ (cabeça; colo; corpo; ou cauda) do pâncreas, medindo _ cm, com _ (componente sólido ou nódulo mural com realce igual ou superior a 0,5 cm; ou ducto pancreático principal igual ou superior a 1,0 cm), configurando estigma de alto risco segundo as diretrizes internacionais de Kyoto.",
+      "uuid": "{06e5d2e9-c81e-576e-b4b6-77c527f4af00}"
     },
     {
       "caseSensitivity": 0,
@@ -53936,6 +54300,84 @@
       "name": "",
       "snippet": "Coleção líquida homogênea peripancreática, sem parede definida, sem componente sólido ou necrótico, em contexto de pancreatite intersticial edematosa com menos de quatro semanas de evolução, compatível com coleção fluida peripancreática aguda (classificação de Atlanta revisada).",
       "uuid": "{738e10c4-ea45-5cae-a25a-95a19dfe5c46}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "pancreatiteintersticial",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Aumento volumétrico _ (difuso; ou focal) do pâncreas, com realce homogêneo do parênquima pelo meio de contraste, sem áreas de necrose, associado a densificação da gordura peripancreática, compatível com pancreatite aguda intersticial edematosa, segundo a classificação de Atlanta revisada.",
+      "uuid": "{946d9c28-06b0-5992-befd-5a51cca174e3}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "pancreatitenecrosante3",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Áreas sem realce do parênquima pancreático na _ (cabeça; colo; corpo; ou cauda), acometendo cerca de _% da glândula, _ (sem; ou com) necrose da gordura peripancreática, compatível com pancreatite aguda necrosante, segundo a classificação de Atlanta revisada.",
+      "uuid": "{fbfac4d8-4dbd-53ea-8c39-15be0da33d7f}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "pseudocisto1",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Coleção líquida homogênea peripancreática, de paredes bem definidas, sem componente sólido, medindo _ cm, em contexto de pancreatite intersticial edematosa com mais de quatro semanas de evolução, compatível com pseudocisto, segundo a classificação de Atlanta revisada.",
+      "uuid": "{a909c829-1b31-5171-b239-aff09c0d2c84}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "colecaonecrotica",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Coleção heterogênea _ (pancreática; peripancreática; ou pancreática e peripancreática), sem parede definida, com conteúdo líquido e componente não liquefeito, medindo _ cm, em contexto de pancreatite necrosante com menos de quatro semanas de evolução, compatível com coleção necrótica aguda, segundo a classificação de Atlanta revisada.",
+      "uuid": "{7d649178-60cf-5b5b-9aec-9bc0f6025700}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "necroseencapsulada2",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Coleção heterogênea _ (pancreática; peripancreática; ou pancreática e peripancreática), de parede bem definida com realce pelo meio de contraste, com conteúdo líquido e componente não liquefeito, medindo _ cm, em contexto de pancreatite necrosante com mais de quatro semanas de evolução, compatível com necrose encapsulada, segundo a classificação de Atlanta revisada.",
+      "uuid": "{49054f7b-a1ae-53ea-853b-05144833fe76}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "necroseinfectada",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Focos gasosos no interior da _ (coleção necrótica aguda; ou necrose encapsulada) _ (pancreática; ou peripancreática), sugerindo necrose infectada, segundo a classificação de Atlanta revisada.",
+      "uuid": "{b2fef058-2865-5391-a259-7e00b260d0fc}"
     },
     {
       "caseSensitivity": 0,
@@ -54025,7 +54467,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Adrenal direita apresentando nódulo medindo cerca de _ cm, com densidade de _ UH, apresentando realce após a administração do meio de contraste (_ UH) e na fase tardia de 15 minutos (_ UH), com washout absoluto de _% e relativo de _%. Esses achados são compatíveis com adenoma.",
+      "snippet": "Adrenal direita apresentando nódulo medindo cerca de _ cm, com densidade de _ UH, apresentando realce após a administração do meio de contraste (_ UH) e na fase tardia de 15 minutos (_ UH), com washout absoluto de _% e relativo de _% (absoluto igual ou superior a 60% ou relativo igual ou superior a 40%), compatíveis com adenoma, segundo o ACR.",
       "uuid": "{749415cb-6e7d-53de-a374-2368f1b54190}"
     },
     {
@@ -54389,7 +54831,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Lesão expansiva renal direita, sugestiva de processo neoplásico primário. Tal lesão é classificada como _ segundo o escore nefrométrico (http://www.nephrometry.com/).",
+      "snippet": "Lesão expansiva renal direita, sugestiva de processo neoplásico primário. Tal lesão é classificada como _ segundo o escore nefrométrico R.E.N.A.L. (Kutikov e Uzzo, 2009).",
       "uuid": "{06111ace-ad38-5d47-b7b5-fdcb6ceb2ee2}"
     },
     {
@@ -59559,6 +60001,97 @@
       "description": "",
       "enabled": true,
       "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "diverwses0",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, sem gás extraluminal ou coleções, compatível com diverticulite aguda não complicada, estágio 0 da WSES.",
+      "uuid": "{24299647-acc2-50d8-9221-2a4cbe0a4851}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "diverwses1a",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a pequenas bolhas gasosas extraluminais ou pequena quantidade de líquido pericólico a até 5 cm do segmento inflamado, sem abscesso, compatível com diverticulite aguda complicada, estágio 1A da WSES.",
+      "uuid": "{422e601f-a9cc-5d52-b381-797711198dc1}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "diverwses1b",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a abscesso pericólico de _ cm (igual ou inferior a 4 cm), compatível com diverticulite aguda complicada, estágio 1B da WSES.",
+      "uuid": "{06b21a52-5c32-5c10-94ff-69f4ae418187}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "diverwses2a",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a abscesso de _ cm (superior a 4 cm), compatível com diverticulite aguda complicada, estágio 2A da WSES.",
+      "uuid": "{f7f53089-ef43-5907-961a-a034bb98269b}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "diverwses2b",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Divertículos no _ (segmento cólico), com espessamento parietal segmentar e densificação da gordura pericólica, associados a gás extraluminal a mais de 5 cm do segmento inflamado, compatível com diverticulite aguda complicada, estágio 2B da WSES.",
+      "uuid": "{cd2698b8-4d14-5923-9ddd-d915aea1c1f6}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "diverwses3",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Divertículos no _ (segmento cólico), com espessamento parietal segmentar, associados a líquido livre difuso na cavidade peritoneal, sem gás livre distante, compatível com diverticulite aguda complicada com peritonite difusa, estágio 3 da WSES.",
+      "uuid": "{19f4f833-20b6-5aeb-b1d5-fed50de878fc}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
+      "keyword": "diverwses4",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Divertículos no _ (segmento cólico), com espessamento parietal segmentar, associados a líquido livre difuso e gás livre distante na cavidade peritoneal, compatível com diverticulite aguda complicada com peritonite difusa, estágio 4 da WSES.",
+      "uuid": "{628030de-41ca-52ee-b86e-1f83842d4af0}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{c1b1ee13-b886-511b-822d-6e3a3447f985}",
       "keyword": "diverticulite10",
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
@@ -60278,7 +60811,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "Massa gordurosa bem delimitada na raiz do mesentério, com atenuação maior que a da gordura adjacente, envolvendo vasos e pequenos linfonodos, que são circundados por halo de gordura preservada, com pseudocápsula hiperatenuante periférica. Achados compatíveis com paniculite mesentérica.",
+      "snippet": "Massa gordurosa bem delimitada na raiz do mesentério, com atenuação maior que a da gordura adjacente, envolvendo vasos e pequenos linfonodos, que são circundados por halo de gordura preservada, com pseudocápsula hiperatenuante periférica. Achados compatíveis com paniculite mesentérica, segundo os critérios de Coulier.",
       "uuid": "{4e06f57e-4a08-5bcb-8ed5-c6b992d563c0}"
     },
     {
