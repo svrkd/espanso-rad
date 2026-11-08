@@ -253,7 +253,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | hretro | Obstétrica: hematoma retrocoriônico (achado descritivo) |
 | hretroc | Obstétrica (hematoma retrocoriônico): Imagem adjacente ao saco gestacional, com características sugestivas de hematoma... |
 | ob2 | Obstétrica: hematoma retrocoriônico (achado descritivo) |
-| colocurto | Obstétrica: colo uterino curto, até 2,5 cm (SMFM) (achado descritivo) |
+| colocurto | Obstétrica: colo uterino curto, até 2,5 cm no 2º trimestre (SMFM) (achado descritivo) |
 | colocurtoc | Obstétrica: colo uterino curto (SMFM) (conclusão) |
 | ob2c | Obstétrica (hematoma retrocoriônico): Imagem adjacente ao saco gestacional, com características sugestivas de hematoma... |
 

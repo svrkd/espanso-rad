@@ -1211,7 +1211,7 @@ matches:
     replace: |-
       Pancreatite aguda grau _ (A; B; C; D; ou E) de Balthazar, com necrose pancreática _ (ausente; acometendo até 30% do parênquima; acometendo mais de 30% a 50% do parênquima; ou acometendo mais de 50% do parênquima), correspondendo a índice de gravidade tomográfico (CTSI) de _ pontos, de gravidade _ (leve; moderada; ou grave).
 
-      Referência (Balthazar et al., 1990): A, pâncreas normal (0); B, aumento volumétrico do pâncreas (1); C, alterações inflamatórias do pâncreas e da gordura peripancreática (2); D, coleção líquida peripancreática única e mal definida (3); E, duas ou mais coleções líquidas mal definidas (4). Necrose: ausente (0); até 30% (2); mais de 30% a 50% (4); mais de 50% (6). CTSI: 0 a 3, leve; 4 a 6, moderada; 7 a 10, grave.
+      Referência (Balthazar et al., 1990): A, pâncreas normal (0); B, aumento volumétrico do pâncreas (1); C, alterações inflamatórias do pâncreas e da gordura peripancreática (2); D, coleção líquida peripancreática única e mal definida (3); E, duas ou mais coleções líquidas mal definidas ou gás no pâncreas ou adjacente a ele (4). Necrose: ausente (0); até 30% (2); mais de 30% a 50% (4); mais de 50% (6). CTSI: 0 a 3, leve; 4 a 6, moderada; 7 a 10, grave.
     word: true
 
   - trigger: "ctsimodificado"
@@ -1321,12 +1321,12 @@ matches:
     word: true
 
   - trigger: "kyotopreocupante"
-    label: "Cisto pancreático com característica preocupante (Kyoto 2024)"
+    label: "IPMN com característica preocupante (Kyoto 2024)"
     replace: "Lesão cística no _ (cabeça; colo; corpo; ou cauda) do pâncreas, medindo _ cm, com _ (dimensão igual ou superior a 3,0 cm; parede espessada com realce; nódulo mural com realce inferior a 0,5 cm; ducto pancreático principal de 0,5 a 0,9 cm; mudança abrupta do calibre do ducto pancreático principal com atrofia pancreática distal; ou crescimento igual ou superior a 0,25 cm/ano), configurando característica preocupante segundo as diretrizes internacionais de Kyoto."
     word: true
 
   - trigger: "kyotoaltorisco"
-    label: "Cisto pancreático com estigma de alto risco (Kyoto 2024)"
+    label: "IPMN com estigma de alto risco (Kyoto 2024)"
     replace: "Lesão cística no _ (cabeça; colo; corpo; ou cauda) do pâncreas, medindo _ cm, com _ (componente sólido ou nódulo mural com realce igual ou superior a 0,5 cm; ou ducto pancreático principal igual ou superior a 1,0 cm), configurando estigma de alto risco segundo as diretrizes internacionais de Kyoto."
     word: true
 
