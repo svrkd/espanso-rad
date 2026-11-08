@@ -189,6 +189,74 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | orads3 | O-RADS US 3 — baixo risco (1% a < 10%) |
 | orads4 | O-RADS US 4 — risco intermediário (10% a < 50%) |
 | orads5 | O-RADS US 5 — alto risco (≥ 50%) |
+| orads0 | O-RADS US: avaliação incompleta por limitação técnica (O-RADS US 0) (achado descritivo) |
+| orads0c | O-RADS US 0: avaliação incompleta |
+| orads1 | O-RADS US: ovário normal com folículo/corpo lúteo (O-RADS US 1; folículo ≤ 3 cm, corpo lúteo em geral ≤ 3 cm) (achado descritivo) |
+| orads1c | O-RADS US 1: ovário fisiológico |
+| orads1d | O-RADS US: ovário direito normal com folículo/corpo lúteo (O-RADS US 1) (achado descritivo) |
+| orads1dc | O-RADS US 1: ovário direito fisiológico |
+| orads1e | O-RADS US: ovário esquerdo normal com folículo/corpo lúteo (O-RADS US 1) (achado descritivo) |
+| orads1ec | O-RADS US 1: ovário esquerdo fisiológico |
+| orads1b | O-RADS US: ovários normais com folículos (O-RADS US 1) (achado descritivo) |
+| orads1bc | O-RADS US 1: ovários fisiológicos |
+| oradssimples | O-RADS US: cisto simples — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo) |
+| oradssimples2c | O-RADS US 2: cisto simples — 2 se < 10 cm; 3 se ≥ 10 cm |
+| oradssimples3c | O-RADS US 3: cisto simples — 2 se < 10 cm; 3 se ≥ 10 cm |
+| oradsuni | O-RADS US: cisto unilocular liso não simples (ecos internos/septos incompletos) — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo) |
+| oradsuni2c | O-RADS US 2: cisto unilocular liso não simples (ecos internos/septos incompletos) — 2 se < 10 cm; 3 se ≥ 10 cm |
+| oradsuni3c | O-RADS US 3: cisto unilocular liso não simples (ecos internos/septos incompletos) — 2 se < 10 cm; 3 se ≥ 10 cm |
+| oradsuniirregular | O-RADS US: cisto unilocular de parede irregular (< 3 mm), sem sólido — 3, qualquer tamanho (achado descritivo) |
+| oradsuniirregular3c | O-RADS US 3: cisto unilocular de parede irregular (< 3 mm), sem sólido |
+| oradsbi | O-RADS US: cisto bilocular liso sem sólido — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo) |
+| oradsbi2c | O-RADS US 2: cisto bilocular liso sem sólido — 2 se < 10 cm; 3 se ≥ 10 cm |
+| oradsbi3c | O-RADS US 3: cisto bilocular liso sem sólido — 2 se < 10 cm; 3 se ≥ 10 cm |
+| oradsbiirregular | O-RADS US: cisto bilocular irregular sem sólido — 4, qualquer tamanho e EC (achado descritivo) |
+| oradsbiirregular4c | O-RADS US 4: cisto bilocular irregular sem sólido |
+| oradsmulti | O-RADS US: cisto multilocular liso sem sólido — 3 se < 10 cm e EC 1–3; 4 se ≥ 10 cm ou EC 4 (achado descritivo) |
+| oradsmulti3c | O-RADS US 3: cisto multilocular liso sem sólido — 3 se < 10 cm e EC 1–3; 4 se ≥ 10 cm ou EC 4 |
+| oradsmulti4c | O-RADS US 4: cisto multilocular liso sem sólido — 3 se < 10 cm e EC 1–3; 4 se ≥ 10 cm ou EC 4 |
+| oradsmultiirregular | O-RADS US: cisto multilocular irregular sem sólido — 4, qualquer tamanho e EC (achado descritivo) |
+| oradsmultiirregular4c | O-RADS US 4: cisto multilocular irregular sem sólido |
+| oradsunisolido | O-RADS US: cisto unilocular com componente sólido não papilar (≥ 3 mm) — 4, qualquer tamanho e EC (achado descritivo) |
+| oradsunisolido4c | O-RADS US 4: cisto unilocular com componente sólido não papilar (≥ 3 mm) |
+| oradspapila | O-RADS US: cisto unilocular com 1 a 3 projeções papilares — 4, qualquer tamanho e EC (achado descritivo) |
+| oradspapila4c | O-RADS US 4: cisto unilocular com 1 a 3 projeções papilares |
+| oradsquatropapilas | O-RADS US: cisto unilocular com ≥ 4 projeções papilares — 5, qualquer tamanho e EC (achado descritivo) |
+| oradsquatropapilas5c | O-RADS US 5: cisto unilocular com ≥ 4 projeções papilares |
+| oradsbisolido | O-RADS US: cisto bilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4 (achado descritivo) |
+| oradsbisolido4c | O-RADS US 4: cisto bilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4 |
+| oradsbisolido5c | O-RADS US 5: cisto bilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4 |
+| oradsmultisolido | O-RADS US: cisto multilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4 (achado descritivo) |
+| oradsmultisolido4c | O-RADS US 4: cisto multilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4 |
+| oradsmultisolido5c | O-RADS US 5: cisto multilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4 |
+| oradssolido | O-RADS US: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4 (achado descritivo) |
+| oradssolido3c | O-RADS US 3: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4 |
+| oradssolido4c | O-RADS US 4: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4 |
+| oradssolido5c | O-RADS US 5: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4 |
+| oradssolidosombra | O-RADS US: lesão sólida (≥ 80%) lisa com sombra acústica ampla — 3 se EC 1–3; 5 se EC 4 (achado descritivo) |
+| oradssolidosombra3c | O-RADS US 3: lesão sólida (≥ 80%) lisa com sombra acústica ampla — 3 se EC 1–3; 5 se EC 4 |
+| oradssolidosombra5c | O-RADS US 5: lesão sólida (≥ 80%) lisa com sombra acústica ampla — 3 se EC 1–3; 5 se EC 4 |
+| oradssolidoirregular | O-RADS US: lesão sólida (≥ 80%) de contornos irregulares — 5, qualquer tamanho e EC (achado descritivo) |
+| oradssolidoirregular5c | O-RADS US 5: lesão sólida (≥ 80%) de contornos irregulares |
+| oradshemorragico | O-RADS US: cisto hemorrágico típico — 2 se < 10 cm; 3 se ≥ 10 cm; pré-menopausa ou pós-menopausa inicial (< 5 anos); na pós-menopausa tardia, reclassificar pelos demais descritores (achado descritivo) |
+| oradshemorragico2c | O-RADS US 2: cisto hemorrágico típico (pré-menopausa ou pós-menopausa inicial (< 5 anos); na pós-menopausa tardia, reclassificar pelos demais descritores) |
+| oradshemorragico3c | O-RADS US 3: cisto hemorrágico típico (pré-menopausa ou pós-menopausa inicial (< 5 anos); na pós-menopausa tardia, reclassificar pelos demais descritores) |
+| oradsdermoide | O-RADS US: cisto dermoide típico — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo) |
+| oradsdermoide2c | O-RADS US 2: cisto dermoide típico — 2 se < 10 cm; 3 se ≥ 10 cm |
+| oradsdermoide3c | O-RADS US 3: cisto dermoide típico — 2 se < 10 cm; 3 se ≥ 10 cm |
+| oradsendometrioma | O-RADS US: endometrioma típico — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo) |
+| oradsendometrioma2c | O-RADS US 2: endometrioma típico — 2 se < 10 cm; 3 se ≥ 10 cm |
+| oradsendometrioma3c | O-RADS US 3: endometrioma típico — 2 se < 10 cm; 3 se ≥ 10 cm |
+| oradsparaovariano | O-RADS US: cisto paraovariano — 2, qualquer tamanho (achado descritivo) |
+| oradsparaovariano2c | O-RADS US 2: cisto paraovariano |
+| oradsinclusao | O-RADS US: cisto de inclusão peritoneal — 2, qualquer tamanho (achado descritivo) |
+| oradsinclusao2c | O-RADS US 2: cisto de inclusão peritoneal |
+| oradshidrossalpinge | O-RADS US: hidrossalpinge — 2, qualquer tamanho (achado descritivo) |
+| oradshidrossalpinge2c | O-RADS US 2: hidrossalpinge |
+| oradsascite | O-RADS US: ascite (líquido além do fundo de saco, acima do fundo uterino) — 5, só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas (achado descritivo) |
+| oradsascite5c | O-RADS US 5: ascite (líquido além do fundo de saco, acima do fundo uterino) (só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas) |
+| oradsimplantes | O-RADS US: nódulos peritoneais — 5, só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas (achado descritivo) |
+| oradsimplantes5c | O-RADS US 5: nódulos peritoneais (só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas) |
 | ov7 | Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma (achado descritivo) |
 | ov7c | Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma |
 | ov8 | Ovário: Cisto ovariano com as características acima descritas, mais comumente associado a cisto... (achado descritivo) |

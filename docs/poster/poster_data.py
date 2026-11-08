@@ -309,6 +309,7 @@ EXCLUSOES = [
     (r'^rvutd$', 'dilatação do trato urinário pediátrica (UTD) — achado específico'),
     (r'^usaortaabd$', 'aorta abdominal — exame dedicado, fora da agenda de rotina'),
     (r'^orads[2-5]$', 'ginecologia — categoria O-RADS US, frase acessória à conclusão do achado anexial'),
+    (r'^orads[a-z]+$|^orads[01][deb]?$', 'ginecologia — série O-RADS US v2022 por descritor do léxico, consulta por Alt+Space'),
     (r'^ut14$', 'endométrio na pós-menopausa — achado específico, consulta por Alt+Space'),
     (r'^(tipaaf|ticontrole)$', 'tireoide — frases de conduta ACR TI-RADS, usadas junto às conclusões tr*c'),
 ]
