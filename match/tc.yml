@@ -4571,23 +4571,23 @@ matches:
     word: true
 
   - trigger: "lungrads2"
-    label: "Lung-RADS v2022 categoria 2 (nódulo sólido < 6 mm no basal)"
-    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, Lung-RADS v2022 categoria 2."
+    label: "Lung-RADS v2022 categoria 2 (nódulo sólido < 6 mm inicial; < 4 mm novo)"
+    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, _ (no exame inicial; ou novo em relação ao exame anterior), Lung-RADS v2022 categoria 2."
     word: true
 
   - trigger: "lungrads3"
-    label: "Lung-RADS v2022 categoria 3 (nódulo sólido 6 a < 8 mm no basal)"
-    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, Lung-RADS v2022 categoria 3."
+    label: "Lung-RADS v2022 categoria 3 (nódulo sólido 6 a < 8 mm inicial; 4 a < 6 mm novo)"
+    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, _ (no exame inicial; ou novo em relação ao exame anterior), Lung-RADS v2022 categoria 3."
     word: true
 
   - trigger: "lungrads4a"
-    label: "Lung-RADS v2022 categoria 4A (nódulo sólido 8 a < 15 mm no basal)"
-    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, Lung-RADS v2022 categoria 4A."
+    label: "Lung-RADS v2022 categoria 4A (sólido 8 a < 15 mm inicial; 6 a < 8 mm novo; < 8 mm em crescimento)"
+    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, _ (no exame inicial; novo em relação ao exame anterior; ou em crescimento), Lung-RADS v2022 categoria 4A."
     word: true
 
   - trigger: "lungrads4b"
-    label: "Lung-RADS v2022 categoria 4B (nódulo sólido ≥ 15 mm no basal)"
-    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, Lung-RADS v2022 categoria 4B."
+    label: "Lung-RADS v2022 categoria 4B (sólido ≥ 15 mm inicial; ≥ 8 mm novo ou em crescimento)"
+    replace: "Nódulo pulmonar sólido no _ (lobo), medindo _ mm de diâmetro médio, _ (no exame inicial; novo em relação ao exame anterior; ou em crescimento), Lung-RADS v2022 categoria 4B."
     word: true
 
   - trigger: "lungrads4x"

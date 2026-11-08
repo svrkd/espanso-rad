@@ -1421,7 +1421,7 @@ matches:
 
   - trigger: "adenomaadrenal"
     label: "Adenoma adrenal com washout característico"
-    replace: Adrenal direita apresentando nódulo medindo cerca de _ cm, com densidade de _ UH, apresentando realce após a administração do meio de contraste (_ UH) e na fase tardia de 15 minutos (_ UH), com washout absoluto de _% e relativo de _% (iguais ou superiores a 60% e 40%, respectivamente), compatíveis com adenoma, segundo o ACR.
+    replace: Adrenal direita apresentando nódulo medindo cerca de _ cm, com densidade de _ UH, apresentando realce após a administração do meio de contraste (_ UH) e na fase tardia de 15 minutos (_ UH), com washout absoluto de _% e relativo de _% (absoluto igual ou superior a 60% ou relativo igual ou superior a 40%), compatíveis com adenoma, segundo o ACR.
     word: true
 
   # ==========================================================================
