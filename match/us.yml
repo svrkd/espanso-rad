@@ -1222,6 +1222,348 @@ matches:
     replace: "Classificação O-RADS US 5."
     word: true
 
+  # O-RADS US v2022 (ACR; Strachowski LM et al., Radiology 2023;308(3):e230685): achado orads* + conclusão orads*Nc (N = categoria)
+
+  - trigger: "orads0"
+    label: "O-RADS US: avaliação incompleta por limitação técnica (O-RADS US 0) (achado descritivo)"
+    replace: "Lesão anexial à _ não completamente caracterizada por limitação técnica, devido a interposição gasosa intestinal/dimensões da lesão/intolerância da paciente à via endovaginal."
+    word: true
+
+  - trigger: "orads0c"
+    label: "O-RADS US 0: avaliação incompleta"
+    replace: "Lesão anexial à _ incompletamente avaliada, categoria O-RADS US 0 (ACR, v2022)."
+    word: true
+
+  - trigger: "orads1"
+    label: "O-RADS US: ovário normal com folículo/corpo lúteo (O-RADS US 1; folículo ≤ 3 cm, corpo lúteo em geral ≤ 3 cm) (achado descritivo)"
+    replace: "Ovário _ de aspecto habitual, contendo folículo dominante/corpo lúteo medindo _ cm."
+    word: true
+
+  - trigger: "orads1c"
+    label: "O-RADS US 1: ovário fisiológico"
+    replace: "Ovário _ com achado fisiológico, categoria O-RADS US 1 (ACR, v2022)."
+    word: true
+
+  - trigger: "orads1d"
+    label: "O-RADS US: ovário direito normal com folículo/corpo lúteo (O-RADS US 1) (achado descritivo)"
+    replace: "Ovário direito de aspecto habitual, contendo folículo dominante/corpo lúteo medindo _ cm."
+    word: true
+
+  - trigger: "orads1dc"
+    label: "O-RADS US 1: ovário direito fisiológico"
+    replace: "Ovário direito com achado fisiológico, categoria O-RADS US 1 (ACR, v2022)."
+    word: true
+
+  - trigger: "orads1e"
+    label: "O-RADS US: ovário esquerdo normal com folículo/corpo lúteo (O-RADS US 1) (achado descritivo)"
+    replace: "Ovário esquerdo de aspecto habitual, contendo folículo dominante/corpo lúteo medindo _ cm."
+    word: true
+
+  - trigger: "orads1ec"
+    label: "O-RADS US 1: ovário esquerdo fisiológico"
+    replace: "Ovário esquerdo com achado fisiológico, categoria O-RADS US 1 (ACR, v2022)."
+    word: true
+
+  - trigger: "orads1b"
+    label: "O-RADS US: ovários normais com folículos (O-RADS US 1) (achado descritivo)"
+    replace: "Ovários de aspecto habitual, contendo folículos fisiológicos, o maior à direita/à esquerda, medindo _ cm."
+    word: true
+
+  - trigger: "orads1bc"
+    label: "O-RADS US 1: ovários fisiológicos"
+    replace: "Ovários com achados fisiológicos, categoria O-RADS US 1 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradssimples"
+    label: "O-RADS US: cisto simples — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo)"
+    replace: "Cisto unilocular no ovário _, de paredes finas e lisas, conteúdo anecoico e reforço acústico posterior, sem componente sólido ou fluxo interno ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradssimples2c"
+    label: "O-RADS US 2: cisto simples — 2 se < 10 cm; 3 se ≥ 10 cm"
+    replace: "Cisto simples no ovário _, categoria O-RADS US 2 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradssimples3c"
+    label: "O-RADS US 3: cisto simples — 2 se < 10 cm; 3 se ≥ 10 cm"
+    replace: "Cisto simples no ovário _, categoria O-RADS US 3 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsuni"
+    label: "O-RADS US: cisto unilocular liso não simples (ecos internos/septos incompletos) — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo)"
+    replace: "Lesão cística unilocular no ovário _, de paredes internas lisas, com ecos internos/septos incompletos, sem componente sólido, escore de cor _ ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradsuni2c"
+    label: "O-RADS US 2: cisto unilocular liso não simples (ecos internos/septos incompletos) — 2 se < 10 cm; 3 se ≥ 10 cm"
+    replace: "Lesão cística unilocular de paredes lisas no ovário _, categoria O-RADS US 2 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsuni3c"
+    label: "O-RADS US 3: cisto unilocular liso não simples (ecos internos/septos incompletos) — 2 se < 10 cm; 3 se ≥ 10 cm"
+    replace: "Lesão cística unilocular de paredes lisas no ovário _, categoria O-RADS US 3 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsuniirregular"
+    label: "O-RADS US: cisto unilocular de parede irregular (< 3 mm), sem sólido — 3, qualquer tamanho (achado descritivo)"
+    replace: "Lesão cística unilocular no ovário _, de parede interna irregular (espessamento focal inferior a 3 mm de altura), sem componente sólido, escore de cor _ ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradsuniirregular3c"
+    label: "O-RADS US 3: cisto unilocular de parede irregular (< 3 mm), sem sólido"
+    replace: "Lesão cística unilocular de parede irregular no ovário _, categoria O-RADS US 3 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsbi"
+    label: "O-RADS US: cisto bilocular liso sem sólido — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo)"
+    replace: "Lesão cística bilocular no ovário _, com septo único completo, paredes internas e septo lisos, sem componente sólido, escore de cor _ ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradsbi2c"
+    label: "O-RADS US 2: cisto bilocular liso sem sólido — 2 se < 10 cm; 3 se ≥ 10 cm"
+    replace: "Lesão cística bilocular de paredes lisas no ovário _, categoria O-RADS US 2 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsbi3c"
+    label: "O-RADS US 3: cisto bilocular liso sem sólido — 2 se < 10 cm; 3 se ≥ 10 cm"
+    replace: "Lesão cística bilocular de paredes lisas no ovário _, categoria O-RADS US 3 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsbiirregular"
+    label: "O-RADS US: cisto bilocular irregular sem sólido — 4, qualquer tamanho e EC (achado descritivo)"
+    replace: "Lesão cística bilocular no ovário _, de parede interna/septo irregular, sem componente sólido, escore de cor _ ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradsbiirregular4c"
+    label: "O-RADS US 4: cisto bilocular irregular sem sólido"
+    replace: "Lesão cística bilocular de parede irregular no ovário _, categoria O-RADS US 4 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsmulti"
+    label: "O-RADS US: cisto multilocular liso sem sólido — 3 se < 10 cm e EC 1–3; 4 se ≥ 10 cm ou EC 4 (achado descritivo)"
+    replace: "Lesão cística multilocular no ovário _, com _ septos completos, paredes internas e septos lisos, sem componente sólido, escore de cor _ ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradsmulti3c"
+    label: "O-RADS US 3: cisto multilocular liso sem sólido — 3 se < 10 cm e EC 1–3; 4 se ≥ 10 cm ou EC 4"
+    replace: "Lesão cística multilocular de paredes lisas no ovário _, categoria O-RADS US 3 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsmulti4c"
+    label: "O-RADS US 4: cisto multilocular liso sem sólido — 3 se < 10 cm e EC 1–3; 4 se ≥ 10 cm ou EC 4"
+    replace: "Lesão cística multilocular de paredes lisas no ovário _, categoria O-RADS US 4 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsmultiirregular"
+    label: "O-RADS US: cisto multilocular irregular sem sólido — 4, qualquer tamanho e EC (achado descritivo)"
+    replace: "Lesão cística multilocular no ovário _, de paredes internas/septos irregulares, sem componente sólido, escore de cor _ ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradsmultiirregular4c"
+    label: "O-RADS US 4: cisto multilocular irregular sem sólido"
+    replace: "Lesão cística multilocular de paredes irregulares no ovário _, categoria O-RADS US 4 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsunisolido"
+    label: "O-RADS US: cisto unilocular com componente sólido não papilar (≥ 3 mm) — 4, qualquer tamanho e EC (achado descritivo)"
+    replace: "Lesão cística unilocular no ovário _, medindo _ cm, com componente sólido parietal não papilar de _ cm e escore de cor _ ao estudo Doppler."
+    word: true
+
+  - trigger: "oradsunisolido4c"
+    label: "O-RADS US 4: cisto unilocular com componente sólido não papilar (≥ 3 mm)"
+    replace: "Lesão cística unilocular com componente sólido no ovário _, categoria O-RADS US 4 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradspapila"
+    label: "O-RADS US: cisto unilocular com 1 a 3 projeções papilares — 4, qualquer tamanho e EC (achado descritivo)"
+    replace: "Lesão cística unilocular no ovário _, medindo _ cm, com _ projeções papilares (de uma a três), a maior com _ cm de altura, e escore de cor _ ao estudo Doppler."
+    word: true
+
+  - trigger: "oradspapila4c"
+    label: "O-RADS US 4: cisto unilocular com 1 a 3 projeções papilares"
+    replace: "Lesão cística unilocular com projeções papilares no ovário _, categoria O-RADS US 4 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsquatropapilas"
+    label: "O-RADS US: cisto unilocular com ≥ 4 projeções papilares — 5, qualquer tamanho e EC (achado descritivo)"
+    replace: "Lesão cística unilocular no ovário _, medindo _ cm, com quatro ou mais projeções papilares, a maior com _ cm de altura, e escore de cor _ ao estudo Doppler."
+    word: true
+
+  - trigger: "oradsquatropapilas5c"
+    label: "O-RADS US 5: cisto unilocular com ≥ 4 projeções papilares"
+    replace: "Lesão cística unilocular com quatro ou mais projeções papilares no ovário _, categoria O-RADS US 5 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsbisolido"
+    label: "O-RADS US: cisto bilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4 (achado descritivo)"
+    replace: "Lesão cística bilocular no ovário _, medindo _ cm, com componente sólido de _ cm e escore de cor _ ao estudo Doppler."
+    word: true
+
+  - trigger: "oradsbisolido4c"
+    label: "O-RADS US 4: cisto bilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4"
+    replace: "Lesão cística bilocular com componente sólido no ovário _, categoria O-RADS US 4 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsbisolido5c"
+    label: "O-RADS US 5: cisto bilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4"
+    replace: "Lesão cística bilocular com componente sólido no ovário _, categoria O-RADS US 5 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsmultisolido"
+    label: "O-RADS US: cisto multilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4 (achado descritivo)"
+    replace: "Lesão cística multilocular no ovário _, medindo _ cm, com componente sólido de _ cm e escore de cor _ ao estudo Doppler."
+    word: true
+
+  - trigger: "oradsmultisolido4c"
+    label: "O-RADS US 4: cisto multilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4"
+    replace: "Lesão cística multilocular com componente sólido no ovário _, categoria O-RADS US 4 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsmultisolido5c"
+    label: "O-RADS US 5: cisto multilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4"
+    replace: "Lesão cística multilocular com componente sólido no ovário _, categoria O-RADS US 5 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradssolido"
+    label: "O-RADS US: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4 (achado descritivo)"
+    replace: "Lesão sólida no ovário _, de contornos externos lisos, sem sombra acústica posterior, escore de cor _ ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradssolido3c"
+    label: "O-RADS US 3: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4"
+    replace: "Lesão sólida de contornos lisos no ovário _, categoria O-RADS US 3 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradssolido4c"
+    label: "O-RADS US 4: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4"
+    replace: "Lesão sólida de contornos lisos no ovário _, categoria O-RADS US 4 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradssolido5c"
+    label: "O-RADS US 5: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4"
+    replace: "Lesão sólida de contornos lisos no ovário _, categoria O-RADS US 5 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradssolidosombra"
+    label: "O-RADS US: lesão sólida (≥ 80%) lisa com sombra acústica ampla — 3 se EC 1–3; 5 se EC 4 (achado descritivo)"
+    replace: "Lesão sólida no ovário _, de contornos externos lisos, com sombra acústica posterior ampla, escore de cor _ ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradssolidosombra3c"
+    label: "O-RADS US 3: lesão sólida (≥ 80%) lisa com sombra acústica ampla — 3 se EC 1–3; 5 se EC 4"
+    replace: "Lesão sólida de contornos lisos com sombra acústica no ovário _, categoria O-RADS US 3 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradssolidosombra5c"
+    label: "O-RADS US 5: lesão sólida (≥ 80%) lisa com sombra acústica ampla — 3 se EC 1–3; 5 se EC 4"
+    replace: "Lesão sólida de contornos lisos com sombra acústica no ovário _, categoria O-RADS US 5 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradssolidoirregular"
+    label: "O-RADS US: lesão sólida (≥ 80%) de contornos irregulares — 5, qualquer tamanho e EC (achado descritivo)"
+    replace: "Lesão sólida no ovário _, de contornos externos irregulares/lobulados, escore de cor _ ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradssolidoirregular5c"
+    label: "O-RADS US 5: lesão sólida (≥ 80%) de contornos irregulares"
+    replace: "Lesão sólida de contornos irregulares no ovário _, categoria O-RADS US 5 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradshemorragico"
+    label: "O-RADS US: cisto hemorrágico típico — 2 se < 10 cm; 3 se ≥ 10 cm; pré-menopausa ou pós-menopausa inicial (< 5 anos); na pós-menopausa tardia, reclassificar pelos demais descritores (achado descritivo)"
+    replace: "Lesão cística unilocular no ovário _, com conteúdo de padrão reticular/coágulo retrátil, sem fluxo interno ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradshemorragico2c"
+    label: "O-RADS US 2: cisto hemorrágico típico (pré-menopausa ou pós-menopausa inicial (< 5 anos); na pós-menopausa tardia, reclassificar pelos demais descritores)"
+    replace: "Lesão cística no ovário _ compatível com cisto hemorrágico, categoria O-RADS US 2 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradshemorragico3c"
+    label: "O-RADS US 3: cisto hemorrágico típico (pré-menopausa ou pós-menopausa inicial (< 5 anos); na pós-menopausa tardia, reclassificar pelos demais descritores)"
+    replace: "Lesão cística no ovário _ compatível com cisto hemorrágico, categoria O-RADS US 3 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsdermoide"
+    label: "O-RADS US: cisto dermoide típico — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo)"
+    replace: "Lesão cística no ovário _, com até três lóculos, contendo componente hiperecogênico com sombra acústica posterior/linhas e pontos hiperecogênicos/estruturas esféricas ecogênicas flutuantes, sem fluxo interno ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradsdermoide2c"
+    label: "O-RADS US 2: cisto dermoide típico — 2 se < 10 cm; 3 se ≥ 10 cm"
+    replace: "Lesão no ovário _ compatível com cisto dermoide, categoria O-RADS US 2 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsdermoide3c"
+    label: "O-RADS US 3: cisto dermoide típico — 2 se < 10 cm; 3 se ≥ 10 cm"
+    replace: "Lesão no ovário _ compatível com cisto dermoide, categoria O-RADS US 3 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsendometrioma"
+    label: "O-RADS US: endometrioma típico — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo)"
+    replace: "Lesão cística no ovário _, com até três lóculos, paredes internas lisas e conteúdo homogêneo com ecos de baixa amplitude (aspecto em vidro fosco), sem fluxo interno ao estudo Doppler, medindo _ cm."
+    word: true
+
+  - trigger: "oradsendometrioma2c"
+    label: "O-RADS US 2: endometrioma típico — 2 se < 10 cm; 3 se ≥ 10 cm"
+    replace: "Lesão cística no ovário _ compatível com endometrioma, categoria O-RADS US 2 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsendometrioma3c"
+    label: "O-RADS US 3: endometrioma típico — 2 se < 10 cm; 3 se ≥ 10 cm"
+    replace: "Lesão cística no ovário _ compatível com endometrioma, categoria O-RADS US 3 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsparaovariano"
+    label: "O-RADS US: cisto paraovariano — 2, qualquer tamanho (achado descritivo)"
+    replace: "Cisto simples na região anexial _, adjacente ao ovário homolateral e separado dele, medindo _ cm."
+    word: true
+
+  - trigger: "oradsparaovariano2c"
+    label: "O-RADS US 2: cisto paraovariano"
+    replace: "Cisto paraovariano à _, categoria O-RADS US 2 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsinclusao"
+    label: "O-RADS US: cisto de inclusão peritoneal — 2, qualquer tamanho (achado descritivo)"
+    replace: "Coleção líquida loculada na pelve à _, com/sem septos, moldando-se às estruturas pélvicas adjacentes, com o ovário homolateral em sua margem/suspenso em seu interior, medindo _ cm."
+    word: true
+
+  - trigger: "oradsinclusao2c"
+    label: "O-RADS US 2: cisto de inclusão peritoneal"
+    replace: "Achados compatíveis com cisto de inclusão peritoneal à _, categoria O-RADS US 2 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradshidrossalpinge"
+    label: "O-RADS US: hidrossalpinge — 2, qualquer tamanho (achado descritivo)"
+    replace: "Estrutura tubular anecoica na região anexial _, separada do ovário homolateral, com septos incompletos/pregas endossalpíngeas, medindo _ cm de maior calibre."
+    word: true
+
+  - trigger: "oradshidrossalpinge2c"
+    label: "O-RADS US 2: hidrossalpinge"
+    replace: "Hidrossalpinge à _, categoria O-RADS US 2 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsascite"
+    label: "O-RADS US: ascite (líquido além do fundo de saco, acima do fundo uterino) — 5, só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas (achado descritivo)"
+    replace: "Líquido livre na cavidade peritoneal, estendendo-se além do fundo de saco posterior e acima do fundo uterino."
+    word: true
+
+  - trigger: "oradsascite5c"
+    label: "O-RADS US 5: ascite (líquido além do fundo de saco, acima do fundo uterino) (só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas)"
+    replace: "Lesão anexial à _ associada a ascite, categoria O-RADS US 5 (ACR, v2022)."
+    word: true
+
+  - trigger: "oradsimplantes"
+    label: "O-RADS US: nódulos peritoneais — 5, só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas (achado descritivo)"
+    replace: "Nódulos sólidos peritoneais, o maior em _, medindo _ cm."
+    word: true
+
+  - trigger: "oradsimplantes5c"
+    label: "O-RADS US 5: nódulos peritoneais (só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas)"
+    replace: "Lesão anexial à _ associada a nódulos peritoneais, categoria O-RADS US 5 (ACR, v2022)."
+    word: true
+
   - trigger: "ov7"
     label: "Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma (achado descritivo)"
     replace: imagem cística de paredes finas e regulares, com conteúdo hipoecogênico homogêneo, sem fluxo vascular interno.
