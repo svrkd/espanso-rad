@@ -1206,6 +1206,22 @@ matches:
     replace: Balthazar _ — CTSI _ — CTSI modificado _.
     word: true
 
+  - trigger: "escorebalthazar2"
+    label: "Balthazar e CTSI com tabela de referência (Balthazar 1990)"
+    replace: |-
+      Pancreatite aguda grau _ (A; B; C; D; ou E) de Balthazar, com necrose pancreática _ (ausente; acometendo até 30% do parênquima; acometendo mais de 30% a 50% do parênquima; ou acometendo mais de 50% do parênquima), correspondendo a índice de gravidade tomográfico (CTSI) de _ pontos, de gravidade _ (leve; moderada; ou grave).
+
+      Referência (Balthazar et al., 1990): A, pâncreas normal (0); B, aumento volumétrico do pâncreas (1); C, alterações inflamatórias do pâncreas e da gordura peripancreática (2); D, coleção líquida peripancreática única e mal definida (3); E, duas ou mais coleções líquidas mal definidas (4). Necrose: ausente (0); até 30% (2); mais de 30% a 50% (4); mais de 50% (6). CTSI: 0 a 3, leve; 4 a 6, moderada; 7 a 10, grave.
+    word: true
+
+  - trigger: "ctsimodificado"
+    label: "CTSI modificado com tabela de referência (Mortele 2004)"
+    replace: |-
+      Índice de gravidade tomográfico modificado (CTSI modificado) de _ pontos, de gravidade _ (leve; moderada; ou grave).
+
+      Referência (Mortele et al., 2004): inflamação pancreática: pâncreas normal (0); alterações intrínsecas do pâncreas, com ou sem densificação da gordura peripancreática (2); coleção pancreática ou peripancreática, ou necrose da gordura peripancreática (4). Necrose pancreática: ausente (0); até 30% (2); mais de 30% (4). Complicações extrapancreáticas (derrame pleural, ascite, complicação vascular, parenquimatosa ou do trato gastrointestinal): 2 pontos. Total: 0 a 2, leve; 4 a 6, moderada; 8 a 10, grave.
+    word: true
+
   - trigger: "coletordilatado"
     label: "Dilatação do sistema coletor a montante de coleção"
     replace: Mínima dilatação do sistema coletor do rim esquerdo, a montante da coleção supracitada.
@@ -1337,6 +1353,36 @@ matches:
   - trigger: "colecaofluida"
     label: "Coleção fluida peripancreática aguda (Atlanta)"
     replace: "Coleção líquida homogênea peripancreática, sem parede definida, sem componente sólido ou necrótico, em contexto de pancreatite intersticial edematosa com menos de quatro semanas de evolução, compatível com coleção fluida peripancreática aguda (classificação de Atlanta revisada)."
+    word: true
+
+  - trigger: "pancreatiteintersticial"
+    label: "Pancreatite aguda intersticial edematosa (Atlanta revisada)"
+    replace: "Aumento volumétrico _ (difuso; ou focal) do pâncreas, com realce homogêneo do parênquima pelo meio de contraste, sem áreas de necrose, associado a densificação da gordura peripancreática, compatível com pancreatite aguda intersticial edematosa, segundo a classificação de Atlanta revisada."
+    word: true
+
+  - trigger: "pancreatitenecrosante3"
+    label: "Pancreatite aguda necrosante (Atlanta revisada)"
+    replace: "Áreas sem realce do parênquima pancreático na _ (cabeça; colo; corpo; ou cauda), acometendo cerca de _% da glândula, _ (sem; ou com) necrose da gordura peripancreática, compatível com pancreatite aguda necrosante, segundo a classificação de Atlanta revisada."
+    word: true
+
+  - trigger: "pseudocisto1"
+    label: "Pseudocisto pancreático, mais de 4 semanas (Atlanta revisada)"
+    replace: "Coleção líquida homogênea peripancreática, de paredes bem definidas, sem componente sólido, medindo _ cm, em contexto de pancreatite intersticial edematosa com mais de quatro semanas de evolução, compatível com pseudocisto, segundo a classificação de Atlanta revisada."
+    word: true
+
+  - trigger: "colecaonecrotica"
+    label: "Coleção necrótica aguda, menos de 4 semanas (Atlanta revisada)"
+    replace: "Coleção heterogênea _ (pancreática; peripancreática; ou pancreática e peripancreática), sem parede definida, com conteúdo líquido e componente não liquefeito, medindo _ cm, em contexto de pancreatite necrosante com menos de quatro semanas de evolução, compatível com coleção necrótica aguda, segundo a classificação de Atlanta revisada."
+    word: true
+
+  - trigger: "necroseencapsulada2"
+    label: "Necrose encapsulada, mais de 4 semanas (Atlanta revisada)"
+    replace: "Coleção heterogênea _ (pancreática; peripancreática; ou pancreática e peripancreática), de parede bem definida com realce pelo meio de contraste, com conteúdo líquido e componente não liquefeito, medindo _ cm, em contexto de pancreatite necrosante com mais de quatro semanas de evolução, compatível com necrose encapsulada, segundo a classificação de Atlanta revisada."
+    word: true
+
+  - trigger: "necroseinfectada"
+    label: "Necrose pancreática infectada, gás na coleção (Atlanta revisada)"
+    replace: "Focos gasosos no interior da _ (coleção necrótica aguda; ou necrose encapsulada) _ (pancreática; ou peripancreática), sugerindo necrose infectada, segundo a classificação de Atlanta revisada."
     word: true
 
   # ==========================================================================
