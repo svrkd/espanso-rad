@@ -1303,7 +1303,7 @@ matches:
 
   - trigger: "pancreasirressecavel1"
     label: "Envolvimento arterial superior a 180° (irressecabilidade)"
-    replace: Lesões hipodensas e hipovasculares que circundam toda a extensão do tronco celíaco e parcialmente seus ramos, além da artéria mesentérica superior. Essas lesões envolvem mais da metade de suas circunferências (> 180°), critério de irressecabilidade da NCCN.
+    replace: Lesões hipodensas e hipovasculares que circundam toda a extensão do tronco celíaco e parcialmente seus ramos, além da artéria mesentérica superior. Essas lesões envolvem mais da metade de suas circunferências (> 180°).
     word: true
 
   - trigger: "neoplasiauncinado"
