@@ -85,6 +85,9 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | vb9 | Vesícula biliar: Vesícula biliar normodistendida, com paredes difusamente espessadas (achado provavelmente... |
 | vbcole | Vesícula biliar: colecistolitíase com hidropsia \| Vias biliares: dilatação sem fator obstrutivo definido |
 | vb11 | Vesícula biliar: colecistolitíase com hidropsia \| Vias biliares: dilatação sem fator obstrutivo definido |
+| ab1 | Aorta abdominal: trajeto e calibre preservados (normal) |
+| ab2 | Aorta abdominal: trajeto e calibre preservados, com calcificações parietais (achado descritivo) |
+| ab2c | Aorta abdominal: ateromatose aórtica (conclusão) |
 
 ## Rins, Vias Urinárias, Bexiga E Próstata
 

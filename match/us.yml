@@ -10,7 +10,8 @@ matches:
   #   ap  = apêndice cecal            ba  = baço
   #   ca  = vias biliares/colédoco    ch  = fígado (hepatopatia difusa)
   #   eh  = fígado (esteatose)        fh  = fígado (lesão focal)
-  #   vb  = vesícula biliar           (Doppler porta/hepático: ver dabd em VASCULAR)
+  #   vb  = vesícula biliar           ab  = aorta abdominal (modo B)
+  #   (Doppler porta/hepático: ver dabd em VASCULAR)
   #
   # RINS / VIAS URINÁRIAS / BEXIGA / PRÓSTATA
   #   rv  = rins e vias urinárias     bx  = bexiga           prostn = próstata
@@ -544,6 +545,21 @@ matches:
     replace: |-
       Vesícula biliar hidrópica, com paredes finas e regulares, apresentando imagens ecogênicas no seu interior, formadoras de sombra acústica posterior, compatíveis com cálculos, móveis às mudanças de decúbito.
       Sinais ecográficos de dilatação de vias biliares intra e extra-hepáticas, sem caracterização do fator obstrutivo, com hepatocolédoco medindo _ cm, associado à dilatação do Wirsung, medindo _ cm. Sugere-se, a critério clínico, complementação com colangiorressonância.
+    word: true
+
+  - trigger: "ab1"
+    label: "Aorta abdominal: trajeto e calibre preservados (normal)"
+    replace: Aorta abdominal com trajeto e calibre preservados.
+    word: true
+
+  - trigger: "ab2"
+    label: "Aorta abdominal: trajeto e calibre preservados, com calcificações parietais (achado descritivo)"
+    replace: Aorta abdominal com trajeto e calibre preservados, apresentando calcificações parietais.
+    word: true
+
+  - trigger: "ab2c"
+    label: "Aorta abdominal: ateromatose aórtica (conclusão)"
+    replace: Ateromatose aórtica.
     word: true
 
   # ==============================================================================
