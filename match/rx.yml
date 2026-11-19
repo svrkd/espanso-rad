@@ -3786,11 +3786,6 @@ matches:
     replace: "* Exame de características subótimas para laudo"
     word: true
 
-  - trigger: "top"
-    label: "Textura óssea preservada"
-    replace: Textura óssea preservada.
-    word: true
-
   - trigger: "urgen"
     label: "Exame realizado em caráter de urgência"
     replace: Exame realizado em caráter de urgência.
