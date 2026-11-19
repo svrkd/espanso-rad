@@ -56,6 +56,7 @@ BLOCOS = [
             ("1", "subcostal"), ("2", "esplenomegalia (IE)"), ("22", "esplenomegalia (diâmetro)"), ("3", "Gamna-Gandy"), ("4", "acessório"),
         ]),
         ("escada", "ap", "apêndice", [("1", "apendicite"), ("2", "processo inflamatório")]),
+        ("escada", "ab", "aorta abdominal", [("1", "normal"), ("2", "calcificações parietais")]),
         ("escada", "dabd", "Doppler abdome superior", [("0", "normal")]),
     ]),
 
