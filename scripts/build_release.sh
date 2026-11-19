@@ -3,8 +3,10 @@
 #
 # Gera:
 #   dist/espanso-rad-<version>.zip                    (só match/ + config/, uso com espanso já instalado)
-#   dist/espanso-rad-portable-win-<version>.zip       (match/ + config/ + espanso Portable Edition Windows x64)
-#   dist/espanso-rad-portable-linux-<version>.zip     (match/ + config/ + Espanso-X11.AppImage — espanso não
+#   dist/espanso-rad-portable-win-<version>.zip       (espanso Portable Edition Windows x64, com match/ + config/
+#                                                       já dentro de .espanso/, pronto para uso)
+#   dist/espanso-rad-portable-linux-<version>.zip     (Espanso-X11.AppImage + .espanso/{match,config} + scripts
+#                                                       iniciar/parar que apontam ESPANSO_CONFIG_DIR — espanso não
 #                                                       tem build "portátil" oficial para Linux, o AppImage é
 #                                                       o equivalente mais próximo: executável único, chmod +x
 #                                                       e rodar, sem gerenciador de pacotes)
@@ -119,7 +121,7 @@ echo "    espanso ${ESPANSO_VERSION}"
 #   Linux   : Espanso-X11.AppImage (executável único, sem instalação — não há .tar.gz)
 #   macOS   : não há build portátil oficial (só .dmg para /Applications) — ver build_mac_bundle()
 build_portable_zip() {
-    local platform="$1"       # win | linux | mac
+    local platform="$1"       # win | linux
     local url_pattern="$2"
     local inner_dirname="$3"  # nome da subpasta onde o binário/app vai dentro do zip final
 
@@ -135,8 +137,6 @@ build_portable_zip() {
 
     local platform_stage="$STAGE/portable_$platform"
     mkdir -p "$platform_stage/$inner_dirname"
-    cp -r "$REPO_ROOT/match" "$platform_stage/match"
-    cp -r "$REPO_ROOT/config" "$platform_stage/config"
 
     case "$asset_file" in
         *.zip)
@@ -146,23 +146,99 @@ build_portable_zip() {
             (cd "$platform_stage/$inner_dirname" && tar -xzf "$asset_file")
             ;;
         *)
-            cp "$asset_file" "$platform_stage/$inner_dirname/"
-            chmod +x "$platform_stage/$inner_dirname/$(basename "$asset_file")"
+            cp "$asset_file" "$platform_stage/$inner_dirname/$(basename "$url")"
+            chmod +x "$platform_stage/$inner_dirname/$(basename "$url")"
             ;;
     esac
 
-    cat > "$platform_stage/LEIA-ME.txt" <<EOF
-espanso-rad ${VERSION} — pacote portátil (${platform}, espanso ${ESPANSO_VERSION})
+    # match/ e config/ vão direto para a pasta de configuração que o espanso
+    # lê, para o pacote funcionar logo depois de extraído, sem cópia manual.
+    local espanso_dir
+    case "$platform" in
+        win)
+            # Portable Edition: o espanso entra em modo portátil quando existe
+            # uma pasta .espanso/ ao lado de espansod.exe e lê a config de lá.
+            local exe
+            exe="$(find "$platform_stage/$inner_dirname" -type f -iname 'espansod.exe' -print -quit)"
+            if [ -z "$exe" ]; then
+                echo "    [erro] espansod.exe não encontrado no asset do Windows" >&2
+                exit 1
+            fi
+            espanso_dir="$(dirname "$exe")/.espanso"
+            ;;
+        linux)
+            # AppImage: o executável roda de um squashfs montado, então o modo
+            # portátil por .espanso/ ao lado do binário não se aplica. Os scripts
+            # apontam ESPANSO_CONFIG_DIR/ESPANSO_RUNTIME_DIR para pastas ao lado
+            # do AppImage e sobem o espanso sem systemd (start --unmanaged).
+            espanso_dir="$platform_stage/$inner_dirname/.espanso"
+            local appimage
+            appimage="$(basename "$url")"
+            write_linux_script "$platform_stage/$inner_dirname/iniciar-espanso.sh" "$appimage" 'start --unmanaged'
+            write_linux_script "$platform_stage/$inner_dirname/parar-espanso.sh" "$appimage" 'stop'
+            ;;
+    esac
+    mkdir -p "$espanso_dir"
+    cp -r "$REPO_ROOT/match" "$espanso_dir/match"
+    cp -r "$REPO_ROOT/config" "$espanso_dir/config"
+    local espanso_rel="${espanso_dir#"$platform_stage"/}"
+    echo "    match/ + config/ -> $espanso_rel/"
+
+    if [ "$platform" = "win" ]; then
+        local rel_win="${espanso_rel//\//\\}"
+        local bat_dir_win="${rel_win%\\.espanso}"
+        cat > "$platform_stage/LEIA-ME.txt" <<EOF
+espanso-rad ${VERSION} — pacote portátil (Windows, espanso ${ESPANSO_VERSION})
 
 1. Extraia este zip em qualquer pasta.
-2. Rode o executável do espanso dentro de ${inner_dirname}/.
-3. O espanso vai procurar config em ~/.config/espanso (Linux/macOS) ou %APPDATA%\\espanso (Windows) —
-   copie o conteúdo de match/ e config/ deste pacote para lá, ou rode em modo portátil se disponível.
+2. Dê dois cliques em ${bat_dir_win}\\START_ESPANSO.bat.
+
+Pronto: match\\ e config\\ já estão em ${rel_win}\\, a pasta que o espanso
+lê no modo portátil. Não precisa copiar nada.
+
+Para atualizar para uma release nova, substitua só as pastas match\\ e
+config\\ dentro de ${rel_win}\\.
+
+Se a pasta ${inner_dirname}\\ sumir depois de extrair, ou se faltar o
+espansod.exe, foi o antivírus do computador que removeu o executável.
 EOF
+    else
+        cat > "$platform_stage/LEIA-ME.txt" <<EOF
+espanso-rad ${VERSION} — pacote portátil (Linux X11, espanso ${ESPANSO_VERSION})
+
+1. Extraia este zip em qualquer pasta. Se o gerenciador de arquivos perder a
+   permissão de execução, rode: chmod +x ${inner_dirname}/*.sh ${inner_dirname}/*.AppImage
+2. Rode ${inner_dirname}/iniciar-espanso.sh. Para parar: ${inner_dirname}/parar-espanso.sh.
+
+Pronto: match/ e config/ já estão em ${espanso_rel}/, e os scripts fazem o
+espanso ler a configuração de lá, sem instalar nada nem mexer em
+~/.config/espanso. Rodar o AppImage direto, sem os scripts, ignora essa pasta.
+
+Para atualizar para uma release nova, substitua só as pastas match/ e
+config/ dentro de ${espanso_rel}/.
+EOF
+    fi
 
     local out_zip="$DIST/espanso-rad-portable-${platform}-${VERSION}.zip"
     (cd "$platform_stage" && zip -rq "$out_zip" .)
     echo "    -> $out_zip"
+}
+
+# Escreve um script de Linux que roda o AppImage com a config da própria pasta.
+# $1 = caminho do script, $2 = nome do AppImage, $3 = argumentos do espanso.
+# O espanso recusa ESPANSO_RUNTIME_DIR inexistente, por isso o mkdir.
+write_linux_script() {
+    local path="$1" appimage="$2" args="$3"
+    cat > "$path" <<EOF
+#!/usr/bin/env bash
+# Roda o espanso com a configuração desta pasta (.espanso/), sem instalar nada.
+DIR="\$(cd "\$(dirname "\${BASH_SOURCE[0]}")" && pwd)"
+export ESPANSO_CONFIG_DIR="\$DIR/.espanso"
+export ESPANSO_RUNTIME_DIR="\$DIR/.espanso-runtime"
+mkdir -p "\$ESPANSO_RUNTIME_DIR"
+exec "\$DIR/${appimage}" ${args}
+EOF
+    chmod +x "$path"
 }
 
 build_portable_zip "win"   'Win-Portable.*\.zip$' "espanso-win"
