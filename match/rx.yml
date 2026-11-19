@@ -542,6 +542,11 @@ matches:
     replace: "Redução do diâmetro anteroposterior do tórax, visível principalmente na incidência lateral, sugerindo pectus excavatum."
     word: true
 
+  - trigger: "rxdpoc"
+    label: "Hiperinsuflação pulmonar sugestiva de DPOC"
+    replace: "Aumento do diâmetro anteroposterior do tórax, associando-se retificação das cúpulas diafragmáticas e hiperinsuflação pulmonar, achados que podem corresponder a doença pulmonar obstrutiva crônica."
+    word: true
+
   - trigger: "philar"
     label: "Proeminência hilar"
     replace: Proeminência hilar
