@@ -58,7 +58,7 @@ ENTRADAS = [
     ("vesicula1", "Vesícula biliar com paredes espessadas secundário a ascite", "789"),
     ("baco1", "Esplenomegalia", "792"),
     ("ascite1", "Ascite de grande volume", "804"),
-    ("hipertensaoportal1", "Opinião — hepatopatia crônica com hipertensão portal", "807-812"),
+    ("hipertensaoportal1", "Conclusão — hepatopatia crônica com hipertensão portal", "807-812"),
     ("usabdome", "US de abdome total — hepatopatia crônica com hipertensão portal", "779-812 !802"),
     ("esteatoseus1", "Fígado com ecogenicidade difusamente aumentada", "11322"),
     ("esteatoseus2", "Aumento difuso da ecogenicidade hepática (esteatose)", "11323"),

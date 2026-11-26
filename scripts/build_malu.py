@@ -606,6 +606,82 @@ REGRAS_REGEX = [
 ]
 
 
+# --------------------------------------------------------------------------
+# Rodada de 2026-11-26: cabeçalhos e lacunas no padrão do repositório (pedido
+# do dono do repositório). Roda sobre o texto JÁ limpo de cada entrada, inteiro
+# e não linha a linha, depois de CORRECOES e REGRAS_REGEX — então cada padrão é
+# escrito contra o texto final, o mesmo que está no YAML. Na checagem de
+# cobertura ela é aplicada também a cada linha da fonte, para que a comparação
+# por linha continue valendo.
+#
+# O que NÃO é lacuna fica como está: o marcador de linha ou trecho opcional da
+# autora (XXX/XX/### no início de uma alternativa: "XXX Insinuação…", "XXX -
+# Próstata", "###Artrose…", "SC XXX"), "raio-X" e os demais "XX" que não têm
+# leitura segura de lacuna nem de separador.
+# --------------------------------------------------------------------------
+_CAB = "cabeçalho de seção padronizado"
+_SEP = "separador de alternativa uniformizado para /"
+_LAC = "lacuna uniformizada para _"
+_MED = "medida concreta do caso trocada por lacuna _"
+RODADA_PADRAO = [
+    # --- cabeçalhos. "Impressão:" vazio logo antes de "Conclusão:" sai inteiro
+    # (rmquadril2); os demais viram o cabeçalho canônico.
+    (re.compile(r"(?m)^Impressão:\n\n(?=Conclusão:\n)"), "", _CAB),
+    (re.compile(r"(?m)^(?:Opinião|OPINIÃO|Impressão|IMPRESSÃO DIAGNÓSTICA|CONCLUSÃO):$"),
+     "Conclusão:", _CAB),
+    (re.compile(r"(?m)^(?:ANÁLISE|Relatório):?$"), "Análise:", _CAB),
+    (re.compile(r"(?m)^(?:TÉCNICA DE EXAME|Técnica de exame)(?::|$)"), "Técnica:", _CAB),
+    # linha em branco duplicada (rmombro1, antes de "Análise:")
+    (re.compile(r"\n\n\n+"), "\n\n", "linha em branco duplicada removida"),
+    # --- datas mascaradas (as regras de REGRAS_REGEX ainda geram XX/XX/XXXX)
+    (re.compile(r"\bXX/XX/XXXX\b|\bXX/XX/XX\b|\bXX/XXXX\b|\[data\]"), "_", _LAC),
+    # --- separadores de alternativa: XX/XXX entre opções vira " / "
+    (re.compile(r"\b(normotróficos|hipotróficos) XX (?=hipotróficos|atróficos)"), r"\1 / ", _SEP),
+    (re.compile(r"\b(centralizadas?) XX (?=descentralizada|lateralizadas)"), r"\1 / ", _SEP),
+    (re.compile(r"\b(habitual|rasos) XX (?=rasos|displásicos)"), r"\1 / ", _SEP),
+    (re.compile(r"\btróclea A XX B XX C XX D\b"), "tróclea A / B / C / D", _SEP),
+    (re.compile(r"\btipo I XX II XX III\b"), "tipo I / II / III", _SEP),
+    (re.compile(r"\blateral XX (?=inclinadas)"), "lateral / ", _SEP),
+    (re.compile(r"\bdistal XX (?=do segmento médio)"), "distal / ", _SEP),
+    (re.compile(r"\binteresfincteriana XX transesfincteriana XX supraesfincteriana XX "),
+     "interesfincteriana / transesfincteriana / supraesfincteriana / ", _SEP),
+    (re.compile(r"\binterglútea XX no períneo XX (?=à direita)"), "interglútea / no períneo / ", _SEP),
+    (re.compile(r"\bà direita XX esquerda\b"), "à direita / esquerda", _SEP),
+    (re.compile(r"\b(direito|veia|costoclavicular|escalenos) XXX (?=esquerdo|artéria|triângulo|retropeitoral)"),
+     r"\1 / ", _SEP),
+    (re.compile(r"\bÀ DIREITA XXX ESQUERDA\b"), "À DIREITA / ESQUERDA", _SEP),
+    # o 1º XXX abre a alternativa (marcador), o 2º separa as duas opções
+    (re.compile(r"\bpérvios, XXX com anatomia habitual XXX notando-se"),
+     "pérvios, com anatomia habitual / notando-se", _SEP),
+    # "na região / nas regiões _ do componente acetabular / e do componente femoral"
+    (re.compile(r"\bna região XX nas regiões XX do componente acetabular XX e do componente femoral"),
+     "na região / nas regiões _ do componente acetabular / e do componente femoral", _SEP),
+    # --- lacunas: campo a preencher
+    (re.compile(r"\bventre muscular XX (?=com edema)"), "ventre muscular _ ", _LAC),
+    (re.compile(r"(?m)\bQUADRIL XXX$"), "QUADRIL _", _LAC),
+    (re.compile(r"(?m)\bapostos (de )?XXX$"), r"apostos \1_", _LAC),
+    (re.compile(r"\b(corpo vertebral|placa terminal inferior|placas terminais oponentes|"
+                r"redução da altura|espaços discais|difusamente/|interfacetária) de X{2,3}"
+                r"(?=[\s,.(]|$)", re.M), r"\1 de _", _LAC),
+    (re.compile(r"(?m)\b(interapofisária em) XX$"), r"\1 _", _LAC),
+    (re.compile(r"\bdiscopatias degenerativas em XXX\."), "discopatias degenerativas em _.", _LAC),
+    (re.compile(r"(?m)^RM de XX\.$"), "RM de _.", _LAC),
+    (re.compile(r"(?m)^Indicação clínica: XXX$"), "Indicação clínica: _", _LAC),
+    (re.compile(r"\bÚtero: em XX (?=anteversoflexão)"), "Útero: em _ ", _LAC),
+    # --- medidas concretas de caso (as que vinham com "X" de multiplicação)
+    (re.compile(r"\bmedindo \d+,\d x \d+,\d cm \( AP X LL\)"), "medindo _ x _ cm ( AP x LL)", _MED),
+    (re.compile(r"\b(mede cerca de|medindo cerca de) \d+,\d X \d+,\d cm"), r"\1 _ x _ cm", _MED),
+]
+
+
+def aplicar_padrao(texto: str, contador: dict) -> str:
+    for padrao, novo_txt, nota in RODADA_PADRAO:
+        texto, n = padrao.subn(novo_txt, texto)
+        if n:
+            contador[(nota, "")] = contador.get((nota, ""), 0) + n
+    return texto
+
+
 def aplicar_correcoes(texto: str, contador: dict) -> str:
     """Regras literais primeiro (são as específicas); só depois as automáticas
     de digitação, senão uma normalização genérica pré-empita a regra literal."""
@@ -651,6 +727,10 @@ def _classe(nota: str) -> str:
     # que mexe em conteúdo, não como a que só limpa
     if any(x in nota for x in ("unidade faltante", "truncada", "reconstruíd", "inferida")):
         return "inferência de conteúdo a partir do contexto"
+    if "cabeçalho de seção" in nota:
+        return "cabeçalho de seção padronizado"
+    if "separador de alternativa" in nota:
+        return "separador de alternativa uniformizado para /"
     if "placeholder" in nota or "lacuna" in nota or "underline" in nota \
             or "colchete" in nota or "reticências" in nota:
         return "placeholder uniformizado para _"
@@ -689,6 +769,7 @@ def main():
     vistos = {}
     textos = {}
     entradas_para_guarda: list[tuple[str, str, str]] = []
+    textos_antes_padrao: list[str] = []
     blocos = ["matches:\n"]
     n_entradas = 0
 
@@ -717,6 +798,8 @@ def main():
             texto = texto.rstrip()
             if texto.endswith("]"):
                 texto = texto[:-1].rstrip()
+        textos_antes_padrao.append(texto)
+        texto = aplicar_padrao(texto, contador)
         textos[trigger] = texto
         if not texto.strip():
             sys.exit(f"ERRO: entrada vazia para {trigger!r} (spec {spec})")
@@ -780,7 +863,7 @@ def main():
         t = l.strip().translate(ZAP).strip()
         if not t:
             continue
-        k = _norm(aplicar_correcoes(t, {}))
+        k = _norm(aplicar_padrao(aplicar_correcoes(t, {}), {}))
         if not k:
             # linha só de pontuação/régua ('*', '--', '____', ']'). Não tem
             # palavra nenhuma, mas some do arquivo: entra na contagem.
@@ -818,7 +901,7 @@ def main():
     if orfaos:
         sys.exit("ERRO: motivo de exclusão fora do vocabulário do guarda de rótulo: "
                  + repr(orfaos))
-    rotulos = {_norm(aplicar_correcoes(FONTE[n - 1].strip().translate(ZAP).strip(), {})): n
+    rotulos = {_norm(aplicar_padrao(aplicar_correcoes(FONTE[n - 1].strip().translate(ZAP).strip(), {}), {})): n
                for n, motivo in EXCLUSOES.items() if motivo in ROTULO}
     rotulos.pop("", None)
     intrusos = []
@@ -920,6 +1003,8 @@ def main():
     inativas = [f"{e!r}->{c!r}" for e, c, _ in CORRECOES if e != c and (e, c) not in contador]
     inativas += [f"regra automática {nota!r}" for _p, _n, nota in REGRAS_REGEX
                  if (nota, "") not in contador]
+    inativas += [f"regra da rodada de padronização {_p.pattern!r}" for _p, _n, nota in RODADA_PADRAO
+                 if not any(_p.search(t) for t in textos_antes_padrao)]
     if inativas:
         sys.exit(f"ERRO: {len(inativas)} regra(s) de correção sem uso: {inativas[:12]}")
 
