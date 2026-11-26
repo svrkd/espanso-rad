@@ -54,6 +54,10 @@ python3 "$REPO_ROOT/scripts/espanso_to_beeftext.py" --check
 echo "==> Validando skills/laude/references/ x match/*.yml"
 python3 "$REPO_ROOT/scripts/gen_laude_index.py" --check
 
+# --- validação de deriva do CLAUDE.md: aborta se os blocos AUTO não refletirem o repositório e esta versão ---
+echo "==> Validando blocos automáticos do CLAUDE.md"
+python3 "$REPO_ROOT/scripts/update_claude_md.py" --check --versao "$VERSION"
+
 # --- gera o pôster e renderiza o PDF ---
 echo "==> Gerando pôster de parede"
 python3 "$REPO_ROOT/scripts/gen_poster.py"
