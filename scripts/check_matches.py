@@ -31,9 +31,13 @@ def parse_entries(path):
         m = re.match(r'^  - trigger: "((?:[^"\\]|\\.)*)"', block[0])
         trigger = m.group(1)
         keys = []
+        label = None
         for line in block:
             if line.startswith("    label:"):
                 keys.append("label")
+                label = line[len("    label:"):].strip()
+                if len(label) >= 2 and label[0] == label[-1] == '"':
+                    label = label[1:-1]
             elif line.startswith("    replace:"):
                 keys.append("replace")
             elif line.strip() == "word: true":
@@ -43,6 +47,7 @@ def parse_entries(path):
             "has_label": "label" in keys,
             "has_word": "word" in keys,
             "key_order": keys,
+            "label": label,
             "line_no": starts[k] + 1,
         })
     return entries
@@ -55,6 +60,7 @@ def is_ascii_lower(trigger):
 def main():
     files = sorted(MATCH_DIR.glob("*.yml"))
     all_entries = {}  # trigger -> list of (filename, line_no)
+    all_labels = {}  # label -> list of (filename, trigger), fora de legado.yml
     problems = []
 
     for path in files:
@@ -66,6 +72,8 @@ def main():
             t = e["trigger"]
             seen_in_file.setdefault(t, []).append(e["line_no"])
             all_entries.setdefault(t, []).append((fname, e["line_no"]))
+            if fname != LEGADO_FILE and e["label"]:
+                all_labels.setdefault(e["label"], []).append((fname, t))
 
             if not e["has_word"]:
                 problems.append(f"{fname}:{e['line_no']}: trigger {t!r} sem `word: true`")
@@ -93,6 +101,16 @@ def main():
     for t, locs in cross_dups.items():
         loc_str = ", ".join(f"{f}:{n}" for f, n in locs)
         problems.append(f"trigger {t!r} duplicado entre arquivos ({loc_str})")
+
+    # Label repetido fora de legado.yml: só aviso, não altera o código de saída
+    # (aliases de texto idêntico ainda aguardam decisão; ver CONVENTIONS.md).
+    label_dups = {l: locs for l, locs in all_labels.items() if len(locs) > 1}
+    if label_dups:
+        print(f"AVISO: {len(label_dups)} label(s) repetido(s) fora de match/{LEGADO_FILE} "
+              f"({sum(len(v) for v in label_dups.values())} entradas):")
+        for l, locs in sorted(label_dups.items()):
+            print(f"   ~ {l!r}: " + ", ".join(f"{f}:{t}" for f, t in locs))
+        print()
 
     if not problems:
         print(f"OK — {sum(len(parse_entries(p)) for p in files)} entradas em {len(files)} arquivos, nenhum problema encontrado.")

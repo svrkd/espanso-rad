@@ -75,7 +75,7 @@ matches:
     word: true
 
   - trigger: "baastrup"
-    label: "Doença de Baastrup"
+    label: "Doença de Baastrup — RX"
     replace: Alterações degenerativas entre os processos espinhosos (Baastrup).
     word: true
 
@@ -153,7 +153,7 @@ matches:
     word: true
 
   - trigger: "ll"
-    label: "Radiografia de coluna lombar — normal"
+    label: "Radiografia de coluna lombar — normal (só achados)"
     replace: |
       Textura óssea preservada.
       Bom alinhamento dos corpos vertebrais lombares.
@@ -331,7 +331,7 @@ matches:
     word: true
 
   - trigger: "vtt"
-    label: "Vértebra de transição lombossacra"
+    label: "Vértebra de transição lombossacra — RX"
     replace: "Caracterizadas 6 vértebras com características lombares, sendo a última denominada vértebra de transição (VT)."
     word: true
 
@@ -393,7 +393,7 @@ matches:
     word: true
 
   - trigger: "rxcar"
-    label: "Cardiomegalia"
+    label: "Cardiomegalia — área cardíaca aumentada"
     replace: Área cardíaca aumentada.
     word: true
 
@@ -428,12 +428,12 @@ matches:
     word: true
 
   - trigger: "derramed"
-    label: "Derrame pleural à direita"
+    label: "Derrame pleural à direita — RX, apagamento do seio costofrênico"
     replace: "Apagamento e elevação do seio costofrênico direito, devendo corresponder a derrame pleural."
     word: true
 
   - trigger: "derramee"
-    label: "Derrame pleural à esquerda"
+    label: "Derrame pleural à esquerda — RX, apagamento do seio costofrênico"
     replace: "Apagamento e elevação do seio costofrênico esquerdo, devendo corresponder a derrame pleural."
     word: true
 
@@ -523,7 +523,7 @@ matches:
     word: true
 
   - trigger: "opm"
-    label: "Opacidades reticulares pulmonares"
+    label: "Opacidades reticulares pulmonares — esparsas"
     replace: Opacidades reticulares esparsas pelo parênquima pulmonar.
     word: true
 
@@ -648,12 +648,12 @@ matches:
     word: true
 
   - trigger: "topph"
-    label: "Opacidades reticulares peri-hilares"
+    label: "Opacidades reticulares peri-hilares — tênues"
     replace: Tênues opacidades reticulares em regiões peri-hilares.
     word: true
 
   - trigger: "topret"
-    label: "Opacidades reticulares em bases pulmonares"
+    label: "Opacidades reticulares em bases pulmonares — tênues"
     replace: Tênues opacidades reticulares em ambas as bases pulmonares.
     word: true
 
@@ -713,7 +713,7 @@ matches:
     word: true
 
   - trigger: "phipo"
-    label: "Pulmões hipoexpandidos"
+    label: "Pulmões hipoexpandidos — prejudicando a avaliação"
     replace: "Pulmões hipoexpandidos, prejudicando a avaliação."
     word: true
 
@@ -862,7 +862,7 @@ matches:
     word: true
 
   - trigger: "chems"
-    label: "Hemangiomas hepáticos"
+    label: "Hemangiomas hepáticos — nódulos hiperecogênicos"
     replace: Nódulos hiperecogênicos hepáticos compatíveis com hemangiomas.
     word: true
 
@@ -1203,7 +1203,7 @@ matches:
     word: true
 
   - trigger: "oo"
-    label: "Radiografia de ombro — normal"
+    label: "Radiografia de ombro — normal (só achados)"
     replace: |
       Textura óssea preservada.
       Articulação acromioclavicular sem alterações significativas.
@@ -1340,7 +1340,7 @@ matches:
     word: true
 
   - trigger: "bico"
-    label: "Proeminência óssea do polo inferior da patela"
+    label: "Proeminência óssea do polo inferior da patela — RX"
     replace: Proeminência óssea do polo inferior da patela.
     word: true
 
@@ -1463,7 +1463,7 @@ matches:
     word: true
 
   - trigger: "jj"
-    label: "Radiografia de joelho — normal"
+    label: "Radiografia de joelho — normal (só achados)"
     replace: |
       Textura e morfologia óssea preservada.
       Espaços articulares preservados.
@@ -1522,7 +1522,7 @@ matches:
     word: true
 
   - trigger: "ney"
-    label: "Fratura da base do 5º metatarso"
+    label: "Fratura da base do 5º metatarso — transversa, sem desvio"
     replace: "Fratura transversa da base do 5º metatarso, sem desvios significativos."
     word: true
 
@@ -1537,7 +1537,7 @@ matches:
     word: true
 
   - trigger: "osgood"
-    label: "Doença de Osgood-Schlatter"
+    label: "Doença de Osgood-Schlatter — RX"
     replace: "Fragmento ósseo na inserção do tendão patelar na tuberosidade da tíbia associado a aumento e densificação de partes moles regionais, achados sugestivos de doença de Osgood-Schlatter."
     word: true
 
@@ -1797,7 +1797,7 @@ matches:
     word: true
 
   - trigger: "rxbacia3"
-    label: "Radiografia de bacia — template completo"
+    label: "Radiografia de bacia — template completo, degenerativo"
     replace: |
       RADIOGRAFIA DE BACIA
 
@@ -1972,7 +1972,7 @@ matches:
     word: true
 
   - trigger: "rxombro1"
-    label: "Radiografia de ombro — normal"
+    label: "Radiografia de ombro — normal, com título"
     replace: |
       RADIOGRAFIA DO OMBRO DIREITO / ESQUERDO
 
@@ -2013,7 +2013,7 @@ matches:
     word: true
 
   - trigger: "rxagudo"
-    label: "Radiografia de tórax e abdome — normal"
+    label: "Radiografia de tórax e abdome — normal, com interposição gasosa"
     replace: |
       RADIOGRAFIA DE TÓRAX
 
@@ -2132,7 +2132,7 @@ matches:
     word: true
 
   - trigger: "rxbacia2"
-    label: "Radiografia de bacia — template completo"
+    label: "Radiografia de bacia — template completo, com osteossíntese transtrocantérica"
     replace: |
       RADIOGRAFIA DE BACIA
 
@@ -2597,7 +2597,7 @@ matches:
     word: true
 
   - trigger: "rxjoelho1"
-    label: "Radiografia de joelho — normal"
+    label: "Radiografia de joelho — normal, com título"
     replace: |
       RADIOGRAFIA DO JOELHO DIREITO / ESQUERDO
 
@@ -2652,7 +2652,7 @@ matches:
     word: true
 
   - trigger: "rxlombar1"
-    label: "Radiografia de coluna lombar — normal"
+    label: "Radiografia de coluna lombar — normal, com título"
     replace: |
       RADIOGRAFIA DE COLUNA LOMBAR
 
@@ -3032,7 +3032,7 @@ matches:
     word: true
 
   - trigger: "rxtoabd"
-    label: "Radiografia de tórax e abdome — normal"
+    label: "Radiografia de tórax e abdome — normal, com partes moles"
     replace: |
       RADIOGRAFIA DE TÓRAX
 
@@ -3444,7 +3444,7 @@ matches:
     word: true
 
   - trigger: "hill"
-    label: "Lesão de Hill-Sachs"
+    label: "Lesão de Hill-Sachs — RX, sequela"
     replace: "Fratura/irregularidade cortical do aspecto posterolateral do terço superior da cabeça umeral, sugerindo representar sequela de lesão de Hill-Sachs."
     word: true
 
@@ -3518,7 +3518,7 @@ matches:
     word: true
 
   - trigger: "ostri"
-    label: "Os trigonum"
+    label: "Os trigonum — termo isolado"
     replace: Os trigonum.
     word: true
 

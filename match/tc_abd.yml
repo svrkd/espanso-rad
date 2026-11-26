@@ -651,7 +651,7 @@ matches:
     word: true
 
   - trigger: "cistoshepaticos"
-    label: "Cistos hepáticos múltiplos"
+    label: "Cistos hepáticos múltiplos — descrição sem realce"
     replace: Múltiplas imagens ovaladas hipodensas esparsas pelo parênquima hepático, sem realce pelo meio de contraste, sugestivas de cistos, a maior localizada no segmento IVa, medindo _ cm.
     word: true
 
@@ -969,7 +969,7 @@ matches:
     word: true
 
   - trigger: "calculovesicula"
-    label: "Colecistolitíase"
+    label: "Colecistolitíase — descrição, melhor avaliada por estudo dirigido"
     replace: Vesícula biliar em topografia habitual, apresentando imagens hiperdensas em seu interior, sugestivas de cálculos. Melhor avaliada por estudo dirigido.
     word: true
 
@@ -1474,7 +1474,7 @@ matches:
     word: true
 
   - trigger: "esplenomegaliahomogenea"
-    label: "Esplenomegalia homogênea"
+    label: "Esplenomegalia homogênea — sem medida"
     replace: Baço de dimensões homogeneamente aumentadas.
     word: true
 
@@ -1795,7 +1795,7 @@ matches:
     word: true
 
   - trigger: "rimferradura"
-    label: "Rim em ferradura"
+    label: "Rim em ferradura — com parênquima normal"
     replace: Rins com dimensões e espessura do parênquima normais, apresentando insinuação e fusão dos polos inferiores na linha mediana, sugestivos de rim em ferradura.
     word: true
 
@@ -2553,7 +2553,7 @@ matches:
     word: true
 
   - trigger: "quebranozesrenal"
-    label: "Síndrome de nutcracker"
+    label: "Síndrome de nutcracker — com ectasia das veias renal e ovariana"
     replace: Redução do ângulo aortomesentérico (aproximadamente _ graus), determinando compressão/estenose da veia renal esquerda, associada a ectasia das veias renal e ovariana esquerdas, com consequente circulação colateral dos ramos tubo-ovarianos ipsilaterais (varizes), além de pequena quantidade de líquido livre na pelve. Esse conjunto de achados sugere síndrome compressiva vascular ("nutcracker"). Correlacionar com achados dopplervelocimétricos.
     word: true
 
@@ -2712,7 +2712,7 @@ matches:
     word: true
 
   - trigger: "abscessotubovariano"
-    label: "Abscesso tubo-ovariano"
+    label: "Abscesso tubo-ovariano — TC, com focos gasosos"
     replace: Imagem ovalada hipodensa com focos gasosos de permeio, localizada na região anexial/ovariana esquerda, medindo _ cm, com volume de _ cm³. Associam-se aumento do número e das dimensões de linfonodos regionais e retroperitoneais, lâminas líquidas e densificação dos planos adiposos adjacentes. A possibilidade de lesão de natureza inflamatória/infecciosa (abscesso) pode ser considerada dentre os diagnósticos diferenciais.
     word: true
 
@@ -2747,7 +2747,7 @@ matches:
     word: true
 
   - trigger: "teratomaovariano"
-    label: "Teratoma ovariano"
+    label: "Teratoma ovariano — direito, com gordura e calcificação"
     replace: Imagem ovalada heterogênea na região anexial direita, com densidade variada, apresentando tecido adiposo, calcificação e partes moles, medindo _ cm, podendo corresponder a teratoma, melhor avaliada por ultrassonografia.
     word: true
 
@@ -2829,7 +2829,7 @@ matches:
     word: true
 
   - trigger: "diverticulite1"
-    label: "Diverticulite complicada com fístula colovesical"
+    label: "Diverticulite complicada com fístula colovesical — com medidas da fístula"
     replace: Espessamento parietal do cólon sigmoide, com extensão aproximada de _ cm, apresentando trajeto fistuloso com a bexiga urinária junto à parede superolateral esquerda. A fístula apresenta extensão aproximada de _ cm e diâmetro de _ cm. Associam-se espessamento parietal vesical e nível hidroaéreo em seu interior. Os achados estão relacionados a diverticulite complicada com fístula.
     word: true
 
@@ -3578,7 +3578,7 @@ matches:
     word: true
 
   - trigger: "diverticulite6"
-    label: "Diverticulite complicada com fístula colovesical"
+    label: "Diverticulite complicada com fístula colovesical — com densificação e linfonodos"
     replace: Espessamento parietal segmentar circunferencial do cólon sigmoide e da parede superolateral esquerda da bexiga urinária, com trajeto fistuloso unindo essas estruturas. Há densificação do tecido adiposo adjacente e aumento do número de linfonodos regionais, bem como gás intravesical. A possibilidade de diverticulite complicada com fístula colovesical pode ser considerada como principal hipótese diagnóstica, não podendo ser afastada de forma inequívoca a presença de neoplasia vesical por esse estudo.
     word: true
 
@@ -3807,7 +3807,7 @@ matches:
     word: true
 
   - trigger: "paniculitemesenterica1"
-    label: "Paniculite mesentérica"
+    label: "Paniculite mesentérica — sem significado clínico relevante"
     replace: Densificação dos planos gordurosos na raiz do mesentério, associada a linfonodos aumentados em número nessa topografia, achados indeterminados e sem significado clínico relevante, mas relacionados a paniculite mesentérica.
     word: true
 
@@ -3822,7 +3822,7 @@ matches:
     word: true
 
   - trigger: "adenitemesenterica1"
-    label: "Adenite mesentérica"
+    label: "Adenite mesentérica — raiz do mesentério, paracólicos e pré-psoas direitos"
     replace: Aumento do número e do tamanho de linfonodos da raiz do mesentério, paracólicos e anteriores ao músculo psoas à direita. O conjunto de achados pode representar adenite mesentérica, na dependência de estreita correlação clínica e laboratorial.
     word: true
 

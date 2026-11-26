@@ -23,6 +23,7 @@ Todo trigger tem um `label` curto, pensado para busca (é o campo indexado pela 
 - Achado clínico real (frase ou parágrafo descrevendo um achado) → o label nomeia a patologia/achado central em poucas palavras (3-8), não repete a frase inteira. Ex.: um `replace` descrevendo cálculo na vesícula biliar com sombra acústica posterior → `label: "Colecistolitíase"`.
 - Template de laudo completo (multi-linha, começa com um título tipo "RADIOGRAFIA DE TÓRAX") → o label é o nome do exame, com um qualificador curto se fizer sentido (ex.: `"Radiografia de tórax — normal"`).
 - Nunca repita o `trigger` como label, a menos que o trigger já seja uma palavra legível.
+- **Label único no repositório (exceto `legado.yml`).** Dois triggers com textos diferentes nunca compartilham o label: acrescente um qualificador curto que diga a diferença real do texto, depois de ` — ` (ou de `, ` quando o label já tem ` — `), como `"RM de encéfalo — com contraste, controle de doença desmielinizante"`. A conclusão de um par achado/conclusão (`x`/`xc`) recebe o sufixo ` (conclusão)`. Quando o mesmo achado existe em arquivos de métodos diferentes e só o estilo da redação muda, o qualificador é o método (`— RX`, `— TC`, `— RM`, `— angio-TC`). Triggers com texto idêntico ou quase idêntico (aliases, diferença só de pontuação ou de uma palavra) podem manter o mesmo label até se decidir se são duplicatas. Em `legado.yml` o label repete o do trigger canônico de propósito. `scripts/check_matches.py` avisa sobre label repetido fora de `legado.yml`, sem falhar.
 
 ## Charset do trigger
 

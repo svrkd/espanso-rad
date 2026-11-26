@@ -22,7 +22,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ba22 | Baço: Esplenomegalia homogênea pelo diâmetro longitudinal (achado descritivo) |
 | ba3 | Baço: Baço de dimensões aumentadas com corpúsculos de Gamna-Gandy |
 | ba4 | Baço acessório |
-| ba4c | Baço acessório |
+| ba4c | Baço acessório (conclusão) |
 | ca1 | Dilatação das vias biliares intra e extra-hepáticas sem a caracterização de fatores obstrutivos (achado descritivo) |
 | ca1c | Dilatação das vias biliares intra e extra-hepáticas sem a caracterização de fatores obstrutivos (conclusão) |
 | ca2 | Vias biliares/colédoco: Cálculo no interior do colédoco, promovendo dilatação a montante (achado descritivo) |
@@ -111,10 +111,10 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | bx7 | Bexiga: com ecos em suspensão no seu interior |
 | bx8 | Bexiga: Balão de sonda vesical no seu interior |
 | bx9 | Bexiga: focos gasosos no seu interior |
-| bx9c | Bexiga: focos gasosos no seu interior |
-| rv3 | Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) |
+| bx9c | Bexiga: focos gasosos no seu interior (conclusão) |
+| rv3 | Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) — cálculo único |
 | rv3c | Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente |
-| rv4 | Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) |
+| rv4 | Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) — múltiplos cálculos |
 | usfocos | Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou... (achado descritivo) |
 | usfocosc | Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou... |
 | rv16 | Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou... (achado descritivo) |
@@ -299,7 +299,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ut5 | Útero/endométrio: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo) |
 | ut5c | Útero/endométrio: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... |
 | ut6 | Útero/endométrio: Exame realizado em paciente com antecedente de histerectomia parcial |
-| ut6c | Útero/endométrio: Exame realizado em paciente com antecedente de histerectomia parcial |
+| ut6c | Útero/endométrio: Exame realizado em paciente com antecedente de histerectomia parcial (conclusão) |
 | utnc | Útero não caracterizado: Útero não caracterizado no presente estudo (histerectomia prévia) |
 | ut0 | Útero/endométrio: Sinais de histerectomia total (achado descritivo) |
 | ut0c | Útero/endométrio: Sinais de histerectomia total |
@@ -354,16 +354,16 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | ob12c | Obstétrica — SNC: holoprosencefalia semilobar (conclusão) |
 | ob13 | Obstétrica — SNC: holoprosencefalia alobar (achado descritivo) |
 | ob13c | Obstétrica — SNC: holoprosencefalia alobar (conclusão) |
-| ob14 | Obstétrica — SNC: agenesia do corpo caloso (achado descritivo) |
-| ob14c | Obstétrica — SNC: agenesia do corpo caloso (conclusão) |
+| ob14 | Obstétrica — SNC: agenesia do corpo caloso (achado descritivo) — com Doppler da pericalosa |
+| ob14c | Obstétrica — SNC: agenesia do corpo caloso (conclusão) — com sugestão de RM |
 | ob15 | Obstétrica — SNC: megacisterna magna (achado descritivo) |
 | ob15c | Obstétrica — SNC: megacisterna magna (conclusão) |
 | ob16 | Obstétrica — SNC: cisto da bolsa de Blake (achado descritivo) |
 | ob16c | Obstétrica — SNC: cisto da bolsa de Blake (conclusão) |
 | ob17 | Obstétrica — SNC: malformação de Dandy-Walker (achado descritivo) |
 | ob17c | Obstétrica — SNC: malformação de Dandy-Walker (conclusão) |
-| ob18 | Obstétrica — SNC: agenesia do corpo caloso (achado descritivo) |
-| ob18c | Obstétrica — SNC: agenesia do corpo caloso (conclusão) |
+| ob18 | Obstétrica — SNC: agenesia do corpo caloso (achado descritivo) — com colpocefalia e cisto inter-hemisférico |
+| ob18c | Obstétrica — SNC: agenesia do corpo caloso (conclusão) — frase curta |
 | ob19 | Obstétrica — SNC: encefalocele occipital (achado descritivo) |
 | ob19c | Obstétrica — SNC: encefalocele occipital (conclusão) |
 | ob20 | Obstétrica — SNC: anencefalia (achado descritivo) |

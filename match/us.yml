@@ -224,7 +224,7 @@ matches:
     word: true
 
   - trigger: "ba4c"
-    label: "Baço acessório"
+    label: "Baço acessório (conclusão)"
     replace: Provável baço acessório no hilo esplênico.
     word: true
 
@@ -751,12 +751,12 @@ matches:
     word: true
 
   - trigger: "bx9c"
-    label: "Bexiga: focos gasosos no seu interior"
+    label: "Bexiga: focos gasosos no seu interior (conclusão)"
     replace: Gás intraluminal na bexiga.
     word: true
 
   - trigger: "rv3"
-    label: "Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo)"
+    label: "Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) — cálculo único"
     replace: Imagem ecogênica formadora de sombra acústica posterior e artefato luminescente no grupamento calicinal inferior/ médio/ superior, compatível com cálculo não obstrutivo, medindo _ cm.
     word: true
 
@@ -766,7 +766,7 @@ matches:
     word: true
 
   - trigger: "rv4"
-    label: "Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo)"
+    label: "Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) — múltiplos cálculos"
     replace: |-
       Imagens ecogênicas formadoras de sombra acústica posterior e artefato luminescente, compatíveis com cálculos não obstrutivos, destacando-se as maiores:
        - Uma no grupamento calicinal superior/ médio/ inferior, medindo _ cm;
@@ -1777,7 +1777,7 @@ matches:
     word: true
 
   - trigger: "ut6c"
-    label: "Útero/endométrio: Exame realizado em paciente com antecedente de histerectomia parcial"
+    label: "Útero/endométrio: Exame realizado em paciente com antecedente de histerectomia parcial (conclusão)"
     replace: Sinais de histerectomia parcial.
     word: true
 
@@ -2208,12 +2208,12 @@ matches:
     word: true
 
   - trigger: "ob14"
-    label: "Obstétrica — SNC: agenesia do corpo caloso (achado descritivo)"
+    label: "Obstétrica — SNC: agenesia do corpo caloso (achado descritivo) — com Doppler da pericalosa"
     replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparente. Sua ecogenicidade é própria para a atual idade gestacional. Nas varreduras axiais e coronais do crânio não foi caracterizado o cavum do septo pelúcido. Associa-se alargamento da fissura inter-hemisférica e afastamento dos cornos anteriores dos ventrículos laterais. Há leve dilatação dos ventrículos laterais, mais proeminente nos cornos posteriores, com átrios medindo _ mm à direita e _ mm à esquerda. Em corte sagital mediano do encéfalo, o corpo caloso não é visibilizado e, ao estudo complementar com Doppler, a artéria pericalosa não é caracterizada em seu trajeto habitual.
     word: true
 
   - trigger: "ob14c"
-    label: "Obstétrica — SNC: agenesia do corpo caloso (conclusão)"
+    label: "Obstétrica — SNC: agenesia do corpo caloso (conclusão) — com sugestão de RM"
     replace: Achados ecográficos compatíveis com agenesia do corpo caloso. Sugere-se, a critério clínico, seguimento da investigação diagnóstica com ressonância magnética a partir de 28 semanas de idade gestacional.
     word: true
 
@@ -2248,12 +2248,12 @@ matches:
     word: true
 
   - trigger: "ob18"
-    label: "Obstétrica — SNC: agenesia do corpo caloso (achado descritivo)"
+    label: "Obstétrica — SNC: agenesia do corpo caloso (achado descritivo) — com colpocefalia e cisto inter-hemisférico"
     replace: A calota craniana foi visibilizada com dimensões e forma normais e sem solução de continuidade aparente. Sua ecogenicidade é própria para a atual idade gestacional. Cavum do septo pelúcido e corpo caloso não visibilizados, observando-se expansão dorsal do 3º ventrículo, formando pequeno cisto inter-hemisférico, e fissura inter-hemisférica alargada. Há leve dilatação dos ventrículos laterais, mais proeminente nos cornos posteriores (colpocefalia), com átrios medindo _ mm à direita e _ mm à esquerda. Em corte sagital mediano do encéfalo, o corpo caloso não é visibilizado.
     word: true
 
   - trigger: "ob18c"
-    label: "Obstétrica — SNC: agenesia do corpo caloso (conclusão)"
+    label: "Obstétrica — SNC: agenesia do corpo caloso (conclusão) — frase curta"
     replace: Agenesia do corpo caloso.
     word: true
 
