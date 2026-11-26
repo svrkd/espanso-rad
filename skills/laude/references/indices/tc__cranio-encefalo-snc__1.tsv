@@ -12,9 +12,9 @@ angiomav	Angioma venoso (variante anatômica)	achado		0	não
 avcd	Isquemia/lesão giro pré-central direito	achado		0	não	
 avcduvidoso	AVC isquêmico agudo duvidoso (ACI/ACM esquerda)	achado		0	sim	
 avch	AVC hemorrágico nucleocapsular/talâmico esquerdo	achado		2	não	
-avcis	AVC isquêmico agudo (território da ACP esquerda)	achado		0	sim	
-avcpost	AVC isquêmico agudo (território da ACP direita)	achado		0	sim	
-avctrans	AVC isquêmico com transformação hemorrágica — frontoparietal direito, com efeito de massa	achado		1	sim	
+avcis	AVC isquêmico agudo (território da ACP esquerda)	achado		0	não	
+avcpost	AVC isquêmico agudo (território da ACP direita)	achado		0	não	
+avctrans	AVC isquêmico com transformação hemorrágica — frontoparietal direito, com efeito de massa	achado		1	não	
 avctrans2	Progressão de AVC isquêmico (possível transformação hemorrágica)	achado		0	não	
 balboa	Hematoma frontal/periorbitário esquerdo	achado		0	não	
 calo	Imagens hipodensas na calota craniana	achado		0	não	
@@ -27,27 +27,27 @@ cistoaracnoide	Cisto aracnoide na fossa média esquerda	achado		1	não
 cistoaracnoide2	Cisto aracnoide retrocerebelar	achado		1	não	
 cistoaracnoider	Cisto aracnoide retrocerebelar	achado		1	não	
 cistocoloide	Cisto coloide do III ventrículo	achado		1	não	
-cistoporencefalico	Cisto porencefálico	achado		0	sim	
+cistoporencefalico	Cisto porencefálico	achado		0	não	
 cistosdeplexo	Cistos de plexo coroide (xantogranulomas)	achado		0	não	
 citomegalovirosecerebral	Sequelas de citomegalovirose congênita	achado		0	não	
 conflitonv	Conflito neurovascular (AICA/nervo acústico-facial)	achado		0	não	
-craniost	Craniostomia parietal direita com cateter de derivação	achado		0	sim	
+craniost	Craniostomia parietal direita com cateter de derivação	achado		0	não	
 craniosto	Craniostomia direita com cateter de derivação	achado		0	não	
 degeax	Degeneração axonal do pedúnculo cerebral	achado		0	não	
 doencadefahr	Doença de Fahr (calcificações dos núcleos da base)	achado		0	sim	
 edemacerebral	Edema cerebral difuso — com apagamento de cisternas	achado		0	sim	
 edemacerebral1	Edema cerebral perilesional	achado		0	sim	
 encefalopatiahipoxico	Encefalopatia hipóxico-isquêmica	achado		0	não	
-glio	Microangiopatia/gliose	achado		0	sim	
+glio	Microangiopatia/gliose	achado		0	não	
 granu	Granulação aracnoide	achado		0	não	
 granus	Granulações aracnoides — seios transversos, achado incidental	achado		0	não	
 haloedema	Edema perilesional	achado		0	não	
 hemoventriculohipertensivo	Hemorragia intraventricular com hipertensão intracraniana	achado		0	sim	
 hidrocefaliahiper	Hidrocefalia hipertensiva	achado		0	não	
 hidrohiper	Hidrocefalia com sinais hipertensivos	achado		0	não	
-hipoat	Microangiopatia/gliose	achado		0	sim	
-hipoati	Microangiopatia/gliose	achado		0	sim	
-hipogli	Microangiopatia/gliose	achado		0	sim	
+hipoat	Microangiopatia/gliose	achado		0	não	
+hipoati	Microangiopatia/gliose	achado		0	não	
+hipogli	Microangiopatia/gliose	achado		0	não	
 hpn	Hidrocefalia de pressão normal (suspeita)	achado		1	não	
 hsa1	Hemorragia subaracnoide — sulcos e cisternas	achado		0	não	
 hsd	Hematoma subdural agudo à esquerda	achado		2	não	
@@ -73,8 +73,8 @@ maguila	Hematoma de partes moles frontofacial à direita	achado		0	não
 maguila1	Hematoma frontoperiorbitário à direita	achado		0	não	
 maguilabife	Hematoma frontofacial à direita com ferimento	achado		0	não	
 maguilae	Hematoma de partes moles frontofacial à esquerda	achado		0	não	
-malaglis	Encefalomalácia/gliose (múltiplas)	achado		1	sim	
-malaglis1	Encefalomalácia/gliose lobar	achado		0	sim	
+malaglis	Encefalomalácia/gliose (múltiplas)	achado		1	não	
+malaglis1	Encefalomalácia/gliose lobar	achado		0	não	
 masto	Conteúdo em células mastóideas (achado inespecífico)	achado		0	não	
 mcal	Meningioma calcificado frontal	achado		1	não	
 megacis	Megacisterna magna x cisto aracnoide	achado		0	não	
@@ -92,7 +92,7 @@ mortecerebral2	Edema cerebral difuso hipóxico-isquêmico	achado		0	não
 mortencefalica1	Edema cerebral difuso com sinais de hipertensão intracraniana	achado		0	sim	
 pai	Imagem hipodensa cerebelar indeterminada (isquemia?)	achado		0	não	
 parate	Hematoma subdural paratentorial direito	achado		0	não	
-patia	Microangiopatia/gliose periventricular	achado		0	sim	
+patia	Microangiopatia/gliose periventricular	achado		0	não	
 pseudohsa	Pseudo-hemorragia subaracnoide	achado		0	não	
 pterio	Craniotomia pterional/cranioplastia à esquerda	achado		0	sim	
 residuosmielografia	Resíduos de mielografia (partículas metálicas)	achado		0	não	
@@ -116,10 +116,10 @@ subgalopo	Hematoma subgaleal parieto-occipital direito	achado		0	não
 tcavc	AVC isquêmico recente (ACM esquerda)	achado		1	não	
 tcbezold	Otomastoidite complicada — abscesso de Bezold?	achado		0	não	
 tcbruno	Degeneração axonal do pedúnculo cerebral esquerdo	achado		0	não	
-tccolpo	Colpocefalia (encefalomalácia parieto-occipital)	achado		0	sim	
+tccolpo	Colpocefalia (encefalomalácia parieto-occipital)	achado		0	não	
 tcgbm	Neoplasia glial de alto grau (glioblastoma)	achado		3	não	
-tcgli	Microangiopatia/gliose periventricular	achado		0	sim	
-tcgliose	Microangiopatia/gliose periventricular	achado		0	sim	
+tcgli	Microangiopatia/gliose periventricular	achado		0	não	
+tcgliose	Microangiopatia/gliose periventricular	achado		0	não	
 tchigroma	Higroma/hematoma subdural crônico bilateral	achado		0	não	
 tchigroma1	Higroma/hematoma subdural crônico à direita	achado		0	não	
 tchigroma2	Higroma/hematoma subdural crônico à esquerda	achado		0	não	

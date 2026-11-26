@@ -167,6 +167,12 @@ ALT_EXCLUIDAS = {
     "inflamatórios/infecciosos", "inflamatórias/infecciosas",
     "helicoidal/multislice",
     "clínicos/laboratoriais",
+    "microangiopatia/gliose", "encefalomalácia/gliose",
+    "subacromial/subdeltoidea",
+    "atelectasia/consolidação",
+    "cabeça/colo",
+    "branca/cinzenta",
+    "edema/hematoma",
 }
 
 SEM_SECAO = "(sem seção)"

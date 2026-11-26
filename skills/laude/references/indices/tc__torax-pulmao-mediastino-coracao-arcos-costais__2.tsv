@@ -3,7 +3,7 @@ pneumoasp	Pneumonia aspirativa com disseminação endobrônquica	achado		0	não
 pneumonialobar	Pneumonia lobar (lobo superior direito)	achado		0	não	
 pneumonialobomedio	Pneumonia no lobo médio	achado		0	não	
 pnl	Parênquima pulmonar sem condensação/hiperaeração	achado		0	não	
-pnmbac	Pneumonia bacteriana com disseminação endobrônquica	achado		0	sim	
+pnmbac	Pneumonia bacteriana com disseminação endobrônquica	achado		0	não	
 portocat	Cateter de infusão (port-a-cath) infraclavicular	achado		0	não	
 puh	Pulmões hipoexpandidos	achado		0	não	
 pulmaofechado	Obstrução endobrônquica com atelectasia	achado		0	não	
@@ -25,7 +25,7 @@ tcempiema	Pneumonia complicada com empiema/fístula broncopleural	achado		0	sim
 tcempiema1	Pneumonia bacteriana complicada com empiema pleural	achado		0	não	
 tcfacada2	Ferimento perfurocortante na parede torácica lateral	achado		0	não	
 tcpneumocistose1	Pneumonia por Pneumocystis/citomegalovírus (mosaico)	achado		0	não	
-tcposte	Pneumonia bacteriana vs neoplasia concomitante (oncológico)	achado		0	sim	
+tcposte	Pneumonia bacteriana vs neoplasia concomitante (oncológico)	achado		0	não	
 tcsilicose	Silicose com fibrose maciça progressiva	achado		0	sim	
 tctb	Tuberculose pulmonar (lesão escavada) vs neoplasia	achado		0	não	
 tctub	Tuberculose pulmonar (lesão escavada) vs neoplasia	achado		0	não	
@@ -63,7 +63,7 @@ tephipo	Contrastação inadequada para avaliação de TEP	achado		0	não
 tc1	Citação bibliográfica — nódulos pulmonares incidentais	achado		0	não	
 atel	Atelectasias laminares na base esquerda	achado		0	não	
 congee	Congestão pulmonar aguda (vidro fosco peribroncovascular)	achado		0	não	
-derramebila	Derrame pleural bilateral moderado	achado		0	sim	
+derramebila	Derrame pleural bilateral moderado	achado		0	não	
 hiperpul	Aumento do calibre da artéria pulmonar	achado		2	não	
 linfomed	Linfonodos mediastinais aumentados em número	achado		0	não	
 ncon	Ausência de consolidações parenquimatosas	achado		0	não	

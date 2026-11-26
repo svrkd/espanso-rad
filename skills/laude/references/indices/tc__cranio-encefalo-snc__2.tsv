@@ -9,8 +9,8 @@ vld	Ventrículo lateral direito	fragmento		0	não
 vle	Ventrículo lateral esquerdo	fragmento		0	não	
 vli	Ventrículo lateral ipsilateral	fragmento		0	não	
 vvll	Ventrículos laterais	fragmento		0	não	
-avc	AVC isquêmico agudo occipitotemporal esquerdo	achado		0	sim	
-avcmal	AVC isquêmico extenso de artéria cerebral média esquerda	achado		1	sim	
+avc	AVC isquêmico agudo occipitotemporal esquerdo	achado		0	não	
+avcmal	AVC isquêmico extenso de artéria cerebral média esquerda	achado		1	não	
 cistac1	Cisto extra-axial retrocerebelar	achado		1	não	
 cistac1op	Cisto aracnoide de fossa posterior	achado		0	não	
 cistac2	Cisto extra-axial parietal direito	achado		1	não	
@@ -20,7 +20,7 @@ cistoderop	Cisto dermoide (impressão diagnóstica)	achado		0	não
 hipo	Hipodensidade da substância branca periventricular	achado		0	não	
 hipofer	Microangiopatia (hipoatenuação periventricular)	achado		0	não	
 hiponovo	Microangiopatia (hipoatenuação periventricular)	achado		0	não	
-hipoop	Microangiopatia/gliose (impressão diagnóstica)	achado		0	sim	
+hipoop	Microangiopatia/gliose (impressão diagnóstica)	achado		0	não	
 hsa	Hemorragia subaracnoide — termo isolado	fragmento		0	não	
 lfd	Lobo frontal direito	fragmento		0	não	
 lfe	Lobo frontal esquerdo	fragmento		0	não	
@@ -30,7 +30,7 @@ lpe	Lobo parietal esquerdo	fragmento		0	não
 ltd	Lobo temporal direito	fragmento		0	não	
 lte	Lobo temporal esquerdo	fragmento		0	não	
 lts	Lobos temporais	fragmento		0	não	
-malagli	Encefalomalácia/gliose	achado		1	sim	
+malagli	Encefalomalácia/gliose	achado		1	não	
 malaglinovo	Encefalomalácia occipital esquerda (isquemia crônica)	achado		0	não	
 malanovo	Encefalomalácia (evento isquêmico crônico)	achado		1	não	
 menigiomadesc	Meningioma da foice inter-hemisférica (descrição)	achado		1	não	

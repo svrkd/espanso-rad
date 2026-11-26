@@ -45,16 +45,16 @@ conco1	Congestão pulmonar com hipertensão pulmonar (template)	achado		0	sim
 conco2	PII com possível congestão concomitante (template)	achado		0	sim	
 conega	Impressão CO-RADS 1	achado		0	não	
 conegc	CO-RADS 2	achado		0	não	
-conga	PII vs congestão pulmonar - CO-RADS 3	achado		0	sim	
+conga	PII vs congestão pulmonar - CO-RADS 3	achado		0	não	
 cpd	campo pulmonar direito	fragmento		0	não	
 cpe	campo pulmonar esquerdo	fragmento		0	não	
 ct	Cânula traqueal	achado		0	não	
-dadopatobola	Derrame pleural bilateral acentuado com atelectasia	achado		0	sim	
+dadopatobola	Derrame pleural bilateral acentuado com atelectasia	achado		0	não	
 decu	Vidro fosco posterior relacionado a decúbito	achado		0	não	
 dhip	Discreta hipertensão pulmonar (ectasia da artéria pulmonar)	achado		0	não	
 discretoliso	Espessamento septal liso (congestão leve)	achado		0	não	
-dpb	Derrame pleural bilateral acentuado	achado		0	sim	
-dpd	Derrame pleural acentuado à direita	achado		0	sim	
+dpb	Derrame pleural bilateral acentuado	achado		0	não	
+dpd	Derrame pleural acentuado à direita	achado		0	não	
 dpocfibro	DPOC com processo inflamatório/infeccioso sobreposto	achado		0	não	
 embogor	Pneumonia viral CO-RADS 5 vs embolia gordurosa	achado		0	não	
 emboliasep	Embolia séptica pulmonar	achado		0	não	
@@ -109,10 +109,10 @@ limesca	Linfonodomegalia pré-carinal	achado		1	não
 lincarina	Linfonodo subcarinal aumentado	achado		1	não	
 linfo	Linfonodos mediastinais aumentados (reacionais)	achado		0	não	
 matmu	Material mucoide intratraqueal	achado		0	não	
-mdp	Derrame pleural bilateral moderado	achado		0	sim	
+mdp	Derrame pleural bilateral moderado	achado		0	não	
 mosai	Atenuação em mosaico pulmonar	achado		0	sim	
 mucoviscidose	Bronquiectasias sugestivas de fibrose cística	achado		0	não	
-necroempiema	Empiema pleural à direita (x necrose pulmonar)	achado		0	sim	
+necroempiema	Empiema pleural à direita (x necrose pulmonar)	achado		0	não	
 neopulmaoescondida	Neoplasia pulmonar/pleural oculta por atelectasia	achado		0	sim	
 opa	Pneumonia viral (padrão sugestivo de COVID-19)	achado		0	não	
 opa1	Opacidade consolidativa no campo pulmonar inferior direito	achado		0	não	

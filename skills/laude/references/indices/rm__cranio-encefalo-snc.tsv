@@ -7,7 +7,7 @@ anomaliav	Anomalia do desenvolvimento venoso — frontal esquerda, achado incide
 arac	Sequela de aracnoidite	achado		0	não	
 aracnoideweb	Aracnoide web	achado		0	não	
 avc2	Lesões de natureza isquêmica recente	achado		0	não	
-avcirm	AVC isquêmico agudo extenso	achado		1	sim	
+avcirm	AVC isquêmico agudo extenso	achado		1	não	
 balo	Esclerose concêntrica de Baló	achado		0	não	
 blackholes	Lesões irreversíveis (“black holes”)	achado		0	sim	
 caretal	Neoplasia retal infiltrativa	achado		2	não	
@@ -27,9 +27,9 @@ emp	Doença desmielinizante com progressão	achado		0	não
 emsp	Focos de gliose/desmielinização	achado		0	sim	
 emt	Esclerose mesial temporal	achado		0	não	
 endomet12	Endometriose profunda com predomínio estromal fibrótico	achado		2	não	
-f1	Pequenas imagens de alto sinal em T2	achado		0	sim	
-f2	Fazekas 2	achado		0	sim	
-f3	Múltiplas e confluentes imagens de alto sinal	achado		0	sim	
+f1	Pequenas imagens de alto sinal em T2	achado		0	não	
+f2	Fazekas 2	achado		0	não	
+f3	Múltiplas e confluentes imagens de alto sinal	achado		0	não	
 filum	Lipoma do filum terminal	achado		0	não	
 fistulaanal	Fístula anal transesfinctérica	achado		1	não	
 gbm	Formação expansiva infiltrativa frontal esquerda com necrose e edema	achado		2	sim	
@@ -53,13 +53,13 @@ macroad	Macroadenoma hipofisário	achado		1	não
 macroad2	Conteúdo hiperproteico/hemático	achado		1	sim	
 mahipo	Má rotação hipocampal	achado		0	não	
 malagli2	Sequela de injúria isquêmica acometendo a região	achado		0	não	
-malaglis2	Encefalomalácia / gliose	achado		0	sim	
+malaglis2	Encefalomalácia / gliose	achado		0	não	
 artbocarm1	Artefatos de susceptibilidade magnética (material odontológico, RM)	achado		0	não	
 artbocarm	Artefatos de susceptibilidade magnética (material oral)	achado		0	não	
 artrm	Artefato de susceptibilidade magnética frontal (partícula metálica)	achado		0	não	
-malaglirm	Encefalomalácia/gliose (RM) — área única	achado		1	sim	
-malaglisrm	Encefalomalácia/gliose (RM) — áreas múltiplas	achado		1	sim	
-malaglisrm1	Encefalomalácia/gliose com hemossiderina (frontoparietal direita)	achado		0	sim	
+malaglirm	Encefalomalácia/gliose (RM) — área única	achado		1	não	
+malaglisrm	Encefalomalácia/gliose (RM) — áreas múltiplas	achado		1	não	
+malaglisrm1	Encefalomalácia/gliose com hemossiderina (frontoparietal direita)	achado		0	não	
 microrm	Microangiopatia/gliose (achados de RM)	achado		0	não	
 habilirm	Limitação da RM (recidiva x radionecrose)	achado		0	sim	
 avcrm	AVC isquêmico agudo têmporo-occipital direito (RM)	achado		0	não	
@@ -85,7 +85,7 @@ neoreto5	Neoplasia da transição retossigmoide	achado		3	não
 neotronco	Tumor de tronco cerebral	achado		1	não	
 neurotb	Neurotuberculose	achado		0	não	
 rmavci	AVC isquêmico de fossa posterior	achado		0	não	
-rmavci1	AVC isquêmico agudo extenso	achado		1	sim	
+rmavci1	AVC isquêmico agudo extenso	achado		1	não	
 rmcrepidermoide	Cisto epidermoide	achado		1	não	
 rmgbm	Edema vasogênico e/ou infiltração tumoral	achado		2	sim	
 rmhigroma	Higroma x hematoma subdural crônico	achado		1	não	

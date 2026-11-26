@@ -2,20 +2,20 @@
 trigger	label	tipo	par	lacunas	alternativas	titulo
 rmcoxad	RM de coxa — sem contraste, direita, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DA COXA DIREITA S/C
 rmcr	RM de encéfalo — sem contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
-rmcrad	RM de encéfalo — sem contraste, redução volumétrica e microangiopatia	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
-rmcradcc	RM de encéfalo — com contraste, redução volumétrica e microangiopatia	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+rmcrad	RM de encéfalo — sem contraste, redução volumétrica e microangiopatia	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmcradcc	RM de encéfalo — com contraste, redução volumétrica e microangiopatia	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 rmcrc	RM de encéfalo — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 rmcrc1	RM de encéfalo — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
-rmcrid	RM de encéfalo — sem contraste, idoso, redução volumétrica e microangiopatia	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
-rmcrid2	RM de encéfalo — sem contraste, idoso, focos inespecíficos de alto sinal em T2	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
-rmcridc	RM de encéfalo — com contraste, redução volumétrica e lesões de substância branca	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
-rmcridcc	RM de encéfalo — com contraste, redução volumétrica e lesões de substância branca	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+rmcrid	RM de encéfalo — sem contraste, idoso, redução volumétrica e microangiopatia	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmcrid2	RM de encéfalo — sem contraste, idoso, focos inespecíficos de alto sinal em T2	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmcridc	RM de encéfalo — com contraste, redução volumétrica e lesões de substância branca	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+rmcridcc	RM de encéfalo — com contraste, redução volumétrica e lesões de substância branca	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 rmcrrtx	RM de encéfalo — com contraste, planejamento radioterápico, laudo normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 rmdorsalid	RM de coluna torácica — sem contraste, idoso, normal com banco de frases	template		0	sim	RESSONÂNCIA MAGNÉTICA DA COLUNA TORÁCICA S/C
 rmescroto	RM de bolsa escrotal	template		0	não	RESSONÂNCIA MAGNÉTICA DE BOLSA ESCROTAL E TESTÍCULOS
 rmespondilodiscite	RM de coluna lombar — com contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR C/C
 rmesterno	RM de esterno — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DO ESTERNO S/C
-rmf1	RM de encéfalo — sem contraste, focos inespecíficos de alto sinal em T2	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmf1	RM de encéfalo — sem contraste, focos inespecíficos de alto sinal em T2	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 rmhipofise	RM de hipófise — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE HIPÓFISE - C/C
 rminterosseo	RM de braço — sem contraste	template		0	sim	RESSONÂNCIA MAGNÉTICA DO ANTEBRAÇO ESQUERDO S/C
 rmjoe	RM de joelho — sem contraste, direito, normal com banco de frases	template		0	não	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
@@ -29,8 +29,8 @@ rmlombarjv	RM de coluna lombar — sem contraste, retificação e desvio do eixo
 rmmao	RM de mão — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DA MÃO ESQUERDA S/C
 rmmulti	RM de próstata	template		2	sim	RESSONÂNCIA MAGNÉTICA MULTIPARAMÉTRICA DA PRÓSTATA
 rmomb1	RM de ombro — sem contraste, lado a preencher, sem conclusão	template		1	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO _ S/C
-rmombnl	RM de ombro — sem contraste, normal	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
-rmombp	RM de ombro — sem contraste, esquerdo, artropatia AC e glenoumeral	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
+rmombnl	RM de ombro — sem contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
+rmombp	RM de ombro — sem contraste, esquerdo, artropatia AC e glenoumeral	template		0	não	RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
 rmombro	RM de ombro — sem contraste, direito, normal com banco de frases	template		2	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 rmorb	RM de órbitas — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS C/C
 rmorbitas	RM de órbitas — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS C/C

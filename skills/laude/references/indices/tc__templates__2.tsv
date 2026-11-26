@@ -12,18 +12,18 @@ tcbraquicefalia	TC de crânio — braquicefalia posicional	template		2	não	TOMO
 tcbursiteolecrano	Bursite olecraniana com tendinopatia epicondilar	template		2	não	TOMOGRAFIA COMPUTADORIZADA DO COTOVELO DIREITO S/C
 tcccid	TC de coluna cervical — degenerativo com discopatias	template		1	não	TOMOGRAFIA COMPUTADORIZADA DA COLUNA CERVICAL S/C
 tcccid1	TC de coluna cervical — discopatias C3-C6	template		0	não	TOMOGRAFIA COMPUTADORIZADA DA COLUNA CERVICAL S/C
-tcccidvn	TC de crânio — atrofia e microangiopatia (normal para idade)	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+tcccidvn	TC de crânio — atrofia e microangiopatia (normal para idade)	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 tccharcot	TC de pé — artropatia de Charcot (Lisfranc) com fleimão/abscesso	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO PÉ ESQUERDO S/C
 tcchiari2	TC de crânio — malformação de Chiari II	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 tccoxa	TC de coxa direita — normal	template		0	não	TOMOGRAFIA COMPUTADORIZADA DA COXA DIREITA S/C
-tcfiliforme	TC de pescoço — suboclusão carotídea bilateral (opacificação filiforme)	template		2	sim	TOMOGRAFIA COMPUTADORIZADA DO PESCOÇO C/C
+tcfiliforme	TC de pescoço — suboclusão carotídea bilateral (opacificação filiforme)	template		2	não	TOMOGRAFIA COMPUTADORIZADA DO PESCOÇO C/C
 tcguiar	TC de abdome superior — guia de biópsia (relatório)	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR S/C
 tcincops	TC de crânio — granulomas calcificados (normal)	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 tcjoelhoid	TC de joelho direito — osteoartrose com derrame	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO JOELHO DIREITO S/C
-tclalcs	TC de crânio — lacunas em núcleos da base e microangiopatia	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+tclalcs	TC de crânio — lacunas em núcleos da base e microangiopatia	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 tclomid	TC de coluna lombar — alterações degenerativas com discopatias	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DA COLUNA LOMBAR S/C
 tclomidfrat	TC de coluna lombar — fratura de L2 com retropulsão	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DA COLUNA LOMBAR S/C
-tcmala	TC de crânio — encefalomalácia e lacunas em núcleos da base	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+tcmala	TC de crânio — encefalomalácia e lacunas em núcleos da base	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 tcmastoides	TC de mastoides — normal	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE MASTOIDES S/C
 tcmastoidopatiacronica	TC de mastoides — otomastoidopatia crônica bilateral	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE MASTOIDES S/C
 tcmetacerebral	TC de crânio — lesões cerebrais múltiplas (metástase vs infeccioso)	template		1	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
@@ -51,12 +51,12 @@ tctorcc	TC de tórax C/C — normal	template		0	não	TOMOGRAFIA COMPUTADORIZADA 
 tctorch1	TC de crânio — infecção congênita STORCH	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 tctorid	TC de tórax — hipertensão pulmonar (normal)	template		3	não	TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
 tctuberculose	TC de tórax — tuberculose pulmonar em atividade	template		2	não	TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
-tcvn	TC de crânio — atrofia e microangiopatia (normal para idade)	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+tcvn	TC de crânio — atrofia e microangiopatia (normal para idade)	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 tepruim1	TC de tórax e angioTC de artérias pulmonares C/C — TEP negativo	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE TÓRAX E ANGIOTOMOGRAFIA DAS ARTÉRIAS PULMONARES C/C
-transfor	TC de crânio S/C — AVC isquêmico com transformação hemorrágica	template		1	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+transfor	TC de crânio S/C — AVC isquêmico com transformação hemorrágica	template		1	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 transformacaohemo	TC de crânio S/C — transformação hemorrágica (comparativo)	template		1	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-transformer	TC de crânio S/C — AVC com transformação hemorrágica e herniação	template		2	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
-ttt	TC de crânio S/C — lacunas e microangiopatia	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+transformer	TC de crânio S/C — AVC com transformação hemorrágica e herniação	template		2	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+ttt	TC de crânio S/C — lacunas e microangiopatia	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 vertebraborboleta	TC de coluna torácica S/C — malformação vertebral (vértebra em borboleta)	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DA COLUNA TORÁCICA S/C
 tcabdscc	TC de abdome superior C/C — normal	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR C/C
 tcabdscce	TC de abdome superior C/C — normal (detalhado)	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR C/C

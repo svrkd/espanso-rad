@@ -34,7 +34,7 @@ cometab	Correlacionar com estudo metabólico	achado		0	não
 comfre	Achado incidental sem correlação clínica	fragmento		0	não	
 copel	conforme prontuário eletrônico	fragmento		0	não	
 corogrosso	Celulite/edema subcutâneo difuso	achado		0	sim	
-corogrosso1	Edema/hematoma difuso de partes moles	achado		0	sim	
+corogrosso1	Edema/hematoma difuso de partes moles	achado		0	não	
 croni	de cronicidade indeterminada	fragmento		0	não	
 descart	não podendo descartar processo inflamatório/infeccioso	fragmento		0	não	
 didi	Diagnósticos diferenciais devem ser aplicados	achado		0	não	
@@ -94,10 +94,10 @@ rst	Restante do parênquima (fragmento)	fragmento		0	não
 semais	Ausência de fraturas pós-traumáticas	achado		0	não	
 semco	Achado incidental sem correlação clínica	fragmento		0	não	
 sempar	Exame sem particularidades	achado		0	não	
-sitiopa	Edema/hematoma adjacente a sítio de fratura	achado		0	sim	
-sitiopm	Edema/hematoma adjacente a sítio de fratura	achado		0	sim	
-sitiopms	Edema/hematoma adjacente a sítios de fratura	achado		0	sim	
-sitios	Edema/hematoma adjacente a sítios de fratura	achado		0	sim	
+sitiopa	Edema/hematoma adjacente a sítio de fratura	achado		0	não	
+sitiopm	Edema/hematoma adjacente a sítio de fratura	achado		0	não	
+sitiopms	Edema/hematoma adjacente a sítios de fratura	achado		0	não	
+sitios	Edema/hematoma adjacente a sítios de fratura	achado		0	não	
 sodi	Sonda digestiva	achado		0	não	
 solu	Solução de continuidade de partes moles	fragmento		0	não	
 solucon	Solução de continuidade	fragmento		0	não	
@@ -122,7 +122,7 @@ mmo	Materiais de osteossíntese	fragmento		0	não
 rac	Realce após contraste endovenoso	fragmento		0	não	
 rmc	Realce ao meio de contraste	fragmento		0	não	
 rod	Rarefação óssea difusa	achado		0	não	
-sitio	Edema/hematoma em sítio de fratura	achado		0	sim	
+sitio	Edema/hematoma em sítio de fratura	achado		0	não	
 sne	Sonda nasoentérica	fragmento		0	não	
 acess	Resultado conforme solicitação clínica	fragmento		0	não	
 exnl	Comentário — exame normal	achado		0	não	
