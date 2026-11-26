@@ -1,0 +1,27 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+metastaseperitoneal	Metástases peritoneal, de parede abdominal e hepática	achado		3	sim	
+neuroendocrinopancreas	Tumor neuroendócrino de pâncreas/duodeno	achado		1	não	
+lesaohepaticaindeterminada	Lesão hepática indeterminada — metástase ou hemangioma	achado		1	não	
+linfomamesenterio	Doença linfoproliferativa da raiz do mesentério	achado		1	não	
+pseudomixomaperitoneal1	Pseudomixoma peritoneal com invasão do reto abdominal	achado		6	sim	
+lipossarcomaretro1	Lipossarcoma retroperitoneal	achado		3	não	
+lipossarcomaretro2	Lipossarcoma periureteral com hidroureteronefrose	achado		4	não	
+recidivapelvica1	Recidiva tumoral pélvica	achado		1	não	
+prostatainvasiva	Adenocarcinoma de próstata com invasão vesical e de vesícula seminal	achado		2	não	
+massaadrenalretro	Massa adrenal e retroperitoneal com oclusão da veia renal esquerda	achado		1	não	
+neoplasiainfantil	Neoplasia intra-abdominal disseminada na criança	achado	neoplasiainfantilc	1	sim	
+neoplasiainfantilc	Conclusão — neoplasia intra-abdominal de origem indeterminada	conclusão	neoplasiainfantil	0	não	
+tumorgerminativo	Tumor pélvico de células germinativas (neonato)	achado	tumorgerminativoc	3	não	
+tumorgerminativoc	Conclusão — massa pélvica sugestiva de tumor de células germinativas	conclusão	tumorgerminativo	0	não	
+fistulaaortica	Massa paraórtica com fístula para víscera oca	achado		2	sim	
+linfomabulky	Conglomerado linfonodal retroperitoneal bulky (linfoma)	achado		2	não	
+linfonodoatipico1	Linfonodomegalias retroperitoneais e inguinais atípicas à esquerda	achado		1	sim	
+linfonodoatipico2	Acometimento linfonodal secundário (câncer de próstata)	achado		1	não	
+linfonodoatipico3	Linfonodomegalias atípicas ilíacas e inguinais à direita	achado		2	não	
+linfomaretro	Linfoma retroperitoneal envolvendo os grandes vasos	achado		1	não	
+neoplasiacurvatura	Neoplasia gástrica da pequena curvatura	achado		2	não	
+linfomabaco	Esplenomegalia com linfonodomegalias difusas (linfoma)	achado		2	sim	
+neoplasiagastrica	Neoplasia gástrica com carcinomatose peritoneal (omental cake)	achado		3	não	
+recidivapelvica2	Recidiva tumoral em anastomose colocólica com abscesso	achado	recidivapelvica2c	4	sim	
+recidivapelvica2c	Conclusão — recidiva tumoral com abscesso intracavitário	conclusão	recidivapelvica2	0	sim	
+implanteparede	Implante neoplásico vesical na parede abdominal	achado		1	não	

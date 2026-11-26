@@ -1,0 +1,132 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+vbnl	Vesícula biliar normal	achado		0	não	
+prostanl	Próstata de aspecto normal	achado		0	não	
+alcanl	Alças intestinais sem anormalidades	achado		0	não	
+adenom	Adenoma adrenal direito	achado		2	não	
+adenom1	Nódulo adrenal indeterminado — direito	achado		2	não	
+adenoms	Adenomas adrenais bilaterais	achado		4	não	
+alarg1	Alargamento do canal inguinal direito	achado		0	não	
+alarg2	Alargamento do canal inguinal esquerdo	achado		0	não	
+alargeso	Hérnia hiatal com alargamento do hiato	achado		0	não	
+alterperfusional	Alteração perfusional hepática focal	achado		0	não	
+anna	Sobrecarga hídrica (densificação mesentérica e ascite)	achado		0	não	
+apendicitegrau4	Apendicite perfurada com abscessos periapendiculares	achado		0	não	
+apni	Apêndice cecal não individualizado	achado		0	não	
+apni1	Apêndice cecal não individualizado (recomendação)	achado		0	não	
+apnl	Apêndice cecal normal	achado		0	não	
+apnl1	Apêndice cecal no limite superior da normalidade	achado		0	não	
+artebra1	Artefatos por posicionamento dos braços (limitando fígado/baço/rins)	achado		0	não	
+bacao	Esplenomegalia homogênea — com volume	achado		1	não	
+bari	Gastroplastia redutora (bariátrica)	achado		0	não	
+bariatricacomp1	Complicação pós-bypass gástrico (hérnia interna?)	achado		0	não	
+bigpros	Aumento volumétrico da próstata — aparente	achado		0	não	
+bolabranca	Lesões corticais hiperdensas renais (indeterminadas, esquerda)	achado		0	sim	
+bolabranca1	Lesão cortical hiperdensa renal (indeterminada, direita)	achado		0	sim	
+bostao	Fecaloma/resíduos fecais acentuados	achado		0	não	
+bricker	Desvio urinário tipo Bricker	achado		0	não	
+cabaco	Calcificações esplênicas residuais	achado		0	não	
+cabaco1	Calcificação esplênica residual	achado		0	não	
+cabaco1f	Calcificação hepática residual (segmento V)	achado		0	não	
+cabacof	Calcificações hepáticas residuais	achado		0	não	
+cabacof1	Calcificação hepática residual	achado		0	não	
+calccoraliforme	Rim reduzido com cálculo coraliforme (uropatia obstrutiva crônica)	achado		3	sim	
+calcdistal	Cálculo no ureter distal com hidroureteronefrose — com densidade em UH	achado		4	não	
+calcdistald	Cálculo no ureter distal direito — fase sem contraste	achado		3	não	
+calcdistale	Cálculo no ureter distal esquerdo	achado		3	não	
+calcfoi	Hidroureteronefrose sem cálculo visível (passagem recente)	achado		1	não	
+calcioio	Cálculo em pelve renal com possível pielonefrite	achado		4	não	
+calcjup	Cálculo obstrutivo ureteral próximo à JUP	achado		4	não	
+calcjuv	Cálculo na junção ureterovesical	achado		2	não	
+calcjuv1	Cálculo na JUV/óstio ureteral	achado		2	sim	
+calcnajup	Cálculo obstrutivo na junção ureteropiélica	achado		3	não	
+calcoral	Cálculo coraliforme obstrutivo na JUP	achado		3	não	
+calccoral	Cálculo coraliforme obstrutivo na JUP	achado		3	não	
+calcoral1	Cálculo coraliforme com uropatia obstrutiva crônica	achado		3	não	
+calcorali	Cálculo coraliforme com possível pielonefrite	achado		3	sim	
+calcpode	Calcificação pélvica - possível cálculo ureteral distal	achado		2	não	
+calcpode1	Calcificação pélvica - possível cálculo ureteral (recomenda contraste)	achado		2	não	
+calculoduvidosojuv	Hidroureteronefrose com calcificação duvidosa (flebólito vs cálculo)	achado		2	não	
+calculojuv	Cálculo no ureter distal com hidroureteronefrose — com aumento volumétrico renal	achado		3	não	
+calfig	Calcificação hepática residual (lobo direito)	achado		0	não	
+caovario	Lesão cística ovariana (possível neoplasia epitelial)	achado		2	não	
+carcinomatoseperitoneal	Carcinomatose peritoneal — TC, ascite acentuada e massas omentais	achado		0	não	
+castor	Prolongamento do lobo hepático esquerdo (variante)	achado		0	não	
+cct	Suspeita de carcinoma de células transicionais (pelve renal)	achado		2	não	
+chila	Síndrome de Chilaiditi (interposição de alça cólica)	achado		0	não	
+cibo1	Cisto renal cortical subcentimétrico (Bosniak I)	achado		1	não	
+cibo1d	Cisto renal cortical direito (Bosniak I) — subcentimétrico	achado		0	não	
+cibo1e	Cisto renal cortical esquerdo (Bosniak I) — subcentimétrico	achado		0	não	
+cibo1f	Cisto hepático (template genérico)	achado		2	não	
+cibod	Cisto renal cortical direito (Bosniak I) — com medida	achado		1	não	
+ciboe	Cisto renal cortical esquerdo (Bosniak I) — com medida	achado		1	não	
+cibos	Cistos renais corticais bilaterais subcentimétricos (Bosniak I)	achado		0	não	
+cibos1	Cistos renais corticais à direita (Bosniak I)	achado		1	não	
+cibos2	Cistos renais corticais à esquerda (Bosniak I)	achado		1	não	
+cibos22	Cistos renais corticais à esquerda (Bosniak I)	achado		1	não	
+cibosdir	Cistos renais bilaterais, maior à direita (Bosniak I)	achado		1	não	
+cibosesq	Cistos renais bilaterais, maior à esquerda (Bosniak I)	achado		1	não	
+cibosf	Cistos hepáticos isolados (template genérico)	achado		2	não	
+cibosfig	Cistos hepáticos subcentimétricos esparsos	achado		0	não	
+cibosma	Cistos renais bilaterais (Bosniak I)	achado		1	não	
+cibosx	Cistos renais corticais bilaterais (template genérico)	achado		2	não	
+cirros	Hepatopatia crônica (aspecto cirrótico)	achado		0	não	
+cistobartholin	Cisto de Bartholin — TC, introito vaginal	achado		1	não	
+cistofora	Cisto renal cortical exofítico (Bosniak I)	achado		1	não	
+cistohiper	Cisto renal hiperdenso (Bosniak II)	achado		0	sim	
+cistov	Imagem hipodensa ovariana/anexial (template genérico)	achado		2	sim	
+cistovd	Imagem cística ovariana/anexial direita	achado		1	sim	
+cistove	Imagem cística ovariana/anexial esquerda	achado		1	sim	
+cistovs	Cistos ovarianos funcionais bilaterais	achado		2	sim	
+colitepseudomembranosa	Colite pseudomembranosa	achado		0	não	
+cologordo	Lipomatose submucosa do ceco/cólon ascendente	achado		0	não	
+colongordo	Lipomatose submucosa do ceco/cólon ascendente	achado		0	não	
+coringapelve	Achados inflamatórios pélvicos/enterite (DII?)	achado		0	não	
+cotuba	Distensão hidroaérea gástrica	achado		0	não	
+cotuba1	Distensão hidroaérea de alças delgadas	achado		0	não	
+cotuba2	Distensão hidroaérea gástrica e de delgado	achado		0	não	
+cotuba3	Distensão aérea de alças intestinais	achado		0	não	
+cpb	Calcificações pélvicas bilaterais	achado		0	não	
+cpvd	Cateter pielovesical direito	achado		0	não	
+cpve	Cateter pielovesical esquerdo	achado		0	não	
+csr1	Cisto de seio renal direito	achado		0	não	
+csr2	Cisto de seio renal esquerdo	achado		0	não	
+csr3	Cistos de seio renal bilaterais	achado		0	não	
+diver1	Divertículo isolado no cólon descendente	achado		0	não	
+diver2	Demais divertículos colônicos sem sinais inflamatórios	achado		0	não	
+divercontrole	Diverticulite aguda vs neoplasia (controle pós-tratamento)	achado		0	não	
+divergas	Divertículo do fundo gástrico	achado		0	não	
+diverticulocalicinal	Divertículo calicinal com cálculo/leite de cálcio	achado		2	não	
+diverticulutedemeckel	Suspeita de divertículo de Meckel	achado		0	não	
+dubofe	Sonda enteral na câmara gástrica	achado		0	não	
+duplicaureter	Duplicação ureteral esquerda	achado		0	não	
+duploj	Cateter pielovesical esquerdo	achado		0	não	
+duvidosoespessamento	Espessamento colônico duvidoso (neoplasia vs espasmo)	achado		0	não	
+eglan	Espessamento da glândula adrenal (template genérico)	achado		1	não	
+eglan1	Espessamento da glândula adrenal direita	achado		0	não	
+eglan2	Espessamento da glândula adrenal esquerda	achado		0	não	
+eglans	Espessamento das glândulas adrenais	achado		0	não	
+esteatc	Esteatose hepática (conclusão)	conclusão	esteat	0	não	
+esteat1c	Esteatose hepática leve (conclusão)	conclusão	esteat1	0	não	
+esteat2c	Esteatose hepática acentuada (conclusão)	conclusão	esteat2	0	não	
+esteat1	Esteatose hepática leve	achado	esteat1c	0	não	
+esteat2	Esteatose hepática acentuada	achado	esteat2c	0	não	
+esteatl	Esteatose hepática leve	achado		0	não	
+estenosejup	Estenose de junção ureteropiélica com hidronefrose	achado		0	sim	
+fecaloma	Fecaloma com coproestase	achado		0	não	
+ferradu	Rim em ferradura — com ventralização das pelves	achado		0	não	
+figadobranco	Fígado hiperdenso (depósito/uso medicamentoso)	achado		1	sim	
+figocis	Cistos hepáticos múltiplos — frase curta com o maior	achado		2	não	
+finesp	Imagem hepática hipodensa inespecífica	achado		1	não	
+fiobucho	Sinais de cirurgia gástrica prévia	achado		0	não	
+fiobuxo	Sinais de cirurgia gástrica prévia	achado		0	não	
+flash	Hemangioma hepático com flash filling	achado		0	não	
+flashf	Nódulo hepático com flash filling (hemangioma x metástase)	achado		1	não	
+flebocu	Calcificações pélvicas (flebólito x cálculo ureteral)	achado		0	não	
+flebocu1	Calcificação pélvica à esquerda (flebólito x cálculo)	achado		1	não	
+flebocu2	Calcificações pélvicas bilaterais indeterminadas	achado		0	não	
+flebocu3	Calcificação pélvica à direita indeterminada	achado		0	não	
+flebocu4	Calcificação pélvica com hidroureteronefrose	achado		1	não	
+flebocuzim	Hidroureteronefrose direita com calcificação pélvica	achado		1	não	
+flebopos	Cálculo no ureter distal direito — fase excretora	achado		3	não	
+halogordo	Sinal do halo de gordura colônico	achado		0	não	
+halogordura	Sinal do halo de gordura (achado normal)	achado		0	não	

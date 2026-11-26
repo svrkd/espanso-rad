@@ -1,0 +1,110 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+tzd1	Tornozelo: Sem derrame articular	achado		0	não	
+tzd2	Tornozelo: Derrame tibiotalar	achado	tzd2c	0	sim	
+tzd2c	Tornozelo: Derrame articular tibiotalar (conclusão)	conclusão	tzd2	0	não	
+tzd3	Tornozelo: Derrame na subtalar posterior	achado	tzd3c	0	sim	
+tzd3c	Tornozelo: Derrame articular na subtalar posterior (conclusão)	conclusão	tzd3	0	não	
+tzd4	Tornozelo: Derrame com sinovite	achado	tzd4c	0	sim	
+tzd4c	Tornozelo: Derrame articular com sinovite (conclusão)	conclusão	tzd4	0	não	
+tzd5	Tornozelo: Derrame talonavicular (configuração cística)	achado	tzd5c	0	não	
+tzd5c	Tornozelo: Derrame talonavicular com configuração cística (conclusão)	conclusão	tzd5	0	não	
+tzc1	Tornozelo: Tendão calcâneo normal	achado		0	não	
+tzc2	Tornozelo: Entesopatia insercional do calcâneo	achado	tzc2c	0	não	
+tzc2c	Tornozelo: Entesopatia insercional do calcâneo (conclusão)	conclusão	tzc2	0	não	
+tzc3	Tornozelo: Peritendinite do calcâneo	achado	tzc3c	0	não	
+tzc3c	Tornozelo: Peritendinite do calcâneo (conclusão)	conclusão	tzc3	0	não	
+tzc4	Tornozelo: Tendinopatia insercional do calcâneo	achado	tzc4c	0	não	
+tzc4c	Tornozelo: Tendinopatia insercional do calcâneo (conclusão)	conclusão	tzc4	0	não	
+tzc5	Tornozelo: Tendinopatia insercional do calcâneo com fissuras	achado	tzc5c	0	não	
+tzc5c	Tornozelo: Tendinopatia insercional do calcâneo com fissuras (conclusão)	conclusão	tzc5	0	não	
+tzc6	Tornozelo: Tendinopatia insercional com bursite e Haglund	achado	tzc6c	0	não	
+tzc6c	Tornozelo: Tendinopatia insercional do calcâneo com bursite retrocalcaneana e Haglund (conclusão)	conclusão	tzc6	0	não	
+tzc7	Tornozelo: Degeneração extensa do calcâneo (add-on)	achado		2	não	
+tzc8	Tornozelo: Tendinopatia não insercional do calcâneo	achado	tzc8c	0	não	
+tzc8c	Tornozelo: Tendinopatia não insercional do calcâneo (conclusão)	conclusão	tzc8	0	não	
+tzc9	Tornozelo: Rotura parcial do calcâneo	achado	tzc9c	4	sim	
+tzc9c	Tornozelo: Rotura parcial do tendão calcâneo (conclusão)	conclusão	tzc9	0	não	
+tzc10	Tornozelo: Rotura completa do calcâneo (desinserção)	achado	tzc10c	1	sim	
+tzc10c	Tornozelo: Rotura completa do tendão calcâneo (conclusão)	conclusão	tzc10	0	não	
+tzc11	Tornozelo: Rotura completa do calcâneo (transfixação do corpo)	achado	tzc11c	2	não	
+tzc11c	Tornozelo: Rotura completa do tendão calcâneo (transfixação do corpo) (conclusão)	conclusão	tzc11	0	não	
+tzc12	Tornozelo: Rotura completa do calcâneo (com equino)	achado	tzc12c	4	não	
+tzc12c	Tornozelo: Rotura completa do tendão calcâneo (conclusão)	conclusão	tzc12	0	não	
+tzc13	Tornozelo: Rotura crônica do calcâneo (fibrocicatricial)	achado	tzc13c	1	não	
+tzc13c	Tornozelo: Rotura crônica do tendão calcâneo (conclusão)	conclusão	tzc13	0	não	
+tzc14	Tornozelo: Rotura crônica do calcâneo (fibrose)	achado	tzc14c	0	não	
+tzc14c	Tornozelo: Rotura crônica do tendão calcâneo (conclusão)	conclusão	tzc14	0	não	
+tzc15	Tornozelo: Pós-operatório do calcâneo	achado	tzc15c	0	não	
+tzc15c	Tornozelo: Alterações pós-operatórias do tendão calcâneo (conclusão)	conclusão	tzc15	0	não	
+tzc16	Tendão calcâneo (rotura): Estudo direcionado para a avaliação do tendão calcâneo à _ evidencia:	achado		3	não	
+tzta1	Tornozelo: Tibial anterior normal	achado		0	não	
+tzta2	Tornozelo: Tendinopatia do tibial anterior	achado	tzta2c	0	não	
+tzta2c	Tornozelo: Tendinopatia do tibial anterior (conclusão)	conclusão	tzta2	0	não	
+tzta3	Tornozelo: Tenossinovite do tibial anterior	achado	tzta3c	0	sim	
+tzta3c	Tornozelo: Tenossinovite do tibial anterior (conclusão)	conclusão	tzta3	0	não	
+tzta4	Tornozelo: Rotura completa do tibial anterior	achado	tzta4c	1	não	
+tzta4c	Tornozelo: Rotura completa do tibial anterior (conclusão)	conclusão	tzta4	0	não	
+tzta5	Tornozelo: Bursite do tibial anterior (add-on)	achado		0	não	
+tztp1	Tornozelo: Tibial posterior normal	achado		0	não	
+tztp2	Tornozelo: Lâmina líquida fisiológica no tibial posterior	achado		0	não	
+tztp3	Tornozelo: Tenossinovite do tibial posterior	achado	tztp3c	0	não	
+tztp3c	Tornozelo: Tenossinovite do tibial posterior (conclusão)	conclusão	tztp3	0	não	
+tztp4	Tornozelo: Tenossinovite e tendinopatia do tibial posterior	achado	tztp4c	0	não	
+tztp4c	Tornozelo: Tenossinovite e tendinopatia do tibial posterior (conclusão)	conclusão	tztp4	0	não	
+tztp5	Tornozelo: Acentuada tenossinovite/tendinopatia do tibial posterior	achado	tztp5c	0	não	
+tztp5c	Tornozelo: Acentuada tenossinovite e tendinopatia do tibial posterior (conclusão)	conclusão	tztp5	0	não	
+tztp6	Tornozelo: Osso navicular acessório (add-on)	achado		0	não	
+tzf1	Tornozelo: Fibulares normais	achado		0	não	
+tzf2	Tornozelo: Tenossinovite dos fibulares	achado	tzf2c	0	não	
+tzf2c	Tornozelo: Tenossinovite dos fibulares (conclusão)	conclusão	tzf2	0	não	
+tzf3	Tornozelo: Tenossinovite e tendinopatia dos fibulares	achado	tzf3c	0	não	
+tzf3c	Tornozelo: Tenossinovite e tendinopatia dos fibulares (conclusão)	conclusão	tzf3	0	não	
+tzf4	Tornozelo: Tendinopatia do fibular longo (cuboide)	achado	tzf4c	0	não	
+tzf4c	Tornozelo: Tendinopatia do fibular longo na deflexão do cuboide (conclusão)	conclusão	tzf4	0	não	
+tzf5	Tornozelo: Rotura longitudinal do fibular curto	achado	tzf5c	1	não	
+tzf5c	Tornozelo: Rotura longitudinal do fibular curto (conclusão)	conclusão	tzf5	0	não	
+tzf6	Tornozelo: Rotura longitudinal com split do fibular curto	achado	tzf6c	1	não	
+tzf6c	Tornozelo: Rotura longitudinal com split do fibular curto (conclusão)	conclusão	tzf6	0	não	
+tzf7	Tornozelo: Sem luxação dos fibulares	achado		0	não	
+tzf8	Tornozelo: Luxação dos fibulares (insuficiência do retináculo)	achado	tzf8c	0	sim	
+tzf8c	Tornozelo: Luxação dos fibulares por insuficiência do retináculo fibular superior (conclusão)	conclusão	tzf8	0	não	
+tzf9	Tornozelo: Hipertrofia do tubérculo dos fibulares	achado	tzf9c	0	não	
+tzf9c	Tornozelo: Hipertrofia do tubérculo dos fibulares (conclusão)	conclusão	tzf9	0	não	
+tzfp1	Tornozelo: Fáscia plantar normal	achado		0	não	
+tzfp2	Tornozelo: Fasciíte plantar	achado	tzfp2c	1	não	
+tzfp2c	Tornozelo: Fasciíte plantar (conclusão)	conclusão	tzfp2	0	não	
+tzfp3	Tornozelo: Espessamento crônico da fáscia plantar	achado	tzfp3c	0	não	
+tzfp3c	Tornozelo: Espessamento crônico da fáscia plantar (conclusão)	conclusão	tzfp3	0	não	
+tzfp4	Tornozelo: Fasciopatia plantar crônica	achado	tzfp4c	0	não	
+tzfp4c	Tornozelo: Fasciopatia plantar crônica (conclusão)	conclusão	tzfp4	0	não	
+tzfp5	Tornozelo: Fibroma / fibromatose plantar	achado	tzfp5c	2	sim	
+tzfp5c	Tornozelo: Fibroma / fibromatose plantar (conclusão)	conclusão	tzfp5	0	sim	
+tzl1	Tornozelo: Edema perimaleolar lateral	achado		0	não	
+tzl2	Tornozelo: Talofibular anterior normal	achado		0	não	
+tzl3	Tornozelo: Estiramento do talofibular anterior	achado	tzl3c	0	não	
+tzl3c	Tornozelo: Estiramento do ligamento talofibular anterior (conclusão)	conclusão	tzl3	0	não	
+tzl4	Tornozelo: Lesão parcial do talofibular anterior	achado	tzl4c	0	não	
+tzl4c	Tornozelo: Lesão parcial do ligamento talofibular anterior (conclusão)	conclusão	tzl4	0	não	
+tzl5	Tornozelo: Lesão completa do talofibular anterior	achado	tzl5c	0	não	
+tzl5c	Tornozelo: Lesão completa do ligamento talofibular anterior (conclusão)	conclusão	tzl5	0	não	
+tzl6	Tornozelo: Rotura completa do talofibular anterior (desinserção)	achado	tzl6c	0	não	
+tzl6c	Tornozelo: Rotura completa do ligamento talofibular anterior (conclusão)	conclusão	tzl6	0	não	
+tzl7	Tornozelo: Lesão do talofibular anterior com avulsão óssea	achado	tzl7c	0	não	
+tzl7c	Tornozelo: Lesão do ligamento talofibular anterior com avulsão óssea (conclusão)	conclusão	tzl7	0	não	
+tzl8	Tornozelo: Lesão de alto grau do talofibular anterior	achado	tzl8c	0	não	
+tzl8c	Tornozelo: Lesão de alto grau do ligamento talofibular anterior (conclusão)	conclusão	tzl8	0	não	
+tzl9	Tornozelo: Sugerir correlação com exame físico (agudo)	achado		0	não	
+tzl10	Tornozelo: Rotura crônica do talofibular anterior	achado	tzl10c	0	não	
+tzl10c	Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão)	conclusão	tzl10	0	não	
+tzl11	Tornozelo: Talofibular anterior não caracterizado (rotura crônica)	achado	tzl11c	0	não	
+tzl11c	Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão)	conclusão	tzl11	0	não	
+tzl12	Tornozelo: Talofibular anterior cicatricial	achado	tzl12c	0	não	
+tzl12c	Tornozelo: Alterações cicatriciais do ligamento talofibular anterior (conclusão)	conclusão	tzl12	0	não	
+tzl13	Tornozelo: Afilamento cicatricial do talofibular anterior	achado	tzl13c	0	não	
+tzl13c	Tornozelo: Afilamento cicatricial do ligamento talofibular anterior (conclusão)	conclusão	tzl13	0	não	
+tzl14	Tornozelo: Correlação para suficiência ligamentar (crônico)	achado		0	não	
+tzl15	Tornozelo: Fragmento avulsivo no maléolo lateral (add-on)	achado		1	não	
+tzo1	Tornozelo: Osteófitos anteriores da tibiotalar	achado	tzo1c	0	não	
+tzo1c	Tornozelo: Osteófitos anteriores da articulação tibiotalar (conclusão)	conclusão	tzo1	0	não	
+tzo2	Tornozelo: Alterações degenerativas do mediopé	achado	tzo2c	0	não	
+tzo2c	Tornozelo: Alterações degenerativas do mediopé (conclusão)	conclusão	tzo2	0	não	

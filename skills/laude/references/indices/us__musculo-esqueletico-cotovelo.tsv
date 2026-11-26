@@ -1,0 +1,78 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+cot1	Cotovelo: Técnica — exame direcionado	achado		0	sim	
+cod1	Cotovelo: Sem derrame articular	achado		0	não	
+cod2	Cotovelo: Discreto derrame articular	achado	cod2c	0	não	
+cod2c	Cotovelo: Discreto derrame articular (conclusão)	conclusão	cod2	0	não	
+cod3	Cotovelo: Moderado derrame articular	achado	cod3c	0	não	
+cod3c	Cotovelo: Moderado derrame articular (conclusão)	conclusão	cod3	0	não	
+cod4	Cotovelo: Derrame acentuado com sinovite	achado	cod4c	0	não	
+cod4c	Cotovelo: Acentuado derrame articular com sinovite (conclusão)	conclusão	cod4	0	não	
+coe1	Cotovelo: Extensores e flexores normais	achado		0	não	
+coe2	Cotovelo: Heterogeneidade incipiente dos extensores	achado	coe2c	0	não	
+coe2c	Cotovelo: Discreta heterogeneidade da origem comum dos extensores, a correlacionar clinicamente (conclusão)	conclusão	coe2	0	não	
+coe3	Cotovelo: Epicondilopatia lateral	achado	coe3c	0	não	
+coe3c	Cotovelo: Epicondilopatia lateral (conclusão)	conclusão	coe3	0	não	
+coe4	Cotovelo: Epicondilopatia lateral com fissuras	achado	coe4c	0	não	
+coe4c	Cotovelo: Epicondilopatia lateral com degeneração e fissuras intrassubstanciais (conclusão)	conclusão	coe4	0	não	
+coe5	Cotovelo: Epicondilopatia lateral com finas roturas laminares	achado	coe5c	0	não	
+coe5c	Cotovelo: Epicondilopatia lateral com finas roturas laminares (conclusão)	conclusão	coe5	0	não	
+coe6	Cotovelo: Epicondilopatia lateral com rotura parcial	achado	coe6c	1	não	
+coe6c	Cotovelo: Epicondilopatia lateral com rotura parcial (conclusão)	conclusão	coe6	0	não	
+coe7	Cotovelo: Epicondilopatia lateral com rotura de alto grau	achado	coe7c	0	sim	
+coe7c	Cotovelo: Epicondilopatia lateral com rotura de alto grau e lesão do complexo ligamentar lateral (conclusão)	conclusão	coe7	0	não	
+coe8	Cotovelo: Epicondilopatia lateral crônica (entesopatia)	achado	coe8c	0	não	
+coe8c	Cotovelo: Epicondilopatia lateral crônica com entesopatia (conclusão)	conclusão	coe8	0	não	
+coe9	Cotovelo: Tendinopatia calcária dos extensores	achado	coe9c	1	não	
+coe9c	Cotovelo: Tendinopatia calcária da origem comum dos extensores (conclusão)	conclusão	coe9	0	não	
+cotr1	Cotovelo: Tríceps normal	achado		0	não	
+cotr2	Cotovelo: Entesopatia insercional do tríceps	achado	cotr2c	0	não	
+cotr2c	Cotovelo: Entesopatia insercional do tríceps (conclusão)	conclusão	cotr2	0	não	
+cotr3	Cotovelo: Tendinopatia e entesopatia do tríceps	achado	cotr3c	0	não	
+cotr3c	Cotovelo: Tendinopatia e entesopatia insercional do tríceps (conclusão)	conclusão	cotr3	0	não	
+cob1	Cotovelo: Bíceps distal normal	achado		0	não	
+cob2	Cotovelo: Tendinopatia do bíceps distal	achado	cob2c	0	não	
+cob2c	Cotovelo: Tendinopatia da inserção distal do bíceps braquial (conclusão)	conclusão	cob2	0	não	
+cob3	Cotovelo: Tendinopatia do bíceps distal com degeneração	achado	cob3c	0	não	
+cob3c	Cotovelo: Tendinopatia da inserção distal do bíceps braquial com degeneração intrassubstancial (conclusão)	conclusão	cob3	0	não	
+cob4	Cotovelo: Rotura parcial do bíceps distal	achado	cob4c	1	não	
+cob4c	Cotovelo: Rotura parcial da inserção distal do bíceps braquial (conclusão)	conclusão	cob4	0	não	
+cob5	Cotovelo: Rotura de alto grau do bíceps distal	achado	cob5c	0	não	
+cob5c	Cotovelo: Rotura de alto grau da inserção distal do bíceps braquial (conclusão)	conclusão	cob5	0	não	
+cob6	Cotovelo: Rotura completa do bíceps distal (tuberosidade radial)	achado	cob6c	1	sim	
+cob6c	Cotovelo: Rotura completa com desinserção distal do bíceps braquial (coto à tuberosidade radial) (conclusão)	conclusão	cob6	0	não	
+cob7	Cotovelo: Rotura completa do bíceps distal (prega cubital)	achado	cob7c	1	sim	
+cob7c	Cotovelo: Rotura completa com desinserção distal do bíceps braquial (coto à prega cubital) (conclusão)	conclusão	cob7	0	não	
+cob8	Cotovelo: Rotura da aponeurose bicipital	achado	cob8c	0	não	
+cob8c	Cotovelo: Rotura da aponeurose bicipital (conclusão)	conclusão	cob8	0	não	
+cob9	Cotovelo: Bursite bicipitorradial	achado	cob9c	0	não	
+cob9c	Cotovelo: Bursite bicipitorradial (conclusão)	conclusão	cob9	0	não	
+cou1	Cotovelo: Nervo ulnar normal	achado		0	não	
+cou2	Cotovelo: Espessamento do nervo ulnar (túnel cubital)	achado	cou2c	0	não	
+cou2c	Cotovelo: Espessamento do nervo ulnar no túnel cubital (conclusão)	conclusão	cou2	0	não	
+cou3	Cotovelo: Espessamento do nervo ulnar com área de secção	achado	cou3c	1	não	
+cou3c	Cotovelo: Espessamento do nervo ulnar no túnel cubital, com área de secção transversa aumentada (conclusão)	conclusão	cou3	0	não	
+cou4	Cotovelo: Ancôneo epitroclear	achado	cou4c	0	não	
+cou4c	Cotovelo: Ancôneo epitroclear (conclusão)	conclusão	cou4	0	não	
+cobo1	Cotovelo: Bursa olecraniana normal	achado		0	não	
+cobo2	Cotovelo: Bursite olecraniana	achado	cobo2c	0	não	
+cobo2c	Cotovelo: Bursite olecraniana (conclusão)	conclusão	cobo2	0	não	
+cobo3	Cotovelo: Bursite olecraniana com sinovite	achado	cobo3c	0	não	
+cobo3c	Cotovelo: Bursite olecraniana com sinovite (conclusão)	conclusão	cobo3	0	não	
+cobo4	Cotovelo: Bursite olecraniana infecciosa	achado	cobo4c	0	não	
+cobo4c	Cotovelo: Bursite olecraniana de provável etiologia infecciosa (conclusão)	conclusão	cobo4	0	não	
+cobo5	Cotovelo: Bursite olecraniana por microcristais	achado	cobo5c	0	sim	
+cobo5c	Cotovelo: Bursite olecraniana por provável depósito de microcristais (conclusão)	conclusão	cobo5	0	não	
+codi1	Cotovelo: Neuropatia do interósseo posterior	achado	codi1c	0	não	
+codi1c	Cotovelo: Neuropatia compressiva do interósseo posterior (arcada do supinador) (conclusão)	conclusão	codi1	0	não	
+codi2	Cotovelo: Linfonodopatia (doença da arranhadura do gato)	achado	codi2c	1	não	
+codi2c	Cotovelo: Linfonodopatia de provável origem infecciosa (considerar doença da arranhadura do gato) (conclusão)	conclusão	codi2	0	não	
+codi3	Cotovelo: Lipoma	achado	codi3c	0	sim	
+codi3c	Cotovelo: Nódulo de aspecto lipomatoso (lipoma) (conclusão)	conclusão	codi3	0	não	
+codi4	Cotovelo: Nódulo neural do nervo mediano	achado	codi4c	0	não	
+codi4c	Cotovelo: Nódulo neural do nervo mediano (conclusão)	conclusão	codi4	0	não	
+codi5	Cotovelo: Artropatia inflamatória	achado	codi5c	0	não	
+codi5c	Cotovelo: Artropatia inflamatória com sinovite e erosões marginais (conclusão)	conclusão	codi5	0	não	
+codi6	Cotovelo: Artropatia degenerativa	achado	codi6c	1	não	
+codi6c	Cotovelo: Artropatia degenerativa com corpos livres intra-articulares (conclusão)	conclusão	codi6	0	não	
+codi7	Cotovelo: Pós-operatório do bíceps distal	achado	codi7c	0	não	
+codi7c	Cotovelo: Alterações pós-operatórias do tendão distal do bíceps braquial (conclusão)	conclusão	codi7	0	não	

@@ -1,0 +1,16 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+mgk1	Mama (calcificações): redondas isoladas difusas (benignas)	achado		0	não	
+mgk2	Mama (calcificações): vasculares (benignas)	achado		0	não	
+mgk3	Mama (calcificações): grosseiras em pipoca (fibroadenoma)	achado		1	sim	
+mgk4	Mama (calcificações): em bastão/secretórias (benignas)	achado		0	não	
+mgk5	Mama (calcificações): distróficas (benignas)	achado		1	sim	
+mgk6	Mama (calcificações): leite de cálcio (benignas)	achado		0	não	
+mgk7	Mama (calcificações): cutâneas (benignas)	achado		0	não	
+mgk8	Mama (calcificações): finas pleomórficas agrupadas (suspeitas) (achado descritivo)	achado	mgk8c	2	sim	
+mgk8c	Mama (calcificações): finas pleomórficas agrupadas (suspeitas)	conclusão	mgk8	0	sim	
+mgk9	Mama (calcificações): finas lineares/ramificadas segmentares (suspeitas) (achado descritivo)	achado	mgk9c	1	sim	
+mgk9c	Mama (calcificações): finas lineares/ramificadas segmentares (suspeitas)	conclusão	mgk9	0	sim	
+mgk10	Mama (calcificações): amorfas agrupadas (suspeitas) (achado descritivo)	achado	mgk10c	2	sim	
+mgk10c	Mama (calcificações): amorfas agrupadas (suspeitas)	conclusão	mgk10	0	sim	
+mgk11	Mama (calcificações): grosseiras heterogêneas (achado descritivo)	achado		1	sim	
+mgkt	Mama (calcificações): template parametrizado (morfologia/distribuição)	achado		1	sim	

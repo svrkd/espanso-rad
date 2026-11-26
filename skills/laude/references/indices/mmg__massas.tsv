@@ -1,0 +1,11 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+mgn1	Mama (massa): massa de aspecto benigno (oval, circunscrita, isodensa) (achado descritivo)	achado	mgn1c	3	sim	
+mgn1c	Mama (massa): massa de aspecto benigno	conclusão	mgn1	0	sim	
+mgn2	Mama (massa): massa provavelmente benigna (oval/redonda, circunscrita) (achado descritivo)	achado	mgn2c	3	sim	
+mgn2c	Mama (massa): massa provavelmente benigna	conclusão	mgn2	0	sim	
+mgn3	Mama (massa): massa suspeita (irregular, espiculada, alta densidade) (achado descritivo)	achado	mgn3c	3	sim	
+mgn3c	Mama (massa): massa de características suspeitas	conclusão	mgn3	0	sim	
+mgn4	Mama (massa): massa contendo gordura (hamartoma/linfonodo/cisto oleoso)	achado		2	sim	
+mgns	Mama (massas): múltiplas massas circunscritas bilaterais (padrão benigno) (achado descritivo)	achado	mgnsc	0	não	
+mgnsc	Mama (massas): múltiplas massas circunscritas bilaterais (padrão benigno)	conclusão	mgns	0	não	
+mgnt	Mama (massa): template parametrizado de massa (forma/margem/densidade)	achado		3	sim	

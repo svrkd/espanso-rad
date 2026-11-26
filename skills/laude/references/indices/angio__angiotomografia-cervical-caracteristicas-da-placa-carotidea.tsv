@@ -1,0 +1,9 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+placaespessa	Placa carotídea com espessura ≥ 0,3 cm (Carotid Plaque-RADS 3)	achado	placaespessac	3	não	
+placaespessac	Conclusão — placa carotídea espessa (Plaque-RADS 3)	conclusão	placaespessa	1	não	
+placaulcerada	Placa carotídea ulcerada (Carotid Plaque-RADS 3c)	achado	placaulceradac	3	não	
+placaulceradac	Conclusão — placa carotídea ulcerada (Plaque-RADS 3c)	conclusão	placaulcerada	1	não	
+trombocarotida	Trombo intraluminal carotídeo (Carotid Plaque-RADS 4c)	achado	trombocarotidac	2	não	
+trombocarotidac	Conclusão — trombo intraluminal carotídeo (Plaque-RADS 4c)	conclusão	trombocarotida	1	não	
+webcarotida	Web carotídeo (septo intimal no bulbo)	achado	webcarotidac	2	não	
+webcarotidac	Conclusão — web carotídeo	conclusão	webcarotida	1	não	

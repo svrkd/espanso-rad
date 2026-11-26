@@ -1,0 +1,45 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+papilaespessada	Dilatação de vias biliares com espessamento da papila duodenal	achado	papilaespessadac	1	não	
+papilaespessadac	Conclusão — papilite versus neoplasia da papila duodenal	conclusão	papilaespessada	0	não	
+pneumatosegastrica1	Pneumatose gástrica com gás no sistema porta	achado		0	sim	
+linfomagastrico1	Linfoma gástrico com massa antral volumosa	achado		3	não	
+linfomagastrico2	Espessamento gástrico difuso com linfonodomegalias (linfoma)	achado	linfomagastrico2c	1	não	
+linfomagastrico2c	Conclusão — neoplasia gástrica, destacando-se linfoma	conclusão	linfomagastrico2	0	não	
+neoplasiaantral1	Neoplasia gástrica antropilórica (CA ou linfoma MALT)	achado		0	não	
+metastasehipervascular	Implantes hepáticos secundários com realce arterial	achado		2	não	
+neoplasiaantral2	Neoplasia gástrica antropilórica com linfonodomegalias necróticas	achado		2	sim	
+adenocarcinomagastrico	Adenocarcinoma gástrico com invasão pancreática	achado		0	não	
+linfonodogastrico	Linfonodomegalias abdominais em neoplasia gástrica	achado		1	não	
+carcinomatoseperitoneal3	Carcinomatose peritoneal com ascite e implantes omentais	achado		0	não	
+metastasehipovascular	Metástases hepáticas múltiplas hipovasculares	achado		1	não	
+hiatoalargado	Alargamento do hiato esofágico	achado		0	não	
+perfuracaogastrica	Abdome agudo perfurativo gastroduodenal	achado		1	não	
+antroinflamado	Processo inflamatório antropilórico e duodenal	achado		0	sim	
+ulceragastrica1	Úlcera gástrica perfurada com hidropneumoperitônio	achado		0	não	
+pneumatosegastrica2	Pneumatose gástrica de provável origem isquêmica	achado		0	não	
+ulceragastrica2	Úlcera gástrica perfurada com provável fístula gastrocólica	achado	ulceragastrica2c	1	não	
+ulceragastrica2c	Conclusão — abdome agudo perfurativo com fístula gastrocólica	conclusão	ulceragastrica2	0	não	
+neoplasiaantral3	Neoplasia gástrica antropilórica com disseminação omentoperitoneal	achado	neoplasiaantral3c	1	sim	
+neoplasiaantral3c	Conclusão — neoplasia gástrica com disseminação secundária	conclusão	neoplasiaantral3	0	não	
+estomagoespessado	Espessamento parietal gástrico suspeito de neoplasia	achado		0	não	
+inflamacaoduodenopancreatica	Processo inflamatório duodenopancreático indeterminado	achado		0	não	
+ulceraduodenal1	Úlcera duodenal perfurada	achado		0	não	
+duodenoespessado1	Espessamento duodenal — duodenite ou neoplasia	achado		0	não	
+volvogastrico	Volvo gástrico com hérnia diafragmática	achado		0	não	
+neoplasiabulbo	Neoplasia do bulbo duodenal	achado		0	não	
+ulceragastrica3	Úlcera gástrica perfurada bloqueada (complementação com contraste)	achado		0	não	
+esofagodistendido	Distensão esofágica com conteúdo líquido	achado		0	não	
+ulceragastrica4	Abdome agudo perfurativo por úlcera gástrica	achado		0	sim	
+massaretro	Massa retroperitoneal e mesentérica indeterminada	achado		1	sim	
+gistgastrico1	GIST gástrico com invasão pancreática e duodenal	achado	gistgastrico1c	1	sim	
+gistgastrico1c	Conclusão — GIST gástrico com metástases peritoneal e hepática	conclusão	gistgastrico1	0	não	
+gistgastrico2	GIST da pequena curvatura gástrica	achado		1	sim	
+gistgastrico3	GIST gástrico exofítico com implantes peritoneais	achado		2	não	
+linfomagastrico3	Linfoma gástrico com espessamento parietal difuso	achado		0	não	
+neoplasiafundo	Neoplasia gástrica do fundo e corpo	achado		0	não	
+ulceraduodenal2	Abdome agudo perfurativo por úlcera duodenal	achado		1	não	
+fistulagastroesplenica	Neoplasia gástrica com fístula gastroesplênica	achado		0	sim	
+colecaoduodenal	Coleção em contato com o duodeno e fístula cutânea	achado		0	não	
+hematomaduodenal	Hematoma duodenal	achado		0	não	
+diverticuliteduodenal	Diverticulite duodenal	achado		0	sim	
+liniteplastica	Linite plástica	achado		0	não	

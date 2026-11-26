@@ -1,0 +1,15 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+pm1	Parede abdominal/partes moles: Hérnia abdominal (achado descritivo)	achado	pm1c	2	sim	
+pm1c	Parede abdominal/partes moles: Hérnia abdominal	conclusão	pm1	0	não	
+pm2	Parede abdominal/partes moles: Imagem nodular de limites parcialmente definidos e ecogenicidade semelhante ao tecido... (achado descritivo)	achado	pm2c	1	não	
+pm2c	Parede abdominal/partes moles: Imagem nodular de limites parcialmente definidos e ecogenicidade semelhante ao tecido...	conclusão	pm2	0	não	
+pm3	Parede abdominal/partes moles: coleção com edema adjacente (achado descritivo)	achado	pm3c	2	não	
+pm3c	Parede abdominal/partes moles: Imagem heterogênea, predominantemente hipoecogênica, de limites parcialmente definidos e...	conclusão	pm3	0	não	
+diastase1	Parede abdominal (diástase de retos): Diástase do músculo reto abdominal (achado descritivo)	achado	diastase1c	1	não	
+diastase1c	Parede abdominal (diástase de retos): Diástase do músculo reto abdominal	conclusão	diastase1	0	não	
+pm6	Parede abdominal (diástase de retos): Diástase do músculo reto abdominal (achado descritivo)	achado	pm6c	1	não	
+pm6c	Parede abdominal (diástase de retos): Diástase do músculo reto abdominal	conclusão	pm6	0	não	
+usedema	Partes moles (edema): Espessamento e hiperecogenicidade da pele e do tecido celular subcutâneo, com lâminas...	achado		0	não	
+pm5	Parede abdominal/partes moles: Espessamento e hiperecogenicidade da pele e do tecido celular subcutâneo, com lâminas...	achado		0	não	
+pm4	Parede abdominal/partes moles: Imagem cística de conteúdo hipoecogênico, sem fluxo vascular interno ao estudo Doppler... (achado descritivo)	achado	pm4c	0	não	
+pm4c	Parede abdominal/partes moles: Imagem cística de conteúdo hipoecogênico, sem fluxo vascular interno ao estudo Doppler...	conclusão	pm4	0	não	

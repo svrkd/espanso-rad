@@ -1,0 +1,15 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+flapcarotida	Dissecção da artéria carótida interna cervical (estenose)	achado	flapcarotidac	4	não	
+flapcarotidac	Conclusão — dissecção da carótida interna cervical	conclusão	flapcarotida	1	não	
+flapcarotida2	Dissecção da artéria carótida interna cervical (oclusão afilada)	achado	flapcarotida2c	2	não	
+flapcarotida2c	Conclusão — dissecção da carótida interna com oclusão	conclusão	flapcarotida2	1	não	
+flapvertebral	Dissecção da artéria vertebral cervical (estenose)	achado	flapvertebralc	4	não	
+flapvertebralc	Conclusão — dissecção da artéria vertebral	conclusão	flapvertebral	2	não	
+flapvertebral2	Dissecção da artéria vertebral cervical (oclusão)	achado	flapvertebral2c	3	não	
+flapvertebral2c	Conclusão — dissecção da artéria vertebral com oclusão	conclusão	flapvertebral2	2	não	
+colarcarotida	Displasia fibromuscular multifocal da carótida interna (colar de contas)	achado	colarcarotidac	1	não	
+colarcarotidac	Conclusão — displasia fibromuscular carotídea	conclusão	colarcarotida	1	não	
+pseudocarotida	Pseudoaneurisma cervical (carótida ou vertebral)	achado	pseudocarotidac	5	não	
+pseudocarotidac	Conclusão — pseudoaneurisma cervical	conclusão	pseudocarotida	1	não	
+aneucarotida	Aneurisma da artéria carótida extracraniana	achado	aneucarotidac	8	não	
+aneucarotidac	Conclusão — aneurisma da artéria carótida extracraniana	conclusão	aneucarotida	2	não	

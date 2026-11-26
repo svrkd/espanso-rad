@@ -1,0 +1,116 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+axlb	Mama (linfonodos axilares): Linfonodos de aspecto habitual nos prolongamentos axilares	achado		0	não	
+axle	Mama (linfonodo axilar esquerdo): Linfonodo de aspecto habitual no prolongamento axilar esquerdo	achado		0	não	
+axld	Mama (linfonodo axilar direito): Linfonodo de aspecto habitual no prolongamento axilar direito	achado		0	não	
+mms1	Mama (cistos): Cistos subcentimétricos esparsos por ambas as mamas	achado		0	não	
+ma3	Mama (nódulo): oval, circunscrito, paralelo (achado descritivo)	achado	ma3c	5	não	
+usnc	Mama (nódulo): conclusão genérica	achado		1	não	
+usncs	Mama (nódulos): conclusão genérica	achado		1	não	
+ma1	Mama (cistos): Cistos subcentimétricos esparsos por ambas as mamas	achado		0	não	
+ma11	Mama (cistos): Cistos subcentimétricos esparsos pela mama direita	achado		0	não	
+ma12	Mama (cistos): Cistos subcentimétricos esparsos pela mama esquerda	achado		0	não	
+ma3c	Mama (nódulo): conclusão genérica	conclusão	ma3	1	não	
+ma3s	Mama: múltiplos nódulos ovais circunscritos (dois ou mais sítios)	achado	ma3sc	10	não	
+ma3sc	Mama (nódulos): conclusão genérica	conclusão	ma3s	1	não	
+ma4	Mama: múltiplos nódulos ovais circunscritos (dois ou mais sítios)	achado	ma4c	10	não	
+ma4c	Mama (nódulos): conclusão genérica	conclusão	ma4	1	não	
+ma5	Mama: Microcistos agrupados (achado descritivo)	achado	ma5c	5	não	
+ma5c	Mama: Microcistos agrupados	conclusão	ma5	1	não	
+ma6	Mama: Microcistos agrupados bilaterais (achado descritivo)	achado	ma6c	3	não	
+ma6c	Mama: Microcistos agrupados bilaterais	conclusão	ma6	0	não	
+ma13	Mama (US): ecotextura homogênea adiposa	achado		0	não	
+ma14	Mama (US): ecotextura heterogênea	achado		0	não	
+ma15	Mama (US): ecotextura homogênea fibroglandular	achado		0	não	
+ma16	Mama (US): componente glandular mínimo (<25%, BI-RADS v2025)	achado		0	não	
+ma17	Mama (US): componente glandular leve (25–49%, BI-RADS v2025)	achado		0	não	
+ma18	Mama (US): componente glandular moderado (50–74%, BI-RADS v2025)	achado		0	não	
+ma19	Mama (US): componente glandular acentuado (≥75%, BI-RADS v2025)	achado		0	não	
+ma20	Mama (US): pele e subcutâneo preservados	achado		0	não	
+ma21	Mama (US): ausência de lesões focais	achado		0	não	
+ma22	Mama (US): regiões retroareolares preservadas	achado		0	não	
+ma23	Mama (US): ausência de correspondente para achado palpável	achado		3	não	
+ma24	Mama (US): ausência de correspondente para achado mamográfico	achado		3	não	
+ma25	Mama (US): nódulo oval circunscrito e paralelo	achado	ma25c	7	não	
+ma25c	Mama (US): nódulo oval circunscrito e paralelo (conclusão)	conclusão	ma25	1	não	
+ma26	Mama (US): nódulo lobulado circunscrito e paralelo	achado	ma26c	7	não	
+ma26c	Mama (US): nódulo lobulado circunscrito e paralelo (conclusão)	conclusão	ma26	1	não	
+ma27	Mama (US): nódulo redondo circunscrito	achado	ma27c	7	não	
+ma27c	Mama (US): nódulo redondo circunscrito (conclusão)	conclusão	ma27	1	não	
+ma28	Mama (US): nódulo irregular de margem indistinta	achado	ma28c	7	não	
+ma28c	Mama (US): nódulo irregular de margem indistinta (conclusão)	conclusão	ma28	1	não	
+ma29	Mama (US): nódulo de margem microlobulada	achado	ma29c	7	sim	
+ma29c	Mama (US): nódulo de margem microlobulada (conclusão)	conclusão	ma29	1	não	
+ma30	Mama (US): nódulo de margem angular	achado	ma30c	7	não	
+ma30c	Mama (US): nódulo de margem angular (conclusão)	conclusão	ma30	1	não	
+ma31	Mama (US): nódulo espiculado e não paralelo	achado	ma31c	7	não	
+ma31c	Mama (US): nódulo espiculado e não paralelo (conclusão)	conclusão	ma31	1	não	
+ma32	Mama (US): nódulo hiperecogênico	achado	ma32c	7	sim	
+ma32c	Mama (US): nódulo hiperecogênico (conclusão)	conclusão	ma32	1	não	
+ma33	Mama (US): nódulo isoecogênico	achado	ma33c	7	sim	
+ma33c	Mama (US): nódulo isoecogênico (conclusão)	conclusão	ma33	1	não	
+ma34	Mama (US): nódulo heterogêneo	achado	ma34c	7	sim	
+ma34c	Mama (US): nódulo heterogêneo (conclusão)	conclusão	ma34	1	não	
+ma35	Mama (US): nódulo misto sólido e cístico	achado	ma35c	7	sim	
+ma35c	Mama (US): nódulo misto sólido e cístico (conclusão)	conclusão	ma35	1	não	
+ma36	Mama (US): nódulos circunscritos múltiplos bilaterais	achado		0	não	
+ma37	Mama (US): nódulo parametrizado (descritores v2025)	achado	ma37c	7	sim	
+ma37c	Mama (US): nódulo parametrizado (descritores v2025) (conclusão)	conclusão	ma37	1	não	
+ma39	Mama (US): cisto simples	achado	ma39c	6	sim	
+ma39c	Mama (US): cisto simples (conclusão)	conclusão	ma39	1	não	
+ma40	Mama (US): cistos simples múltiplos bilaterais	achado	ma40c	4	não	
+ma40c	Mama (US): cistos simples múltiplos bilaterais (conclusão)	conclusão	ma40	0	não	
+ma41	Mama (US): cisto complicado isolado	achado	ma41c	6	não	
+ma41c	Mama (US): cisto complicado isolado (conclusão)	conclusão	ma41	1	não	
+ma42	Mama (US): cistos complicados múltiplos bilaterais	achado		0	não	
+ma43	Mama (US): microcistos agrupados típicos	achado	ma43c	6	não	
+ma43c	Mama (US): microcistos agrupados típicos (conclusão)	conclusão	ma43	1	não	
+ma44	Mama (US): microcistos com margem indistinta	achado		6	não	
+ma45	Mama (US): nódulo misto com componente sólido mural	achado	ma45c	7	não	
+ma45c	Mama (US): nódulo misto com componente sólido mural (conclusão)	conclusão	ma45	1	não	
+ma47	Mama (US): lesão não massa focal	achado	ma47c	6	não	
+ma47c	Mama (US): lesão não massa focal (conclusão)	conclusão	ma47	1	não	
+ma48	Mama (US): lesão não massa linear	achado	ma48c	4	não	
+ma48c	Mama (US): lesão não massa linear (conclusão)	conclusão	ma48	1	não	
+ma49	Mama (US): lesão não massa segmentar com focos ecogênicos	achado	ma49c	5	não	
+ma49c	Mama (US): lesão não massa segmentar com focos ecogênicos (conclusão)	conclusão	ma49	1	não	
+ma50	Mama (US): lesão não massa regional	achado	ma50c	2	não	
+ma50c	Mama (US): lesão não massa regional (conclusão)	conclusão	ma50	1	não	
+ma52	Mama (US): microcalcificações em nódulo	achado		3	não	
+ma53	Mama (US): microcalcificações fora de nódulo	achado		3	não	
+ma54	Mama (US): microcalcificações intraductais	achado		3	não	
+ma55	Mama (US): macrocalcificação em nódulo	achado		3	não	
+ma56	Mama (US): reforço acústico posterior	achado		0	não	
+ma57	Mama (US): sombra acústica posterior	achado		0	não	
+ma58	Mama (US): pseudocápsula ecogênica fina	achado		0	não	
+ma59	Mama (US): halo ecogênico espesso (rind; margem não circunscrita)	achado		1	não	
+ma60	Mama (US): distorção arquitetural	achado		4	não	
+ma61	Mama (US): edema mamário	achado		1	não	
+ma62	Mama (US): espessamento cutâneo	achado		3	sim	
+ma63	Mama (US): retração cutânea ou papilar	achado		1	sim	
+ma64	Mama (US): vascularização interna	achado		0	não	
+ma65	Mama (US): vascularização periférica	achado		0	não	
+ma66	Mama (US): ausência de fluxo detectável	achado		0	não	
+ma67	Mama (US): ectasia ductal simples	achado		1	não	
+ma68	Mama (US): ducto dilatado com debris	achado		2	não	
+ma69	Mama (US): nódulo intraductal vascularizado	achado		6	não	
+ma70	Mama (US): dilatação ductal focal com alteração parietal	achado		4	não	
+ma71	Mama (US): lesão cutânea com conexão dérmica	achado		5	não	
+ma72	Mama (US): coleção pós-operatória avascular	achado		4	não	
+ma73	Mama (US): coleção complexa com alterações inflamatórias	achado		5	não	
+ma74	Mama (US): necrose gordurosa suspeitada	achado		5	sim	
+ma75	Mama (US): linfonodo intramamário típico	achado		4	não	
+ma76	Mama (US): parênquima glandular focal proeminente	achado		2	não	
+ma77	Mama (US): linfonodos axilares de morfologia habitual	achado		0	não	
+ma78	Mama (US): espessamento cortical difuso de linfonodo	achado	ma78c	3	não	
+ma78c	Mama (US): espessamento cortical difuso de linfonodo (conclusão)	conclusão	ma78	1	não	
+ma79	Mama (US): espessamento cortical focal de linfonodo	achado	ma79c	3	não	
+ma79c	Mama (US): espessamento cortical focal de linfonodo (conclusão)	conclusão	ma79	1	não	
+ma80	Mama (US): linfonodo arredondado sem hilo	achado	ma80c	2	não	
+ma80c	Mama (US): linfonodo arredondado sem hilo (conclusão)	conclusão	ma80	1	não	
+ma81	Mama (US): vascularização cortical de linfonodo	achado	ma81c	2	não	
+ma81c	Mama (US): vascularização cortical de linfonodo (conclusão)	conclusão	ma81	1	não	
+ma82	Mama (US): linfonodo com margem indistinta	achado	ma82c	2	não	
+ma82c	Mama (US): linfonodo com margem indistinta (conclusão)	conclusão	ma82	1	não	
+ma84	Mama (US): estabilidade em comparação	achado		2	não	
+ma85	Mama (US): achado novo em comparação	achado		2	não	
+ma86	Mama (US): crescimento em comparação	achado		4	não	

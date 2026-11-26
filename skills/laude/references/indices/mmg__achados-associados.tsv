@@ -1,0 +1,8 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+mgaf1	Mama (achado associado): retração cutânea	achado		1	sim	
+mgaf2	Mama (achado associado): retração papilar	achado		0	sim	
+mgaf3	Mama (achado associado): espessamento cutâneo	achado		1	sim	
+mgaf4	Mama (achado associado): espessamento trabecular	achado		0	sim	
+mgaf5	Mama (achado associado): linfonodo axilar de aspecto suspeito (achado descritivo)	achado	mgaf5c	0	sim	
+mgaf5c	Mama (achado associado): linfonodo axilar de aspecto suspeito	conclusão	mgaf5	0	sim	
+mgaf6	Mama (achado associado): ducto solitário dilatado	achado		0	sim	

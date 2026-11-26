@@ -1,0 +1,13 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+ob27	Obstétrica — Tórax: hérnia diafragmática congênita à esquerda (achado descritivo)	achado	ob27c	2	sim	
+ob27c	Obstétrica — Tórax: hérnia diafragmática congênita à esquerda (conclusão)	conclusão	ob27	1	sim	
+ob28	Obstétrica — Tórax: hidrotórax unilateral (achado descritivo)	achado	ob28c	1	não	
+ob28c	Obstétrica — Tórax: hidrotórax unilateral (conclusão)	conclusão	ob28	1	não	
+ob29	Obstétrica — Tórax: hidrotórax bilateral (achado descritivo)	achado	ob29c	0	não	
+ob29c	Obstétrica — Tórax: hidrotórax bilateral (conclusão)	conclusão	ob29	0	não	
+ob30	Obstétrica — Tórax: CPAM microcística (achado descritivo) — CVR > 1,6: risco de hidropisia	achado	ob30c	7	sim	
+ob30c	Obstétrica — Tórax: CPAM microcística (conclusão)	conclusão	ob30	1	não	
+ob31	Obstétrica — Tórax: CPAM macrocística à esquerda (achado descritivo) — CVR > 1,6: risco de hidropisia	achado	ob31c	8	sim	
+ob31c	Obstétrica — Tórax: CPAM macrocística à esquerda (conclusão)	conclusão	ob31	1	não	
+ob32	Obstétrica — Tórax: CPAM macrocística à direita (achado descritivo) — CVR > 1,6: risco de hidropisia	achado	ob32c	8	sim	
+ob32c	Obstétrica — Tórax: CPAM macrocística à direita (conclusão)	conclusão	ob32	1	não	

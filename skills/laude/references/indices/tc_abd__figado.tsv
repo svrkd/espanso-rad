@@ -1,0 +1,75 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+figadoesquistossomose	Hepatopatia esquistossomótica com trombose crônica da porta	achado		0	não	
+peritonitebacteriana	Peritonite bacteriana espontânea com coleções	achado		2	não	
+colangiteaguda	Dilatação de vias biliares com realce parietal (colangite)	achado	colangiteagudac	0	não	
+colangiteagudac	Conclusão — colangite	conclusão	colangiteaguda	0	não	
+colangiocarcinoma4	Colangiocarcinoma do lobo esquerdo (estudo sem contraste)	achado		0	não	
+tumorklatskin1	Colangiocarcinoma hilar (tumor de Klatskin)	achado		1	não	
+colecaoparede	Manipulação cirúrgica abdominal com coleções de parede	achado		0	não	
+corpoestranhocirurgico	Gossipiboma intracavitário	achado		1	não	
+hematomahellp	Hematoma hepático subcapsular (HELLP)	achado		0	sim	
+uteropuerperal	Útero de aspecto puerperal recente	achado		0	não	
+abscessohepatico1	Abscesso hepático piogênico em organização	achado		1	não	
+agenesialobo	Agenesia ou atrofia do lobo hepático esquerdo com hepatopatia	achado		3	não	
+esteatosefocal	Esteatose hepática focal	achado		1	não	
+colangiocarcinoma3	Colangiocarcinoma intra-hepático periférico	achado	colangiocarcinoma3c	0	sim	
+colangiocarcinoma3c	Conclusão — colangiocarcinoma intra-hepático com metástases	conclusão	colangiocarcinoma3	0	não	
+abscessohepatico2	Abscessos hepáticos múltiplos	achado		2	não	
+hiperplasianodular1	Hiperplasia nodular focal do segmento IVb	achado		1	não	
+tromboseportal2	Trombose portal com sofrimento de alças (estudo comparativo)	achado		0	não	
+trombosesplenoportal	Trombose venosa esplenoportomesentérica extensa	achado		0	não	
+hamartomabiliar	Hepatopatia com cistos e hamartomas biliares	achado		1	não	
+lesaohipovascular	Lesão hepática hipovascular indeterminada	achado	lesaohipovascularc	1	não	
+lesaohipovascularc	Conclusão — lesão hepática hipovascular (infarto? metástase?)	conclusão	lesaohipovascular	0	não	
+cirrosehepatica6	Trombose crônica da veia porta com transformação cavernomatosa	achado		0	não	
+cirrosehepatica1	Hepatopatia crônica com hipertensão portal e ascite	achado		1	não	
+figadonozmoscada	Hepatopatia congestiva (fígado em noz-moscada)	achado		0	não	
+figadodeposito	Doença de depósito hepático	achado		0	não	
+laceracaohepatica1	Laceração hepática AAST grau IV	achado		0	sim	
+laceracaohepatica2	Laceração hepática AAST grau III	achado		0	sim	
+hiperplasianodular2	Hiperplasia nodular focal com cicatriz central	achado		1	sim	
+hepatocarcinoma1	Hepatocarcinoma infiltrativo e nodular com trombose portal	achado		1	não	
+hepatocarcinoma2	Hepatopatia crônica com carcinoma hepatocelular e massa do segmento I	achado		2	não	
+circulacaocolateral1	Circulação colateral portossistêmica com esplenomegalia	achado		1	não	
+hepatocarcinoma3	Hepatopatia crônica com provável hepatocarcinoma infiltrativo	achado		0	não	
+cirrosehepatica2	Hepatopatia crônica com ascite volumosa	achado		0	não	
+cirrosehepatica3	Hepatomegalia com sinais de hepatopatia crônica	achado		0	não	
+circulacaocolateral2	Circulação colateral com esplenomegalia e ascite volumosa	achado		1	não	
+trombosetumoral	Trombose tumoral da veia porta	achado		1	não	
+cavernomaportal	Transformação cavernomatosa portal	achado		0	não	
+cistohemangioma	Cistos e hemangioma hepáticos	achado		2	não	
+hepatomegaliaesteatose	Hepatomegalia com esteatose	achado		0	não	
+cistoshepaticos	Cistos hepáticos múltiplos — descrição sem realce	achado		1	não	
+nodulohepatico	Nódulo hepático indeterminado com realce progressivo (hemangioma?)	achado		1	não	
+hemangiomahepatico1	Hemangiomas hepáticos múltiplos	achado		2	não	
+hemangiomahepatico2	Hemangiomas hepáticos gigantes	achado		2	não	
+cirrosehepatica4	Hepatopatia parenquimatosa crônica de aspecto cirrótico	achado		0	não	
+circulacaocolateral3	Ectasia esplenoportomesentérica com varizes esofágicas	achado		0	não	
+cirrosehepatica5	Hepatopatia crônica com ectasia portal e esplênica	achado		2	não	
+circulacaocolateral4	Circulação colateral com varizes esofágicas e hemorroidárias	achado		0	não	
+aneurismahepatica	Aneurisma de artéria hepática com iminência de rotura	achado		1	não	
+esteatosedifusa	Esteatose hepática difusa	achado		0	não	
+metastasedesmoplasica	Metástases hepáticas com reação desmoplásica	achado		1	não	
+tumorklatskin2	Colangiocarcinoma hilar com retração capsular	achado		0	não	
+abscessohepatico3	Abscesso hepático do lobo esquerdo	achado		2	não	
+abscessohepatico4	Abscesso hepático septado no lobo esquerdo	achado		2	não	
+abscessohepatico5	Abscesso hepático passível de punção percutânea	achado	abscessohepatico5c	3	não	
+abscessohepatico5c	Conclusão — abscesso hepático piogênico	conclusão	abscessohepatico5	0	não	
+cistovolumoso	Cisto hepático volumoso com calcificações parietais	achado		4	não	
+laceracaohepatica3	Laceração hepática AAST grau III em controle	achado		1	não	
+figadocirrotico	Hepatopatia crônica de aspecto cirrótico (contornos lobulados)	achado		0	não	
+lesaoisodensa	Lesão hepática isodensa hipovascular — infarto ou massa?	achado		1	não	
+figadodenso	Fígado hiperatenuante	achado		1	não	
+edemaperiportal	Edema periportal	achado		0	não	
+tclirads1	LI-RADS 1 (TC) — definitivamente benigna	achado		3	não	
+tclirads2	LI-RADS 2 (TC) — provavelmente benigna	achado		2	não	
+tclirads3	LI-RADS 3 (TC) — probabilidade intermediária de CHC	achado		3	não	
+tclirads4	LI-RADS 4 (TC) — provável CHC	achado		4	não	
+tclirads5	LI-RADS 5 (TC) — definitivamente CHC	achado		3	não	
+tcliradsm	LI-RADS M (TC) — maligno não específico para CHC	achado		3	não	
+tcliradstiv	LI-RADS TIV (TC) — tumor em veia	achado		1	não	
+tcliradsnc	LI-RADS NC (TC) — não categorizável	achado		1	não	
+tcliradsviavel	LI-RADS TR viável (TC)	achado		1	não	
+tcliradsequivoco	LI-RADS TR equívoco (TC)	achado		1	não	
+tcliradsnaoviavel	LI-RADS TR não viável (TC)	achado		1	não	
+tcliradsestavel	LI-RADS TR não progressivo pós-radiação (TC)	achado		1	sim	

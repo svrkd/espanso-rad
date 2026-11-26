@@ -1,0 +1,13 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+evarpervia	Endoprótese aórtica abdominal sem endoleak	achado	evarperviac	4	não	
+evarperviac	Conclusão — endoprótese aórtica abdominal sem endoleak	conclusão	evarpervia	0	não	
+evar1	Endoleak tipo I (zona de ancoragem: Ia proximal, Ib distal)	achado	evar1c	5	não	
+evar1c	Conclusão — endoleak tipo I	conclusão	evar1	1	não	
+evar2	Endoleak tipo II (IIa um ramo, IIb dois ou mais)	achado	evar2c	4	não	
+evar2c	Conclusão — endoleak tipo II	conclusão	evar2	2	não	
+evar3	Endoleak tipo IIIa (desconexão modular)	achado	evar3c	3	não	
+evar3c	Conclusão — endoleak tipo IIIa	conclusão	evar3	0	não	
+evarramo	Oclusão de ramo da endoprótese aórtica	achado	evarramoc	3	não	
+evarramoc	Conclusão — oclusão de ramo da endoprótese	conclusão	evarramo	1	não	
+enxertoinfectado	Infecção de enxerto aórtico (MAGIC: gás ≥ 7 semanas, líquido ≥ 3 meses)	achado	enxertoinfectadoc	2	não	
+enxertoinfectadoc	Conclusão — infecção de enxerto aórtico	conclusão	enxertoinfectado	0	não	

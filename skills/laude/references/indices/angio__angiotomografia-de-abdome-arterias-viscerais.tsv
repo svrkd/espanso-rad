@@ -1,0 +1,19 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+arqueadomediano	Compressão do tronco celíaco pelo ligamento arqueado mediano	achado	arqueadomedianoc	0	não	
+arqueadomedianoc	Conclusão — compressão pelo ligamento arqueado mediano	conclusão	arqueadomediano	0	não	
+estenoseostial	Estenose aterosclerótica ostial de ramo visceral ou renal	achado	estenoseostialc	2	não	
+estenoseostialc	Conclusão — estenose aterosclerótica ostial	conclusão	estenoseostial	1	não	
+embolomesenterica	Oclusão embólica da artéria mesentérica superior	achado	embolomesentericac	2	não	
+embolomesentericac	Conclusão — oclusão embólica da mesentérica superior	conclusão	embolomesenterica	1	não	
+mesentericaostial	Oclusão aterotrombótica da mesentérica superior (óstio)	achado	mesentericaostialc	0	não	
+mesentericaostialc	Conclusão — oclusão aterotrombótica da mesentérica superior	conclusão	mesentericaostial	0	não	
+isquemianaooclusiva	Isquemia mesentérica não oclusiva	achado	isquemianaooclusivac	1	não	
+isquemianaooclusivac	Conclusão — isquemia mesentérica não oclusiva	conclusão	isquemianaooclusiva	0	não	
+veiamesenterica	Trombose da veia mesentérica superior — com espessamento de alças	achado	veiamesentericac	3	não	
+veiamesentericac	Conclusão — trombose da veia mesentérica superior	conclusão	veiamesenterica	1	não	
+flapmesenterica	Dissecção isolada da artéria mesentérica superior (Yun)	achado	flapmesentericac	3	não	
+flapmesentericac	Conclusão — dissecção isolada da mesentérica superior (Yun I, IIa, IIb, III)	conclusão	flapmesenterica	1	não	
+aneuvisceral	Aneurisma de artéria visceral	achado	aneuvisceralc	3	não	
+aneuvisceralc	Conclusão — aneurisma de artéria visceral	conclusão	aneuvisceral	1	não	
+pseudovisceral	Pseudoaneurisma de artéria visceral	achado	pseudovisceralc	2	não	
+pseudovisceralc	Conclusão — pseudoaneurisma de artéria visceral	conclusão	pseudovisceral	1	não	

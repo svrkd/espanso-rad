@@ -1,0 +1,8 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+mavcerebro	Malformação arteriovenosa encefálica (Spetzler-Martin)	achado	mavcerebroc	5	não	
+mavcerebroc	Conclusão — MAV encefálica (Spetzler-Martin)	conclusão	mavcerebro	2	não	
+fistuladural	Fístula arteriovenosa dural	achado	fistuladuralc	2	não	
+fistuladuralc	Conclusão — fístula arteriovenosa dural	conclusão	fistuladural	1	não	
+carotidocavernosa	Fístula carótido-cavernosa	achado	carotidocavernosac	3	não	
+carotidocavernosac	Conclusão — fístula carótido-cavernosa	conclusão	carotidocavernosa	1	não	
+caputmedusa	Anomalia venosa do desenvolvimento (cabeça de medusa)	achado		2	não	

@@ -1,0 +1,11 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+troncocomum	Tronco comum braquiocefálico-carotídeo	achado		0	não	
+diverticuloductal	Divertículo ductal	achado		0	não	
+lusoriadiverticulo	Subclávia direita aberrante com divertículo de Kommerell	achado	lusoriadiverticuloc	1	não	
+lusoriadiverticuloc	Conclusão — subclávia aberrante com Kommerell	conclusão	lusoriadiverticulo	0	não	
+arcodireito	Arco à direita com subclávia esquerda aberrante	achado	arcodireitoc	1	não	
+arcodireitoc	Conclusão — arco à direita com subclávia esquerda aberrante	conclusão	arcodireito	0	não	
+arcoespelho	Arco à direita com ramificação em espelho	achado	arcoespelhoc	0	não	
+arcoespelhoc	Conclusão — arco à direita em espelho	conclusão	arcoespelho	0	não	
+duploarco	Duplo arco aórtico	achado	duploarcoc	3	não	
+duploarcoc	Conclusão — duplo arco aórtico	conclusão	duploarco	0	não	

@@ -1,0 +1,9 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+roubosubclavio	Estenose proximal da subclávia (roubo a confirmar ao Doppler)	achado	roubosubclavioc	3	não	
+roubosubclavioc	Conclusão — estenose proximal da subclávia	conclusão	roubosubclavio	1	não	
+roubosubclavio2	Oclusão proximal da subclávia (roubo a confirmar ao Doppler)	achado	roubosubclavio2c	2	não	
+roubosubclavio2c	Conclusão — oclusão proximal da subclávia	conclusão	roubosubclavio2	1	não	
+oclusaodigital	Oclusões de artérias digitais da mão	achado	oclusaodigitalc	3	não	
+oclusaodigitalc	Conclusão — oclusões de artérias digitais	conclusão	oclusaodigital	2	não	
+martelohipotenar	Síndrome do martelo hipotenar (artéria ulnar junto ao hâmulo do hamato)	achado	martelohipotenarc	4	não	
+martelohipotenarc	Conclusão — síndrome do martelo hipotenar	conclusão	martelohipotenar	1	não	

@@ -1,0 +1,29 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+subendocardico	Hipocontrastação subendocárdica do ventrículo esquerdo	achado		0	não	
+sindromecockett	Síndrome de May-Thurner/Cockett (estudo sem contraste)	achado		0	sim	
+laringocele	Laringocele mista	achado		1	sim	
+criptorquidiamassa1	Criptorquidia com massa retroperitoneal indeterminada	achado	criptorquidiamassa1c	2	sim	
+criptorquidiamassa1c	Conclusão — criptorquidia com massa retroperitoneal indeterminada	conclusão	criptorquidiamassa1	0	sim	
+artrodesetoracolombar1	Artrodese toracolombar com parafusos transcorticais	achado		0	não	
+sangramentomesenterico	Sangramento ativo mesentérico nas fases arterial e portal	achado		0	não	
+hemoperitoniopancreas	Aumento do hemoperitônio na fase excretora	achado		0	não	
+artrodesetoracolombar2	Artrodese lombar com coleção paravertebral	achado		2	não	
+fraturaexplosiva12	Fratura explosiva de T12 com retrolistese	achado		0	não	
+trajetoprojetil1	Trajetos de projétil com hematoma retroperitoneal e sangramento ativo	achado		2	sim	
+visceradistribuicao	Alteração na distribuição das vísceras intra-abdominais	achado		0	não	
+hematomaparede	Hematoma de parede abdominal com sangramento ativo	achado		2	sim	
+hematomareto	Coleção hemática dos retos abdominais com infecção sobreposta	achado		2	sim	
+sangramentoadutor	Sangramento ativo na musculatura adutora	achado		0	não	
+ferimentosubxifoide	Ferimento subxifóideo com pneumoperitônio mínimo	achado		0	não	
+corpoestranhocolon	Corpo estranho transfixando o íleo terminal	achado		0	não	
+corpoestranhocirurgico2	Gossipiboma vesicouterino com processo inflamatório reacional	achado		1	não	
+seiouracal1	Seio umbilical-uracal	achado		1	não	
+seiouracal2	Divertículo vesicouracal	achado		0	não	
+linfonodoretrocrural	Múltiplas linfonodomegalias retrocrurais e retroperitoneais	achado		1	não	
+diverticulozenker	Divertículo de Zenker	achado		0	não	
+drenohilo1	Dreno com extremidade no hilo hepático	achado		0	não	
+drenohilo2	Dreno com extremidade no hipocôndrio esquerdo	achado		0	não	
+sondapertuito	Sonda com pertuito no hemiabdome anterior esquerdo	achado		1	não	
+trajetoprojetil2	Fraturas costais com fragmentos de projétil de arma de fogo	achado		0	não	
+trajetoprojetil3	Fragmentos de projétil periesplênicos e intraesplênicos	achado		0	não	
+cistospulmonares	Nota — cistos pulmonares sugestivos de linfangioleiomiomatose	achado		0	não	

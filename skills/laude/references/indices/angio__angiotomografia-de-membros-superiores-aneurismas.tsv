@@ -1,0 +1,5 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+aneusubclavia	Aneurisma da artéria subclávia ou axilar	achado	aneusubclaviac	7	não	
+aneusubclaviac	Conclusão — aneurisma da artéria subclávia ou axilar	conclusão	aneusubclavia	2	não	
+pseudobraquial	Pseudoaneurisma da artéria braquial ou radial (pós-punção)	achado	pseudobraquialc	5	não	
+pseudobraquialc	Conclusão — pseudoaneurisma da artéria braquial ou radial	conclusão	pseudobraquial	1	não	

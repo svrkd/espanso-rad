@@ -1,0 +1,98 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+mskd1	MSK: Sem derrame articular	achado		1	não	
+mskd2	MSK: Pequeno derrame articular	achado	mskd2c	1	não	
+mskd2c	MSK: Pequeno derrame articular (conclusão)	conclusão	mskd2	1	não	
+mskd3	MSK: Moderado / acentuado derrame articular	achado	mskd3c	1	sim	
+mskd3c	MSK: Moderado / acentuado derrame articular (conclusão)	conclusão	mskd3	1	sim	
+mskd4	MSK: Derrame articular com sinovite	achado	mskd4c	1	não	
+mskd4c	MSK: Derrame articular com sinovite (conclusão)	conclusão	mskd4	1	não	
+msks1	MSK: Espessamento sinovial sem Doppler	achado	msks1c	1	não	
+msks1c	MSK: Espessamento sinovial sem atividade ao Doppler (conclusão)	conclusão	msks1	1	não	
+msks2	MSK: Sinovite com atividade ao Doppler	achado	msks2c	1	não	
+msks2c	MSK: Sinovite com atividade ao Doppler (conclusão)	conclusão	msks2	1	não	
+msks3	MSK: Artropatia inflamatória com erosões	achado	msks3c	1	não	
+msks3c	MSK: Artropatia inflamatória com erosões e sinovite (conclusão)	conclusão	msks3	1	não	
+mskb1	MSK: Bursa normal	achado		1	não	
+mskb2	MSK: Lâmina líquida fisiológica na bursa	achado	mskb2c	1	não	
+mskb2c	MSK: Lâmina líquida fisiológica na bursa (conclusão)	conclusão	mskb2	1	não	
+mskb3	MSK: Espessamento / bursopatia	achado	mskb3c	1	não	
+mskb3c	MSK: Bursopatia (conclusão)	conclusão	mskb3	1	não	
+mskb4	MSK: Bursite	achado	mskb4c	1	não	
+mskb4c	MSK: Bursite (conclusão)	conclusão	mskb4	1	não	
+mskb5	MSK: Bursite com sinovite	achado	mskb5c	1	não	
+mskb5c	MSK: Bursite com sinovite (conclusão)	conclusão	mskb5	1	não	
+mskt1	MSK: Tendão normal	achado		1	não	
+mskt2	MSK: Tendinopatia	achado	mskt2c	1	não	
+mskt2c	MSK: Tendinopatia (conclusão)	conclusão	mskt2	1	não	
+mskt3	MSK: Tenossinovite	achado	mskt3c	1	sim	
+mskt3c	MSK: Tenossinovite (conclusão)	conclusão	mskt3	1	não	
+mskt4	MSK: Tenossinovite e tendinopatia	achado	mskt4c	1	não	
+mskt4c	MSK: Tenossinovite e tendinopatia (conclusão)	conclusão	mskt4	1	não	
+mskt5	MSK: Rotura parcial	achado	mskt5c	2	não	
+mskt5c	MSK: Rotura parcial (conclusão)	conclusão	mskt5	1	não	
+mskt6	MSK: Rotura completa	achado	mskt6c	2	sim	
+mskt6c	MSK: Rotura completa (conclusão)	conclusão	mskt6	1	não	
+mskt7	MSK: Rotura crônica	achado	mskt7c	1	não	
+mskt7c	MSK: Rotura crônica (conclusão)	conclusão	mskt7	1	não	
+mskt8	MSK: Pós-operatório	achado	mskt8c	1	não	
+mskt8c	MSK: Pós-operatório (conclusão)	conclusão	mskt8	1	não	
+lmg0	Lesão muscular: Exame normal (grau 0)	achado		0	não	
+lmg1	Lesão muscular: Grau I (edema, sem descontinuidade)	achado	lmg1c	4	sim	
+lmg1c	Lesão muscular: Sinais ecográficos de edema muscular, sugestivo de estiramento grau I (conclusão)	conclusão	lmg1	0	não	
+lmg2	Lesão muscular: Grau I (estiramento)	achado	lmg2c	1	sim	
+lmg2c	Lesão muscular: Estiramento muscular (grau I) (conclusão)	conclusão	lmg2	0	não	
+lmg3	Lesão muscular: Grau II (lesão parcial)	achado	lmg3c	3	sim	
+lmg3c	Lesão muscular: Lesão muscular parcial (grau II) (conclusão)	conclusão	lmg3	0	não	
+lmg4	Lesão muscular: Grau II (rotura parcial miofascial)	achado	lmg4c	4	sim	
+lmg4c	Lesão muscular: Rotura parcial do plano miofascial (grau II) (conclusão)	conclusão	lmg4	0	não	
+lmg5	Lesão muscular: Grau III (extensa)	achado	lmg5c	3	sim	
+lmg5c	Lesão muscular: Rotura muscular extensa (grau III) (conclusão)	conclusão	lmg5	0	não	
+lmg6	Lesão muscular: Grau IV (completa)	achado	lmg6c	3	sim	
+lmg6c	Lesão muscular: Lesão muscular completa (grau IV) (conclusão)	conclusão	lmg6	0	não	
+lmg7	Lesão muscular: Sugerir correlação com RM	achado		0	não	
+lmgm1	Lesão muscular: Estiramento do gastrocnêmio medial	achado	lmgm1c	1	não	
+lmgm1c	Lesão muscular: Estiramento da transição mioaponeurótica distal do gastrocnêmio medial (conclusão)	conclusão	lmgm1	0	não	
+lmgm2	Lesão muscular: Lesão parcial do gastrocnêmio medial	achado	lmgm2c	2	sim	
+lmgm2c	Lesão muscular: Lesão parcial do gastrocnêmio medial (conclusão)	conclusão	lmgm2	0	não	
+lmgm3	Lesão muscular: Rotura do gastrocnêmio medial	achado	lmgm3c	4	não	
+lmgm3c	Lesão muscular: Rotura do gastrocnêmio medial com desinserção mioaponeurótica distal (conclusão)	conclusão	lmgm3	0	não	
+lmrf1	Lesão muscular: Rotura da origem do reto femoral	achado	lmrf1c	1	sim	
+lmrf1c	Lesão muscular: Rotura com desinserção da origem do reto femoral (conclusão)	conclusão	lmrf1	0	não	
+lmrf2	Lesão muscular: Estiramento proximal do reto femoral	achado	lmrf2c	0	não	
+lmrf2c	Lesão muscular: Estiramento proximal do reto femoral (conclusão)	conclusão	lmrf2	0	não	
+lmrf3	Lesão muscular: Rotura parcial proximal do reto femoral	achado	lmrf3c	2	não	
+lmrf3c	Lesão muscular: Rotura parcial proximal do reto femoral (conclusão)	conclusão	lmrf3	0	não	
+lmrf4	Lesão muscular: Rotura de alto grau do reto femoral	achado	lmrf4c	1	sim	
+lmrf4c	Lesão muscular: Rotura de alto grau do reto femoral (lesão em desenluvamento) (conclusão)	conclusão	lmrf4	0	não	
+lmq1	Lesão muscular: Rotura parcial de alto grau do quadríceps	achado	lmq1c	1	não	
+lmq1c	Lesão muscular: Rotura parcial de alto grau do tendão quadríceps (conclusão)	conclusão	lmq1	0	não	
+lmis1	Lesão muscular: Lesão completa da origem dos isquiotibiais	achado	lmis1c	1	sim	
+lmis1c	Lesão muscular: Lesão completa da origem dos isquiotibiais (conclusão)	conclusão	lmis1	0	não	
+lmis2	Lesão muscular: Apofisite da tuberosidade isquiática	achado	lmis2c	0	não	
+lmis2c	Lesão muscular: Apofisite traumática da tuberosidade isquiática (conclusão)	conclusão	lmis2	0	não	
+lmbf1	Lesão muscular: Rotura parcial do bíceps femoral	achado	lmbf1c	3	sim	
+lmbf1c	Lesão muscular: Rotura parcial da cabeça curta do bíceps femoral (conclusão)	conclusão	lmbf1	0	não	
+lmad1	Lesão muscular: Rotura extensa do adutor longo	achado	lmad1c	2	sim	
+lmad1c	Lesão muscular: Rotura extensa do adutor longo (conclusão)	conclusão	lmad1	0	não	
+lmb1	Lesão muscular: Rotura completa distal do bíceps braquial	achado	lmb1c	1	sim	
+lmb1c	Lesão muscular: Rotura completa distal do bíceps braquial (conclusão)	conclusão	lmb1	0	não	
+lmb2	Lesão muscular: Rotura de alto grau do bíceps braquial distal	achado	lmb2c	0	não	
+lmb2c	Lesão muscular: Rotura de alto grau da inserção distal do bíceps braquial (conclusão)	conclusão	lmb2	0	não	
+lmb3	Lesão muscular: Rotura parcial distal do bíceps braquial	achado	lmb3c	1	não	
+lmb3c	Lesão muscular: Rotura parcial distal do bíceps braquial (conclusão)	conclusão	lmb3	0	não	
+lmb4	Lesão muscular: Rotura da aponeurose bicipital	achado	lmb4c	0	não	
+lmb4c	Lesão muscular: Rotura da aponeurose bicipital (conclusão)	conclusão	lmb4	0	não	
+lmpm1	Lesão muscular: Estiramento do peitoral maior	achado	lmpm1c	0	não	
+lmpm1c	Lesão muscular: Estiramento do peitoral maior (conclusão)	conclusão	lmpm1	0	não	
+lmpm2	Lesão muscular: Rotura parcial do peitoral maior	achado	lmpm2c	0	não	
+lmpm2c	Lesão muscular: Rotura parcial do peitoral maior (conclusão)	conclusão	lmpm2	0	não	
+lmpm3	Lesão muscular: Rotura de alto grau do peitoral maior	achado	lmpm3c	0	não	
+lmpm3c	Lesão muscular: Rotura de alto grau do peitoral maior (conclusão)	conclusão	lmpm3	0	não	
+lmpm4	Lesão muscular: Rotura completa do peitoral maior	achado	lmpm4c	1	sim	
+lmpm4c	Lesão muscular: Rotura completa do tendão peitoral maior (conclusão)	conclusão	lmpm4	0	não	
+lmc1	Lesão muscular: Controle com redução da lesão	achado		2	não	
+lmc2	Lesão muscular: Controle com tecido reparativo organizado	achado		0	não	
+lmo1	Lesão muscular: Miosite ossificante	achado	lmo1c	2	sim	
+lmo1c	Lesão muscular: Provável miosite ossificante (conclusão)	conclusão	lmo1	0	não	
+lmcr1	Lesão muscular: Alterações crônicas fibrocicatriciais	achado	lmcr1c	0	não	
+lmcr1c	Lesão muscular: Alterações crônicas fibrocicatriciais do reto femoral (conclusão)	conclusão	lmcr1	0	não	

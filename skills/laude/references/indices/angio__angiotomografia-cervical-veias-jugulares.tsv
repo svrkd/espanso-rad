@@ -1,0 +1,5 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+trombojugular	Trombose da veia jugular interna	achado	trombojugularc	3	não	
+trombojugularc	Conclusão — trombose da veia jugular interna	conclusão	trombojugular	1	não	
+jugularseptica	Tromboflebite séptica da jugular interna (síndrome de Lemierre)	achado	jugularsepticac	4	não	
+jugularsepticac	Conclusão — tromboflebite séptica da jugular interna	conclusão	jugularseptica	1	não	

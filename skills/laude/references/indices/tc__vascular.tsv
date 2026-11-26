@@ -1,0 +1,83 @@
+# ATENÇÃO: aapc termina em "c" mas NÃO é conclusão (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+aaa	Aneurisma da aorta abdominal infrarrenal	achado		2	não	
+aaa1	Aneurisma da aorta abdominal com trombo mural	achado		3	não	
+acmhiper	AVC isquêmico agudo (ACM direita)	achado		0	sim	
+aneuesp	Aneurisma calcificado da artéria esplênica	achado		0	não	
+aneurismadeaortatoracicaroto	Aneurisma roto do arco aórtico	achado		1	não	
+aneurismaesp	Aneurisma calcificado da artéria esplênica	achado		0	não	
+aneurismaroto1	Aneurisma de carótida interna roto com HSA	achado		2	sim	
+anv	Aorta não visualizada (gás intestinal)	achado		0	não	
+aortanv	Aorta abdominal não visualizada (gás intestinal)	achado		0	não	
+aortanv1	Aorta e pâncreas não visualizados (gás intestinal)	achado		0	não	
+aortao	Aumento do calibre da aorta ascendente	achado		1	não	
+aortao1	Discreto aumento da aorta abdominal infrarrenal	achado		1	não	
+aortarompendo	Aneurisma aórtico com sinais de iminente ruptura	achado		5	sim	
+aortasus	Aorta torácica sem sinais de aneurisma/dissecção	achado		0	não	
+atca	Ateromatose aórtica	achado		0	não	
+atebulbo	Ateromatose dos bulbos carotídeos	achado		0	não	
+atsa	Ateromatose aórtica, supra-aórtica e coronariana	achado		0	não	
+attor	Ateromatose aórtica e coronariana	achado		0	não	
+avar	Ateromatose de vasos regionais	achado		0	não	
+avcacm	AVC isquêmico agudo (território da ACM esquerda)	achado		0	sim	
+avcinsula	AVC isquêmico agudo (ínsula direita)	achado		0	sim	
+avcsubagudo	AVC isquêmico subagudo com efeito de massa	achado		1	sim	
+avctrans1	AVC extenso com possível transformação hemorrágica	achado		0	sim	
+avia1	Ateromatose incipiente de vasos intra-abdominais	achado		0	não	
+avir	Ateromatose de vasos regionais	achado		0	não	
+bifur	Proeminência da bifurcação da ACM - possível aneurisma	achado		0	não	
+dilatafu	Dilatação fusiforme focal da aorta abdominal	achado		1	não	
+eaa	Ectasia da aorta ascendente — frase curta	achado		1	não	
+hematomaintramural	Hematoma intramural da aorta — descendente, da subclávia ao infrarrenal	achado		1	não	
+isquemiamesenterica1	Trombose da veia mesentérica superior — pós-colectomia direita, com isquemia de alças	achado		1	não	
+nutcracker	Síndrome de nutcracker — com ectasia da veia gonadal	achado		1	não	
+oclusaoarterialabdome	Oclusão arterial aortoilíaca com colaterais	achado		0	não	
+panv	Pâncreas e aorta não visualizados (gás intestinal)	achado		0	não	
+pequenoaneu	Pequeno aneurisma/infundíbulo do sifão carotídeo	achado		2	não	
+placabulbo	Ateromatose de bulbos carotídeos	achado		0	não	
+pseudoaneurismapancreas	Pseudoaneurisma peripancreático (pós-pancreatite)	achado		1	sim	
+semcro	Veia safena parva sem crossa definida	achado		0	não	
+stanforda	Dissecção aórtica tipo A (Stanford A) com extensão carotídea	achado		0	sim	
+supersafena	Veia safena magna superficializada e hipoplásica	achado		0	não	
+tep	Tromboembolismo pulmonar (ramos segmentares)	achado		0	não	
+tepao	Tromboembolismo pulmonar com infarto pulmonar	achado		0	sim	
+tepduv	Suspeita de tromboembolismo — recomenda-se estudo direcionado	achado		0	não	
+tepinho	TEP em ramos segmentares e subsegmentares	achado		0	não	
+tepintudo	TEP com infarto pulmonar associado	achado		0	sim	
+tepnao	Angiotomografia negativa para TEP	achado		0	não	
+tepruim	Angiotomografia negativa para TEP (exame subótimo)	achado		0	não	
+tepruim2	Exame subótimo para avaliação de TEP	achado		0	não	
+tepruim3	Exame com técnica inadequada para TEP	achado		0	não	
+vcidupla	Duplicação da veia cava inferior — TC	achado		0	não	
+veiasup	Veia safena magna hipoplásica	achado		0	não	
+avia	Ateromatose de vasos intra-abdominais	achado		0	não	
+aviaf	Ateromatose aortoilíaca	achado		0	não	
+avic	Ateromatose de vasos intracranianos	achado		0	não	
+atabd	Ateromatose aortoilíaca	achado		0	não	
+atco	Ateromatose aortocoronariana	achado		0	não	
+tt200	Protocolo para TEP e TVP de MMII	achado		0	não	
+tt204	Dissecção de aorta	achado		2	não	
+tt205	Ectasia e tortuosidade da aorta torácica	achado		3	não	
+tt21	Ateromatose vascular	achado		0	não	
+tt22	Ateromatose aortocoronariana	achado		0	não	
+tt23	Ectasia da aorta ascendente — com demais porções normais	achado		1	não	
+tt24	Aneurisma de aorta	achado		1	não	
+tt26	Veia cava superior esquerda persistente (variante)	achado		0	não	
+tt29	Diâmetros da aorta (medidas)	achado		4	não	
+tt30	Ectasia e tortuosidade da aorta torácica (com medidas)	achado		3	não	
+vcs	Veia cava superior	fragmento		0	não	
+aac	Calcificações parietais do arco aórtico	achado		0	não	
+tcv4	Hipoplasia de artéria vertebral V4 (angio-TC)	achado		0	não	
+tt27	Origem anômala da artéria vertebral esquerda	achado		0	não	
+aacp	Calcificações parietais do arco aórtico	achado		0	não	
+aap	Arco aórtico proeminente	achado		0	não	
+aapc	Arco aórtico proeminente e calcificado	achado		0	não	
+luso	Artéria subclávia direita lusória (retroesofágica)	achado		0	não	
+lusoria	Artéria subclávia direita lusória	achado		0	não	
+plabu	Placa calcificada no bulbo carotídeo	achado		0	sim	
+protopo	Proeminência do topo da artéria basilar	achado		0	não	
+quaseoclusao	Placa carotídea com quase-oclusão (opacificação filiforme)	achado		1	não	
+vabo	Origem anômala da carótida comum esquerda	achado		0	não	
+ao2	Calcificações do arco aórtico	achado		0	não	
+tt201	Ausência de TEP ou TVP	achado		0	não	
+tt25	Artéria subclávia direita aberrante (variante anatômica)	achado		0	não	

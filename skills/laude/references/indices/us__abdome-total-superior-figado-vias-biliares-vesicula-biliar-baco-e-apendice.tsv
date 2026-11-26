@@ -1,0 +1,77 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+ap1	Apêndice cecal: Sinais sugestivos de apendicite aguda (achado descritivo)	achado	ap1c	1	não	
+ap1c	Apêndice cecal: Sinais sugestivos de apendicite aguda	conclusão	ap1	0	não	
+ap2	Apêndice cecal: Sinais sugestivos de processo inflamatório/infeccioso do apêndice cecal (achado descritivo)	achado	ap2c	1	não	
+ap2c	Apêndice cecal: Sinais sugestivos de processo inflamatório/infeccioso do apêndice cecal	conclusão	ap2	0	não	
+ba1	Baço: Baço de topografia subcostal	achado		0	não	
+ba2	Baço: Esplenomegalia homogênea (achado descritivo)	achado	ba2c	1	não	
+ba2c	Baço: Esplenomegalia homogênea	conclusão	ba2	0	não	
+ba22	Baço: Esplenomegalia homogênea pelo diâmetro longitudinal (achado descritivo)	achado		1	não	
+ba3	Baço: Baço de dimensões aumentadas com corpúsculos de Gamna-Gandy	achado		1	não	
+ba4	Baço acessório	achado	ba4c	0	não	
+ba4c	Baço acessório (conclusão)	conclusão	ba4	0	não	
+ca1	Dilatação das vias biliares intra e extra-hepáticas sem a caracterização de fatores obstrutivos (achado descritivo)	achado	ca1c	1	não	
+ca1c	Dilatação das vias biliares intra e extra-hepáticas sem a caracterização de fatores obstrutivos (conclusão)	conclusão	ca1	0	não	
+ca2	Vias biliares/colédoco: Cálculo no interior do colédoco, promovendo dilatação a montante (achado descritivo)	achado	ca2c	1	sim	
+ca2c	Vias biliares/colédoco: Cálculo no interior do colédoco, promovendo dilatação a montante	conclusão	ca2	0	não	
+ca3	Vias biliares/colédoco: Massa em topografia periampular, promovendo dilatação das vias biliares a montante (achado descritivo)	achado	ca3c	2	sim	
+ca3c	Vias biliares: massa periampular | Dilatação biliar a montante	conclusão	ca3	0	não	
+ca4	Vias biliares/colédoco: Focos ecogênicos no interior das vias biliares, compatíveis com aerobilia (achado descritivo)	achado	ca4c	0	não	
+ca4c	Vias biliares/colédoco: Focos ecogênicos no interior das vias biliares, compatíveis com aerobilia	conclusão	ca4	0	não	
+ca5	Vias biliares/colédoco: Pequenas imagens ecogênicas adjacentes às vias biliares (achado descritivo)	achado	ca5c	1	não	
+ca5c	Vias biliares/colédoco: Pequenas imagens ecogênicas adjacentes às vias biliares	conclusão	ca5	0	não	
+ca6	Vias biliares/colédoco: Dilatação focal do colédoco, compatível com cisto de colédoco (achado descritivo)	achado	ca6c	1	não	
+ca6c	Vias biliares/colédoco: Dilatação focal do colédoco, compatível com cisto de colédoco	conclusão	ca6	0	não	
+ch1	Fígado (hepatopatia difusa): Sinais incipientes de hepatopatia parenquimatosa (achado descritivo)	achado	ch1c	0	não	
+ch1c	Fígado (hepatopatia difusa): Sinais incipientes de hepatopatia parenquimatosa	conclusão	ch1	0	não	
+ch2	Fígado (hepatopatia difusa): Sinais de hepatopatia parenquimatosa (achado descritivo)	achado	ch2c	0	não	
+ch2c	Fígado (hepatopatia difusa): Sinais de hepatopatia parenquimatosa	conclusão	ch2	0	não	
+ch3	Fígado (hepatopatia difusa): Hepatopatia parenquimatosa associada a sinais de fibrose periportal (achado descritivo)	achado	ch3c	0	não	
+ch3c	Fígado (hepatopatia difusa): Hepatopatia parenquimatosa associada a sinais de fibrose periportal	conclusão	ch3	0	não	
+ch4	Fígado (hepatopatia difusa): Hepatomegalia, associada a ectasia da veia cava e suas principais tributárias e ascite (achado descritivo)	achado	ch4c	0	não	
+ch4c	Fígado: hepatomegalia congestiva | Vasos: ectasia de cava e tributárias/ascite	conclusão	ch4	0	não	
+eh1	Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática leve (grau I) (achado descritivo)	achado	eh1c	0	não	
+eh1c	Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito leve (grau I)	conclusão	eh1	0	não	
+eh2	Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática moderada (grau II) (achado descritivo)	achado	eh2c	0	não	
+eh2c	Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito moderada (grau II)	conclusão	eh2	0	não	
+eh3	Fígado (esteatose): Sinais ecográficos sugestivos de esteatose hepática acentuada (grau III) (achado descritivo)	achado	eh3c	0	não	
+eh3c	Fígado (esteatose): Sinais ecográficos sugestivos de hepatopatia de depósito acentuada (grau III)	conclusão	eh3	0	não	
+fh1	Fígado (lesão focal): Cisto hepático simples (achado descritivo)	achado	fh1c	2	não	
+fh1c	Fígado (lesão focal): Cisto hepático simples	conclusão	fh1	0	não	
+fh2	Fígado (lesão focal): Cistos hepáticos com características simples (achado descritivo)	achado	fh2c	2	sim	
+fh2c	Fígado (lesão focal): Cistos hepáticos com características simples	conclusão	fh2	0	não	
+fh3	Fígado (lesão focal): Nódulo hiperecogênico hepático, mais comumente associado a hemangioma (achado descritivo)	achado	fh3c	2	não	
+fh3c	Fígado (lesão focal): Nódulo hiperecogênico hepático, mais comumente associado a hemangioma	conclusão	fh3	0	não	
+fh4	Fígado (lesão focal): Nódulo hepático com as características acima descritas (achado descritivo)	achado	fh4c	2	sim	
+fh4c	Fígado (lesão focal): Nódulo hepático com as características acima descritas	conclusão	fh4	0	sim	
+fh5	Fígado (lesão focal): Múltiplos nódulos hepáticos com as características acima descritas (achado descritivo)	achado	fh5c	2	sim	
+fh5c	Fígado (lesão focal): Múltiplos nódulos hepáticos com as características acima descritas	conclusão	fh5	0	não	
+uslirads1	Fígado: LI-RADS US-1 (negativo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C	achado		1	não	
+uslirads2	Fígado: LI-RADS US-2 (subliminar, < 1,0 cm) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C	achado		3	não	
+uslirads3	Fígado: LI-RADS US-3 (positivo, ≥ 1,0 cm ou trombo venoso novo) — só para população de risco (cirrose ou hepatite B crônica); escore de visualização A, B ou C	achado		3	não	
+vb0	Vesícula biliar: Colecistectomia (achado descritivo)	achado	vb0c	0	não	
+vb0c	Vesícula biliar: Colecistectomia	conclusão	vb0	0	não	
+vb1	Vesícula biliar: Colecistolitíase (achado descritivo)	achado	vb1c	1	não	
+vb1c	Vesícula biliar: Colecistolitíase	conclusão	vb1	0	não	
+vb10	Vesícula biliar: Vesícula biliar hipodistendida (ausência de jejum?)	achado		0	não	
+vb2	Vesícula biliar: Sinais compatíveis com colecistite aguda (achado descritivo)	achado	vb2c	4	não	
+vb2c	Vesícula biliar: colecistite aguda | Sinal de Murphy positivo	conclusão	vb2	0	não	
+vb4	Vesícula biliar: Imagem compatível com pólipo de vesícula biliar (achado descritivo)	achado	vb4c	2	sim	
+vb4c	Vesícula biliar: Imagem compatível com pólipo de vesícula biliar	conclusão	vb4	0	não	
+vb12c	Vesícula biliar (pólipo): conduta SRU 2022 — pediculado de haste fina: até 0,9 cm sem seguimento; 1,0–1,4 cm controle aos 6, 12 e 24 meses; ≥ 1,5 cm avaliação cirúrgica. Séssil ou haste espessa: até 0,6 cm sem seguimento; 0,7–0,9 cm controle em 12 meses; 1,0–1,4 cm controle aos 6, 12, 24 e 36 meses; ≥ 1,5 cm avaliação cirúrgica. Indeterminado (espessamento parietal focal ≥ 0,4 cm adjacente): até 0,6 cm controle aos 6, 12, 24 e 36 meses; ≥ 0,7 cm avaliação cirúrgica. Crescimento ≥ 0,4 cm em até 12 meses: avaliação cirúrgica	achado		1	não	
+vb3	Vesícula biliar: Achados sugestivos de barro biliar (achado descritivo)	achado	vb3c	0	não	
+vb3c	Vesícula biliar: Achados sugestivos de barro biliar	conclusão	vb3	0	não	
+vb5	Vesícula biliar: Sinais sugestivos de colesterolose/adenomiomatose da vesícula biliar (achado descritivo)	achado	vb5c	0	sim	
+vb5c	Vesícula biliar: Sinais sugestivos de colesterolose/adenomiomatose da vesícula biliar	conclusão	vb5	0	sim	
+vb6	Vesícula biliar: Sinais de colecistopatia calculosa crônica (achado descritivo)	achado	vb6c	1	não	
+vb6c	Vesícula biliar: Sinais de colecistopatia calculosa crônica	conclusão	vb6	0	não	
+vb7	Vesícula biliar: Interface ecogênica na topografia da vesícula biliar (achado descritivo)	achado	vb7c	0	não	
+vb7c	Vesícula biliar: Interface ecogênica na topografia da vesícula biliar	conclusão	vb7	0	não	
+vb8	Vesícula biliar: Paredes da vesícula biliar hiperecogênicas (achado descritivo)	achado	vb8c	0	não	
+vb8c	Vesícula biliar: Paredes da vesícula biliar hiperecogênicas	conclusão	vb8	0	não	
+vb9	Vesícula biliar: Vesícula biliar normodistendida, com paredes difusamente espessadas (achado provavelmente...	achado		0	não	
+vbcole	Vesícula biliar: colecistolitíase com hidropsia | Vias biliares: dilatação sem fator obstrutivo definido	achado		2	não	
+vb11	Vesícula biliar: colecistolitíase com hidropsia | Vias biliares: dilatação sem fator obstrutivo definido	achado		2	não	
+ab1	Aorta abdominal: trajeto e calibre preservados (normal)	achado		0	não	
+ab2	Aorta abdominal: trajeto e calibre preservados, com calcificações parietais (achado descritivo)	achado	ab2c	0	não	
+ab2c	Aorta abdominal: ateromatose aórtica (conclusão)	conclusão	ab2	0	não	

@@ -1,0 +1,29 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+tx1	Tórax (derrame pleural): Derrame pleural _ à _ (achado descritivo)	achado	tx1c	3	não	
+tx1c	Tórax (derrame pleural): Derrame pleural _ à _	conclusão	tx1	2	não	
+tx2	Tórax (derrame pleural): Derrame pleural _ à _, com septações e atelectasia associada (achado descritivo)	achado	tx2c	2	não	
+tx2c	Tórax (derrame pleural): Derrame pleural _ à _, com septações e atelectasia associada	conclusão	tx2	2	não	
+tx3	Tórax (consolidação): Consolidação com broncograma aéreo dinâmico (achado descritivo)	achado	tx3c	0	não	
+tx3c	Tórax (consolidação): Consolidação com broncograma aéreo dinâmico	conclusão	tx3	0	não	
+tx4	Tórax (consolidação): Consolidação com broncograma aéreo estático (achado descritivo)	achado	tx4c	0	não	
+tx4c	Tórax (consolidação): Consolidação com broncograma aéreo estático	conclusão	tx4	0	não	
+tx5	Tórax (consolidação): Consolidação sem broncograma aéreo (achado descritivo)	achado	tx5c	0	não	
+tx5c	Tórax (consolidação): Consolidação sem broncograma aéreo	conclusão	tx5	0	não	
+tx6	Tórax (pneumotórax): Ausência de deslizamento pleural com lung point (achado descritivo)	achado	tx6c	1	sim	
+tx6c	Tórax (pneumotórax): Ausência de deslizamento pleural com lung point	conclusão	tx6	1	não	
+tx8	Tórax (massa pleuropulmonar): Massa sólida com contato pleural (achado descritivo)	achado	tx8c	2	sim	
+tx8c	Tórax (massa pleuropulmonar): Massa sólida com contato pleural	conclusão	tx8	0	não	
+tx9	Tórax (massa pleuropulmonar): Nodularidade pleural associada a derrame (achado descritivo)	achado	tx9c	2	sim	
+tx9c	Tórax (massa pleuropulmonar): Nodularidade pleural associada a derrame	conclusão	tx9	1	não	
+tx10	Tórax (linhas pleurais): Padrão de linhas A, normal (achado descritivo)	achado	tx10c	0	não	
+tx10c	Tórax (linhas pleurais): Padrão de linhas A, normal	conclusão	tx10	0	não	
+tx11	Tórax (linhas pleurais): Linhas B focais (achado descritivo)	achado	tx11c	0	não	
+tx11c	Tórax (linhas pleurais): Linhas B focais	conclusão	tx11	0	não	
+tx12	Tórax (linhas pleurais): Síndrome intersticial, perfil B (achado descritivo)	achado	tx12c	0	não	
+tx12c	Tórax (linhas pleurais): Síndrome intersticial, perfil B	conclusão	tx12	0	não	
+tx13	Tórax (linhas pleurais): Síndrome intersticial, perfil B' (achado descritivo)	achado	tx13c	0	não	
+tx13c	Tórax (linhas pleurais): Síndrome intersticial, perfil B'	conclusão	tx13	0	sim	
+tx14	Tórax (linhas pleurais): Padrão assimétrico, perfil A/B (achado descritivo)	achado	tx14c	0	não	
+tx14c	Tórax (linhas pleurais): Padrão assimétrico, perfil A/B	conclusão	tx14	0	não	
+tx15	Tórax (pneumotórax): Ausência de deslizamento pleural sem lung point (achado descritivo)	achado	tx15c	0	sim	
+tx15c	Tórax (pneumotórax): Ausência de deslizamento pleural sem lung point, diferencial	conclusão	tx15	0	não	

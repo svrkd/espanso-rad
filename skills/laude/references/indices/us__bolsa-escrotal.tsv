@@ -1,0 +1,14 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+te7	Testículo/bolsa escrotal: Testículo ectópico	achado		4	não	
+te1	Testículo/bolsa escrotal: Ausência de fluxo vascular no testículo _, associada a alterações de textura parenquimatosa (achado descritivo)	achado	te1c	1	não	
+te1c	Testículo/bolsa escrotal: Ausência de fluxo vascular no testículo _, associada a alterações de textura parenquimatosa	conclusão	te1	1	não	
+te2	Testículo/bolsa escrotal: Sinais de varicocele à _ (achado descritivo)	achado	te2c	3	não	
+te2c	Testículo/bolsa escrotal: Sinais de varicocele à _	conclusão	te2	1	não	
+te3	Testículo/bolsa escrotal: Sinais sugestivos de orquiepididimite à _ (achado descritivo)	achado	te3c	0	sim	
+te3c	Testículo/bolsa escrotal: Sinais sugestivos de orquiepididimite à _	conclusão	te3	1	não	
+te4	Testículo/bolsa escrotal: Hérnia inguinoescrotal à _, com sinais sugestivos de encarceramento (achado descritivo)	achado	te4c	2	sim	
+te4c	Testículo/bolsa escrotal: Hérnia inguinoescrotal à _, com sinais sugestivos de encarceramento	conclusão	te4	1	não	
+te5	Testículo/bolsa escrotal: Microlitíase testicular à _ (achado descritivo)	achado	te5c	0	não	
+te5c	Testículo/bolsa escrotal: Microlitíase testicular à _	conclusão	te5	1	não	
+te6	Testículo/bolsa escrotal: Coleção heterogênea adjacente ao testículo _, com hematocele associada (achado descritivo)	achado	te6c	1	não	
+te6c	Testículo/bolsa escrotal: Coleção heterogênea adjacente ao testículo _, com hematocele associada	conclusão	te6	1	não	

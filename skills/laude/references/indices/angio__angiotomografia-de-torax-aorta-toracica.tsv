@@ -1,0 +1,27 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+aneuascendente	Aneurisma da aorta ascendente	achado	aneuascendentec	2	não	
+aneuascendentec	Conclusão — aneurisma da aorta ascendente	conclusão	aneuascendente	0	não	
+aneudescendente	Aneurisma da aorta torácica descendente	achado	aneudescendentec	4	não	
+aneudescendentec	Conclusão — aneurisma da aorta descendente	conclusão	aneudescendente	0	não	
+aortaulcera	Úlcera aterosclerótica penetrante	achado	aortaulcerac	3	não	
+aortaulcerac	Conclusão — úlcera aterosclerótica penetrante	conclusão	aortaulcera	1	não	
+flapb	Dissecção aórtica Stanford B	achado	flapbc	4	não	
+flapbc	Conclusão — dissecção aórtica Stanford B	conclusão	flapb	2	não	
+flapa	Dissecção aórtica Stanford A	achado	flapac	3	não	
+flapac	Conclusão — dissecção aórtica Stanford A	conclusão	flapa	1	não	
+hematomural	Hematoma intramural da aorta — segmento e medidas a preencher	achado	hematomuralc	3	não	
+hematomuralc	Conclusão — hematoma intramural da aorta	conclusão	hematomural	2	não	
+endopervia	Endoprótese aórtica torácica sem endoleak	achado	endoperviac	4	não	
+endoperviac	Conclusão — endoprótese torácica sem endoleak	conclusão	endopervia	0	não	
+endovaza	Endoleak de endoprótese torácica	achado	endovazac	4	não	
+endovazac	Conclusão — endoleak de endoprótese torácica	conclusão	endovaza	1	não	
+tuboaorta	Enxerto tubular da aorta ascendente	achado		0	não	
+aortatrauma	Lesão aórtica traumática (pseudoaneurisma do istmo)	achado	aortatraumac	1	não	
+aortatraumac	Conclusão — lesão aórtica traumática	conclusão	aortatrauma	0	não	
+coarctacao	Coarctação da aorta	achado	coarctacaoc	2	não	
+coarctacaoc	Conclusão — coarctação da aorta	conclusão	coarctacao	0	não	
+aortitetorax	Aortite (espessamento parietal circunferencial)	achado	aortitetoraxc	2	não	
+aortitetoraxc	Conclusão — aortite	conclusão	aortitetorax	1	não	
+adamkiewicz	Artéria de Adamkiewicz identificada (origem, lado e nível)	achado	adamkiewiczc	3	não	
+adamkiewiczc	Conclusão — artéria de Adamkiewicz identificada	conclusão	adamkiewicz	3	não	
+adamkiewicz2	Artéria de Adamkiewicz não identificada	achado		0	não	

@@ -1,0 +1,7 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+auriculanl	Apêndice atrial esquerdo sem falhas de enchimento	achado		0	não	
+auriculafluxo	Falha de enchimento do apêndice atrial esquerdo que some na fase tardia (estase)	achado	auriculafluxoc	0	não	
+auriculafluxoc	Conclusão — estase de fluxo no apêndice atrial esquerdo	conclusão	auriculafluxo	0	não	
+auriculatrombo	Trombo no apêndice atrial esquerdo (persiste na fase tardia)	achado	auriculatromboc	2	não	
+auriculatromboc	Conclusão — trombo no apêndice atrial esquerdo	conclusão	auriculatrombo	0	não	
+esofagoatrio	Relação do esôfago com a parede posterior do átrio esquerdo (pré-ablação)	achado		1	não	

@@ -1,0 +1,11 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+flapiliaca	Dissecção das artérias ilíacas e femorais	achado	flapiliacac	6	não	
+flapiliacac	Conclusão — dissecção ilíaca e femoral	conclusão	flapiliaca	1	não	
+traumaoclusao	Lesão arterial traumática com oclusão	achado	traumaoclusaoc	5	não	
+traumaoclusaoc	Conclusão — lesão arterial traumática com oclusão	conclusão	traumaoclusao	1	não	
+traumaflap	Lesão intimal traumática sem oclusão	achado	traumaflapc	3	não	
+traumaflapc	Conclusão — lesão intimal traumática	conclusão	traumaflap	1	não	
+espasmoarterial	Afilamento arterial difuso, podendo corresponder a vasoespasmo	achado	espasmoarterialc	3	não	
+espasmoarterialc	Conclusão — afilamento arterial, provável vasoespasmo	conclusão	espasmoarterial	1	não	
+fistulaav	Fístula arteriovenosa (traumática ou iatrogênica)	achado	fistulaavc	3	não	
+fistulaavc	Conclusão — fístula arteriovenosa	conclusão	fistulaav	2	não	

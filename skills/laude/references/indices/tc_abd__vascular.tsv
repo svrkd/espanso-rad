@@ -1,0 +1,61 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+hipertensaoportal	Sinais indiretos de hipertensão portal com shunt esplenorrenal	achado		0	não	
+trombomesenterica1	Trombo na origem da artéria mesentérica superior	achado		1	não	
+tromboseportal1	Falhas de opacificação da veia porta (trombos)	achado		0	não	
+colonisquemico	Assimetria de realce colônico de provável origem isquêmica	achado		0	sim	
+infartovisceral1	Áreas de isquemia renais e esplênica cuneiformes	achado		0	não	
+endoprotesevazamento1	Aneurisma aórtico com endoprótese fenestrada e endoleak I/II	achado		2	sim	
+endoprotesevazamento2	Aneurisma de ilíaca interna com falha mecânica da endoprótese (endoleak III)	achado		0	não	
+aneurismainstavel1	Aneurisma de aorta abdominal com sinais de instabilidade (sem contraste)	achado	aneurismainstavel1c	3	sim	
+aneurismainstavel1c	Conclusão — aneurisma de aorta abdominal com sinais de instabilidade	conclusão	aneurismainstavel1	0	sim	
+hematomamesenterico	Hematomas mesentéricos com hemoperitônio (trauma)	achado		0	sim	
+trombomesenterica2	Trombo ateromatoso da artéria mesentérica superior	achado		1	sim	
+aneurismarotura1	Aneurisma roto de aorta abdominal com hematoma retroperitoneal	achado	aneurismarotura1c	3	não	
+aneurismarotura1c	Conclusão — aneurisma roto de aorta abdominal	conclusão	aneurismarotura1	0	não	
+infartovisceral2	Infarto esplênico e renais em tromboflebite migratória	achado		0	sim	
+sindrometrousseau	Neoplasia do cólon transverso com linfonodomegalias necróticas	achado	sindrometrousseauc	2	sim	
+sindrometrousseauc	Conclusão — infartos esplênico e renais (síndrome de Trousseau)	conclusão	sindrometrousseau	0	sim	
+disseccaoaortica1	Dissecção aórtica toracoabdominal com hemotórax	achado		2	não	
+disseccaoaortica2	Ramos aórticos com origem na luz verdadeira	achado		0	não	
+aneurismatrombosado1	Dilatação aneurismática aórtica extensa parcialmente trombosada	achado		1	não	
+disseccaoaortica3	Endoprótese aórtica na luz verdadeira	achado		0	não	
+aneurismailiaco1	Dilatação aneurismática das artérias ilíacas direitas	achado		0	não	
+ateromatosedifusa	Ateromatose difusa do leito arterial	achado		0	não	
+disseccaoaortica4	Dissecção aortoilíaca com origem dos ramos nas duas luzes	achado		0	não	
+trombosemesentericainf1	Trombose da veia mesentérica inferior	achado		0	sim	
+trombosemesentericasup	Trombose da veia mesentérica superior com sofrimento de alças	achado		0	não	
+arteriaisquiatica1	Persistência da artéria isquiática bilateral	achado		0	não	
+arteriaisquiatica2	Degeneração aneurismática da artéria isquiática	achado		3	não	
+aneurismailiaco2	Aneurisma de ilíaca comum com rotura iminente e hidronefrose	achado		2	não	
+filtrocava1	Imagem metálica na veia cava inferior (provável filtro)	achado		0	não	
+estenosemesenterica	Placas calcificadas com estenose da mesentérica superior e renais	achado		0	não	
+aneurismarotura2	Aneurisma roto com prótese endovascular aortobi-ilíaca	achado		1	sim	
+aneurismarotura3	Aneurisma roto de aorta com sangramento ativo	achado		5	não	
+aneurismarotura4	Aneurisma roto de aorta com sinal do crescente	achado		4	sim	
+abdomevascular	Abdome agudo vascular por trombose da mesentérica superior	achado		0	sim	
+disseccaoiliaca	Dissecção de ilíaca comum com aneurisma sacular instável	achado		3	não	
+aneurismainstavel2	Aneurisma de aorta abdominal com rotura iminente (aorta drapeada)	achado		3	não	
+aneurismatoracico	Aneurisma de aorta torácica com rotura iminente	achado		2	não	
+mesenteriogirado	Rotação do mesentério vascular (sinal do redemoinho)	achado		0	não	
+aneurismagonadal	Aneurisma de aorta abdominal com trombo na artéria gonadal	achado		4	não	
+aneurismacolos	Aneurisma de aorta infrarrenal com medidas dos colos	achado		8	não	
+aneurismaaortoiliaco	Aneurisma de aorta com extensão ao ramo ilíaco direito	achado		3	não	
+aneurismatrombosado2	Aneurisma de aorta infrarrenal com trombo circunferencial	achado		5	não	
+aneurismabifurcacao	Aneurisma de aorta infrarrenal até a bifurcação aórtica	achado		4	não	
+aneurismadrapeado	Aneurisma aortoilíaco com sinal da aorta drapeada	achado		2	não	
+aneurismatrombosado3	Aneurisma de aorta abdominal extenso com trombo mural	achado		3	não	
+endoprotesevazamento3	Endoprótese aórtica fenestrada sem endoleak	achado		2	sim	
+filtrocava2	Filtro de veia cava inferior com trombos residuais	achado		0	não	
+aneurismailiaco3	Aneurisma da artéria ilíaca comum esquerda	achado		2	não	
+comunicacaoiliaca	Comunicação do sistema venoso ilíaco	achado		0	não	
+quebranozesrenal	Síndrome de nutcracker — com ectasia das veias renal e ovariana	achado		1	sim	
+tromboseportomesenterica	Trombose portomesentérica com sofrimento de alças	achado		0	não	
+aortaisodensa	Imagem isodensa à aorta — aneurisma ou sangramento ativo?	achado		0	não	
+infartovisceral3	Abdome agudo vascular com infartos hepático, esplênico e de alças	achado		0	sim	
+oclusaoceliaca	Ausência de contrastação do tronco celíaco e da mesentérica superior	achado		0	não	
+vasculiteabdominal	Vasculite de grandes vasos abdominais	achado		0	não	
+aneurismamesenterica	Aneurisma da artéria mesentérica superior	achado		2	não	
+ligamentoarqueado	Síndrome do ligamento arqueado mediano	achado		0	sim	
+aneurismatrombosado4	Trombo mural aortoilíaco	achado		0	não	
+tromboserenal	Trombose da veia renal esquerda	achado		0	não	
+hipoperfusao	Complexo de hipoperfusão (choque)	achado		0	não	

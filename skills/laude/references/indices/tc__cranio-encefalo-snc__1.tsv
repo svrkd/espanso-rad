@@ -1,0 +1,136 @@
+# ATENÇÃO: hsdc termina em "c" mas NÃO é conclusão (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+4vnl	Quarto ventrículo normal	achado		0	não	
+acm	artéria cerebral média	fragmento		0	não	
+adv	Anomalia do desenvolvimento venoso — TC, temporal direita	achado		0	não	
+agenesiacorpocaloso	Agenesia do corpo caloso	achado		0	não	
+aguadecoco	Craniostomia frontal com cateter de derivação	achado		0	não	
+ait	Isquemia/AIT no giro pré-central esquerdo	achado		0	não	
+alarga	Alargamento ventricular ipsilateral	achado		0	não	
+aneurismaroto	Hemorragia subaracnoide extensa (Fisher IV)	achado		0	não	
+angiomav	Angioma venoso (variante anatômica)	achado		0	não	
+avcd	Isquemia/lesão giro pré-central direito	achado		0	não	
+avcduvidoso	AVC isquêmico agudo duvidoso (ACI/ACM esquerda)	achado		0	sim	
+avch	AVC hemorrágico nucleocapsular/talâmico esquerdo	achado		2	não	
+avcis	AVC isquêmico agudo (território da ACP esquerda)	achado		0	não	
+avcpost	AVC isquêmico agudo (território da ACP direita)	achado		0	não	
+avctrans	AVC isquêmico com transformação hemorrágica — frontoparietal direito, com efeito de massa	achado		1	não	
+avctrans2	Progressão de AVC isquêmico (possível transformação hemorrágica)	achado		0	não	
+balboa	Hematoma frontal/periorbitário esquerdo	achado		0	não	
+calo	Imagens hipodensas na calota craniana	achado		0	não	
+calo1	Imagem hipodensa na calota craniana	achado		1	não	
+cdv	Cateter de derivação ventricular	achado		0	não	
+cerebd	hemisfério cerebelar direito	fragmento		0	não	
+cerebe	hemisfério cerebelar esquerdo	fragmento		0	não	
+cerebee	hemisfério cerebelar esquerdo	fragmento		0	não	
+cistoaracnoide	Cisto aracnoide na fossa média esquerda	achado		1	não	
+cistoaracnoide2	Cisto aracnoide retrocerebelar	achado		1	não	
+cistoaracnoider	Cisto aracnoide retrocerebelar	achado		1	não	
+cistocoloide	Cisto coloide do III ventrículo	achado		1	não	
+cistoporencefalico	Cisto porencefálico	achado		0	não	
+cistosdeplexo	Cistos de plexo coroide (xantogranulomas)	achado		0	não	
+citomegalovirosecerebral	Sequelas de citomegalovirose congênita	achado		0	não	
+conflitonv	Conflito neurovascular (AICA/nervo acústico-facial)	achado		0	não	
+craniost	Craniostomia parietal direita com cateter de derivação	achado		0	não	
+craniosto	Craniostomia direita com cateter de derivação	achado		0	não	
+degeax	Degeneração axonal do pedúnculo cerebral	achado		0	não	
+doencadefahr	Doença de Fahr (calcificações dos núcleos da base)	achado		0	sim	
+edemacerebral	Edema cerebral difuso — com apagamento de cisternas	achado		0	sim	
+edemacerebral1	Edema cerebral perilesional	achado		0	sim	
+encefalopatiahipoxico	Encefalopatia hipóxico-isquêmica	achado		0	não	
+glio	Microangiopatia/gliose	achado		0	não	
+granu	Granulação aracnoide	achado		0	não	
+granus	Granulações aracnoides — seios transversos, achado incidental	achado		0	não	
+haloedema	Edema perilesional	achado		0	não	
+hemoventriculohipertensivo	Hemorragia intraventricular com hipertensão intracraniana	achado		0	sim	
+hidrocefaliahiper	Hidrocefalia hipertensiva	achado		0	não	
+hidrohiper	Hidrocefalia com sinais hipertensivos	achado		0	não	
+hipoat	Microangiopatia/gliose	achado		0	não	
+hipoati	Microangiopatia/gliose	achado		0	não	
+hipogli	Microangiopatia/gliose	achado		0	não	
+hpn	Hidrocefalia de pressão normal (suspeita)	achado		1	não	
+hsa1	Hemorragia subaracnoide — sulcos e cisternas	achado		0	não	
+hsd	Hematoma subdural agudo à esquerda	achado		2	não	
+hsdb	Hematomas subdurais agudos bilaterais	achado		2	não	
+hsdc	Hematoma subdural crônico reagudizado à esquerda	achado		2	não	
+incopfd	Granuloma calcificado no lobo frontal direito	achado		0	não	
+incopfe	Granuloma calcificado no lobo frontal esquerdo	achado		0	não	
+incopod	Granuloma calcificado no lobo occipital direito	achado		0	não	
+incopoe	Granuloma calcificado no lobo occipital esquerdo	achado		0	não	
+incoppd	Granuloma calcificado no lobo parietal direito	achado		0	não	
+incoppe	Granuloma calcificado no lobo parietal esquerdo	achado		0	não	
+incoptd	Granuloma calcificado no lobo temporal direito	achado		0	não	
+incopte	Granuloma calcificado no lobo temporal esquerdo	achado		0	não	
+labas	Lesões lacunares crônicas (núcleos da base e periventricular)	achado		0	não	
+lalccorno	Lesão lacunar crônica periventricular direita	achado		0	não	
+lat	Lesão axonal traumática/contusões hemorrágicas	achado		0	não	
+lemor	Contusão hemorrágica frontotemporal esquerda	achado		0	não	
+lfs	Lobos frontais	fragmento		0	não	
+lod	Lobo occipital direito	fragmento		0	não	
+loe	Lobo occipital esquerdo	fragmento		0	não	
+macroadenoma1	Macroadenoma hipofisário com compressão do quiasma — parasselar esquerda	achado		1	não	
+maguila	Hematoma de partes moles frontofacial à direita	achado		0	não	
+maguila1	Hematoma frontoperiorbitário à direita	achado		0	não	
+maguilabife	Hematoma frontofacial à direita com ferimento	achado		0	não	
+maguilae	Hematoma de partes moles frontofacial à esquerda	achado		0	não	
+malaglis	Encefalomalácia/gliose (múltiplas)	achado		1	não	
+malaglis1	Encefalomalácia/gliose lobar	achado		0	não	
+masto	Conteúdo em células mastóideas (achado inespecífico)	achado		0	não	
+mcal	Meningioma calcificado frontal	achado		1	não	
+megacis	Megacisterna magna x cisto aracnoide	achado		0	não	
+megacis1	Megacisterna magna x cisto aracnoide x cisto de Blake	achado		0	não	
+meningeomacalcificado	Meningioma calcificado frontal	achado		1	não	
+meningioma1	Meningioma da foice cerebral	achado		1	não	
+mesa1	Degeneração walleriana do pedúnculo cerebral direito	achado		0	não	
+mesa2	Degeneração walleriana do pedúnculo cerebral esquerdo	achado		0	não	
+metacerebral	Metástase cerebral única (lobo frontal direito)	achado		1	não	
+metashemorragicas	Metástases cerebrais hemorrágicas	achado		0	não	
+mgd	Microangiopatia/gliose/desmielinização	achado		0	não	
+microadenoma1	Microadenoma hipofisário — TC, mediano	achado		1	não	
+mielograf	Resíduos de mielografia	achado		0	não	
+mortecerebral2	Edema cerebral difuso hipóxico-isquêmico	achado		0	não	
+mortencefalica1	Edema cerebral difuso com sinais de hipertensão intracraniana	achado		0	sim	
+pai	Imagem hipodensa cerebelar indeterminada (isquemia?)	achado		0	não	
+parate	Hematoma subdural paratentorial direito	achado		0	não	
+patia	Microangiopatia/gliose periventricular	achado		0	não	
+pseudohsa	Pseudo-hemorragia subaracnoide	achado		0	não	
+pterio	Craniotomia pterional/cranioplastia à esquerda	achado		0	sim	
+residuosmielografia	Resíduos de mielografia (partículas metálicas)	achado		0	não	
+rombo1	hemisfério cerebelar direito	fragmento		0	não	
+rombo2	hemisfério cerebelar esquerdo	fragmento		0	não	
+rombo3	hemisférios cerebelares	fragmento		0	não	
+schwannoma1	Schwannoma do ângulo pontocerebelar — TC	achado		1	não	
+selavazia	Síndrome da sela vazia	achado		0	não	
+subgalocu	Hematoma subgaleal frontal direito com enfisema subcutâneo	achado		0	não	
+subgalocu1	Hematoma subgaleal parieto-occipital direito com enfisema	achado		0	não	
+subgalof	Hematoma subgaleal frontal direito	achado		0	não	
+subgalofb	Hematoma subgaleal frontal bilateral	achado		0	não	
+subgalofd	Hematoma subgaleal frontal direito	achado		0	não	
+subgalofe	Hematoma subgaleal frontal esquerdo	achado		0	não	
+subgalood	Hematoma subgaleal occipital direito	achado		0	não	
+subgalooe	Hematoma subgaleal occipital esquerdo	achado		0	não	
+subgalopb	Hematoma subgaleal parietal bilateral	achado		0	não	
+subgalopd	Hematoma subgaleal parietal direito	achado		0	não	
+subgalope	Hematoma subgaleal parietal esquerdo	achado		0	não	
+subgalopo	Hematoma subgaleal parieto-occipital direito	achado		0	não	
+tcavc	AVC isquêmico recente (ACM esquerda)	achado		1	não	
+tcbezold	Otomastoidite complicada — abscesso de Bezold?	achado		0	não	
+tcbruno	Degeneração axonal do pedúnculo cerebral esquerdo	achado		0	não	
+tccolpo	Colpocefalia (encefalomalácia parieto-occipital)	achado		0	não	
+tcgbm	Neoplasia glial de alto grau (glioblastoma)	achado		3	não	
+tcgli	Microangiopatia/gliose periventricular	achado		0	não	
+tcgliose	Microangiopatia/gliose periventricular	achado		0	não	
+tchigroma	Higroma/hematoma subdural crônico bilateral	achado		0	não	
+tchigroma1	Higroma/hematoma subdural crônico à direita	achado		0	não	
+tchigroma2	Higroma/hematoma subdural crônico à esquerda	achado		0	não	
+tciodoforme	Curativo com iodofórmio (artefato occipital)	achado		0	não	
+tcmacroadenoma	Macroadenoma hipofisário com compressão do quiasma — entre os vasos do polígono	achado		1	não	
+tcmeningioma	Meningioma parietal direito	achado		1	não	
+tcparada	Edema hipóxico-isquêmico difuso com hemorragia subaracnoide	achado		0	não	
+tcschwannoma	Schwannoma do ângulo pontocerebelar — TC, com alargamento do conduto auditivo interno	achado		1	não	
+tctaio	Ferimento frontotemporal com enfisema subcutâneo	achado		0	não	
+tctorch	TORCH — calcificações sequelares (toxoplasmose congênita?)	achado		0	não	
+tctorch2	Calcificações sequelares STORCH (toxoplasmose congênita)	achado		0	não	
+tctrepa	Craniostomia temporal com cateter de derivação	achado		0	não	
+tele1	hemisfério cerebral direito	fragmento		0	não	
+tele2	hemisfério cerebral esquerdo	fragmento		0	não	

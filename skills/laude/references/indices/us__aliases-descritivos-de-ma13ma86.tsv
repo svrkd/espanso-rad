@@ -1,0 +1,79 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+maecoadip	Mama (US): ecotextura homogênea adiposa	achado		0	não	
+maecohet	Mama (US): ecotextura heterogênea	achado		0	não	
+maecofib	Mama (US): ecotextura homogênea fibroglandular	achado		0	não	
+maglmin	Mama (US): componente glandular mínimo (<25%, BI-RADS v2025)	achado		0	não	
+magldisc	Mama (US): componente glandular leve (25–49%, BI-RADS v2025)	achado		0	não	
+maglmod	Mama (US): componente glandular moderado (50–74%, BI-RADS v2025)	achado		0	não	
+maglacent	Mama (US): componente glandular acentuado (≥75%, BI-RADS v2025)	achado		0	não	
+mapele	Mama (US): pele e subcutâneo preservados	achado		0	não	
+masemlesao	Mama (US): ausência de lesões focais	achado		0	não	
+maretro	Mama (US): regiões retroareolares preservadas	achado		0	não	
+masempalp	Mama (US): ausência de correspondente para achado palpável	achado		3	não	
+masemcorr	Mama (US): ausência de correspondente para achado mamográfico	achado		3	não	
+maoval	Mama (US): nódulo oval circunscrito e paralelo	achado		7	não	
+malob	Mama (US): nódulo lobulado circunscrito e paralelo	achado		7	não	
+maredonda	Mama (US): nódulo redondo circunscrito	achado		7	não	
+mairreg	Mama (US): nódulo irregular de margem indistinta	achado		7	não	
+mamicrolob	Mama (US): nódulo de margem microlobulada	achado		7	sim	
+maangular	Mama (US): nódulo de margem angular	achado		7	não	
+maespic	Mama (US): nódulo espiculado e não paralelo	achado		7	não	
+mahiper	Mama (US): nódulo hiperecogênico	achado		7	sim	
+maiso	Mama (US): nódulo isoecogênico	achado		7	sim	
+mahetero	Mama (US): nódulo heterogêneo	achado		7	sim	
+mamista	Mama (US): nódulo misto sólido e cístico	achado	mamistac	7	sim	
+mabilat	Mama (US): nódulos circunscritos múltiplos bilaterais	achado		0	não	
+maparam	Mama (US): nódulo parametrizado (descritores v2025)	achado		7	sim	
+mamassac	Mama (US): nódulo mamário (conclusão)	achado		1	não	
+macisto	Mama (US): cisto simples	achado	macistoc	6	sim	
+macistos	Mama (US): cistos simples múltiplos bilaterais	achado	macistosc	4	não	
+macistcomp	Mama (US): cisto complicado isolado	achado	macistcompc	6	não	
+macistcomps	Mama (US): cistos complicados múltiplos bilaterais	achado		0	não	
+mamicro	Mama (US): microcistos agrupados típicos	achado	mamicroc	6	não	
+mamicroind	Mama (US): microcistos com margem indistinta	achado		6	não	
+mamural	Mama (US): nódulo misto com componente sólido mural	achado		7	não	
+macistoc	Mama (US): cisto mamário (conclusão)	conclusão	macisto	1	não	
+malnm	Mama (US): lesão não massa focal	achado	malnmc	6	não	
+malnmlin	Mama (US): lesão não massa linear	achado		4	não	
+malnmseg	Mama (US): lesão não massa segmentar com focos ecogênicos	achado		5	não	
+malnmreg	Mama (US): lesão não massa regional	achado		2	não	
+malnmc	Mama (US): lesão não massa (conclusão)	conclusão	malnm	1	não	
+macalcmassa	Mama (US): microcalcificações em nódulo	achado		3	não	
+macalcfora	Mama (US): microcalcificações fora de nódulo	achado		3	não	
+macalcduct	Mama (US): microcalcificações intraductais	achado		3	não	
+mamacrocalc	Mama (US): macrocalcificação em nódulo	achado		3	não	
+mareforco	Mama (US): reforço acústico posterior	achado		0	não	
+masombra	Mama (US): sombra acústica posterior	achado		0	não	
+mapseudo	Mama (US): pseudocápsula ecogênica fina	achado		0	não	
+mahalo	Mama (US): halo ecogênico espesso (rind; margem não circunscrita)	achado		1	não	
+madistorcao	Mama (US): distorção arquitetural	achado		4	não	
+maedema	Mama (US): edema mamário	achado		1	não	
+mapeleesp	Mama (US): espessamento cutâneo	achado		3	sim	
+maretracao	Mama (US): retração cutânea ou papilar	achado		1	sim	
+mavascint	Mama (US): vascularização interna	achado		0	não	
+mavascper	Mama (US): vascularização periférica	achado		0	não	
+masemfluxo	Mama (US): ausência de fluxo detectável	achado		0	não	
+maectasia	Mama (US): ectasia ductal simples	achado		1	não	
+madebris	Mama (US): ducto dilatado com debris	achado		2	não	
+maintraduct	Mama (US): nódulo intraductal vascularizado	achado		6	não	
+maductpar	Mama (US): dilatação ductal focal com alteração parietal	achado		4	não	
+macutanea	Mama (US): lesão cutânea com conexão dérmica	achado		5	não	
+macolpo	Mama (US): coleção pós-operatória avascular	achado		4	não	
+macolinfl	Mama (US): coleção complexa com alterações inflamatórias	achado		5	não	
+manecrose	Mama (US): necrose gordurosa suspeitada	achado		5	sim	
+maintram	Mama (US): linfonodo intramamário típico	achado		4	não	
+maproem	Mama (US): parênquima glandular focal proeminente	achado		2	não	
+maaxnl	Mama (US): linfonodos axilares de morfologia habitual	achado		0	não	
+maaxdif	Mama (US): espessamento cortical difuso de linfonodo	achado		3	não	
+maaxfoc	Mama (US): espessamento cortical focal de linfonodo	achado		3	não	
+maaxred	Mama (US): linfonodo arredondado sem hilo	achado		2	não	
+maaxvasc	Mama (US): vascularização cortical de linfonodo	achado		2	não	
+maaxind	Mama (US): linfonodo com margem indistinta	achado		2	não	
+maaxc	Mama (US): linfonodo axilar alterado (conclusão)	achado		1	não	
+maestavel	Mama (US): estabilidade em comparação	achado		2	não	
+manovo	Mama (US): achado novo em comparação	achado		2	não	
+macresc	Mama (US): crescimento em comparação	achado		4	não	
+macistosc	Mama (US): cistos simples (conclusão)	conclusão	macistos	0	não	
+mamicroc	Mama (US): microcistos agrupados (conclusão)	conclusão	mamicro	1	não	
+macistcompc	Mama (US): cisto complicado (conclusão)	conclusão	macistcomp	1	não	
+mamistac	Mama (US): nódulo misto sólido e cístico (conclusão)	conclusão	mamista	1	não	

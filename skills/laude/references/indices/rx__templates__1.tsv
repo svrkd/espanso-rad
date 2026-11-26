@@ -1,0 +1,90 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+selaturcica	Sela túrcica — normal	template		0	não	SELA TÚRCICA
+rxpancol1	Estudo panorâmico da coluna vertebral — normal	template		0	não	ESTUDO RADIOGRÁFICO PANORÂMICO DA COLUNA VERTEBRAL
+rxpancol2	Estudo panorâmico da coluna vertebral — template completo	template		1	não	ESTUDO RADIOGRÁFICO PANORÂMICO DA COLUNA VERTEBRAL
+eeduodeno	Esôfago, estômago e duodeno — template normal	template		0	não	ESÔFAGO - ESTÔMAGO E DUODENO
+enemaopaco	Enema opaco — template normal	template		0	não	ENEMA OPACO
+histero	Histerossalpingograma — template normal	template		0	não	HISTEROSSALPINGOGRAMA
+transitointestinal	Trânsito intestinal — normal	template		0	não	TRÂNSITO INTESTINAL
+uretrocisto	Uretrocistografia — normal	template		0	não	URETROCISTOGRAFIA
+urografia	Urografia excretora — normal	template		0	não	UROGRAFIA EXCRETORA
+idadeossea	Idade óssea — mãos e punhos (template)	template		0	não	MÃOS E PUNHOS PARA IDADE ÓSSEA
+rxpanmmii1	Estudo panorâmico dos membros inferiores — normal	template		0	não	ESTUDO RADIOGRÁFICO PANORÂMICO DOS MEMBROS INFERIORES
+rxpanoramico1	Estudo panorâmico dos membros inferiores — normal	template		0	não	ESTUDO RADIOGRÁFICO PANORÂMICO DOS MEMBROS INFERIORES
+poli1	Laudo combinado — bacia e tórax normais	template		0	não	(204060095) RX - RADIOGRAFIA DE BACIA
+rxbacia3	Radiografia de bacia — template completo, degenerativo	template		0	não	RADIOGRAFIA DE BACIA
+rxsifilis	Sífilis congênita — controle radiográfico dos membros	template		0	não	(204040019) RX - RADIOGRAFIA DE ANTEBRAÇO DIREITO
+sifilisnormal	Sífilis congênita — membros normais	template		0	não	(204040019) RX - RADIOGRAFIA DE ANTEBRAÇO DIREITO
+maozuada	Radiografia de mão — artropatia deformante	template		0	não	RADIOGRAFIA DE MÃO
+rxcavum3	Radiografia de cavum — adenoides normais	template		0	não	RADIOGRAFIA DE CAVUM
+rxombro1	Radiografia de ombro — normal, com título	template		0	sim	RADIOGRAFIA DO OMBRO DIREITO / ESQUERDO
+rxsonda	Radiografia de tórax — visualização de sonda entérica	template		0	não	RADIOGRAFIA DE TÓRAX
+rxabd2	Radiografia de abdome — template completo	template		0	não	RADIOGRAFIA DE ABDOME
+rxagudo	Radiografia de tórax e abdome — normal, com interposição gasosa	template		0	não	RADIOGRAFIA DE TÓRAX
+rxantebraco1	Radiografia de antebraço — normal	template		0	não	RADIOGRAFIA DE ANTEBRAÇO
+rxantebraco2	Radiografia de antebraço — template completo	template		0	sim	RADIOGRAFIA DE ANTEBRAÇO DIREITO / ESQUERDO
+rxantebracod	Radiografia de antebraço direito — normal	template		0	não	RADIOGRAFIA DE ANTEBRAÇO DIREITO
+rxantebracoe	Radiografia de antebraço esquerdo — normal	template		0	não	RADIOGRAFIA DE ANTEBRAÇO ESQUERDO
+rxarcos1	Radiografia de arcos costais — normal	template		0	não	RADIOGRAFIA DE ARCOS COSTAIS
+rxatm1	Radiografia de ATM — normal	template		0	não	RADIOGRAFIA DE ARTICULAÇÕES TEMPOROMANDIBULARES
+rxatm2	Radiografia de ATM — template completo	template		0	não	RADIOGRAFIA DE ARTICULAÇÕES TEMPOROMANDIBULARES
+rxbacia1	Radiografia de bacia — normal	template		0	não	RADIOGRAFIA DE BACIA
+rxbacia2	Radiografia de bacia — template completo, com osteossíntese transtrocantérica	template		0	sim	RADIOGRAFIA DE BACIA
+rxbraco1	Radiografia de braço — normal	template		0	sim	RADIOGRAFIA DE BRAÇO DIREITO / ESQUERDO
+rxbraco2	Radiografia de braço — template completo	template		0	sim	RADIOGRAFIA DE BRAÇO DIREITO / ESQUERDO
+rxbracod	Radiografia de braço direito — normal	template		0	não	RADIOGRAFIA DE BRAÇO DIREITO
+rxbracoe	Radiografia de braço esquerdo — normal	template		0	não	RADIOGRAFIA DE BRAÇO ESQUERDO
+rxcalcaneo1	Radiografia de calcâneo — normal	template		0	sim	RADIOGRAFIA DE CALCÂNEO DIREITO / ESQUERDO
+rxcalcaneo2	Radiografia de calcâneo — template completo	template		0	sim	RADIOGRAFIA DE CALCÂNEO DIREITO / ESQUERDO
+rxcalcaneod	Radiografia de calcâneo direito — normal	template		0	não	RADIOGRAFIA DE CALCÂNEO DIREITO
+rxcalcaneoe	Radiografia de calcâneo esquerdo — normal	template		0	não	RADIOGRAFIA DE CALCÂNEO ESQUERDO
+rxcavum1	Radiografia de cavum — normal	template		0	não	RADIOGRAFIA DE CAVUM
+rxcavum2	Radiografia de cavum — template completo	template		0	não	RADIOGRAFIA DE CAVUM
+rxcervical1	Radiografia de coluna cervical — normal	template		0	não	RADIOGRAFIA DE COLUNA CERVICAL
+rxcervical2	Radiografia de coluna cervical — template completo	template		0	não	RADIOGRAFIA DE COLUNA CERVICAL
+rxclavi1	Radiografia de clavícula — normal	template		0	sim	RADIOGRAFIA DA CLAVÍCULA DIREITA / ESQUERDA
+rxclavid	Radiografia de clavícula direita — normal	template		0	não	RADIOGRAFIA DA CLAVÍCULA DIREITA
+rxclavie	Radiografia de clavícula esquerda — normal	template		0	não	RADIOGRAFIA DA CLAVÍCULA ESQUERDA
+rxcoto1	Radiografia de cotovelo — normal	template		0	não	RADIOGRAFIA DE COTOVELO
+rxcoto2	Radiografia de cotovelo — template completo	template		0	sim	RADIOGRAFIA DE COTOVELO DIREITO / ESQUERDO
+rxcotod	Radiografia de cotovelo direito — normal	template		0	não	RADIOGRAFIA DE COTOVELO DIREITO
+rxcotoe	Radiografia de cotovelo esquerdo — normal	template		0	não	RADIOGRAFIA DE COTOVELO ESQUERDO
+rxcoxa1	Radiografia de coxa — normal	template		0	não	RADIOGRAFIA DA COXA
+rxcranio1	Radiografia de crânio — normal	template		0	não	RADIOGRAFIA DE CRÂNIO
+rxcranio2	Radiografia de crânio — template completo	template		0	não	RADIOGRAFIA DE CRÂNIO
+rxdedo0	Radiografia de dedo da mão — normal	template		0	sim	RADIOGRAFIA DO X DEDO DA MÃO DIREITA / ESQUERDA
+rxdedo1d	Radiografia do 1º dedo da mão direita — normal	template		0	não	RADIOGRAFIA DO PRIMEIRO DEDO DA MÃO DIREITA
+rxdedo1e	Radiografia do 1º dedo da mão esquerda — normal	template		0	não	RADIOGRAFIA DO PRIMEIRO DEDO DA MÃO ESQUERDA
+rxdedo2d	Radiografia do 2º dedo da mão direita — normal	template		0	não	RADIOGRAFIA DO SEGUNDO DEDO DA MÃO DIREITA
+rxdedo2e	Radiografia do 2º dedo da mão esquerda — normal	template		0	não	RADIOGRAFIA DO SEGUNDO DEDO DA MÃO ESQUERDA
+rxdedo3d	Radiografia do 3º dedo da mão direita — normal	template		0	não	RADIOGRAFIA DO TERCEIRO DEDO DA MÃO DIREITA
+rxdedo3e	Radiografia do 3º dedo da mão esquerda — normal	template		0	não	RADIOGRAFIA DO TERCEIRO DEDO DA MÃO ESQUERDA
+rxdedo4d	Radiografia do 4º dedo da mão direita — normal	template		0	não	RADIOGRAFIA DO QUARTO DEDO DA MÃO DIREITA
+rxdedo4e	Radiografia do 4º dedo da mão esquerda — normal	template		0	não	RADIOGRAFIA DO QUARTO DEDO DA MÃO ESQUERDA
+rxdedo5d	Radiografia do 5º dedo da mão direita — normal	template		0	não	RADIOGRAFIA DO QUINTO DEDO DA MÃO DIREITA
+rxdedo5e	Radiografia do 5º dedo da mão esquerda — normal	template		0	não	RADIOGRAFIA DO QUINTO DEDO DA MÃO ESQUERDA
+rxdorsal2	Radiografia de coluna torácica — template completo	template		0	não	RADIOGRAFIA DE COLUNA TORÁCICA
+rxfemur2	Radiografia de fêmur — template completo	template		0	sim	RADIOGRAFIA DE FÊMUR DIREITO / ESQUERDO
+rxfemurd	Radiografia de fêmur direito — normal	template		0	não	RADIOGRAFIA DE FÊMUR DIREITO
+rxfemure	Radiografia de fêmur esquerdo — normal	template		0	não	RADIOGRAFIA DE FÊMUR ESQUERDO
+rxjoelho1	Radiografia de joelho — normal, com título	template		0	sim	RADIOGRAFIA DO JOELHO DIREITO / ESQUERDO
+rxjoelho2	Radiografia de joelho — template completo	template		0	sim	RADIOGRAFIA DO JOELHO DIREITO/ESQUERDO
+rxjoelhod	Radiografia de joelho direito — normal	template		0	não	RADIOGRAFIA DO JOELHO DIREITO
+rxjoelhoe	Radiografia de joelho esquerdo — normal	template		0	não	RADIOGRAFIA DO JOELHO ESQUERDO
+rxlombar1	Radiografia de coluna lombar — normal, com título	template		0	não	RADIOGRAFIA DE COLUNA LOMBAR
+rxlombar2	Radiografia de coluna lombar — template completo	template		0	não	RADIOGRAFIA DE COLUNA LOMBAR
+rxmao1	Radiografia de mão — normal	template		0	sim	RADIOGRAFIA DA MÃO DIREITA / ESQUERDA
+rxmao2	Radiografia de mão — template completo	template		0	sim	RADIOGRAFIA DA MÃO DIREITA / ESQUERDA
+rxmaod	Radiografia de mão direita — normal	template		0	não	RADIOGRAFIA DA MÃO DIREITA
+rxmaoe	Radiografia de mão esquerda — normal	template		0	não	RADIOGRAFIA DA MÃO ESQUERDA
+rxmastoide1	Radiografia de mastoides — normal	template		0	não	RADIOGRAFIA DE MASTÓIDES
+rxmastoide2	Radiografia de mastoides — template completo	template		0	não	RADIOGRAFIA DE MASTÓIDES
+rxombro2	Radiografia de ombro — template completo	template		0	sim	RADIOGRAFIA DO OMBRO DIREITO/ESQUERDO
+rxombrod	Radiografia de ombro direito — normal	template		0	não	RADIOGRAFIA DO OMBRO DIREITO
+rxombroe	Radiografia de ombro esquerdo — normal	template		0	não	RADIOGRAFIA DO OMBRO ESQUERDO
+rxpanclavi	Radiografia panorâmica de clavículas — normal	template		0	não	RADIOGRAFIA PANORÂMICA DAS CLAVÍCULAS
+rxpe1	Radiografia de pé — normal	template		0	sim	RADIOGRAFIA DO PÉ DIREITO / ESQUERDO
+rxpe2	Radiografia de pé — template completo	template		0	sim	RADIOGRAFIA DO PÉ DIREITO / ESQUERDO
+rxped	Radiografia de pé direito — normal	template		0	não	RADIOGRAFIA DO PÉ DIREITO
+rxpee	Radiografia de pé esquerdo — normal	template		0	não	RADIOGRAFIA DO PÉ ESQUERDO
+rxperna1	Radiografia de perna — normal	template		0	sim	RADIOGRAFIA DE PERNA DIREITA / ESQUERDA

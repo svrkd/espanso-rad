@@ -1,0 +1,113 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+corposlombnl1	Corpos vertebrais com altura e alinhamento preservados	achado		0	não	
+lordoseacent1	Acentuação da lordose fisiológica na posição do exame	achado		0	não	
+lordoseacent2	Acentuação da lordose lombar em decúbito	achado		0	não	
+lordoseacent3	TC — acentuação da lordose em decúbito	achado		0	não	
+retificalomb1	TC — retificação da lordose fisiológica em decúbito	achado		0	não	
+acentuacurvat1	TC — acentuação das curvaturas torácica e lombar	achado		0	não	
+escoliose1	Escoliose toracolombar com hemivértebra	achado		0	não	
+escoliose2	Retificação da lordose com escoliose lombar	achado		0	não	
+escoliose3	Conclusão — escoliose lombar para a esquerda	achado		0	não	
+escoliose4	Acentuado desvio escoliótico da coluna lombar	achado		0	não	
+escoliose5	TC — desvio toracolombar com componente rotacional	achado		0	não	
+laterolistese1	Laterolistese de L2 e L3 à direita	fragmento		0	não	
+infradesnivel1	Infradesnivelamento da crista ilíaca	achado		0	não	
+retrolistese1	Retrolistese degenerativa escalonada de L2, L3 e L4	achado		0	não	
+retrolistese2	Mínima retrolistese de L4 sobre L5 (grau I)	achado		0	não	
+retrolistese3	Discreta retrolistese de L3 sobre L4	achado		0	não	
+retrolistese4	Conclusão — discreta retrolistese de L3	achado		0	não	
+retrolistese5	Retrolistese de L1-L2 com anterolistese de L2-L3	achado		0	não	
+retrolistese6	Discreta retrolistese degenerativa de L2	achado		0	não	
+anterolistelomb1	Anterolisteses grau I em L4-L5 e L5-S1	achado		0	não	
+anterolistelomb2	Anterolisteses degenerativas grau I em L4 e L5	fragmento		0	não	
+anterolistelomb3	Anterolistese de L4 sobre L5 e L5 sobre S1 (grau I)	achado		0	não	
+anterolistelomb4	Anterolistese degenerativa grau I de L3	achado		0	não	
+anterolistelomb5	TC — anterolistese degenerativa de L4-L5	achado		0	não	
+anterolistelomb6	TC — anterolistese de L5-S1 com lise do istmo	achado		0	não	
+anterolistet1	Anterolistese grau I de T1 sobre T2, degenerativa	achado		0	não	
+anterolistel5	Anterolistese grau I de L5 sobre S1, degenerativa	achado		0	não	
+espondilolise1	Lise crônica dos istmos de L5 com anterolistese	achado		0	não	
+espondilolise2	Espondilólise do istmo de L5 à direita	achado		0	não	
+vertrans1	Vértebra de transição lombossacra com sacralização de L5	achado		0	não	
+vertrans2	Vértebra de transição com lombarização de S1	achado		0	não	
+vertrans3	Sacralização de L5 com megapófise transversa — neoarticulada à direita	achado		0	não	
+vertrans4	Vértebra de transição — recomendação de correlação radiográfica	achado		0	não	
+vertrans5	Vértebra de transição com megapófise articulada ao sacro	achado		0	não	
+pediculocurto1	Pedículos curtos com espessamento do ligamento amarelo	achado		0	sim	
+pediculocurto2	Pedículos lombares de L3 a L5 de configuração curta	achado		0	não	
+pediculocurto3	Pedículos de morfologia constitucionalmente curta de L2 a L5	achado		0	não	
+vertebralimbo1	Irregularidade do bordo ântero-superior de L5 (vértebra em limbo)	achado		0	não	
+enostose1	Enostose (ilhota óssea) no ilíaco direito	achado		0	não	
+osteofitosschmorl1	Corpos vertebrais com osteófitos e herniações de Schmorl	achado		0	não	
+osteofitoslomb1	Osteófitos marginais incipientes de L3 a L5	achado		0	não	
+osteofitoslomb2	TC — osteófitos marginais incipientes difusos	achado		0	não	
+osteofitoslomb3	TC — osteófitos marginais proeminentes nos platôs	achado		0	não	
+osteofitosacent1	Osteófitos marginais acentuados nos corpos vertebrais	achado		0	não	
+osteofitosepontes1	Osteofitose marginal com pontes ósseas anterolaterais	achado		0	não	
+schmorl1	Nódulos de Schmorl nos planaltos vertebrais	achado		1	não	
+schmorl2	Herniação intrassomática de Schmörl aguda ou crônica	achado		2	sim	
+schmorl3	Herniações discais intrassomáticas esparsas	achado		0	não	
+schmorl4	TC — herniações de Schmorl em T12, L2, L3 e L5	achado		0	não	
+schmorl5	TC — herniação de Schmorl com degeneração gasosa	achado		0	não	
+modiclomb1	Irregularidades com edema (Modic I) nos platôs de L4-L5	achado		0	não	
+modiclomb2	Degeneração edematosa/gordurosa de L5-S1 (Modic I/II)	achado		0	sim	
+modiclomb3	Alterações degenerativas discogênicas Modic I/II	achado		1	sim	
+modiclomb4	Edema e degeneração gordurosa (Modic I e II) em L3-L4 e L4-L5	achado		0	não	
+modiclomb5	Focos de edema nas margens anteriores de L1 a L3	achado		0	não	
+modiclomb6	Irregularidade e degeneração das placas terminais (Modic I/II)	achado		1	sim	
+modiclomb7	Degeneração edematosa/gordurosa de L2-L3 a L4-L5	achado		0	sim	
+modiclomb8	Alterações Modic I/II em L4-L5 e L5-S1	achado		0	sim	
+entesopatiamarg1	Edema ósseo na margem ântero-superior por entesopatia	achado		0	sim	
+entesopatiamarg2	Edema ósseo ântero-superior de L4 e L5 por entesopatia	achado		0	sim	
+discopatiamulti1	Discopatia degenerativa multissegmentar com focos gasosos	achado		0	não	
+discopatialomb1	Discopatia de L2-L3 e L5-S1 com Modic II	fragmento		0	não	
+discopatialomb2	Conclusão — discopatia degenerativa de L5-S1	achado		0	não	
+discopatialomb3	Conclusão — discopatia multissegmentar com estenose	achado		0	não	
+discopatialomb4	Discopatia degenerativa com hipo-hidratação de L4-L5 e L5-S1	achado		0	não	
+hipohidratlomb1	Hipo-hidratação discal de L3-L4 a L5-S1	achado		0	não	
+hipohidratlomb2	Hipo-hidratação discal com redução da altura em L5-S1	achado		0	não	
+hipohidratlomb3	Hipo-hidratação com redução difusa da altura discal	achado		0	não	
+hipohidratlomb4	Redução da hidratação discal de L3-L4 e L4-L5	achado		0	não	
+desidratlomb1	Desidratação discal lombar difusa (máscara)	fragmento		1	não	
+desidratlomb2	Desidratação discal difusa com redução em L3-L4	achado		0	não	
+desidratlomb4	Máscara — hipo-hidratação dos discos em (nível a preencher)	achado		0	não	
+desidratlomb3	Desidratação discal difusa com redução da altura	achado		1	não	
+reducaodiscal1	Redução dos espaços discais com Schmorl e esclerose	achado		1	não	
+reducaodiscal2	TC — discreta redução do espaço discal de L5-S1	achado		0	não	
+reducaodiscal3	TC — redução discal com esclerose e degeneração gasosa	achado		0	não	
+reducaodiscal4	TC — redução difusa dos espaços discais	achado		0	não	
+hemangiomalomb1	Hemangiomas ósseos ou depósito de gordura focal	achado		0	não	
+hemangiomalomb2	Foco nodular de degeneração gordurosa e/ou hemangioma	achado		1	não	
+nodulot2	Imagem nodular vertebral com baixo sinal em todas as sequências	achado		0	não	
+nodulot2b	Imagem nodular vertebral inespecífica — controle evolutivo	achado		0	não	
+hemangiomalomb3	Foco nodular de L1 — hemangioma atípico, controle evolutivo	achado		0	sim	
+artrointerfaclomb1	Artrose interfacetária multissegmentar	achado		0	não	
+artrointerfaclomb2	Artropatia degenerativa interfacetária de L3-L4 a L5-S1	achado		0	não	
+artrointerfaclomb3	Artrose interfacetária mais acentuada em L4-L5 e L5-S1	fragmento		0	não	
+interfacetlomb1	Artropatia interfacetária difusa com lâmina líquida	achado		0	não	
+interfacetlomb2	Alterações interfacetárias com líquido intra-articular	achado		0	não	
+interfacetlomb3	Alterações interfacetárias com líquido à direita	achado		2	sim	
+interfacetlomb4	Alterações degenerativas moderadas das interfacetárias	achado		0	não	
+interfacetlomb5	Derrame articular nas interfacetárias de L3-L4	achado		0	não	
+interfacetlomb6	TC — leves alterações das interfacetárias de L2-L3 e L3-L4	achado		0	não	
+interfacetlomb7	TC — artropatia interfacetária com degeneração gasosa	achado		0	não	
+interfacetlomb8	TC — hipertrofia das interfacetárias de L2-L3 a L5-S1	achado		0	não	
+interapofis1	Artrose das interapofisárias com estenose relativa	achado		0	não	
+interapofis2	Alterações degenerativas das interapofisárias torácicas e lombares	achado		0	não	
+cistointerfacet1	Cisto artrossinovial da interfacetária com contato radicular	achado		0	não	
+ligamarelolomb1	Espessamento dos ligamentos amarelos de L2 a L4	achado		0	não	
+ligamarelolomb2	Espessamento dos ligamentos amarelos de L2-L3 a L5-S1	achado		0	não	
+baastrup1	Artrose interespinhosa (Baastrup) com edema por sobrecarga	achado		0	não	
+baastrup2	Conclusão — artrose interespinhosa (Baastrup)	achado		0	não	
+baastrup3	Sinais de Baastrup de L1-L2 a L4-L5	achado		0	não	
+baastrup4	Sinais de Baastrup com hipertrofia dos processos espinhosos	achado		0	não	
+baastrup5	TC — sinais de Baastrup em L3-L4 e L4-L5	achado		0	não	
+interespinhoso1	Edema dos ligamentos interespinhais de L5-S1	achado		0	não	
+interespinhoso2	Edema dos ligamentos interespinhosos por sobrecarga mecânica	achado		0	não	
+interespinhoso3	Conclusão — edema do espaço ligamentar interespinhoso	achado		0	não	
+interespinhoso4	Leve edema dos ligamentos interespinhosos por sobrecarga	achado		0	não	
+interespinhoso5	Edema do ligamento interespinhoso de L3-L4 a L5-S1	achado		0	sim	
+abaullomb1	L1-L2 — pequeno abaulamento com impressão dural	achado		0	não	
+abaullomb2	L2-L3 — disco-osteofitário com raízes emergentes de L2	achado		0	não	
+abaullomb3	L3-L4 — disco-osteofitário assimétrico com estenose foraminal	achado		0	não	
+abaullomb4	L4-L5 — disco-osteofitário com impressão dural	achado		0	não	

@@ -1,0 +1,79 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+an1	Anexos/região anexial: Cisto anexial simples à direita/esquerda (achado descritivo)	achado	an1c	2	não	
+an1c	Anexos/região anexial: Cisto anexial simples à direita/esquerda	conclusão	an1	1	não	
+an2	Anexos/região anexial: Massa anexial à direita/esquerda (achado descritivo)	achado	an2c	2	sim	
+an2c	Anexos/região anexial: Massa anexial à direita/esquerda	conclusão	an2	1	não	
+an3	Anexos/região anexial: Imagem na região anexial _ compatível com hidrossalpinge (achado descritivo)	achado	an3c	2	sim	
+an3c	Anexos/região anexial: Imagem na região anexial _ compatível com hidrossalpinge	conclusão	an3	1	não	
+diu1	DIU: Dispositivo intrauterino (DIU) em topografia habitual (achado descritivo)	achado	diu1c	0	não	
+diu1c	DIU: Dispositivo intrauterino (DIU) em topografia habitual	conclusão	diu1	0	não	
+diu2	DIU: Dispositivo intrauterino (DIU) localizado no interior da cavidade uterina, atravessando o... (achado descritivo)	achado	diu2c	0	não	
+diu2c	DIU: Dispositivo intrauterino (DIU) localizado no interior da cavidade uterina, atravessando o...	conclusão	diu2	0	não	
+mm1	Miométrio (mioma): Nódulo miometrial mais comumente associado a leiomioma (achado descritivo) — FIGO: 0 pediculado intracavitário; 1 submucoso < 50% intramural; 2 submucoso ≥ 50% intramural; 3 intramural em contato com o endométrio; 4 intramural; 5 subseroso ≥ 50% intramural; 6 subseroso < 50% intramural; 7 subseroso pediculado; 8 outros	achado	mm1c	3	não	
+mm1c	Miométrio (mioma): Nódulo miometrial mais comumente associado a leiomioma	conclusão	mm1	0	não	
+mm2	Miométrio (mioma): Nódulos miometriais mais comumente associados a leiomiomas (achado descritivo) — FIGO: 0 pediculado intracavitário; 1 submucoso < 50% intramural; 2 submucoso ≥ 50% intramural; 3 intramural em contato com o endométrio; 4 intramural; 5 subseroso ≥ 50% intramural; 6 subseroso < 50% intramural; 7 subseroso pediculado; 8 outros	achado	mm2c	6	sim	
+mm2c	Miométrio (mioma): Nódulos miometriais mais comumente associados a leiomiomas	conclusão	mm2	0	não	
+mm3	Miométrio (mioma): Útero miomatoso (achado descritivo) — FIGO: 0 pediculado intracavitário; 1 submucoso < 50% intramural; 2 submucoso ≥ 50% intramural; 3 intramural em contato com o endométrio; 4 intramural; 5 subseroso ≥ 50% intramural; 6 subseroso < 50% intramural; 7 subseroso pediculado; 8 outros	achado	mm3c	3	sim	
+mm3c	Miométrio (mioma): Útero miomatoso	conclusão	mm3	0	não	
+ov1	Ovário: Cisto de conteúdo espesso no ovário _ (achado descritivo)	fragmento	ov1c	1	não	
+ov1c	Ovário: cisto hemorrágico | Ovário: endometrioma (diagnóstico diferencial)	conclusão	ov1	1	sim	
+ov2	Ovário: Cisto simples no ovário _ (achado descritivo)	fragmento	ov2c	1	não	
+ov2c	Ovário: Cisto simples no ovário _	conclusão	ov2	1	não	
+ov3	Ovário: morfologia policística (achado descritivo, um ovário)	achado	ov3c	3	não	
+ov3c	Ovário: Ovários de aspecto policístico (conclusão)	conclusão	ov3	0	não	
+ov4	Ovário: Nódulo hiperecogênico no ovário _ (achado descritivo)	fragmento	ov4c	1	não	
+ov4c	Ovário: Nódulo hiperecogênico no ovário _	conclusão	ov4	1	não	
+ov5	Ovário: Cisto septado no ovário _ (achado descritivo)	fragmento	ov5c	1	não	
+ov5c	Ovário: Cisto septado no ovário _	conclusão	ov5	1	não	
+ov6	Ovário: Lesão cística complexa, léxico O-RADS US (achado descritivo) — escore de cor 1 a 4	achado	ov6c	4	sim	
+ov6c	Ovário: Lesão cística complexa no ovário _	conclusão	ov6	1	não	
+orads2	O-RADS US 2 — quase certamente benigno (risco < 1%)	achado		0	não	
+orads3	O-RADS US 3 — baixo risco (1% a < 10%)	achado		0	não	
+orads4	O-RADS US 4 — risco intermediário (10% a < 50%)	achado		0	não	
+orads5	O-RADS US 5 — alto risco (≥ 50%)	achado		0	não	
+orads0	O-RADS US: avaliação incompleta por limitação técnica (O-RADS US 0) (achado descritivo)	achado	orads0c	1	sim	
+orads0c	O-RADS US 0: avaliação incompleta	conclusão	orads0	1	não	
+orads1	O-RADS US: ovário normal com folículo/corpo lúteo (O-RADS US 1; folículo ≤ 3 cm, corpo lúteo em geral ≤ 3 cm) (achado descritivo)	achado	orads1c	2	sim	
+orads1c	O-RADS US 1: ovário fisiológico	conclusão	orads1	1	não	
+orads1d	O-RADS US: ovário direito normal com folículo/corpo lúteo (O-RADS US 1) (achado descritivo)	achado	orads1dc	1	sim	
+orads1dc	O-RADS US 1: ovário direito fisiológico	conclusão	orads1d	0	não	
+orads1e	O-RADS US: ovário esquerdo normal com folículo/corpo lúteo (O-RADS US 1) (achado descritivo)	achado	orads1ec	1	sim	
+orads1ec	O-RADS US 1: ovário esquerdo fisiológico	conclusão	orads1e	0	não	
+orads1b	O-RADS US: ovários normais com folículos (O-RADS US 1) (achado descritivo)	achado	orads1bc	1	sim	
+orads1bc	O-RADS US 1: ovários fisiológicos	conclusão	orads1b	0	não	
+oradssimples	O-RADS US: cisto simples — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo)	achado		2	não	
+oradssimples2c	O-RADS US 2: cisto simples — 2 se < 10 cm; 3 se ≥ 10 cm	achado		1	não	
+oradssimples3c	O-RADS US 3: cisto simples — 2 se < 10 cm; 3 se ≥ 10 cm	achado		1	não	
+oradsuni	O-RADS US: cisto unilocular liso não simples (ecos internos/septos incompletos) — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo)	achado		3	sim	
+oradsuni2c	O-RADS US 2: cisto unilocular liso não simples (ecos internos/septos incompletos) — 2 se < 10 cm; 3 se ≥ 10 cm	achado		1	não	
+oradsuni3c	O-RADS US 3: cisto unilocular liso não simples (ecos internos/septos incompletos) — 2 se < 10 cm; 3 se ≥ 10 cm	achado		1	não	
+oradsuniirregular	O-RADS US: cisto unilocular de parede irregular (< 3 mm), sem sólido — 3, qualquer tamanho (achado descritivo)	achado		3	não	
+oradsuniirregular3c	O-RADS US 3: cisto unilocular de parede irregular (< 3 mm), sem sólido	achado		1	não	
+oradsbi	O-RADS US: cisto bilocular liso sem sólido — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo)	achado		3	não	
+oradsbi2c	O-RADS US 2: cisto bilocular liso sem sólido — 2 se < 10 cm; 3 se ≥ 10 cm	achado		1	não	
+oradsbi3c	O-RADS US 3: cisto bilocular liso sem sólido — 2 se < 10 cm; 3 se ≥ 10 cm	achado		1	não	
+oradsbiirregular	O-RADS US: cisto bilocular irregular sem sólido — 4, qualquer tamanho e EC (achado descritivo)	achado		3	sim	
+oradsbiirregular4c	O-RADS US 4: cisto bilocular irregular sem sólido	achado		1	não	
+oradsmulti	O-RADS US: cisto multilocular liso sem sólido — 3 se < 10 cm e EC 1–3; 4 se ≥ 10 cm ou EC 4 (achado descritivo)	achado		4	não	
+oradsmulti3c	O-RADS US 3: cisto multilocular liso sem sólido — 3 se < 10 cm e EC 1–3; 4 se ≥ 10 cm ou EC 4	achado		1	não	
+oradsmulti4c	O-RADS US 4: cisto multilocular liso sem sólido — 3 se < 10 cm e EC 1–3; 4 se ≥ 10 cm ou EC 4	achado		1	não	
+oradsmultiirregular	O-RADS US: cisto multilocular irregular sem sólido — 4, qualquer tamanho e EC (achado descritivo)	achado		3	sim	
+oradsmultiirregular4c	O-RADS US 4: cisto multilocular irregular sem sólido	achado		1	não	
+oradsunisolido	O-RADS US: cisto unilocular com componente sólido não papilar (≥ 3 mm) — 4, qualquer tamanho e EC (achado descritivo)	achado		4	não	
+oradsunisolido4c	O-RADS US 4: cisto unilocular com componente sólido não papilar (≥ 3 mm)	achado		1	não	
+oradspapila	O-RADS US: cisto unilocular com 1 a 3 projeções papilares — 4, qualquer tamanho e EC (achado descritivo)	achado		5	não	
+oradspapila4c	O-RADS US 4: cisto unilocular com 1 a 3 projeções papilares	achado		1	não	
+oradsquatropapilas	O-RADS US: cisto unilocular com ≥ 4 projeções papilares — 5, qualquer tamanho e EC (achado descritivo)	achado		4	não	
+oradsquatropapilas5c	O-RADS US 5: cisto unilocular com ≥ 4 projeções papilares	achado		1	não	
+oradsbisolido	O-RADS US: cisto bilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4 (achado descritivo)	achado		4	não	
+oradsbisolido4c	O-RADS US 4: cisto bilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4	achado		1	não	
+oradsbisolido5c	O-RADS US 5: cisto bilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4	achado		1	não	
+oradsmultisolido	O-RADS US: cisto multilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4 (achado descritivo)	achado		4	não	
+oradsmultisolido4c	O-RADS US 4: cisto multilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4	achado		1	não	
+oradsmultisolido5c	O-RADS US 5: cisto multilocular com componente sólido — 4 se EC 1–2; 5 se EC 3–4	achado		1	não	
+oradssolido	O-RADS US: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4 (achado descritivo)	achado		3	não	
+oradssolido3c	O-RADS US 3: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4	achado		1	não	
+oradssolido4c	O-RADS US 4: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4	achado		1	não	
+oradssolido5c	O-RADS US 5: lesão sólida (≥ 80%) lisa sem sombra acústica — 3 se EC 1; 4 se EC 2–3; 5 se EC 4	achado		1	não	
+oradssolidosombra	O-RADS US: lesão sólida (≥ 80%) lisa com sombra acústica ampla — 3 se EC 1–3; 5 se EC 4 (achado descritivo)	achado		3	não	
+oradssolidosombra3c	O-RADS US 3: lesão sólida (≥ 80%) lisa com sombra acústica ampla — 3 se EC 1–3; 5 se EC 4	achado		1	não	

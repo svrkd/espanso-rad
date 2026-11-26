@@ -1,0 +1,110 @@
+# ATENÇÃO: vfc, cvc terminam em "c" mas NÃO são conclusões (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+tthcl	Histiocitose pulmonar de células de Langerhans	achado		0	não	
+cistosbhd	Cistos pulmonares sugerindo síndrome de Birt-Hogg-Dubé	achado		0	não	
+cistoslam	Cistos pulmonares difusos podendo corresponder a linfangioleiomiomatose (LAM)	achado		0	não	
+cistoshcl	Cistos e nódulos pulmonares sugerindo histiocitose de células de Langerhans	achado		0	não	
+cistospil	Cistos e vidro fosco podendo corresponder a pneumonia intersticial linfocítica (PIL)	achado		0	não	
+ttpap	Proteinose alveolar pulmonar	achado		0	não	
+ttpeo	Pneumonia eosinofílica crônica	achado		0	não	
+ttpanlob	Enfisema panlobular	achado		0	não	
+acrp	Aumento dos ramos principais da artéria pulmonar	achado		0	não	
+band	Bandas parenquimatosas pulmonares	achado		0	não	
+bronq	Bronquiectasias com broncopatia	achado		0	não	
+derrameb	Derrame pleural bilateral discreto	achado		0	não	
+mindp	Mínimo derrame pleural bilateral	achado		0	sim	
+neopulmao	Massa pulmonar volumosa (neoplasia)	achado		2	não	
+tt64	Espessamento pleural basal	achado		1	não	
+camama	Nódulo mamário esquerdo (neoplasia confirmada)	achado		1	não	
+nomadir	Nódulo mamário à direita	achado		1	não	
+nomaesq	Nódulo mamário à esquerda	achado		1	não	
+prontu	Massa mamária com biópsia prévia (neoplasia)	achado		0	não	
+tt102	Manipulação cirúrgica da mama direita	achado		0	não	
+tt103	Próteses mamárias	achado		0	não	
+neopulmao1	Neoplasia pulmonar hilar com invasão brônquica	achado		1	não	
+azigos	Lobo da veia ázigos (variante anatômica)	achado		0	não	
+bodale1	Hérnia diafragmática posterior esquerda (com colo)	achado		1	não	
+cistopericar	Cisto pericárdico	achado		2	não	
+cistopericar1	Cisto pericárdico (dúvida diagnóstica)	achado		2	não	
+coneg	CO-RADS 1 (não relacionado a pneumonia viral)	achado		0	não	
+dec	Vidro fosco basal relacionado a decúbito	achado		0	não	
+dorsi	Elastofibroma dorsi bilateral	achado		0	não	
+drenoto	Dreno torácico esquerdo com enfisema de parede	achado		0	não	
+drenotor	Dreno torácico esquerdo	achado		0	não	
+edemalin	Edema intersticial perilinfático pulmonar	achado		0	não	
+elevacu	Elevação da cúpula frênica esquerda	achado		0	não	
+elevacud	Elevação da cúpula frênica direita	achado		0	não	
+estap	Estrias pleuroapicais bilaterais	achado		0	não	
+estp	Estrias pleuroapicais residuais	achado		0	não	
+estrias	Estrias e bandas parenquimatosas pulmonares	achado		0	não	
+fracost1	Fratura consolidada do 5º arco costal	achado		0	não	
+hamartomapul	Hamartoma pulmonar	achado		1	não	
+nocal	Nódulo pulmonar calcificado residual	achado		2	não	
+nocut	Nódulo subcutâneo dorsal	achado		1	não	
+nodrx	Nódulo pulmonar não calcificado	achado		2	não	
+nop	Nódulo pulmonar indeterminado	achado		2	não	
+nop1	Nódulo pulmonar calcificado residual subcentimétrico	achado		1	não	
+nopfissura	Nódulo pulmonar junto à fissura (provável linfonodo)	achado		1	não	
+nopfissuras	Nódulos pulmonares junto à fissura (prováveis linfonodos)	achado		2	não	
+nops	Nódulos pulmonares indeterminados no lobo médio	achado		2	não	
+nopu	Nódulo pulmonar não calcificado indeterminado	achado		2	não	
+opanod	Opacidade consolidativa nodular pulmonar	achado		1	não	
+opanop	Nódulo consolidativo indeterminado no lobo inferior esquerdo	achado		1	não	
+pneumatoceletraumatica	Pneumatocele traumática (laceração pulmonar)	achado		0	não	
+qil	quadrante inferolateral	fragmento		0	não	
+qim	quadrante inferomedial	fragmento		0	não	
+qsl	quadrante superolateral	fragmento		0	não	
+qsm	quadrante superomedial	fragmento		0	não	
+septoliso	Espessamento liso dos septos interlobulares	achado		0	não	
+tcfacada	Ferimento perfurocortante no dorso	achado		1	não	
+tcfacada1	Ferimentos perfurocortantes na parede torácica anterior	achado		0	não	
+tcgas	Enfisema de partes moles da parede torácica	achado		0	não	
+tetas	Ginecomastia bilateral	achado		0	não	
+tetinhas	Ginecomastia bilateral (com recomendação clínica)	achado		0	não	
+vf	Opacidades em vidro fosco	achado		0	não	
+vf1	Opacidades consolidativas e em vidro fosco	achado		0	não	
+vfc	Opacidades consolidativas e em vidro fosco	achado		0	não	
+bp	Bandas parenquimatosas	fragmento		0	não	
+cvc	Cateter venoso central	achado		0	não	
+enfbolhas	Enfisema pulmonar com bolhas	achado		0	não	
+opacdec	Opacidades em vidro fosco por decúbito	achado		0	não	
+ban	Bandas pleuroapicais residuais	achado		0	não	
+car	Cardiomegalia — termo direto	achado		0	não	
+cat	Cateter venoso central (átrio direito)	achado		0	não	
+apris	Aprisionamento aéreo (doença de pequenas vias aéreas)	achado		0	não	
+az	Fissura ázigos (variante anatômica)	achado		0	não	
+lid	Lobo inferior direito	fragmento		0	não	
+lie	Lobo inferior esquerdo	fragmento		0	não	
+lm	Lobo médio	fragmento		0	não	
+lsd	Lobo superior direito	fragmento		0	não	
+lse	Lobo superior esquerdo	fragmento		0	não	
+tt100	Mastectomia direita	achado		0	não	
+tt101	Mastectomia esquerda	achado		0	não	
+tt11	Fratura de costela	achado		2	não	
+tt111	Esôfago dilatado com conteúdo gasoso	achado		0	não	
+tt12	Fraturas múltiplas de costelas	achado		2	não	
+tt121	Marca-passo cardíaco (posição dos eletrodos)	achado		0	não	
+tt122	Elastofibromas subescapulares	achado		0	não	
+tt18	Ilhota óssea em costela	achado		2	não	
+tt31	Linfonodos calcificados residuais	achado		1	não	
+tt32	Linfonodomegalia	achado		1	não	
+tt33	Timo normal para a idade	achado		0	não	
+tt34	Hiperplasia tímica	achado		1	não	
+tt500	Nódulos pulmonares metastáticos (padrão hematogênico)	achado		0	não	
+tt501	Nódulo pulmonar calcificado benigno	achado		3	não	
+tt502	Nódulo pulmonar incaracterístico	achado		3	não	
+tt506	Nódulo pulmonar espiculado	achado		3	não	
+tt507	Nódulo pulmonar semissólido	achado		3	não	
+tt508	Nódulos em árvore em brotamento	achado		2	não	
+tt510	Enfisema difuso predominante em campos superiores	achado		0	não	
+tt511	Discreto enfisema centrolobular	achado		0	não	
+tt512	Bolhas apicais bilaterais	achado		1	não	
+tt514	Enfisema centrolobular em campos superiores	achado		0	não	
+tt515	Enfisema centrolobular e parasseptal — campos superiores	achado		0	não	
+tt519	Nódulo em vidro fosco	achado		3	não	
+tt520	Área em vidro fosco	achado		2	não	
+tt525	Vidro fosco dependente de decúbito (achado normal)	achado		0	não	
+tt526	Áreas esparsas em vidro fosco	achado		0	não	
+tt66	Derrame pericárdico discreto	achado		0	não	
+ttedema	Espessamento septal periférico (edema)	achado		1	não	
+valv	Calcificações valvares aórtica e mitral	achado		0	não	

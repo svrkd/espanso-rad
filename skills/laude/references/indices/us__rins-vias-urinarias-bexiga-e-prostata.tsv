@@ -1,0 +1,55 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+bx1	Bexiga: Bexiga com pequena repleção, o que prejudica a caracterização de suas paredes e conteúdo...	achado		0	não	
+bx2	Bexiga: Sinais de bexiga de esforço (achado descritivo)	achado	bx2c	2	não	
+bx2c	Bexiga: Sinais de bexiga de esforço	conclusão	bx2	0	não	
+bx3	Bexiga: Neobexiga de aspecto habitual (achado descritivo)	achado	bx3c	0	não	
+bx3c	Bexiga: Neobexiga de aspecto habitual	conclusão	bx3	0	não	
+bx4	Bexiga: Material ecogênico imóvel e sem fluxo no interior da bexiga (achado descritivo)	achado	bx4c	2	não	
+bx4c	Bexiga: Material ecogênico imóvel e sem fluxo no interior da bexiga	conclusão	bx4	0	sim	
+bx5	Bexiga: Massa com fluxo intravesical (achado descritivo)	achado	bx5c	2	não	
+bx5c	Bexiga: Massa com fluxo intravesical	conclusão	bx5	0	não	
+bx6	Bexiga: Conteúdo ecogênico intravesical de provável natureza hemática (achado descritivo)	achado	bx6c	0	não	
+bx6c	Bexiga: Conteúdo ecogênico intravesical de provável natureza hemática	conclusão	bx6	0	não	
+bx7	Bexiga: com ecos em suspensão no seu interior	fragmento		0	não	
+bx8	Bexiga: Balão de sonda vesical no seu interior	achado		0	não	
+bx9	Bexiga: focos gasosos no seu interior	fragmento	bx9c	0	não	
+bx9c	Bexiga: focos gasosos no seu interior (conclusão)	conclusão	bx9	0	não	
+rv3	Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) — cálculo único	achado	rv3c	1	sim	
+rv3c	Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente	conclusão	rv3	1	não	
+rv4	Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente (achado descritivo) — múltiplos cálculos	achado	rv4c	2	sim	
+usfocos	Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou... (achado descritivo)	achado	usfocosc	0	não	
+usfocosc	Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou...	conclusão	usfocos	0	não	
+rv16	Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou... (achado descritivo)	achado	rv16c	0	não	
+rv16c	Rim (focos ecogênicos): Focos hiper-refringentes em ambos os rins, podendo corresponder a microcálculos ou...	conclusão	rv16	0	não	
+usjuv1	Ureter (JUV direita): Foco hiper-refringente produtor de tênue sombra acústica posterior, localizado em junção...	achado		1	não	
+usjuv2	Ureter (JUV esquerda): Foco hiper-refringente produtor de tênue sombra acústica posterior, localizado em junção...	achado		1	não	
+prostn	Próstata: NOTA: Próstata com aumento de suas dimensões, e contornos lobulados, volume de _ cm³, com...	achado		1	não	
+rv1	Rim: Sinais de nefropatia parenquimatosa crônica (achado descritivo)	achado	rv1c	0	não	
+rv1c	Rim: Sinais de nefropatia parenquimatosa crônica	conclusão	rv1	0	não	
+rv2	Rim: Sinais de nefropatia parenquimatosa em rins de dimensões preservadas (achado descritivo)	achado	rv2c	0	não	
+rv2c	Rim: Sinais de nefropatia parenquimatosa em rins de dimensões preservadas	conclusão	rv2	0	não	
+rv4c	Rim: Nefrolitíase não obstrutiva à direita/ esquerda/ bilateralmente	conclusão	rv4	1	não	
+rv5	Rim: Leve/ Moderada/ Acentuada dilatação do sistema coletor à direita/ esquerda (achado descritivo)	achado	rv5c	0	sim	
+rv5c	Rim: Leve/ Moderada/ Acentuada dilatação do sistema coletor à direita/ esquerda	conclusão	rv5	1	sim	
+rv6	Rim: Cálculo obstrutivo no segmento proximal/ médio/ distal do ureter _ (achado descritivo)	achado	rv6c	2	sim	
+rv6c	Rim: Cálculo obstrutivo no segmento proximal/ médio/ distal do ureter _	conclusão	rv6	1	sim	
+rv7	Rim: Cisto renal cortical simples à direita/ esquerda (achado descritivo)	achado	rv7c	1	sim	
+rv7c	Rim: Cisto renal cortical simples à direita/ esquerda	conclusão	rv7	1	não	
+rv8	Rim: Cistos renais corticais simples à direita/ esquerda/ bilaterais (achado descritivo)	achado	rv8c	1	sim	
+rv8c	Rim: Cistos renais corticais simples à direita/ esquerda/ bilaterais	conclusão	rv8	1	não	
+rv9	Rim: Cisto renal com as características acima descritas (achado descritivo)	achado	rv9c	1	sim	
+rv9c	Rim: Cisto renal com as características acima descritas	conclusão	rv9	0	não	
+rv10	Rim: Nódulo hiperecogênico no rim direito/ esquerdo (achado descritivo)	achado	rv10c	1	sim	
+rv10c	Rim: Nódulo hiperecogênico no rim direito/ esquerdo	conclusão	rv10	1	não	
+rv11	Rim: Sinais de doença renal policística (forma dominante) (achado descritivo)	achado	rv11c	3	sim	
+rv11c	Rim: doença renal policística | Cisto de conteúdo espesso (hemático)	conclusão	rv11	1	não	
+rv12	Rim: Cisto parapiélico/caliectasia focal à direita/ esquerda (achado descritivo)	achado	rv12c	1	não	
+rv12c	Rim: Cisto parapiélico/caliectasia focal à direita/ esquerda	conclusão	rv12	1	sim	
+rv13	Rim: Sinais de nefrocalcinose medular à direita/ esquerda/ bilateralmente (achado descritivo)	achado	rv13c	0	não	
+rv13c	Rim: Sinais de nefrocalcinose medular à direita/ esquerda/ bilateralmente	conclusão	rv13	1	não	
+rv14	Rim: Nódulo renal à direita/ esquerda (achado descritivo)	achado	rv14c	0	sim	
+rv14c	Rim: Nódulo renal à direita/ esquerda	conclusão	rv14	1	sim	
+rv15	Rim: Considerar a hipótese de acentuada dilatação pielocalicinal à direita/ esquerda (achado descritivo)	achado	rv15c	1	não	
+rv15c	Rim: Considerar a hipótese de acentuada dilatação pielocalicinal à direita/ esquerda	conclusão	rv15	1	não	
+rvutd	Rim (pediatria): dilatação do trato urinário, classificação UTD (achado descritivo) — P1: pelve ≥ 1,0 e < 1,5 cm ou dilatação calicinal central; P2: pelve ≥ 1,5 cm, dilatação calicinal periférica ou ureter dilatado; P3: alteração do parênquima ou da bexiga	achado	rvutdc	2	sim	
+rvutdc	Rim (pediatria): dilatação do trato urinário, classificação UTD (conclusão)	conclusão	rvutd	2	não	

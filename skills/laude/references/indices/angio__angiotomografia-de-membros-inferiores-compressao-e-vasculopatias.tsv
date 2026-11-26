@@ -1,0 +1,7 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+aprisionapoplitea	Aprisionamento da artéria poplítea (tipo I, desvio medial)	achado	aprisionapopliteac	2	não	
+aprisionapopliteac	Conclusão — aprisionamento da artéria poplítea (tipos I a VI)	conclusão	aprisionapoplitea	2	não	
+cisticaadventicial	Doença cística adventicial da artéria poplítea	achado	cisticaadventicialc	5	não	
+cisticaadventicialc	Conclusão — doença cística adventicial	conclusão	cisticaadventicial	1	não	
+sacarolhas	Colaterais em saca-rolhas (padrão de Buerger)	achado	sacarolhasc	1	não	
+sacarolhasc	Conclusão — padrão sugestivo de tromboangeíte obliterante	conclusão	sacarolhas	0	não	

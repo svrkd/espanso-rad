@@ -1,0 +1,12 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+infartoesplenico1	Infarto esplênico do polo inferior	achado		0	sim	
+infartoesplenico2	Infartos esplênico e renais cuneiformes	achado	infartoesplenico2c	0	sim	
+infartoesplenico2c	Conclusão — áreas de isquemia/infarto esplênico e renal	conclusão	infartoesplenico2	0	sim	
+traumaesplenico5	Trauma esplênico AAST grau V	achado		0	não	
+infartoesplenico3	Infarto esplênico com esplenomegalia	achado		1	não	
+traumaesplenico1	Hematoma subcapsular esplênico AAST grau I	achado		0	sim	
+linfangiomaesplenico	Linfangioma esplênico	achado		1	não	
+infartoesplenico4	Infarto esplênico com esplenomegalia (polo inferior)	achado		0	não	
+traumaesplenico4	Laceração esplênica AAST grau IV com sangramento ativo	achado		0	sim	
+esplenomegaliahomogenea	Esplenomegalia homogênea — sem medida	achado		0	não	
+abscessoesplenico	Abscesso esplênico	achado		0	não	

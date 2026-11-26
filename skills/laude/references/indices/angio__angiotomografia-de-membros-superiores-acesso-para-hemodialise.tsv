@@ -1,0 +1,15 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+dialisepervia	Fístula arteriovenosa para hemodiálise pérvia	achado	dialiseperviac	4	não	
+dialiseperviac	Conclusão — fístula arteriovenosa pérvia	conclusão	dialisepervia	1	não	
+dialiseestenose	Estenose de fístula arteriovenosa (KDOQI 2019: tratar só com ≥ 50% e alteração clínica)	achado	dialiseestenosec	6	não	
+dialiseestenosec	Conclusão — estenose de fístula arteriovenosa	conclusão	dialiseestenose	2	não	
+dialisetrombosada	Trombose de fístula arteriovenosa	achado	dialisetrombosadac	2	não	
+dialisetrombosadac	Conclusão — trombose de fístula arteriovenosa	conclusão	dialisetrombosada	1	não	
+dialiseaneurisma	Dilatação aneurismática da veia de drenagem da fístula	achado	dialiseaneurismac	4	não	
+dialiseaneurismac	Conclusão — aneurisma da veia de drenagem da fístula	conclusão	dialiseaneurisma	1	não	
+dialisepseudo	Pseudoaneurisma de fístula arteriovenosa (sítio de punção)	achado	dialisepseudoc	4	não	
+dialisepseudoc	Conclusão — pseudoaneurisma de fístula arteriovenosa	conclusão	dialisepseudo	1	não	
+veiacentral	Estenose venosa central	achado	veiacentralc	4	não	
+veiacentralc	Conclusão — estenose venosa central	conclusão	veiacentral	1	não	
+veiacentral2	Oclusão venosa central	achado	veiacentral2c	3	não	
+veiacentral2c	Conclusão — oclusão venosa central	conclusão	veiacentral2	1	não	

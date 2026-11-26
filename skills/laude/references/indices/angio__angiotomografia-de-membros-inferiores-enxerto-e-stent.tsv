@@ -1,0 +1,19 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+pontepervia	Enxerto de derivação (ponte) pérvio	achado	ponteperviac	4	não	
+ponteperviac	Conclusão — enxerto de derivação pérvio	conclusão	pontepervia	1	não	
+ponteestenose	Estenose de enxerto de derivação (ponte)	achado	ponteestenosec	4	não	
+ponteestenosec	Conclusão — estenose de enxerto de derivação	conclusão	ponteestenose	2	não	
+ponteocluida	Oclusão de enxerto de derivação (ponte)	achado	ponteocluidac	2	não	
+ponteocluidac	Conclusão — oclusão de enxerto de derivação	conclusão	ponteocluida	1	não	
+pontepseudo	Pseudoaneurisma anastomótico de enxerto	achado	pontepseudoc	4	não	
+pontepseudoc	Conclusão — pseudoaneurisma anastomótico	conclusão	pontepseudo	2	não	
+ponteinfectada	Infecção de enxerto de derivação periférico	achado	ponteinfectadac	2	não	
+ponteinfectadac	Conclusão — infecção de enxerto de derivação	conclusão	ponteinfectada	1	não	
+stentpervio	Stent arterial pérvio	achado		3	não	
+stentperviac	Conclusão — stent arterial pérvio	achado		1	não	
+stentestenose	Reestenose intra-stent	achado	stentestenosec	3	não	
+stentestenosec	Conclusão — reestenose intra-stent	conclusão	stentestenose	1	não	
+stentocluido	Oclusão de stent arterial	achado	stentocluidoc	2	não	
+stentocluidoc	Conclusão — oclusão de stent arterial	conclusão	stentocluido	1	não	
+stentfratura	Fratura de stent arterial	achado	stentfraturac	4	não	
+stentfraturac	Conclusão — fratura de stent arterial	conclusão	stentfratura	1	não	

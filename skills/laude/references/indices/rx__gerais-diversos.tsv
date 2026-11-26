@@ -1,0 +1,122 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+11	Controle evolutivo ortopédico	achado		0	não	
+1q	Controle evolutivo genérico	achado		0	não	
+22	Controle evolutivo de fratura	achado		0	não	
+2q	Controle evolutivo de fratura com gesso	achado		0	não	
+33	Controle evolutivo com imobilização gessada	achado		0	não	
+44	Controle evolutivo de osteossíntese	achado		0	não	
+ancora	Âncoras metálicas de reparo/reconstrução	achado		0	sim	
+apma	Aumento de partes moles adjacente à lesão	achado		0	não	
+apmm	Aumento de partes moles adjacente à fratura	achado		0	não	
+artro	Artropatia degenerativa	fragmento		0	não	
+asub	Subluxação inferior do ombro	achado		0	não	
+bankart	Lesão de Bankart	achado		0	sim	
+rxbolsa	Ostomia	achado		0	não	
+calcsub	Tendinopatia calcárea subacromial	achado		0	não	
+canoa	Coalizão lunotriquetral	achado		0	não	
+cef	Controle evolutivo de fratura	achado		0	não	
+ceh	Controle evolutivo ortopédico	achado		0	não	
+clavi1	Fratura cominutiva de clavícula	achado		0	não	
+coco	Coprostase	achado		0	não	
+comd	Com desvios entre fragmentos	fragmento		0	não	
+come	Fratura cominutiva do maléolo medial	achado		0	não	
+come1	Com extensão articular	fragmento		0	não	
+come2	Com extensão para articulações	fragmento		0	não	
+coroa	Fixador de Ilizarov	achado		0	não	
+cu	Cateter umbilical	achado		0	não	
+dd	Diáfise distal	fragmento		0	não	
+dedoid	Artropatia degenerativa interfalangeana	achado		0	não	
+dgai1	Aumento da distribuição gasosa	achado		0	não	
+dir	Direito	fragmento		0	não	
+dm	Diáfise média	fragmento		0	não	
+dp	Diáfise proximal	fragmento		0	não	
+rxdreno	Dreno torácico com enfisema de partes moles	achado		0	não	
+enf1d	Enfisema de partes moles torácico à direita	achado		0	não	
+enf1e	Enfisema de partes moles torácico à esquerda	achado		0	não	
+enf2e	Enfisema de partes moles cervical e torácico à esquerda	achado		0	não	
+enostose	Enostose (ilha óssea)	achado		1	não	
+esq	Esquerdo	fragmento		0	não	
+ett	Artropatia escafotrapeziotrapezoidea	achado		0	não	
+fafa	Fabela	achado		0	não	
+fc	Fratura cominutiva	fragmento		0	não	
+fd	Falange distal	fragmento		0	não	
+fdesa	Fratura desalinhada	fragmento		0	não	
+ferula	Férula metálica	fragmento		0	não	
+fios	Fios de Kirschner (osteossíntese)	achado		0	não	
+rxfiss	Espessamento da fissura horizontal (pleura)	achado		0	não	
+fixador	Fixador externo metálico	achado		0	não	
+fm	Falange média	fragmento		0	não	
+fo	Fratura oblíqua	fragmento		0	não	
+fp	Falange proximal	fragmento		0	não	
+ft	Fratura transversa	fragmento		0	não	
+rxgrampo	Grampos metálicos (osteossíntese)	achado		1	não	
+grato	Fecho de pedido de associações	achado		0	não	
+hill	Lesão de Hill-Sachs — RX, sequela	achado		0	sim	
+luxou	Luxação articular	fragmento		0	não	
+margensap	Esclerose das margens apostas	fragmento		0	não	
+mid	Membro inferior direito	fragmento		0	não	
+mie	Membro inferior esquerdo	fragmento		0	não	
+msd	Membro superior direito	fragmento		0	não	
+mse	Membro superior esquerdo	fragmento		0	não	
+navi1	Osso navicular acessório tipo 1	achado		0	não	
+navi2	Osso navicular acessório tipo 2	achado		0	não	
+navi3	Osso navicular acessório tipo 3	achado		0	não	
+nn	Radiografia — normal (template genérico)	achado		0	não	
+omtri	Osteofitose marginal tricompartimental	achado		0	não	
+ossosupra	Tendinopatia calcárea do supraespinhal	achado		0	não	
+rxosteomielite	Sinais de osteomielite	achado		0	não	
+ostri	Os trigonum — termo isolado	achado		0	não	
+pato	Fratura por avulsão do piramidal	achado		0	não	
+pcaf	Podendo corresponder a fratura	fragmento		0	não	
+pcfx	Podendo corresponder a fratura	fragmento		0	não	
+pirineu	Ossículo acessório do cuboide	achado		0	não	
+pirineus	Ossículos acessórios do cuboide	achado		0	não	
+osplaca	Placa de osteossíntese	achado		0	não	
+pontes	Pontes ósseas	fragmento		0	não	
+retd	Retificação do diafragma	achado		0	não	
+rsub	Redução do espaço subacromial	achado		0	não	
+semd	Sem desvios significativos	fragmento		0	não	
+fxsequela	Sequela de fratura	achado		1	não	
+sss	sem sinais de soltura	fragmento		0	não	
+terry	Aumento do espaço escafolunar (lesão ligamentar)	achado		0	sim	
+tor	Textura óssea reduzida	achado		0	não	
+txnl	Textura e morfologia óssea preservada	achado		0	não	
+unha	Tuberosidade ungueal	fragmento		0	não	
+vaso	Calcificações vasculares	achado		0	não	
+adao	Alterações degenerativas do arcabouço ósseo	achado		0	não	
+adss	Artropatia degenerativa das sacroilíacas e sínfise púbica	achado		0	não	
+agr	Ausência de gás no reto	achado		0	não	
+apenasuma	Exame em apenas uma incidência	achado		0	não	
+ausenciade	Ausência de calcificações periarticulares	achado		0	não	
+calciv	Calcificações vasculares	achado		0	não	
+cee	Controle evolutivo — comparação com exames anteriores	achado		0	não	
+comdi	com dimensões aumentadas	fragmento		0	não	
+controleartro	Controle de artroplastia tricompartimental sem soltura	achado		0	sim	
+dadss	Discreta artropatia degenerativa sacroilíaca e sínfise púbica	achado		0	não	
+deavali	de avaliação limitada	fragmento		0	não	
+deest	de estudo prejudicado	fragmento		0	não	
+entedifu	Entesopatia difusa	achado		0	não	
+enteitc	Entesopatia em ísquios, trocânteres e crista ilíaca	achado		0	não	
+falhaf	Falha de fusão do arco posterior	fragmento		0	não	
+fioesterno	Fios metálicos de esternorrafia	achado		0	não	
+fx	fratura	fragmento		0	não	
+l1	Exame em uma incidência (avaliação limitada)	achado		0	não	
+l2	Exame de avaliação limitada (técnica)	achado		0	não	
+limit	Avaliação limitada por técnica	achado		0	não	
+limituma	Exame em apenas uma incidência (limitado)	achado		0	não	
+mmos	Materiais metálicos de osteossíntese	achado		0	não	
+mmsv	Materiais de suporte à vida	achado		0	não	
+msv	Materiais de suporte à vida	achado		0	não	
+partesmoles	Aumento de partes moles adjacente à lesão	achado		0	não	
+ppa	Placa e parafusos — artrodese	achado		0	não	
+ppos	Placa e parafusos — osteossíntese	achado		0	não	
+rdo	Redução da densidade óssea	achado		0	não	
+reduid	Redução do espaço interfalangeano distal	achado		0	não	
+reduii	Redução articular interfalangeana com osteoartrose	achado		0	não	
+semfx	Ausência de fratura (exame de urgência)	achado		0	não	
+semfx1	Ausência de fratura em uma incidência (urgência)	achado		0	não	
+subotimo	Exame de características subótimas	achado		0	não	
+urgen	Exame realizado em caráter de urgência	achado		0	não	
+rxabd	Abdome normal (bloco de achados)	achado		0	não	
+rxb	Bacia normal (bloco de achados)	achado		0	não	
+rxgeral	Achados ósseos normais (bloco genérico)	achado		0	não	

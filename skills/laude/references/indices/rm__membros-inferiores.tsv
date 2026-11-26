@@ -1,0 +1,118 @@
+# ATENÇÃO: lesaolcac, rotlcac terminam em "c" mas NÃO são conclusões (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+alcadebalde	Rotura meniscal em alça de balde — menisco medial adelgaçado com fragmento	achado		0	sim	
+arborescente	Lipoma arborescente — com sinóvia vilosa	achado		0	sim	
+artrofibrose	Artrofibrose	achado		0	não	
+artropaj	Artropatia degenerativa femorotibial	achado		0	sim	
+artropaq	Artropatia degenerativa do quadril — esquerdo, fase inflamatória	achado		0	sim	
+peatrito	Lesão por pressão/atrito crônico sob as cabeças	achado		0	sim	
+atrito1	Edema por atrito entre o trato iliotibial	achado		0	não	
+atritocronico	Lesões por pressão/atrito crônico	achado		0	sim	
+bakerroto	Cisto de Baker roto, dissecando a fáscia	achado		0	não	
+bakerroto2	Cisto de Baker roto	achado		0	não	
+balde	Rotura meniscal em alça de balde — rotura complexa com fragmento deslocado	achado		0	não	
+rmbanda	Síndrome do trato iliotibial	achado		0	não	
+basc	Báscula lateral da patela	achado		0	não	
+binfra	Bursite infrapatelar profunda	achado	binfrac	0	não	
+binfrac	Bursite infrapatelar profunda (conclusão)	conclusão	binfra	0	não	
+borrolca	Alteração do ligamento cruzado anterior	achado		0	não	
+cruzant	Lesão parcial do ligamento cruzado anterior	achado		0	não	
+c1	Condropatia inicial do compartimento femorotibial medial	achado		0	não	
+c2	Condropatia moderada da patela e tróclea femoral	achado		0	não	
+c3	Condropatia moderada do compartimento femorotibial medial	achado		0	não	
+c4	Condropatia avançada do compartimento femorotibial medial	achado		0	não	
+c41	Condropatia avançada do compartimento femorotibial lateral	achado		0	não	
+micelulite	Celulite de membro inferior	achado		0	sim	
+cfl	Compartimento femorotibial lateral	fragmento		0	não	
+cfm	Compartimento femorotibial medial	fragmento		0	não	
+condro1	Condropatia patelar superficial	achado		0	não	
+condro2	Fissuras condrais profundas no vértice da patela	achado		0	não	
+condro3	Condropatia femorotibial lateral	achado		0	não	
+condro4	Condropatia femorotibial medial avançada	achado		0	não	
+condro41	Condropatia femorotibial lateral avançada	achado		0	não	
+cruant	Alteração de sinal do ligamento cruzado anterior — inserção tibial, sem roturas	achado		0	não	
+cruzant1	Lesão do ligamento cruzado anterior de caráter agudo	achado		0	não	
+dasin	Derrame articular significativo	achado		0	não	
+degml	Degeneração do menisco lateral	achado		0	não	
+degmm	Degeneração do menisco medial	achado		0	não	
+degmm1	Alteração de sinal intrassubstancial no corno anterior	achado		0	não	
+degmm2	Degeneração de ambos os meniscos	achado		0	não	
+denervacao	Atrofia por desuso/denervação	achado		0	não	
+derrama	Pequeno derrame articular	achado		0	não	
+derrame1	Derrame articular com sinovite	achado		0	não	
+derrame2	Acentuado derrame articular distendendo os recessos medial	achado		0	não	
+derrame3	Processo inflamatório	achado		0	sim	
+distensaomusc	Aumento volumétrico da cabeça medial do gastrocnêmio	achado		0	não	
+dpf	Disfunção patelofemoral	achado		0	não	
+encon	Encondroma	achado		1	não	
+esplca	Espessamento e alteração de sinal das fibras — LCA com orientação mantida	achado		0	não	
+ftl	Femorotibial lateral	fragmento		0	não	
+ftm	Femorotibial medial	fragmento		0	não	
+gang	Cisto sinovial/ganglion	achado		0	não	
+ganso	Tendinopatia do gastrocnêmio medial e da pata anserina	achado		0	não	
+gasmed	Edema/processo inflamatório na origem do gastrocnêmio medial	achado		0	sim	
+gota	Proliferação sinovial (gota)	achado		0	não	
+hemangiintramuscular	Hemossiderina / calcificações	achado		1	sim	
+hipertalonavicular	Hipertrofia osteocapsular talonavicular	achado		0	não	
+isqfem	Estreitamento do espaço entre a tuberosidade isquiática	achado		0	não	
+joe2	Hoffite lateral — com derrame suprapatelar e edema pré-patelar	achado		0	não	
+lassidao	Rotura do ligamento cruzado anterior	achado		0	não	
+lcp	Ligamento cruzado posterior	fragmento		0	não	
+lesaolca	Alteração de sinal do ligamento cruzado anterior — com demais ligamentos normais	achado		0	não	
+lesaolcac	Lesão sem rotura do ligamento cruzado anterior	achado		0	não	
+lesaoplaca	Ruptura de baixo grau	achado		0	não	
+llc	Lesão sem rotura do ligamento cruzado anterior	achado		0	não	
+luxpat	Luxação lateral transitória da patela	achado		0	não	
+madef	Rotura crônica	achado		0	não	
+malali	Mau alinhamento femoropatelar, com incisura troclear rasa	achado		0	não	
+manipjoe	Artefato micrometálico no retináculo	achado		0	não	
+megalabio	Impacto femoroacetabular	achado		0	não	
+mionecrosecronica	Mionecrose crônica e osteonecrose	achado		0	sim	
+morel	Lesão de Morel-Lavallée — RM, joelho	achado		0	não	
+morton1	Neuroma de Morton — formação nodular	achado		1	não	
+morton2	Neuroma interdigital (Morton)	achado		2	não	
+morton3	Neuroma de Morton — com obliteração da gordura plantar	achado		1	não	
+navi2rm	Osso navicular acessório tipo II — sem edema	achado		0	não	
+navi3rm	Osso navicular acessório tipo II — com edema e microinstabilidade	achado		0	não	
+neolig	Túneis ósseos no fêmur e na tíbia — com neoligamento íntegro	achado		0	não	
+neuropatiadm	Neuropatia diabética — atrofia intrínseca do pé	achado		0	não	
+omtri1	Osteofitose tricompartimental	achado		0	não	
+osteocondroma1	Bursa exostótica — osteocondroma único da tíbia proximal	achado		2	não	
+osteocondroma2	Bursa exostótica — dois osteocondromas da tíbia distal	achado		1	não	
+osteomielitecronicarm1	Reação periosteal difusa (invólucro)	achado		0	sim	
+patelabi	Patela bipartida — isolada	achado		0	não	
+patelabi2	Patela bipartida — com condropatia da faceta lateral	achado		0	não	
+pedrada	Fina borda de coleção de fluido líquido — gastrocnêmio medial e sóleo	achado		0	não	
+pedrada1	Fina borda de coleção de fluido líquido — com conclusão de distensão e hematoma	achado		0	não	
+pedrada2	Lesão ou rotura completa	achado		0	não	
+pedrara	Fina borda de coleção de fluido líquido — gastrocnêmio medial e sóleo	achado		0	não	
+plant	Fasciíte plantar	achado		0	sim	
+plica	Plica patelar medial espessada	achado		0	não	
+pop	Pequeno cisto poplíteo	achado		0	não	
+predada	Fina borda de coleção de fluido líquido — gastrocnêmio medial e sóleo	achado		0	não	
+prepat	Edema do subcutâneo pré-patelar	achado		0	não	
+pseudoartrose1	Pseudoartrose da tíbia distal	achado		0	não	
+quadrilid	Artropatia degenerativa do quadril — com cistos e erosões	achado		0	não	
+quadrilis	Afilamento condral das superfícies articulares	achado		0	não	
+rmhemangioma	Hemangioma intramuscular	achado		1	não	
+rotcalcaneo	Tendinopatia do calcâneo, com área de descontinuidade	achado		2	sim	
+rotcir	Afilamento significativo dos meniscos lateral e medial	achado		0	não	
+rotlca	Lesão do ligamento cruzado anterior de caráter	achado		0	não	
+rotlcac	Rotura parcial extensa	achado		0	não	
+rotlcp	Avulsão do ligamento cruzado posterior	achado		0	não	
+rotmen1	Redução volumétrica com amputação irregular da margem	achado		0	não	
+rotpatelar	Ruptura completa do tendão patelar em sua	achado		1	não	
+rotrad	Rotura radial junto à raiz do corno	achado		0	não	
+roturalca	Rotura crônica do ligamento cruzado anterior	achado		0	não	
+sesa	Sobrecarga mecânica	achado		0	não	
+sindromedapedrada	Síndrome da pedrada (gastrocnêmio medial)	achado		0	sim	
+sobrecargamecanica	Obliteração da gordura subcutânea plantar no segundo	achado		0	sim	
+split	Lesão em split do fibular curto	achado		0	sim	
+tendpat	Tendinopatia do patelar proximal e do quadriceptal	achado		0	não	
+tendqua	Tendinopatia do quadríceps	achado		0	não	
+tendqua2	Tendinopatia do quadríceps e patelar	achado		0	não	
+tengastro	Tendinopatia do gastrocnêmio medial e da pata anserina	achado		0	não	
+tit1	Edema por atrito entre o trato iliotibial	achado		0	não	
+tuneis	Túneis ósseos no fêmur e na tíbia — sem menção ao neoligamento	achado		0	não	
+condroleve	Condropatia patelar leve	achado		0	não	
+hoffite	Hoffite lateral do joelho	achado		0	não	

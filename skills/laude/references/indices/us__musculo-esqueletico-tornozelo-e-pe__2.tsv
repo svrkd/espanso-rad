@@ -1,0 +1,46 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+tzo3	Tornozelo: Irregularidades ósseas (correlação radiográfica)	achado	tzo3c	0	sim	
+tzo3c	Tornozelo: Irregularidades ósseas do retropé / mediopé (correlação radiográfica) (conclusão)	conclusão	tzo3	0	sim	
+pdd1	Pé: Sem derrame articular	achado		0	não	
+pdd2	Pé: Derrame metatarsofalângico	achado	pdd2c	1	sim	
+pdd2c	Pé: Derrame articular metatarsofalângico (conclusão)	conclusão	pdd2	0	não	
+pdd4	Pé: Derrame metatarsofalângico com sinovite	achado	pdd4c	1	não	
+pdd4c	Pé: Derrame articular metatarsofalângico com sinovite (conclusão)	conclusão	pdd4	0	não	
+pdo1	Pé: Artrose da metatarsofalângica do hálux	achado	pdo1c	0	não	
+pdo1c	Pé: Artrose da metatarsofalângica do hálux (conclusão)	conclusão	pdo1	0	não	
+pdo2	Pé: Alterações degenerativas do mediopé	achado	pdo2c	0	não	
+pdo2c	Pé: Alterações degenerativas do mediopé (conclusão)	conclusão	pdo2	0	não	
+pdo3	Pé: Irregularidades da cabeça do 2º metatarsal	achado	pdo3c	0	não	
+pdo3c	Pé: Irregularidades corticais da cabeça do segundo metatarsal (correlação radiográfica) (conclusão)	conclusão	pdo3	0	não	
+pdo4	Pé: Freiberg (fratura subcondral)	achado	pdo4c	0	não	
+pdo4c	Pé: Provável Freiberg (fratura subcondral) do segundo metatarsal (conclusão)	conclusão	pdo4	0	não	
+pdo5	Pé: Alteração por estresse do 2º metatarso	achado	pdo5c	0	sim	
+pdo5c	Pé: Provável alteração por estresse do segundo metatarso (conclusão)	conclusão	pdo5	0	não	
+pdo6	Pé: Fratura por estresse do 2º metatarso	achado	pdo6c	0	não	
+pdo6c	Pé: Provável fratura por estresse / insuficiência do segundo metatarso (conclusão)	conclusão	pdo6	0	sim	
+pdf1	Pé: Fáscia plantar normal	achado		0	não	
+pdf2	Pé: Fasciíte plantar	achado	pdf2c	1	não	
+pdf2c	Pé: Fasciíte plantar (conclusão)	conclusão	pdf2	0	não	
+pdf3	Pé: Fasciopatia plantar crônica	achado	pdf3c	0	não	
+pdf3c	Pé: Fasciopatia plantar crônica (conclusão)	conclusão	pdf3	0	não	
+pdf4	Pé: Fibroma / fibromatose plantar	achado	pdf4c	2	sim	
+pdf4c	Pé: Fibroma / fibromatose plantar (conclusão)	conclusão	pdf4	0	sim	
+pdn1	Pé: Sem neuroma digital	achado		0	não	
+pdn2	Pé: Obliteração de gordura intermetatársica (inconclusivo)	achado		0	não	
+pdn3	Pé: Provável neuroma interdigital	achado	pdn3c	2	não	
+pdn3c	Pé: Provável neuroma interdigital do terceiro espaço (conclusão)	conclusão	pdn3	0	não	
+pdn4	Pé: Neuroma digital (Mulder positivo)	achado	pdn4c	2	não	
+pdn4c	Pé: Neuroma digital do terceiro espaço (Mulder positivo) (conclusão)	conclusão	pdn4	0	não	
+pdb1	Pé: Bursas intermetatársicas fisiológicas	achado		0	não	
+pdb2	Pé: Bursite intermetatarsiana	achado	pdb2c	0	sim	
+pdb2c	Pé: Bursite intermetatarsiana (conclusão)	conclusão	pdb2	0	não	
+pdc1	Pé: Cisto gangliônico	achado	pdc1c	2	não	
+pdc1c	Pé: Cisto gangliônico (conclusão)	conclusão	pdc1	0	não	
+pdc2	Pé: Cisto sinovial	achado	pdc2c	2	não	
+pdc2c	Pé: Cisto sinovial (conclusão)	conclusão	pdc2	0	não	
+pdp1	Pé: Placas plantares normais	achado		0	não	
+pdp2	Pé: Rotura da placa plantar	achado	pdp2c	1	não	
+pdp2c	Pé: Rotura da placa plantar da segunda metatarsofalângica (conclusão)	conclusão	pdp2	0	não	
+pdp3	Pé: Degeneração / rotura crônica da placa plantar	achado	pdp3c	0	sim	
+pdp3c	Pé: Degeneração / rotura crônica da placa plantar (conclusão)	conclusão	pdp3	0	sim	
+pdp4	Pé: Sugerir correlação com RM	achado		0	não	

@@ -1,0 +1,147 @@
+# ATENÇÃO: retc, tcdiscopc, espc terminam em "c" mas NÃO são conclusões (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+act	Acentuação da cifose torácica	achado		0	não	
+adax	Alterações degenerativas atlanto-axiais	achado		0	não	
+adiaxial	Alterações degenerativas atlanto-axiais	achado		0	não	
+adili	Alterações degenerativas interfacetárias e sacroilíacas	achado		0	não	
+adsacro	Alterações degenerativas sacroilíacas	achado		0	não	
+adx	Alterações degenerativas atlantoaxiais	achado		0	não	
+all	Acentuação da lordose lombar	achado		0	não	
+amarelo1	Hipertrofia do ligamento amarelo (estenose de canal)	achado		0	não	
+antero	Anterolistese L5-S1 grau I	achado		0	não	
+atlan	Alterações degenerativas atlanto-axiais	achado		0	não	
+batmovel	Fratura vertebral com retropulsão (L1)	achado		0	não	
+cage	Dispositivo intersomático (cage)	achado		1	não	
+cage1	Dispositivo intersomático (cage)	achado		1	não	
+cages	Dispositivos intersomáticos (cages) em múltiplos níveis	achado		1	não	
+cistar	Cisto de Tarlov (S2/S3)	achado		0	não	
+cistarlov	Cisto de Tarlov (S2/S3)	achado		0	não	
+cistotarlov	Cisto de Tarlov (S2)	achado		0	não	
+cvs	corpos vertebrais	fragmento		0	não	
+ddd1	Redução e desidratação do disco L5-S1	achado		0	não	
+edilom	Edema do subcutâneo lombar	achado		0	não	
+eir1	Redução do espaço L5-S1 com gás intradiscal	achado		0	não	
+eir2	Redução dos espaços L4-L5/L5-S1 com gás intradiscal	achado		0	não	
+erocv	Imagem esclerótica no corpo vertebral	achado		0	não	
+esl	Espondilose lombossacra	achado		0	não	
+esp	Espondilose torácica	achado		0	não	
+esplo	Espondilose lombar	achado		0	não	
+est	Espondilose torácica	achado		0	não	
+extru	Extrusão discal migrada caudalmente (L4)	achado		0	não	
+extru1	Extrusão discal migrada cranialmente	fragmento		1	não	
+extru3	Extrusão discal mediana migrada caudalmente	fragmento		1	não	
+extru4	Abaulamento discal com componente extruso	fragmento		1	não	
+extru5	Extrusão discal paramediana esquerda	fragmento		1	não	
+extrux	Extrusão discal com compressão radicular 	fragmento		2	não	
+fracolu	Fratura por compressão de T8	achado		0	não	
+fracolu1	Fratura-colapso de T12 com retropulsão	achado		0	não	
+fracolu2	Fratura de L1 sem retropulsão	achado		0	não	
+fracolus	Fraturas de T11 e T12	achado		0	não	
+fracor	Fratura de T12	achado		0	não	
+fracu	Fratura do corpo vertebral de T11	achado		0	não	
+fracus	Fraturas de T11 e L1	achado		0	não	
+frai	Fraturas por insuficiência de L2 e L3	achado		0	não	
+fratuin	Fratura de L2 com redução de 50% da altura	achado		0	não	
+fraver	Fratura de L1 com compressão do saco dural	achado		0	não	
+lipomatoseepidural	Lipomatose epidural espinhal	achado		0	não	
+lolis	Espondilólise/anterolistese de L5-S1	achado		0	não	
+lolis2	Anterolistese grau I de L2 sobre L3	achado		0	não	
+lolis3	Anterolistese grau I de L3 sobre L4	achado		0	não	
+lolis34	Anterolistese grau I em L3-L4 e L4-L5	achado		0	não	
+lolis4	Anterolistese grau I de L4 sobre L5	achado		0	não	
+lolis45	Anterolistese grau I em L4-L5 e L5-S1	achado		0	não	
+lolis4d	Anterolistese degenerativa de L4 sobre L5	achado		0	não	
+lolis5d	Anterolistese degenerativa de L5 sobre S1	achado		0	não	
+lolisd	Anterolistese degenerativa de L4 sobre L5	achado		0	não	
+lolisescada	Anterolistese em escada (L3 a S1)	achado		0	não	
+lulis	Espondilólise/anterolistese de L5-S1 (Meyerding)	achado		0	não	
+lulis2	Anterolistese de L2 sobre L3, grau I de Meyerding	achado		0	não	
+lulis3	Anterolistese de L3 sobre L4, grau I de Meyerding	achado		0	não	
+lulis34	Anterolistese em L3-L4 e L4-L5, grau I de Meyerding	achado		0	não	
+lulis4	Anterolistese de L4 sobre L5, grau I de Meyerding	achado		0	não	
+lulis45	Anterolistese em L4-L5 e L5-S1, grau I de Meyerding	achado		0	não	
+lulis4d	Anterolistese degenerativa de L4 sobre L5 (Meyerding)	achado		0	não	
+lulis5d	Anterolistese degenerativa de L5 sobre S1 (Meyerding)	achado		0	não	
+lulisd	Anterolistese degenerativa de L4 sobre L5 (Meyerding)	achado		0	não	
+lulisescada	Anterolistese em escada (L3 a S1), grau I de Meyerding	achado		0	não	
+meyer1	Anterolistese grau I de Meyerding (até 25%)	achado		2	não	
+meyer2	Anterolistese grau II de Meyerding (25-50%)	achado		2	não	
+meyer3	Anterolistese grau III de Meyerding (50-75%)	achado		2	não	
+meyer4	Anterolistese grau IV de Meyerding (75-100%)	achado		2	não	
+meyer5	Anterolistese grau V de Meyerding (espondiloptose, >100%)	achado		2	não	
+lulu	Espondilose lombar	achado		0	não	
+luxacaocolunacervical	Subluxação anterior C5 sobre C6	achado		0	não	
+margili	Esclerose óssea marginal das sacroilíacas	achado		0	não	
+megapo	Megapófise transversa bilateral em L5	achado		0	não	
+megapovt	Vértebra de transição lombossacra com megapófise	achado		0	não	
+mulipo	Musculatura paravertebral parcialmente lipossubstituída	achado		0	não	
+mupre	Musculatura paravertebral preservada	achado		0	não	
+omcv1	Osteofitose marginal incipiente vertebral	achado		0	não	
+omcvi	Osteofitose marginal incipiente vertebral	achado		0	não	
+osteogeneseimperfeita	Osteogênese imperfeita	achado		0	não	
+premu	Musculatura paravertebral preservada	achado		0	não	
+ret1	Retificação da lordose cervical	achado		0	não	
+retc	Retificação da lordose cervical	achado		0	não	
+retrolis	Retrolistese de L5-S1	achado		0	não	
+rls	Retrolistese de L5-S1	achado		0	não	
+sacrili	Esclerose marginal das sacroilíacas	achado		0	não	
+sacroileite	Sacroileíte (esclerose marginal sacroilíaca)	achado		0	não	
+tccage	Espondilolistese com artrodese e cage L4-L5	achado		0	não	
+tccotele	Hemangioma vertebral em C4	achado		0	não	
+tcdiscop	Discopatias lombares (achados degenerativos)	achado		0	não	
+tcdiscopc	Discopatias cervicais (achados degenerativos)	achado		0	não	
+tcdiscopcx	Discopatias cervicais com conflito radicular	achado		0	não	
+tcdiscopx	Discopatias lombares com conflito radicular	achado		0	não	
+tcescara	Escara sacrococcígea com osteomielite	achado		1	não	
+tcespondilodiscite	Espondilodiscite L2-L3	achado		0	não	
+tcespondilodiscite1	Espondilodiscite T12-L1 com abscesso epidural	achado		0	não	
+tcfacada4	Ferimentos perfurocortantes dorsolombares	achado		0	não	
+tcsacroileite	Sacroileíte	achado		0	não	
+tctarlov	Cisto perineural sacral (Tarlov)	achado		0	não	
+tctarlovs	Cistos perineurais sacrais (Tarlov)	achado		0	não	
+tufao	Alterações degenerativas atlanto-axiais com impressão medular	achado		0	não	
+ximor	Nódulos de Schmorl	achado		0	não	
+adcc	Alterações degenerativas da coluna cervical	achado		0	não	
+adcl	Alterações degenerativas da coluna lombar	achado		0	não	
+adcls	Alterações degenerativas da coluna lombossacra	achado		0	não	
+adct	Alterações degenerativas da coluna torácica	achado		0	não	
+cv	Corpo vertebral	fragmento		0	não	
+eir	Redução dos espaços intervertebrais	achado		0	não	
+elcd	Escoliose lombar dextroconvexa	achado		0	não	
+elce	Escoliose lombar sinistroconvexa	achado		0	não	
+fai	Fratura por acunhamento vertebral	achado		2	sim	
+ilfc	Inversão da lordose cervical	achado		0	não	
+ocvfi	Osteofitose vertebral e facetária difusa	fragmento		0	não	
+omcv	Osteofitose marginal vertebral	achado		0	não	
+omcvs	Osteofitose marginal vertebral	achado		0	não	
+vt	Vértebra de transição lombossacra — TC	achado		0	não	
+cer	Coluna cervical sem alterações (bloco de texto)	achado		0	não	
+enteso	Entesopatia degenerativa vertebral	achado		0	não	
+esplom	Espondilose lombossacra	achado		0	não	
+espto	Espondilose torácica	achado		0	não	
+lom	Coluna lombar sem alterações (bloco de texto)	achado		0	não	
+ost	Osteófitos marginais vertebrais	achado		0	não	
+red	Redução do espaço discal L5-S1	achado		0	não	
+ret	Retificação da lordose lombar	achado		0	não	
+cif	Acentuação da cifose torácica	achado		0	não	
+curvd	Curvatura torácica para a direita	achado		0	não	
+curve	Curvatura torácica para a esquerda	achado		0	não	
+ligam	Calcificação do ligamento longitudinal anterior	achado		0	não	
+rxtor21	Osteófitos vertebrais torácicos discretos	achado		0	não	
+tt13	Lesões osteolíticas vertebrais secundárias (metástases)	achado		0	não	
+tt14	Lesões osteoblásticas vertebrais secundárias (metástases)	achado		0	não	
+tt15	Lesões osteolíticas vertebrais e costais secundárias	achado		0	não	
+tt16	Lesões osteoblásticas vertebrais e costais secundárias	achado		0	não	
+espc	Espondilose cervical	achado		0	não	
+espl	Espondilose lombar	achado		0	não	
+espt	Espondilose torácica	achado		0	não	
+assimed	Abaulamento discal assimétrico foraminal direito	fragmento		0	sim	
+assimedx	Abaulamento discal com impressão radicular direita	fragmento		0	sim	
+assimedxr	Abaulamento discal com impressão radicular e osteófito (direita)	fragmento		0	sim	
+assimeh	Hérnia discal extrusa migrada caudalmente (direita)	fragmento		1	sim	
+assimep	Abaulamento discal posterior mediano	fragmento		0	não	
+assimet	Abaulamento discal simétrico bilateral	fragmento		0	não	
+assimex	Abaulamento discal com impressão radicular esquerda	fragmento		0	sim	
+assimexr	Abaulamento discal com impressão radicular e osteófito (esquerda)	fragmento		0	sim	
+cdo1	Complexo disco-osteofitário cervical	fragmento		0	não	
+cdo1x	Complexo disco-osteofitário com impressão radicular bilateral	fragmento		0	não	

@@ -1,0 +1,128 @@
+# ATENÇÃO: cdoac termina em "c" mas NÃO é conclusão (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+12	L1-L2	fragmento		0	não	
+121	T12-L1	fragmento		0	não	
+23	L2-L3	fragmento		0	não	
+34	L3-L4	fragmento		0	não	
+45	L4-L5	fragmento		0	não	
+51	L5-S1	fragmento		0	não	
+56	C5-C6	fragmento		0	não	
+67	C6-C7	fragmento		0	não	
+bastrup	Bursite interespinhosa inflamatória (Baastrup)	achado		0	não	
+actin2	Alterações actínicas lombossacrais	achado		0	não	
+artrod	Alterações pós-cirúrgicas de artrodese lombar com haste	achado		0	não	
+artrodeseant	Artrodese cervical por via anterior	achado		0	não	
+assimee	Abaulamento discal assimétrico foraminal esquerdo	fragmento		0	não	
+assimeee	Abaulamento discal com protrusão foraminal esquerda	fragmento		0	sim	
+borboleta	Hemivértebras torácicas	achado		0	não	
+borboleta1	Vértebra em borboleta	achado		0	não	
+cagerm	Cage intersomático cervical (artefatos)	achado		0	não	
+cavernoma	Hemangioma cavernoso (cavernoma)	achado		1	não	
+cdoa	Complexo disco-osteofitário foraminal direito — sem conflito radicular	fragmento		0	não	
+cdoac	Complexo disco-osteofitário foraminal esquerdo	fragmento		0	não	
+cdoass	Complexo disco-osteofitário foraminal direito — com uncoartrose e artropatia facetária	fragmento		0	não	
+cdoruim	Complexo disco-osteofitário foraminal direito — com comprometimento radicular	fragmento		0	não	
+cdos	Complexo disco-osteofitário posterior simétrico	fragmento		0	não	
+cervicitecistica	Lesão cística do colo uterino	achado		1	não	
+cifose	Retificação/cifose cervical	achado		0	não	
+ddd2	Desidratação discal difusa, com redução de sua	achado		0	não	
+dddi	Desidratação discal nos níveis lombares inferiores	achado		0	não	
+dddr	Desidratação discal difusa com redução da espessura	achado		0	não	
+derrame4	Moderado derrame articular predominando no recesso anterior	achado		0	não	
+desi	Desidratação discal difusa, com redução da altura	achado		0	não	
+desordem	Alteração difusa do sinal da medular óssea	achado		0	sim	
+dhd	Desidratação difusa dos discos vertebrais	achado		0	não	
+discop1x	Discopatia acima detalhada, com conflito radicular	achado		0	não	
+discop2	Discopatias multissegmentares com conflito radicular	achado		0	não	
+displasiafem	Retificação da porção anterior da transição cabeça	achado		0	não	
+endomet	Endometriose do compartimento posterior — retrocervical, com variante pós-histerectomia	achado		0	sim	
+endomet11	Endometriose retrocervical — uterossacros, com lista de relações	achado		5	sim	
+endomet13	Endometriose retrocervical — tórus e fórnice vaginal	achado		0	não	
+endomet3	Endometriose retrocervical fibrótica	achado		4	não	
+endomet6	Endometriose profunda — retrocervical, com endometrioma	achado		5	sim	
+endomet7	Endometriose retrocervical com acometimento retal	achado		2	sim	
+endomet8	Endometriose retrocervical — com focos hemáticos e medidas	achado		6	sim	
+endometp	Endometriose do compartimento posterior — serosa uterina e retrocervical	achado		0	não	
+escoli1	Desvio da coluna toracolombar em atitude escoliótica	achado		0	não	
+espondilite	Alteração significativa do sinal da medula óssea	achado		0	não	
+espondilodiscite	Alteração significativa do sinal da medula óssea	achado		0	não	
+esto	Espondilose torácica — com alterações degenerativas do arcabouço	achado		0	sim	
+expo1	Exposição discal determinando compressão sobre a face	fragmento		0	não	
+fasciite	Espessamento e alteração de sinal da fáscia	achado		0	sim	
+fracolu3	Fratura/impactação crônica dos corpos vertebrais de T12	achado		0	sim	
+fraturaescafo	Fratura crônica do escafoide com artropatia do punho	achado		0	não	
+heman	Hemangioma — vertebral, em L2	achado		0	não	
+hemangi	Hemangiomas	achado		0	não	
+hemangi1	Hemangioma — vertebral, nível a preencher	achado		1	não	
+hemangi2	Hemangiomas ou áreas de lipossubstituição — lombares	achado		0	não	
+hemangi3	Hemangiomas ou áreas de lipossubstituição — nível a preencher	achado		1	não	
+hemangis	Hemangiomas	achado		0	não	
+hemangis2	Hemangiomas ou áreas de lipossubstituição — sem nível	achado		0	não	
+hemiv	Escoliose lombar de segmento curto com convexidade	achado		0	não	
+herniadisc	Abaulamento discal assimétrico com fissura do ânulo	fragmento		0	sim	
+herniarenal	Hérnia lombar de Grynfeltt-Lesshaft	achado		1	não	
+hipod	Hipoidratação discal dos níveis lombares inferiores	achado		0	não	
+hipolipo	Hipotrofia e lipossubstituição da musculatura paravertebral	achado		0	não	
+hipov	Assimetria das artérias vertebrais	achado		0	não	
+inj	Injúria ligamentar interespinhosa nos níveis de L4-L5 — por estiramento ou sobrecarga	achado		0	não	
+inj1	Injúria ligamentar interespinhosa no nível de L4-L5	achado		0	não	
+inj2	Injúria ligamentar interespinhosa nos níveis de L4-L5 — por sobrecarga	achado		0	não	
+injlom	Injúria ligamentar interespinhosa lombar	achado		0	não	
+interapu	Artropatia degenerativa de interapofisárias e uncovertebrais	achado		0	não	
+joelhovelho2	Pequeno derrame articular com sinais de proliferação sinovial	achado		0	não	
+kien	Doença de Kienböck — RM, com colapso e cistos subcondrais	achado		0	não	
+kien2	Doença de Kienböck (edema medular)	achado		0	não	
+l5tr	A última vértebra lombar foi denominada L5	achado		0	não	
+leg	Destruição significativa da epífise femoral do quadril	achado		0	não	
+ligamarelo	Artropatia interfacetária e hipertrofia do ligamento amarelo — redução do canal	achado		0	não	
+ligamarelo2	Artropatia interfacetária e hipertrofia do ligamento amarelo — com aracnoidite	achado		0	não	
+lipo	Lipossubstituição da musculatura paravertebral	achado		0	não	
+lolisoculta	Alargamento do diâmetro anteroposterior do canal vertebral	achado		0	não	
+m1	Alterações degenerativas do tipo Modic I (edema)	achado		0	não	
+m2	Alterações degenerativas do tipo Modic II (gordura)	achado		0	não	
+metaossea	Lesões secundárias — ósseas difusas, coluna, bacia e costelas	achado		0	não	
+metaossea3	Lesões secundárias — líticas e blásticas, com adenomegalias	achado		0	não	
+metaosseacol	Lesões secundárias — coluna, sem fratura patológica	achado		0	não	
+navicular2	Osso navicular acessório com edema	achado		1	não	
+neocoloutero2	Neoplasia vegetante do colo uterino	achado		0	sim	
+osgud	Apofisite do tubérculo tibial	achado		0	não	
+osteolise	Importante edema da medular óssea na articulação	achado		0	não	
+osteoliseclav	Pequena fratura	achado		0	não	
+osteom	Osteomielite crônica da tíbia com abscesso	achado		2	não	
+osteomielitecronicarm	Osteomielite crônica da tíbia com abscesso	achado		2	não	
+osteomielitepe	Osteomielite do hálux	achado		0	não	
+osteonecrose	Extensa área de osteonecrose na cabeça femoral	achado		1	não	
+paragang	Formação expansiva com sinal heterogêneo em T1	achado		1	não	
+paraganglioma	Segmento C1	achado		0	não	
+perirrad	Pequeno cisto perirradicular no forame neural direito	achado		0	não	
+perirrad1	Pequenos cistos perirradiculares nos forames neurais	achado		0	não	
+perirrad2	Pequenos cistos perirradiculares nos forames neurais	achado		0	não	
+pioartrite	Exuberante edema das medulares	achado		0	não	
+platibasia	Sinais de platibasia associada a desvio posterior	achado		0	não	
+polipoendocervical	Pólipo endocervical — aparente impregnação	achado		1	não	
+poscir	Alterações pós-cirúrgicas de artrodese lombar com parafusos	achado		0	não	
+pott	Nível T12-L1: lesões permeativas que determinam fraturas	achado		1	sim	
+protrusao1	Protrusão discal paramediana esquerda	fragmento		0	não	
+pseudoartrose	Pseudoartrose	achado		1	sim	
+pubeite	A sínfise púbica apresenta alterações medulares edematosas	achado		0	não	
+reconversao	Reconversão da medula amarela	achado		0	não	
+reconversao2	Infiltração medular óssea neoplásica	achado		0	não	
+redugas	Espaço intervertebral reduzido em L5-S1 com degenerativo	achado		0	não	
+rj	Demais estruturas ósseas e condrais normais	achado		0	não	
+rmartrodese	Artrodese lombar (artefatos metálicos)	achado		0	não	
+rmendometriose	Endometriose profunda do compartimento pélvico posterior	achado		0	não	
+rmpolipo	Pólipo endocervical — com impregnação pelo contraste	achado		1	não	
+rmtendili	Tendinopatia e inflamação muscular adjacente — iliopsoas, edema da apófise do trocânter menor	achado		0	sim	
+sacroileite1	Sacroileíte com anquilose	achado		0	não	
+sacroileite2	Sacroileíte crônica	achado		0	não	
+sacroileite3	Sacroileíte incipiente à esquerda	achado		0	sim	
+sacroileite4	Sacroileíte incipiente bilateral	achado		0	não	
+scarlett	Calcificação do polo inferior da patela	achado		0	sim	
+simee	Abaulamento discal simétrico que retifica a face — tocando raízes de L2	fragmento		0	não	
+simefiss	Abaulamento discal simétrico que retifica a face — com fissura, sem conflito radicular	fragmento		0	não	
+simeraiz2	Abaulamento discal simétrico que retifica a face — tocando raízes, nível a completar	fragmento		0	não	
+simess	Abaulamento discal simétrico que retifica a face — fragmento aberto	fragmento		0	não	
+siringe	Cavidade cística promovendo expansão da medula espinhal	achado		0	não	
+stress	Área irregular de edema da medular óssea	achado		0	sim	
+t121	T12-L1	fragmento		0	não	
+tendisquio	Espessamento e alteração do sinal dos tendões	achado		0	sim	

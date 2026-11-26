@@ -1,0 +1,28 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+apendicitecomplicada1	Apendicite complicada com abscessos intracavitários e de parede	achado		0	não	
+apendiciteperfurada1	Coleção em fossa ilíaca direita por provável apendicite perfurada	achado		1	não	
+delgadodistendido	Discreta distensão hidroaérea de alças delgadas	achado		0	não	
+mucoceleapendice1	Mucocele do apêndice cecal	achado		1	não	
+apendiciteperfurada2	Apendicite perfurada com abscessos e possível pseudomixoma	achado		1	sim	
+apendicelimitrofe	Apêndice cecal no limite superior da normalidade com hiper-realce	achado		1	não	
+apendicite1	Apendicite incipiente com hiper-realce parietal	achado		1	sim	
+apendicite2	Apendicite incipiente do segmento corporal	achado	apendicite2c	1	não	
+apendicite2c	Conclusão — alterações inflamatórias incipientes do apêndice	conclusão	apendicite2	0	sim	
+apendicite3	Apendicite inicial retrocecal	achado		1	sim	
+liquidopelvico	Líquido livre pélvico sem individualização do apêndice	achado		0	não	
+posapendicectomia	Status pós-apendicectomia	achado		0	não	
+apendicitecoto1	Apendicite de coto com apendicolitos	achado		1	não	
+mucoceleapendice2	Apendicite aguda com provável mucocele associada	achado		1	não	
+mucoceleapendice3	Apendicite não complicada com possível mucocele	achado		1	não	
+mucoceleapendice4	Apendicite com mucocele e mucina extraluminal	achado		3	não	
+mucoceleapendice5	Apendicite complicada com possível mucocele	achado		2	não	
+apendicite4	Apendicite aguda com apendicolito na base	achado		1	não	
+apendicite5	Apendicite aguda com apendicolitos (origem medial)	achado		1	não	
+apendicite6	Apendicite aguda simples	achado		1	não	
+apendicitecomplicada2	Apendicite complicada com coleção na fossa ilíaca direita	achado		3	não	
+apendicitecomplicada3	Apendicite complicada com coleções parcialmente caracterizadas	achado		0	não	
+apendicite7	Apendicite aguda de apêndice pélvico	achado		1	não	
+apendiciteperfurada3	Apendicite perfurada com coleção inflamatória	achado		1	não	
+apendiciteperfurada4	Apendicite perfurada com pneumoperitônio	achado		1	não	
+apendiciteperfurada5	Apendicite perfurada com abscesso	achado		3	não	
+apendicitecoto2	Apendicite de coto pós-apendicectomia	achado		0	não	

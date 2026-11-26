@@ -1,0 +1,13 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+anelaortico	Anel aórtico e via de saída do VE (medidas pré-TAVI, SCCT 2019)	achado		12	não	
+raizaortica	Raiz aórtica e alturas coronarianas (medidas pré-TAVI, SCCT 2019)	achado		9	não	
+coronariabaixa	Óstio coronariano baixo (< 12 mm do anel, risco de oclusão no TAVI)	achado	coronariabaixac	2	não	
+coronariabaixac	Conclusão — óstio coronariano baixo	conclusão	coronariabaixa	1	não	
+calcioaortico	Escore de cálcio da valva aórtica (Agatston, ESC/EACTS 2025)	achado	calcioaorticoc	1	sim	
+calcioaorticoc	Conclusão — escore de cálcio da valva aórtica	conclusão	calcioaortico	1	não	
+calcioanel	Calcificação do anel aórtico e da via de saída do VE	achado	calcioanelc	4	não	
+calcioanelc	Conclusão — calcificação do anel aórtico e da via de saída do VE	conclusão	calcioanel	2	não	
+bicuspide1	Valva aórtica bicúspide tipo fusionado (consenso 2021)	achado	bicuspide1c	3	não	
+bicuspide1c	Conclusão — valva aórtica bicúspide tipo fusionado	conclusão	bicuspide1	1	não	
+bicuspide2	Valva aórtica bicúspide tipo dois seios (consenso 2021)	achado	bicuspide2c	2	não	
+bicuspide2c	Conclusão — valva aórtica bicúspide tipo dois seios	conclusão	bicuspide2	1	não	

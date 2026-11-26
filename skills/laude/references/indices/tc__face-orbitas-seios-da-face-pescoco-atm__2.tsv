@@ -1,0 +1,130 @@
+# ATENÇÃO: omcc termina em "c" mas NÃO é conclusão (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+polipocoanac	Conclusão — pólipo antrocoanal	conclusão	polipocoana	1	não	
+fungoalergico	Sinusite fúngica alérgica	achado	fungoalergicoc	1	não	
+fungoalergicoc	Conclusão — sinusite fúngica alérgica	conclusão	fungoalergico	0	não	
+bolafungo	Bola fúngica	achado	bolafungoc	1	não	
+bolafungoc	Conclusão — bola fúngica	conclusão	bolafungo	1	não	
+fungoinvasivo	Densificação da gordura periantral (fúngica invasiva?)	achado	fungoinvasivoc	2	não	
+fungoerosao	Erosão óssea e extensão extrassinusal	achado		2	não	
+fungoinvasivoc	Conclusão — sinusite fúngica invasiva?	conclusão	fungoinvasivo	1	não	
+sinusodonto	Sinusopatia odontogênica (lesão periapical)	achado	sinusodontoc	2	não	
+sinusodonto2	Comunicação oroantral	achado		2	não	
+sinusodonto3	Material de procedimento dentário no seio maxilar	achado		2	não	
+sinusodontoc	Conclusão — sinusopatia odontogênica	conclusão	sinusodonto	1	não	
+seiosilencioso	Síndrome do seio silencioso	achado	seiosilenciosoc	1	não	
+seiosilenciosoc	Conclusão — síndrome do seio silencioso	conclusão	seiosilencioso	1	não	
+displasiaface	Displasia fibrosa craniofacial	achado	displasiafacec	1	não	
+displasiaoptico	Displasia fibrosa envolvendo o canal óptico	achado		2	não	
+displasiafacec	Conclusão — displasia fibrosa craniofacial	conclusão	displasiaface	1	não	
+papilomainvertido	Formação expansiva nasossinusal (papiloma invertido?)	achado	papilomainvertidoc	2	não	
+papilomainvertidoc	Conclusão — formação expansiva nasossinusal (papiloma invertido?)	conclusão	papilomainvertido	1	não	
+tumorseio	Formação expansiva nasossinusal com destruição óssea	achado	tumorseioc	3	não	
+tumorseioc	Conclusão — formação expansiva nasossinusal agressiva	conclusão	tumorseio	1	não	
+osteomaseio	Osteoma de seio paranasal	achado	osteomaseioc	3	não	
+osteomaseioc	Conclusão — osteoma de seio paranasal	conclusão	osteomaseio	1	não	
+chandler1	Celulite pré-septal (Chandler I)	achado	chandler1c	1	não	
+chandler1c	Conclusão — celulite pré-septal (Chandler I)	conclusão	chandler1	1	não	
+chandler2	Celulite orbitária (Chandler II)	achado	chandler2c	1	não	
+chandler2c	Conclusão — celulite orbitária (Chandler II)	conclusão	chandler2	1	não	
+chandler3	Abscesso subperiosteal orbitário (Chandler III)	achado	chandler3c	2	não	
+chandler3c	Conclusão — abscesso subperiosteal orbitário (Chandler III)	conclusão	chandler3	1	não	
+chandler4	Abscesso orbitário (Chandler IV)	achado	chandler4c	3	não	
+chandler4c	Conclusão — abscesso orbitário (Chandler IV)	conclusão	chandler4	1	não	
+chandler5	Trombose do seio cavernoso (Chandler V)	achado	chandler5c	1	não	
+chandler5c	Conclusão — trombose do seio cavernoso (Chandler V)	conclusão	chandler5	1	não	
+pottfrontal	Tumor edematoso de Pott (osteomielite frontal)	achado	pottfrontalc	2	não	
+pottfrontalc	Conclusão — tumor edematoso de Pott	conclusão	pottfrontal	0	não	
+empiemaepidural	Empiema epidural (complicação de sinusopatia)	achado		2	não	
+empiemasubdural	Empiema subdural (complicação de sinusopatia)	achado		3	não	
+keros1	Fossa olfatória Keros tipo I (1 a 3 mm)	achado		2	não	
+keros2	Fossa olfatória Keros tipo II (4 a 7 mm)	achado		2	não	
+keros3	Fossa olfatória Keros tipo III (8 a 16 mm)	achado		2	não	
+celulaagger	Célula agger nasi	achado		2	não	
+celulasupraagger	Célula supra-agger (IFAC)	achado		1	não	
+celulasupraaggerf	Célula supra-agger frontal (IFAC)	achado		1	não	
+celulasuprabula	Célula suprabular (IFAC)	achado		1	não	
+celulasuprabulaf	Célula suprabular frontal (IFAC)	achado		1	não	
+celulasupraorbitaria	Célula etmoidal supraorbitária (IFAC)	achado		1	não	
+celulaseptal	Célula septal frontal (IFAC)	achado		1	não	
+celulahaller	Célula de Haller (etmoidal infraorbitária)	achado		2	não	
+celulaonodi	Célula de Onodi (esfenoetmoidal)	achado		2	não	
+arteriaetmoidal1	Artéria etmoidal anterior junto à base do crânio	achado		1	não	
+arteriaetmoidal2	Artéria etmoidal anterior em mesentério (abaixo da base do crânio)	achado		2	não	
+nervooptico1	Nervo óptico DeLano tipo 1	achado		1	não	
+nervooptico2	Nervo óptico DeLano tipo 2	achado		1	não	
+nervooptico3	Nervo óptico DeLano tipo 3	achado		1	não	
+nervooptico4	Nervo óptico DeLano tipo 4	achado		1	não	
+opticodeiscente	Deiscência do canal óptico	achado		2	não	
+clinoidepneumatizada	Processo clinoide anterior pneumatizado	achado		1	não	
+carotidaprotrusa	Protrusão da carótida interna no seio esfenoidal	achado		1	não	
+carotidadeiscente	Deiscência do canal carotídeo no seio esfenoidal	achado		1	não	
+septocarotida	Septo esfenoidal inserido no canal carotídeo	achado		1	não	
+esfeno1	Pneumatização esfenoidal conchal	achado		0	não	
+esfeno2	Pneumatização esfenoidal pré-selar	achado		0	não	
+esfeno3	Pneumatização esfenoidal selar	achado		0	não	
+esfeno4	Pneumatização esfenoidal pós-selar	achado		0	não	
+uncinado1	Processo uncinado inserido na lâmina papirácea	achado		1	não	
+uncinado2	Processo uncinado inserido na base do crânio	achado		1	não	
+uncinado3	Processo uncinado inserido na concha nasal média	achado		1	não	
+papiradeiscencia	Deiscência da lâmina papirácea	achado		2	não	
+cristagalli	Crista etmoidal (crista galli) pneumatizada	achado		0	não	
+bulagigante	Bula etmoidal volumosa	achado		1	não	
+maxilarhipo	Hipoplasia do seio maxilar	achado		1	não	
+frontalaplasia	Seio frontal não pneumatizado	achado		1	não	
+posfess1	Pós-FESS — antrostomia maxilar	achado		2	não	
+posfess2	Pós-FESS — etmoidectomia	achado		2	não	
+posfess3	Pós-FESS — sinusotomia frontal	achado		2	não	
+posfess4	Pós-FESS — esfenoidotomia	achado		2	não	
+posfess5	Pós-FESS — processo uncinado remanescente	achado		1	não	
+posfess6	Pós-FESS — célula etmoidal residual no recesso frontal	achado		3	não	
+posfess7	Pós-FESS — concha média lateralizada (sinéquia)	achado		1	não	
+posfess8	Pós-FESS — neo-osteogênese	achado		0	não	
+posfess9	Pós-FESS — falha óssea na base do crânio	achado		2	não	
+posfessc	Conclusão — alterações pós-cirurgia endoscópica nasossinusal	achado		0	não	
+cistpoli	Cisto de retenção/pólipo (template genérico)	achado		0	não	
+desmu	Discreto espessamento mucoso dos seios	fragmento		0	não	
+eagle1	Síndrome de Eagle	achado		0	não	
+eagle2	Síndrome de Eagle	achado		0	não	
+espa	Espessamento das paredes ósseas	fragmento		0	não	
+frafrunapa	Fratura dos ossos próprios do nariz (suspeita)	achado		0	não	
+franapaindet	Fratura nasal de cronicidade indeterminada	achado		0	não	
+franariz1	Fratura dos ossos próprios do nariz	achado		0	não	
+infundi	Obliteração do infundíbulo	fragmento		0	não	
+lamelare	Conchas nasais médias lamelares (pneumatizadas)	achado		0	não	
+macampafungo	Sinusite fúngica (frontoetmoidal esquerda)	achado		0	não	
+masdir	Mastoidopatia à direita	achado		0	não	
+masesq	Mastoidopatia à esquerda	achado		0	não	
+mata1	Mastoidopatia à direita	achado		0	não	
+mata2	Mastoidopatia à esquerda	achado		0	não	
+mata3	Mastoidopatia bilateral	achado		0	não	
+olhobranco	Calcificações intraoculares à direita	achado		0	não	
+olhopatologia	Alterações oculares diversas (óleo de silicone, phthisis bulbi)	achado		0	não	
+omc	Otomastoidopatia crônica	fragmento		0	não	
+omcc	Mastoidopatia crônica	fragmento		0	não	
+omcc1	Mastoidopatia crônica à direita	achado		0	não	
+omcc2	Mastoidopatia crônica à esquerda	achado		0	não	
+omcc3	Mastoidopatia crônica bilateral	achado		0	não	
+omccb	Mastoidopatia crônica bilateral	achado		0	não	
+omccd	Mastoidopatia crônica à direita	achado		0	não	
+omcce	Mastoidopatia crônica à esquerda	achado		0	não	
+osteomacutis1	Osteoma cutâneo miliar benigno	achado		0	não	
+paradoxs	Curvatura paradoxal de conchas nasais médias	achado		0	não	
+pcnb	Pneumatização de conchas nasais médias	achado		0	não	
+pedrisco	Corpo estranho hiperdenso subcutâneo frontal	achado		0	não	
+pedriscos	Corpos estranhos hiperdensos subcutâneos frontais	achado		0	não	
+pedriscos1	Corpos estranhos hiperdensos subcutâneos na hemiface	achado		0	não	
+pitbul	Phthisis bulbi (globo ocular)	achado		0	não	
+sanguenozoio	Hemorragia intraocular	achado		0	não	
+tc14	obliterando os óstios de drenagem (fragmento)	fragmento		0	não	
+tcbombom	Irregularidade cortical nasal — fratura?	achado		0	não	
+tcdrusas	Drusas dos discos ópticos	achado		0	não	
+tclichia	Aumento do diâmetro dos globos oculares	achado		0	não	
+tcmarcela	Pneumatização de conchas nasais médias	achado		0	não	
+tcmiiase	Lesão ulcerada frontal — miíase?	achado		0	não	
+cet	Células etmoidais	fragmento		0	não	
+cistpolis	Cisto de retenção ou pólipo	achado		0	não	
+esm	Espessamento mucoso	fragmento		0	não	
+olhoatrofico	Phthisis bulbi — TC, com calcificações	achado		0	não	
+tt105	Bócio nodular heterogêneo	achado		1	não	
+tt87	Achado incidental — nódulo tireoidiano	achado		1	não	
