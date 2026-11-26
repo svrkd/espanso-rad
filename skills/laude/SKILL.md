@@ -1,12 +1,12 @@
 ---
 name: laude
-description: "Monta laudo radiológico completo, qualquer método/território, exclusivamente com texto da base fechada em references/ (templates, achados e conclusões gerados de match/*.yml). Não redige frase clínica própria nem presume lateralidade, medida, achado ou comparação: pergunta antes de montar e marca [COMPLETAR] onde a base não tem frase. Classificações (BI-RADS, TI-RADS, LI-RADS, O-RADS, Bosniak etc.) só com dados suficientes, com critérios das skills irmãs /carotidas, /mamas, /arterial-mmii e /mapa. Aciona ao invocar /laude ou colar dado bruto/parcial pedindo para montar/fechar o laudo. Não aciona para reescrita de texto pronto (/melhore), diferencial sem laudo (/dx) ou ordem de revisão sem achado (/roteiro-leitura)."
+description: "Monta laudo radiológico completo, qualquer método/território, exclusivamente com texto da base fechada em references/ (templates, achados e conclusões gerados de match/*.yml). Não redige frase clínica própria nem presume lateralidade, medida, achado ou comparação: pergunta antes de montar e marca [COMPLETAR] onde a base não tem frase. Texto ditado por voz entra no lugar da frase da base, com pontuação falada convertida, português corrigido e ordem de descrição arrumada. Classificações (BI-RADS, TI-RADS, LI-RADS, O-RADS, Bosniak etc.) só com dados suficientes, com critérios das skills irmãs /carotidas, /mamas, /arterial-mmii e /mapa. Aciona ao invocar /laude ou colar dado bruto/parcial pedindo para montar/fechar o laudo. Não aciona para reescrita de texto pronto (/melhore), diferencial sem laudo (/dx) ou ordem de revisão sem achado (/roteiro-leitura)."
 ---
 
 `/laude`: monta laudo completo a partir de dado bruto ou parcial, usando só a biblioteca fechada em `references/`.
 
 PRINCÍPIO: BIBLIOTECA FECHADA
-- Todo texto do laudo vem da base: templates, achados, conclusões e fragmentos lidos por `busca.py`. Proibido redigir frase clínica própria, parafrasear, fundir ou "melhorar" frase da base.
+- Todo texto do laudo vem da base (templates, achados, conclusões e fragmentos lidos por `busca.py`) ou do texto ditado pelo usuário (seção TEXTO DITADO). Proibido redigir frase clínica própria, parafrasear, fundir ou "melhorar" frase da base.
 - Edição permitida sobre o texto da base, e só ela: preencher `_` com o dado informado; escolher uma das alternativas separadas por `/`; retirar frase normal contradita; inserir frase de achado; trocar a conclusão normal pela conclusão dos achados. A coluna `alternativas` do índice diz se a entrada tem escolha real (`sim`); `/` fixo (`inflamatório/infeccioso`) não é alternativa.
 - Nunca presumir lateralidade, medida, achado, fase de contraste ou dado comparativo. Dado do usuário entra exatamente como veio, sem arredondar nem trocar unidade.
 - Sem frase na base para um achado informado: inserir `[COMPLETAR: descrição de <achado>]` no ponto exato do laudo e avisar fora do bloco. Nunca improvisar a frase.
@@ -22,6 +22,16 @@ MÁSCARA
 - Partir do template do método e região. Sem template no arquivo do território (`angio.yml`, `tc_abd.yml`): usar o template de TC da região em `tc.yml` e inserir as frases de achado do arquivo do território. Sem template nem assim: `[COMPLETAR: máscara de <exame>]` e avisar fora do bloco.
 - Cabeçalhos do template ficam como estão (`Técnica:`, `Análise:`, `Conclusão:`).
 - Linhas de `malu.yml` abertas por marcador de linha opcional (`XXX`, `XX`, `###`, `#`): entram só se o achado da linha foi informado, sem o marcador; não informado, a linha sai.
+
+TEXTO DITADO
+- Reconhecimento: frase completa, com verbo e redação de laudo, é texto ditado; entra no laudo e não se busca frase na base para ela. Dado telegráfico ("nódulo 1,2 cm lobo direito") é dado: busca-se a frase na base. Ambíguo: perguntar (conta na rodada).
+- Pontuação falada vira sinal: "vírgula", "ponto", "ponto final", "dois pontos", "ponto e vírgula". "Parágrafo" e "nova linha" viram quebra.
+- Números ditados por extenso viram algarismos arábicos com a unidade abreviada ("um vírgula dois centímetros" → "1,2 cm"). Exceção: categoria de classificação cuja notação é em romano (ex.: Bosniak II, IIF) fica em romano; na dúvida, seguir a notação da frase da base para aquela classificação.
+- Correção de português objetiva (ortografia, acentuação, concordância, regência, pontuação) e de termo técnico que o reconhecimento de voz trocou, só quando a troca é inequívoca ("hipo ecoico" → "hipoecoico"). Termo duvidoso: perguntar, nunca chutar.
+- Liberdade de organização, sem acrescentar nem retirar conteúdo clínico (achado, medida, lado, grau, hipótese): achado como sujeito da frase, sem "observa-se", "identifica-se", "nota-se", "evidencia-se"; frases fragmentadas do mesmo achado unidas por gerúndio/particípio; achado associado ao principal unido por "Associa-se…"; repetições e muletas do ditado ("é… é", "tá", "né") removidas.
+- Ordem da descrição de lesão, reordenando o que vier fora dela: natureza (formação nodular, massa, lesão sólido-cística…) → características do aspecto (ecogenicidade, densidade, sinal) → forma → margens → limites → conteúdo, realce ou Doppler → localização → relação com estruturas vizinhas → medidas → volume → inferência ditada, se houver ("podendo corresponder a…"), ao fim da frase.
+- Posição: no parágrafo da estrutura correspondente do template, depois da descrição normal. Contradiz frase normal da máscara: a frase normal sai inteira.
+- Conclusão: conclusão ditada entra como ditada, com as mesmas correções. Sem conclusão ditada: a frase do achado, como ficou na Análise, copiada na íntegra para a Conclusão, na ordem da Análise. Não se busca par `xc` para texto ditado.
 
 PERGUNTAS ANTES DE MONTAR
 - Pergunta-se ANTES de montar, sempre que faltar: dado exigido por `_` (coluna `lacunas` > 0) em entrada que vai ao laudo; escolha entre alternativas `/`; lateralidade; dado que muda classificação, limiar ou par de conclusão; escolha entre templates candidatos.
@@ -51,5 +61,5 @@ SKILLS IRMÃS: FONTE DOS CRITÉRIOS, NÃO DO TEXTO
 
 SAÍDA
 - Um bloco único de código, pronto para colar, só com o laudo.
-- Fora do bloco, no máximo uma linha: `Triggers: <lista> · Lacunas: <lista ou "nenhuma">`. Lacunas incluem todo `[COMPLETAR]`, achado sem frase na base e classificação não aplicada.
+- Fora do bloco, no máximo uma linha: `Triggers: <lista> · Ditado: <estruturas ou "nenhum"> · Lacunas: <lista ou "nenhuma">`. Lacunas incluem todo `[COMPLETAR]`, achado sem frase na base e classificação não aplicada.
 - Nada mais: sem explicação, sem lista de estruturas, sem nota sobre a montagem.
