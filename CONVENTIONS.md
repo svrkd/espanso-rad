@@ -75,6 +75,8 @@ Taxonomia usada (mesma lista em ambos os arquivos, pulando seções vazias):
 
 A classificação é heurística (por palavras-chave no trigger/replace) e revisada por amostragem — não é perfeita. Fragmentos genéricos que não mencionam uma região específica (ex. "Fratura oblíqua", "Textura óssea preservada.") legitimamente ficam em "Gerais / Diversos".
 
+O `tc.yml` tem duas seções além dessas dez. `TÉCNICA`, no topo do arquivo, reúne as frases de técnica e condição do exame (sem contraste, após o contraste, artefatos, condições subótimas). `MUSCULOESQUELÉTICO (GERAL)`, logo depois de `MEMBROS INFERIORES`, reúne as frases musculoesqueléticas que valem para qualquer osso, articulação ou músculo ("_ (osso, com o lado)"): padrões de lesão óssea, infecção, partes moles, fraturas, próteses e artropatias. Desde 2026-11-26, "Gerais / Diversos" do `tc.yml` guarda só o residual sem região: lateralidade, conectores e fragmentos, raciocínio diagnóstico, recomendações, comparação com exame anterior e correlação clínica. A pelve óssea (bacia, ilíacos, sínfise) fica em `MEMBROS INFERIORES`.
+
 ## Cabeçalhos de seção nos templates de laudo
 
 Todo template multi-linha que representa um laudo completo usa os mesmos três cabeçalhos, em Title Case e nesta ordem:
