@@ -330,3 +330,41 @@ por isso não exigem motivo individual:
 ------------------------------------------------------------
 TOTAL: 672 substituições por regra (seção 1) + 90 anotações removidas (seção 2) + 41 linhas descartadas de dentro de máscara (seção 3)
        + 548 linhas da fonte deixadas de fora (seção 4)
+
+------------------------------------------------------------
+5. RODADA DE 2026-11-26: CABEÇALHOS E LACUNAS NO PADRÃO DO REPOSITÓRIO
+------------------------------------------------------------
+
+Seção anexada à mão: o restante deste arquivo está desatualizado e não pode ser
+regenerado sem o caderno-fonte. A regra equivalente está em RODADA_PADRAO
+(scripts/build_malu.py), aplicada ao texto já limpo de cada entrada, depois de
+CORRECOES e REGRAS_REGEX. Contagem por casamento de regra (uma regra pode
+trocar mais de um marcador num só casamento):
+
+ 28x  cabeçalho de seção padronizado
+        14 Relatório: -> Análise:; 6 ANÁLISE: e 1 ANÁLISE -> Análise:
+        3 Opinião:/OPINIÃO:, 1 Impressão:, 1 IMPRESSÃO DIAGNÓSTICA:,
+        1 CONCLUSÃO: -> Conclusão:
+        1 Impressão: vazio logo antes de Conclusão: removido (rmquadril2)
+ 57x  lacuna uniformizada para _
+        33 datas mascaradas (XX/XX/XXXX, XX/XX/XX, XX/XXXX), 1 [data],
+        23 XXX/XX de campo a preencher (nível vertebral, músculo, lado no
+        título, Indicação clínica, "RM de XX.", útero "em _ anteversoflexão")
+ 41x  separador de alternativa uniformizado para /
+        XX/XXX entre opções -> " / " (56 marcadores); em "pérvios, XXX com
+        anatomia habitual XXX notando-se" o 1º XXX, que só abria a
+        alternativa, saiu; em tcquadril/tcquadril2 "na região XX nas regiões
+        XX do componente acetabular XX e do componente femoral" ->
+        "na região / nas regiões _ do componente acetabular / e do componente
+        femoral" (2 casamentos, contados aqui, com a lacuna dentro)
+  7x  medida concreta do caso trocada por lacuna _
+        "1,0 x 1,0 cm ( AP X LL)" e afins -> "_ x _ cm ( AP x LL)";
+        "4,0 X 2,0 cm", "0,6 X 1,3 cm" -> "_ x _ cm"
+
+Labels: 14 "(modelo Relatório/I.D.)" -> "(modelo Análise/I.D.)" e
+hipertensaoportal1 "Opinião — ..." -> "Conclusão — ...".
+
+Ficam como estão, por não serem lacuna: 48 marcadores de linha ou trecho
+opcional (XXX/XX/###/# abrindo uma alternativa, "SC XXX", "XXX - Próstata",
+"sem XXX meio de contraste", "esquerda XXX e cage", "nível _, XXX com
+extensão", "esquerda XX." final das fístulas) e "raio-X" (4).
