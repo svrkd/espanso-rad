@@ -4680,6 +4680,26 @@ matches:
     replace: "Nódulos centrolobulares, alguns escavados, associados a cistos de paredes finas e espessas com formas irregulares, com predomínio nos campos superiores e médios e relativa preservação das bases pulmonares. Achados sugerindo histiocitose pulmonar de células de Langerhans."
     word: true
 
+  - trigger: "cistosbhd"
+    label: "Cistos pulmonares sugerindo síndrome de Birt-Hogg-Dubé"
+    replace: "Múltiplos cistos pulmonares bilaterais de paredes finas e tamanhos variados, de formas irregulares e lentiformes, predominando nas regiões inferiores e mediais, em situação subpleural e paramediastinal, junto às porções proximais dos vasos pulmonares inferiores, com parênquima interposto preservado. O conjunto de achados pode sugerir síndrome de Birt-Hogg-Dubé. Os diagnósticos diferenciais incluem linfangioleiomiomatose e pneumonia intersticial linfocítica, entre outros."
+    word: true
+
+  - trigger: "cistoslam"
+    label: "Cistos pulmonares difusos podendo corresponder a linfangioleiomiomatose (LAM)"
+    replace: "Múltiplos cistos pulmonares bilaterais de paredes finas, arredondados e uniformes, de distribuição difusa, inclusive nas bases, com parênquima interposto preservado. O conjunto de achados pode corresponder a linfangioleiomiomatose. Os diagnósticos diferenciais incluem histiocitose pulmonar de células de Langerhans, síndrome de Birt-Hogg-Dubé e pneumonia intersticial linfocítica, entre outros."
+    word: true
+
+  - trigger: "cistoshcl"
+    label: "Cistos e nódulos pulmonares sugerindo histiocitose de células de Langerhans"
+    replace: "Múltiplos cistos pulmonares de formas irregulares e paredes finas e espessas, associados a nódulos centrolobulares, alguns escavados, predominando nos campos superiores e médios, com relativa preservação das bases. O conjunto de achados pode sugerir histiocitose pulmonar de células de Langerhans. Os diagnósticos diferenciais incluem linfangioleiomiomatose, síndrome de Birt-Hogg-Dubé e pneumonia intersticial linfocítica, entre outros."
+    word: true
+
+  - trigger: "cistospil"
+    label: "Cistos e vidro fosco podendo corresponder a pneumonia intersticial linfocítica (PIL)"
+    replace: 'Cistos pulmonares esparsos de paredes finas, perivasculares, predominando nos lobos inferiores, associados a pequenos nódulos centrolobulares e a opacidades com atenuação em "vidro fosco". O conjunto de achados pode corresponder a pneumonia intersticial linfocítica. Os diagnósticos diferenciais incluem bronquiolite folicular, amiloidose e doença de deposição de cadeias leves, entre outros.'
+    word: true
+
   - trigger: "ttpap"
     label: "Proteinose alveolar pulmonar"
     replace: 'Opacidades com atenuação em "vidro fosco" associadas a espessamento dos septos interlobulares e linhas intralobulares (pavimentação em mosaico), com distribuição geográfica, nitidamente demarcadas do parênquima normal adjacente. O conjunto de achados pode corresponder a proteinose alveolar pulmonar. Os diagnósticos diferenciais incluem infecção por Pneumocystis jirovecii, hemorragia alveolar e pneumonia lipoídica, entre outros.'
