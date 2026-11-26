@@ -181,7 +181,7 @@ matches:
     word: true
 
   - trigger: "hematomural"
-    label: "Hematoma intramural da aorta"
+    label: "Hematoma intramural da aorta — segmento e medidas a preencher"
     replace: "Espessamento parietal em crescente da aorta _, com até _ cm de espessura (> 0,5 cm), espontaneamente hiperatenuante na fase sem contraste e sem realce após o meio de contraste endovenoso, estendendo-se por cerca de _ cm, sem retalho intimal ou rotura intimal identificável, compatível com hematoma intramural. Associa-se deslocamento central das calcificações intimais."
     word: true
 
@@ -1195,7 +1195,7 @@ matches:
     word: true
 
   - trigger: "veiamesenterica"
-    label: "Trombose da veia mesentérica superior"
+    label: "Trombose da veia mesentérica superior — com espessamento de alças"
     replace: "Falha de enchimento na veia mesentérica superior, estendendo-se de _ a _, com aumento do calibre do vaso, compatível com trombose. Associa-se espessamento parietal circunferencial de alças de _, com edema submucoso (sinal do alvo), bem como densificação do mesentério e líquido livre."
     word: true
 
@@ -1312,7 +1312,7 @@ matches:
   # ANGIOTOMOGRAFIA DE ABDOME — VEIAS
   # ==========================================================================
   - trigger: "renalretroaortica"
-    label: "Veia renal esquerda retroaórtica"
+    label: "Veia renal esquerda retroaórtica — com nível de desembocadura"
     replace: "Veia renal esquerda com trajeto retroaórtico, cruzando posteriormente à aorta para desembocar na veia cava inferior no nível de _ (variação anatômica)."
     word: true
 
@@ -1347,7 +1347,7 @@ matches:
     word: true
 
   - trigger: "cavadupla"
-    label: "Duplicação da veia cava inferior"
+    label: "Duplicação da veia cava inferior — angio-TC"
     replace: "Duplicação da veia cava inferior infrarrenal, com veia cava esquerda originando-se da veia ilíaca comum esquerda e terminando na veia renal esquerda, que cruza anteriormente à aorta para desembocar na veia cava inferior direita (variação anatômica)."
     word: true
 

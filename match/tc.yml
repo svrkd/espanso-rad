@@ -120,7 +120,7 @@ matches:
     word: true
 
   - trigger: "adv"
-    label: "Anomalia do desenvolvimento venoso"
+    label: "Anomalia do desenvolvimento venoso — TC, temporal direita"
     replace: "Imagem que sugere representar anomalia do desenvolvimento venoso no lobo temporal direito, variante anatômica da drenagem venosa normal."
     word: true
 
@@ -182,7 +182,7 @@ matches:
     word: true
 
   - trigger: "avctrans"
-    label: "AVC isquêmico com transformação hemorrágica"
+    label: "AVC isquêmico com transformação hemorrágica — frontoparietal direito, com efeito de massa"
     replace: Acentuação da hipoatenuação corticossubcortical e da substância branca profunda localizada nos lobos frontal e parietal, bem como na ínsula e região nucleocapsular à direita, associada a edema de padrão citotóxico, com consequente apagamento dos sulcos entre os giros corticais e perda da diferenciação das substâncias branca/cinzenta. Agora se observa maior efeito de massa com desvio contralateral das estruturas da linha média de _ cm. Nota-se ainda surgimento de pequena área de sangramento em região nucleocapsular direita. O conjunto de achados é sugestivo de evento vascular isquêmico de evolução recente com área de transformação hemorrágica no território irrigado pela artéria cerebral média direita.
     word: true
 
@@ -287,7 +287,7 @@ matches:
     word: true
 
   - trigger: "edemacerebral"
-    label: "Edema cerebral difuso"
+    label: "Edema cerebral difuso — com apagamento de cisternas"
     replace: "Redução difusa da densidade do parênquima encefálico com apagamento dos sulcos corticais e cisternas basais e perda da diferenciação entre as substâncias branca e cinzenta, sugerindo edema/alterações isquêmicas."
     word: true
 
@@ -312,7 +312,7 @@ matches:
     word: true
 
   - trigger: "granus"
-    label: "Granulações aracnoides"
+    label: "Granulações aracnoides — seios transversos, achado incidental"
     replace: "Granulações aracnoides adjacentes aos seios transversos (com frequência achado incidental, sem correlação clínica)."
     word: true
 
@@ -357,7 +357,7 @@ matches:
     word: true
 
   - trigger: "hsa1"
-    label: "Hemorragia subaracnoide"
+    label: "Hemorragia subaracnoide — sulcos e cisternas"
     replace: Hemorragia subaracnoide ocupando sulcos corticais e cisternas encefálicas.
     word: true
 
@@ -452,7 +452,7 @@ matches:
     word: true
 
   - trigger: "macroadenoma1"
-    label: "Macroadenoma hipofisário com compressão do quiasma"
+    label: "Macroadenoma hipofisário com compressão do quiasma — parasselar esquerda"
     replace: "Lesão expansiva extra-axial, medindo _ cm, em localização selar, suprasselar e parasselar esquerda, determinando compressão sobre o quiasma óptico. A lesão mantém contato com as estruturas do polígono de Willis e o seio cavernoso esquerdo, bem como insinua-se no terceiro ventrículo."
     word: true
 
@@ -546,7 +546,7 @@ matches:
     word: true
 
   - trigger: "microadenoma1"
-    label: "Microadenoma hipofisário"
+    label: "Microadenoma hipofisário — TC, mediano"
     replace: "Imagem nodular, medindo cerca de _ cm, em localização mediana no parênquima da adeno-hipófise, caracterizada por apresentar realce de forma menos intensa pelo meio de contraste endovenoso do que o restante da glândula. A possibilidade de microadenoma pode ser considerada, diante de um contexto clínico e laboratorial adequado."
     word: true
 
@@ -613,7 +613,7 @@ matches:
     word: true
 
   - trigger: "schwannoma1"
-    label: "Schwannoma do ângulo pontocerebelar"
+    label: "Schwannoma do ângulo pontocerebelar — TC"
     replace: "Lesão expansiva extra-axial, medindo cerca de _ cm, localizada na cisterna do ângulo pontocerebelar esquerdo, com componente no interior do conduto auditivo interno ipsilateral. A possibilidade de schwannoma pode ser inicialmente considerada dentre os diagnósticos diferenciais."
     word: true
 
@@ -740,7 +740,7 @@ matches:
     word: true
 
   - trigger: "tcmacroadenoma"
-    label: "Macroadenoma hipofisário com compressão do quiasma"
+    label: "Macroadenoma hipofisário com compressão do quiasma — entre os vasos do polígono"
     replace: "Lesão expansiva selar com extensão suprasselar, medindo _ cm no plano craniocaudal, determinando compressão sobre o quiasma óptico e insinuando-se entre os vasos do polígono de Willis."
     word: true
 
@@ -757,7 +757,7 @@ matches:
     word: true
 
   - trigger: "tcschwannoma"
-    label: "Schwannoma do ângulo pontocerebelar"
+    label: "Schwannoma do ângulo pontocerebelar — TC, com alargamento do conduto auditivo interno"
     replace: "Lesão expansiva extra-axial, medindo _ cm, localizada na cisterna do ângulo pontocerebelar esquerda, com componente no interior do conduto auditivo interno ipsilateral, promovendo seu alargamento. A possibilidade de schwannoma pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
@@ -794,7 +794,7 @@ matches:
     word: true
 
   - trigger: "transfor1"
-    label: "AVC isquêmico com transformação hemorrágica"
+    label: "AVC isquêmico com transformação hemorrágica — parietal esquerdo"
     replace: "Acentuação das lesões hipodensas, corticossubcorticais, localizadas no lobo parietal e na ínsula à esquerda, com apagamento dos sulcos corticais regionais. Notam-se imagens hiperdensas no córtex do lobo parietal esquerdo. A possibilidade de lesões de natureza vascular isquêmica recentes com áreas de transformação hemorrágica pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
     word: true
 
@@ -907,7 +907,7 @@ matches:
     word: true
 
   - trigger: "hsa"
-    label: "Hemorragia subaracnoide"
+    label: "Hemorragia subaracnoide — termo isolado"
     replace: hemorragia subaracnoide
     word: true
 
@@ -1050,7 +1050,7 @@ matches:
     word: true
 
   - trigger: "credema"
-    label: "Edema cerebral difuso"
+    label: "Edema cerebral difuso — podendo corresponder"
     replace: "Apagamento difuso dos sulcos encefálicos associado à perda da diferenciação corticossubcortical, podendo corresponder a edema cerebral."
     word: true
 
@@ -1388,7 +1388,7 @@ matches:
     word: true
 
   - trigger: "incop"
-    label: "Granuloma calcificado"
+    label: "Granuloma calcificado — TC, localização a preencher"
     replace: Imagem ovalada cálcica localizada em _ (granuloma calcificado).
     word: true
 
@@ -1482,7 +1482,7 @@ matches:
     word: true
 
   - trigger: "adenoi"
-    label: "Hipertrofia adenoideana"
+    label: "Hipertrofia adenoideana — partes moles da rinofaringe"
     replace: Aumento volumétrico de partes moles na região da rinofaringe.
     word: true
 
@@ -1805,7 +1805,7 @@ matches:
     word: true
 
   - trigger: "pcnhiper"
-    label: "Concha bolhosa com desvio septal contralateral"
+    label: "Concha bolhosa com desvio septal contralateral — direita, com esporão"
     replace: Pneumatização de concha nasal média direita com desvio contralateral do septo ósseo nasal acompanhado de esporão.
     word: true
 
@@ -2093,7 +2093,7 @@ matches:
     word: true
 
   - trigger: "cavum"
-    label: "Hipertrofia adenoideana"
+    label: "Hipertrofia adenoideana — com redução da coluna aérea"
     replace: Aumento volumétrico das adenoides determinando redução da coluna aérea do cavum.
     word: true
 
@@ -2812,7 +2812,7 @@ matches:
     word: true
 
   - trigger: "olhoatrofico"
-    label: "Phthisis bulbi"
+    label: "Phthisis bulbi — TC, com calcificações"
     replace: Globo ocular direito de dimensões reduzidas com calcificações distróficas parietais e internas (Phthisis bulbi).
     word: true
 
@@ -3422,7 +3422,7 @@ matches:
     word: true
 
   - trigger: "vt"
-    label: "Vértebra de transição lombossacra"
+    label: "Vértebra de transição lombossacra — TC"
     replace: "Presença de seis corpos vertebrais com características lombares, sendo o último denominado vértebra de transição (VT)."
     word: true
 
@@ -3838,7 +3838,7 @@ matches:
     word: true
 
   - trigger: "baastruplombar"
-    label: "Doença de Baastrup"
+    label: "Doença de Baastrup — TC, com esclerose e remodelamento"
     replace: "Aproximação e contato entre os processos espinhosos de _ e _, com esclerose e remodelamento das superfícies em contato, compatível com doença de Baastrup."
     word: true
 
@@ -3948,7 +3948,7 @@ matches:
     word: true
 
   - trigger: "l45"
-    label: "Níveis L4-L5 e L5-S1"
+    label: "Níveis L4-L5 e L5-S1 — só os níveis"
     replace: L4-L5 e L5-S1
     word: true
 
@@ -4020,7 +4020,7 @@ matches:
     word: true
 
   - trigger: "n45"
-    label: "Níveis L4-L5 e L5-S1"
+    label: "Níveis L4-L5 e L5-S1 — subtítulo com dois-pontos"
     replace: "Níveis L4-L5 e L5-S1:"
     word: true
 
@@ -4142,7 +4142,7 @@ matches:
     word: true
 
   - trigger: "sacrali"
-    label: "Sacralização de L5 com megapófise transversa"
+    label: "Sacralização de L5 com megapófise transversa — bilateral, articulada ao sacro"
     replace: |
       Sacralização de L5.
       Megapófise transversa bilateral em L5, articulando-se com o sacro.
@@ -4154,7 +4154,7 @@ matches:
     word: true
 
   - trigger: "ximor1"
-    label: "Nódulo de Schmorl"
+    label: "Nódulo de Schmorl — nível a preencher"
     replace: Nódulo de Schmorl em _.
     word: true
 
@@ -4164,7 +4164,7 @@ matches:
     word: true
 
   - trigger: "nsc"
-    label: "Nódulo de Schmorl"
+    label: "Nódulo de Schmorl — termo isolado"
     replace: Nódulo de Schmorl
     word: true
 
@@ -4189,7 +4189,7 @@ matches:
     word: true
 
   - trigger: "sac"
-    label: "Sacralização de L5"
+    label: "Sacralização de L5 — aspecto sacralizado"
     replace: L5 de aspecto sacralizado.
     word: true
 
@@ -4267,7 +4267,7 @@ matches:
     word: true
 
   - trigger: "anum"
-    label: "Aumento do número de linfonodos mediastinais"
+    label: "Aumento do número de linfonodos mediastinais — sem linfonodomegalias"
     replace: "Aumento do número de linfonodos mediastinais, sem caracterizar linfonodomegalias."
     word: true
 
@@ -4376,12 +4376,12 @@ matches:
     word: true
 
   - trigger: "cipul"
-    label: "Cisto aéreo pulmonar direito"
+    label: "Cisto aéreo pulmonar direito — pequeno, lobo inferior"
     replace: Pequeno cisto aéreo no lobo inferior do pulmão direito.
     word: true
 
   - trigger: "cistoae"
-    label: "Cisto aéreo pulmonar esquerdo"
+    label: "Cisto aéreo pulmonar esquerdo — subcentimétrico, lobo inferior"
     replace: Cisto aéreo subcentimétrico no lobo inferior do pulmão esquerdo.
     word: true
 
@@ -4526,12 +4526,12 @@ matches:
     word: true
 
   - trigger: "enf2"
-    label: "Enfisema centrolobular e parasseptal"
+    label: "Enfisema centrolobular e parasseptal — esparso"
     replace: Enfisema centrolobular e parasseptal esparso pelos campos pulmonares.
     word: true
 
   - trigger: "enf3"
-    label: "Enfisema centrolobular e parasseptal"
+    label: "Enfisema centrolobular e parasseptal — esparso"
     replace: Enfisema centrolobular e parasseptal esparso pelos campos pulmonares.
     word: true
 
@@ -4827,7 +4827,7 @@ matches:
     word: true
 
   - trigger: "oparet"
-    label: "Opacidades reticulares pulmonares"
+    label: "Opacidades reticulares pulmonares — bilaterais"
     replace: Opacidades reticulares em ambos os campos pulmonares.
     word: true
 
@@ -5046,12 +5046,12 @@ matches:
     word: true
 
   - trigger: "tt301"
-    label: "Cisto aéreo pulmonar direito"
+    label: "Cisto aéreo pulmonar direito — isolado"
     replace: Cisto aéreo isolado no pulmão direito.
     word: true
 
   - trigger: "tt302"
-    label: "Cisto aéreo pulmonar esquerdo"
+    label: "Cisto aéreo pulmonar esquerdo — isolado"
     replace: Cisto aéreo isolado no pulmão esquerdo.
     word: true
 
@@ -5383,12 +5383,12 @@ matches:
     word: true
 
   - trigger: "tt61"
-    label: "Derrame pleural à direita"
+    label: "Derrame pleural à direita — TC"
     replace: Derrame pleural à direita.
     word: true
 
   - trigger: "tt62"
-    label: "Derrame pleural à esquerda"
+    label: "Derrame pleural à esquerda — TC"
     replace: Derrame pleural à esquerda.
     word: true
 
@@ -5923,7 +5923,7 @@ matches:
     word: true
 
   - trigger: "car"
-    label: "Cardiomegalia"
+    label: "Cardiomegalia — termo direto"
     replace: Cardiomegalia.
     word: true
 
@@ -6078,7 +6078,7 @@ matches:
     word: true
 
   - trigger: "tt515"
-    label: "Enfisema centrolobular e parasseptal"
+    label: "Enfisema centrolobular e parasseptal — campos superiores"
     replace: Enfisema centrolobular e parasseptal predominando nos campos superiores.
     word: true
 
@@ -6142,7 +6142,7 @@ matches:
     word: true
 
   - trigger: "adenom1"
-    label: "Nódulo adrenal indeterminado"
+    label: "Nódulo adrenal indeterminado — direito"
     replace: "Nódulo na glândula adrenal direita, medindo _ cm, com densidade de _ UH, indeterminado."
     word: true
 
@@ -6207,7 +6207,7 @@ matches:
     word: true
 
   - trigger: "bacao"
-    label: "Esplenomegalia homogênea"
+    label: "Esplenomegalia homogênea — com volume"
     replace: "Esplenomegalia homogênea (volume de _ cm³)."
     word: true
 
@@ -6222,7 +6222,7 @@ matches:
     word: true
 
   - trigger: "bigpros"
-    label: "Aumento volumétrico da próstata"
+    label: "Aumento volumétrico da próstata — aparente"
     replace: Aparente aumento volumétrico da próstata.
     word: true
 
@@ -6277,12 +6277,12 @@ matches:
     word: true
 
   - trigger: "calcdistal"
-    label: "Cálculo no ureter distal com hidroureteronefrose"
+    label: "Cálculo no ureter distal com hidroureteronefrose — com densidade em UH"
     replace: "Cálculo no ureter distal _, distando _ cm da junção ureterovesical, medindo _ cm, com densidade de _ UH, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
     word: true
 
   - trigger: "calcdistald"
-    label: "Cálculo no ureter distal direito"
+    label: "Cálculo no ureter distal direito — fase sem contraste"
     replace: "Cálculo no ureter distal direito, distando _ cm da junção ureterovesical, medindo _ cm, com densidade de _ UH, determinando discreta hidroureteronefrose. Observa-se densificação da gordura perirrenal e periureteral ipsilaterais, achados que podem estar relacionados ao processo obstrutivo, não podendo ser descartado processo inflamatório/infeccioso associado."
     word: true
 
@@ -6359,7 +6359,7 @@ matches:
     word: true
 
   - trigger: "calculojuv"
-    label: "Cálculo no ureter distal com hidroureteronefrose"
+    label: "Cálculo no ureter distal com hidroureteronefrose — com aumento volumétrico renal"
     replace: "Cálculo no ureter distal _, medindo _ cm, distando _ cm da junção ureterovesical, promovendo discreta hidroureteronefrose. Associa-se discreto aumento volumétrico renal com densificação dos planos gordurosos perirrenais, achado que pode estar relacionado ao processo obstrutivo, não se podendo descartar processo inflamatório/infeccioso associado."
     word: true
 
@@ -6374,7 +6374,7 @@ matches:
     word: true
 
   - trigger: "carcinomatoseperitoneal"
-    label: "Carcinomatose peritoneal"
+    label: "Carcinomatose peritoneal — TC, ascite acentuada e massas omentais"
     replace: "Acentuada quantidade de líquido livre na cavidade peritoneal, associada a nódulos e massas omentais e na superfície peritoneal, bem como espessamento nodular da raiz do mesentério. Esse conjunto de achados sugere representar carcinomatose peritoneal."
     word: true
 
@@ -6399,12 +6399,12 @@ matches:
     word: true
 
   - trigger: "cibo1d"
-    label: "Cisto renal cortical direito (Bosniak I)"
+    label: "Cisto renal cortical direito (Bosniak I) — subcentimétrico"
     replace: Cisto renal cortical subcentimétrico à direita (Bosniak I).
     word: true
 
   - trigger: "cibo1e"
-    label: "Cisto renal cortical esquerdo (Bosniak I)"
+    label: "Cisto renal cortical esquerdo (Bosniak I) — subcentimétrico"
     replace: Cisto renal cortical subcentimétrico à esquerda (Bosniak I).
     word: true
 
@@ -6414,12 +6414,12 @@ matches:
     word: true
 
   - trigger: "cibod"
-    label: "Cisto renal cortical direito (Bosniak I)"
+    label: "Cisto renal cortical direito (Bosniak I) — com medida"
     replace: "Cisto renal cortical à direita, medindo _ cm (Bosniak I)."
     word: true
 
   - trigger: "ciboe"
-    label: "Cisto renal cortical esquerdo (Bosniak I)"
+    label: "Cisto renal cortical esquerdo (Bosniak I) — com medida"
     replace: "Cisto renal cortical à esquerda, medindo _ cm (Bosniak I)."
     word: true
 
@@ -6479,7 +6479,7 @@ matches:
     word: true
 
   - trigger: "cistobartholin"
-    label: "Cisto de Bartholin"
+    label: "Cisto de Bartholin — TC, introito vaginal"
     replace: "Formação cística no introito vaginal à direita, medindo _ cm. A possibilidade de cisto de Bartholin pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
@@ -6654,17 +6654,17 @@ matches:
     word: true
 
   - trigger: "esteatc"
-    label: "Esteatose hepática"
+    label: "Esteatose hepática (conclusão)"
     replace: Esteatose hepática.
     word: true
 
   - trigger: "esteat1c"
-    label: "Esteatose hepática leve"
+    label: "Esteatose hepática leve (conclusão)"
     replace: Esteatose hepática leve.
     word: true
 
   - trigger: "esteat2c"
-    label: "Esteatose hepática acentuada"
+    label: "Esteatose hepática acentuada (conclusão)"
     replace: Esteatose hepática acentuada.
     word: true
 
@@ -6696,7 +6696,7 @@ matches:
     word: true
 
   - trigger: "ferradu"
-    label: "Rim em ferradura"
+    label: "Rim em ferradura — com ventralização das pelves"
     replace: 'Rins medianizados, unidos pelos polos inferiores, com ventralização das pelves ("rins em ferradura").'
     word: true
 
@@ -6706,7 +6706,7 @@ matches:
     word: true
 
   - trigger: "figocis"
-    label: "Cistos hepáticos múltiplos"
+    label: "Cistos hepáticos múltiplos — frase curta com o maior"
     replace: "Múltiplos cistos hepáticos, o maior localizado no segmento _, medindo _ cm."
     word: true
 
@@ -6766,7 +6766,7 @@ matches:
     word: true
 
   - trigger: "flebopos"
-    label: "Cálculo no ureter distal direito"
+    label: "Cálculo no ureter distal direito — fase excretora"
     replace: "Contrastação dos ureteres pelo meio de contraste endovenoso, permitindo a definição de cálculo no ureter distal direito, medindo _ cm, com densidade de _ UH, distando _ cm da junção ureterovesical."
     word: true
 
@@ -6882,7 +6882,7 @@ matches:
     word: true
 
   - trigger: "hipofig"
-    label: "Imagens hepáticas hipodensas subcentimétricas"
+    label: "Imagens hepáticas hipodensas subcentimétricas — inespecíficas pelas dimensões"
     replace: "Imagens hipodensas no parênquima hepático, inespecíficas dadas as dimensões reduzidas."
     word: true
 
@@ -6902,7 +6902,7 @@ matches:
     word: true
 
   - trigger: "hipofigo"
-    label: "Imagens hepáticas hipodensas subcentimétricas"
+    label: "Imagens hepáticas hipodensas subcentimétricas — inespecíficas no protocolo"
     replace: "Imagens hipodensas subcentimétricas no parênquima hepático, inespecíficas no protocolo empregado."
     word: true
 
@@ -7181,7 +7181,7 @@ matches:
     word: true
 
   - trigger: "panic"
-    label: "Paniculite mesentérica"
+    label: "Paniculite mesentérica — achados indeterminados"
     replace: "Densificação dos planos gordurosos na raiz do mesentério, associada a linfonodos aumentados em número nessa topografia, achados indeterminados, comumente relacionados a paniculite mesentérica."
     word: true
 
@@ -7281,7 +7281,7 @@ matches:
     word: true
 
   - trigger: "prostao1"
-    label: "Aumento volumétrico da próstata"
+    label: "Aumento volumétrico da próstata — frase simples"
     replace: Aumento volumétrico da próstata.
     word: true
 
@@ -7403,7 +7403,7 @@ matches:
     word: true
 
   - trigger: "tcadenite"
-    label: "Adenite mesentérica"
+    label: "Adenite mesentérica — com densificação da gordura"
     replace: "Aumento do número de linfonodos mesentéricos, com linfonodomegalias e densificação da gordura adjacente. A possibilidade de adenite mesentérica pode ser considerada dentre os diagnósticos diferenciais, diante de um contexto clínico e laboratorial compatível."
     word: true
 
@@ -7609,7 +7609,7 @@ matches:
     word: true
 
   - trigger: "tcteratoma"
-    label: "Teratoma ovariano"
+    label: "Teratoma ovariano — esquerdo, com gordura"
     replace: "Lesão ovalada, medindo _ cm, com densidade heterogênea, predominantemente com componente de gordura, localizada em região ovariana/anexial esquerda. A possibilidade de teratoma pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
@@ -7639,7 +7639,7 @@ matches:
     word: true
 
   - trigger: "tt72"
-    label: "Nódulo adrenal indeterminado"
+    label: "Nódulo adrenal indeterminado — lado a preencher, com contralateral"
     replace: "Nódulo hipodenso de _ cm na adrenal _ com coeficientes de atenuação em torno de _ UH, de aspecto indeterminado. Adrenal _ de aspecto preservado."
     word: true
 
@@ -7679,7 +7679,7 @@ matches:
     word: true
 
   - trigger: "veiarenal1"
-    label: "Veia renal esquerda retroaórtica"
+    label: "Veia renal esquerda retroaórtica — frase curta"
     replace: Veia renal esquerda com trajeto retroaórtico.
     word: true
 
@@ -7709,7 +7709,7 @@ matches:
     word: true
 
   - trigger: "dcssi"
-    label: "Diverticulose colônica sem sinais inflamatórios"
+    label: "Diverticulose colônica sem sinais inflamatórios — frase curta"
     replace: Divertículos colônicos sem sinais inflamatórios.
     word: true
 
@@ -7744,7 +7744,7 @@ matches:
     word: true
 
   - trigger: "mesentery"
-    label: "Paniculite mesentérica"
+    label: "Paniculite mesentérica — podendo estar relacionada"
     replace: "Densificação dos planos gordurosos na raiz do mesentério, associada a linfonodos aumentados em número nessa topografia, achados que podem estar relacionados à paniculite mesentérica."
     word: true
 
@@ -8057,7 +8057,7 @@ matches:
     word: true
 
   - trigger: "humb"
-    label: "Pequena hérnia umbilical"
+    label: "Pequena hérnia umbilical — com conteúdo adiposo"
     replace: Pequena hérnia umbilical com protrusão de conteúdo adiposo.
     word: true
 
@@ -8134,7 +8134,7 @@ matches:
     word: true
 
   - trigger: "phu"
-    label: "Pequena hérnia umbilical"
+    label: "Pequena hérnia umbilical — com conteúdo adiposo"
     replace: Pequena hérnia umbilical com conteúdo adiposo.
     word: true
 
@@ -8169,12 +8169,12 @@ matches:
     word: true
 
   - trigger: "rimzim"
-    label: "Nefropatia parenquimatosa crônica direita"
+    label: "Nefropatia parenquimatosa crônica direita — com correlação clínica e laboratorial"
     replace: "Rim direito de dimensões reduzidas, contornos lobulados e córtex afilado, sugerindo nefropatia parenquimatosa crônica. Correlacionar com dados clínicos e laboratoriais."
     word: true
 
   - trigger: "rimzin"
-    label: "Nefropatia parenquimatosa crônica direita"
+    label: "Nefropatia parenquimatosa crônica direita — frase curta"
     replace: "Rim direito de dimensões reduzidas, contornos lobulados e parênquima afilado (sugere nefropatia parenquimatosa crônica)."
     word: true
 
@@ -8296,7 +8296,7 @@ matches:
     word: true
 
   - trigger: "div"
-    label: "Diverticulose colônica sem sinais inflamatórios"
+    label: "Diverticulose colônica sem sinais inflamatórios — esparsos"
     replace: "Divertículos cólicos esparsos, porém sem sinais inflamatórios associados."
     word: true
 
@@ -8411,12 +8411,12 @@ matches:
     word: true
 
   - trigger: "kienbock"
-    label: "Doença de Kienböck"
+    label: "Doença de Kienböck — TC"
     replace: "Aumento da atenuação do semilunar _ (direito; ou esquerdo), _ (sem; ou com) fragmentação e colapso, sugerindo osteonecrose (doença de Kienböck)."
     word: true
 
   - trigger: "basepolegar"
-    label: "Rizartrose"
+    label: "Rizartrose — TC, com subluxação radial"
     replace: "Redução do espaço articular trapeziometacárpico _ (direito; ou esquerdo), com osteófitos marginais, esclerose subcondral e subluxação radial da base do primeiro metacarpo, compatível com osteoartrose (rizartrose)."
     word: true
 
@@ -8451,7 +8451,7 @@ matches:
     word: true
 
   - trigger: "hillsachs"
-    label: "Lesão de Hill-Sachs"
+    label: "Lesão de Hill-Sachs — TC, fratura cuneiforme com fragmento"
     replace: "Fratura de morfologia cuneiforme no aspecto posterolateral da cabeça umeral, com fragmento ósseo destacado posteriormente, sugerindo lesão de Hill-Sachs."
     word: true
 
@@ -8533,7 +8533,7 @@ matches:
     word: true
 
   - trigger: "fraba"
-    label: "Fratura da base do 5º metatarso"
+    label: "Fratura da base do 5º metatarso — irregularidade cortical, possível fratura"
     replace: "Irregularidade cortical da base do 5º metatarso, podendo representar fratura. Correlacionar com dados clínicos."
     word: true
 
@@ -8571,7 +8571,7 @@ matches:
     word: true
 
   - trigger: "oam"
-    label: "Osteoartrose femorotibial medial"
+    label: "Osteoartrose femorotibial medial — artropatia com osteofitose"
     replace: Artropatia degenerativa caracterizada por redução do espaço articular femorotibial medial e osteofitose marginal.
     word: true
 
@@ -8601,7 +8601,7 @@ matches:
     word: true
 
   - trigger: "osgoodschatter"
-    label: "Doença de Osgood-Schlatter"
+    label: "Doença de Osgood-Schlatter — TC, com tendinopatia patelar"
     replace: "Calcificação junto à tuberosidade anterior da tíbia, associada a espessamento das fibras distais do tendão patelar. A possibilidade de tendinopatia insercional do patelar relacionada a doença de Osgood-Schlatter pode ser considerada dentre os diagnósticos diferenciais."
     word: true
 
@@ -8679,12 +8679,12 @@ matches:
     word: true
 
   - trigger: "joe"
-    label: "Osteoartrose femorotibial medial"
+    label: "Osteoartrose femorotibial medial — área de carga, osteófitos incipientes"
     replace: "Redução do espaço articular femorotibial medial (área de carga), associada a incipientes osteófitos marginais."
     word: true
 
   - trigger: "morton"
-    label: "Neuroma de Morton"
+    label: "Neuroma de Morton — TC"
     replace: "Obliteração dos 2º/3º e 3º/4º espaços intermetatársicos distais, sendo que naquele espaço apresenta configuração nodular, medindo cerca de _ cm, podendo representar neuroma de Morton. Associa-se distensão líquida das bursas intermetatársicas nesses espaços."
     word: true
 
@@ -8946,12 +8946,12 @@ matches:
     word: true
 
   - trigger: "ostrigono"
-    label: "Os trigonum"
+    label: "Os trigonum — TC, descrição com lado"
     replace: "Ossículo acessório posterior ao processo lateral do tálus _ (direito; ou esquerdo), de contornos corticais regulares (os trigonum)."
     word: true
 
   - trigger: "charcotpe"
-    label: "Neuroartropatia de Charcot"
+    label: "Neuroartropatia de Charcot — TC"
     replace: "Desorganização das articulações _ (tarsometatársicas; ou mediotársicas) do pé _ (direito; ou esquerdo), com fragmentação, esclerose, subluxações e fragmentos ósseos periarticulares, achados compatíveis com neuroartropatia de Charcot."
     word: true
 
@@ -9358,7 +9358,7 @@ matches:
     word: true
 
   - trigger: "morellavallee"
-    label: "Lesão de Morel-Lavallée"
+    label: "Lesão de Morel-Lavallée — TC"
     replace: "Coleção fusiforme _ (líquida; ou com nível líquido-gorduroso) entre o tecido subcutâneo e a fáscia muscular na região _, medindo _ cm, sugerindo lesão de desenluvamento fechado (Morel-Lavallée)."
     word: true
 
@@ -9709,7 +9709,7 @@ matches:
     word: true
 
   - trigger: "eaa"
-    label: "Ectasia da aorta ascendente"
+    label: "Ectasia da aorta ascendente — frase curta"
     replace: "Ectasia da aorta ascendente (_ cm)."
     word: true
 
@@ -9740,12 +9740,12 @@ matches:
     word: true
 
   - trigger: "hematomaintramural"
-    label: "Hematoma intramural da aorta"
+    label: "Hematoma intramural da aorta — descendente, da subclávia ao infrarrenal"
     replace: "Espessamento mural excêntrico da aorta descendente quase circunferencial, sutilmente hiperdenso nas imagens pré-contraste, sem opacificação na fase arterial, observado desde logo após a emergência da artéria subclávia esquerda até o segmento infrarrenal, com sinais de extensão para os segmentos proximais do tronco celíaco e da artéria renal esquerda. Observa-se deslocamento da calcificação ateromatosa em direção ao lúmen. Não há sinais de dissecção da íntima ou úlcera perfurante. O maior calibre da aorta é no segmento descendente (_ cm). A possibilidade de síndrome aórtica aguda caracterizada por hematoma intramural pode ser considerada. Os diagnósticos diferenciais devem ser aplicados."
     word: true
 
   - trigger: "isquemiamesenterica1"
-    label: "Trombose da veia mesentérica superior"
+    label: "Trombose da veia mesentérica superior — pós-colectomia direita, com isquemia de alças"
     replace: |
       Status pós-colectomia parcial direita, com ileotransversoanastomose (_).
       Material hipodenso, sem realce pelo meio de contraste endovenoso, distendendo a veia mesentérica superior, sugerindo representar trombo. Associa-se ingurgitamento da vasa recta com densificação da gordura mesentérica e distensão hidroaérea de alças intestinais jejunoileais, as quais não exibem realce significativo pelo meio de contraste endovenoso, achados presumivelmente relacionados a alterações hipóxico-isquêmicas.
@@ -9796,7 +9796,7 @@ matches:
     word: true
 
   - trigger: "nutcracker"
-    label: "Síndrome de nutcracker"
+    label: "Síndrome de nutcracker — com ectasia da veia gonadal"
     replace: 'Redução do ângulo entre a aorta abdominal e a artéria mesentérica superior (_°), com compressão sobre a veia renal esquerda e subsequente ectasia da veia gonadal esquerda e varizes pélvicas ipsilaterais, achados que podem estar relacionados à síndrome de "nutcracker".'
     word: true
 
@@ -9955,7 +9955,7 @@ matches:
     word: true
 
   - trigger: "vcidupla"
-    label: "Duplicação da veia cava inferior"
+    label: "Duplicação da veia cava inferior — TC"
     replace: "Duplicação da veia cava inferior (a veia cava inferior esquerda duplicada é vista como uma continuação da veia ilíaca comum esquerda, cruzando anteriormente à aorta no nível da veia renal para se juntar à veia cava inferior direita)."
     word: true
 
@@ -10074,7 +10074,7 @@ matches:
     word: true
 
   - trigger: "tt23"
-    label: "Ectasia da aorta ascendente"
+    label: "Ectasia da aorta ascendente — com demais porções normais"
     replace: "Ectasia da aorta ascendente, com diâmetro máximo de _ cm. Demais porções da aorta e demais estruturas vasculares tópicas e de calibre normal."
     word: true
 
@@ -10800,7 +10800,7 @@ matches:
     word: true
 
   - trigger: "mortecerebral1"
-    label: "TC de crânio S/C — sinais de morte encefálica (variante)"
+    label: "TC de crânio S/C — sinais de morte encefálica (variante), hipoatenuação até tronco e cerebelo"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 
@@ -10821,7 +10821,7 @@ matches:
     word: true
 
   - trigger: "mortecerebralx"
-    label: "TC de crânio S/C — sinais de morte encefálica (variante)"
+    label: "TC de crânio S/C — sinais de morte encefálica (variante), sem cânula traqueal"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 
@@ -10840,7 +10840,7 @@ matches:
     word: true
 
   - trigger: "mortecerebro"
-    label: "TC de crânio S/C — sinais de morte encefálica (variante)"
+    label: "TC de crânio S/C — sinais de morte encefálica (variante), colabamento ventricular supratentorial"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
 
@@ -11455,12 +11455,12 @@ matches:
     word: true
 
   - trigger: "sacral5"
-    label: "Sacralização de L5"
+    label: "Sacralização de L5 — correlacionar com radiografia"
     replace: Sinais de sacralização de L5. Correlacionar com radiografia da coluna total.
     word: true
 
   - trigger: "sacroid"
-    label: "TC de sacroilíacas — alterações degenerativas"
+    label: "TC de sacroilíacas — alterações degenerativas, com esclerose marginal"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DAS ARTICULAÇÕES SACROILÍACAS S/C
 
@@ -11645,7 +11645,7 @@ matches:
     word: true
 
   - trigger: "tcabdsup"
-    label: "TC de abdome superior C/C — normal"
+    label: "TC de abdome superior S/C — normal, técnica resumida"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DO ABDOME SUPERIOR S/C
 
@@ -12334,7 +12334,7 @@ matches:
     word: true
 
   - trigger: "tcomc1"
-    label: "TC de mastoides — otomastoidopatia crônica à direita"
+    label: "TC de mastoides — otomastoidopatia crônica à direita, atenuação de partes moles"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DE MASTOIDES S/C
 
@@ -12354,7 +12354,7 @@ matches:
     word: true
 
   - trigger: "tcomc2"
-    label: "TC de mastoides — otomastoidopatia crônica à direita"
+    label: "TC de mastoides — otomastoidopatia crônica à direita, conteúdo hipoatenuante"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DE MASTOIDES S/C
 
@@ -12453,7 +12453,7 @@ matches:
     word: true
 
   - trigger: "tcpelve"
-    label: "TC de abdome inferior — normal"
+    label: "TC de abdome inferior — normal, resumido"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DE ABDOME INFERIOR S/C
 
@@ -12471,7 +12471,7 @@ matches:
     word: true
 
   - trigger: "tcpelve1"
-    label: "TC de abdome inferior — normal"
+    label: "TC de abdome inferior — normal, com planos adiposos e arcabouço ósseo"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DE ABDOME INFERIOR S/C
 
@@ -12605,7 +12605,7 @@ matches:
     word: true
 
   - trigger: "tcsacroid"
-    label: "TC de sacroilíacas — alterações degenerativas"
+    label: "TC de sacroilíacas — alterações degenerativas, frase genérica"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DAS ARTICULAÇÕES SACROILÍACAS S/C
 
@@ -13914,7 +13914,7 @@ matches:
     word: true
 
   - trigger: "tctor"
-    label: "TC de tórax S/C — normal"
+    label: "TC de tórax S/C — normal, com área cardíaca e pericárdio"
     replace: |
       TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
 
@@ -14074,7 +14074,7 @@ matches:
     word: true
 
   - trigger: "adar"
-    label: "Alterações degenerativas do arcabouço ósseo"
+    label: "Alterações degenerativas do arcabouço ósseo — regional"
     replace: Alterações degenerativas do arcabouço ósseo regional.
     word: true
 
@@ -14352,7 +14352,7 @@ matches:
     word: true
 
   - trigger: "inesp"
-    label: "Inespecífico no protocolo empregado"
+    label: "Inespecífico no protocolo empregado — feminino"
     replace: inespecífica no protocolo empregado.
     word: true
 
@@ -14362,7 +14362,7 @@ matches:
     word: true
 
   - trigger: "inespo"
-    label: "Inespecífico no protocolo empregado"
+    label: "Inespecífico no protocolo empregado — masculino"
     replace: inespecífico no protocolo empregado.
     word: true
 

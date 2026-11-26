@@ -5,7 +5,7 @@ matches:
   # ==========================================================================
 
   - trigger: "advrm"
-    label: "Anomalia do desenvolvimento venoso"
+    label: "Anomalia do desenvolvimento venoso — temporal direita, com gliose"
     replace: "Anomalia do desenvolvimento venoso localizada no lobo temporal direito, associada a hipersinal em T2/FLAIR da substância branca subcortical nessa topografia, sem efeito atrófico ou expansivo, sugestiva de gliose."
     word: true
 
@@ -25,7 +25,7 @@ matches:
     word: true
 
   - trigger: "anomaliav"
-    label: "Anomalia do desenvolvimento venoso"
+    label: "Anomalia do desenvolvimento venoso — frontal esquerda, achado incidental"
     replace: "Após administração do meio de contraste paramagnético, foi evidenciada anomalia do desenvolvimento venoso na alta convexidade do lobo frontal esquerdo, com frequência achado incidental sem correlação clínica."
     word: true
 
@@ -70,7 +70,7 @@ matches:
     word: true
 
   - trigger: "chivas2"
-    label: "Schwannoma do ângulo pontocerebelar"
+    label: "Schwannoma do ângulo pontocerebelar — controle, discreto aumento"
     replace: "Discreto aumento das dimensões da lesão expansiva extra-axial centrada na cisterna pontocerebelar esquerda, caracterizada por sinal heterogêneo em T1 e T2, sem restrição à difusão e impregnação heterogênea pelo gadolínio. O componente cisternal da lesão mede cerca de _ cm e determina compressão do pedúnculo cerebelar médio esquerdo. A lesão estende-se lateralmente, com sinais de alargamento do poro acústico interno, mais proeminente que nos estudos de referência, e componente intracanalicular que apresenta extensão de cerca de _ cm, além de impregnação anômala da espira basal da cóclea."
     word: true
 
@@ -129,7 +129,7 @@ matches:
     word: true
 
   - trigger: "dva2"
-    label: "Anomalia do desenvolvimento venoso"
+    label: "Anomalia do desenvolvimento venoso — frontoparietal direita, na SWI"
     replace: |-
       Imagem sugestiva de anomalia do desenvolvimento venoso, caracterizada por vasos anômalos e proeminentes, com marcado hipossinal na sequência SWI, localizados na substância branca periventricular e subcortical da alta convexidade frontoparietal direita. Observa-se veia de drenagem cortical dilatada, convergindo para veia coletora dirigida à região ependimária do ventrículo lateral ipsilateral.
       Nota-se discreto hipersinal em T2/FLAIR na substância branca subcortical adjacente, sem evidências de efeito expansivo ou atrofia local. O conjunto de achados é sugestivo de anomalia do desenvolvimento venoso (AVD/angioma venoso).
@@ -202,7 +202,7 @@ matches:
     word: true
 
   - trigger: "gbm"
-    label: "Hipersinal nas sequências ponderadas"
+    label: "Formação expansiva infiltrativa frontal esquerda com necrose e edema"
     replace: |-
       Formação expansiva, de características infiltrativas com epicentro no lobo frontal esquerdo, bem delimitada, apresentando impregnação heterogênea pelo agente de contraste paramagnético endovenoso, delimitando áreas de necrose/hemorragia central, medindo _ cm. Apresenta-se circundada por extenso halo de edema/infiltração, caracterizado por hipersinal nas sequências ponderadas em T2/FLAIR, que se estende superiormente ao centro semioval homolateral e região periventricular frontal esquerda, promovendo apagamento dos sulcos corticais e desvio da linha mediana em cerca de _ cm, com colapso do ventrículo lateral.
 
@@ -212,7 +212,7 @@ matches:
     word: true
 
   - trigger: "granu1"
-    label: "Granuloma calcificado"
+    label: "Granuloma calcificado — RM, substância branca (fragmento)"
     replace: Granuloma residual calcificado na substância branca do
     word: true
 
@@ -227,7 +227,7 @@ matches:
     word: true
 
   - trigger: "granuarac"
-    label: "Granulações aracnoides"
+    label: "Granulações aracnoides — seio transverso direito e sagital superior"
     replace: "Projeções da membrana aracnoide nos seios transverso direito e sagital superior, sugestivas de granulações aracnoides."
     word: true
 
@@ -342,12 +342,12 @@ matches:
     word: true
 
   - trigger: "malaglirm"
-    label: "Encefalomalácia/gliose (RM)"
+    label: "Encefalomalácia/gliose (RM) — área única"
     replace: Área com sinal semelhante ao líquor localizada _ (encefalomalácia / gliose).
     word: true
 
   - trigger: "malaglisrm"
-    label: "Encefalomalácia/gliose (RM)"
+    label: "Encefalomalácia/gliose (RM) — áreas múltiplas"
     replace: Áreas com sinal semelhante ao líquor localizadas _ (encefalomalácia / gliose).
     word: true
 
@@ -416,7 +416,7 @@ matches:
     word: true
 
   - trigger: "meningioma2"
-    label: "Meningioma"
+    label: "Meningioma — ângulo pontocerebelar esquerdo"
     replace: "Lesão expansiva extra-axial, com base de implantação dural e realce homogêneo pelo meio de contraste endovenoso, localizada na base do crânio à esquerda, com maior componente na cisterna do ângulo pontocerebelar, insinuando-se para o conduto auditivo interno, alargando o poro acústico e exercendo significativo efeito de massa sobre o tronco encefálico e cerebelo, com consequente alteração do sinal, comprimindo e deslocando a ponte, colabando o quarto ventrículo e promovendo dilatação do sistema ventricular supratentorial, com sinais de transudação ependimária. Tal lesão mede cerca de _ cm e não apresenta nítidos planos de clivagem com o segmento intracavernoso da carótida interna esquerda. Há extensão da lesão para a fossa média e junto ao cavum de Meckel ipsilaterais, bem como para a cisterna pré-pontina, mantendo contato com estruturas vasculares e nervosas regionais. Considerar a possibilidade de neoplasia meningotelial (meningioma)."
     word: true
 
@@ -426,7 +426,7 @@ matches:
     word: true
 
   - trigger: "microad"
-    label: "Microadenoma hipofisário"
+    label: "Microadenoma hipofisário — RM, à direita"
     replace: "Lesão nodular medindo cerca de _ cm localizada à direita no parênquima da adeno-hipófise, caracterizada por impregnação menos intensa pelo meio de contraste endovenoso do que o restante da glândula."
     word: true
 
@@ -529,7 +529,7 @@ matches:
     word: true
 
   - trigger: "rmmenin"
-    label: "Meningioma"
+    label: "Meningioma — convexidade frontal esquerda"
     replace: "Pequena lesão extra-axial na alta convexidade frontal à esquerda, junto à linha inter-hemisférica, caracterizada por isossinal nas ponderações T1 e T2, exibindo realce homogêneo pelo meio de contraste endovenoso, medindo cerca de _ cm, mantendo contato com o seio sagital superior, sugerindo meningioma."
     word: true
 
@@ -576,12 +576,12 @@ matches:
     word: true
 
   - trigger: "xivas2"
-    label: "Schwannoma do ângulo pontocerebelar"
+    label: "Schwannoma do ângulo pontocerebelar — controle, discreto aumento"
     replace: "Discreto aumento das dimensões da lesão expansiva extra-axial centrada na cisterna pontocerebelar esquerda, caracterizada por sinal heterogêneo em T1 e T2, sem restrição à difusão e impregnação heterogênea pelo gadolínio. O componente cisternal da lesão mede cerca de _ cm e determina compressão do pedúnculo cerebelar médio esquerdo. A lesão estende-se lateralmente, com sinais de alargamento do poro acústico interno, mais proeminente que nos estudos de referência, e componente intracanalicular que apresenta extensão de cerca de _ cm, além de impregnação anômala da espira basal da cóclea."
     word: true
 
   - trigger: "avcih"
-    label: "Hipersinal nas sequências ponderadas"
+    label: "Insulto isquêmico recente com transformação hemorrágica"
     replace: "Áreas de alteração de sinal caracterizadas por hipersinal nas sequências ponderadas em T2/FLAIR e restrição à livre movimentação das moléculas de água, comprometendo os giros temporais superior, transverso e médio direitos, bem como a região corticossubcortical da ínsula e o núcleo estriado homolateral, determinando discreto efeito expansivo local, com apagamento dos sulcos corticais adjacentes e compressão do corpo do ventrículo lateral deste lado. Nota-se ainda, na região central acometida, área de baixo sinal em T2/FLAIR, com difusão restrita nas sequências S.W.I. e ADC. Tais achados são compatíveis com insulto isquêmico recente exibindo transformação hemorrágica no território da artéria cerebral média direita."
     word: true
 
@@ -600,7 +600,7 @@ matches:
   # ==========================================================================
 
   - trigger: "cistpoli2"
-    label: "Cistos de retenção ou pólipos"
+    label: "Cistos de retenção ou pólipos — seios maxilares"
     replace: "Imagens arredondadas de alto sinal em T2, sugerindo representar cistos de retenção ou pólipos, localizadas nos seios maxilares."
     word: true
 
@@ -610,7 +610,7 @@ matches:
     word: true
 
   - trigger: "esmupolrm"
-    label: "Cistos de retenção ou pólipos"
+    label: "Cistos de retenção ou pólipos — com espessamento mucoso"
     replace: "Espessamento mucoso dos seios paranasais, por vezes apresentando imagens arredondadas de alto sinal em T2, sugerindo representar cistos de retenção ou pólipos."
     word: true
 
@@ -635,7 +635,7 @@ matches:
     word: true
 
   - trigger: "olhoruim"
-    label: "Phthisis bulbi"
+    label: "Phthisis bulbi — RM"
     replace: Redução volumétrica e heterogeneidade do sinal do globo ocular direito (phthisis bulbi).
     word: true
 
@@ -650,12 +650,12 @@ matches:
     word: true
 
   - trigger: "poliposenaso"
-    label: "Polipose nasossinusal"
+    label: "Polipose nasossinusal — com extensão à cavidade nasal"
     replace: "Espessamento mucoso difuso dos seios paranasais, com extensão para a cavidade nasal, sugerindo polipose nasossinusal."
     word: true
 
   - trigger: "poliposens"
-    label: "Polipose nasossinusal"
+    label: "Polipose nasossinusal — com realce, maxilar, etmoidal e esfenoidal"
     replace: |-
       Espessamento mucoso das cavidades paranasais, destacando-se formações nodulares, algumas apresentando realce pelo meio de contraste paramagnético endovenoso, sugestivas com pólipos/cistos de retenção no seio maxilar direito, células etmoidais e seio esfenoidal, que determinam discreto efeito expansivo, caracterizado por abaulamento das paredes destas cavidades, além de descontinuidades ósseas, melhor avaliados por estudo tomográfico realizado em outro serviço. Nota-se extensão material para os recessos esfenoetmoidais, notadamente à direita. Formações polipoides semelhantes são observadas nas fossas nasais, principalmente entre o septo nasal e as conchas nasais superiores e médias, sendo maiores e mais numerosas à direita, reduzindo a coluna aérea e obliterando os meatos nasais. O conjunto dos achados é compatível com polipose nasossinusal.
       Material hiperintenso na ponderação T2, sem realce significativo pelo meio de contraste, preenchendo o seio frontal direito, podendo representar mucocele.
@@ -761,7 +761,7 @@ matches:
     word: true
 
   - trigger: "cdoa"
-    label: "Complexo disco-osteofitário foraminal direito"
+    label: "Complexo disco-osteofitário foraminal direito — sem conflito radicular"
     replace: "complexo disco-osteofitário posterior assimétrico, com maior componente foraminal direito, promovendo impressão sobre a face anterior do saco dural e insinuando-se na gordura epidural do respectivo neuroforame, sem conflitos radiculares."
     word: true
 
@@ -771,12 +771,12 @@ matches:
     word: true
 
   - trigger: "cdoass"
-    label: "Complexo disco-osteofitário foraminal direito"
+    label: "Complexo disco-osteofitário foraminal direito — com uncoartrose e artropatia facetária"
     replace: "complexo disco-osteofitário assimétrico, com maior componente foraminal direito, fazendo impressão sobre a face anterior do saco dural e insinuando-se na gordura epidural do respectivo neuroforame, e que, em associação com uncoartrose e artropatia facetária, toca a raiz emergente correspondente."
     word: true
 
   - trigger: "cdoruim"
-    label: "Complexo disco-osteofitário foraminal direito"
+    label: "Complexo disco-osteofitário foraminal direito — com comprometimento radicular"
     replace: "complexo disco-osteofitário posterior assimétrico com maior componente foraminal direito determinando impressão sobre o saco dural, estendendo-se para as bases neuroforaminais, reduzindo suas amplitudes, com comprometimento radicular à direita, em associação à uncoartrose e artropatia facetária."
     word: true
 
@@ -791,7 +791,7 @@ matches:
     word: true
 
   - trigger: "charcot"
-    label: "Neuroartropatia de Charcot"
+    label: "Neuroartropatia de Charcot — RM, com osteomielite e microabscesso"
     replace: |-
       Análise:
       Perda da morfologia habitual, com fusão entre ossos do tarso e base dos metatarsos, associada a áreas de fragmentação/reabsorção óssea que determinam instabilidade/desarranjo da articulação tarsometatársica (articulação de Charcot).
@@ -861,7 +861,7 @@ matches:
     word: true
 
   - trigger: "endomet"
-    label: "Endometriose do compartimento posterior"
+    label: "Endometriose do compartimento posterior — retrocervical, com variante pós-histerectomia"
     replace: |-
       Estrias fibroaderenciais no espaço retrocervical posterior, determinando discreta retração do sigmoide e das cápsulas ováricas, sem sinais de infiltração nas camadas mais profundas intestinais, sugerindo endometriose do compartimento posterior.
 
@@ -870,7 +870,7 @@ matches:
     word: true
 
   - trigger: "endomet11"
-    label: "Endometriose retrocervical"
+    label: "Endometriose retrocervical — uterossacros, com lista de relações"
     replace: |-
       Tecido retrocervical com características endometrióticas, medindo _ cm, acometendo os dois terços distais dos ligamentos uterossacros. Destaca-se relação com as seguintes estruturas:
       - estende-se à parede pélvica lateral direita/esquerda, no trajeto do plexo nervoso sacral, e determina retração do ureter (distância mínima com o ureter é de cerca de _ cm), sem dilatação a montante;
@@ -878,7 +878,7 @@ matches:
     word: true
 
   - trigger: "endomet13"
-    label: "Endometriose retrocervical"
+    label: "Endometriose retrocervical — tórus e fórnice vaginal"
     replace: |-
       Lesão com característica endometriótica na região retrocervical uterina, comprometendo o tórus e fórnice vaginal.
       Traves aderenciais com características endometrióticas no espaço retrouterino, mantendo contato com a parede anterior do reto médio, porém sem sinais de invasão parietal profunda, neste segmento intestinal.
@@ -895,7 +895,7 @@ matches:
     word: true
 
   - trigger: "endomet6"
-    label: "Endometriose profunda"
+    label: "Endometriose profunda — retrocervical, com endometrioma"
     replace: |-
       Espessamento tecidual de aspecto retrátil com maior componente fibrótico de hipossinal em T2, localizado no espaço retrocervical posterior, determinando retração do reto médio/alto, sem sinais de infiltração nas camadas mais profundas deste segmento intestinal. Há contiguidade das traves aderenciais com as porções insercionais dos ligamentos uterossacros e com ambas as cápsulas ovarianas, determinando desvio medial e posterior do eixo dos ovários, sugerindo endometriose profunda.
       Ovário direito mede _ cm, com volume de _ cm³, apresentando cisto com alto sinal em T1 e queda do sinal em T2 (“shading”) medindo cerca de _ cm no maior eixo, compatível com endometrioma. Foram observadas também pequenas imagens subcentimétricas com alto sinal em T1, notadamente pericapsular, sugerindo focos de endometriose.
@@ -908,7 +908,7 @@ matches:
     word: true
 
   - trigger: "endomet8"
-    label: "Endometriose retrocervical"
+    label: "Endometriose retrocervical — com focos hemáticos e medidas"
     replace: |-
       Tecido com características endometrióticas na região retrocervical, apresentando focos hemáticos de permeio, com extensão lateral de cerca de _ cm e espessura de _ cm. Apresenta relação com as seguintes estruturas:
       - estende-se lateralmente ao ligamento uterossacro direito/esquerdo;
@@ -917,7 +917,7 @@ matches:
     word: true
 
   - trigger: "endometp"
-    label: "Endometriose do compartimento posterior"
+    label: "Endometriose do compartimento posterior — serosa uterina e retrocervical"
     replace: "Estrias fibroaderenciais na serosa uterina corporal posterior e no espaço retrocervical, determinando discreta retração da transição retossigmoide e da cápsula ovariana direita, sem sinais de infiltração nas camadas mais profundas intestinais, sugerindo endometriose do compartimento posterior."
     word: true
 
@@ -956,7 +956,7 @@ matches:
     word: true
 
   - trigger: "esto"
-    label: "Espondilose torácica"
+    label: "Espondilose torácica — com alterações degenerativas do arcabouço"
     replace: Espondilose/alterações degenerativas do arcabouço ósseo torácico.
     word: true
 
@@ -976,14 +976,14 @@ matches:
     word: true
 
   - trigger: "fraturaescafo"
-    label: "Pequeno derrame articular"
+    label: "Fratura crônica do escafoide com artropatia do punho"
     replace: |-
       Fratura crônica na cintura do escafoide, determinando perda da morfologia do polo proximal, que apresenta baixo sinal difuso da medular óssea nas ponderações T1/T2. Nota-se ainda edema reativo da medular óssea do polo distal, existindo alterações degenerativas e pequeno derrame articular associado.
       Sinais de artropatia degenerativa caracterizada por pequeno derrame articular em todas as articulações do punho, notadamente da primeira fileira do carpo. Destacam-se erosões subcorticais difusas, bem como na apófise estiloide do rádio com adelgaçamento e irregularidade do revestimento condral.
     word: true
 
   - trigger: "heman"
-    label: "Hemangioma"
+    label: "Hemangioma — vertebral, em L2"
     replace: "Zona arredondada de alto sinal em T1 e T2 no corpo vertebral de L2, sugerindo hemangioma."
     word: true
 
@@ -993,17 +993,17 @@ matches:
     word: true
 
   - trigger: "hemangi1"
-    label: "Hemangioma"
+    label: "Hemangioma — vertebral, nível a preencher"
     replace: "Zona arredondada de alto sinal em T1 e T2 no corpo vertebral de _, sugerindo hemangioma."
     word: true
 
   - trigger: "hemangi2"
-    label: "Hemangiomas ou áreas de lipossubstituição"
+    label: "Hemangiomas ou áreas de lipossubstituição — lombares"
     replace: "Zonas arredondadas de alto sinal em T1 e T2 esparsas pelos corpos vertebrais lombares, sugerindo hemangiomas ou áreas de lipossubstituição."
     word: true
 
   - trigger: "hemangi3"
-    label: "Hemangiomas ou áreas de lipossubstituição"
+    label: "Hemangiomas ou áreas de lipossubstituição — nível a preencher"
     replace: "Zonas arredondadas de alto sinal em T1 e T2 esparsas pelos corpos vertebrais _, sugerindo hemangiomas ou áreas de lipossubstituição."
     word: true
 
@@ -1013,7 +1013,7 @@ matches:
     word: true
 
   - trigger: "hemangis2"
-    label: "Hemangiomas ou áreas de lipossubstituição"
+    label: "Hemangiomas ou áreas de lipossubstituição — sem nível"
     replace: "Zonas arredondadas de alto sinal em T1 e T2 esparsas pelos corpos vertebrais, sugerindo hemangiomas ou áreas de lipossubstituição."
     word: true
 
@@ -1048,7 +1048,7 @@ matches:
     word: true
 
   - trigger: "inj"
-    label: "Injúria ligamentar interespinhosa nos níveis de L4-L5"
+    label: "Injúria ligamentar interespinhosa nos níveis de L4-L5 — por estiramento ou sobrecarga"
     replace: Injúria ligamentar interespinhosa nos níveis de L4-L5 e L5-S1 por estiramento ou sobrecarga mecânica.
     word: true
 
@@ -1058,7 +1058,7 @@ matches:
     word: true
 
   - trigger: "inj2"
-    label: "Injúria ligamentar interespinhosa nos níveis de L4-L5"
+    label: "Injúria ligamentar interespinhosa nos níveis de L4-L5 — por sobrecarga"
     replace: Injúria ligamentar interespinhosa nos níveis de L4-L5 e L5-S1 por sobrecarga mecânica.
     word: true
 
@@ -1082,7 +1082,7 @@ matches:
     word: true
 
   - trigger: "kien"
-    label: "Doença de Kienböck"
+    label: "Doença de Kienböck — RM, com colapso e cistos subcondrais"
     replace: "Perda da morfologia habitual do semilunar, que se encontra parcialmente colapsado, exibindo cistos subcondrais nas superfícies articulares e alteração de sinal da medular óssea nas ponderações T1 e T2 (edema). Existe discreta captação heterogênea do agente de contraste endovenoso no aspecto distal do semilunar, usualmente relacionada a hiperemia. Tais alterações determinam perda parcial da congruência escafossemilunar e lunopiramidal, determinando lassidão crônica dos respectivos ligamentos."
     word: true
 
@@ -1102,12 +1102,12 @@ matches:
     word: true
 
   - trigger: "ligamarelo"
-    label: "Artropatia interfacetária e hipertrofia do ligamento amarelo"
+    label: "Artropatia interfacetária e hipertrofia do ligamento amarelo — redução do canal"
     replace: "Em associação, observamos artropatia interfacetária e hipertrofia do ligamento amarelo, que contribuem para redução do diâmetro anteroposterior do canal vertebral."
     word: true
 
   - trigger: "ligamarelo2"
-    label: "Artropatia interfacetária e hipertrofia do ligamento amarelo"
+    label: "Artropatia interfacetária e hipertrofia do ligamento amarelo — com aracnoidite"
     replace: "Associa-se artropatia interfacetária e hipertrofia do ligamento amarelo, que contribuem para estreitamento do canal vertebral e aracnoidite."
     word: true
 
@@ -1132,19 +1132,19 @@ matches:
     word: true
 
   - trigger: "metaossea"
-    label: "Lesões secundárias"
+    label: "Lesões secundárias — ósseas difusas, coluna, bacia e costelas"
     replace: "Múltiplas formações nodulares infiltrativas acometendo todos os corpos vertebrais, alguns se estendendo para os elementos posteriores, acometendo também o sacro, ilíacos e alguns arcos costais, compatíveis com lesões secundárias."
     word: true
 
   - trigger: "metaossea3"
-    label: "Lesões secundárias"
+    label: "Lesões secundárias — líticas e blásticas, com adenomegalias"
     replace: |-
       Múltiplas formações nodulares infiltrativas líticas e blásticas, acometendo todos os corpos vertebrais e elementos posteriores, além da caixa torácica, algumas com rotura da cortical e componente de partes moles acometendo também o sacro e arcos costais, compatíveis com lesões secundárias.
       Múltiplas adenomegalias metastáticas nas cadeias jugulares, retroperitoneais e retrocrurais, com efeito compressivo sobre as estruturas vasculares.
     word: true
 
   - trigger: "metaosseacol"
-    label: "Lesões secundárias"
+    label: "Lesões secundárias — coluna, sem fratura patológica"
     replace: "Múltiplas formações nodulares infiltrativas acometendo todos os corpos vertebrais, alguns se estendendo para os elementos posteriores, compatíveis com lesões secundárias. Não há fraturas patológicas no segmento cervical."
     word: true
 
@@ -1239,7 +1239,7 @@ matches:
     word: true
 
   - trigger: "polipoendocervical"
-    label: "Pólipo endocervical"
+    label: "Pólipo endocervical — aparente impregnação"
     replace: "Formação alongada, com hipossinal em T2, localizada no canal endocervical, com aparente impregnação, medindo cerca de _ cm, sugestiva de pólipo."
     word: true
 
@@ -1306,12 +1306,12 @@ matches:
     word: true
 
   - trigger: "rmpolipo"
-    label: "Pólipo endocervical"
+    label: "Pólipo endocervical — com impregnação pelo contraste"
     replace: "Formação alongada no canal endocervical caracterizada por hipossinal em T2 exibindo impregnação pelo meio de contraste endovenoso, medindo cerca de _ cm, sugestiva de pólipo."
     word: true
 
   - trigger: "rmtendili"
-    label: "Tendinopatia e inflamação muscular adjacente"
+    label: "Tendinopatia e inflamação muscular adjacente — iliopsoas, edema da apófise do trocânter menor"
     replace: "Importante edema/processo inflamatório comprometendo o tendão do iliopsoas junto à inserção no trocânter menor. Há alteração de sinal dos ventres musculares do pectíneo, vasto intermédio e notadamente do iliopsoas, quando cruzam a articulação do quadril (acetábulo anterior), sugestivo de tendinopatia e inflamação muscular adjacente. Nota-se ainda edema da medular óssea através da cartilagem da apófise do trocânter femoral menor. Correlacionar com dados clínicos e laboratoriais."
     word: true
 
@@ -1341,22 +1341,22 @@ matches:
     word: true
 
   - trigger: "simee"
-    label: "Abaulamento discal simétrico que retifica a face"
+    label: "Abaulamento discal simétrico que retifica a face — tocando raízes de L2"
     replace: "abaulamento discal simétrico que retifica a face ventral do saco dural e se estende para as bases foraminais, reduzindo suas amplitudes, tocando as raízes emergentes de L2."
     word: true
 
   - trigger: "simefiss"
-    label: "Abaulamento discal simétrico que retifica a face"
+    label: "Abaulamento discal simétrico que retifica a face — com fissura, sem conflito radicular"
     replace: "abaulamento discal simétrico que retifica a face ventral do saco dural e se estende para as bases foraminais, reduzindo suas amplitudes, porém sem conflitos radiculares evidentes. Associa-se fissura concêntrica do ânulo fibroso."
     word: true
 
   - trigger: "simeraiz2"
-    label: "Abaulamento discal simétrico que retifica a face"
+    label: "Abaulamento discal simétrico que retifica a face — tocando raízes, nível a completar"
     replace: "abaulamento discal simétrico que retifica a face ventral do saco dural e se estende para as bases foraminais, reduzindo suas amplitudes, tocando as raízes emergentes de L"
     word: true
 
   - trigger: "simess"
-    label: "Abaulamento discal simétrico que retifica a face"
+    label: "Abaulamento discal simétrico que retifica a face — fragmento aberto"
     replace: "abaulamento discal simétrico que retifica a face ventral do saco dural e se estende para as bases foraminais, reduzindo suas amplitudes,"
     word: true
 
@@ -1396,7 +1396,7 @@ matches:
     word: true
 
   - trigger: "uteross1"
-    label: "Espessamento da porção proximal dos ligamentos uterossacros"
+    label: "Espessamento da porção proximal dos ligamentos uterossacros — com septo retovaginal e tórus"
     replace: "Espessamento da porção proximal dos ligamentos uterossacros e do septo retovaginal, associado a discreta formação tecidual no espaço retrocervical, estendendo-se ao tórus uterino, causando elevação da cúpula vaginal posterior. O conjunto de achados sugere endometriose comprometendo o compartimento pélvico posterior."
     word: true
 
@@ -1533,7 +1533,7 @@ matches:
     word: true
 
   - trigger: "abscessotuboovariano"
-    label: "Abscesso tubo-ovariano"
+    label: "Abscesso tubo-ovariano — RM"
     replace: "Formação cística tubuliforme, de paredes espessadas, formando nível líquido, apresentando conteúdo com sinal heterogêneo em T2, restrição à difusão, exibindo intenso realce parietal pós-contraste, localizada na região anexial esquerda, paraovariana. Associam-se alteração do sinal de planos adiposos adjacentes, bem como líquido em fundo de saco posterior e aumento numérico de linfonodos regionais. Considerar a possibilidade de abscesso tubo-ovariano como principal hipótese diagnóstica diante do contexto clínico. Os diagnósticos diferenciais devem ser aplicados."
     word: true
 
@@ -1570,7 +1570,7 @@ matches:
     word: true
 
   - trigger: "adenomiose1"
-    label: "Adenomiose"
+    label: "Adenomiose — com zona juncional medida e Conclusão"
     replace: |-
       Espessamento e má definição da zona juncional, com espessura de (medida da espessura da zona juncional) mm. Pode-se observar pequenos focos de realce tardio após a administração do meio de contraste, o que é compatível com adenomiose. Não há evidências de massas ou nódulos intramiometriais.
 
@@ -1584,7 +1584,7 @@ matches:
     word: true
 
   - trigger: "anali2"
-    label: "Comparativo com exame anterior"
+    label: "Comparativo com exame anterior — com campo Permanecendo"
     replace: |-
       A análise comparativa com o exame realizado em _ evidencia:
 
@@ -1598,7 +1598,7 @@ matches:
     word: true
 
   - trigger: "bartolin"
-    label: "Cisto de Bartholin"
+    label: "Cisto de Bartholin — RM, região perineal"
     replace: "Lesão cística na região perineal direita, medindo cerca de _ cm, sugerindo cisto de Bartholin."
     word: true
 
@@ -1609,7 +1609,7 @@ matches:
     word: true
 
   - trigger: "bigpro"
-    label: "Aumento volumétrico da próstata"
+    label: "Aumento volumétrico da próstata — com volume e correlação"
     replace: Aumento volumétrico da próstata (_ cm³). Correlacionar com dados clínicos e laboratoriais.
     word: true
 
@@ -1626,7 +1626,7 @@ matches:
     word: true
 
   - trigger: "carcini2"
-    label: "Carcinomatose peritoneal"
+    label: "Carcinomatose peritoneal — RM, implantes na parede anterior"
     replace: "imagens nodulares ao longo da interface entre as reflexões do peritônio e a parede abdominal anterior, acompanhadas de pequena quantidade de líquido ascítico, achados que, dentro de contexto oncológico, sugerem a possibilidade de carcinomatose peritoneal. Recomenda-se prosseguir a investigação diagnóstica."
     word: true
 
@@ -1641,7 +1641,7 @@ matches:
     word: true
 
   - trigger: "carcino2"
-    label: "Carcinomatose peritoneal"
+    label: "Carcinomatose peritoneal — RM, implantes na parede anterior"
     replace: |-
       imagens nodulares ao longo da interface entre as reflexões do peritônio e a parede abdominal anterior, acompanhadas de pequena quantidade de líquido ascítico, achados que, dentro de contexto oncológico, sugerem a possibilidade de carcinomatose peritoneal. Recomenda-se prosseguir a investigação diagnóstica.
     word: true
@@ -1682,7 +1682,7 @@ matches:
     word: true
 
   - trigger: "degmucinoso"
-    label: "Espessamento e alteração de sinal das fibras"
+    label: "Espessamento e alteração de sinal das fibras — LCA, laceração parcial × degeneração mucinosa"
     replace: "Espessamento e alteração de sinal das fibras do ligamento cruzado anterior, não sendo possível discriminar de forma inequívoca laceração parcial ou degeneração mucinosa, sendo necessária correlação com dados de suficiência."
     word: true
 
@@ -1702,7 +1702,7 @@ matches:
     word: true
 
   - trigger: "endolig"
-    label: "Endometriose comprometendo o compartimento pélvico posterior"
+    label: "Endometriose comprometendo o compartimento pélvico posterior — uterossacros"
     replace: "Espessamento dos ligamentos uterossacros, notadamente nas porções proximais, sugerindo endometriose comprometendo o compartimento pélvico posterior."
     word: true
 
@@ -1744,7 +1744,7 @@ matches:
     word: true
 
   - trigger: "estriasreto"
-    label: "Endometriose comprometendo o compartimento pélvico posterior"
+    label: "Endometriose comprometendo o compartimento pélvico posterior — aderência à parede do reto"
     replace: |-
       Estrias retráteis com baixo sinal em T2, no espaço retouterino, determinando processo aderencial com a parede anterior do reto, a cerca de _ cm da borda anal, sem sinais de infiltração parietal profunda na alça intestinal, medindo _ cm de extensão.
 
@@ -1780,7 +1780,7 @@ matches:
     word: true
 
   - trigger: "focas"
-    label: "Microcálculos ou interface vascular"
+    label: "Microcálculos ou interface vascular — rim esquerdo"
     replace: "Focos hiperrefringentes no rim esquerdo, menores que _ cm, sugerindo representar microcálculos ou interface vascular."
     word: true
 
@@ -1813,12 +1813,12 @@ matches:
     word: true
 
   - trigger: "hemangfig"
-    label: "Hemangiomas hepáticos"
+    label: "Hemangiomas hepáticos — RM, realce noduliforme (fragmento)"
     replace: "exceto por formações nodulares isoladas, que apresentaram realce noduliforme pelo contraste paramagnético endovenoso, tendendo à homogeneização nas fases tardias, a maior localizada na transição dos segmentos VII/VIII, medindo _ cm, sugestivas de hemangiomas."
     word: true
 
   - trigger: "hoffited"
-    label: "Hoffite lateral"
+    label: "Hoffite lateral — frase única"
     replace: "Discreto edema do tecido adiposo entre o ligamento patelar e a tróclea femoral lateral, compatível com hoffite lateral."
     word: true
 
@@ -1848,7 +1848,7 @@ matches:
     word: true
 
   - trigger: "kissc"
-    label: "Endometriose profunda"
+    label: "Endometriose profunda — conclusão, kissing ovaries"
     replace: "Achados sugestivos de endometriose profunda no compartimento pélvico posterior, centrada no tórus uterino, com acometimento dos ligamentos uterossacros e processo aderencial determinando medialização ovariana (“kissing ovaries”), associado à discreta retroflexão fúndica."
     word: true
 
@@ -1875,7 +1875,7 @@ matches:
     word: true
 
   - trigger: "micropoli"
-    label: "Ovários micropolicísticos"
+    label: "Ovários micropolicísticos — com medidas dos ovários e bexiga"
     replace: |-
       Ovários contendo múltiplos pequenos cistos, distribuídos de forma periférica pelo parênquima gonadal.
       Ovário direito medindo _ cm, com volume de _ cm³.
@@ -1917,7 +1917,7 @@ matches:
     word: true
 
   - trigger: "mucinoso"
-    label: "Espessamento e alteração de sinal das fibras"
+    label: "Espessamento e alteração de sinal das fibras — LCA, laceração parcial ou completa com degeneração mucinosa"
     replace: "Espessamento e alteração de sinal das fibras do ligamento cruzado anterior, não sendo possível discriminar de forma inequívoca laceração parcial ou completa, em associação a degeneração mucinosa, sendo necessária correlação com dados de suficiência."
     word: true
 
@@ -2043,7 +2043,7 @@ matches:
     word: true
 
   - trigger: "ovspolicistico"
-    label: "Ovários micropolicísticos"
+    label: "Ovários micropolicísticos — sem medidas"
     replace: |-
       Ovários contendo múltiplos pequenos cistos, distribuídos de forma periférica pelo parênquima gonadal.
 
@@ -2144,12 +2144,12 @@ matches:
     word: true
 
   - trigger: "rotmen2"
-    label: "Rotura do corno posterior do menisco medial"
+    label: "Rotura do corno posterior do menisco medial — com amputação da margem livre e extrusão"
     replace: Rotura do corno posterior do menisco medial com amputação da margem livre e extrusão parcial do remanescente meniscal e sinais de perimeniscite.
     word: true
 
   - trigger: "rotmm"
-    label: "Rotura do corno posterior do menisco medial"
+    label: "Rotura do corno posterior do menisco medial — longitudinal oblíqua"
     replace: "Lesão longitudinal oblíqua no corno posterior do menisco medial, tocando a superfície articular femoral e a margem periférica, configurando rotura, com sinais de perimeniscite."
     word: true
 
@@ -2227,7 +2227,7 @@ matches:
     word: true
 
   - trigger: "uteross"
-    label: "Espessamento da porção proximal dos ligamentos uterossacros"
+    label: "Espessamento da porção proximal dos ligamentos uterossacros — relação com endometriose"
     replace: "Espessamento da porção proximal dos ligamentos uterossacros, achado que pode estar relacionado a endometriose, comprometendo o compartimento pélvico posterior."
     word: true
 
@@ -2266,17 +2266,17 @@ matches:
     word: true
 
   - trigger: "esteatose1"
-    label: "Fígado com forma, dimensões e contornos normais"
+    label: "Fígado com forma, dimensões e contornos normais — ecogenicidade aumentada"
     replace: "Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade."
     word: true
 
   - trigger: "esteatose2"
-    label: "Fígado com forma, dimensões e contornos normais"
+    label: "Fígado com forma, dimensões e contornos normais — com atenuação do feixe"
     replace: "Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que atenua o feixe acústico posterior, dificultando a caracterização de eventuais lesões focais."
     word: true
 
   - trigger: "esteatose3"
-    label: "Fígado com forma, dimensões e contornos normais"
+    label: "Fígado com forma, dimensões e contornos normais — com atenuação, vasos e vias biliares não visualizados"
     replace: "Fígado com forma, dimensões e contornos normais, apresentando aumento difuso de sua ecogenicidade, o que atenua o feixe acústico posterior, dificultando a caracterização de eventuais lesões focais e impedindo a adequada visualização dos vasos hepáticos e das vias biliares."
     word: true
 
@@ -2317,12 +2317,12 @@ matches:
     word: true
 
   - trigger: "buracro"
-    label: "Distensão líquida da bursa subacromial / subdeltoidea"
+    label: "Distensão líquida da bursa subacromial / subdeltoidea — sem inferência"
     replace: Distensão líquida da bursa subacromial / subdeltoidea.
     word: true
 
   - trigger: "ombursite"
-    label: "Distensão líquida da bursa subacromial / subdeltoidea"
+    label: "Distensão líquida da bursa subacromial / subdeltoidea — inferindo bursite"
     replace: "Distensão líquida da bursa subacromial / subdeltoidea, inferindo bursite."
     word: true
 
@@ -2367,7 +2367,7 @@ matches:
     word: true
 
   - trigger: "idtclb2"
-    label: "Tendinopatia da porção intracapsular do cabo longo"
+    label: "Tendinopatia da porção intracapsular do cabo longo — subluxação entre fibras do subescapular"
     replace: "Tendinopatia da porção intracapsular do cabo longo do bíceps. Nota-se subluxação anteromedial na sua deflexão na goteira intertubercular, insinuando-se por entre as fibras do tendão do subescapular, bem como acentuada distensão líquida da bainha sinovial."
     word: true
 
@@ -2377,12 +2377,12 @@ matches:
     word: true
 
   - trigger: "lipomabraco"
-    label: "Lesão de natureza lipomatosa"
+    label: "Lesão de natureza lipomatosa — bíceps braquial"
     replace: "Formação expansiva bem delimitada, com sinal semelhante ao da gordura em todas as sequências de pulso, localizada na porção proximal do ventre muscular do bíceps braquial, determinando abaulamento focal na porção proximal do ventre muscular do peitoral maior, mantendo planos de clivagem com o mesmo. Tal lesão apresenta alguns finos septos internos, exibindo discreta impregnação pelo agente de contraste paramagnético endovenoso, medindo cerca de _ cm (CC x LL x AP). Tais achados são compatíveis com lesão de natureza lipomatosa."
     word: true
 
   - trigger: "luxtclb"
-    label: "Tendinopatia da porção intracapsular do cabo longo"
+    label: "Tendinopatia da porção intracapsular do cabo longo — subluxação anteromedial"
     replace: "Tendinopatia da porção intracapsular do cabo longo do bíceps braquial, notando-se subluxação anteromedial na sua deflexão junto à goteira intertubercular."
     word: true
 
@@ -2397,14 +2397,14 @@ matches:
     word: true
 
   - trigger: "rmdendili2"
-    label: "Tendinopatia e inflamação muscular adjacente"
+    label: "Tendinopatia e inflamação muscular adjacente — iliopsoas, com coleção laminar e linfonodos"
     replace: |-
       Importante edema/processo inflamatório comprometendo o tendão do iliopsoas junto à inserção no trocânter menor. Há alteração de sinal dos ventres musculares do pectíneo, vastos intermédio/medial e notadamente do iliopsoas, quando cruzam a articulação do quadril (acetábulo anterior), sugestivo de tendinopatia e inflamação muscular adjacente. Destaca-se ainda pequena coleção laminar junto à face medial da cortical da diáfise femoral proximal e o ventre muscular do vasto medial, estendendo-se por cerca de _ cm com espessura máxima de _ cm. Correlacionar com dados clínicos e laboratoriais.
       Aumento do número de linfonodos inguinofemorais, sem caracterizar linfonodomegalias.
     word: true
 
   - trigger: "rmlipoma"
-    label: "Lesão de natureza lipomatosa"
+    label: "Lesão de natureza lipomatosa — região posterossuperior do ombro"
     replace: "Formação expansiva, bem delimitada, com sinal semelhante ao da gordura em todas as sequências, localizada na região posterossuperior do ombro, medindo cerca de _ cm, parcialmente caracterizada neste estudo, sugerindo lesão de natureza lipomatosa."
     word: true
 
@@ -2503,12 +2503,12 @@ matches:
   # ==========================================================================
 
   - trigger: "alcadebalde"
-    label: "Rotura meniscal em alça de balde"
+    label: "Rotura meniscal em alça de balde — menisco medial adelgaçado com fragmento"
     replace: "Adelgaçamento do corpo do menisco medial sugerindo lesão/rotura. Parece existir pequeno fragmento meniscal, interposto na região da fossa intercondilar, sugerindo lesão em alça de balde."
     word: true
 
   - trigger: "arborescente"
-    label: "Lipoma arborescente"
+    label: "Lipoma arborescente — com sinóvia vilosa"
     replace: "Derrame articular no recesso suprapatelar, com sinóvia hipertrofiada, apresentando vilosidades com sinal semelhante ao da gordura, achados que podem estar relacionados a lipoma arborescente, decorrente de sinovite crônica/osteoartrose."
     word: true
 
@@ -2523,7 +2523,7 @@ matches:
     word: true
 
   - trigger: "artropaq"
-    label: "Artropatia degenerativa do quadril"
+    label: "Artropatia degenerativa do quadril — esquerdo, fase inflamatória"
     replace: "Artropatia degenerativa em fase inflamatória comprometendo o quadril esquerdo, caracterizada por redução do espaço articular, reações osteofitárias marginais, acentuadas erosões/cistos subcondrais em ambos os componentes, com fissuras condrais profundas, edema ósseo subcondral e derrame articular com sinais de sinovite. Este conjunto de achados pode estar relacionado a osteoartrite/osteoartrose."
     word: true
 
@@ -2553,7 +2553,7 @@ matches:
     word: true
 
   - trigger: "balde"
-    label: "Rotura meniscal em alça de balde"
+    label: "Rotura meniscal em alça de balde — rotura complexa com fragmento deslocado"
     replace: "Rotura complexa de todos os segmentos do menisco medial com fragmento deslocado na região intercondilar, compatível com rotura em “alça de balde”."
     word: true
 
@@ -2573,7 +2573,7 @@ matches:
     word: true
 
   - trigger: "binfrac"
-    label: "Bursite infrapatelar profunda"
+    label: "Bursite infrapatelar profunda (conclusão)"
     replace: Bursite infrapatelar profunda.
     word: true
 
@@ -2653,7 +2653,7 @@ matches:
     word: true
 
   - trigger: "cruant"
-    label: "Alteração de sinal do ligamento cruzado anterior"
+    label: "Alteração de sinal do ligamento cruzado anterior — inserção tibial, sem roturas"
     replace: "Alteração de sinal do ligamento cruzado anterior junto à inserção na tíbia, sem roturas."
     word: true
 
@@ -2736,7 +2736,7 @@ matches:
     word: true
 
   - trigger: "esplca"
-    label: "Espessamento e alteração de sinal das fibras"
+    label: "Espessamento e alteração de sinal das fibras — LCA com orientação mantida"
     replace: "Espessamento e alteração de sinal das fibras do ligamento cruzado anterior, que mantém sua orientação espacial."
     word: true
 
@@ -2789,7 +2789,7 @@ matches:
     word: true
 
   - trigger: "joe2"
-    label: "Hoffite lateral"
+    label: "Hoffite lateral — com derrame suprapatelar e edema pré-patelar"
     replace: |-
       Pequeno derrame articular predominando no recesso suprapatelar.
       Sinais de edema do tecido adiposo entre o ligamento patelar e a tróclea femoral lateral, compatível com hoffite lateral.
@@ -2807,7 +2807,7 @@ matches:
     word: true
 
   - trigger: "lesaolca"
-    label: "Alteração de sinal do ligamento cruzado anterior"
+    label: "Alteração de sinal do ligamento cruzado anterior — com demais ligamentos normais"
     replace: |-
       Alteração de sinal do ligamento cruzado anterior que mantém orientação espacial.
       Ligamentos cruzado posterior e colaterais com continuidade, espessura e sinal conservados.
@@ -2864,12 +2864,12 @@ matches:
     word: true
 
   - trigger: "morel"
-    label: "Lesão de Morel-Lavallée"
+    label: "Lesão de Morel-Lavallée — RM, joelho"
     replace: "Pequena coleção laminar localizada entre o plano subcutâneo profundo e a fáscia da musculatura extensora na região anterolateral do joelho, parcialmente caracterizada, podendo corresponder a lesão de Morel-Lavallée."
     word: true
 
   - trigger: "morton1"
-    label: "Neuroma de Morton"
+    label: "Neuroma de Morton — formação nodular"
     replace: "Formação nodular no segundo espaço interdigital medindo _ cm, insinuando-se sob as cabeças metatarsais, sugerindo neuroma de Morton."
     word: true
 
@@ -2881,22 +2881,22 @@ matches:
     word: true
 
   - trigger: "morton3"
-    label: "Neuroma de Morton"
+    label: "Neuroma de Morton — com obliteração da gordura plantar"
     replace: "Obliteração da gordura subcutânea plantar do segundo espaço interdigital, identificando-se lesão nodular, projetando-se sob as cabeças metatarsais, medindo cerca de _ cm, sugerindo neuroma de Morton."
     word: true
 
   - trigger: "navi2rm"
-    label: "Osso navicular acessório tipo II"
+    label: "Osso navicular acessório tipo II — sem edema"
     replace: "Osso acessório localizado na tuberosidade posteromedial do navicular. O osso acessório apresenta conexão cartilaginosa com o navicular, melhor visualizada na sequência T2, compatível com osso navicular acessório tipo II."
     word: true
 
   - trigger: "navi3rm"
-    label: "Osso navicular acessório tipo II"
+    label: "Osso navicular acessório tipo II — com edema e microinstabilidade"
     replace: "Osso acessório localizado na tuberosidade posteromedial do navicular. O osso acessório apresenta conexão cartilaginosa com o navicular, apresentando edema circunjacente, melhor visualizado na sequência ponderada T2, compatível com osso navicular acessório tipo II, com sinais de microinstabilidade."
     word: true
 
   - trigger: "neolig"
-    label: "Túneis ósseos no fêmur e na tíbia"
+    label: "Túneis ósseos no fêmur e na tíbia — com neoligamento íntegro"
     replace: "Túneis ósseos no fêmur e na tíbia, com artefatos de suscetibilidade magnética, que são achados habituais após a reconstrução cirúrgica do ligamento cruzado anterior. Não há sinais de rotura do neoligamento."
     word: true
 
@@ -2911,12 +2911,12 @@ matches:
     word: true
 
   - trigger: "osteocondroma1"
-    label: "Bursa exostótica"
+    label: "Bursa exostótica — osteocondroma único da tíbia proximal"
     replace: "Pequeno osteocondroma na região metadiafisária medial da tíbia proximal, medindo cerca de _ cm, de aspecto séssil, com margens bem definidas, apresentando delgado capuz cartilaginoso, medindo cerca de _ cm, notando-se fina lâmina líquida margeando a lesão, compatível com bursa exostótica."
     word: true
 
   - trigger: "osteocondroma2"
-    label: "Bursa exostótica"
+    label: "Bursa exostótica — dois osteocondromas da tíbia distal"
     replace: |-
       Dois osteocondromas na região metadiafisária distal da tíbia, de aspecto séssil, com margens bem definidas, sem sinais de agressividade ou comprometimento cortical, apresentando delgado capuz cartilaginoso, assim distribuídos:
       - no aspecto medial medindo cerca de _ cm, notando-se fina lâmina líquida margeando a lesão, compatível com bursa exostótica;
@@ -2928,22 +2928,22 @@ matches:
     word: true
 
   - trigger: "patelabi"
-    label: "Patela bipartida"
+    label: "Patela bipartida — isolada"
     replace: "Centro de ossificação acessório superolateral da patela, podendo representar patela bipartida."
     word: true
 
   - trigger: "patelabi2"
-    label: "Patela bipartida"
+    label: "Patela bipartida — com condropatia da faceta lateral"
     replace: "Centro de ossificação acessório superolateral da patela, podendo representar patela bipartida, bem como adelgaçamento e irregularidade do revestimento condral da faceta lateral, com fissuras profundas e edema ósseo, associados a importante edema de partes moles."
     word: true
 
   - trigger: "pedrada"
-    label: "Fina borda de coleção de fluido líquido"
+    label: "Fina borda de coleção de fluido líquido — gastrocnêmio medial e sóleo"
     replace: "Fina borda de coleção de fluido líquido insinuando-se entre a cabeça medial distal do músculo gastrocnêmio e o músculo sóleo, associada a espessamento e alteração do sinal da junção musculotendínea da cabeça medial do gastrocnêmio."
     word: true
 
   - trigger: "pedrada1"
-    label: "Fina borda de coleção de fluido líquido"
+    label: "Fina borda de coleção de fluido líquido — com conclusão de distensão e hematoma"
     replace: |-
       Fina borda de coleção de fluido líquido insinuando-se entre as cabeças medial do músculo gastrocnêmio e do músculo sóleo, associada a espessamento e alteração do sinal da junção musculotendínea da cabeça medial do gastrocnêmio.
 
@@ -2960,7 +2960,7 @@ matches:
     word: true
 
   - trigger: "pedrara"
-    label: "Fina borda de coleção de fluido líquido"
+    label: "Fina borda de coleção de fluido líquido — gastrocnêmio medial e sóleo"
     replace: "Fina borda de coleção de fluido líquido insinuando-se entre a cabeça medial distal do músculo gastrocnêmio e o músculo sóleo, associada a espessamento e alteração do sinal da junção musculotendínea da cabeça medial do gastrocnêmio."
     word: true
 
@@ -2980,7 +2980,7 @@ matches:
     word: true
 
   - trigger: "predada"
-    label: "Fina borda de coleção de fluido líquido"
+    label: "Fina borda de coleção de fluido líquido — gastrocnêmio medial e sóleo"
     replace: "Fina borda de coleção de fluido líquido insinuando-se entre a cabeça medial distal do músculo gastrocnêmio e o músculo sóleo, associada a espessamento e alteração do sinal da junção musculotendínea da cabeça medial do gastrocnêmio."
     word: true
 
@@ -2995,7 +2995,7 @@ matches:
     word: true
 
   - trigger: "quadrilid"
-    label: "Artropatia degenerativa do quadril"
+    label: "Artropatia degenerativa do quadril — com cistos e erosões"
     replace: "Artropatia degenerativa do quadril, caracterizada por redução do espaço articular, adelgaçamento e irregularidade do revestimento condral, formações osteofitárias marginais, destacando-se cistos e erosões subcondrais femoroacetabulares, notadamente em área de carga."
     word: true
 
@@ -3104,7 +3104,7 @@ matches:
     word: true
 
   - trigger: "tuneis"
-    label: "Túneis ósseos no fêmur e na tíbia"
+    label: "Túneis ósseos no fêmur e na tíbia — sem menção ao neoligamento"
     replace: "Túneis ósseos no fêmur e na tíbia com artefatos de susceptibilidade magnética, que são achados habituais após reconstrução cirúrgica do ligamento cruzado anterior."
     word: true
 
@@ -3153,7 +3153,7 @@ matches:
     word: true
 
   - trigger: "hemangih"
-    label: "Hemangioma"
+    label: "Hemangioma — realce globuliforme progressivo"
     replace: "Formação nodular com alto sinal em T2, que apresenta realce globuliforme descontínuo com progressão e persistência nas fases tardias, medindo _ cm, localizada no segmento _, compatível com hemangioma."
     word: true
 
@@ -3178,7 +3178,7 @@ matches:
     word: true
 
   - trigger: "posgado"
-    label: "Sem realce anômalo pós-contraste"
+    label: "Sem realce anômalo pós-contraste — contraste paramagnético endovenoso"
     replace: Após a administração do meio de contraste paramagnético endovenoso não houve realce anômalo.
     word: true
 
@@ -3202,7 +3202,7 @@ matches:
   # ==========================================================================
 
   - trigger: "angioaortarenais"
-    label: "Angio-RM de artérias renais"
+    label: "Angio-RM de artérias renais — com aorta e ramos viscerais"
     replace: |-
       ANGIORRESSONÂNCIA MAGNÉTICA DA AORTA ABDOMINAL E ARTÉRIAS RENAIS
 
@@ -3227,7 +3227,7 @@ matches:
     word: true
 
   - trigger: "angiocervical"
-    label: "Angio-RM de cervical — com contraste"
+    label: "Angio-RM de cervical — com contraste, normal"
     replace: |-
       ANGIORRESSONÂNCIA ARTERIAL CERVICAL - C/C
 
@@ -3246,7 +3246,7 @@ matches:
     word: true
 
   - trigger: "angiorenal"
-    label: "Angio-RM de artérias renais"
+    label: "Angio-RM de artérias renais — com rins e vasos anômalos"
     replace: |-
       ANGIORRESSONÂNCIA MAGNÉTICA DAS ARTÉRIAS RENAIS
 
@@ -3271,7 +3271,7 @@ matches:
     word: true
 
   - trigger: "angiormcr"
-    label: "Angio-RM — sem contraste"
+    label: "Angio-RM — sem contraste, encefálica normal"
     replace: |-
       ANGIORRESSONÂNCIA ENCEFÁLICA - S/C
 
@@ -3309,7 +3309,7 @@ matches:
     word: true
 
   - trigger: "celuliteorbitaria"
-    label: "RM de órbitas — com contraste"
+    label: "RM de órbitas — com contraste, celulite periorbitária complicada"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS C/C
 
@@ -3331,7 +3331,7 @@ matches:
     word: true
 
   - trigger: "cervicalid"
-    label: "RM de coluna cervical — sem contraste, idoso"
+    label: "RM de coluna cervical — sem contraste, idoso, Modic II e comprometimento radicular"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
@@ -3384,7 +3384,7 @@ matches:
     word: true
 
   - trigger: "chiari2"
-    label: "RM de encéfalo — sem contraste"
+    label: "RM de encéfalo — sem contraste, malformação de Chiari II"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
@@ -3408,7 +3408,7 @@ matches:
     word: true
 
   - trigger: "disseccao"
-    label: "Angio-RM de cervical — com contraste"
+    label: "Angio-RM de cervical — com contraste, dissecção da carótida interna direita"
     replace: |-
       ANGIORRESSONÂNCIA CERVICAL C/C
 
@@ -3427,7 +3427,7 @@ matches:
     word: true
 
   - trigger: "encefalitehiv"
-    label: "RM de encéfalo — com contraste"
+    label: "RM de encéfalo — com contraste, leucopatia confluente simétrica"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
@@ -3461,7 +3461,7 @@ matches:
     word: true
 
   - trigger: "endomet10"
-    label: "RM de pelve feminina — com contraste"
+    label: "RM de pelve feminina — com contraste, endometriose operada com fístulas"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
@@ -3501,7 +3501,7 @@ matches:
     word: true
 
   - trigger: "endomet2"
-    label: "RM de pelve feminina — com contraste"
+    label: "RM de pelve feminina — com contraste, endometriose e cisto ovariano esquerdo"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
@@ -3529,7 +3529,7 @@ matches:
     word: true
 
   - trigger: "endomet5"
-    label: "RM de pelve feminina — com contraste"
+    label: "RM de pelve feminina — com contraste, endometriose intestinal do reto médio"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
@@ -3632,7 +3632,7 @@ matches:
     word: true
 
   - trigger: "estadp"
-    label: "RM de abdome inferior masculino — com contraste"
+    label: "RM de abdome inferior masculino — com contraste, estadiamento de próstata, próstata heterogênea"
     replace: |-
       RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
 
@@ -3662,7 +3662,7 @@ matches:
     word: true
 
   - trigger: "estadp1"
-    label: "RM de abdome inferior masculino — com contraste"
+    label: "RM de abdome inferior masculino — com contraste, estadiamento de próstata, nódulo periférico direito"
     replace: |-
       RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
 
@@ -3731,7 +3731,7 @@ matches:
     word: true
 
   - trigger: "exombro"
-    label: "RM de ombro — sem contraste"
+    label: "RM de ombro — sem contraste, esquerdo, rotura transfixante crônica do supra e infraespinhal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
 
@@ -3765,7 +3765,7 @@ matches:
     word: true
 
   - trigger: "futebol"
-    label: "RM de coxa — sem contraste"
+    label: "RM de coxa — sem contraste, direita, distensão muscular do reto femoral"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COXA DIREITA S/C
 
@@ -3784,7 +3784,7 @@ matches:
     word: true
 
   - trigger: "insuftib"
-    label: "RM de tornozelo — sem contraste"
+    label: "RM de tornozelo — sem contraste, direito, pé plano"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO TORNOZELO DIREITO S/C
 
@@ -3819,7 +3819,7 @@ matches:
     word: true
 
   - trigger: "joelhobasico"
-    label: "RM de joelho — sem contraste"
+    label: "RM de joelho — sem contraste, direito, derrame com sinovite e condropatia medial"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
 
@@ -3854,7 +3854,7 @@ matches:
     word: true
 
   - trigger: "joelhooperado"
-    label: "RM de joelho — sem contraste"
+    label: "RM de joelho — sem contraste, esquerdo, pós-reconstrução do LCA"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO S/C
 
@@ -3881,7 +3881,7 @@ matches:
     word: true
 
   - trigger: "joelhovelho"
-    label: "RM de joelho — sem contraste"
+    label: "RM de joelho — sem contraste, esquerdo, osteoartrose avançada com cisto ósseo"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO S/C
 
@@ -3949,7 +3949,7 @@ matches:
     word: true
 
   - trigger: "klats"
-    label: "RM de abdome superior — com contraste"
+    label: "RM de abdome superior — com contraste, colangiocarcinoma intra-hepático"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR C/C
 
@@ -3970,7 +3970,7 @@ matches:
     word: true
 
   - trigger: "lesaocoledoco"
-    label: "Colangio-RM — sem contraste"
+    label: "Colangio-RM — sem contraste, pós-colecistectomia com estenose do hepático"
     replace: |-
       COLANGIORRESSONÂNCIA MAGNÉTICA - S/C
 
@@ -3988,7 +3988,7 @@ matches:
     word: true
 
   - trigger: "luxpat1"
-    label: "RM de joelho — sem contraste"
+    label: "RM de joelho — sem contraste, direito, displasia troclear e luxação patelar"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
 
@@ -4019,7 +4019,7 @@ matches:
     word: true
 
   - trigger: "melhoraesclerose"
-    label: "RM de encéfalo — com contraste"
+    label: "RM de encéfalo — com contraste, controle de doença desmielinizante"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
@@ -4055,7 +4055,7 @@ matches:
     word: true
 
   - trigger: "metal"
-    label: "RM de joelho — sem contraste"
+    label: "RM de joelho — sem contraste, direito, artefatos de material de síntese"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
 
@@ -4081,7 +4081,7 @@ matches:
     word: true
 
   - trigger: "mhipofise"
-    label: "RM de hipófise — com contraste"
+    label: "RM de hipófise — com contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE HIPÓFISE - C/C
 
@@ -4109,7 +4109,7 @@ matches:
     word: true
 
   - trigger: "neoanorretal"
-    label: "RM de pelve"
+    label: "RM de pelve — neoplasia do reto baixo e canal anal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA PELVE
       Técnica: cortes multiplanares adquiridos antes e após a injeção de meio de contraste intravenoso. Realizado protocolo dirigido para avaliação de tumor do reto / canal anal.
@@ -4126,7 +4126,7 @@ matches:
     word: true
 
   - trigger: "neoreto4"
-    label: "RM de pelve feminina — com contraste"
+    label: "RM de pelve feminina — com contraste, neoplasia retal infiltrativa"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
@@ -4181,7 +4181,7 @@ matches:
     word: true
 
   - trigger: "neosigmoide2"
-    label: "RM de abdome inferior masculino — com contraste"
+    label: "RM de abdome inferior masculino — com contraste, estadiamento de neoplasia do sigmoide"
     replace: |-
       RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
 
@@ -4211,7 +4211,7 @@ matches:
     word: true
 
   - trigger: "ombbase"
-    label: "RM de ombro — sem contraste"
+    label: "RM de ombro — sem contraste, direito, rotura completa com retração, sem conclusão"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
@@ -4236,7 +4236,7 @@ matches:
     word: true
 
   - trigger: "ombroclassico"
-    label: "RM de ombro — sem contraste"
+    label: "RM de ombro — sem contraste, direito, artropatia AC moderada"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
@@ -4266,7 +4266,7 @@ matches:
     word: true
 
   - trigger: "ombroroto"
-    label: "RM de ombro — sem contraste"
+    label: "RM de ombro — sem contraste, direito, rotura maciça do manguito"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
@@ -4297,7 +4297,7 @@ matches:
     word: true
 
   - trigger: "ombrosupra"
-    label: "RM de ombro — sem contraste"
+    label: "RM de ombro — sem contraste, direito, tendinopatia do supra e subescapular com esporão"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
@@ -4325,7 +4325,7 @@ matches:
     word: true
 
   - trigger: "ombrovelho"
-    label: "RM de ombro — sem contraste"
+    label: "RM de ombro — sem contraste, direito, artropatia AC acentuada com impacto"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
@@ -4465,7 +4465,7 @@ matches:
     word: true
 
   - trigger: "rmabdfem"
-    label: "RM de abdome total — com contraste"
+    label: "RM de abdome total — com contraste, feminino, com ampola retal e líquido livre"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR E INFERIOR C/C
 
@@ -4498,7 +4498,7 @@ matches:
     word: true
 
   - trigger: "rmabdmasc"
-    label: "RM de abdome total — com contraste"
+    label: "RM de abdome total — com contraste, masculino"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME TOTAL C/C
 
@@ -4526,7 +4526,7 @@ matches:
     word: true
 
   - trigger: "rmabdsup"
-    label: "RM de abdome superior — com contraste"
+    label: "RM de abdome superior — com contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR C/C
 
@@ -4549,7 +4549,7 @@ matches:
     word: true
 
   - trigger: "rmabs"
-    label: "RM de abdome superior — com contraste"
+    label: "RM de abdome superior — com contraste, normal com alças e vasos"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR C/C
 
@@ -4574,7 +4574,7 @@ matches:
     word: true
 
   - trigger: "rmabtfem"
-    label: "RM de abdome total — com contraste"
+    label: "RM de abdome total — com contraste, feminino"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR E INFERIOR C/C
 
@@ -4605,7 +4605,7 @@ matches:
     word: true
 
   - trigger: "rmangio"
-    label: "Angio-RM — sem contraste"
+    label: "Angio-RM — sem contraste, encefálica normal"
     replace: |-
       ===============================================================
       ANGIOGRAFIA POR RM - S/C
@@ -4639,7 +4639,7 @@ matches:
     word: true
 
   - trigger: "rmatci"
-    label: "Angio-RM — sem contraste"
+    label: "Angio-RM — sem contraste, irregularidades das carótidas intracavernosas"
     replace: |-
       ANGIORRESSONÂNCIA ENCEFÁLICA - S/C
 
@@ -4718,7 +4718,7 @@ matches:
     word: true
 
   - trigger: "rmencefalo"
-    label: "RM de encéfalo — sem contraste"
+    label: "RM de encéfalo — sem contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
@@ -4739,7 +4739,7 @@ matches:
     word: true
 
   - trigger: "rmca"
-    label: "RM de encéfalo — sem contraste"
+    label: "RM de encéfalo — sem contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
@@ -4760,7 +4760,7 @@ matches:
     word: true
 
   - trigger: "rmccid"
-    label: "RM de coluna cervical — sem contraste, idoso"
+    label: "RM de coluna cervical — sem contraste, idoso, retificação e degeneração"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
@@ -4796,7 +4796,7 @@ matches:
     word: true
 
   - trigger: "rmcerid"
-    label: "RM de coluna cervical — sem contraste, idoso"
+    label: "RM de coluna cervical — sem contraste, idoso, com nódulo de Schmorl em C7"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
@@ -4820,7 +4820,7 @@ matches:
     word: true
 
   - trigger: "rmcervical"
-    label: "RM de coluna cervical — sem contraste"
+    label: "RM de coluna cervical — sem contraste, normal com retificação"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
@@ -4870,7 +4870,7 @@ matches:
     word: true
 
   - trigger: "rmcervicalid"
-    label: "RM de coluna cervical — sem contraste, idoso"
+    label: "RM de coluna cervical — sem contraste, idoso, níveis em branco e banco de frases"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
@@ -4921,7 +4921,7 @@ matches:
     word: true
 
   - trigger: "rmcervicalid1"
-    label: "RM de coluna cervical — sem contraste, idoso"
+    label: "RM de coluna cervical — sem contraste, idoso, C4-C5 e C5-C6 descritos"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
@@ -4949,7 +4949,7 @@ matches:
     word: true
 
   - trigger: "rmcervicalzoado"
-    label: "RM de coluna cervical — sem contraste"
+    label: "RM de coluna cervical — sem contraste, mielopatia espondilótica"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE COLUNA CERVICAL - S/C
 
@@ -4979,7 +4979,7 @@ matches:
     word: true
 
   - trigger: "rmcervjv"
-    label: "RM de coluna cervical — sem contraste"
+    label: "RM de coluna cervical — sem contraste, retificação e discopatias sem conflito"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
@@ -5029,7 +5029,7 @@ matches:
     word: true
 
   - trigger: "rmcolangio"
-    label: "Colangio-RM — sem contraste"
+    label: "Colangio-RM — sem contraste, normal"
     replace: |-
       COLANGIORRESSONÂNCIA MAGNÉTICA - S/C
 
@@ -5077,7 +5077,7 @@ matches:
     word: true
 
   - trigger: "rmcoxa"
-    label: "RM de coxa — sem contraste"
+    label: "RM de coxa — sem contraste, esquerda, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COXA ESQUERDA S/C
 
@@ -5095,7 +5095,7 @@ matches:
     word: true
 
   - trigger: "rmcoxad"
-    label: "RM de coxa — sem contraste"
+    label: "RM de coxa — sem contraste, direita, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COXA DIREITA S/C
 
@@ -5113,7 +5113,7 @@ matches:
     word: true
 
   - trigger: "rmcr"
-    label: "RM de encéfalo — sem contraste"
+    label: "RM de encéfalo — sem contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
@@ -5134,7 +5134,7 @@ matches:
     word: true
 
   - trigger: "rmcrad"
-    label: "RM de encéfalo — sem contraste"
+    label: "RM de encéfalo — sem contraste, redução volumétrica e microangiopatia"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
@@ -5155,7 +5155,7 @@ matches:
     word: true
 
   - trigger: "rmcradcc"
-    label: "RM de encéfalo — com contraste"
+    label: "RM de encéfalo — com contraste, redução volumétrica e microangiopatia"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
@@ -5184,7 +5184,7 @@ matches:
     word: true
 
   - trigger: "rmcrc"
-    label: "RM de encéfalo — com contraste"
+    label: "RM de encéfalo — com contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
@@ -5215,7 +5215,7 @@ matches:
     word: true
 
   - trigger: "rmcrc1"
-    label: "RM de encéfalo — com contraste"
+    label: "RM de encéfalo — com contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
@@ -5238,7 +5238,7 @@ matches:
     word: true
 
   - trigger: "rmcrid"
-    label: "RM de encéfalo — sem contraste, idoso"
+    label: "RM de encéfalo — sem contraste, idoso, redução volumétrica e microangiopatia"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
@@ -5259,7 +5259,7 @@ matches:
     word: true
 
   - trigger: "rmcrid2"
-    label: "RM de encéfalo — sem contraste, idoso"
+    label: "RM de encéfalo — sem contraste, idoso, focos inespecíficos de alto sinal em T2"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
@@ -5286,7 +5286,7 @@ matches:
     word: true
 
   - trigger: "rmcridc"
-    label: "RM de encéfalo — com contraste"
+    label: "RM de encéfalo — com contraste, redução volumétrica e lesões de substância branca"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
@@ -5308,7 +5308,7 @@ matches:
     word: true
 
   - trigger: "rmcridcc"
-    label: "RM de encéfalo — com contraste"
+    label: "RM de encéfalo — com contraste, redução volumétrica e lesões de substância branca"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
@@ -5337,7 +5337,7 @@ matches:
     word: true
 
   - trigger: "rmcrrtx"
-    label: "RM de encéfalo — com contraste"
+    label: "RM de encéfalo — com contraste, planejamento radioterápico, laudo normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
 
@@ -5367,7 +5367,7 @@ matches:
     word: true
 
   - trigger: "rmdorsalid"
-    label: "RM de coluna torácica — sem contraste, idoso"
+    label: "RM de coluna torácica — sem contraste, idoso, normal com banco de frases"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA TORÁCICA S/C
 
@@ -5468,7 +5468,7 @@ matches:
     word: true
 
   - trigger: "rmf1"
-    label: "RM de encéfalo — sem contraste"
+    label: "RM de encéfalo — sem contraste, focos inespecíficos de alto sinal em T2"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
 
@@ -5489,7 +5489,7 @@ matches:
     word: true
 
   - trigger: "rmhipofise"
-    label: "RM de hipófise — com contraste"
+    label: "RM de hipófise — com contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE HIPÓFISE - C/C
 
@@ -5536,7 +5536,7 @@ matches:
     word: true
 
   - trigger: "rmjoe"
-    label: "RM de joelho — sem contraste"
+    label: "RM de joelho — sem contraste, direito, normal com banco de frases"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
 
@@ -5570,7 +5570,7 @@ matches:
     word: true
 
   - trigger: "rmjoelho"
-    label: "RM de joelho — sem contraste"
+    label: "RM de joelho — sem contraste, direito, normal com banco de frases"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
 
@@ -5604,7 +5604,7 @@ matches:
     word: true
 
   - trigger: "rmjoep"
-    label: "RM de joelho — sem contraste"
+    label: "RM de joelho — sem contraste, esquerdo, osteoartrose com rotura do menisco medial"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO S/C
 
@@ -5640,7 +5640,7 @@ matches:
     word: true
 
   - trigger: "rmlombar"
-    label: "RM de coluna lombar — sem contraste"
+    label: "RM de coluna lombar — sem contraste, normal com níveis e banco de frases"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
@@ -5697,7 +5697,7 @@ matches:
     word: true
 
   - trigger: "rmlombar1"
-    label: "RM de coluna lombar — sem contraste"
+    label: "RM de coluna lombar — sem contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
@@ -5719,7 +5719,7 @@ matches:
     word: true
 
   - trigger: "rmlombarid"
-    label: "RM de coluna lombar — sem contraste, idoso"
+    label: "RM de coluna lombar — sem contraste, idoso, injúria interespinhosa L4-L5 e L5-S1"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
@@ -5751,7 +5751,7 @@ matches:
     word: true
 
   - trigger: "rmlombarid2"
-    label: "RM de coluna lombar — sem contraste, idoso"
+    label: "RM de coluna lombar — sem contraste, idoso, injúria interespinhosa L4-L5"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
@@ -5781,7 +5781,7 @@ matches:
     word: true
 
   - trigger: "rmlombarjv"
-    label: "RM de coluna lombar — sem contraste"
+    label: "RM de coluna lombar — sem contraste, retificação e desvio do eixo"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
@@ -5860,7 +5860,7 @@ matches:
     word: true
 
   - trigger: "rmomb1"
-    label: "RM de ombro — sem contraste"
+    label: "RM de ombro — sem contraste, lado a preencher, sem conclusão"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO _ S/C
 
@@ -5908,7 +5908,7 @@ matches:
     word: true
 
   - trigger: "rmombp"
-    label: "RM de ombro — sem contraste"
+    label: "RM de ombro — sem contraste, esquerdo, artropatia AC e glenoumeral"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
 
@@ -5939,7 +5939,7 @@ matches:
     word: true
 
   - trigger: "rmombro"
-    label: "RM de ombro — sem contraste"
+    label: "RM de ombro — sem contraste, direito, normal com banco de frases"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
 
@@ -5996,7 +5996,7 @@ matches:
     word: true
 
   - trigger: "rmorb"
-    label: "RM de órbitas — com contraste"
+    label: "RM de órbitas — com contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS C/C
 
@@ -6015,7 +6015,7 @@ matches:
     word: true
 
   - trigger: "rmorbitas"
-    label: "RM de órbitas — com contraste"
+    label: "RM de órbitas — com contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS C/C
 
@@ -6052,7 +6052,7 @@ matches:
     word: true
 
   - trigger: "rmpelvefem"
-    label: "RM de pelve feminina — com contraste"
+    label: "RM de pelve feminina — com contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
@@ -6073,7 +6073,7 @@ matches:
     word: true
 
   - trigger: "rmpelvemasc"
-    label: "RM de abdome inferior masculino — com contraste"
+    label: "RM de abdome inferior masculino — com contraste, normal sem conclusão"
     replace: |-
       RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
 
@@ -6222,7 +6222,7 @@ matches:
     word: true
 
   - trigger: "rmquadril"
-    label: "RM de quadril"
+    label: "RM de quadril — direito, normal com banco de frases"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO QUADRIL DIREITO
 
@@ -6388,7 +6388,7 @@ matches:
     word: true
 
   - trigger: "rmsela"
-    label: "RM de hipófise — com contraste"
+    label: "RM de hipófise — com contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE HIPÓFISE - C/C
 
@@ -6410,7 +6410,7 @@ matches:
     word: true
 
   - trigger: "rmtoracicaid"
-    label: "RM de coluna torácica — sem contraste, idoso"
+    label: "RM de coluna torácica — sem contraste, idoso, cisto perirradicular T9-T10"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA TORÁCICA S/C
 
@@ -6435,7 +6435,7 @@ matches:
     word: true
 
   - trigger: "rmtoraid"
-    label: "RM de coluna torácica — sem contraste, idoso"
+    label: "RM de coluna torácica — sem contraste, idoso, retificação e discopatias"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA TORÁCICA S/C
 
@@ -6486,7 +6486,7 @@ matches:
     word: true
 
   - trigger: "rmtorn"
-    label: "RM de tornozelo — sem contraste"
+    label: "RM de tornozelo — sem contraste, normal com banco de frases"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO TORNOZELO - S/C
 
@@ -6550,7 +6550,7 @@ matches:
     word: true
 
   - trigger: "rtxrm"
-    label: "RM de encéfalo — com contraste"
+    label: "RM de encéfalo — com contraste, simulação radioterápica, sem técnica"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO C/C
 
@@ -6562,7 +6562,7 @@ matches:
     word: true
 
   - trigger: "rtxrm1"
-    label: "RM de encéfalo — com contraste"
+    label: "RM de encéfalo — com contraste, simulação de radioterapia, com técnica"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ENCÉFALO C/C
 
@@ -6610,7 +6610,7 @@ matches:
     word: true
 
   - trigger: "tucarcinoide"
-    label: "RM de abdome total — com contraste"
+    label: "RM de abdome total — com contraste, espessamento ileal com intussuscepção"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR E INFERIOR C/C
 
@@ -6646,7 +6646,7 @@ matches:
     word: true
 
   - trigger: "uteross3"
-    label: "RM de pelve feminina — com contraste"
+    label: "RM de pelve feminina — com contraste, comparativo pós-ooforoplastia"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
 
@@ -6688,7 +6688,7 @@ matches:
     word: true
 
   - trigger: "zmt"
-    label: "RM de encéfalo — sem contraste"
+    label: "RM de encéfalo — sem contraste, zonas terminais de mielinização com acompanhamento"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO S/C
 
@@ -6709,7 +6709,7 @@ matches:
     word: true
 
   - trigger: "zonamielin"
-    label: "RM de encéfalo — sem contraste"
+    label: "RM de encéfalo — sem contraste, zonas terminais de mielinização, achado incidental"
     replace: |-
       =======================================================================
       RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
@@ -6803,7 +6803,7 @@ matches:
     word: true
 
   - trigger: "rmcer"
-    label: "RM de coluna cervical — sem contraste"
+    label: "RM de coluna cervical — sem contraste, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
 
@@ -6897,7 +6897,7 @@ matches:
     word: true
 
   - trigger: "rmlom"
-    label: "RM de coluna lombar — sem contraste"
+    label: "RM de coluna lombar — sem contraste, normal com STIR"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
 
@@ -6919,7 +6919,7 @@ matches:
     word: true
 
   - trigger: "rmomb"
-    label: "RM de ombro — sem contraste"
+    label: "RM de ombro — sem contraste, esquerdo, normal com banco de frases"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
 
@@ -7034,7 +7034,7 @@ matches:
     word: true
 
   - trigger: "rmpel"
-    label: "RM de pelve"
+    label: "RM de pelve — feminina, sem conclusão"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DE PELVE
 
@@ -7053,7 +7053,7 @@ matches:
     word: true
 
   - trigger: "rmpelve"
-    label: "RM de pelve"
+    label: "RM de pelve — masculina, sem conclusão"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA PELVE
 
@@ -7090,7 +7090,7 @@ matches:
     word: true
 
   - trigger: "rmprost"
-    label: "RM de pelve"
+    label: "RM de pelve — masculina, sem conclusão"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA PELVE
 
@@ -7136,7 +7136,7 @@ matches:
     word: true
 
   - trigger: "rmqua"
-    label: "RM de quadril"
+    label: "RM de quadril — lado a preencher, normal"
     replace: |-
       RESSONÂNCIA MAGNÉTICA DO QUADRIL _
 
@@ -7218,7 +7218,7 @@ matches:
     word: true
 
   - trigger: "adenomiose"
-    label: "Adenomiose"
+    label: "Adenomiose — zona juncional assimétrica com cistos"
     replace: "Espessamento assimétrico da zona juncional, identificando-se algumas áreas císticas de permeio, achados sugestivos de adenomiose."
     word: true
 
@@ -7233,12 +7233,12 @@ matches:
     word: true
 
   - trigger: "anc"
-    label: "Comparativo com exame anterior"
+    label: "Comparativo com exame anterior — frase de abertura"
     replace: "A análise comparativa com o exame realizado no dia _ evidencia:"
     word: true
 
   - trigger: "arbo"
-    label: "Lipoma arborescente"
+    label: "Lipoma arborescente — derrame acentuado"
     replace: "Acentuado derrame articular com proliferação sinovial, contendo depósitos de gordura, achados sugestivos de lipoma arborescente."
     word: true
 
@@ -7349,12 +7349,12 @@ matches:
     word: true
 
   - trigger: "focoss"
-    label: "Microcálculos ou interface vascular"
+    label: "Microcálculos ou interface vascular — ambos os rins"
     replace: "Focos hiperrefringentes menores que _ cm nos rins, podendo corresponder a microcálculos ou interface vascular."
     word: true
 
   - trigger: "foss"
-    label: "Fosseta de herniação sinovial na transição cabeça/colo"
+    label: "Fosseta de herniação sinovial na transição cabeça/colo — fêmur direito"
     replace: "Fosseta de herniação sinovial na transição cabeça/colo femoral direito, com frequência achado incidental, sem correlação clínica."
     word: true
 
@@ -7519,12 +7519,12 @@ matches:
     word: true
 
   - trigger: "rizartrose"
-    label: "Rizartrose"
+    label: "Rizartrose — avançada"
     replace: "Artropatia degenerativa avançada da trapeziometacarpiana, caracterizada por redução assimétrica do espaço articular, afilamento e irregularidade condral com cistos subcorticais e osteofitose nas margens apostas, além de espessamento sinovial e edema. Tais alterações determinam certo grau de incongruência articular por frouxidão/instabilidade capsuloligamentar. O conjunto de achados é compatível com rizartrose."
     word: true
 
   - trigger: "rizartrose1"
-    label: "Rizartrose"
+    label: "Rizartrose — incipiente"
     replace: "Sinais de artropatia degenerativa incipiente na articulação trapeziometacarpiana, com redução assimétrica do espaço articular e osteofitose nas margens articulares opostas. O conjunto de achados é compatível com rizartrose em estágio inicial."
     word: true
 
@@ -7569,7 +7569,7 @@ matches:
     word: true
 
   - trigger: "tend50"
-    label: "Tendinopatia avançada"
+    label: "Tendinopatia avançada — tendão e inserção a preencher"
     replace: "Espessamento e elevação do sinal do tendão _ em sua inserção na _, compatível com tendinopatia avançada, associada a lesão parcial de suas fibras profundas, acometendo menos/mais de 50% de sua espessura."
     word: true
 
@@ -7584,12 +7584,12 @@ matches:
     word: true
 
   - trigger: "tendmi"
-    label: "Tendinopatia avançada"
+    label: "Tendinopatia avançada — glúteo mínimo, com peritendinite"
     replace: "Espessamento e elevação do sinal do tendão glúteo mínimo em sua inserção na faceta anterior do trocânter maior, compatível com tendinopatia avançada, destacando-se lesão parcial de suas fibras profundas, acometendo menos de 50% de sua espessura. Associa-se edema dos planos adjacentes, compatível com peritendinite."
     word: true
 
   - trigger: "tendmin"
-    label: "Tendinopatia avançada"
+    label: "Tendinopatia avançada — glúteo mínimo, com peritendinite"
     replace: "Espessamento e elevação do sinal do tendão glúteo mínimo em sua inserção na faceta anterior do trocânter maior, compatível com tendinopatia avançada, destacando-se lesão parcial de suas fibras profundas, acometendo menos de 50% de sua espessura. Associa-se edema dos planos adjacentes, compatível com peritendinite."
     word: true
 
@@ -7634,7 +7634,7 @@ matches:
     word: true
 
   - trigger: "fosseta"
-    label: "Fosseta de herniação sinovial na transição cabeça/colo"
+    label: "Fosseta de herniação sinovial na transição cabeça/colo — sem lado"
     replace: "Fosseta de herniação sinovial na transição cabeça/colo femoral, com frequência achado incidental, sem correlação clínica."
     word: true
 
