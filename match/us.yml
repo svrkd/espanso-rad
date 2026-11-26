@@ -51,7 +51,6 @@ matches:
   #   tz* = tornozelo(tzc tendão calcâneo · tzd derrame · tzf/tzfp fibulares/fáscia · tzl lateral ·
   #                   tzo osteófitos · tzta/tztp tibial anterior/posterior)
   #   lm* = lesão muscular (adutor, bíceps, gastrocnêmio, isquiotibiais, peitoral, quadríceps, reto femoral…)
-  #   me  = tendão calcâneo (rotura)
   #
   # PAREDE / PARTES MOLES / INGUINAL
   #   pm  = parede abdominal/partes moles    diastase = diástase dos retos
@@ -3605,124 +3604,8 @@ matches:
     word: true
 
   # ==============================================================================
-  # MÚSCULO-ESQUELÉTICO
+  # MÚSCULO-ESQUELÉTICO — PARTES MOLES E MÚSCULOS (GERAL)
   # ==============================================================================
-
-  - trigger: "uscotovelod"
-    label: Cotovelo direito — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO COTOVELO DIREITO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Análise:
-      Ausência de derrame articular significativo.
-      Tendão comum dos extensores com espessura, ecogenicidade e ecotextura fibrilar preservadas.
-      Tendão comum dos flexores com espessura e ecogenicidade habituais.
-      Tendões do bíceps braquial e tríceps com espessura e ecotextura normais.
-      Nervo ulnar de aspecto ecográfico habitual.
-      Ausência de bursite olecraniana.
-
-      Conclusão:
-      Exame ecográfico dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "uscotoveloe"
-    label: Cotovelo esquerdo — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO COTOVELO ESQUERDO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Análise:
-      Ausência de derrame articular significativo.
-      Tendão comum dos extensores com espessura, ecogenicidade e ecotextura fibrilar preservadas.
-      Tendão comum dos flexores com espessura e ecogenicidade habituais.
-      Tendões do bíceps braquial e tríceps com espessura e ecotextura normais.
-      Nervo ulnar de aspecto ecográfico habitual.
-      Ausência de bursite olecraniana.
-
-      Conclusão:
-      Exame ecográfico dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "usjoelhod"
-    label: Joelho direito — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO JOELHO DIREITO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Análise:
-      Ausência de derrame articular.
-      Tendão quadríceps e ligamento patelar íntegros.
-      Ligamentos colaterais preservados.
-      Tendões da "pata de ganso" de aspecto ecográfico habitual.
-      Ventres musculares tróficos com arquitetura fibrilar preservada.
-      Ausência de cisto poplíteo.
-
-      Conclusão:
-      Exame ecográfico dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "usjoelhoe"
-    label: Joelho esquerdo — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO JOELHO ESQUERDO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Análise:
-      Ausência de derrame articular.
-      Tendão quadríceps e ligamento patelar íntegros.
-      Ligamentos colaterais preservados.
-      Tendões da "pata de ganso" de aspecto ecográfico habitual.
-      Ventres musculares tróficos com arquitetura fibrilar preservada.
-      Ausência de cisto poplíteo.
-
-      Conclusão:
-      Exame ecográfico dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "usmaod"
-    label: Mão direita — normal
-    replace: |-
-      ULTRASSONOGRAFIA DA MÃO DIREITA
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Análise:
-      Tendões flexores e extensores de aspecto ecográfico habitual.
-      Não se observam sinais de sinovite.
-      Ausência de formações expansivas na região examinada.
-      Superfícies ósseas sem alterações detectáveis ao método.
-
-      Conclusão:
-      Exame ecográfico sem alterações significativas.
-    word: true
-
-  - trigger: "usmaoe"
-    label: Mão esquerda — normal
-    replace: |-
-      ULTRASSONOGRAFIA DA MÃO ESQUERDA
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Análise:
-      Tendões flexores e extensores de aspecto ecográfico habitual.
-      Não se observam sinais de sinovite.
-      Ausência de formações expansivas na região examinada.
-      Superfícies ósseas sem alterações detectáveis ao método.
-
-      Conclusão:
-      Exame ecográfico sem alterações significativas.
-    word: true
 
   - trigger: "usmsk"
     label: Coxa/perna/braço/antebraço — normal
@@ -3740,211 +3623,6 @@ matches:
 
       Conclusão:
       Exame ecográfico sem alterações significativas.
-    word: true
-
-  - trigger: "usombrod"
-    label: Ombro direito — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO OMBRO DIREITO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Análise:
-      Superfície superior da articulação acromioclavicular de contornos regulares.
-      Tendão do cabo longo do bíceps de calibre e ecotextura habituais, localizado anatomicamente no sulco intertuberositário, sem sinais de luxação, mesmo com a manobra de rotação externa.
-      Tendão supraespinhal apresentando espessura e padrão fibrilar preservados.
-      Tendão infraespinhal apresentando espessura e padrão fibrilar preservados.
-      Tendão subescapular apresentando espessura e padrão fibrilar preservados.
-      Tendão redondo menor apresentando espessura e padrão fibrilar preservados.
-      Ausência de bursite subacromial-subdeltoidea.
-      Ventres musculares do supraespinhal, infraespinhal, redondo menor e deltoide sem particularidades ao método.
-      Não foi observado derrame articular significativo nos recessos articulares visibilizados pelo método.
-
-      Conclusão:
-      Exame ecográfico dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "usombroe"
-    label: Ombro esquerdo — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO OMBRO ESQUERDO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Análise:
-      Superfície superior da articulação acromioclavicular de contornos regulares.
-      Tendão do cabo longo do bíceps de calibre e ecotextura habituais, localizado anatomicamente no sulco intertuberositário, sem sinais de luxação, mesmo com a manobra de rotação externa.
-      Tendão supraespinhal apresentando espessura e padrão fibrilar preservados.
-      Tendão infraespinhal apresentando espessura e padrão fibrilar preservados.
-      Tendão subescapular apresentando espessura e padrão fibrilar preservados.
-      Tendão redondo menor apresentando espessura e padrão fibrilar preservados.
-      Ausência de bursite subacromial-subdeltoidea.
-      Ventres musculares do supraespinhal, infraespinhal, redondo menor e deltoide sem particularidades ao método.
-      Não foi observado derrame articular significativo nos recessos articulares visibilizados pelo método.
-
-      Conclusão:
-      Exame ecográfico dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "uspunhod"
-    label: Punho direito — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO PUNHO DIREITO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Análise:
-      Tendões dos seis compartimentos extensores de espessura e ecogenicidade preservadas.
-      Tendões flexores de aspecto ecográfico habitual.
-      Nervo mediano não apresenta alterações ecográficas significativas.
-      Área de secção transversa do nervo mediano ao nível do túnel do carpo proximal de _ mm².
-      Não se observam inserções musculares anômalas ou imagens nodulares sólidas/císticas no túnel do carpo.
-
-      Conclusão:
-      Exame ecográfico do punho dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "uspunhoe"
-    label: Punho esquerdo — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO PUNHO ESQUERDO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução.
-
-      Análise:
-      Tendões dos seis compartimentos extensores de espessura e ecogenicidade preservadas.
-      Tendões flexores de aspecto ecográfico habitual.
-      Nervo mediano não apresenta alterações ecográficas significativas.
-      Área de secção transversa do nervo mediano ao nível do túnel do carpo proximal de _ mm².
-      Não se observam inserções musculares anômalas ou imagens nodulares sólidas/císticas no túnel do carpo.
-
-      Conclusão:
-      Exame ecográfico do punho dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "usquadrild"
-    label: Quadril direito — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO QUADRIL DIREITO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a face lateral do quadril.
-
-      Análise:
-      Ausência de derrame articular significativo.
-      Tendões do glúteo médio e mínimo de aspecto ecográfico habitual.
-      Bursa trocantérica sem distensão líquida significativa.
-      Demais estruturas sem particularidades.
-
-      Conclusão:
-      Exame ecográfico do quadril sem alterações significativas.
-    word: true
-
-  - trigger: "usquadrile"
-    label: Quadril esquerdo — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO QUADRIL ESQUERDO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a face lateral do quadril.
-
-      Análise:
-      Ausência de derrame articular significativo.
-      Tendões do glúteo médio e mínimo de aspecto ecográfico habitual.
-      Bursa trocantérica sem distensão líquida significativa.
-      Demais estruturas sem particularidades.
-
-      Conclusão:
-      Exame ecográfico do quadril sem alterações significativas.
-    word: true
-
-  - trigger: "ustornozelod"
-    label: Tornozelo direito — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO TORNOZELO DIREITO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (face anterior / lateral / medial / posterior do tornozelo).
-
-      Exame direcionado para a região álgica referida pelo paciente (região plantar do retropé).
-
-      Análise:
-      Ausência de derrame articular significativo.
-      Tendão calcâneo e fáscia plantar com espessura e padrão fibrilar habituais.
-      Tendões tibial anterior, tibial posterior, fibulares, extensores e flexores de espessura, continuidade e ecotextura preservadas.
-      Ligamento talofibular anterior sem lesões significativas.
-
-      Conclusão:
-      Exame ecográfico sem alterações significativas.
-    word: true
-
-  - trigger: "ustornozeloe"
-    label: Tornozelo esquerdo — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO TORNOZELO ESQUERDO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (face anterior / lateral / medial / posterior do tornozelo).
-
-      Exame direcionado para a região álgica referida pelo paciente (região plantar do retropé).
-
-      Análise:
-      Ausência de derrame articular significativo.
-      Tendão calcâneo e fáscia plantar com espessura e padrão fibrilar habituais.
-      Tendões tibial anterior, tibial posterior, fibulares, extensores e flexores de espessura, continuidade e ecotextura preservadas.
-      Ligamento talofibular anterior sem lesões significativas.
-
-      Conclusão:
-      Exame ecográfico sem alterações significativas.
-    word: true
-
-  - trigger: "usped"
-    label: Pé direito — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO PÉ DIREITO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (antepé).
-
-      Análise:
-      Fáscia plantar com espessura e ecotextura habituais.
-      Não há evidência de neuroma de Morton ao método.
-      Não se observam formações expansivas na região examinada.
-      Planos musculares adjacentes com morfologia habitual e arquitetura fibrilar preservada.
-      Superfícies ósseas sem alterações ao método.
-
-      Conclusão:
-      Exame ecográfico sem alterações significativas.
-    word: true
-
-  - trigger: "uspee"
-    label: Pé esquerdo — normal
-    replace: |-
-      ULTRASSONOGRAFIA DO PÉ ESQUERDO
-
-      Técnica:
-      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (antepé).
-
-      Análise:
-      Fáscia plantar com espessura e ecotextura habituais.
-      Não há evidência de neuroma de Morton ao método.
-      Não se observam formações expansivas na região examinada.
-      Planos musculares adjacentes com morfologia habitual e arquitetura fibrilar preservada.
-      Superfícies ósseas sem alterações ao método.
-
-      Conclusão:
-      Exame ecográfico sem alterações significativas.
-    word: true
-
-  - trigger: "me1"
-    label: "Tendão calcâneo (rotura): Estudo direcionado para a avaliação do tendão calcâneo à _ evidencia:"
-    replace: |-
-      Estudo direcionado para a avaliação do tendão calcâneo à _ evidencia:
-      Rotura completa do tendão calcâneo, com distância entre cotos (gap) de _ cm e distando _ cm da inserção distal do calcâneo. Associa-se conteúdo heterogêneo entre os cotos, de provável natureza hemática.
     word: true
 
   # --- MSK: derrame (genérico) ---
@@ -4138,579 +3816,6 @@ matches:
   - trigger: "mskt8c"
     label: "MSK: Pós-operatório (conclusão)"
     replace: Alterações pós-operatórias do tendão _.
-    word: true
-
-  # --- Tornozelo: derrame ---
-
-  - trigger: "tzd1"
-    label: "Tornozelo: Sem derrame articular"
-    replace: Ausência de derrame articular.
-    word: true
-
-  - trigger: "tzd2"
-    label: "Tornozelo: Derrame tibiotalar"
-    replace: Pequeno / moderado / acentuado derrame articular tibiotalar.
-    word: true
-
-  - trigger: "tzd2c"
-    label: "Tornozelo: Derrame articular tibiotalar (conclusão)"
-    replace: Derrame articular tibiotalar.
-    word: true
-
-  - trigger: "tzd3"
-    label: "Tornozelo: Derrame na subtalar posterior"
-    replace: Pequeno / moderado / acentuado derrame articular na subtalar posterior.
-    word: true
-
-  - trigger: "tzd3c"
-    label: "Tornozelo: Derrame articular na subtalar posterior (conclusão)"
-    replace: Derrame articular na subtalar posterior.
-    word: true
-
-  - trigger: "tzd4"
-    label: "Tornozelo: Derrame com sinovite"
-    replace: Derrame articular com sinovite na articulação tibiotalar / subtalar / talonavicular.
-    word: true
-
-  - trigger: "tzd4c"
-    label: "Tornozelo: Derrame articular com sinovite (conclusão)"
-    replace: Derrame articular com sinovite.
-    word: true
-
-  - trigger: "tzd5"
-    label: "Tornozelo: Derrame talonavicular (configuração cística)"
-    replace: Pequeno derrame articular talonavicular que adquire configuração cística junto à região dorsolateral da cabeça do tálus.
-    word: true
-
-  - trigger: "tzd5c"
-    label: "Tornozelo: Derrame talonavicular com configuração cística (conclusão)"
-    replace: Derrame talonavicular com configuração cística.
-    word: true
-
-  # --- Tornozelo: tendão calcâneo ---
-
-  - trigger: "tzc1"
-    label: "Tornozelo: Tendão calcâneo normal"
-    replace: Tendão calcâneo com espessura e ecotextura dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "tzc2"
-    label: "Tornozelo: Entesopatia insercional do calcâneo"
-    replace: Entesopatia insercional do calcâneo, sem tendinopatias relevantes ou roturas.
-    word: true
-
-  - trigger: "tzc2c"
-    label: "Tornozelo: Entesopatia insercional do calcâneo (conclusão)"
-    replace: Entesopatia insercional do calcâneo.
-    word: true
-
-  - trigger: "tzc3"
-    label: "Tornozelo: Peritendinite do calcâneo"
-    replace: Fino halo anecoico circundando o tendão calcâneo, sugerindo peritendinite, sem alterações tendíneas significativas.
-    word: true
-
-  - trigger: "tzc3c"
-    label: "Tornozelo: Peritendinite do calcâneo (conclusão)"
-    replace: Peritendinite do calcâneo.
-    word: true
-
-  - trigger: "tzc4"
-    label: "Tornozelo: Tendinopatia insercional do calcâneo"
-    replace: Tendinopatia e entesopatia insercional do calcâneo caracterizada por espessamento e perda do padrão fibrilar com entesófitos, sem roturas.
-    word: true
-
-  - trigger: "tzc4c"
-    label: "Tornozelo: Tendinopatia insercional do calcâneo (conclusão)"
-    replace: Tendinopatia insercional do calcâneo.
-    word: true
-
-  - trigger: "tzc5"
-    label: "Tornozelo: Tendinopatia insercional do calcâneo com fissuras"
-    replace: Tendinopatia e entesopatia insercional do calcâneo caracterizada por espessamento e perda do padrão fibrilar, destacando-se focos de degeneração e fissuras intrassubstanciais, sem francas roturas ou desinserções.
-    word: true
-
-  - trigger: "tzc5c"
-    label: "Tornozelo: Tendinopatia insercional do calcâneo com fissuras (conclusão)"
-    replace: Tendinopatia insercional do calcâneo com fissuras.
-    word: true
-
-  - trigger: "tzc6"
-    label: "Tornozelo: Tendinopatia insercional com bursite e Haglund"
-    replace: Tendinopatia e entesopatia insercional do calcâneo com focos de degeneração e fissuras intrassubstanciais associada a bursite retrocalcaneana profunda e proeminência do processo posterossuperior do osso calcâneo (Haglund).
-    word: true
-
-  - trigger: "tzc6c"
-    label: "Tornozelo: Tendinopatia insercional do calcâneo com bursite retrocalcaneana e Haglund (conclusão)"
-    replace: Tendinopatia insercional do calcâneo com bursite retrocalcaneana e Haglund.
-    word: true
-
-  - trigger: "tzc7"
-    label: "Tornozelo: Degeneração extensa do calcâneo (add-on)"
-    replace: Extensa área de degeneração tendínea acometendo _% da circunferência do tendão, com extensão longitudinal de _ cm.
-    word: true
-
-  - trigger: "tzc8"
-    label: "Tornozelo: Tendinopatia não insercional do calcâneo"
-    replace: Tendinopatia não insercional do calcâneo caracterizada por espessamento fusiforme do corpo tendíneo com focos de degeneração e fissuras intrassubstanciais, sem nítidas roturas.
-    word: true
-
-  - trigger: "tzc8c"
-    label: "Tornozelo: Tendinopatia não insercional do calcâneo (conclusão)"
-    replace: Tendinopatia não insercional do calcâneo.
-    word: true
-
-  - trigger: "tzc9"
-    label: "Tornozelo: Rotura parcial do calcâneo"
-    replace: Tendão calcâneo apresentando descontinuidade parcial das fibras mais profundas / superficiais / laterais / mediais a aproximadamente _ mm de sua inserção no calcâneo, medindo _ mm longitudinal x _ mm transversal e acometendo cerca de _% da circunferência tendínea.
-    word: true
-
-  - trigger: "tzc9c"
-    label: "Tornozelo: Rotura parcial do tendão calcâneo (conclusão)"
-    replace: Rotura parcial do tendão calcâneo.
-    word: true
-
-  - trigger: "tzc10"
-    label: "Tornozelo: Rotura completa do calcâneo (desinserção)"
-    replace: Rotura completa com desinserção do tendão calcâneo, estando o coto tendíneo degenerado e de contornos irregulares, retraído a cerca de _ cm do osso calcâneo, com conteúdo líquido / hemático na área de rotura.
-    word: true
-
-  - trigger: "tzc10c"
-    label: "Tornozelo: Rotura completa do tendão calcâneo (conclusão)"
-    replace: Rotura completa do tendão calcâneo.
-    word: true
-
-  - trigger: "tzc11"
-    label: "Tornozelo: Rotura completa do calcâneo (transfixação do corpo)"
-    replace: Rotura completa com transfixação do tendão calcâneo ao nível do corpo tendíneo, estando os cotos degenerados com diástase de _ cm. O coto tendíneo proximal localiza-se ao nível da transição miotendínea e o coto tendíneo distal localiza-se a cerca de _ cm da inserção.
-    word: true
-
-  - trigger: "tzc11c"
-    label: "Tornozelo: Rotura completa do tendão calcâneo (transfixação do corpo) (conclusão)"
-    replace: Rotura completa do tendão calcâneo (transfixação do corpo).
-    word: true
-
-  - trigger: "tzc12"
-    label: "Tornozelo: Rotura completa do calcâneo (com equino)"
-    replace: Tendão calcâneo apresentando descontinuidade total a aproximadamente _ mm de sua inserção no calcâneo, com distância entre os cotos tendíneos de cerca de _ mm em repouso e _ mm na posição em equino (_ graus) e preenchimento da área rota por efusão líquida hemorrágica. Contato entre os cotos tendíneos na flexão plantar de 15 graus.
-    word: true
-
-  - trigger: "tzc12c"
-    label: "Tornozelo: Rotura completa do tendão calcâneo (conclusão)"
-    replace: Rotura completa do tendão calcâneo.
-    word: true
-
-  - trigger: "tzc13"
-    label: "Tornozelo: Rotura crônica do calcâneo (fibrocicatricial)"
-    replace: Sinais de rotura pregressa do tendão calcâneo com extensas alterações fibrocicatriciais que se estendem por cerca de _ cm no eixo longitudinal.
-    word: true
-
-  - trigger: "tzc13c"
-    label: "Tornozelo: Rotura crônica do tendão calcâneo (conclusão)"
-    replace: Rotura crônica do tendão calcâneo.
-    word: true
-
-  - trigger: "tzc14"
-    label: "Tornozelo: Rotura crônica do calcâneo (fibrose)"
-    replace: Sinais de rotura crônica do tendão calcâneo com extensa fibrose e alterações cicatriciais de permeio.
-    word: true
-
-  - trigger: "tzc14c"
-    label: "Tornozelo: Rotura crônica do tendão calcâneo (conclusão)"
-    replace: Rotura crônica do tendão calcâneo.
-    word: true
-
-  - trigger: "tzc15"
-    label: "Tornozelo: Pós-operatório do calcâneo"
-    replace: Alterações pós-operatórias do tendão calcâneo com espessamento e irregularidades tendíneas difusas, de aspecto fibrocicatricial, sem nítidas áreas de transfixações ou desinserções. Achado habitual para o tempo pós-operatório.
-    word: true
-
-  - trigger: "tzc15c"
-    label: "Tornozelo: Alterações pós-operatórias do tendão calcâneo (conclusão)"
-    replace: Alterações pós-operatórias do tendão calcâneo.
-    word: true
-
-  # --- Tornozelo: tendão tibial anterior ---
-
-  - trigger: "tzta1"
-    label: "Tornozelo: Tibial anterior normal"
-    replace: Tendão tibial anterior com calibre e ecotextura fibrilar habituais.
-    word: true
-
-  - trigger: "tzta2"
-    label: "Tornozelo: Tendinopatia do tibial anterior"
-    replace: Tendinopatia do terço distal e inserção do tibial anterior com aumento da espessura tendínea e perda do padrão fibrilar, sem roturas.
-    word: true
-
-  - trigger: "tzta2c"
-    label: "Tornozelo: Tendinopatia do tibial anterior (conclusão)"
-    replace: Tendinopatia do tibial anterior.
-    word: true
-
-  - trigger: "tzta3"
-    label: "Tornozelo: Tenossinovite do tibial anterior"
-    replace: Tenossinovite do tibial anterior ao nível do tornozelo caracterizada por distensão líquida / espessamento de sua bainha tendínea.
-    word: true
-
-  - trigger: "tzta3c"
-    label: "Tornozelo: Tenossinovite do tibial anterior (conclusão)"
-    replace: Tenossinovite do tibial anterior.
-    word: true
-
-  - trigger: "tzta4"
-    label: "Tornozelo: Rotura completa do tibial anterior"
-    replace: Rotura completa do tendão tibial anterior, estando os cotos tendíneos espessados e discretamente degenerados com diástase de _ cm. O coto tendíneo proximal localiza-se ao nível da tíbia distal e o coto tendíneo distal localiza-se ao nível do navicular. Associa-se tecido fibrocicatricial irregular na área de rotura.
-    word: true
-
-  - trigger: "tzta4c"
-    label: "Tornozelo: Rotura completa do tibial anterior (conclusão)"
-    replace: Rotura completa do tibial anterior.
-    word: true
-
-  - trigger: "tzta5"
-    label: "Tornozelo: Bursite do tibial anterior (add-on)"
-    replace: Associa-se bursite subjacente à inserção do tibial anterior.
-    word: true
-
-  # --- Tornozelo: tendão tibial posterior ---
-
-  - trigger: "tztp1"
-    label: "Tornozelo: Tibial posterior normal"
-    replace: Tendão tibial posterior com espessura e ecotextura dentro dos padrões da normalidade.
-    word: true
-
-  - trigger: "tztp2"
-    label: "Tornozelo: Lâmina líquida fisiológica no tibial posterior"
-    replace: Fina lâmina líquida na bainha do tendão tibial posterior de aspecto fisiológico.
-    word: true
-
-  - trigger: "tztp3"
-    label: "Tornozelo: Tenossinovite do tibial posterior"
-    replace: Pequena distensão líquida da bainha do tendão tibial posterior indicando tenossinovite.
-    word: true
-
-  - trigger: "tztp3c"
-    label: "Tornozelo: Tenossinovite do tibial posterior (conclusão)"
-    replace: Tenossinovite do tibial posterior.
-    word: true
-
-  - trigger: "tztp4"
-    label: "Tornozelo: Tenossinovite e tendinopatia do tibial posterior"
-    replace: Tenossinovite e tendinopatia do tibial posterior caracterizada por distensão líquida de sua bainha e espessamento tendíneo, sem nítidas roturas.
-    word: true
-
-  - trigger: "tztp4c"
-    label: "Tornozelo: Tenossinovite e tendinopatia do tibial posterior (conclusão)"
-    replace: Tenossinovite e tendinopatia do tibial posterior.
-    word: true
-
-  - trigger: "tztp5"
-    label: "Tornozelo: Acentuada tenossinovite/tendinopatia do tibial posterior"
-    replace: Acentuada tenossinovite e tendinopatia do tibial posterior, predominando em seu terço distal, com focos de degeneração e fissuras intrassubstanciais, sem nítidas desinserções.
-    word: true
-
-  - trigger: "tztp5c"
-    label: "Tornozelo: Acentuada tenossinovite e tendinopatia do tibial posterior (conclusão)"
-    replace: Acentuada tenossinovite e tendinopatia do tibial posterior.
-    word: true
-
-  - trigger: "tztp6"
-    label: "Tornozelo: Osso navicular acessório (add-on)"
-    replace: Associa-se osso navicular acessório tipo I / II / III.
-    word: true
-
-  # --- Tornozelo: tendões fibulares ---
-
-  - trigger: "tzf1"
-    label: "Tornozelo: Fibulares normais"
-    replace: Tendões fibulares com espessura e ecotextura habituais, sem roturas.
-    word: true
-
-  - trigger: "tzf2"
-    label: "Tornozelo: Tenossinovite dos fibulares"
-    replace: Distensão líquida da bainha comum dos fibulares caracterizando tenossinovite, sem roturas.
-    word: true
-
-  - trigger: "tzf2c"
-    label: "Tornozelo: Tenossinovite dos fibulares (conclusão)"
-    replace: Tenossinovite dos fibulares.
-    word: true
-
-  - trigger: "tzf3"
-    label: "Tornozelo: Tenossinovite e tendinopatia dos fibulares"
-    replace: Tenossinovite e tendinopatia dos fibulares caracterizada por distensão líquida da bainha comum e espessamento dos tendões, sem nítidas roturas.
-    word: true
-
-  - trigger: "tzf3c"
-    label: "Tornozelo: Tenossinovite e tendinopatia dos fibulares (conclusão)"
-    replace: Tenossinovite e tendinopatia dos fibulares.
-    word: true
-
-  - trigger: "tzf4"
-    label: "Tornozelo: Tendinopatia do fibular longo (cuboide)"
-    replace: Tendinopatia e tenossinovite do fibular longo ao nível da deflexão junto à face lateral do cuboide, observando-se osso fibular acessório.
-    word: true
-
-  - trigger: "tzf4c"
-    label: "Tornozelo: Tendinopatia do fibular longo na deflexão do cuboide (conclusão)"
-    replace: Tendinopatia do fibular longo na deflexão do cuboide.
-    word: true
-
-  - trigger: "tzf5"
-    label: "Tornozelo: Rotura longitudinal do fibular curto"
-    replace: Tenossinovite e tendinopatia dos fibulares, destacando-se rotura longitudinal do trajeto retro e inframaleolar do fibular curto, que se estende por cerca de _ cm, estando o fibular longo insinuado na área de rotura, sem nítido split de suas fibras.
-    word: true
-
-  - trigger: "tzf5c"
-    label: "Tornozelo: Rotura longitudinal do fibular curto (conclusão)"
-    replace: Rotura longitudinal do fibular curto.
-    word: true
-
-  - trigger: "tzf6"
-    label: "Tornozelo: Rotura longitudinal com split do fibular curto"
-    replace: Tenossinovite e tendinopatia dos fibulares, destacando-se rotura longitudinal com split do trajeto retro e inframaleolar do fibular curto, que se estende por cerca de _ cm, estando o fibular longo insinuado na área de rotura.
-    word: true
-
-  - trigger: "tzf6c"
-    label: "Tornozelo: Rotura longitudinal com split do fibular curto (conclusão)"
-    replace: Rotura longitudinal com split do fibular curto.
-    word: true
-
-  - trigger: "tzf7"
-    label: "Tornozelo: Sem luxação dos fibulares"
-    replace: Ausência de luxação tendínea durante a realização das manobras dinâmicas.
-    word: true
-
-  - trigger: "tzf8"
-    label: "Tornozelo: Luxação dos fibulares (insuficiência do retináculo)"
-    replace: Luxação / subluxação dos tendões fibulares durante as manobras dinâmicas de flexão dorsal e eversão, sugerindo insuficiência do retináculo fibular superior. Associa-se convexidade do contorno posterior da fíbula.
-    word: true
-
-  - trigger: "tzf8c"
-    label: "Tornozelo: Luxação dos fibulares por insuficiência do retináculo fibular superior (conclusão)"
-    replace: Luxação dos fibulares por insuficiência do retináculo fibular superior.
-    word: true
-
-  - trigger: "tzf9"
-    label: "Tornozelo: Hipertrofia do tubérculo dos fibulares"
-    replace: Hipertrofia do tubérculo dos fibulares junto à parede lateral do calcâneo.
-    word: true
-
-  - trigger: "tzf9c"
-    label: "Tornozelo: Hipertrofia do tubérculo dos fibulares (conclusão)"
-    replace: Hipertrofia do tubérculo dos fibulares.
-    word: true
-
-  # --- Tornozelo: fáscia plantar ---
-
-  - trigger: "tzfp1"
-    label: "Tornozelo: Fáscia plantar normal"
-    replace: Fáscia plantar com espessura e ecotextura fibrilar preservadas.
-    word: true
-
-  - trigger: "tzfp2"
-    label: "Tornozelo: Fasciíte plantar"
-    replace: Fasciíte plantar caracterizada por espessamento (_ mm) do terço proximal e origem da banda central da fáscia plantar. Associa-se esporão calcâneo plantar.
-    word: true
-
-  - trigger: "tzfp2c"
-    label: "Tornozelo: Fasciíte plantar (conclusão)"
-    replace: Fasciíte plantar.
-    word: true
-
-  - trigger: "tzfp3"
-    label: "Tornozelo: Espessamento crônico da fáscia plantar"
-    replace: Espessamento de aspecto crônico do terço proximal e origem da fáscia plantar associado a esporão calcâneo plantar.
-    word: true
-
-  - trigger: "tzfp3c"
-    label: "Tornozelo: Espessamento crônico da fáscia plantar (conclusão)"
-    replace: Espessamento crônico da fáscia plantar.
-    word: true
-
-  - trigger: "tzfp4"
-    label: "Tornozelo: Fasciopatia plantar crônica"
-    replace: Fasciopatia plantar de aspecto crônico com espessamento do terço proximal e origem da fáscia plantar.
-    word: true
-
-  - trigger: "tzfp4c"
-    label: "Tornozelo: Fasciopatia plantar crônica (conclusão)"
-    replace: Fasciopatia plantar crônica.
-    word: true
-
-  - trigger: "tzfp5"
-    label: "Tornozelo: Fibroma / fibromatose plantar"
-    replace: Espessamento fusiforme da fáscia plantar ao nível do mediopé, junto à nodulação referida pelo paciente, apresentando discreta vascularização ao estudo Doppler, medindo cerca de _ x _ cm, sugestiva de fibroma / fibromatose plantar.
-    word: true
-
-  - trigger: "tzfp5c"
-    label: "Tornozelo: Fibroma / fibromatose plantar (conclusão)"
-    replace: Fibroma / fibromatose plantar.
-    word: true
-
-  # --- Tornozelo: ligamentos (talofibular anterior) ---
-
-  - trigger: "tzl1"
-    label: "Tornozelo: Edema perimaleolar lateral"
-    replace: Edema do tecido celular subcutâneo na região perimaleolar lateral.
-    word: true
-
-  - trigger: "tzl2"
-    label: "Tornozelo: Talofibular anterior normal"
-    replace: Ligamento talofibular anterior sem alterações significativas.
-    word: true
-
-  - trigger: "tzl3"
-    label: "Tornozelo: Estiramento do talofibular anterior"
-    replace: Discreto halo hipoecogênico circundando o ligamento talofibular anterior, sugerindo estiramento, sem transfixações ou desinserções.
-    word: true
-
-  - trigger: "tzl3c"
-    label: "Tornozelo: Estiramento do ligamento talofibular anterior (conclusão)"
-    replace: Estiramento do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl4"
-    label: "Tornozelo: Lesão parcial do talofibular anterior"
-    replace: Lesão parcial do ligamento talofibular anterior caracterizada por espessamento e perda do padrão fibrilar, com líquido e edema de permeio e nos planos adiposos adjacentes, sem nítidas transfixações ou desinserções.
-    word: true
-
-  - trigger: "tzl4c"
-    label: "Tornozelo: Lesão parcial do ligamento talofibular anterior (conclusão)"
-    replace: Lesão parcial do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl5"
-    label: "Tornozelo: Lesão completa do talofibular anterior"
-    replace: Sinais de lesão completa do ligamento talofibular anterior caracterizada por transfixação em seu terço médio associada a líquido e edema de permeio e extravasamento de líquido para os planos adiposos adjacentes.
-    word: true
-
-  - trigger: "tzl5c"
-    label: "Tornozelo: Lesão completa do ligamento talofibular anterior (conclusão)"
-    replace: Lesão completa do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl6"
-    label: "Tornozelo: Rotura completa do talofibular anterior (desinserção)"
-    replace: Rotura completa com desinserção talar do ligamento talofibular anterior com extensa quantidade de líquido circunjacente.
-    word: true
-
-  - trigger: "tzl6c"
-    label: "Tornozelo: Rotura completa do ligamento talofibular anterior (conclusão)"
-    replace: Rotura completa do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl7"
-    label: "Tornozelo: Lesão do talofibular anterior com avulsão óssea"
-    replace: Lesão do ligamento talofibular anterior caracterizada por espessamento e perda do padrão fibrilar associada a fragmento ósseo avulsivo junto à inserção fibular, estando o ligamento inserido neste fragmento.
-    word: true
-
-  - trigger: "tzl7c"
-    label: "Tornozelo: Lesão do ligamento talofibular anterior com avulsão óssea (conclusão)"
-    replace: Lesão do ligamento talofibular anterior com avulsão óssea.
-    word: true
-
-  - trigger: "tzl8"
-    label: "Tornozelo: Lesão de alto grau do talofibular anterior"
-    replace: Sinais de lesão de alto grau do ligamento talofibular anterior caracterizada por má definição com irregularidades de suas fibras, observando-se edema de permeio e periligamentar.
-    word: true
-
-  - trigger: "tzl8c"
-    label: "Tornozelo: Lesão de alto grau do ligamento talofibular anterior (conclusão)"
-    replace: Lesão de alto grau do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl9"
-    label: "Tornozelo: Sugerir correlação com exame físico (agudo)"
-    replace: A relevância desses achados dependerá de correlação com o exame físico.
-    word: true
-
-  - trigger: "tzl10"
-    label: "Tornozelo: Rotura crônica do talofibular anterior"
-    replace: Sinais de rotura crônica do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl10c"
-    label: "Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão)"
-    replace: Rotura crônica do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl11"
-    label: "Tornozelo: Talofibular anterior não caracterizado (rotura crônica)"
-    replace: Ligamento talofibular anterior não caracterizado, sugerindo rotura crônica.
-    word: true
-
-  - trigger: "tzl11c"
-    label: "Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão)"
-    replace: Rotura crônica do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl12"
-    label: "Tornozelo: Talofibular anterior cicatricial"
-    replace: Espessamento e irregularidade de aspecto cicatricial do ligamento talofibular anterior, sem nítidas transfixações.
-    word: true
-
-  - trigger: "tzl12c"
-    label: "Tornozelo: Alterações cicatriciais do ligamento talofibular anterior (conclusão)"
-    replace: Alterações cicatriciais do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl13"
-    label: "Tornozelo: Afilamento cicatricial do talofibular anterior"
-    replace: Acentuado afilamento cicatricial do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl13c"
-    label: "Tornozelo: Afilamento cicatricial do ligamento talofibular anterior (conclusão)"
-    replace: Afilamento cicatricial do ligamento talofibular anterior.
-    word: true
-
-  - trigger: "tzl14"
-    label: "Tornozelo: Correlação para suficiência ligamentar (crônico)"
-    replace: Sugere-se correlação com o exame físico para avaliação da suficiência ligamentar.
-    word: true
-
-  - trigger: "tzl15"
-    label: "Tornozelo: Fragmento avulsivo no maléolo lateral (add-on)"
-    replace: Associa-se pequeno fragmento avulsivo adjacente ao maléolo lateral, medindo _ cm.
-    word: true
-
-  # --- Tornozelo: estruturas ósseas ---
-
-  - trigger: "tzo1"
-    label: "Tornozelo: Osteófitos anteriores da tibiotalar"
-    replace: Osteófitos marginais na região anterior da articulação tibiotalar.
-    word: true
-
-  - trigger: "tzo1c"
-    label: "Tornozelo: Osteófitos anteriores da articulação tibiotalar (conclusão)"
-    replace: Osteófitos anteriores da articulação tibiotalar.
-    word: true
-
-  - trigger: "tzo2"
-    label: "Tornozelo: Alterações degenerativas do mediopé"
-    replace: Alterações degenerativas do mediopé caracterizadas por osteofitose marginal dorsal.
-    word: true
-
-  - trigger: "tzo2c"
-    label: "Tornozelo: Alterações degenerativas do mediopé (conclusão)"
-    replace: Alterações degenerativas do mediopé.
-    word: true
-
-  - trigger: "tzo3"
-    label: "Tornozelo: Irregularidades ósseas (correlação radiográfica)"
-    replace: Irregularidades das superfícies ósseas junto à articulação tibiotalar / talonavicular / mediopé. Sugere-se correlação radiográfica para melhor caracterização.
-    word: true
-
-  - trigger: "tzo3c"
-    label: "Tornozelo: Irregularidades ósseas do retropé / mediopé (correlação radiográfica) (conclusão)"
-    replace: Irregularidades ósseas do retropé / mediopé (correlação radiográfica).
-    word: true
-
-  - trigger: "me2"
-    label: "Joelho (derrame articular): Estudo direcionado para a pesquisa de derrame articular no joelho _ evidencia:"
-    replace: |-
-      Estudo direcionado para a pesquisa de derrame articular no joelho _ evidencia:
-      Pequena/Moderada/Acentuada quantidade de líquido livre anecoico no recesso suprapatelar.
     word: true
 
   # --- Lesões musculares: classificação por grau ---
@@ -5035,6 +4140,56 @@ matches:
   - trigger: "lmcr1c"
     label: "Lesão muscular: Alterações crônicas fibrocicatriciais do reto femoral (conclusão)"
     replace: Alterações crônicas fibrocicatriciais do reto femoral.
+    word: true
+
+  # ==============================================================================
+  # MÚSCULO-ESQUELÉTICO — OMBRO
+  # ==============================================================================
+
+  - trigger: "usombrod"
+    label: Ombro direito — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO OMBRO DIREITO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Análise:
+      Superfície superior da articulação acromioclavicular de contornos regulares.
+      Tendão do cabo longo do bíceps de calibre e ecotextura habituais, localizado anatomicamente no sulco intertuberositário, sem sinais de luxação, mesmo com a manobra de rotação externa.
+      Tendão supraespinhal apresentando espessura e padrão fibrilar preservados.
+      Tendão infraespinhal apresentando espessura e padrão fibrilar preservados.
+      Tendão subescapular apresentando espessura e padrão fibrilar preservados.
+      Tendão redondo menor apresentando espessura e padrão fibrilar preservados.
+      Ausência de bursite subacromial-subdeltoidea.
+      Ventres musculares do supraespinhal, infraespinhal, redondo menor e deltoide sem particularidades ao método.
+      Não foi observado derrame articular significativo nos recessos articulares visibilizados pelo método.
+
+      Conclusão:
+      Exame ecográfico dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "usombroe"
+    label: Ombro esquerdo — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO OMBRO ESQUERDO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Análise:
+      Superfície superior da articulação acromioclavicular de contornos regulares.
+      Tendão do cabo longo do bíceps de calibre e ecotextura habituais, localizado anatomicamente no sulco intertuberositário, sem sinais de luxação, mesmo com a manobra de rotação externa.
+      Tendão supraespinhal apresentando espessura e padrão fibrilar preservados.
+      Tendão infraespinhal apresentando espessura e padrão fibrilar preservados.
+      Tendão subescapular apresentando espessura e padrão fibrilar preservados.
+      Tendão redondo menor apresentando espessura e padrão fibrilar preservados.
+      Ausência de bursite subacromial-subdeltoidea.
+      Ventres musculares do supraespinhal, infraespinhal, redondo menor e deltoide sem particularidades ao método.
+      Não foi observado derrame articular significativo nos recessos articulares visibilizados pelo método.
+
+      Conclusão:
+      Exame ecográfico dentro dos padrões da normalidade.
     word: true
 
   # --- Ombro: técnica ---
@@ -5810,358 +4965,48 @@ matches:
     replace: Sinais de instabilidade glenoumeral.
     word: true
 
-  # --- Mão: cistos gangliônicos ---
-
-  - trigger: "moc1"
-    label: "Mão: Cisto gangliônico junto à polia A2"
-    replace: Imagem arredondada / ovalada de contornos bem definidos, conteúdo anecoico e reforço acústico posterior, sem vascularização ao Doppler, com paredes finas e lisas, compatível com cisto gangliônico, medindo _ cm, localizada adjacente à polia A2 do _ dedo.
-    word: true
-
-  - trigger: "moc1c"
-    label: "Mão: Cisto gangliônico junto à polia A2 do _ dedo (conclusão)"
-    replace: Cisto gangliônico junto à polia A2 do _ dedo.
-    word: true
-
-  - trigger: "moc2"
-    label: "Mão: Cisto gangliônico dorsal (interfalângica)"
-    replace: Imagem com características císticas na região dorsal ao nível da falange distal do _ dedo, adjacente à articulação interfalângica, compatível com cisto gangliônico.
-    word: true
-
-  - trigger: "moc2c"
-    label: "Mão: Cisto gangliônico dorsal da interfalângica distal do _ dedo (conclusão)"
-    replace: Cisto gangliônico dorsal da interfalângica distal do _ dedo.
-    word: true
-
-  # --- Mão: tumores / nódulos ---
-
-  - trigger: "mot1"
-    label: "Mão: Tumor de células gigantes da bainha tendínea"
-    replace: Imagem nodular sólida na região referida pelo paciente, de contornos lobulados e bem definidos, apresentando ecotextura finamente heterogênea, com discreta vascularização ao Doppler, medindo _ cm, em íntimo contato com a bainha dos tendões flexores do _ dedo, ao nível da face volar da falange _. Esta lesão determina discreto abaulamento sobre o feixe neural e vascular adjacente, sem nítidas compressões.
-    word: true
-
-  - trigger: "mot1c"
-    label: "Mão: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Sugere-se prosseguimento da propedêutica e correlação histopatológica (conclusão)"
-    replace: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Sugere-se prosseguimento da propedêutica e correlação histopatológica.
-    word: true
-
-  - trigger: "mot2"
-    label: "Mão: Nódulo inespecífico"
-    replace: Imagem nodular sólida na região referida pelo paciente, de contornos lobulados e bem definidos, apresentando ecotextura heterogênea, medindo _ cm, localizada _. Esta lesão determina discreto abaulamento sobre o feixe neural e vascular adjacente, sem nítidas compressões.
-    word: true
-
-  - trigger: "mot2c"
-    label: "Mão: Imagem nodular sólida de características inespecíficas (conclusão)"
-    replace: Imagem nodular sólida de características inespecíficas.
-    word: true
-
-  - trigger: "mot3"
-    label: "Mão: Nódulo no trajeto do feixe neural (add-on)"
-    replace: Esta lesão está localizada no trajeto do feixe neural digital.
-    word: true
-
-  - trigger: "mot4"
-    label: "Mão: Nódulo envolvendo o feixe vascular (add-on)"
-    replace: Esta lesão determina envolvimento circunferencial do feixe vascular na região radial e volar do dedo.
-    word: true
-
-  - trigger: "mot5"
-    label: "Mão: Tumor glômico"
-    replace: Imagem nodular, hipoecogênica, de contornos regulares, com fluxo ao Doppler, medindo _ x _ cm, localizada no leito ungueal do _ dedo, associada a irregularidade óssea da falange distal.
-    word: true
-
-  - trigger: "mot5c"
-    label: "Mão: Imagem nodular no leito ungueal do _ dedo; considerar tumor glômico (conclusão)"
-    replace: Imagem nodular no leito ungueal do _ dedo; considerar tumor glômico.
-    word: true
-
-  - trigger: "mot6"
-    label: "Mão: Tumor glômico oculto"
-    replace: Discreta irregularidade óssea da falange distal do _ dedo na região dolorosa referida pelo paciente, quando comparada ao lado contralateral, não se podendo descartar diminuto tumor glômico na topografia.
-    word: true
-
-  - trigger: "mot6c"
-    label: "Mão: Irregularidade óssea da falange distal do _ dedo, não se podendo descartar diminuto tumor glômico (conclusão)"
-    replace: Irregularidade óssea da falange distal do _ dedo, não se podendo descartar diminuto tumor glômico.
-    word: true
-
-  # --- Mão: fibromatose palmar ---
-
-  - trigger: "mof1"
-    label: "Mão: Fibromatose palmar (Dupuytren)"
-    replace: Espessamento nodular hipoecogênico da aponeurose palmar ao nível do quarto metacarpo (região nodular referida pelo paciente), medindo _ cm, sugestivo de fibromatose palmar (Dupuytren).
-    word: true
-
-  - trigger: "mof1c"
-    label: "Mão: Fibromatose palmar (Dupuytren) (conclusão)"
-    replace: Fibromatose palmar (Dupuytren).
-    word: true
-
-  - trigger: "mof2"
-    label: "Mão: Fibromatose palmar com retração"
-    replace: Espessamento nodular hipoecogênico entre a pele e os tendões flexores, na topografia da aponeurose palmar ao nível do quarto metacarpo (região nodular referida pelo paciente), medindo _ cm, determinando retração com atitude em flexão do respectivo quirodáctilo, sugestivo de fibromatose palmar (Dupuytren).
-    word: true
-
-  - trigger: "mof2c"
-    label: "Mão: Fibromatose palmar (Dupuytren) com retração (conclusão)"
-    replace: Fibromatose palmar (Dupuytren) com retração.
-    word: true
-
-  # --- Mão: rizartrose ---
-
-  - trigger: "mor1"
-    label: "Mão: Rizartrose discreta"
-    replace: Discreta artropatia degenerativa carpometacarpal do primeiro dedo caracterizada por pequena osteofitose marginal.
-    word: true
-
-  - trigger: "mor1c"
-    label: "Mão: Sinais de rizartrose (conclusão)"
-    replace: Sinais de rizartrose.
-    word: true
-
-  - trigger: "mor2"
-    label: "Mão: Rizartrose acentuada"
-    replace: Acentuada artropatia degenerativa carpometacarpal do primeiro dedo caracterizada por osteofitose marginal, afilamento condral e derrame articular com sinovite.
-    word: true
-
-  - trigger: "mor2c"
-    label: "Mão: Sinais de rizartrose (conclusão)"
-    replace: Sinais de rizartrose.
-    word: true
-
-  # --- Mão: sinovite ---
-
-  - trigger: "mos1"
-    label: "Mão: Espessamento sinovial sem Doppler"
-    replace: Espessamento sinovial da articulação _, sem vascularização ao estudo Doppler.
-    word: true
-
-  - trigger: "mos1c"
-    label: "Mão: Espessamento sinovial da articulação _ (conclusão)"
-    replace: Espessamento sinovial da articulação _.
-    word: true
-
-  - trigger: "mos2"
-    label: "Mão: Sinovite com atividade ao Doppler"
-    replace: Espessamento sinovial da articulação _, indicando sinovite (GS _). Associa-se vascularização ao Power Doppler (PD _), sugerindo atividade inflamatória.
-    word: true
-
-  - trigger: "mos2c"
-    label: "Mão: Sinovite da articulação _ (conclusão)"
-    replace: Sinovite da articulação _.
-    word: true
-
-  - trigger: "mos3"
-    label: "Mão: Artropatia inflamatória com erosões"
-    replace: Sinais de artropatia inflamatória da articulação _, caracterizada por erosões ósseas marginais e acentuado espessamento sinovial com vascularização ao estudo Doppler, indicando sinovite.
-    word: true
-
-  - trigger: "mos3c"
-    label: "Mão: Sinovite da articulação _ (conclusão)"
-    replace: Sinovite da articulação _.
-    word: true
-
-  # --- Mão: tenossinovite dos flexores ---
-
-  - trigger: "motn1"
-    label: "Mão: Tenossinovite dos flexores"
-    replace: Tenossinovite dos flexores do segundo dedo caracterizada por distensão líquida e espessamento parietal da bainha tendínea, sem alterações tendíneas significativas.
-    word: true
-
-  - trigger: "motn1c"
-    label: "Mão: Tenossinovite dos flexores (conclusão)"
-    replace: Tenossinovite dos flexores.
-    word: true
-
-  - trigger: "motn2"
-    label: "Mão: Tenossinovite e tendinopatia dos flexores"
-    replace: Tenossinovite e tendinopatia dos flexores do segundo dedo caracterizada por distensão líquida e espessamento da bainha tendínea associados a espessamento dos tendões, sem roturas.
-    word: true
-
-  - trigger: "motn2c"
-    label: "Mão: Tenossinovite e tendinopatia dos flexores, sem sinais de rotura (conclusão)"
-    replace: Tenossinovite e tendinopatia dos flexores, sem sinais de rotura.
-    word: true
-
-  # --- Mão: polia A1 / dedo em gatilho ---
-
-  - trigger: "mop1"
-    label: "Mão: Espessamento da polia A1"
-    replace: Mínimo espessamento da polia A1 (metacarpofalângica) do segundo dedo, quando comparada ao lado contralateral.
-    word: true
-
-  - trigger: "mop1c"
-    label: "Mão: Espessamento da polia A1 do segundo dedo. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)"
-    replace: Espessamento da polia A1 do segundo dedo. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico.
-    word: true
-
-  - trigger: "mop2"
-    label: "Mão: Dedo em gatilho"
-    replace: Espessamento da polia A1 (metacarpofalângica) do segundo dedo, com sinais de ressalto tendíneo neste nível durante as manobras de flexo-extensão do quirodáctilo.
-    word: true
-
-  - trigger: "mop2c"
-    label: "Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)"
-    replace: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico.
-    word: true
-
-  - trigger: "mop3"
-    label: "Mão: Dedo em gatilho com tenossinovite estenosante"
-    replace: Sinais de tenossinovite estenosante dos flexores do segundo dedo caracterizada por espessamento da polia A1 (metacarpofalângica), associado a tendinopatia e tenossinovite dos flexores, com sinais de ressalto durante as manobras dinâmicas de flexão-extensão.
-    word: true
-
-  - trigger: "mop3c"
-    label: "Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)"
-    replace: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico.
-    word: true
-
-  - trigger: "mop4"
-    label: "Mão: Dedo em gatilho com atitude em flexão"
-    replace: Atitude em flexão do polegar, com espessamento da polia A1 (metacarpofalângica).
-    word: true
-
-  - trigger: "mop4c"
-    label: "Mão: Sinais ecográficos de dedo em gatilho (conclusão)"
-    replace: Sinais ecográficos de dedo em gatilho.
-    word: true
-
-  # --- Mão: ligamento colateral ulnar do polegar ---
-
-  - trigger: "mol1"
-    label: "Mão: Estiramento do colateral ulnar do polegar"
-    replace: Discreto halo hipoecogênico circundando o ligamento colateral ulnar da metacarpofalângica do polegar, sugerindo estiramento, sem transfixações ou desinserções.
-    word: true
-
-  - trigger: "mol2"
-    label: "Mão: Lesão parcial do colateral ulnar do polegar"
-    replace: Lesão parcial do ligamento colateral ulnar da metacarpofalângica do polegar caracterizada por espessamento e redução da ecogenicidade, sem transfixações ou desinserções. Associa-se edema das partes moles adjacentes.
-    word: true
-
-  - trigger: "mol3"
-    label: "Mão: Lesão de alto grau do colateral ulnar do polegar"
-    replace: Lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar, observando-se pequeno fragmento ósseo avulsivo, medindo _ cm, adjacente à falange proximal, não sendo caracterizada nítida interposição da aponeurose adutora junto à área de rotura.
-    word: true
-
-  - trigger: "mol3c"
-    label: "Mão: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar. A relevância desse achado depende da correlação com os dados clínicos e exame físico (conclusão)"
-    replace: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar. A relevância desse achado depende da correlação com os dados clínicos e exame físico.
-    word: true
-
-  - trigger: "mol4"
-    label: "Mão: Lesão de alto grau com interposição da aponeurose"
-    replace: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar, com aparente interposição parcial da aponeurose adutora.
-    word: true
-
-  - trigger: "mol4c"
-    label: "Mão: Sinais de lesão de alto grau do ligamento colateral ulnar do polegar, com interposição parcial da aponeurose adutora (conclusão)"
-    replace: Sinais de lesão de alto grau do ligamento colateral ulnar do polegar, com interposição parcial da aponeurose adutora.
-    word: true
-
-  - trigger: "mol5"
-    label: "Mão: Lesão de Stener"
-    replace: Sinais de rotura completa do ligamento colateral ulnar da metacarpofalângica do polegar, com desinserção falângica e retração proximal, destacando-se interposição da aponeurose adutora na área de rotura, compatível com lesão de Stener.
-    word: true
-
-  - trigger: "mol5c"
-    label: "Mão: Lesão de Stener (rotura do ligamento colateral ulnar do polegar) (conclusão)"
-    replace: Lesão de Stener (rotura do ligamento colateral ulnar do polegar).
-    word: true
-
-  # --- Mão: trauma do complexo extensor ---
-
-  - trigger: "moe1"
-    label: "Mão: Estiramento do complexo extensor"
-    replace: Edema circundando a banda central / terminal junto à inserção na falange média / distal do _ dedo, caracterizando estiramento, sem francas roturas.
-    word: true
-
-  - trigger: "moe1c"
-    label: "Mão: Sinais de estiramento do complexo extensor (conclusão)"
-    replace: Sinais de estiramento do complexo extensor.
-    word: true
-
-  - trigger: "moe2"
-    label: "Mão: Rotura parcial do complexo extensor"
-    replace: Rotura parcial da banda central / terminal junto à inserção na falange média / distal do _ dedo caracterizada por aumento da espessura e redução da ecogenicidade, sem nítidas transfixações ou desinserções.
-    word: true
-
-  - trigger: "moe2c"
-    label: "Mão: Sinais de rotura parcial do complexo extensor (conclusão)"
-    replace: Sinais de rotura parcial do complexo extensor.
-    word: true
-
-  - trigger: "moe3"
-    label: "Mão: Rotura completa do complexo extensor"
-    replace: Rotura completa com desinserção da banda central / terminal junto à inserção na falange média / distal do _ dedo, com retração proximal, medindo _ cm.
-    word: true
-
-  - trigger: "moe3c"
-    label: "Mão: Sinais de rotura completa do complexo extensor (conclusão)"
-    replace: Sinais de rotura completa do complexo extensor.
-    word: true
-
-  - trigger: "moe4"
-    label: "Mão: Rotura do complexo extensor com avulsão óssea"
-    replace: Sinais de rotura do complexo extensor do _ dedo caracterizada por espessamento e edema ao nível da banda central / terminal junto à inserção na falange média / distal do _ dedo, observando-se fragmento avulsivo, medindo _ cm.
-    word: true
-
-  - trigger: "moe4c"
-    label: "Mão: Sinais de rotura completa do complexo extensor, com avulsão óssea (conclusão)"
-    replace: Sinais de rotura completa do complexo extensor, com avulsão óssea.
-    word: true
-
-  # --- Mão: trauma dos flexores ---
-
-  - trigger: "mofx1"
-    label: "Mão: Rotura aguda do flexor superficial"
-    replace: Rotura transfixante do tendão flexor superficial do segundo dedo, estando o coto tendíneo proximal localizado ao nível do colo metacarpal e o coto tendíneo distal ao nível da interfalângica proximal, com gap / diástase tendínea estimada em _ cm.
-    word: true
-
-  - trigger: "mofx1c"
-    label: "Mão: Sinais de rotura transfixante aguda do tendão flexor superficial do segundo dedo (conclusão)"
-    replace: Sinais de rotura transfixante aguda do tendão flexor superficial do segundo dedo.
-    word: true
-
-  - trigger: "mofx2"
-    label: "Mão: Rotura crônica do flexor superficial"
-    replace: Rotura transfixante do tendão flexor superficial do segundo dedo, estando o coto tendíneo proximal localizado ao nível do colo metacarpal e o coto tendíneo distal ao nível da interfalângica proximal, com diástase estimada em _ cm, observando-se tecido fibrocicatricial irregular na área de rotura.
-    word: true
-
-  - trigger: "mofx2c"
-    label: "Mão: Sinais de rotura transfixante crônica do tendão flexor superficial do segundo dedo (conclusão)"
-    replace: Sinais de rotura transfixante crônica do tendão flexor superficial do segundo dedo.
-    word: true
-
-  # --- Mão: polia A2 / placa volar ---
-
-  - trigger: "mopv1"
-    label: "Mão: Rotura da polia A2"
-    replace: Sinais de rotura da polia A2 caracterizada por aumento da distância entre o tendão flexor e a cortical óssea durante a manobra de flexão.
-    word: true
-
-  - trigger: "mopv1c"
-    label: "Mão: Rotura da polia A2 (conclusão)"
-    replace: Rotura da polia A2.
-    word: true
-
-  - trigger: "mopv2"
-    label: "Mão: Rotura da placa volar"
-    replace: Sinais de rotura com má definição da inserção falangiana da placa volar da articulação interfalângica do segundo dedo, com retração proximal estimada em _ cm.
-    word: true
-
-  - trigger: "mopv2c"
-    label: "Mão: Rotura da placa volar da interfalângica do segundo dedo (conclusão)"
-    replace: Rotura da placa volar da interfalângica do segundo dedo.
-    word: true
-
-  # --- Mão: corpo estranho ---
-
-  - trigger: "moce1"
-    label: "Mão: Corpo estranho"
-    replace: Imagem linear hiperecogênica, medindo _ cm, localizada no tecido celular subcutâneo na região referida pelo paciente, com pequena quantidade de líquido circunjacente, provavelmente relacionada a corpo estranho, levando em consideração os dados da história clínica. Não foram caracterizadas lesões do tendão ou feixe neurovascular adjacente.
-    word: true
-
-  - trigger: "moce1c"
-    label: "Mão: Corpo estranho no tecido celular subcutâneo (conclusão)"
-    replace: Corpo estranho no tecido celular subcutâneo.
+  # ==============================================================================
+  # MÚSCULO-ESQUELÉTICO — COTOVELO
+  # ==============================================================================
+
+  - trigger: "uscotovelod"
+    label: Cotovelo direito — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO COTOVELO DIREITO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Análise:
+      Ausência de derrame articular significativo.
+      Tendão comum dos extensores com espessura, ecogenicidade e ecotextura fibrilar preservadas.
+      Tendão comum dos flexores com espessura e ecogenicidade habituais.
+      Tendões do bíceps braquial e tríceps com espessura e ecotextura normais.
+      Nervo ulnar de aspecto ecográfico habitual.
+      Ausência de bursite olecraniana.
+
+      Conclusão:
+      Exame ecográfico dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "uscotoveloe"
+    label: Cotovelo esquerdo — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO COTOVELO ESQUERDO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Análise:
+      Ausência de derrame articular significativo.
+      Tendão comum dos extensores com espessura, ecogenicidade e ecotextura fibrilar preservadas.
+      Tendão comum dos flexores com espessura e ecogenicidade habituais.
+      Tendões do bíceps braquial e tríceps com espessura e ecotextura normais.
+      Nervo ulnar de aspecto ecográfico habitual.
+      Ausência de bursite olecraniana.
+
+      Conclusão:
+      Exame ecográfico dentro dos padrões da normalidade.
     word: true
 
   # --- Cotovelo: técnica ---
@@ -6565,6 +5410,438 @@ matches:
     replace: Alterações pós-operatórias do tendão distal do bíceps braquial.
     word: true
 
+  # ==============================================================================
+  # MÚSCULO-ESQUELÉTICO — PUNHO E MÃO
+  # ==============================================================================
+
+  - trigger: "usmaod"
+    label: Mão direita — normal
+    replace: |-
+      ULTRASSONOGRAFIA DA MÃO DIREITA
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Análise:
+      Tendões flexores e extensores de aspecto ecográfico habitual.
+      Não se observam sinais de sinovite.
+      Ausência de formações expansivas na região examinada.
+      Superfícies ósseas sem alterações detectáveis ao método.
+
+      Conclusão:
+      Exame ecográfico sem alterações significativas.
+    word: true
+
+  - trigger: "usmaoe"
+    label: Mão esquerda — normal
+    replace: |-
+      ULTRASSONOGRAFIA DA MÃO ESQUERDA
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Análise:
+      Tendões flexores e extensores de aspecto ecográfico habitual.
+      Não se observam sinais de sinovite.
+      Ausência de formações expansivas na região examinada.
+      Superfícies ósseas sem alterações detectáveis ao método.
+
+      Conclusão:
+      Exame ecográfico sem alterações significativas.
+    word: true
+
+  - trigger: "uspunhod"
+    label: Punho direito — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO PUNHO DIREITO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Análise:
+      Tendões dos seis compartimentos extensores de espessura e ecogenicidade preservadas.
+      Tendões flexores de aspecto ecográfico habitual.
+      Nervo mediano não apresenta alterações ecográficas significativas.
+      Área de secção transversa do nervo mediano ao nível do túnel do carpo proximal de _ mm².
+      Não se observam inserções musculares anômalas ou imagens nodulares sólidas/císticas no túnel do carpo.
+
+      Conclusão:
+      Exame ecográfico do punho dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "uspunhoe"
+    label: Punho esquerdo — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO PUNHO ESQUERDO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Análise:
+      Tendões dos seis compartimentos extensores de espessura e ecogenicidade preservadas.
+      Tendões flexores de aspecto ecográfico habitual.
+      Nervo mediano não apresenta alterações ecográficas significativas.
+      Área de secção transversa do nervo mediano ao nível do túnel do carpo proximal de _ mm².
+      Não se observam inserções musculares anômalas ou imagens nodulares sólidas/císticas no túnel do carpo.
+
+      Conclusão:
+      Exame ecográfico do punho dentro dos padrões da normalidade.
+    word: true
+
+  # --- Mão: cistos gangliônicos ---
+
+  - trigger: "moc1"
+    label: "Mão: Cisto gangliônico junto à polia A2"
+    replace: Imagem arredondada / ovalada de contornos bem definidos, conteúdo anecoico e reforço acústico posterior, sem vascularização ao Doppler, com paredes finas e lisas, compatível com cisto gangliônico, medindo _ cm, localizada adjacente à polia A2 do _ dedo.
+    word: true
+
+  - trigger: "moc1c"
+    label: "Mão: Cisto gangliônico junto à polia A2 do _ dedo (conclusão)"
+    replace: Cisto gangliônico junto à polia A2 do _ dedo.
+    word: true
+
+  - trigger: "moc2"
+    label: "Mão: Cisto gangliônico dorsal (interfalângica)"
+    replace: Imagem com características císticas na região dorsal ao nível da falange distal do _ dedo, adjacente à articulação interfalângica, compatível com cisto gangliônico.
+    word: true
+
+  - trigger: "moc2c"
+    label: "Mão: Cisto gangliônico dorsal da interfalângica distal do _ dedo (conclusão)"
+    replace: Cisto gangliônico dorsal da interfalângica distal do _ dedo.
+    word: true
+
+  # --- Mão: tumores / nódulos ---
+
+  - trigger: "mot1"
+    label: "Mão: Tumor de células gigantes da bainha tendínea"
+    replace: Imagem nodular sólida na região referida pelo paciente, de contornos lobulados e bem definidos, apresentando ecotextura finamente heterogênea, com discreta vascularização ao Doppler, medindo _ cm, em íntimo contato com a bainha dos tendões flexores do _ dedo, ao nível da face volar da falange _. Esta lesão determina discreto abaulamento sobre o feixe neural e vascular adjacente, sem nítidas compressões.
+    word: true
+
+  - trigger: "mot1c"
+    label: "Mão: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Sugere-se prosseguimento da propedêutica e correlação histopatológica (conclusão)"
+    replace: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Sugere-se prosseguimento da propedêutica e correlação histopatológica.
+    word: true
+
+  - trigger: "mot2"
+    label: "Mão: Nódulo inespecífico"
+    replace: Imagem nodular sólida na região referida pelo paciente, de contornos lobulados e bem definidos, apresentando ecotextura heterogênea, medindo _ cm, localizada _. Esta lesão determina discreto abaulamento sobre o feixe neural e vascular adjacente, sem nítidas compressões.
+    word: true
+
+  - trigger: "mot2c"
+    label: "Mão: Imagem nodular sólida de características inespecíficas (conclusão)"
+    replace: Imagem nodular sólida de características inespecíficas.
+    word: true
+
+  - trigger: "mot3"
+    label: "Mão: Nódulo no trajeto do feixe neural (add-on)"
+    replace: Esta lesão está localizada no trajeto do feixe neural digital.
+    word: true
+
+  - trigger: "mot4"
+    label: "Mão: Nódulo envolvendo o feixe vascular (add-on)"
+    replace: Esta lesão determina envolvimento circunferencial do feixe vascular na região radial e volar do dedo.
+    word: true
+
+  - trigger: "mot5"
+    label: "Mão: Tumor glômico"
+    replace: Imagem nodular, hipoecogênica, de contornos regulares, com fluxo ao Doppler, medindo _ x _ cm, localizada no leito ungueal do _ dedo, associada a irregularidade óssea da falange distal.
+    word: true
+
+  - trigger: "mot5c"
+    label: "Mão: Imagem nodular no leito ungueal do _ dedo; considerar tumor glômico (conclusão)"
+    replace: Imagem nodular no leito ungueal do _ dedo; considerar tumor glômico.
+    word: true
+
+  - trigger: "mot6"
+    label: "Mão: Tumor glômico oculto"
+    replace: Discreta irregularidade óssea da falange distal do _ dedo na região dolorosa referida pelo paciente, quando comparada ao lado contralateral, não se podendo descartar diminuto tumor glômico na topografia.
+    word: true
+
+  - trigger: "mot6c"
+    label: "Mão: Irregularidade óssea da falange distal do _ dedo, não se podendo descartar diminuto tumor glômico (conclusão)"
+    replace: Irregularidade óssea da falange distal do _ dedo, não se podendo descartar diminuto tumor glômico.
+    word: true
+
+  # --- Mão: fibromatose palmar ---
+
+  - trigger: "mof1"
+    label: "Mão: Fibromatose palmar (Dupuytren)"
+    replace: Espessamento nodular hipoecogênico da aponeurose palmar ao nível do quarto metacarpo (região nodular referida pelo paciente), medindo _ cm, sugestivo de fibromatose palmar (Dupuytren).
+    word: true
+
+  - trigger: "mof1c"
+    label: "Mão: Fibromatose palmar (Dupuytren) (conclusão)"
+    replace: Fibromatose palmar (Dupuytren).
+    word: true
+
+  - trigger: "mof2"
+    label: "Mão: Fibromatose palmar com retração"
+    replace: Espessamento nodular hipoecogênico entre a pele e os tendões flexores, na topografia da aponeurose palmar ao nível do quarto metacarpo (região nodular referida pelo paciente), medindo _ cm, determinando retração com atitude em flexão do respectivo quirodáctilo, sugestivo de fibromatose palmar (Dupuytren).
+    word: true
+
+  - trigger: "mof2c"
+    label: "Mão: Fibromatose palmar (Dupuytren) com retração (conclusão)"
+    replace: Fibromatose palmar (Dupuytren) com retração.
+    word: true
+
+  # --- Mão: rizartrose ---
+
+  - trigger: "mor1"
+    label: "Mão: Rizartrose discreta"
+    replace: Discreta artropatia degenerativa carpometacarpal do primeiro dedo caracterizada por pequena osteofitose marginal.
+    word: true
+
+  - trigger: "mor1c"
+    label: "Mão: Sinais de rizartrose (conclusão)"
+    replace: Sinais de rizartrose.
+    word: true
+
+  - trigger: "mor2"
+    label: "Mão: Rizartrose acentuada"
+    replace: Acentuada artropatia degenerativa carpometacarpal do primeiro dedo caracterizada por osteofitose marginal, afilamento condral e derrame articular com sinovite.
+    word: true
+
+  - trigger: "mor2c"
+    label: "Mão: Sinais de rizartrose (conclusão)"
+    replace: Sinais de rizartrose.
+    word: true
+
+  # --- Mão: sinovite ---
+
+  - trigger: "mos1"
+    label: "Mão: Espessamento sinovial sem Doppler"
+    replace: Espessamento sinovial da articulação _, sem vascularização ao estudo Doppler.
+    word: true
+
+  - trigger: "mos1c"
+    label: "Mão: Espessamento sinovial da articulação _ (conclusão)"
+    replace: Espessamento sinovial da articulação _.
+    word: true
+
+  - trigger: "mos2"
+    label: "Mão: Sinovite com atividade ao Doppler"
+    replace: Espessamento sinovial da articulação _, indicando sinovite (GS _). Associa-se vascularização ao Power Doppler (PD _), sugerindo atividade inflamatória.
+    word: true
+
+  - trigger: "mos2c"
+    label: "Mão: Sinovite da articulação _ (conclusão)"
+    replace: Sinovite da articulação _.
+    word: true
+
+  - trigger: "mos3"
+    label: "Mão: Artropatia inflamatória com erosões"
+    replace: Sinais de artropatia inflamatória da articulação _, caracterizada por erosões ósseas marginais e acentuado espessamento sinovial com vascularização ao estudo Doppler, indicando sinovite.
+    word: true
+
+  - trigger: "mos3c"
+    label: "Mão: Sinovite da articulação _ (conclusão)"
+    replace: Sinovite da articulação _.
+    word: true
+
+  # --- Mão: tenossinovite dos flexores ---
+
+  - trigger: "motn1"
+    label: "Mão: Tenossinovite dos flexores"
+    replace: Tenossinovite dos flexores do segundo dedo caracterizada por distensão líquida e espessamento parietal da bainha tendínea, sem alterações tendíneas significativas.
+    word: true
+
+  - trigger: "motn1c"
+    label: "Mão: Tenossinovite dos flexores (conclusão)"
+    replace: Tenossinovite dos flexores.
+    word: true
+
+  - trigger: "motn2"
+    label: "Mão: Tenossinovite e tendinopatia dos flexores"
+    replace: Tenossinovite e tendinopatia dos flexores do segundo dedo caracterizada por distensão líquida e espessamento da bainha tendínea associados a espessamento dos tendões, sem roturas.
+    word: true
+
+  - trigger: "motn2c"
+    label: "Mão: Tenossinovite e tendinopatia dos flexores, sem sinais de rotura (conclusão)"
+    replace: Tenossinovite e tendinopatia dos flexores, sem sinais de rotura.
+    word: true
+
+  # --- Mão: polia A1 / dedo em gatilho ---
+
+  - trigger: "mop1"
+    label: "Mão: Espessamento da polia A1"
+    replace: Mínimo espessamento da polia A1 (metacarpofalângica) do segundo dedo, quando comparada ao lado contralateral.
+    word: true
+
+  - trigger: "mop1c"
+    label: "Mão: Espessamento da polia A1 do segundo dedo. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)"
+    replace: Espessamento da polia A1 do segundo dedo. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico.
+    word: true
+
+  - trigger: "mop2"
+    label: "Mão: Dedo em gatilho"
+    replace: Espessamento da polia A1 (metacarpofalângica) do segundo dedo, com sinais de ressalto tendíneo neste nível durante as manobras de flexo-extensão do quirodáctilo.
+    word: true
+
+  - trigger: "mop2c"
+    label: "Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)"
+    replace: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico.
+    word: true
+
+  - trigger: "mop3"
+    label: "Mão: Dedo em gatilho com tenossinovite estenosante"
+    replace: Sinais de tenossinovite estenosante dos flexores do segundo dedo caracterizada por espessamento da polia A1 (metacarpofalângica), associado a tendinopatia e tenossinovite dos flexores, com sinais de ressalto durante as manobras dinâmicas de flexão-extensão.
+    word: true
+
+  - trigger: "mop3c"
+    label: "Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)"
+    replace: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico.
+    word: true
+
+  - trigger: "mop4"
+    label: "Mão: Dedo em gatilho com atitude em flexão"
+    replace: Atitude em flexão do polegar, com espessamento da polia A1 (metacarpofalângica).
+    word: true
+
+  - trigger: "mop4c"
+    label: "Mão: Sinais ecográficos de dedo em gatilho (conclusão)"
+    replace: Sinais ecográficos de dedo em gatilho.
+    word: true
+
+  # --- Mão: ligamento colateral ulnar do polegar ---
+
+  - trigger: "mol1"
+    label: "Mão: Estiramento do colateral ulnar do polegar"
+    replace: Discreto halo hipoecogênico circundando o ligamento colateral ulnar da metacarpofalângica do polegar, sugerindo estiramento, sem transfixações ou desinserções.
+    word: true
+
+  - trigger: "mol2"
+    label: "Mão: Lesão parcial do colateral ulnar do polegar"
+    replace: Lesão parcial do ligamento colateral ulnar da metacarpofalângica do polegar caracterizada por espessamento e redução da ecogenicidade, sem transfixações ou desinserções. Associa-se edema das partes moles adjacentes.
+    word: true
+
+  - trigger: "mol3"
+    label: "Mão: Lesão de alto grau do colateral ulnar do polegar"
+    replace: Lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar, observando-se pequeno fragmento ósseo avulsivo, medindo _ cm, adjacente à falange proximal, não sendo caracterizada nítida interposição da aponeurose adutora junto à área de rotura.
+    word: true
+
+  - trigger: "mol3c"
+    label: "Mão: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar. A relevância desse achado depende da correlação com os dados clínicos e exame físico (conclusão)"
+    replace: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar. A relevância desse achado depende da correlação com os dados clínicos e exame físico.
+    word: true
+
+  - trigger: "mol4"
+    label: "Mão: Lesão de alto grau com interposição da aponeurose"
+    replace: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar, com aparente interposição parcial da aponeurose adutora.
+    word: true
+
+  - trigger: "mol4c"
+    label: "Mão: Sinais de lesão de alto grau do ligamento colateral ulnar do polegar, com interposição parcial da aponeurose adutora (conclusão)"
+    replace: Sinais de lesão de alto grau do ligamento colateral ulnar do polegar, com interposição parcial da aponeurose adutora.
+    word: true
+
+  - trigger: "mol5"
+    label: "Mão: Lesão de Stener"
+    replace: Sinais de rotura completa do ligamento colateral ulnar da metacarpofalângica do polegar, com desinserção falângica e retração proximal, destacando-se interposição da aponeurose adutora na área de rotura, compatível com lesão de Stener.
+    word: true
+
+  - trigger: "mol5c"
+    label: "Mão: Lesão de Stener (rotura do ligamento colateral ulnar do polegar) (conclusão)"
+    replace: Lesão de Stener (rotura do ligamento colateral ulnar do polegar).
+    word: true
+
+  # --- Mão: trauma do complexo extensor ---
+
+  - trigger: "moe1"
+    label: "Mão: Estiramento do complexo extensor"
+    replace: Edema circundando a banda central / terminal junto à inserção na falange média / distal do _ dedo, caracterizando estiramento, sem francas roturas.
+    word: true
+
+  - trigger: "moe1c"
+    label: "Mão: Sinais de estiramento do complexo extensor (conclusão)"
+    replace: Sinais de estiramento do complexo extensor.
+    word: true
+
+  - trigger: "moe2"
+    label: "Mão: Rotura parcial do complexo extensor"
+    replace: Rotura parcial da banda central / terminal junto à inserção na falange média / distal do _ dedo caracterizada por aumento da espessura e redução da ecogenicidade, sem nítidas transfixações ou desinserções.
+    word: true
+
+  - trigger: "moe2c"
+    label: "Mão: Sinais de rotura parcial do complexo extensor (conclusão)"
+    replace: Sinais de rotura parcial do complexo extensor.
+    word: true
+
+  - trigger: "moe3"
+    label: "Mão: Rotura completa do complexo extensor"
+    replace: Rotura completa com desinserção da banda central / terminal junto à inserção na falange média / distal do _ dedo, com retração proximal, medindo _ cm.
+    word: true
+
+  - trigger: "moe3c"
+    label: "Mão: Sinais de rotura completa do complexo extensor (conclusão)"
+    replace: Sinais de rotura completa do complexo extensor.
+    word: true
+
+  - trigger: "moe4"
+    label: "Mão: Rotura do complexo extensor com avulsão óssea"
+    replace: Sinais de rotura do complexo extensor do _ dedo caracterizada por espessamento e edema ao nível da banda central / terminal junto à inserção na falange média / distal do _ dedo, observando-se fragmento avulsivo, medindo _ cm.
+    word: true
+
+  - trigger: "moe4c"
+    label: "Mão: Sinais de rotura completa do complexo extensor, com avulsão óssea (conclusão)"
+    replace: Sinais de rotura completa do complexo extensor, com avulsão óssea.
+    word: true
+
+  # --- Mão: trauma dos flexores ---
+
+  - trigger: "mofx1"
+    label: "Mão: Rotura aguda do flexor superficial"
+    replace: Rotura transfixante do tendão flexor superficial do segundo dedo, estando o coto tendíneo proximal localizado ao nível do colo metacarpal e o coto tendíneo distal ao nível da interfalângica proximal, com gap / diástase tendínea estimada em _ cm.
+    word: true
+
+  - trigger: "mofx1c"
+    label: "Mão: Sinais de rotura transfixante aguda do tendão flexor superficial do segundo dedo (conclusão)"
+    replace: Sinais de rotura transfixante aguda do tendão flexor superficial do segundo dedo.
+    word: true
+
+  - trigger: "mofx2"
+    label: "Mão: Rotura crônica do flexor superficial"
+    replace: Rotura transfixante do tendão flexor superficial do segundo dedo, estando o coto tendíneo proximal localizado ao nível do colo metacarpal e o coto tendíneo distal ao nível da interfalângica proximal, com diástase estimada em _ cm, observando-se tecido fibrocicatricial irregular na área de rotura.
+    word: true
+
+  - trigger: "mofx2c"
+    label: "Mão: Sinais de rotura transfixante crônica do tendão flexor superficial do segundo dedo (conclusão)"
+    replace: Sinais de rotura transfixante crônica do tendão flexor superficial do segundo dedo.
+    word: true
+
+  # --- Mão: polia A2 / placa volar ---
+
+  - trigger: "mopv1"
+    label: "Mão: Rotura da polia A2"
+    replace: Sinais de rotura da polia A2 caracterizada por aumento da distância entre o tendão flexor e a cortical óssea durante a manobra de flexão.
+    word: true
+
+  - trigger: "mopv1c"
+    label: "Mão: Rotura da polia A2 (conclusão)"
+    replace: Rotura da polia A2.
+    word: true
+
+  - trigger: "mopv2"
+    label: "Mão: Rotura da placa volar"
+    replace: Sinais de rotura com má definição da inserção falangiana da placa volar da articulação interfalângica do segundo dedo, com retração proximal estimada em _ cm.
+    word: true
+
+  - trigger: "mopv2c"
+    label: "Mão: Rotura da placa volar da interfalângica do segundo dedo (conclusão)"
+    replace: Rotura da placa volar da interfalângica do segundo dedo.
+    word: true
+
+  # --- Mão: corpo estranho ---
+
+  - trigger: "moce1"
+    label: "Mão: Corpo estranho"
+    replace: Imagem linear hiperecogênica, medindo _ cm, localizada no tecido celular subcutâneo na região referida pelo paciente, com pequena quantidade de líquido circunjacente, provavelmente relacionada a corpo estranho, levando em consideração os dados da história clínica. Não foram caracterizadas lesões do tendão ou feixe neurovascular adjacente.
+    word: true
+
+  - trigger: "moce1c"
+    label: "Mão: Corpo estranho no tecido celular subcutâneo (conclusão)"
+    replace: Corpo estranho no tecido celular subcutâneo.
+    word: true
+
   # --- Punho: compartimentos extensores / De Quervain / intersecções ---
 
   - trigger: "pue1"
@@ -6926,6 +6203,338 @@ matches:
     replace: Artropatia inflamatória com erosões e sinovite.
     word: true
 
+  # ==============================================================================
+  # MÚSCULO-ESQUELÉTICO — QUADRIL
+  # ==============================================================================
+
+  - trigger: "usquadrild"
+    label: Quadril direito — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO QUADRIL DIREITO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a face lateral do quadril.
+
+      Análise:
+      Ausência de derrame articular significativo.
+      Tendões do glúteo médio e mínimo de aspecto ecográfico habitual.
+      Bursa trocantérica sem distensão líquida significativa.
+      Demais estruturas sem particularidades.
+
+      Conclusão:
+      Exame ecográfico do quadril sem alterações significativas.
+    word: true
+
+  - trigger: "usquadrile"
+    label: Quadril esquerdo — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO QUADRIL ESQUERDO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a face lateral do quadril.
+
+      Análise:
+      Ausência de derrame articular significativo.
+      Tendões do glúteo médio e mínimo de aspecto ecográfico habitual.
+      Bursa trocantérica sem distensão líquida significativa.
+      Demais estruturas sem particularidades.
+
+      Conclusão:
+      Exame ecográfico do quadril sem alterações significativas.
+    word: true
+
+  # --- Quadril: derrame articular ---
+
+  - trigger: "qdd1"
+    label: "Quadril: Sem derrame articular"
+    replace: Ausência de derrame articular.
+    word: true
+
+  - trigger: "qdd2"
+    label: "Quadril: Derrame articular"
+    replace: Sinais de pequeno / moderado / acentuado derrame articular.
+    word: true
+
+  - trigger: "qdd2c"
+    label: "Quadril: Derrame articular (conclusão)"
+    replace: Derrame articular.
+    word: true
+
+  - trigger: "qdd4"
+    label: "Quadril: Derrame com sinovite"
+    replace: Derrame articular com hipertrofia sinovial, indicando sinovite.
+    word: true
+
+  - trigger: "qdd4c"
+    label: "Quadril: Derrame articular com sinovite (conclusão)"
+    replace: Derrame articular com sinovite.
+    word: true
+
+  - trigger: "qdd5"
+    label: "Quadril: Sinovite com atividade ao Doppler"
+    replace: Hipertrofia sinovial com vascularização ao Power Doppler, indicando sinovite com atividade inflamatória.
+    word: true
+
+  - trigger: "qdd5c"
+    label: "Quadril: Sinovite com atividade inflamatória ao Doppler (conclusão)"
+    replace: Sinovite com atividade inflamatória ao Doppler.
+    word: true
+
+  # --- Quadril: articulação coxofemoral ---
+
+  - trigger: "qda1"
+    label: "Quadril: Artropatia degenerativa coxofemoral"
+    replace: Osteófitos marginais na articulação coxofemoral, sugerindo artropatia degenerativa. Sugere-se correlação radiográfica.
+    word: true
+
+  - trigger: "qda1c"
+    label: "Quadril: Artropatia degenerativa coxofemoral (conclusão)"
+    replace: Artropatia degenerativa coxofemoral.
+    word: true
+
+  - trigger: "qda2"
+    label: "Quadril: Cisto paralabral"
+    replace: Imagem com características císticas, medindo _ cm, adjacente ao lábio acetabular, provavelmente relacionada a cisto paralabral. Sugere-se correlação com a ressonância magnética (caso não haja contraindicação) para melhor caracterização dos achados.
+    word: true
+
+  - trigger: "qda2c"
+    label: "Quadril: Cisto paralabral (conclusão)"
+    replace: Cisto paralabral.
+    word: true
+
+  # --- Quadril: tendões dos glúteos ---
+
+  - trigger: "qdg1"
+    label: "Quadril: Tendões glúteos normais"
+    replace: Tendões dos glúteos médio e mínimo de aspecto ecográfico habitual.
+    word: true
+
+  - trigger: "qdg2"
+    label: "Quadril: Heterogeneidade do glúteo mínimo"
+    replace: Discreta heterogeneidade do tendão do glúteo mínimo, sem espessamento ou roturas; tal achado, para ser valorizado como tendinopatia, deve ter estreita correlação com os dados clínicos.
+    word: true
+
+  - trigger: "qdg2c"
+    label: "Quadril: Discreta heterogeneidade do glúteo mínimo, a correlacionar clinicamente (conclusão)"
+    replace: Discreta heterogeneidade do glúteo mínimo, a correlacionar clinicamente.
+    word: true
+
+  - trigger: "qdg3"
+    label: "Quadril: Tendinopatia insercional do glúteo mínimo"
+    replace: Tendinopatia insercional do glúteo mínimo caracterizada por espessamento e perda do padrão fibrilar, sem roturas.
+    word: true
+
+  - trigger: "qdg3c"
+    label: "Quadril: Tendinopatia insercional do glúteo mínimo (conclusão)"
+    replace: Tendinopatia insercional do glúteo mínimo.
+    word: true
+
+  - trigger: "qdg4"
+    label: "Quadril: Tendinopatia do glúteo mínimo e médio"
+    replace: Tendinopatia do glúteo mínimo e fibras anteriores do glúteo médio, caracterizada por espessamento e perda do padrão fibrilar, destacando-se focos de degeneração e fissuras intrassubstanciais, além de entesófitos no trocânter maior femoral, sem nítidas desinserções.
+    word: true
+
+  - trigger: "qdg4c"
+    label: "Quadril: Tendinopatia do glúteo mínimo e médio (conclusão)"
+    replace: Tendinopatia do glúteo mínimo e médio.
+    word: true
+
+  - trigger: "qdg5"
+    label: "Quadril: Glúteos com provável rotura de alto grau"
+    replace: Tendinopatia do glúteo mínimo e médio, com focos de degeneração e fissuras intrassubstanciais, destacando-se acentuado afilamento insercional do glúteo mínimo, podendo estar relacionado a rotura de alto grau. Associam-se entesófitos no trocânter maior femoral e sinais de hipotrofia com lipossubstituição do ventre muscular do glúteo mínimo.
+    word: true
+
+  - trigger: "qdg5c"
+    label: "Quadril: Tendinopatia do glúteo mínimo e médio com provável rotura de alto grau (conclusão)"
+    replace: Tendinopatia do glúteo mínimo e médio com provável rotura de alto grau.
+    word: true
+
+  - trigger: "qdg6"
+    label: "Quadril: Tendinopatia calcária do glúteo mínimo"
+    replace: Tendinopatia calcária do glúteo mínimo, caracterizada por foco de calcificação junto à inserção, medindo cerca de _ x _ cm.
+    word: true
+
+  - trigger: "qdg6c"
+    label: "Quadril: Tendinopatia calcária do glúteo mínimo (conclusão)"
+    replace: Tendinopatia calcária do glúteo mínimo.
+    word: true
+
+  - trigger: "qdg7"
+    label: "Quadril: Entesófitos no trocânter maior (add-on)"
+    replace: Associam-se entesófitos no trocânter maior femoral.
+    word: true
+
+  - trigger: "qdg8"
+    label: "Quadril: Bursite subglútea (add-on)"
+    replace: Associa-se distensão líquida da bursa subglútea mínima / média, indicando bursite.
+    word: true
+
+  # --- Quadril: demais tendões (adutores / isquiotibiais) ---
+
+  - trigger: "qdt1"
+    label: "Quadril: Tendinopatia dos adutores"
+    replace: Tendinopatia na origem comum dos adutores, caracterizada por espessamento e heterogeneidade, com focos de degeneração e fissuras intrassubstanciais, sem nítidas desinserções.
+    word: true
+
+  - trigger: "qdt1c"
+    label: "Quadril: Tendinopatia da origem comum dos adutores (conclusão)"
+    replace: Tendinopatia da origem comum dos adutores.
+    word: true
+
+  - trigger: "qdt2"
+    label: "Quadril: Tendinopatia dos isquiotibiais"
+    replace: Tendinopatia na origem comum dos isquiotibiais, com espessamento e perda do padrão fibrilar, associada a entesófitos na tuberosidade isquiática, sem nítidas roturas.
+    word: true
+
+  - trigger: "qdt2c"
+    label: "Quadril: Tendinopatia da origem comum dos isquiotibiais (conclusão)"
+    replace: Tendinopatia da origem comum dos isquiotibiais.
+    word: true
+
+  # --- Quadril: bursa trocantérica ---
+
+  - trigger: "qdb1"
+    label: "Quadril: Bursa trocantérica normal"
+    replace: Ausência de distensão líquida patológica da bursa trocantérica.
+    word: true
+
+  - trigger: "qdb2"
+    label: "Quadril: Bursite trocantérica"
+    replace: Distensão líquida e espessamento parietal da bursa trocantérica, indicando bursite.
+    word: true
+
+  - trigger: "qdb2c"
+    label: "Quadril: Bursite trocantérica (conclusão)"
+    replace: Bursite trocantérica.
+    word: true
+
+  # --- Quadril: músculos ---
+
+  - trigger: "qdm1"
+    label: "Quadril: Ventres musculares normais"
+    replace: Ventres musculares com arquitetura fibrilar preservada.
+    word: true
+
+  # --- Quadril: lesão muscular / rotura tendínea ---
+
+  - trigger: "qdl1"
+    label: "Quadril: Estiramento do reto femoral"
+    replace: Estiramento da transição miotendínea / plano miofascial / ventre muscular proximal / distal do _ reto femoral, caracterizado por perda do padrão fibrilar habitual, sem francas roturas ou desinserções.
+    word: true
+
+  - trigger: "qdl1c"
+    label: "Quadril: Estiramento do reto femoral (conclusão)"
+    replace: Estiramento do reto femoral.
+    word: true
+
+  - trigger: "qdl2"
+    label: "Quadril: Lesão parcial do gastrocnêmio medial"
+    replace: Lesão parcial da transição miotendínea / mioaponeurótica distal do gastrocnêmio medial, caracterizada por área de descontinuidade medindo cerca de _ x _, nos eixos longitudinal e transverso, respectivamente, associada a conteúdo líquido / hemático na área de rotura, além de lâmina líquida entre os planos miofasciais do solear e gastrocnêmio, que se estende até o terço distal da perna.
+    word: true
+
+  - trigger: "qdl2c"
+    label: "Quadril: Lesão parcial do gastrocnêmio medial (conclusão)"
+    replace: Lesão parcial do gastrocnêmio medial.
+    word: true
+
+  - trigger: "qdl3"
+    label: "Quadril: Lesão completa da origem dos isquiotibiais"
+    replace: Lesão completa com desinserção da origem dos tendões isquiotibiais, com extenso conteúdo líquido / hemático na área de rotura, estando o coto tendíneo retraído a cerca de _ cm da tuberosidade isquiática.
+    word: true
+
+  - trigger: "qdl3c"
+    label: "Quadril: Lesão completa da origem dos isquiotibiais (conclusão)"
+    replace: Lesão completa da origem dos isquiotibiais.
+    word: true
+
+  - trigger: "qdl4"
+    label: "Quadril: Sugerir correlação com RM"
+    replace: Sugere-se correlação com a ressonância magnética (caso não haja contraindicação clínica).
+    word: true
+
+  # --- Quadril: ressaltos (banda iliotibial / iliopsoas) ---
+
+  - trigger: "qdr1"
+    label: "Quadril: Ressalto da banda iliotibial"
+    replace: Ressalto da banda iliotibial sobre o trocânter maior femoral durante as manobras dinâmicas. Não há bursite trocantérica ou espessamento da banda iliotibial.
+    word: true
+
+  - trigger: "qdr1c"
+    label: "Quadril: Ressalto da banda iliotibial (conclusão)"
+    replace: Ressalto da banda iliotibial.
+    word: true
+
+  - trigger: "qdr2"
+    label: "Quadril: ITB com espessamento e bursite (add-on)"
+    replace: Associa-se espessamento da banda iliotibial e bursite trocantérica.
+    word: true
+
+  - trigger: "qdr3"
+    label: "Quadril: Ressalto do tendão do iliopsoas"
+    replace: Ressalto do tendão do iliopsoas sobre a eminência iliopectínea durante as manobras dinâmicas. Não há espessamento tendíneo ou bursite do iliopsoas.
+    word: true
+
+  - trigger: "qdr3c"
+    label: "Quadril: Ressalto do tendão do iliopsoas (conclusão)"
+    replace: Ressalto do tendão do iliopsoas.
+    word: true
+
+  - trigger: "qdr4"
+    label: "Quadril: Bursite do iliopsoas (add-on)"
+    replace: Associa-se bursite do iliopsoas.
+    word: true
+
+  # --- Quadril: Morel-Lavallée ---
+
+  - trigger: "qdml1"
+    label: "Quadril: Morel-Lavallée"
+    replace: Coleção líquida / hemática localizada entre a camada profunda do tecido celular subcutâneo e a fáscia muscular, na região peritrocantérica, medindo cerca de _ x _ x _ cm (longitudinal x transverso x espessura), que, associada aos dados clínicos, é compatível com coleção hemática pós-traumática (Morel-Lavallée).
+    word: true
+
+  # ==============================================================================
+  # MÚSCULO-ESQUELÉTICO — JOELHO
+  # ==============================================================================
+
+  - trigger: "usjoelhod"
+    label: Joelho direito — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO JOELHO DIREITO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Análise:
+      Ausência de derrame articular.
+      Tendão quadríceps e ligamento patelar íntegros.
+      Ligamentos colaterais preservados.
+      Tendões da "pata de ganso" de aspecto ecográfico habitual.
+      Ventres musculares tróficos com arquitetura fibrilar preservada.
+      Ausência de cisto poplíteo.
+
+      Conclusão:
+      Exame ecográfico dentro dos padrões da normalidade.
+    word: true
+
+  - trigger: "usjoelhoe"
+    label: Joelho esquerdo — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO JOELHO ESQUERDO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução.
+
+      Análise:
+      Ausência de derrame articular.
+      Tendão quadríceps e ligamento patelar íntegros.
+      Ligamentos colaterais preservados.
+      Tendões da "pata de ganso" de aspecto ecográfico habitual.
+      Ventres musculares tróficos com arquitetura fibrilar preservada.
+      Ausência de cisto poplíteo.
+
+      Conclusão:
+      Exame ecográfico dentro dos padrões da normalidade.
+    word: true
+
   # --- Joelho: técnica ---
 
   - trigger: "jot1"
@@ -6978,6 +6587,13 @@ matches:
   - trigger: "jod6c"
     label: "Joelho: Derrame articular com sinovite e corpo livre intra-articular (conclusão)"
     replace: Derrame articular com sinovite e corpo livre intra-articular.
+    word: true
+
+  - trigger: "jod7"
+    label: "Joelho (derrame articular): Estudo direcionado para a pesquisa de derrame articular no joelho _ evidencia:"
+    replace: |-
+      Estudo direcionado para a pesquisa de derrame articular no joelho _ evidencia:
+      Pequena/Moderada/Acentuada quantidade de líquido livre anecoico no recesso suprapatelar.
     word: true
 
   # --- Joelho: compartimento anterior ---
@@ -7285,252 +6901,659 @@ matches:
     replace: Tendinopatia da origem do gastrocnêmio medial / inserção do semimembranoso.
     word: true
 
-  # --- Quadril: derrame articular ---
+  # ==============================================================================
+  # MÚSCULO-ESQUELÉTICO — TORNOZELO E PÉ
+  # ==============================================================================
 
-  - trigger: "qdd1"
-    label: "Quadril: Sem derrame articular"
+  - trigger: "ustornozelod"
+    label: Tornozelo direito — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO TORNOZELO DIREITO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (face anterior / lateral / medial / posterior do tornozelo).
+
+      Exame direcionado para a região álgica referida pelo paciente (região plantar do retropé).
+
+      Análise:
+      Ausência de derrame articular significativo.
+      Tendão calcâneo e fáscia plantar com espessura e padrão fibrilar habituais.
+      Tendões tibial anterior, tibial posterior, fibulares, extensores e flexores de espessura, continuidade e ecotextura preservadas.
+      Ligamento talofibular anterior sem lesões significativas.
+
+      Conclusão:
+      Exame ecográfico sem alterações significativas.
+    word: true
+
+  - trigger: "ustornozeloe"
+    label: Tornozelo esquerdo — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO TORNOZELO ESQUERDO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (face anterior / lateral / medial / posterior do tornozelo).
+
+      Exame direcionado para a região álgica referida pelo paciente (região plantar do retropé).
+
+      Análise:
+      Ausência de derrame articular significativo.
+      Tendão calcâneo e fáscia plantar com espessura e padrão fibrilar habituais.
+      Tendões tibial anterior, tibial posterior, fibulares, extensores e flexores de espessura, continuidade e ecotextura preservadas.
+      Ligamento talofibular anterior sem lesões significativas.
+
+      Conclusão:
+      Exame ecográfico sem alterações significativas.
+    word: true
+
+  - trigger: "usped"
+    label: Pé direito — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO PÉ DIREITO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (antepé).
+
+      Análise:
+      Fáscia plantar com espessura e ecotextura habituais.
+      Não há evidência de neuroma de Morton ao método.
+      Não se observam formações expansivas na região examinada.
+      Planos musculares adjacentes com morfologia habitual e arquitetura fibrilar preservada.
+      Superfícies ósseas sem alterações ao método.
+
+      Conclusão:
+      Exame ecográfico sem alterações significativas.
+    word: true
+
+  - trigger: "uspee"
+    label: Pé esquerdo — normal
+    replace: |-
+      ULTRASSONOGRAFIA DO PÉ ESQUERDO
+
+      Técnica:
+      Exame realizado com transdutor linear multifrequencial de alta resolução direcionado para a região álgica referida pelo paciente (antepé).
+
+      Análise:
+      Fáscia plantar com espessura e ecotextura habituais.
+      Não há evidência de neuroma de Morton ao método.
+      Não se observam formações expansivas na região examinada.
+      Planos musculares adjacentes com morfologia habitual e arquitetura fibrilar preservada.
+      Superfícies ósseas sem alterações ao método.
+
+      Conclusão:
+      Exame ecográfico sem alterações significativas.
+    word: true
+
+  # --- Tornozelo: derrame ---
+
+  - trigger: "tzd1"
+    label: "Tornozelo: Sem derrame articular"
     replace: Ausência de derrame articular.
     word: true
 
-  - trigger: "qdd2"
-    label: "Quadril: Derrame articular"
-    replace: Sinais de pequeno / moderado / acentuado derrame articular.
+  - trigger: "tzd2"
+    label: "Tornozelo: Derrame tibiotalar"
+    replace: Pequeno / moderado / acentuado derrame articular tibiotalar.
     word: true
 
-  - trigger: "qdd2c"
-    label: "Quadril: Derrame articular (conclusão)"
-    replace: Derrame articular.
+  - trigger: "tzd2c"
+    label: "Tornozelo: Derrame articular tibiotalar (conclusão)"
+    replace: Derrame articular tibiotalar.
     word: true
 
-  - trigger: "qdd4"
-    label: "Quadril: Derrame com sinovite"
-    replace: Derrame articular com hipertrofia sinovial, indicando sinovite.
+  - trigger: "tzd3"
+    label: "Tornozelo: Derrame na subtalar posterior"
+    replace: Pequeno / moderado / acentuado derrame articular na subtalar posterior.
     word: true
 
-  - trigger: "qdd4c"
-    label: "Quadril: Derrame articular com sinovite (conclusão)"
+  - trigger: "tzd3c"
+    label: "Tornozelo: Derrame articular na subtalar posterior (conclusão)"
+    replace: Derrame articular na subtalar posterior.
+    word: true
+
+  - trigger: "tzd4"
+    label: "Tornozelo: Derrame com sinovite"
+    replace: Derrame articular com sinovite na articulação tibiotalar / subtalar / talonavicular.
+    word: true
+
+  - trigger: "tzd4c"
+    label: "Tornozelo: Derrame articular com sinovite (conclusão)"
     replace: Derrame articular com sinovite.
     word: true
 
-  - trigger: "qdd5"
-    label: "Quadril: Sinovite com atividade ao Doppler"
-    replace: Hipertrofia sinovial com vascularização ao Power Doppler, indicando sinovite com atividade inflamatória.
+  - trigger: "tzd5"
+    label: "Tornozelo: Derrame talonavicular (configuração cística)"
+    replace: Pequeno derrame articular talonavicular que adquire configuração cística junto à região dorsolateral da cabeça do tálus.
     word: true
 
-  - trigger: "qdd5c"
-    label: "Quadril: Sinovite com atividade inflamatória ao Doppler (conclusão)"
-    replace: Sinovite com atividade inflamatória ao Doppler.
+  - trigger: "tzd5c"
+    label: "Tornozelo: Derrame talonavicular com configuração cística (conclusão)"
+    replace: Derrame talonavicular com configuração cística.
     word: true
 
-  # --- Quadril: articulação coxofemoral ---
+  # --- Tornozelo: tendão calcâneo ---
 
-  - trigger: "qda1"
-    label: "Quadril: Artropatia degenerativa coxofemoral"
-    replace: Osteófitos marginais na articulação coxofemoral, sugerindo artropatia degenerativa. Sugere-se correlação radiográfica.
+  - trigger: "tzc1"
+    label: "Tornozelo: Tendão calcâneo normal"
+    replace: Tendão calcâneo com espessura e ecotextura dentro dos padrões da normalidade.
     word: true
 
-  - trigger: "qda1c"
-    label: "Quadril: Artropatia degenerativa coxofemoral (conclusão)"
-    replace: Artropatia degenerativa coxofemoral.
+  - trigger: "tzc2"
+    label: "Tornozelo: Entesopatia insercional do calcâneo"
+    replace: Entesopatia insercional do calcâneo, sem tendinopatias relevantes ou roturas.
     word: true
 
-  - trigger: "qda2"
-    label: "Quadril: Cisto paralabral"
-    replace: Imagem com características císticas, medindo _ cm, adjacente ao lábio acetabular, provavelmente relacionada a cisto paralabral. Sugere-se correlação com a ressonância magnética (caso não haja contraindicação) para melhor caracterização dos achados.
+  - trigger: "tzc2c"
+    label: "Tornozelo: Entesopatia insercional do calcâneo (conclusão)"
+    replace: Entesopatia insercional do calcâneo.
     word: true
 
-  - trigger: "qda2c"
-    label: "Quadril: Cisto paralabral (conclusão)"
-    replace: Cisto paralabral.
+  - trigger: "tzc3"
+    label: "Tornozelo: Peritendinite do calcâneo"
+    replace: Fino halo anecoico circundando o tendão calcâneo, sugerindo peritendinite, sem alterações tendíneas significativas.
     word: true
 
-  # --- Quadril: tendões dos glúteos ---
-
-  - trigger: "qdg1"
-    label: "Quadril: Tendões glúteos normais"
-    replace: Tendões dos glúteos médio e mínimo de aspecto ecográfico habitual.
+  - trigger: "tzc3c"
+    label: "Tornozelo: Peritendinite do calcâneo (conclusão)"
+    replace: Peritendinite do calcâneo.
     word: true
 
-  - trigger: "qdg2"
-    label: "Quadril: Heterogeneidade do glúteo mínimo"
-    replace: Discreta heterogeneidade do tendão do glúteo mínimo, sem espessamento ou roturas; tal achado, para ser valorizado como tendinopatia, deve ter estreita correlação com os dados clínicos.
+  - trigger: "tzc4"
+    label: "Tornozelo: Tendinopatia insercional do calcâneo"
+    replace: Tendinopatia e entesopatia insercional do calcâneo caracterizada por espessamento e perda do padrão fibrilar com entesófitos, sem roturas.
     word: true
 
-  - trigger: "qdg2c"
-    label: "Quadril: Discreta heterogeneidade do glúteo mínimo, a correlacionar clinicamente (conclusão)"
-    replace: Discreta heterogeneidade do glúteo mínimo, a correlacionar clinicamente.
+  - trigger: "tzc4c"
+    label: "Tornozelo: Tendinopatia insercional do calcâneo (conclusão)"
+    replace: Tendinopatia insercional do calcâneo.
     word: true
 
-  - trigger: "qdg3"
-    label: "Quadril: Tendinopatia insercional do glúteo mínimo"
-    replace: Tendinopatia insercional do glúteo mínimo caracterizada por espessamento e perda do padrão fibrilar, sem roturas.
+  - trigger: "tzc5"
+    label: "Tornozelo: Tendinopatia insercional do calcâneo com fissuras"
+    replace: Tendinopatia e entesopatia insercional do calcâneo caracterizada por espessamento e perda do padrão fibrilar, destacando-se focos de degeneração e fissuras intrassubstanciais, sem francas roturas ou desinserções.
     word: true
 
-  - trigger: "qdg3c"
-    label: "Quadril: Tendinopatia insercional do glúteo mínimo (conclusão)"
-    replace: Tendinopatia insercional do glúteo mínimo.
+  - trigger: "tzc5c"
+    label: "Tornozelo: Tendinopatia insercional do calcâneo com fissuras (conclusão)"
+    replace: Tendinopatia insercional do calcâneo com fissuras.
     word: true
 
-  - trigger: "qdg4"
-    label: "Quadril: Tendinopatia do glúteo mínimo e médio"
-    replace: Tendinopatia do glúteo mínimo e fibras anteriores do glúteo médio, caracterizada por espessamento e perda do padrão fibrilar, destacando-se focos de degeneração e fissuras intrassubstanciais, além de entesófitos no trocânter maior femoral, sem nítidas desinserções.
+  - trigger: "tzc6"
+    label: "Tornozelo: Tendinopatia insercional com bursite e Haglund"
+    replace: Tendinopatia e entesopatia insercional do calcâneo com focos de degeneração e fissuras intrassubstanciais associada a bursite retrocalcaneana profunda e proeminência do processo posterossuperior do osso calcâneo (Haglund).
     word: true
 
-  - trigger: "qdg4c"
-    label: "Quadril: Tendinopatia do glúteo mínimo e médio (conclusão)"
-    replace: Tendinopatia do glúteo mínimo e médio.
+  - trigger: "tzc6c"
+    label: "Tornozelo: Tendinopatia insercional do calcâneo com bursite retrocalcaneana e Haglund (conclusão)"
+    replace: Tendinopatia insercional do calcâneo com bursite retrocalcaneana e Haglund.
     word: true
 
-  - trigger: "qdg5"
-    label: "Quadril: Glúteos com provável rotura de alto grau"
-    replace: Tendinopatia do glúteo mínimo e médio, com focos de degeneração e fissuras intrassubstanciais, destacando-se acentuado afilamento insercional do glúteo mínimo, podendo estar relacionado a rotura de alto grau. Associam-se entesófitos no trocânter maior femoral e sinais de hipotrofia com lipossubstituição do ventre muscular do glúteo mínimo.
+  - trigger: "tzc7"
+    label: "Tornozelo: Degeneração extensa do calcâneo (add-on)"
+    replace: Extensa área de degeneração tendínea acometendo _% da circunferência do tendão, com extensão longitudinal de _ cm.
     word: true
 
-  - trigger: "qdg5c"
-    label: "Quadril: Tendinopatia do glúteo mínimo e médio com provável rotura de alto grau (conclusão)"
-    replace: Tendinopatia do glúteo mínimo e médio com provável rotura de alto grau.
+  - trigger: "tzc8"
+    label: "Tornozelo: Tendinopatia não insercional do calcâneo"
+    replace: Tendinopatia não insercional do calcâneo caracterizada por espessamento fusiforme do corpo tendíneo com focos de degeneração e fissuras intrassubstanciais, sem nítidas roturas.
     word: true
 
-  - trigger: "qdg6"
-    label: "Quadril: Tendinopatia calcária do glúteo mínimo"
-    replace: Tendinopatia calcária do glúteo mínimo, caracterizada por foco de calcificação junto à inserção, medindo cerca de _ x _ cm.
+  - trigger: "tzc8c"
+    label: "Tornozelo: Tendinopatia não insercional do calcâneo (conclusão)"
+    replace: Tendinopatia não insercional do calcâneo.
     word: true
 
-  - trigger: "qdg6c"
-    label: "Quadril: Tendinopatia calcária do glúteo mínimo (conclusão)"
-    replace: Tendinopatia calcária do glúteo mínimo.
+  - trigger: "tzc9"
+    label: "Tornozelo: Rotura parcial do calcâneo"
+    replace: Tendão calcâneo apresentando descontinuidade parcial das fibras mais profundas / superficiais / laterais / mediais a aproximadamente _ mm de sua inserção no calcâneo, medindo _ mm longitudinal x _ mm transversal e acometendo cerca de _% da circunferência tendínea.
     word: true
 
-  - trigger: "qdg7"
-    label: "Quadril: Entesófitos no trocânter maior (add-on)"
-    replace: Associam-se entesófitos no trocânter maior femoral.
+  - trigger: "tzc9c"
+    label: "Tornozelo: Rotura parcial do tendão calcâneo (conclusão)"
+    replace: Rotura parcial do tendão calcâneo.
     word: true
 
-  - trigger: "qdg8"
-    label: "Quadril: Bursite subglútea (add-on)"
-    replace: Associa-se distensão líquida da bursa subglútea mínima / média, indicando bursite.
+  - trigger: "tzc10"
+    label: "Tornozelo: Rotura completa do calcâneo (desinserção)"
+    replace: Rotura completa com desinserção do tendão calcâneo, estando o coto tendíneo degenerado e de contornos irregulares, retraído a cerca de _ cm do osso calcâneo, com conteúdo líquido / hemático na área de rotura.
     word: true
 
-  # --- Quadril: demais tendões (adutores / isquiotibiais) ---
-
-  - trigger: "qdt1"
-    label: "Quadril: Tendinopatia dos adutores"
-    replace: Tendinopatia na origem comum dos adutores, caracterizada por espessamento e heterogeneidade, com focos de degeneração e fissuras intrassubstanciais, sem nítidas desinserções.
+  - trigger: "tzc10c"
+    label: "Tornozelo: Rotura completa do tendão calcâneo (conclusão)"
+    replace: Rotura completa do tendão calcâneo.
     word: true
 
-  - trigger: "qdt1c"
-    label: "Quadril: Tendinopatia da origem comum dos adutores (conclusão)"
-    replace: Tendinopatia da origem comum dos adutores.
+  - trigger: "tzc11"
+    label: "Tornozelo: Rotura completa do calcâneo (transfixação do corpo)"
+    replace: Rotura completa com transfixação do tendão calcâneo ao nível do corpo tendíneo, estando os cotos degenerados com diástase de _ cm. O coto tendíneo proximal localiza-se ao nível da transição miotendínea e o coto tendíneo distal localiza-se a cerca de _ cm da inserção.
     word: true
 
-  - trigger: "qdt2"
-    label: "Quadril: Tendinopatia dos isquiotibiais"
-    replace: Tendinopatia na origem comum dos isquiotibiais, com espessamento e perda do padrão fibrilar, associada a entesófitos na tuberosidade isquiática, sem nítidas roturas.
+  - trigger: "tzc11c"
+    label: "Tornozelo: Rotura completa do tendão calcâneo (transfixação do corpo) (conclusão)"
+    replace: Rotura completa do tendão calcâneo (transfixação do corpo).
     word: true
 
-  - trigger: "qdt2c"
-    label: "Quadril: Tendinopatia da origem comum dos isquiotibiais (conclusão)"
-    replace: Tendinopatia da origem comum dos isquiotibiais.
+  - trigger: "tzc12"
+    label: "Tornozelo: Rotura completa do calcâneo (com equino)"
+    replace: Tendão calcâneo apresentando descontinuidade total a aproximadamente _ mm de sua inserção no calcâneo, com distância entre os cotos tendíneos de cerca de _ mm em repouso e _ mm na posição em equino (_ graus) e preenchimento da área rota por efusão líquida hemorrágica. Contato entre os cotos tendíneos na flexão plantar de 15 graus.
     word: true
 
-  # --- Quadril: bursa trocantérica ---
-
-  - trigger: "qdb1"
-    label: "Quadril: Bursa trocantérica normal"
-    replace: Ausência de distensão líquida patológica da bursa trocantérica.
+  - trigger: "tzc12c"
+    label: "Tornozelo: Rotura completa do tendão calcâneo (conclusão)"
+    replace: Rotura completa do tendão calcâneo.
     word: true
 
-  - trigger: "qdb2"
-    label: "Quadril: Bursite trocantérica"
-    replace: Distensão líquida e espessamento parietal da bursa trocantérica, indicando bursite.
+  - trigger: "tzc13"
+    label: "Tornozelo: Rotura crônica do calcâneo (fibrocicatricial)"
+    replace: Sinais de rotura pregressa do tendão calcâneo com extensas alterações fibrocicatriciais que se estendem por cerca de _ cm no eixo longitudinal.
     word: true
 
-  - trigger: "qdb2c"
-    label: "Quadril: Bursite trocantérica (conclusão)"
-    replace: Bursite trocantérica.
+  - trigger: "tzc13c"
+    label: "Tornozelo: Rotura crônica do tendão calcâneo (conclusão)"
+    replace: Rotura crônica do tendão calcâneo.
     word: true
 
-  # --- Quadril: músculos ---
-
-  - trigger: "qdm1"
-    label: "Quadril: Ventres musculares normais"
-    replace: Ventres musculares com arquitetura fibrilar preservada.
+  - trigger: "tzc14"
+    label: "Tornozelo: Rotura crônica do calcâneo (fibrose)"
+    replace: Sinais de rotura crônica do tendão calcâneo com extensa fibrose e alterações cicatriciais de permeio.
     word: true
 
-  # --- Quadril: lesão muscular / rotura tendínea ---
-
-  - trigger: "qdl1"
-    label: "Quadril: Estiramento do reto femoral"
-    replace: Estiramento da transição miotendínea / plano miofascial / ventre muscular proximal / distal do _ reto femoral, caracterizado por perda do padrão fibrilar habitual, sem francas roturas ou desinserções.
+  - trigger: "tzc14c"
+    label: "Tornozelo: Rotura crônica do tendão calcâneo (conclusão)"
+    replace: Rotura crônica do tendão calcâneo.
     word: true
 
-  - trigger: "qdl1c"
-    label: "Quadril: Estiramento do reto femoral (conclusão)"
-    replace: Estiramento do reto femoral.
+  - trigger: "tzc15"
+    label: "Tornozelo: Pós-operatório do calcâneo"
+    replace: Alterações pós-operatórias do tendão calcâneo com espessamento e irregularidades tendíneas difusas, de aspecto fibrocicatricial, sem nítidas áreas de transfixações ou desinserções. Achado habitual para o tempo pós-operatório.
     word: true
 
-  - trigger: "qdl2"
-    label: "Quadril: Lesão parcial do gastrocnêmio medial"
-    replace: Lesão parcial da transição miotendínea / mioaponeurótica distal do gastrocnêmio medial, caracterizada por área de descontinuidade medindo cerca de _ x _, nos eixos longitudinal e transverso, respectivamente, associada a conteúdo líquido / hemático na área de rotura, além de lâmina líquida entre os planos miofasciais do solear e gastrocnêmio, que se estende até o terço distal da perna.
+  - trigger: "tzc15c"
+    label: "Tornozelo: Alterações pós-operatórias do tendão calcâneo (conclusão)"
+    replace: Alterações pós-operatórias do tendão calcâneo.
     word: true
 
-  - trigger: "qdl2c"
-    label: "Quadril: Lesão parcial do gastrocnêmio medial (conclusão)"
-    replace: Lesão parcial do gastrocnêmio medial.
+  - trigger: "tzc16"
+    label: "Tendão calcâneo (rotura): Estudo direcionado para a avaliação do tendão calcâneo à _ evidencia:"
+    replace: |-
+      Estudo direcionado para a avaliação do tendão calcâneo à _ evidencia:
+      Rotura completa do tendão calcâneo, com distância entre cotos (gap) de _ cm e distando _ cm da inserção distal do calcâneo. Associa-se conteúdo heterogêneo entre os cotos, de provável natureza hemática.
     word: true
 
-  - trigger: "qdl3"
-    label: "Quadril: Lesão completa da origem dos isquiotibiais"
-    replace: Lesão completa com desinserção da origem dos tendões isquiotibiais, com extenso conteúdo líquido / hemático na área de rotura, estando o coto tendíneo retraído a cerca de _ cm da tuberosidade isquiática.
+  # --- Tornozelo: tendão tibial anterior ---
+
+  - trigger: "tzta1"
+    label: "Tornozelo: Tibial anterior normal"
+    replace: Tendão tibial anterior com calibre e ecotextura fibrilar habituais.
     word: true
 
-  - trigger: "qdl3c"
-    label: "Quadril: Lesão completa da origem dos isquiotibiais (conclusão)"
-    replace: Lesão completa da origem dos isquiotibiais.
+  - trigger: "tzta2"
+    label: "Tornozelo: Tendinopatia do tibial anterior"
+    replace: Tendinopatia do terço distal e inserção do tibial anterior com aumento da espessura tendínea e perda do padrão fibrilar, sem roturas.
     word: true
 
-  - trigger: "qdl4"
-    label: "Quadril: Sugerir correlação com RM"
-    replace: Sugere-se correlação com a ressonância magnética (caso não haja contraindicação clínica).
+  - trigger: "tzta2c"
+    label: "Tornozelo: Tendinopatia do tibial anterior (conclusão)"
+    replace: Tendinopatia do tibial anterior.
     word: true
 
-  # --- Quadril: ressaltos (banda iliotibial / iliopsoas) ---
-
-  - trigger: "qdr1"
-    label: "Quadril: Ressalto da banda iliotibial"
-    replace: Ressalto da banda iliotibial sobre o trocânter maior femoral durante as manobras dinâmicas. Não há bursite trocantérica ou espessamento da banda iliotibial.
+  - trigger: "tzta3"
+    label: "Tornozelo: Tenossinovite do tibial anterior"
+    replace: Tenossinovite do tibial anterior ao nível do tornozelo caracterizada por distensão líquida / espessamento de sua bainha tendínea.
     word: true
 
-  - trigger: "qdr1c"
-    label: "Quadril: Ressalto da banda iliotibial (conclusão)"
-    replace: Ressalto da banda iliotibial.
+  - trigger: "tzta3c"
+    label: "Tornozelo: Tenossinovite do tibial anterior (conclusão)"
+    replace: Tenossinovite do tibial anterior.
     word: true
 
-  - trigger: "qdr2"
-    label: "Quadril: ITB com espessamento e bursite (add-on)"
-    replace: Associa-se espessamento da banda iliotibial e bursite trocantérica.
+  - trigger: "tzta4"
+    label: "Tornozelo: Rotura completa do tibial anterior"
+    replace: Rotura completa do tendão tibial anterior, estando os cotos tendíneos espessados e discretamente degenerados com diástase de _ cm. O coto tendíneo proximal localiza-se ao nível da tíbia distal e o coto tendíneo distal localiza-se ao nível do navicular. Associa-se tecido fibrocicatricial irregular na área de rotura.
     word: true
 
-  - trigger: "qdr3"
-    label: "Quadril: Ressalto do tendão do iliopsoas"
-    replace: Ressalto do tendão do iliopsoas sobre a eminência iliopectínea durante as manobras dinâmicas. Não há espessamento tendíneo ou bursite do iliopsoas.
+  - trigger: "tzta4c"
+    label: "Tornozelo: Rotura completa do tibial anterior (conclusão)"
+    replace: Rotura completa do tibial anterior.
     word: true
 
-  - trigger: "qdr3c"
-    label: "Quadril: Ressalto do tendão do iliopsoas (conclusão)"
-    replace: Ressalto do tendão do iliopsoas.
+  - trigger: "tzta5"
+    label: "Tornozelo: Bursite do tibial anterior (add-on)"
+    replace: Associa-se bursite subjacente à inserção do tibial anterior.
     word: true
 
-  - trigger: "qdr4"
-    label: "Quadril: Bursite do iliopsoas (add-on)"
-    replace: Associa-se bursite do iliopsoas.
+  # --- Tornozelo: tendão tibial posterior ---
+
+  - trigger: "tztp1"
+    label: "Tornozelo: Tibial posterior normal"
+    replace: Tendão tibial posterior com espessura e ecotextura dentro dos padrões da normalidade.
     word: true
 
-  # --- Quadril: Morel-Lavallée ---
+  - trigger: "tztp2"
+    label: "Tornozelo: Lâmina líquida fisiológica no tibial posterior"
+    replace: Fina lâmina líquida na bainha do tendão tibial posterior de aspecto fisiológico.
+    word: true
 
-  - trigger: "qdml1"
-    label: "Quadril: Morel-Lavallée"
-    replace: Coleção líquida / hemática localizada entre a camada profunda do tecido celular subcutâneo e a fáscia muscular, na região peritrocantérica, medindo cerca de _ x _ x _ cm (longitudinal x transverso x espessura), que, associada aos dados clínicos, é compatível com coleção hemática pós-traumática (Morel-Lavallée).
+  - trigger: "tztp3"
+    label: "Tornozelo: Tenossinovite do tibial posterior"
+    replace: Pequena distensão líquida da bainha do tendão tibial posterior indicando tenossinovite.
+    word: true
+
+  - trigger: "tztp3c"
+    label: "Tornozelo: Tenossinovite do tibial posterior (conclusão)"
+    replace: Tenossinovite do tibial posterior.
+    word: true
+
+  - trigger: "tztp4"
+    label: "Tornozelo: Tenossinovite e tendinopatia do tibial posterior"
+    replace: Tenossinovite e tendinopatia do tibial posterior caracterizada por distensão líquida de sua bainha e espessamento tendíneo, sem nítidas roturas.
+    word: true
+
+  - trigger: "tztp4c"
+    label: "Tornozelo: Tenossinovite e tendinopatia do tibial posterior (conclusão)"
+    replace: Tenossinovite e tendinopatia do tibial posterior.
+    word: true
+
+  - trigger: "tztp5"
+    label: "Tornozelo: Acentuada tenossinovite/tendinopatia do tibial posterior"
+    replace: Acentuada tenossinovite e tendinopatia do tibial posterior, predominando em seu terço distal, com focos de degeneração e fissuras intrassubstanciais, sem nítidas desinserções.
+    word: true
+
+  - trigger: "tztp5c"
+    label: "Tornozelo: Acentuada tenossinovite e tendinopatia do tibial posterior (conclusão)"
+    replace: Acentuada tenossinovite e tendinopatia do tibial posterior.
+    word: true
+
+  - trigger: "tztp6"
+    label: "Tornozelo: Osso navicular acessório (add-on)"
+    replace: Associa-se osso navicular acessório tipo I / II / III.
+    word: true
+
+  # --- Tornozelo: tendões fibulares ---
+
+  - trigger: "tzf1"
+    label: "Tornozelo: Fibulares normais"
+    replace: Tendões fibulares com espessura e ecotextura habituais, sem roturas.
+    word: true
+
+  - trigger: "tzf2"
+    label: "Tornozelo: Tenossinovite dos fibulares"
+    replace: Distensão líquida da bainha comum dos fibulares caracterizando tenossinovite, sem roturas.
+    word: true
+
+  - trigger: "tzf2c"
+    label: "Tornozelo: Tenossinovite dos fibulares (conclusão)"
+    replace: Tenossinovite dos fibulares.
+    word: true
+
+  - trigger: "tzf3"
+    label: "Tornozelo: Tenossinovite e tendinopatia dos fibulares"
+    replace: Tenossinovite e tendinopatia dos fibulares caracterizada por distensão líquida da bainha comum e espessamento dos tendões, sem nítidas roturas.
+    word: true
+
+  - trigger: "tzf3c"
+    label: "Tornozelo: Tenossinovite e tendinopatia dos fibulares (conclusão)"
+    replace: Tenossinovite e tendinopatia dos fibulares.
+    word: true
+
+  - trigger: "tzf4"
+    label: "Tornozelo: Tendinopatia do fibular longo (cuboide)"
+    replace: Tendinopatia e tenossinovite do fibular longo ao nível da deflexão junto à face lateral do cuboide, observando-se osso fibular acessório.
+    word: true
+
+  - trigger: "tzf4c"
+    label: "Tornozelo: Tendinopatia do fibular longo na deflexão do cuboide (conclusão)"
+    replace: Tendinopatia do fibular longo na deflexão do cuboide.
+    word: true
+
+  - trigger: "tzf5"
+    label: "Tornozelo: Rotura longitudinal do fibular curto"
+    replace: Tenossinovite e tendinopatia dos fibulares, destacando-se rotura longitudinal do trajeto retro e inframaleolar do fibular curto, que se estende por cerca de _ cm, estando o fibular longo insinuado na área de rotura, sem nítido split de suas fibras.
+    word: true
+
+  - trigger: "tzf5c"
+    label: "Tornozelo: Rotura longitudinal do fibular curto (conclusão)"
+    replace: Rotura longitudinal do fibular curto.
+    word: true
+
+  - trigger: "tzf6"
+    label: "Tornozelo: Rotura longitudinal com split do fibular curto"
+    replace: Tenossinovite e tendinopatia dos fibulares, destacando-se rotura longitudinal com split do trajeto retro e inframaleolar do fibular curto, que se estende por cerca de _ cm, estando o fibular longo insinuado na área de rotura.
+    word: true
+
+  - trigger: "tzf6c"
+    label: "Tornozelo: Rotura longitudinal com split do fibular curto (conclusão)"
+    replace: Rotura longitudinal com split do fibular curto.
+    word: true
+
+  - trigger: "tzf7"
+    label: "Tornozelo: Sem luxação dos fibulares"
+    replace: Ausência de luxação tendínea durante a realização das manobras dinâmicas.
+    word: true
+
+  - trigger: "tzf8"
+    label: "Tornozelo: Luxação dos fibulares (insuficiência do retináculo)"
+    replace: Luxação / subluxação dos tendões fibulares durante as manobras dinâmicas de flexão dorsal e eversão, sugerindo insuficiência do retináculo fibular superior. Associa-se convexidade do contorno posterior da fíbula.
+    word: true
+
+  - trigger: "tzf8c"
+    label: "Tornozelo: Luxação dos fibulares por insuficiência do retináculo fibular superior (conclusão)"
+    replace: Luxação dos fibulares por insuficiência do retináculo fibular superior.
+    word: true
+
+  - trigger: "tzf9"
+    label: "Tornozelo: Hipertrofia do tubérculo dos fibulares"
+    replace: Hipertrofia do tubérculo dos fibulares junto à parede lateral do calcâneo.
+    word: true
+
+  - trigger: "tzf9c"
+    label: "Tornozelo: Hipertrofia do tubérculo dos fibulares (conclusão)"
+    replace: Hipertrofia do tubérculo dos fibulares.
+    word: true
+
+  # --- Tornozelo: fáscia plantar ---
+
+  - trigger: "tzfp1"
+    label: "Tornozelo: Fáscia plantar normal"
+    replace: Fáscia plantar com espessura e ecotextura fibrilar preservadas.
+    word: true
+
+  - trigger: "tzfp2"
+    label: "Tornozelo: Fasciíte plantar"
+    replace: Fasciíte plantar caracterizada por espessamento (_ mm) do terço proximal e origem da banda central da fáscia plantar. Associa-se esporão calcâneo plantar.
+    word: true
+
+  - trigger: "tzfp2c"
+    label: "Tornozelo: Fasciíte plantar (conclusão)"
+    replace: Fasciíte plantar.
+    word: true
+
+  - trigger: "tzfp3"
+    label: "Tornozelo: Espessamento crônico da fáscia plantar"
+    replace: Espessamento de aspecto crônico do terço proximal e origem da fáscia plantar associado a esporão calcâneo plantar.
+    word: true
+
+  - trigger: "tzfp3c"
+    label: "Tornozelo: Espessamento crônico da fáscia plantar (conclusão)"
+    replace: Espessamento crônico da fáscia plantar.
+    word: true
+
+  - trigger: "tzfp4"
+    label: "Tornozelo: Fasciopatia plantar crônica"
+    replace: Fasciopatia plantar de aspecto crônico com espessamento do terço proximal e origem da fáscia plantar.
+    word: true
+
+  - trigger: "tzfp4c"
+    label: "Tornozelo: Fasciopatia plantar crônica (conclusão)"
+    replace: Fasciopatia plantar crônica.
+    word: true
+
+  - trigger: "tzfp5"
+    label: "Tornozelo: Fibroma / fibromatose plantar"
+    replace: Espessamento fusiforme da fáscia plantar ao nível do mediopé, junto à nodulação referida pelo paciente, apresentando discreta vascularização ao estudo Doppler, medindo cerca de _ x _ cm, sugestiva de fibroma / fibromatose plantar.
+    word: true
+
+  - trigger: "tzfp5c"
+    label: "Tornozelo: Fibroma / fibromatose plantar (conclusão)"
+    replace: Fibroma / fibromatose plantar.
+    word: true
+
+  # --- Tornozelo: ligamentos (talofibular anterior) ---
+
+  - trigger: "tzl1"
+    label: "Tornozelo: Edema perimaleolar lateral"
+    replace: Edema do tecido celular subcutâneo na região perimaleolar lateral.
+    word: true
+
+  - trigger: "tzl2"
+    label: "Tornozelo: Talofibular anterior normal"
+    replace: Ligamento talofibular anterior sem alterações significativas.
+    word: true
+
+  - trigger: "tzl3"
+    label: "Tornozelo: Estiramento do talofibular anterior"
+    replace: Discreto halo hipoecogênico circundando o ligamento talofibular anterior, sugerindo estiramento, sem transfixações ou desinserções.
+    word: true
+
+  - trigger: "tzl3c"
+    label: "Tornozelo: Estiramento do ligamento talofibular anterior (conclusão)"
+    replace: Estiramento do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl4"
+    label: "Tornozelo: Lesão parcial do talofibular anterior"
+    replace: Lesão parcial do ligamento talofibular anterior caracterizada por espessamento e perda do padrão fibrilar, com líquido e edema de permeio e nos planos adiposos adjacentes, sem nítidas transfixações ou desinserções.
+    word: true
+
+  - trigger: "tzl4c"
+    label: "Tornozelo: Lesão parcial do ligamento talofibular anterior (conclusão)"
+    replace: Lesão parcial do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl5"
+    label: "Tornozelo: Lesão completa do talofibular anterior"
+    replace: Sinais de lesão completa do ligamento talofibular anterior caracterizada por transfixação em seu terço médio associada a líquido e edema de permeio e extravasamento de líquido para os planos adiposos adjacentes.
+    word: true
+
+  - trigger: "tzl5c"
+    label: "Tornozelo: Lesão completa do ligamento talofibular anterior (conclusão)"
+    replace: Lesão completa do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl6"
+    label: "Tornozelo: Rotura completa do talofibular anterior (desinserção)"
+    replace: Rotura completa com desinserção talar do ligamento talofibular anterior com extensa quantidade de líquido circunjacente.
+    word: true
+
+  - trigger: "tzl6c"
+    label: "Tornozelo: Rotura completa do ligamento talofibular anterior (conclusão)"
+    replace: Rotura completa do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl7"
+    label: "Tornozelo: Lesão do talofibular anterior com avulsão óssea"
+    replace: Lesão do ligamento talofibular anterior caracterizada por espessamento e perda do padrão fibrilar associada a fragmento ósseo avulsivo junto à inserção fibular, estando o ligamento inserido neste fragmento.
+    word: true
+
+  - trigger: "tzl7c"
+    label: "Tornozelo: Lesão do ligamento talofibular anterior com avulsão óssea (conclusão)"
+    replace: Lesão do ligamento talofibular anterior com avulsão óssea.
+    word: true
+
+  - trigger: "tzl8"
+    label: "Tornozelo: Lesão de alto grau do talofibular anterior"
+    replace: Sinais de lesão de alto grau do ligamento talofibular anterior caracterizada por má definição com irregularidades de suas fibras, observando-se edema de permeio e periligamentar.
+    word: true
+
+  - trigger: "tzl8c"
+    label: "Tornozelo: Lesão de alto grau do ligamento talofibular anterior (conclusão)"
+    replace: Lesão de alto grau do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl9"
+    label: "Tornozelo: Sugerir correlação com exame físico (agudo)"
+    replace: A relevância desses achados dependerá de correlação com o exame físico.
+    word: true
+
+  - trigger: "tzl10"
+    label: "Tornozelo: Rotura crônica do talofibular anterior"
+    replace: Sinais de rotura crônica do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl10c"
+    label: "Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão)"
+    replace: Rotura crônica do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl11"
+    label: "Tornozelo: Talofibular anterior não caracterizado (rotura crônica)"
+    replace: Ligamento talofibular anterior não caracterizado, sugerindo rotura crônica.
+    word: true
+
+  - trigger: "tzl11c"
+    label: "Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão)"
+    replace: Rotura crônica do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl12"
+    label: "Tornozelo: Talofibular anterior cicatricial"
+    replace: Espessamento e irregularidade de aspecto cicatricial do ligamento talofibular anterior, sem nítidas transfixações.
+    word: true
+
+  - trigger: "tzl12c"
+    label: "Tornozelo: Alterações cicatriciais do ligamento talofibular anterior (conclusão)"
+    replace: Alterações cicatriciais do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl13"
+    label: "Tornozelo: Afilamento cicatricial do talofibular anterior"
+    replace: Acentuado afilamento cicatricial do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl13c"
+    label: "Tornozelo: Afilamento cicatricial do ligamento talofibular anterior (conclusão)"
+    replace: Afilamento cicatricial do ligamento talofibular anterior.
+    word: true
+
+  - trigger: "tzl14"
+    label: "Tornozelo: Correlação para suficiência ligamentar (crônico)"
+    replace: Sugere-se correlação com o exame físico para avaliação da suficiência ligamentar.
+    word: true
+
+  - trigger: "tzl15"
+    label: "Tornozelo: Fragmento avulsivo no maléolo lateral (add-on)"
+    replace: Associa-se pequeno fragmento avulsivo adjacente ao maléolo lateral, medindo _ cm.
+    word: true
+
+  # --- Tornozelo: estruturas ósseas ---
+
+  - trigger: "tzo1"
+    label: "Tornozelo: Osteófitos anteriores da tibiotalar"
+    replace: Osteófitos marginais na região anterior da articulação tibiotalar.
+    word: true
+
+  - trigger: "tzo1c"
+    label: "Tornozelo: Osteófitos anteriores da articulação tibiotalar (conclusão)"
+    replace: Osteófitos anteriores da articulação tibiotalar.
+    word: true
+
+  - trigger: "tzo2"
+    label: "Tornozelo: Alterações degenerativas do mediopé"
+    replace: Alterações degenerativas do mediopé caracterizadas por osteofitose marginal dorsal.
+    word: true
+
+  - trigger: "tzo2c"
+    label: "Tornozelo: Alterações degenerativas do mediopé (conclusão)"
+    replace: Alterações degenerativas do mediopé.
+    word: true
+
+  - trigger: "tzo3"
+    label: "Tornozelo: Irregularidades ósseas (correlação radiográfica)"
+    replace: Irregularidades das superfícies ósseas junto à articulação tibiotalar / talonavicular / mediopé. Sugere-se correlação radiográfica para melhor caracterização.
+    word: true
+
+  - trigger: "tzo3c"
+    label: "Tornozelo: Irregularidades ósseas do retropé / mediopé (correlação radiográfica) (conclusão)"
+    replace: Irregularidades ósseas do retropé / mediopé (correlação radiográfica).
     word: true
 
   # --- Pé: derrame ---
@@ -7761,6 +7784,10 @@ matches:
     label: "Pé: Sugerir correlação com RM"
     replace: Sugere-se correlação com a ressonância magnética (caso não haja contraindicação clínica).
     word: true
+
+  # ==============================================================================
+  # BOLSA ESCROTAL
+  # ==============================================================================
 
   - trigger: "usbolsa"
     label: Bolsa escrotal — normal

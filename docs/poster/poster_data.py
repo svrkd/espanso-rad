@@ -302,7 +302,6 @@ EXCLUSOES = [
     (r'^ma(?:[a-z].*|(?:1[3-9]|[2-8][0-9])c?)$', 'mamas BI-RADS 2025 — série extensa, consulta por Alt+Space'),
     (r'^colocurto$', 'obstétrica — colo curto (SMFM), achado específico do rastreamento de prematuridade'),
     (r'^(co|jo|mo|om|pd|pu|qd|tz|lm)', 'MSK por segmento — volume alto, cobertura via Alt+Space'),
-    (r'^me[12]$', 'MSK por segmento (tendão calcâneo / joelho) — prefixo legado fora do padrão co/jo/…/tz'),
     (r'^(?!usnc$|utnc$|ustvpc$).*c$', 'variante de conclusão (regra de gramática "…c")'),
     (r'^ob([3-9]|[1-4]\d)c?$', 'malformação fetal — não é agenda de rotina'),
     (r'^(carot|vert|ds|aorta|dabd)\d*c?$', 'Doppler vascular em slot dedicado (carótidas/vertebral/aorta/abdome superior)'),
