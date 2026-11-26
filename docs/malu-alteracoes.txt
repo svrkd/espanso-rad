@@ -341,11 +341,13 @@ regenerado sem o caderno-fonte. A regra equivalente está em RODADA_PADRAO
 CORRECOES e REGRAS_REGEX. Contagem por casamento de regra (uma regra pode
 trocar mais de um marcador num só casamento):
 
- 28x  cabeçalho de seção padronizado
+ 37x  cabeçalho de seção padronizado
         14 Relatório: -> Análise:; 6 ANÁLISE: e 1 ANÁLISE -> Análise:
+        9 TÉCNICA DE EXAME(:)/Técnica de exame: -> Técnica:
         3 Opinião:/OPINIÃO:, 1 Impressão:, 1 IMPRESSÃO DIAGNÓSTICA:,
         1 CONCLUSÃO: -> Conclusão:
         1 Impressão: vazio logo antes de Conclusão: removido (rmquadril2)
+  1x  linha em branco duplicada removida (rmombro1, antes de Análise:)
  57x  lacuna uniformizada para _
         33 datas mascaradas (XX/XX/XXXX, XX/XX/XX, XX/XXXX), 1 [data],
         23 XXX/XX de campo a preencher (nível vertebral, músculo, lado no

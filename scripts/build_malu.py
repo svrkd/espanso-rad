@@ -630,6 +630,9 @@ RODADA_PADRAO = [
     (re.compile(r"(?m)^(?:Opinião|OPINIÃO|Impressão|IMPRESSÃO DIAGNÓSTICA|CONCLUSÃO):$"),
      "Conclusão:", _CAB),
     (re.compile(r"(?m)^(?:ANÁLISE|Relatório):?$"), "Análise:", _CAB),
+    (re.compile(r"(?m)^(?:TÉCNICA DE EXAME|Técnica de exame)(?::|$)"), "Técnica:", _CAB),
+    # linha em branco duplicada (rmombro1, antes de "Análise:")
+    (re.compile(r"\n\n\n+"), "\n\n", "linha em branco duplicada removida"),
     # --- datas mascaradas (as regras de REGRAS_REGEX ainda geram XX/XX/XXXX)
     (re.compile(r"\bXX/XX/XXXX\b|\bXX/XX/XX\b|\bXX/XXXX\b|\[data\]"), "_", _LAC),
     # --- separadores de alternativa: XX/XXX entre opções vira " / "

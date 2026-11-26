@@ -102,7 +102,7 @@ Exame sem alterações significativas.
 
 ### `match/malu.yml`
 
-`malu.yml` é o caderno de outra radiologista, gerado por `scripts/build_malu.py`, e segue esta convenção só em parte. Desde 2026-11-26 segue: `Análise:` e `Conclusão:` como cabeçalhos de achados e de fechamento (os `Opinião:`, `Impressão:`, `Relatório:` e variantes de caixa dela foram normalizados), com a regra de espaçamento acima; lacuna de preenchimento como `_`, uma por campo; ` / ` entre alternativas. Continua como ela escreveu: `Método:`, `I.D.:`, `Técnica de exame:`, `Indicação clínica:`, `Comparação:`, títulos em CAIXA ALTA, alternativas com `/` e os marcadores de linha ou trecho opcional (`XXX`, `XX`, `###`, `#` abrindo uma alternativa, como `XXX - Próstata` ou `###Artrose…`), que não são lacuna. Mudança nesse arquivo vai para o YAML e para as tabelas do gerador (`RODADA_PADRAO`, `CORRECOES`), nunca só para um dos dois.
+`malu.yml` é o caderno de outra radiologista, gerado por `scripts/build_malu.py`, e segue esta convenção só em parte. Desde 2026-11-26 segue: `Técnica:`, `Análise:` e `Conclusão:` como cabeçalhos (os `Técnica de exame:`, `Opinião:`, `Impressão:`, `Relatório:` e variantes de caixa dela foram normalizados), com a regra de espaçamento acima; lacuna de preenchimento como `_`, uma por campo; ` / ` entre alternativas. Continua como ela escreveu: `Método:`, `I.D.:`, `Indicação clínica:`, `Comparação:`, títulos em CAIXA ALTA, alternativas com `/` e os marcadores de linha ou trecho opcional (`XXX`, `XX`, `###`, `#` abrindo uma alternativa, como `XXX - Próstata` ou `###Artrose…`), que não são lacuna. Mudança nesse arquivo vai para o YAML e para as tabelas do gerador (`RODADA_PADRAO`, `CORRECOES`), nunca só para um dos dois.
 
 ## Nomenclatura de triggers novos
 

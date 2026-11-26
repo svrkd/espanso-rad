@@ -12,7 +12,6 @@ matches:
       Método:
       Exame realizado com a sequência FSE com cortes multiplanares de 3,0 e 4,0 mm de espessura. 
 
-
       Análise:
       Relação acromioclavicular preservada, com espessamento capsuloligamentar e edema ósseo subcondral de ambos os componentes, inferindo sobrecarga mecânica local.
       Artropatia degenerativa acromioclavicular, caracterizada por osteófitos marginais que se associam a afilamento e irregularidade condral, bem com espessamento cápsulo-ligamentar, edema ósseo subcondral de ambos componentes.
@@ -3098,7 +3097,7 @@ matches:
   - trigger: "rmmao9"
     label: "RM de mão — artropatia inflamatória em atividade"
     replace: |-
-      TÉCNICA DE EXAME:
+      Técnica:
       Exame realizado com sequências FSE e Gradient echo, com cortes multiplanares de 2 e 3 mm de espessura. Administrado meio de contraste paramagnético por via intravenosa.
       Exame anterior: RM de mão de _
 
@@ -5034,7 +5033,7 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DA COXA DIREITA
 
-      TÉCNICA DE EXAME:
+      Técnica:
       Realizadas sequências FSE com cortes multiplanares de 3 e 4 mm de espessura. Administrado 14 ml de meio de contraste paramagnético por via intravenosa.
 
       Análise:
@@ -5093,7 +5092,7 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DAS PERNAS E COXAS
 
-      TÉCNICA DE EXAME:
+      Técnica:
       Realizadas sequências FSE com cortes multiplanares de 4 e 5 mm de espessura.
       Exame realizado sem utilização do meio de contraste paramagnético, conforme solicitação do médico assistente.
 
@@ -8753,7 +8752,7 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DOS PÉS E TORNOZELOS
 
-      TÉCNICA DE EXAME:
+      Técnica:
       Exame realizado com sequências FSE, com cortes multiplanares de 3 e 4 mm de espessura.
       Os seguintes aspectos foram observados:
       Espessamento do ligamento talofibular anterior, inferindo lesão prévia.
@@ -9108,7 +9107,7 @@ matches:
     replace: |-
       ressonância magnética do pé ESQUERDO
 
-      Técnica de exame:
+      Técnica:
       Realizadas sequências FSE multiplanares com cortes de 3 mm de espessura, direcionados para o antepé conforme dados clínicos. Realizado injeção intravenosa do contraste paramagnético.
 
       Análise:
@@ -9126,7 +9125,7 @@ matches:
       RESSONÂNCIA MAGNÉTICA DO RETROPÉ DIREITO E
       ESTUDO RADIOGRÁFICO DO TORNOZELO E PÉ DIREITOS
 
-      TÉCNICA DE EXAME:
+      Técnica:
       Exame realizado com sequências FSE, com cortes multiplanares de 4 mm de espessura.
 
       Análise:
@@ -9156,7 +9155,7 @@ matches:
     replace: |-
       RESSONÂNCIA MAGNÉTICA DOS ANTEPÉS
 
-      TÉCNICA DE EXAME
+      Técnica:
       Realizadas sequências FSE com cortes multiplanares de 3 mm de espessura.
       Foi administrado agente paramagnético intravenoso (14 ml).
 
@@ -9266,7 +9265,7 @@ matches:
     label: "TC de pé e tornozelo — controle pós-osteossíntese"
     replace: |-
       TOMOGRAFIA COMPUTADORIZADA DO PÉ E TORNOZELO ESQUERDOS
-      TÉCNICA DE EXAME: Realizados cortes axiais em aparelho de múltiplos detectores, permitindo reformações multiplanares e reconstruções tridimensionais.
+      Técnica: Realizados cortes axiais em aparelho de múltiplos detectores, permitindo reformações multiplanares e reconstruções tridimensionais.
       Estudo analisado em conjunto e de forma comparativa com a tomografia computadorizada de _.
 
       Análise:
@@ -9322,7 +9321,7 @@ matches:
   - trigger: "rmtornozelo13"
     label: "RM de tornozelo — lesão crônica dos ligamentos laterais"
     replace: |-
-      Técnica de exame:
+      Técnica:
       Foram realizadas sequências nos planos sagital, coronal e axial, ponderadas em T1, T2, sem contraste.
 
       Comentários:
