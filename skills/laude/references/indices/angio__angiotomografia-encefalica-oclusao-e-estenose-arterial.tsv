@@ -1,0 +1,11 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+oclusaom1	Oclusão do segmento M1 com colaterais (escore de Tan)	achado	oclusaom1c	4	não	
+oclusaom1c	Conclusão — oclusão de M1 (escore de colaterais de Tan)	conclusão	oclusaom1	2	não	
+oclusaom2	Oclusão de ramo M2	achado	oclusaom2c	2	não	
+oclusaom2c	Conclusão — oclusão de ramo M2	conclusão	oclusaom2	2	não	
+carotidat	Oclusão em T da carótida interna terminal	achado	carotidatc	1	não	
+carotidatc	Conclusão — oclusão em T da carótida interna	conclusão	carotidat	1	não	
+oclusaobasilar	Oclusão da artéria basilar	achado	oclusaobasilarc	2	não	
+oclusaobasilarc	Conclusão — oclusão da artéria basilar	conclusão	oclusaobasilar	1	não	
+estenosewasid	Estenose aterosclerótica intracraniana (método WASID)	achado	estenosewasidc	5	não	
+estenosewasidc	Conclusão — estenose aterosclerótica intracraniana	conclusão	estenosewasid	3	não	

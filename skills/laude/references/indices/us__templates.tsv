@@ -1,0 +1,59 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+usabdtotal	Abdome total — normal	template		0	não	ULTRASSONOGRAFIA DE ABDOME TOTAL
+usabdtotal2	Abdome total — normal, com medidas e valores de referência	template		8	não	ULTRASSONOGRAFIA DE ABDOME TOTAL
+usabdsup	Abdome superior — normal	template		0	não	ULTRASSONOGRAFIA DE ABDOME SUPERIOR
+usabdsup2	Abdome superior — normal, com medidas e valores de referência	template		4	não	ULTRASSONOGRAFIA DE ABDOME SUPERIOR
+usrv	Rins e vias urinárias — normal	template		4	não	ULTRASSONOGRAFIA DOS RINS E VIAS URINÁRIAS
+usrv2	Rins e vias urinárias — normal, com medidas e valores de referência	template		6	não	ULTRASSONOGRAFIA DOS RINS E VIAS URINÁRIAS
+usrvrn	Aparelho urinário neonatal — normal	template		2	não	ULTRASSOM DO APARELHO URINÁRIO
+usprostata	Próstata via abdominal (modelo)	template		7	não	ULTRASSOM DE PRÓSTATA VIA ABDOMINAL
+ustv	Transvaginal — normal	template		7	não	ULTRASSONOGRAFIA TRANSVAGINAL
+ustv2	Transvaginal — normal, com medidas e valores de referência	template		13	não	ULTRASSONOGRAFIA TRANSVAGINAL
+uspelvica	Pélvica ginecológica — normal	template		7	sim	ULTRASSONOGRAFIA PÉLVICA GINECOLÓGICA
+uspelvica2	Pélvica ginecológica — normal, com medidas e valores de referência	template		13	sim	ULTRASSONOGRAFIA PÉLVICA GINECOLÓGICA
+usob1t	Obstétrica, 1º trimestre — normal	template		12	não	ULTRASSONOGRAFIA TRANSVAGINAL – 1º TRIMESTRE DE GESTAÇÃO
+usob	Obstétrica — normal	template		15	não	ULTRASSONOGRAFIA OBSTÉTRICA
+usob2	Obstétrica — normal, com medidas e valores de referência	template		16	não	ULTRASSONOGRAFIA OBSTÉTRICA
+usobd	Obstétrica com Doppler — normal	template		24	não	ULTRASSONOGRAFIA OBSTÉTRICA COM DOPPLER
+usobd2	Obstétrica com Doppler — normal, com medidas e valores de referência	template		27	não	ULTRASSONOGRAFIA OBSTÉTRICA COM DOPPLER
+usmamas	Mamas — normal (BI-RADS 1; composição a preencher)	template		0	sim	ULTRASSONOGRAFIA DAS MAMAS
+usmsk	Coxa/perna/braço/antebraço — normal	template		0	sim	ULTRASSONOGRAFIA DA COXA / PERNA / BRAÇO / ANTEBRAÇO
+usombrod	Ombro direito — normal	template		0	não	ULTRASSONOGRAFIA DO OMBRO DIREITO
+usombroe	Ombro esquerdo — normal	template		0	não	ULTRASSONOGRAFIA DO OMBRO ESQUERDO
+uscotovelod	Cotovelo direito — normal	template		0	não	ULTRASSONOGRAFIA DO COTOVELO DIREITO
+uscotoveloe	Cotovelo esquerdo — normal	template		0	não	ULTRASSONOGRAFIA DO COTOVELO ESQUERDO
+usmaod	Mão direita — normal	template		0	não	ULTRASSONOGRAFIA DA MÃO DIREITA
+usmaoe	Mão esquerda — normal	template		0	não	ULTRASSONOGRAFIA DA MÃO ESQUERDA
+uspunhod	Punho direito — normal	template		1	sim	ULTRASSONOGRAFIA DO PUNHO DIREITO
+uspunhoe	Punho esquerdo — normal	template		1	sim	ULTRASSONOGRAFIA DO PUNHO ESQUERDO
+usquadrild	Quadril direito — normal	template		0	não	ULTRASSONOGRAFIA DO QUADRIL DIREITO
+usquadrile	Quadril esquerdo — normal	template		0	não	ULTRASSONOGRAFIA DO QUADRIL ESQUERDO
+usjoelhod	Joelho direito — normal	template		0	não	ULTRASSONOGRAFIA DO JOELHO DIREITO
+usjoelhoe	Joelho esquerdo — normal	template		0	não	ULTRASSONOGRAFIA DO JOELHO ESQUERDO
+ustornozelod	Tornozelo direito — normal	template		0	sim	ULTRASSONOGRAFIA DO TORNOZELO DIREITO
+ustornozeloe	Tornozelo esquerdo — normal	template		0	sim	ULTRASSONOGRAFIA DO TORNOZELO ESQUERDO
+usped	Pé direito — normal	template		0	não	ULTRASSONOGRAFIA DO PÉ DIREITO
+uspee	Pé esquerdo — normal	template		0	não	ULTRASSONOGRAFIA DO PÉ ESQUERDO
+usbolsa	Bolsa escrotal — normal	template		8	não	ULTRASSONOGRAFIA DE BOLSA ESCROTAL
+usbolsad	Bolsa escrotal com Doppler — normal	template		10	não	ULTRASSONOGRAFIA DE BOLSA ESCROTAL COM DOPPLER
+usbolsad2	Bolsa escrotal com Doppler — normal, com medidas e valores de referência	template		12	não	ULTRASSONOGRAFIA DE BOLSA ESCROTAL COM DOPPLER
+usestsup	Partes moles/estruturas superficiais — normal	template		1	sim	ULTRASSONOGRAFIA DAS PARTES MOLES / ESTRUTURAS SUPERFICIAIS
+usparede	Parede abdominal — normal	template		0	não	ULTRASSONOGRAFIA DE PAREDE ABDOMINAL
+usinguinald	Região inguinal direita — normal	template		0	não	ULTRASSONOGRAFIA DE REGIÃO INGUINAL DIREITA
+usinguinale	Região inguinal esquerda — normal	template		0	não	ULTRASSONOGRAFIA DE REGIÃO INGUINAL ESQUERDA
+uscervical	Região cervical — normal	template		0	não	ULTRASSONOGRAFIA CERVICAL
+ustireoide	Tireoide — normal	template		7	não	ULTRASSONOGRAFIA DA TIREOIDE
+ustireoided	Tireoide com Doppler — normal	template		7	não	ULTRASSONOGRAFIA DA TIREOIDE COM DOPPLER
+ustorax	Tórax extracardíaco — normal	template		0	não	ULTRASSONOGRAFIA DO TÓRAX (EXTRACARDÍACO)
+ustransfontanela	Crânio (transfontanela) — normal	template		0	não	ULTRASSONOGRAFIA DE CRÂNIO
+usquadrilinfantil	Quadril infantil (Graf) — laudo normal completo	template		5	não	ULTRASSONOGRAFIA DOS QUADRIS DIREITO E ESQUERDO (MÉTODO DE GRAF)
+grafformula	Quadril infantil (Graf) — fórmula geral (fill-in)	template		11	sim	ULTRASSONOGRAFIA DOS QUADRIS
+graflimit	Quadril infantil — limitação técnica (ossificação da epífise)	template		0	não	ULTRASSONOGRAFIA DOS QUADRIS DIREITO E ESQUERDO
+usvenosod	Duplex venoso MID — normal	template		0	não	DUPLEX SCAN VENOSO SUPERFICIAL E PROFUNDO DO MEMBRO INFERIOR DIREITO
+usvenosoe	Duplex venoso MIE — normal	template		0	não	DUPLEX SCAN VENOSO SUPERFICIAL E PROFUNDO DO MEMBRO INFERIOR ESQUERDO
+ustvpmid	Duplex venoso MID completo — normal	template		0	não	DUPLEX SCAN VENOSO SUPERFICIAL E PROFUNDO DO MEMBRO INFERIOR DIREITO
+ustvpmie	Duplex venoso MIE completo — normal	template		0	não	DUPLEX SCAN VENOSO SUPERFICIAL E PROFUNDO DO MEMBRO INFERIOR ESQUERDO
+ustvpmsd	Duplex venoso MSD — normal	template		0	não	DUPLEX SCAN VENOSO DO MEMBRO SUPERIOR DIREITO
+ustvpmse	Duplex venoso MSE — normal	template		0	não	DUPLEX SCAN VENOSO DO MEMBRO SUPERIOR ESQUERDO
+uscv	Carótidas e vertebrais c/ Doppler — normal	template		8	sim	ULTRASSONOGRAFIA DE CARÓTIDAS E VERTEBRAIS COM DOPPLER
+usaortaabd	Aorta abdominal — normal	template		1	não	ULTRASSONOGRAFIA DE AORTA ABDOMINAL

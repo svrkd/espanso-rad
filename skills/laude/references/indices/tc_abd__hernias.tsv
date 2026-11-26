@@ -1,0 +1,23 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+herniaobturatoria	Abdome agudo obstrutivo por hérnia obturatória	achado		0	não	
+herniafemoralobstrutiva	Abdome agudo obstrutivo por hérnia femoral	achado		0	não	
+herniainguinal1	Hérnia inguinal indireta volumosa sem complicações	achado		0	não	
+poslaparotomia	Status pós-laparotomias múltiplas	achado		0	não	
+herniaincisional1	Hérnias incisionais supraumbilicais com aderências	achado		1	não	
+retodenervado	Denervação do reto abdominal pós-cirúrgica	achado		0	não	
+herniaincisional2	Hérnias incisionais bilaterais sem complicações	achado		2	não	
+paredeafilada	Afilamento da parede abdominal com insinuação contida de alças	achado		0	não	
+herniaepigastrica1	Hérnia epigástrica com abdome agudo obstrutivo	achado		1	não	
+herniainterna4	Hérnia interna paraduodenal direita com má rotação	achado	herniainterna4c	0	sim	
+herniainterna4c	Conclusão — hérnia interna paraduodenal direita	conclusão	herniainterna4	0	sim	
+herniaincisional3	Hérnias incisionais ventrais múltiplas complicadas	achado		3	não	
+herniaincisional4	Hérnias incisionais ventrais múltiplas, uma com sinais obstrutivos	achado		3	não	
+herniainguinal2	Hérnia inguinal com obstrução (estudo sem contraste)	achado		0	não	
+herniolombar1	Hérnia lombar do triângulo lombar superior	achado		1	não	
+herniadespiegel	Hérnia de Spiegel	achado		1	não	
+herniaincisional5	Hérnia incisional do flanco direito	achado		1	não	
+herniaumbilical	Volumosa hérnia umbilical sem alteração à manobra de esforço	achado		3	não	
+herniolombar2	Hérnia de Grynfeltt-Lesshaft pós-nefrectomia	achado		0	não	
+herniaepigastrica2	Hérnia epigástrica com conteúdo adiposo	achado		1	não	
+herniainguinal3	Hérnia inguinal com segmento ileal	achado		0	não	
+herniadiafragmatica	Hérnia diafragmática paravertebral	achado		1	não	

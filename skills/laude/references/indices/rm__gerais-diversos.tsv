@@ -1,0 +1,90 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+actin	Neoplasia residual x alterações actínicas	achado		0	não	
+actinica	Neoplasia residual/recidivada x actínica	achado		0	sim	
+adenomiose	Adenomiose — zona juncional assimétrica com cistos	achado		0	não	
+adyzin	Acentuado edema de planos subcutâneos circunferencial	achado		0	não	
+alarg	Alargamento dos canais inguinais	achado		0	não	
+anc	Comparativo com exame anterior — frase de abertura	achado		1	não	
+arbo	Lipoma arborescente — derrame acentuado	achado		0	não	
+atropatia1	Artropatia degenerativa (fragmento)	fragmento		0	sim	
+ceeh	Controle evolutivo — correlação clínica	achado		0	não	
+cicat	Cicatriz de cesárea em região ístmica	achado		0	não	
+cistoplex	Lesões císticas nos átrios dos ventrículos laterais	achado		0	não	
+cistra2	Alterações fibrocísticas intercondilares	achado		0	não	
+colateralagudo	Sinais de estiramento do ligamento colateral medial	achado		0	sim	
+colateralcronico	Lesão crônica	achado		0	não	
+comc	Antes e após a administração do meio	fragmento		0	não	
+cpre	Sugestão de USG endoscópica	achado		0	não	
+desmoidep	Desmoide periosteal	achado		1	não	
+desmoideperiosteal	Desmoide cortical	achado		0	não	
+diri	Recomenda-se prosseguir a investigação com estudo dirigido	achado		0	não	
+dtclb	Distensão líquida da bainha sinovial	fragmento		0	não	
+edemabi	Edema de partes moles bimaleolar	achado		0	não	
+edematoso	Lesão do ligamento colateral medial	achado		0	não	
+edma	Edema de partes moles bimaleolar	achado		0	não	
+epv	Com frequência achado incidental	achado		0	não	
+escara	Lesão escariforme complicada	achado		0	sim	
+estrm	Queda do sinal do parênquima na sequência	fragmento		0	não	
+evans	Ângulo calosal normal 100º a 120º	achado		0	não	
+focoss	Microcálculos ou interface vascular — ambos os rins	achado		1	não	
+foss	Fosseta de herniação sinovial na transição cabeça/colo — fêmur direito	achado		0	sim	
+gad	Sem realce anômalo pelo gadolínio	achado		0	não	
+gotoso	Deposição de tecido	achado		2	não	
+hemartrose	Depósitos hemossideróticos e/ou fibróticos (hemartrose)	achado		0	sim	
+heterotop	Heterotopia de substância cinzenta	achado		0	não	
+impactofa	Proeminência óssea na margem superior da transição	achado		0	não	
+infinf	Sinais de processo inflamatório/infeccioso	fragmento		0	não	
+inguinofem	Aumento numérico dos linfonodos inguinofemorais	achado		0	não	
+isquiofem	Impacto isquiofemoral	achado		0	não	
+lcl	Ligamento colateral lateral	fragmento		0	não	
+lcm	Ligamento colateral medial	fragmento		0	não	
+ling	Linfonodos inguinofemorais reacionais	achado		0	não	
+metainfla	As possibilidades de metástases e, de forma	achado		0	não	
+microcalc	Microcálculos calicilares em ambos os rins	achado		0	não	
+microf	Sugerindo edema/hemorragia por microfraturas	fragmento		0	sim	
+mulipo2	Lipossubstituição do ventre muscular	achado		0	não	
+omt	Osteófitos marginais tricompartimentais	achado		0	não	
+p4	Nódulo mal definido na zona periférica esquerda	achado		1	não	
+part	Sem particularidades	fragmento		0	não	
+posc	Sem realce anômalo pós-contraste	achado		0	não	
+premal	Edema de partes moles adjacente ao maléolo lateral	achado		0	não	
+psa	Correlacionar com PSA	achado		0	não	
+raiz1	Tocando as raízes descendentes de L	fragmento		0	não	
+raiz2	Tocando as raízes emergentes de L	fragmento		0	não	
+raiz3	Tocando as raízes correspondentes	fragmento		0	não	
+raizd	Tocando a raiz emergente direita de L	fragmento		0	não	
+raize	Tocando a raiz emergente esquerda de L	fragmento		0	não	
+rasa	Incisura da tróclea rasa	achado		0	não	
+razi2	Tocando as raízes emergentes de L2	fragmento		0	não	
+razid	Tocando a raiz emergente direita de L	fragmento		0	não	
+razie	Tocando a raiz emergente esquerda de L	fragmento		0	não	
+rec	- Recomenda-se complementação com ultrassonografia	achado		0	não	
+rec12	- Recomenda-se controle com mamografia em 12 meses	achado		0	não	
+rizartrose	Rizartrose — avançada	achado		0	sim	
+rizartrose1	Rizartrose — incipiente	achado		0	não	
+rmosteocondromatose	Osteocondromatose sinovial	achado		0	não	
+rtu	Manipulação cirúrgica prostática (RTU)	achado		0	não	
+semc	Sem realce anômalo pós-contraste	achado		0	não	
+semdiscop	Ausência de protrusões discais significativas	achado		0	não	
+sempa	Sem particularidades	fragmento		0	não	
+sinov	Derrame articular com sinais de sinovite, distendendo	achado		0	não	
+tcalceu	Deu certo	fragmento		0	não	
+tclbliq	Com distensão líquida da bainha sinovial	fragmento		0	não	
+tend50	Tendinopatia avançada — tendão e inserção a preencher	achado		2	sim	
+tendglut	Tendinopatia e peritendinite glútea	achado		0	não	
+tendisquio1	Inflamação crônica e peritendinite	achado		0	não	
+tendmi	Tendinopatia avançada — glúteo mínimo, com peritendinite	achado		0	não	
+tendmin	Tendinopatia avançada — glúteo mínimo, com peritendinite	achado		0	não	
+tn	Translucência nucal: _ cm (normal < 0,2 cm)	achado		1	não	
+trup	Injúria dos ligamentos interespinhosos (Baastrup)	achado		0	não	
+tuca	Extensa lesão com características expansivas e epicentro	achado		2	não	
+vara	(variação anatômica)	fragmento		0	não	
+varizesgluteas	As varizes glúteas bilaterais são notadas, causando	achado		0	não	
+veiera	Apresentando osteófitos marginais	fragmento		0	não	
+virc	Com frequência achado incidental	achado		0	não	
+fhptsap	Foco hiperrefringente produtor de tênue sombra acústica	achado		0	não	
+fosseta	Fosseta de herniação sinovial na transição cabeça/colo — sem lado	achado		0	sim	
+fshspstsap	Focos hiperrefringentes produtores de tênue sombra acústica	achado		0	não	
+silh	Silhueta cardiotímica de aspecto normal	achado		0	não	
+tt89	Em comparação com o exame de restaurado	achado		1	não	
+tt90	Em comparação com o exame de _/201_	achado		2	não	

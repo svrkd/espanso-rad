@@ -1,0 +1,70 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+oradssolidosombra5c	O-RADS US 5: lesão sólida (≥ 80%) lisa com sombra acústica ampla — 3 se EC 1–3; 5 se EC 4	achado		1	não	
+oradssolidoirregular	O-RADS US: lesão sólida (≥ 80%) de contornos irregulares — 5, qualquer tamanho e EC (achado descritivo)	achado		3	sim	
+oradssolidoirregular5c	O-RADS US 5: lesão sólida (≥ 80%) de contornos irregulares	achado		1	não	
+oradshemorragico	O-RADS US: cisto hemorrágico típico — 2 se < 10 cm; 3 se ≥ 10 cm; pré-menopausa ou pós-menopausa inicial (< 5 anos); na pós-menopausa tardia, reclassificar pelos demais descritores (achado descritivo)	achado		2	sim	
+oradshemorragico2c	O-RADS US 2: cisto hemorrágico típico (pré-menopausa ou pós-menopausa inicial (< 5 anos); na pós-menopausa tardia, reclassificar pelos demais descritores)	achado		1	não	
+oradshemorragico3c	O-RADS US 3: cisto hemorrágico típico (pré-menopausa ou pós-menopausa inicial (< 5 anos); na pós-menopausa tardia, reclassificar pelos demais descritores)	achado		1	não	
+oradsdermoide	O-RADS US: cisto dermoide típico — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo)	achado		2	sim	
+oradsdermoide2c	O-RADS US 2: cisto dermoide típico — 2 se < 10 cm; 3 se ≥ 10 cm	achado		1	não	
+oradsdermoide3c	O-RADS US 3: cisto dermoide típico — 2 se < 10 cm; 3 se ≥ 10 cm	achado		1	não	
+oradsendometrioma	O-RADS US: endometrioma típico — 2 se < 10 cm; 3 se ≥ 10 cm (achado descritivo)	achado		2	não	
+oradsendometrioma2c	O-RADS US 2: endometrioma típico — 2 se < 10 cm; 3 se ≥ 10 cm	achado		1	não	
+oradsendometrioma3c	O-RADS US 3: endometrioma típico — 2 se < 10 cm; 3 se ≥ 10 cm	achado		1	não	
+oradsparaovariano	O-RADS US: cisto paraovariano — 2, qualquer tamanho (achado descritivo)	achado		2	não	
+oradsparaovariano2c	O-RADS US 2: cisto paraovariano	achado		1	não	
+oradsinclusao	O-RADS US: cisto de inclusão peritoneal — 2, qualquer tamanho (achado descritivo)	achado		2	sim	
+oradsinclusao2c	O-RADS US 2: cisto de inclusão peritoneal	achado		1	não	
+oradshidrossalpinge	O-RADS US: hidrossalpinge — 2, qualquer tamanho (achado descritivo)	achado		2	sim	
+oradshidrossalpinge2c	O-RADS US 2: hidrossalpinge	achado		1	não	
+oradsascite	O-RADS US: ascite (líquido além do fundo de saco, acima do fundo uterino) — 5, só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas (achado descritivo)	achado		0	não	
+oradsascite5c	O-RADS US 5: ascite (líquido além do fundo de saco, acima do fundo uterino) (só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas)	achado		1	não	
+oradsimplantes	O-RADS US: nódulos peritoneais — 5, só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas (achado descritivo)	achado		2	não	
+oradsimplantes5c	O-RADS US 5: nódulos peritoneais (só se não houver outra causa; com lesão O-RADS 1–2, considerar antes outras causas)	achado		1	não	
+ov7	Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma (achado descritivo)	fragmento	ov7c	0	não	
+ov7c	Ovário: Cisto de conteúdo espesso no ovário, mais comumente associado a endometrioma	conclusão	ov7	0	não	
+ov8	Ovário: Cisto ovariano com as características acima descritas, mais comumente associado a cisto... (achado descritivo)	fragmento	ov8c	0	não	
+ov8c	Ovário: Cisto ovariano com as características acima descritas, mais comumente associado a cisto...	conclusão	ov8	0	não	
+bicorno	Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mülleriana (provável útero septado ou bicorno) (achado descritivo)	achado	bicornoc	0	não	
+bicornoc	Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mülleriana (provável útero septado ou bicorno)	conclusão	bicorno	0	não	
+ut7	Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mülleriana (provável útero septado ou bicorno) (achado descritivo)	achado	ut7c	0	não	
+ut7c	Útero (alteração mülleriana): Sinais ecográficos sugestivos de alteração mülleriana (provável útero septado ou bicorno)	conclusão	ut7	0	não	
+utbicorno	Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo)	achado	utbicornoc	0	sim	
+utbicornoc	Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração...	conclusão	utbicorno	0	não	
+ut8	Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo)	achado	ut8c	0	sim	
+ut8c	Útero (alteração mülleriana): Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração...	conclusão	ut8	0	não	
+ovdnao	Ovário não caracterizado: Ovário esquerdo em topografia, morfologia, contornos e dimensões normais	achado		0	não	
+ovenao	Ovário não caracterizado: Ovário direito em topografia, morfologia, contornos e dimensões normais	achado		0	não	
+ovbnao	Ovário não caracterizado: Ovários não caracterizados no presente estudo (os ovários podem não ser caracterizados em...	achado		0	não	
+diu3	DIU: DIU deslocado (achado descritivo)	achado	diu3c	1	não	
+diu3c	DIU: DIU deslocado	conclusão	diu3	0	não	
+diu4	DIU: DIU de inserção baixa (achado descritivo)	achado	diu4c	1	não	
+diu4c	DIU: DIU de inserção baixa	conclusão	diu4	0	não	
+istmocele1	Útero (istmocele): Área anecoica triangular na região da incisão cirúrgica, em "cunha", sugestiva de...	achado		0	não	
+ut9	Útero (istmocele): Área anecoica triangular na região da incisão cirúrgica, em "cunha", sugestiva de...	achado		0	não	
+uslamina	Cavidade endometrial: Fina lâmina anecoica no interior da cavidade uterina, podendo corresponder a muco e/ou...	achado		0	não	
+ut10	Cavidade endometrial: Fina lâmina anecoica no interior da cavidade uterina, podendo corresponder a muco e/ou...	achado		0	não	
+sop	Ovário: morfologia policística (achado descritivo, um ovário)	achado		3	não	
+ov9	Ovário: morfologia policística (achado descritivo, um ovário)	achado		3	não	
+terat1	Ovário (teratoma): Ovário com aumento de suas dimensões, às custas de formação cística com nível...	achado		1	não	
+ov10	Ovário (teratoma): Ovário com aumento de suas dimensões, às custas de formação cística com nível...	achado		1	não	
+ut1	Útero/endométrio: Eco endometrial espessado e heterogêneo (achado descritivo)	achado	ut1c	1	não	
+ut1c	Útero/endométrio: Eco endometrial espessado e heterogêneo	conclusão	ut1	0	não	
+ut14	Endométrio na pós-menopausa: espessura (achado descritivo) — limiar de 0,4 cm em paciente com sangramento	achado	ut14c	1	não	
+ut14c	Endométrio na pós-menopausa: espessado	conclusão	ut14	0	não	
+ut2	Útero/endométrio: Nódulo endometrial que pode estar associado a pólipo endometrial (achado descritivo)	achado	ut2c	1	sim	
+ut2c	Útero/endométrio: Nódulo endometrial que pode estar associado a pólipo endometrial	conclusão	ut2	0	não	
+ut3	Útero (adenomiose): critérios MUSA (achado descritivo) — diagnóstico exige ao menos um critério direto: cistos, ilhas hiperecogênicas, linhas ou brotos subendometriais	achado	ut3c	0	sim	
+ut3c	Útero (adenomiose): alterações miometriais que podem estar associadas a adenomiose	conclusão	ut3	0	não	
+ut4	Útero/endométrio: Ectasia de vasos venosos uterinos	achado		0	não	
+ut5	Útero/endométrio: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração... (achado descritivo)	achado	ut5c	0	sim	
+ut5c	Útero/endométrio: Aparente aspecto bipartido do eco endometrial, que pode estar relacionado a alteração...	conclusão	ut5	0	não	
+ut6	Útero/endométrio: Exame realizado em paciente com antecedente de histerectomia parcial	achado	ut6c	2	não	
+ut6c	Útero/endométrio: Exame realizado em paciente com antecedente de histerectomia parcial (conclusão)	conclusão	ut6	0	não	
+utnc	Útero não caracterizado: Útero não caracterizado no presente estudo (histerectomia prévia)	achado		0	não	
+ut0	Útero/endométrio: Sinais de histerectomia total (achado descritivo)	achado	ut0c	0	não	
+ut0c	Útero/endométrio: Sinais de histerectomia total	conclusão	ut0	0	não	
+usnaboth	Colo uterino (cisto de Naboth): Cisto de Naboth (achado descritivo)	achado	usnabothc	1	não	
+usnabothc	Colo uterino (cisto de Naboth): Cisto de Naboth	conclusão	usnaboth	0	não	
+ut13	Colo uterino (cisto de Naboth): Cisto de Naboth (achado descritivo)	achado	ut13c	1	não	
+ut13c	Colo uterino (cisto de Naboth): Cisto de Naboth	conclusão	ut13	0	não	

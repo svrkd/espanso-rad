@@ -1,0 +1,146 @@
+# ATENÇÃO: vbc termina em "c" mas NÃO é conclusão (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+tccolite	Colite (espessamento retocólico)	achado		0	não	
+tccolite1	Colite do sigmoide	achado		0	não	
+tccolite2	Colite do cólon ascendente	achado		0	não	
+tccrohn	Doença de Crohn (ileíte)	achado		0	não	
+tccron	Doença de Crohn (ileíte)	achado		0	não	
+tcendometriose	Endometriose ovariana e profunda	achado		0	não	
+tcenterite	Enterite (espessamento de delgado)	achado		0	não	
+tcfaltouinferior	Ectasia ureteral direita — complementar com abdome inferior	achado		0	não	
+tcgeca	Enterite (espessamento de delgado)	achado		0	não	
+tchemangioma	Hemangioma hepático	achado		1	não	
+tcileobiliar	Íleo biliar	achado		1	não	
+tcindica	Indicação — estadiamento de neoplasia de próstata	achado		0	não	
+tcintussuscepcao	Intussuscepção ileocecal	achado		0	sim	
+tcmielolipoma	Mielolipoma adrenal direito	achado		2	não	
+tcmordida	Espessamento segmentar do cólon transverso — colite/diverticulite/neoplasia?	achado		1	sim	
+tcneoovario	Massa ovariana/anexial volumosa com ascite	achado		2	sim	
+tcneovario	Massa ovariana/anexial volumosa com ascite	achado		2	sim	
+tcolgivie	Distensão colônica — síndrome de Ogilvie?	achado		0	sim	
+tcpancreatite	Pancreatite aguda exsudativa (Balthazar E)	achado		0	não	
+tcpelveureterite	Nefrolitíase com pelveureterite	achado		2	não	
+tcpielonefrite	Pielonefrite (realce estriado renal)	achado		0	não	
+tcpielonefrite1	Pielonefrite (densificação perirrenal discreta)	achado		0	não	
+tcpielonefrite2	Pielonefrite (aumento renal com densificação perirrenal)	achado		0	não	
+tcpseudomixoma	Carcinomatose peritoneal com pseudomixoma peritoneal	achado		2	sim	
+tcretocolite	Colite com sinal do halo de gordura (retocolite)	achado		0	não	
+tcretocolite1	Colite (espessamento difuso reto-ceco)	achado		0	não	
+tcteratoma	Teratoma ovariano — esquerdo, com gordura	achado		1	sim	
+tcxanto	Pielonefrite xantogranulomatosa com cálculo coraliforme	achado		2	sim	
+tcxantogranulomatosa	Pielonefrite xantogranulomatosa com cálculo coraliforme	achado		2	sim	
+tcxixi	Bexiga parcialmente repleta	achado		0	não	
+tcxixi1	Bexiga com boa repleção	achado		0	não	
+tt71	Adenoma de adrenal	achado		4	não	
+tt72	Nódulo adrenal indeterminado — lado a preencher, com contralateral	achado		4	não	
+adenomalipidico	Adenoma adrenal rico em lipídios (≤ 10 UH sem contraste, ACR)	achado		3	não	
+tumorperiampular	Neoplasia periampular/cabeça de pâncreas	achado		0	sim	
+tuovario	Neoplasia cística ovariana	achado		2	não	
+vb	Vesícula biliar	fragmento		0	não	
+vbbranca	Conteúdo hiperdenso na vesícula biliar	achado		0	não	
+vbc	Colelitíase	achado		0	não	
+veiarenal	Veia renal esquerda duplicada retroaórtica	achado		0	não	
+veiarenal1	Veia renal esquerda retroaórtica — frase curta	achado		0	não	
+veiaretro	Veia renal esquerda duplicada (variante anatômica)	achado		0	não	
+aiarap	Avaliação prejudicada por resíduos fecais	achado		0	não	
+anaa	Sinais de sobrecarga hídrica (anasarca)	achado		0	não	
+calcpelvd	Calcificação pélvica à direita	achado		0	não	
+calcpelve	Calcificação pélvica à esquerda	achado		0	não	
+dcssi	Diverticulose colônica sem sinais inflamatórios — frase curta	achado		0	não	
+dgai	Distensão gasosa de alças intestinais	fragmento		0	não	
+esteat	Esteatose hepática	achado	esteatc	0	não	
+hcsalt	Hepatocolédoco sem alterações	achado		0	não	
+hgh	Hérnia hiatal	achado		0	não	
+jup	Junção ureteropiélica	fragmento		0	não	
+juv	Junção ureterovesical	fragmento		0	não	
+mesentery	Paniculite mesentérica — podendo estar relacionada	achado		0	não	
+sge	Sonda gastroenteral	fragmento		0	não	
+sng	Sonda nasogástrica	fragmento		0	não	
+her	Hérnia hiatal	achado		0	não	
+ves	Barro biliar/microcálculos	achado		0	sim	
+tt110	Hérnia hiatal	achado		0	não	
+tt73	Massa adrenal	achado		2	não	
+tt81	Achados incidentais — esteatose, cistos renais e colelitíase	achado		1	não	
+tt82	Achado incidental — esteatose hepática	achado		0	não	
+tt84	Achado incidental — litíase renal	achado		1	não	
+tt85	Achado incidental — litíase vesicular e espessamento adrenal	achado		0	não	
+tt86	Achado incidental — lesões hepáticas hipoatenuantes	achado		0	não	
+cistosc	Cistos renais corticais simples	achado		1	não	
+pcno	Pequenos cálculos renais não obstrutivos	achado		1	não	
+tcperitonite	Peritonite com coleções	achado		2	não	
+herniaparede	Hérnia de parede abdominal (sem obstrução)	achado		2	não	
+diverduvida	Diverticulite/colite cecal (dúvida diagnóstica)	achado		0	não	
+tcapendagite	Apendagite epiploica (cólon descendente)	achado		1	não	
+tcapendagite1	Apendagite epiploica (ângulo hepático)	achado		0	não	
+tcdiverticulite	Diverticulite sigmoide (Hinchey Ia)	achado		0	não	
+tcdiverticulite1	Diverticulite sigmoide (Hinchey Ia) com demais divertículos	achado		0	não	
+calcal	Cálculo calicinal (template genérico)	achado		5	não	
+calcald	Cálculo calicinal no rim direito	achado		4	não	
+calcale	Cálculo calicinal no rim esquerdo	achado		4	não	
+calcrd	Cálculo calicinal médio no rim direito	achado		3	não	
+calcre	Cálculo calicinal médio no rim esquerdo	achado		3	não	
+petit	Hérnia lombar de Petit (parede posterior)	achado		1	não	
+calinfo	Aumento difuso do número de linfonodos abdominais	achado		0	não	
+cirrosecomhcc	Cirrose com lesão hepática suspeita e hipertensão portal	achado		3	não	
+neorenal	Neoplasia renal primária à direita	achado		1	não	
+tclinfo	Linfonodos abdominais aumentados em número (sem linfonodomegalia)	achado		0	não	
+liperi	Linfonodos periaorticocavais aumentados	achado		0	não	
+neoreto2	Neoplasia retal com invasão perirretal	achado		1	não	
+alarg3	Alargamento bilateral dos canais inguinais	achado		0	não	
+borrou	Densificação da gordura perivisceral	achado		0	não	
+bos2	Cisto renal Bosniak II (esquerda)	achado		1	não	
+ccl	Colecistolitíase	achado		0	não	
+cecoi	Ceco inferomedianizado (variante posicional)	achado		0	não	
+cim	Ceco inferomedianizado (variante posicional)	achado		0	não	
+cistouraco	Massa de parede abdominal - possível cisto de úraco infectado	achado		2	sim	
+clt	Colecistolitíase	achado		0	não	
+coco1	Coprostase	achado		0	não	
+colecistec	Sinais de colecistectomia	achado		0	não	
+ddiver	Demais divertículos sem sinais inflamatórios	achado		0	não	
+diasta	Diástase dos músculos retos abdominais	achado		0	não	
+diu	Dispositivo intrauterino	achado		0	não	
+diver	Divertículos cólicos sem sinais inflamatórios	achado	diverc	0	não	
+diverc	Conclusão — diverticulose cólica não complicada (CDD tipo 0)	conclusão	diver	0	não	
+diverduo	Divertículo duodenal	achado		0	não	
+diverduos	Divertículos duodenais	achado		0	não	
+epav	Espessamento das paredes vesicais	achado		0	não	
+fid	Fossa ilíaca direita	fragmento		0	não	
+fie	Fossa ilíaca esquerda	fragmento		0	não	
+hematomaretoabd	Hematoma do músculo reto abdominal	achado		2	não	
+hems	Nódulos hiperdensos hepáticos	achado		1	não	
+herniainci	Hérnia incisional (suspeita)	achado		1	não	
+herniaincisionalvesicula	Hérnia incisional no quadrante superior direito	achado		1	não	
+herniaparede3	Hérnia de parede umbilical volumosa	achado		4	não	
+hnfmulti	Hiperplasia nodular focal hepática múltipla	achado		2	não	
+hum	Hérnia umbilical	achado		0	não	
+hum1	Hérnia umbilical com medidas	achado		2	não	
+humb	Pequena hérnia umbilical — com conteúdo adiposo	achado		0	não	
+humbi	Hérnia umbilical (colo e conteúdo gorduroso)	achado		1	não	
+indic	Indicação — estadiamento de neoplasia de colo uterino	achado		1	não	
+leiomi	Leiomiomas uterinos calcificados	achado		0	não	
+lipelsaco	Líquido livre no fundo de saco posterior	achado		0	não	
+lojasem	Ausência de dilatação do sistema coletor ou cálculos	achado		0	não	
+multical	Cálculos caliciais bilaterais múltiplos	achado		8	não	
+musculodenervado	Denervação do músculo reto abdominal (pós-cirúrgica)	achado		0	não	
+nabot	Cistos de Naboth	achado		0	não	
+neoreto	Neoplasia retal (suspeita)	achado		2	não	
+neoreto1	Neoplasia retal vegetante	achado		3	não	
+nlb	Nefrolitíase bilateral	achado		0	não	
+nlbola	Nefrolitíase bilateral	achado		0	não	
+nld	Nefrolitíase à direita	achado		0	não	
+nle	Nefrolitíase à esquerda	achado		0	não	
+phu	Pequena hérnia umbilical — com conteúdo adiposo	achado		0	não	
+pum	Pequena hérnia umbilical	achado		0	não	
+qid	quadrante inferior direito	fragmento		0	não	
+qie	quadrante inferior esquerdo	fragmento		0	não	
+qsd	quadrante superior direito	fragmento		0	não	
+qse	quadrante superior esquerdo	fragmento		0	não	
+rdiver	Raros divertículos colônicos sem sinais inflamatórios	achado		0	não	
+rimzim	Nefropatia parenquimatosa crônica direita — com correlação clínica e laboratorial	achado		0	não	
+rimzin	Nefropatia parenquimatosa crônica direita — frase curta	achado		0	não	
+semcal	Ausência de dilatação ou cálculos do sistema coletor	achado		0	não	
+semcal1	Ausência de dilatação do sistema coletor	achado		0	não	
+tccica	Sinais de cicatriz cirúrgica em parede abdominal (FID)	achado		0	não	
+tccorte	Sinais de cicatriz cirúrgica em parede abdominal (FID)	achado		0	não	
+tcfistulaanal	Pesquisa de fístula perianal	achado		0	não	
+tchernia	Hérnia inguinoescrotal direita	achado		2	não	

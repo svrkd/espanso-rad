@@ -1,0 +1,14 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+veiaspulmonares1	Veias pulmonares normais, com diâmetros ostiais (pré-ablação)	achado	veiaspulmonares1c	8	não	
+veiaspulmonares1c	Conclusão — veias pulmonares sem variações	conclusão	veiaspulmonares1	0	não	
+troncovenoso	Tronco comum das veias pulmonares esquerdas	achado		0	não	
+veiamedia	Veia pulmonar média direita acessória	achado		0	não	
+drenagemesquerda	Drenagem venosa anômala parcial esquerda (veia vertical)	achado	drenagemesquerdac	0	não	
+drenagemesquerdac	Conclusão — drenagem venosa anômala parcial esquerda	conclusão	drenagemesquerda	0	não	
+drenagemdireita	Drenagem venosa anômala parcial direita (VCS)	achado	drenagemdireitac	0	não	
+drenagemdireitac	Conclusão — drenagem venosa anômala parcial direita	conclusão	drenagemdireita	0	não	
+cimitarra	Síndrome da cimitarra	achado	cimitarrac	0	não	
+cimitarrac	Conclusão — síndrome da cimitarra	conclusão	cimitarra	0	não	
+estenoseveia	Estenose de veia pulmonar	achado	estenoseveiac	4	não	
+estenoseveiac	Conclusão — estenose de veia pulmonar	conclusão	estenoseveia	2	não	
+troncodireito	Tronco comum das veias pulmonares direitas	achado		0	não	

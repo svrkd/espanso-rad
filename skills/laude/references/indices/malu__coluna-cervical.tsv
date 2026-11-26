@@ -1,0 +1,103 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+corposcervnl1	Corpos vertebrais cervicais alinhados	achado		0	não	
+retificacerv1	Retificação da curvatura cervical	achado		0	não	
+retificacerv3	Retificação da lordose cervical na posição do exame	achado		0	não	
+retificacerv4	TC — retificação da curvatura com tendência à inversão	achado		0	não	
+lordosecerv1	Acentuação / retificação da lordose cervical em decúbito	achado		0	não	
+lordosecerv2	TC — leve acentuação da lordose cervical em decúbito	achado		0	não	
+retrolistecerv1	Discreta retrolistese de C5 sobre C6	achado		0	não	
+listesecerv1	Mínima retrolistese / anterolistese cervical	achado		0	não	
+anterolistecerv1	TC — anterolistese de C4 sobre C5 (grau I)	achado		0	não	
+tonsilas1	Insinuação das tonsilas cerebelares pelo forame magno	achado		1	não	
+osteofitoscerv1	Osteófitos marginais difusos	achado		0	não	
+osteofitoscerv2	Reação osteofitária marginal dos corpos vertebrais cervicais	achado		0	não	
+osteofitoscerv3	TC — osteófitos marginais anteriores e posteriores	achado		0	não	
+hemangiomacerv1	Hemangiomas nos corpos vertebrais de C6, C7 e T1	achado		0	não	
+infiltracaomed1	Infiltração da medular óssea por lesões secundárias	achado		0	não	
+medularinesp1	Alteração difusa do sinal da medular óssea, inespecífica	achado		0	sim	
+discoscervnl1	Discos intervertebrais cervicais com morfologia e sinal preservados	achado		0	não	
+desidratacerv1	Desidratação discal cervical com redução da altura	achado		0	não	
+desidratacerv2	Desidratação discal com Modic I e II	achado		0	não	
+modiccerv1	Degeneração gordurosa das placas terminais (Modic II)	achado		0	não	
+modiccerv2	Degeneração edematosa/gordurosa (Modic I/II) com Schmorl	achado		0	sim	
+reducaodiscocerv1	TC — redução difusa da altura dos interespaços cervicais	achado		0	não	
+reducaodiscocerv2	TC — leve redução da altura em C3-C4 e C4-C5	achado		0	não	
+uncoart1	Hipertrofia degenerativa uncovertebral com redução foraminal	achado		0	não	
+uncoart2	Uncoartrose bilateral de C4-C5 a C6-C7	achado		0	não	
+uncoart3	Hipertrofia das unciformes com redução das amplitudes foraminais	fragmento		0	não	
+uncoart4	Hipertrofia do processo unciforme com uncoartrose	achado		0	não	
+uncoart5	Uncoartrose bilateral de C3-C4 a C6-C7	achado		0	não	
+uncoart6	TC — hipertrofia dos processos unciformes em C4-C5	achado		0	não	
+uncoart7	TC — artrose uncovertebral de C3-C4 e C4-C5	achado		0	não	
+uncoart8	TC — artrose uncovertebral de C4-C5 a C6-C7	achado		0	não	
+uncoart9	Uncoartrose de C3-C4 a C6-C7 com contato radicular	achado		0	não	
+interfacetcerv1	Leve alteração degenerativa difusa das interfacetárias	achado		0	não	
+interfacetcerv5	Alteração degenerativa difusa das interfacetárias	achado		0	não	
+interfacetcerv2	Processo inflamatório osteo-hipertrófico da interfacetária	achado		0	não	
+artrointerfacet1	TC — artrose difusa das interfacetárias cervicais	achado		0	não	
+artrointerfacet2	TC — artrose interfacetária de C3-C4 a C6-C7	achado		0	não	
+fusaointerfacet1	TC — fusão da interfacetária de C4-C5	achado		0	não	
+atlantoaxial1	Alteração degenerativa da articulação atlantoaxial	achado		0	não	
+atlantodental1	Alteração degenerativa da articulação atlantodental média	achado		0	não	
+atlantodental2	TC — alteração degenerativa atlantodental com esclerose	achado		0	não	
+ligamarelocerv1	Espessamento dos ligamentos amarelos em C5-C6 e C6-C7	achado		0	não	
+ligamarelocerv2	TC — espessamento dos ligamentos amarelos em C5 e C6	achado		0	não	
+calcalar1	TC — calcificação na topografia do ligamento alar	achado		0	não	
+calcllant1	TC — calcificação do ligamento longitudinal anterior	achado		0	não	
+calcnucal1	TC — calcificação na topografia do ligamento nucal	achado		0	não	
+abaulcerv1	Abaulamento discal posterior moldando o saco dural	achado		0	não	
+abaulcerv2	Leve abaulamento discal sem outras repercussões	fragmento		0	não	
+abaulcerv3	Complexo disco-osteofitário com redução foraminal	fragmento		0	não	
+abaulcerv4	Abaulamento paramediano à direita com contato radicular	achado		0	não	
+abaulcerv5	Abaulamento disco-osteofitário com uncoartrose, sem contatos	achado		0	não	
+abaulcerv6	C3-C4 — componente protruso com rotura do anel fibroso	achado		0	não	
+abaulcerv7	C4-C5 — disco-osteofitário com uncoartrose e redução foraminal	achado		0	não	
+abaulcerv8	C6-C7 — protrusão disco-osteofitária foraminal esquerda	achado		0	não	
+abaulcerv9	Abaulamento com protrusão paramediana à direita	achado		0	não	
+abaulcerv10	C3-C4 — abaulamento com uncoartrose e interfacetárias	achado		0	não	
+abaulcerv11	C3-C4 — pequena protrusão discal posterior mediana	achado		0	não	
+abaulcerv12	C4-C5 — saliência posterior de fibras do anel fibroso	achado		0	não	
+abaulcerv13	C4-C5 — disco-osteofitário com compressão da raiz foraminal	achado		0	não	
+abaulcerv14	C5-C6 — protruso póstero-central tocando a medula	achado		0	não	
+abaulcerv15	C5-C6 — protruso póstero-lateral esquerdo com compressão medular	achado		0	não	
+abaulcerv16	C5-C6 — componente extruso com migração caudal	achado		0	não	
+abaulcerv17	C6-C7 — protruso póstero-lateral esquerdo	achado		0	não	
+abaulcerv18	C6-C7 — protruso póstero-central tocando a medula	achado		0	não	
+abaulcerv19	C7-T1 — abaulamento disco-osteofitário posterior	achado		0	não	
+abaulcerv20	C7-T1 — disco-osteofitário com anterolistese	achado		0	não	
+abaulcerv21	C7-T1 — protrusão discal posterior mediana	achado		0	não	
+abaulcerv22	C4-C5 — protrusão discal posterior central	achado		0	não	
+abaulcerv23	C5-C6 — protrusão centrolateral direita com fissura do ânulo	achado		0	não	
+abaulcerv30	C6-C7 — protrusão discal posterior central (linha truncada na fonte)	fragmento		0	não	
+abaulcerv24	C6-C7 — protrusão com impressão medular e da raiz emergente	achado		0	sim	
+abaulcervtc1	TC — pequeno abaulamento disco-osteofitário posterior	achado		0	não	
+abaulcervtc2	TC — pequena protrusão disco-osteofitária posterior	achado		0	não	
+abaulcervtc3	TC — protrusão posterior mediana/paramediana	achado		0	sim	
+abaulcervtc4	TC — disco-osteofitário com estenose foraminal	achado		0	não	
+abaulcervtc5	TC — disco-osteofitário póstero-central e paramediano	achado		0	não	
+abaulcervtc6	TC — componente extruso com migração cranial	achado		0	sim	
+estenosecerv1	Redução do calibre do canal medular de C3 a C6	achado		0	não	
+mielomalacia1	Redução do calibre medular de aspecto sequelar (mielomalácia)	fragmento		0	não	
+mielomalacia2	Mielomalácia cicatricial dos cornos anteriores em C5-C6	achado		0	não	
+espondilosecerv1	Espondilose cervical moderada	achado		0	não	
+discopatiacerv1	Discopatia multissegmentar com contato radicular	achado		0	não	
+discopatiacerv2	Discopatia degenerativa multissegmentar	achado		0	não	
+discopatiacerv3	Discopatia multissegmentar com estreitamento do canal	achado		0	não	
+discopatiacerv4	Conclusão — discopatia com conflito radicular em C6-C7	achado		0	não	
+longuscolli1	Tendinopatia calcária da origem do longus colli	achado		0	não	
+lipomacerv1	Lesão lipomatosa subcutânea junto ao trapézio	achado		0	não	
+espacadorcerv1	Espaçador intersomático com parafusos intrassomáticos	achado		0	não	
+espacadorcerv2	Espaçadores intersomáticos em C5-C6 e C6-C7	achado		0	não	
+artrodesecerv1	Artrodese cervical via posterior com hastes e parafusos	achado		0	não	
+artrodesecerv2	Artrodese de C5-C6 com espaçador discal anterior	achado		0	não	
+corpectomia1	Corpectomia parcial com prótese vertebral	achado		0	não	
+enfisemacervical1	Densificação cervical com focos de enfisema pós-cirúrgico	achado		0	não	
+poscirurgcerv1	Conclusão — controle pós-cirúrgico da coluna cervical	achado		0	não	
+poscirurgcerv2	Comparação — cirurgia em C5-C6 com resolução da extrusão	achado		1	não	
+poscirurgcerv3	Conclusão — artrodese anterior com prótese vertebral	achado		0	não	
+obscerv1	Obs. — discopatia de T2-T3 vista apenas nas sagitais	achado		0	não	
+abaulcerv25	Abaulamento com hipertrofia uncovertebral e redução foraminal	achado		0	não	
+desidratacerv3	Desidratação discal cervical com redução em C5-C6, C6-C7 e C7-T1	achado		0	não	
+interfacetcerv3	Lâmina líquida na interfacetária de C7-D1	achado		0	não	
+desidratacerv4	Leve desidratação discal multissegmentar	achado		0	não	
+medulacervnl1	Medula espinhal preservada	achado		0	não	

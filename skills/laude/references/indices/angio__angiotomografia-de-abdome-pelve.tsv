@@ -1,0 +1,13 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+uterinas1	Artéria uterina: origem e trajeto (planejamento de embolização)	achado		4	não	
+ovarianamioma	Artéria ovariana hipertrófica nutrindo leiomioma (colateral à uterina)	achado	ovarianamiomac	3	não	
+ovarianamiomac	Conclusão — artéria ovariana nutrindo leiomioma	conclusão	ovarianamioma	1	não	
+prostatica1	Artéria prostática: origem (de Assis I a V)	achado		3	não	
+pudendaacessoria	Artéria pudenda acessória (origem da prostática, de Assis V)	achado		3	não	
+congestaopelvica	Varizes pélvicas com veia ovariana dilatada (critérios de Coakley)	achado	congestaopelvicac	4	não	
+congestaopelvicac	Conclusão — varizes pélvicas com veia ovariana dilatada	conclusão	congestaopelvica	1	não	
+sangramentopelvico	Sangramento arterial ativo na pelve (trauma pélvico)	achado	sangramentopelvicoc	4	não	
+sangramentopelvicoc	Conclusão — sangramento arterial ativo na pelve	conclusão	sangramentopelvico	2	não	
+pseudopelvico	Pseudoaneurisma de ramo da artéria ilíaca interna	achado	pseudopelvicoc	3	não	
+pseudopelvicoc	Conclusão — pseudoaneurisma de ramo da ilíaca interna	conclusão	pseudopelvico	2	não	
+coronamortis	Corona mortis (artéria obturatória da epigástrica inferior ou ilíaca externa)	achado		2	não	

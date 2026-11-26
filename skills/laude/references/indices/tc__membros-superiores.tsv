@@ -1,0 +1,31 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+adacho	Artropatia acromioclavicular com hipertrofia osteocapsular	achado		0	não	
+adiac	Alterações degenerativas acromioclaviculares	achado		0	não	
+galinho	Edema/hematoma no olécrano	achado		0	sim	
+hcac	Hipertrofia capsular acromioclavicular	achado		0	não	
+hcac1	Osteoartrose acromioclavicular incipiente	achado		0	não	
+hiperacro	Hipertrofia osteocapsular acromioclavicular	achado		0	não	
+hipercro	Hipertrofia osteocapsular acromioclavicular	achado		0	não	
+tcencondroma	Encondroma vs infarto ósseo umeral	achado		0	não	
+tendinopatiacalcica	Tendinopatia calcária do supraespinhal	achado		0	não	
+cistosinovial	Cisto sinovial do punho	achado		1	não	
+cistoosseoaneurismatico	Cisto ósseo aneurismático com fratura patológica	achado		1	sim	
+coa	Cisto ósseo aneurismático com fratura patológica	achado		1	sim	
+perdaglenoide	Perda óssea glenoidal (círculo de melhor ajuste)	achado	perdaglenoidec	3	não	
+perdaglenoidec	Conclusão — perda óssea glenoidal	conclusão	perdaglenoide	1	não	
+walch	Morfologia glenoidal — Walch modificada (com tabela)	achado		4	não	
+fraturaescafoide	Fratura do escafoide	achado		5	não	
+escafoidepseudo	Pseudoartrose do escafoide	achado	escafoidepseudoc	3	não	
+escafoidepseudoc	Conclusão — pseudoartrose do escafoide	conclusão	escafoidepseudo	1	não	
+kienbock	Doença de Kienböck — TC	achado		2	não	
+basepolegar	Rizartrose — TC, com subluxação radial	achado	basepolegarc	1	não	
+basepolegarc	Conclusão — rizartrose	conclusão	basepolegar	1	não	
+adf	Alterações degenerativas interfalangeanas	achado		0	não	
+afd	Alterações degenerativas interfalangeanas distais	achado		0	não	
+afd1	Alteração degenerativa interfalangeana distal focal	achado		1	não	
+afp	Alterações degenerativas interfalangeanas proximais	achado		0	não	
+afp1	Alteração degenerativa interfalangeana proximal focal	achado		1	não	
+hillsachs	Lesão de Hill-Sachs — TC, fratura cuneiforme com fragmento	achado		0	não	
+hillsachs3	Luxação do ombro com Hill-Sachs e Bankart	achado		0	não	
+fal	Alterações degenerativas interfalangeanas distais	achado		0	não	
+goutallier	Lipossubstituição muscular — Goutallier (com tabela)	achado		2	não	

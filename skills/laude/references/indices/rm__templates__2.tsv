@@ -1,0 +1,80 @@
+# ATENÇÃO: rmcrc, rmcridc, rmcridcc terminam em "c" mas NÃO são conclusões (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+rmcoxad	RM de coxa — sem contraste, direita, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DA COXA DIREITA S/C
+rmcr	RM de encéfalo — sem contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmcrad	RM de encéfalo — sem contraste, redução volumétrica e microangiopatia	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmcradcc	RM de encéfalo — com contraste, redução volumétrica e microangiopatia	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+rmcrc	RM de encéfalo — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+rmcrc1	RM de encéfalo — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+rmcrid	RM de encéfalo — sem contraste, idoso, redução volumétrica e microangiopatia	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmcrid2	RM de encéfalo — sem contraste, idoso, focos inespecíficos de alto sinal em T2	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmcridc	RM de encéfalo — com contraste, redução volumétrica e lesões de substância branca	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+rmcridcc	RM de encéfalo — com contraste, redução volumétrica e lesões de substância branca	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+rmcrrtx	RM de encéfalo — com contraste, planejamento radioterápico, laudo normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+rmdorsalid	RM de coluna torácica — sem contraste, idoso, normal com banco de frases	template		0	sim	RESSONÂNCIA MAGNÉTICA DA COLUNA TORÁCICA S/C
+rmescroto	RM de bolsa escrotal	template		0	não	RESSONÂNCIA MAGNÉTICA DE BOLSA ESCROTAL E TESTÍCULOS
+rmespondilodiscite	RM de coluna lombar — com contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR C/C
+rmesterno	RM de esterno — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DO ESTERNO S/C
+rmf1	RM de encéfalo — sem contraste, focos inespecíficos de alto sinal em T2	template		0	sim	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmhipofise	RM de hipófise — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE HIPÓFISE - C/C
+rminterosseo	RM de braço — sem contraste	template		0	sim	RESSONÂNCIA MAGNÉTICA DO ANTEBRAÇO ESQUERDO S/C
+rmjoe	RM de joelho — sem contraste, direito, normal com banco de frases	template		0	não	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
+rmjoelho	RM de joelho — sem contraste, direito, normal com banco de frases	template		0	não	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
+rmjoep	RM de joelho — sem contraste, esquerdo, osteoartrose com rotura do menisco medial	template		0	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO S/C
+rmlombar	RM de coluna lombar — sem contraste, normal com níveis e banco de frases	template		0	sim	RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
+rmlombar1	RM de coluna lombar — sem contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
+rmlombarid	RM de coluna lombar — sem contraste, idoso, injúria interespinhosa L4-L5 e L5-S1	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
+rmlombarid2	RM de coluna lombar — sem contraste, idoso, injúria interespinhosa L4-L5	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
+rmlombarjv	RM de coluna lombar — sem contraste, retificação e desvio do eixo	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
+rmmao	RM de mão — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DA MÃO ESQUERDA S/C
+rmmulti	RM de próstata	template		2	sim	RESSONÂNCIA MAGNÉTICA MULTIPARAMÉTRICA DA PRÓSTATA
+rmomb1	RM de ombro — sem contraste, lado a preencher, sem conclusão	template		1	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO _ S/C
+rmombnl	RM de ombro — sem contraste, normal	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
+rmombp	RM de ombro — sem contraste, esquerdo, artropatia AC e glenoumeral	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
+rmombro	RM de ombro — sem contraste, direito, normal com banco de frases	template		2	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
+rmorb	RM de órbitas — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS C/C
+rmorbitas	RM de órbitas — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS C/C
+rmouvido	RM de ouvido — com contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DE OUVIDO C/C
+rmpelvefem	RM de pelve feminina — com contraste, normal	template		3	não	RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
+rmpelvemasc	RM de abdome inferior masculino — com contraste, normal sem conclusão	template		2	não	RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
+rmperna	RM de perna — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DA PERNA ESQUERDA S/C
+rmpes	RM de pescoço — com contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DO PESCOÇO C/C
+rmpescoco	RM de pescoço — com contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DO PESCOÇO C/C
+rmplexo	RM de plexo braquial — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DO PLEXO BRAQUIAL DIREITO S/C
+rmpunho	RM de punho — com contraste	template		1	sim	RESSONÂNCIA MAGNÉTICA DO PUNHO DIREITO/ESQUERDO C/C
+rmquadril	RM de quadril — direito, normal com banco de frases	template		0	não	RESSONÂNCIA MAGNÉTICA DO QUADRIL DIREITO
+rmquadrilid	RM de quadril — sem contraste, idoso	template		0	sim	RESSONÂNCIA MAGNÉTICA DO QUADRIL DIREITO S/C
+rmsacro	RM de sacroilíacas — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DAS ARTICULAÇÕES SACROILÍACAS - S/C
+rmsacroiliaca	RM de sacroilíacas — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DAS ARTICULAÇÕES SACROILÍACAS - S/C
+rmsacroiliacas	RM de sacroilíacas — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DAS ARTICULAÇÕES SACROILÍACAS - S/C
+rmseios	RM de seios da face — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DE SEIOS DA FACE S/C
+rmsela	RM de hipófise — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE HIPÓFISE - C/C
+rmtoracicaid	RM de coluna torácica — sem contraste, idoso, cisto perirradicular T9-T10	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA TORÁCICA S/C
+rmtoraid	RM de coluna torácica — sem contraste, idoso, retificação e discopatias	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA TORÁCICA S/C
+rmtorax	RM de tórax	template		0	não	RESSONÂNCIA MAGNÉTICA DO TÓRAX
+rmtorn	RM de tornozelo — sem contraste, normal com banco de frases	template		0	não	RESSONÂNCIA MAGNÉTICA DO TORNOZELO - S/C
+rmveno	Veno-RM de encéfalo — com contraste	template		0	não	VENORRESSONÂNCIA MAGNÉTICA DO ENCÉFALO - C/C
+rtxrm	RM de encéfalo — com contraste, simulação radioterápica, sem técnica	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO C/C
+rtxrm1	RM de encéfalo — com contraste, simulação de radioterapia, com técnica	template		0	não	RESSONÂNCIA MAGNÉTICA DO ENCÉFALO C/C
+rmantepe	RM de antepé — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DO ANTEPÉ DIREITO S/C
+tucarcinoide	RM de abdome total — com contraste, espessamento ileal com intussuscepção	template		3	não	RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR E INFERIOR C/C
+uteross3	RM de pelve feminina — com contraste, comparativo pós-ooforoplastia	template		8	não	RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
+venorm	Veno-RM de encéfalo — com contraste	template		0	não	VENORRESSONÂNCIA MAGNÉTICA DO ENCÉFALO - C/C
+zmt	RM de encéfalo — sem contraste, zonas terminais de mielinização com acompanhamento	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO S/C
+zonamielin	RM de encéfalo — sem contraste, zonas terminais de mielinização, achado incidental	template		0	não	
+angiorm	Angio-RM	template		0	não	ANGIORRESSONÂNCIA MAGNÉTICA ARTERIAL CEREBRAL
+rmabd	RM de abdome total	template		8	não	RESSONÂNCIA MAGNÉTICA DO ABDOME E PELVE
+rmbacia	RM de bacia	template		0	não	RESSONÂNCIA MAGNÉTICA DA BACIA
+rmcer	RM de coluna cervical — sem contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
+rmcola	Colangio-RM	template		0	não	COLANGIORRESSONÂNCIA MAGNÉTICA
+rmhip	RM de hipófise	template		0	não	RESSONÂNCIA MAGNÉTICA DE HIPÓFISE
+rmjoeid	RM de joelho — idoso	template		1	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO
+rmlom	RM de coluna lombar — sem contraste, normal com STIR	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
+rmomb	RM de ombro — sem contraste, esquerdo, normal com banco de frases	template		2	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
+rmorb1	RM de órbitas	template		0	não	RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS
+rmouv	RM de conduto auditivo interno	template		0	não	RESSONÂNCIA MAGNÉTICA DO CONDUTO AUDITIVO INTERNO
+rmpe	RM de antepé	template		1	não	RESSONÂNCIA MAGNÉTICA DO ANTEPÉ _
+rmpel	RM de pelve — feminina, sem conclusão	template		8	não	RESSONÂNCIA MAGNÉTICA DE PELVE
+rmpelve	RM de pelve — masculina, sem conclusão	template		2	não	RESSONÂNCIA MAGNÉTICA DA PELVE
+rmper	RM de perna	template		1	não	RESSONÂNCIA MAGNÉTICA DA PERNA _
+rmprost	RM de pelve — masculina, sem conclusão	template		2	não	RESSONÂNCIA MAGNÉTICA DA PELVE

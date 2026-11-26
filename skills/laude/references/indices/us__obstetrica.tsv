@@ -1,0 +1,11 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+usrestos	Cavidade uterina: restos ovulares/coágulos (achado descritivo)	achado	usrestosc	2	não	
+usrestosc	Cavidade uterina (restos ovulares): Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos...	conclusão	usrestos	0	não	
+ob1	Cavidade uterina: restos ovulares/coágulos (achado descritivo)	achado	ob1c	2	não	
+ob1c	Cavidade uterina (restos ovulares): Material heterogêneo na transição do corpo e colo uterino, podendo corresponder a restos...	conclusão	ob1	0	não	
+hretro	Obstétrica: hematoma retrocoriônico (achado descritivo)	achado	hretroc	2	não	
+hretroc	Obstétrica (hematoma retrocoriônico): Imagem adjacente ao saco gestacional, com características sugestivas de hematoma...	conclusão	hretro	0	não	
+ob2	Obstétrica: hematoma retrocoriônico (achado descritivo)	achado	ob2c	2	não	
+colocurto	Obstétrica: colo uterino curto, até 2,5 cm no 2º trimestre (SMFM) (achado descritivo)	achado	colocurtoc	1	não	
+colocurtoc	Obstétrica: colo uterino curto (SMFM) (conclusão)	conclusão	colocurto	0	não	
+ob2c	Obstétrica (hematoma retrocoriônico): Imagem adjacente ao saco gestacional, com características sugestivas de hematoma...	conclusão	ob2	0	não	

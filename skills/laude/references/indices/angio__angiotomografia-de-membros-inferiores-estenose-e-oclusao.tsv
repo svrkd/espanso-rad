@@ -1,0 +1,16 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+placasdifusas	Ateromatose difusa sem estenose significativa	achado	placasdifusasc	1	não	
+placasdifusasc	Conclusão — ateromatose difusa sem estenose significativa	conclusão	placasdifusas	1	não	
+estenoseleve	Estenose não significativa (redução luminal < 50%)	achado	estenoselevec	4	não	
+estenoselevec	Conclusão — estenose não significativa	conclusão	estenoseleve	1	não	
+estenosesignificativa	Estenose significativa (redução luminal ≥ 50%)	achado	estenosesignificativac	5	não	
+estenosesignificativac	Conclusão — estenose significativa	conclusão	estenosesignificativa	1	não	
+oclusaosegmentar	Oclusão arterial segmentar com reenchimento distal	achado	oclusaosegmentarc	5	não	
+oclusaosegmentarc	Conclusão — oclusão arterial segmentar	conclusão	oclusaosegmentar	1	não	
+oclusaofemoral	Oclusão da femoral superficial com reenchimento da poplítea	achado	oclusaofemoralc	4	não	
+oclusaofemoralc	Conclusão — oclusão da femoral superficial	conclusão	oclusaofemoral	1	não	
+vasounico	Escoamento distal por vaso único	achado	vasounicoc	3	não	
+vasounicoc	Conclusão — escoamento distal por vaso único	conclusão	vasounico	2	não	
+calciolimita	Calcificação parietal extensa limitando a graduação de estenose	achado		1	não	
+emboloarterial	Oclusão embólica aguda	achado	emboloarterialc	3	não	
+emboloarterialc	Conclusão — oclusão embólica aguda	conclusão	emboloarterial	1	não	

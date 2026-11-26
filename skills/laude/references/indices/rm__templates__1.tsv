@@ -1,0 +1,74 @@
+# ATENÇÃO: rmcervicalc termina em "c" mas NÃO é conclusão (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+dft	Doença degenerativa cortical	template		0	não	
+neurotoxo	Neurotoxoplasmose	template		2	não	
+charcot	Neuroartropatia de Charcot — RM, com osteomielite e microabscesso	template		0	sim	
+escara2	Escara glútea com abscesso	template		1	sim	
+poliporretal	Pólipo/adenoma retal	template		3	não	
+angioaortarenais	Angio-RM de artérias renais — com aorta e ramos viscerais	template		5	não	ANGIORRESSONÂNCIA MAGNÉTICA DA AORTA ABDOMINAL E ARTÉRIAS RENAIS
+angiocervical	Angio-RM de cervical — com contraste, normal	template		0	não	ANGIORRESSONÂNCIA ARTERIAL CERVICAL - C/C
+angiorenal	Angio-RM de artérias renais — com rins e vasos anômalos	template		5	não	ANGIORRESSONÂNCIA MAGNÉTICA DAS ARTÉRIAS RENAIS
+angiormcr	Angio-RM — sem contraste, encefálica normal	template		0	não	ANGIORRESSONÂNCIA ENCEFÁLICA - S/C
+artriteseptica	RM de joelho — com contraste	template		0	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO C/C
+celuliteorbitaria	RM de órbitas — com contraste, celulite periorbitária complicada	template		2	não	RESSONÂNCIA MAGNÉTICA DAS ÓRBITAS C/C
+cervicalid	RM de coluna cervical — sem contraste, idoso, Modic II e comprometimento radicular	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
+charcot1	RM de antepé — com contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DO ANTEPÉ ESQUERDO C/C
+chiari2	RM de encéfalo — sem contraste, malformação de Chiari II	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+disseccao	Angio-RM de cervical — com contraste, dissecção da carótida interna direita	template		0	sim	ANGIORRESSONÂNCIA CERVICAL C/C
+encefalitehiv	RM de encéfalo — com contraste, leucopatia confluente simétrica	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+endomet10	RM de pelve feminina — com contraste, endometriose operada com fístulas	template		7	não	RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
+endomet2	RM de pelve feminina — com contraste, endometriose e cisto ovariano esquerdo	template		11	não	RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
+endomet5	RM de pelve feminina — com contraste, endometriose intestinal do reto médio	template		11	sim	RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
+enterorm	Entero-RM	template		0	não	ENTERORRESSONÂNCIA MAGNÉTICA
+enterorm1	Entero-RM — com contraste	template		0	não	ENTERORRESSONÂNCIA MAGNÉTICA C/C
+estadp	RM de abdome inferior masculino — com contraste, estadiamento de próstata, próstata heterogênea	template		2	não	RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
+estadp1	RM de abdome inferior masculino — com contraste, estadiamento de próstata, nódulo periférico direito	template		1	não	RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
+estadpnl	RM de abdome inferior masculino — próstata normal	template		2	não	RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
+exombro	RM de ombro — sem contraste, esquerdo, rotura transfixante crônica do supra e infraespinhal	template		1	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO S/C
+futebol	RM de coxa — sem contraste, direita, distensão muscular do reto femoral	template		1	sim	RESSONÂNCIA MAGNÉTICA DA COXA DIREITA S/C
+insuftib	RM de tornozelo — sem contraste, direito, pé plano	template		0	não	RESSONÂNCIA MAGNÉTICA DO TORNOZELO DIREITO S/C
+joelhobasico	RM de joelho — sem contraste, direito, derrame com sinovite e condropatia medial	template		0	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
+joelhooperado	RM de joelho — sem contraste, esquerdo, pós-reconstrução do LCA	template		0	não	RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO S/C
+joelhovelho	RM de joelho — sem contraste, esquerdo, osteoartrose avançada com cisto ósseo	template		2	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO ESQUERDO S/C
+klats	RM de abdome superior — com contraste, colangiocarcinoma intra-hepático	template		3	não	RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR C/C
+lesaocoledoco	Colangio-RM — sem contraste, pós-colecistectomia com estenose do hepático	template		3	não	COLANGIORRESSONÂNCIA MAGNÉTICA - S/C
+luxpat1	RM de joelho — sem contraste, direito, displasia troclear e luxação patelar	template		0	não	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
+melhoraesclerose	RM de encéfalo — com contraste, controle de doença desmielinizante	template		2	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - C/C
+metal	RM de joelho — sem contraste, direito, artefatos de material de síntese	template		0	não	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
+mhipofise	RM de hipófise — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE HIPÓFISE - C/C
+neoanorretal	RM de pelve — neoplasia do reto baixo e canal anal	template		3	sim	RESSONÂNCIA MAGNÉTICA DA PELVE
+neoreto4	RM de pelve feminina — com contraste, neoplasia retal infiltrativa	template		6	sim	RESSONÂNCIA MAGNÉTICA DE PELVE FEMININA – C/C
+neoreto7	RM de pelve — com contraste	template		4	não	RESSONÂNCIA MAGNÉTICA DA PELVE C/C
+neosigmoide2	RM de abdome inferior masculino — com contraste, estadiamento de neoplasia do sigmoide	template		5	não	RESSONÂNCIA MAGNÉTICA ABDOME INFERIOR MASCULINO – C/C
+ombbase	RM de ombro — sem contraste, direito, rotura completa com retração, sem conclusão	template		2	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
+ombroclassico	RM de ombro — sem contraste, direito, artropatia AC moderada	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
+ombroroto	RM de ombro — sem contraste, direito, rotura maciça do manguito	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
+ombrosupra	RM de ombro — sem contraste, direito, tendinopatia do supra e subescapular com esporão	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
+ombrovelho	RM de ombro — sem contraste, direito, artropatia AC acentuada com impacto	template		1	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO S/C
+paget	RM de perna — com contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DA PERNA ESQUERDA C/C
+quadrildeg	RM de quadril — sem contraste	template		0	sim	RESSONÂNCIA MAGNÉTICA DO QUADRIL ESQUERDO S/C
+rmabdfem	RM de abdome total — com contraste, feminino, com ampola retal e líquido livre	template		3	não	RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR E INFERIOR C/C
+rmabdmasc	RM de abdome total — com contraste, masculino	template		2	não	RESSONÂNCIA MAGNÉTICA DO ABDOME TOTAL C/C
+rmabdsup	RM de abdome superior — com contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR C/C
+rmabs	RM de abdome superior — com contraste, normal com alças e vasos	template		0	não	RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR C/C
+rmabtfem	RM de abdome total — com contraste, feminino	template		3	não	RESSONÂNCIA MAGNÉTICA DO ABDOME SUPERIOR E INFERIOR C/C
+rmangio	Angio-RM — sem contraste, encefálica normal	template		0	não	
+rmangiocr	Angio-RM de encéfalo — sem contraste	template		0	não	ANGIORRESSONÂNCIA DO ENCÉFALO - S/C
+rmatci	Angio-RM — sem contraste, irregularidades das carótidas intracavernosas	template		0	não	ANGIORRESSONÂNCIA ENCEFÁLICA - S/C
+rmatm	RM de ATM — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DAS ARTICULAÇÕES TEMPOROMANDIBULARES S/C
+rmbaciaid	RM de bacia — idoso	template		0	não	RESSONÂNCIA MAGNÉTICA DA BACIA
+rmbraco	RM de braço	template		1	não	RESSONÂNCIA MAGNÉTICA DO BRAÇO _
+rmencefalo	RM de encéfalo — sem contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmca	RM de encéfalo — sem contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DE ENCÉFALO - S/C
+rmccid	RM de coluna cervical — sem contraste, idoso, retificação e degeneração	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
+rmcerid	RM de coluna cervical — sem contraste, idoso, com nódulo de Schmorl em C7	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
+rmcervical	RM de coluna cervical — sem contraste, normal com retificação	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
+rmcervicalc	RM de coluna cervical — com contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL C/C
+rmcervicalid	RM de coluna cervical — sem contraste, idoso, níveis em branco e banco de frases	template		3	não	RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
+rmcervicalid1	RM de coluna cervical — sem contraste, idoso, C4-C5 e C5-C6 descritos	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
+rmcervicalzoado	RM de coluna cervical — sem contraste, mielopatia espondilótica	template		0	não	RESSONÂNCIA MAGNÉTICA DE COLUNA CERVICAL - S/C
+rmcervjv	RM de coluna cervical — sem contraste, retificação e discopatias sem conflito	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA CERVICAL S/C
+rmclnl	RM de coluna lombar — sem contraste, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DA COLUNA LOMBAR S/C
+rmcolangio	Colangio-RM — sem contraste, normal	template		0	não	COLANGIORRESSONÂNCIA MAGNÉTICA - S/C
+rmcot	RM de cotovelo — sem contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DO COTOVELO ESQUERDO S/C
+rmcoxa	RM de coxa — sem contraste, esquerda, normal	template		0	não	RESSONÂNCIA MAGNÉTICA DA COXA ESQUERDA S/C

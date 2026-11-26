@@ -1,0 +1,108 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+abscessocoxa	Abscessos musculares na coxa	achado		3	não	
+adjo	Artropatia degenerativa femorotibial (joelho)	achado		0	não	
+artrosequadril	Osteoartrose avançada do quadril	achado		0	sim	
+baker	Cisto de Baker	achado		1	não	
+edgor	Edema da gordura subcutânea peripatelar	achado		0	não	
+enpat	Entesófito suprapatelar	achado		0	não	
+enpla	Entesófito plantar do calcâneo	achado		0	não	
+enplap	Entesófitos plantar e posterior do calcâneo	achado		0	não	
+enpo	Entesófito posterior do calcâneo	achado		0	não	
+epat	Entesófito no polo superior da patela	achado		0	não	
+esup	Entesófito suprapatelar	achado		0	não	
+fraba	Fratura da base do 5º metatarso — irregularidade cortical, possível fratura	achado		0	não	
+galo	Entesófito posterior do calcâneo	achado		0	não	
+galo1	Entesófitos plantar e posterior do calcâneo	achado		0	não	
+galo2	Entesófito plantar do calcâneo	achado		0	não	
+malperfurante	Mal perfurante plantar com fleimão	achado		0	sim	
+menilimi	Meniscos/ligamentos/cartilagens de avaliação limitada	achado		0	não	
+menudo	Meniscos/ligamentos/cartilagens de avaliação limitada	achado		0	não	
+oam	Osteoartrose femorotibial medial — artropatia com osteofitose	achado		0	não	
+oam1	Osteoartrose femorotibial e femoropatelar	achado		0	não	
+omalaba	Osteofitose marginal lateral nos acetábulos	achado		0	não	
+omalat	Osteofitose marginal lateral nos acetábulos	achado		0	não	
+omalat1	Osteofitose marginal lateral no acetábulo	achado		0	não	
+omalat2	Osteoartrose dos acetábulos	achado		0	não	
+osgoodschatter	Doença de Osgood-Schlatter — TC, com tendinopatia patelar	achado		0	não	
+osteomielitecronica	Osteomielite crônica pós-fratura de tíbia	achado		0	não	
+osteonecrosedofemur	Osteonecrose das cabeças femorais	achado		0	não	
+pitpit	Fosseta de herniação sinovial femoral	achado		1	não	
+prots	Prótese de quadril bem articulada	achado		0	não	
+r20	Entesófito suprapatelar	achado		0	não	
+tccelulitepe	Celulite de pé e tornozelo	achado		0	sim	
+tccoxartrose	Coxartrose avançada direita	achado		0	não	
+tcjoanete	Lesão por atrito crônico sob 5º metatarso (joanete)	achado		0	sim	
+tcosteocondroma	Osteocondroma da tíbia proximal	achado		2	não	
+tcpaget	Doença de Paget do quadril	achado		0	sim	
+varico	Veias varicosas no joelho	achado		0	não	
+ace	Osteófitos acetabulares	achado		0	não	
+cal	Entesófitos calcâneos	achado		0	não	
+joe	Osteoartrose femorotibial medial — área de carga, osteófitos incipientes	achado		0	não	
+morton	Neuroma de Morton — TC	achado		1	não	
+tchoffite	Hoffite lateral (TC)	achado		0	não	
+tcpseudoartrose	Pseudoartrose de fratura femoral	achado		0	não	
+pepodre	Osteomielite do 5º metatarso com fleimão/abscesso	achado		0	sim	
+quadrilcame	Morfologia tipo came (ângulo alfa)	achado	quadrilcamec	3	não	
+quadrilcamec	Conclusão — morfologia tipo came	conclusão	quadrilcame	1	não	
+quadrilpincer	Morfologia tipo pincer (sobrecobertura acetabular)	achado	quadrilpincerc	3	não	
+quadrilpincerc	Conclusão — morfologia tipo pincer	conclusão	quadrilpincer	1	não	
+quadrildisplasia	Displasia acetabular (cobertura reduzida)	achado	quadrildisplasiac	2	não	
+quadrildisplasiac	Conclusão — displasia acetabular	conclusão	quadrildisplasia	1	não	
+arconecrose2	Osteonecrose da cabeça femoral — ARCO II	achado		1	não	
+arconecrose3a	Osteonecrose da cabeça femoral — ARCO IIIA	achado		1	não	
+arconecrose3b	Osteonecrose da cabeça femoral — ARCO IIIB	achado		2	não	
+arconecrose4	Osteonecrose da cabeça femoral — ARCO IV	achado		1	não	
+arconecrosec	Conclusão — osteonecrose da cabeça femoral (ARCO)	achado		2	não	
+brooker	Ossificação heterotópica — Brooker (com tabela)	achado		2	não	
+fraturasacral	Fratura sacral por insuficiência	achado	fraturasacralc	2	não	
+fraturasacralc	Conclusão — fratura sacral por insuficiência	conclusão	fraturasacral	1	não	
+fraturacolo	Fratura do colo femoral — Garden (com tabela)	achado		3	não	
+fraturatrocanter	Fratura transtrocanteriana	achado		4	não	
+apc1	Anel pélvico — Young-Burgess APC I	achado		1	não	
+apc2	Anel pélvico — Young-Burgess APC II	achado		2	não	
+apc3	Anel pélvico — Young-Burgess APC III	achado		2	não	
+lc1	Anel pélvico — Young-Burgess LC I	achado		2	não	
+lc2	Anel pélvico — Young-Burgess LC II	achado		1	não	
+lc3	Anel pélvico — Young-Burgess LC III	achado		1	não	
+cisalhamentovertical	Anel pélvico — cisalhamento vertical	achado		1	não	
+anelpelvicoc	Conclusão — fratura do anel pélvico (Young-Burgess)	achado		1	não	
+schatzker	Fratura do planalto tibial — Schatzker (com tabela)	achado	schatzkerc	3	não	
+schatzkerc	Conclusão — fratura do planalto tibial	conclusão	schatzker	2	não	
+tagt	Distância TA-GT	achado		2	não	
+patelaalta	Altura patelar — Caton-Deschamps	achado		2	não	
+displasiatroclear	Displasia troclear — Dejour (com tabela)	achado		2	não	
+patelainclinada	Inclinação patelar	achado		2	não	
+sanders	Fratura do calcâneo — Sanders (com tabela)	achado	sandersc	5	não	
+sandersc	Conclusão — fratura do calcâneo	conclusão	sanders	2	não	
+hawkins	Fratura do colo do tálus — Hawkins (com tabela)	achado		2	não	
+lisfranc1	Lesão de Lisfranc	achado	lisfranc1c	4	não	
+lisfranc1c	Conclusão — lesão de Lisfranc	conclusão	lisfranc1	1	não	
+coalizaoossea	Coalizão tarsal óssea	achado		3	não	
+coalizaofibrosa	Coalizão tarsal não óssea	achado		2	não	
+coalizaoc	Conclusão — coalizão tarsal	achado		3	não	
+naviacessorio	Navicular acessório — Geist (com tabela)	achado		2	não	
+ostrigono	Os trigonum — TC, descrição com lado	achado		1	não	
+charcotpe	Neuroartropatia de Charcot — TC	achado	charcotpec	2	não	
+charcotpec	Conclusão — neuroartropatia de Charcot	conclusão	charcotpe	1	não	
+adiq	Alterações degenerativas dos quadris	achado		0	não	
+adisp	Alterações degenerativas da sínfise púbica	achado		0	não	
+adist	Alterações degenerativas da sínfise púbica	achado		0	não	
+cpi	no corpo do ilíaco	fragmento		0	não	
+cpid	no corpo do ilíaco direito	fragmento		0	não	
+cpie	no corpo do ilíaco esquerdo	fragmento		0	não	
+erocpi	Imagem esclerótica no corpo do ilíaco	achado		0	não	
+erocpi1	Imagem esclerótica no corpo do ilíaco direito	achado		0	não	
+erocpi2	Imagem esclerótica no corpo do ilíaco esquerdo	achado		0	não	
+erocpi3	Imagens escleróticas nos corpos dos ilíacos	achado		0	não	
+erosbacia	Imagens escleróticas nos ossos da bacia	achado		0	não	
+finastel	Telangiectasias em membros inferiores	achado		0	não	
+oid	Osso ilíaco direito	fragmento		0	não	
+oie	Osso ilíaco esquerdo	fragmento		0	não	
+pate	Entesófito suprapatelar	achado		0	não	
+peplano	Retificação do arco plantar	achado		0	não	
+pitpits	Fossetas de herniação sinovial femorais bilaterais	achado		0	não	
+tcbala	Corpos estranhos metálicos em região glútea (PAF)	achado		0	não	
+tcbala1	Ferimento por projétil de arma de fogo (adutor)	achado		0	não	
+tcbala2	Fragmentos de projétil de arma de fogo em região glútea	achado		0	não	
+glut	Tendinopatia dos glúteos médio e mínimo	achado		0	não	
+qua	Entesófito do quadríceps distal	achado		0	não	

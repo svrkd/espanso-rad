@@ -1,0 +1,106 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+calculopelve1	Cálculo na pelve renal com mecanismo valvular	achado		3	não	
+cateterduploj1	Cateter duplo J com cálculo adjacente	achado		3	sim	
+calculojuncao1	Fileira de cálculos na junção ureterovesical	achado		2	não	
+hidroureteronefrose1	Hidroureteronefrose com calcificação pélvica indeterminada	achado		1	não	
+estenosejup1	Estenose de junção ureteropiélica com saco hidronefrótico	achado		0	não	
+pielonefrite1	Pielonefrite com nefrograma estriado	achado		0	não	
+pielonefrite2	Pielonefrite com abscessos e trombose das veias renal e gonadal	achado		0	sim	
+tromboseiliaca	Trombose das veias ilíacas comum, interna e externa	achado		0	não	
+pielonefrite3	Pielonefrite bilateral com abscessos em organização	achado		0	não	
+calculoureter1	Cálculo obstrutivo distal com coleção retroperitoneal	achado		4	não	
+calculopelve2	Cálculo na pelve renal com caliectasias focais	achado		3	não	
+pielonefrite4	Pielonefrite aguda bilateral com edema periportal	achado		0	não	
+calculoureter2	Rim crônico com cálculo ureteral e coleção até o quadril	achado		5	sim	
+calculopelve3	Cálculo na pelve renal com dilatação pielocalicinal	achado		3	não	
+calculorenal1	Dois cálculos justapostos no grupamento calicinal inferior	achado		5	não	
+neoplasiarenal1	Neoplasia renal com invasão da pelve e do ureter proximal	achado	neoplasiarenal1c	1	não	
+neoplasiarenal1c	Conclusão — neoplasia renal com escore nefrométrico	conclusão	neoplasiarenal1	1	não	
+neoplasiarenal2	Neoplasia renal com trombose das veias renal e cava inferior	achado		1	não	
+neoplasiarenal3	Neoplasia renal infiltrativa com trombose da veia renal	achado		2	não	
+neoplasiaurotelial1	Neoplasia urotelial da pelve renal e ureter proximal	achado		0	não	
+roturafornice1	Rotura de fórnice renal com urinoma por cálculo distal	achado	roturafornice1c	3	não	
+roturafornice1c	Conclusão — rotura de fórnice renal com urinoma	conclusão	roturafornice1	0	não	
+cateterpielovesical	Cateter de derivação pielovesical com densificação perirrenal	achado		0	não	
+cateterduploj2	Cateter duplo J com heterogeneidade do parênquima renal	achado		0	não	
+hematomarenal1	Hematoma subcapsular renal com focos gasosos perirrenais	achado		1	não	
+rinslimitrofes	Rins nos limites inferiores da normalidade	achado		0	não	
+infartorenal	Infartos esplênico e renais bilaterais	achado		0	sim	
+neoplasiarenal4	Neoplasia renal esquerda de alta complexidade (RENAL 10x)	achado	neoplasiarenal4c	3	sim	
+neoplasiarenal4c	Conclusão — lesão expansiva renal sugestiva de neoplasia primária	conclusão	neoplasiarenal4	0	não	
+pielonefrite5	Pielonefrite aguda sem áreas liquefeitas	achado	pielonefrite5c	0	não	
+pielonefrite5c	Conclusão — pielonefrite aguda não complicada	conclusão	pielonefrite5	0	não	
+pielonefrite6	Pielonefrite bilateral com realce estriado	achado		0	não	
+pielonefrite7	Microabscessos corticais renais bilaterais	achado		2	não	
+pielonefriteenfisematosa1	Pielonefrite enfisematosa com abscessos perirrenais	achado		0	sim	
+hidroureteronefrose2	Hidroureteronefrose bilateral sem fator obstrutivo	achado		0	sim	
+materialdenso	Material denso na pelve e ureter proximal	achado		0	não	
+angiomiolipoma1	Angiomiolipoma renal volumoso	achado	angiomiolipoma1c	1	não	
+angiomiolipoma1c	Conclusão — massa renal gordurosa sugestiva de angiomiolipoma	conclusão	angiomiolipoma1	0	não	
+angiomiolipoma2	Angiomiolipoma do polo inferior renal	achado		1	não	
+neoplasiaurotelial2	Carcinoma urotelial pieloureteral com duplicação do sistema coletor	achado		1	não	
+neoplasiaurotelial3	Realce no ureter distal — neoplasia urotelial?	achado		0	não	
+traumarenal5	Trauma renal AAST grau V com desvascularização	achado		0	não	
+neoplasiarenal5	Tumor renal sincrônico com varicocele ipsilateral	achado	neoplasiarenal5c	4	não	
+neoplasiarenal5c	Conclusão — massa e nódulos renais compatíveis com neoplasia	conclusão	neoplasiarenal5	0	não	
+pielonefrite8	Pielonefrite obstrutiva por cálculo na junção ureteropiélica	achado		2	não	
+uropatiaobstrutiva1	Uropatia obstrutiva intermitente com pelveureterite	achado		3	não	
+densificacaoperirrenal	Densificação perirrenal indeterminada (estudo sem contraste)	achado		0	não	
+tumorwilms	Nefroblastomas bilaterais (tumor de Wilms)	achado	tumorwilmsc	4	não	
+tumorwilmsc	Conclusão — neoplasia renal primária (nefroblastomas)	conclusão	tumorwilms	0	não	
+megaureterobstrutivo	Megaureter obstrutivo primário com infecção sobreposta	achado		0	sim	
+nefrostomiaesquerda	Nefrostomia percutânea esquerda	achado		0	não	
+calculocoraliforme	Cálculo coraliforme renal	achado		3	não	
+neoplasiaurotelial4	Tumor urotelial da pelve renal com cálculo coraliforme	achado	neoplasiaurotelial4c	4	não	
+neoplasiaurotelial4c	Conclusão — carcinoma urotelial renal	conclusão	neoplasiaurotelial4	0	não	
+pielonefrite9	Abscessos perirrenais e intracavitários pós-pielonefrite	achado		2	sim	
+cistopelve	Imagem cística da pelve renal inespecífica	achado		1	não	
+hidroureteronefrose3	Hidroureteronefrose direita sem fator obstrutivo identificado	achado		0	não	
+flebolitoureter	Calcificação junto ao ureter distal — flebólito ou cálculo	achado		0	não	
+hematomarenal2	Hematoma subcapsular renal laminar	achado		1	não	
+roturafornice2	Rotura do fórnice renal com urinoma na fase excretora	achado		0	não	
+rimferradura	Rim em ferradura — com parênquima normal	achado		0	não	
+estenosejup2	Estenose da junção ureteropiélica direita	achado		0	não	
+estenosejup3	Estenose da junção ureteropiélica esquerda com densificação	achado		0	não	
+estenosejup4	Estenose da junção ureteropiélica com urinoma	achado		2	não	
+rotacaorenal	Vício de rotação renal bilateral	achado		0	não	
+diverticulocalice	Divertículos calicinais	achado		2	não	
+retracaorenal1	Retrações parenquimatosas renais de aspecto sequelar	achado		0	não	
+congestaoperirrenal	Congestão venolinfática perirrenal	achado		0	não	
+angiomiolipoma3	Angiomiolipoma renal diminuto	achado		2	não	
+ectasiaureteral	Ectasia ureteral por passagem recente de cálculo	achado		0	não	
+hidronefroseacentuada	Hidronefrose acentuada com nefropatia ipsilateral	achado		1	sim	
+calculopelve4	Cálculo na pelve renal com provável pelveureterite	achado		0	não	
+ureterespessado	Espessamento parietal ureteral indeterminado	achado		0	não	
+calculorenal2	Cálculo renal não obstrutivo	achado		3	não	
+calculorenal3	Cálculos renais não obstrutivos (lista)	achado		3	não	
+calculorenal4	Dois cálculos renais justapostos não obstrutivos	achado		5	não	
+calculoureter3	Cálculos ureterais múltiplos com uropatia obstrutiva	achado		12	não	
+calculoureter4	Ureterolitíase com pielonefrite e coleções em formação	achado		3	sim	
+calculoureter5	Cálculos ureterais justapostos obstrutivos com exclusão funcional	achado		4	não	
+calculojuncao2	Cálculo na junção ureterovesical com pelveureterite	achado		2	não	
+calculoureter6	Cálculo obstrutivo do ureter distal esquerdo	achado		2	sim	
+calculojuncao3	Cálculo obstrutivo na junção ureterovesical direita	achado		2	não	
+calculoureter7	Cálculo obstrutivo no terço médio do ureter esquerdo	achado		3	não	
+calculoureter8	Cálculo obstrutivo no terço proximal do ureter direito	achado		3	não	
+calculoureter9	Cálculos justapostos obstrutivos do ureter distal	achado		5	não	
+calculoureter10	Cálculo obstrutivo com nefrograma estriado	achado		3	não	
+uropatiaobstrutiva2	Uropatia obstrutiva complicada com abscesso renal	achado		5	não	
+pielonefriteenfisematosa2	Cálculo pielocalicinal com pielite enfisematosa	achado		2	não	
+pielonefriteenfisematosa3	Pielonefrite e pielite enfisematosa com coleções gasosas	achado		0	sim	
+pielonefriteenfisematosa4	Cálculo ureteral distal com focos gasosos calicinais	achado	pielonefriteenfisematosa4c	4	não	
+pielonefriteenfisematosa4c	Conclusão — pielite enfisematosa com ureterolitíase	conclusão	pielonefriteenfisematosa4	0	não	
+pielonefriteenfisematosa5	Cálculos na pelve renal com pielite enfisematosa	achado		5	não	
+pielonefrite10	Pielonefrite aguda com microabscessos em formação	achado		0	não	
+pielonefrite11	Pielonefrite complicada com coleção subcapsular hemática	achado		2	sim	
+pielonefrite12	Pielonefrite aguda não complicada com dilatação mínima	achado		0	não	
+pielonefrite13	Pielonefrite aguda não complicada à esquerda	achado		0	não	
+hidroureteronefrose4	Nefrograma estriado com hidroureteronefrose sem fator obstrutivo	achado		0	não	
+pielonefrite14	Pielonefrite secundária a obstrução sem nefrograma estriado	achado		2	não	
+pielonefrite15	Pielonefrite aguda direita com linfonodos reacionais	achado		0	não	
+pielonefrite16	Pielonefrite aguda associada a ureterite	achado		0	não	
+pielonefritexantogranulomatosa1	Pielonefrite xantogranulomatosa com abscesso perirrenal	achado	pielonefritexantogranulomatosa1c	7	não	
+pielonefritexantogranulomatosa1c	Conclusão — pielonefrite xantogranulomatosa com abscesso perirrenal	conclusão	pielonefritexantogranulomatosa1	0	não	
+pielonefritexantogranulomatosa2	Pielonefrite xantogranulomatosa bilateral	achado		2	não	
+aneurismarenal	Aneurisma sacular da artéria renal	achado		2	não	
+rimvicariante	Rim vicariante	achado		0	não	

@@ -14,6 +14,8 @@
 #                                                       nenhum build standalone para macOS, só um .dmg para
 #                                                       /Applications que exige permissão de Acessibilidade)
 #   dist/espanso-rad-beeftext-portable-<version>.zip  (BeefText Portable Edition + comboList.json pré-gerado)
+#   dist/laude-skill.zip                              (skills/laude/: base de referência da skill /laude,
+#                                                       gerada por scripts/gen_laude_index.py)
 #   dist/poster-us-<version>.pdf                      (pôster de parede de referência rápida — US, também
 #                                                       incluído dentro do pacote base)
 #
@@ -48,6 +50,10 @@ python3 "$REPO_ROOT/scripts/check_poster_coverage.py"
 echo "==> Validando beeftext/comboList.json x match/*.yml"
 python3 "$REPO_ROOT/scripts/espanso_to_beeftext.py" --check
 
+# --- validação de deriva da skill /laude: aborta se skills/laude/references/ não refletir match/*.yml ---
+echo "==> Validando skills/laude/references/ x match/*.yml"
+python3 "$REPO_ROOT/scripts/gen_laude_index.py" --check
+
 # --- gera o pôster e renderiza o PDF ---
 echo "==> Gerando pôster de parede"
 python3 "$REPO_ROOT/scripts/gen_poster.py"
@@ -76,6 +82,12 @@ echo "    -> $BASE_ZIP"
 POSTER_PDF_OUT="$DIST/poster-us-${VERSION}.pdf"
 cp "$REPO_ROOT/docs/poster-us.pdf" "$POSTER_PDF_OUT"
 echo "    -> $POSTER_PDF_OUT"
+
+# --- skill /laude: skills/laude/ inteira como asset (nome fixo, sem versão) ---
+echo "==> Montando pacote da skill /laude"
+LAUDE_ZIP="$DIST/laude-skill.zip"
+(cd "$REPO_ROOT/skills" && zip -rq "$LAUDE_ZIP" laude -x '*/__pycache__/*' '*.pyc')
+echo "    -> $LAUDE_ZIP"
 
 if [ "$WITH_PORTABLE" != "--with-portable" ]; then
     echo "==> Concluído (sem pacotes portáteis)"

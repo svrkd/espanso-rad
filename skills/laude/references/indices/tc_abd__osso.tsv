@@ -1,0 +1,12 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+fraturachance	Fratura de Chance de T12	achado		0	sim	
+vertebraemh	Vértebras em H (anemia falciforme)	achado		0	não	
+osteomielitecoxa	Osteomielite crônica agudizada da coxa	achado		1	não	
+ulcerapressao1	Úlcera de pressão sacrococcígea com acometimento ósseo	achado		1	não	
+osteomielitesacroiliaca	Osteomielite crônica sacroilíaca com sequestro e fístula	achado		2	sim	
+ulcerapressao2	Úlcera de pressão sacral com osteomielite crônica	achado		0	sim	
+hemangiomavertebral	Hemangioma vertebral de S1	achado		0	não	
+metastaselitica	Metástases ósseas líticas com invasão de partes moles	achado		0	não	
+espondilodisciteabscesso	Espondilodiscite com abscessos epidural e paravertebrais	achado		0	sim	
+tumormarrom	Hiperparatireoidismo com tumores marrons	achado	tumormarromc	6	não	
+tumormarromc	Conclusão — hiperparatireoidismo secundário com tumor marrom	conclusão	tumormarrom	0	não	

@@ -1,0 +1,83 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+rmombro1	ressonância magnética ombro normal	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO/ESQUERDO
+rmombro2	RM de ombro — modelo com alternativas (AC, bursa, lábio)	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO/ESQUERDO
+rmombro3	RM dos ombros — admissional, bilateral normal	template		0	não	RESSONÂNCIA MAGNÉTICA DOS OMBROS
+rmombro4	RM de ombro — modelo mestre com todas as variantes	template		1	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO/ESQUERDO
+rmombro5	RM de ombro — rotura maciça do manguito rotador	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO/ESQUERDO
+rmombro6	RM de ombro — instabilidade / Hill-Sachs	template		0	sim	
+rmombro7	RM de ombro — Hill-Sachs reverso / luxação posterior	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO/ESQUERDO
+rmombro9	RM de ombro — modelo mestre com alternativas (Análise/I.D.)	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO / ESQUERDO
+rmombro10	RM de ombro — instabilidade (modelo Análise/I.D.)	template		4	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO / ESQUERDO
+rmombro11	RM de ombro — ruptura maciça (modelo Análise/I.D.)	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO / ESQUERDO
+rmombro12	RM de ombro — tendinopatia do manguito (modelo Análise/I.D.)	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO DIREITO / ESQUERDO
+rmombro13	RM de ombro — capsulite adesiva com roturas parciais	template		0	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO
+rmombro14	RM de ombro — pós-operatório de manguito com âncoras	template		1	sim	RESSONÂNCIA MAGNÉTICA DE OMBRO DIREITO
+rmombro15	RM de ombro — sobrecarga da acromioclavicular	template		1	sim	RESSONÂNCIA MAGNÉTICA DO OMBRO ESQUERDO
+rmombro16	RM de ombro — tendinopatia do manguito com comparação	template		1	sim	
+rmombro17	RM de ombro — edema da clavícula distal e fissuras insercionais	template		0	não	
+tcombro	TC de ombro — pós-osteossíntese do úmero proximal	template		1	sim	TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO
+tcombro2	TC de ombro — osteossíntese não consolidada	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO
+tcombro3	TC de ombro — tendinopatia calcária do supraespinhal	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO/ESQUERDO
+usombro	US de ombro — rotura extensa do manguito e do cabo longo	template		1	sim	ULTRASSONOGRAFIA DO OMBRO DIREITO
+usombro2	US de ombro — rotura transfixante com retração e Goutallier III	template		0	sim	ULTRASSONOGRAFIA DO OMBRO ESQUERDO
+rmcotovelo	RM de cotovelo — normal	template		0	não	RESSONÂNCIA MAGNÉTICA DO COTOVELO
+rmcotovelo2	RM de cotovelo — modelo mestre com alterações	template		0	sim	RESSONÂNCIA MAGNÉTICA DO COTOVELO
+rmcotovelo3	RM de cotovelo — trauma com fratura do rádio proximal	template		0	não	RESSONÂNCIA MAGNÉTICA DO COTOVELO
+rmcotovelo4	RM de cotovelo — trauma com extensão articular	template		0	não	RESSONÂNCIA MAGNÉTICA DO COTOVELO
+rmcotovelo6	RM de cotovelo — artropatia inflamatória	template		1	não	
+rmpunho2	RM de punho — normal	template		0	não	RESSONÂNCIA MAGNÉTICA DO PUNHO
+rmpunho3	RM de punho — modelo mestre com DISI	template		0	sim	RESSONÂNCIA MAGNÉTICA DO PUNHO
+rmpunho4	RM de punho — artropatia mediocárpica e degeneração da fibrocartilagem	template		1	não	RESSONÂNCIA MAGNÉTICA DO PUNHO DIREITO
+rmpunho5	RM de punho — pós-osteossíntese do rádio com Kienböck	template		0	sim	RESSONÂNCIA MAGNÉTICA DO PUNHO ESQUERDO
+rmpunho6	RM de punho — edema do semilunar e alterações mecânicas	template		1	sim	RESSONÂNCIA MAGNÉTICA DO PUNHO ESQUERDO
+rmpunho7	RM de punho — síndrome do túnel do carpo	template		0	não	RESSONÂNCIA MAGNÉTICA DO PUNHO ESQUERDO
+rmmao2	RM de mão — normal	template		0	não	RESSONÂNCIA MAGNÉTICA DA MÃO
+rmmao3	RM de mão — fibromatose palmar (Dupuytren)	template		1	não	RESSONÂNCIA MAGNÉTICA DA MÃO DIREITA
+rmmao4	RM de polegar — rotura capsuloligamentar da metacarpofalângica	template		0	sim	MÉTODO:
+rmmao5	RM de mão — hemangioma em criança	template		0	sim	RESSONÂNCIA MAGNÉTICA DA MÃO DIREITA
+rmmao6	RM de mão — artropatia da terceira metacarpofalângica	template		1	sim	RESSONÂNCIA MAGNÉTICA DA MÃO DIREITA
+rmmao7	RM de mão — hemangioma intramuscular	template		0	não	RESSONÂNCIA MAGNÉTICA DA MÃO ESQUERDA
+rmmao8	RM de mão — controle de lesão vascular pós-ressecção	template		1	não	RESSONÂNCIA MAGNÉTICA DA MÃO ESQUERDA
+rmmao9	RM de mão — artropatia inflamatória em atividade	template		1	não	
+tcpunho	TC de mão — artropatia infecciosa	template		0	não	TOMOGRAFIA COMPUTADORIZADA DA MÃO DIREITA
+tcpunho2	TC de punho — fraturas do carpo	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO PUNHO
+tcpunho3	TC de punho — controle pós-cirúrgico com fios de Kirchner	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO PUNHO ESQUERDO
+uspunho	US de mão e punho — rizartrose e cisto artrossinovial	template		0	não	ULTRASSONOGRAFIA DA MÃO E PUNHO DIREITO
+uspunho2	US de mão e punho — rizartrose e nervo mediano bífido	template		0	não	ULTRASSONOGRAFIA DA MÃO E PUNHO ESQUERDO
+usmao	US de partes moles — fibromatose palmar	template		0	não	ULTRASSONOGRAFIA DAS PARTES MOLES
+rmquadril2	RM de quadril — modelo mestre com alternativas	template		0	não	RESSONÂNCIA MAGNÉTICA DO QUADRIL
+rmquadril3	RM de quadril — modelo mestre com alterações	template		0	sim	RESSONÂNCIA MAGNÉTICA DO QUADRIL
+rmquadril4	RM de quadril — osteonecrose e fratura da cabeça femoral	template		4	sim	RESSONÂNCIA MAGNÉTICA DO QUADRIL
+rmquadril5	RM de quadril — modelo mestre com alternativas (Análise/I.D.)	template		0	sim	QUADRIL - RESSONÂNCIA MAGNÉTICA DO QUADRIL DIREITO / ESQUERDO
+rmquadril6	RM de quadril — degenerativo (modelo Análise/I.D.)	template		0	sim	RESSONÂNCIA MAGNÉTICA DO QUADRIL DIREITO / ESQUERDO
+rmquadril7	RM de quadril — artrose com tendinopatia dos glúteos	template		0	não	RESSONÂNCIA MAGNÉTICA DO QUADRIL DIREITO
+rmbacia2	RM de bacia — controle de hemipelvectomia	template		2	sim	RESSONÂNCIA MAGNÉTICA DA BACIA
+rmbacia3	RM de bacia — reconversão medular e alterações degenerativas	template		1	não	RESSONÂNCIA MAGNÉTICA DA BACIA
+rmbacia4	RM de bacia e coxa — suspeita de osteoma osteoide	template		0	não	RESSONÂNCIA MAGNÉTICA DA BACIA E COXA DIREITA
+rmsacro2	RM sacrococcígea — controle pós-sacrectomia	template		1	sim	RESSONÂNCIA MAGNÉTICA DA REGIÃO SACROCOCCÍGEA
+tcquadril	TC de quadril — estudo de artroplastia total (com referências)	template		9	sim	TOMOGRAFIA COMPUTADORIZADA DO QUADRIL _
+tcquadril2	TC de quadril — artroplastia total, modelo com medidas	template		10	sim	TOMOGRAFIA COMPUTADORIZADA DO QUADRIL _
+tcquadril4	TC de bacia/quadril — normal	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DA BACIA/QUADRIL
+tcquadril5	TC de quadril — sem alterações, com ressalva de RM	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO QUADRIL ESQUERDO
+tcbacia2	TC de bacia — trauma com fratura da crista ilíaca	template		0	sim	
+tcbacia4	TC de bacia — fratura em livro aberto com fixador externo	template		0	não	TOMOGRAFIA COMPUTADORIZADA DA BACIA
+tcbacia6	TC de bacia — próteses glúteas	template		0	sim	
+tcbacia7	TC de bacia — controle pós-sacrectomia	template		0	não	TOMOGRAFIA COMPUTADORIZADA DA BACIA
+tccoxa2	TC de coxa — formação expansiva com calcificações	template		0	não	
+rmcoxa2	RM de coxa — atrito iliotibial e sequelas do reto femoral	template		0	sim	RESSONÂNCIA MAGNÉTICA DA COXA
+rmcoxa3	RM de coxa — hemangioma intramuscular	template		0	não	RESSONÂNCIA MAGNÉTICA DA COXA DIREITA
+rmcoxa4	RM de coxa — lesão da transição miotendínea do reto femoral	template		1	sim	RESSONÂNCIA MAGNÉTICA DA COXA ESQUERDA
+rmcoxa5	RM de coxa — estiramento do vasto lateral	template		0	não	RESSONÂNCIA MAGNÉTICA DA COXA DIREITA
+rmperna2	RM de pernas e coxas — miosite e reconversão medular	template		0	sim	RESSONÂNCIA MAGNÉTICA DAS PERNAS E COXAS
+rmperna3	RM de perna — sequela do gastrocnêmio	template		0	não	RESSONÂNCIA MAGNÉTICA DA PERNA
+rmperna4	RM de pernas — normal	template		0	sim	RESSONÂNCIA MAGNÉTICA DA PERNAS/ PERNA
+rmperna5	RM de perna — normal com contraste	template		0	não	RESSONÂNCIA MAGNÉTICA DA PERNA
+rmjoelho2	RM de joelho — modelo mestre com alternativas	template		0	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO
+rmjoelho3	RM de joelho — modelo mestre com todas as variantes	template		2	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO
+rmjoelho4	RM de joelho — rotura aguda do LCA	template		0	sim	
+rmjoelho5	RM de joelho — controle de reconstrução do LCA	template		0	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO
+rmjoelho6	RM de joelho — rotura do neoligamento com artrose	template		0	não	
+rmjoelho7	RM de joelho — soltura de prótese total	template		0	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO
+rmjoelho9	RM de joelho — artrose (modelo Análise/I.D.)	template		0	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO
+rmjoelho10	RM de joelho — rotura do LCA (modelo Análise/I.D.)	template		0	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO
+rmjoelho11	RM de joelho — reconstrução do LCA (modelo Análise/I.D.)	template		0	sim	RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO

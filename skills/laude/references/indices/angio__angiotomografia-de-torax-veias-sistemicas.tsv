@@ -1,0 +1,10 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+misturacava	Artefato de mistura na veia cava superior	achado		0	não	
+trombocateter	Trombo relacionado a cateter venoso central	achado	trombocateterc	2	não	
+trombocateterc	Conclusão — trombo relacionado a cateter	conclusão	trombocateter	1	não	
+cavaocluida	Obstrução da veia cava superior com colaterais	achado	cavaocluidac	2	sim	
+cavaocluidac	Conclusão — obstrução da veia cava superior	conclusão	cavaocluida	1	não	
+loboazigos	Lobo ázigos	achado		0	não	
+retroaortica	Veia braquiocefálica esquerda retroaórtica	achado		0	não	
+continuacaoazigos	Continuação ázigos da veia cava inferior	achado	continuacaoazigosc	1	não	
+continuacaoazigosc	Conclusão — continuação ázigos da veia cava inferior	conclusão	continuacaoazigos	0	não	

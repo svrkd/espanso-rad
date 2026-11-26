@@ -1,0 +1,34 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+carcinomaseroso	Adenocarcinoma seroso de ovário metastático	achado		0	não	
+deferentite1	Espessamento do funículo espermático com orquiepididimite (deferentite)	achado	deferentite1c	0	não	
+deferentite1c	Conclusão — processo inflamatório do ducto deferente (vasite)	conclusão	deferentite1	0	não	
+deferentite2	Deferentite com vesiculite seminal e infecção urinária	achado		0	não	
+abscessovulvar	Processo inflamatório vulvar com abscedação e fístula cutânea	achado		0	sim	
+neoplasiacolo1	Neoplasia do colo uterino com invasão vesical e retal	achado	neoplasiacolo1c	1	sim	
+neoplasiacolo1c	Conclusão — neoplasia primária do colo uterino	conclusão	neoplasiacolo1	0	não	
+endometriose1	Endometriose ovariana e profunda com acometimento ileal	achado		0	sim	
+uteroarqueado	Útero arqueado com heterogeneidade miometrial	achado		0	não	
+adenocarcinomaendometrial	Adenocarcinoma endometrioide com invasão vaginal e do canal anal	achado		0	não	
+diuectopico	Dispositivo intrauterino ectópico	achado		0	não	
+neoplasiavesicouterina	Neoplasia vesical com invasão uterina	achado		2	não	
+cistoretrouterino	Formação cística complexa retrouterina	achado		1	não	
+endometriose2	Endometriomas ovarianos com espessamento do paramétrio	achado		0	não	
+ectopicarota	Prenhez ectópica rota com hemoperitônio	achado		0	não	
+neoplasiauterina	Neoplasia uterina volumosa com linfonodomegalias	achado		3	não	
+fistulaenteroperianal1	Provável fístula enterocutânea perianal	achado		0	sim	
+colecaohematica	Coleção pélvica de provável natureza hemática	achado		2	não	
+massaanexial	Massa anexial sólido-cística suspeita	achado		0	não	
+fistulaenteroperianal2	Abscesso perineal com trajeto fistuloso para o reto	achado		2	não	
+abscessotubovariano	Abscesso tubo-ovariano — TC, com focos gasosos	achado		2	sim	
+endometriose3	Formação densa pélvica indeterminada (endometrioma?)	achado		1	sim	
+endometriose4	Endometriose de parede abdominal	achado		1	não	
+corpoluteo	Cisto de corpo lúteo	achado		1	não	
+cistouracal	Cisto uracal	achado		1	não	
+massaretrouterina	Massa pélvica retrouterina de provável origem neoplásica	achado		1	não	
+cistoadenomamucinoso	Cistoadenoma mucinoso ovariano volumoso	achado		2	não	
+teratomaovariano	Teratoma ovariano — direito, com gordura e calcificação	achado		1	não	
+fibromaovariano	Fibroma ovariano com compressão do domo vesical	achado	fibromaovarianoc	1	sim	
+fibromaovarianoc	Conclusão — fibroma ovariano com síndrome de Meigs	conclusão	fibromaovariano	0	não	
+osteomielitesacroiliaca2	Osteomielite sacroilíaca com sequestro em controle evolutivo	achado		1	sim	
+osteomielitesacral	Coleção sacrococcígea com osteomielite	achado		1	sim	
+neoplasiaovariana	Neoplasia ovariana cística com carcinomatose peritoneal	achado		1	sim	

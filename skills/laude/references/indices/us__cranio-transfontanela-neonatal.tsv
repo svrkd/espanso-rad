@@ -1,0 +1,26 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+tf1	Crânio (transfontanela): Cavum do septo pelúcido	achado		0	não	
+tf2	Crânio (transfontanela): Cavum vergae	achado		0	não	
+tf3	Crânio (transfontanela): Cavum septo pelúcido e vergae	achado		0	não	
+tf4	Crânio (transfontanela): Cisto de plexo coroide	achado		2	não	
+tf5	Crânio (transfontanela): Assimetria ventricular discreta	achado		0	não	
+tfp1	Crânio (transfontanela): HPIV grau I (Papile) — achado	achado	tfp1c	1	não	
+tfp1c	Crânio (transfontanela): HPIV grau I (Papile) — conclusão	conclusão	tfp1	0	não	
+tfp2	Crânio (transfontanela): HPIV grau II (Papile) — achado	achado	tfp2c	1	não	
+tfp2c	Crânio (transfontanela): HPIV grau II (Papile) — conclusão	conclusão	tfp2	0	não	
+tfp3	Crânio (transfontanela): HPIV grau III (Papile) — achado	achado	tfp3c	1	não	
+tfp3c	Crânio (transfontanela): HPIV grau III (Papile) — conclusão	conclusão	tfp3	0	não	
+tfp4	Crânio (transfontanela): HPIV grau IV (Papile) — achado	achado	tfp4c	1	não	
+tfp4c	Crânio (transfontanela): HPIV grau IV (Papile) — conclusão	conclusão	tfp4	0	não	
+tf6	Crânio (transfontanela): Hiperecogenicidade periventricular (possível leucomalácia inicial)	achado		0	não	
+tf7	Crânio (transfontanela): Leucomalácia periventricular cística	achado		0	não	
+tf8	Crânio (transfontanela): Ventriculomegalia leve	achado		4	não	
+tf9	Crânio (transfontanela): Ventriculomegalia moderada	achado		4	não	
+tf10	Crânio (transfontanela): Ventriculomegalia acentuada / hidrocefalia	achado		4	não	
+tf11	Crânio (transfontanela): Cisto subependimário	achado		2	não	
+tf12	Crânio (transfontanela): Agenesia de corpo caloso — achado	achado	tf12c	0	não	
+tf12c	Crânio (transfontanela): Agenesia de corpo caloso — conclusão	conclusão	tf12	0	não	
+tf13	Crânio (transfontanela): Complexo de Dandy-Walker — achado	achado	tf13c	0	sim	
+tf13c	Crânio (transfontanela): Complexo de Dandy-Walker — conclusão	conclusão	tf13	0	não	
+tf14	Crânio (transfontanela): Malformação de Chiari tipo II — achado	achado	tf14c	0	não	
+tf14c	Crânio (transfontanela): Malformação de Chiari tipo II — conclusão	conclusão	tf14	0	não	

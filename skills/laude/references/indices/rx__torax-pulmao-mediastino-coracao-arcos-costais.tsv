@@ -1,0 +1,89 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+alargmed	Alargamento mediastinal	achado		0	não	
+atvp	Acentuação da trama vascular pulmonar	achado		0	não	
+bronqui	Bronquiectasias císticas	achado		0	não	
+rxcar	Cardiomegalia — área cardíaca aumentada	achado		0	não	
+carlimit	Silhueta cardíaca — avaliação limitada	achado		0	não	
+carsup	Silhueta cardíaca no limite superior	achado		0	não	
+cave	Opacidade cavitada pulmonar	achado		0	não	
+congesta	Opacidades intersticiais pulmonares	achado		0	não	
+derramebd	Derrame pleural bilateral, predomínio à direita	achado		0	não	
+derramebe	Derrame pleural bilateral, predomínio à esquerda	achado		0	não	
+derramed	Derrame pleural à direita — RX, apagamento do seio costofrênico	achado		0	não	
+derramee	Derrame pleural à esquerda — RX, apagamento do seio costofrênico	achado		0	não	
+destrias	Estrias atelectásicas discretas	achado		0	não	
+dextro	Dextrocardia	achado		0	não	
+drenoa	Dreno mediastinal	achado		0	não	
+dseios	Apagamento discreto dos seios costofrênicos	achado		0	não	
+dtrama	Proeminência hilar e vascular discreta	achado		0	não	
+empro	Em processo de consolidação	fragmento		0	não	
+estriasb	Estrias atelectásicas em bases pulmonares	achado		0	não	
+fracostb	Fraturas consolidadas de arcos costais bilaterais	achado		0	não	
+fracostd	Fraturas consolidadas de arcos costais à direita	achado		0	não	
+ht	Hilos e trama vascular normais	achado		0	não	
+icb	Sinais de congestão pulmonar	achado		0	não	
+jantou	Opacidades sugestivas de aspiração	achado		0	não	
+melao	Radiografia de tórax pós-operatório — múltiplos achados	achado		0	não	
+milho	Padrão miliar (tuberculose miliar)	achado		0	não	
+rxnop	Nódulo pulmonar inespecífico no lobo médio	achado		1	não	
+opm	Opacidades reticulares pulmonares — esparsas	achado		0	não	
+opph	Opacidades reticulares peri-hilares	achado		0	não	
+opret	Opacidades reticulares em bases pulmonares	achado		0	não	
+pectus	Pectus excavatum	achado		0	não	
+rxdpoc	Hiperinsuflação pulmonar sugestiva de DPOC	achado		0	não	
+philar	Proeminência hilar	fragmento		0	não	
+pneumo	Pneumotórax hipertensivo à esquerda	achado		0	não	
+pruim	Pulmões — avaliação limitada	achado		0	não	
+queijop	Metástases pulmonares nodulares	achado		0	não	
+redu	Redução da transparência pulmonar	fragmento		0	não	
+redub	Redução da transparência pulmonar nas bases	achado		0	não	
+redud	Redução difusa da transparência pulmonar	achado		0	não	
+ret2	Retificação de arcos costais e diafragma	achado		0	não	
+rxa	Radiografia de tórax — alterações degenerativas leves	achado		0	não	
+rxlimit	Tórax de avaliação limitada (técnica)	achado		0	não	
+rxt1	Tórax normal (bloco de achados)	achado		0	não	
+seio1	Apagamento do seio costofrênico direito	achado		0	não	
+seio2	Apagamento do seio costofrênico esquerdo	achado		0	não	
+seio3	Apagamento dos seios costofrênicos bilateralmente	achado		0	não	
+slimit	Seios costofrênicos de avaliação limitada	achado		0	não	
+topm	Opacidades reticulares esparsas no parênquima pulmonar	achado		0	não	
+topph	Opacidades reticulares peri-hilares — tênues	achado		0	não	
+topret	Opacidades reticulares em bases pulmonares — tênues	achado		0	não	
+trama	Trama vascular pulmonar proeminente	achado		0	não	
+arcoss	Arcos costais íntegros	achado		0	não	
+atrama	Acentuação da trama vascular pulmonar	achado		0	não	
+comcon	com sinais de consolidação	fragmento		0	não	
+emce	Eletrodos de monitorização cardíaca externa	achado		0	não	
+marcap	Marca-passo cardíaco subcutâneo	achado		0	não	
+oalveolares	Opacidades alveolares esparsas	achado		0	não	
+ointersti	Opacidades intersticiais esparsas	achado		0	não	
+ointerstia	Opacidades intersticioalveolares esparsas	achado		0	não	
+oreticulo	Opacidades reticulares esparsas	achado		0	não	
+oreticulon	Opacidades reticulonodulares esparsas	achado		0	não	
+phipo	Pulmões hipoexpandidos — prejudicando a avaliação	achado		0	não	
+proemib	Proeminência hilar bilateral	achado		0	não	
+proemid	Proeminência hilar à direita	achado		0	não	
+proemie	Proeminência hilar à esquerda	achado		0	não	
+samed	Sinais de alargamento mediastinal	achado		0	não	
+scda	Silhueta cardíaca aumentada	achado		0	não	
+scnl	Silhueta cardíaca aumentada	achado		0	não	
+seiod	Seio costofrênico direito	fragmento		0	não	
+seiodo	Seio costofrênico direito obliterado	achado		0	não	
+seioe	Seio costofrênico esquerdo	fragmento		0	não	
+seioeo	Seio costofrênico esquerdo obliterado	achado		0	não	
+seioi	Seio costofrênico ipsilateral	fragmento		0	não	
+seiosc	Seios costofrênicos	fragmento		0	não	
+seiosl	Seios costofrênicos livres	achado		0	não	
+seioso	Seios costofrênicos obliterados	achado		0	não	
+seiosobli	Seios costofrênicos obliterados	achado		0	não	
+rxt	Tórax normal (bloco de achados)	achado		0	não	
+redu1	Redução de transparência pulmonar basal direita	achado		0	não	
+redu2	Redução de transparência pulmonar basal esquerda	achado		0	não	
+redu3	Redução de transparência pulmonar basal bilateral	achado		0	não	
+retran	Redução de transparência pulmonar basal	achado		0	não	
+tcp	Transparência pulmonar normal	achado		0	não	
+tram	Transparência pulmonar preservada	achado		0	não	
+trampa	Transparência pulmonar preservada	achado		0	não	
+tranpa	Transparência pulmonar preservada	achado		0	não	
+mcsh	Marca-passo cardíaco	achado		0	não	
+popa	Pequena opacidade nodular pulmonar	achado		0	não	

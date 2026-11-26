@@ -1,0 +1,5 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+spotsign	Sinal do ponto (spot sign) no hematoma	achado	spotsignc	1	não	
+spotsignc	Conclusão — sinal do ponto (spot sign)	conclusão	spotsign	1	não	
+perimesencefalica	HSA perimesencefálica sem aneurisma à angio-TC	achado	perimesencefalicac	0	não	
+perimesencefalicac	Conclusão — HSA perimesencefálica sem aneurisma	conclusão	perimesencefalica	0	não	

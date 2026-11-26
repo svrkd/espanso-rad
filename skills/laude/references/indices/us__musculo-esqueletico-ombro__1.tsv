@@ -1,0 +1,112 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+omt1	Ombro: Técnica prejudicada — mobilidade articular	achado		0	não	
+omt2	Ombro: Técnica — redução da mobilidade	achado		0	não	
+omt3	Ombro: Técnica — redução de frequência	achado		0	não	
+omac1	Ombro: Articulação acromioclavicular normal	achado		0	não	
+omac2	Ombro: Espessamento capsuloligamentar acromioclavicular discreto	achado	omac2c	0	não	
+omac2c	Ombro: Discreto espessamento capsuloligamentar acromioclavicular (conclusão)	conclusão	omac2	0	não	
+omac3	Ombro: Espessamento capsuloligamentar acromioclavicular / degenerativo	achado	omac3c	0	sim	
+omac3c	Ombro: Espessamento capsuloligamentar acromioclavicular de provável origem degenerativa (conclusão)	conclusão	omac3	0	não	
+omac4	Ombro: Artropatia degenerativa acromioclavicular	achado	omac4c	0	não	
+omac4c	Ombro: Artropatia degenerativa acromioclavicular (conclusão)	conclusão	omac4	0	não	
+omac5	Ombro: Diástase acromioclavicular	achado	omac5c	0	não	
+omac5c	Ombro: Diástase acromioclavicular (conclusão)	conclusão	omac5	0	não	
+omac6	Ombro: Cisto sinovial acromioclavicular	achado	omac6c	1	não	
+omac6c	Ombro: Artropatia degenerativa acromioclavicular com cisto sinovial (conclusão)	conclusão	omac6	0	não	
+omb1	Ombro: Bursa normal	achado		0	não	
+omb2	Ombro: Fina lâmina líquida na bursa (bilateral)	achado	omb2c	0	não	
+omb2c	Ombro: Fina lâmina líquida na bursa subacromial-subdeltoidea (conclusão)	conclusão	omb2	0	não	
+omb3	Ombro: Espessamento discreto da bursa (bilateral)	achado	omb3c	0	não	
+omb3c	Ombro: Discreto espessamento da bursa subacromial-subdeltoidea (conclusão)	conclusão	omb3	0	não	
+omb4	Ombro: Bursopatia	achado	omb4c	0	não	
+omb4c	Ombro: Bursopatia subacromial-subdeltoidea (conclusão)	conclusão	omb4	0	não	
+omb5	Ombro: Bursite subacromial-subdeltoidea	achado	omb5c	0	não	
+omb5c	Ombro: Bursite subacromial-subdeltoidea (conclusão)	conclusão	omb5	0	não	
+omb6	Ombro: Bursite com sinovite	achado	omb6c	0	não	
+omb6c	Ombro: Bursite subacromial-subdeltoidea com sinovite (conclusão)	conclusão	omb6	0	não	
+omb7	Ombro: Bursite subacromial e subcoracoide	achado	omb7c	0	não	
+omb7c	Ombro: Bursite subacromial-subdeltoidea e subcoracoide (conclusão)	conclusão	omb7	0	não	
+ombi1	Ombro: Cabo longo do bíceps normal	achado		0	não	
+ombi2	Ombro: Tendinopatia do cabo longo do bíceps	achado	ombi2c	0	não	
+ombi2c	Ombro: Tendinopatia do cabo longo do bíceps (conclusão)	conclusão	ombi2	0	não	
+ombi3	Ombro: Tendinopatia acentuada do bíceps com derrame de bainha	achado	ombi3c	0	sim	
+ombi3c	Ombro: Acentuada tendinopatia do cabo longo do bíceps (conclusão)	conclusão	ombi3	0	não	
+ombi4	Ombro: Subluxação / luxação medial do bíceps	achado	ombi4c	0	sim	
+ombi4c	Ombro: Subluxação / luxação medial do cabo longo do bíceps (conclusão)	conclusão	ombi4	0	sim	
+ombi5	Ombro: Rotura com desinserção proximal do bíceps	achado	ombi5c	0	não	
+ombi5c	Ombro: Rotura com desinserção proximal do cabo longo do bíceps (conclusão)	conclusão	ombi5	0	não	
+ombi6	Ombro: Bíceps não caracterizado (rotura?)	achado	ombi6c	0	não	
+ombi6c	Ombro: Provável rotura do cabo longo do bíceps (conclusão)	conclusão	ombi6	0	não	
+ombi7	Ombro: Bíceps mal definido (afilamento / rotura)	achado	ombi7c	0	não	
+ombi7c	Ombro: Acentuado afilamento / rotura do cabo longo do bíceps (conclusão)	conclusão	ombi7	0	sim	
+ombi8	Ombro: Bíceps pós-operatório (rotura / tenotomia)	achado	ombi8c	0	não	
+ombi8c	Ombro: Cabo longo do bíceps não caracterizado (rotura ou tenotomia) (conclusão)	conclusão	ombi8	0	não	
+omm1	Ombro: Manguito rotador normal	achado		0	não	
+omm2	Ombro: Heterogeneidade incipiente do supraespinhal	achado	omm2c	0	não	
+omm2c	Ombro: Discreta heterogeneidade do supraespinhal, a correlacionar clinicamente (conclusão)	conclusão	omm2	0	não	
+omm3	Ombro: Tendinopatia do supraespinhal (bilateral)	achado	omm3c	0	não	
+omm3c	Ombro: Tendinopatia do supraespinhal (conclusão)	conclusão	omm3	0	não	
+omm4	Ombro: Tendinopatia sem roturas (tendão _)	achado	omm4c	1	não	
+omm4c	Ombro: Tendinopatia do _ (conclusão)	conclusão	omm4	1	não	
+omm5	Ombro: Tendinopatia com fissuras (tendão _)	achado	omm5c	1	não	
+omm5c	Ombro: Tendinopatia do _ com fissuras intrassubstanciais (conclusão)	conclusão	omm5	1	não	
+omm6	Ombro: Tendinopatia acentuada (tendão _)	achado	omm6c	1	não	
+omm6c	Ombro: Acentuada tendinopatia do _ (conclusão)	conclusão	omm6	1	não	
+omm7	Ombro: Demais tendões do manguito normais	achado		0	não	
+omm8	Ombro: Redondo menor normal	achado		0	não	
+omr1	Ombro: Rotura laminar de baixo grau (transição supra/infra)	achado	omr1c	0	sim	
+omr1c	Ombro: Finas roturas laminares intratendíneas de baixo grau do manguito rotador (conclusão)	conclusão	omr1	0	não	
+omr2	Ombro: Rotura parcial do supraespinhal (% da espessura)	achado	omr2c	2	sim	
+omr2c	Ombro: Rotura parcial do supraespinhal (conclusão)	conclusão	omr2	0	não	
+omr3	Ombro: Rotura transfixante — coto degenerado e retraído	achado	omr3c	3	não	
+omr3c	Ombro: Rotura transfixante do tendão do _ (conclusão)	conclusão	omr3	1	não	
+omr4	Ombro: Rotura transfixante — coto não caracterizado	achado	omr4c	2	não	
+omr4c	Ombro: Rotura transfixante do tendão do _ com retração acentuada (conclusão)	conclusão	omr4	1	não	
+omr5	Ombro: Rotura mal definida — afilamento junto à inserção	achado	omr5c	0	não	
+omr5c	Ombro: Rotura mal definida do supraespinhal (conclusão)	conclusão	omr5	0	não	
+omr6	Ombro: Rotura parcial mal definida do supraespinhal	achado	omr6c	2	sim	
+omr6c	Ombro: Rotura parcial de baixo grau do supraespinhal (conclusão)	conclusão	omr6	0	não	
+omr7	Ombro: Rotura de alto grau — feixe articular remanescente	achado	omr7c	2	não	
+omr7c	Ombro: Rotura de alto grau do supraespinhal (conclusão)	conclusão	omr7	0	não	
+omr8	Ombro: Rotura de alto grau — transfixação	achado	omr8c	2	não	
+omr8c	Ombro: Rotura de alto grau, transfixante, do supraespinhal (conclusão)	conclusão	omr8	0	não	
+omr9	Ombro: Rotura de alto grau do subescapular	achado	omr9c	0	não	
+omr9c	Ombro: Rotura de alto grau do subescapular (conclusão)	conclusão	omr9	0	não	
+omr10	Ombro: Sugerir correlação com ressonância magnética	achado		0	não	
+omk1	Ombro: Focos ecogênicos / depósitos cálcicos	achado	omk1c	0	não	
+omk1c	Ombro: Tendinopatia do supraespinhal com prováveis depósitos cálcicos (conclusão)	conclusão	omk1	0	não	
+omk2	Ombro: Calcificações justainsercionais (entesopatia)	achado	omk2c	0	não	
+omk2c	Ombro: Calcificações justainsercionais do supraespinhal (entesopatia) (conclusão)	conclusão	omk2	0	não	
+omk3	Ombro: Tendinopatia calcária com sombra acústica	achado	omk3c	2	não	
+omk3c	Ombro: Tendinopatia calcária do supraespinhal (conclusão)	conclusão	omk3	0	não	
+omk4	Ombro: Tendinopatia calcária em reabsorção (sem sombra)	achado	omk4c	2	não	
+omk4c	Ombro: Tendinopatia calcária do infraespinhal (provável fase de reabsorção) (conclusão)	conclusão	omk4	0	não	
+omk5	Ombro: Migração calcária óssea	achado	omk5c	0	não	
+omk5c	Ombro: Migração calcária intraóssea (conclusão)	conclusão	omk5	0	não	
+omk6	Ombro: Migração calcária bursal	achado	omk6c	0	não	
+omk6c	Ombro: Migração calcária intrabursal (conclusão)	conclusão	omk6	0	não	
+omk7	Ombro: Migração calcária muscular	achado	omk7c	0	não	
+omk7c	Ombro: Migração calcária na transição miotendínea (conclusão)	conclusão	omk7	0	não	
+omp1	Ombro: Pós-op do supraespinhal — heterogêneo	achado	omp1c	0	não	
+omp1c	Ombro: Alterações pós-operatórias do supraespinhal (conclusão)	conclusão	omp1	0	não	
+omp2	Ombro: Pós-op do supraespinhal — afilamento	achado	omp2c	0	não	
+omp2c	Ombro: Alterações pós-operatórias do supraespinhal com afilamento das fibras anteriores (conclusão)	conclusão	omp2	0	não	
+omp3	Ombro: Pós-op do manguito — fios de sutura / âncora	achado	omp3c	0	não	
+omp3c	Ombro: Alterações pós-operatórias do manguito rotador, sem rerrotura (conclusão)	conclusão	omp3	0	não	
+omp4	Ombro: Pós-op do manguito — rerrotura	achado	omp4c	1	não	
+omp4c	Ombro: Rerrotura do manguito rotador (conclusão)	conclusão	omp4	0	não	
+oms1	Ombro: Ventres musculares normais	achado		0	não	
+oms2	Ombro: Hipotrofia discreta do supraespinhal	achado	oms2c	0	não	
+oms2c	Ombro: Discreta hipotrofia do supraespinhal (conclusão)	conclusão	oms2	0	não	
+oms3	Ombro: Hipotrofia e lipossubstituição (ventre _)	achado	oms3c	1	não	
+oms3c	Ombro: Hipotrofia e lipossubstituição do ventre muscular do _ (conclusão)	conclusão	oms3	1	não	
+oms4	Ombro: Lipossubstituição do redondo menor (neuropatia axilar)	achado	oms4c	0	não	
+oms4c	Ombro: Hipotrofia e lipossubstituição do redondo menor (provável neuropatia axilar) (conclusão)	conclusão	oms4	0	não	
+oms5	Ombro: Coleção cística intramuscular (infraespinhal)	achado	oms5c	2	não	
+oms5c	Ombro: Coleção cística intramuscular no infraespinhal (conclusão)	conclusão	oms5	0	não	
+omd1	Ombro: Sem derrame articular	achado		0	não	
+omd2	Ombro: Pequeno derrame articular	achado	omd2c	0	não	
+omd2c	Ombro: Pequeno derrame articular (conclusão)	conclusão	omd2	0	não	
+omd3	Ombro: Derrame articular glenoumeral	achado	omd3c	0	não	
+omd3c	Ombro: Derrame articular glenoumeral (conclusão)	conclusão	omd3	0	não	
+omd5	Ombro: Derrame com extensão às bursas (via rotura)	achado	omd5c	0	não	

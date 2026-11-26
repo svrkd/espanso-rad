@@ -1,0 +1,9 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+aneupopliteo	Aneurisma da artéria poplítea pérvio (SVS 2021: reparo se ≥ 2,0 cm)	achado	aneupopliteoc	8	não	
+aneupopliteoc	Conclusão — aneurisma da artéria poplítea	conclusão	aneupopliteo	2	não	
+aneupopliteo2	Aneurisma da artéria poplítea trombosado, com oclusões distais	achado	aneupopliteo2c	4	não	
+aneupopliteo2c	Conclusão — aneurisma da artéria poplítea trombosado	conclusão	aneupopliteo2	2	não	
+aneufemoral	Aneurisma da artéria femoral comum (Cutler I, II)	achado	aneufemoralc	8	não	
+aneufemoralc	Conclusão — aneurisma da femoral comum (Cutler)	conclusão	aneufemoral	2	não	
+pseudofemoral	Pseudoaneurisma da artéria femoral (pós-punção)	achado	pseudofemoralc	5	não	
+pseudofemoralc	Conclusão — pseudoaneurisma da artéria femoral	conclusão	pseudofemoral	1	não	

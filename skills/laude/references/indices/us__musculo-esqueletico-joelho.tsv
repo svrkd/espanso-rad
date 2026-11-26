@@ -1,0 +1,71 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+jot1	Joelho: Técnica — exame direcionado	achado		0	sim	
+jod1	Joelho: Sem derrame articular	achado		0	não	
+jod2	Joelho: Pequeno derrame articular	achado	jod2c	0	não	
+jod2c	Joelho: Pequeno derrame articular (conclusão)	conclusão	jod2	0	não	
+jod4	Joelho: Derrame com sinovite	achado	jod4c	0	sim	
+jod4c	Joelho: Derrame articular com sinovite (conclusão)	conclusão	jod4	0	não	
+jod5	Joelho: Líquido articular sem derrame significativo	achado	jod5c	0	não	
+jod5c	Joelho: Pequena quantidade de líquido articular, sem derrame significativo (conclusão)	conclusão	jod5	0	não	
+jod6	Joelho: Derrame com corpo livre	achado	jod6c	1	não	
+jod6c	Joelho: Derrame articular com sinovite e corpo livre intra-articular (conclusão)	conclusão	jod6	0	não	
+jod7	Joelho (derrame articular): Estudo direcionado para a pesquisa de derrame articular no joelho _ evidencia:	achado		1	sim	
+joa1	Joelho: Quadríceps e patelar íntegros	achado		0	não	
+joa2	Joelho: Entesopatia do quadríceps	achado	joa2c	0	não	
+joa2c	Joelho: Entesopatia do quadríceps (conclusão)	conclusão	joa2	0	não	
+joa3	Joelho: Entesopatia do quadríceps e patelar	achado	joa3c	0	não	
+joa3c	Joelho: Entesopatia insercional do quadríceps e do patelar (conclusão)	conclusão	joa3	0	não	
+joa4	Joelho: Tendinopatia patelar	achado	joa4c	0	não	
+joa4c	Joelho: Tendinopatia patelar (conclusão)	conclusão	joa4	0	não	
+joa5	Joelho: Tendinopatia patelar com fissuras	achado	joa5c	0	não	
+joa5c	Joelho: Tendinopatia patelar com fissuras intrassubstanciais (conclusão)	conclusão	joa5	0	não	
+joa6	Joelho: Rotura completa do quadríceps	achado	joa6c	1	não	
+joa6c	Joelho: Rotura completa do tendão do quadríceps (conclusão)	conclusão	joa6	0	não	
+joa7	Joelho: Ligamento patelar cicatricial (pós-cirúrgico)	achado	joa7c	0	não	
+joa7c	Joelho: Alterações cicatriciais do ligamento patelar (manipulação cirúrgica pregressa) (conclusão)	conclusão	joa7	0	não	
+joa8	Joelho: Osgood-Schlatter	achado	joa8c	0	não	
+joa8c	Joelho: Apofisite por tração da tuberosidade anterior da tíbia (Osgood-Schlatter) (conclusão)	conclusão	joa8	0	não	
+joa9	Joelho: Bursite pré-patelar	achado	joa9c	0	não	
+joa9c	Joelho: Bursite pré-patelar (conclusão)	conclusão	joa9	0	não	
+joa10	Joelho: Pós-operatório do patelar / quadríceps	achado	joa10c	0	sim	
+joa10c	Joelho: Alterações pós-operatórias do tendão patelar / quadríceps (conclusão)	conclusão	joa10	0	sim	
+jom1	Joelho: Sem extrusão meniscal	achado		0	não	
+jom2	Joelho: Extrusão do menisco medial	achado	jom2c	0	não	
+jom2c	Joelho: Extrusão do menisco medial (conclusão)	conclusão	jom2	0	não	
+jom3	Joelho: Osteofitose femorotibial medial	achado	jom3c	0	não	
+jom3c	Joelho: Osteofitose marginal femorotibial medial (conclusão)	conclusão	jom3	0	não	
+jom4	Joelho: Osteofitose femorotibial	achado	jom4c	0	não	
+jom4c	Joelho: Osteofitose marginal femorotibial (conclusão)	conclusão	jom4	0	não	
+jom5	Joelho: Alterações degenerativas femorotibiais mediais	achado	jom5c	0	não	
+jom5c	Joelho: Alterações degenerativas femorotibiais mediais com extrusão meniscal (conclusão)	conclusão	jom5	0	não	
+jom6	Joelho: Provável rotura do menisco medial	achado	jom6c	0	não	
+jom6c	Joelho: Provável rotura do menisco medial (conclusão)	conclusão	jom6	0	não	
+jom7	Joelho: Cisto parameniscal	achado	jom7c	2	não	
+jom7c	Joelho: Cisto parameniscal (conclusão)	conclusão	jom7	0	não	
+jol1	Joelho: Ligamentos colaterais preservados	achado		0	não	
+jol2	Joelho: Lesão parcial do colateral medial	achado	jol2c	0	não	
+jol2c	Joelho: Lesão parcial do ligamento colateral medial (conclusão)	conclusão	jol2	0	não	
+jol3	Joelho: Rotura completa do colateral medial	achado	jol3c	0	não	
+jol3c	Joelho: Rotura completa do ligamento colateral medial (conclusão)	conclusão	jol3	0	não	
+jol4	Joelho: Colateral medial cicatricial	achado	jol4c	0	não	
+jol4c	Joelho: Espessamento cicatricial do ligamento colateral medial (conclusão)	conclusão	jol4	0	não	
+jopa1	Joelho: Pata anserina normal	achado		0	não	
+jopa2	Joelho: Tendinopatia da pata anserina	achado	jopa2c	0	não	
+jopa2c	Joelho: Tendinopatia da pata anserina (conclusão)	conclusão	jopa2	0	não	
+jopa3	Joelho: Bursite anserina	achado	jopa3c	0	não	
+jopa3c	Joelho: Bursite anserina (conclusão)	conclusão	jopa3	0	não	
+jopo1	Joelho: Sem cisto poplíteo	achado		0	não	
+jopo2	Joelho: Lâmina líquida na bursa do gastrocnêmio / semimembranoso	achado	jopo2c	0	sim	
+jopo2c	Joelho: Lâmina líquida na bursa do gastrocnêmio medial / semimembranoso (conclusão)	conclusão	jopo2	0	sim	
+jopo3	Joelho: Cisto de Baker	achado	jopo3c	3	não	
+jopo3c	Joelho: Cisto de Baker (conclusão)	conclusão	jopo3	0	não	
+jopo4	Joelho: Cisto de Baker com septações e sinovite	achado	jopo4c	3	não	
+jopo4c	Joelho: Cisto de Baker com septações e sinovite (conclusão)	conclusão	jopo4	0	não	
+jopo5	Joelho: Cisto de Baker laminar	achado	jopo5c	0	não	
+jopo5c	Joelho: Cisto de Baker laminar (conclusão)	conclusão	jopo5	0	não	
+jopo6	Joelho: Rotura de cisto poplíteo com extravasamento	achado	jopo6c	0	sim	
+jopo6c	Joelho: Rotura de cisto poplíteo com extravasamento para a perna (conclusão)	conclusão	jopo6	0	não	
+jopo7	Joelho: Rotura parcial de cisto poplíteo	achado	jopo7c	0	não	
+jopo7c	Joelho: Rotura parcial de cisto poplíteo (conclusão)	conclusão	jopo7	0	não	
+jopo8	Joelho: Tendinopatia do gastrocnêmio medial / semimembranoso	achado	jopo8c	0	não	
+jopo8c	Joelho: Tendinopatia da origem do gastrocnêmio medial / inserção do semimembranoso (conclusão)	conclusão	jopo8	0	sim	

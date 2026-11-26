@@ -1,0 +1,17 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+nascet1	Placa carotídea com estenose inferior a 50% (NASCET)	achado	nascet1c	6	não	
+nascet1c	Conclusão — estenose carotídea inferior a 50%	conclusão	nascet1	1	não	
+nascet2	Estenose carotídea moderada (redução luminal de 50 a 69%, NASCET)	achado	nascet2c	6	não	
+nascet2c	Conclusão — estenose carotídea moderada	conclusão	nascet2	1	não	
+nascet3	Estenose carotídea acentuada (redução luminal de 70 a 99%, NASCET), sem quase oclusão	achado	nascet3c	6	não	
+nascet3c	Conclusão — estenose carotídea acentuada	conclusão	nascet3	1	não	
+quaseoclusao1	Quase oclusão carotídea sem colapso completo (NASCET não se aplica)	achado	quaseoclusao1c	5	não	
+quaseoclusao1c	Conclusão — quase oclusão carotídea sem colapso completo	conclusão	quaseoclusao1	1	não	
+quaseoclusao2	Quase oclusão carotídea com colapso completo (sinal do barbante)	achado	quaseoclusao2c	3	não	
+quaseoclusao2c	Conclusão — quase oclusão carotídea com colapso completo	conclusão	quaseoclusao2	1	não	
+oclusaocarotida	Oclusão da artéria carótida interna cervical	achado	oclusaocarotidac	3	não	
+oclusaocarotidac	Conclusão — oclusão da artéria carótida interna	conclusão	oclusaocarotida	1	não	
+ostiovertebral	Estenose ateromatosa na origem da artéria vertebral	achado	ostiovertebralc	2	não	
+ostiovertebralc	Conclusão — estenose na origem da artéria vertebral	conclusão	ostiovertebral	1	não	
+oclusaovertebral	Oclusão da artéria vertebral cervical	achado	oclusaovertebralc	3	não	
+oclusaovertebralc	Conclusão — oclusão da artéria vertebral	conclusão	oclusaovertebral	1	não	

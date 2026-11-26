@@ -1,0 +1,47 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+qdd1	Quadril: Sem derrame articular	achado		0	não	
+qdd2	Quadril: Derrame articular	achado	qdd2c	0	sim	
+qdd2c	Quadril: Derrame articular (conclusão)	conclusão	qdd2	0	não	
+qdd4	Quadril: Derrame com sinovite	achado	qdd4c	0	não	
+qdd4c	Quadril: Derrame articular com sinovite (conclusão)	conclusão	qdd4	0	não	
+qdd5	Quadril: Sinovite com atividade ao Doppler	achado	qdd5c	0	não	
+qdd5c	Quadril: Sinovite com atividade inflamatória ao Doppler (conclusão)	conclusão	qdd5	0	não	
+qda1	Quadril: Artropatia degenerativa coxofemoral	achado	qda1c	0	não	
+qda1c	Quadril: Artropatia degenerativa coxofemoral (conclusão)	conclusão	qda1	0	não	
+qda2	Quadril: Cisto paralabral	achado	qda2c	1	não	
+qda2c	Quadril: Cisto paralabral (conclusão)	conclusão	qda2	0	não	
+qdg1	Quadril: Tendões glúteos normais	achado		0	não	
+qdg2	Quadril: Heterogeneidade do glúteo mínimo	achado	qdg2c	0	não	
+qdg2c	Quadril: Discreta heterogeneidade do glúteo mínimo, a correlacionar clinicamente (conclusão)	conclusão	qdg2	0	não	
+qdg3	Quadril: Tendinopatia insercional do glúteo mínimo	achado	qdg3c	0	não	
+qdg3c	Quadril: Tendinopatia insercional do glúteo mínimo (conclusão)	conclusão	qdg3	0	não	
+qdg4	Quadril: Tendinopatia do glúteo mínimo e médio	achado	qdg4c	0	não	
+qdg4c	Quadril: Tendinopatia do glúteo mínimo e médio (conclusão)	conclusão	qdg4	0	não	
+qdg5	Quadril: Glúteos com provável rotura de alto grau	achado	qdg5c	0	não	
+qdg5c	Quadril: Tendinopatia do glúteo mínimo e médio com provável rotura de alto grau (conclusão)	conclusão	qdg5	0	não	
+qdg6	Quadril: Tendinopatia calcária do glúteo mínimo	achado	qdg6c	2	não	
+qdg6c	Quadril: Tendinopatia calcária do glúteo mínimo (conclusão)	conclusão	qdg6	0	não	
+qdg7	Quadril: Entesófitos no trocânter maior (add-on)	achado		0	não	
+qdg8	Quadril: Bursite subglútea (add-on)	achado		0	sim	
+qdt1	Quadril: Tendinopatia dos adutores	achado	qdt1c	0	não	
+qdt1c	Quadril: Tendinopatia da origem comum dos adutores (conclusão)	conclusão	qdt1	0	não	
+qdt2	Quadril: Tendinopatia dos isquiotibiais	achado	qdt2c	0	não	
+qdt2c	Quadril: Tendinopatia da origem comum dos isquiotibiais (conclusão)	conclusão	qdt2	0	não	
+qdb1	Quadril: Bursa trocantérica normal	achado		0	não	
+qdb2	Quadril: Bursite trocantérica	achado	qdb2c	0	não	
+qdb2c	Quadril: Bursite trocantérica (conclusão)	conclusão	qdb2	0	não	
+qdm1	Quadril: Ventres musculares normais	achado		0	não	
+qdl1	Quadril: Estiramento do reto femoral	achado	qdl1c	1	sim	
+qdl1c	Quadril: Estiramento do reto femoral (conclusão)	conclusão	qdl1	0	não	
+qdl2	Quadril: Lesão parcial do gastrocnêmio medial	achado	qdl2c	2	sim	
+qdl2c	Quadril: Lesão parcial do gastrocnêmio medial (conclusão)	conclusão	qdl2	0	não	
+qdl3	Quadril: Lesão completa da origem dos isquiotibiais	achado	qdl3c	1	sim	
+qdl3c	Quadril: Lesão completa da origem dos isquiotibiais (conclusão)	conclusão	qdl3	0	não	
+qdl4	Quadril: Sugerir correlação com RM	achado		0	não	
+qdr1	Quadril: Ressalto da banda iliotibial	achado	qdr1c	0	não	
+qdr1c	Quadril: Ressalto da banda iliotibial (conclusão)	conclusão	qdr1	0	não	
+qdr2	Quadril: ITB com espessamento e bursite (add-on)	achado		0	não	
+qdr3	Quadril: Ressalto do tendão do iliopsoas	achado	qdr3c	0	não	
+qdr3c	Quadril: Ressalto do tendão do iliopsoas (conclusão)	conclusão	qdr3	0	não	
+qdr4	Quadril: Bursite do iliopsoas (add-on)	achado		0	não	
+qdml1	Quadril: Morel-Lavallée	achado		3	sim	

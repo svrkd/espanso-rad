@@ -1,0 +1,138 @@
+# ATENÇÃO: rmc termina em "c" mas NÃO é conclusão (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+aast	Escala AAST (trauma)	fragmento		0	não	
+tccelulite	Celulite/edema subcutâneo difuso	achado		0	sim	
+acri	Recomendação de complementação por RM	achado		0	não	
+acri2	Recomendação de fase contrastada	achado		0	não	
+adar	Alterações degenerativas do arcabouço ósseo — regional	achado		0	não	
+adib	à direita	fragmento		0	não	
+adimi	Admite-se inicialmente a possibilidade de...	achado		1	não	
+admi	Admite-se inicialmente a possibilidade de...	achado		1	não	
+aep	Aparente espessamento parietal	achado		0	não	
+aev	Comparação com exame anterior	achado		1	não	
+aevg	Comparação com exame anterior (metodologia distinta)	achado		1	não	
+anev	Comparação sem alterações significativas	achado		1	não	
+anevg	Comparação sem alterações (metodologia distinta)	achado		1	não	
+anna1	Sobrecarga hídrica (densificação subcutânea)	achado		0	não	
+anu	Aumento numérico	fragmento		0	não	
+apometa	Possibilidade de metástases	achado		0	não	
+apometa1	Possibilidade de metástases (investigação adicional)	achado		0	não	
+aponeo	Possibilidade de neoplasia primária	achado		0	não	
+apopi	Possibilidade de processo inflamatório/infeccioso	achado		0	não	
+apopinfe	Possibilidade de processo inflamatório/infeccioso	achado		0	não	
+apopinfe1	Possível PII (recomenda controle pós-terapêutico)	achado		0	não	
+avu	Aumento volumétrico	fragmento		0	não	
+bila	bilateralmente	fragmento		0	não	
+bl	bilateral	fragmento		0	não	
+bolasurpresa	Lesão indeterminada (template genérico)	achado		2	não	
+calintra	Calcificação intra-articular	achado		0	não	
+casoper	Recomendação de estudo direcionado	achado		0	não	
+cisticercose1	Cisticercose muscular	achado		0	sim	
+cocir	Correlacionar com dados cirúrgicos	achado		0	não	
+colab1	Correlacionar com dados clínicos	achado		0	não	
+cometab	Correlacionar com estudo metabólico	achado		0	não	
+comfre	Achado incidental sem correlação clínica	fragmento		0	não	
+copel	conforme prontuário eletrônico	fragmento		0	não	
+corogrosso	Celulite/edema subcutâneo difuso	achado		0	sim	
+corogrosso1	Edema/hematoma difuso de partes moles	achado		0	sim	
+croni	de cronicidade indeterminada	fragmento		0	não	
+descart	não podendo descartar processo inflamatório/infeccioso	fragmento		0	não	
+didi	Diagnósticos diferenciais devem ser aplicados	achado		0	não	
+dpm	densidade de partes moles	fragmento		0	não	
+eap	Espaços articulares preservados	achado		0	não	
+edif	Entesopatia difusa	achado		0	não	
+ee	espessamento	fragmento		0	não	
+eee	espessamento	fragmento		0	não	
+efu	Entesopatia difusa	achado		0	não	
+endif	Entesopatia difusa	achado		0	não	
+ero	Pequena imagem esclerótica	fragmento		0	não	
+erop	Imagem esclerótica (provável enostose)	achado		0	não	
+eros	Pequenas imagens escleróticas	fragmento		0	não	
+erosp	Imagens escleróticas (prováveis enostoses)	achado		0	não	
+espar	Espaços articulares preservados	achado		0	não	
+ev	Endovenoso	fragmento		0	não	
+fola	Formação ovalada hiperdensa	achado		1	não	
+fote	Formação tecidual de partes moles	achado		1	não	
+frafra	Irregularidade cortical sugerindo fratura	achado		0	não	
+frafru	Irregularidade cortical	fragmento		0	não	
+hmi	Haste metálica intramedular	fragmento		0	não	
+incid	Achado incidental sem correlação clínica	fragmento		0	não	
+indet	Cronicidade indeterminada	fragmento		0	não	
+inesp	Inespecífico no protocolo empregado — feminino	fragmento		0	não	
+inesp1	Inespecífico (dimensões reduzidas)	fragmento		0	não	
+inespo	Inespecífico no protocolo empregado — masculino	fragmento		0	não	
+jabio	Lesão já biopsiada — neoplasia confirmada	achado		0	não	
+lon	Lesão de outra natureza (indeterminada)	achado		0	não	
+lons	Lesões de outra natureza (indeterminadas)	achado		0	não	
+mdd	Medindo	fragmento		0	não	
+meco	Pelo meio de contraste endovenoso	fragmento		0	não	
+mel	Melhor avaliado por estudo dirigido	fragmento		0	não	
+mela	Melhor avaliada por estudo dirigido	fragmento		0	não	
+melas	Melhor avaliadas por estudo dirigido	fragmento		0	não	
+melos	Melhor avaliados por estudo dirigido	fragmento		0	não	
+mgi	Material gessado de imobilização	achado		0	não	
+mula	Musculatura parcialmente lipossubstituída	achado		0	não	
+osteomacutis	Osteoma cutis miliar	achado		0	não	
+pelu	Espessamento de pele e subcutâneo	achado		0	não	
+per	Permanecendo (cabeçalho)	fragmento		0	não	
+pinfe	Processo inflamatório/infeccioso (fragmento)	fragmento		0	não	
+pinfe1	Processo inflamatório/infeccioso?	achado		0	não	
+pinfe2	Possibilidade de processo inflamatório/infeccioso	achado		0	não	
+plh	Pequenas lesões hemorrágicas	fragmento		0	não	
+podemeta	Possibilidade de metástase	achado		0	não	
+podemetas	Possibilidade de metástases	achado		0	não	
+reco	Recomenda-se prosseguir investigação	achado		0	não	
+recoco	Recomenda-se complementação com fase contrastada	achado		0	não	
+recontrol	Recomenda-se controle do estudo	achado		0	não	
+recotera	Recomenda-se controle pós-terapêutica	achado		0	não	
+redir	Recomenda-se estudo direcionado	achado		0	não	
+repa	Reabsorção parcial	fragmento		0	não	
+retiralaudo	Nota de retirada de laudo anexado	achado		2	não	
+revu	Redução volumétrica	fragmento		0	não	
+rm	ressonância magnética	fragmento		0	não	
+rst	Restante do parênquima (fragmento)	fragmento		0	não	
+semais	Ausência de fraturas pós-traumáticas	achado		0	não	
+semco	Achado incidental sem correlação clínica	fragmento		0	não	
+sempar	Exame sem particularidades	achado		0	não	
+sitiopa	Edema/hematoma adjacente a sítio de fratura	achado		0	sim	
+sitiopm	Edema/hematoma adjacente a sítio de fratura	achado		0	sim	
+sitiopms	Edema/hematoma adjacente a sítios de fratura	achado		0	sim	
+sitios	Edema/hematoma adjacente a sítios de fratura	achado		0	sim	
+sodi	Sonda digestiva	achado		0	não	
+solu	Solução de continuidade de partes moles	fragmento		0	não	
+solucon	Solução de continuidade	fragmento		0	não	
+solumole	Solução de continuidade de partes moles	fragmento		0	não	
+subcu	Enfisema subcutâneo	achado		0	não	
+tclipoma	Lesão lipomatosa muscular	achado		2	não	
+teli	Tendões e ligamentos de avaliação limitada	achado		0	não	
+teliga	Tendões e ligamentos de avaliação limitada	achado		0	não	
+tenlimi	Tendões e ligamentos de avaliação limitada	achado		0	não	
+tetudo	Tendões e ligamentos de avaliação limitada	achado		0	não	
+vari	Vasos varicosos subcutâneos	achado		0	não	
+acriterio	Recomendação de estudo complementar a critério clínico	achado		1	não	
+apm	Atenuação de partes moles	fragmento		0	não	
+bca	Baixo coeficiente de atenuação	fragmento		0	não	
+cistosimples	Cisto simples	achado		0	não	
+dentcs	Edema/inflamação em região de fratura	achado		0	não	
+fhpnd	Formação hipoatenuante de paredes indefinidas	fragmento		0	não	
+inc	Imagem nodular calcificada	fragmento		0	não	
+incs	Imagens nodulares calcificadas	fragmento		0	não	
+mcapm	Material com atenuação de partes moles	achado		0	não	
+mmo	Materiais de osteossíntese	fragmento		0	não	
+rac	Realce após contraste endovenoso	fragmento		0	não	
+rmc	Realce ao meio de contraste	fragmento		0	não	
+rod	Rarefação óssea difusa	achado		0	não	
+sitio	Edema/hematoma em sítio de fratura	achado		0	sim	
+sne	Sonda nasoentérica	fragmento		0	não	
+acess	Resultado conforme solicitação clínica	fragmento		0	não	
+exnl	Comentário — exame normal	achado		0	não	
+marc	Marcador cutâneo em ponto doloroso	achado		0	não	
+marc1	Marcador cutâneo sem alterações associadas	achado		0	não	
+marc2	Sem alterações na topografia referida	achado		0	não	
+prov	Provável natureza inflamatório-infecciosa	fragmento		0	não	
+maiord	Maior nódulo à direita (medida)	fragmento		1	não	
+maiore	Maior nódulo à esquerda (medida)	fragmento		1	não	
+tt92	Comparação com exame anterior — sem alterações	achado		1	não	
+tt93	Comparação com exame anterior — estável	achado		1	não	
+gadm	Guardadas as diferenças metodológicas (template)	fragmento		0	não	
+lireg	Linfonodos regionais aumentados (reacionais)	achado		0	não	

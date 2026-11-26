@@ -1,0 +1,106 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+crohnfistulizante1	Doença de Crohn com abscessos e fístulas	achado		2	não	
+colecaofossailiaca1	Formação hidroaérea em fossa ilíaca direita indeterminada	achado		2	não	
+neoplasiatransverso1	Neoplasia do cólon transverso com carcinomatose peritoneal	achado		2	não	
+metastasevolumosa	Metástases hepáticas volumosas com hepatomegalia	achado		2	sim	
+paraumbilicalrecanalizada	Recanalização das veias paraumbilicais	achado		0	não	
+tumorkrukenberg	Massas anexiais bilaterais metastáticas (Krukenberg)	achado		2	não	
+neoplasiasigmoide1	Abdome agudo suboclusivo por provável neoplasia de sigmoide	achado		1	não	
+obstrucaoileal1	Abdome agudo obstrutivo com transição no íleo	achado		0	sim	
+ileoespessado1	Espessamento e distensão ileal de etiologia indeterminada	achado		0	sim	
+diverticulite1	Diverticulite complicada com fístula colovesical — com medidas da fístula	achado		3	não	
+diastaseretos	Diástase dos retos abdominais com obstrução por bridas	achado		1	sim	
+linfomadelgado	Linfoma de intestino delgado e mesentério	achado		2	não	
+neoplasiaascendente1	Neoplasia do cólon ascendente com pseudomixoma peritoneal	achado		1	sim	
+aerobiliavias2	Aerobilia (achado isolado)	achado		0	não	
+leitovesicular	Densificação do leito vesicular com perda de definição	achado		0	não	
+ileobiliar1	Cálculo impactado no íleo distal com obstrução	achado		1	não	
+arcadaingurgitada	Ingurgitamento da arcada vascular mesentérica	achado		0	não	
+ileobiliar2	Conclusão — íleo biliar	achado		0	não	
+corpoestranhocolon1	Perfuração de sigmoide por corpo estranho	achado	corpoestranhocolon1c	0	não	
+corpoestranhocolon1c	Conclusão — abdome agudo perfurativo por corpo estranho	conclusão	corpoestranhocolon1	0	não	
+crohnfistulizante2	Doença inflamatória intestinal com padrão Crohn	achado		0	não	
+reconstrucaotransito1	Reconstrução do trânsito intestinal com fechamento de ileostomia	achado		0	não	
+fistulaenterocolica1	Fístula enterocolônica demonstrada por contraste retal	achado		1	sim	
+fistulaenterocolica2	Fístula enterovesical demonstrada por contraste retal	achado		0	não	
+sangramentocolon	Sangramento ativo do cólon ascendente	achado		0	não	
+megacolontoxico1	Colite pseudomembranosa com megacólon tóxico	achado		0	não	
+colite1	Espessamento segmentar do sigmoide com obliteração adiposa	achado		0	não	
+corpoestranhocolon2	Imagem linear hiperdensa no sigmoide — corpo estranho?	achado		1	não	
+colecaofossailiaca2	Coleção em fossa ilíaca esquerda adjacente ao sigmoide	achado		1	não	
+tuberculoseintestinal	Tuberculose intestinal ileocecal	achado		1	não	
+neuroendocrinomesocolon1	Tumor neuroendócrino do mesocólon com reação desmoplásica	achado		1	sim	
+herniainguinal4	Abdome agudo obstrutivo por hérnia inguinal	achado		0	não	
+colite2	Colite inespecífica difusa	achado		0	não	
+ileoespessado2	Espessamento de alças jejunais indeterminado (sem contraste)	achado		0	não	
+herniainguinal5	Hérnia inguinal com alça reduzida espontaneamente	achado		0	não	
+ulceraestercoral	Úlcera estercoral do reto com fístula para o sigmoide	achado		2	não	
+neoplasiaretossigmoide1	Neoplasia retossigmoide perfurada com abscesso e invasão uterina	achado		4	sim	
+colite3	Colite segmentar do sigmoide e descendente	achado		0	não	
+trombosemesentericainf2	Sequela de trombose da veia mesentérica inferior	achado		0	sim	
+volvodelgado1	Volvo de alças delgadas com sofrimento de alça	achado		0	sim	
+estomagodistendido	Distensão hidroaérea gástrica e esofágica	achado		0	não	
+megacolontoxico2	Retocolite ulcerativa com megacólon tóxico do transverso	achado	megacolontoxico2c	0	sim	
+megacolontoxico2c	Conclusão — retocolite com megacólon tóxico	conclusão	megacolontoxico2	0	não	
+intussuscepcao1	Intussuscepção ileocecal com suspeita de tumor subjacente	achado		1	não	
+obstrucaobridas2	Abdome agudo obstrutivo por bridas/aderências	achado		0	não	
+neoplasiatransverso2	Neoplasia do cólon transverso perfurada com fístula gástrica	achado		1	não	
+reconstrucaotransito2	Retossigmoidectomia com anastomose primária	achado		0	não	
+deiscenciaanastomose1	Deiscência de anastomose colorretal com pneumoperitônio	achado		2	não	
+estenoseanastomose1	Estenose de anastomose colorretal com obstrução	achado		0	não	
+doencainflamatoria	Doença inflamatória intestinal do reto médio	achado		1	não	
+obstrucaobridas3	Suboclusão intestinal de provável natureza aderencial	achado		0	sim	
+herniareduzida	Hérnia de parede abdominal com alça previamente reduzida	achado		1	não	
+estreitamentoretossigmoide1	Estreitamento luminal da transição retossigmoide	achado		0	não	
+fistulaenterocolica3	Fístula perianal	achado		1	não	
+perfuracaobloqueada1	Abdome agudo perfurativo bloqueado por alça ileal	achado		0	não	
+herniainterna1	Hérnia interna transmesossigmoide com intussuscepção	achado		0	não	
+herniainterna2	Hérnia interna supravesical com isquemia de alças	achado		0	não	
+retocolitepancolite	Retocolite ulcerativa com pancolite não estenosante	achado		0	não	
+neoplasiaascendente2	Neoplasia do cólon ascendente não estenosante com intussuscepção	achado	neoplasiaascendente2c	3	não	
+neoplasiaascendente2c	Conclusão — neoplasia colônica com suspeita de linfoma	conclusão	neoplasiaascendente2	0	não	
+ileiteterminal1	Ileíte terminal com adenite mesentérica	achado		0	não	
+alcaaferente	Síndrome da alça aferente pós Y de Roux	achado		0	sim	
+neoplasiadescendente1	Neoplasia do cólon descendente subestenosante	achado		1	não	
+volvodelgado2	Volvo cecal com coleção pélvica indeterminada	achado		1	sim	
+neoplasiaceco1	Neoplasia estenosante do ceco com distensão do apêndice	achado		1	não	
+neoplasiatransverso3	Neoplasia do cólon transverso complicada com coleções	achado		3	sim	
+neoplasiaceco2	Neoplasia do ceco complicada com coleção	achado		2	não	
+perfuracaobloqueada2	Coleções retroperitoneais fecaloides por perfuração colônica	achado	perfuracaobloqueada2c	0	não	
+perfuracaobloqueada2c	Conclusão — abdome agudo perfurativo com coleções retroperitoneais	conclusão	perfuracaobloqueada2	0	não	
+coproestase1	Coproestase da ampola retal	achado		0	não	
+retoactinico1	Alterações actínicas da fáscia mesorretal	achado		1	não	
+reconstrucaotransito3	Reconstrução do trânsito intestinal sem recidiva local	achado		0	não	
+estenoseanastomose2	Estenose de anastomose jejunojejunal pós Y de Roux	achado		0	não	
+reconstrucaotransito4	Reconstrução do trânsito intestinal pós-enterectomia	achado		0	não	
+estenoseanastomose3	Estreitamento subestenosante do íleo distal pós-reconstrução	achado		0	não	
+colite4	Colite de exclusão (derivação)	achado		0	não	
+coproestase2	Distensão do transverso com coproestase sem fator mecânico	achado		0	não	
+colite5	Perda das haustrações do cólon descendente	achado		0	não	
+colonespastico	Espasticidade focal do cólon na flexura hepática	achado		0	não	
+diverticulite2	Diverticulite aguda complicada com coleções	achado		2	não	
+estreitamentoretossigmoide2	Espessamento retossigmoide inespecífico	achado		1	não	
+neoplasiatransverso4	Neoplasia do cólon transverso com abdome agudo perfurativo	achado		2	não	
+neoplasiaretossigmoide2	Neoplasia polipoide do reto superior	achado		2	não	
+ileoparalitico1	Íleo paralítico com distensão gástrica e esofágica	achado		0	sim	
+coproestase3	Coproestase na moldura cólica	achado		0	não	
+perfuracaobloqueada3	Abdome agudo perfurativo de alças jejunais	achado		0	não	
+ileoparalitico2	Íleo paralítico de alças delgadas	achado		0	sim	
+enteritesalteada1	Enterite subestenosante ileocecal salteada (Crohn?)	achado	enteritesalteada1c	0	não	
+enteritesalteada1c	Conclusão — enterite com abdome agudo suboclusivo	conclusão	enteritesalteada1	0	não	
+ileoespessado3	Processo inflamatório intestinal indeterminado (sem contraste)	achado		0	não	
+herniainterna3	Hérnia interna transmesentérica com sinal do redemoinho	achado	herniainterna3c	2	não	
+herniainterna3c	Conclusão — abdome agudo obstrutivo por hérnia interna transmesentérica	conclusão	herniainterna3	0	não	
+estenoseanastomose4	Obstrução na enteroenteroanastomose sem sofrimento vascular	achado		0	não	
+neoplasiatransverso5	Neoplasia subestenosante do cólon transverso (sem contraste)	achado	neoplasiatransverso5c	1	não	
+neoplasiatransverso5c	Conclusão — neoplasia do cólon transverso com suboclusão	conclusão	neoplasiatransverso5	0	não	
+neoplasiasigmoide2	Neoplasia do sigmoide com distensão colônica a montante	achado		0	não	
+pneumatoseintestinal1	Pneumatose do ceco e ascendente por isquemia	achado		0	não	
+marotacao1	Má rotação intestinal	achado		0	não	
+marotacao2	Má rotação intestinal (descrição alternativa)	achado		0	não	
+suboclusaodelgado1	Suboclusão de delgado com transição na fossa ilíaca direita	achado		0	não	
+suboclusaodelgado2	Suboclusão de delgado sem ponto abrupto de obstrução	achado		0	não	
+enteritesalteada2	Enterite subestenosante ileocecal e jejunal com suboclusão	achado		0	sim	
+diverticulomeckel	Divertículo de Meckel sem sinais inflamatórios	achado		0	não	
+volvodelgado3	Volvo de sigmoide (estudo sem contraste)	achado	volvodelgado3c	0	não	
+volvodelgado3c	Conclusão — volvo de sigmoide	conclusão	volvodelgado3	0	não	

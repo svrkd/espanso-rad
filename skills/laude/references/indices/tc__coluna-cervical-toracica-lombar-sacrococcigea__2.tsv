@@ -1,0 +1,117 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+cdop	Complexos disco-osteofitários cervicais múltiplos	achado		0	não	
+dsime	Abaulamento discal simétrico discreto sem conflito radicular	fragmento		0	não	
+expodis	Exposição discal em L5-S1	achado		0	não	
+expodis1	Exposição discal com impressão radicular	fragmento		0	não	
+extru2	Extrusão discal em L5-S1 com compressão radicular	achado		1	não	
+protumed	Protrusão discal posterior mediana L4-L5	achado		0	não	
+sime3	Abaulamento discal simétrico com impressão radicular bilateral	fragmento		0	não	
+simex	Abaulamento discal simétrico com impressão radicular bilateral	fragmento		0	não	
+simexr	Abaulamento discal simétrico com impressão radicular e osteófitos	fragmento		0	não	
+tcjulio	Extrusão discal L5-S1 com impressão radicular bilateral	achado		0	não	
+tcjulio1	Extrusão discal com impressão radicular bilateral	fragmento		0	não	
+tcponta	Abaulamento discal L5-S1 com impressão radicular e osteófitos	achado		0	não	
+cdo	Complexos disco-osteofitários cervicais (C4-C6)	achado		0	não	
+pdd	Protrusão discal difusa	achado		1	não	
+assime	Abaulamento discal assimétrico com redução foraminal	fragmento		0	sim	
+sime	Abaulamento discal simétrico com redução foraminal	fragmento		0	não	
+fraturavert1	Fratura vertebral osteoporótica (Genant, com tabela)	achado	fraturavert1c	5	não	
+fraturavert1c	Conclusão — fratura vertebral por insuficiência	conclusão	fraturavert1	2	não	
+fraturavert2	Fratura vertebral com destruição óssea (patológica?)	achado	fraturavert2c	4	não	
+fraturavert2c	Conclusão — fratura vertebral patológica?	conclusão	fraturavert2	1	não	
+densidadel1	Atenuação trabecular de L1 (Pickhardt)	achado	densidadel1c	1	não	
+densidadel1c	Conclusão — baixa atenuação trabecular vertebral	conclusão	densidadel1	0	não	
+aospinea1	Fratura AO Spine A1 (cunha)	achado		1	não	
+aospinea2	Fratura AO Spine A2 (split/pinça)	achado		1	não	
+aospinea3	Fratura AO Spine A3 (explosão incompleta)	achado		2	não	
+aospinea4	Fratura AO Spine A4 (explosão completa)	achado		2	não	
+aospineb1	Fratura AO Spine B1 (Chance)	achado		1	não	
+aospineb2	Fratura AO Spine B2 (banda de tensão posterior)	achado		3	não	
+aospineb3	Fratura AO Spine B3 (hiperextensão)	achado		2	não	
+aospinec	Fratura AO Spine C (translação)	achado		4	não	
+odontoide1	Fratura do odontoide tipo I (Anderson e D'Alonzo)	achado		0	não	
+odontoide2	Fratura do odontoide tipo II (Anderson e D'Alonzo)	achado		2	não	
+odontoide3	Fratura do odontoide tipo III (Anderson e D'Alonzo)	achado		0	não	
+fraturajefferson	Fratura de Jefferson (C1)	achado		0	não	
+fraturaenforcado	Fratura do enforcado (C2)	achado		1	não	
+dissociacaocraniocervical	Dissociação craniocervical (Rojas)	achado		2	não	
+hiperostosedifusa	Hiperostose esquelética idiopática difusa (DISH)	achado		2	não	
+ossificacaolongitudinal	Ossificação do ligamento longitudinal posterior (OPLL)	achado		4	não	
+colunabambu	Coluna em bambu (espondilite anquilosante)	achado		0	não	
+fraturaanquilosada	Fratura em coluna anquilosada	achado		3	não	
+kummell	Doença de Kümmell (fenda gasosa)	achado		1	não	
+castellvi1	Transição lombossacra Castellvi I	achado		3	não	
+castellvi2	Transição lombossacra Castellvi II	achado		2	não	
+castellvi3	Transição lombossacra Castellvi III	achado		2	não	
+castellvi4	Transição lombossacra Castellvi IV	achado		0	não	
+listesemeyerding	Anterolistese com grau de Meyerding	achado		4	não	
+estenosecervical	Estenose do canal cervical com limiar	achado		4	não	
+estenoselombar	Estenose do canal lombar com limiar (Verbiest)	achado		4	não	
+cistofacetario	Cisto sinovial facetário	achado		4	não	
+baastruplombar	Doença de Baastrup — TC, com esclerose e remodelamento	achado		2	não	
+espondilitetb	Espondilodiscite tuberculosa	achado		2	não	
+aif	Artropatia interfacetária	achado		0	não	
+bifi	Espinha bífida em S1	achado		0	não	
+cerva	Níveis cervicais C1 a C7	achado		0	não	
+cistomen	Cistos meníngeos espinhais torácicos	achado		0	não	
+currarinoa	Currarino tipo A (ausência do arco posterior de C1)	achado		0	não	
+ddd	Desidratação discal difusa	achado		0	não	
+desco1	Desvio da coluna lombar à direita	achado		0	não	
+desco2	Desvio da coluna lombar à esquerda	achado		0	não	
+desco3	Desvio sigmoideo da coluna lombar	achado		0	não	
+dgi	Gás intradiscal degenerativo (template)	achado		1	não	
+dgis	Gás intradiscal degenerativo em múltiplos níveis	achado		0	não	
+discop	Discopatias acima detalhadas	achado		0	não	
+discop1	Discopatia acima detalhada	achado		0	não	
+discops	Discopatias sem conflitos radiculares	achado		0	não	
+discopx	Discopatias com conflitos radiculares	achado		0	não	
+ebf	Espinha bífida em T11	achado		0	não	
+esco1	Desvio escoliótico à direita	achado		0	não	
+esco2	Desvio escoliótico à esquerda	achado		0	não	
+fiss	Fissura anular discal	achado		0	não	
+frafrucox	Irregularidade cortical do cóccix	achado		0	não	
+l45	Níveis L4-L5 e L5-S1 — só os níveis	fragmento		0	não	
+lomba	Níveis lombares L1-L2 a L5-S1	fragmento		0	não	
+medulapesquisa	Nota — RM para pesquisa de lesão medular	achado		0	não	
+megapod	Megapófise transversa à direita em L5	achado		0	não	
+megapodir	Megapófise transversa à direita em L5	achado		0	não	
+megapoe	Megapófise transversa à esquerda em L5	achado		0	não	
+megapoesq	Megapófise transversa à esquerda em L5	achado		0	não	
+n1	Nível L1-L2	fragmento		0	não	
+n11	Nível T11-T12	fragmento		0	não	
+n12	Nível T12-L1	fragmento		0	não	
+n2	Nível L2-L3	fragmento		0	não	
+n3	Nível L3-L4	fragmento		0	não	
+n345	Níveis L3-L4 a L5-S1	fragmento		0	não	
+n4	Nível L4-L5	fragmento		0	não	
+n45	Níveis L4-L5 e L5-S1 — subtítulo com dois-pontos	fragmento		0	não	
+n5	Nível L5-S1	fragmento		0	não	
+nc2	Nível C2-C3	fragmento		0	não	
+nc3	Nível C3-C4	fragmento		0	não	
+nc4	Nível C4-C5	fragmento		0	não	
+nc5	Nível C5-C6	fragmento		0	não	
+nc6	Nível C6-C7	fragmento		0	não	
+nc7	Nível C7-T1	fragmento		0	não	
+nicer	Bloco de níveis cervicais (C2-C3 a C7-T1)	achado		0	não	
+nilom	Bloco de níveis lombares (L1-L2 a L5-S1)	achado		0	não	
+nilom1	Bloco de níveis T12-L1 a L5-S1	achado		0	não	
+omala	Osteofitose marginal lateral	fragmento		0	não	
+poslat	Osteófito marginal posterolateral	fragmento		0	não	
+poslats	Osteófitos marginais posterolaterais	fragmento		0	não	
+radi1	Impressão radicular direita	fragmento		0	não	
+radi2	Impressão radicular esquerda	fragmento		0	não	
+radi3	Impressão radicular bilateral	fragmento		0	não	
+radi31	Impressão radicular bilateral com osteófitos posterolaterais	fragmento		0	não	
+radi4	Impressão radicular ipsilateral	fragmento		0	não	
+ratoca	Impressão radicular ipsilateral com osteófito posterolateral	fragmento		0	não	
+ratocas	Impressão radicular bilateral com osteófitos posterolaterais	fragmento		0	não	
+sacrali	Sacralização de L5 com megapófise transversa — bilateral, articulada ao sacro	achado		0	não	
+tocatoca	Contato radicular L5-S1	fragmento		0	não	
+ximor1	Nódulo de Schmorl — nível a preencher	achado		1	não	
+adi	Alterações degenerativas interfacetárias	achado		0	não	
+nsc	Nódulo de Schmorl — termo isolado	fragmento		0	não	
+tcccn	Níveis vertebrais cervicais (C1-T1)	achado		0	não	
+tcctn	Níveis vertebrais torácicos (T1-T12)	achado		0	não	
+esc	Escoliose leve	achado		0	não	
+mega	Megapófise transversa de L5	achado		0	não	
+sac	Sacralização de L5 — aspecto sacralizado	achado		0	não	

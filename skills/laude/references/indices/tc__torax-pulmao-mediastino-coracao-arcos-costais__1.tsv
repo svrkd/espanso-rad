@@ -1,0 +1,130 @@
+# ATENÇÃO: conegc termina em "c" mas NÃO é conclusão (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+phd1	Pequena hérnia diafragmática posterior direita.	achado		0	não	
+phd2	Pequena hérnia diafragmática posterior esquerda.	achado		0	não	
+phd3	Pequena hérnia diafragmática posterior bilateral.	achado		0	não	
+carnl	Área cardíaca habitual, sem sinais de derrame pericárdico.	achado		0	não	
+aapicatriz	Cicatriz apical pulmonar direita	achado		0	não	
+abdcovid	Pneumonia viral (COVID-19)	achado		0	não	
+aca	Área cardíaca preservada	achado		0	não	
+acap	Área cardíaca de avaliação prejudicada	achado		0	não	
+acp	em ambos os campos pulmonares	fragmento		0	não	
+act1	Alterações actínicas pulmonares (pulmão direito)	achado		0	sim	
+actinmama	Lesão actínica pulmonar pós-radioterapia (mama direita)	achado		0	não	
+actinmama1	Lesão actínica pulmonar pós-radioterapia (mama esquerda)	achado		0	não	
+adp	Ausência de derrame pleural	achado		0	não	
+anlm	Aumento do número de linfonodos mediastinais	achado		0	não	
+anum	Aumento do número de linfonodos mediastinais — sem linfonodomegalias	achado		0	não	
+apicatriz	Cicatriz apical pulmonar direita	achado		0	não	
+aprisionamentoaereosegmentar	Aprisionamento aéreo segmentar (estenose brônquica)	achado		0	não	
+asp	Vidro fosco com componente aspirativo	achado		0	não	
+aspfer	Pneumonia aspirativa com derrame pleural	achado		0	não	
+atelbi	Atelectasias laminares bilaterais	achado		0	não	
+audp	Ausência de derrame pleural	achado		0	não	
+bandas	Estrias e bandas parenquimatosas pulmonares	achado		0	não	
+bodale	Hérnia diafragmática posterior esquerda	achado		0	não	
+bolafungica	Lesões cavitárias pulmonares - bola fúngica/TB	achado		1	não	
+bronc	Broncopatia (espessamento das paredes brônquicas)	achado		0	não	
+broncoasp1	Pneumonia broncoaspirativa com bronquiectasias	achado		0	não	
+broncoaspira	Pneumonia broncoaspirativa bilateral	achado		0	não	
+broncopatia	Broncopatia (espessamento das paredes brônquicas)	achado		0	não	
+brota	Nódulos em árvore em brotamento (lobo inferior esquerdo)	achado		0	não	
+brota1	Nódulos em árvore em brotamento difusos	achado		0	não	
+brota2	Nódulos em árvore em brotamento com consolidação	achado		0	não	
+brotamen	Nódulos em árvore em brotamento periféricos	achado		0	não	
+canu	Dispositivos: cânula, cateter e sonda	achado		0	não	
+capud	campo pulmonar direito	fragmento		0	não	
+capue	campo pulmonar esquerdo	fragmento		0	não	
+cipul	Cisto aéreo pulmonar direito — pequeno, lobo inferior	achado		0	não	
+cistoae	Cisto aéreo pulmonar esquerdo — subcentimétrico, lobo inferior	achado		0	não	
+co3	Congestão pulmonar com derrame pleural bilateral	achado		0	sim	
+coedema	Congestão pulmonar com espessamento peribroncovascular	achado		0	sim	
+coind	Impressão CO-RADS 3 (indeterminado)	achado		0	não	
+conco	Congestão pulmonar com PII concomitante	achado		0	não	
+conco1	Congestão pulmonar com hipertensão pulmonar (template)	achado		0	sim	
+conco2	PII com possível congestão concomitante (template)	achado		0	sim	
+conega	Impressão CO-RADS 1	achado		0	não	
+conegc	CO-RADS 2	achado		0	não	
+conga	PII vs congestão pulmonar - CO-RADS 3	achado		0	sim	
+cpd	campo pulmonar direito	fragmento		0	não	
+cpe	campo pulmonar esquerdo	fragmento		0	não	
+ct	Cânula traqueal	achado		0	não	
+dadopatobola	Derrame pleural bilateral acentuado com atelectasia	achado		0	sim	
+decu	Vidro fosco posterior relacionado a decúbito	achado		0	não	
+dhip	Discreta hipertensão pulmonar (ectasia da artéria pulmonar)	achado		0	não	
+discretoliso	Espessamento septal liso (congestão leve)	achado		0	não	
+dpb	Derrame pleural bilateral acentuado	achado		0	sim	
+dpd	Derrame pleural acentuado à direita	achado		0	sim	
+dpocfibro	DPOC com processo inflamatório/infeccioso sobreposto	achado		0	não	
+embogor	Pneumonia viral CO-RADS 5 vs embolia gordurosa	achado		0	não	
+emboliasep	Embolia séptica pulmonar	achado		0	não	
+endobron	Disseminação endobrônquica/broncoaspirativa	achado		0	sim	
+enf1	Tênue enfisema parasseptal	achado		0	não	
+enf2	Enfisema centrolobular e parasseptal — esparso	achado		0	não	
+enf3	Enfisema centrolobular e parasseptal — esparso	achado		0	não	
+enftraco	Enfisema centrolobular traço (<0,5% da zona pulmonar)	achado	enftracoc	0	não	
+enftracoc	Conclusão — enfisema centrolobular traço (Fleischner)	conclusão	enftraco	0	não	
+enfleve	Enfisema centrolobular leve (0,5-5% da zona pulmonar)	achado	enflevec	0	não	
+enflevec	Conclusão — enfisema centrolobular leve (Fleischner)	conclusão	enfleve	0	não	
+enfmoderado	Enfisema centrolobular moderado (>5% da zona pulmonar)	achado	enfmoderadoc	0	não	
+enfmoderadoc	Conclusão — enfisema centrolobular moderado (Fleischner)	conclusão	enfmoderado	0	não	
+enfconfluente	Enfisema centrolobular confluente	achado	enfconfluentec	0	não	
+enfconfluentec	Conclusão — enfisema centrolobular confluente (Fleischner)	conclusão	enfconfluente	0	não	
+enfavancado	Enfisema centrolobular avançado destrutivo	achado	enfavancadoc	0	não	
+enfavancadoc	Conclusão — enfisema centrolobular avançado destrutivo (Fleischner)	conclusão	enfavancado	0	não	
+enfpanlobular	Enfisema panlobular (Fleischner)	achado	enfpanlobularc	0	não	
+enfpanlobularc	Conclusão — enfisema panlobular (Fleischner)	conclusão	enfpanlobular	0	não	
+enfparaleve	Enfisema parasseptal leve (lucências subpleurais até 1 cm)	achado	enfparalevec	0	não	
+enfparalevec	Conclusão — enfisema parasseptal leve (Fleischner)	conclusão	enfparaleve	0	não	
+enfparasubstancial	Enfisema parasseptal substancial (bolhas subpleurais >1 cm)	achado	enfparasubstancialc	0	não	
+enfparasubstancialc	Conclusão — enfisema parasseptal substancial (Fleischner)	conclusão	enfparasubstancial	0	não	
+enfcicatricial	Enfisema paracicatricial	achado	enfcicatricialc	0	não	
+enfcicatricialc	Conclusão — enfisema paracicatricial (Fleischner)	conclusão	enfcicatricial	0	não	
+epb	Espessamento das paredes brônquicas (broncopatia)	achado		0	não	
+espbro	Espessamento de paredes brônquicas (broncopatia)	achado		0	não	
+espder	Espessamento/derrame pleural bilateral discreto	achado		0	sim	
+fibinters	Intersticiopatia fibrosante inespecífica	achado		0	não	
+fibrocron	Alterações fibrocicatriciais apicais crônicas	achado		0	sim	
+fibros	Doença intersticial pulmonar padrão fibrosante	achado		0	não	
+fibros1	Intersticiopatia pulmonar indeterminada	achado		0	não	
+fibrosecistica	Bronquiectasias sugestivas de fibrose cística	achado		0	não	
+fibrosleve	Doença intersticial pulmonar fibrosante leve	achado		0	não	
+fibrotorax	Sequela fibrótica apical direita	achado		0	não	
+fibrotorax1	Nódulo pulmonar com fibrose adjacente	achado		1	não	
+fibrotorax2	Fibrotórax esquerdo	achado		0	não	
+fracost	Fraturas costais consolidadas à direita	achado		0	não	
+fracoste	Fraturas costais consolidadas à esquerda	achado		0	não	
+herniahiatal	Hérnia hiatal/diafragmática volumosa	achado		0	sim	
+janta1	Broncopneumonia aspirativa (peri-hilar)	achado		0	não	
+janta2	Broncopneumonia aspirativa com atelectasia	achado		0	sim	
+janta3	Broncopneumonia aspirativa com derrame pleural	achado		0	sim	
+janta4	Broncopneumonia aspirativa (árvore em brotamento)	achado		0	não	
+janta5	Processo aspirativo com árvore em brotamento	achado		0	não	
+janta6	Processo aspirativo com derrame pleural bilateral	achado		0	não	
+janta7	Processo aspirativo com derrame pleural à direita	achado		0	não	
+janta8	Broncopneumonia aspirativa no lobo inferior direito	achado		0	não	
+limeca	Linfonodos mediastinais calcificados residuais	achado		0	não	
+limed	Linfonodos mediastinais aumentados (reacionais)	achado		0	não	
+limesca	Linfonodomegalia pré-carinal	achado		1	não	
+lincarina	Linfonodo subcarinal aumentado	achado		1	não	
+linfo	Linfonodos mediastinais aumentados (reacionais)	achado		0	não	
+matmu	Material mucoide intratraqueal	achado		0	não	
+mdp	Derrame pleural bilateral moderado	achado		0	sim	
+mosai	Atenuação em mosaico pulmonar	achado		0	sim	
+mucoviscidose	Bronquiectasias sugestivas de fibrose cística	achado		0	não	
+necroempiema	Empiema pleural à direita (x necrose pulmonar)	achado		0	sim	
+neopulmaoescondida	Neoplasia pulmonar/pleural oculta por atelectasia	achado		0	sim	
+opa	Pneumonia viral (padrão sugestivo de COVID-19)	achado		0	não	
+opa1	Opacidade consolidativa no campo pulmonar inferior direito	achado		0	não	
+opa2	Opacidade consolidativa no campo pulmonar inferior esquerdo	achado		0	não	
+opa3	Opacidades consolidativas nos campos pulmonares inferiores	achado		0	não	
+opabase	Opacidade consolidativa basal direita com derrame associado	achado		0	não	
+oparet	Opacidades reticulares pulmonares — bilaterais	achado		0	não	
+opdec	Opacidades subpleurais atribuíveis ao decúbito	achado		0	não	
+opia1	Opacidades intersticio-alveolares no pulmão direito	achado		0	não	
+opia2	Opacidades intersticio-alveolares no pulmão esquerdo	achado		0	não	
+opia3	Opacidades intersticio-alveolares bilaterais	achado		0	não	
+pdp	Derrame/espessamento pleural bilateral	achado		0	sim	
+pdpa	Derrame pleural bilateral com atelectasia adjacente	achado		0	sim	
+pdpad	Derrame pleural à direita com atelectasia	achado		0	sim	
+pdpae	Derrame pleural à esquerda com atelectasia	achado		0	sim	

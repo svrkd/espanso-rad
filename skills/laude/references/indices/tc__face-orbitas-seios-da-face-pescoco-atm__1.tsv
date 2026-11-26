@@ -1,0 +1,140 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+abscessofaringe	Abscessos cervicais e retrofaríngeos	achado		0	não	
+abscessoodontogenico	Abscesso odontogênico mandibular	achado		0	sim	
+abscessoretrofaringeo	Abscesso retrofaríngeo	achado		2	não	
+adenoi	Hipertrofia adenoideana — partes moles da rinofaringe	achado		0	não	
+adiatm	Alterações degenerativas das ATMs	achado		0	não	
+adiatm1	Alteração degenerativa da ATM	achado		0	não	
+atm	articulação temporomandibular	fragmento		0	não	
+atmartroseleve	Discreta artrose da ATM direita	achado		0	não	
+bola1	Cisto de retenção/pólipo no seio maxilar direito	achado		0	não	
+bola2	Cisto de retenção/pólipo no seio maxilar esquerdo	achado		0	não	
+bola3	Cistos de retenção/pólipos nos seios maxilares	achado		0	não	
+bola4	Cistos de retenção/pólipos no seio maxilar direito	achado		0	não	
+bola5	Cistos de retenção/pólipos no seio maxilar esquerdo	achado		0	não	
+caraquebrada	Fraturas faciais múltiplas (trauma)	achado		0	sim	
+celuliteperiorbitaria	Celulite periorbitária pré-septal direita	achado		0	não	
+cistir	Cistos tireoidianos bilaterais (coloides)	achado		0	não	
+cistir1	Cisto tireoidiano (coloide)	achado		0	não	
+cistoodontogenico	Cisto odontogênico do seio maxilar	achado		1	não	
+dadosacinariz	Desvio de septo nasal (template genérico)	fragmento		0	não	
+ddsn1	Discreto desvio de septo nasal à direita	achado		0	não	
+ddsn2	Discreto desvio de septo nasal à esquerda	achado		0	não	
+deiscencia	Deiscência anastomótica cervical/fístula	achado		0	não	
+denteinc	Dente incluso na maxila	achado		0	não	
+dsn1	Desvio de septo nasal à direita	achado		0	não	
+dsn2	Desvio de septo nasal à esquerda	achado		0	não	
+epo	Espessamento ósseo do seio maxilar direito	achado		0	não	
+epos	Espessamento ósseo dos seios maxilares	achado		0	não	
+esmu	Espessamento mucoso dos seios paranasais	achado		0	não	
+esmupol	Espessamento mucoso polipoide dos seios paranasais	achado		0	não	
+esmupol1	Espessamento mucoso polipoide pansinusal	achado		0	não	
+esmutudo	Espessamento mucoso pansinusal	achado		0	não	
+fov1	Fóveas etmoidais assimétricas (mais baixa à direita)	achado		0	não	
+fov2	Fóveas etmoidais assimétricas (mais baixa à esquerda)	achado		0	não	
+fov3	Fóveas etmoidais simétricas	achado		0	não	
+fova1	Fóveas etmoidais assimétricas (mais baixa à direita)	achado		0	não	
+fova2	Fóveas etmoidais assimétricas (mais baixa à esquerda)	achado		0	não	
+franariz	Fratura nasal com hemossinus	achado		0	sim	
+hcni	Hipertrofia dos cornetos nasais inferiores	achado		0	não	
+laringo	Nota — recomendação de laringoscopia	achado		0	não	
+macampa	Material de partes moles em seios paranasais	achado		0	não	
+macampa10	Espessamento mucoso polipoide em seios paranasais	achado		0	não	
+macampa11	Pansinusite polipoide com obliteração dos óstios	achado		0	não	
+macampa12	Pansinusite polipoide	achado		0	não	
+macampao	Material de partes moles nasossinusal e em rinofaringe	achado		0	não	
+macampo	Material de partes moles com espessamento mucoso polipoide	achado		0	não	
+macampol	Material de partes moles polipoide em seios paranasais	achado		0	não	
+macamta	Material de partes moles nas mastoides	achado		0	não	
+macanta	Material de partes moles nas mastoides	achado		0	não	
+macanta1	Material de partes moles na mastoide direita	achado		0	não	
+macanta2	Material de partes moles na mastoide esquerda	achado		0	não	
+mara1	Desvio de septo nasal com esporão à direita	achado		0	não	
+mara2	Desvio de septo nasal com esporão à esquerda	achado		0	não	
+mara3	Desvio sinuoso do septo nasal	achado		0	não	
+mara4	Desvio sinuoso do septo com esporão à direita	achado		0	não	
+mara5	Desvio sinuoso do septo com esporão à esquerda	achado		0	não	
+mastoidecro	Otomastoidopatia crônica à esquerda	achado		0	não	
+notaorb	Nota — avaliação orbitária limitada	achado		0	não	
+omax	Óstio maxilar acessório à direita	achado		0	não	
+omaxb	Óstio maxilar acessório bilateral	achado		0	não	
+omaxe	Óstio maxilar acessório à esquerda	achado		0	não	
+papira	Fratura de lâmina papirácea?	achado		0	não	
+paradox	Curvatura paradoxal de concha nasal média direita	achado		0	não	
+paradoxe	Curvatura paradoxal de concha nasal média esquerda	achado		0	não	
+paranas	Seios paranasais (todos)	fragmento		0	não	
+pcn1	Pneumatização de concha nasal média direita	achado		0	não	
+pcn2	Pneumatização de concha nasal média esquerda	achado		0	não	
+pcnhiper	Concha bolhosa com desvio septal contralateral — direita, com esporão	achado		0	não	
+peqles	Baixa sensibilidade para pequenas lesões cervicais	achado		0	não	
+pneumocorno	Concha bolhosa e hipertrofia de corneto inferior	achado		0	não	
+polipoduv	Polipose nasossinusal unilateral direita	achado		0	sim	
+poliposedifusa	Polipose nasossinusal difusa (pansinusal)	achado		0	não	
+poliposenasal	Polipose nasossinusal com reabsorção óssea	achado		0	sim	
+polipudo	Formação tecidual em seios paranasais (polipose?)	achado		0	não	
+polipudo1	Formação tecidual pansinusal com reabsorção óssea (polipose?)	achado		0	não	
+polipudo2	Formação tecidual pansinusal com extensão à coana (polipose?)	achado		0	não	
+popo	Cisto de retenção/pólipo em seios maxilares	achado		0	não	
+quebrazoio	Fratura de blowout orbitário (assoalho/paredes)	achado		0	não	
+seio10	seios maxilares, esfenoidais, etmoidais e frontais	fragmento		0	não	
+semdes	Septo nasal sem desvios	achado		0	não	
+sfd	seio frontal direito	fragmento		0	não	
+sfe	seio frontal esquerdo	fragmento		0	não	
+sicro	Sinusopatia crônica maxilar bilateral	achado		0	não	
+sicrod	Sinusopatia crônica maxilar direita	achado		0	não	
+sicrodf	Sinusopatia crônica maxilar direita fúngica	achado		0	não	
+sicroe	Sinusopatia crônica maxilar esquerda	achado		0	não	
+sicroef	Sinusopatia crônica maxilar esquerda fúngica	achado		0	não	
+sicroesf	Sinusopatia crônica do seio esfenoidal direito	achado		0	não	
+sinusitefungica	Sinusite fúngica maxilar esquerda	achado		0	não	
+sn	Sonda nasal	achado		0	não	
+superfaringe	Baixa sensibilidade para lesões mucosas de faringe/laringe	achado		0	não	
+tc13	seios maxilares, frontais, etmoidais e esfenoidais	fragmento		0	não	
+tcadenoide	Hipertrofia adenoideana (rinofaringe)	achado		0	não	
+tcbalboa	Fratura de paredes do seio maxilar direito	achado		0	não	
+tcbocio	Bócio mergulhante (lobo esquerdo)	achado		0	não	
+tccaco	Corpo estranho subcutâneo periorbitário	achado		0	não	
+tccaraquebrada	Fraturas múltiplas de face (trauma complexo)	achado		0	sim	
+tcmarina	Aumento de partes moles da rinofaringe	achado		0	não	
+tcosteoma	Osteoma do seio etmoidal esquerdo	achado		1	não	
+tcosteomas	Osteomas etmoidais múltiplos	achado		0	não	
+tire	Tireoide heterogênea	achado		0	não	
+tirh	Tireoide heterogênea	achado		0	não	
+tornwaldt	Cisto de Tornwaldt	achado		0	não	
+wallup	Mastoidectomia tipo Wall Up (achados pós-operatórios)	achado		0	sim	
+cnp	Concha nasal paradoxal (variante anatômica)	achado		1	não	
+dsn	Desvio de septo nasal	fragmento		0	não	
+dsnce	Desvio de septo nasal com esporão	achado		0	não	
+hcn	Hipertrofia de corneto nasal	fragmento		0	não	
+hcns	Hipertrofia dos cornetos nasais	fragmento		0	não	
+hiperdesvio	Hipertrofia de corneto com desvio septal e esporão	achado		1	não	
+pcn	Pneumatização de concha nasal	fragmento		0	não	
+pcncd	Concha bolhosa com desvio septal contralateral	achado		0	não	
+sef	Seio esfenoidal	fragmento		0	não	
+sf	Seio frontal	fragmento		0	não	
+smd	Seio maxilar direito	fragmento		0	não	
+sme	Seio maxilar esquerdo	fragmento		0	não	
+sms	Seios maxilares	fragmento		0	não	
+max	Espessamento mucoso dos seios maxilares	achado		0	não	
+tir	Tireoide heterogênea	achado		0	não	
+tt104	Nódulo tireoidiano hipodenso	achado		2	não	
+tt120	Nódulo tireoidiano hipodenso	achado		2	não	
+thet	Tireoide heterogênea	achado		0	não	
+abscessofaringeo	Abscesso faringolaríngeo em organização	achado		1	não	
+cavum	Hipertrofia adenoideana — com redução da coluna aérea	achado		0	não	
+licer	Linfonodos cervicais aumentados (reacionais)	achado		0	não	
+sinusaguda	Sinusopatia aguda (nível líquido, conteúdo bolhoso)	achado	sinusagudac	1	não	
+sinusagudac	Conclusão — sinusopatia aguda	conclusão	sinusaguda	1	não	
+conteudodenso	Conteúdo hiperatenuante em seio paranasal	achado		1	não	
+lundmackay	Escore de Lund-Mackay (com tabela)	achado		13	não	
+padraoinfund	Padrão obstrutivo infundibular	achado	padraoinfundc	1	não	
+padraoinfundc	Conclusão — padrão obstrutivo infundibular	conclusão	padraoinfund	1	não	
+padraoostio	Padrão obstrutivo da unidade ostiomeatal	achado	padraoostioc	1	não	
+padraoostioc	Conclusão — padrão obstrutivo da unidade ostiomeatal	conclusão	padraoostio	1	não	
+padraorecesso	Padrão obstrutivo do recesso esfenoetmoidal	achado	padraorecessoc	1	não	
+padraorecessoc	Conclusão — padrão obstrutivo do recesso esfenoetmoidal	conclusão	padraorecesso	1	não	
+padraoesparso	Padrão esporádico (espessamento mucoso sem obstrução)	achado		0	não	
+mucoceleseio	Mucocele de seio paranasal	achado	mucoceleseioc	1	não	
+mucoceleorbita	Mucocele com efeito expansivo sobre a órbita	achado		2	não	
+mucoceleseioc	Conclusão — mucocele de seio paranasal	conclusão	mucoceleseio	1	não	
+polipocoana	Pólipo antrocoanal	achado	polipocoanac	2	não	

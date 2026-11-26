@@ -1,0 +1,77 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+carot1	Artéria carótida: Espessamento mediointimal da carótida comum à _ (achado descritivo; se > 1,5 mm, descrever como placa com carot16)	achado	carot1c	3	não	
+carot1c	Artéria carótida: Aumento da espessura mediointimal da carótida comum à _	conclusão	carot1	2	não	
+carot2	Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica (achado descritivo)	achado	carot2c	3	sim	
+carot2c	Artéria carótida: Ateromatose carotídea à _, sem repercussão hemodinâmica	conclusão	carot2	1	não	
+carot3	Artéria carótida: Placa com características de maior risco embólico à _ (achado descritivo)	achado	carot3c	3	sim	
+carot3c	Artéria carótida: Placa com características de maior risco embólico à _	conclusão	carot3	1	não	
+carot4	Artéria carótida: Estenose inferior a 50% da carótida interna à _ (achado descritivo)	achado	carot4c	3	sim	
+carot4c	Artéria carótida: Estenose inferior a 50%, sem repercussão hemodinâmica, em bifurcação carotídea à _	conclusão	carot4	1	não	
+carot5	Artéria carótida: Estenose entre 50 e 69% da carótida interna à _ (achado descritivo; decis 50–59/60–69%)	achado	carot5c	4	sim	
+carot5c	Artéria carótida: Estenose entre 50 e 69% da carótida interna à _	conclusão	carot5	1	não	
+carot6	Artéria carótida: Estenose entre 70 e 89% da carótida interna à _ (achado descritivo; decis 70–79/80–89%)	achado	carot6c	4	sim	
+carot6c	Artéria carótida: Estenose entre 70 e 89% da carótida interna à _	conclusão	carot6	1	não	
+carot7	Artéria carótida: Oclusão da artéria carótida interna à _ (achado descritivo)	achado	carot7c	1	não	
+carot7c	Artéria carótida: Oclusão da artéria carótida interna à _	conclusão	carot7	1	não	
+carot22	Artéria carótida: Suboclusão da artéria carótida interna à _ (achado descritivo; colapso total/parcial)	achado	carot22c	3	sim	
+carot22c	Artéria carótida: Suboclusão da artéria carótida interna à _	conclusão	carot22	1	sim	
+carot8	Artéria carótida: Inflamação perivascular transitória da carótida (TIPIC, antiga carotidínia) à _ (achado descritivo)	achado	carot8c	1	não	
+carot8c	Artéria carótida: Inflamação perivascular transitória da carótida (TIPIC, antiga carotidínia) à _	conclusão	carot8	1	não	
+carot9	Artéria carótida: Nódulo em bifurcação carotídea à _ com sinal da lira, provável paraganglioma (achado descritivo)	achado	carot9c	5	não	
+carot9c	Artéria carótida: Nódulo em bifurcação carotídea à _, provável paraganglioma	conclusão	carot9	1	não	
+carot10	Artéria carótida: Estenose intrastent do stent carotídeo à _ (achado descritivo)	achado	carot10c	4	não	
+carot10c	Artéria carótida: Estenose intrastent do stent carotídeo à _	conclusão	carot10	1	não	
+carot11	Artéria carótida: Stent carotídeo à _ pérvio, sem estenose intrastent (achado descritivo)	achado	carot11c	1	não	
+carot11c	Artéria carótida: Stent carotídeo à _ pérvio, sem estenose intrastent	conclusão	carot11	1	não	
+carot12	Artéria carótida: Estenose superior a 90% em bifurcação carotídea à _ (achado descritivo)	achado	carot12c	4	sim	
+carot12c	Artéria carótida: Estenose superior a 90% em bifurcação carotídea à _	conclusão	carot12	1	não	
+carot13	Artéria carótida: Acotovelamento da artéria carótida interna à _, sem repercussão hemodinâmica (achado descritivo)	achado	carot13c	1	não	
+carot13c	Artéria carótida: Acotovelamento da artéria carótida interna à _, sem repercussão hemodinâmica	conclusão	carot13	1	não	
+carot14	Artéria carótida: Bifurcação carotídea alta à _ limitando a avaliação da carótida interna (achado descritivo)	achado	carot14c	1	não	
+carot14c	Artéria carótida: Bifurcação carotídea alta à _ limitando a avaliação da carótida interna	conclusão	carot14	1	não	
+carot15	Artéria carótida: Extensas calcificações parietais impossibilitando graduar a estenose (achado descritivo)	achado	carot15c	0	não	
+carot15c	Artéria carótida: Extensas calcificações parietais impossibilitando graduar a estenose	conclusão	carot15	0	não	
+carot16	Artéria carótida: Placa carotídea — descrição detalhada (preencher; ecogenicidade tipos I a V)	achado		4	sim	
+carot17	Artéria carótida: Placa na artéria carótida comum à _	achado		2	sim	
+carot18	Artéria carótida: Placa na bifurcação carotídea à _	achado		1	sim	
+carot19	Artéria carótida: Placa na origem da artéria carótida interna à _	achado		2	não	
+carot20	Artéria carótida: Placa na origem da artéria carótida externa à _	achado		2	não	
+carot21	Artéria carótida: Artérias carótidas normais	achado		1	não	
+carot23	Artéria carótida: Pós-endarterectomia à _ sem reestenose (achado descritivo)	achado	carot23c	3	sim	
+carot23c	Artéria carótida: Pós-endarterectomia à _ sem reestenose	conclusão	carot23	1	não	
+carot24	Artéria carótida: Reestenose ≥ 70% pós-endarterectomia à _ (achado descritivo) — VPS > 300 cm/s, VDF > 125 cm/s, razão ACI/ACC > 5 (DIC/CBR/SBACV 2023, Quadro 5)	achado	carot24c	4	não	
+carot24c	Artéria carótida: Reestenose ≥ 70% pós-endarterectomia à _	conclusão	carot24	1	não	
+carot25	Artéria carótida: Placa ulcerada à _ (achado descritivo) — escavação > 2 mm, base definida, fluxo reverso ao color	achado	carot25c	4	sim	
+carot25c	Artéria carótida: Placa ulcerada à _	conclusão	carot25	2	sim	
+carot26	Artéria carótida: Placa com componente móvel (trombo flutuante) à _ (achado descritivo)	achado	carot26c	3	sim	
+carot26c	Artéria carótida: Placa com componente móvel (trombo flutuante) à _	conclusão	carot26	2	sim	
+carot27	Artéria carótida: Dissecção da artéria carótida interna à _ (achado descritivo)	achado	carot27c	1	sim	
+carot27c	Artéria carótida: Dissecção da artéria carótida interna à _	conclusão	carot27	1	não	
+carot28	Artéria carótida: Web carotídeo à _ (achado descritivo)	achado	carot28c	1	não	
+carot28c	Artéria carótida: Web carotídeo à _	conclusão	carot28	1	não	
+carot29	Artéria carótida: Espessamento parietal circunferencial (sinal do macarrão), arterite de grandes vasos à _ (achado descritivo)	achado	carot29c	3	não	
+carot29c	Artéria carótida: Arterite de grandes vasos (Takayasu) à _	conclusão	carot29	1	não	
+carot30	Artéria carótida: Fluxo pós-estenótico na carótida comum à _, estenose proximal (origem/tronco braquiocefálico) (achado descritivo)	achado	carot30c	1	não	
+carot30c	Artéria carótida: Estenose proximal à carótida comum à _ (origem/tronco braquiocefálico)	conclusão	carot30	1	sim	
+carot31	Artéria carótida: Displasia fibromuscular da carótida interna à _ (achado descritivo)	achado	carot31c	1	sim	
+carot31c	Artéria carótida: Displasia fibromuscular da carótida interna à _	conclusão	carot31	1	não	
+vert1	Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _ (achado descritivo) — diâmetro ≤ 0,2 cm em V2, índice de resistência > 0,75, vertebral contralateral > 0,4 cm	achado	vert1c	4	não	
+vert1c	Artéria vertebral: Achados compatíveis com hipoplasia da artéria vertebral à _	conclusão	vert1	1	não	
+vert2	Artéria vertebral: Fluxo retrógrado na artéria vertebral à _, roubo da subclávia completo (achado descritivo)	achado	vert2c	1	não	
+vert2c	Artéria vertebral: Fluxo retrógrado na artéria vertebral à _, roubo da subclávia completo	conclusão	vert2	1	não	
+vert3	Artéria vertebral: Oclusão da artéria vertebral à _, sem reabitação distal (achado descritivo)	achado	vert3c	1	não	
+vert3c	Artéria vertebral: Achados compatíveis com oclusão da artéria vertebral à _	conclusão	vert3	1	não	
+vert4	Artéria vertebral: Artérias vertebrais normais, com fluxo anterógrado conservado	achado		0	não	
+vert5	Artéria vertebral: estenose na origem (achado descritivo) — velocidade máxima: < 50% ≥ 85 cm/s; 50–69% ≥ 140 cm/s; 70–99% ≥ 210 cm/s (DIC/CBR/SBACV 2023, Tabela 6; válida só para V0–V1)	achado	vert5c	3	não	
+vert5c	Artéria vertebral: estenose na origem (conclusão)	conclusão	vert5	2	não	
+vert6	Artéria vertebral: Oclusão proximal da artéria vertebral à _ com reabitação distal (achado descritivo)	achado	vert6c	1	não	
+vert6c	Artéria vertebral: Oclusão proximal da artéria vertebral à _ com reabitação distal	conclusão	vert6	1	não	
+vert7	Artéria vertebral: Artéria vertebral à _ não individualizada (achado descritivo)	achado	vert7c	1	não	
+vert7c	Artéria vertebral: Artéria vertebral à _ não individualizada	conclusão	vert7	1	não	
+vert8	Artéria vertebral: Tortuosidade da artéria vertebral à _ com aumento focal de velocidade, sem estenose (achado descritivo)	achado	vert8c	2	não	
+vert8c	Artéria vertebral: Tortuosidade da artéria vertebral à _, sem estenose	conclusão	vert8	1	não	
+ds1	Artéria subclávia: Roubo da subclávia tipo 3 (completo) à _ (achado descritivo)	achado	ds1c	1	não	
+ds1c	Artéria subclávia: Roubo da subclávia tipo 3 (completo) à _	conclusão	ds1	1	não	
+ds2	Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico superior à VDF (achado descritivo)	achado	ds2c	1	não	
+ds2c	Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico superior à VDF	conclusão	ds2	1	não	
+ds3	Artéria subclávia: Roubo da subclávia tipo 1 (latente) à _, pico mesossistólico igual à VDF (achado descritivo)	achado	ds3c	1	não	

@@ -1,0 +1,33 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+aneuabd	Aneurisma da aorta abdominal infrarrenal (≥ 3,0 cm)	achado	aneuabdc	7	não	
+aneuabdc	Conclusão — aneurisma da aorta abdominal infrarrenal	conclusão	aneuabd	0	não	
+aneujustarrenal	Aneurisma justarrenal da aorta abdominal	achado	aneujustarrenalc	3	não	
+aneujustarrenalc	Conclusão — aneurisma justarrenal da aorta abdominal	conclusão	aneujustarrenal	0	não	
+aneuiliaca	Aneurisma da artéria ilíaca comum	achado	aneuiliacac	4	não	
+aneuiliacac	Conclusão — aneurisma da artéria ilíaca comum	conclusão	aneuiliaca	1	não	
+aneuiliacainterna	Aneurisma da artéria ilíaca interna	achado	aneuiliacainternac	5	não	
+aneuiliacainternac	Conclusão — aneurisma da artéria ilíaca interna	conclusão	aneuiliacainterna	2	não	
+acessotavi1	Eixo iliofemoral sem fatores de risco para acesso transfemoral (pré-TAVI)	achado	acessotavi1c	2	não	
+acessotavi1c	Conclusão — eixo iliofemoral sem fatores de risco para acesso	conclusão	acessotavi1	0	não	
+acessotavi2	Eixo iliofemoral com fatores de risco para acesso transfemoral (pré-TAVI)	achado	acessotavi2c	6	não	
+acessotavi2c	Conclusão — eixo iliofemoral com fatores de risco para acesso	conclusão	acessotavi2	1	não	
+aortainstavel	Aneurisma com sinal do crescente hiperatenuante (rotura iminente)	achado	aortainstavelc	1	não	
+aortainstavelc	Conclusão — sinal do crescente hiperatenuante	conclusão	aortainstavel	0	não	
+aortadrapeada	Sinal da aorta drapeada (rotura contida)	achado	aortadrapeadac	1	não	
+aortadrapeadac	Conclusão — sinal da aorta drapeada	conclusão	aortadrapeada	0	não	
+aortarota	Aneurisma roto com hematoma retroperitoneal e sangramento ativo	achado	aortarotac	3	não	
+aortarotac	Conclusão — aneurisma roto da aorta abdominal	conclusão	aortarota	0	não	
+aneuinflamatorio	Aneurisma inflamatório da aorta abdominal	achado	aneuinflamatorioc	2	não	
+aneuinflamatorioc	Conclusão — aneurisma inflamatório da aorta abdominal	conclusão	aneuinflamatorio	0	não	
+aneuinfeccioso	Aneurisma infeccioso (micótico) da aorta	achado	aneuinfecciosoc	2	não	
+aneuinfecciosoc	Conclusão — aneurisma infeccioso (micótico) da aorta	conclusão	aneuinfeccioso	1	não	
+flapabd	Dissecção da aorta abdominal	achado	flapabdc	4	não	
+flapabdc	Conclusão — dissecção da aorta abdominal (SVS/STS)	conclusão	flapabd	2	não	
+obstrucaodinamica	Dissecção com obstrução dinâmica de ramo visceral	achado	obstrucaodinamicac	2	não	
+obstrucaodinamicac	Conclusão — obstrução dinâmica de ramo visceral	conclusão	obstrucaodinamica	2	não	
+obstrucaoestatica	Dissecção com obstrução estática de ramo visceral	achado	obstrucaoestaticac	2	não	
+obstrucaoestaticac	Conclusão — obstrução estática de ramo visceral	conclusão	obstrucaoestatica	2	não	
+oclusaoaortica	Oclusão aortoilíaca com colaterais	achado	oclusaoaorticac	2	não	
+oclusaoaorticac	Conclusão — oclusão aortoilíaca	conclusão	oclusaoaortica	0	não	
+aortacoral	Aorta em recife de coral (coral reef aorta)	achado	aortacoralc	2	não	
+aortacoralc	Conclusão — aorta em recife de coral	conclusão	aortacoral	1	não	

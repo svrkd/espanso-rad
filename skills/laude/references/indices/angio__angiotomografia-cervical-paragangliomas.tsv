@@ -1,0 +1,5 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+glomocarotideo	Paraganglioma do corpo carotídeo (sinal da lira, Shamblin)	achado	glomocarotideoc	3	não	
+glomocarotideoc	Conclusão — paraganglioma do corpo carotídeo	conclusão	glomocarotideo	2	não	
+glomovagal	Paraganglioma vagal (desloca a carótida sem afastar interna e externa)	achado	glomovagalc	2	não	
+glomovagalc	Conclusão — paraganglioma vagal	conclusão	glomovagal	1	não	

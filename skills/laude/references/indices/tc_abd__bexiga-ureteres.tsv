@@ -1,0 +1,15 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+recidivavesical	Remanescente ou recidiva tumoral vesical	achado		1	não	
+lesaopolipoide	Lesão polipoide vesical suspeita (estudo sem contraste)	achado		0	sim	
+cistiteenfisematosa	Cistite enfisematosa com rotura vesical	achado	cistiteenfisematosac	0	não	
+cistiteenfisematosac	Conclusão — cistite enfisematosa com roturas intra e extraperitoneais	conclusão	cistiteenfisematosa	0	não	
+bexigaespessada	Espessamento vesical com ectasia ureteral a esclarecer	achado		0	não	
+neoplasiavesical	Neoplasia vesical infiltrativa com invasão do espaço de Retzius	achado	neoplasiavesicalc	1	não	
+neoplasiavesicalc	Conclusão — neoplasia primária vesical infiltrativa	conclusão	neoplasiavesical	0	não	
+duplicacaoureteral	Duplicação completa do sistema coletor com ureter ectópico	achado		0	não	
+ureterpolosuperior	Obstrução distal do ureter do polo superior com realce urotelial	achado		1	não	
+derivacaobricker	Derivação urinária tipo Bricker com suspeita de deiscência	achado		0	sim	
+carcinomavesical1	Carcinoma urotelial vesical de alto grau confirmado	achado		0	não	
+fistulavesicovaginal	Fístula vesicovaginal e vesicorretal	achado		0	não	
+cistitevesiculite	Cistite com vesiculite seminal	achado		0	não	
+carcinomavesical2	Carcinoma urotelial vesical com extensão ao ureter distal	achado		2	não	

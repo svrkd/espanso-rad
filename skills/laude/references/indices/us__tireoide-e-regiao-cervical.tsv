@@ -1,0 +1,18 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+ti1	Tireoide (nódulo): descrição ACR TI-RADS (achado descritivo) — composição: cístico/espongiforme 0, misto 1, sólido 2; ecogenicidade: anecoico 0, hiper/iso 1, hipo 2, acentuadamente hipo 3; forma: mais alto que largo 3; margens: lobuladas/irregulares 2, extensão extratireoidiana 3; focos: macrocalcificações 1, periféricas 2, puntiformes 3	achado	ti1c	5	sim	
+ti1c	Tireoide (nódulo): conclusão ACR TI-RADS (categoria a preencher)	conclusão	ti1	3	não	
+ti2	Tireoide (nódulo): descrição ACR TI-RADS (achado descritivo) — composição: cístico/espongiforme 0, misto 1, sólido 2; ecogenicidade: anecoico 0, hiper/iso 1, hipo 2, acentuadamente hipo 3; forma: mais alto que largo 3; margens: lobuladas/irregulares 2, extensão extratireoidiana 3; focos: macrocalcificações 1, periféricas 2, puntiformes 3	achado	ti2c	5	sim	
+ti2c	Tireoide (nódulo): conclusão ACR TI-RADS (categoria a preencher)	conclusão	ti2	3	não	
+tr1c	Tireoide (nódulo): ACR TI-RADS TR1 (benigno, 0 pontos)	achado		1	não	
+tr2c	Tireoide (nódulo): ACR TI-RADS TR2 (não suspeito, 2 pontos)	achado		1	não	
+tr3c	Tireoide (nódulo): ACR TI-RADS TR3 (levemente suspeito, 3 pontos)	achado		1	não	
+tr4c	Tireoide (nódulo): ACR TI-RADS TR4 (moderadamente suspeito, 4 a 6 pontos)	achado		1	não	
+tr5c	Tireoide (nódulo): ACR TI-RADS TR5 (altamente suspeito, 7 ou mais pontos)	achado		1	não	
+tipaaf	Tireoide (nódulo): indicação de PAAF — TR3 ≥ 2,5 cm; TR4 ≥ 1,5 cm; TR5 ≥ 1,0 cm	achado		0	não	
+ticontrole	Tireoide (nódulo): controle ultrassonográfico — TR3 ≥ 1,5 cm; TR4 ≥ 1,0 cm; TR5 ≥ 0,5 cm	achado		0	não	
+ti3	Tireoide (doença difusa): Tireoide difusamente heterogênea e hipervascularizada (achado descritivo)	achado	ti3c	0	não	
+ti3c	Tireoide (doença difusa): Tireoide difusamente heterogênea e hipervascularizada	conclusão	ti3	0	não	
+ti4	Tireoide (doença difusa): Tireoide difusamente heterogênea e de dimensões reduzidas (achado descritivo)	achado	ti4c	0	não	
+ti4c	Tireoide (doença difusa): Tireoide difusamente heterogênea e de dimensões reduzidas	conclusão	ti4	0	não	
+ti5	Linfonodo cervical: linfonodo com critérios morfológicos de atenção (achado descritivo) — níveis I a VI	achado	ti5c	3	sim	
+ti5c	Linfonodo cervical: Linfonodomegalia cervical à _, com critérios morfológicos de atenção	conclusão	ti5	2	não	

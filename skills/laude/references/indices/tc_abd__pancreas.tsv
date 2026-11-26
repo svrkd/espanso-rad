@@ -1,0 +1,65 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+pancreatitesulco1	Pancreatite crônica agudizada do sulco duodenopancreático	achado		2	sim	
+pancreatiteenfisematosa1	Pancreatite enfisematosa	achado		0	sim	
+pancreatitecronica1	Pancreatite crônica reagudizada com IPMN e dilatação do colédoco	achado		0	sim	
+realcecoledoco	Área de realce no colédoco distal inespecífica	achado		0	não	
+pancreatiteaguda1	Pancreatite aguda com lesão cística cefálica	achado	pancreatiteaguda1c	1	não	
+pancreatiteaguda1c	Conclusão — pancreatite aguda (Balthazar C)	conclusão	pancreatiteaguda1	0	não	
+cistocefalico	Imagem cística cefálica comunicante — ducto acessório?	achado		0	não	
+posgastroduodeno	Gastroduodenopancreatectomia parcial	achado		0	não	
+derivacaobiliodigestiva	Derivação biliodigestiva com aerobilia	achado		0	não	
+neoplasiapancreas1	Neoplasia pancreática com invasão vascular	achado	neoplasiapancreas1c	2	sim	
+neoplasiapancreas1c	Conclusão — neoplasia pancreática primária metastática	conclusão	neoplasiapancreas1	0	não	
+metastasehipovascular2	Metástases hepáticas hipovasculares (dois maiores nódulos)	achado		2	não	
+neoplasiapancreas2	Neoplasia do corpo pancreático com invasão vascular e carcinomatose	achado		1	não	
+metastaselitica2	Lesões ósseas hipodensas sugestivas de metástases	achado		0	não	
+necroseencapsulada	Necrose pancreática encapsulada (walled-off necrosis)	achado		0	não	
+neoplasiapancreas3	Neoplasia do corpo pancreático com dilatação ductal	achado		3	sim	
+pancreatitecronica2	Pancreatite crônica agudizada com pseudocisto (sem contraste)	achado		1	sim	
+cistoadenomaseroso1	Cistoadenoma seroso do pâncreas	achado		1	não	
+tumorfrantz1	Tumor pseudopapilar sólido-cístico do pâncreas (Frantz)	achado		1	sim	
+tumorfrantz2	Neoplasia pseudopapilar sólida do pâncreas com extensão retrogástrica	achado		0	sim	
+cistoadenomaseroso2	Cistoadenoma mucinoso do pâncreas (confirmado por biópsia)	achado		1	não	
+pancreatiteaguda2	Pancreatite aguda (estudo sem contraste)	achado		0	sim	
+pancreatitenecrosante1	Pancreatite aguda necrosante	achado		2	não	
+pancreatitenecrosante2	Pancreatite necrosante extensa (Balthazar E)	achado		2	sim	
+pancreatiteenfisematosa2	Pancreatite aguda enfisematosa do corpo e cauda	achado	pancreatiteenfisematosa2c	0	não	
+pancreatiteenfisematosa2c	Conclusão — pancreatite enfisematosa	conclusão	pancreatiteenfisematosa2	0	não	
+colecaoinfectada1	Coleções peripancreáticas infectadas com extensão à parede	achado		2	sim	
+colecaoinfectada2	Coleções necróticas agudas pós-pancreatite necrosante	achado		0	não	
+ascitecontrole	Aumento da ascite em estudo comparativo	achado		0	não	
+derramepleuralaumento	Aumento do derrame pleural bilateral com atelectasia	achado		0	não	
+escorebalthazar	Escore de Balthazar e CTSI	achado		3	não	
+escorebalthazar2	Balthazar e CTSI com tabela de referência (Balthazar 1990)	achado		4	não	
+ctsimodificado	CTSI modificado com tabela de referência (Mortele 2004)	achado		2	não	
+coletordilatado	Dilatação do sistema coletor a montante de coleção	achado		0	não	
+pancreatitesulco2	Pancreatite do sulco duodenopancreático (Balthazar C)	achado		1	sim	
+pancreatitesulco3	Pancreatite crônica agudizada com pancreatite de sulco	achado		0	não	
+pancreatiteedematosa	Pancreatite edematosa segmentar (Balthazar C)	achado		0	não	
+pancreatitesulco4	Cálculo impactado na papila com pancreatite de sulco agudizada	achado		1	sim	
+pseudocistopancreas1	Pseudocisto pancreático em pancreatopatia crônica	achado		1	não	
+pseudocistopancreas2	Pseudocistos pancreáticos múltiplos em controle evolutivo	achado		11	não	
+pancreatitecalcificada	Pancreatopatia crônica calcificada	achado		0	não	
+neoplasiapancreas4	Neoplasia da cabeça do pâncreas com pancreatite sobreposta	achado		1	não	
+neoplasiapancreas5	Neoplasia da cabeça pancreática com contato mesentérico	achado		2	sim	
+massaperiampular1	Massa periampular sem invasão vascular	achado		1	sim	
+neoplasiapancreas6	Neoplasia da cauda pancreática com linfonodomegalias	achado		2	não	
+massaperiampular2	Adenocarcinoma periampular com dupla dilatação ductal	achado		2	sim	
+adenocarcinomapancreas1	Adenocarcinoma cefálico com atrofia parenquimatosa a montante	achado		2	não	
+adenocarcinomapancreas2	Adenocarcinoma de corpo/cauda pancreáticos em controle	achado		1	sim	
+pancreasirressecavel1	Envolvimento arterial superior a 180° (irressecabilidade)	achado		0	não	
+neoplasiauncinado	Neoplasia do processo uncinado com contato da veia cava	achado		3	sim	
+pancreasirressecavel2	Critérios de irressecabilidade da neoplasia pancreática	achado		0	sim	
+kyotopreocupante	IPMN com característica preocupante (Kyoto 2024)	achado		3	sim	
+kyotoaltorisco	IPMN com estigma de alto risco (Kyoto 2024)	achado		3	não	
+pseudocistopancreas3	Pseudocistos pancreáticos volumosos pancreatoduodenais	achado		1	sim	
+lesaocauda	Lesão sólida indeterminada da cauda pancreática	achado		0	sim	
+colonreacional	Espessamento reacional do ângulo hepático do cólon	achado		0	não	
+lesaocontigua	Lesão hepática hipovascular contígua a coleção	achado		0	não	
+colecaofluida	Coleção fluida peripancreática aguda (Atlanta)	achado		0	não	
+pancreatiteintersticial	Pancreatite aguda intersticial edematosa (Atlanta revisada)	achado		1	não	
+pancreatitenecrosante3	Pancreatite aguda necrosante (Atlanta revisada)	achado		3	não	
+pseudocisto1	Pseudocisto pancreático, mais de 4 semanas (Atlanta revisada)	achado		1	não	
+colecaonecrotica	Coleção necrótica aguda, menos de 4 semanas (Atlanta revisada)	achado		2	não	
+necroseencapsulada2	Necrose encapsulada, mais de 4 semanas (Atlanta revisada)	achado		2	não	
+necroseinfectada	Necrose pancreática infectada, gás na coleção (Atlanta revisada)	achado		2	não	

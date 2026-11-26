@@ -1,0 +1,36 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+pseudomixomaperitoneal2	Pseudomixoma e carcinomatose peritoneal de origem indeterminada	achado		1	sim	
+metastasehipovascular3	Nódulos hepáticos secundários hipovasculares	achado		2	sim	
+hemorretroperitonio1	Hemorretroperitônio volumoso	achado		2	não	
+hemorretroperitonio2	Hematoma retroperitoneal sem sangramento ativo	achado		0	sim	
+neoplasiaretro	Neoplasia retroperitoneal infiltrativa com trombose da cava	achado		0	não	
+linfonodocalcificado	Linfonodomegalia calcificada da raiz do mesentério	achado		1	não	
+peritonitecoletada	Líquido coletado com espessamento e realce peritoneal	achado		0	sim	
+peritoniteesclerosante	Peritonite esclerosante encapsulante	achado		0	não	
+fibroseretro	Fibrose retroperitoneal	achado		0	não	
+linfangiomaretro	Linfangioma retroperitoneal volumoso	achado		2	não	
+hemorretroperitonio3	Hematoma retroperitoneal com sangramento ativo	achado		2	não	
+infartoomental1	Infarto omental prévio	achado		0	sim	
+infartoomental2	Infarto omental	achado		0	não	
+paniculitemesenterica1	Paniculite mesentérica — sem significado clínico relevante	achado		0	não	
+mesenterioturvo	Espessamento de alças com misty mesentery	achado		0	sim	
+paniculitemesenterica2	Paniculite mesentérica discreta	achado		0	não	
+adenitemesenterica1	Adenite mesentérica — raiz do mesentério, paracólicos e pré-psoas direitos	achado		0	não	
+adenitemesenterica2	Adenite e paniculite mesentérica	achado		0	sim	
+implanteperitoneal1	Implantes peritoneais com aderências pós-cirúrgicas	achado		0	sim	
+carcinomatoseperitoneal1	Carcinomatose peritoneal com neoangiogênese	achado		1	não	
+carcinomatoseperitoneal2	Carcinomatose peritoneal com omental cake e massa pélvica	achado		2	sim	
+mesenteriodenso	Densificação mesentérica com espessamento peritoneal	achado		0	não	
+ascitevolumosa1	Ascite volumosa com espessamento nodular do peritônio parietal	achado		0	não	
+ascitevolumosa2	Espessamento nodular do grande omento com pequena ascite	achado		0	sim	
+linfonodoparaortico	Aumento de linfonodomegalia para-aórtica em controle	achado		2	não	
+ascitevolumosa3	Ascite loculada com espessamento nodular do peritônio	achado		0	não	
+colonperitoneal	Espessamento do cólon transverso com possível carcinomatose	achado		0	não	
+alcaspelvicas	Aglomerado de alças delgadas pélvicas sem obstrução	achado		0	não	
+implanteperitoneal2	Aumento dos implantes peritoneais em controle evolutivo	achado		0	não	
+pseudomixomaperitoneal3	Pseudomixoma peritoneal peri-hepático	achado		0	não	
+pseudomixomaperitoneal4	Pseudomixoma peritoneal com ascite de aspecto espesso	achado		0	sim	
+alteracaoreacional	Alterações reacionais da vesícula, alças e região periportal	achado		0	não	
+aderenciafibrosa	Aderências fibrosas lineares retráteis	achado		0	sim	
+sanduichelinfoma	Sinal do sanduíche (linfoma mesentérico)	achado		0	não	
+paniculitecoulier	Paniculite mesentérica (critérios de Coulier)	achado		0	não	

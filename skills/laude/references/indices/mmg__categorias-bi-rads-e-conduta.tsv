@@ -1,0 +1,12 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+mgb0	BI-RADS 0: avaliação incompleta	achado		0	não	
+mgb1	BI-RADS 1: negativo	achado		0	não	
+mgb2	BI-RADS 2: achado benigno	achado		0	não	
+mgb3	BI-RADS 3: provavelmente benigno	achado		0	não	
+mgb4	BI-RADS 4: suspeito	achado		0	não	
+mgb5	BI-RADS 5: altamente sugestivo de malignidade	achado		0	não	
+mgb6	BI-RADS 6: malignidade comprovada por biópsia	achado		0	não	
+mgcond1	Mama (conduta): controle periódico de rotina	achado		0	não	
+mgcond2	Mama (conduta): controle em intervalo reduzido	achado		0	não	
+mgcond3	Mama (conduta): complementação ecográfica	achado		0	não	
+mgcond4	Mama (conduta): estudo histopatológico	achado		0	não	

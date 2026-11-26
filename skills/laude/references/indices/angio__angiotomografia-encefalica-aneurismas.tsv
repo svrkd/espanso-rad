@@ -1,0 +1,15 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+aneusacular	Aneurisma sacular intracraniano (não roto)	achado	aneusacularc	6	não	
+aneusacularc	Conclusão — aneurisma sacular intracraniano	conclusão	aneusacular	1	não	
+aneuroto	Aneurisma sacular lobulado com HSA (provável fonte)	achado	aneurotoc	6	não	
+aneurotoc	Conclusão — aneurisma como provável fonte da HSA	conclusão	aneuroto	1	não	
+aneugigante	Aneurisma gigante parcialmente trombosado (≥ 2,5 cm)	achado	aneugigantec	5	não	
+aneugigantec	Conclusão — aneurisma gigante parcialmente trombosado	conclusão	aneugigante	1	não	
+dolicobasilar	Dolicoectasia vertebrobasilar (critérios de Smoker)	achado	dolicobasilarc	3	não	
+dolicobasilarc	Conclusão — dolicoectasia vertebrobasilar	conclusão	dolicobasilar	0	não	
+aneumicotico	Aneurisma infeccioso (micótico) de ramo distal	achado	aneumicoticoc	3	não	
+aneumicoticoc	Conclusão — aneurisma infeccioso (micótico)	conclusão	aneumicotico	1	não	
+clipeaneurisma	Aneurisma clipado (artefato limitando o colo)	achado	clipeaneurismac	1	não	
+clipeaneurismac	Conclusão — aneurisma clipado	conclusão	clipeaneurisma	1	não	
+aneuembolizado	Aneurisma embolizado com molas (artefato)	achado	aneuembolizadoc	1	não	
+aneuembolizadoc	Conclusão — aneurisma embolizado	conclusão	aneuembolizado	1	não	

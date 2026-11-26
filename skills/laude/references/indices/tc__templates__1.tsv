@@ -1,0 +1,70 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+angiotcaortadetalhes	ANGIOTOMOGRAFIA DE AORTA ABDOMINAL - aneurisma multissegmentar	template		16	não	ANGIOTOMOGRAFIA COMPUTADORIZADA DE AORTA ABDOMINAL C/C
+angiotomovenosaabdominal	ANGIOTOMOGRAFIA VENOSA DE ABDOME - template completo	template		5	sim	ANGIOTOMOGRAFIA VENOSA DE ABDOME SUPERIOR E INFERIOR C/C
+enterotc1	ENTEROTOMOGRAFIA COMPUTADORIZADA - normal	template		0	não	ENTEROTOMOGRAFIA COMPUTADORIZADA C/C
+nascetnl1	AngioTC cervical C/C — placas carotídeas sem estenose	template		0	não	ANGIOTOMOGRAFIA ARTERIAL CERVICAL C/C
+nascetruim	AngioTC cervical C/C — oclusão de carótida interna direita	template		0	não	ANGIOTOMOGRAFIA ARTERIAL CERVICAL C/C
+tcestenosecarotida	Angio-TC cervical — estenose carotídea bilateral	template		3	sim	ANGIOTOMOGRAFIA ARTERIAL CERVICAL C/C
+tcnascet	Angio-TC cervical — estenose carotídea bilateral leve	template		4	não	ANGIOTOMOGRAFIA ARTERIAL CERVICAL C/C
+tctorid2	TC de tórax S/C — ectasia de artéria pulmonar	template		2	não	TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
+tcangio1	AngioTC de aorta torácica — aneurisma da aorta ascendente	template		6	não	ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA TORÁCICA C/C
+angiotctor	AngioTC de tórax — normal	template		0	não	ANGIOTOMOGRAFIA COMPUTADORIZADA DE TÓRAX C/C
+tcangioabd	AngioTC de aorta abdominal — normal	template		0	não	ANGIOTOMOGRAFIA COMPUTADORIZADA DA AORTA ------------------- C/C
+baciaid	TOMOGRAFIA COMPUTADORIZADA DA BACIA - template completo	template		0	não	TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
+carotidaemilio	TOMOGRAFIA COMPUTADORIZADA DE PESCOÇO - template completo	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE PESCOÇO C/C
+corads5	TOMOGRAFIA DE TÓRAX COVID CO-RADS 5 - template completo	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
+dish1	TOMOGRAFIA COMPUTADORIZADA DA COLUNA TORÁCICA - DISH	template		0	não	TOMOGRAFIA COMPUTADORIZADA DA COLUNA TORÁCICA S/C
+doencarenalpolicistica	TOMOGRAFIA DE ABDOME - doença renal policística	template		6	sim	TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR E INFERIOR S/C
+espondiliteanquilosante	TC de coluna lombar S/C — espondilite anquilosante	template		0	não	TOMOGRAFIA COMPUTADORIZADA DA COLUNA LOMBAR S/C
+fraturabacia	TC de bacia S/C — fratura de acetábulo e hemibacia	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
+fraturalivroaberto	TC de bacia S/C — fratura em livro aberto	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DA BACIA S/C
+fraturaluxacaoombro	TC de ombro S/C — fratura-luxação (Bankart/Hill-Sachs)	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO OMBRO ESQUERDO S/C
+fraturapilao	TC de tornozelo esquerdo S/C — fratura do pilão tibial	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO TORNOZELO ESQUERDO S/C
+fraturapilao1	TC de tornozelo direito S/C — fratura do pilão tibial	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO TORNOZELO DIREITO S/C
+fraturaradio	TC de punho S/C — fratura do rádio distal	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO PUNHO ESQUERDO S/C
+fraturatibia	TC de joelho S/C — fratura do planalto tibial	template		1	sim	TOMOGRAFIA COMPUTADORIZADA DO JOELHO ESQUERDO S/C
+fraturaumero	TC de ombro direito S/C — fratura do úmero proximal	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO S/C
+hidrocefaliaexterna	TC de crânio S/C — hidrocefalia externa benigna (lactente)	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+hillsachs1	TC de ombro S/C — Hill-Sachs e Bankart	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO/ESQUERDO S/C
+hillsachs2	TC de ombro esquerdo S/C — luxação com Hill-Sachs	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO OMBRO ESQUERDO S/C
+hpn1	TC de crânio S/C — hidrocefalia de pressão normal	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+isomerismoesquerdo	TC de abdome S/C — isomerismo esquerdo (poliesplenia)	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR E INFERIOR S/C
+luxacaoombro	TC de ombro direito S/C — Hill-Sachs e Bankart	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO OMBRO DIREITO S/C
+matusa	TC de crânio S/C — atrofia encefálica senil	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+modelocarotidanormal	TC de pescoço C/C — carótidas normais	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO PESCOÇO C/C
+mortecerebral	TC de crânio S/C — sinais de morte encefálica	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+mortecerebral1	TC de crânio S/C — sinais de morte encefálica (variante), hipoatenuação até tronco e cerebelo	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+mortecerebralx	TC de crânio S/C — sinais de morte encefálica (variante), sem cânula traqueal	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+mortecerebro	TC de crânio S/C — sinais de morte encefálica (variante), colabamento ventricular supratentorial	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+nascetnl	TC de pescoço C/C — ateromatose carotídea leve	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE PESCOÇO C/C
+osteitecondensante	TC de coluna sacroilíaca S/C — osteíte condensante	template		0	não	TOMOGRAFIA COMPUTADORIZADA DAS ARTICULAÇÕES SACROILÍACAS S/C
+osteomielitecronica1	TC de perna direita S/C — osteomielite crônica com sequestro ósseo	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DA PERNA DIREITA S/C
+pancreatite1	TC de abdome C/C — pancreatite aguda exsudativa (Balthazar E)	template		4	sim	TOMOGRAFIA COMPUTADORIZADA DE ABDOME SUPERIOR E INFERIOR C/C
+pediabetico	TC de pé esquerdo — osteomielite e fleimão (pé diabético)	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO PÉ ESQUERDO C/C
+pediabetico1	TC de pé direito — osteomielite complicada (pé diabético)	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO PÉ DIREITO C/C
+pediabetico2	TC de pé direito — pé diabético com osteomielite crônica	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO PÉ DIREITO S/C
+pepodre1	TC de pé direito — osteomielite extensa multiossos	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO PÉ DIREITO S/C
+pepodre2	TC de pé direito — osteomielite com fístulas cutâneas	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO PÉ DIREITO S/C
+poliponaso	TC de seios paranasais — polipose nasossinusal	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DE SEIOS PARANASAIS S/C
+poliposepronto	TC de seios paranasais — polipose nasossinusal completa	template		0	não	TOMOGRAFIA COMPUTADORIZADA DOS SEIOS PARANASAIS S/C
+poscovid	TC de tórax — controle pós-COVID-19	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE TÓRAX S/C
+posdrenagemcerebral	TC de crânio — controle pós-drenagem de hematoma subdural	template		4	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+posopmeningeoma	TC de crânio — pós-operatório de meningioma	template		3	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+posoptuventriculo	TC de crânio — pós-operatório de tumor intraventricular	template		2	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+preservasangue	TC de crânio — AVC isquêmico em núcleos da base	template		1	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+press	TC de crânio — síndrome da encefalopatia posterior reversível (PRES)	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+protesejoelho	TC de joelho — prótese bem articulada	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO JOELHO DIREITO S/C
+pseudomeningoceleoccipital	TC de crânio — pseudomeningocele occipital pós-cirúrgica	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+pulmaodecrack	TC de tórax — pulmão de crack (usuário de crack)	template		1	sim	TOMOGRAFIA COMPUTADORIZADA DE TÓRAX E ANGIOTOMOGRAFIA DAS ARTÉRIAS PULMONARES C/C
+quadrilidoso	TC de quadril direito — alterações degenerativas	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO QUADRIL DIREITO S/C
+queijo	TC de crânio — encefalomalácia e lesões lacunares crônicas	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+recidivapescoco	TC de pescoço — recidiva de neoplasia pós-glossectomia	template		5	não	TOMOGRAFIA COMPUTADORIZADA DO PESCOÇO C/C
+rtx	TC — planejamento radioterápico (template genérico)	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO ???????? S/C
+sacroid	TC de sacroilíacas — alterações degenerativas, com esclerose marginal	template		0	não	TOMOGRAFIA COMPUTADORIZADA DAS ARTICULAÇÕES SACROILÍACAS S/C
+schatzkervi	Fratura de planalto tibial Schatzker VI	template		1	sim	TOMOGRAFIA COMPUTADORIZADA DO JOELHO DIREITO S/C
+scheuermann	Doença de Scheuermann (cifose juvenil)	template		0	não	TOMOGRAFIA COMPUTADORIZADA DA COLUNA TORÁCICA S/C
+situsinversus	TC de abdome — situs inversus totalis	template		0	não	TOMOGRAFIA COMPUTADORIZADA DE ABDOME TOTAL S/C
+tc3	TC de crânio — lacunas em núcleos da base e microangiopatia	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+tc31	TC de crânio — lacunas em núcleos da base e tálamo	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+tc4	TC de crânio — lacunas em núcleos da base, tálamo e centros semiovais	template		0	sim	TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO S/C
+tcabdsup	TC de abdome superior S/C — normal, técnica resumida	template		0	não	TOMOGRAFIA COMPUTADORIZADA DO ABDOME SUPERIOR S/C

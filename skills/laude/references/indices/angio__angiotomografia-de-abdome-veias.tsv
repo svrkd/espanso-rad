@@ -1,0 +1,9 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+renalretroaortica	Veia renal esquerda retroaórtica — com nível de desembocadura	achado		1	não	
+renalcircumaortica	Veia renal esquerda circum-aórtica	achado		0	não	
+quebranozes	Compressão aortomesentérica da veia renal esquerda (quebra-nozes)	achado	quebranozesc	2	não	
+quebranozesc	Conclusão — fenômeno de quebra-nozes	conclusão	quebranozes	0	não	
+maythurner	Compressão da veia ilíaca comum esquerda (May-Thurner)	achado	maythurnerc	2	não	
+maythurnerc	Conclusão — compressão da veia ilíaca comum esquerda	conclusão	maythurner	0	não	
+cavaesquerda	Veia cava inferior à esquerda	achado		0	não	
+cavadupla	Duplicação da veia cava inferior — angio-TC	achado		0	não	

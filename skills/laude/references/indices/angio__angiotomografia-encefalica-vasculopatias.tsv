@@ -1,0 +1,9 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+espasmohsa	Vasoespasmo após hemorragia subaracnoide	achado	espasmohsac	5	não	
+espasmohsac	Conclusão — vasoespasmo	conclusão	espasmohsa	1	não	
+vasoconstricao	Síndrome de vasoconstrição cerebral reversível (SVCR)	achado	vasoconstricaoc	1	não	
+vasoconstricaoc	Conclusão — SVCR	conclusão	vasoconstricao	0	não	
+fumaca	Padrão moyamoya	achado	fumacac	1	não	
+fumacac	Conclusão — padrão moyamoya	conclusão	fumaca	1	não	
+flapintra	Dissecção arterial intracraniana	achado	flapintrac	3	não	
+flapintrac	Conclusão — dissecção arterial intracraniana	conclusão	flapintra	2	não	

@@ -1,0 +1,7 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+endarterectomia1	Status pós-endarterectomia carotídea sem reestenose	achado	endarterectomia1c	2	não	
+endarterectomia1c	Conclusão — pós-endarterectomia carotídea sem reestenose	conclusão	endarterectomia1	1	não	
+tipic	Inflamação perivascular transitória da carótida (TIPIC)	achado	tipicc	3	não	
+tipicc	Conclusão — inflamação perivascular transitória da carótida (TIPIC)	conclusão	tipic	1	não	
+eaglecarotida	Variante vascular da síndrome de Eagle (estiloide junto à carótida interna)	achado	eaglecarotidac	5	não	
+eaglecarotidac	Conclusão — variante vascular da síndrome de Eagle	conclusão	eaglecarotida	1	não	

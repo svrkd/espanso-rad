@@ -1,0 +1,86 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+tcmieloma	Rarefação óssea difusa — mieloma múltiplo?	achado		0	sim	
+litica1	Lesão lítica de aspecto não agressivo	achado	litica1c	4	não	
+litica1c	Conclusão — lesão lítica não agressiva	conclusão	litica1	1	não	
+litica2	Lesão lítica de aspecto agressivo	achado	litica2c	4	não	
+litica2c	Conclusão — lesão lítica agressiva	conclusão	litica2	1	não	
+periosteo1	Reação periosteal de aspecto não agressivo	achado		1	não	
+periosteo2	Reação periosteal de aspecto agressivo	achado		1	não	
+massaextraossea	Componente de partes moles extraósseo	achado		2	não	
+fraturapatologica	Fratura patológica através de lesão óssea	achado	fraturapatologicac	1	não	
+fraturapatologicac	Conclusão — fratura patológica	conclusão	fraturapatologica	1	não	
+ilhotaossea	Ilhota óssea (enostose) com atenuação medida	achado		3	não	
+blastica	Lesão esclerótica indeterminada (critério de Ulano)	achado		5	não	
+metastaseossea	Lesões ósseas secundárias múltiplas	achado	metastaseosseac	3	não	
+metastaseosseac	Conclusão — lesões ósseas secundárias	conclusão	metastaseossea	1	não	
+sacabocado	Lesões líticas em saca-bocado (mieloma?)	achado	sacabocadoc	2	não	
+sacabocadoc	Conclusão — lesões em saca-bocado	conclusão	sacabocado	0	não	
+condroide1	Lesão de matriz condroide sem agressividade	achado	condroide1c	3	não	
+condroide1c	Conclusão — lesão condroide, favorece encondroma	conclusão	condroide1	1	não	
+condroide2	Lesão de matriz condroide com sinais de agressividade	achado	condroide2c	3	não	
+condroide2c	Conclusão — lesão condroide (condrossarcoma?)	conclusão	condroide2	1	não	
+displasiafibrosa	Displasia fibrosa (matriz em vidro fosco)	achado	displasiafibrosac	2	não	
+displasiafibrosac	Conclusão — displasia fibrosa	conclusão	displasiafibrosa	1	não	
+cistounicameral	Cisto ósseo simples	achado	cistounicameralc	3	não	
+fragmentocaido	Sinal do fragmento caído	achado		0	não	
+cistounicameralc	Conclusão — cisto ósseo simples	conclusão	cistounicameral	1	não	
+naoossificante	Fibroma não ossificante	achado	naoossificantec	3	não	
+naoossificantec	Conclusão — fibroma não ossificante	conclusão	naoossificante	1	não	
+osteomaosteoide	Osteoma osteoide (nicho)	achado	osteomaosteoidec	3	não	
+osteomaosteoidec	Conclusão — osteoma osteoide	conclusão	osteomaosteoide	1	não	
+celulasgigantes	Lesão lítica epifisometafisária (tumor de células gigantes?)	achado	celulasgigantesc	3	não	
+celulasgigantesc	Conclusão — tumor de células gigantes?	conclusão	celulasgigantes	1	não	
+infartoosseo	Infarto ósseo	achado	infartoosseoc	2	não	
+infartoosseoc	Conclusão — infarto ósseo	conclusão	infartoosseo	1	não	
+pagetosseo	Doença de Paget (osso acometido)	achado	pagetosseoc	1	não	
+pagetosseoc	Conclusão — doença de Paget	conclusão	pagetosseo	1	não	
+osteomielitesuspeita	Alterações ósseas e de partes moles (osteomielite?)	achado	osteomielitesuspeitac	1	não	
+osteomielitesuspeitac	Conclusão — osteomielite?	conclusão	osteomielitesuspeita	1	não	
+sequestroosseo	Sequestro ósseo	achado		0	não	
+cloacaossea	Cloaca (trajeto cortical de drenagem)	achado		0	não	
+abscessobrodie	Abscesso intraósseo (Brodie)	achado		3	não	
+artriteinfecciosa	Derrame articular com sinovite (artrite séptica?)	achado	artriteinfecciosac	1	não	
+artriteinfecciosac	Conclusão — artrite séptica não afastada	conclusão	artriteinfecciosa	1	não	
+abscessomuscular	Abscesso muscular (piomiosite)	achado	abscessomuscularc	5	não	
+abscessomuscularc	Conclusão — abscesso muscular	conclusão	abscessomuscular	1	não	
+fasciitenecrosante	Gás e líquido nos planos fasciais (fasciíte necrosante?)	achado	fasciitenecrosantec	1	não	
+fasciitenecrosantec	Conclusão — fasciíte necrosante não afastada	conclusão	fasciitenecrosante	1	não	
+corpoestranho	Corpo estranho em partes moles	achado	corpoestranhoc	5	não	
+corpoestranhoc	Conclusão — corpo estranho	conclusão	corpoestranho	2	não	
+lipomasimples	Lipoma	achado	lipomasimplesc	3	não	
+lipomasimplesc	Conclusão — lipoma	conclusão	lipomasimples	1	não	
+lipomaatipico	Lesão gordurosa com septos espessos (tumor lipomatoso atípico?)	achado	lipomaatipicoc	3	não	
+lipomaatipicoc	Conclusão — tumor lipomatoso atípico?	conclusão	lipomaatipico	1	não	
+massamole	Formação expansiva de partes moles indeterminada	achado	massamolec	6	não	
+massamolec	Conclusão — formação de partes moles indeterminada	conclusão	massamole	1	não	
+hematomamuscular	Hematoma muscular	achado	hematomamuscularc	3	não	
+hematomamuscularc	Conclusão — hematoma muscular	conclusão	hematomamuscular	1	não	
+morellavallee	Lesão de Morel-Lavallée — TC	achado	morellavalleec	3	não	
+morellavalleec	Conclusão — lesão de Morel-Lavallée	conclusão	morellavallee	1	não	
+miositeossificante	Miosite ossificante (mineralização zonal)	achado	miositeossificantec	2	não	
+miositeossificantec	Conclusão — miosite ossificante	conclusão	miositeossificante	1	não	
+fraturaaguda	Fratura de aspecto agudo	achado		6	não	
+extensaoarticular	Extensão articular do traço com degrau	achado		2	não	
+fraturaconsolidada	Fratura consolidada	achado		2	não	
+fraturaconsolidando	Fratura em consolidação	achado		1	não	
+naoconsolidada	Fratura não consolidada (pseudoartrose?)	achado	naoconsolidadac	1	não	
+naoconsolidadac	Conclusão — fratura não consolidada	conclusão	naoconsolidada	1	não	
+fraturaestresse	Fratura por estresse ou insuficiência	achado	fraturaestressec	3	não	
+fraturaestressec	Conclusão — fratura por estresse ou insuficiência	conclusão	fraturaestresse	2	não	
+fraturaoculta	Sem fratura identificável (RM se persistir suspeita)	achado		0	não	
+nivelgorduroso	Lipo-hemartrose (nível líquido-gorduroso)	achado		0	não	
+corpolivre	Corpo livre intra-articular	achado		3	não	
+avulsao	Fratura-avulsão	achado		2	não	
+proteseok	Artroplastia sem sinais de complicação	achado		2	não	
+halosoltura	Halo periprotético > 2 mm (soltura?)	achado	halosolturac	3	não	
+halosolturac	Conclusão — soltura?	conclusão	halosoltura	1	não	
+osteoliseprotese	Osteólise periprotética	achado	osteoliseprotesec	2	não	
+osteoliseprotesec	Conclusão — osteólise periprotética	conclusão	osteoliseprotese	1	não	
+fraturaperiprotetica	Fratura periprotética	achado		4	não	
+materialquebrado	Ruptura do material de síntese	achado		3	não	
+artriteerosiva	Artropatia erosiva (inflamatória?)	achado	artriteerosivac	2	não	
+artriteerosivac	Conclusão — artropatia erosiva	conclusão	artriteerosiva	1	não	
+tofogota	Artropatia gotosa (erosões e tofos)	achado	tofogotac	1	não	
+tofogotac	Conclusão — gota	conclusão	tofogota	1	não	
+cppd	Condrocalcinose	achado	cppdc	1	não	
+cppdc	Conclusão — condrocalcinose	conclusão	cppd	0	não	

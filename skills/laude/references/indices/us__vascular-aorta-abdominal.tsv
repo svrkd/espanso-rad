@@ -1,0 +1,23 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+aorta3	Aorta abdominal: ateromatose, sem dilatação (achado descritivo)	achado	aorta3c	0	não	
+aorta3c	Aorta abdominal: ateromatose, sem dilatação (conclusão)	conclusão	aorta3	0	não	
+aorta4	Aorta abdominal: ectasia infrarrenal, < 3,0 cm (achado descritivo)	achado	aorta4c	1	não	
+aorta4c	Aorta abdominal: ectasia infrarrenal (conclusão)	conclusão	aorta4	0	não	
+aorta2	Aorta abdominal: aneurisma infrarrenal (achado descritivo) — ≥ 3,0 cm; controle SVS: 3,0–3,9 cm a cada 3 anos; 4,0–4,9 cm anual; 5,0–5,4 cm a cada 6 meses	achado	aorta2c	3	sim	
+aorta2c	Aorta abdominal: aneurisma infrarrenal (conclusão)	conclusão	aorta2	0	não	
+aorta5	Aorta abdominal: endoprótese pérvia, sem endoleak (achado descritivo)	achado	aorta5c	2	sim	
+aorta5c	Aorta abdominal: endoprótese pérvia, sem endoleak (conclusão)	conclusão	aorta5	0	não	
+aorta6	Aorta abdominal: endoleak (achado descritivo)	achado	aorta6c	3	não	
+aorta6c	Aorta abdominal: endoleak (conclusão)	conclusão	aorta6	0	não	
+aorta7	Aorta abdominal: estenose ≥ 50%/≥ 80%, razão > 2,0/> 4,0 (achado descritivo)	achado	aorta7c	3	não	
+aorta7c	Aorta abdominal: estenose ≥ 50%/≥ 80% (conclusão)	conclusão	aorta7	1	não	
+aorta1	Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%, razão > 4,0 (achado descritivo)	achado	aorta1c	4	não	
+aorta1c	Aorta abdominal: aneurisma + estenose aortoilíaca ≥ 80%	conclusão	aorta1	0	não	
+aorta8	Aorta abdominal: oclusão aortoilíaca, Leriche (achado descritivo)	achado	aorta8c	1	não	
+aorta8c	Aorta abdominal: oclusão aortoilíaca, Leriche (conclusão)	conclusão	aorta8	0	não	
+aorta9	Aorta abdominal: dissecção (achado descritivo)	achado	aorta9c	2	sim	
+aorta9c	Aorta abdominal: dissecção (conclusão)	conclusão	aorta9	0	sim	
+aorta10	Aorta abdominal: espessamento periaórtico, periaortite (achado descritivo)	achado	aorta10c	1	não	
+aorta10c	Aorta abdominal: espessamento periaórtico, periaortite (conclusão)	conclusão	aorta10	0	não	
+aorta11	Aorta abdominal: rotura de aneurisma, hematoma retroperitoneal (achado descritivo)	achado	aorta11c	2	não	
+aorta11c	Aorta abdominal: rotura de aneurisma, hematoma retroperitoneal (conclusão)	conclusão	aorta11	0	não	

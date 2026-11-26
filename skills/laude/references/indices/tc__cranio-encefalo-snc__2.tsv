@@ -1,0 +1,133 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+transfor1	AVC isquêmico com transformação hemorrágica — parietal esquerdo	achado		0	não	
+trigemionl	Nervos trigêmeos e pares cranianos preservados	achado		0	não	
+tron	Tronco cerebral e cerebelo preservados	achado		0	não	
+tt10	TC de crânio normal	achado		0	não	
+ttcr	TC de crânio normal	achado		0	não	
+venntriculosasimetricos	Assimetria dos ventrículos laterais	achado		0	não	
+vld	Ventrículo lateral direito	fragmento		0	não	
+vle	Ventrículo lateral esquerdo	fragmento		0	não	
+vli	Ventrículo lateral ipsilateral	fragmento		0	não	
+vvll	Ventrículos laterais	fragmento		0	não	
+avc	AVC isquêmico agudo occipitotemporal esquerdo	achado		0	sim	
+avcmal	AVC isquêmico extenso de artéria cerebral média esquerda	achado		1	sim	
+cistac1	Cisto extra-axial retrocerebelar	achado		1	não	
+cistac1op	Cisto aracnoide de fossa posterior	achado		0	não	
+cistac2	Cisto extra-axial parietal direito	achado		1	não	
+cistac2op	Cisto aracnoide parietal direito	achado		0	não	
+cistoder	Lesão extra-axial com densidade gordurosa (cisto dermoide)	achado		3	não	
+cistoderop	Cisto dermoide (impressão diagnóstica)	achado		0	não	
+hipo	Hipodensidade da substância branca periventricular	achado		0	não	
+hipofer	Microangiopatia (hipoatenuação periventricular)	achado		0	não	
+hiponovo	Microangiopatia (hipoatenuação periventricular)	achado		0	não	
+hipoop	Microangiopatia/gliose (impressão diagnóstica)	achado		0	sim	
+hsa	Hemorragia subaracnoide — termo isolado	fragmento		0	não	
+lfd	Lobo frontal direito	fragmento		0	não	
+lfe	Lobo frontal esquerdo	fragmento		0	não	
+loc	Lobo occipital	fragmento		0	não	
+lpd	Lobo parietal direito	fragmento		0	não	
+lpe	Lobo parietal esquerdo	fragmento		0	não	
+ltd	Lobo temporal direito	fragmento		0	não	
+lte	Lobo temporal esquerdo	fragmento		0	não	
+lts	Lobos temporais	fragmento		0	não	
+malagli	Encefalomalácia/gliose	achado		1	sim	
+malaglinovo	Encefalomalácia occipital esquerda (isquemia crônica)	achado		0	não	
+malanovo	Encefalomalácia (evento isquêmico crônico)	achado		1	não	
+menigiomadesc	Meningioma da foice inter-hemisférica (descrição)	achado		1	não	
+menigiomaop	Meningioma da foice inter-hemisférica (impressão)	achado		1	não	
+neo1	Lesão expansiva cerebral com edema e herniação	achado		1	não	
+neo1op	Neoplasia cerebral (impressão diagnóstica)	achado		0	não	
+neometa	Metástases cerebrais (implantes secundários)	achado		0	sim	
+pfcp	Pineal, foice cerebral e plexos coroides	fragmento		0	não	
+proemec	Proeminência dos sulcos com ectasia ventricular compensatória	achado		0	não	
+proemecop	Redução volumétrica encefálica difusa (atrofia)	achado		0	não	
+rve	Redução volumétrica encefálica	achado		0	não	
+sgc	Sulcos entre os giros corticais	fragmento		0	não	
+subgalo	Hematoma subgaleal	achado		1	não	
+vl	Ventrículo lateral	fragmento		0	não	
+vls	Ventrículos laterais	fragmento		0	não	
+atrof	Redução volumétrica encefálica difusa (atrofia)	achado		0	não	
+malhemo	Encefalomalácia com transformação hemorrágica (sequela de AVC)	achado		0	não	
+microtc	Microangiopatia (hipoatenuação periventricular)	achado		0	não	
+credema	Edema cerebral difuso — podendo corresponder	achado		0	não	
+avcpica	AVC isquêmico cerebelar (território PICA direita)	achado		0	sim	
+lipocc	Lipoma do corpo caloso	achado		0	não	
+avcindet	AVC isquêmico de cronicidade indeterminada (cápsula interna direita)	achado		0	não	
+aspectsacm	Sinais precoces de isquemia na ACM (ASPECTS)	achado		3	não	
+arteriadensa	Artéria cerebral média hiperdensa	achado		2	não	
+zonafronteira	Infartos em zonas de fronteira arterial	achado		2	não	
+cerebelobranco	Sinais da reversão e do cerebelo branco	achado		0	não	
+heidelhi1	Transformação hemorrágica Heidelberg 1a (HI1)	achado		0	não	
+heidelhi2	Transformação hemorrágica Heidelberg 1b (HI2)	achado		0	não	
+heidelph1	Transformação hemorrágica Heidelberg 1c (PH1)	achado		0	não	
+heidelph2	Transformação hemorrágica Heidelberg 2 (PH2)	achado		0	não	
+fisher1	Hemorragia subaracnoide Fisher modificada 1	achado		0	não	
+fisher2	Hemorragia subaracnoide Fisher modificada 2	achado		0	não	
+fisher3	Hemorragia subaracnoide Fisher modificada 3	achado		0	não	
+fisher4	Hemorragia subaracnoide Fisher modificada 4	achado		0	não	
+hematomaredemoinho	Hematoma com sinal do redemoinho	achado		0	não	
+hematomamistura	Hematoma com sinal da mistura (blend)	achado		0	não	
+hematomaburaco	Hematoma com sinal do buraco negro	achado		0	não	
+volumehematoma	Volume de hematoma intraparenquimatoso pelo ABC/2 (Kothari)	achado		2	não	
+hematomailha	Hematoma com sinal da ilha	achado		0	não	
+hematomalobar	Hematoma lobar por angiopatia amiloide (Edimburgo)	achado		2	não	
+herniasubfalcina	Herniação subfalcina	achado		1	não	
+herniauncal	Herniação transtentorial descendente (uncal)	achado		1	não	
+herniatonsilar	Herniação tonsilar	achado		0	não	
+herniaascendente	Herniação transtentorial ascendente	achado		0	não	
+montefuji	Pneumoencéfalo hipertensivo (Monte Fuji)	achado		0	não	
+seiodenso	Seio venoso hiperdenso (trombose venosa)	achado		2	não	
+encefalopres	Encefalopatia posterior reversível (PRES)	achado		0	não	
+hpndesh	Hidrocefalia de pressão normal (DESH)	achado		2	não	
+avcindets	AVC isquêmico de cronicidade indeterminada (múltiplo, direito)	achado		0	não	
+avcindets1	AVC isquêmico de cronicidade indeterminada (frontal/parietal)	achado		0	não	
+calotafina	Osteodistrofia biparietal	achado		0	não	
+cistodefissura	Cisto de fissura coroide	achado		1	não	
+cistopineal	Cisto de pineal	achado		1	não	
+diplo	Captação diploica bilateral indeterminada	achado		1	não	
+evr	Espaços de Virchow-Robin proeminentes	achado		0	não	
+evr1	Espaço de Virchow-Robin proeminente à direita	achado		0	não	
+fogg	Fenômeno de fogging (isquemia subaguda)	achado		0	não	
+hsdcbilat	Hematomas subdurais crônicos reagudizados bilaterais	achado		3	não	
+incopcav	Granuloma calcificado x cavernoma na ponte	achado		0	não	
+incopcavi	Granuloma calcificado x cavernoma na ponte	achado		0	não	
+incopsbll	Granulomas calcificados nos hemisférios cerebrais	achado		0	não	
+laba	Lesões lacunares crônicas nos núcleos da base	achado		0	não	
+lalcnovo3	Lacunas x espaços perivasculares sublenticulares bilaterais	achado		0	não	
+lalcnovob	Lacunas x espaços perivasculares nucleocapsulares bilaterais	achado		0	não	
+lalcnovos	Lacuna x espaço perivascular sublenticular direito	achado		0	não	
+lalcnovose	Lacuna x espaço perivascular sublenticular esquerdo	achado		0	não	
+lalcnovoss	Lacunas x espaços perivasculares sublenticulares bilaterais	achado		0	não	
+lat1	Contusões hemorrágicas/lesão axonal traumática	achado		0	sim	
+necrosecortical1	Necrose cortical laminar sequelar parieto-occipital	achado		0	não	
+nocuts	Nódulos subcutâneos no couro cabeludo	achado		0	não	
+pood	parieto-occipital direita	fragmento		0	não	
+pooe	parieto-occipital esquerda	fragmento		0	não	
+rncp	região nucleocapsular	fragmento		0	não	
+tccera	Rolha de cerúmen	achado		1	não	
+tcfer	Granulomas calcificados cerebrais	achado		0	não	
+tcfogging	AVC isquêmico com fenômeno de fogging	achado		1	não	
+tcmetacerebral1	Lesões cerebrais múltiplas — metástases vs infeccioso	achado		0	não	
+tele3	hemisférios cerebrais	fragmento		0	não	
+tipo1	Classificação ECASS II tipo 1	fragmento		0	não	
+trigem	Nervos trigêmeos simétricos	achado		0	não	
+vergae	Persistência do cavum septo pelúcido/vergae	achado		0	não	
+avci	AVC isquêmico recente (template)	achado		1	não	
+avciop	AVC isquêmico em território arterial (template)	achado		3	não	
+cfnb	Calcificações fisiológicas dos núcleos da base	achado		0	não	
+ilnb	Infarto lacunar em núcleos da base	fragmento		0	não	
+incop	Granuloma calcificado — TC, localização a preencher	achado		1	não	
+incops	Granulomas calcificados	achado		1	não	
+lalc	Lesão lacunar crônica	fragmento		0	não	
+lalcfer	Lacuna isquêmica sequelar nucleocapsular direita	achado		0	não	
+lalcnovo	Lacuna isquêmica sequelar nucleocapsular	achado		0	não	
+lalcs	Lesões lacunares crônicas	fragmento		0	não	
+lalnovos	Lacunas isquêmicas sequelares múltiplas	achado		1	não	
+lps	Lobos parietais	fragmento		0	não	
+nb	Núcleos da base	fragmento		0	não	
+nbb	Núcleos da base bilateralmente	fragmento		0	não	
+nbd	Núcleos da base à direita	fragmento		0	não	
+nbe	Núcleos da base à esquerda	fragmento		0	não	
+proem	Proeminência dos sulcos cerebrais	achado		0	não	
+psp	Persistência do cavum vergae e septo pelúcido	achado		0	não	
+lac	Lacunas isquêmicas sequelares	achado		0	não	

@@ -1,0 +1,86 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+interposicaochilaiditi	Sinal de Chilaiditi (interposição colônica)	achado		0	não	
+volvodelgado4	Volvo de sigmoide com sinal do grão de café	achado		0	não	
+volvodelgado5	Volvo de sigmoide com deslocamento hepático	achado		0	não	
+volvodelgado6	Volvo do cólon ascendente/ceco	achado		0	não	
+pneumatoseintestinal2	Pneumatose intestinal com gás no sistema porta (isquemia mesentérica)	achado		0	não	
+colite6	Processo inflamatório do sigmoide com perfuração	achado		1	não	
+obstrucaobridas4	Brida complicada com isquemia de alça delgada	achado		0	não	
+obstrucaobridas5	Obstrução por brida com hipocontrastação de alças	achado		0	sim	
+apendagiteepiploica1	Apendagite epiploica do sigmoide	achado		0	não	
+apendagiteepiploica2	Apendagite epiploica do ceco	achado		0	não	
+colite7	Colite do sigmoide e descendente	achado		0	não	
+colite8	Colite direita com acometimento do íleo terminal	achado		0	não	
+ileiteterminal2	Ileíte terminal com linfonodomegalias regionais	achado		0	não	
+ileoespessado4	Processo inflamatório regional em fossa ilíaca direita	achado		0	não	
+intussuscepcao2	Intussuscepção ileocólica (sinal do alvo)	achado		0	não	
+colite9	Colite do sigmoide com perfuração	achado		0	não	
+estreitamentoretossigmoide3	Espessamento colorretal indeterminado com linfonodomegalias	achado		1	não	
+colite10	Espessamento retossigmoide e do descendente inflamatório	achado		0	não	
+enteritesalteada3	Enterite subestenosante com alça fechada	achado	enteritesalteada3c	0	sim	
+enteritesalteada3c	Conclusão — enterite com padrão suboclusivo em alça fechada	conclusão	enteritesalteada3	0	não	
+estenosecicatricial1	Estenose retossigmoide fibrocicatricial	achado		0	sim	
+estenosecicatricial2	Estenose retossigmoide com doença inflamatória intestinal como diferencial	achado		0	sim	
+enteritesalteada4	Enterite ileal em atividade com alça fechada	achado		0	não	
+ileiteterminal3	Ileíte crônica com proliferação gordurosa submucosa	achado		0	não	
+colite11	Processo inflamatório colorretal crônico com lipossubstituição	achado		0	não	
+estomagolipossubstituido	Espessamento submucoso gástrico com lipossubstituição	achado		0	não	
+fistulaenterocolica4	Fístula colovesical extensa	achado		4	não	
+neuroendocrinomesocolon2	Tumor neuroendócrino do íleo terminal com metástase mesentérica	achado		2	não	
+neuroendocrinomesocolon3	Tumor neuroendócrino do íleo distal com reação desmoplásica	achado		4	sim	
+neoplasiadescendente2	Neoplasia do cólon descendente com invasão esplênica e perfuração	achado		5	não	
+colite12	Estreitamento do cólon transverso com colite direita (sem contraste)	achado		0	não	
+estreitamentoretossigmoide4	Espessamento do cólon transverso — neoplasia ou endometriose	achado		1	sim	
+neoplasiasigmoide3	Neoplasia da transição sigmoide/descendente suboclusiva	achado		1	sim	
+neoplasiaretossigmoide3	Neoplasia retossigmoide infiltrativa com invasão prostática	achado		1	não	
+neoplasiasigmoide4	Neoplasia do sigmoide com perfuração bloqueada	achado		1	não	
+neoplasiasigmoide5	Neoplasia do sigmoide e reto alto subestenosante	achado	neoplasiasigmoide5c	1	não	
+neoplasiasigmoide5c	Conclusão — neoplasia colorretal com disseminação hematogênica	conclusão	neoplasiasigmoide5	0	sim	
+neoplasiasincronica	Neoplasias colônicas primárias sincrônicas	achado		2	não	
+neoplasiaflexura1	Neoplasia da flexura esplênica com espessamento ileal associado	achado	neoplasiaflexura1c	3	sim	
+neoplasiaflexura1c	Conclusão — neoplasia sincrônica enterocólica versus doença inflamatória	conclusão	neoplasiaflexura1	0	não	
+neoplasiaceco3	Neoplasia do ceco com apendicite complicada	achado		6	não	
+manipulacaoparede	Manipulação cirúrgica da parede abdominal e região inguinal	achado		0	não	
+deiscenciaanastomose2	Deiscência de alça ileal com coleção fecaloide	achado		2	não	
+hemoperitoniopancreas2	Hemoperitônio da região pancreatoduodenal à goteira parietocólica	achado		2	sim	
+colecaofossailiaca3	Coleção pélvica — abscesso ou perfuração de alça	achado		2	sim	
+colecaofossailiaca4	Coleção pré-sacral por provável deiscência de sutura	achado		2	sim	
+deiscenciaanastomose3	Deiscência de anastomose com extravasamento de contraste	achado		0	sim	
+fistulaenterocolica5	Provável fístula perineal para a região glútea	achado		0	não	
+neoplasiaflexura2	Neoplasia subestenosante da flexura hepática	achado		1	não	
+neoplasiadescendente3	Neoplasia da transição descendente/sigmoide com contato do psoas	achado		1	sim	
+diverticulite3	Diverticulite aguda do sigmoide (Hinchey Ia)	achado		0	não	
+diverticulite4	Diverticulite/colite aguda do cólon ascendente	achado		0	sim	
+diverticulite5	Diverticulite aguda do sigmoide sem coleções	achado		0	não	
+diverticulite6	Diverticulite complicada com fístula colovesical — com densificação e linfonodos	achado		0	não	
+diverticulite7	Obliteração da borda mesentérica do transverso (diverticulite)	achado		0	não	
+diverticulite8	Diverticulite complicada em controle evolutivo	achado		4	não	
+diverticulite9	Diverticulite aguda do sigmoide com focos gasosos	achado		0	não	
+diverwses0	Diverticulite aguda não complicada, estágio 0 da WSES	achado		1	não	
+diverwses1a	Diverticulite complicada, estágio 1A da WSES (gás/líquido pericólico até 5 cm, sem abscesso)	achado		1	não	
+diverwses1b	Diverticulite complicada, estágio 1B da WSES (abscesso até 4 cm)	achado		2	não	
+diverwses2a	Diverticulite complicada, estágio 2A da WSES (abscesso > 4 cm)	achado		2	não	
+diverwses2b	Diverticulite complicada, estágio 2B da WSES (gás a mais de 5 cm)	achado		1	não	
+diverwses3	Diverticulite complicada, estágio 3 da WSES (líquido difuso sem gás distante)	achado		1	não	
+diverwses4	Diverticulite complicada, estágio 4 da WSES (líquido difuso com gás distante)	achado		1	não	
+diverticulite10	Diverticulite perfurada com alças de bloqueio	achado		1	sim	
+diverticulite11	Diverticulite perfurada com coleções não organizadas	achado		2	sim	
+diverticulite12	Isquemia mesentérica como complicação de diverticulite	achado		2	não	
+retoactinico2	Retossigmoidite inflamatória ou actínica	achado		0	não	
+ileoparalitico3	Íleo adinâmico pós-cirúrgico	achado		0	não	
+herniaparaumbilical	Abdome agudo obstrutivo por hérnia paraumbilical	achado		0	não	
+herniainguinal6	Abdome agudo obstrutivo por hérnia inguinal (alça ileal)	achado		0	não	
+coproestase4	Pseudo-obstrução intestinal com fecaloma	achado		0	não	
+coproestase5	Fecaloma retal com distensão de alças a montante	achado		0	não	
+obstrucaoileal2	Obstrução colônica com perfuração cecal e isquemia	achado	obstrucaoileal2c	0	não	
+obstrucaoileal2c	Conclusão — obstrução com perfuração cecal e isquemia intestinal	conclusão	obstrucaoileal2	0	não	
+obstrucaoileal3	Obstrução jejunal com perfuração e coleção	achado		2	não	
+perfuracaobloqueada4	Perfuração jejunal com coleções intracavitárias	achado		0	não	
+perfuracaobloqueada5	Abdome agudo perfurativo com coleção entre cólon e jejuno	achado		2	não	
+recidivaostomia	Recidiva tumoral junto à ostomia	achado		2	sim	
+enfisemagastrico	Enfisema gástrico por hiperpressão ou isquemia	achado		0	não	
+pentecrohn	Sinal do pente (Crohn em atividade)	achado		0	não	
+gorduracrohn	Proliferação fibroadiposa mesentérica	achado		0	não	
+alcaalvo	Espessamento parietal em alvo	achado		1	não	
+colonacordeao	Sinal do acordeão (colite pseudomembranosa)	achado		0	não	
+alcaaneurisma	Dilatação aneurismática de alça (linfoma)	achado		1	não	

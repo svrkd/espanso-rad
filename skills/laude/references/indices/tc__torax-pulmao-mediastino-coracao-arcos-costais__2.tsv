@@ -1,0 +1,140 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+pneumoasp	Pneumonia aspirativa com disseminação endobrônquica	achado		0	não	
+pneumonialobar	Pneumonia lobar (lobo superior direito)	achado		0	não	
+pneumonialobomedio	Pneumonia no lobo médio	achado		0	não	
+pnl	Parênquima pulmonar sem condensação/hiperaeração	achado		0	não	
+pnmbac	Pneumonia bacteriana com disseminação endobrônquica	achado		0	sim	
+portocat	Cateter de infusão (port-a-cath) infraclavicular	achado		0	não	
+puh	Pulmões hipoexpandidos	achado		0	não	
+pulmaofechado	Obstrução endobrônquica com atelectasia	achado		0	não	
+quemerda	Estrias atelectásicas com bronquiectasias no lobo médio	achado		0	não	
+raroenf	Raro enfisema parasseptal apical	achado		0	não	
+ripadad	Fratura de arcos costais anteriores direitos (5º-8º)	achado		0	não	
+ripadae	Fratura de arcos costais anteriores esquerdos (5º-8º)	achado		0	não	
+sequelacovid	Sequela pulmonar pós-COVID-19	achado		0	não	
+sequelapulmo	Sequela de processo inflamatório granulomatoso pulmonar	achado		0	não	
+sequelatb	Sequela de tuberculose pulmonar (cavidades apicais)	achado		0	sim	
+sequelatbapical	Sequela fibrocicatricial apical (possível tuberculose)	achado		0	sim	
+sica	Silhueta cardíaca normal	achado		0	não	
+silimi	Silhueta cardíaca de avaliação limitada	achado		0	não	
+suspei	Ausência de achados sugestivos de pneumonia viral (CO-RADS 1)	achado		0	não	
+tcblebs	Bolhas enfisematosas/pneumotórax apical	achado		0	não	
+tcconco	Congestão pulmonar vs processo infeccioso	achado		0	sim	
+tcconge	Congestão pulmonar (cardiomegalia e derrame)	achado		0	sim	
+tcempiema	Pneumonia complicada com empiema/fístula broncopleural	achado		0	sim	
+tcempiema1	Pneumonia bacteriana complicada com empiema pleural	achado		0	não	
+tcfacada2	Ferimento perfurocortante na parede torácica lateral	achado		0	não	
+tcpneumocistose1	Pneumonia por Pneumocystis/citomegalovírus (mosaico)	achado		0	não	
+tcposte	Pneumonia bacteriana vs neoplasia concomitante (oncológico)	achado		0	sim	
+tcsilicose	Silicose com fibrose maciça progressiva	achado		0	sim	
+tctb	Tuberculose pulmonar (lesão escavada) vs neoplasia	achado		0	não	
+tctub	Tuberculose pulmonar (lesão escavada) vs neoplasia	achado		0	não	
+traumapul	Contusão pulmonar pós-traumática	achado		0	não	
+troncop	Ectasia do tronco da artéria pulmonar (hipertensão pulmonar)	achado		0	não	
+troncop1	Ectasia do tronco da artéria pulmonar	achado		0	não	
+tt301	Cisto aéreo pulmonar direito — isolado	achado		0	não	
+tt302	Cisto aéreo pulmonar esquerdo — isolado	achado		0	não	
+tt303	Cistos aéreos pulmonares à direita	achado		0	não	
+tt304	Cistos aéreos pulmonares à esquerda	achado		0	não	
+tt305	Cistos aéreos pulmonares bilaterais	achado		0	não	
+tt51	Bronquiectasias associadas	achado		0	não	
+tt52	Esparsas pelos campos pulmonares	fragmento		0	não	
+tuberculoseativa	Tuberculose pulmonar pós-primária ativa	achado		0	não	
+vf2	Opacidades e nódulos em árvore em brotamento (padrão infeccioso)	achado		0	não	
+au	Hipertensão pulmonar (aumento do tronco e ramos)	achado		3	não	
+cend	Cânula endotraqueal	fragmento		0	não	
+cot	Cânula orotraqueal	fragmento		0	não	
+cpa	Consolidação parenquimatosa	fragmento		0	não	
+cps	Campos pulmonares	fragmento		0	não	
+hip	Ectasia dos ramos da artéria pulmonar	achado		0	não	
+hipertudo	Hipertensão pulmonar (artéria pulmonar e ramos)	achado		3	não	
+tot	Tubo orotraqueal	fragmento		0	não	
+traqueo	Traqueostomia	fragmento		0	não	
+artefat	Artefatos respiratórios (parênquima pulmonar)	achado		0	não	
+bann	Bandas parenquimatosas pulmonares	achado		0	não	
+conge	Congestão pulmonar aguda	achado		0	não	
+congetc	Congestão pulmonar aguda (septos espessados)	achado		0	não	
+congtc	Congestão pulmonar aguda (septos espessados)	achado		0	não	
+dpoc	DPOC (hiperinsuflação pulmonar)	achado		0	não	
+enf	Enfisema pulmonar em campos superiores	achado		0	não	
+estb	Estrias pleuropulmonares basais e bandas apicais	achado		0	não	
+hidro	Hidropneumotórax com suspeita de empiema	achado		0	não	
+tephipo	Contrastação inadequada para avaliação de TEP	achado		0	não	
+tc1	Citação bibliográfica — nódulos pulmonares incidentais	achado		0	não	
+atel	Atelectasias laminares na base esquerda	achado		0	não	
+congee	Congestão pulmonar aguda (vidro fosco peribroncovascular)	achado		0	não	
+derramebila	Derrame pleural bilateral moderado	achado		0	sim	
+hiperpul	Aumento do calibre da artéria pulmonar	achado		2	não	
+linfomed	Linfonodos mediastinais aumentados em número	achado		0	não	
+ncon	Ausência de consolidações parenquimatosas	achado		0	não	
+scad	Cardiomegalia (silhueta cardíaca aumentada)	achado		0	não	
+tt112	Cisto mediastinal	achado		1	não	
+tt2	Estruturas vasculares mediastinais preservadas	achado		0	não	
+tt202	Trombo em artéria pulmonar	achado		1	não	
+tt203	Trombo em ramo segmentar da artéria pulmonar	achado		2	não	
+tt28	Aumento do calibre das artérias pulmonares	achado		1	não	
+tt35	Ausência de linfonodomegalias e derrame pleural	achado		0	não	
+tt40	Traqueia e brônquios principais normais	achado		0	não	
+tt41	Bronquiectasias lobares	achado		1	não	
+tt42	Bronquiectasias em múltiplos lobos	achado		1	não	
+tt43	Traqueomalácia	achado		0	não	
+tt44	Secreção na parede traqueal	achado		0	não	
+tt45	Espessamento difuso das paredes brônquicas	achado		0	não	
+tt46	Espessamento brônquico nos lobos inferiores	achado		0	não	
+tt47	Muco aderido às paredes traqueobrônquicas	achado		0	não	
+tt503	Diminutos nódulos pulmonares incaracterísticos	achado		0	não	
+tt504	Nódulos pulmonares incaracterísticos esparsos	achado		0	não	
+tt505	Bronquiolite respiratória do tabagismo	achado		0	não	
+tt509	Nódulos pulmonares bilaterais mistos	achado		0	não	
+tt513	Cistos pulmonares múltiplos (padrão cístico)	achado		0	não	
+tt518	Padrão nodular perilinfático	achado		0	não	
+tt521	Consolidação pulmonar lobar	achado		2	não	
+tt522	Atelectasia lobar	achado		1	não	
+tt523	Atenuação em mosaico (doença de pequenas vias aéreas)	achado		0	não	
+tt524	Padrão de pavimentação em mosaico (crazy paving)	achado		0	não	
+tt527	Consolidações periféricas bilaterais esparsas	achado		0	não	
+tt530	Irregularidades pleuroparenquimatosas apicais	achado		0	não	
+tt531	Fibrose pulmonar sem faveolamento (PIU provável)	achado		0	não	
+tt533	Fibrose pulmonar com vidro fosco (UIP/NSIP)	achado		0	não	
+tt538	Sequela de processo granulomatoso apical	achado		1	não	
+tt540	Atelectasias laminares esparsas	achado		0	não	
+tt60	Espaço pleural livre	fragmento		0	não	
+tt61	Derrame pleural à direita — TC	achado		0	não	
+tt62	Derrame pleural à esquerda — TC	achado		0	não	
+tt63	Derrame pleural bilateral	achado		0	não	
+tt65	Derrame pleural com implantes pleurais	achado		0	não	
+tt67	Ausência de derrame pleural	achado		0	não	
+tt68	Placas pleurais calcificadas	achado		0	não	
+tt91	Ausência de linfonodomegalias e derrame pleural	achado		0	não	
+ttbandas	Bandas parenquimatosas basais fibroatelectásicas	achado		0	não	
+ttperilinf	Padrão nodular perilinfático	achado		0	não	
+ttpine	Padrão de pneumonia intersticial não específica (PINE)	achado		0	não	
+ttpiu	Padrão de pneumonia intersticial usual (PIU)	achado		0	não	
+ttpiuprov	Padrão de PIU provável	achado		0	não	
+ttpiuind	Padrão indeterminado para PIU	achado		0	não	
+ttfce	Fibrose pulmonar combinada com enfisema	achado		0	não	
+ttfepp	Fibroelastose pleuroparenquimatosa	achado		0	não	
+ttila	Anormalidades intersticiais pulmonares não fibróticas (ILA)	achado		0	não	
+ttilaf	Anormalidades intersticiais pulmonares fibróticas (ILA)	achado		0	não	
+lungrads1	Lung-RADS v2022 categoria 1 (sem nódulos ou só calcificação benigna)	achado		0	não	
+lungrads2	Lung-RADS v2022 categoria 2 (nódulo sólido < 6 mm inicial; < 4 mm novo)	achado		3	não	
+lungrads3	Lung-RADS v2022 categoria 3 (nódulo sólido 6 a < 8 mm inicial; 4 a < 6 mm novo)	achado		3	não	
+lungrads4a	Lung-RADS v2022 categoria 4A (sólido 8 a < 15 mm inicial; 6 a < 8 mm novo; < 8 mm em crescimento)	achado		3	não	
+lungrads4b	Lung-RADS v2022 categoria 4B (sólido ≥ 15 mm inicial; ≥ 8 mm novo ou em crescimento)	achado		3	não	
+lungrads4x	Lung-RADS v2022 categoria 4X (categoria 3 ou 4 com característica suspeita)	achado		3	não	
+coronaria0	Cálcio coronariano ausente, estimativa visual (SCCT/STR)	achado		0	não	
+coronaria1	Cálcio coronariano discreto, estimativa visual (SCCT/STR)	achado		0	não	
+coronaria2	Cálcio coronariano moderado, estimativa visual (SCCT/STR)	achado		0	não	
+coronaria3	Cálcio coronariano acentuado, estimativa visual (SCCT/STR)	achado		0	não	
+ttph	Pneumonite de hipersensibilidade não fibrótica	achado		0	não	
+ttphf	Pneumonite de hipersensibilidade fibrótica	achado		0	não	
+ttpo	Padrão de pneumonia em organização	achado		0	não	
+ttpil	Pneumonia intersticial linfocítica (PIL)	achado		0	não	
+ttpid	Pneumonia intersticial descamativa (PID)	achado		0	não	
+tthalo	Nódulo com sinal do halo	achado		3	não	
+tthaloinv	Sinal do halo invertido	achado		2	não	
+ttcentro	Padrão nodular centrolobular	achado		0	não	
+ttmiliar	Padrão micronodular miliar	achado		0	não	
+ttsarcoide	Sarcoidose pulmonar	achado		0	não	
+ttlinfangite	Linfangite carcinomatosa	achado		0	não	
+ttlam	Linfangioleiomiomatose (LAM)	achado		0	não	

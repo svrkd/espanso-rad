@@ -1,0 +1,10 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+cerebralfetal	Origem fetal da artéria cerebral posterior	achado		1	não	
+a1hipo	Hipoplasia do segmento A1	achado		1	não	
+infundibulo	Infundíbulo da artéria comunicante posterior	achado		2	não	
+trigeminalpersistente	Artéria trigeminal persistente (Saltzman I)	achado	trigeminalpersistentec	2	não	
+trigeminalpersistentec	Conclusão — artéria trigeminal persistente	conclusão	trigeminalpersistente	1	não	
+basilarfenestrada	Fenestração da artéria basilar	achado		0	não	
+vertebralfina	Hipoplasia da artéria vertebral intracraniana	achado		2	não	
+vertebralpica	Artéria vertebral terminando na PICA	achado		1	não	
+anteriorazigos	Artéria cerebral anterior ázigos	achado		0	não	

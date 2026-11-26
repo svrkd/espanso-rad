@@ -1,0 +1,44 @@
+# ATENÇÃO: artropac termina em "c" mas NÃO é conclusão (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+ancorarm	Âncoras metálicas (artefatos)	achado		0	não	
+artrogleno	Artropatia degenerativa glenoumeral	achado		0	não	
+artropa	Artropatia acromioclavicular acentuada	achado		0	não	
+artropac	Artropatia acromioclavicular	achado		0	não	
+artrosesa	Artrose glenossesamoidea	achado		0	não	
+bankartreversa	Bankart reversa e Hill-Sachs reversa	achado		0	não	
+buracro	Distensão líquida da bursa subacromial / subdeltoidea — sem inferência	achado		0	sim	
+ombursite	Distensão líquida da bursa subacromial / subdeltoidea — inferindo bursite	achado		0	sim	
+bursite1	Reação bursal subacromial	achado		0	sim	
+cabum	Alterações fibrocísticas na cabeça umeral	achado		0	não	
+cistra	Pequenos cistos ósseos na cabeça umeral, notadamente	achado		0	não	
+cistra1	Alterações fibrocísticas da cabeça umeral	achado		0	não	
+demaist	Demais tendões do manguito rotador de espessura	achado		0	não	
+gang2	Gânglio cístico ou cisto paralabral	achado		0	não	
+glomico	Lesão nodular bem delimitada na face dorsolateral	achado		1	não	
+idtclb	Tendinopatia avançada do cabo longo do bíceps	achado		0	sim	
+idtclb2	Tendinopatia da porção intracapsular do cabo longo — subluxação entre fibras do subescapular	achado		0	não	
+jarrete	Tendinopatia dos isquiotibiais	achado		0	não	
+lipomabraco	Lesão de natureza lipomatosa — bíceps braquial	achado		1	não	
+luxtclb	Tendinopatia da porção intracapsular do cabo longo — subluxação anteromedial	achado		0	não	
+osacromiale	Presença de os acromiale, variante anatômica decorrente	achado		0	não	
+reabursa	Reação bursal subacromial	achado		0	sim	
+rmdendili2	Tendinopatia e inflamação muscular adjacente — iliopsoas, com coleção laminar e linfonodos	achado		2	sim	
+rmlipoma	Lesão de natureza lipomatosa — região posterossuperior do ombro	achado		1	não	
+rotbiceps	Ruptura completa da porção proximal do tendão	achado		1	não	
+rotbicepsdistal	Ruptura completa da porção distal do tendão	achado		1	não	
+rotmacica	Rotura maciça crônica do manguito rotador	achado		0	não	
+rotsub	Rotura das fibras superiores do tendão subescapular	achado		0	não	
+rotsupra	Rotura completa dos tendões supra e infraespinhais	achado		0	sim	
+rotsupra2	Rotura parcial do tendão do supraespinhal, estendendo-se	achado		1	não	
+rotsupra3	Rotura transfixante do supraespinhal	achado		1	não	
+rottclb	Sulco biceptal vazio, sugerindo rotura da porção	achado		0	não	
+sdimpact	Essas alterações determinam impressão sobre a transição	achado		0	não	
+subco	Redução do intervalo coracoumeral, com impacto sobre	achado		0	não	
+tclb	Tendão do cabo longo do bíceps	fragmento		0	não	
+tend3	Tendinopatia do manguito rotador	achado		0	não	
+tendi3	Tendinopatia do supraespinhal, infraespinhal e subescapular	achado		0	não	
+tendinormal	Manguito rotador normal	achado		0	não	
+tendisuprainfra	Tendinopatia do supraespinhal e infraespinhal	achado		0	não	
+tendnormo	Manguito rotador normal	achado		0	não	
+tenocabo	Tenossinovite do cabo longo do bíceps braquial	achado		0	não	
+tensupra	Hipoecogenicidade difusa	achado		0	não	

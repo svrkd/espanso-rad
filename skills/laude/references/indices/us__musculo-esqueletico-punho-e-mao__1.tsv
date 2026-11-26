@@ -1,0 +1,105 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+moc1	Mão: Cisto gangliônico junto à polia A2	achado	moc1c	2	sim	
+moc1c	Mão: Cisto gangliônico junto à polia A2 do _ dedo (conclusão)	conclusão	moc1	1	não	
+moc2	Mão: Cisto gangliônico dorsal (interfalângica)	achado	moc2c	1	não	
+moc2c	Mão: Cisto gangliônico dorsal da interfalângica distal do _ dedo (conclusão)	conclusão	moc2	1	não	
+mot1	Mão: Tumor de células gigantes da bainha tendínea	achado	mot1c	3	não	
+mot1c	Mão: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Sugere-se prosseguimento da propedêutica e correlação histopatológica (conclusão)	conclusão	mot1	0	não	
+mot2	Mão: Nódulo inespecífico	achado	mot2c	2	não	
+mot2c	Mão: Imagem nodular sólida de características inespecíficas (conclusão)	conclusão	mot2	0	não	
+mot3	Mão: Nódulo no trajeto do feixe neural (add-on)	achado		0	não	
+mot4	Mão: Nódulo envolvendo o feixe vascular (add-on)	achado		0	não	
+mot5	Mão: Tumor glômico	achado	mot5c	3	não	
+mot5c	Mão: Imagem nodular no leito ungueal do _ dedo; considerar tumor glômico (conclusão)	conclusão	mot5	1	não	
+mot6	Mão: Tumor glômico oculto	achado	mot6c	1	não	
+mot6c	Mão: Irregularidade óssea da falange distal do _ dedo, não se podendo descartar diminuto tumor glômico (conclusão)	conclusão	mot6	1	não	
+mof1	Mão: Fibromatose palmar (Dupuytren)	achado	mof1c	1	não	
+mof1c	Mão: Fibromatose palmar (Dupuytren) (conclusão)	conclusão	mof1	0	não	
+mof2	Mão: Fibromatose palmar com retração	achado	mof2c	1	não	
+mof2c	Mão: Fibromatose palmar (Dupuytren) com retração (conclusão)	conclusão	mof2	0	não	
+mor1	Mão: Rizartrose discreta	achado	mor1c	0	não	
+mor1c	Mão: Sinais de rizartrose (conclusão)	conclusão	mor1	0	não	
+mor2	Mão: Rizartrose acentuada	achado	mor2c	0	não	
+mor2c	Mão: Sinais de rizartrose (conclusão)	conclusão	mor2	0	não	
+mos1	Mão: Espessamento sinovial sem Doppler	achado	mos1c	1	não	
+mos1c	Mão: Espessamento sinovial da articulação _ (conclusão)	conclusão	mos1	1	não	
+mos2	Mão: Sinovite com atividade ao Doppler	achado	mos2c	3	não	
+mos2c	Mão: Sinovite da articulação _ (conclusão)	conclusão	mos2	1	não	
+mos3	Mão: Artropatia inflamatória com erosões	achado	mos3c	1	não	
+mos3c	Mão: Sinovite da articulação _ (conclusão)	conclusão	mos3	1	não	
+motn1	Mão: Tenossinovite dos flexores	achado	motn1c	0	não	
+motn1c	Mão: Tenossinovite dos flexores (conclusão)	conclusão	motn1	0	não	
+motn2	Mão: Tenossinovite e tendinopatia dos flexores	achado	motn2c	0	não	
+motn2c	Mão: Tenossinovite e tendinopatia dos flexores, sem sinais de rotura (conclusão)	conclusão	motn2	0	não	
+mop1	Mão: Espessamento da polia A1	achado	mop1c	0	não	
+mop1c	Mão: Espessamento da polia A1 do segundo dedo. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)	conclusão	mop1	0	não	
+mop2	Mão: Dedo em gatilho	achado	mop2c	0	não	
+mop2c	Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)	conclusão	mop2	0	não	
+mop3	Mão: Dedo em gatilho com tenossinovite estenosante	achado	mop3c	0	não	
+mop3c	Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão)	conclusão	mop3	0	não	
+mop4	Mão: Dedo em gatilho com atitude em flexão	achado	mop4c	0	não	
+mop4c	Mão: Sinais ecográficos de dedo em gatilho (conclusão)	conclusão	mop4	0	não	
+mol1	Mão: Estiramento do colateral ulnar do polegar	achado		0	não	
+mol2	Mão: Lesão parcial do colateral ulnar do polegar	achado		0	não	
+mol3	Mão: Lesão de alto grau do colateral ulnar do polegar	achado	mol3c	1	não	
+mol3c	Mão: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar. A relevância desse achado depende da correlação com os dados clínicos e exame físico (conclusão)	conclusão	mol3	0	não	
+mol4	Mão: Lesão de alto grau com interposição da aponeurose	achado	mol4c	0	não	
+mol4c	Mão: Sinais de lesão de alto grau do ligamento colateral ulnar do polegar, com interposição parcial da aponeurose adutora (conclusão)	conclusão	mol4	0	não	
+mol5	Mão: Lesão de Stener	achado	mol5c	0	não	
+mol5c	Mão: Lesão de Stener (rotura do ligamento colateral ulnar do polegar) (conclusão)	conclusão	mol5	0	não	
+moe1	Mão: Estiramento do complexo extensor	achado	moe1c	1	sim	
+moe1c	Mão: Sinais de estiramento do complexo extensor (conclusão)	conclusão	moe1	0	não	
+moe2	Mão: Rotura parcial do complexo extensor	achado	moe2c	1	sim	
+moe2c	Mão: Sinais de rotura parcial do complexo extensor (conclusão)	conclusão	moe2	0	não	
+moe3	Mão: Rotura completa do complexo extensor	achado	moe3c	2	sim	
+moe3c	Mão: Sinais de rotura completa do complexo extensor (conclusão)	conclusão	moe3	0	não	
+moe4	Mão: Rotura do complexo extensor com avulsão óssea	achado	moe4c	3	sim	
+moe4c	Mão: Sinais de rotura completa do complexo extensor, com avulsão óssea (conclusão)	conclusão	moe4	0	não	
+mofx1	Mão: Rotura aguda do flexor superficial	achado	mofx1c	1	sim	
+mofx1c	Mão: Sinais de rotura transfixante aguda do tendão flexor superficial do segundo dedo (conclusão)	conclusão	mofx1	0	não	
+mofx2	Mão: Rotura crônica do flexor superficial	achado	mofx2c	1	não	
+mofx2c	Mão: Sinais de rotura transfixante crônica do tendão flexor superficial do segundo dedo (conclusão)	conclusão	mofx2	0	não	
+mopv1	Mão: Rotura da polia A2	achado	mopv1c	0	não	
+mopv1c	Mão: Rotura da polia A2 (conclusão)	conclusão	mopv1	0	não	
+mopv2	Mão: Rotura da placa volar	achado	mopv2c	1	não	
+mopv2c	Mão: Rotura da placa volar da interfalângica do segundo dedo (conclusão)	conclusão	mopv2	0	não	
+moce1	Mão: Corpo estranho	achado	moce1c	1	não	
+moce1c	Mão: Corpo estranho no tecido celular subcutâneo (conclusão)	conclusão	moce1	0	não	
+pue1	Punho: Tendões extensores preservados	achado		0	não	
+pue2	Punho: Tenossinovite do primeiro compartimento extensor	achado	pue2c	0	não	
+pue2c	Punho: Tenossinovite do primeiro compartimento extensor (conclusão)	conclusão	pue2	0	não	
+pue3	Punho: Tenossinovite estenosante de De Quervain	achado	pue3c	0	sim	
+pue3c	Punho: Tenossinovite estenosante de De Quervain (conclusão)	conclusão	pue3	0	não	
+pue4	Punho: Tenossinovite do extensor curto do polegar (subcompartimentalização)	achado	pue4c	0	não	
+pue4c	Punho: Tenossinovite do extensor curto do polegar com subcompartimentalização (conclusão)	conclusão	pue4	0	não	
+pue5	Punho: Fissuras do abdutor longo do polegar (add-on)	achado		0	não	
+pue6	Punho: Tendões abdutores longos acessórios (add-on)	achado		0	não	
+pue7	Punho: Tendinopatia e tenossinovite do extensor ulnar do carpo	achado	pue7c	0	não	
+pue7c	Punho: Tendinopatia e tenossinovite do extensor ulnar do carpo (conclusão)	conclusão	pue7	0	não	
+pue8	Punho: Síndrome de intersecção proximal	achado	pue8c	0	não	
+pue8c	Punho: Síndrome de intersecção proximal (conclusão)	conclusão	pue8	0	não	
+pue9	Punho: Síndrome de intersecção distal	achado	pue9c	0	sim	
+pue9c	Punho: Síndrome de intersecção distal (conclusão)	conclusão	pue9	0	não	
+puf1	Punho: Tenossinovite do flexor radial do carpo	achado	puf1c	0	não	
+puf1c	Punho: Tenossinovite do flexor radial do carpo (conclusão)	conclusão	puf1	0	não	
+puf2	Punho: Bursite / tenossinovite da bursa ulnar	achado	puf2c	0	sim	
+puf2c	Punho: Bursite / tenossinovite da bursa ulnar (conclusão)	conclusão	puf2	0	sim	
+pun1	Punho: Nervo mediano normal	achado		0	não	
+pun2	Punho: Neuropatia do mediano (área de secção)	achado	pun2c	1	não	
+pun2c	Punho: Sinais ecográficos de neuropatia do mediano (conclusão)	conclusão	pun2	0	não	
+pun3	Punho: Neuropatia do mediano (diferença de área)	achado	pun3c	0	não	
+pun3c	Punho: Aumento de calibre do nervo mediano pela diferença de área de secção, sugestivo de neuropatia (conclusão)	conclusão	pun3	0	não	
+pun4	Punho: Túnel do carpo sem lesões / variações	achado		0	não	
+pun5	Punho: Mediano bífido com artéria mediana persistente	achado	pun5c	0	não	
+pun5c	Punho: Nervo mediano bífido com persistência da artéria mediana (variante anatômica) (conclusão)	conclusão	pun5	0	não	
+pun6	Punho: Nervo mediano bífido (variante)	achado	pun6c	0	não	
+pun6c	Punho: Nervo mediano bífido (variante anatômica) (conclusão)	conclusão	pun6	0	não	
+pun7	Punho: Persistência da artéria mediana (variante)	achado	pun7c	0	não	
+pun7c	Punho: Persistência da artéria mediana (variante anatômica) (conclusão)	conclusão	pun7	0	não	
+pun8	Punho: Hipotrofia da musculatura tenar	achado	pun8c	0	não	
+pun8c	Punho: Hipotrofia e lipossubstituição da musculatura tenar (conclusão)	conclusão	pun8	0	não	
+pupo1	Punho: Pós-op do túnel do carpo sem complicações	achado	pupo1c	0	não	
+pupo1c	Punho: Alterações pós-operatórias com ressecção do retináculo dos flexores, sem complicações (conclusão)	conclusão	pupo1	0	não	
+pupo2	Punho: Pós-op — fibrose com compressão do mediano (tardia)	achado	pupo2c	0	não	
+pupo2c	Punho: Espessamento fibrocicatricial do retináculo com compressão do nervo mediano (complicação tardia) (conclusão)	conclusão	pupo2	0	não	
+pupo3	Punho: Pós-op — compressão do mediano (recente)	achado	pupo3c	0	não	

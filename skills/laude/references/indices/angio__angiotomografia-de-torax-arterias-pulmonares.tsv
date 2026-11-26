@@ -1,0 +1,26 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+tepcentro	TEP agudo central (artéria pulmonar principal/direita/esquerda)	achado	tepcentroc	2	não	
+tepcentroc	Conclusão — TEP agudo central (PE-RADS 4)	conclusão	tepcentro	1	não	
+teplobo	TEP agudo lobar	achado	teploboc	1	não	
+teploboc	Conclusão — TEP agudo lobar (PE-RADS 3)	conclusão	teplobo	1	não	
+tepvd	Aumento do ventrículo direito (VD/VE ≥ 1,0)	achado	tepvdc	1	não	
+tepvdc	Conclusão — aumento do ventrículo direito (PE-RADS RV+)	conclusão	tepvd	0	não	
+tepsela	TEP agudo em sela	achado	tepselac	0	não	
+tepselac	Conclusão — TEP agudo em sela (PE-RADS 4)	conclusão	tepsela	0	não	
+tepsub	TEP subsegmentar isolado	achado	tepsubc	2	não	
+tepsubc	Conclusão — TEP subsegmentar isolado (PE-RADS 1)	conclusão	tepsub	1	não	
+tepfalso	Artefato de interrupção transitória do contraste	achado	tepfalsoc	1	não	
+tepfalsoc	Conclusão — artefato de interrupção transitória do contraste	conclusão	tepfalso	1	não	
+teptransito	Trombo em trânsito nas câmaras direitas	achado	teptransitoc	1	não	
+teptransitoc	Conclusão — trombo em trânsito (PE-RADS T+)	conclusão	teptransito	0	não	
+troncop2	Hipertensão pulmonar (tronco e razão AP/Ao)	achado	troncop2c	2	não	
+troncop2c	Conclusão — sinais de hipertensão pulmonar	conclusão	troncop2	0	não	
+tepcronico	Doença tromboembólica pulmonar crônica	achado	tepcronicoc	2	não	
+tepcronicoc	Conclusão — doença tromboembólica pulmonar crônica	conclusão	tepcronico	0	não	
+mavpulmao	Malformação arteriovenosa pulmonar	achado	mavpulmaoc	4	não	
+mavpulmaoc	Conclusão — malformação arteriovenosa pulmonar	conclusão	mavpulmao	1	não	
+pseudopulmonar	Pseudoaneurisma de ramo da artéria pulmonar	achado	pseudopulmonarc	3	não	
+pseudopulmonarc	Conclusão — pseudoaneurisma de artéria pulmonar	conclusão	pseudopulmonar	1	não	
+pulmonarausente	Interrupção proximal da artéria pulmonar	achado	pulmonarausentec	1	não	
+pulmonarausentec	Conclusão — interrupção proximal da artéria pulmonar	conclusão	pulmonarausente	1	não	
+slingpulmonar	Sling da artéria pulmonar	achado		0	não	

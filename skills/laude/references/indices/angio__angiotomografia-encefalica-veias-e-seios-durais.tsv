@@ -1,0 +1,10 @@
+trigger	label	tipo	par	lacunas	alternativas	titulo
+seiotrombosado	Trombose de seio dural	achado	seiotrombosadoc	2	não	
+seiotrombosadoc	Conclusão — trombose de seio dural	conclusão	seiotrombosado	2	não	
+veiacortical	Trombose de veia cortical	achado	veiacorticalc	1	não	
+veiacorticalc	Conclusão — trombose de veia cortical	conclusão	veiacortical	1	não	
+venosaprofunda	Trombose do sistema venoso profundo	achado	venosaprofundac	0	não	
+venosaprofundac	Conclusão — trombose do sistema venoso profundo	conclusão	venosaprofunda	0	não	
+transversofino	Hipoplasia do seio transverso (variante)	achado		1	não	
+seiosestreitos	Estenose bilateral dos seios transversos	achado	seiosestreitosc	0	não	
+seiosestreitosc	Conclusão — estenose bilateral dos seios transversos	conclusão	seiosestreitos	0	não	

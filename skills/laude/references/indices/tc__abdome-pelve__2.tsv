@@ -1,0 +1,139 @@
+# ATENÇÃO: semcalc termina em "c" mas NÃO é conclusão (sem par).
+trigger	label	tipo	par	lacunas	alternativas	titulo
+hemangiomapequenofigado	Hemangioma hepático pequeno	achado		1	não	
+herniaep	Hérnia de parede epigástrica	achado		1	não	
+herniaepi	Hérnia de parede epigástrica	achado		1	não	
+herniaepis	Hérnias epigástricas múltiplas	achado		2	não	
+herniafemoral	Hérnia femoral encarcerada com obstrução	achado		0	não	
+herniaincisional	Hérnia incisional com diástase dos retos	achado		0	não	
+herniainguinal	Hérnia inguinal encarcerada com obstrução	achado		0	não	
+herniainterna	Hérnia interna/brida com obstrução	achado		0	não	
+herniaobstru	Hérnia de parede abdominal obstrutiva	achado		1	não	
+herniaparede1	Hérnia periumbilical obstrutiva	achado		2	não	
+herniaparede2	Hérnia de parede infraumbilical	achado		1	não	
+herniaspiegel	Hérnia de Spiegel à direita	achado		1	não	
+herniaspieguel	Hérnia de Spiegel à direita	achado		1	não	
+herniaumb	Hérnia umbilical/paraumbilical	achado		1	sim	
+hidrodu	Hidroureteronefrose leve à esquerda	achado		0	não	
+hidrorim	Uropatia obstrutiva crônica à esquerda	achado		0	não	
+hidrosemcalculo	Ectasia ureteral por provável passagem de cálculo	achado		0	não	
+hiperport	Sinais de hipertensão portal	achado		1	não	
+hipo4	Imagem hepática hipodensa inespecífica (segmento IV)	achado		0	não	
+hipofi	Imagens hepáticas hipodensas inespecíficas	achado		0	não	
+hipofig	Imagens hepáticas hipodensas subcentimétricas — inespecíficas pelas dimensões	achado		0	não	
+hipofig1	Imagem hepática hipodensa subcentimétrica	achado		1	não	
+hipofig2	Imagens hepáticas hipodensas inespecíficas	achado		0	não	
+hipofiga	Imagens hepáticas hipodensas inespecíficas	achado		0	não	
+hipofigo	Imagens hepáticas hipodensas subcentimétricas — inespecíficas no protocolo	achado		0	não	
+hiporim	Cistos renais (imagens hipodensas)	achado		0	não	
+hiporim1	Cisto renal à esquerda	achado		0	não	
+hiporim1d	Cisto renal à direita	achado		0	não	
+hiporim1e	Cisto renal à esquerda	achado		0	não	
+hiporimb	Cistos renais bilaterais	achado		0	não	
+hiporimbola	Cistos renais bilaterais	achado		0	não	
+hiporimd	Cistos renais à direita	achado		0	não	
+hiporime	Cistos renais à esquerda	achado		0	não	
+ileoadinamico	Íleo adinâmico/metabólico	achado		0	sim	
+isquemiamesenterica	Isquemia mesentérica aguda	achado		0	não	
+jj1	Cateter pielovesical à direita	achado		0	não	
+jj2	Cateter pielovesical à esquerda	achado		0	não	
+lili	Ausência de líquido livre e linfonodomegalias	achado		0	não	
+limer	Linfonodos mesentéricos e retroperitoneais aumentados	achado		0	não	
+limes	Linfonodos mesentéricos aumentados (reacionais)	achado		0	não	
+linfomaintestinal	Linfoma intestinal e mesentérico	achado		2	não	
+lipel	Líquido livre pélvico mínimo	achado		0	não	
+liret	Linfonodos retroperitoneais aumentados	achado		0	não	
+matvb	Cálculo biliar/bile espessa na vesícula	achado		0	não	
+metahepa	Metástases hepáticas múltiplas	achado		4	não	
+metahepa1	Metástase hepática (nódulo único)	achado		1	não	
+micro	Microcálculos renais bilaterais	achado		0	não	
+micro1	Microcálculo renal não obstrutivo	achado		1	não	
+micro1d	Microcálculo renal à direita	achado		0	não	
+micro1e	Microcálculo renal à esquerda	achado		0	não	
+micro3	Microcálculos renais bilaterais	achado		0	não	
+microd	Microcálculos renais à direita	achado		0	não	
+microe	Microcálculos renais à esquerda	achado		0	não	
+microta	Microcálculos renais bilaterais sem dilatação	achado		0	não	
+mijou	Bexiga pouco repleta (avaliação prejudicada)	achado		0	não	
+mijouap	Bexiga pouco repleta e apêndice normal	achado		0	não	
+mijoubala	Bexiga pouco repleta com balonete de sonda	achado		0	não	
+neoampola	Suspeita de neoplasia periampular/pancreática	achado		0	não	
+neoampola1	Dilatação biliar suspeita de neoplasia periampular	achado		0	não	
+neoceco	Neoplasia primária do ceco	achado		1	não	
+neocolon	Neoplasia colônica obstrutiva (flexura esplênica)	achado		1	não	
+neogastrico	Neoplasia gástrica com invasão local	achado		0	não	
+neopancreas	Neoplasia da cabeça do pâncreas	achado		0	sim	
+neoplasiaepitelialovariana	Neoplasia epitelial ovariana (suspeita)	achado		2	sim	
+neorim	Neoplasia renal à esquerda (baixa complexidade)	achado		2	não	
+neotransverso	Neoplasia do cólon transverso	achado		1	não	
+nonastripas2	Isquemia intestinal com pneumatose e portograma aéreo	achado		0	sim	
+nonatripa	Íleo adinâmico/metabólico	achado		0	sim	
+nonatripa1	Suboclusão com isquemia intestinal (fossa ilíaca direita)	achado		0	sim	
+nonatripa2	Obstrução intestinal no íleo terminal (etiologia indeterminada)	achado		0	sim	
+nonatripa3	Suboclusão por provável brida/aderência	achado		0	sim	
+nonatripaduv	Distensão intestinal de causa indeterminada	achado		0	não	
+novoneopancreas	Neoplasia do corpo do pâncreas com invasão vascular	achado		0	não	
+ovariopolicistico	Ovários com aspecto policístico	achado		0	não	
+ovn3	Ovários não visualizados (interposição gasosa)	achado		0	não	
+pancreasmaico	Pancreatite aguda focal vs neoplasia	achado		1	não	
+pancreatitecronica	Pancreatite crônica reagudizada	achado		0	não	
+pancreatitedesulco	Pancreatite paraduodenal (sulco pancreatoduodenal)	achado		0	não	
+pancreatitesulco	Pancreatite aguda edematosa intersticial (Balthazar C)	achado		0	não	
+panic	Paniculite mesentérica — achados indeterminados	achado		0	não	
+panlipo	Pâncreas lipossubstituído	achado		0	não	
+pbe	Peritonite bacteriana espontânea com coleções	achado		2	não	
+pcnv	Pâncreas não visualizado (gás intestinal)	achado		0	não	
+peb	Pelve extrarrenal bilateral	achado		0	não	
+pedrafoi	Hidroureteronefrose por passagem de cálculo	achado		1	não	
+peliq	Mínimo líquido livre pélvico	achado		0	não	
+pelveinflamada	Processo inflamatório em fossa ilíaca direita (íleo terminal/ceco)	achado		0	não	
+pelveureteritecomplicada	Pielonefrite/pelveureterite com abscesso perirrenal	achado		1	sim	
+pesquisaabscesso	Pesquisa de abscesso renal (pielonefrite)	achado		0	não	
+pev1	Pelve extrarrenal à direita	achado		0	não	
+pev2	Pelve extrarrenal à esquerda	achado		0	não	
+pev3	Pelve extrarrenal bilateral	achado		0	não	
+phgh	Pequena hérnia hiatal gástrica	achado		0	não	
+pieloec	Pieloectasia/cisto de seio renal	achado		0	não	
+pielonefriteinicial	Pielonefrite com abscessos em organização	achado		2	não	
+pipel	Pequena quantidade de líquido livre pélvico	achado		0	não	
+pnv	Pâncreas não visualizado (gás intestinal)	achado		0	não	
+pqp	Pequena quantidade de líquido livre pélvico	achado		0	não	
+prostao	Aparente aumento da próstata	achado		0	não	
+prostao1	Aumento volumétrico da próstata — frase simples	achado		0	não	
+pseudocirrose1	Pseudocirrose hepática pós-quimioterapia	achado		0	não	
+pseudocistoounecrosemurada	Pseudocisto/necrose pancreática encapsulada	achado		2	sim	
+pseudolipoma	Pseudolipoma da cápsula de Glisson	achado		1	não	
+pv	Parcialmente visualizado (gás intestinal)	fragmento		0	não	
+pvs	Parcialmente visualizados (gás intestinal)	fragmento		0	não	
+radiver	Raros divertículos colônicos sem sinais inflamatórios	achado		0	não	
+rarosdiver	Raros divertículos colônicos sem sinais inflamatórios	achado		0	não	
+redum	Cólon sigmoide redundante	achado		0	não	
+redun	Cólon sigmoide redundante	achado		0	não	
+retoco	Retocolite (doença inflamatória intestinal)	achado		0	não	
+retocoliteulcerativa	Retocolite ulcerativa	achado		0	não	
+riedel	Lobo de Riedel (variante anatômica hepática)	achado		0	não	
+rimdagua	Hidronefrose acentuada com perda de parênquima renal	achado		0	não	
+sacogrande	Hérnia incisional infraumbilical volumosa	achado		2	não	
+sacohidronefrotico	Hidronefrose acentuada com perda de parênquima renal	achado		0	não	
+sapei	Pseudolesão hepática por variante de drenagem venosa (seg. IVb)	achado		0	não	
+sembanha	Resolução da esteatose hepática (controle)	achado		1	não	
+semcalc	Ausência de cálculo urinário ou dilatação coletora	achado		0	não	
+semmais	Demais estruturas abdominopélvicas sem particularidades	achado		0	não	
+simagas	Sinais de manipulação cirúrgica gástrica e intestinal	achado		0	não	
+songa	Sonda gástrica	achado		0	não	
+songad	Sonda enteral dobrada na câmara gástrica	achado		0	não	
+songafora	Sonda enteral com extremidade gástrica	achado		0	não	
+tcadenite	Adenite mesentérica — com densificação da gordura	achado		0	não	
+tcadenoma	Adenoma de adrenal esquerda	achado		2	não	
+tcangiomiolipoma	Angiomiolipoma renal direito	achado		1	não	
+tcangiomiolipomas	Angiomiolipomas renais múltiplos (esquerdo)	achado		3	não	
+tcapendicite	Apendicite aguda	achado		0	não	
+tcapendicite2	Apendicite aguda com ileíte reacional	achado		0	não	
+tcapendiciteperfurada	Apendicite aguda perfurada com pneumoperitônio	achado		0	não	
+tcapendiciteperfurada1	Apendicite com sinais de perfuração local	achado		0	não	
+tcbari	Sinais de cirurgia bariátrica (gastroplastia)	achado		0	não	
+tcbrida	Abdome agudo obstrutivo por bridas	achado		0	não	
+tcbrida1	Brida/hérnia interna pós-enterectomia	achado		0	sim	
+tccastor	Prolongamento do lobo hepático esquerdo (variante)	achado		0	não	
+tccirrose	Cirrose hepática com sinais de hipertensão portal	achado		0	não	
+tccolecistite	Colecistite aguda calculosa	achado		0	não	
