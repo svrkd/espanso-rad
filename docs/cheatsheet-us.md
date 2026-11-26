@@ -642,28 +642,11 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | macistcompc | Mama (US): cisto complicado (conclusão) |
 | mamistac | Mama (US): nódulo misto sólido e cístico (conclusão) |
 
-## Músculo-Esquelético
+## Músculo-Esquelético — Partes Moles E Músculos (Geral)
 
 | Trigger | Label |
 |---|---|
-| uscotovelod | Cotovelo direito — normal |
-| uscotoveloe | Cotovelo esquerdo — normal |
-| usjoelhod | Joelho direito — normal |
-| usjoelhoe | Joelho esquerdo — normal |
-| usmaod | Mão direita — normal |
-| usmaoe | Mão esquerda — normal |
 | usmsk | Coxa/perna/braço/antebraço — normal |
-| usombrod | Ombro direito — normal |
-| usombroe | Ombro esquerdo — normal |
-| uspunhod | Punho direito — normal |
-| uspunhoe | Punho esquerdo — normal |
-| usquadrild | Quadril direito — normal |
-| usquadrile | Quadril esquerdo — normal |
-| ustornozelod | Tornozelo direito — normal |
-| ustornozeloe | Tornozelo esquerdo — normal |
-| usped | Pé direito — normal |
-| uspee | Pé esquerdo — normal |
-| me1 | Tendão calcâneo (rotura): Estudo direcionado para a avaliação do tendão calcâneo à _ evidencia: |
 | mskd1 | MSK: Sem derrame articular |
 | mskd2 | MSK: Pequeno derrame articular |
 | mskd2c | MSK: Pequeno derrame articular (conclusão) |
@@ -701,117 +684,6 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | mskt7c | MSK: Rotura crônica (conclusão) |
 | mskt8 | MSK: Pós-operatório |
 | mskt8c | MSK: Pós-operatório (conclusão) |
-| tzd1 | Tornozelo: Sem derrame articular |
-| tzd2 | Tornozelo: Derrame tibiotalar |
-| tzd2c | Tornozelo: Derrame articular tibiotalar (conclusão) |
-| tzd3 | Tornozelo: Derrame na subtalar posterior |
-| tzd3c | Tornozelo: Derrame articular na subtalar posterior (conclusão) |
-| tzd4 | Tornozelo: Derrame com sinovite |
-| tzd4c | Tornozelo: Derrame articular com sinovite (conclusão) |
-| tzd5 | Tornozelo: Derrame talonavicular (configuração cística) |
-| tzd5c | Tornozelo: Derrame talonavicular com configuração cística (conclusão) |
-| tzc1 | Tornozelo: Tendão calcâneo normal |
-| tzc2 | Tornozelo: Entesopatia insercional do calcâneo |
-| tzc2c | Tornozelo: Entesopatia insercional do calcâneo (conclusão) |
-| tzc3 | Tornozelo: Peritendinite do calcâneo |
-| tzc3c | Tornozelo: Peritendinite do calcâneo (conclusão) |
-| tzc4 | Tornozelo: Tendinopatia insercional do calcâneo |
-| tzc4c | Tornozelo: Tendinopatia insercional do calcâneo (conclusão) |
-| tzc5 | Tornozelo: Tendinopatia insercional do calcâneo com fissuras |
-| tzc5c | Tornozelo: Tendinopatia insercional do calcâneo com fissuras (conclusão) |
-| tzc6 | Tornozelo: Tendinopatia insercional com bursite e Haglund |
-| tzc6c | Tornozelo: Tendinopatia insercional do calcâneo com bursite retrocalcaneana e Haglund (conclusão) |
-| tzc7 | Tornozelo: Degeneração extensa do calcâneo (add-on) |
-| tzc8 | Tornozelo: Tendinopatia não insercional do calcâneo |
-| tzc8c | Tornozelo: Tendinopatia não insercional do calcâneo (conclusão) |
-| tzc9 | Tornozelo: Rotura parcial do calcâneo |
-| tzc9c | Tornozelo: Rotura parcial do tendão calcâneo (conclusão) |
-| tzc10 | Tornozelo: Rotura completa do calcâneo (desinserção) |
-| tzc10c | Tornozelo: Rotura completa do tendão calcâneo (conclusão) |
-| tzc11 | Tornozelo: Rotura completa do calcâneo (transfixação do corpo) |
-| tzc11c | Tornozelo: Rotura completa do tendão calcâneo (transfixação do corpo) (conclusão) |
-| tzc12 | Tornozelo: Rotura completa do calcâneo (com equino) |
-| tzc12c | Tornozelo: Rotura completa do tendão calcâneo (conclusão) |
-| tzc13 | Tornozelo: Rotura crônica do calcâneo (fibrocicatricial) |
-| tzc13c | Tornozelo: Rotura crônica do tendão calcâneo (conclusão) |
-| tzc14 | Tornozelo: Rotura crônica do calcâneo (fibrose) |
-| tzc14c | Tornozelo: Rotura crônica do tendão calcâneo (conclusão) |
-| tzc15 | Tornozelo: Pós-operatório do calcâneo |
-| tzc15c | Tornozelo: Alterações pós-operatórias do tendão calcâneo (conclusão) |
-| tzta1 | Tornozelo: Tibial anterior normal |
-| tzta2 | Tornozelo: Tendinopatia do tibial anterior |
-| tzta2c | Tornozelo: Tendinopatia do tibial anterior (conclusão) |
-| tzta3 | Tornozelo: Tenossinovite do tibial anterior |
-| tzta3c | Tornozelo: Tenossinovite do tibial anterior (conclusão) |
-| tzta4 | Tornozelo: Rotura completa do tibial anterior |
-| tzta4c | Tornozelo: Rotura completa do tibial anterior (conclusão) |
-| tzta5 | Tornozelo: Bursite do tibial anterior (add-on) |
-| tztp1 | Tornozelo: Tibial posterior normal |
-| tztp2 | Tornozelo: Lâmina líquida fisiológica no tibial posterior |
-| tztp3 | Tornozelo: Tenossinovite do tibial posterior |
-| tztp3c | Tornozelo: Tenossinovite do tibial posterior (conclusão) |
-| tztp4 | Tornozelo: Tenossinovite e tendinopatia do tibial posterior |
-| tztp4c | Tornozelo: Tenossinovite e tendinopatia do tibial posterior (conclusão) |
-| tztp5 | Tornozelo: Acentuada tenossinovite/tendinopatia do tibial posterior |
-| tztp5c | Tornozelo: Acentuada tenossinovite e tendinopatia do tibial posterior (conclusão) |
-| tztp6 | Tornozelo: Osso navicular acessório (add-on) |
-| tzf1 | Tornozelo: Fibulares normais |
-| tzf2 | Tornozelo: Tenossinovite dos fibulares |
-| tzf2c | Tornozelo: Tenossinovite dos fibulares (conclusão) |
-| tzf3 | Tornozelo: Tenossinovite e tendinopatia dos fibulares |
-| tzf3c | Tornozelo: Tenossinovite e tendinopatia dos fibulares (conclusão) |
-| tzf4 | Tornozelo: Tendinopatia do fibular longo (cuboide) |
-| tzf4c | Tornozelo: Tendinopatia do fibular longo na deflexão do cuboide (conclusão) |
-| tzf5 | Tornozelo: Rotura longitudinal do fibular curto |
-| tzf5c | Tornozelo: Rotura longitudinal do fibular curto (conclusão) |
-| tzf6 | Tornozelo: Rotura longitudinal com split do fibular curto |
-| tzf6c | Tornozelo: Rotura longitudinal com split do fibular curto (conclusão) |
-| tzf7 | Tornozelo: Sem luxação dos fibulares |
-| tzf8 | Tornozelo: Luxação dos fibulares (insuficiência do retináculo) |
-| tzf8c | Tornozelo: Luxação dos fibulares por insuficiência do retináculo fibular superior (conclusão) |
-| tzf9 | Tornozelo: Hipertrofia do tubérculo dos fibulares |
-| tzf9c | Tornozelo: Hipertrofia do tubérculo dos fibulares (conclusão) |
-| tzfp1 | Tornozelo: Fáscia plantar normal |
-| tzfp2 | Tornozelo: Fasciíte plantar |
-| tzfp2c | Tornozelo: Fasciíte plantar (conclusão) |
-| tzfp3 | Tornozelo: Espessamento crônico da fáscia plantar |
-| tzfp3c | Tornozelo: Espessamento crônico da fáscia plantar (conclusão) |
-| tzfp4 | Tornozelo: Fasciopatia plantar crônica |
-| tzfp4c | Tornozelo: Fasciopatia plantar crônica (conclusão) |
-| tzfp5 | Tornozelo: Fibroma / fibromatose plantar |
-| tzfp5c | Tornozelo: Fibroma / fibromatose plantar (conclusão) |
-| tzl1 | Tornozelo: Edema perimaleolar lateral |
-| tzl2 | Tornozelo: Talofibular anterior normal |
-| tzl3 | Tornozelo: Estiramento do talofibular anterior |
-| tzl3c | Tornozelo: Estiramento do ligamento talofibular anterior (conclusão) |
-| tzl4 | Tornozelo: Lesão parcial do talofibular anterior |
-| tzl4c | Tornozelo: Lesão parcial do ligamento talofibular anterior (conclusão) |
-| tzl5 | Tornozelo: Lesão completa do talofibular anterior |
-| tzl5c | Tornozelo: Lesão completa do ligamento talofibular anterior (conclusão) |
-| tzl6 | Tornozelo: Rotura completa do talofibular anterior (desinserção) |
-| tzl6c | Tornozelo: Rotura completa do ligamento talofibular anterior (conclusão) |
-| tzl7 | Tornozelo: Lesão do talofibular anterior com avulsão óssea |
-| tzl7c | Tornozelo: Lesão do ligamento talofibular anterior com avulsão óssea (conclusão) |
-| tzl8 | Tornozelo: Lesão de alto grau do talofibular anterior |
-| tzl8c | Tornozelo: Lesão de alto grau do ligamento talofibular anterior (conclusão) |
-| tzl9 | Tornozelo: Sugerir correlação com exame físico (agudo) |
-| tzl10 | Tornozelo: Rotura crônica do talofibular anterior |
-| tzl10c | Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão) |
-| tzl11 | Tornozelo: Talofibular anterior não caracterizado (rotura crônica) |
-| tzl11c | Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão) |
-| tzl12 | Tornozelo: Talofibular anterior cicatricial |
-| tzl12c | Tornozelo: Alterações cicatriciais do ligamento talofibular anterior (conclusão) |
-| tzl13 | Tornozelo: Afilamento cicatricial do talofibular anterior |
-| tzl13c | Tornozelo: Afilamento cicatricial do ligamento talofibular anterior (conclusão) |
-| tzl14 | Tornozelo: Correlação para suficiência ligamentar (crônico) |
-| tzl15 | Tornozelo: Fragmento avulsivo no maléolo lateral (add-on) |
-| tzo1 | Tornozelo: Osteófitos anteriores da tibiotalar |
-| tzo1c | Tornozelo: Osteófitos anteriores da articulação tibiotalar (conclusão) |
-| tzo2 | Tornozelo: Alterações degenerativas do mediopé |
-| tzo2c | Tornozelo: Alterações degenerativas do mediopé (conclusão) |
-| tzo3 | Tornozelo: Irregularidades ósseas (correlação radiográfica) |
-| tzo3c | Tornozelo: Irregularidades ósseas do retropé / mediopé (correlação radiográfica) (conclusão) |
-| me2 | Joelho (derrame articular): Estudo direcionado para a pesquisa de derrame articular no joelho _ evidencia: |
 | lmg0 | Lesão muscular: Exame normal (grau 0) |
 | lmg1 | Lesão muscular: Grau I (edema, sem descontinuidade) |
 | lmg1c | Lesão muscular: Sinais ecográficos de edema muscular, sugestivo de estiramento grau I (conclusão) |
@@ -872,6 +744,13 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | lmo1c | Lesão muscular: Provável miosite ossificante (conclusão) |
 | lmcr1 | Lesão muscular: Alterações crônicas fibrocicatriciais |
 | lmcr1c | Lesão muscular: Alterações crônicas fibrocicatriciais do reto femoral (conclusão) |
+
+## Músculo-Esquelético — Ombro
+
+| Trigger | Label |
+|---|---|
+| usombrod | Ombro direito — normal |
+| usombroe | Ombro esquerdo — normal |
 | omt1 | Ombro: Técnica prejudicada — mobilidade articular |
 | omt2 | Ombro: Técnica — redução da mobilidade |
 | omt3 | Ombro: Técnica — redução de frequência |
@@ -1021,72 +900,13 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | omin2c | Ombro: Neuropatia compressiva do nervo supraescapular (conclusão) |
 | omin3 | Ombro: Instabilidade glenoumeral (manobra dinâmica) |
 | omin3c | Ombro: Sinais de instabilidade glenoumeral (conclusão) |
-| moc1 | Mão: Cisto gangliônico junto à polia A2 |
-| moc1c | Mão: Cisto gangliônico junto à polia A2 do _ dedo (conclusão) |
-| moc2 | Mão: Cisto gangliônico dorsal (interfalângica) |
-| moc2c | Mão: Cisto gangliônico dorsal da interfalângica distal do _ dedo (conclusão) |
-| mot1 | Mão: Tumor de células gigantes da bainha tendínea |
-| mot1c | Mão: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Sugere-se prosseguimento da propedêutica e correlação histopatológica (conclusão) |
-| mot2 | Mão: Nódulo inespecífico |
-| mot2c | Mão: Imagem nodular sólida de características inespecíficas (conclusão) |
-| mot3 | Mão: Nódulo no trajeto do feixe neural (add-on) |
-| mot4 | Mão: Nódulo envolvendo o feixe vascular (add-on) |
-| mot5 | Mão: Tumor glômico |
-| mot5c | Mão: Imagem nodular no leito ungueal do _ dedo; considerar tumor glômico (conclusão) |
-| mot6 | Mão: Tumor glômico oculto |
-| mot6c | Mão: Irregularidade óssea da falange distal do _ dedo, não se podendo descartar diminuto tumor glômico (conclusão) |
-| mof1 | Mão: Fibromatose palmar (Dupuytren) |
-| mof1c | Mão: Fibromatose palmar (Dupuytren) (conclusão) |
-| mof2 | Mão: Fibromatose palmar com retração |
-| mof2c | Mão: Fibromatose palmar (Dupuytren) com retração (conclusão) |
-| mor1 | Mão: Rizartrose discreta |
-| mor1c | Mão: Sinais de rizartrose (conclusão) |
-| mor2 | Mão: Rizartrose acentuada |
-| mor2c | Mão: Sinais de rizartrose (conclusão) |
-| mos1 | Mão: Espessamento sinovial sem Doppler |
-| mos1c | Mão: Espessamento sinovial da articulação _ (conclusão) |
-| mos2 | Mão: Sinovite com atividade ao Doppler |
-| mos2c | Mão: Sinovite da articulação _ (conclusão) |
-| mos3 | Mão: Artropatia inflamatória com erosões |
-| mos3c | Mão: Sinovite da articulação _ (conclusão) |
-| motn1 | Mão: Tenossinovite dos flexores |
-| motn1c | Mão: Tenossinovite dos flexores (conclusão) |
-| motn2 | Mão: Tenossinovite e tendinopatia dos flexores |
-| motn2c | Mão: Tenossinovite e tendinopatia dos flexores, sem sinais de rotura (conclusão) |
-| mop1 | Mão: Espessamento da polia A1 |
-| mop1c | Mão: Espessamento da polia A1 do segundo dedo. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão) |
-| mop2 | Mão: Dedo em gatilho |
-| mop2c | Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão) |
-| mop3 | Mão: Dedo em gatilho com tenossinovite estenosante |
-| mop3c | Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão) |
-| mop4 | Mão: Dedo em gatilho com atitude em flexão |
-| mop4c | Mão: Sinais ecográficos de dedo em gatilho (conclusão) |
-| mol1 | Mão: Estiramento do colateral ulnar do polegar |
-| mol2 | Mão: Lesão parcial do colateral ulnar do polegar |
-| mol3 | Mão: Lesão de alto grau do colateral ulnar do polegar |
-| mol3c | Mão: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar. A relevância desse achado depende da correlação com os dados clínicos e exame físico (conclusão) |
-| mol4 | Mão: Lesão de alto grau com interposição da aponeurose |
-| mol4c | Mão: Sinais de lesão de alto grau do ligamento colateral ulnar do polegar, com interposição parcial da aponeurose adutora (conclusão) |
-| mol5 | Mão: Lesão de Stener |
-| mol5c | Mão: Lesão de Stener (rotura do ligamento colateral ulnar do polegar) (conclusão) |
-| moe1 | Mão: Estiramento do complexo extensor |
-| moe1c | Mão: Sinais de estiramento do complexo extensor (conclusão) |
-| moe2 | Mão: Rotura parcial do complexo extensor |
-| moe2c | Mão: Sinais de rotura parcial do complexo extensor (conclusão) |
-| moe3 | Mão: Rotura completa do complexo extensor |
-| moe3c | Mão: Sinais de rotura completa do complexo extensor (conclusão) |
-| moe4 | Mão: Rotura do complexo extensor com avulsão óssea |
-| moe4c | Mão: Sinais de rotura completa do complexo extensor, com avulsão óssea (conclusão) |
-| mofx1 | Mão: Rotura aguda do flexor superficial |
-| mofx1c | Mão: Sinais de rotura transfixante aguda do tendão flexor superficial do segundo dedo (conclusão) |
-| mofx2 | Mão: Rotura crônica do flexor superficial |
-| mofx2c | Mão: Sinais de rotura transfixante crônica do tendão flexor superficial do segundo dedo (conclusão) |
-| mopv1 | Mão: Rotura da polia A2 |
-| mopv1c | Mão: Rotura da polia A2 (conclusão) |
-| mopv2 | Mão: Rotura da placa volar |
-| mopv2c | Mão: Rotura da placa volar da interfalângica do segundo dedo (conclusão) |
-| moce1 | Mão: Corpo estranho |
-| moce1c | Mão: Corpo estranho no tecido celular subcutâneo (conclusão) |
+
+## Músculo-Esquelético — Cotovelo
+
+| Trigger | Label |
+|---|---|
+| uscotovelod | Cotovelo direito — normal |
+| uscotoveloe | Cotovelo esquerdo — normal |
 | cot1 | Cotovelo: Técnica — exame direcionado |
 | cod1 | Cotovelo: Sem derrame articular |
 | cod2 | Cotovelo: Discreto derrame articular |
@@ -1164,6 +984,81 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | codi6c | Cotovelo: Artropatia degenerativa com corpos livres intra-articulares (conclusão) |
 | codi7 | Cotovelo: Pós-operatório do bíceps distal |
 | codi7c | Cotovelo: Alterações pós-operatórias do tendão distal do bíceps braquial (conclusão) |
+
+## Músculo-Esquelético — Punho E Mão
+
+| Trigger | Label |
+|---|---|
+| usmaod | Mão direita — normal |
+| usmaoe | Mão esquerda — normal |
+| uspunhod | Punho direito — normal |
+| uspunhoe | Punho esquerdo — normal |
+| moc1 | Mão: Cisto gangliônico junto à polia A2 |
+| moc1c | Mão: Cisto gangliônico junto à polia A2 do _ dedo (conclusão) |
+| moc2 | Mão: Cisto gangliônico dorsal (interfalângica) |
+| moc2c | Mão: Cisto gangliônico dorsal da interfalângica distal do _ dedo (conclusão) |
+| mot1 | Mão: Tumor de células gigantes da bainha tendínea |
+| mot1c | Mão: Imagem nodular sólida; considerar tumor de células gigantes da bainha tendínea, não se podendo descartar outras hipóteses. Sugere-se prosseguimento da propedêutica e correlação histopatológica (conclusão) |
+| mot2 | Mão: Nódulo inespecífico |
+| mot2c | Mão: Imagem nodular sólida de características inespecíficas (conclusão) |
+| mot3 | Mão: Nódulo no trajeto do feixe neural (add-on) |
+| mot4 | Mão: Nódulo envolvendo o feixe vascular (add-on) |
+| mot5 | Mão: Tumor glômico |
+| mot5c | Mão: Imagem nodular no leito ungueal do _ dedo; considerar tumor glômico (conclusão) |
+| mot6 | Mão: Tumor glômico oculto |
+| mot6c | Mão: Irregularidade óssea da falange distal do _ dedo, não se podendo descartar diminuto tumor glômico (conclusão) |
+| mof1 | Mão: Fibromatose palmar (Dupuytren) |
+| mof1c | Mão: Fibromatose palmar (Dupuytren) (conclusão) |
+| mof2 | Mão: Fibromatose palmar com retração |
+| mof2c | Mão: Fibromatose palmar (Dupuytren) com retração (conclusão) |
+| mor1 | Mão: Rizartrose discreta |
+| mor1c | Mão: Sinais de rizartrose (conclusão) |
+| mor2 | Mão: Rizartrose acentuada |
+| mor2c | Mão: Sinais de rizartrose (conclusão) |
+| mos1 | Mão: Espessamento sinovial sem Doppler |
+| mos1c | Mão: Espessamento sinovial da articulação _ (conclusão) |
+| mos2 | Mão: Sinovite com atividade ao Doppler |
+| mos2c | Mão: Sinovite da articulação _ (conclusão) |
+| mos3 | Mão: Artropatia inflamatória com erosões |
+| mos3c | Mão: Sinovite da articulação _ (conclusão) |
+| motn1 | Mão: Tenossinovite dos flexores |
+| motn1c | Mão: Tenossinovite dos flexores (conclusão) |
+| motn2 | Mão: Tenossinovite e tendinopatia dos flexores |
+| motn2c | Mão: Tenossinovite e tendinopatia dos flexores, sem sinais de rotura (conclusão) |
+| mop1 | Mão: Espessamento da polia A1 |
+| mop1c | Mão: Espessamento da polia A1 do segundo dedo. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão) |
+| mop2 | Mão: Dedo em gatilho |
+| mop2c | Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão) |
+| mop3 | Mão: Dedo em gatilho com tenossinovite estenosante |
+| mop3c | Mão: Sinais ecográficos de dedo em gatilho. A relevância desse achado dependerá de correlação com os dados clínicos e exame físico (conclusão) |
+| mop4 | Mão: Dedo em gatilho com atitude em flexão |
+| mop4c | Mão: Sinais ecográficos de dedo em gatilho (conclusão) |
+| mol1 | Mão: Estiramento do colateral ulnar do polegar |
+| mol2 | Mão: Lesão parcial do colateral ulnar do polegar |
+| mol3 | Mão: Lesão de alto grau do colateral ulnar do polegar |
+| mol3c | Mão: Sinais de lesão de alto grau do ligamento colateral ulnar da metacarpofalângica do polegar. A relevância desse achado depende da correlação com os dados clínicos e exame físico (conclusão) |
+| mol4 | Mão: Lesão de alto grau com interposição da aponeurose |
+| mol4c | Mão: Sinais de lesão de alto grau do ligamento colateral ulnar do polegar, com interposição parcial da aponeurose adutora (conclusão) |
+| mol5 | Mão: Lesão de Stener |
+| mol5c | Mão: Lesão de Stener (rotura do ligamento colateral ulnar do polegar) (conclusão) |
+| moe1 | Mão: Estiramento do complexo extensor |
+| moe1c | Mão: Sinais de estiramento do complexo extensor (conclusão) |
+| moe2 | Mão: Rotura parcial do complexo extensor |
+| moe2c | Mão: Sinais de rotura parcial do complexo extensor (conclusão) |
+| moe3 | Mão: Rotura completa do complexo extensor |
+| moe3c | Mão: Sinais de rotura completa do complexo extensor (conclusão) |
+| moe4 | Mão: Rotura do complexo extensor com avulsão óssea |
+| moe4c | Mão: Sinais de rotura completa do complexo extensor, com avulsão óssea (conclusão) |
+| mofx1 | Mão: Rotura aguda do flexor superficial |
+| mofx1c | Mão: Sinais de rotura transfixante aguda do tendão flexor superficial do segundo dedo (conclusão) |
+| mofx2 | Mão: Rotura crônica do flexor superficial |
+| mofx2c | Mão: Sinais de rotura transfixante crônica do tendão flexor superficial do segundo dedo (conclusão) |
+| mopv1 | Mão: Rotura da polia A2 |
+| mopv1c | Mão: Rotura da polia A2 (conclusão) |
+| mopv2 | Mão: Rotura da placa volar |
+| mopv2c | Mão: Rotura da placa volar da interfalângica do segundo dedo (conclusão) |
+| moce1 | Mão: Corpo estranho |
+| moce1c | Mão: Corpo estranho no tecido celular subcutâneo (conclusão) |
 | pue1 | Punho: Tendões extensores preservados |
 | pue2 | Punho: Tenossinovite do primeiro compartimento extensor |
 | pue2c | Punho: Tenossinovite do primeiro compartimento extensor (conclusão) |
@@ -1233,6 +1128,66 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | pus2c | Punho: Sinovite da articulação _ (com atividade ao Doppler) (conclusão) |
 | pus3 | Punho: Artropatia inflamatória com erosões |
 | pus3c | Punho: Artropatia inflamatória com erosões e sinovite (conclusão) |
+
+## Músculo-Esquelético — Quadril
+
+| Trigger | Label |
+|---|---|
+| usquadrild | Quadril direito — normal |
+| usquadrile | Quadril esquerdo — normal |
+| qdd1 | Quadril: Sem derrame articular |
+| qdd2 | Quadril: Derrame articular |
+| qdd2c | Quadril: Derrame articular (conclusão) |
+| qdd4 | Quadril: Derrame com sinovite |
+| qdd4c | Quadril: Derrame articular com sinovite (conclusão) |
+| qdd5 | Quadril: Sinovite com atividade ao Doppler |
+| qdd5c | Quadril: Sinovite com atividade inflamatória ao Doppler (conclusão) |
+| qda1 | Quadril: Artropatia degenerativa coxofemoral |
+| qda1c | Quadril: Artropatia degenerativa coxofemoral (conclusão) |
+| qda2 | Quadril: Cisto paralabral |
+| qda2c | Quadril: Cisto paralabral (conclusão) |
+| qdg1 | Quadril: Tendões glúteos normais |
+| qdg2 | Quadril: Heterogeneidade do glúteo mínimo |
+| qdg2c | Quadril: Discreta heterogeneidade do glúteo mínimo, a correlacionar clinicamente (conclusão) |
+| qdg3 | Quadril: Tendinopatia insercional do glúteo mínimo |
+| qdg3c | Quadril: Tendinopatia insercional do glúteo mínimo (conclusão) |
+| qdg4 | Quadril: Tendinopatia do glúteo mínimo e médio |
+| qdg4c | Quadril: Tendinopatia do glúteo mínimo e médio (conclusão) |
+| qdg5 | Quadril: Glúteos com provável rotura de alto grau |
+| qdg5c | Quadril: Tendinopatia do glúteo mínimo e médio com provável rotura de alto grau (conclusão) |
+| qdg6 | Quadril: Tendinopatia calcária do glúteo mínimo |
+| qdg6c | Quadril: Tendinopatia calcária do glúteo mínimo (conclusão) |
+| qdg7 | Quadril: Entesófitos no trocânter maior (add-on) |
+| qdg8 | Quadril: Bursite subglútea (add-on) |
+| qdt1 | Quadril: Tendinopatia dos adutores |
+| qdt1c | Quadril: Tendinopatia da origem comum dos adutores (conclusão) |
+| qdt2 | Quadril: Tendinopatia dos isquiotibiais |
+| qdt2c | Quadril: Tendinopatia da origem comum dos isquiotibiais (conclusão) |
+| qdb1 | Quadril: Bursa trocantérica normal |
+| qdb2 | Quadril: Bursite trocantérica |
+| qdb2c | Quadril: Bursite trocantérica (conclusão) |
+| qdm1 | Quadril: Ventres musculares normais |
+| qdl1 | Quadril: Estiramento do reto femoral |
+| qdl1c | Quadril: Estiramento do reto femoral (conclusão) |
+| qdl2 | Quadril: Lesão parcial do gastrocnêmio medial |
+| qdl2c | Quadril: Lesão parcial do gastrocnêmio medial (conclusão) |
+| qdl3 | Quadril: Lesão completa da origem dos isquiotibiais |
+| qdl3c | Quadril: Lesão completa da origem dos isquiotibiais (conclusão) |
+| qdl4 | Quadril: Sugerir correlação com RM |
+| qdr1 | Quadril: Ressalto da banda iliotibial |
+| qdr1c | Quadril: Ressalto da banda iliotibial (conclusão) |
+| qdr2 | Quadril: ITB com espessamento e bursite (add-on) |
+| qdr3 | Quadril: Ressalto do tendão do iliopsoas |
+| qdr3c | Quadril: Ressalto do tendão do iliopsoas (conclusão) |
+| qdr4 | Quadril: Bursite do iliopsoas (add-on) |
+| qdml1 | Quadril: Morel-Lavallée |
+
+## Músculo-Esquelético — Joelho
+
+| Trigger | Label |
+|---|---|
+| usjoelhod | Joelho direito — normal |
+| usjoelhoe | Joelho esquerdo — normal |
 | jot1 | Joelho: Técnica — exame direcionado |
 | jod1 | Joelho: Sem derrame articular |
 | jod2 | Joelho: Pequeno derrame articular |
@@ -1243,6 +1198,7 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | jod5c | Joelho: Pequena quantidade de líquido articular, sem derrame significativo (conclusão) |
 | jod6 | Joelho: Derrame com corpo livre |
 | jod6c | Joelho: Derrame articular com sinovite e corpo livre intra-articular (conclusão) |
+| jod7 | Joelho (derrame articular): Estudo direcionado para a pesquisa de derrame articular no joelho _ evidencia: |
 | joa1 | Joelho: Quadríceps e patelar íntegros |
 | joa2 | Joelho: Entesopatia do quadríceps |
 | joa2c | Joelho: Entesopatia do quadríceps (conclusão) |
@@ -1302,52 +1258,126 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | jopo7c | Joelho: Rotura parcial de cisto poplíteo (conclusão) |
 | jopo8 | Joelho: Tendinopatia do gastrocnêmio medial / semimembranoso |
 | jopo8c | Joelho: Tendinopatia da origem do gastrocnêmio medial / inserção do semimembranoso (conclusão) |
-| qdd1 | Quadril: Sem derrame articular |
-| qdd2 | Quadril: Derrame articular |
-| qdd2c | Quadril: Derrame articular (conclusão) |
-| qdd4 | Quadril: Derrame com sinovite |
-| qdd4c | Quadril: Derrame articular com sinovite (conclusão) |
-| qdd5 | Quadril: Sinovite com atividade ao Doppler |
-| qdd5c | Quadril: Sinovite com atividade inflamatória ao Doppler (conclusão) |
-| qda1 | Quadril: Artropatia degenerativa coxofemoral |
-| qda1c | Quadril: Artropatia degenerativa coxofemoral (conclusão) |
-| qda2 | Quadril: Cisto paralabral |
-| qda2c | Quadril: Cisto paralabral (conclusão) |
-| qdg1 | Quadril: Tendões glúteos normais |
-| qdg2 | Quadril: Heterogeneidade do glúteo mínimo |
-| qdg2c | Quadril: Discreta heterogeneidade do glúteo mínimo, a correlacionar clinicamente (conclusão) |
-| qdg3 | Quadril: Tendinopatia insercional do glúteo mínimo |
-| qdg3c | Quadril: Tendinopatia insercional do glúteo mínimo (conclusão) |
-| qdg4 | Quadril: Tendinopatia do glúteo mínimo e médio |
-| qdg4c | Quadril: Tendinopatia do glúteo mínimo e médio (conclusão) |
-| qdg5 | Quadril: Glúteos com provável rotura de alto grau |
-| qdg5c | Quadril: Tendinopatia do glúteo mínimo e médio com provável rotura de alto grau (conclusão) |
-| qdg6 | Quadril: Tendinopatia calcária do glúteo mínimo |
-| qdg6c | Quadril: Tendinopatia calcária do glúteo mínimo (conclusão) |
-| qdg7 | Quadril: Entesófitos no trocânter maior (add-on) |
-| qdg8 | Quadril: Bursite subglútea (add-on) |
-| qdt1 | Quadril: Tendinopatia dos adutores |
-| qdt1c | Quadril: Tendinopatia da origem comum dos adutores (conclusão) |
-| qdt2 | Quadril: Tendinopatia dos isquiotibiais |
-| qdt2c | Quadril: Tendinopatia da origem comum dos isquiotibiais (conclusão) |
-| qdb1 | Quadril: Bursa trocantérica normal |
-| qdb2 | Quadril: Bursite trocantérica |
-| qdb2c | Quadril: Bursite trocantérica (conclusão) |
-| qdm1 | Quadril: Ventres musculares normais |
-| qdl1 | Quadril: Estiramento do reto femoral |
-| qdl1c | Quadril: Estiramento do reto femoral (conclusão) |
-| qdl2 | Quadril: Lesão parcial do gastrocnêmio medial |
-| qdl2c | Quadril: Lesão parcial do gastrocnêmio medial (conclusão) |
-| qdl3 | Quadril: Lesão completa da origem dos isquiotibiais |
-| qdl3c | Quadril: Lesão completa da origem dos isquiotibiais (conclusão) |
-| qdl4 | Quadril: Sugerir correlação com RM |
-| qdr1 | Quadril: Ressalto da banda iliotibial |
-| qdr1c | Quadril: Ressalto da banda iliotibial (conclusão) |
-| qdr2 | Quadril: ITB com espessamento e bursite (add-on) |
-| qdr3 | Quadril: Ressalto do tendão do iliopsoas |
-| qdr3c | Quadril: Ressalto do tendão do iliopsoas (conclusão) |
-| qdr4 | Quadril: Bursite do iliopsoas (add-on) |
-| qdml1 | Quadril: Morel-Lavallée |
+
+## Músculo-Esquelético — Tornozelo E Pé
+
+| Trigger | Label |
+|---|---|
+| ustornozelod | Tornozelo direito — normal |
+| ustornozeloe | Tornozelo esquerdo — normal |
+| usped | Pé direito — normal |
+| uspee | Pé esquerdo — normal |
+| tzd1 | Tornozelo: Sem derrame articular |
+| tzd2 | Tornozelo: Derrame tibiotalar |
+| tzd2c | Tornozelo: Derrame articular tibiotalar (conclusão) |
+| tzd3 | Tornozelo: Derrame na subtalar posterior |
+| tzd3c | Tornozelo: Derrame articular na subtalar posterior (conclusão) |
+| tzd4 | Tornozelo: Derrame com sinovite |
+| tzd4c | Tornozelo: Derrame articular com sinovite (conclusão) |
+| tzd5 | Tornozelo: Derrame talonavicular (configuração cística) |
+| tzd5c | Tornozelo: Derrame talonavicular com configuração cística (conclusão) |
+| tzc1 | Tornozelo: Tendão calcâneo normal |
+| tzc2 | Tornozelo: Entesopatia insercional do calcâneo |
+| tzc2c | Tornozelo: Entesopatia insercional do calcâneo (conclusão) |
+| tzc3 | Tornozelo: Peritendinite do calcâneo |
+| tzc3c | Tornozelo: Peritendinite do calcâneo (conclusão) |
+| tzc4 | Tornozelo: Tendinopatia insercional do calcâneo |
+| tzc4c | Tornozelo: Tendinopatia insercional do calcâneo (conclusão) |
+| tzc5 | Tornozelo: Tendinopatia insercional do calcâneo com fissuras |
+| tzc5c | Tornozelo: Tendinopatia insercional do calcâneo com fissuras (conclusão) |
+| tzc6 | Tornozelo: Tendinopatia insercional com bursite e Haglund |
+| tzc6c | Tornozelo: Tendinopatia insercional do calcâneo com bursite retrocalcaneana e Haglund (conclusão) |
+| tzc7 | Tornozelo: Degeneração extensa do calcâneo (add-on) |
+| tzc8 | Tornozelo: Tendinopatia não insercional do calcâneo |
+| tzc8c | Tornozelo: Tendinopatia não insercional do calcâneo (conclusão) |
+| tzc9 | Tornozelo: Rotura parcial do calcâneo |
+| tzc9c | Tornozelo: Rotura parcial do tendão calcâneo (conclusão) |
+| tzc10 | Tornozelo: Rotura completa do calcâneo (desinserção) |
+| tzc10c | Tornozelo: Rotura completa do tendão calcâneo (conclusão) |
+| tzc11 | Tornozelo: Rotura completa do calcâneo (transfixação do corpo) |
+| tzc11c | Tornozelo: Rotura completa do tendão calcâneo (transfixação do corpo) (conclusão) |
+| tzc12 | Tornozelo: Rotura completa do calcâneo (com equino) |
+| tzc12c | Tornozelo: Rotura completa do tendão calcâneo (conclusão) |
+| tzc13 | Tornozelo: Rotura crônica do calcâneo (fibrocicatricial) |
+| tzc13c | Tornozelo: Rotura crônica do tendão calcâneo (conclusão) |
+| tzc14 | Tornozelo: Rotura crônica do calcâneo (fibrose) |
+| tzc14c | Tornozelo: Rotura crônica do tendão calcâneo (conclusão) |
+| tzc15 | Tornozelo: Pós-operatório do calcâneo |
+| tzc15c | Tornozelo: Alterações pós-operatórias do tendão calcâneo (conclusão) |
+| tzc16 | Tendão calcâneo (rotura): Estudo direcionado para a avaliação do tendão calcâneo à _ evidencia: |
+| tzta1 | Tornozelo: Tibial anterior normal |
+| tzta2 | Tornozelo: Tendinopatia do tibial anterior |
+| tzta2c | Tornozelo: Tendinopatia do tibial anterior (conclusão) |
+| tzta3 | Tornozelo: Tenossinovite do tibial anterior |
+| tzta3c | Tornozelo: Tenossinovite do tibial anterior (conclusão) |
+| tzta4 | Tornozelo: Rotura completa do tibial anterior |
+| tzta4c | Tornozelo: Rotura completa do tibial anterior (conclusão) |
+| tzta5 | Tornozelo: Bursite do tibial anterior (add-on) |
+| tztp1 | Tornozelo: Tibial posterior normal |
+| tztp2 | Tornozelo: Lâmina líquida fisiológica no tibial posterior |
+| tztp3 | Tornozelo: Tenossinovite do tibial posterior |
+| tztp3c | Tornozelo: Tenossinovite do tibial posterior (conclusão) |
+| tztp4 | Tornozelo: Tenossinovite e tendinopatia do tibial posterior |
+| tztp4c | Tornozelo: Tenossinovite e tendinopatia do tibial posterior (conclusão) |
+| tztp5 | Tornozelo: Acentuada tenossinovite/tendinopatia do tibial posterior |
+| tztp5c | Tornozelo: Acentuada tenossinovite e tendinopatia do tibial posterior (conclusão) |
+| tztp6 | Tornozelo: Osso navicular acessório (add-on) |
+| tzf1 | Tornozelo: Fibulares normais |
+| tzf2 | Tornozelo: Tenossinovite dos fibulares |
+| tzf2c | Tornozelo: Tenossinovite dos fibulares (conclusão) |
+| tzf3 | Tornozelo: Tenossinovite e tendinopatia dos fibulares |
+| tzf3c | Tornozelo: Tenossinovite e tendinopatia dos fibulares (conclusão) |
+| tzf4 | Tornozelo: Tendinopatia do fibular longo (cuboide) |
+| tzf4c | Tornozelo: Tendinopatia do fibular longo na deflexão do cuboide (conclusão) |
+| tzf5 | Tornozelo: Rotura longitudinal do fibular curto |
+| tzf5c | Tornozelo: Rotura longitudinal do fibular curto (conclusão) |
+| tzf6 | Tornozelo: Rotura longitudinal com split do fibular curto |
+| tzf6c | Tornozelo: Rotura longitudinal com split do fibular curto (conclusão) |
+| tzf7 | Tornozelo: Sem luxação dos fibulares |
+| tzf8 | Tornozelo: Luxação dos fibulares (insuficiência do retináculo) |
+| tzf8c | Tornozelo: Luxação dos fibulares por insuficiência do retináculo fibular superior (conclusão) |
+| tzf9 | Tornozelo: Hipertrofia do tubérculo dos fibulares |
+| tzf9c | Tornozelo: Hipertrofia do tubérculo dos fibulares (conclusão) |
+| tzfp1 | Tornozelo: Fáscia plantar normal |
+| tzfp2 | Tornozelo: Fasciíte plantar |
+| tzfp2c | Tornozelo: Fasciíte plantar (conclusão) |
+| tzfp3 | Tornozelo: Espessamento crônico da fáscia plantar |
+| tzfp3c | Tornozelo: Espessamento crônico da fáscia plantar (conclusão) |
+| tzfp4 | Tornozelo: Fasciopatia plantar crônica |
+| tzfp4c | Tornozelo: Fasciopatia plantar crônica (conclusão) |
+| tzfp5 | Tornozelo: Fibroma / fibromatose plantar |
+| tzfp5c | Tornozelo: Fibroma / fibromatose plantar (conclusão) |
+| tzl1 | Tornozelo: Edema perimaleolar lateral |
+| tzl2 | Tornozelo: Talofibular anterior normal |
+| tzl3 | Tornozelo: Estiramento do talofibular anterior |
+| tzl3c | Tornozelo: Estiramento do ligamento talofibular anterior (conclusão) |
+| tzl4 | Tornozelo: Lesão parcial do talofibular anterior |
+| tzl4c | Tornozelo: Lesão parcial do ligamento talofibular anterior (conclusão) |
+| tzl5 | Tornozelo: Lesão completa do talofibular anterior |
+| tzl5c | Tornozelo: Lesão completa do ligamento talofibular anterior (conclusão) |
+| tzl6 | Tornozelo: Rotura completa do talofibular anterior (desinserção) |
+| tzl6c | Tornozelo: Rotura completa do ligamento talofibular anterior (conclusão) |
+| tzl7 | Tornozelo: Lesão do talofibular anterior com avulsão óssea |
+| tzl7c | Tornozelo: Lesão do ligamento talofibular anterior com avulsão óssea (conclusão) |
+| tzl8 | Tornozelo: Lesão de alto grau do talofibular anterior |
+| tzl8c | Tornozelo: Lesão de alto grau do ligamento talofibular anterior (conclusão) |
+| tzl9 | Tornozelo: Sugerir correlação com exame físico (agudo) |
+| tzl10 | Tornozelo: Rotura crônica do talofibular anterior |
+| tzl10c | Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão) |
+| tzl11 | Tornozelo: Talofibular anterior não caracterizado (rotura crônica) |
+| tzl11c | Tornozelo: Rotura crônica do ligamento talofibular anterior (conclusão) |
+| tzl12 | Tornozelo: Talofibular anterior cicatricial |
+| tzl12c | Tornozelo: Alterações cicatriciais do ligamento talofibular anterior (conclusão) |
+| tzl13 | Tornozelo: Afilamento cicatricial do talofibular anterior |
+| tzl13c | Tornozelo: Afilamento cicatricial do ligamento talofibular anterior (conclusão) |
+| tzl14 | Tornozelo: Correlação para suficiência ligamentar (crônico) |
+| tzl15 | Tornozelo: Fragmento avulsivo no maléolo lateral (add-on) |
+| tzo1 | Tornozelo: Osteófitos anteriores da tibiotalar |
+| tzo1c | Tornozelo: Osteófitos anteriores da articulação tibiotalar (conclusão) |
+| tzo2 | Tornozelo: Alterações degenerativas do mediopé |
+| tzo2c | Tornozelo: Alterações degenerativas do mediopé (conclusão) |
+| tzo3 | Tornozelo: Irregularidades ósseas (correlação radiográfica) |
+| tzo3c | Tornozelo: Irregularidades ósseas do retropé / mediopé (correlação radiográfica) (conclusão) |
 | pdd1 | Pé: Sem derrame articular |
 | pdd2 | Pé: Derrame metatarsofalângico |
 | pdd2c | Pé: Derrame articular metatarsofalângico (conclusão) |
@@ -1391,6 +1421,11 @@ Gerado por `scripts/gen_cheatsheet.py` a partir dos campos `trigger`/`label`. N�
 | pdp3 | Pé: Degeneração / rotura crônica da placa plantar |
 | pdp3c | Pé: Degeneração / rotura crônica da placa plantar (conclusão) |
 | pdp4 | Pé: Sugerir correlação com RM |
+
+## Bolsa Escrotal
+
+| Trigger | Label |
+|---|---|
 | usbolsa | Bolsa escrotal — normal |
 | usbolsad | Bolsa escrotal com Doppler — normal |
 | usbolsad2 | Bolsa escrotal com Doppler — normal, com medidas e valores de referência |
