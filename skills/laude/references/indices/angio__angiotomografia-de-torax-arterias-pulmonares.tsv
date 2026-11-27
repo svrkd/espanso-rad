@@ -3,8 +3,11 @@ tepcentro	TEP agudo central (artéria pulmonar principal/direita/esquerda)	achad
 tepcentroc	Conclusão — TEP agudo central (PE-RADS 4)	conclusão	tepcentro	1	não	
 teplobo	TEP agudo lobar	achado	teploboc	1	não	
 teploboc	Conclusão — TEP agudo lobar (PE-RADS 3)	conclusão	teplobo	1	não	
+teplobo2	TEP agudo lobar, só ramos segmentares	achado	teplobo2c	1	não	
+teplobo2c	Conclusão — TEP agudo lobar, só ramos segmentares (PE-RADS 3)	conclusão	teplobo2	1	não	
 tepvd	Aumento do ventrículo direito (VD/VE ≥ 1,0)	achado	tepvdc	1	não	
 tepvdc	Conclusão — aumento do ventrículo direito (PE-RADS RV+)	conclusão	tepvd	0	não	
+tepvdnl	Sem sinais de sobrecarga do ventrículo direito	achado		0	não	
 tepsela	TEP agudo em sela	achado	tepselac	0	não	
 tepselac	Conclusão — TEP agudo em sela (PE-RADS 4)	conclusão	tepsela	0	não	
 tepsub	TEP subsegmentar isolado	achado	tepsubc	2	não	

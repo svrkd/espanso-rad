@@ -22,6 +22,16 @@ matches:
     replace: "Tromboembolismo pulmonar agudo, com trombo mais proximal na artéria lobar _ (PE-RADS 3)."
     word: true
 
+  - trigger: "teplobo2"
+    label: "TEP agudo lobar, só ramos segmentares"
+    replace: "Falhas de enchimento intraluminais bem delimitadas, formando ângulo agudo com a parede vascular, na artéria lobar _, estendendo-se a ramos segmentares, compatíveis com tromboembolismo pulmonar agudo."
+    word: true
+
+  - trigger: "teplobo2c"
+    label: "Conclusão — TEP agudo lobar, só ramos segmentares (PE-RADS 3)"
+    replace: "Tromboembolismo pulmonar agudo, com trombo mais proximal na artéria lobar _ (PE-RADS 3)."
+    word: true
+
   - trigger: "tepvd"
     label: "Aumento do ventrículo direito (VD/VE ≥ 1,0)"
     replace: "Aumento do ventrículo direito, com relação entre os diâmetros dos ventrículos direito e esquerdo de _ (≥ 1,0), associado a retificação do septo interventricular. Associa-se refluxo do meio de contraste para a veia cava inferior e veias hepáticas."
@@ -30,6 +40,11 @@ matches:
   - trigger: "tepvdc"
     label: "Conclusão — aumento do ventrículo direito (PE-RADS RV+)"
     replace: "Aumento do ventrículo direito (modificador RV+ do PE-RADS)."
+    word: true
+
+  - trigger: "tepvdnl"
+    label: "Sem sinais de sobrecarga do ventrículo direito"
+    replace: "Sem sinais de sobrecarga do ventrículo direito."
     word: true
 
   - trigger: "tepsela"

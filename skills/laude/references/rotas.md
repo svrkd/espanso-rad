@@ -6,7 +6,7 @@ Ache a linha pela modalidade e pela região, abra o índice em `indices/` (TSV: 
 
 | modalidade | região | seção | índice | entradas | templates |
 |---|---|---|---|---|---|
-| TC | Vascular | ANGIOTOMOGRAFIA DE TÓRAX — ARTÉRIAS PULMONARES | `angio__angiotomografia-de-torax-arterias-pulmonares` | 25 | 0 |
+| TC | Vascular | ANGIOTOMOGRAFIA DE TÓRAX — ARTÉRIAS PULMONARES | `angio__angiotomografia-de-torax-arterias-pulmonares` | 28 | 0 |
 | TC | Vascular | ANGIOTOMOGRAFIA DE TÓRAX — AORTA TORÁCICA | `angio__angiotomografia-de-torax-aorta-toracica` | 26 | 0 |
 | TC | Vascular | ANGIOTOMOGRAFIA DE TÓRAX — RAIZ AÓRTICA E VALVA AÓRTICA | `angio__angiotomografia-de-torax-raiz-aortica-e-valva-aortica` | 12 | 0 |
 | TC | Vascular | ANGIOTOMOGRAFIA DE TÓRAX — ARCO AÓRTICO E VARIANTES | `angio__angiotomografia-de-torax-arco-aortico-e-variantes` | 10 | 0 |
@@ -104,7 +104,7 @@ Ache a linha pela modalidade e pela região, abra o índice em `indices/` (TSV: 
 | RX | Gerais / Diversos | GERAIS / DIVERSOS | `rx__gerais-diversos` | 121 | 0 |
 | RX | Templates completos | templates de rx.yml | `rx__templates__1` a `__2` | 112 | 112 |
 | TC | Técnica | TÉCNICA | `tc__tecnica` | 20 | 0 |
-| TC | Crânio / Encéfalo / SNC | CRÂNIO / ENCÉFALO / SNC | `tc__cranio-encefalo-snc__1` a `__2` | 266 | 0 |
+| TC | Crânio / Encéfalo / SNC | CRÂNIO / ENCÉFALO / SNC | `tc__cranio-encefalo-snc__1` a `__2` | 267 | 0 |
 | TC | Face / Pescoço | FACE / ÓRBITAS / SEIOS DA FACE / PESCOÇO / ATM | `tc__face-orbitas-seios-da-face-pescoco-atm__1` a `__2` | 267 | 0 |
 | TC | Coluna | COLUNA (CERVICAL, TORÁCICA, LOMBAR, SACROCOCCÍGEA) | `tc__coluna-cervical-toracica-lombar-sacrococcigea__1` a `__2` | 261 | 0 |
 | TC | Tórax | TÓRAX (PULMÃO, MEDIASTINO, CORAÇÃO, ARCOS COSTAIS) | `tc__torax-pulmao-mediastino-coracao-arcos-costais__1` a `__3` | 375 | 0 |
