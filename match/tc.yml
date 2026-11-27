@@ -366,6 +366,11 @@ matches:
     replace: "Hematoma subdural agudo, com espessura máxima de _ cm, localizado ao longo da convexidade cortical do hemisfério cerebral esquerdo, determinando impressão sobre o parênquima encefálico adjacente. Há desvio contralateral de _ cm das estruturas da linha média."
     word: true
 
+  - trigger: "hsd2"
+    label: "Hematoma subdural agudo, sem desvio da linha média"
+    replace: "Hematoma subdural agudo, com espessura máxima de _ cm, localizado ao longo da convexidade _ (frontal, parietal, temporal, occipital) do hemisfério cerebral direito / esquerdo, determinando impressão sobre o parênquima encefálico adjacente, sem desvio das estruturas da linha média."
+    word: true
+
   - trigger: "hsdb"
     label: "Hematomas subdurais agudos bilaterais"
     replace: "Hematomas subdurais agudos, localizados ao longo da convexidade cortical dos hemisférios cerebrais, determinando impressão sobre o parênquima encefálico adjacente, à direita com espessura máxima de _ cm e à esquerda com espessura máxima de _ cm."

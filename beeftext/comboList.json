@@ -23562,6 +23562,19 @@
       "description": "",
       "enabled": true,
       "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
+      "keyword": "hsd2",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Hematoma subdural agudo, com espessura máxima de _ cm, localizado ao longo da convexidade _ (frontal, parietal, temporal, occipital) do hemisfério cerebral direito / esquerdo, determinando impressão sobre o parênquima encefálico adjacente, sem desvio das estruturas da linha média.",
+      "uuid": "{aa966bd5-9130-5567-bbcc-7b5b6e49e6f5}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{d88675d5-fc99-5893-8b54-7f203b6c8a2f}",
       "keyword": "hsdb",
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
@@ -62666,6 +62679,32 @@
       "description": "",
       "enabled": true,
       "group": "{a5e3f872-925b-574b-879b-57c60a96362f}",
+      "keyword": "teplobo2",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Falhas de enchimento intraluminais bem delimitadas, formando ângulo agudo com a parede vascular, na artéria lobar _, estendendo-se a ramos segmentares, compatíveis com tromboembolismo pulmonar agudo.",
+      "uuid": "{2afe4718-6ded-58aa-ac60-05a51ec6e870}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{a5e3f872-925b-574b-879b-57c60a96362f}",
+      "keyword": "teplobo2c",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Tromboembolismo pulmonar agudo, com trombo mais proximal na artéria lobar _ (PE-RADS 3).",
+      "uuid": "{ee1fecea-fd9b-513c-8ca5-71d72483ca3b}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{a5e3f872-925b-574b-879b-57c60a96362f}",
       "keyword": "tepvd",
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
@@ -62685,6 +62724,19 @@
       "name": "",
       "snippet": "Aumento do ventrículo direito (modificador RV+ do PE-RADS).",
       "uuid": "{340997bd-8d51-559c-8f6b-276685085d93}"
+    },
+    {
+      "caseSensitivity": 0,
+      "creationDateTime": "2026-01-01T00:00:00.000",
+      "description": "",
+      "enabled": true,
+      "group": "{a5e3f872-925b-574b-879b-57c60a96362f}",
+      "keyword": "tepvdnl",
+      "matchingMode": 0,
+      "modificationDateTime": "2026-01-01T00:00:00.000",
+      "name": "",
+      "snippet": "Sem sinais de sobrecarga do ventrículo direito.",
+      "uuid": "{0cc19e68-40b1-5bd5-9d5b-f96787debe36}"
     },
     {
       "caseSensitivity": 0,
@@ -83600,7 +83652,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C\n\nTécnica:\nExame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.\n\nAnálise:\nEstruturas ósseas com morfologia e sinal medular conservados.\nSuperfícies condrais regulares, sem fissuras ou erosões evidentes.\nMeniscos com forma, contornos e sinal preservados, sem sinais de lesão.\nLigamentos cruzados e colaterais com continuidade, espessura e sinal conservados.\nTendões quadricipital e patelar sem particularidades.\nAusência de derrame articular.\n\nConclusão:\nExame dentro dos padrões da normalidade.\n\nEdema da gordura infrapatelar lateral, compatível com atrito entre o tendão patelar e a tróclea femoral lateral.\n\nTIT: Edema da gordura interposta entre o trato iliotibial e o côndilo femoral lateral, compatível com atrito local.\n\nFossa poplítea:\nDistensão líquida da bursa do semimembranoso-gastrocnêmio medial, sem formação de cisto.\nDistensão líquida da bursa do semimembranoso-gastrocnêmio medial, com formação de pequeno cisto poplíteo.\n\nPequeno derrame articular.\n\nAlteração de sinal com irregularidades do revestimento condral da patela, associada a fissura condral da faceta medial (terço médio), acometendo mais de 50% de sua espessura, compatível com condropatia grau II / III, porém sem edema do osso subcondral.\n\nSulco troclear levemente raso, com patela no limite superior para patela alta, além de edema da gordura infrapatelar lateral, compatível com atrito entre o tendão patelar e a tróclea femoral lateral, o que pode representar disfunção patelofemoral.",
+      "snippet": "RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO S/C\n\nTécnica:\nExame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.\n\nAnálise:\nEstruturas ósseas com morfologia e sinal medular conservados.\nSuperfícies condrais regulares, sem fissuras ou erosões evidentes.\nMeniscos com forma, contornos e sinal preservados, sem sinais de lesão.\nLigamentos cruzados e colaterais com continuidade, espessura e sinal conservados.\nTendões quadricipital e patelar sem particularidades.\nAusência de derrame articular.\n\nConclusão:\nExame dentro dos padrões da normalidade.\n\nEdema da gordura infrapatelar lateral, compatível com atrito entre o tendão patelar e a tróclea femoral lateral.\n\nTIT: Edema da gordura interposta entre o trato iliotibial e o côndilo femoral lateral, compatível com atrito local.\n\nFossa poplítea:\nDistensão líquida da bursa do semimembranoso-gastrocnêmio medial, sem formação de cisto.\nDistensão líquida da bursa do semimembranoso-gastrocnêmio medial, com formação de pequeno cisto poplíteo.\n\nPequeno derrame articular.\n\nAlteração de sinal com irregularidades do revestimento condral da patela, associada a fissura condral da faceta medial (terço médio), acometendo mais de 50% de sua espessura, compatível com condropatia grau II / III, porém sem edema do osso subcondral.\n\nSulco troclear levemente raso, com patela no limite superior para patela alta, além de edema da gordura infrapatelar lateral, compatível com atrito entre o tendão patelar e a tróclea femoral lateral, o que pode representar disfunção patelofemoral.",
       "uuid": "{23fc2c93-2946-5c7d-9169-09d23a582f32}"
     },
     {
@@ -83613,7 +83665,7 @@
       "matchingMode": 0,
       "modificationDateTime": "2026-01-01T00:00:00.000",
       "name": "",
-      "snippet": "RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C\n\nTécnica:\nExame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.\n\nAnálise:\nEstruturas ósseas com morfologia e sinal medular conservados.\nSuperfícies condrais regulares, sem fissuras ou erosões evidentes.\nMeniscos com forma, contornos e sinal preservados, sem sinais de lesão.\nLigamentos cruzados e colaterais com continuidade, espessura e sinal conservados.\nTendões quadricipital e patelar sem particularidades.\nAusência de derrame articular.\n\nConclusão:\nExame dentro dos padrões da normalidade.\n\nEdema da gordura infrapatelar lateral, compatível com atrito entre o tendão patelar e a tróclea femoral lateral.\n\nTIT: Edema da gordura interposta entre o trato iliotibial e o côndilo femoral lateral, compatível com atrito local.\n\nFossa poplítea:\nDistensão líquida da bursa do semimembranoso-gastrocnêmio medial, sem formação de cisto.\nDistensão líquida da bursa do semimembranoso-gastrocnêmio medial, com formação de pequeno cisto poplíteo.\n\nPequeno derrame articular.\n\nAlteração de sinal com irregularidades do revestimento condral da patela, associada a fissura condral da faceta medial (terço médio), acometendo mais de 50% de sua espessura, compatível com condropatia grau II / III, porém sem edema do osso subcondral.\n\nSulco troclear levemente raso, com patela no limite superior para patela alta, além de edema da gordura infrapatelar lateral, compatível com atrito entre o tendão patelar e a tróclea femoral lateral, o que pode representar disfunção patelofemoral.",
+      "snippet": "RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO S/C\n\nTécnica:\nExame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.\n\nAnálise:\nEstruturas ósseas com morfologia e sinal medular conservados.\nSuperfícies condrais regulares, sem fissuras ou erosões evidentes.\nMeniscos com forma, contornos e sinal preservados, sem sinais de lesão.\nLigamentos cruzados e colaterais com continuidade, espessura e sinal conservados.\nTendões quadricipital e patelar sem particularidades.\nAusência de derrame articular.\n\nConclusão:\nExame dentro dos padrões da normalidade.\n\nEdema da gordura infrapatelar lateral, compatível com atrito entre o tendão patelar e a tróclea femoral lateral.\n\nTIT: Edema da gordura interposta entre o trato iliotibial e o côndilo femoral lateral, compatível com atrito local.\n\nFossa poplítea:\nDistensão líquida da bursa do semimembranoso-gastrocnêmio medial, sem formação de cisto.\nDistensão líquida da bursa do semimembranoso-gastrocnêmio medial, com formação de pequeno cisto poplíteo.\n\nPequeno derrame articular.\n\nAlteração de sinal com irregularidades do revestimento condral da patela, associada a fissura condral da faceta medial (terço médio), acometendo mais de 50% de sua espessura, compatível com condropatia grau II / III, porém sem edema do osso subcondral.\n\nSulco troclear levemente raso, com patela no limite superior para patela alta, além de edema da gordura infrapatelar lateral, compatível com atrito entre o tendão patelar e a tróclea femoral lateral, o que pode representar disfunção patelofemoral.",
       "uuid": "{ce37f8d9-0d8a-5dbf-bf89-9a452136df0a}"
     },
     {

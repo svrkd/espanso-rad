@@ -5536,9 +5536,9 @@ matches:
     word: true
 
   - trigger: "rmjoe"
-    label: "RM de joelho — sem contraste, direito, normal com banco de frases"
+    label: "RM de joelho — sem contraste, normal com banco de frases"
     replace: |-
-      RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
+      RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO S/C
 
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
@@ -5570,9 +5570,9 @@ matches:
     word: true
 
   - trigger: "rmjoelho"
-    label: "RM de joelho — sem contraste, direito, normal com banco de frases"
+    label: "RM de joelho — sem contraste, normal com banco de frases"
     replace: |-
-      RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO S/C
+      RESSONÂNCIA MAGNÉTICA DO JOELHO DIREITO / ESQUERDO S/C
 
       Técnica:
       Exame realizado pela técnica de fast spin echo com imagens obtidas predominantemente em T1, T2 e DP, em aquisições multiplanares.
