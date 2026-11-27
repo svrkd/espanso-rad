@@ -7,16 +7,31 @@ description: "Monta laudo radiológico completo, qualquer método/território, e
 
 PRINCÍPIO: BIBLIOTECA FECHADA
 - Fonte de cada frase, nesta ordem: (1) a base (templates, achados, conclusões e fragmentos lidos por `busca.py`); (2) o texto ditado pelo usuário (seção TEXTO DITADO); (3) frase redigida pela skill, só como último recurso (seção FRASE REDIGIDA). Proibido parafrasear, fundir ou "melhorar" frase da base, e redigir frase própria quando a base ou o ditado cobrem o achado.
-- Edição permitida sobre o texto da base, e só ela: preencher `_` com o dado informado; escolher uma das alternativas separadas por `/`; retirar frase normal contradita; inserir frase de achado; trocar a conclusão normal pela conclusão dos achados. A coluna `alternativas` do índice diz se a entrada tem escolha real (`sim`); `/` fixo (`inflamatório/infeccioso`) não é alternativa.
-- Nunca presumir lateralidade, medida, achado, fase de contraste ou dado comparativo. Dado do usuário entra exatamente como veio, sem arredondar nem trocar unidade.
+- Edição permitida sobre o texto da base, e só ela: preencher `_` com o dado informado; escolher uma das alternativas separadas por `/`; retirar frase normal contradita; inserir frase de achado; trocar a conclusão normal pela conclusão dos achados; ajustar lateralidade e unidade de medida ao que o usuário informou (seção DADO DO USUÁRIO PREVALECE). A coluna `alternativas` do índice diz se a entrada tem escolha real (`sim`); `/` fixo (`inflamatório/infeccioso`) não é alternativa.
+- Nunca presumir lateralidade, medida, achado, fase de contraste (salvo a do template padrão) ou dado comparativo. Dado do usuário entra como veio, sem arredondar, com a unidade que o usuário usou.
 - Sem frase na base para um achado informado de forma coloquial ("tem uma fratura no quinto arco costal esquerdo"), e sem texto ditado: redigir a frase (seção FRASE REDIGIDA).
 
 FLUXO DE CONSULTA (nesta ordem, sem desvio)
-a) Ler `references/rotas.md`. Identificar modalidade, região e seção.
+a) Ler `references/rotas.md` e `references/padroes.tsv` (uma chamada). Identificar modalidade, região e seção.
 b) Abrir só os índices pertinentes em `references/indices/` (1 a 3 por consulta; um índice partido em `__1`, `__2`... conta como um). O índice de templates do arquivo (`<arquivo>__templates`) conta entre eles. Ler a linha `# ATENÇÃO` do topo: os `Xc` listados ali não são conclusões.
-c) Escolher os triggers pelo `label` e pelo `tipo`. Vários templates candidatos para o mesmo exame: listar pelos labels e perguntar qual (conta entre as perguntas da rodada).
+c) Escolher os triggers pelo `label` e pelo `tipo`. O template sai da seção TEMPLATE PADRÃO, sem pergunta; só se ela não resolver, listar os candidatos pelos labels e perguntar qual (conta entre as perguntas da rodada).
 d) Uma única chamada: `python3 references/busca.py <trigger> [<trigger> ...]` com todos os triggers escolhidos. A saída traz o par de conclusão logo abaixo de cada achado.
-Proibido grep livre em `textos.json`, leitura de arquivo inteiro fora de `rotas.md` e dos índices escolhidos, e chamadas repetidas de `busca.py` por trigger. Faltou trigger depois da chamada (erro de trigger inexistente ou achado que só apareceu na resposta do usuário): uma chamada adicional com todos os que faltam.
+Proibido grep livre em `textos.json`, leitura de arquivo inteiro fora de `rotas.md`, `padroes.tsv` e dos índices escolhidos, e chamadas repetidas de `busca.py` por trigger. Faltou trigger depois da chamada (erro de trigger inexistente ou achado que só apareceu na resposta do usuário): uma chamada adicional com todos os que faltam.
+
+TEMPLATE PADRÃO (sem perguntar)
+- Ordem de decisão, parando na primeira que resolve:
+  1. Padrão escolhido pelo usuário antes nesta conversa ou guardado na memória do Claude (`Padrão /laude: <exame> → <trigger>`).
+  2. `references/padroes.tsv` (ler junto com `rotas.md` no passo a). TC de crânio: faixa etária dita pelo usuário (jovem, adulto, idoso) ou idade informada; idade ≥ 60 anos é idoso. Sem faixa nem idade, ou idade < 60 sem dizer jovem ou adulto: perguntar a faixa (conta na rodada).
+  3. Regra geral: entre os candidatos do exame, o normal sem contraste (S/C) e sem Doppler, salvo se o usuário citar contraste, fase ou Doppler. Exceções sempre com contraste (C/C): TC de pescoço e qualquer angiotomografia.
+  4. Ainda mais de um candidato: perguntar qual, uma vez, e guardar a resposta como padrão (abaixo).
+- Guardar o padrão escolhido pelo usuário: (a) com ferramenta de memória disponível, salvar `Padrão /laude: <exame> [condição] → <trigger>`; (b) com `references/padroes.tsv` gravável (Claude Code com o repositório), acrescentar a linha `<exame>\t<condição>\t<trigger>\tusuário, <data>`; (c) sempre informar na linha fora do bloco (`Padrão novo:`), para o usuário levar ao repositório. O padrão vale para as próximas consultas da conversa mesmo sem (a) nem (b).
+- A fase do template padrão conta como informada: S/C (ou C/C nas exceções) vale para classificação e limiar sem pergunta, salvo se o usuário disser outra.
+- Template padrão com lado, sexo ou outro dado fixo que o pedido contradiz: usar o template assim mesmo e ajustar o texto (seção DADO DO USUÁRIO PREVALECE), sem perguntar.
+
+DADO DO USUÁRIO PREVALECE
+- Lateralidade: template ou frase da base com lado diferente do informado (no título, na análise ou na conclusão): trocar o lado em todas as ocorrências do mesmo achado ou da mesma estrutura, com a concordância correspondente ("direito" → "esquerdo", "à direita" → "à esquerda", "artéria lobar inferior direita" → "esquerda"). Frase normal do lado oposto, que não descreve o achado, fica como está.
+- Medida em milímetros: entra em mm com uma casa decimal ("6 mm" → "6,0 mm"; "6,5 mm" fica "6,5 mm"), mesmo quando a frase da base traz `_ cm`: o `_ cm` vira `<valor> mm`. Medida em centímetros entra como veio.
+- Outro dado fixo da frase da base que o usuário contradiz (grau, segmento, número de lesões): trocar pelo informado. Dado fixo que o usuário não confirmou nem contradisse fica como está na base, sem pergunta.
 
 MÁSCARA
 - Partir do template do método e região. Sem template no arquivo do território (`angio.yml`, `tc_abd.yml`): usar o template de TC da região em `tc.yml` e inserir as frases de achado do arquivo do território. Sem template nem assim: `[COMPLETAR: máscara de <exame>]` e avisar fora do bloco.
@@ -41,7 +56,8 @@ FRASE REDIGIDA (último recurso)
 - Listada fora do bloco em `Redigido:`.
 
 PERGUNTAS ANTES DE MONTAR
-- Pergunta-se ANTES de montar, sempre que faltar: dado exigido por `_` (coluna `lacunas` > 0) em entrada que vai ao laudo; escolha entre alternativas `/`; lateralidade; dado que muda classificação, limiar ou par de conclusão; escolha entre templates candidatos.
+- Pergunta-se ANTES de montar, sempre que faltar: dado exigido por `_` (coluna `lacunas` > 0) em entrada que vai ao laudo; escolha entre alternativas `/`; lateralidade não informada; dado que muda classificação, limiar ou par de conclusão; escolha de template que a seção TEMPLATE PADRÃO não resolveu.
+- Não se pergunta: lado, unidade ou dado fixo que o usuário já informou diferente da base (ajusta-se); template que a seção TEMPLATE PADRÃO resolve.
 - No máximo 3 perguntas por rodada, numeradas, de resposta curta, sem preâmbulo. Prioridade: o que muda classificação ou lateralidade, depois escolha de template, depois medidas. Faltando mais de 3, nova rodada com o resto depois da resposta.
 - Sem laudo parcial, rascunho ou versão provisória junto da pergunta: o rascunho é o que será copiado e anula a pergunta.
 - Usuário diz que não tem o dado ou manda seguir: o `_` vira `[COMPLETAR: <dado>]`, a alternativa não escolhida vira `[COMPLETAR: <opção A> / <opção B>]`, e a lacuna é listada fora do bloco.
@@ -68,5 +84,5 @@ SKILLS IRMÃS: FONTE DOS CRITÉRIOS, NÃO DO TEXTO
 
 SAÍDA
 - Um bloco único de código, pronto para colar, só com o laudo.
-- Fora do bloco, no máximo uma linha: `Triggers: <lista> · Ditado: <estruturas ou "nenhum"> · Redigido: <achados ou "nenhum"> · Lacunas: <lista ou "nenhuma">`. Lacunas incluem todo `[COMPLETAR]` e classificação não aplicada.
+- Fora do bloco, no máximo uma linha: `Triggers: <lista> · Ditado: <estruturas ou "nenhum"> · Redigido: <achados ou "nenhum"> · Lacunas: <lista ou "nenhuma">`, acrescida de ` · Padrão novo: <exame> → <trigger>` quando o usuário escolheu template nesta consulta. Lacunas incluem todo `[COMPLETAR]` e classificação não aplicada.
 - Nada mais: sem explicação, sem lista de estruturas, sem nota sobre a montagem.

@@ -391,9 +391,31 @@ def gerar():
     return rotas_md, textos_json, arquivos
 
 
+def validar_padroes(textos_json):
+    """padroes.tsv é mantido à mão: cada trigger tem de existir na base."""
+    p = OUT / "padroes.tsv"
+    if not p.exists():
+        return
+    textos = json.loads(textos_json)
+    cab, ruins = None, []
+    for linha in p.read_text(encoding="utf-8").splitlines():
+        if not linha or linha.startswith("#"):
+            continue
+        campos = linha.split("\t")
+        if cab is None:
+            cab = campos
+            continue
+        t = dict(zip(cab, campos)).get("trigger", "")
+        if t not in textos:
+            ruins.append(t)
+    if ruins:
+        sys.exit(f"padroes.tsv: trigger inexistente na base: {', '.join(ruins)}")
+
+
 def main():
     check = "--check" in sys.argv[1:]
     rotas_md, textos_json, arquivos = gerar()
+    validar_padroes(textos_json)
     esperado = {OUT / "rotas.md": rotas_md, OUT / "textos.json": textos_json}
     esperado.update({IDX / n: c for n, c in arquivos.items()})
     existentes = set(IDX.glob("*.tsv")) if IDX.exists() else set()
