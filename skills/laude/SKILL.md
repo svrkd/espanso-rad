@@ -21,10 +21,10 @@ Proibido grep livre em `textos.json`, leitura de arquivo inteiro fora de `rotas.
 TEMPLATE PADRÃO (sem perguntar)
 - Ordem de decisão, parando na primeira que resolve:
   1. Padrão escolhido pelo usuário antes nesta conversa ou guardado na memória do Claude (`Padrão /laude: <exame> → <trigger>`).
-  2. `references/padroes.tsv` (ler junto com `rotas.md` no passo a). TC de crânio: faixa etária dita pelo usuário (jovem, adulto, idoso) ou idade informada; idade ≥ 60 anos é idoso. Sem faixa nem idade, ou idade < 60 sem dizer jovem ou adulto: perguntar a faixa (conta na rodada).
+  2. `references/padroes.tsv` (ler junto com `rotas.md` no passo a). TC de crânio: "crânio de adulto" → `tccrad`; "crânio de idoso" → `tccrid`; "crânio de jovem" ou nada dito → `tccr`. A faixa vem só dessas palavras: idade informada não escolhe template e não gera pergunta.
   3. Regra geral: entre os candidatos do exame, o normal sem contraste (S/C) e sem Doppler, salvo se o usuário citar contraste, fase ou Doppler. Exceções sempre com contraste (C/C): TC de pescoço e qualquer angiotomografia.
   4. Ainda mais de um candidato: perguntar qual, uma vez, e guardar a resposta como padrão (abaixo).
-- Guardar o padrão escolhido pelo usuário: (a) com ferramenta de memória disponível, salvar `Padrão /laude: <exame> [condição] → <trigger>`; (b) com `references/padroes.tsv` gravável (Claude Code com o repositório), acrescentar a linha `<exame>\t<condição>\t<trigger>\tusuário, <data>`; (c) sempre informar na linha fora do bloco (`Padrão novo:`), para o usuário levar ao repositório. O padrão vale para as próximas consultas da conversa mesmo sem (a) nem (b).
+- Guardar o padrão escolhido pelo usuário: (a) com ferramenta de memória disponível, salvar `Padrão /laude: <exame> [condição] → <trigger>`; (b) com `references/padroes.tsv` gravável (Claude Code com o repositório), acrescentar a linha `<exame>\t<condição>\t<trigger>\tusuário, <data>`; (c) sempre propor o prompt para o Claude Code (seção PROPOSTA DE PADRÃO). O padrão vale para as próximas consultas da conversa mesmo sem (a) nem (b).
 - A fase do template padrão conta como informada: S/C (ou C/C nas exceções) vale para classificação e limiar sem pergunta, salvo se o usuário disser outra.
 - Template padrão com lado, sexo ou outro dado fixo que o pedido contradiz: usar o template assim mesmo e ajustar o texto (seção DADO DO USUÁRIO PREVALECE), sem perguntar.
 
@@ -82,7 +82,19 @@ SKILLS IRMÃS: FONTE DOS CRITÉRIOS, NÃO DO TEXTO
 - Conteúdo da skill irmã inacessível: declarar isso fora do bloco e não aplicar a classificação; nunca usar regra genérica disfarçada de critério específico.
 - Limiar ou índice derivado (IR, razões, % de estenose) só com o critério da skill irmã ou o que estiver escrito na própria frase da base, e só para preencher um `_` existente. Sem critério documentado: não pesquisar na web nem usar memória; `[COMPLETAR]` e avisar.
 
+PROPOSTA DE PADRÃO
+- Quando a consulta mostra algo que deveria virar padrão, a resposta termina com um prompt pronto para o usuário mandar ao Claude Code no repositório `espanso-rad`. Casos:
+  - template escolhido pelo usuário depois de pergunta → linha nova em `skills/laude/references/padroes.tsv`;
+  - frase redigida pela skill (`Redigido:`) ou texto ditado para achado sem frase na base → novo match via `/add-espanso`, com o texto final e o par de conclusão;
+  - usuário corrigiu ou reescreveu a frase da base, ou pediu outro jeito de escrever → alterar aquele match (arquivo e trigger nomeados) ou criar variante;
+  - lado, sexo ou outro dado fixo do template trocado porque o usuário disse outro → transformar o dado fixo em alternativa (`DIREITO / ESQUERDO`) no match;
+  - pergunta que a skill teve de fazer e que dependia de preferência, não de dado do exame (alternativa `/` escolhida, formato de medida, ordem, unidade, fase) → regra nova no `skills/laude/SKILL.md` ou alternativa padrão no match;
+  - frase da base com dado fixo que gerou pergunta ou `[COMPLETAR]` (ex.: "segmentares e subsegmentares") → partir a frase em variantes ou trocar o dado por `_`.
+- Formato: depois da linha de triggers, uma linha por proposta, no máximo 3: `Proposta para o Claude Code: "<prompt>"`. O prompt é autossuficiente: nomeia arquivo, trigger, texto atual e texto ou regra pedida, sem depender desta conversa.
+- Nada a propor: nenhuma linha. Não propor o que já está em `padroes.tsv` ou nas regras desta skill.
+
 SAÍDA
 - Um bloco único de código, pronto para colar, só com o laudo.
-- Fora do bloco, no máximo uma linha: `Triggers: <lista> · Ditado: <estruturas ou "nenhum"> · Redigido: <achados ou "nenhum"> · Lacunas: <lista ou "nenhuma">`, acrescida de ` · Padrão novo: <exame> → <trigger>` quando o usuário escolheu template nesta consulta. Lacunas incluem todo `[COMPLETAR]` e classificação não aplicada.
+- Fora do bloco, no máximo uma linha: `Triggers: <lista> · Ditado: <estruturas ou "nenhum"> · Redigido: <achados ou "nenhum"> · Lacunas: <lista ou "nenhuma">`. Lacunas incluem todo `[COMPLETAR]` e classificação não aplicada.
+- Depois dela, só as linhas `Proposta para o Claude Code:` quando houver (seção PROPOSTA DE PADRÃO).
 - Nada mais: sem explicação, sem lista de estruturas, sem nota sobre a montagem.
